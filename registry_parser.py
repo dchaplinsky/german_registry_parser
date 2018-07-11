@@ -1,6 +1,7 @@
 import re
 import os.path
 from nltk import data
+from collections import defaultdict
 from dateutil.parser import parse as dt_parse
 from tokenize_uk import tokenize_words
 
@@ -8,8 +9,13 @@ german_tokenizer = data.load(
     os.path.join(os.path.dirname(__file__), "data/german.pickle"))
 
 
+class ParsingError(Exception):
+    pass
+
+
 class Flag(object):
     __slots__ = ["flag", "text"]
+    kind = "flags"
 
     def __init__(self, flag, text):
         self.flag = flag
@@ -27,6 +33,7 @@ class Flag(object):
 
 class Label(object):
     __slots__ = ["label", "text"]
+    kind = "labels"
 
     def __init__(self, label, text):
         self.label = label
@@ -42,8 +49,26 @@ class Label(object):
         return "[Label/{}: {}]".format(self.label, self.text)
 
 
+class Error(object):
+    __slots__ = ["kls", "text"]
+    kind = "errors"
+
+    def __init__(self, kls, text):
+        self.kls = kls
+        self.text = text
+
+    def to_dict(self):
+        return {
+            "kls": self.kls,
+            "text": self.text
+        }
+
+    def __str__(self):
+        return "[Error/{}: {}]".format(self.kls, self.text)
+
 class FullPerson(object):
     kls = "Person"
+    kind = "officers"
     translations = {
         "einzelvertretungsberechtigt": "sole representation"
     }
@@ -111,7 +136,7 @@ class FullPerson(object):
                     dt_parse(self.dob).date()
                 )
         except ValueError:
-            print("Cannot parse {}".format(text))            
+            raise ParsingError("Cannot parse a {} from {}".format(self.kls, text))            
 
     def to_dict(self):
         return {
@@ -148,20 +173,23 @@ class Sentence(object):
         if self.text not in sentence:
             yield
         else:
-            if self.convert_to_flag is not None:
-                yield Flag(self.convert_to_flag, self.text)
+            try:
+                if self.convert_to_flag is not None:
+                    yield Flag(self.convert_to_flag, self.text)
 
-            if self.split:
-                for x in sentence.split(self.text, 1):
-                    yield x
+                if self.split:
+                    for x in sentence.split(self.text, 1):
+                        yield x
 
-            if self.assign_label_to_postfix is not None:
-                _, postfix = sentence.split(self.text, 1)
+                if self.assign_label_to_postfix is not None:
+                    _, postfix = sentence.split(self.text, 1)
 
-                if isinstance(self.assign_label_to_postfix, str):
-                    yield Label(self.assign_label_to_postfix, postfix)
-                elif isinstance(self.assign_label_to_postfix, type):
-                    yield self.assign_label_to_postfix(postfix)
+                    if isinstance(self.assign_label_to_postfix, str):
+                        yield Label(self.assign_label_to_postfix, postfix)
+                    elif isinstance(self.assign_label_to_postfix, type):
+                        yield self.assign_label_to_postfix(postfix)
+            except ParsingError as e:
+                yield Error(type(e).__name__, str(e))
 
 
 sentences = [
@@ -193,6 +221,7 @@ sentences = sorted(sentences, key=lambda x: len(x.text), reverse=True)
 
 
 def parse_document(doc):
+    errors = []
     text = doc.get("full_text", "")
     if "event_type" in doc and doc["event_type"] in text:
         _, useful_text = text.split(doc["event_type"], 1)
@@ -200,17 +229,23 @@ def parse_document(doc):
         try:
             _, useful_text = re.split(r"\d{2}\.\d{2}\.\d{4}\n\n", text, 1, flags=re.M)
         except ValueError:
-            print(text)
+            errors.append(
+                "Cannot parse an event type out of text {}".format(text)
+            )
             useful_text = text
 
     sents = german_tokenizer.tokenize(useful_text)
-    res = []
+    res = defaultdict(list)
+    if errors:
+        res["errors"] = errors
+
     for sent in sents:
         for chunk in sent.split(";"):
             tokenized = tokenize_words(chunk)
             normalized = " ".join(tokenized)
             for known_sentence in sentences:
+
                 for parse_res in known_sentence.parse(normalized):
                     if parse_res:
-                        res.append(parse_res)
+                        res[parse_res.kind].append(parse_res.to_dict())
     return res, sents

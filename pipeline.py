@@ -7,10 +7,14 @@ import gzip
 import random
 import argparse
 import glob
-from collections import defaultdict
+from csv import DictWriter
+from collections import defaultdict, Counter
 
+import prettytable
 from tqdm import tqdm
-from parser import parse_document
+from natsort import natsorted
+
+from registry_parser import parse_document
 
 relocation_signs = [
     ("sitzverlegung", re.compile(r"\bsitzverlegung\b")),
@@ -112,6 +116,7 @@ if __name__ == "__main__":
             outfile.write(rec)
 
     elif args.operation == "parse":
+        stats = defaultdict(Counter)
         outdir = os.path.abspath(args.outdir)
         infile = gzip.open(args.infile, "rt")
         for f in glob.glob(outdir + "*.json"):
@@ -125,11 +130,44 @@ if __name__ == "__main__":
                 with open(
                     os.path.join(outdir, p_doc["notice_id"] + ".json"), "w"
                 ) as fp:
+                    if parsing_result:
+                        stats[p_doc["notice_id"]].update({k: len(v) for k, v in parsing_result.items()})
+                        if "persons" not in parsing_result:
+                            stats[p_doc["notice_id"]].update(["got_no_persons"])
+                    else:
+                        stats[p_doc["notice_id"]]["got_nothing"] = 1
+
                     json.dump(
-                        {"orig": p_doc, "parsed": [x.to_dict() for x in parsing_result]},
+                        {"orig": p_doc, "parsed": parsing_result},
                         fp,
                         indent=4,
                         ensure_ascii=False,
                         sort_keys=True,
                         default=str
                     )
+
+        global_stats = Counter()
+        global_stats_headers = set()
+        for v in stats.values():
+            global_stats_headers |= set(v.keys())
+        
+        fieldnames=["notice_id"] + list(sorted(global_stats_headers))
+
+        with open(os.path.join(outdir, "__detailed_stats.csv"), "w") as fp:
+            w = DictWriter(fp, fieldnames=fieldnames)
+            w.writeheader()
+
+            for k in natsorted(stats.keys()):
+                global_stats.update(stats[k])
+                row = {"notice_id": k}
+                row.update(stats[k])
+                w.writerow(row)
+
+        with open(os.path.join(outdir, "__detailed_stats.csv"), "r") as fp:
+            prettified = prettytable.from_csv(fp)
+
+        with open(os.path.join(outdir, "__detailed_stats.txt"), "w") as fp:
+            fp.write(prettified.get_string())
+
+        with open(os.path.join(outdir, "__global_stats.json"), "w") as fp:
+            fp.write(json.dumps(global_stats, indent=4, sort_keys=True))
