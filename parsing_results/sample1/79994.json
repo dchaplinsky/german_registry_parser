@@ -1,0 +1,51 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 160854",
+        "amtsgericht": "München",
+        "event_date": "2006-02-03",
+        "event_type": "Neueintragungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 160854 \nBekannt gemacht am: 08.02.2006 10:05 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nNeueintragungen\n03.02.2006\n\nBlitz 06-008 GmbH, München (Bavariaring 29, 80336 München). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 01.02.2006. Gegenstand des Unternehmens: Verwaltung eigenen Vermögens. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Lotz, Nicole, München, *07.06.1969, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Blitz 06-008 GmbH",
+        "notice_id": "79994",
+        "posted_on": "2006-02-08",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=79994&land_abk=by"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "Company with limited liability .",
+                "text": "Gesellschaft mit beschränkter Haftung ."
+            },
+            {
+                "flag": "If only one managing director is appointed, he represents the company alone.",
+                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+            },
+            {
+                "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
+                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1969-07-06",
+                    "flag": "sole representation",
+                    "lastname": "Lotz",
+                    "name": "Nicole"
+                },
+                "text": " Lotz , Nicole , München , * 07.06.1969 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

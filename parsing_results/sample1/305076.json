@@ -1,0 +1,39 @@
+{
+    "orig": {
+        "aktenzeichen": "hrb 132592",
+        "amtsgericht": "hamburg",
+        "event_date": "2016-08-04",
+        "event_type": "veränderungen",
+        "federal_state": "hh",
+        "full_text": "amtsgericht hamburg aktenzeichen: hrb 132592 \nbekannt gemacht am: 04.08.2016 11:49 uhr\n\n\n\n\nin () gesetzte angaben der anschrift und des geschäftszweiges erfolgen ohne gewähr.\nveränderungen\n04.08.2016\n\nhrb 132592: pay or share - pos gmbh, hamburg, deichstraße 29, 20459 hamburg. ist nur ein liquidator bestellt, so vertritt er die gesellschaft allein. sind mehrere liquidatoren bestellt, so wird die gesellschaft durch zwei liquidatoren oder durch einen liquidator gemeinsam mit einem prokuristen vertreten. alleinvertretungsbefugnis kann erteilt werden. liquidatoren können ermächtigt werden, im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte vorzunehmen. geändert, nun liquidator: wolff, katharina, hamburg, *30.11.1983, vertretungsberechtigt gemäß allgemeiner vertretungsregelung. ausgeschieden geschäftsführer: fielker, max, hamburg, *31.10.1987. die gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "hrb 132592: pay or share - pos gmbh",
+        "notice_id": "305076",
+        "posted_on": "2016-08-04",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=305076&land_abk=hh"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  fielker , max , hamburg , * 31.10.1987 . die gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "hamburg",
+                    "dob": "1983-11-30",
+                    "flag": "vertretungsberechtigt gemäß allgemeiner vertretungsregelung",
+                    "lastname": "wolff",
+                    "name": "katharina"
+                },
+                "text": " wolff , katharina , hamburg , * 30.11.1983 , vertretungsberechtigt gemäß allgemeiner vertretungsregelung ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 23707 HB",
+        "amtsgericht": "Bremen",
+        "event_date": "2012-08-21",
+        "event_type": "Veränderungen",
+        "federal_state": "hb",
+        "full_text": "Amtsgericht Bremen Aktenzeichen: HRB 23707 HB \nBekannt gemacht am: 22.08.2012 20:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nVeränderungen\n21.08.2012\n\nHRB 23707 HB: HTB Immobilienfonds GmbH, Bremen, Deichstraße 1, 28203 Bremen. Nicht mehr Geschäftsführer: Clasen, Lars. Geschäftsführer: von Mangoldt, Wolfgang, *16.09.1960, Hamburg; mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 23707 HB: HTB Immobilienfonds GmbH",
+        "notice_id": "34185",
+        "posted_on": "2012-08-22",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=34185&land_abk=hb"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  von Mangoldt , Wolfgang , * 16.09.1960 , Hamburg"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            }
+        ],
+        "labels": [
+            {
+                "label": "WHUT",
+                "text": " HTB Immobilienfonds GmbH , Bremen , Deichstraße 1 , 28203 Bremen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " Clasen , Lars ."
+            }
+        ]
+    }
+}

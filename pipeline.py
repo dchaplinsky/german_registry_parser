@@ -90,9 +90,17 @@ if __name__ == "__main__":
                     l = l.lower()
                     if rel_sign in l:
                         if rel_sign_regex.search(l):
-                            signs_usage[rel_sign] += 1
-                            relocated_records.append(l)
-                            break
+                            # Special case for overused word nun:
+                            factor = 1.0
+
+                            # Penalizing it by a factor of 5
+                            if rel_sign == "nun":
+                                factor = 0.2
+
+                            if random.random() <= factor:
+                                signs_usage[rel_sign] += 1
+                                relocated_records.append(l)
+                                break
                 else:
                     num_lines += 1
 
@@ -132,9 +140,15 @@ if __name__ == "__main__":
                 ) as fp:
                     if parsing_result:
                         stats[p_doc["notice_id"]].update({k: len(v) for k, v in parsing_result.items()})
-                        if "persons" not in parsing_result:
-                            stats[p_doc["notice_id"]].update(["got_no_persons"])
+
+                        possible_persons = re.findall(r"\*\s?\d{2}\s?\.\s?\d{2}\s?.\s?\d{4}", p_doc["full_text"])
+                        if len(possible_persons) > len(parsing_result.get("officers", [])):
+                            stats[p_doc["notice_id"]]["might_have_unparsed_persons"] = 1
+
+                        if "officers" not in parsing_result:
+                            stats[p_doc["notice_id"]]["got_no_persons"] = 1
                     else:
+                        stats[p_doc["notice_id"]]["got_no_persons"] = 1
                         stats[p_doc["notice_id"]]["got_nothing"] = 1
 
                     json.dump(

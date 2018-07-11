@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 240044",
+        "amtsgericht": "Mannheim",
+        "event_date": "2007-05-09",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Mannheim Aktenzeichen: HRB 240044 \nBekannt gemacht am: 14.05.2007 07:02 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n09.05.2007\n\nE.G.O. Elektro-Gerätebau GmbH, Oberderdingen (Rote-Tor-Str.14, 75038 Oberderdingen). Nicht mehr Geschäftsführer: Dr. Moser, Dieter, Geschäftsführer, Oberderdingen. Prokura erloschen: Koberger, Dieter, Oberderdingen, *29.04.1954.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "E.G.O. Elektro-Gerätebau GmbH",
+        "notice_id": "21824",
+        "posted_on": "2007-05-14",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=21824&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Dr . Moser , Dieter , Geschäftsführer , Oberderdingen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Oberderdingen",
+                    "dob": "1954-04-29",
+                    "lastname": "Koberger",
+                    "name": "Dieter"
+                },
+                "text": " Koberger , Dieter , Oberderdingen , * 29.04.1954 ."
+            }
+        ]
+    }
+}

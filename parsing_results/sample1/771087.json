@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 6585",
+        "amtsgericht": "Nürnberg",
+        "event_date": "2014-03-19",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Nürnberg Aktenzeichen: HRA 6585 \nBekannt gemacht am: 20.03.2014 02:03 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n19.03.2014\n\nHRA 6585:Rats-Apotheke Konrad Scheidig, Inh.: Rainer Dölcker, Hersbruck, Oberer Markt 11, 91217 Hersbruck.Rats-Apotheke Konrad Scheidig e.K., Inh.: Dr. Fritz Eichhorn. Neuer Inhaber: Dr. Eichhorn, Fritz, Apotheker, Pommelsbrunn, *17.08.1945. Nicht mehr Inhaber: Dölcker, Rainer, Reichenbach, *12.05.1957. Der Übergang der in dem Betrieb des Geschäfts begründeten Forderungen und die Haftung für die in dem Betrieb des Geschäfts entstandenen Verbindlichkeiten sind bei dem Erwerb des Geschäfts durch den neuen Inhaber Dr. Eichhorn, Fritz, *17.08.1945, ausgeschlossen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 6585:Rats-Apotheke Konrad Scheidig",
+        "notice_id": "771087",
+        "posted_on": "2014-03-20",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=771087&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Dr . Eichhorn , Fritz , Apotheker , Pommelsbrunn , * 17.08.1945 ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Reichenbach",
+                    "dob": "1957-12-05",
+                    "lastname": "Dölcker",
+                    "name": "Rainer"
+                },
+                "text": " Dölcker , Rainer , Reichenbach , * 12.05.1957 ."
+            }
+        ]
+    }
+}

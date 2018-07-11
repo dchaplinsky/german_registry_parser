@@ -1,0 +1,49 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 110751",
+        "amtsgericht": "Osnabrück",
+        "event_date": "2007-02-06",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Osnabrück Aktenzeichen: HRB 110751 \nBekannt gemacht am: 06.03.2007 10:17 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n06.02.2007\n\nHS-Türen GmbH, Georgsmarienhütte (Georgsmarienhütte). Ist nur ein Liquidator bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Liquidatoren bestellt, so wird die Gesellschaft durch zwei Liquidatoren gemeinsam vertreten. Geändert, nun: Liquidator: Schoppmeier, Walter, Georgsmarienhütte, *17.04.1946, einzelvertretungsberechtigt. Nicht mehr Geschäftsführer: Hindersmann, Rainer, Lotte, *04.10.1965. Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HS-Türen GmbH",
+        "notice_id": "6280",
+        "posted_on": "2007-03-06",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=6280&land_abk=ni"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Georgsmarienhütte",
+                    "dob": "1946-04-17",
+                    "flag": "sole representation",
+                    "lastname": "Schoppmeier",
+                    "name": "Walter"
+                },
+                "text": " Schoppmeier , Walter , Georgsmarienhütte , * 17.04.1946 , einzelvertretungsberechtigt ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Lotte",
+                    "dob": "1965-04-10",
+                    "lastname": "Hindersmann",
+                    "name": "Rainer"
+                },
+                "text": " Hindersmann , Rainer , Lotte , * 04.10.1965 ."
+            }
+        ]
+    }
+}

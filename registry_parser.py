@@ -160,6 +160,30 @@ class Owner(FullPerson):
     kls = "Owner"
 
 
+class SingleProcuration(FullPerson):
+    kls = "SingleProcuration"
+
+
+class NewProcuration(FullPerson):
+    kls = "NewProcuration"
+
+
+class PersonalPartner(FullPerson):
+    kls = "PersonalPartner"
+
+
+class Liquidator(FullPerson):
+    kls = "Liquidator"
+
+
+class ProcurationCancelled(FullPerson):
+    kls = "ProcurationCancelled"
+
+
+class CommonProcuration(FullPerson):
+    kls = "CommonProcuration"
+
+
 class Sentence(object):
     __slots__ = ["text", "split", "convert_to_flag", "assign_label_to_postfix"]
 
@@ -170,19 +194,28 @@ class Sentence(object):
         self.assign_label_to_postfix = assign_label_to_postfix
 
     def parse(self, sentence):
-        if self.text not in sentence:
+        text = None
+
+        if isinstance(self.text, str):
+            text = self.text
+        else:
+            m = self.text.search(sentence)
+            if m:
+                text = m.group(0)
+
+        if text is None or text not in sentence:
             yield
         else:
             try:
                 if self.convert_to_flag is not None:
-                    yield Flag(self.convert_to_flag, self.text)
+                    yield Flag(self.convert_to_flag, text)
 
                 if self.split:
-                    for x in sentence.split(self.text, 1):
+                    for x in sentence.split(text, 1):
                         yield x
 
                 if self.assign_label_to_postfix is not None:
-                    _, postfix = sentence.split(self.text, 1)
+                    _, postfix = sentence.split(text, 1)
 
                     if isinstance(self.assign_label_to_postfix, str):
                         yield Label(self.assign_label_to_postfix, postfix)
@@ -194,7 +227,20 @@ class Sentence(object):
 
 sentences = [
     Sentence("Geschäftsführer :", assign_label_to_postfix=ManagingDirector),
+    Sentence("geschäftsführer :", assign_label_to_postfix=ManagingDirector),
+    Sentence("Einzelprokura :", assign_label_to_postfix=SingleProcuration),
+    Sentence("einzelprokura :", assign_label_to_postfix=SingleProcuration),
+    Sentence("Persönlich haftender Gesellschafter :", assign_label_to_postfix=PersonalPartner),
+    Sentence("persönlich haftender gesellschafter :", assign_label_to_postfix=PersonalPartner),
+    Sentence("Gesamtprokura gemeinsam mit einem Geschäftsführer oder einem anderen Prokuristen :", assign_label_to_postfix=CommonProcuration),
+    Sentence("gesamtprokura gemeinsam mit einem geschäftsführer oder einem anderen prokuristen :", assign_label_to_postfix=CommonProcuration),
+    Sentence(re.compile(r"Prokura geändert(.*):", re.I), assign_label_to_postfix=NewProcuration),
     Sentence("Inhaber :", assign_label_to_postfix=Owner),
+    Sentence("inhaber :", assign_label_to_postfix=Owner),
+    Sentence("Liquidator :", assign_label_to_postfix=Liquidator),
+    Sentence("liquidator :", assign_label_to_postfix=Liquidator),
+    Sentence("Prokura erloschen :", assign_label_to_postfix=ProcurationCancelled),
+    Sentence("prokura erloschen :", assign_label_to_postfix=ProcurationCancelled),
     Sentence("Sitz / Zweigniederlassung :", assign_label_to_postfix="company"),
     Sentence("B :", assign_label_to_postfix="WHUT"),
     Sentence("Stamm - bzw . Grundkapital :", assign_label_to_postfix="misc"),
@@ -217,7 +263,7 @@ sentences = [
     Sentence("Sind mehrere Liquidatoren bestellt , wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten .", convert_to_flag="If several liquidators are appointed, the company will be represented jointly by all liquidators."),
 ]
 
-sentences = sorted(sentences, key=lambda x: len(x.text), reverse=True)
+sentences = sorted(sentences, key=lambda x: len(x.text) if isinstance(x.text, str) else 1000, reverse=True)
 
 
 def parse_document(doc):
