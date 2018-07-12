@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=32742&land_abk=by"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  biller , rainer , haunwang , * 27.06.1963 . einzelkaufmann ."
+                "class": "Owner",
+                "payload": {
+                    "city": "haunwang",
+                    "dob": "1963-06-27",
+                    "lastname": "biller",
+                    "name": "rainer"
+                },
+                "text": " biller , rainer , haunwang , * 27.06.1963 . einzelkaufmann ."
             }
         ]
     }

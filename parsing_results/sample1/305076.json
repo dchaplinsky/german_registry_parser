@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=305076&land_abk=hh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  fielker , max , hamburg , * 31.10.1987 . die gesellschaft ist aufgelöst ."
-            }
-        ],
         "officers": [
             {
                 "class": "Liquidator",
@@ -33,6 +27,16 @@
                     "name": "katharina"
                 },
                 "text": " wolff , katharina , hamburg , * 30.11.1983 , vertretungsberechtigt gemäß allgemeiner vertretungsregelung ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "hamburg",
+                    "dob": "1987-10-31",
+                    "lastname": "fielker",
+                    "name": "max"
+                },
+                "text": " fielker , max , hamburg , * 31.10.1987 . die gesellschaft ist aufgelöst ."
             }
         ]
     }

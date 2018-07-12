@@ -23,11 +23,19 @@
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  grünewälder , angela , lage , * 27.02.1952 . die niederlassung ist von bielefeld ( bisher amtsgericht bielefeld hra 12374 ) nach lage verlegt ."
-            },
-            {
-                "kls": "ParsingError",
                 "text": "Cannot parse a Owner from  angela grünewälder , 33602 bielefeld , geschäftsanschrift : gehrenberg 17 , 33602 bielefeld ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "lage",
+                    "dob": "1952-02-27",
+                    "lastname": "grünewälder",
+                    "name": "angela"
+                },
+                "text": " grünewälder , angela , lage , * 27.02.1952 . die niederlassung ist von bielefeld ( bisher amtsgericht bielefeld hra 12374 ) nach lage verlegt ."
             }
         ]
     }

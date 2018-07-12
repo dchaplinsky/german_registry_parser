@@ -14,7 +14,7 @@ import prettytable
 from tqdm import tqdm
 from natsort import natsorted
 
-from registry_parser import parse_document
+from registry_parser import parse_document, dob_regex
 
 relocation_signs = [
     ("sitzverlegung", re.compile(r"\bsitzverlegung\b")),
@@ -87,9 +87,9 @@ if __name__ == "__main__":
                 pbar.update(1)
                 for rel_sign, rel_sign_regex in relocation_signs:
                     # cheap-n-dirty, no json parsing
-                    l = l.lower()
-                    if rel_sign in l:
-                        if rel_sign_regex.search(l):
+                    l_lower = l.lower()
+                    if rel_sign in l_lower:
+                        if rel_sign_regex.search(l_lower):
                             # Special case for overused word nun:
                             factor = 1.0
 
@@ -141,7 +141,7 @@ if __name__ == "__main__":
                     if parsing_result:
                         stats[p_doc["notice_id"]].update({k: len(v) for k, v in parsing_result.items()})
 
-                        possible_persons = re.findall(r"\*\s?\d{2}\s?\.\s?\d{2}\s?.\s?\d{4}", p_doc["full_text"])
+                        possible_persons = dob_regex.findall(p_doc["full_text"])
                         if len(possible_persons) > len(parsing_result.get("officers", [])):
                             stats[p_doc["notice_id"]]["might_have_unparsed_persons"] = 1
 

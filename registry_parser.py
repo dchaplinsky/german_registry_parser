@@ -12,6 +12,7 @@ german_tokenizer = data.load(
 class ParsingError(Exception):
     pass
 
+dob_regex = re.compile(r"\*\s?\d{2}\s?\.\s?\d{2}\s?.\s?\d{4}")
 
 class Flag(object):
     __slots__ = ["flag", "text"]
@@ -73,6 +74,14 @@ class FullPerson(object):
         "einzelvertretungsberechtigt": "sole representation"
     }
 
+    def parse_dob(self, dob):
+        m = dob_regex.search(dob.strip(" ;."))
+
+        if m:
+            return dt_parse(m.group(0).strip("* ;.")).date()
+        else:
+            raise ValueError()
+
     def __init__(self, text):
         self.text = text
         chunks = text.split(",")
@@ -84,24 +93,24 @@ class FullPerson(object):
                 self.lastname = chunks[0].strip(" *;.")
                 self.name = chunks[1].strip(" *;.")
                 self.city = chunks[2].strip(" *;.")
-                self.dob = chunks[3].strip(" *;.")
+                self.dob = self.parse_dob(chunks[3])
                 self.payload = {
                     "name": self.name,
                     "lastname": self.lastname,
                     "city": self.city,
-                    "dob": dt_parse(self.dob).date()
+                    "dob": self.dob
                 }
                 self.description = "\nFirstname: {},\nLastname: {},\nCity: {},\nDOB: {}".format(
                     self.name,
                     self.lastname,
                     self.city,
-                    dt_parse(self.dob).date()
+                    self.dob
                 )
             if len(chunks) == 5:
                 self.lastname = chunks[0].strip(" *;.")
                 self.name = chunks[1].strip(" *;.")
                 self.city = chunks[2].strip(" *;.")
-                self.dob = chunks[3].strip(" *;.")
+                self.dob = self.parse_dob(chunks[3])
                 self.flag = chunks[4].strip(" *;.")
                 if self.flag in self.translations:
                     self.flag = self.translations[self.flag]
@@ -110,20 +119,20 @@ class FullPerson(object):
                     "name": self.name,
                     "lastname": self.lastname,
                     "city": self.city,
-                    "dob": dt_parse(self.dob).date(),
+                    "dob": self.dob,
                     "flag": self.flag
                 }
                 self.description = "\nFirstname: {},\nLastname: {},\nCity: {},\nDOB: {},\nFlag: {}".format(
                     self.name,
                     self.lastname,
                     self.city,
-                    dt_parse(self.dob).date(),
+                    self.dob,
                     self.flag
                 )
             elif len(chunks) == 3:
                 self.lastname = chunks[0].strip(" *;.")
                 self.name = chunks[1].strip(" *;.")
-                self.dob = chunks[-1].strip(" *;.")
+                self.dob = self.parse_dob(chunks[-1])
 
                 self.payload = {
                     "name": self.name,
@@ -133,10 +142,10 @@ class FullPerson(object):
                 self.description = "\nFirstname: {},\nLastname: {},\nDOB: {}".format(
                     self.name,
                     self.lastname,
-                    dt_parse(self.dob).date()
+                    self.dob
                 )
         except ValueError:
-            raise ParsingError("Cannot parse a {} from {}".format(self.kls, text))            
+            raise ParsingError("Cannot parse a {} from {}".format(self.kls, text))
 
     def to_dict(self):
         return {
