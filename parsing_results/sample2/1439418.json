@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 14477",
+        "amtsgericht": "Coesfeld",
+        "event_date": "2017-08-08",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Coesfeld Aktenzeichen: HRB 14477 \nBekannt gemacht am: 08.08.2017 20:03 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n08.08.2017\n\nHRB 14477: preFARM Bausysteme UG (haftungsbeschränkt), Dülmen, Hengtestraße 26, 48653 Coesfeld. Nicht mehr Geschäftsführer: Wabnitz, Reinhard, Kaufmann, Dülmen, *15.07.1939. Bestellt zum Geschäftsführer: Wabnitz, Heidelore, Coesfeld, *03.09.1941.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 14477: preFARM Bausysteme UG (haftungsbeschränkt)",
+        "notice_id": "1439418",
+        "posted_on": "2017-08-08",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1439418&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Wabnitz , Reinhard , Kaufmann , Dülmen , * 15.07.1939 ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Coesfeld",
+                    "dob": "1941-03-09",
+                    "lastname": "Wabnitz",
+                    "name": "Heidelore"
+                },
+                "text": " Wabnitz , Heidelore , Coesfeld , * 03.09.1941 ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 3081",
+        "amtsgericht": "Hamm",
+        "event_date": "2010-10-15",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Hamm Aktenzeichen: HRB 3081 \nBekannt gemacht am: 18.10.2010 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n15.10.2010\n\nRolf Kuhlmann GmbH, Unna, Schlehenweg 4, 59425 Unna. Geschäftsanschrift: Schlehenweg 4, 59425 Unna. Ist nur ein Liquidator bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Liquidatoren bestellt, so wird die Gesellschaft durch die Liquidatoren gemeinsam vertreten. Geändert; nunmehr Liquidator: Kuhlmann, Rolf, Unna, *28.03.1944, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Prokura erloschen: Kuhlmann, Annemarie, Herten. Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Rolf Kuhlmann GmbH",
+        "notice_id": "602050",
+        "posted_on": "2010-10-18",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=602050&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Kuhlmann , Annemarie , Herten ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Schlehenweg 4 , 59425 Unna ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Unna",
+                    "dob": "1944-03-28",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Kuhlmann",
+                    "name": "Rolf"
+                },
+                "text": " Kuhlmann , Rolf , Unna , * 28.03.1944 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ]
+    }
+}

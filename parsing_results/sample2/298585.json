@@ -1,0 +1,39 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 650182",
+        "amtsgericht": "Ulm",
+        "event_date": "2012-03-27",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Ulm Aktenzeichen: HRB 650182   \nBekannt gemacht am: 05.04.2012 22:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n27.03.2012\n\nWeissgerber/Seidner Gesellschaft mit beschränkter Haftung, Riedlingen, Zwiefalter Strasse 20, 88499 Riedlingen. Nicht mehr Geschäftsführer: Glatt, Peter, Techniker, Riedlingen. Bestellt als Geschäftsführer: Locher, Bernd, Riedlingen, *23.09.1977, einzelvertretungsberechtigt.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Weissgerber/Seidner Gesellschaft mit beschränkter Haftung",
+        "notice_id": "298585",
+        "posted_on": "2012-04-05",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=298585&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Glatt , Peter , Techniker , Riedlingen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Riedlingen",
+                    "dob": "1977-09-23",
+                    "flag": "sole representation",
+                    "lastname": "Locher",
+                    "name": "Bernd"
+                },
+                "text": " Locher , Bernd , Riedlingen , * 23.09.1977 , einzelvertretungsberechtigt ."
+            }
+        ]
+    }
+}

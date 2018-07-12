@@ -1,0 +1,45 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 610295",
+        "amtsgericht": "Ulm",
+        "event_date": "2013-06-26",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Ulm Aktenzeichen: HRB 610295   \nBekannt gemacht am: 02.07.2013 22:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n26.06.2013\n\nBenzinger GmbH, Bad Wurzach, Weitprechtser Str. 11, 88410 Bad Wurzach. Allgemeine Vertretungsregelung geändert; nun: Ist nur ein Liquidator bestellt, vertritt er allein. Sind mehrere Liquidatoren bestellt, vertreten sie gemeinsam. Bestellt als Liquidator: Fink, Sieglinde, Wolfegg, *09.07.1956, einzelvertretungsberechtigt. Nicht mehr Geschäftsführer: Benzinger, Manfred, Kaufmann, Bad Wurzach, *05.01.1955. Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Benzinger GmbH",
+        "notice_id": "371502",
+        "posted_on": "2013-07-02",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=371502&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Benzinger , Manfred , Kaufmann , Bad Wurzach , * 05.01.1955 ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Wolfegg",
+                    "dob": "1956-09-07",
+                    "flag": "sole representation",
+                    "lastname": "Fink",
+                    "name": "Sieglinde"
+                },
+                "text": " Fink , Sieglinde , Wolfegg , * 09.07.1956 , einzelvertretungsberechtigt ."
+            }
+        ]
+    }
+}

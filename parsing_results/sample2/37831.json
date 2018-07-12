@@ -1,0 +1,49 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 1723 NP",
+        "amtsgericht": "Neuruppin",
+        "event_date": "2009-07-22",
+        "event_type": "Veränderungen",
+        "federal_state": "br",
+        "full_text": "Amtsgericht Neuruppin Aktenzeichen: HRB 1723 NP \nBekannt gemacht am: 24.07.2009 12:00 Uhr\n\n\n\n\nFür die Angaben in (), die den Unternehmensgegenstand und die Anschrift betreffen, keine Gewähr. In das Handelsregister ist folgendes eingetragen worden.\nVeränderungen\n22.07.2009\n\n\"Velku Kunststoff-Technik GmbH\", VeltenBerliner Straße 4, 16727 Velten. Geschäftsanschrift: Berliner Straße 4, 16727 Velten, Geschäftsführer: Kewitz, Hans-Jürgen, *10.05.1964, Berlin; mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen. Nicht mehr Geschäftsführer: Hellwig, Herbert..",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "\"Velku Kunststoff-Technik GmbH\"",
+        "notice_id": "37831",
+        "posted_on": "2009-07-24",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=37831&land_abk=br"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Kewitz , Hans - Jürgen , * 10.05.1964 , Berlin"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Berliner Straße 4 , 16727 Velten , Geschäftsführer : Kewitz , Hans - Jürgen , * 10.05.1964 , Berlin"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " Hellwig , Herbert .."
+            }
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 32597 HB",
+        "amtsgericht": "Bremen",
+        "event_date": "2017-07-20",
+        "event_type": "Neueintragungen",
+        "federal_state": "hb",
+        "full_text": "Amtsgericht Bremen Aktenzeichen: HRB 32597 HB \nBekannt gemacht am: 27.07.2017 20:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nNeueintragungen\n20.07.2017\n\nHRB 32597 HB: Fookado GmbH, Bremen, Große Riehen 5-7, 28239 Bremen. Fookado GmbH;  Bremen; Geschäftsanschrift: Große Riehen 5-7, 28239 Bremen; Gegenstand: der Handel mit Lebensmittel, Einzel- und Großhandel und Import und Export von Waren, insbesondere Verbrauchsgütern. Stammkapital: 25.000 EUR;  Die Gesellschaft hat einen oder mehrere Geschäftsführer. Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten. Alleinvertretungsbefugnis kann erteilt werden.\nJeder Geschäftsführer kann von dem Verbot, Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, befreit werden.  Geschäftsführer: Yang, Jianliang, *15.12.1978, Bremen; mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen;  Gesellschaft mit beschränkter Haftung; Gesellschaftsvertrag vom: 24.05.2017",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Jeder Geschäftsführer kann von dem Verbot",
+        "notice_id": "70329",
+        "posted_on": "2017-07-27",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=70329&land_abk=hb"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Yang , Jianliang , * 15.12.1978 , Bremen"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
+                "text": "Sind mehrere Geschäftsführer bestellt , wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten ."
+            },
+            {
+                "flag": "Exclusive power of representation can be granted.",
+                "text": "Alleinvertretungsbefugnis kann erteilt werden ."
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            }
+        ],
+        "labels": [
+            {
+                "label": "WHUT",
+                "text": " Fookado GmbH , Bremen , Große Riehen 5-7 , 28239 Bremen ."
+            },
+            {
+                "label": "address",
+                "text": " Große Riehen 5-7 , 28239 Bremen"
+            }
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 705401",
+        "amtsgericht": "Mannheim",
+        "event_date": "2008-11-11",
+        "event_type": "Neueintragungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Mannheim Aktenzeichen: HRB 705401 \nBekannt gemacht am: 14.11.2008 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nNeueintragungen\n11.11.2008\n\nAUKALE GmbH, Wiesloch, In den Weinäckern 15, 69168 Wiesloch.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 23.07.1980 zuletzt geändert am 21.07.2004. Die Gesellschafterversammlung vom 30.08.2007 hat die Änderung des Gesellschaftsvertrages in § 1 Satz 2 (Firma und Sitz), § 2 (Gegenstand des Unternehmens), § 3 (Stammkapital, Stammeinlage), § 6 Ziff. 11 (Gesellschafterversammlung - Gesellschafterbeschlüsse), § 10 Abs. 3 (Erbfolge) und § 14 (Bekanntmachungen) beschlossen. Durch Beschluss der Gesellschafterversammlung vom 30.08.2007 ist das Stammkapital auf Euro umgestellt. Das Stammkapital ist ferner durch Beschluss der Gesellschafterversammlung vom gleichen Tag auf 25.600,00 EUR erhöht. Der Sitz ist von Naumburg (Amtsgericht Stendal HB 214982) nach Wiesloch verlegt. Geschäftsanschrift: In den Weinäckern 15, 69168 Wiesloch. Gegenstand geändert; nun: Gegenstand: Der Betrieb einer Reparaturwerkstatt für Kraftfahrzeuge, die Vermittlung von Neufahrzeugen, der Vertrieb von Gebrauchtfahrzeugen, Kraftfahrzeug-Ersatzteilen und Zubehör, der Betrieb einer Tankstelle sowie alle sonstigen Geschäfte und Tätigkeiten, die mit dem Kraftfahrzeugwesen in Zusammenhang stehen. Stammkapital: 25.600,00 EUR. Allgemeine Vertretungsregelung: Ist nur ein Geschäftsführer bestellt, vertritt er allein. Sind mehrere Geschäftsführer bestellt, vertreten zwei gemeinsam oder ein Geschäftsführer mit einem Prokuristen. Einzelvertretungsbefugnis kann erteilt werden. Nicht mehr Geschäftsführer: Lehr, Matthias, Speyer, *10.11.1963. Bestellt als Geschäftsführer: Lehr, Lieselotte Hilda, geb. Hirn, Wiesloch, *01.07.1931, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Prokura erloschen: Lehr, Lieselotte Hilda, geb. Hirn, Wiesloch, *01.07.1931.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "AUKALE GmbH",
+        "notice_id": "99142",
+        "posted_on": "2008-11-14",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=99142&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Lehr , Lieselotte Hilda , geb ."
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Lehr , Lieselotte Hilda , geb ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Company with limited liability .",
+                "text": "Gesellschaft mit beschränkter Haftung ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " In den Weinäckern 15 , 69168 Wiesloch ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Speyer",
+                    "dob": "1963-10-11",
+                    "lastname": "Lehr",
+                    "name": "Matthias"
+                },
+                "text": " Lehr , Matthias , Speyer , * 10.11.1963 ."
+            }
+        ]
+    }
+}

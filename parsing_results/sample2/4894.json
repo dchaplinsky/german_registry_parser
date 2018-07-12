@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 49994",
+        "amtsgericht": "München",
+        "event_date": "2005-01-17",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 49994 \nBekannt gemacht am: 26.01.2005 11:19 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n17.01.2005\n\nDritte ReNo Grundstücksverwaltung GmbH, München (Bahnhofplatz 1, 80335 München). Bestellt: Geschäftsführer: Soethe, Robert, Rain, *15.03.1958. Ausgeschieden: Geschäftsführer: Kirberg, Ralf, Bankkaufmann, Pöcking.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Dritte ReNo Grundstücksverwaltung GmbH",
+        "notice_id": "4894",
+        "posted_on": "2005-01-26",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=4894&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Kirberg , Ralf , Bankkaufmann , Pöcking ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Rain",
+                    "dob": "1958-03-15",
+                    "lastname": "Soethe",
+                    "name": "Robert"
+                },
+                "text": " Soethe , Robert , Rain , * 15.03.1958 ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 17687",
+        "amtsgericht": "Frankfurt am Main",
+        "event_date": "2009-07-10",
+        "event_type": "Veränderungen",
+        "federal_state": "he",
+        "full_text": "Amtsgericht Frankfurt am Main Aktenzeichen: HRB 17687 \nBekannt gemacht am: 13.07.2009 12:00 Uhr\n\n\n\n\nVeröffentlichungen des Amtsgerichts Frankfurt am Main\r\r\rIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n10.07.2009\n\nTERUMO (Deutschland) GmbH, Eschborn, Hauptstr. 87, 65760 Eschborn.Nicht mehr Geschäftsführer: Arase, Hideo, Boulogne Billancourt, Frankreich, *19.03.1955. Bestellt als Geschäftsführer: Feudtner, Matthias, Friedberg (Hessen), *03.02.1964, einzelvertretungsberechtigt.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "TERUMO (Deutschland) GmbH",
+        "notice_id": "139756",
+        "posted_on": "2009-07-13",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=139756&land_abk=he"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Arase , Hideo , Boulogne Billancourt , Frankreich , * 19.03.1955 ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Friedberg ( Hessen )",
+                    "dob": "1964-03-02",
+                    "flag": "sole representation",
+                    "lastname": "Feudtner",
+                    "name": "Matthias"
+                },
+                "text": " Feudtner , Matthias , Friedberg ( Hessen ) , * 03.02.1964 , einzelvertretungsberechtigt ."
+            }
+        ]
+    }
+}

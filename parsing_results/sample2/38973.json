@@ -1,0 +1,58 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 22718",
+        "amtsgericht": "Mainz",
+        "event_date": "2008-02-06",
+        "event_type": "Veränderungen",
+        "federal_state": "rp",
+        "full_text": "Amtsgericht Mainz Aktenzeichen: HRB 22718 \nBekannt gemacht am: 15.02.2008 22:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n06.02.2008\n\nAGRANA Juice Sales & Marketing GmbH, Bingen (Am Ockenheimer Graben 6, 55411 Bingen). Nicht mehr Geschäftsführer: Wink, Anton Franz, Kaufmann, Bingen, *10.11.1958. Bestellt als Geschäftsführer: Prigge, Heino, Hamburg, *29.08.1968. Prokura erloschen: Dr. Nefischer, Dieter, Leopoldsdorf im Marchfelde A-2285, *20.09.1944; Prigge, Heino, Hamburg, *29.08.1968. Gesamtprokura gemeinsam mit einem Geschäftsführer oder einem anderen Prokuristen: Breitner, Robert, Wien, *04.10.1961.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "AGRANA Juice Sales & Marketing GmbH",
+        "notice_id": "38973",
+        "posted_on": "2008-02-15",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=38973&land_abk=rp"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Wink , Anton Franz , Kaufmann , Bingen , * 10.11.1958 ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1968-08-29",
+                    "lastname": "Prigge",
+                    "name": "Heino"
+                },
+                "text": " Prigge , Heino , Hamburg , * 29.08.1968 ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Leopoldsdorf im Marchfelde A -2285",
+                    "dob": "1944-09-20",
+                    "lastname": "Dr . Nefischer",
+                    "name": "Dieter"
+                },
+                "text": " Dr . Nefischer , Dieter , Leopoldsdorf im Marchfelde A -2285 , * 20.09.1944"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Wien",
+                    "dob": "1961-04-10",
+                    "lastname": "Breitner",
+                    "name": "Robert"
+                },
+                "text": " Breitner , Robert , Wien , * 04.10.1961 ."
+            }
+        ]
+    }
+}

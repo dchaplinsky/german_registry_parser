@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 261331",
+        "amtsgericht": "Stuttgart",
+        "event_date": "2008-09-08",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Stuttgart Aktenzeichen: HRA 261331 \nBekannt gemacht am: 15.09.2008 12:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n08.09.2008\n\nApotheke am Marktplatz Volker Schanz, Waiblingen (Marktplatz 9, 71332 Waiblingen). Firma geändert; nun: Apotheke am Marktplatz Angela Riehle e.K. Neuer Inhaber: Riehle, Angela, Aichwald, *31.03.1953. Ausgeschieden als Inhaber: Schanz, Volker, Apotheker, Waiblingen. Das Handelsgeschäft ist übergegangen auf Riehle, Angela, Aichwald, *31.03.1953. Der Übergang der im Geschäftsbetrieb des früheren Inhabers begründeten Forderungen und Verbindlichkeiten ist ausgeschlossen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Apotheke am Marktplatz Volker Schanz",
+        "notice_id": "90615",
+        "posted_on": "2008-09-15",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=90615&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Schanz , Volker , Apotheker , Waiblingen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Aichwald",
+                    "dob": "1953-03-31",
+                    "lastname": "Riehle",
+                    "name": "Angela"
+                },
+                "text": " Riehle , Angela , Aichwald , * 31.03.1953 ."
+            }
+        ]
+    }
+}

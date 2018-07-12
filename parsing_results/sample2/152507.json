@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 14311",
+        "amtsgericht": "Augsburg",
+        "event_date": "2007-03-05",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Augsburg Aktenzeichen: HRB 14311 \nBekannt gemacht am: 06.03.2007 07:03 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n05.03.2007\n\nÖkumenische Sozialstation Meitingen und Umgebung gemeinnützige Gesellschaft mit beschränkter Haftung, Meitingen (St.-Wolfgang-Str. 14 e, 86405 Meitingen). Bestellt: Geschäftsführer: Polkehn, Irene, Meitingen, *25.10.1952. Ausgeschieden: Geschäftsführer: Filz, Maria, Meitingen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Ökumenische Sozialstation Meitingen und Umgebung gemeinnützige Gesellschaft mit beschränkter Haftung",
+        "notice_id": "152507",
+        "posted_on": "2007-03-06",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=152507&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Filz , Maria , Meitingen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Meitingen",
+                    "dob": "1952-10-25",
+                    "lastname": "Polkehn",
+                    "name": "Irene"
+                },
+                "text": " Polkehn , Irene , Meitingen , * 25.10.1952 ."
+            }
+        ]
+    }
+}

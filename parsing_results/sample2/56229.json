@@ -1,0 +1,53 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 4090 NM",
+        "amtsgericht": "Kiel",
+        "event_date": "2009-07-10",
+        "event_type": "Veränderungen",
+        "federal_state": "sh",
+        "full_text": "Amtsgericht Kiel Aktenzeichen: HRB 4090 NM \nBekannt gemacht am: 14.07.2009 12:00 Uhr\n\n\n\n\nFür die Angaben in (), die den Unternehmensgegenstand und die Anschrift betreffen, keine Gewähr. In das Handelsregister ist folgendes eingetragen worden.\nVeränderungen\n10.07.2009\n\nMax Huss Bauleistungen Bohrtechnik GmbH, NeumünsterWagrierstraße 6-10, 24539 Neumünster. Geschäftsanschrift: Wagrierstraße 6-10, 24539 Neumünster. Nicht mehr Geschäftsführer: Huß, Max Michael. Geschäftsführer: Huß, Max-Lennard, *05.11.1985, Neumünster; mit der Befugnis die Gesellschaft allein zu vertreten und Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen. Einzelprokura: Huß, Max-Michael, *07.08.1955, Neumünster.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Max Huss Bauleistungen Bohrtechnik GmbH",
+        "notice_id": "56229",
+        "posted_on": "2009-07-14",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=56229&land_abk=sh"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Huß , Max - Lennard , * 05.11.1985 , Neumünster"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a SingleProcuration from  Huß , Max - Michael , * 07.08.1955 , Neumünster ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            },
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Wagrierstraße 6-10 , 24539 Neumünster ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " Huß , Max Michael ."
+            }
+        ]
+    }
+}

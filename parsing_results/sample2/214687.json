@@ -1,0 +1,48 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 2412",
+        "amtsgericht": "Augsburg",
+        "event_date": "2008-01-07",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Augsburg Aktenzeichen: HRA 2412 \nBekannt gemacht am: 08.01.2008 12:00 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n07.01.2008\n\nSchätzl Druck, Inh.: Gert Schätzl, Donauwörth (Am Stillflecken 4, 86609 Donauwörth). Firma geändert, nun: Schätzl Druck & Medien e.K. Neuer Inhaber: Schätzl, Ulrich, Donauwörth, *23.03.1969. Nicht mehr Inhaber: Schätzl, Gert, Flachdruckermeister, Donauwörth. Prokura erloschen: Schätzl, Ulrich, Donauwörth, *23.03.1969.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Schätzl Druck",
+        "notice_id": "214687",
+        "posted_on": "2008-01-08",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=214687&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Schätzl , Gert , Flachdruckermeister , Donauwörth ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Donauwörth",
+                    "dob": "1969-03-23",
+                    "lastname": "Schätzl",
+                    "name": "Ulrich"
+                },
+                "text": " Schätzl , Ulrich , Donauwörth , * 23.03.1969 ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Donauwörth",
+                    "dob": "1969-03-23",
+                    "lastname": "Schätzl",
+                    "name": "Ulrich"
+                },
+                "text": " Schätzl , Ulrich , Donauwörth , * 23.03.1969 ."
+            }
+        ]
+    }
+}

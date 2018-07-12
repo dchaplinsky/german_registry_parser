@@ -1,0 +1,39 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 8826",
+        "amtsgericht": "Dresden",
+        "event_date": "2013-04-25",
+        "event_type": "Neueintragungen",
+        "federal_state": "sn",
+        "full_text": "Amtsgericht Dresden Aktenzeichen: HRA 8826   \nBekannt gemacht am: 08.05.2013 12:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des  Unternehmensgegenstandes erfolgen ohne Gewähr.\nNeueintragungen\n25.04.2013\n\nFielmann AG & Co. OHG, Radebeul, Hauptstr. 27, 01445 Radebeul. (der Betrieb eines augenoptischen Fachgeschäftes für die Herstellung und der Vertrieb von optischen Geräten, Fachgeschäftes für die Herstellung und den Vertrieb von optischen Geräten, Sehhilfen aller Art und Zubehör sowie Hörgeräten). Offene Handelsgesellschaft. Geschäftsanschrift: Hauptstr. 27, 01445 Radebeul. Jeder persönlich haftende Gesellschafter vertritt einzeln. Persönlich haftender Gesellschafter: Fielmann Aktiengesellschaft, Hamburg (Amtsgericht Hamburg HRB 56098). Persönlich haftender Gesellschafter: Fielmann Finanzservice GmbH, Hamburg (Amtsgericht Hamburg HRB 30823), von der Vertretung ausgeschlossen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Fielmann AG & Co. OHG",
+        "notice_id": "150247",
+        "posted_on": "2013-05-08",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=150247&land_abk=sn"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Fielmann Finanzservice GmbH , Hamburg ( Amtsgericht Hamburg HRB 30823 ) , von der Vertretung ausgeschlossen ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Hauptstr ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {},
+                "text": " Fielmann Aktiengesellschaft , Hamburg ( Amtsgericht Hamburg HRB 56098 ) ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 202876",
+        "amtsgericht": "Oldenburg",
+        "event_date": "2011-07-05",
+        "event_type": "Neueintragungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Oldenburg Aktenzeichen: HRA 202876 \nBekannt gemacht am: 07.07.2011 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nNeueintragungen\n05.07.2011\n\nMS \"Atair\" GmbH & Co. KG, Elsfleth, Hafenstraße 4, 26931 Elsfleth. (Der Erwerb, die Errichtung und der Betrieb eines Seeschiffes und aller hierzu erforderlichen Hilfs- und Nebengeschäfte und die Beteiligung - gleichgültiger in welcher Rechtsform - an Industrie- und Handelsunternehmen und die Übernahme der Geschäftsführung und Verwaltung in diesen Unternehmen.). Kommanditgesellschaft. Geschäftsanschrift: Hafenstraße 4, 26931 Elsfleth. Allgemeine Vertretungsregelung: Jeder persönlich haftende Gesellschafter vertritt einzeln. Persönlich haftender Gesellschafter: MS \"Atair\" Verwaltungs-GmbH, Elsfleth (Oldenburg HRB 205774), mit der Befugnis -auch für jeden Geschäftsführer-, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Persönlich haftender Gesellschafter: Bräuler, Anke, Worpswede, *12.08.1946, von der Vertretung ausgeschlossen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "MS \"Atair\" GmbH & Co. KG",
+        "notice_id": "175307",
+        "posted_on": "2011-07-07",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=175307&land_abk=ni"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  MS \" Atair \" Verwaltungs - GmbH , Elsfleth ( Oldenburg HRB 205774 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Limited partnership.",
+                "text": "Kommanditgesellschaft ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Hafenstraße 4 , 26931 Elsfleth ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Worpswede",
+                    "dob": "1946-12-08",
+                    "flag": "von der Vertretung ausgeschlossen",
+                    "lastname": "Bräuler",
+                    "name": "Anke"
+                },
+                "text": " Bräuler , Anke , Worpswede , * 12.08.1946 , von der Vertretung ausgeschlossen ."
+            }
+        ]
+    }
+}

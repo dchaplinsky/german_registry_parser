@@ -1,0 +1,53 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 24042 HB",
+        "amtsgericht": "Bremen",
+        "event_date": "2015-08-13",
+        "event_type": "Veränderungen",
+        "federal_state": "hb",
+        "full_text": "Amtsgericht Bremen Aktenzeichen: HRB 24042 HB \nBekannt gemacht am: 14.08.2015 08:30 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nVeränderungen\n13.08.2015\n\nHRB 24042 HB: SENIOREN FORUM GmbH, Bremen, Hahnenstr. 21, 28309 Bremen. Geschäftsanschrift: Hahnenstr. 21, 28309 Bremen. Nicht mehr Geschäftsführer: Baum, Viktor; Majewski, Waldemar. Geschäftsführer: Loges, Detlef, *29.03.1951, Bremen; mit der Befugnis die Gesellschaft allein zu vertreten,\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen.",
+        "notice_id": "55806",
+        "posted_on": "2015-08-14",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=55806&land_abk=hb"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Loges , Detlef , * 29.03.1951 , Bremen"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            }
+        ],
+        "labels": [
+            {
+                "label": "WHUT",
+                "text": " SENIOREN FORUM GmbH , Bremen , Hahnenstr ."
+            },
+            {
+                "label": "address",
+                "text": " Hahnenstr ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " Baum , Viktor"
+            }
+        ]
+    }
+}

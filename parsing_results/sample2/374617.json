@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 715452",
+        "amtsgericht": "Mannheim",
+        "event_date": "2013-07-15",
+        "event_type": "Löschungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Mannheim Aktenzeichen: HRB 715452   \nBekannt gemacht am: 19.07.2013 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nLöschungen\n15.07.2013\n\nSB 124 Spielotheken-Betriebsgesellschaft Unternehmergesellschaft (haftungsbeschränkt), Mannheim, Wolframstr. 1, 68199 Mannheim. Allgemeine Vertretungsregelung geändert; nun: Ist nur ein Liquidator bestellt, vertritt er allein. Sind mehrere Liquidatoren bestellt, vertreten sie gemeinsam. Nicht mehr Geschäftsführer: Stuck, Rolf, geb. Ramminger, Ludwigshafen, *29.02.1956. Bestellt als Liquidator: Stuck, Rolf, Ludwigshafen, *29.02.1956. Die Gesellschaft ist aufgelöst. Die Gesellschaft ist gelöscht. Das Registerblatt ist geschlossen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "SB 124 Spielotheken-Betriebsgesellschaft Unternehmergesellschaft (haftungsbeschränkt)",
+        "notice_id": "374617",
+        "posted_on": "2013-07-19",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=374617&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Stuck , Rolf , geb ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Ludwigshafen",
+                    "dob": "1956-02-29",
+                    "lastname": "Stuck",
+                    "name": "Rolf"
+                },
+                "text": " Stuck , Rolf , Ludwigshafen , * 29.02.1956 ."
+            }
+        ]
+    }
+}

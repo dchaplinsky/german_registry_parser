@@ -1,0 +1,47 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 3815 BHV",
+        "amtsgericht": "Bremerhaven bis zum 31.12.2012",
+        "event_date": "2006-12-08",
+        "event_type": "Veränderungen",
+        "federal_state": "hb",
+        "full_text": "Amtsgericht Bremerhaven bis zum 31.12.2012 Aktenzeichen: HRB 3815 BHV \nBekannt gemacht am: 13.02.2007 14:53 Uhr\n\n\n\n\nFür die Angaben in (), die den Unternehmensgegenstand und die Anschrift betreffen, keine Gewähr. In das Handelsregister ist folgendes eingetragen worden.\nVeränderungen\n08.12.2006\n\nSSW Mitarbeitergeschäftsführungs und -verwaltungs GmbH, Bremerhaven(Riedemannstr. 1, 27570  Bremerhaven). . Nicht mehr Geschäftsführer: 1. Seidel, Dieter. Geschäftsführer: Schriefer, Bernhard, *08.10.1962, Schiffdorf-Wehdel, mit der Befugnis die Gesellschaft allein zu vertreten. Geschäftsführer: Pätzold, Dietmar, *06.03.1954, Loxstedt, mit der Befugnis die Gesellschaft allein zu vertreten..",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "SSW Mitarbeitergeschäftsführungs und -verwaltungs GmbH",
+        "notice_id": "689",
+        "posted_on": "2007-02-13",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=689&land_abk=hb"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Schriefer , Bernhard , * 08.10.1962 , Schiffdorf - Wehdel , mit der Befugnis die Gesellschaft allein zu vertreten ."
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Pätzold , Dietmar , * 06.03.1954 , Loxstedt , mit der Befugnis die Gesellschaft allein zu vertreten .."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " 1 ."
+            }
+        ]
+    }
+}

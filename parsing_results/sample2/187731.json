@@ -1,0 +1,53 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 29916",
+        "amtsgericht": "Dresden",
+        "event_date": "2015-03-03",
+        "event_type": "Veränderungen",
+        "federal_state": "sn",
+        "full_text": "Amtsgericht Dresden Aktenzeichen: HRB 29916 \nBekannt gemacht am: 03.03.2015 18:30 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des  Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n03.03.2015\n\nHRB 29916: Reality Most Germany GmbH, Löbau, Vorwerkstr. 26, 02708 Löbau. Mehrere Liquidatoren vertreten die Gesellschaft gemeinsam. Bestellt: Liquidator: Riediger, Denis, Dresden, *20.10.1977, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Ausgeschieden: Geschäftsführer: Zelenka, Jiri, Most/Tschechien / Tschechische Republik, *14.01.1956. Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 29916: Reality Most Germany GmbH",
+        "notice_id": "187731",
+        "posted_on": "2015-03-03",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=187731&land_abk=sn"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Dresden",
+                    "dob": "1977-10-20",
+                    "flag": "sole representation",
+                    "lastname": "Riediger",
+                    "name": "Denis"
+                },
+                "text": " Riediger , Denis , Dresden , * 20.10.1977 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Most / Tschechien / Tschechische Republik",
+                    "dob": "1956-01-14",
+                    "lastname": "Zelenka",
+                    "name": "Jiri"
+                },
+                "text": " Zelenka , Jiri , Most / Tschechien / Tschechische Republik , * 14.01.1956 ."
+            }
+        ]
+    }
+}

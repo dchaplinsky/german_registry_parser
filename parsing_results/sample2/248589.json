@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 9022",
+        "amtsgericht": "Gelsenkirchen",
+        "event_date": "2007-08-20",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Gelsenkirchen Aktenzeichen: HRB 9022 \nBekannt gemacht am: 22.08.2007 08:10 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n20.08.2007\n\nCL System GmbH, Marl (Schmielenfeldstraße 82, 45772 Marl). Nicht mehr Geschäftsführer: Lange, Christel, geb. Weniger, Marl, *06.09.1953. Bestellt zum Geschäftsführer: Demond, Wolfgang, Dorsten, *20.06.1960.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "CL System GmbH",
+        "notice_id": "248589",
+        "posted_on": "2007-08-22",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=248589&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Lange , Christel , geb ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Dorsten",
+                    "dob": "1960-06-20",
+                    "lastname": "Demond",
+                    "name": "Wolfgang"
+                },
+                "text": " Demond , Wolfgang , Dorsten , * 20.06.1960 ."
+            }
+        ]
+    }
+}

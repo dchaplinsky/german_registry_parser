@@ -1,0 +1,50 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 59039",
+        "amtsgericht": "Düsseldorf",
+        "event_date": "2011-02-07",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Düsseldorf Aktenzeichen: HRB 59039 \nBekannt gemacht am: 22.02.2011 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n07.02.2011\n\nMcNeal Komplementär GmbH, Düsseldorf, Berliner Allee 2, 40212 Düsseldorf. Nicht mehr Geschäftsführer: Cloppenburg, Hendrik, Düsseldorf. Nach Änderung der besonderen Vertretungsbefugnis Geschäftsführer: Hinrichs, Oliver, Düsseldorf, *06.09.1965, vertretungsberechtigt gemeinsam mit dem Geschäftsführer Patrick Cloppenburg. Nach Änderung der besonderen Vertretungsbefugnis Geschäftsführer: Dr. Clemens, Horst, Düsseldorf, *11.03.1967, vertretungsberechtigt gemeinsam mit dem Geschäftsführer Patrick Cloppenburg.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "McNeal Komplementär GmbH",
+        "notice_id": "645841",
+        "posted_on": "2011-02-22",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=645841&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Cloppenburg , Hendrik , Düsseldorf ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "dob": "1965-06-09",
+                    "flag": "vertretungsberechtigt gemeinsam mit dem Geschäftsführer Patrick Cloppenburg",
+                    "lastname": "Hinrichs",
+                    "name": "Oliver"
+                },
+                "text": " Hinrichs , Oliver , Düsseldorf , * 06.09.1965 , vertretungsberechtigt gemeinsam mit dem Geschäftsführer Patrick Cloppenburg ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "dob": "1967-11-03",
+                    "flag": "vertretungsberechtigt gemeinsam mit dem Geschäftsführer Patrick Cloppenburg",
+                    "lastname": "Dr . Clemens",
+                    "name": "Horst"
+                },
+                "text": " Dr . Clemens , Horst , Düsseldorf , * 11.03.1967 , vertretungsberechtigt gemeinsam mit dem Geschäftsführer Patrick Cloppenburg ."
+            }
+        ]
+    }
+}

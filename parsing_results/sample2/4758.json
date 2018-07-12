@@ -1,0 +1,43 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 5444",
+        "amtsgericht": "Chemnitz",
+        "event_date": "2005-04-08",
+        "event_type": "Neueintragungen",
+        "federal_state": "sn",
+        "full_text": "Amtsgericht Chemnitz Aktenzeichen: HRA 5444 \nBekannt gemacht am: 14.04.2005 09:01 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des  Unternehmensgegenstandes erfolgen ohne Gewähr.\nNeueintragungen\n08.04.2005\n\nDr. Gustl Drechsler GmbH & Co KG, Chemnitz (Leipziger Str. 137 A, 09113 Chemnitz). Kommanditgesellschaft. Jeder persönlich haftende Gesellschafter vertritt einzeln. Persönlich haftender Gesellschafter: Dr. Drechsler Immobilien Gesellschaft mit beschränkter Haftung, Nürnberg (Amtsgericht Nürnberg HRB 1464). Einzelprokura: Dr. Drechsler, Gustl, Kaufmann, Nürnberg. Der Sitz ist von Nürnberg (bisher Amtsgericht Nürnberg HRA 263) nach Chemnitz verlegt.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Dr. Gustl Drechsler GmbH & Co KG",
+        "notice_id": "4758",
+        "posted_on": "2005-04-14",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=4758&land_abk=sn"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a SingleProcuration from  Dr . Drechsler , Gustl , Kaufmann , Nürnberg ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Limited partnership.",
+                "text": "Kommanditgesellschaft ."
+            },
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {},
+                "text": " Dr . Drechsler Immobilien Gesellschaft mit beschränkter Haftung , Nürnberg ( Amtsgericht Nürnberg HRB 1464 ) ."
+            }
+        ]
+    }
+}

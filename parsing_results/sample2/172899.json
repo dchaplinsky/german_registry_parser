@@ -1,0 +1,52 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 10540",
+        "amtsgericht": "Regensburg",
+        "event_date": "2007-05-15",
+        "event_type": "Neueintragungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Regensburg Aktenzeichen: HRB 10540 \nBekannt gemacht am: 08.06.2007 11:04 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nNeueintragungen\n15.05.2007\n\nJOBA Immo GmbH, Regensburg (Großprüfening 29, 93049 Regensburg). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 10.03.2005 mit Nachtrag vom 16.08.2005. Die Gesellschafterversammlung vom 20.04.2007 hat die Änderung der §§ 1 (Sitz, bisher Heilsbronn, Amtsgericht Ansbach HRB 4019) und 11 (Bekanntmachungen) der Satzung beschlossen. Gegenstand des Unternehmens: Die Anmietung, der Ankauf sowie die Vermietung von Gewerbeimmobilien. Die gewerbsmäßige Vermittlung von Immobilien sowie der Nachweis der Gelegenheit zum AbschluI von Verträgen im Sinne des § 34 c GewQ sind nicht Gegenstand des Unternehmens. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Ausgeschieden: Geschäftsführer: Stuber, Bernd, Bad Abbach, *21.06.1972. Ausgeschieden: Geschäftsführer: Michl, Christina, geb. Rappenegger, Regensburg, *07.01.1967, einzelvertretungsberechtigt. Nicht eingetragen: Bekanntmachungsblatt ist nunmehr der elektronische Bundesanzeiger.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "JOBA Immo GmbH",
+        "notice_id": "172899",
+        "posted_on": "2007-06-08",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=172899&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Michl , Christina , geb ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Company with limited liability .",
+                "text": "Gesellschaft mit beschränkter Haftung ."
+            },
+            {
+                "flag": "If only one managing director is appointed, he represents the company alone.",
+                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+            },
+            {
+                "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
+                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bad Abbach",
+                    "dob": "1972-06-21",
+                    "lastname": "Stuber",
+                    "name": "Bernd"
+                },
+                "text": " Stuber , Bernd , Bad Abbach , * 21.06.1972 ."
+            }
+        ]
+    }
+}

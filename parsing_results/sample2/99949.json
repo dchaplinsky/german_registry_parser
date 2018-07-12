@@ -1,0 +1,55 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 16304",
+        "amtsgericht": "Osnabrück",
+        "event_date": "2009-09-10",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Osnabrück Aktenzeichen: HRB 16304 \nBekannt gemacht am: 14.09.2009 22:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n10.09.2009\n\nDialog - Gemeinnützige Gesellschaft für familienorientierte Sozialarbeit mbH, Bad Essen, Bahnhofstr. 1, 49152 Bad Essen.Geschäftsanschrift: Bahnhofstr. 1, 49152 Bad Essen. Nicht mehr Geschäftsführer: Ellmer, Hartmut, Diplom-Sozialarbeiter, Bad Essen. Bestellt als Geschäftsführer: Ellmer, Tim, Bad Essen, *26.11.1971, einzelvertretungsberechtigt. Prokura erloschen: Ellmer, Tim, Bad Essen, *26.11.1971.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Dialog - Gemeinnützige Gesellschaft für familienorientierte Sozialarbeit mbH",
+        "notice_id": "99949",
+        "posted_on": "2009-09-14",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=99949&land_abk=ni"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Ellmer , Hartmut , Diplom - Sozialarbeiter , Bad Essen ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Bahnhofstr ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bad Essen",
+                    "dob": "1971-11-26",
+                    "flag": "sole representation",
+                    "lastname": "Ellmer",
+                    "name": "Tim"
+                },
+                "text": " Ellmer , Tim , Bad Essen , * 26.11.1971 , einzelvertretungsberechtigt ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Bad Essen",
+                    "dob": "1971-11-26",
+                    "lastname": "Ellmer",
+                    "name": "Tim"
+                },
+                "text": " Ellmer , Tim , Bad Essen , * 26.11.1971 ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 27448",
+        "amtsgericht": "Nürnberg",
+        "event_date": "2012-11-22",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Nürnberg Aktenzeichen: HRB 27448   \nBekannt gemacht am: 23.11.2012 12:00 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n22.11.2012\n\nCoorsTek GmbH, Lauf a.d.Pegnitz, Am Winkelsteig 1, 91207 Lauf a.d.Pegnitz. Die Gesellschafterversammlung vom 16.07.2012 hat die Änderung des § 2 Abs. 2 (Gegenstand des Unternehmens) der Satzung beschlossen. Errichtet: Zweigniederlassung/en mit abweichender Firma: CoorsTek Advanced Materials ANCeram - Zweigniederlassung der CoorsTek GmbH, 95463 Bindlach, Geschäftsanschrift: Esbachgraben 21, 95463 Bindlach; CoorsTek Advanced Materials Lauf - Zweigniederlassung der CoorsTek GmbH, 91207 Lauf a.d.Pegnitz, Geschäftsanschrift: Am Winkelsteig 1, 91207 Lauf a.d.Pegnitz; CoorsTek Advanced Materials Moenchengladbach - Zweigniederlassung der CoorsTek GmbH, 41189 Mönchengladbach, Geschäftsanschrift: Nobelstraße 6, 41189 Mönchengladbach. Ausgeschieden: Geschäftsführer: Rask, Steven H., Highlands Ranch, Colorado/USA, *14.11.1969. Bestellt: Geschäftsführer: Baude, Joachim, Mönchengladbach, *04.05.1952. Bestellt: Geschäftsführer: Carlson, Robert, Littleton / USA, *04.11.1973, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Vertretungsbefugnis geändert, nun: Geschäftsführer: Schneider, Andreas, Pegnitz, *12.01.1966. Gesamtprokura gemeinsam mit dem Geschäftsführer Andreas Schneider beschränkt auf die Zweigniederlassung 91207 Lauf a.d.Pegnitz: Fischer, Georg, Heroldsberg, *12.06.1950. Gesamtprokura gemeinsam mit dem Geschäftsführer Andreas Schneider beschränkt auf die Zweigniederlassung 95463 Bindlach: Frank, Dieter, Nürnberg, *14.08.1978.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "CoorsTek GmbH",
+        "notice_id": "645701",
+        "posted_on": "2012-11-23",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=645701&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rask , Steven H . , Highlands Ranch , Colorado / USA , * 14.11.1969 ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Esbachgraben 21 , 95463 Bindlach"
+            },
+            {
+                "label": "address",
+                "text": " Am Winkelsteig 1 , 91207 Lauf a . d . Pegnitz"
+            },
+            {
+                "label": "address",
+                "text": " Nobelstraße 6 , 41189 Mönchengladbach ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Mönchengladbach",
+                    "dob": "1952-04-05",
+                    "lastname": "Baude",
+                    "name": "Joachim"
+                },
+                "text": " Baude , Joachim , Mönchengladbach , * 04.05.1952 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Littleton / USA",
+                    "dob": "1973-04-11",
+                    "flag": "sole representation",
+                    "lastname": "Carlson",
+                    "name": "Robert"
+                },
+                "text": " Carlson , Robert , Littleton / USA , * 04.11.1973 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Pegnitz",
+                    "dob": "1966-12-01",
+                    "lastname": "Schneider",
+                    "name": "Andreas"
+                },
+                "text": " Schneider , Andreas , Pegnitz , * 12.01.1966 ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 61974",
+        "amtsgericht": "Walsrode",
+        "event_date": "2012-08-21",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Walsrode Aktenzeichen: HRA 61974    \nBekannt gemacht am: 24.08.2012 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n21.08.2012\n\nBehrens Grundbesitz GmbH & Co. KG, Rotenburg (Wümme), Bremer Straße 17, 27356 Rotenburg (Wümme). Ausgeschieden als Persönlich haftender Gesellschafter: Klaus Behrens Holding Beteiligungs GmbH, Rotenburg (W.) (Amtsgericht Walsrode HRB 70166). Eingetreten als Persönlich haftender Gesellschafter: Hobero Verwaltungs GmbH, Rotenburg (Wümme) (Amtsgericht Walsrode HRB 203776), mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Behrens Grundbesitz GmbH & Co. KG",
+        "notice_id": "223591",
+        "posted_on": "2012-08-24",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=223591&land_abk=ni"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Hobero Verwaltungs GmbH , Rotenburg ( Wümme ) ( Amtsgericht Walsrode HRB 203776 ) , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {},
+                "text": " Klaus Behrens Holding Beteiligungs GmbH , Rotenburg ( W . ) ( Amtsgericht Walsrode HRB 70166 ) ."
+            }
+        ]
+    }
+}

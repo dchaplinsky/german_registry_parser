@@ -1,0 +1,45 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 110888",
+        "amtsgericht": "Hamburg",
+        "event_date": "2009-12-08",
+        "event_type": "Neueintragungen",
+        "federal_state": "hh",
+        "full_text": "Amtsgericht Hamburg Aktenzeichen: HRA 110888 \nBekannt gemacht am: 09.12.2009 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nNeueintragungen\n08.12.2009\n\nINNCONA GmbH & Co. Achtundsiebzigste Leasingfonds KG, Hamburg, Reimerstwiete 18, 20457 Hamburg.(Handel, Vermietung und Leasing von beweglichen und unbeweglichen Wirtschaftsgütern.).Kommanditgesellschaft. Geschäftsanschrift: Reimerstwiete 18, 20457 Hamburg. Jeder persönlich haftende Gesellschafter vertritt einzeln. Persönlich haftende Gesellschafter können ermächtigt werden, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte vorzunehmen. Ausgeschieden Persönlich haftender Gesellschafter: Inncona Geschäftsführungs GmbH, Enger (AG Bad Oeynhausen HRB 6120). Eingetreten Persönlich haftender Gesellschafter: neko - stocks Hamburg Gesellschaft für Vermögensanlagenberatung mbH, Hamburg (AG Hamburg HRB 34202), mit der Befugnis -auch für jeden Geschäftsführer-, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Der Sitz ist von Enger (bisher AG Bad Oeynhausen HRA 6191) nach Hamburg verlegt.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "INNCONA GmbH & Co. Achtundsiebzigste Leasingfonds KG",
+        "notice_id": "97549",
+        "posted_on": "2009-12-09",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=97549&land_abk=hh"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  neko - stocks Hamburg Gesellschaft für Vermögensanlagenberatung mbH , Hamburg ( AG Hamburg HRB 34202 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Limited partnership.",
+                "text": "Kommanditgesellschaft ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Reimerstwiete 18 , 20457 Hamburg ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {},
+                "text": " Inncona Geschäftsführungs GmbH , Enger ( AG Bad Oeynhausen HRB 6120 ) ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 3721",
+        "amtsgericht": "Hof",
+        "event_date": "2005-01-04",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Hof Aktenzeichen: HRA 3721 \nBekannt gemacht am: 14.01.2005 08:09 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n04.01.2005\n\nHassmann KG, Fachgroßhandel für Haustechnik, Hof (Leopoldstraße 50, 95030 Hof). Eingetreten Persönlich haftender Gesellschafter: Heinrich, Rainer, Mitterteich, *03.10.1948, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Ausgeschieden Persönlich haftender Gesellschafter: Schmidt, Erich, Regenstauf, *01.05.1945. Prokura erloschen: Heinrich, Rainer, Mitterteich, *03.10.1948. Einzelprokura: Schmidt, Erich, Regenstauf, *01.05.1945.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Hassmann KG",
+        "notice_id": "2513",
+        "posted_on": "2005-01-14",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=2513&land_abk=by"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Mitterteich",
+                    "dob": "1948-03-10",
+                    "flag": "sole representation",
+                    "lastname": "Heinrich",
+                    "name": "Rainer"
+                },
+                "text": " Heinrich , Rainer , Mitterteich , * 03.10.1948 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Regenstauf",
+                    "dob": "1945-01-05",
+                    "lastname": "Schmidt",
+                    "name": "Erich"
+                },
+                "text": " Schmidt , Erich , Regenstauf , * 01.05.1945 ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Mitterteich",
+                    "dob": "1948-03-10",
+                    "lastname": "Heinrich",
+                    "name": "Rainer"
+                },
+                "text": " Heinrich , Rainer , Mitterteich , * 03.10.1948 ."
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Regenstauf",
+                    "dob": "1945-01-05",
+                    "lastname": "Schmidt",
+                    "name": "Erich"
+                },
+                "text": " Schmidt , Erich , Regenstauf , * 01.05.1945 ."
+            }
+        ]
+    }
+}

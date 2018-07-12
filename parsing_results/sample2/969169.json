@@ -1,0 +1,80 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 6371",
+        "amtsgericht": "Bayreuth",
+        "event_date": "2016-04-22",
+        "event_type": "Neueintragungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Bayreuth Aktenzeichen: HRB 6371 \nBekannt gemacht am: 23.04.2016 02:03 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nNeueintragungen\n22.04.2016\n\nHRB 6371: VR-Projektverwaltung GmbH, Thurnau, Hutschdorfer Str. 2 a, 95349 Thurnau. Gesellschaft mit beschränkter Haftung. Satzung vom 6.11.2014. Die Gesellschafterversammlung vom 9.2.2016 hat die Änderung des § 1 (Firma, Sitz der Gesellschaft, bisher Schleswig, Amtsgericht Flensburg HRB 10783 FL,Geschäftsjahr) der Satzung beschlossen. Geschäftsanschrift: Hutschdorfer Str. 2 a, 95349 Thurnau. Gegenstand des Unternehmens: ist die Verwaltung eigenen Vermögens und die Beteiligung an anderen Unternehmen sowie die Übernahme der persönlichen Haftung und der Geschäftsführung bei anderen Unternehmen, insbesondere bei Kommanditgesellschaften. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Hansen, Oke, Husum, *24.09.1977, mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen. Geschäftsführer: Steffen, Sascha, Schleswig, *15.02.1972, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 6371: VR-Projektverwaltung GmbH",
+        "notice_id": "969169",
+        "posted_on": "2016-04-23",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=969169&land_abk=by"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "Company with limited liability .",
+                "text": "Gesellschaft mit beschränkter Haftung ."
+            },
+            {
+                "flag": "If only one managing director is appointed, he represents the company alone.",
+                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+            },
+            {
+                "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
+                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+            },
+            {
+                "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Hutschdorfer Str ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Husum",
+                    "dob": "1977-09-24",
+                    "flag": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen",
+                    "lastname": "Hansen",
+                    "name": "Oke"
+                },
+                "text": " Hansen , Oke , Husum , * 24.09.1977 , mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Schleswig",
+                    "dob": "1972-02-15",
+                    "flag": "sole representation",
+                    "lastname": "Steffen",
+                    "name": "Sascha"
+                },
+                "text": " Steffen , Sascha , Schleswig , * 15.02.1972 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

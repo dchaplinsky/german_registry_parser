@@ -1,0 +1,45 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 105072",
+        "amtsgericht": "München",
+        "event_date": "2006-01-30",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 105072 \nBekannt gemacht am: 01.02.2006 14:55 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n30.01.2006\n\nBODEN und WAND GmbH Renovierungsvermittlung, München (Pelkovenstr. 41, 80992 München). Ausgeschieden: Geschäftsführer: Süßmeier, Heinz, Kaufmann, Krailling. Bestellt: Geschäftsführer: Riepl, Peter, München, *18.12.1954, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "BODEN und WAND GmbH Renovierungsvermittlung",
+        "notice_id": "78553",
+        "posted_on": "2006-02-01",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=78553&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Süßmeier , Heinz , Kaufmann , Krailling ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1954-12-18",
+                    "flag": "sole representation",
+                    "lastname": "Riepl",
+                    "name": "Peter"
+                },
+                "text": " Riepl , Peter , München , * 18.12.1954 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

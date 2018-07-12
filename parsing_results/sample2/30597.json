@@ -1,0 +1,42 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 1624",
+        "amtsgericht": "Iserlohn",
+        "event_date": "2005-04-14",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Iserlohn Aktenzeichen: HRA 1624 \nBekannt gemacht am: 29.04.2005 09:58 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n14.04.2005\n\nSport Schmidt -Inhaber: Ulrich Schmidt, Iserlohn (Wermingser Straße 54, 58636 Iserlohn). Die Firma ist geändert, neue Firma: Sport Schmidt - Inhaber Ulrike Schmidt e.K. Nicht mehr Inhaber: Schmidt, Ulrich, Iserlohn. Nunmehr Inhaber: Schmidt, Ulrike, Iserlohn, *14.01.1970. Der Übergang der in dem Betriebe des Geschäfts entstandenen Verbindlichkeiten und Forderungen ist beim Erwerb des Geschäfts durch den neuen Inhaber ausgeschlossen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Sport Schmidt -Inhaber: Ulrich Schmidt",
+        "notice_id": "30597",
+        "posted_on": "2005-04-29",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=30597&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Ulrich Schmidt , Iserlohn ( Wermingser Straße 54 , 58636 Iserlohn ) ."
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Schmidt , Ulrich , Iserlohn ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Iserlohn",
+                    "dob": "1970-01-14",
+                    "lastname": "Schmidt",
+                    "name": "Ulrike"
+                },
+                "text": " Schmidt , Ulrike , Iserlohn , * 14.01.1970 ."
+            }
+        ]
+    }
+}

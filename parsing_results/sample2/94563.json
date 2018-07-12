@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 7720",
+        "amtsgericht": "Chemnitz",
+        "event_date": "2010-08-04",
+        "event_type": "Veränderungen",
+        "federal_state": "sn",
+        "full_text": "Amtsgericht Chemnitz Aktenzeichen: HRB 7720 \nBekannt gemacht am: 05.08.2010 12:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des  Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n04.08.2010\n\nWeidegut Schlettau GmbH, Schlettau, Schwarzenberger Straße 45, 09487 Schlettau.Ausgeschieden: Geschäftsführer: Schröder, Frank, Dipl.-Landwirt, Schlettau. Bestellt: Geschäftsführer: Theumer, Raphael, Annaberg-Buchholz OT Cunersdorf, *21.11.1982.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Weidegut Schlettau GmbH",
+        "notice_id": "94563",
+        "posted_on": "2010-08-05",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=94563&land_abk=sn"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Schröder , Frank , Dipl . - Landwirt , Schlettau ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Annaberg - Buchholz OT Cunersdorf",
+                    "dob": "1982-11-21",
+                    "lastname": "Theumer",
+                    "name": "Raphael"
+                },
+                "text": " Theumer , Raphael , Annaberg - Buchholz OT Cunersdorf , * 21.11.1982 ."
+            }
+        ]
+    }
+}

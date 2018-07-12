@@ -1,0 +1,59 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 746",
+        "amtsgericht": "Traunstein",
+        "event_date": "2015-12-14",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Traunstein Aktenzeichen: HRB 746 \nBekannt gemacht am: 15.12.2015 02:02 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n14.12.2015\n\nHRB 746: ANITA Dr. Helbig GmbH, Brannenburg/Inn, Grafenstr. 23, 83098 Brannenburg. Bestellt: Geschäftsführer: Weber-Unger, Georg, Kufstein / Österreich, *21.09.1979. Bestellt: Geschäftsführer: Weber-Unger, Johannes, Kufstein / Österreich, *16.08.1982, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Personendaten von Amts wegen ergänzt: Geschäftsführer: Weber-Unger, Georg, Nußdorf a. Inn, *05.03.1950, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 746: ANITA Dr. Helbig GmbH",
+        "notice_id": "931486",
+        "posted_on": "2015-12-15",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=931486&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Weber - Unger , Georg , Nußdorf a ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Kufstein / Österreich",
+                    "dob": "1979-09-21",
+                    "lastname": "Weber - Unger",
+                    "name": "Georg"
+                },
+                "text": " Weber - Unger , Georg , Kufstein / Österreich , * 21.09.1979 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Kufstein / Österreich",
+                    "dob": "1982-08-16",
+                    "flag": "sole representation",
+                    "lastname": "Weber - Unger",
+                    "name": "Johannes"
+                },
+                "text": " Weber - Unger , Johannes , Kufstein / Österreich , * 16.08.1982 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

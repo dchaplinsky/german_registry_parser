@@ -1,0 +1,53 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 2482",
+        "amtsgericht": "Hildesheim",
+        "event_date": "2010-06-29",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Hildesheim Aktenzeichen: HRB 2482 \nBekannt gemacht am: 30.06.2010 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n29.06.2010\n\nBode GmbH - Die Kunst zu Wohnen, Hildesheim, Linnenkamp 40, 31137 Hildesheim.Die Gesellschaft ist aufgelöst.Allgemeine Vertretungsregelung: Ist nur ein Liquidator bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Liquidatoren bestellt, so wird die Gesellschaft durch die Liquidatoren gemeinsam vertreten. Nicht mehr Geschäftsführer: Bode, Hans-Benno, Malermeister, Hildesheim; Bode, Martin, Malermeister, Hildesheim. Geändert, nun: Liquidator: Bode, Martin, Everode, *19.02.1968, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Prokura erloschen: Bode, Hannelore, Hildesheim.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Bode GmbH - Die Kunst zu Wohnen",
+        "notice_id": "132048",
+        "posted_on": "2010-06-30",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=132048&land_abk=ni"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Bode , Hans - Benno , Malermeister , Hildesheim"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Bode , Hannelore , Hildesheim ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Everode",
+                    "dob": "1968-02-19",
+                    "flag": "sole representation",
+                    "lastname": "Bode",
+                    "name": "Martin"
+                },
+                "text": " Bode , Martin , Everode , * 19.02.1968 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

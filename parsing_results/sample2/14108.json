@@ -1,0 +1,55 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 111046",
+        "amtsgericht": "Stendal",
+        "event_date": "2008-01-11",
+        "event_type": "Veränderungen",
+        "federal_state": "st",
+        "full_text": "Amtsgericht Stendal Aktenzeichen: HRB 111046 \nBekannt gemacht am: 14.01.2008 12:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n11.01.2008\n\nBau-Partner Bauträger Baubetreuungs- und Verwaltungs- Gesellschaft mit beschränkter Haftung, Magdeburg, wohin der Sitz von Preußisch-Oldendorf verlegt ist (Magdeburg, wohin der Sitz von Preußisch-Oldendorf verlegt ist). Bestellt: Geschäftsführer: Graetz, Michael, Bielefeld, *01.04.1955, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Ausgeschieden: Geschäftsführer: Werner, Elke, geb. Alrutz, Berlin, *09.11.1954. Prokura erloschen: Alrutz, Klaus, Herford, *22.12.1956; Stenger, Reinhard, Bielefeld, *14.07.1955.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Bau-Partner Bauträger Baubetreuungs- und Verwaltungs- Gesellschaft mit beschränkter Haftung",
+        "notice_id": "14108",
+        "posted_on": "2008-01-14",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=14108&land_abk=st"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Werner , Elke , geb ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bielefeld",
+                    "dob": "1955-01-04",
+                    "flag": "sole representation",
+                    "lastname": "Graetz",
+                    "name": "Michael"
+                },
+                "text": " Graetz , Michael , Bielefeld , * 01.04.1955 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Herford",
+                    "dob": "1956-12-22",
+                    "lastname": "Alrutz",
+                    "name": "Klaus"
+                },
+                "text": " Alrutz , Klaus , Herford , * 22.12.1956"
+            }
+        ]
+    }
+}

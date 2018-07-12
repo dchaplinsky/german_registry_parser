@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 43862",
+        "amtsgericht": "München",
+        "event_date": "2010-11-02",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRA 43862 \nBekannt gemacht am: 03.11.2010 12:00 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n02.11.2010\n\nHans Schuhbauer, Hausham, Landkreis Miesbach, Alte Tegernseer Str. 39, 83734 Hausham.Firma geändert, nun: Schuhbauer eK, Inhaberin Doris Fiedler. Geschäftsanschrift: Alte Tegernseer Str. 39, 83734 Hausham. Nicht mehr Inhaber: Schuhbauer, Johann, Schreinermeister u.Möbelhändl., Hausham. Neuer Inhaber: Fiedler, Doris, Hausham, *07.01.1944. Der Übergang der in dem Betrieb des Geschäfts begründeten Forderungen und Verbindlichkeiten ist bei dem Erwerb des Geschäfts durch den neuen Inhaber ausgeschlossen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Hans Schuhbauer",
+        "notice_id": "454642",
+        "posted_on": "2010-11-03",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=454642&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Schuhbauer , Johann , Schreinermeister u . Möbelhändl . , Hausham ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Alte Tegernseer Str ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Hausham",
+                    "dob": "1944-07-01",
+                    "lastname": "Fiedler",
+                    "name": "Doris"
+                },
+                "text": " Fiedler , Doris , Hausham , * 07.01.1944 ."
+            }
+        ]
+    }
+}

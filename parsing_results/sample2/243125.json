@@ -1,0 +1,48 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 204",
+        "amtsgericht": "Bad Hersfeld",
+        "event_date": "2011-07-22",
+        "event_type": "Veränderungen",
+        "federal_state": "he",
+        "full_text": "Amtsgericht Bad Hersfeld Aktenzeichen: HRA 204   \nBekannt gemacht am: 08.08.2011 22:00 Uhr\n\n\n\n\nVeröffentlichungen des Amtsgerichts Bad Hersfeld\r\r\rIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n22.07.2011\n\nSchuh-Gölitz, Bad Hersfeld, Klausstraße 3, 36251 Bad Hersfeld. Einzelkaufmann. Schuh-Gölitz, Inh. U. Broschinski eK. Der Inhaber handelt allein. Eingetreten als Inhaber: Broschinski, Udo, Kirchheim, *19.08.1964. Nicht mehr Inhaber: Broschinski, Ute, Kauffrau, Schenklengsfeld-Wippershain.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Schuh-Gölitz",
+        "notice_id": "243125",
+        "posted_on": "2011-08-08",
+        "rechtsform": "Einzelkaufmann",
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=243125&land_abk=he"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Broschinski , Ute , Kauffrau , Schenklengsfeld - Wippershain ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Sole trader",
+                "text": "Einzelkaufmann"
+            },
+            {
+                "flag": "The owner is acting alone",
+                "text": "Der Inhaber handelt allein"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Kirchheim",
+                    "dob": "1964-08-19",
+                    "lastname": "Broschinski",
+                    "name": "Udo"
+                },
+                "text": " Broschinski , Udo , Kirchheim , * 19.08.1964 ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 4648",
+        "amtsgericht": "Recklinghausen",
+        "event_date": "2008-07-24",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Recklinghausen Aktenzeichen: HRB 4648 \nBekannt gemacht am: 25.07.2008 12:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n24.07.2008\n\nJaust Anlagentechnik GmbH, Oer-Erkenschwick (Winkelfeld 27, 45739 Oer-Erkenschwick). Nicht mehr Geschäftsführer: Jaust, Herbert, Techniker, Recklinghausen, *02.12.1943. Neu bestellt: Geschäftsführer: Rosenkilde, Carsten, Hamburg, *30.04.1963, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Jaust Anlagentechnik GmbH",
+        "notice_id": "343461",
+        "posted_on": "2008-07-25",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=343461&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Jaust , Herbert , Techniker , Recklinghausen , * 02.12.1943 ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1963-04-30",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Rosenkilde",
+                    "name": "Carsten"
+                },
+                "text": " Rosenkilde , Carsten , Hamburg , * 30.04.1963 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 154060 B",
+        "amtsgericht": "Charlottenburg (Berlin)",
+        "event_date": "2015-04-01",
+        "event_type": "Veränderungen",
+        "federal_state": "be",
+        "full_text": "Amtsgericht Charlottenburg (Berlin) Aktenzeichen: HRB 154060 B \nBekannt gemacht am: 02.04.2015 13:37 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nVeränderungen\n01.04.2015\n\nHRB 154060 B: Spry Solutions GmbH, Berlin, Komturstraße 18, 12099 Berlin. Vertretungsregelung: Ist ein Liquidator bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Liquidatoren bestellt, wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten.  Änderung zu Nr. 1: nunmehr; Liquidator: Diebitz, Manfred, *03.06.1952, Lübeck-Travemünde; mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Nicht mehr Geschäftsführer: 2. Würmli, Marcel; Prokura: Nicht mehr Prokurist: 1. Dr. Hilgarth, Bernd; Rechtsverhaeltnis: Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Nicht mehr Geschäftsführer: 2. Würmli",
+        "notice_id": "327013",
+        "posted_on": "2015-04-02",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=327013&land_abk=be"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Diebitz , Manfred , * 03.06.1952 , Lübeck - Travemünde"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
+                "text": "Sind mehrere Liquidatoren bestellt , wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten ."
+            },
+            {
+                "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            },
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "WHUT",
+                "text": " Spry Solutions GmbH , Berlin , Komturstraße 18 , 12099 Berlin ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " 2 ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 441208",
+        "amtsgericht": "Mannheim",
+        "event_date": "2011-12-22",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Mannheim Aktenzeichen: HRB 441208   \nBekannt gemacht am: 23.12.2011 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n22.12.2011\n\nMedia Projekt Service GmbH, Mannheim, Im oberen Falltor 20, 68239 Mannheim. Bestellt als Geschäftsführer: Pflanz, Susanne, geb. Müller, Dudenhofen, *09.05.1964, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht mehr Geschäftsführer: Pflanz, Thomas, Dudenhofen, *24.10.1960. Einzelprokura: Szanto-Kaiser, Sofia, geb. Szanto, Mannheim, *21.12.1974.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Media Projekt Service GmbH",
+        "notice_id": "280593",
+        "posted_on": "2011-12-23",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=280593&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Pflanz , Susanne , geb ."
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a SingleProcuration from  Szanto - Kaiser , Sofia , geb ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Dudenhofen",
+                    "dob": "1960-10-24",
+                    "lastname": "Pflanz",
+                    "name": "Thomas"
+                },
+                "text": " Pflanz , Thomas , Dudenhofen , * 24.10.1960 ."
+            }
+        ]
+    }
+}

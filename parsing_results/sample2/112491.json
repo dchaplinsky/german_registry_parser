@@ -1,0 +1,49 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 110055",
+        "amtsgericht": "Lüneburg",
+        "event_date": "2010-01-05",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Lüneburg Aktenzeichen: HRB 110055 \nBekannt gemacht am: 07.01.2010 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n05.01.2010\n\nLebensmittelvertrieb Walter Graf Gesellschaft mit beschränkter Haftung, Seevetal, Kirchstraße 26, 21218 Seevetal.Geschäftsanschrift: Kirchstraße 26, 21218 Seevetal. Die Gesellschaft ist aufgelöst. Ist ein Liquidator bestellt, vertritt er allein. Sind mehrere Liquidatoren bestellt, vertreten jeweils zwei Liquidatoren die Gesellschaft gemeinsam. Geändert, nun: Liquidator: Graf, Walter, Seevetal, *14.05.1945, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Lebensmittelvertrieb Walter Graf Gesellschaft mit beschränkter Haftung",
+        "notice_id": "112491",
+        "posted_on": "2010-01-07",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=112491&land_abk=ni"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Kirchstraße 26 , 21218 Seevetal ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Seevetal",
+                    "dob": "1945-05-14",
+                    "flag": "sole representation",
+                    "lastname": "Graf",
+                    "name": "Walter"
+                },
+                "text": " Graf , Walter , Seevetal , * 14.05.1945 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

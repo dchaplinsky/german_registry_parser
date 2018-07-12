@@ -1,0 +1,59 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 74948",
+        "amtsgericht": "München",
+        "event_date": "2006-12-14",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 74948 \nBekannt gemacht am: 22.12.2006 15:37 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n14.12.2006\n\nMamiya Cameravertrieb u. Service f. Deutschland GmbH, München (Gollierstr. 70, 80339 München). Die Gesellschafterversammlung vom 10.08.2006 hat die Umstellung des Stammkapitals auf Euro sowie gleichzeitig eine Erhöhung des Stammkapitals um 18,66 EUR und die Änderung der §§ 3 (Stammkapital), 1 (Sitz; nur redaktionell), 5 (Geschäftsführung und Vertretung), 7 (Gesellschafterbeschlüsse), 8 (Jahresabschluß), 9 (Gewinnverteilung und Ausschüttung), 16 (Wettbewerbsverbot) und 18 (Schlußbestimmungen) der Satzung beschlossen. Neues Stammkapital: 230.100,00 EUR. Ausgeschieden: Geschäftsführer: Rabe, Hansjörgen, genannt Jörgen, Kaufmann, München. Bestellt: Geschäftsführer: Dinkel, Christian, Berg, *18.08.1970, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Geändert, nun: Geschäftsführer: Dinkel, Peter, München, *14.05.1942; Dinkel-Lenze, Eva, geb. Dinkel, München, *07.04.1938, jeweils einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht eingetragen: Bekanntmachungsblatt ist nunmehr der elektronische Bundesanzeiger.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Mamiya Cameravertrieb u. Service f. Deutschland GmbH",
+        "notice_id": "139177",
+        "posted_on": "2006-12-22",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=139177&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rabe , Hansjörgen , genannt Jörgen , Kaufmann , München ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berg",
+                    "dob": "1970-08-18",
+                    "flag": "sole representation",
+                    "lastname": "Dinkel",
+                    "name": "Christian"
+                },
+                "text": " Dinkel , Christian , Berg , * 18.08.1970 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1942-05-14",
+                    "lastname": "Dinkel",
+                    "name": "Peter"
+                },
+                "text": " Dinkel , Peter , München , * 14.05.1942"
+            }
+        ]
+    }
+}

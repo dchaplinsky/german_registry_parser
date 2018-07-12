@@ -1,0 +1,78 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 29063",
+        "amtsgericht": "Nürnberg",
+        "event_date": "2012-11-08",
+        "event_type": "Neueintragungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Nürnberg Aktenzeichen: HRB 29063   \nBekannt gemacht am: 09.11.2012 12:00 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nNeueintragungen\n08.11.2012\n\nFFT Fahrzeugbau- und Fahrzeugtechnik GmbH, Nürnberg, Stephanstraße 49, 90478 Nürnberg. Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 11.08.1994, zuletzt geändert am 08.09.1995. Die Gesellschafterversammlung vom 28.08.2012 hat die Änderung des § 1 (Sitz, bisher Mainz, Amtsgericht Mainz HRB 5831) der Satzung beschlossen. Geschäftsanschrift: Stephanstraße 49, 90478 Nürnberg. Gegenstand des Unternehmens: Die Entwicklung, Fertigung, Instandsetzung und Vermarktung von Fahrzeugen und Fahrzeugkomponenten aller Art. Stammkapital: 50.000,00 DEM. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Ausgeschieden: Geschäftsführer: Andres, Norbert, Bexbach, *01.01.1951. Bestellt: Geschäftsführer: Schmidt, Günther, Nürnberg, *11.03.1962. Prokura erloschen: Kraushaar, Horst, St. Wendel/Hoof. Gesamtprokura gemeinsam mit einem Geschäftsführer oder einem anderen Prokuristen: Drexler, Jochen, Röthenbach a.d. Pegnitz, *10.11.1962.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "FFT Fahrzeugbau- und Fahrzeugtechnik GmbH",
+        "notice_id": "642404",
+        "posted_on": "2012-11-09",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=642404&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Kraushaar , Horst , St . Wendel / Hoof ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Company with limited liability .",
+                "text": "Gesellschaft mit beschränkter Haftung ."
+            },
+            {
+                "flag": "If only one managing director is appointed, he represents the company alone.",
+                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+            },
+            {
+                "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
+                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Stephanstraße 49 , 90478 Nürnberg ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bexbach",
+                    "dob": "1951-01-01",
+                    "lastname": "Andres",
+                    "name": "Norbert"
+                },
+                "text": " Andres , Norbert , Bexbach , * 01.01.1951 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Nürnberg",
+                    "dob": "1962-11-03",
+                    "lastname": "Schmidt",
+                    "name": "Günther"
+                },
+                "text": " Schmidt , Günther , Nürnberg , * 11.03.1962 ."
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Röthenbach a . d . Pegnitz",
+                    "dob": "1962-10-11",
+                    "lastname": "Drexler",
+                    "name": "Jochen"
+                },
+                "text": " Drexler , Jochen , Röthenbach a . d . Pegnitz , * 10.11.1962 ."
+            }
+        ]
+    }
+}

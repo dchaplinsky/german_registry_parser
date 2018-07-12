@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 11392",
+        "amtsgericht": "Aachen",
+        "event_date": "2016-11-04",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Aachen Aktenzeichen: HRB 11392 \nBekannt gemacht am: 04.11.2016 20:01 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n04.11.2016\n\nHRB 11392: ESW Röhrenwerke GmbH, Eschweiler, Auestr. 25, 52249 Eschweiler. Die Gesellschaft wird fortgesetzt. Bestellt als Geschäftsführer: Flaborea, Giuseppe, Concordia Sagittaria, Venezia / Italien, *19.07.1970; Giacomini, Giuseppe, Piombino (Livorno) / Italien, *28.09.1961; Kauls, Armin, Meerbusch, *23.08.1978; Magistretti, Michele, Talmassons (Udine) / Italien, *06.08.1985, jeweils mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht mehr Geschäftsführer: Lenzen, Herbert, Eschweiler, *29.12.1942.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 11392: ESW Röhrenwerke GmbH",
+        "notice_id": "1341562",
+        "posted_on": "2016-11-04",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1341562&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Flaborea , Giuseppe , Concordia Sagittaria , Venezia / Italien , * 19.07.1970"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Eschweiler",
+                    "dob": "1942-12-29",
+                    "lastname": "Lenzen",
+                    "name": "Herbert"
+                },
+                "text": " Lenzen , Herbert , Eschweiler , * 29.12.1942 ."
+            }
+        ]
+    }
+}

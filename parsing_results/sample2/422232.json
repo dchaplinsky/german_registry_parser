@@ -1,0 +1,45 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 32420",
+        "amtsgericht": "Düsseldorf",
+        "event_date": "2009-03-31",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Düsseldorf Aktenzeichen: HRB 32420 \nBekannt gemacht am: 07.04.2009 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n31.03.2009\n\nLIV-Nordrhein-Augenoptik-Service GmbH, Düsseldorf, Stresemannstr. 46, 40210 Düsseldorf.Geschäftsanschrift: Stresemannstr. 46, 40210 Düsseldorf. Nicht mehr Geschäftsführer: Dr. Guddorf, Rolf, Diplom-Volkswirt, Düsseldorf, *01.01.1900. Bestellt als Geschäftsführer: Herburg, Stefan, Altena, *14.11.1966, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "LIV-Nordrhein-Augenoptik-Service GmbH",
+        "notice_id": "422232",
+        "posted_on": "2009-04-07",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=422232&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Dr . Guddorf , Rolf , Diplom - Volkswirt , Düsseldorf , * 01.01.1900 ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Stresemannstr ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Altena",
+                    "dob": "1966-11-14",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Herburg",
+                    "name": "Stefan"
+                },
+                "text": " Herburg , Stefan , Altena , * 14.11.1966 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ]
+    }
+}

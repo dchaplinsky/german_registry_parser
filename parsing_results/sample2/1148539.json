@@ -1,0 +1,49 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 12155",
+        "amtsgericht": "Nürnberg",
+        "event_date": "2018-02-14",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Nürnberg Aktenzeichen: HRB 12155 \nBekannt gemacht am: 15.02.2018 02:06 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n14.02.2018\n\nHRB 12155: TD Verwaltungs-GmbH, Nürnberg, Stephanstr. 49, 90478 Nürnberg. Ausgeschieden: Geschäftsführer: Diehl, Thomas, Diplom-Ingenieur, Nürnberg. Bestellt: Geschäftsführer: Dr. Diehl, Alexander, Sachsen b. Ansbach, *02.05.1978, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Personendaten geändert, nun: Gesamtprokura gemeinsam mit einem Geschäftsführer oder einem anderen Prokuristen: Böhm, Ulrike, geb. Marx, Fürth, *15.08.1962.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 12155: TD Verwaltungs-GmbH",
+        "notice_id": "1148539",
+        "posted_on": "2018-02-15",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1148539&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Diehl , Thomas , Diplom - Ingenieur , Nürnberg ."
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a CommonProcuration from  Böhm , Ulrike , geb ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Sachsen b . Ansbach",
+                    "dob": "1978-02-05",
+                    "flag": "sole representation",
+                    "lastname": "Dr . Diehl",
+                    "name": "Alexander"
+                },
+                "text": " Dr . Diehl , Alexander , Sachsen b . Ansbach , * 02.05.1978 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

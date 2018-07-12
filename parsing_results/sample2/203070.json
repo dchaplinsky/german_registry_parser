@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 1819",
+        "amtsgericht": "Braunschweig",
+        "event_date": "2012-02-06",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Braunschweig Aktenzeichen: HRB 1819   \nBekannt gemacht am: 22.02.2012 22:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n06.02.2012\n\nVolkswagen Bank Gesellschaft mit beschränkter Haftung, Braunschweig, Gifhorner Straße 57, 38112 Braunschweig. Bestellt als Geschäftsführer: Bandmann, Anthony, Weinstadt, *06.07.1972. Prokura erloschen: Busse, Henning, Braunschweig.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Volkswagen Bank Gesellschaft mit beschränkter Haftung",
+        "notice_id": "203070",
+        "posted_on": "2012-02-22",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=203070&land_abk=ni"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Busse , Henning , Braunschweig ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Weinstadt",
+                    "dob": "1972-06-07",
+                    "lastname": "Bandmann",
+                    "name": "Anthony"
+                },
+                "text": " Bandmann , Anthony , Weinstadt , * 06.07.1972 ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 245243",
+        "amtsgericht": "Stuttgart",
+        "event_date": "2007-03-05",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Stuttgart Aktenzeichen: HRB 245243 \nBekannt gemacht am: 12.03.2007 09:41 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n05.03.2007\n\nTROY GmbH, Herrenberg (c/o Steuerberater Bernd Streckmann, Bahnstr. 14, 40878 Ratingen). Bestellt als Liquidator: Streckmann, Bernd, Ratingen, *31.05.1966. Nicht mehr Geschäftsführer: Dirk, Brian P., California (USA), *29.02.1964. Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "TROY GmbH",
+        "notice_id": "12960",
+        "posted_on": "2007-03-12",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=12960&land_abk=bw"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Ratingen",
+                    "dob": "1966-05-31",
+                    "lastname": "Streckmann",
+                    "name": "Bernd"
+                },
+                "text": " Streckmann , Bernd , Ratingen , * 31.05.1966 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "California ( USA )",
+                    "dob": "1964-02-29",
+                    "lastname": "Dirk",
+                    "name": "Brian P"
+                },
+                "text": " Dirk , Brian P . , California ( USA ) , * 29.02.1964 ."
+            }
+        ]
+    }
+}

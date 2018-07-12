@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 155744",
+        "amtsgericht": "München",
+        "event_date": "2005-04-20",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 155744 \nBekannt gemacht am: 27.04.2005 14:31 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n20.04.2005\n\nBlitz 04-162 GmbH, München (Kaistr. 20, 40221 Düsseldorf). Die Gesellschafterversammlung vom 25.02.2005 hat die Änderung der §§ 1 (Firma) und 4 (Gegenstand des Unternehmens) der Satzung beschlossen. Neue Firma: Web Reservations GmbH. Neuer Gegenstand: Betrieb eines Hotelbuchungssystems, Durchführung sämtlicher damit in Zusammenhang stehender Geschäfte und Erbringung sämtlicher damit in Zusammenhang stehender Dienstleistungen. Ausgeschieden Geschäftsführer: Liebera, Nicole, München, *07.06.1969. Bestellt Geschäftsführer: Mooney, Feargal Brian, Clane, Co. Kildare/Irland, *30.08.1969, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Blitz 04-162 GmbH",
+        "notice_id": "23824",
+        "posted_on": "2005-04-27",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=23824&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Mooney , Feargal Brian , Clane , Co ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1969-07-06",
+                    "lastname": "Liebera",
+                    "name": "Nicole"
+                },
+                "text": " Liebera , Nicole , München , * 07.06.1969 ."
+            }
+        ]
+    }
+}

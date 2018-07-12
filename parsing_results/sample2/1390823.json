@@ -1,0 +1,42 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 2552",
+        "amtsgericht": "Moenchengladbach",
+        "event_date": "2017-03-15",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Moenchengladbach Aktenzeichen: HRB 2552 \nBekannt gemacht am: 15.03.2017 20:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n15.03.2017\n\nHRB 2552: Willy Niklas GmbH Apparatebau, Mönchengladbach, Dohrweg 55, 41066 Mönchengladbach. Bestellt als Geschäftsführer: Reiter, Georg, Altdorf, *26.01.1964; Reiter, Johann, Bodenkirchen, *26.06.1969, jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht mehr Geschäftsführer: Niklas, Willy, Korschenbroich. Prokura erloschen: Niklas, Ursula, Mönchengladbach.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 2552: Willy Niklas GmbH Apparatebau",
+        "notice_id": "1390823",
+        "posted_on": "2017-03-15",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1390823&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Niklas , Willy , Korschenbroich ."
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Niklas , Ursula , Mönchengladbach ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Altdorf",
+                    "dob": "1964-01-26",
+                    "lastname": "Reiter",
+                    "name": "Georg"
+                },
+                "text": " Reiter , Georg , Altdorf , * 26.01.1964"
+            }
+        ]
+    }
+}

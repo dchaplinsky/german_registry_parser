@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 3794",
+        "amtsgericht": "Steinfurt",
+        "event_date": "2005-12-19",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Steinfurt Aktenzeichen: HRB 3794 \nBekannt gemacht am: 02.01.2006 09:50 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n19.12.2005\n\nMaschinen- und Apparatebau Kersting GmbH, Rheine (Birkenallee 161, 48429 Rheine). Nicht mehr Geschäftsführer: Kersting, Josef, Rheine, *07.02.1941. Bestellt als Geschäftsführer: Kersting, Anna, geb. Michel, Rheine, *21.11.1939; Kersting, Frank, Rheine, *01.09.1970, jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Maschinen- und Apparatebau Kersting GmbH",
+        "notice_id": "93014",
+        "posted_on": "2006-01-02",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=93014&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Kersting , Anna , geb ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Rheine",
+                    "dob": "1941-07-02",
+                    "lastname": "Kersting",
+                    "name": "Josef"
+                },
+                "text": " Kersting , Josef , Rheine , * 07.02.1941 ."
+            }
+        ]
+    }
+}

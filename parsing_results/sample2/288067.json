@@ -1,0 +1,51 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 64889",
+        "amtsgericht": "München",
+        "event_date": "2008-12-15",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 64889 \nBekannt gemacht am: 17.12.2008 12:00 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n15.12.2008\n\nF & V Planconsult Gesellschaft für Finanzberatung und Vermögensplanung m.b.H., München, Nymphenburger Str. 111, 80636 München.Geschäftsanschrift: Nymphenburger Str. 111, 80636 München. Ausgeschieden: Geschäftsführer: Dr. Opderbeck, Kurt- Bernd, Diplom-Kaufmann, München. Bestellt: Geschäftsführer: Opderbeck, Alexandra Christiana, München, *27.02.1952, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "F & V Planconsult Gesellschaft für Finanzberatung und Vermögensplanung m.b.H.",
+        "notice_id": "288067",
+        "posted_on": "2008-12-17",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=288067&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Dr . Opderbeck , Kurt - Bernd , Diplom - Kaufmann , München ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Nymphenburger Str ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1952-02-27",
+                    "flag": "sole representation",
+                    "lastname": "Opderbeck",
+                    "name": "Alexandra Christiana"
+                },
+                "text": " Opderbeck , Alexandra Christiana , München , * 27.02.1952 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

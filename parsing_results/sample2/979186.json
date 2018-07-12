@@ -1,0 +1,39 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 2688",
+        "amtsgericht": "Aachen",
+        "event_date": "2013-12-03",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Aachen Aktenzeichen: HRB 2688 \nBekannt gemacht am: 03.12.2013 20:01 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n03.12.2013\n\nHRB 2688:Glas-Schaaf GmbH, Aachen, Löhergraben 18, 52064 Aachen.Bestellt als Geschäftsführer: Schaaf, Wolfgang, Aachen, *10.07.1961, einzelvertretungsberechtigt. Nicht mehr Geschäftsführer: Schaaf, Hans, Glasermeister, Aachen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 2688:Glas-Schaaf GmbH",
+        "notice_id": "979186",
+        "posted_on": "2013-12-03",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=979186&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Schaaf , Hans , Glasermeister , Aachen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Aachen",
+                    "dob": "1961-10-07",
+                    "flag": "sole representation",
+                    "lastname": "Schaaf",
+                    "name": "Wolfgang"
+                },
+                "text": " Schaaf , Wolfgang , Aachen , * 10.07.1961 , einzelvertretungsberechtigt ."
+            }
+        ]
+    }
+}

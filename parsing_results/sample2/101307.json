@@ -1,0 +1,55 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 50940",
+        "amtsgericht": "Hannover",
+        "event_date": "2009-09-21",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Hannover Aktenzeichen: HRB 50940 \nBekannt gemacht am: 28.09.2009 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n21.09.2009\n\n\"Jukimo\" Groß- und Einzelhandels GmbH, Hannover, Kurt-Schumacher-Str. 7 - 9, 30159 Hannover.Die Gesellschafterversammlung hat am 07.04.2009/07.07.2009 beschlossen, das Stammkapital (DEM 50.000,00) auf Euro umzustellen, es von dann EUR 25.564,59 um EUR 35,41 auf EUR 25.600,00 zu erhöhen und den Gesellschaftsvertrag insgesamt neu zu fassen, insbesondere in § 1 (Firma, Sitz und Geschäftsjahr), § 2 (Gegenstand des Unternehmens), § 3 (Stammkapital, Stammeinlagen), § 5 (Geschäftsführung, Vertretung) und damit die Firma, den Gegenstand, das Stammkapital und die Vertretungsregelung zu ändern. Neue Firma: Jukimo Groß- und Einzelhandels GmbH. Geschäftsanschrift: Kurt-Schumacher-Str. 7 - 9, 30159 Hannover. Neuer Unternehmensgegenstand: Groß- und Einzelhandel mit Textilien, Textilmaschinen und Geschenkartikeln. 25.600,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch die Geschäftsführer gemeinsam vertreten. Nicht mehr Geschäftsführer: Laske, Sylvia, Steuerfachgehilfin, Hannover. Bestellt als Geschäftsführer: Glauser, Viktor, Steinhude, *27.01.1951, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "\"Jukimo\" Groß- und Einzelhandels GmbH",
+        "notice_id": "101307",
+        "posted_on": "2009-09-28",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=101307&land_abk=ni"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Laske , Sylvia , Steuerfachgehilfin , Hannover ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "If only one managing director is appointed, he represents the company alone.",
+                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Kurt - Schumacher - Str ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Steinhude",
+                    "dob": "1951-01-27",
+                    "flag": "sole representation",
+                    "lastname": "Glauser",
+                    "name": "Viktor"
+                },
+                "text": " Glauser , Viktor , Steinhude , * 27.01.1951 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

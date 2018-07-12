@@ -1,0 +1,48 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 121884",
+        "amtsgericht": "Walsrode",
+        "event_date": "2012-02-22",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Walsrode Aktenzeichen: HRB 121884    \nBekannt gemacht am: 28.02.2012 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n22.02.2012\n\nWiebe Beteiligungsgesellschaft mit beschränkter Haftung, Dörverden, Bahnhofstr. 45, 27313 Dörverden. Prokura erloschen: Fitschen, Ronald, Bremen, *07.07.1956. Einzelprokura: Möbius, Rainer, Bockwen/Klipphausen, *03.10.1962.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Wiebe Beteiligungsgesellschaft mit beschränkter Haftung",
+        "notice_id": "203626",
+        "posted_on": "2012-02-28",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=203626&land_abk=ni"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1956-07-07",
+                    "lastname": "Fitschen",
+                    "name": "Ronald"
+                },
+                "text": " Fitschen , Ronald , Bremen , * 07.07.1956 ."
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Bockwen / Klipphausen",
+                    "dob": "1962-03-10",
+                    "lastname": "Möbius",
+                    "name": "Rainer"
+                },
+                "text": " Möbius , Rainer , Bockwen / Klipphausen , * 03.10.1962 ."
+            }
+        ]
+    }
+}

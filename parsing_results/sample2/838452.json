@@ -1,0 +1,43 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 1229",
+        "amtsgericht": "Amberg",
+        "event_date": "2014-12-16",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Amberg Aktenzeichen: HRB 1229 \nBekannt gemacht am: 17.12.2014 02:03 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n16.12.2014\n\nHRB 1229:Fritz Hiltl Hosenfabrik Verwaltungs-GmbH, Sulzbach-Rosenberg, Asamstraße 6, 92237 Sulzbach-Rosenberg.Die Gesellschafterversammlung vom 06.11.2014 hat die Änderung des § 5 Abs.3 (Geschäftsführung) der Satzung beschlossen. Die Geschäftsführer vertreten gemeinsam. Ausgeschieden: Geschäftsführer: Hiltl, Hedwig, geb. Steier, Fabrikantin, Rottach-Egern, *19.10.1926. Bestellt: Geschäftsführer: Schock, Markus, Rottach-Egern, *24.04.1969, einzelvertretungsberechtigt Er ist befugt, die Gesellschaft bei der Vornahme von Rechtsgeschäften mit sich selbst oder als Vertreter eines Dritten uneingeschränkt u vertreten. Gesamtprokura gemeinsam mit einem Geschäftsführer: Gwarys, Gunther, Rottach-Egern, *19.10.1944.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 1229:Fritz Hiltl Hosenfabrik Verwaltungs-GmbH",
+        "notice_id": "838452",
+        "posted_on": "2014-12-17",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=838452&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Hiltl , Hedwig , geb ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " Schock , Markus , Rottach - Egern , * 24.04.1969 , einzelvertretungsberechtigt Er ist befugt , die Gesellschaft bei der Vornahme von Rechtsgeschäften mit sich selbst oder als Vertreter eines Dritten uneingeschränkt u vertreten ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Rottach - Egern",
+                    "dob": "1944-10-19",
+                    "lastname": "Gwarys",
+                    "name": "Gunther"
+                },
+                "text": " Gwarys , Gunther , Rottach - Egern , * 19.10.1944 ."
+            }
+        ]
+    }
+}

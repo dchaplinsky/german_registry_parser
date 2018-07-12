@@ -1,0 +1,50 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 173699 B",
+        "amtsgericht": "Charlottenburg (Berlin)",
+        "event_date": "2018-01-04",
+        "event_type": "Veränderungen",
+        "federal_state": "be",
+        "full_text": "Amtsgericht Charlottenburg (Berlin) Aktenzeichen: HRB 173699 B \nBekannt gemacht am: 05.01.2018 16:57 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nVeränderungen\n04.01.2018\n\nHRB 173699 B: Der Tattoodieb GmbH, Berlin, c/o Daniel Grupp, Bayrische-Wald-Straße 11, 15827 Blankenfelde. Vertretungsregelung: Ist ein Liquidator bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Liquidatoren bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Liquidatoren oder durch einen Liquidator in Gemeinschaft mit einem Prokuristen vertreten.  Änderung zu Nr. 1: nunmehr: Liquidator: Grupp, Daniel, *21.07.1968, Blankenfelde; mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Rechtsverhaeltnis: Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Rechtsverhaeltnis: Die Gesellschaft ist aufgelöst.",
+        "notice_id": "458700",
+        "posted_on": "2018-01-05",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=458700&land_abk=be"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Grupp , Daniel , * 21.07.1968 , Blankenfelde"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            },
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "WHUT",
+                "text": " Der Tattoodieb GmbH , Berlin , c / o Daniel Grupp , Bayrische - Wald - Straße 11 , 15827 Blankenfelde ."
+            }
+        ]
+    }
+}

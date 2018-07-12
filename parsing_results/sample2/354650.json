@@ -1,0 +1,71 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 205551",
+        "amtsgericht": "Walsrode",
+        "event_date": "2015-08-04",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Walsrode Aktenzeichen: HRB 205551 \nBekannt gemacht am: 04.08.2015 19:01 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n04.08.2015\n\nHRB 205551:EKG Dienstleistung GmbH, Lilienthal, Goebelstraße 50, 28865 Lilienthal.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 06.04.1984, mehrfach geändert. Die Gesellschafterversammlung vom 28.04.2015 hat die Änderung des Gesellschaftsvertrages in § 1 (Firma, Sitz) und mit ihr die Sitzverlegung von Bremerhaven (bisher Amtsgericht Bremen HRB 1864 BHV) nach Lilienthal und die Änderung der Firma beschlossen. EKG Dienstleistung GmbH. Lilienthal. Geschäftsanschrift: Goebelstraße 50, 28865 Lilienthal. Der Betrieb einer Schiffs- und Kesselreinigung und die Ausübung der damit zusammenhängenden Geschäfte. 50.000,00 EUR. Jeder Geschäftsführer vertritt einzeln. Geschäftsführer: Gorke, Rolf, Bremervörde, *11.09.1964, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht mehr Geschäftsführer: Staats, Helmut, Schiffdorf, *01.01.1965. Einzelprokura: Bartels, Holger, Bremerhaven, *01.03.1964. Über das Vermögen der Gesellschaft ist durch Beschluss des Amtsgerichts Verden (Aller) vom 01.07.2015 (11 IN 59/15) das Insolvenzverfahren eröffnet worden. Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 205551:EKG Dienstleistung GmbH",
+        "notice_id": "354650",
+        "posted_on": "2015-08-04",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=354650&land_abk=ni"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "Company with limited liability .",
+                "text": "Gesellschaft mit beschränkter Haftung ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            },
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Goebelstraße 50 , 28865 Lilienthal ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " Gorke , Rolf , Bremervörde , * 11.09.1964 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Schiffdorf",
+                    "dob": "1965-01-01",
+                    "lastname": "Staats",
+                    "name": "Helmut"
+                },
+                "text": " Staats , Helmut , Schiffdorf , * 01.01.1965 ."
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Bremerhaven",
+                    "dob": "1964-01-03",
+                    "lastname": "Bartels",
+                    "name": "Holger"
+                },
+                "text": " Bartels , Holger , Bremerhaven , * 01.03.1964 ."
+            }
+        ]
+    }
+}

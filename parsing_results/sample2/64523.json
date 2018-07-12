@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 1077",
+        "amtsgericht": "Korbach",
+        "event_date": "2007-10-17",
+        "event_type": "Veränderungen",
+        "federal_state": "he",
+        "full_text": "Amtsgericht Korbach Aktenzeichen: HRA 1077 \nBekannt gemacht am: 15.11.2007 12:00 Uhr\n\n\n\n\nVeröffentlichungen des Amtsgerichts Korbach\r\r\rDie in () gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n17.10.2007\n\nHeinrich Kaiser, Herren-Kleiderfabrik, Bad Arolsen (Auf der Schanze 6, 34454 Bad Arolsen-Mengeringhausen, Vermietung und Verpachtung von Immobilien, der Betrieb von Photovoltaikanlagen, die Aufrechterhaltung eines ruhenden Gewerbebetriebes, die Unternehmensberatung sowie die Produktion, der Verkauf, der Import und der Export von Waren aller Art.). Firma geändert, nun: Heinrich Kaiser KG. Eingetreten als Persönlich haftender Gesellschafter: Kaiser, Franz-Peter, Bad Arolsen-Mengeringhausen, *03.11.1958. Ausgeschieden als Persönlich haftender Gesellschafter: Kaiser, Karl Heinz, Kaufmann, Mengeringhausen, *27.09.1927.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Heinrich Kaiser",
+        "notice_id": "64523",
+        "posted_on": "2007-11-15",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=64523&land_abk=he"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Kaiser , Karl Heinz , Kaufmann , Mengeringhausen , * 27.09.1927 ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Bad Arolsen - Mengeringhausen",
+                    "dob": "1958-03-11",
+                    "lastname": "Kaiser",
+                    "name": "Franz - Peter"
+                },
+                "text": " Kaiser , Franz - Peter , Bad Arolsen - Mengeringhausen , * 03.11.1958 ."
+            }
+        ]
+    }
+}

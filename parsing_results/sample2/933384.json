@@ -1,0 +1,71 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 16631",
+        "amtsgericht": "Memmingen",
+        "event_date": "2015-12-18",
+        "event_type": "Neueintragungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Memmingen Aktenzeichen: HRB 16631 \nBekannt gemacht am: 19.12.2015 02:01 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nNeueintragungen\n18.12.2015\n\nHRB 16631: ES Stadler GmbH, Pfaffenhausen, Industriestraße 14, 87772 Pfaffenhausen. Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 16.12.2015. Geschäftsanschrift: Industriestraße 14, 87772 Pfaffenhausen. Gegenstand des Unternehmens: Klima- und Lüftungstechnik, Anlagen-, Metall- und Leichtbau, Produktion von technischen Geräten und Stahlteilen. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Bestellt: Geschäftsführer: Stadler, Rüdiger, Penzing, *01.11.1962, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Einzelprokura: Kirschenhofer, Florian, Krumbach, *07.09.1979.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 16631: ES Stadler GmbH",
+        "notice_id": "933384",
+        "posted_on": "2015-12-19",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=933384&land_abk=by"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "Company with limited liability .",
+                "text": "Gesellschaft mit beschränkter Haftung ."
+            },
+            {
+                "flag": "If only one managing director is appointed, he represents the company alone.",
+                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+            },
+            {
+                "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
+                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Industriestraße 14 , 87772 Pfaffenhausen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Penzing",
+                    "dob": "1962-01-11",
+                    "flag": "sole representation",
+                    "lastname": "Stadler",
+                    "name": "Rüdiger"
+                },
+                "text": " Stadler , Rüdiger , Penzing , * 01.11.1962 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Krumbach",
+                    "dob": "1979-07-09",
+                    "lastname": "Kirschenhofer",
+                    "name": "Florian"
+                },
+                "text": " Kirschenhofer , Florian , Krumbach , * 07.09.1979 ."
+            }
+        ]
+    }
+}

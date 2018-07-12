@@ -1,0 +1,53 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 163772",
+        "amtsgericht": "München",
+        "event_date": "2006-09-19",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 163772 \nBekannt gemacht am: 20.09.2006 12:49 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n19.09.2006\n\nMPM Holding GmbH, München (Krauss-Maffei-Str. 2, 80997 München). Ausgeschieden: Geschäftsführer: Ball, David, Chicago, Illinois/USA, *18.11.1969; Dinandt, Pepyn René, München, *15.08.1961. Bestellt: Geschäftsführer: Osborne, Richard, Lake Forest/USA, *18.02.1944. Vertretungsbefugnis geändert, nun: Geschäftsführer: Dr. Urbanek, Otto, München, *18.10.1950, mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Gesamtprokura gemeinsam mit einem Geschäftsführer oder einem anderen Prokuristen: Dr. Auer, Stefan, München, *21.06.1960; Helmrich, Wolfgang, Zolling, *04.02.1958; Dr. Molter, Wolfgang, Moosinning, *07.04.1956; Strigl, Angela, Kolbermoor, *15.07.1967.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "MPM Holding GmbH",
+        "notice_id": "121095",
+        "posted_on": "2006-09-20",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=121095&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Ball , David , Chicago , Illinois / USA , * 18.11.1969"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Lake Forest / USA",
+                    "dob": "1944-02-18",
+                    "lastname": "Osborne",
+                    "name": "Richard"
+                },
+                "text": " Osborne , Richard , Lake Forest / USA , * 18.02.1944 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " Dr . Urbanek , Otto , München , * 18.10.1950 , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "München",
+                    "dob": "1960-06-21",
+                    "lastname": "Dr . Auer",
+                    "name": "Stefan"
+                },
+                "text": " Dr . Auer , Stefan , München , * 21.06.1960"
+            }
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 42693",
+        "amtsgericht": "München",
+        "event_date": "2010-12-27",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRA 42693 \nBekannt gemacht am: 29.12.2010 12:00 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n27.12.2010\n\nWilhelm Meisinger, Freising, Obere Hauptstr. 6, 85354 Freising. Rechtsform geändert, nun: Einzelkaufmann / Einzelkauffrau. Firma geändert, nun: Willhelm Meisinger e.K. Geändert, nun: Geschäftsanschrift: Am Lohmühlbach 9, 85356 Freising. Ausgeschieden: Persönlich haftender Gesellschafter: Meisinger, Johann Hans, Kaufmann, Kranzberg. Geändert, nun: Inhaber: Meisinger, Hans, Kaufmann, Freising, *03.03.1656. Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Wilhelm Meisinger",
+        "notice_id": "468185",
+        "posted_on": "2010-12-29",
+        "rechtsform": "Einzelkaufmann",
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=468185&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Meisinger , Johann Hans , Kaufmann , Kranzberg ."
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Meisinger , Hans , Kaufmann , Freising , * 03.03.1656 ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Sole trader",
+                "text": "Einzelkaufmann"
+            },
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Am Lohmühlbach 9 , 85356 Freising ."
+            }
+        ]
+    }
+}

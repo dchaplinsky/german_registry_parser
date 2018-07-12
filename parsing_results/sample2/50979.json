@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 100465",
+        "amtsgericht": "Walsrode",
+        "event_date": "2008-06-04",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Walsrode Aktenzeichen: HRA 100465 \nBekannt gemacht am: 10.06.2008 22:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n04.06.2008\n\nFerdinand Verbarg Inhaber Jürgen Verbarg, Essern (Märendamm 1, 31603 Diepenau). Ferdinand Verbarg Inhaber Uwe Verbarg e.K. Diepenau. Inhaber: Verbarg, Uwe, Diepenau, *05.01.1966. Nicht mehr Inhaber: Verbarg, Jürgen, Kaufmann, Essern. Die Haftung für die im Betrieb des Geschäfts begründeten Verbindlichkeiten des bisherigen Inhabers und der Übergang der im Betrieb begründeten Forderungen auf den neuen Inhaber sind ausgeschlossen worden.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Ferdinand Verbarg Inhaber Jürgen Verbarg",
+        "notice_id": "50979",
+        "posted_on": "2008-06-10",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=50979&land_abk=ni"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Verbarg , Jürgen , Kaufmann , Essern ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Diepenau",
+                    "dob": "1966-05-01",
+                    "lastname": "Verbarg",
+                    "name": "Uwe"
+                },
+                "text": " Verbarg , Uwe , Diepenau , * 05.01.1966 ."
+            }
+        ]
+    }
+}

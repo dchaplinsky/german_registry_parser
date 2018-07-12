@@ -1,0 +1,53 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 77316",
+        "amtsgericht": "Hamburg",
+        "event_date": "2012-10-05",
+        "event_type": "Veränderungen",
+        "federal_state": "hh",
+        "full_text": "Amtsgericht Hamburg Aktenzeichen: HRB 77316   \nBekannt gemacht am: 08.10.2012 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n05.10.2012\n\nguenstiger.de GmbH, Hamburg, Vorsetzen 53, 20459 Hamburg. Bestellt Geschäftsführer: Schiffauer, Harald, München, *03.11.1969, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen. mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Geändert, nun Geschäftsführer: Koohestani, Bahman, Palo Alto, Kalifornien (USA), *30.01.1962; Weber, Ulrich, Swanage, Dorset, UK, *28.08.1959, jeweils vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Geändert (Vertretung) und sodann ausgeschieden Geschäftsführer: Regan, Brian, Los Altos, Kalifornien / USA, *27.07.1971.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "guenstiger.de GmbH",
+        "notice_id": "183448",
+        "posted_on": "2012-10-08",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=183448&land_abk=hh"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Koohestani , Bahman , Palo Alto , Kalifornien ( USA ) , * 30.01.1962"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Regan , Brian , Los Altos , Kalifornien / USA , * 27.07.1971 ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1969-03-11",
+                    "flag": "vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen",
+                    "lastname": "Schiffauer",
+                    "name": "Harald"
+                },
+                "text": " Schiffauer , Harald , München , * 03.11.1969 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 6218",
+        "amtsgericht": "Dresden",
+        "event_date": "2008-05-20",
+        "event_type": "Veränderungen",
+        "federal_state": "sn",
+        "full_text": "Amtsgericht Dresden Aktenzeichen: HRB 6218 \nBekannt gemacht am: 22.05.2008 12:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des  Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n20.05.2008\n\nPräzision Maschinen- und Gerätebau GmbH Eibau, Eibau (Bahnhofstr. 6/7, 02739 Eibau). Ausgeschieden: Geschäftsführer: Liebisch, Gerhard, Maschinenbaumeister, Ebersbach. Bestellt: Geschäftsführer: Hieke, Gerald, Löbau, *30.07.1960.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Präzision Maschinen- und Gerätebau GmbH Eibau",
+        "notice_id": "53399",
+        "posted_on": "2008-05-22",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=53399&land_abk=sn"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Liebisch , Gerhard , Maschinenbaumeister , Ebersbach ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Löbau",
+                    "dob": "1960-07-30",
+                    "lastname": "Hieke",
+                    "name": "Gerald"
+                },
+                "text": " Hieke , Gerald , Löbau , * 30.07.1960 ."
+            }
+        ]
+    }
+}

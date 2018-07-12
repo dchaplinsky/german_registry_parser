@@ -1,0 +1,54 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 40309",
+        "amtsgericht": "Frankfurt am Main",
+        "event_date": "2014-01-13",
+        "event_type": "Veränderungen",
+        "federal_state": "he",
+        "full_text": "Amtsgericht Frankfurt am Main Aktenzeichen: HRB 40309   \nBekannt gemacht am: 20.01.2014 12:00 Uhr\n\n\n\n\nVeröffentlichungen des Amtsgerichts Frankfurt am Main\r\r\rIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n13.01.2014\n\nDEGEAKZENT Grundstücksverwaltungsgesellschaft mbH, Eschborn, Hauptstraße 131-137, 65760 Eschborn. Gemäß § 3 EGGmbHG von Amts wegen eingetragen als Geschäftsanschrift: Hauptstraße 131-137, 65760 Eschborn. Nicht mehr Geschäftsführer: Janz, Jürgen, Diplom-Betriebswirt, Appenheim. Bestellt als Geschäftsführer: Preiß, Stefan, Frankfurt am Main, *02.04.1971. Prokura erloschen: Fauth, Jürgen, Mainz, *15.05.1964. Gesamtprokura gemeinsam mit einem Geschäftsführer mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen mit der Ermächtigung zur Veräußerung und Belastung von Grundstücken: Hermann, Peter, Karlsbad, *15.09.1973; Schindler, Manuela, Bockenem, *29.04.1965.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "DEGEAKZENT Grundstücksverwaltungsgesellschaft mbH",
+        "notice_id": "365484",
+        "posted_on": "2014-01-20",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=365484&land_abk=he"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Janz , Jürgen , Diplom - Betriebswirt , Appenheim ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Hauptstraße 131-137 , 65760 Eschborn ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dob": "1971-02-04",
+                    "lastname": "Preiß",
+                    "name": "Stefan"
+                },
+                "text": " Preiß , Stefan , Frankfurt am Main , * 02.04.1971 ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Mainz",
+                    "dob": "1964-05-15",
+                    "lastname": "Fauth",
+                    "name": "Jürgen"
+                },
+                "text": " Fauth , Jürgen , Mainz , * 15.05.1964 ."
+            }
+        ]
+    }
+}

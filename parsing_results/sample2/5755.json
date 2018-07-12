@@ -1,0 +1,57 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 119630",
+        "amtsgericht": "München",
+        "event_date": "2005-01-21",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 119630 \nBekannt gemacht am: 26.01.2005 11:32 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n21.01.2005\n\nKULOS Beteiligungs GmbH, Pöcking, Landkreis Starnberg (Feldafinger Str. 5, 82343 Pöcking). Bestellt: Geschäftsführer: Goldbrunner, Christian, *15.10.1957; Kober, Peter, München, *10.05.1956, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Ausgeschieden: Geschäftsführer: Kirberg, Ralf, Bankkaufmann, Pöcking; Dr. May, Franz, Jurist, Pullach. Gesamtprokura gemeinsam mit einem Geschäftsführer oder einem anderen Prokuristen mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen mit der Ermächtigung zur Veräußerung und Belastung von Grundstücken: Dr. Wörner, Ingo, Hallbergmoos, *25.05.1971; Zormaier, Ulrich, Alling, *19.03.1969; Wimberger, Veronika, München, *11.10.1973. Prokura erloschen: Guske, Manfred, Starnberg. Prokura erloschen: Goldbrunner, Christian, Penzberg, *15.10.1957.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "KULOS Beteiligungs GmbH",
+        "notice_id": "5755",
+        "posted_on": "2005-01-26",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=5755&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Kirberg , Ralf , Bankkaufmann , Pöcking"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Guske , Manfred , Starnberg ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "dob": "1957-10-15",
+                    "lastname": "Goldbrunner",
+                    "name": "Christian"
+                },
+                "text": " Goldbrunner , Christian , * 15.10.1957"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Penzberg",
+                    "dob": "1957-10-15",
+                    "lastname": "Goldbrunner",
+                    "name": "Christian"
+                },
+                "text": " Goldbrunner , Christian , Penzberg , * 15.10.1957 ."
+            }
+        ]
+    }
+}

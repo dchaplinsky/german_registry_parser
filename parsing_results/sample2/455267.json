@@ -1,0 +1,39 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 410708",
+        "amtsgericht": "Stuttgart",
+        "event_date": "2014-11-07",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Stuttgart Aktenzeichen: HRB 410708 \nBekannt gemacht am: 07.11.2014 11:44 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n07.11.2014\n\nHRB 410708:AGEFA-Beteiligungs-GmbH, Balingen, Lehrstrasse 74, 72336 Balingen.Nicht mehr Geschäftsführer: Breisch, Helmut, Techniker, Balingen. Bestellt als Geschäftsführer: Hölle, Sebastian, Balingen, *15.11.1977, einzelvertretungsberechtigt.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 410708:AGEFA-Beteiligungs-GmbH",
+        "notice_id": "455267",
+        "posted_on": "2014-11-07",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=455267&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Breisch , Helmut , Techniker , Balingen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Balingen",
+                    "dob": "1977-11-15",
+                    "flag": "sole representation",
+                    "lastname": "Hölle",
+                    "name": "Sebastian"
+                },
+                "text": " Hölle , Sebastian , Balingen , * 15.11.1977 , einzelvertretungsberechtigt ."
+            }
+        ]
+    }
+}

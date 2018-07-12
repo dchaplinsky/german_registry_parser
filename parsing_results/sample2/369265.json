@@ -1,0 +1,58 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 131717",
+        "amtsgericht": "Osnabrück",
+        "event_date": "2015-12-07",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Osnabrück Aktenzeichen: HRB 131717 \nBekannt gemacht am: 07.12.2015 19:01 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n07.12.2015\n\nHRB 131717: Küpers Industriereinigung GmbH, Osterwald, Alte Piccardie 31, 49828 Osterwald. Prokura erloschen: Westkamp, Helmut, Lingen, *12.08.1952. Prokura geändert bei: Einzelprokura: Adolfsen, Michael, Neuenhaus, *03.08.1973.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 131717: Küpers Industriereinigung GmbH",
+        "notice_id": "369265",
+        "posted_on": "2015-12-07",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=369265&land_abk=ni"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Lingen",
+                    "dob": "1952-12-08",
+                    "lastname": "Westkamp",
+                    "name": "Helmut"
+                },
+                "text": " Westkamp , Helmut , Lingen , * 12.08.1952 ."
+            },
+            {
+                "class": "NewProcuration",
+                "payload": {
+                    "city": "Neuenhaus",
+                    "dob": "1973-03-08",
+                    "lastname": "Adolfsen",
+                    "name": "Michael"
+                },
+                "text": " Adolfsen , Michael , Neuenhaus , * 03.08.1973 ."
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Neuenhaus",
+                    "dob": "1973-03-08",
+                    "lastname": "Adolfsen",
+                    "name": "Michael"
+                },
+                "text": " Adolfsen , Michael , Neuenhaus , * 03.08.1973 ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 34762",
+        "amtsgericht": "Nürnberg",
+        "event_date": "2018-01-18",
+        "event_type": "Neueintragungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Nürnberg Aktenzeichen: HRB 34762 \nBekannt gemacht am: 19.01.2018 02:13 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nNeueintragungen\n18.01.2018\n\nHRB 34762: GRI Holding Deutschland GmbH, Röthenbach a.d.Pegnitz, c/o Michaela Puchinger, Daimlerstraße 3, 90552 Röthenbach a.d.Pegnitz. Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 18.09.2017. Die Gesellschafterversammlung vom 12.12.2017 hat die Satzung neu gefasst. Dabei wurde geändert: Firma (bisher Quickstart 18/17 Vermögensverwaltungs GmbH), Sitz (bisher München, Amtsgericht München HRB 236116 ) und Gegenstand. Geschäftsanschrift: c/o Michaela Puchinger, Daimlerstraße 3, 90552 Röthenbach a.d.Pegnitz. Gegenstand des Unternehmens: Das Halten und Verwalten von Beteiligungen sowie die Verwaltung eigenen Vermögens. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Ausgeschieden: Geschäftsführer: Böhme, Antje, geb. Merz, München, *16.10.1941. Bestellt: Geschäftsführer: Losan, Marek, Pilsen / Tschechische Republik, *13.03.1973, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 34762: GRI Holding Deutschland GmbH",
+        "notice_id": "1139883",
+        "posted_on": "2018-01-19",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1139883&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Böhme , Antje , geb ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Company with limited liability .",
+                "text": "Gesellschaft mit beschränkter Haftung ."
+            },
+            {
+                "flag": "If only one managing director is appointed, he represents the company alone.",
+                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+            },
+            {
+                "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
+                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " c / o Michaela Puchinger , Daimlerstraße 3 , 90552 Röthenbach a . d . Pegnitz ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Pilsen / Tschechische Republik",
+                    "dob": "1973-03-13",
+                    "flag": "sole representation",
+                    "lastname": "Losan",
+                    "name": "Marek"
+                },
+                "text": " Losan , Marek , Pilsen / Tschechische Republik , * 13.03.1973 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

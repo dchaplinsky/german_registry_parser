@@ -1,0 +1,61 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 9762",
+        "amtsgericht": "Bochum",
+        "event_date": "2009-09-30",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Bochum Aktenzeichen: HRB 9762 \nBekannt gemacht am: 05.10.2009 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n30.09.2009\n\nKompetenz am Bau GmbH, Herne-Wanne, Wattenscheider Hellweg 224, 44869 Bochum.Die Gesellschafterversammlung vom 03.09.2009 hat eine Änderung des Gesellschaftsvertrages in § 1 und mit ihr die Sitzverlegung nach Bochum sowie die Änderung der Firma beschlossen. Weiterhin wurde die Änderung in § 5 (Stammkapital) beschlossen. Firma geändert, nunmehr: Neue Firma: ibh Curth GmbH. nach Sitzverlegung: Bochum. Geschäftsanschrift: Wattenscheider Hellweg 224, 44869 Bochum. Nicht mehr Geschäftsführer: Fischer, Erwin, Kaufmann, Preußisch Oldendorf, *01.08.1951. Bestellt als Geschäftsführer: Köckritz, Thomas, Essen, *15.11.1964, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Einzelprokura: Simon, Elke, Bochum, *18.06.1958.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Kompetenz am Bau GmbH",
+        "notice_id": "478136",
+        "posted_on": "2009-10-05",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=478136&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Fischer , Erwin , Kaufmann , Preußisch Oldendorf , * 01.08.1951 ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Wattenscheider Hellweg 224 , 44869 Bochum ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Essen",
+                    "dob": "1964-11-15",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Köckritz",
+                    "name": "Thomas"
+                },
+                "text": " Köckritz , Thomas , Essen , * 15.11.1964 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Bochum",
+                    "dob": "1958-06-18",
+                    "lastname": "Simon",
+                    "name": "Elke"
+                },
+                "text": " Simon , Elke , Bochum , * 18.06.1958 ."
+            }
+        ]
+    }
+}

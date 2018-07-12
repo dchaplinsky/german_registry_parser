@@ -1,0 +1,50 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 22746",
+        "amtsgericht": "Wiesbaden",
+        "event_date": "2009-02-20",
+        "event_type": "Veränderungen",
+        "federal_state": "he",
+        "full_text": "Amtsgericht Wiesbaden Aktenzeichen: HRB 22746 \nBekannt gemacht am: 24.02.2009 12:00 Uhr\n\n\n\n\nVeröffentlichungen des Amtsgerichts Wiesbaden\r\r\rIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n20.02.2009\n\nGlobal Research Dialog Solutions GmbH, Idstein, Itzbachstraße 16, 65510 Idstein.Geschäftsanschrift: Itzbachstraße 16, 65510 Idstein. Nicht mehr Geschäftsführer: Hahn, Jochen, Hamburg, *30.06.1968. Bestellt als Geschäftsführer: Menzel, Dr. Stefan, geb. Diesler, Mainz, *22.12.1971, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Gesamtprokura gemeinsam mit einem Geschäftsführer mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen: Elendt, Philipp, Dreieich, *07.12.1973.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Global Research Dialog Solutions GmbH",
+        "notice_id": "122034",
+        "posted_on": "2009-02-24",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=122034&land_abk=he"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Menzel , Dr . Stefan , geb ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Itzbachstraße 16 , 65510 Idstein ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1968-06-30",
+                    "lastname": "Hahn",
+                    "name": "Jochen"
+                },
+                "text": " Hahn , Jochen , Hamburg , * 30.06.1968 ."
+            }
+        ]
+    }
+}

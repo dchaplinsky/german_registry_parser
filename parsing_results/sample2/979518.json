@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 489",
+        "amtsgericht": "Moenchengladbach",
+        "event_date": "2013-12-04",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Moenchengladbach Aktenzeichen: HRB 489 \nBekannt gemacht am: 04.12.2013 20:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n04.12.2013\n\nHRB 489:Drello Beteiligungs-Gesellschaft mit beschränkter Haftung, Mönchengladbach, Andreas-Bornes-Straße 46, 41179 Mönchengladbach.Die Gesellschaft in Liquidation hat einen oder mehrere Liquidatoren. Ist nur ein Liquidator vorhanden, so ist dieser einzeln zur Vertretung der Gesellschaft in Liquidation berechtigt. Sind mehrere Liquidatoren vorhanden, so wird die Gesellschaft in Liquidation durch diese gemeinsam vertreten. Nicht mehr Geschäftsführer: Diplom-Ingenieur Mackes, Karl Eugen, Ingenieur, Erkelenz. Bestellt als Liquidator: Plum, Reinhold H., Wegberg, *23.03.1950. Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 489:Drello Beteiligungs-Gesellschaft mit beschränkter Haftung",
+        "notice_id": "979518",
+        "posted_on": "2013-12-04",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=979518&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Diplom - Ingenieur Mackes , Karl Eugen , Ingenieur , Erkelenz ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Wegberg",
+                    "dob": "1950-03-23",
+                    "lastname": "Plum",
+                    "name": "Reinhold H"
+                },
+                "text": " Plum , Reinhold H . , Wegberg , * 23.03.1950 ."
+            }
+        ]
+    }
+}

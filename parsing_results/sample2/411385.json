@@ -1,0 +1,50 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 43411",
+        "amtsgericht": "Köln",
+        "event_date": "2009-03-04",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Köln Aktenzeichen: HRB 43411 \nBekannt gemacht am: 06.03.2009 22:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n04.03.2009\n\nKKB Kies - Kipp - Betriebsgesellschaft mbH, Wesseling, Urfelder Str. 54 - 56, 50389 Wesseling.Geschäftsanschrift: Urfelder Str. 54 - 56, 50389 Wesseling. Die Gesellschaft ist aufgelöst. Ist nur ein Liquidator bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Liquidatoren bestellt, so wird die Gesellschaft durch die Liquidatoren gemeinsam vertreten. Nicht mehr Geschäftsführer: Gumpert, Winfried, Diplom-Kaufmann, St. Augustin. Statt Geschäftsführer nunmehr Liquidator: Gumpert, Karin Doris, St. Augustin, *23.09.1945.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "KKB Kies - Kipp - Betriebsgesellschaft mbH",
+        "notice_id": "411385",
+        "posted_on": "2009-03-06",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=411385&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Gumpert , Winfried , Diplom - Kaufmann , St . Augustin ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Urfelder Str ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "St . Augustin",
+                    "dob": "1945-09-23",
+                    "lastname": "Gumpert",
+                    "name": "Karin Doris"
+                },
+                "text": " Gumpert , Karin Doris , St . Augustin , * 23.09.1945 ."
+            }
+        ]
+    }
+}

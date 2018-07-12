@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 11987",
+        "amtsgericht": "Passau",
+        "event_date": "2008-10-13",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Passau Aktenzeichen: HRA 11987 \nBekannt gemacht am: 22.10.2008 22:00 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n13.10.2008\n\nCunamed Haus für Naturheilkunde e.K., Ruhstorf, (Lindauer Weg 4, 94099 Ruhstorf a. d. Rott).Nicht mehr Inhaber: Dr. Pulvermüller, Jochen, Ruhstorf, *15.07.1953. Neuer Inhaber: Pulvermüller, Iris, geb. Merkle, Ruhstorf/Rott, *07.07.1951.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Cunamed Haus für Naturheilkunde e.K.",
+        "notice_id": "275842",
+        "posted_on": "2008-10-22",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=275842&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Pulvermüller , Iris , geb ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Ruhstorf",
+                    "dob": "1953-07-15",
+                    "lastname": "Dr . Pulvermüller",
+                    "name": "Jochen"
+                },
+                "text": " Dr . Pulvermüller , Jochen , Ruhstorf , * 15.07.1953 ."
+            }
+        ]
+    }
+}

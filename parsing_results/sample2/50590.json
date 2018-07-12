@@ -1,0 +1,54 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 12217 HB",
+        "amtsgericht": "Bremen",
+        "event_date": "2015-02-13",
+        "event_type": "Veränderungen",
+        "federal_state": "hb",
+        "full_text": "Amtsgericht Bremen Aktenzeichen: HRA 12217 HB \nBekannt gemacht am: 16.02.2015 20:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nVeränderungen\n13.02.2015\nÄnderung der Firma:\nHRA 12217 HB: Wilhelm Schreiber KG, Bremen, Steinstraße 14, 28199 Bremen. Geschäftsanschrift: Steinstraße 14, 28199 Bremen;  Die Gesellschaft wird durch sämtliche Liquidatoren gemeinsam vertreten.  Änderung zu Nr. 1: Persönlich haftender Gesellschafter und Liquidator: Schreiber, Gustav Adolf, *07.10.1940, Bremen; mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen;  Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 12217 HB: Wilhelm Schreiber KG",
+        "notice_id": "50590",
+        "posted_on": "2015-02-16",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=50590&land_abk=hb"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Schreiber , Gustav Adolf , * 07.10.1940 , Bremen"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            },
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "WHUT",
+                "text": " Wilhelm Schreiber KG , Bremen , Steinstraße 14 , 28199 Bremen ."
+            },
+            {
+                "label": "address",
+                "text": " Steinstraße 14 , 28199 Bremen"
+            }
+        ]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 8301",
+        "amtsgericht": "Fürth",
+        "event_date": "2017-06-29",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Fürth Aktenzeichen: HRA 8301 \nBekannt gemacht am: 30.06.2017 02:02 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n29.06.2017\n\nHRA 8301: Gartenbau Walter und Mirja Dauchenbeck KG, Fürth, Atzenhofer Str. 41, 90768 Fürth. Ausgeschieden: Persönlich haftender Gesellschafter: Dauchenbeck, Walter, Fürth, *05.02.1953. Eingetreten: Persönlich haftender Gesellschafter: Dauchenbeck, Mirja, Fürth, *10.12.1979, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Prokura erloschen: Dauchenbeck, Mirja, Fürth, *10.12.1979.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 8301: Gartenbau Walter und Mirja Dauchenbeck KG",
+        "notice_id": "1082751",
+        "posted_on": "2017-06-30",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1082751&land_abk=by"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Fürth",
+                    "dob": "1953-05-02",
+                    "lastname": "Dauchenbeck",
+                    "name": "Walter"
+                },
+                "text": " Dauchenbeck , Walter , Fürth , * 05.02.1953 ."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Fürth",
+                    "dob": "1979-10-12",
+                    "flag": "sole representation",
+                    "lastname": "Dauchenbeck",
+                    "name": "Mirja"
+                },
+                "text": " Dauchenbeck , Mirja , Fürth , * 10.12.1979 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Fürth",
+                    "dob": "1979-10-12",
+                    "lastname": "Dauchenbeck",
+                    "name": "Mirja"
+                },
+                "text": " Dauchenbeck , Mirja , Fürth , * 10.12.1979 ."
+            }
+        ]
+    }
+}

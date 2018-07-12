@@ -1,0 +1,71 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 509766",
+        "amtsgericht": "Jena",
+        "event_date": "2014-01-06",
+        "event_type": "Neueintragungen",
+        "federal_state": "th",
+        "full_text": "Amtsgericht Jena Aktenzeichen: HRB 509766   \nBekannt gemacht am: 08.01.2014 22:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nNeueintragungen\n06.01.2014\n\nSTM-Service GmbH, Benshausen, Otto-Keiner-Straße 19, 98554 Benshausen. Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 16.12.2013. Geschäftsanschrift: Otto-Keiner-Straße 19, 98554 Benshausen. Gegenstand des Unternehmens: Montagedienstleistungen. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Mothes, Thomas, Benshausen, *06.02.1969, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Einzelprokura: Mothes, Antje, Benshausen, *26.05.1968.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "STM-Service GmbH",
+        "notice_id": "74035",
+        "posted_on": "2014-01-08",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=74035&land_abk=th"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "Company with limited liability .",
+                "text": "Gesellschaft mit beschränkter Haftung ."
+            },
+            {
+                "flag": "If only one managing director is appointed, he represents the company alone.",
+                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+            },
+            {
+                "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
+                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Otto - Keiner - Straße 19 , 98554 Benshausen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Benshausen",
+                    "dob": "1969-06-02",
+                    "flag": "sole representation",
+                    "lastname": "Mothes",
+                    "name": "Thomas"
+                },
+                "text": " Mothes , Thomas , Benshausen , * 06.02.1969 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Benshausen",
+                    "dob": "1968-05-26",
+                    "lastname": "Mothes",
+                    "name": "Antje"
+                },
+                "text": " Mothes , Antje , Benshausen , * 26.05.1968 ."
+            }
+        ]
+    }
+}

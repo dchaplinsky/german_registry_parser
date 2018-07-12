@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 630233",
+        "amtsgericht": "Ulm",
+        "event_date": "2013-01-21",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Ulm Aktenzeichen: HRA 630233   \nBekannt gemacht am: 22.01.2013 22:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n21.01.2013\n\nStein KG, Friedrichshafen, Siemensstrasse 6, 88048 Friedrichshafen. Eingetreten als Persönlich haftender Gesellschafter: Segelbacher, Bernd, Friedrichshafen, *25.09.1964; Segelbacher, Klaus, Friedrichshafen, *11.01.1966. Ausgeschieden als Persönlich haftender Gesellschafter: Segelbacher jun., Karl, Geschäftsführer, Friedrichshafen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Stein KG",
+        "notice_id": "344851",
+        "posted_on": "2013-01-22",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=344851&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Segelbacher jun . , Karl , Geschäftsführer , Friedrichshafen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Friedrichshafen",
+                    "dob": "1964-09-25",
+                    "lastname": "Segelbacher",
+                    "name": "Bernd"
+                },
+                "text": " Segelbacher , Bernd , Friedrichshafen , * 25.09.1964"
+            }
+        ]
+    }
+}

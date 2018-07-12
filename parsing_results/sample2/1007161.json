@@ -1,0 +1,59 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 83392",
+        "amtsgericht": "München",
+        "event_date": "2016-09-20",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 83392 \nBekannt gemacht am: 21.09.2016 02:00 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n20.09.2016\n\nHRB 83392: Reiseservice Italia GmbH, Gräfelfing, Landkreis München, Bahnhofstr. 19, 82166 Gräfelfing. Ausgeschieden: Geschäftsführer: Dell'Aquia, Giuseppe, Reisekaufmann, Martinsried. Personendaten geändert, nun: Geschäftsführer: Dell'Aquia, Gerlinde, Gilching, *17.11.1952, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Einzelprokura: Dell'Aquia, Alessandro, München, *23.07.1989.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 83392: Reiseservice Italia GmbH",
+        "notice_id": "1007161",
+        "posted_on": "2016-09-21",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1007161&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Dell'Aquia , Giuseppe , Reisekaufmann , Martinsried ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Gilching",
+                    "dob": "1952-11-17",
+                    "flag": "sole representation",
+                    "lastname": "Dell'Aquia",
+                    "name": "Gerlinde"
+                },
+                "text": " Dell'Aquia , Gerlinde , Gilching , * 17.11.1952 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "München",
+                    "dob": "1989-07-23",
+                    "lastname": "Dell'Aquia",
+                    "name": "Alessandro"
+                },
+                "text": " Dell'Aquia , Alessandro , München , * 23.07.1989 ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 23756",
+        "amtsgericht": "Stuttgart",
+        "event_date": "2010-03-19",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Stuttgart Aktenzeichen: HRB 23756 \nBekannt gemacht am: 22.03.2010 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n19.03.2010\n\nWeb2know GmbH, Stuttgart, Champignystr. 1, 70563 Stuttgart.Bestellt als Geschäftsführer: Kessen, Andreas, Ettlingen, *15.09.1971, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht mehr Geschäftsführer: Wegert-Gans, Elke, Kernen, *20.11.1966. Einzelprokura: Wegert-Gans, Elke, geb. Wegert, Kernen, *20.11.1966.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Web2know GmbH",
+        "notice_id": "179965",
+        "posted_on": "2010-03-22",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=179965&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a SingleProcuration from  Wegert - Gans , Elke , geb ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " Kessen , Andreas , Ettlingen , * 15.09.1971 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Kernen",
+                    "dob": "1966-11-20",
+                    "lastname": "Wegert - Gans",
+                    "name": "Elke"
+                },
+                "text": " Wegert - Gans , Elke , Kernen , * 20.11.1966 ."
+            }
+        ]
+    }
+}

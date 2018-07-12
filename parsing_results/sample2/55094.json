@@ -1,0 +1,56 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 607",
+        "amtsgericht": "Lemgo",
+        "event_date": "2005-07-28",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Lemgo Aktenzeichen: HRA 607 \nBekannt gemacht am: 04.08.2005 09:12 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n28.07.2005\n\nGabi-Biochemie Dünge- und Pflanzenpflegemittel Hündersen Rhodovi GmbH & Co. KG, Bad Salzuflen (Liemer Str. 26, 32108 Bad Salzuflen). Die Gesellschaft ist aufgelöst. Liquidator: Rhodovi, Frank, Bad Salzuflen, *17.06.1941, gemeinsam vertretungsberechtigt mit Steffi Rhodovi. Liquidator: Rhodovi, Steffi, Bad Salzuflen, *16.06.1948, gemeinsam vertretungsberechtigt mit Frank Rhodovi. Prokura erloschen: Rhodovi, Frank, Bad Salzuflen; Rhodovi, Hans Georg, Bad Salzuflen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Gabi-Biochemie Dünge- und Pflanzenpflegemittel Hündersen Rhodovi GmbH & Co. KG",
+        "notice_id": "55094",
+        "posted_on": "2005-08-04",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=55094&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Rhodovi , Frank , Bad Salzuflen"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Bad Salzuflen",
+                    "dob": "1941-06-17",
+                    "flag": "gemeinsam vertretungsberechtigt mit Steffi Rhodovi",
+                    "lastname": "Rhodovi",
+                    "name": "Frank"
+                },
+                "text": " Rhodovi , Frank , Bad Salzuflen , * 17.06.1941 , gemeinsam vertretungsberechtigt mit Steffi Rhodovi ."
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Bad Salzuflen",
+                    "dob": "1948-06-16",
+                    "flag": "gemeinsam vertretungsberechtigt mit Frank Rhodovi",
+                    "lastname": "Rhodovi",
+                    "name": "Steffi"
+                },
+                "text": " Rhodovi , Steffi , Bad Salzuflen , * 16.06.1948 , gemeinsam vertretungsberechtigt mit Frank Rhodovi ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 10345",
+        "amtsgericht": "Fürth",
+        "event_date": "2016-07-11",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Fürth Aktenzeichen: HRA 10345 \nBekannt gemacht am: 12.07.2016 02:08 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n11.07.2016\n\nHRA 10345: sit(t) Getränkehandel oHG, Fürth, Grillparzerstr. 28, 90765 Fürth. Rechtsform geändert, nun: Einzelkaufmann / Einzelkauffrau. Firma geändert, nun: sit(t) Getränkehandel e.K. - Inh. Michael Kertes. Der Inhaber / die Inhaberin handelt allein. Ausgeschieden: Persönlich haftender Gesellschafter: Kertes, Martin, Fürth, *14.06.1977. Geändert, nun: Inhaber: Kertes, Michael, Fürth, *26.09.1979. Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 10345: sit(t) Getränkehandel oHG",
+        "notice_id": "988129",
+        "posted_on": "2016-07-12",
+        "rechtsform": "Einzelkaufmann",
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=988129&land_abk=by"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "Sole trader",
+                "text": "Einzelkaufmann"
+            },
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Fürth",
+                    "dob": "1977-06-14",
+                    "lastname": "Kertes",
+                    "name": "Martin"
+                },
+                "text": " Kertes , Martin , Fürth , * 14.06.1977 ."
+            },
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Fürth",
+                    "dob": "1979-09-26",
+                    "lastname": "Kertes",
+                    "name": "Michael"
+                },
+                "text": " Kertes , Michael , Fürth , * 26.09.1979 ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 23456",
+        "amtsgericht": "Traunstein",
+        "event_date": "2014-08-13",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Traunstein Aktenzeichen: HRB 23456 \nBekannt gemacht am: 14.08.2014 02:10 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n13.08.2014\n\nHRB 23456:Cardines Management GmbH, Freilassing, Münchnerstr. 69, 83395 Freilassing.Ausgeschieden: Geschäftsführer: Kunz, Christian, Ludmannsdorf / Österreich, *16.03.1986; Lukofnak, Karl Heinz, Krottendorf / Österreich, *26.12.1966. Bestellt: Geschäftsführer: Pohl, Alfred, Wasserburg a. Inn, *02.08.1974, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Vertretungsbefugnis geändert, nun: Geschäftsführer: Beck, Robert Peter, Freilassing, *05.06.1980, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 23456:Cardines Management GmbH",
+        "notice_id": "807277",
+        "posted_on": "2014-08-14",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=807277&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Pohl , Alfred , Wasserburg a ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Ludmannsdorf / Österreich",
+                    "dob": "1986-03-16",
+                    "lastname": "Kunz",
+                    "name": "Christian"
+                },
+                "text": " Kunz , Christian , Ludmannsdorf / Österreich , * 16.03.1986"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Freilassing",
+                    "dob": "1980-05-06",
+                    "flag": "sole representation",
+                    "lastname": "Beck",
+                    "name": "Robert Peter"
+                },
+                "text": " Beck , Robert Peter , Freilassing , * 05.06.1980 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

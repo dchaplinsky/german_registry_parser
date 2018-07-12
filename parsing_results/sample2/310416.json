@@ -1,0 +1,45 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 3341",
+        "amtsgericht": "Fürth",
+        "event_date": "2009-03-12",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Fürth Aktenzeichen: HRB 3341 \nBekannt gemacht am: 17.03.2009 12:00 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n12.03.2009\n\nKrugmann GmbH, Fürth, Herrnstraße 45, 90763 Fürth.Geschäftsanschrift: Herrnstraße 45, 90763 Fürth. Bestellt: Geschäftsführer: Zimmermann, Reiner, Nürnberg, *06.03.1957, einzelvertretungsberechtigt. Ausgeschieden: Geschäftsführer: Königsreuther, Monika, geb. Krugmann, Fürth, *15.03.1953.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Krugmann GmbH",
+        "notice_id": "310416",
+        "posted_on": "2009-03-17",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=310416&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Königsreuther , Monika , geb ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Herrnstraße 45 , 90763 Fürth ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Nürnberg",
+                    "dob": "1957-06-03",
+                    "flag": "sole representation",
+                    "lastname": "Zimmermann",
+                    "name": "Reiner"
+                },
+                "text": " Zimmermann , Reiner , Nürnberg , * 06.03.1957 , einzelvertretungsberechtigt ."
+            }
+        ]
+    }
+}

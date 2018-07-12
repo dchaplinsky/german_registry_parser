@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 801",
+        "amtsgericht": "Iserlohn",
+        "event_date": "2005-04-12",
+        "event_type": "Löschungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Iserlohn Aktenzeichen: HRA 801 \nBekannt gemacht am: 13.04.2005 09:51 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nLöschungen\n12.04.2005\n\nErnst Ossenberg, Iserlohn (Lösseler Straße 60, 58644 Iserlohn). Nicht mehr persönlich haftender Gesellschafter, sondern nunmehr Inhaber: Ossenberg-Falkenroth, Ursula, Iserlohn, *08.12.1948. Prokura erloschen: Ossenberg, Marianne, Iserlohn. Die Gesellschaft ist aufgelöst. Die Firma ist erloschen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Ernst Ossenberg",
+        "notice_id": "26800",
+        "posted_on": "2005-04-13",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=26800&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Ossenberg , Marianne , Iserlohn ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Iserlohn",
+                    "dob": "1948-08-12",
+                    "lastname": "Ossenberg - Falkenroth",
+                    "name": "Ursula"
+                },
+                "text": " Ossenberg - Falkenroth , Ursula , Iserlohn , * 08.12.1948 ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 109604",
+        "amtsgericht": "Mannheim",
+        "event_date": "2009-04-03",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Mannheim Aktenzeichen: HRB 109604 \nBekannt gemacht am: 09.04.2009 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n03.04.2009\n\nPharmadidact GmbH, Karlsruhe, (Hardtstr. 35 - 37, 76185 Karlsruhe).Allgemeine Vertretungsregelung geändert; nun: Ist nur ein Liquidator bestellt, vertritt er allein. Sind mehrere Liquidatoren bestellt, vertreten sie gemeinsam. Bestellt als Liquidator: Dr. Mazetti-Rau, Waltraud, geb. Mazetti, Karlsruhe, *20.01.1946. Nicht mehr Geschäftsführer: Dr. Mazetti-Rau, Waltraud Annemarie, Karlsruhe, *20.01.1946. Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Pharmadidact GmbH",
+        "notice_id": "124889",
+        "posted_on": "2009-04-09",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=124889&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Dr . Mazetti - Rau , Waltraud , geb ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Karlsruhe",
+                    "dob": "1946-01-20",
+                    "lastname": "Dr . Mazetti - Rau",
+                    "name": "Waltraud Annemarie"
+                },
+                "text": " Dr . Mazetti - Rau , Waltraud Annemarie , Karlsruhe , * 20.01.1946 ."
+            }
+        ]
+    }
+}

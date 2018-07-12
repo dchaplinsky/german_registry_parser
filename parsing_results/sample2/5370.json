@@ -1,0 +1,71 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 22049",
+        "amtsgericht": "Chemnitz",
+        "event_date": "2005-04-22",
+        "event_type": "Neueintragungen",
+        "federal_state": "sn",
+        "full_text": "Amtsgericht Chemnitz Aktenzeichen: HRB 22049 \nBekannt gemacht am: 28.04.2005 07:25 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des  Unternehmensgegenstandes erfolgen ohne Gewähr.\nNeueintragungen\n22.04.2005\n\nKIESELSTEIN Industriesiebe und Drahtförderbänder GmbH, Chemnitz (Otto-Schmerbach-Straße 19, 09117 Chemnitz). Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 07.04.2005. Gegenstand des Unternehmens: industrielle Herstellung und Vertrieb auf den Gebieten Draht, Drahtgeweben, Drahtgeflechten inclusive Industriesiebe und Drahtförderbänder einschließlich Import und Export dieser Produkte. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Ist nur ein Geschäftsführer bestellt, ist er befugt, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte vorzunehmen. Geschäftsführer: Schubert, Christian, Dresden, *02.03.1954. Geschäftsführer: Dr. Kieselstein, Stephan, Chemnitz, *27.04.1954, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Gesamtprokura gemeinsam mit einem Geschäftsführer oder einem anderen Prokuristen: Kieselstein, Jens, Chemnitz, *26.10.1980; Zimmer, Silke, Rossau, *31.10.1972.Als nicht eingetragen wird veröffentlicht: Die Bekanntmachungen der Gesellschaft erfolgen zusätzlich im Bundesanzeiger (Zeitungsausgabe).",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "KIESELSTEIN Industriesiebe und Drahtförderbänder GmbH",
+        "notice_id": "5370",
+        "posted_on": "2005-04-28",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=5370&land_abk=sn"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "Company with limited liability .",
+                "text": "Gesellschaft mit beschränkter Haftung ."
+            },
+            {
+                "flag": "If only one managing director is appointed, he represents the company alone.",
+                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+            },
+            {
+                "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
+                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Dresden",
+                    "dob": "1954-02-03",
+                    "lastname": "Schubert",
+                    "name": "Christian"
+                },
+                "text": " Schubert , Christian , Dresden , * 02.03.1954 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Chemnitz",
+                    "dob": "1954-04-27",
+                    "flag": "sole representation",
+                    "lastname": "Dr . Kieselstein",
+                    "name": "Stephan"
+                },
+                "text": " Dr . Kieselstein , Stephan , Chemnitz , * 27.04.1954 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Chemnitz",
+                    "dob": "1980-10-26",
+                    "lastname": "Kieselstein",
+                    "name": "Jens"
+                },
+                "text": " Kieselstein , Jens , Chemnitz , * 26.10.1980"
+            }
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 1183",
+        "amtsgericht": "Bochum",
+        "event_date": "2016-02-02",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Bochum Aktenzeichen: HRB 1183 \nBekannt gemacht am: 02.02.2016 20:05 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n02.02.2016\n\nHRB 1183: Alphasoft Software Dienstleistungs- und Datenverarbeitungsgesellschaft mit beschränkter Haftung, Bochum, Prinz-Regent-Straße 68 a, 44795 Bochum. Bestellt als Geschäftsführer: Freimuth, Axel, Bochum, *25.02.1978; Plasa, Jens, Bochum, *15.08.1976; Ruhrus, Normen, Bochum, *09.11.1977, jeweils einzelvertretungsberechtigt. Nicht mehr Geschäftsführer: Kanyar, Gabriele Therese, Kauffrau, Bochum. Prokura erloschen: Freimuth, Axel, Bochum, *25.02.1978; Plasa, Jens, Bochum, *15.08.1976; Ruhrus, Normen, Bochum, *09.11.1977.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 1183: Alphasoft Software Dienstleistungs- und Datenverarbeitungsgesellschaft mit beschränkter Haftung",
+        "notice_id": "1248860",
+        "posted_on": "2016-02-02",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1248860&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Kanyar , Gabriele Therese , Kauffrau , Bochum ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bochum",
+                    "dob": "1978-02-25",
+                    "lastname": "Freimuth",
+                    "name": "Axel"
+                },
+                "text": " Freimuth , Axel , Bochum , * 25.02.1978"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Bochum",
+                    "dob": "1978-02-25",
+                    "lastname": "Freimuth",
+                    "name": "Axel"
+                },
+                "text": " Freimuth , Axel , Bochum , * 25.02.1978"
+            }
+        ]
+    }
+}

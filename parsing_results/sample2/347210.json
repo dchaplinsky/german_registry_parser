@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 86358",
+        "amtsgericht": "Hamburg",
+        "event_date": "2017-11-14",
+        "event_type": "Veränderungen",
+        "federal_state": "hh",
+        "full_text": "Amtsgericht Hamburg Aktenzeichen: HRA 86358 \nBekannt gemacht am: 14.11.2017 10:02 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n14.11.2017\n\nHRA 86358: Klinik Fleetinsel Hamburg GmbH & Co. KG, Hamburg, Admiralitätstr. 3-4, 20459 Hamburg. Eingetreten Persönlich haftender Gesellschafter: Klinik Fleetinsel Verwaltungs GmbH, München (Amtsgericht München HRB 233612), Der persönlich haftende Gesellschafter und dessen jeweilige gesetzliche Vertreter sind befugt, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Ausgeschieden Persönlich haftender Gesellschafter: Kaese, Bernd, Pinneberg, *01.10.1949; Verwaltung Klinik Fleetinsel Hamburg GmbH, Hamburg (Amtsgericht Hamburg HRB 46985).",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 86358: Klinik Fleetinsel Hamburg GmbH & Co. KG",
+        "notice_id": "347210",
+        "posted_on": "2017-11-14",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=347210&land_abk=hh"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Klinik Fleetinsel Verwaltungs GmbH , München ( Amtsgericht München HRB 233612 ) , Der persönlich haftende Gesellschafter und dessen jeweilige gesetzliche Vertreter sind befugt , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Pinneberg",
+                    "dob": "1949-01-10",
+                    "lastname": "Kaese",
+                    "name": "Bernd"
+                },
+                "text": " Kaese , Bernd , Pinneberg , * 01.10.1949"
+            }
+        ]
+    }
+}

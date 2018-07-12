@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 3561",
+        "amtsgericht": "Würzburg",
+        "event_date": "2014-03-21",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Würzburg Aktenzeichen: HRA 3561 \nBekannt gemacht am: 22.03.2014 02:01 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n21.03.2014\n\nHRA 3561:Heimkehr Bestattungsunternehmen Gottfried Reiter, Würzburg, Friedrich-Ebert-Ring 12, 97072 Würzburg.Firma geändert, nun: Heimkehr Bestattungsunternehmen Gottfried Reiter e.K. Inhaber Josef Meder. Gemäß Artikel 65 EGHGB von Amts wegen eingetragen: Geschäftsanschrift: Friedrich-Ebert-Ring 12, 97072 Würzburg. Der Inhaber / die Inhaberin handelt allein. Nicht mehr Inhaber: Reiter, Gottfried, Kaufmann, Würzburg. Neuer Inhaber: Meder, Josef, Bad Kissingen, *14.08.1965. Der Übergang der in dem Betrieb des Geschäfts begründeten Forderungen und die Haftung für die in dem Betrieb des Geschäfts entstandenen Verbindlichkeiten sind bei dem Erwerb des Geschäfts durch den neuen Inhaber Meder, Josef, *14.08.1965, ausgeschlossen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 3561:Heimkehr Bestattungsunternehmen Gottfried Reiter",
+        "notice_id": "771945",
+        "posted_on": "2014-03-22",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=771945&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Reiter , Gottfried , Kaufmann , Würzburg ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Friedrich - Ebert - Ring 12 , 97072 Würzburg ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Bad Kissingen",
+                    "dob": "1965-08-14",
+                    "lastname": "Meder",
+                    "name": "Josef"
+                },
+                "text": " Meder , Josef , Bad Kissingen , * 14.08.1965 ."
+            }
+        ]
+    }
+}

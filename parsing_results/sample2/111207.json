@@ -1,0 +1,50 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 5810 FF",
+        "amtsgericht": "Frankfurt/Oder",
+        "event_date": "2015-01-07",
+        "event_type": "Veränderungen",
+        "federal_state": "br",
+        "full_text": "Amtsgericht Frankfurt/Oder Aktenzeichen: HRB 5810 FF \nBekannt gemacht am: 09.01.2015 05:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nVeränderungen\n07.01.2015\n\nHRB 5810 FF: \"Truck-Service-Pieper TSP GmbH\", Lindenberg, Amboßweg 2, 16356 Ahrensfelde OT Lindenberg. Geschäftsanschrift: Amboßweg 2, 16356 Ahrensfelde OT Lindenberg; Vertretungsregelung: Ist ein Liquidator bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Liquidatoren bestellt, wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten. Änderung zu Nr. 1: Liquidator: Pieper, Jürgen, *05.02.1955, Berlin; mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Rechtsverhaeltnis: Durch Beschluss der Gesellschafterversammlung vom 01.12.2014 ist die Gesellschaft aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Rechtsverhaeltnis: Durch Beschluss der Gesellschafterversammlung vom 01.12.2014 ist die Gesellschaft aufgelöst.",
+        "notice_id": "111207",
+        "posted_on": "2015-01-09",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=111207&land_abk=br"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Pieper , Jürgen , * 05.02.1955 , Berlin"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
+                "text": "Sind mehrere Liquidatoren bestellt , wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten ."
+            },
+            {
+                "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Amboßweg 2 , 16356 Ahrensfelde OT Lindenberg"
+            }
+        ]
+    }
+}

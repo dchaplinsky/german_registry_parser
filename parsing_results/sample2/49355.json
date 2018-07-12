@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 11793",
+        "amtsgericht": "Leipzig",
+        "event_date": "2008-02-15",
+        "event_type": "Veränderungen",
+        "federal_state": "sn",
+        "full_text": "Amtsgericht Leipzig Aktenzeichen: HRA 11793 \nBekannt gemacht am: 18.02.2008 22:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n15.02.2008\n\nLieselotte Hildebrandt Elektrofachhandel, Schkeuditz (Bahnhofstraße 4, 04435 Schkeuditz). : Die Firma ist geändert in: Hildebrandt Elektrofachhandel e.K. Nicht mehr Inhaber: Hildebrandt, Lieselotte, Kauffrau, Leipzig. Eingetreten: Inhaber: Weiser, Nanette, Leipzig, *19.11.1957. Der Übergang der im Betrieb des Geschäfts der früheren Inhaberin Lieselotte Hildebrandt begründeten Forderungen und Verbindlichkeiten auf die neue Inhaberin Nanette Weiser ist ausgeschlossen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Lieselotte Hildebrandt Elektrofachhandel",
+        "notice_id": "49355",
+        "posted_on": "2008-02-18",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=49355&land_abk=sn"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Hildebrandt , Lieselotte , Kauffrau , Leipzig ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Leipzig",
+                    "dob": "1957-11-19",
+                    "lastname": "Weiser",
+                    "name": "Nanette"
+                },
+                "text": " Weiser , Nanette , Leipzig , * 19.11.1957 ."
+            }
+        ]
+    }
+}

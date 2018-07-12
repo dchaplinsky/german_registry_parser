@@ -1,0 +1,39 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 301961",
+        "amtsgericht": "Jena",
+        "event_date": "2007-10-19",
+        "event_type": "Veränderungen",
+        "federal_state": "th",
+        "full_text": "Amtsgericht Jena Aktenzeichen: HRB 301961 \nBekannt gemacht am: 24.10.2007 12:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n19.10.2007\n\nS & R Stahlbau - Blechbearbeitung Verwaltungsgesellschaft mbH, Effelder-Rauenstein (Sonneberger Straße 1a, 96528 Effelder-Rauenstein OT Effelder). Ausgeschieden: Geschäftsführer: Rösler, Roland, Ingenieur, Lichtenfels. Bestellt: Geschäftsführer: Stötzer, Alexander, Mengersgereuth-Hämmern, *13.07.1973, einzelvertretungsberechtigt.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "S & R Stahlbau - Blechbearbeitung Verwaltungsgesellschaft mbH",
+        "notice_id": "12302",
+        "posted_on": "2007-10-24",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=12302&land_abk=th"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rösler , Roland , Ingenieur , Lichtenfels ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Mengersgereuth - Hämmern",
+                    "dob": "1973-07-13",
+                    "flag": "sole representation",
+                    "lastname": "Stötzer",
+                    "name": "Alexander"
+                },
+                "text": " Stötzer , Alexander , Mengersgereuth - Hämmern , * 13.07.1973 , einzelvertretungsberechtigt ."
+            }
+        ]
+    }
+}

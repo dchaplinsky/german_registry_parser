@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 100012",
+        "amtsgericht": "Stendal",
+        "event_date": "2012-07-10",
+        "event_type": "Veränderungen",
+        "federal_state": "st",
+        "full_text": "Amtsgericht Stendal Aktenzeichen: HRB 100012   \nBekannt gemacht am: 16.07.2012 12:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n10.07.2012\n\nTeleservice GmbH Wolmirstedt, Wolmirstedt, Gipfelstr. 1, 39326 Wolmirstedt. Ausgeschieden: Geschäftsführer: Groß, Erhard, Meseberg. Geändert, nun: Geschäftsführer: Bergmann, Rainer, Wolmirstedt, *01.11.1961; Brauer, Wilfried, Barleben OT Ebendorf, *27.03.1954; Lindau, Dirk, Colbitz, *06.11.1958, jeweils vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Teleservice GmbH Wolmirstedt",
+        "notice_id": "55128",
+        "posted_on": "2012-07-16",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=55128&land_abk=st"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Groß , Erhard , Meseberg ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Wolmirstedt",
+                    "dob": "1961-01-11",
+                    "lastname": "Bergmann",
+                    "name": "Rainer"
+                },
+                "text": " Bergmann , Rainer , Wolmirstedt , * 01.11.1961"
+            }
+        ]
+    }
+}

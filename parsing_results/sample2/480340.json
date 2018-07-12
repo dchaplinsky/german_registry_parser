@@ -1,0 +1,48 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 4402",
+        "amtsgericht": "Traunstein",
+        "event_date": "2011-02-07",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Traunstein Aktenzeichen: HRA 4402 \nBekannt gemacht am: 09.02.2011 12:00 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n07.02.2011\n\nMangfall-Apotheke Kolbermoor Helmut Markl, Kolbermoor, Bahnhofstr. 3, 83059 Kolbermoor. Firma geändert, nun: Mangfall-Apotheke Florian Nagele e.K. Geschäftsanschrift: Bahnhofstr. 3, 83059 Kolbermoor. Nicht mehr Inhaber: Markl, Helmut, Apotheker, Kolbermoor. Neuer Inhaber: Nagele, Florian, Brannenburg, *17.10.1979. Prokura erloschen: Markl, Irene, Kolbermoor. Der Übergang der in dem Betrieb des Geschäfts begründeten Forderungen und Verbindlichkeiten ist bei dem Erwerb des Geschäfts durch den neuen Inhaber ausgeschlossen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Mangfall-Apotheke Kolbermoor Helmut Markl",
+        "notice_id": "480340",
+        "posted_on": "2011-02-09",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=480340&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Markl , Helmut , Apotheker , Kolbermoor ."
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Markl , Irene , Kolbermoor ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Bahnhofstr ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Brannenburg",
+                    "dob": "1979-10-17",
+                    "lastname": "Nagele",
+                    "name": "Florian"
+                },
+                "text": " Nagele , Florian , Brannenburg , * 17.10.1979 ."
+            }
+        ]
+    }
+}

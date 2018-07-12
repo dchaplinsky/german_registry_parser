@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 20472",
+        "amtsgericht": "Köln",
+        "event_date": "2015-02-17",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Köln Aktenzeichen: HRA 20472 \nBekannt gemacht am: 17.02.2015 20:03 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n17.02.2015\n\nHRA 20472: Günter Voigt, Leverkusen, Overfeldweg 38, 51371 Leverkusen. Nach Firmenänderung: Neue Firma: Günter Voigt e.K. Inhaberin Sabine Voigt-Frick. Nicht mehr Inhaber: Voigt, Günter, Transportunternehmer, Leverkusen. Neuer Inhaber: Voigt-Frick, Sabine, Leverkusen, *13.11.1972.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 20472: Günter Voigt",
+        "notice_id": "1129386",
+        "posted_on": "2015-02-17",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1129386&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Voigt , Günter , Transportunternehmer , Leverkusen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Leverkusen",
+                    "dob": "1972-11-13",
+                    "lastname": "Voigt - Frick",
+                    "name": "Sabine"
+                },
+                "text": " Voigt - Frick , Sabine , Leverkusen , * 13.11.1972 ."
+            }
+        ]
+    }
+}

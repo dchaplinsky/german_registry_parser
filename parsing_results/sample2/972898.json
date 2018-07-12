@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 87759",
+        "amtsgericht": "München",
+        "event_date": "2016-05-10",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 87759 \nBekannt gemacht am: 11.05.2016 02:01 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n10.05.2016\n\nHRB 87759: Glas Ortlieb GmbH, München, Erich-Kästner-Str. 8, 80796 München. Ausgeschieden: Geschäftsführer: Ortlieb, Alfred, Glasermeister, München. Bestellt: Geschäftsführer: Simmerl, Sebastian, München, *19.07.1984; Wagner, Erwin, München, *06.10.1961, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 87759: Glas Ortlieb GmbH",
+        "notice_id": "972898",
+        "posted_on": "2016-05-11",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=972898&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Ortlieb , Alfred , Glasermeister , München ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1984-07-19",
+                    "lastname": "Simmerl",
+                    "name": "Sebastian"
+                },
+                "text": " Simmerl , Sebastian , München , * 19.07.1984"
+            }
+        ]
+    }
+}

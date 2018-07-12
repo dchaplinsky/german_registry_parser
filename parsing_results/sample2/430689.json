@@ -1,0 +1,53 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 129792 B",
+        "amtsgericht": "Charlottenburg (Berlin)",
+        "event_date": "2017-05-30",
+        "event_type": "Veränderungen",
+        "federal_state": "be",
+        "full_text": "Amtsgericht Charlottenburg (Berlin) Aktenzeichen: HRB 129792 B \nBekannt gemacht am: 12.06.2017 10:41 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nVeränderungen\n30.05.2017\n\nHRB 129792 B: I.T. Holding GmbH, Berlin, Helmstedter Str. 12, 10717 Berlin. Vertretungsregelung: Ist ein Liquidator bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Liquidatoren bestellt, wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten.  Nicht mehr Geschäftsführer: 3. Twohig, Bradley George; Änderung zu Nr. 2: aufgrund Auflösung nunmehr; Liquidator: Kober, Thomas, *31.05.1960, Berlin; mit der Befugnis die Gesellschaft allein zu vertreten; Rechtsverhaeltnis: Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 129792 B: I.T. Holding GmbH",
+        "notice_id": "430689",
+        "posted_on": "2017-06-12",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=430689&land_abk=be"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Kober , Thomas , * 31.05.1960 , Berlin"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
+                "text": "Sind mehrere Liquidatoren bestellt , wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten ."
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            },
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "WHUT",
+                "text": " I . T ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " 3 ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 4270",
+        "amtsgericht": "Osnabrück",
+        "event_date": "2010-07-09",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Osnabrück Aktenzeichen: HRA 4270 \nBekannt gemacht am: 12.07.2010 22:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n09.07.2010\n\nLeimbrock KG Inhaber Franz Leimbrock, Bohmte, Industriestraße 20, 49163 Bohmte.Neue Firma: Leimbrock e. K. Inhaber Wilhelm Leimbrock. Nicht mehr Inhaber: Leimbrock, Franz, Kaufmann, Bohmte. Eingetreten als Inhaber: Leimbrock, Wilhelm, Dissen, *11.06.1943.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Leimbrock KG Inhaber Franz Leimbrock",
+        "notice_id": "133574",
+        "posted_on": "2010-07-12",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=133574&land_abk=ni"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Leimbrock , Franz , Kaufmann , Bohmte ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Dissen",
+                    "dob": "1943-11-06",
+                    "lastname": "Leimbrock",
+                    "name": "Wilhelm"
+                },
+                "text": " Leimbrock , Wilhelm , Dissen , * 11.06.1943 ."
+            }
+        ]
+    }
+}

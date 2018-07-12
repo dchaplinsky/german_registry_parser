@@ -1,0 +1,50 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 5577",
+        "amtsgericht": "Gießen",
+        "event_date": "2010-08-03",
+        "event_type": "Veränderungen",
+        "federal_state": "he",
+        "full_text": "Amtsgericht Gießen Aktenzeichen: HRB 5577 \nBekannt gemacht am: 04.08.2010 12:00 Uhr\n\n\n\n\nVeröffentlichungen des Amtsgerichts Gießen\r\r\rIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n03.08.2010\n\nL.B. Profile GmbH, Herbstein, Am Schlirfer Weg 2-4, 36358 Herbstein.Geschäftsanschrift: Am Schlirfer Weg 2-4, 36358 Herbstein. Nicht mehr Geschäftsführer: Rawson, Geoffrey, Allestree, Derby (England), *03.03.1948. Prokura geändert bei: Langer, Andrea, Grebenhain, *11.10.1964. Jetzt Einzelprokura.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "L.B. Profile GmbH",
+        "notice_id": "191662",
+        "posted_on": "2010-08-04",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=191662&land_abk=he"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rawson , Geoffrey , Allestree , Derby ( England ) , * 03.03.1948 ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Am Schlirfer Weg 2-4 , 36358 Herbstein ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "NewProcuration",
+                "payload": {
+                    "city": "Grebenhain",
+                    "dob": "1964-11-10",
+                    "lastname": "Langer",
+                    "name": "Andrea"
+                },
+                "text": " Langer , Andrea , Grebenhain , * 11.10.1964 ."
+            }
+        ]
+    }
+}

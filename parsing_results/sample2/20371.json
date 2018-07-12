@@ -1,0 +1,40 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 12425",
+        "amtsgericht": "Stuttgart",
+        "event_date": "2007-04-26",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Stuttgart Aktenzeichen: HRB 12425 \nBekannt gemacht am: 30.04.2007 07:14 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n26.04.2007\n\nInogon Trade und Consult GmbH, Stuttgart (Unteraicher Str. 56, 70567 Stuttgart). Ist nur ein Liquidator bestellt, vertritt er allein. Sind mehrere Liquidatoren bestellt, vertreten zwei gemeinsam oder ein Liquidator gemeinsam mit einem Prokuristen. Bestellt als Liquidator: Robert, Doris, geb. Leininger, Mainaschaff, *31.08.1945, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht mehr Geschäftsführer: Helm, Petra, geb. Leininger, Kauffrau, Goldbach. Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Inogon Trade und Consult GmbH",
+        "notice_id": "20371",
+        "posted_on": "2007-04-30",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=20371&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Robert , Doris , geb ."
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Helm , Petra , geb ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ]
+    }
+}

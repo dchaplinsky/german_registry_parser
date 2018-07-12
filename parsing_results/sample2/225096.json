@@ -1,0 +1,39 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 6492",
+        "amtsgericht": "Steinfurt",
+        "event_date": "2007-05-15",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Steinfurt Aktenzeichen: HRB 6492 \nBekannt gemacht am: 24.05.2007 09:50 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n15.05.2007\n\nHildegard Banning GmbH, Lengerich (Wielandstr. 14, 49525 Lengerich). Bestellt als Geschäftsführer: Lohmann, Otto, Mettingen, *05.10.1946, einzelvertretungsberechtigt. Nicht mehr Geschäftsführer: Banning, Hildegard, geb. Kemper, Lengerich, *25.08.1922.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Hildegard Banning GmbH",
+        "notice_id": "225096",
+        "posted_on": "2007-05-24",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=225096&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Banning , Hildegard , geb ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Mettingen",
+                    "dob": "1946-05-10",
+                    "flag": "sole representation",
+                    "lastname": "Lohmann",
+                    "name": "Otto"
+                },
+                "text": " Lohmann , Otto , Mettingen , * 05.10.1946 , einzelvertretungsberechtigt ."
+            }
+        ]
+    }
+}

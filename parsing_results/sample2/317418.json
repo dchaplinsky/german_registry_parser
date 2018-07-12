@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 1019",
+        "amtsgericht": "Ansbach",
+        "event_date": "2009-04-06",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Ansbach Aktenzeichen: HRA 1019 \nBekannt gemacht am: 15.04.2009 12:00 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n06.04.2009\n\nStadtapotheke Wassertrüdingen Dr. H. Haas Inh. Hans Straller e.K., Wassertrüdingen, Poststr. 6, 91717 Wassertrüdingen.Nicht mehr Inhaber: Straller, Hans, Apotheker, Wassertrüdingen. Neuer Inhaber: Straller, Ulrich, Wassertrüdingen, *18.12.1978. Firma geändert, nun: Stadtapotheke Wassertrüdingen Dr. H. Haas Inh. Ulrich Straller e.K.. Geschäftsanschrift: Poststr. 6, 91717 Wassertrüdingen. Der Übergang der in dem Betrieb des Geschäfts begründeten Forderungen und Verbindlichkeiten ist bei dem Erwerb des Geschäfts durch Straller, Ulrich, Wassertrüdingen, *18.12.1978, ausgeschlossen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Stadtapotheke Wassertrüdingen Dr. H. Haas Inh. Hans Straller e.K.",
+        "notice_id": "317418",
+        "posted_on": "2009-04-15",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=317418&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Straller , Hans , Apotheker , Wassertrüdingen ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Poststr ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Wassertrüdingen",
+                    "dob": "1978-12-18",
+                    "lastname": "Straller",
+                    "name": "Ulrich"
+                },
+                "text": " Straller , Ulrich , Wassertrüdingen , * 18.12.1978 ."
+            }
+        ]
+    }
+}

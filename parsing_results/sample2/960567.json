@@ -1,0 +1,48 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 1661",
+        "amtsgericht": "Amberg",
+        "event_date": "2016-03-21",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Amberg Aktenzeichen: HRA 1661 \nBekannt gemacht am: 22.03.2016 02:02 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n21.03.2016\n\nHRA 1661: Autohaus Michael Eitel e.K., Freihung-Thansüß, Bahnhofstr. 1, 92271 Freihung. Firma geändert, nun: Autohaus Eitel e.K. Inhaber Natascha Eitel. Allgemeine Vertretungsregelung von Amts wegen ergänzt: Der Inhaber / die Inhaberin handelt allein. Neuer Inhaber: Eitel, Natascha, Freihung, *20.09.1967. Nicht mehr Inhaber: Eitel, Michael, Freihung-Thansüß, *24.08.1950. Prokura erloschen: Eitel, Michael, jun., Freihung, *19.01.1973. Der Übergang der in dem Betrieb des Geschäfts begründeten Forderungen und die Haftung für die in dem Betrieb des Geschäfts begründeten Verbindlichkeiten sind bei dem Erwerb des Geschäfts durch den neuen Inhaber Eitel, Natascha, *20.09.1967, ausgeschlossen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 1661: Autohaus Michael Eitel e.K.",
+        "notice_id": "960567",
+        "posted_on": "2016-03-22",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=960567&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Eitel , Michael , jun . , Freihung , * 19.01.1973 ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Freihung",
+                    "dob": "1967-09-20",
+                    "lastname": "Eitel",
+                    "name": "Natascha"
+                },
+                "text": " Eitel , Natascha , Freihung , * 20.09.1967 ."
+            },
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Freihung - Thansüß",
+                    "dob": "1950-08-24",
+                    "lastname": "Eitel",
+                    "name": "Michael"
+                },
+                "text": " Eitel , Michael , Freihung - Thansüß , * 24.08.1950 ."
+            }
+        ]
+    }
+}

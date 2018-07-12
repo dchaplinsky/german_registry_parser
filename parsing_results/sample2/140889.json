@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 7280",
+        "amtsgericht": "München",
+        "event_date": "2007-01-03",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 7280 \nBekannt gemacht am: 10.01.2007 09:48 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n03.01.2007\n\nUnterstützungskasse GmbH der BayLa-Stiftung e.V., München (Agnes-Bernauer-Str. 90, 80687 München). Ausgeschieden: Geschäftsführer: Gruber, Georg, Steuerberater, Walpertskirchen. Bestellt: Geschäftsführer: Knorr, Horst, Taura, *10.04.1951.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Unterstützungskasse GmbH der BayLa-Stiftung e.V.",
+        "notice_id": "140889",
+        "posted_on": "2007-01-10",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=140889&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Gruber , Georg , Steuerberater , Walpertskirchen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Taura",
+                    "dob": "1951-10-04",
+                    "lastname": "Knorr",
+                    "name": "Horst"
+                },
+                "text": " Knorr , Horst , Taura , * 10.04.1951 ."
+            }
+        ]
+    }
+}

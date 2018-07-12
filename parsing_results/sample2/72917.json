@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 110336",
+        "amtsgericht": "Hildesheim",
+        "event_date": "2009-01-15",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Hildesheim Aktenzeichen: HRA 110336 \nBekannt gemacht am: 21.01.2009 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n15.01.2009\n\nCarl Schridde Augenoptik Inhaber Ulrich Klages, Holzminden, Neue Straße 4, 37603 Holzminden.Firma geändert, nun: Carl Schridde Augenoptik Inhaber Frank Beinlich e. K. Geschäftsanschrift: Neue Straße 4, 37603 Holzminden. Nicht mehr Inhaber: Klages, Ulrich, Augenoptikermeister, Holzminden. Geändert, nun: Inhaber: Beinlich, Frank, Einbeck, *25.09.1968.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Carl Schridde Augenoptik Inhaber Ulrich Klages",
+        "notice_id": "72917",
+        "posted_on": "2009-01-21",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=72917&land_abk=ni"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Klages , Ulrich , Augenoptikermeister , Holzminden ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Neue Straße 4 , 37603 Holzminden ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Einbeck",
+                    "dob": "1968-09-25",
+                    "lastname": "Beinlich",
+                    "name": "Frank"
+                },
+                "text": " Beinlich , Frank , Einbeck , * 25.09.1968 ."
+            }
+        ]
+    }
+}

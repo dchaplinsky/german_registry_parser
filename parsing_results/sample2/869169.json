@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 597",
+        "amtsgericht": "Hof",
+        "event_date": "2015-04-07",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Hof Aktenzeichen: HRB 597 \nBekannt gemacht am: 08.04.2015 02:02 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n07.04.2015\n\nHRB 597:Geiger & Riedel & Co. GmbH, Hof ( Saale ), Ascher Straße 52, 95028 Hof.Ausgeschieden: Geschäftsführer: Geiger, Georg, Textilingenieur, Helmbrechts; Riedel, Gustav, Elektroingenieur, Konradsreuth. Bestellt: Geschäftsführer: Geiger, Peter, Helmbrechts, *20.03.1970; Riedel, Stefan, Hof, *18.10.1973, jeweils einzelvertretungsberechtigt.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 597:Geiger & Riedel & Co. GmbH",
+        "notice_id": "869169",
+        "posted_on": "2015-04-08",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=869169&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Geiger , Georg , Textilingenieur , Helmbrechts"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Helmbrechts",
+                    "dob": "1970-03-20",
+                    "lastname": "Geiger",
+                    "name": "Peter"
+                },
+                "text": " Geiger , Peter , Helmbrechts , * 20.03.1970"
+            }
+        ]
+    }
+}

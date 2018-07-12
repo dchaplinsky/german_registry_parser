@@ -1,0 +1,45 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 5658",
+        "amtsgericht": "Lemgo",
+        "event_date": "2016-12-16",
+        "event_type": "Neueintragungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Lemgo Aktenzeichen: HRA 5658 \nBekannt gemacht am: 16.12.2016 20:01 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nNeueintragungen\n16.12.2016\n\nHRA 5658: Werratal Solar GmbH & Co. KG, Bad Salzuflen, Bahnhofstraße 11, 32105 Bad Salzuflen. Kommanditgesellschaft. Geschäftsanschrift: Bahnhofstraße 11, 32105 Bad Salzuflen. Jeder persönlich haftende Gesellschafter vertritt einzeln. Eingetreten als Persönlich haftender Gesellschafter: EstatePartner Beteiligungsgesellschaft mbH, Bad Salzuflen (Amtsgericht Lemgo HRB 8419), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Ausgeschieden als Persönlich haftender Gesellschafter: solarpower project-invest Verwaltungs GmbH, Nürnberg (Amtsgericht Nürnberg HRB 26989). Der Sitz ist von Nürnberg (bisher Amtsgericht Nürnberg, HRA 17634) nach Bad Salzuflen verlegt.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 5658: Werratal Solar GmbH & Co. KG",
+        "notice_id": "1356004",
+        "posted_on": "2016-12-16",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1356004&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  EstatePartner Beteiligungsgesellschaft mbH , Bad Salzuflen ( Amtsgericht Lemgo HRB 8419 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Limited partnership.",
+                "text": "Kommanditgesellschaft ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Bahnhofstraße 11 , 32105 Bad Salzuflen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {},
+                "text": " solarpower project - invest Verwaltungs GmbH , Nürnberg ( Amtsgericht Nürnberg HRB 26989 ) ."
+            }
+        ]
+    }
+}

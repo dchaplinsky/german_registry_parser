@@ -1,0 +1,42 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 16381",
+        "amtsgericht": "Stuttgart",
+        "event_date": "2009-08-28",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Stuttgart Aktenzeichen: HRB 16381 \nBekannt gemacht am: 31.08.2009 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n28.08.2009\n\nSysCon GmbH Systembau - Consult, Stuttgart, Landauer Straße 30 A, 70499 Stuttgart-Weilimdorf.Geschäftsanschrift: Landauer Straße 30 A, 70499 Stuttgart-Weilimdorf. Allgemeine Vertretungsregelung geändert; nun: Ist nur ein Liquidator bestellt, vertritt er allein. Sind mehrere Liquidatoren bestellt, vertreten sie gemeinsam. Bestellt als Liquidator: Chiduch-Peters, Annette Manuela, geb. Chiduch, Stuttgart, *07.03.1965. Nicht mehr Geschäftsführer: Peters, Wolfgang, Industriekaufmann, Stuttgart. Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "SysCon GmbH Systembau - Consult",
+        "notice_id": "145941",
+        "posted_on": "2009-08-31",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=145941&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Chiduch - Peters , Annette Manuela , geb ."
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Peters , Wolfgang , Industriekaufmann , Stuttgart ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Landauer Straße 30 A , 70499 Stuttgart - Weilimdorf ."
+            }
+        ]
+    }
+}

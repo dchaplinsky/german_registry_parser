@@ -1,0 +1,49 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 2308",
+        "amtsgericht": "Iserlohn",
+        "event_date": "2010-11-08",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Iserlohn Aktenzeichen: HRB 2308 \nBekannt gemacht am: 12.11.2010 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n08.11.2010\n\nKISAVertriebsgesellschaft mbH für Sanitär- und Gartenbedarf, Iserlohn, Langer Brauck 25, 58640 Iserlohn. Nach Berichtigung: Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer gemeinsam vertreten. Bestellt als Geschäftsführer: Thielmann, Hans-Jürgen, Köln, *06.08.1955, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht mehr Geschäftsführer: Grohmann, Marco, Köln, *10.05.1962.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "KISAVertriebsgesellschaft mbH für Sanitär- und Gartenbedarf",
+        "notice_id": "610734",
+        "posted_on": "2010-11-12",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=610734&land_abk=nw"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "If only one managing director is appointed, he represents the company alone.",
+                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Köln",
+                    "dob": "1955-06-08",
+                    "flag": "vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Thielmann",
+                    "name": "Hans - Jürgen"
+                },
+                "text": " Thielmann , Hans - Jürgen , Köln , * 06.08.1955 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Köln",
+                    "dob": "1962-10-05",
+                    "lastname": "Grohmann",
+                    "name": "Marco"
+                },
+                "text": " Grohmann , Marco , Köln , * 10.05.1962 ."
+            }
+        ]
+    }
+}

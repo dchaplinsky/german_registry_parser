@@ -1,0 +1,43 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 10105",
+        "amtsgericht": "Moenchengladbach",
+        "event_date": "2005-02-07",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Moenchengladbach Aktenzeichen: HRB 10105 \nBekannt gemacht am: 14.02.2005 07:55 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n07.02.2005\n\nHospitalgemeinschaft St. Michael GmbH., Schwalmtal (Hospitalstraße 16, 41366 Schwalmtal). Nicht mehr Geschäftsführer: Hahn, Heinz Egon, Diplom-Betriebswirt, Wegberg. Nicht mehr Prokurist, nunmehr bestellt als Geschäftsführer: Polmans, Dieter, Niederkrüchten, *17.12.1958, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Prokura erloschen: Polmans, Dieter, Verwaltungsangestellter, Niederkrüchten.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Hospitalgemeinschaft St. Michael GmbH.",
+        "notice_id": "11894",
+        "posted_on": "2005-02-14",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=11894&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Hahn , Heinz Egon , Diplom - Betriebswirt , Wegberg ."
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Polmans , Dieter , Verwaltungsangestellter , Niederkrüchten ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Niederkrüchten",
+                    "dob": "1958-12-17",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Polmans",
+                    "name": "Dieter"
+                },
+                "text": " Polmans , Dieter , Niederkrüchten , * 17.12.1958 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 13805",
+        "amtsgericht": "Bochum",
+        "event_date": "2013-08-07",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Bochum Aktenzeichen: HRB 13805   \nBekannt gemacht am: 12.08.2013 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n07.08.2013\n\nArnold GmbH - Personalservice, Bochum, Herner Straße 299, 44809 Bochum. Die Gesellschafterversammlung vom 27.06.2013 hat eine Änderung des Gesellschaftsvertrages in § 6 (Geschäftsführung), § 11 (Verfügung über Geschäftsanteile), § 12 (Einziehung), § 13 (Einziehungsvergütung), § 14 (Kündigung oder Tod eines Gesellschafters), § 15 (Salvatorische Klausel) und § 16 (Kosten) beschlossen. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Nicht mehr Geschäftsführer: Popp, Jeannette, Recklinghausen, *12.01.1969. Geschäftsführer: Arnold, Mathias, Dortmund, *12.04.1963, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Einzelprokura: Popp, Jeannette, Recklinghausen, *12.01.1969.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Arnold GmbH - Personalservice",
+        "notice_id": "942077",
+        "posted_on": "2013-08-12",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=942077&land_abk=nw"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "If only one managing director is appointed, he represents the company alone.",
+                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+            },
+            {
+                "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
+                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+            },
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Recklinghausen",
+                    "dob": "1969-12-01",
+                    "lastname": "Popp",
+                    "name": "Jeannette"
+                },
+                "text": " Popp , Jeannette , Recklinghausen , * 12.01.1969 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Dortmund",
+                    "dob": "1963-12-04",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Arnold",
+                    "name": "Mathias"
+                },
+                "text": " Arnold , Mathias , Dortmund , * 12.04.1963 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Recklinghausen",
+                    "dob": "1969-12-01",
+                    "lastname": "Popp",
+                    "name": "Jeannette"
+                },
+                "text": " Popp , Jeannette , Recklinghausen , * 12.01.1969 ."
+            }
+        ]
+    }
+}

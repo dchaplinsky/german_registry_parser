@@ -1,0 +1,43 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 135273",
+        "amtsgericht": "München",
+        "event_date": "2008-02-26",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 135273 \nBekannt gemacht am: 27.02.2008 12:00 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n26.02.2008\n\nMRCE Dispolok GmbH, München (Krauss-Maffei-Straße 2, 80997 München). Bestellt: Geschäftsführer: Shimizu, Yasushi, Tokio/Japan, *31.05.1969, mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Ausgeschieden: Geschäftsführer: Nose, Michihiro, Shinjuku-ku, Tokio/Japan, *13.12.1962. Prokura erloschen: Lehnert, Torsten, München, *18.04.1975.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "MRCE Dispolok GmbH",
+        "notice_id": "228959",
+        "posted_on": "2008-02-27",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=228959&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Nose , Michihiro , Shinjuku - ku , Tokio / Japan , * 13.12.1962 ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " Shimizu , Yasushi , Tokio / Japan , * 31.05.1969 , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "München",
+                    "dob": "1975-04-18",
+                    "lastname": "Lehnert",
+                    "name": "Torsten"
+                },
+                "text": " Lehnert , Torsten , München , * 18.04.1975 ."
+            }
+        ]
+    }
+}

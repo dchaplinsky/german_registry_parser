@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 5790",
+        "amtsgericht": "Koblenz",
+        "event_date": "2007-01-16",
+        "event_type": "Veränderungen",
+        "federal_state": "rp",
+        "full_text": "Amtsgericht Koblenz Aktenzeichen: HRB 5790 \nBekannt gemacht am: 23.01.2007 06:48 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n16.01.2007\n\nSt. Johannis Weinhandel GmbH, Zell (56856 Zell). Geschäftsführer: Esch, Hans-Josef, Mülheim, *04.05.1960; Schiemann, Kristian, Zell, *03.01.1972, jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht mehr Geschäftsführer: Rundquist, Erik, Zell-Kaimt.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "St. Johannis Weinhandel GmbH",
+        "notice_id": "21420",
+        "posted_on": "2007-01-23",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=21420&land_abk=rp"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rundquist , Erik , Zell - Kaimt ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Mülheim",
+                    "dob": "1960-04-05",
+                    "lastname": "Esch",
+                    "name": "Hans - Josef"
+                },
+                "text": " Esch , Hans - Josef , Mülheim , * 04.05.1960"
+            }
+        ]
+    }
+}

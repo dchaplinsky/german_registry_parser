@@ -1,0 +1,52 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 108146",
+        "amtsgericht": "Mannheim",
+        "event_date": "2012-06-14",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Mannheim Aktenzeichen: HRB 108146   \nBekannt gemacht am: 15.06.2012 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n14.06.2012\n\nCIS Computer & Internet Services GmbH, Karlsruhe, Daimlerstr. 37, 76185 Karlsruhe. Personenbezogene Daten geändert und ergänzt bei Geschäftsführer: Fürst, Markus Andreas, geb. Pely, Karlsruhe, *12.11.1976, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Einzelprokura: Fürst, Sandra Daniela, Karlsruhe, *10.01.1979. Gesamtprokura gemeinsam mit einem Geschäftsführer oder einem anderen Prokuristen: Balogh, Petra Edeltraud, geb. Götzinger, Eggenstein-Leopoldshafen, *14.10.1967; Scherer, Patrik Stefan, Rheinstetten, *24.08.1983.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "CIS Computer & Internet Services GmbH",
+        "notice_id": "308811",
+        "posted_on": "2012-06-15",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=308811&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Fürst , Markus Andreas , geb ."
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a CommonProcuration from  Balogh , Petra Edeltraud , geb ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
+        "officers": [
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Karlsruhe",
+                    "dob": "1979-10-01",
+                    "lastname": "Fürst",
+                    "name": "Sandra Daniela"
+                },
+                "text": " Fürst , Sandra Daniela , Karlsruhe , * 10.01.1979 ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 20747 P",
+        "amtsgericht": "Potsdam",
+        "event_date": "2012-07-10",
+        "event_type": "Veränderungen",
+        "federal_state": "br",
+        "full_text": "Amtsgericht Potsdam Aktenzeichen: HRB 20747 P \nBekannt gemacht am: 12.07.2012 05:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nVeränderungen\n10.07.2012\n\nHRB 20747 P: Brakeing GmbH, Schönwalde-Glien, Schulallee 3, 14621 Schönwalde-Glien. Nicht mehr Geschäftsführer:  Lehmann, Kay; Geschäftsführer: Peter, Marko, *23.08.1968, Schönwalde-Glien; mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 20747 P: Brakeing GmbH",
+        "notice_id": "75478",
+        "posted_on": "2012-07-12",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=75478&land_abk=br"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Peter , Marko , * 23.08.1968 , Schönwalde - Glien"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " Lehmann , Kay"
+            }
+        ]
+    }
+}

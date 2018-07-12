@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 5269",
+        "amtsgericht": "Tostedt",
+        "event_date": "2008-02-12",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Tostedt Aktenzeichen: HRB 5269 \nBekannt gemacht am: 21.02.2008 22:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n12.02.2008\n\nHAM Beteiligungs-GmbH, Wenzendorf (Walther-Blohm-Straße 19-20, 21279 Wenzendorf). Nicht mehr Geschäftsführer: Feij, Daniel, Lüneburg, *24.09.1967. Bestellt als Geschäftsführer: Hecht, Gaby, geb. Schätzlein, Uettingen, *09.04.1980, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HAM Beteiligungs-GmbH",
+        "notice_id": "40112",
+        "posted_on": "2008-02-21",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=40112&land_abk=ni"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Hecht , Gaby , geb ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Lüneburg",
+                    "dob": "1967-09-24",
+                    "lastname": "Feij",
+                    "name": "Daniel"
+                },
+                "text": " Feij , Daniel , Lüneburg , * 24.09.1967 ."
+            }
+        ]
+    }
+}

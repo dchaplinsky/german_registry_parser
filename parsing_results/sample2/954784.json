@@ -1,0 +1,53 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 169741",
+        "amtsgericht": "München",
+        "event_date": "2016-02-29",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 169741 \nBekannt gemacht am: 01.03.2016 02:01 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n29.02.2016\n\nHRB 169741: MG Projekt-Sendling GmbH, München, Albert-Roßhaupter-Str. 43, 81369 München. Bestellt: Geschäftsführer: Berger, Christian, Berlin, *11.07.1966, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Ausgeschieden: Geschäftsführer: Maier, Thomas, Berg, *23.03.1967. Prokura erloschen: Badhofer, Michael, München, *12.04.1966.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 169741: MG Projekt-Sendling GmbH",
+        "notice_id": "954784",
+        "posted_on": "2016-03-01",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=954784&land_abk=by"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " Berger , Christian , Berlin , * 11.07.1966 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berg",
+                    "dob": "1967-03-23",
+                    "lastname": "Maier",
+                    "name": "Thomas"
+                },
+                "text": " Maier , Thomas , Berg , * 23.03.1967 ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "München",
+                    "dob": "1966-12-04",
+                    "lastname": "Badhofer",
+                    "name": "Michael"
+                },
+                "text": " Badhofer , Michael , München , * 12.04.1966 ."
+            }
+        ]
+    }
+}

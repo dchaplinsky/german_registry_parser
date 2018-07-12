@@ -1,0 +1,53 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 10125 HB",
+        "amtsgericht": "Bremen",
+        "event_date": "2017-03-08",
+        "event_type": "Veränderungen",
+        "federal_state": "hb",
+        "full_text": "Amtsgericht Bremen Aktenzeichen: HRB 10125 HB \nBekannt gemacht am: 09.03.2017 20:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nVeränderungen\n08.03.2017\n\nHRB 10125 HB: P.A.C. Personal- und Allgemeine Computer Vertriebs GmbH, Bremen, Cuxhavener Str. 5, 28217 Bremen. Nicht mehr Geschäftsführer: Reuter, Bernd; Geschäftsführer: Henkel, Clemens, *08.06.1960, Grasberg; mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Geschäftsführer: Neise, Joerg-Friedrich, *01.10.1966, Bremen; mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 10125 HB: P.A.C. Personal- und Allgemeine Computer Vertriebs GmbH",
+        "notice_id": "67481",
+        "posted_on": "2017-03-09",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=67481&land_abk=hb"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Henkel , Clemens , * 08.06.1960 , Grasberg"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Neise , Joerg - Friedrich , * 01.10.1966 , Bremen"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            }
+        ],
+        "labels": [
+            {
+                "label": "WHUT",
+                "text": " P . A . C ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " Reuter , Bernd"
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 1222",
+        "amtsgericht": "Deggendorf",
+        "event_date": "2010-04-22",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Deggendorf Aktenzeichen: HRB 1222 \nBekannt gemacht am: 04.05.2010 22:00 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n22.04.2010\n\nGEWO Bauträger GmbH, Deggendorf, Altholzstraße 40, 94469 Deggendorf.Neue Firma: Schaller Bauträger GmbH. Ausgeschieden: Geschäftsführer: Schaller, Eberhard, Diplomingenieur, Grattersdorf, *02.04.1944. Bestellt: Geschäftsführer: Schaller, Friedrich, Hengersberg, *17.04.1967, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.Die Gesellschafterversammlung vom 09.04.2010 hat die Änderung des § 1 (Firma) der Satzung beschlossen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "GEWO Bauträger GmbH",
+        "notice_id": "409180",
+        "posted_on": "2010-05-04",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=409180&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Schaller , Eberhard , Diplomingenieur , Grattersdorf , * 02.04.1944 ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hengersberg",
+                    "dob": "1967-04-17",
+                    "flag": "sole representation",
+                    "lastname": "Schaller",
+                    "name": "Friedrich"
+                },
+                "text": " Schaller , Friedrich , Hengersberg , * 17.04.1967 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

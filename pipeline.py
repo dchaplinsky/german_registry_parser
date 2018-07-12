@@ -51,9 +51,14 @@ if __name__ == "__main__":
         help="Number of records in sample that should contain links to pred/succ records",
     )
     parser_sample.add_argument(
+        "--percent_of_officers",
+        type=float,
+        default=60,
+        help="Number of records in sample that should contain information on officers",
+    )
+    parser_sample.add_argument(
         "outfile", type=str, help="random sample of an input file"
     )
-
     parser_parse = subparsers.add_parser(
         "parse",
         help="Process input file and and store parsed results into outdir, json",
@@ -72,14 +77,18 @@ if __name__ == "__main__":
         outfile = gzip.open(args.outfile, "wt")
 
         num_of_usual_records = round(
-            args.num_of_records * (100 - args.percent_of_relocated) / 100
+            args.num_of_records * (100 - args.percent_of_relocated - args.percent_of_officers) / 100
         )
         num_of_relocated_records = round(
             args.num_of_records * args.percent_of_relocated / 100
         )
+        num_of_officers_records = round(
+            args.num_of_records * args.percent_of_officers / 100
+        )
 
         num_lines = 0
         relocated_records = []
+        officers_records = []
         usual_records = []
 
         with tqdm() as pbar:
@@ -102,7 +111,10 @@ if __name__ == "__main__":
                                 relocated_records.append(l)
                                 break
                 else:
-                    num_lines += 1
+                    if dob_regex.search(l):
+                        officers_records.append(l)
+                    else:
+                        num_lines += 1
 
         print(signs_usage)
 
@@ -115,12 +127,16 @@ if __name__ == "__main__":
                 if random.random() < prob_of_usual_rec:
                     usual_records.append(l)
 
-        print(num_of_usual_records, len(usual_records))
+        print(num_of_usual_records, num_lines)
         print(num_of_relocated_records, len(relocated_records))
+        print(num_of_officers_records, len(officers_records))
         for rec in random.sample(usual_records, num_of_usual_records):
             outfile.write(rec)
 
         for rec in random.sample(relocated_records, num_of_relocated_records):
+            outfile.write(rec)
+
+        for rec in random.sample(officers_records, num_of_officers_records):
             outfile.write(rec)
 
     elif args.operation == "parse":

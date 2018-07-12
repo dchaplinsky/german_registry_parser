@@ -1,0 +1,47 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 3283 NO",
+        "amtsgericht": "Kiel",
+        "event_date": "2012-05-02",
+        "event_type": "Veränderungen",
+        "federal_state": "sh",
+        "full_text": "Amtsgericht Kiel Aktenzeichen: HRB 3283 NO \nBekannt gemacht am: 03.05.2012 09:02 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nVeränderungen\n02.05.2012\n\nHRB 3283 NO: Opel Händler Vermiet GmbH, Norderstedt, Aspelohe 27 c, 22848 Norderstedt. Vorstand: Änderung zu Nr. 3: Die Schreibweise des Nachnamens wurde berichtigt. Geschäftsführer: Sárközi, Michael, *23.08.1959, Leipzig; mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Nicht mehr Geschäftsführer: 2. Grunwaldt, Rüdiger",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Nicht mehr Geschäftsführer: 2. Grunwaldt",
+        "notice_id": "112902",
+        "posted_on": "2012-05-03",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=112902&land_abk=sh"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Sárközi , Michael , * 23.08.1959 , Leipzig"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " 2 ."
+            }
+        ]
+    }
+}

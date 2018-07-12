@@ -1,0 +1,49 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 84533",
+        "amtsgericht": "Frankfurt am Main",
+        "event_date": "2018-02-13",
+        "event_type": "Veränderungen",
+        "federal_state": "he",
+        "full_text": "Amtsgericht Frankfurt am Main Aktenzeichen: HRB 84533 \nBekannt gemacht am: 16.02.2018 14:34 Uhr\n\n\n\n\nVeröffentlichungen des Amtsgerichts Frankfurt am Main\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n13.02.2018\n\nHRB 84533: CIB Holz GmbH, Frankfurt am Main, Friedrich-Ebert-Anlage 36, 60325 Frankfurt am Main. Allgemeine Vertretungsregelung geändert, nun: Ist nur ein Liquidator bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Liquidatoren bestellt, so wird die Gesellschaft durch zwei Liquidatoren oder durch einen Liquidator gemeinsam mit einem Prokuristen vertreten. Bestellt als Liquidator: de Bruin, Willem, Kockengen / Niederlande, *28.03.1956, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht mehr Geschäftsführer: Jungels, Jean-Claude, Fexhe-Le-Haut-Clocher, Belgien, *17.01.1942; Remiche, Francois, Brüssel, Belgien, *15.03.1944. Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 84533: CIB Holz GmbH",
+        "notice_id": "580318",
+        "posted_on": "2018-02-16",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=580318&land_abk=he"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Jungels , Jean - Claude , Fexhe - Le - Haut - Clocher , Belgien , * 17.01.1942"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Kockengen / Niederlande",
+                    "dob": "1956-03-28",
+                    "flag": "sole representation",
+                    "lastname": "de Bruin",
+                    "name": "Willem"
+                },
+                "text": " de Bruin , Willem , Kockengen / Niederlande , * 28.03.1956 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

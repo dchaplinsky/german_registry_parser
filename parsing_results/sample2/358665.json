@@ -1,0 +1,45 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 48284",
+        "amtsgericht": "Hamburg",
+        "event_date": "2018-03-06",
+        "event_type": "Veränderungen",
+        "federal_state": "hh",
+        "full_text": "Amtsgericht Hamburg Aktenzeichen: HRB 48284 \nBekannt gemacht am: 06.03.2018 09:17 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n06.03.2018\n\nHRB 48284: APM-Software GmbH, Hamburg, Hasenhöhe 128, 22587 Hamburg. Bestellt Geschäftsführer: Diers, Bianca, Wedel, *26.03.1983, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Ausgeschieden Geschäftsführer: Diers, Horst-Otto, Kaufmann, Hamburg.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 48284: APM-Software GmbH",
+        "notice_id": "358665",
+        "posted_on": "2018-03-06",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=358665&land_abk=hh"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Diers , Horst - Otto , Kaufmann , Hamburg ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Wedel",
+                    "dob": "1983-03-26",
+                    "flag": "sole representation",
+                    "lastname": "Diers",
+                    "name": "Bianca"
+                },
+                "text": " Diers , Bianca , Wedel , * 26.03.1983 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

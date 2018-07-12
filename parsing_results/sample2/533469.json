@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 3809",
+        "amtsgericht": "Moenchengladbach",
+        "event_date": "2010-03-11",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Moenchengladbach Aktenzeichen: HRA 3809 \nBekannt gemacht am: 16.03.2010 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n11.03.2010\n\nP.H. Giesers e.K. Inh. Marianne Giesers, Mönchengladbach, Bismarckstraße 63, 41061 Mönchengladbach.P.H. Giesers e.K. Inh. Beate Giesers-Kaufmann. Geschäftsanschrift: Bismarckstraße 63, 41061 Mönchengladbach. Nicht mehr Inhaber: Giesers, Marianne, geb. Lindgens, Mönchengladbach, *11.12.1926. Nunmehr Inhaber: Giesers-Kaufmann, Beate, Niederkrüchten, *25.03.1968.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "P.H. Giesers e.K. Inh. Marianne Giesers",
+        "notice_id": "533469",
+        "posted_on": "2010-03-16",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=533469&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Giesers , Marianne , geb ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Bismarckstraße 63 , 41061 Mönchengladbach ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Niederkrüchten",
+                    "dob": "1968-03-25",
+                    "lastname": "Giesers - Kaufmann",
+                    "name": "Beate"
+                },
+                "text": " Giesers - Kaufmann , Beate , Niederkrüchten , * 25.03.1968 ."
+            }
+        ]
+    }
+}

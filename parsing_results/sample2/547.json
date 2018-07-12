@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 630792",
+        "amtsgericht": "Freiburg",
+        "event_date": "2007-01-03",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Freiburg Aktenzeichen: HRA 630792 \nBekannt gemacht am: 08.01.2007 15:44 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n03.01.2007\n\nAlemannenhof \"Hotel Engel\" Heinz Carol Sattler & Heiko T. Sattler OHG, Rickenbach (Hauptstraße 6, 79736 Rickenbach). Einzelkaufmann. Firma geändert; nun: Heiko T. Sattler e.K., Alemannenhof \"Hotel Engel\". Nicht mehr persönlich haftender Gesellschafter, jetzt Inhaber: Sattler, Heiko T., Rickenbach, *29.01.1959. Ausgeschieden als Persönlich haftender Gesellschafter: Sattler, Hilde, geb. Kohlbrenner, Kauffrau, Rickenbach. Das Handelsgeschäft ist mit dem Recht zur Fortführung der Firma übergegangen auf Sattler, Heiko T., Rickenbach, *29.01.1959.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Alemannenhof \"Hotel Engel\" Heinz Carol Sattler & Heiko T. Sattler OHG",
+        "notice_id": "547",
+        "posted_on": "2007-01-08",
+        "rechtsform": "Einzelkaufmann",
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=547&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Sattler , Hilde , geb ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Sole trader",
+                "text": "Einzelkaufmann"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Rickenbach",
+                    "dob": "1959-01-29",
+                    "lastname": "Sattler",
+                    "name": "Heiko T"
+                },
+                "text": " Sattler , Heiko T . , Rickenbach , * 29.01.1959 ."
+            }
+        ]
+    }
+}

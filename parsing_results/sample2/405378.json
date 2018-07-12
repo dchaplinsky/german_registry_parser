@@ -1,0 +1,50 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 146262 B",
+        "amtsgericht": "Charlottenburg (Berlin)",
+        "event_date": "2016-12-01",
+        "event_type": "Veränderungen",
+        "federal_state": "be",
+        "full_text": "Amtsgericht Charlottenburg (Berlin) Aktenzeichen: HRB 146262 B \nBekannt gemacht am: 02.12.2016 10:33 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nVeränderungen\n01.12.2016\n\nHRB 146262 B: Tano Fashion GmbH, Berlin, Department 21,Johannisstraße 3, 10117 Berlin. Vertretungsregelung: Ist ein Liquidator bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Liquidatoren bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Liquidatoren oder durch einen Liquidator in Gemeinschaft mit einem Prokuristen vertreten.  Änderung zu Nr. 1: Liquidator: Piselli, Luca, *16.12.1976, Berlin; mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Rechtsverhaeltnis: Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Rechtsverhaeltnis: Die Gesellschaft ist aufgelöst.",
+        "notice_id": "405378",
+        "posted_on": "2016-12-02",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=405378&land_abk=be"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Piselli , Luca , * 16.12.1976 , Berlin"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            },
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "WHUT",
+                "text": " Tano Fashion GmbH , Berlin , Department 21 , Johannisstraße 3 , 10117 Berlin ."
+            }
+        ]
+    }
+}

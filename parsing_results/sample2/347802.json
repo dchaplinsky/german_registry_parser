@@ -1,0 +1,60 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 9237",
+        "amtsgericht": "Landshut",
+        "event_date": "2009-08-28",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Landshut Aktenzeichen: HRA 9237 \nBekannt gemacht am: 02.09.2009 12:00 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n28.08.2009\n\nELEKTRO-MEISTERBETRIEB UNTERHOLZNER & DIRMEIER OHG, Landshut, Schwestergasse 40, 84034 Landshut.Geschäftsanschrift: Schwestergasse 40, 84034 Landshut. Im Wege der Sonderrechtsnachfolge ausgeschieden: Persönlich haftender Gesellschafter: Unterholzner, Helmut, Dingolfing, *05.07.1942. Im Wege der Sonderrechtsnachfolge eingetreten: Persönlich haftender Gesellschafter: Elektro-Meisterbetrieb Unterholzner & Dirmeier GmbH, (Amtsgericht Landshut, HRB 6863). Ausgeschieden: Persönlich haftender Gesellschafter: Dirmeier, Christoph, Furth, *18.05.1975. Die Gesellschaft ist aufgelöst. Das Unternehmen ist mit dem Recht der Firmenfortführung übergegangen auf die Elektro-Meisterbetrieb Unterholzner & Dirmeier GmbH, Landshut (AG Landshut, HRB 6863).",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "ELEKTRO-MEISTERBETRIEB UNTERHOLZNER & DIRMEIER OHG",
+        "notice_id": "347802",
+        "posted_on": "2009-09-02",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=347802&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Elektro - Meisterbetrieb Unterholzner & Dirmeier GmbH , ( Amtsgericht Landshut , HRB 6863 ) ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Schwestergasse 40 , 84034 Landshut ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Dingolfing",
+                    "dob": "1942-05-07",
+                    "lastname": "Unterholzner",
+                    "name": "Helmut"
+                },
+                "text": " Unterholzner , Helmut , Dingolfing , * 05.07.1942 ."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Furth",
+                    "dob": "1975-05-18",
+                    "lastname": "Dirmeier",
+                    "name": "Christoph"
+                },
+                "text": " Dirmeier , Christoph , Furth , * 18.05.1975 ."
+            }
+        ]
+    }
+}

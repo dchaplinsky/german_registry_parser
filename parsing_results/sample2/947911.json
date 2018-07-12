@@ -1,0 +1,57 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 223504",
+        "amtsgericht": "München",
+        "event_date": "2016-02-02",
+        "event_type": "Neueintragungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 223504 \nBekannt gemacht am: 03.02.2016 02:05 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nNeueintragungen\n02.02.2016\n\nHRB 223504: B. Klewer Verwaltungs GmbH, Gauting, Landkreis Starnberg, Hauser Straße 11, 82131 Gauting. Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 6.11.2015. Geschäftsanschrift: Hauser Straße 11, 82131 Gauting. Gegenstand des Unternehmens: Verwaltung von eigenem Vermögen. Stammkapital: 25.000,00 EUR. Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Klewer-Bauer, Barbara, Gauting, *23.07.1960, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 223504: B. Klewer Verwaltungs GmbH",
+        "notice_id": "947911",
+        "posted_on": "2016-02-03",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=947911&land_abk=by"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "Company with limited liability .",
+                "text": "Gesellschaft mit beschränkter Haftung ."
+            },
+            {
+                "flag": "If only one managing director is appointed, he represents the company alone.",
+                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+            },
+            {
+                "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
+                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Hauser Straße 11 , 82131 Gauting ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Gauting",
+                    "dob": "1960-07-23",
+                    "flag": "sole representation",
+                    "lastname": "Klewer - Bauer",
+                    "name": "Barbara"
+                },
+                "text": " Klewer - Bauer , Barbara , Gauting , * 23.07.1960 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 30696",
+        "amtsgericht": "Bielefeld",
+        "event_date": "2006-02-06",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Bielefeld Aktenzeichen: HRB 30696 \nBekannt gemacht am: 17.02.2006 10:56 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n06.02.2006\n\nKASINO-Gastronomische Betriebe Gesellschaft mit beschränkter Haftung, Bielefeld (Herforder Str. 1, 33602 Bielefeld). Geschäftsführer: Tempelmeier, Uwe, Hüllhorst, *14.09.1956. Nicht mehr Geschäftsführer: Nenneker, Jürgen, Pr. Oldendorf.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "KASINO-Gastronomische Betriebe Gesellschaft mit beschränkter Haftung",
+        "notice_id": "107590",
+        "posted_on": "2006-02-17",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=107590&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Nenneker , Jürgen , Pr ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hüllhorst",
+                    "dob": "1956-09-14",
+                    "lastname": "Tempelmeier",
+                    "name": "Uwe"
+                },
+                "text": " Tempelmeier , Uwe , Hüllhorst , * 14.09.1956 ."
+            }
+        ]
+    }
+}

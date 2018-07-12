@@ -1,0 +1,73 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 45835 B",
+        "amtsgericht": "Charlottenburg (Berlin)",
+        "event_date": "2015-05-05",
+        "event_type": "Veränderungen",
+        "federal_state": "be",
+        "full_text": "Amtsgericht Charlottenburg (Berlin) Aktenzeichen: HRB 45835 B \nBekannt gemacht am: 06.05.2015 09:58 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nVeränderungen\n05.05.2015\n\nHRB 45835 B: Firma / Name vormals: Action Malereibetrieb GmbH, Berlin, Rudeloffweg 9, 14195 Berlin. Firma: Vauconcept Generalübernehmer GmbH; Sitz / Zweigniederlassung: Geschäftsanschrift: Rudeloffweg 9, 14195 Berlin; Gegenstand: Die Tätigkeit als Generalübernehmer für Bautätigkeiten, der Handel mit Malerbedarf aller Art sowie die Beteiligung an anderen Gesellschaften mit gleichem oder ähnlichem Geschäftsgegenstand sowie die Verwaltung solcher Gesellschaften.  Geschäftsführer: 2.\nVolpp, Oliver Charlie, *28.04.1978, Berlin; mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Änderung zu Nr. 1: hinsichtlich des Wohnortes; Geschäftsführer: Lange, Lothar, *26.12.1946, Karstädt GT Streesow; mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 30.03.2015 ist der Gesellschaftsvertrag geändert in § 1 (Firma) und § 2 (Gegenstand).",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Änderung zu Nr. 1: hinsichtlich des Wohnortes; Geschäftsführer: Lange",
+        "notice_id": "331117",
+        "posted_on": "2015-05-06",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=331117&land_abk=be"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Lange , Lothar , * 26.12.1946 , Karstädt GT Streesow"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            },
+            {
+                "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            }
+        ],
+        "labels": [
+            {
+                "label": "WHUT",
+                "text": " Firma / Name vormals : Action Malereibetrieb GmbH , Berlin , Rudeloffweg 9 , 14195 Berlin ."
+            },
+            {
+                "label": "company",
+                "text": " Geschäftsanschrift : Rudeloffweg 9 , 14195 Berlin"
+            },
+            {
+                "label": "address",
+                "text": " Rudeloffweg 9 , 14195 Berlin"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " 2 ."
+            }
+        ]
+    }
+}

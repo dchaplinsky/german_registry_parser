@@ -1,0 +1,49 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 45685",
+        "amtsgericht": "Köln",
+        "event_date": "2015-07-23",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Köln Aktenzeichen: HRB 45685 \nBekannt gemacht am: 23.07.2015 20:05 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n23.07.2015\n\nHRB 45685: Adolf Kaltenbach GmbH, Overath, Maarweg 1, 51491 Overath. Die Gesellschafterversammlung vom 19.06.2015 hat beschlossen, das Stammkapital auf Euro umzustellen, es von dann EUR 25.564,59 um EUR 435,41 auf EUR 26.000 zu erhöhen und den Gesellschaftsvertrag in § 3 (Stammkapital) zu ändern. Ferner wurde der Gesellschaftsvertrag in § 9 (Vertretung der Gesellschaft) und § 10 (Beschlüsse der Gesellschaft) geändert. 26.000,00 EUR. Nicht mehr Geschäftsführer: Kaltenbach, Adolf, Kaufmann, Engelskirchen. Nach Änderung der Vertretung: Geschäftsführer: Amelung, Norbert, Engelskirchen, *25.11.1953, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Bestellt als Geschäftsführer: Amelung, Andreas, Nümbrecht, *21.12.1978; Kaltenbach, Anke, Overath, *27.12.1968, jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 45685: Adolf Kaltenbach GmbH",
+        "notice_id": "1181304",
+        "posted_on": "2015-07-23",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1181304&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Kaltenbach , Adolf , Kaufmann , Engelskirchen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Engelskirchen",
+                    "dob": "1953-11-25",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Amelung",
+                    "name": "Norbert"
+                },
+                "text": " Amelung , Norbert , Engelskirchen , * 25.11.1953 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Nümbrecht",
+                    "dob": "1978-12-21",
+                    "lastname": "Amelung",
+                    "name": "Andreas"
+                },
+                "text": " Amelung , Andreas , Nümbrecht , * 21.12.1978"
+            }
+        ]
+    }
+}

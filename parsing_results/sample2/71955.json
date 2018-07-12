@@ -1,0 +1,60 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 1777",
+        "amtsgericht": "Landshut",
+        "event_date": "2006-01-04",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Landshut Aktenzeichen: HRB 1777 \nBekannt gemacht am: 11.01.2006 08:41 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n04.01.2006\n\nGeschwister Maier GmbH, Landshut (Renatastr. 8, 84034 Landshut). Ausgeschieden: Geschäftsführer: Maier, Rudolf, Kfz-Meister, Landshut. Vertretungsbefugnis geändert, nun: Geschäftsführer: Ziegler, Hermann, Landshut, *21.09.1959, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Bestellt: Geschäftsführer: Wagner, Heribert, Ergoldsbach, *25.06.1962, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Geschwister Maier GmbH",
+        "notice_id": "71955",
+        "posted_on": "2006-01-11",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=71955&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Maier , Rudolf , Kfz - Meister , Landshut ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Landshut",
+                    "dob": "1959-09-21",
+                    "flag": "sole representation",
+                    "lastname": "Ziegler",
+                    "name": "Hermann"
+                },
+                "text": " Ziegler , Hermann , Landshut , * 21.09.1959 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Ergoldsbach",
+                    "dob": "1962-06-25",
+                    "flag": "sole representation",
+                    "lastname": "Wagner",
+                    "name": "Heribert"
+                },
+                "text": " Wagner , Heribert , Ergoldsbach , * 25.06.1962 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

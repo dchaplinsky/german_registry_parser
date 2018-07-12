@@ -1,0 +1,40 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 7891 HL",
+        "amtsgericht": "Lübeck",
+        "event_date": "2018-01-22",
+        "event_type": "Berichtigungen",
+        "federal_state": "sh",
+        "full_text": "Amtsgericht Lübeck Aktenzeichen: HRB 7891 HL \nBekannt gemacht am: 23.01.2018 10:28 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nBerichtigungen\n22.01.2018\n\nHRB 7891 HL: Malerei Hähnsen GmbH, Trittau (Nikolaus-Otto-Str. 6 a, 22942 Trittau). Vorstand: Änderung zu Nr. 1: von Amts wegen berichtigt; Liquidator: Menken, Andreas, *05.07.1964, Trittau; mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen",
+        "notice_id": "222161",
+        "posted_on": "2018-01-23",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=222161&land_abk=sh"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Menken , Andreas , * 05.07.1964 , Trittau"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            }
+        ]
+    }
+}

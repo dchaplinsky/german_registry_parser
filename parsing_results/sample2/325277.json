@@ -1,0 +1,39 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 6593",
+        "amtsgericht": "Siegburg",
+        "event_date": "2008-05-20",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Siegburg Aktenzeichen: HRB 6593 \nBekannt gemacht am: 26.05.2008 12:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n20.05.2008\n\nTelDaFax Services GmbH, Troisdorf (Mottmannstraße 2, 53840 Troisdorf). Neuer Geschäftsführer: Dr. Koch, Gernot, Solingen, *10.10.1962, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht mehr Geschäftsführer: Klein, Nicole, geb. Braun, Much, *09.06.1972.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "TelDaFax Services GmbH",
+        "notice_id": "325277",
+        "posted_on": "2008-05-26",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=325277&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Klein , Nicole , geb ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Solingen",
+                    "dob": "1962-10-10",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Dr . Koch",
+                    "name": "Gernot"
+                },
+                "text": " Dr . Koch , Gernot , Solingen , * 10.10.1962 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ]
+    }
+}

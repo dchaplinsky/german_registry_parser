@@ -1,0 +1,45 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 6521",
+        "amtsgericht": "Chemnitz",
+        "event_date": "2009-03-18",
+        "event_type": "Neueintragungen",
+        "federal_state": "sn",
+        "full_text": "Amtsgericht Chemnitz Aktenzeichen: HRA 6521 \nBekannt gemacht am: 19.03.2009 12:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des  Unternehmensgegenstandes erfolgen ohne Gewähr.\nNeueintragungen\n18.03.2009\n\n24h-Bildexpress OHG, Chemnitz, Leipziger Straße 46, 09113 Chemnitz.Offene Handelsgesellschaft. Geschäftsanschrift: Leipziger Straße 46, 09113 Chemnitz. Jeder persönlich haftende Gesellschafter vertritt einzeln. Persönlich haftender Gesellschafter: Poitzsch, Ronny, Chemnitz, *29.06.1972, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Persönlich haftender Gesellschafter: Photo24 Production GmbH, Chemnitz (Amtsgericht Chemnitz HRB 24786), von der Vertretung ausgeschlossen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "24h-Bildexpress OHG",
+        "notice_id": "67625",
+        "posted_on": "2009-03-19",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=67625&land_abk=sn"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Photo24 Production GmbH , Chemnitz ( Amtsgericht Chemnitz HRB 24786 ) , von der Vertretung ausgeschlossen ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Leipziger Straße 46 , 09113 Chemnitz ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {},
+                "text": " Poitzsch , Ronny , Chemnitz , * 29.06.1972 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ]
+    }
+}

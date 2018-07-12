@@ -1,0 +1,39 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 4296",
+        "amtsgericht": "Arnsberg",
+        "event_date": "2006-04-28",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Arnsberg Aktenzeichen: HRB 4296 \nBekannt gemacht am: 04.05.2006 14:10 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n28.04.2006\n\nDFS Verwaltungsgesellschaft mbH, Werl (Waltringer Weg 1, 59457 Werl). Nicht mehr Geschäftsführer: Stamm, Wilfried, Immobilienkaufmann, Werl. Bestellt als Geschäftsführer: Macha, Günter, Wickede, *18.09.1939, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "DFS Verwaltungsgesellschaft mbH",
+        "notice_id": "126941",
+        "posted_on": "2006-05-04",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=126941&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Stamm , Wilfried , Immobilienkaufmann , Werl ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Wickede",
+                    "dob": "1939-09-18",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Macha",
+                    "name": "Günter"
+                },
+                "text": " Macha , Günter , Wickede , * 18.09.1939 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ]
+    }
+}

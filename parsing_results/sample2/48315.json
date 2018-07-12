@@ -1,0 +1,70 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 29878 HB",
+        "amtsgericht": "Bremen",
+        "event_date": "2014-10-21",
+        "event_type": "Neueintragungen",
+        "federal_state": "hb",
+        "full_text": "Amtsgericht Bremen Aktenzeichen: HRB 29878 HB \nBekannt gemacht am: 21.10.2014 20:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nNeueintragungen\n21.10.2014\n\nHRB 29878 HB: Winit Germany GmbH, Bremen, Merkurstraße 49, 28197 Bremen. Geschäftsanschrift: Merkurstraße 49, 28197 Bremen. Gegenstand: Die Erbringung von Beratungsdienstleistungen sowie die Softwareentwicklung im Bereich der Logistik, mit Ausnahme von genehmigungspflichtigen Tätigkeiten im Bereich der Rechts- und Steuerberatung. Stammkapital: 25.000 EUR. Die Gesellschaft hat einen oder mehrere Geschäftsführer.\nIst ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten. Alleinvertretungsbefugnis kann erteilt werden. Jeder Geschäftsführer kann von dem Verbot, Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, befreit werden. War Geschäftsführer: Gao, Song, *04.03.1971, Berlin; mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen. Geschäftsführer: Shen, Weiwei, *18.11.1985, Bremen; mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen.  Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom: 21.03.2014. Durch Beschluss der Gesellschafterversammlung vom 02.10.2014 ist der Sitz der Gesellschaft von Berlin (Amtsgericht Berlin Charlottenburg, HRB 159048 B) nach Bremen verlegt und der Gesellschaftsvertrag geändert in § 1 (Firma, Sitz). Tag der ersten Eintragung: 05.06.2014.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Ist ein Geschäftsführer bestellt",
+        "notice_id": "48315",
+        "posted_on": "2014-10-21",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=48315&land_abk=hb"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Gao , Song , * 04.03.1971 , Berlin"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Shen , Weiwei , * 18.11.1985 , Bremen"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
+                "text": "Sind mehrere Geschäftsführer bestellt , wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten ."
+            },
+            {
+                "flag": "Exclusive power of representation can be granted.",
+                "text": "Alleinvertretungsbefugnis kann erteilt werden ."
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            },
+            {
+                "flag": "Company with limited liability .",
+                "text": "Gesellschaft mit beschränkter Haftung ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "WHUT",
+                "text": " Winit Germany GmbH , Bremen , Merkurstraße 49 , 28197 Bremen ."
+            },
+            {
+                "label": "address",
+                "text": " Merkurstraße 49 , 28197 Bremen ."
+            }
+        ]
+    }
+}

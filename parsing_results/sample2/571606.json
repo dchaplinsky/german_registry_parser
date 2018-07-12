@@ -1,0 +1,63 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 8562",
+        "amtsgericht": "Kempten",
+        "event_date": "2012-01-25",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Kempten  Aktenzeichen: HRB 8562   \nBekannt gemacht am: 31.01.2012 22:00 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n25.01.2012\n\nProLindau Marketing Beteiligungs GmbH, Lindau (B), Alfred-Nobel-Platz 1, 88131 Lindau (B). Ist nur ein Liquidator bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Liquidatoren bestellt, so wird die Gesellschaft durch zwei Liquidatoren oder durch einen Liquidator gemeinsam mit einem Prokuristen vertreten. Ausgeschieden: Geschäftsführer: Poralla, Horst Alois, Lindau (B), *09.07.1949. Bestellt: Liquidator: Firsching, Harald, Lindau (B), *29.04.1960, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Prokura erloschen: Firsching, Harald, Lindau (B), *29.04.1960. Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "ProLindau Marketing Beteiligungs GmbH",
+        "notice_id": "571606",
+        "posted_on": "2012-01-31",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=571606&land_abk=by"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Lindau ( B )",
+                    "dob": "1949-09-07",
+                    "lastname": "Poralla",
+                    "name": "Horst Alois"
+                },
+                "text": " Poralla , Horst Alois , Lindau ( B ) , * 09.07.1949 ."
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Lindau ( B )",
+                    "dob": "1960-04-29",
+                    "flag": "sole representation",
+                    "lastname": "Firsching",
+                    "name": "Harald"
+                },
+                "text": " Firsching , Harald , Lindau ( B ) , * 29.04.1960 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Lindau ( B )",
+                    "dob": "1960-04-29",
+                    "lastname": "Firsching",
+                    "name": "Harald"
+                },
+                "text": " Firsching , Harald , Lindau ( B ) , * 29.04.1960 ."
+            }
+        ]
+    }
+}

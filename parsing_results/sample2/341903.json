@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 90124",
+        "amtsgericht": "Hanau",
+        "event_date": "2013-07-25",
+        "event_type": "Veränderungen",
+        "federal_state": "he",
+        "full_text": "Amtsgericht Hanau Aktenzeichen: HRB 90124   \nBekannt gemacht am: 30.07.2013 12:00 Uhr\n\n\n\n\nVeröffentlichungen des Amtsgerichts #Re.OrtZustell\r\r\rIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n25.07.2013\n\nALSA-GmbH, Steinau an der Straße, Heideküppel 2, 36396 Steinau an der Straße. Nicht mehr Geschäftsführer: Kohlhepp, Karl-Ernst, Industriekaufmann, Schlüchtern-Gundhelm, *13.12.1951. Bestellt als Geschäftsführer: Stegmaier, Wolfram, Ortenberg, *23.06.1962.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "ALSA-GmbH",
+        "notice_id": "341903",
+        "posted_on": "2013-07-30",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=341903&land_abk=he"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Kohlhepp , Karl - Ernst , Industriekaufmann , Schlüchtern - Gundhelm , * 13.12.1951 ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Ortenberg",
+                    "dob": "1962-06-23",
+                    "lastname": "Stegmaier",
+                    "name": "Wolfram"
+                },
+                "text": " Stegmaier , Wolfram , Ortenberg , * 23.06.1962 ."
+            }
+        ]
+    }
+}

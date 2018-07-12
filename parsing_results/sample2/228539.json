@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 658",
+        "amtsgericht": "Chemnitz",
+        "event_date": "2017-02-28",
+        "event_type": "Veränderungen",
+        "federal_state": "sn",
+        "full_text": "Amtsgericht Chemnitz Aktenzeichen: HRA 658 \nBekannt gemacht am: 28.02.2017 18:30 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des  Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n28.02.2017\n\nHRA 658: Löwen-Apotheke Pharmazierat Joachim Canzler, e.K., Frankenberg/Sa., Markt 16, 09669 Frankenberg/Sa.. Ausgeschieden: Inhaber: Canzler, Joachim, Pharmazierat, Frankenberg. Eingetreten: Inhaber: Köhler, Constanze, Frankenberg/Sa., *27.02.1981. Der Übergang der im Betrieb des Geschäfts einschließlich Zweigniederlassung des früheren Inhabers Joachim Canzler begründeten Forderungen und Verbindlichkeiten auf den neuen Inhaber Constanze Köhler ist ausgeschlossen. Die Firma wird mit geänderten Inhaberzusatz fortgeführt. Neue Firma: Löwen-Apotheke Apothekerin Constanze Köhler, e.K. Die Firma der Zweigniederlassung wird mit geänderten Inhaberzusatz fortgeführt. Zweigniederlassung(en) mit abweichender Firma: Leo-Apotheke, Filialapotheke der Löwen-Apotheke Apothekerin Constanze Köhler e.K., 09669 Frankenberg/Sa., Geschäftsanschrift: Erich-Kästner-Straße 32, 09669 Frankenberg/Sa.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 658: Löwen-Apotheke Pharmazierat Joachim Canzler",
+        "notice_id": "228539",
+        "posted_on": "2017-02-28",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=228539&land_abk=sn"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Canzler , Joachim , Pharmazierat , Frankenberg ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Erich - Kästner - Straße 32 , 09669 Frankenberg / Sa ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Frankenberg / Sa",
+                    "dob": "1981-02-27",
+                    "lastname": "Köhler",
+                    "name": "Constanze"
+                },
+                "text": " Köhler , Constanze , Frankenberg / Sa . , * 27.02.1981 ."
+            }
+        ]
+    }
+}

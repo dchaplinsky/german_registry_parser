@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 100436",
+        "amtsgericht": "München",
+        "event_date": "2016-06-07",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 100436 \nBekannt gemacht am: 08.06.2016 02:07 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n07.06.2016\n\nHRB 100436: XERXES Gesellschaft für Bauprojektentwicklung, Consulting und Finanzierungsvermittlung mbH, München, Baaderstr. 3, 80469 München. Ausgeschieden: Geschäftsführer: Preuße, Uwe, Kaufmann, Hohenwart. Personendaten geändert, nun: Geschäftsführer: Spörl, Jutta, Neufahrn, *28.11.1961.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 100436: XERXES Gesellschaft für Bauprojektentwicklung",
+        "notice_id": "979754",
+        "posted_on": "2016-06-08",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=979754&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Preuße , Uwe , Kaufmann , Hohenwart ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Neufahrn",
+                    "dob": "1961-11-28",
+                    "lastname": "Spörl",
+                    "name": "Jutta"
+                },
+                "text": " Spörl , Jutta , Neufahrn , * 28.11.1961 ."
+            }
+        ]
+    }
+}

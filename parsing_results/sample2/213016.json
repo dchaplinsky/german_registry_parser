@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 203240",
+        "amtsgericht": "Tostedt",
+        "event_date": "2012-05-15",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Tostedt Aktenzeichen: HRB 203240   \nBekannt gemacht am: 21.05.2012 22:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n15.05.2012\n\nFeldtmann Abbruch UG (haftungsbeschränkt), Buchholz, Kiefernhöhe 1, 21244 Buchholz in der Nordheide. Die Gesellschafterversammlung vom 04.05.2012 hat die Änderung des Gesellschaftsvertrages in § 1 (Firma) und § 3 (Stammkapital) und mit ihr die Erhöhung des Stammkapitals um 24.900,00 EUR auf 25.000,00 EUR, sowie die Änderung der Firma beschlossen. Neue Firma: Feldtmann Abbruch GmbH. 25.000,00 EUR. Geschäftsführer: Eitel, Peter, geb. Keller, Donsieders, *22.10.1981, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht mehr Geschäftsführer: Musso, Giuseppe, St. Ingbert, *07.11.1973.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Feldtmann Abbruch UG (haftungsbeschränkt)",
+        "notice_id": "213016",
+        "posted_on": "2012-05-21",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=213016&land_abk=ni"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Eitel , Peter , geb ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "St . Ingbert",
+                    "dob": "1973-07-11",
+                    "lastname": "Musso",
+                    "name": "Giuseppe"
+                },
+                "text": " Musso , Giuseppe , St . Ingbert , * 07.11.1973 ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 7195",
+        "amtsgericht": "Memmingen",
+        "event_date": "2017-01-04",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Memmingen Aktenzeichen: HRB 7195 \nBekannt gemacht am: 05.01.2017 02:04 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n04.01.2017\n\nHRB 7195: Held & Ströhle GmbH, Neu-Ulm, Memminger Str. 65-67, 89231 Neu-Ulm. Ausgeschieden: Geschäftsführer: Traub, Wilhelm, Kaufmann, Lindau am Bodensee. Bestellt: Geschäftsführer: Aigner, Wilfried, Friedberg, *14.06.1968.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 7195: Held & Ströhle GmbH",
+        "notice_id": "1036072",
+        "posted_on": "2017-01-05",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1036072&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Traub , Wilhelm , Kaufmann , Lindau am Bodensee ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Friedberg",
+                    "dob": "1968-06-14",
+                    "lastname": "Aigner",
+                    "name": "Wilfried"
+                },
+                "text": " Aigner , Wilfried , Friedberg , * 14.06.1968 ."
+            }
+        ]
+    }
+}

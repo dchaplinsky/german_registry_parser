@@ -1,0 +1,50 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 118147",
+        "amtsgericht": "Hamburg",
+        "event_date": "2014-10-21",
+        "event_type": "Neueintragungen",
+        "federal_state": "hh",
+        "full_text": "Amtsgericht Hamburg Aktenzeichen: HRA 118147 \nBekannt gemacht am: 21.10.2014 16:04 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nNeueintragungen\n21.10.2014\n\nHRA 118147:Chocorex. Der Extra-Genuss Inhaber: Dr. Alexander Extra e.K., Hamburg, Hasenhöhe 26, 22587 Hamburg.(Der Verkauf von Lebensmitteln, Vertrieb von Leseproben und Hörproben, Aufbau und Betrieb von lnternetshops, Produktion und Verkauf von Merchandising-Artikeln, Werbung durch Medien und Werbeträger und alle damit im Zusammenhang stehenden Tätigkeiten mit Ausnahme erlaubnispflichtiger.). Einzelkaufmann. Geschäftsanschrift: Hasenhöhe 26, 22587 Hamburg. Inhaber: Dr. Extra, Alexander, Hamburg, *21.11.1960.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 118147:Chocorex. Der Extra-Genuss Inhaber: Dr. Alexander Extra e.K.",
+        "notice_id": "247475",
+        "posted_on": "2014-10-21",
+        "rechtsform": "Einzelkaufmann",
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=247475&land_abk=hh"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Dr . Alexander Extra e . K . , Hamburg , Hasenhöhe 26 , 22587 Hamburg ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Sole trader",
+                "text": "Einzelkaufmann"
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Hasenhöhe 26 , 22587 Hamburg ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1960-11-21",
+                    "lastname": "Dr . Extra",
+                    "name": "Alexander"
+                },
+                "text": " Dr . Extra , Alexander , Hamburg , * 21.11.1960 ."
+            }
+        ]
+    }
+}

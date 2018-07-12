@@ -1,0 +1,53 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 172068",
+        "amtsgericht": "München",
+        "event_date": "2014-07-21",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 172068 \nBekannt gemacht am: 22.07.2014 02:15 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n21.07.2014\n\nHRB 172068:BOLSENA Verwaltungsgesellschaft mbH, Pullach, Landkreis München, Wolfratshauser Str. 49, 82049 Pullach.Bestellt: Geschäftsführer: Schmidt, Bettina, Garching, *18.03.1965, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Ausgeschieden: Geschäftsführer: Menne, Marcus, Dachau, *04.02.1960. Prokura erloschen: Kroog, Thorsten, München, *29.06.1961.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 172068:BOLSENA Verwaltungsgesellschaft mbH",
+        "notice_id": "800711",
+        "posted_on": "2014-07-22",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=800711&land_abk=by"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " Schmidt , Bettina , Garching , * 18.03.1965 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Dachau",
+                    "dob": "1960-04-02",
+                    "lastname": "Menne",
+                    "name": "Marcus"
+                },
+                "text": " Menne , Marcus , Dachau , * 04.02.1960 ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "München",
+                    "dob": "1961-06-29",
+                    "lastname": "Kroog",
+                    "name": "Thorsten"
+                },
+                "text": " Kroog , Thorsten , München , * 29.06.1961 ."
+            }
+        ]
+    }
+}

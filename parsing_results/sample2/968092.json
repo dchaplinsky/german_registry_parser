@@ -1,0 +1,52 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 105035",
+        "amtsgericht": "München",
+        "event_date": "2016-04-19",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRA 105035 \nBekannt gemacht am: 20.04.2016 02:06 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n19.04.2016\n\nHRA 105035: Ararat Kebab OHG, München, Korbinianstr. 60, 80807 München. Rechtsform geändert, nun: Einzelkaufmann / Einzelkauffrau. Firma geändert, nun: Ararat Kebab e.K. Ausgeschieden: Persönlich haftender Gesellschafter: Hayyool, Jameel Hashim, München, *01.07.1963. Geändert, nun: Inhaber: Ahmad, Hikmat Ibrahim Hassan, München, *02.02.1966. Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 105035: Ararat Kebab OHG",
+        "notice_id": "968092",
+        "posted_on": "2016-04-20",
+        "rechtsform": "Einzelkaufmann",
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=968092&land_abk=by"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "Sole trader",
+                "text": "Einzelkaufmann"
+            },
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "München",
+                    "dob": "1963-01-07",
+                    "lastname": "Hayyool",
+                    "name": "Jameel Hashim"
+                },
+                "text": " Hayyool , Jameel Hashim , München , * 01.07.1963 ."
+            },
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "München",
+                    "dob": "1966-02-02",
+                    "lastname": "Ahmad",
+                    "name": "Hikmat Ibrahim Hassan"
+                },
+                "text": " Ahmad , Hikmat Ibrahim Hassan , München , * 02.02.1966 ."
+            }
+        ]
+    }
+}

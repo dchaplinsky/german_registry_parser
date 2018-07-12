@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 5806",
+        "amtsgericht": "Dresden",
+        "event_date": "2014-05-19",
+        "event_type": "Veränderungen",
+        "federal_state": "sn",
+        "full_text": "Amtsgericht Dresden Aktenzeichen: HRA 5806 \nBekannt gemacht am: 19.05.2014 17:30 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des  Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n19.05.2014\n\nHRA 5806:Sicherheit & Komfort Elektro Müller e.K. Inhaber Lars Fiedler, Dresden, Kesselsdorfer Straße 163, 01169 Dresden.(Elektroinstallation und Elektrogroßhandel). Geändert, nun: Kommanditgesellschaft. Neue Firma: Sicherheit & Komfort Elektro Müller GmbH & Co. KG. Jeder persönlich haftende Gesellschafter vertritt einzeln. Eingetreten: Persönlich haftender Gesellschafter: F & D Beteiligungs GmbH, Dresden (Amtsgericht Dresden HRB 33306), mit der Befugnis -auch für jeden Geschäftsführer-, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Ausgeschieden als Inhaber: Fiedler, Lars, Dresden, *21.08.1979. Die Firma ist geändert.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 5806:Sicherheit & Komfort Elektro Müller e.K. Inhaber Lars Fiedler",
+        "notice_id": "171309",
+        "posted_on": "2014-05-19",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=171309&land_abk=sn"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  F & D Beteiligungs GmbH , Dresden ( Amtsgericht Dresden HRB 33306 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Limited partnership.",
+                "text": "Kommanditgesellschaft ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Dresden",
+                    "dob": "1979-08-21",
+                    "lastname": "Fiedler",
+                    "name": "Lars"
+                },
+                "text": " Fiedler , Lars , Dresden , * 21.08.1979 ."
+            }
+        ]
+    }
+}

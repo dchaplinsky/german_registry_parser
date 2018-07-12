@@ -1,0 +1,45 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 4289",
+        "amtsgericht": "Rostock",
+        "event_date": "2018-03-09",
+        "event_type": "Neueintragungen",
+        "federal_state": "mv",
+        "full_text": "Amtsgericht Rostock Aktenzeichen: HRA 4289 \nBekannt gemacht am: 09.03.2018 22:00 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nNeueintragungen\n09.03.2018\n\nHRA 4289: BS Zweite Rostocker Immobilien GmbH & Co. KG, Rostock, Grubenstraße 20, 18055 Rostock. (ist der Erwerb sowie die Verwaltung von Grundstücken und anderen Vermögenswerten.). Kommanditgesellschaft. Geschäftsanschrift: Grubenstraße 20, 18055 Rostock. Jeder persönlich haftende Gesellschafter vertritt einzeln. Ausgeschieden als Persönlich haftender Gesellschafter: SKS Immobiliengruppe Verwaltungsgesellschaft mbH, Kiel (Amtsgericht Kiel HRB 17879 KI). Eingetreten als Persönlich haftender Gesellschafter: BS Rostocker Immobilien- und Bauträgergesellschaft mbH, Rostock (Amtsgericht Rostock HRB 14022), mit der Befugnis -auch für jeden Geschäftsführer-, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Der Sitz ist von Kiel (bisher Amtsgericht Kiel, HRA 3500 KI) nach Rostock verlegt.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 4289: BS Zweite Rostocker Immobilien GmbH & Co. KG",
+        "notice_id": "82590",
+        "posted_on": "2018-03-09",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=82590&land_abk=mv"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  BS Rostocker Immobilien - und Bauträgergesellschaft mbH , Rostock ( Amtsgericht Rostock HRB 14022 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Limited partnership.",
+                "text": "Kommanditgesellschaft ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Grubenstraße 20 , 18055 Rostock ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {},
+                "text": " SKS Immobiliengruppe Verwaltungsgesellschaft mbH , Kiel ( Amtsgericht Kiel HRB 17879 KI ) ."
+            }
+        ]
+    }
+}

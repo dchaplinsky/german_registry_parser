@@ -1,0 +1,45 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 62005",
+        "amtsgericht": "München",
+        "event_date": "2015-08-03",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 62005 \nBekannt gemacht am: 04.08.2015 02:02 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n03.08.2015\n\nHRB 62005:TAMAR Reisen GmbH, München, Häberlstr. 13, 80337 München.Ausgeschieden: Geschäftsführer: Oravec, Lubomir, Reisebürokaufmann, München. Bestellt: Geschäftsführer: Oravec, Christa, München, *21.12.1952, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 62005:TAMAR Reisen GmbH",
+        "notice_id": "897957",
+        "posted_on": "2015-08-04",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=897957&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Oravec , Lubomir , Reisebürokaufmann , München ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1952-12-21",
+                    "flag": "sole representation",
+                    "lastname": "Oravec",
+                    "name": "Christa"
+                },
+                "text": " Oravec , Christa , München , * 21.12.1952 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

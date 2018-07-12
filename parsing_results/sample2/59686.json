@@ -1,0 +1,54 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 1114",
+        "amtsgericht": "Walsrode",
+        "event_date": "2008-09-02",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Walsrode Aktenzeichen: HRA 1114 \nBekannt gemacht am: 08.09.2008 22:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n02.09.2008\n\nHannelore Baars e.K., Walsrode (Celler Str. 22, 29664 Walsrode). Geändert, nun: Neue Firma: Baars Umweltservice Inh. Kerstin Dey e.K. Nicht mehr Inhaber: Baars, Hannelore, Kauffrau. Nunmehr Inhaber: Dey, Kerstin, Walsrode-Düshorn, *16.01.1969. Prokura geändert, nunmehr: Einzelprokura mit der Befugnis, im Namen des Inhabers mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen: Dey, Thomas, Walsrode, *21.06.1967. Inhaberwechsel und Änderung der Firmierung mit dem Recht zur Firmenfortführung.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Hannelore Baars e.K.",
+        "notice_id": "59686",
+        "posted_on": "2008-09-08",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=59686&land_abk=ni"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Baars , Hannelore , Kauffrau ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Walsrode - Düshorn",
+                    "dob": "1969-01-16",
+                    "lastname": "Dey",
+                    "name": "Kerstin"
+                },
+                "text": " Dey , Kerstin , Walsrode - Düshorn , * 16.01.1969 ."
+            },
+            {
+                "class": "NewProcuration",
+                "payload": {
+                    "city": "Walsrode",
+                    "dob": "1967-06-21",
+                    "lastname": "Dey",
+                    "name": "Thomas"
+                },
+                "text": " Dey , Thomas , Walsrode , * 21.06.1967 ."
+            }
+        ]
+    }
+}

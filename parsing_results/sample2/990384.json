@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 5241",
+        "amtsgericht": "Kleve",
+        "event_date": "2014-01-07",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Kleve Aktenzeichen: HRB 5241 \nBekannt gemacht am: 07.01.2014 20:01 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n07.01.2014\n\nHRB 5241:SCI: MOERS Gemeinnützige Gesellschaft für Einrichtungen und Betrieb sozialer Arbeit GmbH, Moers, Hanns-Albeck-Platz 2, 47441 Moers.Nicht mehr Geschäftsführer: Schur, Wolfgang, Sozialpädagoge, Bonn. Bestellt als Geschäftsführer: Liebert, Frank Gerhard, Moers, *25.07.1955.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 5241:SCI: MOERS Gemeinnützige Gesellschaft für Einrichtungen und Betrieb sozialer Arbeit GmbH",
+        "notice_id": "990384",
+        "posted_on": "2014-01-07",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=990384&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Schur , Wolfgang , Sozialpädagoge , Bonn ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Moers",
+                    "dob": "1955-07-25",
+                    "lastname": "Liebert",
+                    "name": "Frank Gerhard"
+                },
+                "text": " Liebert , Frank Gerhard , Moers , * 25.07.1955 ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 6839 NP",
+        "amtsgericht": "Neuruppin",
+        "event_date": "2006-08-29",
+        "event_type": "Veränderungen",
+        "federal_state": "br",
+        "full_text": "Amtsgericht Neuruppin Aktenzeichen: HRB 6839 NP \nBekannt gemacht am: 01.09.2006 09:15 Uhr\n\n\n\n\nFür die Angaben in (), die den Unternehmensgegenstand und die Anschrift betreffen, keine Gewähr. In das Handelsregister ist folgendes eingetragen worden.\nVeränderungen\n29.08.2006\n\nLUCKY STYLE PRODUCTIONS GmbH, Mühlenbeck(Mühlenbeckerster. 58 a, 16552  Schildow). Nicht mehr Geschäftsführer: Warsany, Marco. Geschäftsführer: Rex, Michael, mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "LUCKY STYLE PRODUCTIONS GmbH",
+        "notice_id": "7803",
+        "posted_on": "2006-09-01",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=7803&land_abk=br"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rex , Michael , mit der Befugnis die Gesellschaft allein zu vertreten , mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " Warsany , Marco ."
+            }
+        ]
+    }
+}

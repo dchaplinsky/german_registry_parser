@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 6728",
+        "amtsgericht": "Braunschweig",
+        "event_date": "2017-03-21",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Braunschweig Aktenzeichen: HRA 6728 \nBekannt gemacht am: 21.03.2017 19:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n21.03.2017\n\nHRA 6728: Eifrig & Keldenich Inhaber Dipl.Ing. Gotthelf Eifrig, Braunschweig., Kreuzstr.68, 38118 Braunschweig. Firma geändert, nun: Eifrig & Keldenich Aufzüge, Inh. Dipl.-Ing. Theodor Eifrig. Geschäftsanschrift: Kreuzstr.68, 38118 Braunschweig. Nicht mehr Inhaber: Eifrig, Gotthelf, Diplomingenieur, Braunschweig. Nun Inhaber: Eifrig, Gotthelf Theodor, Sickte, *15.02.1958.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 6728: Eifrig & Keldenich Inhaber Dipl.Ing. Gotthelf Eifrig",
+        "notice_id": "430657",
+        "posted_on": "2017-03-21",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=430657&land_abk=ni"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Eifrig , Gotthelf , Diplomingenieur , Braunschweig ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Kreuzstr . 68 , 38118 Braunschweig ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Sickte",
+                    "dob": "1958-02-15",
+                    "lastname": "Eifrig",
+                    "name": "Gotthelf Theodor"
+                },
+                "text": " Eifrig , Gotthelf Theodor , Sickte , * 15.02.1958 ."
+            }
+        ]
+    }
+}

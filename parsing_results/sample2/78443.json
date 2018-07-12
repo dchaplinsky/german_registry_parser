@@ -1,0 +1,49 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 137305",
+        "amtsgericht": "München",
+        "event_date": "2006-01-26",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 137305 \nBekannt gemacht am: 01.02.2006 14:55 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n26.01.2006\n\nKraftAkt GmbH, München (Thalkirchnerstr. 4, 80337 München). Bestellt: Geschäftsführer: Böckeler, Johann, München, *23.11.1962, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Prokura erloschen: Böckeler, Johann, München, *23.11.1962.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "KraftAkt GmbH",
+        "notice_id": "78443",
+        "posted_on": "2006-02-01",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=78443&land_abk=by"
+    },
+    "parsed": {
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1962-11-23",
+                    "flag": "sole representation",
+                    "lastname": "Böckeler",
+                    "name": "Johann"
+                },
+                "text": " Böckeler , Johann , München , * 23.11.1962 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "München",
+                    "dob": "1962-11-23",
+                    "lastname": "Böckeler",
+                    "name": "Johann"
+                },
+                "text": " Böckeler , Johann , München , * 23.11.1962 ."
+            }
+        ]
+    }
+}

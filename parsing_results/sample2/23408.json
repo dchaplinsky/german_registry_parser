@@ -1,0 +1,43 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 533325",
+        "amtsgericht": "Ulm",
+        "event_date": "2007-05-11",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Ulm Aktenzeichen: HRB 533325 \nBekannt gemacht am: 22.05.2007 08:44 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n11.05.2007\n\nWÖRTZ Lackierungen GmbH, Süßen (Erlenwiesenstraße 34-38, 73079 Süßen). Bestellt als Geschäftsführer: Wörtz, Christian, Süßen, *07.07.1980, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Nicht mehr Geschäftsführer: Wörtz, Kurt, Süßen. Prokura erloschen: Wörtz, Christian, Süßen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "WÖRTZ Lackierungen GmbH",
+        "notice_id": "23408",
+        "posted_on": "2007-05-22",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=23408&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Wörtz , Kurt , Süßen ."
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Wörtz , Christian , Süßen ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " Wörtz , Christian , Süßen , * 07.07.1980 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ]
+    }
+}

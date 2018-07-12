@@ -1,0 +1,45 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 108605",
+        "amtsgericht": "Jena",
+        "event_date": "2007-04-02",
+        "event_type": "Veränderungen",
+        "federal_state": "th",
+        "full_text": "Amtsgericht Jena Aktenzeichen: HRB 108605 \nBekannt gemacht am: 04.04.2007 13:56 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n02.04.2007\n\nb t w Bauplanungsteam GmbH, Weimar Architekten- und Ingenieurgesellschaft, Weimar (Ahornallee 3, 99438 Weimar OT Legefeld). Ausgeschieden: Geschäftsführer: Holm, Jens, Diplomingenieur, Weimar. Bestellt: Geschäftsführer: Cyriax, Helga, Tonndorf, *27.01.1947, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "b t w Bauplanungsteam GmbH",
+        "notice_id": "7629",
+        "posted_on": "2007-04-04",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=7629&land_abk=th"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Holm , Jens , Diplomingenieur , Weimar ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Tonndorf",
+                    "dob": "1947-01-27",
+                    "flag": "sole representation",
+                    "lastname": "Cyriax",
+                    "name": "Helga"
+                },
+                "text": " Cyriax , Helga , Tonndorf , * 27.01.1947 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

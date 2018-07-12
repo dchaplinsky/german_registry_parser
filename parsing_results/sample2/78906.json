@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 8197",
+        "amtsgericht": "Memmingen",
+        "event_date": "2006-02-01",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Memmingen Aktenzeichen: HRA 8197 \nBekannt gemacht am: 02.02.2006 08:51 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben zur Geschäftsanschrift und des Geschäftszweiges erfogen ohne Gewähr.\nVeränderungen\n01.02.2006\n\nAdolf Fergg, Inh. M. Friedrich, Ottobeuren (Marktplatz 16, 87724 Ottobeuren). Der Übergang der in dem Betrieb des Geschäfts des bisherigen Inhabers Michael Friedrich begründeten Forderungen und Verbindlichkeiten ist bei dem Erwerb des Geschäfts durch den neuen Inhaber ausgeschlossen. Firma geändert, nun: Adolf Fergg, Inh. Ch. Preikschat e.K. Neuer Inhaber: Preikschat, Christina, München, *11.01.1946. Nicht mehr Inhaber: Friedrich, Michael, lndustriekaufmann, Börwang.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Adolf Fergg",
+        "notice_id": "78906",
+        "posted_on": "2006-02-02",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=78906&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Friedrich , Michael , lndustriekaufmann , Börwang ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "München",
+                    "dob": "1946-11-01",
+                    "lastname": "Preikschat",
+                    "name": "Christina"
+                },
+                "text": " Preikschat , Christina , München , * 11.01.1946 ."
+            }
+        ]
+    }
+}

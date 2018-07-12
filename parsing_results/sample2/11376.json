@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 9193",
+        "amtsgericht": "Nürnberg",
+        "event_date": "2005-02-17",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Nürnberg Aktenzeichen: HRB 9193 \nBekannt gemacht am: 19.02.2005 05:49 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n17.02.2005\n\nSebalder Treuhandgesellschaft mbH Wirtschaftsprüfungsgesellschaft und Steuerberatungsgesellschaft, Nürnberg (Äußere Sulzbacher Straße 100, 90491 Nürnberg). Ausgeschieden: Geschäftsführer: Reinhardt, Kurt, Wirtschaftsprüfer und Steuerberater, Büchenbach. Bestellt: Geschäftsführer: Kastl, Monika, Nürnberg, *20.12.1955; Kraus, Wolfgang, Erlangen, *19.03.1956, jeweils einzelvertretungsberechtigt.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Sebalder Treuhandgesellschaft mbH Wirtschaftsprüfungsgesellschaft und Steuerberatungsgesellschaft",
+        "notice_id": "11376",
+        "posted_on": "2005-02-19",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=11376&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Reinhardt , Kurt , Wirtschaftsprüfer und Steuerberater , Büchenbach ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Nürnberg",
+                    "dob": "1955-12-20",
+                    "lastname": "Kastl",
+                    "name": "Monika"
+                },
+                "text": " Kastl , Monika , Nürnberg , * 20.12.1955"
+            }
+        ]
+    }
+}

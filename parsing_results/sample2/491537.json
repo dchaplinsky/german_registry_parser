@@ -1,0 +1,39 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 141846",
+        "amtsgericht": "München",
+        "event_date": "2011-03-16",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 141846 \nBekannt gemacht am: 23.03.2011 22:00 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n16.03.2011\n\nMKS German Holding GmbH, München, Schatzbogen 43, 81829 München. Ausgeschieden: Geschäftsführer: Weigner, Ronald C., Sudbury, MA (USA), *17.11.1945. Bestellt: Geschäftsführer: D'Antilio, Derek, Worcester, MA/USA, *14.03.1972, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "MKS German Holding GmbH",
+        "notice_id": "491537",
+        "posted_on": "2011-03-23",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=491537&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Weigner , Ronald C . , Sudbury , MA ( USA ) , * 17.11.1945 ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " D'Antilio , Derek , Worcester , MA / USA , * 14.03.1972 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

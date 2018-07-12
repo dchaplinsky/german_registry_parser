@@ -1,0 +1,46 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 11172 NP",
+        "amtsgericht": "Neuruppin",
+        "event_date": "2015-07-03",
+        "event_type": "Neueintragungen",
+        "federal_state": "br",
+        "full_text": "Amtsgericht Neuruppin Aktenzeichen: HRB 11172 NP \nBekannt gemacht am: 06.07.2015 15:36 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nNeueintragungen\n03.07.2015\n\nHRB 11172 NP: Fahrschule René Oestreich UG (haftungsbeschränkt), Löwenberger Land, Am Sonnenhügel 2, 16775 Löwenberger Land OT Löwenberg. Geschäftsanschrift: Am Sonnenhügel 2, 16775 Löwenberger Land OT Löwenberg. \nGegenstand: Ausbildung von Fahrschülern im Führen von Kraftfahrzeugen in den Klassen A, BE und CE. \nKapital: 1.000,00 EUR. Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft durch sämtliche Geschäftsführer gemeinsam vertreten. \nGeschäftsführer: Oestreich, René, *06.04.1961, Löwenberger Land, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen. \nRechtsform: Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom: 15.06.2015",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Rechtsform: Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom: 15.06.2015",
+        "notice_id": "117726",
+        "posted_on": "2015-07-06",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=117726&land_abk=br"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Oestreich , René , * 06.04.1961 , Löwenberger Land , mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "If several managing directors are appointed, the company is jointly represented by all managing directors.",
+                "text": "Sind mehrere Geschäftsführer bestellt , wird die Gesellschaft durch sämtliche Geschäftsführer gemeinsam vertreten ."
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "Company with limited liability .",
+                "text": "Gesellschaft mit beschränkter Haftung ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Am Sonnenhügel 2 , 16775 Löwenberger Land OT Löwenberg ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 703031",
+        "amtsgericht": "Mannheim",
+        "event_date": "2016-01-22",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Mannheim Aktenzeichen: HRA 703031 \nBekannt gemacht am: 22.01.2016 16:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n22.01.2016\n\nHRA 703031: Roland Gussetti e.K., Pforzheim, Hirsauer Str. 35, 75180 Pforzheim. Rechtsform geändert; nun: Offene Handelsgesellschaft. Firma geändert; nun: Roland Gussetti OHG. Berichtigung von Amts wegen zur Geschäftsanschrift: Hirsauer Straße 35, 75180 Pforzheim. Eingetreten als Persönlich haftender Gesellschafter: Fricker, Nadine Nicole, geb. Gussetti, Niefern-Öschelbronn, *14.10.1976; Gussetti, René Sascha, Kämpfelbach, *08.10.1973. Nicht mehr Inhaber, nunmehr Persönlich haftender Gesellschafter: Gussetti, Roswitha Ruth, Pforzheim, *07.03.1951.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 703031: Roland Gussetti e.K.",
+        "notice_id": "531124",
+        "posted_on": "2016-01-22",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=531124&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Fricker , Nadine Nicole , geb ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Hirsauer Straße 35 , 75180 Pforzheim ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Pforzheim",
+                    "dob": "1951-07-03",
+                    "lastname": "Gussetti",
+                    "name": "Roswitha Ruth"
+                },
+                "text": " Gussetti , Roswitha Ruth , Pforzheim , * 07.03.1951 ."
+            }
+        ]
+    }
+}

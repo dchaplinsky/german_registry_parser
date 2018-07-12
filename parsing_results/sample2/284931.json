@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 7650",
+        "amtsgericht": "Nürnberg",
+        "event_date": "2008-12-02",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht Nürnberg Aktenzeichen: HRA 7650 \nBekannt gemacht am: 08.12.2008 12:00 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n02.12.2008\n\nAutohaus Heinrich Graf, Feucht b.Nbg., Schwabacher Straße 40, 90537 Feucht.Firma geändert, nun: Autohaus Heinrich Graf Inh. Andreas Graf e. K. Geschäftsanschrift: Schwabacher Straße 40, 90537 Feucht. Nicht mehr Inhaber: Graf, Heinrich, Kfz.-Meister, Feucht b.Nbg. Neuer Inhaber: Graf, Andreas, Feucht, *14.01.1968.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Autohaus Heinrich Graf",
+        "notice_id": "284931",
+        "posted_on": "2008-12-08",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=284931&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Graf , Heinrich , Kfz . - Meister , Feucht b . Nbg ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Schwabacher Straße 40 , 90537 Feucht ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Feucht",
+                    "dob": "1968-01-14",
+                    "lastname": "Graf",
+                    "name": "Andreas"
+                },
+                "text": " Graf , Andreas , Feucht , * 14.01.1968 ."
+            }
+        ]
+    }
+}

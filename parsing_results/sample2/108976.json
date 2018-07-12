@@ -1,0 +1,49 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 1410",
+        "amtsgericht": "Landau",
+        "event_date": "2011-10-31",
+        "event_type": "Veränderungen",
+        "federal_state": "rp",
+        "full_text": "Amtsgericht Landau Aktenzeichen: HRB 1410   \nBekannt gemacht am: 02.11.2011 12:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n31.10.2011\n\nKälte-Mardo GmbH, Landau in der Pfalz, Bornbachstraße 22, 76829 Landau in der Pfalz. Die Gesellschafterversammlung vom 11.10.2011 hat eine Änderung des Gesellschaftsvertrages in § 1 (Firma und Sitz) und mit ihr die Änderung der Firma sowie eine Änderung in § 2 (Gegenstand des Unternehmens) und mit ihr die Gegenstandsänderung beschlossen. geändert, nun: Neue Firma: PBS Verwaltungsgesellschaft mbH. Geändert, nun: Geschäftsanschrift: Am Heidenweg 3, 76829 Landau in der Pfalz. geändert, nun: Neuer Unternehmensgegenstand: ist Vermögensverwaltung und die Verpachtung von angemietetem Grundbesitz. Die Gesellschaft ist berechtigt, andere Unternehmen gleicher oder ähnlicher Art zu übernehmen, zu vertreten sich an solchen Unternehmen zu beteiligen und Zweigniederlassungen zu errichten. Nicht mehr Geschäftsführer: Mardo, Peter, Kältemeister, Landau in der Pfalz. Bestellt als Geschäftsführer: Mardo, Brunhilde, Landau, *28.02.1939, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Prokura erloschen: Mardo, Brunhilde, Landau in der Pfalz.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Kälte-Mardo GmbH",
+        "notice_id": "108976",
+        "posted_on": "2011-11-02",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=108976&land_abk=rp"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Mardo , Peter , Kältemeister , Landau in der Pfalz ."
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Mardo , Brunhilde , Landau in der Pfalz ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Am Heidenweg 3 , 76829 Landau in der Pfalz ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Landau",
+                    "dob": "1939-02-28",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Mardo",
+                    "name": "Brunhilde"
+                },
+                "text": " Mardo , Brunhilde , Landau , * 28.02.1939 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ]
+    }
+}

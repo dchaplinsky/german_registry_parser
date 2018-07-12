@@ -1,0 +1,49 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 1796",
+        "amtsgericht": "Moenchengladbach",
+        "event_date": "2005-11-15",
+        "event_type": "Veränderungen",
+        "federal_state": "nw",
+        "full_text": "Amtsgericht Moenchengladbach Aktenzeichen: HRB 1796 \nBekannt gemacht am: 23.11.2005 09:59 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n15.11.2005\n\nFAA Bildungsgesellschaft Mönchengladbach mbH, Mönchengladbach (Schwogenstraße 40, 41063 Mönchengladbach). Nicht mehr Geschäftsführer: Haack, Volker, Diplom-Sozialarbeiter, Gladbeck. Bestellt als Geschäftsführer: Modrow, Helmut, Hamburg, *02.03.1955, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Prokura erloschen: Holland, Johannes Theodor, Mönchengladbach, *18.03.1956; Meyer, Katrin, Hannover, *20.06.1959; Modrow, Helmut, Hamburg, *02.03.1955.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "FAA Bildungsgesellschaft Mönchengladbach mbH",
+        "notice_id": "82173",
+        "posted_on": "2005-11-23",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=82173&land_abk=nw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Haack , Volker , Diplom - Sozialarbeiter , Gladbeck ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1955-02-03",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Modrow",
+                    "name": "Helmut"
+                },
+                "text": " Modrow , Helmut , Hamburg , * 02.03.1955 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Mönchengladbach",
+                    "dob": "1956-03-18",
+                    "lastname": "Holland",
+                    "name": "Johannes Theodor"
+                },
+                "text": " Holland , Johannes Theodor , Mönchengladbach , * 18.03.1956"
+            }
+        ]
+    }
+}

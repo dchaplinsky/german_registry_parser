@@ -1,0 +1,74 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 54863",
+        "amtsgericht": "Hannover",
+        "event_date": "2008-02-28",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Hannover Aktenzeichen: HRB 54863 \nBekannt gemacht am: 06.03.2008 12:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n28.02.2008\n\nNatur und Umwelt - Verlags- und Service - GmbH, Hannover (Goebenstraße 3A, 30161 Hannover). Bestellt als Geschäftsführer: Bodenstein-Dresler, Carl-Wilhelm, Langenhagen, *24.02.1952, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Vertretungsbefugnis geändert, nun: Geschäftsführer: Schwarzenberger, Tim, Gartow, *15.01.1966, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Einzelprokura: Gerstner, Susanne, Wittenberge, *14.11.1967; Ott, Stefan, Hannover, *11.05.1960; von der Osten-Kemling, Doris, Hannover, *24.09.1963. Prokura erloschen: Bodenstein-Dresler, Carl-Wilhelm, Langenhagen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Natur und Umwelt - Verlags- und Service - GmbH",
+        "notice_id": "41272",
+        "posted_on": "2008-03-06",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=41272&land_abk=ni"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Bodenstein - Dresler , Carl - Wilhelm , Langenhagen ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Langenhagen",
+                    "dob": "1952-02-24",
+                    "flag": "sole representation",
+                    "lastname": "Bodenstein - Dresler",
+                    "name": "Carl - Wilhelm"
+                },
+                "text": " Bodenstein - Dresler , Carl - Wilhelm , Langenhagen , * 24.02.1952 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Gartow",
+                    "dob": "1966-01-15",
+                    "flag": "sole representation",
+                    "lastname": "Schwarzenberger",
+                    "name": "Tim"
+                },
+                "text": " Schwarzenberger , Tim , Gartow , * 15.01.1966 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Wittenberge",
+                    "dob": "1967-11-14",
+                    "lastname": "Gerstner",
+                    "name": "Susanne"
+                },
+                "text": " Gerstner , Susanne , Wittenberge , * 14.11.1967"
+            }
+        ]
+    }
+}

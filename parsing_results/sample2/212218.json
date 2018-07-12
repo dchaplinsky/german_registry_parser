@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 58832",
+        "amtsgericht": "München",
+        "event_date": "2007-12-18",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 58832 \nBekannt gemacht am: 19.12.2007 12:00 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n18.12.2007\n\nWolfgang Blum Patentrecherchen GmbH, Haar, Landkreis München (Zunftstr. 5 b, 85540 Haar). Die Gesellschafterversammlung vom 13.12.2007 hat die Änderung des § 1 (Firma) der Satzung beschlossen. Neue Firma: Blum Patentrecherchen GmbH. Bestellt: Geschäftsführer: Blum, Wolfgang, Patentberichterstatter, München. Bestellt: Geschäftsführer: Herklotz, Günter, München, *22.06.1949; Zscherpe, Erik, München, *07.06.1965, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Wolfgang Blum Patentrecherchen GmbH",
+        "notice_id": "212218",
+        "posted_on": "2007-12-19",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=212218&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Blum , Wolfgang , Patentberichterstatter , München ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1949-06-22",
+                    "lastname": "Herklotz",
+                    "name": "Günter"
+                },
+                "text": " Herklotz , Günter , München , * 22.06.1949"
+            }
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 121404",
+        "amtsgericht": "Hamburg",
+        "event_date": "2017-03-31",
+        "event_type": "Neueintragungen",
+        "federal_state": "hh",
+        "full_text": "Amtsgericht Hamburg Aktenzeichen: HRA 121404 \nBekannt gemacht am: 31.03.2017 14:20 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nNeueintragungen\n31.03.2017\n\nHRA 121404: EKN Betriebs AG & Co. oHG, Hamburg, New-York-Ring 6, 22297 Hamburg. (Die Geschäftsbesorgung, Verwaltung und Erbringung von Diensleitungen für Unternehmen im Lebensmittelhandel sowie der Betrieb von Lebensmitteleinzelhandelsmärkten einschließlich aller damit in Zusammenhang stehenden Maßnahmen, insbesondere die Vermittlung von Waren und die Durchführung jeglicher Form von Verkaufs- und Werbemaßnahmen sowie die Anmietung von Verkaufs- und Lagerflächen.). Offene Handelsgesellschaft. Geschäftsanschrift: New-York-Ring 6, 22297 Hamburg. Jeder persönlich haftende Gesellschafter vertritt einzeln. Persönlich haftender Gesellschafter: EDEKA ZENTRALE AG & Co. KG, Hamburg (Amtsgericht Hamburg HRA 96305), mit der Befugnis - auch für die jeweiligen Komplementäre -, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Die jeweiligen Vorstandsmitglieder der jeweiligen Komplementäre sind befugt, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Persönlich haftender Gesellschafter: EDEKA ZENTRALE Handel und Produktion GmbH, Hamburg (Amtsgericht Hamburg HRB 121449), von der Vertretung ausgeschlossen. Der Sitz ist von Maxhütte-Haidhof (bisher: Amtsgericht Amberg HRA 3553, Firma bisher: Netto II AG & Co. oHG) nach Hamburg verlegt.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 121404: EKN Betriebs AG & Co. oHG",
+        "notice_id": "327261",
+        "posted_on": "2017-03-31",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=327261&land_abk=hh"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  EDEKA ZENTRALE Handel und Produktion GmbH , Hamburg ( Amtsgericht Hamburg HRB 121449 ) , von der Vertretung ausgeschlossen ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " New - York - Ring 6 , 22297 Hamburg ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {},
+                "text": " EDEKA ZENTRALE AG & Co ."
+            }
+        ]
+    }
+}

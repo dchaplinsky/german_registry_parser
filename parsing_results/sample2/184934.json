@@ -1,0 +1,54 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 168657",
+        "amtsgericht": "München",
+        "event_date": "2007-08-02",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 168657 \nBekannt gemacht am: 08.08.2007 09:30 Uhr\n\n\n\n\nDie in ( ) gesetzten Angaben der Geschäftsanschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n02.08.2007\n\nBlitz 07-622 GmbH, München (An der Bahn 1, 83703 Gmund). Die Gesellschafterversammlung vom 27.07.2007 hat die Satzung neu gefasst. Dabei wurde geändert: Firma, Sitz, Gegenstand. Neue Firma: Kistlerhofstraße Projekt GmbH. Neuer Sitz: Gmund, Landkreis Miesbach. Neuer Unternehmensgegenstand: Erwerb und Bebauung sowie Verwaltung von Grundstücken, Veräußerung erworbener Grundstücke insgesamt oder nach ganzer oder teilweiser Aufteilung in Wohnungs- und Teileigentum. Bestellt: Geschäftsführer: Kohler, Korbinian, Gmund, *10.06.1968, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Bestellt: Geschäftsführer: Kohler, Susanne, Gmund, *10.11.1968, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Ausgeschieden: Geschäftsführer: Lotz, Nicole, geb. Liebera, München, *07.06.1969.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Blitz 07-622 GmbH",
+        "notice_id": "184934",
+        "posted_on": "2007-08-08",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=184934&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Lotz , Nicole , geb ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Gmund",
+                    "dob": "1968-10-06",
+                    "flag": "sole representation",
+                    "lastname": "Kohler",
+                    "name": "Korbinian"
+                },
+                "text": " Kohler , Korbinian , Gmund , * 10.06.1968 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " Kohler , Susanne , Gmund , * 10.11.1968 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ]
+    }
+}

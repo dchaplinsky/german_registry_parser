@@ -1,0 +1,44 @@
+{
+    "orig": {
+        "aktenzeichen": "HRA 31235",
+        "amtsgericht": "Ludwigshafen a.Rhein (Ludwigshafen)",
+        "event_date": "2017-01-16",
+        "event_type": "Veränderungen",
+        "federal_state": "rp",
+        "full_text": "Amtsgericht Ludwigshafen a.Rhein (Ludwigshafen) Aktenzeichen: HRA 31235 \nBekannt gemacht am: 16.01.2017 20:06 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n16.01.2017\n\nHRA 31235: Brunnen-Apotheke Inhaber Heribert Färcher e.K., Carlsberg, Brunnenstraße 14, 67316 Carlsberg. Brunnen-Apotheke Inh. Karolin Färcher e.K. Geschäftsanschrift: Brunnenstraße 14, 67316 Carlsberg. Inhaber: Färcher, Karolin, Grünstadt, *05.03.1989. Nicht mehr Inhaber: Färcher, Heribert, Apotheker, Garlsberg. Die Firma ist geändert.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRA 31235: Brunnen-Apotheke Inhaber Heribert Färcher e.K.",
+        "notice_id": "214990",
+        "posted_on": "2017-01-16",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=214990&land_abk=rp"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Färcher , Heribert , Apotheker , Garlsberg ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Brunnenstraße 14 , 67316 Carlsberg ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Grünstadt",
+                    "dob": "1989-05-03",
+                    "lastname": "Färcher",
+                    "name": "Karolin"
+                },
+                "text": " Färcher , Karolin , Grünstadt , * 05.03.1989 ."
+            }
+        ]
+    }
+}

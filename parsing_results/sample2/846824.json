@@ -1,0 +1,39 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 82906",
+        "amtsgericht": "München",
+        "event_date": "2015-01-14",
+        "event_type": "Veränderungen",
+        "federal_state": "by",
+        "full_text": "Amtsgericht München Aktenzeichen: HRB 82906 \nBekannt gemacht am: 15.01.2015 02:04 Uhr\n\n\n\n\nIn ( ) gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n14.01.2015\n\nHRB 82906:MEUVO Ökotechnik Gesellschaft für energiesparende und umweltfreundliche technische Einrichtungen m.b.H., Freising, Angerbrunnenstraße 10, 85356 Freising.Ausgeschieden: Geschäftsführer: Vogt, Stefan, Maschinenbau-Ingenieur, Freising. Personendaten geändert, nun: Geschäftsführer: Meuren-Pfordte, Klaus, Freising, *13.08.1953, einzelvertretungsberechtigt.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 82906:MEUVO Ökotechnik Gesellschaft für energiesparende und umweltfreundliche technische Einrichtungen m.b.H.",
+        "notice_id": "846824",
+        "posted_on": "2015-01-15",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=846824&land_abk=by"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Vogt , Stefan , Maschinenbau - Ingenieur , Freising ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Freising",
+                    "dob": "1953-08-13",
+                    "flag": "sole representation",
+                    "lastname": "Meuren - Pfordte",
+                    "name": "Klaus"
+                },
+                "text": " Meuren - Pfordte , Klaus , Freising , * 13.08.1953 , einzelvertretungsberechtigt ."
+            }
+        ]
+    }
+}

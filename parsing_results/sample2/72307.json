@@ -1,0 +1,48 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 700252",
+        "amtsgericht": "Freiburg",
+        "event_date": "2008-04-28",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Freiburg Aktenzeichen: HRB 700252 \nBekannt gemacht am: 05.05.2008 12:00 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n28.04.2008\n\nMeierhof Verwaltungs-GmbH, Wehr (Meierhofstr. 18, 79664 Wehr). Allgemeine Vertretungsregelung geändert; nun: Ist nur ein Liquidator bestellt, vertritt er allein. Sind mehrere Liquidatoren bestellt, vertreten zwei gemeinsam oder ein Liquidator gemeinsam mit einem Prokuristen. Einzelvertretungsbefugnis und Befreiung von den Beschränkungen des § 181 BGB kann erteilt werden. Nicht mehr Geschäftsführer: Freiherr von Schönau-Wehr, Wolfgang, Wehr, *21.09.1961. Bestellt als Liquidator: Freifrau von Schönau-Wehr, Erna Ursula, geb. Thiele, Sigmaringen, *01.02.1931, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Meierhof Verwaltungs-GmbH",
+        "notice_id": "72307",
+        "posted_on": "2008-05-05",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=72307&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Freifrau von Schönau - Wehr , Erna Ursula , geb ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Wehr",
+                    "dob": "1961-09-21",
+                    "lastname": "Freiherr von Schönau - Wehr",
+                    "name": "Wolfgang"
+                },
+                "text": " Freiherr von Schönau - Wehr , Wolfgang , Wehr , * 21.09.1961 ."
+            }
+        ]
+    }
+}

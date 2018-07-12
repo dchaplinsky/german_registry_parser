@@ -1,0 +1,54 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 93935 B",
+        "amtsgericht": "Charlottenburg (Berlin)",
+        "event_date": "2017-02-28",
+        "event_type": "Veränderungen",
+        "federal_state": "be",
+        "full_text": "Amtsgericht Charlottenburg (Berlin) Aktenzeichen: HRB 93935 B \nBekannt gemacht am: 01.03.2017 12:29 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nVeränderungen\n28.02.2017\n\nHRB 93935 B: ISG Grundstücksgesellschaft mbH, Berlin, c/o Gerl, Uhlandstraße 137, 10717 Berlin. Vertretungsregelung: Ist ein Liquidator bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Liquidatoren bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Liquidatoren oder durch einen Liquidator in Gemeinschaft mit einem Prokuristen vertreten.\nAlleinvertretungsbefugnis kann erteilt werden.  Änderung zu Nr. 2: nun; Liquidator: Dr. Gerl, Andreas, *11.11.1943, Berlin; mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Rechtsverhaeltnis: Die Gesellschaft ist aufgelöst.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Rechtsverhaeltnis: Die Gesellschaft ist aufgelöst.",
+        "notice_id": "418086",
+        "posted_on": "2017-03-01",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=418086&land_abk=be"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Dr . Gerl , Andreas , * 11.11.1943 , Berlin"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Exclusive power of representation can be granted.",
+                "text": "Alleinvertretungsbefugnis kann erteilt werden ."
+            },
+            {
+                "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            },
+            {
+                "flag": "ignore_for_now",
+                "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "WHUT",
+                "text": " ISG Grundstücksgesellschaft mbH , Berlin , c / o Gerl , Uhlandstraße 137 , 10717 Berlin ."
+            }
+        ]
+    }
+}

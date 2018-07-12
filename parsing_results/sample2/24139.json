@@ -1,0 +1,69 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 230690",
+        "amtsgericht": "Stuttgart",
+        "event_date": "2007-05-21",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Stuttgart Aktenzeichen: HRB 230690 \nBekannt gemacht am: 29.05.2007 09:30 Uhr\n\n\n\n\nDie in () gesetzten Angaben der Geschäftsanschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr.\nVeränderungen\n21.05.2007\n\nDatalogic Automation GmbH, Erkenbrechtsweiler (Uracher Str. 22, 73268 Erkenbrechtsweiler). Bestellt als Geschäftsführer: Piazzi, Guglielmo, San Lazzaro di Savena (Italien), *16.01.1954, einzelvertretungsberechtigt. Nicht mehr Geschäftsführer: Gian, Paolo Fedrigo, Geschäftsführer, Sacile PN (Italien); Laufen, Michael, Kirchheim unter Teck, *22.07.1949; Owen, Ricky Darrell, Kleinbettlingen, *29.08.1964. Einzelprokura: Dunker, Kaj, Kgs Lyngby (Dänemark), *23.05.1962. Prokura geändert; nun Einzelprokura: Einzelprokura: Nöfer, Michael, Wernau Neckar, *24.03.1956.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Datalogic Automation GmbH",
+        "notice_id": "24139",
+        "posted_on": "2007-05-29",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=24139&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Gian , Paolo Fedrigo , Geschäftsführer , Sacile PN ( Italien )"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            },
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "San Lazzaro di Savena ( Italien )",
+                    "dob": "1954-01-16",
+                    "flag": "sole representation",
+                    "lastname": "Piazzi",
+                    "name": "Guglielmo"
+                },
+                "text": " Piazzi , Guglielmo , San Lazzaro di Savena ( Italien ) , * 16.01.1954 , einzelvertretungsberechtigt ."
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Kgs Lyngby ( Dänemark )",
+                    "dob": "1962-05-23",
+                    "lastname": "Dunker",
+                    "name": "Kaj"
+                },
+                "text": " Dunker , Kaj , Kgs Lyngby ( Dänemark ) , * 23.05.1962 ."
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Wernau Neckar",
+                    "dob": "1956-03-24",
+                    "lastname": "Einzelprokura : Nöfer",
+                    "name": "Michael"
+                },
+                "text": " Einzelprokura : Nöfer , Michael , Wernau Neckar , * 24.03.1956 ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 430553",
+        "amtsgericht": "Mannheim",
+        "event_date": "2011-09-20",
+        "event_type": "Veränderungen",
+        "federal_state": "bw",
+        "full_text": "Amtsgericht Mannheim Aktenzeichen: HRB 430553   \nBekannt gemacht am: 23.09.2011 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n20.09.2011\n\nZentralheizungen und Oelfeuerungen Georg Franke Gesellschaft mit beschränkter Haftung, Weinheim, Am Ligusterhag 3, 69469 Weinheim. Bestellt als Geschäftsführer: Franke, Georg Ernst, Mörlenbach, *05.08.1948. Nicht mehr Geschäftsführer: Franke, Elsa Maria, geb. Randoll, Kauffrau, Weinheim.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Zentralheizungen und Oelfeuerungen Georg Franke Gesellschaft mit beschränkter Haftung",
+        "notice_id": "266855",
+        "posted_on": "2011-09-23",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=266855&land_abk=bw"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Franke , Elsa Maria , geb ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Mörlenbach",
+                    "dob": "1948-05-08",
+                    "lastname": "Franke",
+                    "name": "Georg Ernst"
+                },
+                "text": " Franke , Georg Ernst , Mörlenbach , * 05.08.1948 ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 18221 HB",
+        "amtsgericht": "Bremen",
+        "event_date": "2013-05-22",
+        "event_type": "Veränderungen",
+        "federal_state": "hb",
+        "full_text": "Amtsgericht Bremen Aktenzeichen: HRB 18221 HB \nBekannt gemacht am: 23.05.2013 20:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Unternehmensgegenstandes erfolgen ohne Gewähr:\nVeränderungen\n22.05.2013\n\nHRB 18221 HB: bastian. Beteiligungs-GmbH, Bremen, Lise-Meitner-Str. 5, 28359 Bremen. Nicht mehr Geschäftsführer: Niesing, Axel. Geschäftsführer: Hillmann, Kay, *16.04.1958, Bremen; mit der Befugnis die Gesellschaft allein zu vertreten.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 18221 HB: bastian. Beteiligungs-GmbH",
+        "notice_id": "39144",
+        "posted_on": "2013-05-23",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=39144&land_abk=hb"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Hillmann , Kay , * 16.04.1958 , Bremen"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            }
+        ],
+        "labels": [
+            {
+                "label": "WHUT",
+                "text": " bastian ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {},
+                "text": " Niesing , Axel ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 32823",
+        "amtsgericht": "Hamburg",
+        "event_date": "2009-12-04",
+        "event_type": "Veränderungen",
+        "federal_state": "hh",
+        "full_text": "Amtsgericht Hamburg Aktenzeichen: HRB 32823 \nBekannt gemacht am: 07.12.2009 12:00 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr.\nVeränderungen\n04.12.2009\n\nAlpha Reefer Transport GmbH, Hamburg, Van-der-Smissen-Straße 2, 22767 Hamburg.Geschäftsanschrift: Van-der-Smissen-Straße 2, 22767 Hamburg. Ausgeschieden Geschäftsführer: von Reiche, Joachim, Hamburg. Bestellt Geschäftsführer: Zielke, Wolfgang, Hamburg, *14.11.1946, einzelvertretungsberechtigt; mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "Alpha Reefer Transport GmbH",
+        "notice_id": "97349",
+        "posted_on": "2009-12-07",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=97349&land_abk=hh"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  von Reiche , Joachim , Hamburg ."
+            }
+        ],
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " Van - der - Smissen - Straße 2 , 22767 Hamburg ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1946-11-14",
+                    "flag": "sole representation",
+                    "lastname": "Zielke",
+                    "name": "Wolfgang"
+                },
+                "text": " Zielke , Wolfgang , Hamburg , * 14.11.1946 , einzelvertretungsberechtigt"
+            }
+        ]
+    }
+}

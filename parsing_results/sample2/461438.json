@@ -1,0 +1,38 @@
+{
+    "orig": {
+        "aktenzeichen": "HRB 215055",
+        "amtsgericht": "Hannover",
+        "event_date": "2017-12-11",
+        "event_type": "Veränderungen",
+        "federal_state": "ni",
+        "full_text": "Amtsgericht Hannover Aktenzeichen: HRB 215055 \nBekannt gemacht am: 11.12.2017 19:01 Uhr\n\n\n\n\nIn () gesetzte Angaben der Anschrift und des Geschäftszweiges erfolgen ohne Gewähr:\nVeränderungen\n11.12.2017\n\nHRB 215055: A & M Projektbau GmbH, Hannover, Tiergartenstraße 75, 30559 Hannover. Bestellt als Geschäftsführer: Aleksic, Petar, Split / Kroatien, *17.08.1995. Nicht mehr Geschäftsführer: Todorov, Dragan, Novibolman, Jagodnjak / Kroatien, *14.10.1962.",
+        "gesellschafter": null,
+        "inhaber": null,
+        "name": "HRB 215055: A & M Projektbau GmbH",
+        "notice_id": "461438",
+        "posted_on": "2017-12-11",
+        "rechtsform": null,
+        "sitz": null,
+        "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=461438&land_abk=ni"
+    },
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Todorov , Dragan , Novibolman , Jagodnjak / Kroatien , * 14.10.1962 ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Split / Kroatien",
+                    "dob": "1995-08-17",
+                    "lastname": "Aleksic",
+                    "name": "Petar"
+                },
+                "text": " Aleksic , Petar , Split / Kroatien , * 17.08.1995 ."
+            }
+        ]
+    }
+}
