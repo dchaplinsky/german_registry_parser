@@ -20,12 +20,29 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  Jepsen , Henning , Kassel ."
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Eberl - Jepsen , Ulrike Albine , Kassel ."
             }
         ],
         "labels": [
             {
                 "label": "address",
                 "text": " Querallee 1 , 34119 Kassel ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Kassel",
+                    "dob": "1954-09-17",
+                    "flag": "sole representation",
+                    "lastname": "Pfaab",
+                    "name": "Christa"
+                },
+                "text": " Pfaab , Christa , Kassel , * 17.09.1954 , einzelvertretungsberechtigt ."
             }
         ]
     }

@@ -27,6 +27,29 @@
                 "label": "address",
                 "text": " Spessartstraße 2 , 63165 Mühlheim am Main ."
             }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Offenbach am Main",
+                    "dob": "1952-10-11",
+                    "lastname": "Gerstner",
+                    "name": "Felicitas"
+                },
+                "text": " Gerstner , Felicitas , Offenbach am Main , * 10.11.1952 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Dannenberg",
+                    "dob": "1954-07-12",
+                    "flag": "sole representation",
+                    "lastname": "Preuß",
+                    "name": "Bianca"
+                },
+                "text": " Preuß , Bianca , Dannenberg , * 07.12.1954 , einzelvertretungsberechtigt"
+            }
         ]
     }
 }

@@ -6,13 +6,16 @@ from dateutil.parser import parse as dt_parse
 from tokenize_uk import tokenize_words
 
 german_tokenizer = data.load(
-    os.path.join(os.path.dirname(__file__), "data/german.pickle"))
+    os.path.join(os.path.dirname(__file__), "data/german.pickle")
+)
 
 
 class ParsingError(Exception):
     pass
 
+
 dob_regex = re.compile(r"\*\s?\d{2}\s?\.\s?\d{2}\s?.\s?\d{4}")
+
 
 class Flag(object):
     __slots__ = ["flag", "text"]
@@ -23,10 +26,7 @@ class Flag(object):
         self.text = text
 
     def to_dict(self):
-        return {
-            "flag": self.flag,
-            "text": self.text
-        }
+        return {"flag": self.flag, "text": self.text}
 
     def __str__(self):
         return "[Flag: {} ({})]".format(self.flag, self.text)
@@ -41,10 +41,7 @@ class Label(object):
         self.text = text
 
     def to_dict(self):
-        return {
-            "label": self.label,
-            "text": self.text
-        }
+        return {"label": self.label, "text": self.text}
 
     def __str__(self):
         return "[Label/{}: {}]".format(self.label, self.text)
@@ -59,20 +56,16 @@ class Error(object):
         self.text = text
 
     def to_dict(self):
-        return {
-            "kls": self.kls,
-            "text": self.text
-        }
+        return {"kls": self.kls, "text": self.text}
 
     def __str__(self):
         return "[Error/{}: {}]".format(self.kls, self.text)
 
+
 class FullPerson(object):
     kls = "Person"
     kind = "officers"
-    translations = {
-        "einzelvertretungsberechtigt": "sole representation"
-    }
+    translations = {"einzelvertretungsberechtigt": "sole representation"}
 
     def parse_dob(self, dob):
         m = dob_regex.search(dob.strip(" ;."))
@@ -98,13 +91,10 @@ class FullPerson(object):
                     "name": self.name,
                     "lastname": self.lastname,
                     "city": self.city,
-                    "dob": self.dob
+                    "dob": self.dob,
                 }
                 self.description = "\nFirstname: {},\nLastname: {},\nCity: {},\nDOB: {}".format(
-                    self.name,
-                    self.lastname,
-                    self.city,
-                    self.dob
+                    self.name, self.lastname, self.city, self.dob
                 )
             if len(chunks) == 5:
                 self.lastname = chunks[0].strip(" *;.")
@@ -120,14 +110,10 @@ class FullPerson(object):
                     "lastname": self.lastname,
                     "city": self.city,
                     "dob": self.dob,
-                    "flag": self.flag
+                    "flag": self.flag,
                 }
                 self.description = "\nFirstname: {},\nLastname: {},\nCity: {},\nDOB: {},\nFlag: {}".format(
-                    self.name,
-                    self.lastname,
-                    self.city,
-                    self.dob,
-                    self.flag
+                    self.name, self.lastname, self.city, self.dob, self.flag
                 )
             elif len(chunks) == 3:
                 self.lastname = chunks[0].strip(" *;.")
@@ -137,22 +123,16 @@ class FullPerson(object):
                 self.payload = {
                     "name": self.name,
                     "lastname": self.lastname,
-                    "dob": self.dob
+                    "dob": self.dob,
                 }
                 self.description = "\nFirstname: {},\nLastname: {},\nDOB: {}".format(
-                    self.name,
-                    self.lastname,
-                    self.dob
+                    self.name, self.lastname, self.dob
                 )
         except ValueError:
             raise ParsingError("Cannot parse a {} from {}".format(self.kls, text))
 
     def to_dict(self):
-        return {
-            "class": self.kls,
-            "text": self.text,
-            "payload": self.payload
-        }
+        return {"class": self.kls, "text": self.text, "payload": self.payload}
 
     def __str__(self):
         if self.description:
@@ -193,10 +173,24 @@ class CommonProcuration(FullPerson):
     kls = "CommonProcuration"
 
 
+class NotAProcurator(FullPerson):
+    kls = "NotAProcurator"
+
+
+class RemovedFromBoard(FullPerson):
+    kls = "RemovedFromBoard"
+
+
+class AppointedBoard(FullPerson):
+    kls = "AppointedBoard"
+
+
 class Sentence(object):
     __slots__ = ["text", "split", "convert_to_flag", "assign_label_to_postfix"]
 
-    def __init__(self, text, split=False, convert_to_flag=None, assign_label_to_postfix=None):
+    def __init__(
+        self, text, split=False, convert_to_flag=None, assign_label_to_postfix=None
+    ):
         self.text = text
         self.split = split
         self.convert_to_flag = convert_to_flag
@@ -235,15 +229,45 @@ class Sentence(object):
 
 
 sentences = [
+    # TODO: remove lowercased ones
     Sentence("Geschäftsführer :", assign_label_to_postfix=ManagingDirector),
     Sentence("geschäftsführer :", assign_label_to_postfix=ManagingDirector),
+    Sentence("Geschäftsführerin :", assign_label_to_postfix=ManagingDirector),
+    Sentence("geschäftsführerin :", assign_label_to_postfix=ManagingDirector),
     Sentence("Einzelprokura :", assign_label_to_postfix=SingleProcuration),
     Sentence("einzelprokura :", assign_label_to_postfix=SingleProcuration),
-    Sentence("Persönlich haftender Gesellschafter :", assign_label_to_postfix=PersonalPartner),
-    Sentence("persönlich haftender gesellschafter :", assign_label_to_postfix=PersonalPartner),
-    Sentence("Gesamtprokura gemeinsam mit einem Geschäftsführer oder einem anderen Prokuristen :", assign_label_to_postfix=CommonProcuration),
-    Sentence("gesamtprokura gemeinsam mit einem geschäftsführer oder einem anderen prokuristen :", assign_label_to_postfix=CommonProcuration),
-    Sentence(re.compile(r"Prokura geändert(.*):", re.I), assign_label_to_postfix=NewProcuration),
+    Sentence("Bestellt Vorstand :", assign_label_to_postfix=AppointedBoard),
+    Sentence("bestellt vorstand :", assign_label_to_postfix=AppointedBoard),
+    Sentence("Ausgeschieden Vorstand :", assign_label_to_postfix=RemovedFromBoard),
+    Sentence("ausgeschieden vorstand :", assign_label_to_postfix=RemovedFromBoard),
+    Sentence("Nicht mehr Prokurist :", assign_label_to_postfix=NotAProcurator),
+    Sentence("nicht mehr prokurist :", assign_label_to_postfix=NotAProcurator),
+    Sentence(
+        "Einzelprokura mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen :",
+        assign_label_to_postfix=SingleProcuration,
+    ),
+    Sentence(
+        "einzelprokura mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen :",
+        assign_label_to_postfix=SingleProcuration,
+    ),
+    Sentence(
+        "Persönlich haftender Gesellschafter :", assign_label_to_postfix=PersonalPartner
+    ),
+    Sentence(
+        "persönlich haftender gesellschafter :", assign_label_to_postfix=PersonalPartner
+    ),
+    Sentence(
+        "Gesamtprokura gemeinsam mit einem Geschäftsführer oder einem anderen Prokuristen :",
+        assign_label_to_postfix=CommonProcuration,
+    ),
+    Sentence(
+        "gesamtprokura gemeinsam mit einem geschäftsführer oder einem anderen prokuristen :",
+        assign_label_to_postfix=CommonProcuration,
+    ),
+    Sentence(
+        re.compile(r"Prokura geändert(.*):", re.I),
+        assign_label_to_postfix=NewProcuration,
+    ),
     Sentence("Inhaber :", assign_label_to_postfix=Owner),
     Sentence("inhaber :", assign_label_to_postfix=Owner),
     Sentence("Liquidator :", assign_label_to_postfix=Liquidator),
@@ -254,25 +278,62 @@ sentences = [
     Sentence("B :", assign_label_to_postfix="WHUT"),
     Sentence("Stamm - bzw . Grundkapital :", assign_label_to_postfix="misc"),
     Sentence("Geschäftsanschrift :", assign_label_to_postfix="address"),
-    Sentence("mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen", convert_to_flag="with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties"),
-    Sentence("Alleinvertretungsbefugnis kann erteilt werden .", convert_to_flag="Exclusive power of representation can be granted."),
-    Sentence("Sind mehrere Geschäftsführer bestellt , wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten .", convert_to_flag="If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory."),
-    Sentence("mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen", convert_to_flag="with the power to conclude legal transactions with itself or as a representative of third parties"),
-    Sentence("Gesellschaft mit beschränkter Haftung .", convert_to_flag="Company with limited liability ."),
-    Sentence("mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen .", convert_to_flag="with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party"),
-    Sentence("Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten .", convert_to_flag="If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer."),
-    Sentence("mit der Befugnis die Gesellschaft allein zu vertreten", convert_to_flag="with the power to represent the company alone"),
-    Sentence("Sind mehrere Geschäftsführer bestellt , wird die Gesellschaft durch sämtliche Geschäftsführer gemeinsam vertreten .", convert_to_flag="If several managing directors are appointed, the company is jointly represented by all managing directors."),
-    Sentence("Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein .", convert_to_flag="If only one managing director is appointed, he represents the company alone."),
+    Sentence(
+        "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen",
+        convert_to_flag="with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
+    ),
+    Sentence(
+        "Alleinvertretungsbefugnis kann erteilt werden .",
+        convert_to_flag="Exclusive power of representation can be granted.",
+    ),
+    Sentence(
+        "Sind mehrere Geschäftsführer bestellt , wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten .",
+        convert_to_flag="If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
+    ),
+    Sentence(
+        "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen",
+        convert_to_flag="with the power to conclude legal transactions with itself or as a representative of third parties",
+    ),
+    Sentence(
+        "Gesellschaft mit beschränkter Haftung .",
+        convert_to_flag="Company with limited liability .",
+    ),
+    Sentence(
+        "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen .",
+        convert_to_flag="with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+    ),
+    Sentence(
+        "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten .",
+        convert_to_flag="If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
+    ),
+    Sentence(
+        "mit der Befugnis die Gesellschaft allein zu vertreten",
+        convert_to_flag="with the power to represent the company alone",
+    ),
+    Sentence(
+        "Sind mehrere Geschäftsführer bestellt , wird die Gesellschaft durch sämtliche Geschäftsführer gemeinsam vertreten .",
+        convert_to_flag="If several managing directors are appointed, the company is jointly represented by all managing directors.",
+    ),
+    Sentence(
+        "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein .",
+        convert_to_flag="If only one managing director is appointed, he represents the company alone.",
+    ),
     Sentence("Die Gesellschaft ist aufgelöst .", convert_to_flag="ignore_for_now"),
     Sentence("Einzelprokura", convert_to_flag="Single procuration"),
     Sentence("Einzelkaufmann", convert_to_flag="Sole trader"),
     Sentence("Der Inhaber handelt allein", convert_to_flag="The owner is acting alone"),
     Sentence("Kommanditgesellschaft .", convert_to_flag="Limited partnership."),
-    Sentence("Sind mehrere Liquidatoren bestellt , wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten .", convert_to_flag="If several liquidators are appointed, the company will be represented jointly by all liquidators."),
+    Sentence(
+        "Sind mehrere Liquidatoren bestellt , wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten .",
+        convert_to_flag="If several liquidators are appointed, the company will be represented jointly by all liquidators.",
+    ),
 ]
 
-sentences = sorted(sentences, key=lambda x: len(x.text) if isinstance(x.text, str) else 1000, reverse=True)
+sentences = sorted(
+    sentences,
+    key=lambda x: len(x.text) if isinstance(x.text, str) else 1000,
+    reverse=True,
+)
 
 
 def parse_document(doc):
@@ -284,9 +345,7 @@ def parse_document(doc):
         try:
             _, useful_text = re.split(r"\d{2}\.\d{2}\.\d{4}\n\n", text, 1, flags=re.M)
         except ValueError:
-            errors.append(
-                "Cannot parse an event type out of text {}".format(text)
-            )
+            errors.append("Cannot parse an event type out of text {}".format(text))
             useful_text = text
 
     sents = german_tokenizer.tokenize(useful_text)

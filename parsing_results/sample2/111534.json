@@ -36,6 +36,16 @@
             {
                 "class": "ManagingDirector",
                 "payload": {
+                    "city": "Paderborn",
+                    "dob": "1982-01-25",
+                    "lastname": "Englisch",
+                    "name": "Jana"
+                },
+                "text": " Englisch , Jana , Paderborn , * 25.01.1982 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
                     "city": "Gibraltar",
                     "dob": "1946-11-27",
                     "flag": "sole representation",
@@ -43,6 +53,17 @@
                     "name": "James David"
                 },
                 "text": " Hassan , James David , Gibraltar , * 27.11.1946 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Gibraltar",
+                    "dob": "1966-04-30",
+                    "flag": "sole representation",
+                    "lastname": "Marsh",
+                    "name": "Amanda Joy"
+                },
+                "text": " Marsh , Amanda Joy , Gibraltar , * 30.04.1966 , einzelvertretungsberechtigt"
             }
         ]
     }

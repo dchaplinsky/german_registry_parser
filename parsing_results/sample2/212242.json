@@ -44,12 +44,33 @@
             {
                 "class": "ManagingDirector",
                 "payload": {
+                    "city": "Frankfurt am Main",
+                    "dob": "1978-12-10",
+                    "lastname": "Liu",
+                    "name": "Siynan"
+                },
+                "text": " Liu , Siynan , Frankfurt am Main , * 12.10.1978 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
                     "city": "Wuppertal",
                     "dob": "1976-12-13",
                     "lastname": "Wu",
                     "name": "Ruifeng"
                 },
                 "text": " Wu , Ruifeng , Wuppertal , * 13.12.1976 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dob": "1981-05-02",
+                    "flag": "sole representation",
+                    "lastname": "Li",
+                    "name": "Bingbing"
+                },
+                "text": " Li , Bingbing , Frankfurt am Main , * 05.02.1981 , einzelvertretungsberechtigt"
             }
         ]
     }

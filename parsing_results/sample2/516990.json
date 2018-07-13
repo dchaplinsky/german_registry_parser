@@ -27,6 +27,29 @@
                 "label": "address",
                 "text": " Oberdorf 4 , 56348 Bornich ."
             }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1969-01-10",
+                    "lastname": "Vieth",
+                    "name": "Julia"
+                },
+                "text": " Vieth , Julia , Berlin , * 01.10.1969 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bonn",
+                    "dob": "1977-08-29",
+                    "flag": "sole representation",
+                    "lastname": "Ma",
+                    "name": "Wei"
+                },
+                "text": " Ma , Wei , Bonn , * 29.08.1977 , einzelvertretungsberechtigt"
+            }
         ]
     }
 }

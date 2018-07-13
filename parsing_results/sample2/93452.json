@@ -15,5 +15,24 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=93452&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rübke , Heike , geb ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hattersheim am Main",
+                    "dob": "1987-02-18",
+                    "lastname": "Drissler",
+                    "name": "Silvia"
+                },
+                "text": " Drissler , Silvia , Hattersheim am Main , * 18.02.1987 ."
+            }
+        ]
+    }
 }
