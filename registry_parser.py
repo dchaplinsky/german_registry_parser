@@ -1,20 +1,20 @@
-import re
+# coding=utf-8
 import os.path
-from nltk import data
+import re
 from collections import defaultdict
+
 from dateutil.parser import parse as dt_parse
+from nltk import data
 from tokenize_uk import tokenize_words
 
-german_tokenizer = data.load(
-    os.path.join(os.path.dirname(__file__), "data/german.pickle")
-)
+_german_tokenizer = data.load(os.path.join(os.path.dirname(__file__),
+                                           "data/german.pickle"))
+dob_regex = re.compile(r"\*\s?\d{2}\s?\.\s?\d{2}\s?.\s?\d{4}")
+_useful_regex = re.compile(r"\d{2}\.\d{2}\.\d{4}\n\n", flags=re.M)
 
 
 class ParsingError(Exception):
     pass
-
-
-dob_regex = re.compile(r"\*\s?\d{2}\s?\.\s?\d{2}\s?.\s?\d{4}")
 
 
 class Flag(object):
@@ -67,7 +67,8 @@ class FullPerson(object):
     kind = "officers"
     translations = {"einzelvertretungsberechtigt": "sole representation"}
 
-    def parse_dob(self, dob):
+    @staticmethod
+    def parse_dob(dob):
         m = dob_regex.search(dob.strip(" ;."))
 
         if m:
@@ -336,30 +337,37 @@ sentences = sorted(
 )
 
 
-def parse_document(doc):
+def _get_normalized(sents: tuple):
+    for sent in sents:
+        for chunk in sent.split(";"):
+            yield " ".join(tokenize_words(chunk))
+
+
+def _parse_normalized(normalized: str):
+    for known_sentence in sentences:
+        yield from filter(None, known_sentence.parse(normalized))
+
+
+def parse_document(doc: dict) -> (defaultdict, tuple):
     errors = []
-    text = doc.get("full_text", "")
-    if "event_type" in doc and doc["event_type"] in text:
-        _, useful_text = text.split(doc["event_type"], 1)
+    text = doc.get("full_text", "")  # type: str
+    event_type = doc.get("event_type", None)  # type: str
+
+    if event_type in text:
+        _, useful_text = text.split(event_type, 1)  # type: (str, str)
     else:
         try:
-            _, useful_text = re.split(r"\d{2}\.\d{2}\.\d{4}\n\n", text, 1, flags=re.M)
+            _, useful_text = _useful_regex.split(text, 1)  # type: (str, str)
         except ValueError:
             errors.append("Cannot parse an event type out of text {}".format(text))
-            useful_text = text
+            useful_text = text  # type: str
 
-    sents = german_tokenizer.tokenize(useful_text)
+    sents = _german_tokenizer.tokenize(useful_text)  # type: tuple
     res = defaultdict(list)
+
     if errors:
         res["errors"] = errors
 
-    for sent in sents:
-        for chunk in sent.split(";"):
-            tokenized = tokenize_words(chunk)
-            normalized = " ".join(tokenized)
-            for known_sentence in sentences:
+    map(lambda v: res[v.kind].append(v), map(_parse_normalized, _get_normalized(sents)))
 
-                for parse_res in known_sentence.parse(normalized):
-                    if parse_res:
-                        res[parse_res.kind].append(parse_res.to_dict())
     return res, sents
