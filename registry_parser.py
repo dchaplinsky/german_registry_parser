@@ -2,6 +2,7 @@
 import os.path
 import re
 from collections import defaultdict
+from itertools import chain
 
 from dateutil.parser import parse as dt_parse
 from nltk import data
@@ -368,6 +369,8 @@ def parse_document(doc: dict) -> (defaultdict, tuple):
     if errors:
         res["errors"] = errors
 
-    map(lambda v: res[v.kind].append(v), map(_parse_normalized, _get_normalized(sents)))
+    for parsed in chain.from_iterable(map(_parse_normalized, _get_normalized(sents))):
+        res[parsed.kind].append(parsed.to_dict())
+
 
     return res, sents
