@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=689&land_abk=hb"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Schriefer , Bernhard , * 08.10.1962 , Schiffdorf - Wehdel , mit der Befugnis die Gesellschaft allein zu vertreten ."
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Pätzold , Dietmar , * 06.03.1954 , Loxstedt , mit der Befugnis die Gesellschaft allein zu vertreten .."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -39,8 +29,33 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Seidel",
+                    "name": "Dieter"
+                },
+                "text": " Seidel , Dieter ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Schiffdorf - Wehdel",
+                    "dob": "1962-08-10",
+                    "flag": "mit der Befugnis die Gesellschaft allein zu vertreten",
+                    "lastname": "Schriefer",
+                    "name": "Bernhard"
+                },
+                "text": " Schriefer , Bernhard , * 08.10.1962 , Schiffdorf - Wehdel , mit der Befugnis die Gesellschaft allein zu vertreten ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Loxstedt",
+                    "dob": "1954-06-03",
+                    "flag": "mit der Befugnis die Gesellschaft allein zu vertreten",
+                    "lastname": "Pätzold",
+                    "name": "Dietmar"
+                },
+                "text": " Pätzold , Dietmar , * 06.03.1954 , Loxstedt , mit der Befugnis die Gesellschaft allein zu vertreten .."
             }
         ]
     }

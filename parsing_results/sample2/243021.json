@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Breuer",
+                    "name": "Frank"
+                },
+                "text": " Breuer , Frank"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1951-12-26",
+                    "lastname": "Dr . Feuerstein",
+                    "name": "Stefan"
+                },
+                "text": " Dr . Feuerstein , Stefan , * 26.12.1951 , Berlin"
             }
         ]
     }

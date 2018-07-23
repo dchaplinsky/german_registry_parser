@@ -33,18 +33,29 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1971-08-17",
+                    "lastname": "Pichotta",
+                    "name": "Marco"
+                },
+                "text": " Pichotta , Marco , * 17.08.1971 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Friedrich",
+                    "name": "Uwe"
+                },
+                "text": " Friedrich , Uwe"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Mundt",
+                    "name": "Thomas"
+                },
+                "text": " Mundt , Thomas ."
             }
         ]
     }

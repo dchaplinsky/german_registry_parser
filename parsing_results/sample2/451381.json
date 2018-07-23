@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=451381&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr . Behrends , Jörg , Oldenburg ."
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -32,6 +26,15 @@
                     "name": "Mathias"
                 },
                 "text": " Kolbe , Mathias , Jever , * 10.12.1964 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Oldenburg",
+                    "lastname": "Dr . Behrends",
+                    "name": "Jörg"
+                },
+                "text": " Dr . Behrends , Jörg , Oldenburg ."
             }
         ]
     }

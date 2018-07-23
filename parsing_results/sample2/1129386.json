@@ -16,13 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1129386&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Voigt , Günter , Transportunternehmer , Leverkusen ."
-            }
-        ],
         "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Leverkusen",
+                    "lastname": "Voigt",
+                    "name": "Günter",
+                    "position": "Transportunternehmer"
+                },
+                "text": " Voigt , Günter , Transportunternehmer , Leverkusen ."
+            },
             {
                 "class": "Owner",
                 "payload": {

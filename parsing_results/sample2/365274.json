@@ -43,18 +43,29 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Gut",
+                    "name": "Marek Cezary"
+                },
+                "text": " Gut , Marek Cezary"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Koncewicz",
+                    "name": "Dariusz"
+                },
+                "text": " Koncewicz , Dariusz"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Zukowo / Polen",
+                    "dob": "1977-09-04",
+                    "lastname": "Kuberna",
+                    "name": "Marcin Jan"
+                },
+                "text": " Kuberna , Marcin Jan , * 09.04.1977 , Zukowo / Polen"
             }
         ]
     }

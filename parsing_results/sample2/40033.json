@@ -16,16 +16,22 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=40033&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Summer , Angelika , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Neulingen",
+                    "dob": "1975-02-28",
+                    "lastname": "Summer",
+                    "name": "Angelika geborene Gommel"
+                },
+                "text": " Summer , Angelika geborene Gommel , Neulingen , * 28.02.1975 ."
             }
         ]
     }

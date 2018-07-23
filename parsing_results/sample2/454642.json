@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=454642&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Schuhbauer , Johann , Schreinermeister u . Möbelhändl . , Hausham ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
@@ -29,6 +23,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Hausham",
+                    "lastname": "Schuhbauer",
+                    "name": "Johann",
+                    "position": "Schreinermeister u . Möbelhändl"
+                },
+                "text": " Schuhbauer , Johann , Schreinermeister u . Möbelhändl . , Hausham ."
+            },
             {
                 "class": "Owner",
                 "payload": {

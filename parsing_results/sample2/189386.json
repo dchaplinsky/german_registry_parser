@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=189386&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Ritters , Kai - Luka , * 09.01.1994 , Marne"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -36,6 +30,18 @@
             {
                 "label": "address",
                 "text": " Op'n Diek 5 , 25724 Neufeld"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Marne",
+                    "dob": "1994-09-01",
+                    "lastname": "Ritters",
+                    "name": "Kai - Luka"
+                },
+                "text": " Ritters , Kai - Luka , * 09.01.1994 , Marne"
             }
         ]
     }

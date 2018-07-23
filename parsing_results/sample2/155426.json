@@ -25,13 +25,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Dr . Sieger",
+                    "name": "Gert"
+                },
+                "text": " Dr . Sieger , Gert"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Delmenhorst",
+                    "dob": "1963-06-04",
+                    "lastname": "Krawczyk",
+                    "name": "Thomas"
+                },
+                "text": " Krawczyk , Thomas , * 06.04.1963 , Delmenhorst"
             }
         ]
     }

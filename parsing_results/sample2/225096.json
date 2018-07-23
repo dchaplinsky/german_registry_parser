@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=225096&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Banning , Hildegard , geb ."
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -33,6 +27,16 @@
                     "name": "Otto"
                 },
                 "text": " Lohmann , Otto , Mettingen , * 05.10.1946 , einzelvertretungsberechtigt ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Lengerich",
+                    "dob": "1922-08-25",
+                    "lastname": "Banning",
+                    "name": "Hildegard geborene Kemper"
+                },
+                "text": " Banning , Hildegard geborene Kemper , Lengerich , * 25.08.1922 ."
             }
         ]
     }

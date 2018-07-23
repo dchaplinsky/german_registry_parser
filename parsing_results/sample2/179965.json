@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=179965&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a SingleProcuration from  Wegert - Gans , Elke , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -35,7 +29,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Ettlingen",
+                    "dob": "1971-09-15",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Kessen",
+                    "name": "Andreas"
+                },
                 "text": " Kessen , Andreas , Ettlingen , * 15.09.1971 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {
@@ -47,6 +47,26 @@
                     "name": "Elke"
                 },
                 "text": " Wegert - Gans , Elke , Kernen , * 20.11.1966 ."
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Kernen",
+                    "dob": "1966-11-20",
+                    "lastname": "Wegert - Gans",
+                    "name": "Elke geborene Wegert"
+                },
+                "text": " Wegert - Gans , Elke geborene Wegert , Kernen , * 20.11.1966 ."
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Kernen",
+                    "dob": "1966-11-20",
+                    "lastname": "Wegert - Gans",
+                    "name": "Elke geborene Wegert"
+                },
+                "text": " Wegert - Gans , Elke geborene Wegert , Kernen , * 20.11.1966 ."
             }
         ]
     }

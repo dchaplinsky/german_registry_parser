@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=61838&land_abk=sh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Weißert , Sebastian , * 30.04.1983 , Lohbarbek und Weißert , Raphael , * 05.04.1985 , Kitzingen, error text was no valid patter found, number of chunks: 7"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -26,13 +32,6 @@
             {
                 "label": "address",
                 "text": " Lohbarbeker Weg 57 a , 25551 Lohbarbek ."
-            }
-        ],
-        "officers": [
-            {
-                "class": "PersonalPartner",
-                "payload": {},
-                "text": " Weißert , Sebastian , * 30.04.1983 , Lohbarbek und Weißert , Raphael , * 05.04.1985 , Kitzingen"
             }
         ]
     }

@@ -16,13 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=4601&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Lehning , Norbert , Kaufmann , Meinborn ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Meinborn",
+                    "lastname": "Lehning",
+                    "name": "Norbert",
+                    "position": "Kaufmann"
+                },
+                "text": " Lehning , Norbert , Kaufmann , Meinborn ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

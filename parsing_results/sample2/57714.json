@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=57714&land_abk=hb"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Kleinfeld , Ralph Michael , * 14.12.1966 , Bochum"
-            }
-        ],
         "labels": [
             {
                 "label": "WHUT",
@@ -31,12 +25,28 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Rogge",
+                    "name": "Stefan"
+                },
                 "text": " Rogge , Stefan"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bochum",
+                    "dob": "1966-12-14",
+                    "lastname": "Kleinfeld",
+                    "name": "Ralph Michael"
+                },
+                "text": " Kleinfeld , Ralph Michael , * 14.12.1966 , Bochum"
+            },
+            {
                 "class": "NotAProcurator",
-                "payload": {},
+                "payload": {
+                    "lastname": "Kleinfeld",
+                    "name": "Ralph Michael"
+                },
                 "text": " Kleinfeld , Ralph Michael ."
             }
         ]

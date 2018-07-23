@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=720029&land_abk=nw"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Ruhr - Asset Beteiligung UG ( haftungsbeschränkt ) , Bochum ( Amtsgericht Bochum , HRB 13553 ) , mit der Befugnis , für sich und ihre Geschäftsführer , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ., error text was a person without DOB, number of chunks: 6"
+            }
+        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -26,13 +32,6 @@
             {
                 "label": "address",
                 "text": " Bredeneyer Str ."
-            }
-        ],
-        "officers": [
-            {
-                "class": "PersonalPartner",
-                "payload": {},
-                "text": " Ruhr - Asset Beteiligung UG ( haftungsbeschränkt ) , Bochum ( Amtsgericht Bochum , HRB 13553 ) , mit der Befugnis , für sich und ihre Geschäftsführer , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

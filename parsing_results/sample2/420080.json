@@ -33,8 +33,13 @@
         "officers": [
             {
                 "class": "Owner",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1985-05-17",
+                    "lastname": "Ochyon",
+                    "name": "Chaim"
+                },
+                "text": " Ochyon , Chaim , * 17.05.1985 , Berlin"
             }
         ]
     }

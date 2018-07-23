@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=637138&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Hemeber , Martina , Arzthelferin , Bobingen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -57,6 +51,16 @@
                     "name": "Berthold Josef"
                 },
                 "text": " Bolz , Berthold Josef , Stetten ( Schweiz ) , * 09.09.1941 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bobingen",
+                    "lastname": "Hemeber",
+                    "name": "Martina",
+                    "position": "Arzthelferin"
+                },
+                "text": " Hemeber , Martina , Arzthelferin , Bobingen ."
             }
         ]
     }

@@ -19,11 +19,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Meisinger , Johann Hans , Kaufmann , Kranzberg ."
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Meisinger , Hans , Kaufmann , Freising , * 03.03.1656 ."
+                "text": "Cannot parse a Owner from  Meisinger , Hans , Kaufmann , Freising , * 03.03.1656 ., error text was Cannot parse DOB  Kaufmann  using regex"
             }
         ],
         "flags": [
@@ -40,6 +36,18 @@
             {
                 "label": "address",
                 "text": " Am Lohmühlbach 9 , 85356 Freising ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Kranzberg",
+                    "lastname": "Meisinger",
+                    "name": "Johann Hans",
+                    "position": "Kaufmann"
+                },
+                "text": " Meisinger , Johann Hans , Kaufmann , Kranzberg ."
             }
         ]
     }

@@ -45,28 +45,41 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Chausseestr ."
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Chausseestr ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Cape Town / Südafrika",
+                    "dob": "1969-05-14",
+                    "lastname": "Fabisiewicz",
+                    "name": "Maciej"
+                },
+                "text": " Fabisiewicz , Maciej , * 14.05.1969 , Cape Town / Südafrika"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Fabisiewicz",
+                    "name": "Maciej"
+                },
+                "text": " Fabisiewicz , Maciej"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1977-10-11",
+                    "lastname": "Beckmann",
+                    "name": "Maren"
+                },
+                "text": " Beckmann , Maren , * 10.11.1977 , Berlin"
             }
         ]
     }

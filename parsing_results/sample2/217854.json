@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=217854&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Brehm , Sven , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -32,6 +26,18 @@
             {
                 "label": "address",
                 "text": " Abrichstraße 23 , 79108 Freiburg im Breisgau ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Ringsheim",
+                    "dob": "1971-03-06",
+                    "lastname": "Brehm",
+                    "name": "Sven geborene Bröling"
+                },
+                "text": " Brehm , Sven geborene Bröling , Ringsheim , * 03.06.1971"
             }
         ]
     }

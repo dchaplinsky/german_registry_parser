@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=110016&land_abk=sn"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  7 c Rooftop Exchange BVBA , Begijnendijk / Belgien ( Handelsregister KBO Belgien Nr . : 0811.669.472 ) , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -41,8 +35,20 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "company_name": " Solarpark Zerre Management GmbH , Cottbus ( Amtsgericht Cottbus HRB 8564 CB ) ."
+                },
                 "text": " Solarpark Zerre Management GmbH , Cottbus ( Amtsgericht Cottbus HRB 8564 CB ) ."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "7 c Rooftop Exchange BVBA",
+                    "name": "Begijnendijk / Belgien ( Handelsregister KBO Belgien Nr . : 669.472 )",
+                    "position": "mit der Befugnis"
+                },
+                "text": " 7 c Rooftop Exchange BVBA , Begijnendijk / Belgien ( Handelsregister KBO Belgien Nr . : 669.472 ) , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

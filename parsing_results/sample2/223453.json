@@ -33,7 +33,7 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Linienstraße 214 , 10119 Berlin Gegenstand : Die Bauüberwachung für die Deutsche Bahn AG ."
             },
             {
                 "label": "misc",
@@ -43,8 +43,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Neunkirchen",
+                    "dob": "1954-08-01",
+                    "lastname": "Gräff",
+                    "name": "Wilfried"
+                },
+                "text": " Gräff , Wilfried , * 08.01.1954 , Neunkirchen"
             }
         ]
     }

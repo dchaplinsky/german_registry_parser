@@ -43,11 +43,27 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Bernhardswald",
+                    "dob": "1969-01-30",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Buchmeier",
+                    "name": "Christian"
+                },
                 "text": " Buchmeier , Christian , Bernhardswald , * 30.01.1969 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "Brennberg",
+                    "dob": "1980-10-25",
+                    "lastname": "Holzapfel",
+                    "name": "Heike"
+                },
+                "text": " Holzapfel , Heike , Brennberg , * 25.10.1980 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "Brennberg",
                     "dob": "1980-10-25",

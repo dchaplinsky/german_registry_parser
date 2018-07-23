@@ -16,13 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=106548&land_abk=st"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Bischoff , Siegfried , Sangerhausen ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Sangerhausen",
+                    "lastname": "Bischoff",
+                    "name": "Siegfried"
+                },
+                "text": " Bischoff , Siegfried , Sangerhausen ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

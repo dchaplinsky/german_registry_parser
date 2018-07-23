@@ -16,17 +16,22 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=384876&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Neimcke , Jörg , Mühldorf a ."
-            }
-        ],
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "company_name": " Neimcke Geschäftsführungs - und Verwaltungs GmbH , Mühldorf a ."
+                },
                 "text": " Neimcke Geschäftsführungs - und Verwaltungs GmbH , Mühldorf a ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Mühldorf a",
+                    "lastname": "Neimcke",
+                    "name": "Jörg"
+                },
+                "text": " Neimcke , Jörg , Mühldorf a ."
             }
         ]
     }

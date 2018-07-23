@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=7803&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Rex , Michael , mit der Befugnis die Gesellschaft allein zu vertreten , mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -35,8 +29,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Warsany",
+                    "name": "Marco"
+                },
                 "text": " Warsany , Marco ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen",
+                    "lastname": "Rex",
+                    "name": "Michael",
+                    "position": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                },
+                "text": " Rex , Michael , mit der Befugnis die Gesellschaft allein zu vertreten , mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen ."
             }
         ]
     }

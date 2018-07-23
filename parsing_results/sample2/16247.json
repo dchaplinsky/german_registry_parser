@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=16247&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Heinemann , Marlies , geb ."
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -32,6 +26,16 @@
                     "name": "Marlies"
                 },
                 "text": " Heinemann , Marlies , Mönchengladbach , * 25.08.1940 ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Mönchengladbach",
+                    "lastname": "Heinemann",
+                    "name": "Marlies geborene Schaffrath",
+                    "position": "Kauffrau"
+                },
+                "text": " Heinemann , Marlies geborene Schaffrath , Kauffrau , Mönchengladbach ."
             }
         ]
     }

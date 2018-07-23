@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=904029&land_abk=by"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Diana , John , Boulder , Colorado / Vereinigte Staaten , * 21.04.1966 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Boulder  using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -32,11 +38,6 @@
                     "name": "Ross"
                 },
                 "text": " Brewer , Ross , Berkshire / Großbritannien / Vereinigtes Königreich , * 28.12.1968 ."
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Diana , John , Boulder , Colorado / Vereinigte Staaten , * 21.04.1966 , einzelvertretungsberechtigt"
             }
         ]
     }

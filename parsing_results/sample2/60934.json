@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=60934&land_abk=sl"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a CommonProcuration from  Dr . Ing ., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -26,11 +32,6 @@
                     "name": "Franz Jakob"
                 },
                 "text": " Abel , Franz Jakob , St . Ingbert , * 06.08.1952 ."
-            },
-            {
-                "class": "CommonProcuration",
-                "payload": {},
-                "text": " Dr . Ing ."
             }
         ]
     }

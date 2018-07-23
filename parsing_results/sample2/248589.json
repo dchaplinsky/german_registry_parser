@@ -16,13 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=248589&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Lange , Christel , geb ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Marl",
+                    "dob": "1953-06-09",
+                    "lastname": "Lange",
+                    "name": "Christel geborene Weniger"
+                },
+                "text": " Lange , Christel geborene Weniger , Marl , * 06.09.1953 ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

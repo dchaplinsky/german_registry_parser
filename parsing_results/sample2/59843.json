@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=59843&land_abk=hb"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Feriani , Fausi , * 12.08.1977 , Berne"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several managing directors are appointed, the company is jointly represented by all managing directors.",
@@ -40,6 +34,18 @@
             {
                 "label": "address",
                 "text": " Konsul - Smidt - Str ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berne",
+                    "dob": "1977-12-08",
+                    "lastname": "Feriani",
+                    "name": "Fausi"
+                },
+                "text": " Feriani , Fausi , * 12.08.1977 , Berne"
             }
         ]
     }

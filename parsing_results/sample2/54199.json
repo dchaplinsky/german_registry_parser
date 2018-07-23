@@ -16,20 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=54199&land_abk=hb"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dodenhoff , Harm , * 23.11.1960 , Bad Zwischenahn"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Kersten , Tobias , * 09.12.1968 , Bremen"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr . Nölle , Jens - Uwe , * 06.03.1964 , Bremen"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -76,6 +62,38 @@
             {
                 "label": "address",
                 "text": " Birkenstr ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bad Zwischenahn",
+                    "dob": "1960-11-23",
+                    "lastname": "Dodenhoff",
+                    "name": "Harm"
+                },
+                "text": " Dodenhoff , Harm , * 23.11.1960 , Bad Zwischenahn"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1968-09-12",
+                    "lastname": "Kersten",
+                    "name": "Tobias"
+                },
+                "text": " Kersten , Tobias , * 09.12.1968 , Bremen"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1964-06-03",
+                    "lastname": "Dr . Nölle",
+                    "name": "Jens - Uwe"
+                },
+                "text": " Dr . Nölle , Jens - Uwe , * 06.03.1964 , Bremen"
             }
         ]
     }

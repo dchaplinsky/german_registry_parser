@@ -16,12 +16,13 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=993312&land_abk=by"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "PersonalPartner",
-                "payload": {},
-                "text": " sanetra , vanessa , münchen , * 20.09.1975 . geändert , nun : persönlich haftender gesellschafter : sanetra , gregor , münchen , * 20.09.1977 . prokura erloschen : sanetra , vanessa , münchen , * 20.09.1975 ."
-            },
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  sanetra , vanessa , münchen , * 20.09.1975 . geändert , nun : persönlich haftender gesellschafter : sanetra , gregor , münchen , * 20.09.1977 . prokura erloschen : sanetra , vanessa , münchen , * 20.09.1975 ., error text was no valid patter found, number of chunks: 11"
+            }
+        ],
+        "officers": [
             {
                 "class": "ProcurationCancelled",
                 "payload": {

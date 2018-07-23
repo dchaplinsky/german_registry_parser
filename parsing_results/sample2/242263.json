@@ -29,8 +29,13 @@
         "officers": [
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1963-12-16",
+                    "lastname": "Pape",
+                    "name": "Andreas"
+                },
+                "text": " Pape , Andreas , * 16.12.1963 , Berlin"
             }
         ]
     }

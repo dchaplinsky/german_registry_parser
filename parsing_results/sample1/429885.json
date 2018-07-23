@@ -19,14 +19,11 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  turpie , neil , glasgow , gb , * 03.10.1944 ."
-            }
-        ],
-        "officers": [
+                "text": "Cannot parse a ManagingDirector from  santchurn , bhajun , london , gb , * 22.05.1954 , einzelvertretungsberechtigt mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen ., error text was Cannot parse DOB  london  using regex"
+            },
             {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " santchurn , bhajun , london , gb , * 22.05.1954 , einzelvertretungsberechtigt mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen ."
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  turpie , neil , glasgow , gb , * 03.10.1944 ., error text was Cannot parse DOB  glasgow  using regex"
             }
         ]
     }

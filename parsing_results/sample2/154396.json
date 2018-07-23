@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Almagro Velàzquez",
+                    "name": "Isary"
+                },
+                "text": " Almagro Velàzquez , Isary"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1986-04-29",
+                    "lastname": "Gutmann",
+                    "name": "Boris"
+                },
+                "text": " Gutmann , Boris , * 29.04.1986 , Berlin"
             }
         ]
     }

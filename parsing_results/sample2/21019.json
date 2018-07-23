@@ -57,13 +57,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Brieselang",
+                    "dob": "1965-12-19",
+                    "lastname": "Enderlein",
+                    "name": "Kathrin geborene Richter"
+                },
+                "text": " Enderlein , Kathrin geborene Richter , * 19.12.1965 , Brieselang"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Brieselang",
+                    "dob": "1955-09-16",
+                    "lastname": "Enderlein",
+                    "name": "Lutz"
+                },
+                "text": " Enderlein , Lutz , * 16.09.1955 , Brieselang"
             }
         ]
     }

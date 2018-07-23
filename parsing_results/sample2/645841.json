@@ -16,13 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=645841&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Cloppenburg , Hendrik , Düsseldorf ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "lastname": "Cloppenburg",
+                    "name": "Hendrik"
+                },
+                "text": " Cloppenburg , Hendrik , Düsseldorf ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

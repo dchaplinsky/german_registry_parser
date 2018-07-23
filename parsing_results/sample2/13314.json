@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=13314&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Philipp , Erika , Kauffrau , Neustadt a . Rbge ."
-            }
-        ],
         "flags": [
             {
                 "flag": "The owner is acting alone",
@@ -29,6 +23,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Neustadt a . Rbge",
+                    "lastname": "Philipp",
+                    "name": "Erika",
+                    "position": "Kauffrau"
+                },
+                "text": " Philipp , Erika , Kauffrau , Neustadt a . Rbge ."
+            },
             {
                 "class": "Owner",
                 "payload": {

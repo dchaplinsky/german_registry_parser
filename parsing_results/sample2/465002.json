@@ -16,16 +16,22 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=465002&land_abk=be"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr . Cadmus , Alan Eduard van Cortlandt , * 10.04.1955 , Berlin"
-            }
-        ],
         "labels": [
             {
                 "label": "WHUT",
                 "text": " FH Objekt Verwaltungs GmbH , Berlin , c / o CILIX Asset Management GmbH , Premium Offices , Potsdamer Platz 1 , 10785 Berlin ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1955-10-04",
+                    "lastname": "Dr . Cadmus",
+                    "name": "Alan Eduard van Cortlandt"
+                },
+                "text": " Dr . Cadmus , Alan Eduard van Cortlandt , * 10.04.1955 , Berlin"
             }
         ]
     }

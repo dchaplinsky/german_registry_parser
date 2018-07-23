@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=49613&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Ehmke , Kay , * 11.03.1977 , Gettorf"
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -44,6 +38,18 @@
             {
                 "label": "address",
                 "text": " Bahnhofstraße 28 , 24223 Schwentinental ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Gettorf",
+                    "dob": "1977-11-03",
+                    "lastname": "Ehmke",
+                    "name": "Kay"
+                },
+                "text": " Ehmke , Kay , * 11.03.1977 , Gettorf"
             }
         ]
     }

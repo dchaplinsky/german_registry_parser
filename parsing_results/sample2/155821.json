@@ -16,14 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=155821&land_abk=ni"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Zweite Fehn Beteiligungs GmbH , Leer ( Amtsgericht Aurich , HRB 200719 ) ."
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Zweite Fehn Beteiligungs GmbH , Leer ( Amtsgericht Aurich , HRB 200719 ) ."
+                },
+                "text": " Zweite Fehn Beteiligungs GmbH , Leer ( Amtsgericht Aurich , HRB 200719 ) ."
             },
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Vierte Fehn Beteiligungs GmbH , Leer ( Amtsgericht Aurich , HRB 200892 ) ."
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Vierte Fehn Beteiligungs GmbH , Leer ( Amtsgericht Aurich , HRB 200892 ) ."
+                },
+                "text": " Vierte Fehn Beteiligungs GmbH , Leer ( Amtsgericht Aurich , HRB 200892 ) ."
             }
         ]
     }

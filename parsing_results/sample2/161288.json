@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=161288&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Zeunert , Lennert , * 09.08.1990 , Ottenbüttel"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -34,6 +28,18 @@
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
                 "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Ottenbüttel",
+                    "dob": "1990-09-08",
+                    "lastname": "Zeunert",
+                    "name": "Lennert"
+                },
+                "text": " Zeunert , Lennert , * 09.08.1990 , Ottenbüttel"
             }
         ]
     }

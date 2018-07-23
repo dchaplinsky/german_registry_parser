@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=739658&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Schmidt , Marina , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -30,6 +24,19 @@
             {
                 "flag": "ignore_for_now",
                 "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Lichtenfels",
+                    "dob": "1974-08-08",
+                    "flag": "sole representation",
+                    "lastname": "Schmidt",
+                    "name": "Marina geborene Izotova"
+                },
+                "text": " Schmidt , Marina geborene Izotova , Lichtenfels , * 08.08.1974 , einzelvertretungsberechtigt"
             }
         ]
     }

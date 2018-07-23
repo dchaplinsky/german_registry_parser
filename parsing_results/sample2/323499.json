@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=323499&land_abk=be"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Schmitz , Herbert , * 01.08.1955 , Berlin"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Radtke , Stefan , * 13.06.1964 , Kleinmachnow"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -59,7 +49,29 @@
             },
             {
                 "label": "misc",
-                "text": " 25.800 EUR"
+                "text": " 800 EUR"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1955-01-08",
+                    "lastname": "Schmitz",
+                    "name": "Herbert"
+                },
+                "text": " Schmitz , Herbert , * 01.08.1955 , Berlin"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Kleinmachnow",
+                    "dob": "1964-06-13",
+                    "lastname": "Radtke",
+                    "name": "Stefan"
+                },
+                "text": " Radtke , Stefan , * 13.06.1964 , Kleinmachnow"
             }
         ]
     }

@@ -16,13 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1181304&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Kaltenbach , Adolf , Kaufmann , Engelskirchen ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Engelskirchen",
+                    "lastname": "Kaltenbach",
+                    "name": "Adolf",
+                    "position": "Kaufmann"
+                },
+                "text": " Kaltenbach , Adolf , Kaufmann , Engelskirchen ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

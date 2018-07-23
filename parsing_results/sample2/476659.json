@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=476659&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Jepsen , Henning , Kassel ."
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Eberl - Jepsen , Ulrike Albine , Kassel ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
@@ -33,6 +23,24 @@
             }
         ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Kassel",
+                    "lastname": "Jepsen",
+                    "name": "Henning"
+                },
+                "text": " Jepsen , Henning , Kassel ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Kassel",
+                    "lastname": "Eberl - Jepsen",
+                    "name": "Ulrike Albine"
+                },
+                "text": " Eberl - Jepsen , Ulrike Albine , Kassel ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

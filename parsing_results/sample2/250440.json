@@ -45,18 +45,23 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Seestraße 50 , 13347 Berlin Gegenstand : Betreiben einer Fitnessanlage mit Gesundheitstraining , Reha und Prävention , Kampfsport , Sauna , Solarium , Ernährungsberatung , Verkauf von Nahrungsergänzung und Sportartikeln ."
             },
             {
                 "label": "misc",
-                "text": " 25.000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " 000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1955-05-27",
+                    "lastname": "Schöndaube",
+                    "name": "Wilhelm"
+                },
+                "text": " Schöndaube , Wilhelm , * 27.05.1955 , Berlin"
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=732911&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Kizakli , Sultan , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -40,6 +34,19 @@
             {
                 "label": "address",
                 "text": " Schnieglinger Straße 307 , 90427 Nürnberg ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Nürnberg",
+                    "dob": "1966-12-27",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Kizakli",
+                    "name": "Sultan geborene Delipoyraz"
+                },
+                "text": " Kizakli , Sultan geborene Delipoyraz , Nürnberg , * 27.12.1966 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

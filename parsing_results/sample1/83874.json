@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=83874&land_abk=bw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Gerster , Hans , Elektromechanikermeister , Biberach an der Riß ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Biberach an der Riß",
+                    "lastname": "Gerster",
+                    "name": "Hans",
+                    "position": "Elektromechanikermeister"
+                },
+                "text": " Gerster , Hans , Elektromechanikermeister , Biberach an der Riß ."
             }
         ]
     }

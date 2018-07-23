@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=533469&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Giesers , Marianne , geb ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
@@ -29,6 +23,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Mönchengladbach",
+                    "dob": "1926-11-12",
+                    "lastname": "Giesers",
+                    "name": "Marianne geborene Lindgens"
+                },
+                "text": " Giesers , Marianne geborene Lindgens , Mönchengladbach , * 11.12.1926 ."
+            },
             {
                 "class": "Owner",
                 "payload": {

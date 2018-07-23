@@ -55,13 +55,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Neumünster",
+                    "dob": "1977-12-21",
+                    "lastname": "Fabig",
+                    "name": "Stefan"
+                },
+                "text": " Fabig , Stefan , * 21.12.1977 , Neumünster"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Großenaspe",
+                    "dob": "1971-01-16",
+                    "lastname": "Grothe",
+                    "name": "Jörg"
+                },
+                "text": " Grothe , Jörg , * 16.01.1971 , Großenaspe"
             }
         ]
     }

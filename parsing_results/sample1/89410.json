@@ -19,19 +19,27 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Am Dorfteich 2 , 25996 Wenningstedt . Nicht mehr Geschäftsführer : 2 ."
+                "text": " Am Dorfteich 2 , 25996 Wenningstedt . Nicht mehr Geschäftsführer : Fitschen , Katharina"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Fitschen",
+                    "name": "Katharina"
+                },
+                "text": " Fitschen , Katharina"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Wenningstedt",
+                    "dob": "1983-04-12",
+                    "lastname": "Fitschen",
+                    "name": "Claudia"
+                },
+                "text": " Fitschen , Claudia , * 04.12.1983 , Wenningstedt .."
             }
         ]
     }

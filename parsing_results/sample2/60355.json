@@ -33,19 +33,27 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Am Wall 9 , 14979 Großbeeren Nicht mehr Geschäftsführer : 1 ."
+                "text": " Am Wall 9 , 14979 Großbeeren Nicht mehr Geschäftsführer : Flötgen , Dieter"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Flötgen",
+                    "name": "Dieter"
+                },
+                "text": " Flötgen , Dieter"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1968-10-16",
+                    "lastname": "Daoud",
+                    "name": "Katja"
+                },
+                "text": " Daoud , Katja , * 16.10.1968 , Berlin"
             }
         ]
     }

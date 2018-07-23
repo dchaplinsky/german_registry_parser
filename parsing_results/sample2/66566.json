@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=66566&land_abk=hb"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Free , Peter Hubert Friedrich , * 16.05.1970 , Bremen"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Spuhn , Matthias Christian , * 26.07.1976 , Dötlingen"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -64,6 +54,28 @@
             {
                 "label": "address",
                 "text": " Buntentorsteinweg 121 , 28201 Bremen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1970-05-16",
+                    "lastname": "Free",
+                    "name": "Peter Hubert Friedrich"
+                },
+                "text": " Free , Peter Hubert Friedrich , * 16.05.1970 , Bremen"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Dötlingen",
+                    "dob": "1976-07-26",
+                    "lastname": "Spuhn",
+                    "name": "Matthias Christian"
+                },
+                "text": " Spuhn , Matthias Christian , * 26.07.1976 , Dötlingen"
             }
         ]
     }

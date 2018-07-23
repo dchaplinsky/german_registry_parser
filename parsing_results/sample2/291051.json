@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=291051&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Center Verwaltungsgesellschaft mbH , Berg ( Amtsgericht München , HRB 176436 ) ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
@@ -31,7 +25,16 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "company_name": " Center Verwaltungsgesellschaft mbH , Berg ( Amtsgericht München , HRB 176436 ) ."
+                },
+                "text": " Center Verwaltungsgesellschaft mbH , Berg ( Amtsgericht München , HRB 176436 ) ."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Center Grundstücksverwaltungsgesellschaft mbH , Berg ( Amtsgericht München HRB 80642 ) ."
+                },
                 "text": " Center Grundstücksverwaltungsgesellschaft mbH , Berg ( Amtsgericht München HRB 80642 ) ."
             }
         ]

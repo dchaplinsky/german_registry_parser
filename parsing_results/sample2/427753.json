@@ -47,13 +47,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Wendt",
+                    "name": "Cornelia"
+                },
+                "text": " Wendt , Cornelia"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Puteaux / Frankreich",
+                    "dob": "1977-06-09",
+                    "lastname": "Wolff",
+                    "name": "Julien"
+                },
+                "text": " Wolff , Julien , * 06.09.1977 , Puteaux / Frankreich"
             }
         ]
     }

@@ -41,13 +41,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Altenholz",
+                    "dob": "1948-09-11",
+                    "lastname": "Wünderlich",
+                    "name": "Helmut"
+                },
+                "text": " Wünderlich , Helmut , * 09.11.1948 , Altenholz"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Sagard Rechtsform : Gesellschaft mit beschränkter Haftung",
+                    "dob": "1949-01-03",
+                    "lastname": "Tabbert",
+                    "name": "Ingelore"
+                },
+                "text": " Tabbert , Ingelore , * 01.03.1949 , Sagard Rechtsform : Gesellschaft mit beschränkter Haftung"
             }
         ]
     }

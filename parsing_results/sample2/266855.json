@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=266855&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Franke , Elsa Maria , geb ."
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -32,6 +26,16 @@
                     "name": "Georg Ernst"
                 },
                 "text": " Franke , Georg Ernst , Mörlenbach , * 05.08.1948 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Weinheim",
+                    "lastname": "Franke",
+                    "name": "Elsa Maria geborene Randoll",
+                    "position": "Kauffrau"
+                },
+                "text": " Franke , Elsa Maria geborene Randoll , Kauffrau , Weinheim ."
             }
         ]
     }

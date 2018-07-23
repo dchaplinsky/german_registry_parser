@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=290232&land_abk=he"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Pérennec , Thierry , Viroflay , Frankreich , * 02.04.1964 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Viroflay  using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -38,11 +44,6 @@
                     "name": "Antje"
                 },
                 "text": " Borcherdt , Antje , Berlin , * 27.08.1968 ."
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Pérennec , Thierry , Viroflay , Frankreich , * 02.04.1964 , einzelvertretungsberechtigt"
             }
         ]
     }

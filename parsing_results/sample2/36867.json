@@ -16,10 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=36867&land_abk=rp"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Bäumer , Karolina , geb ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Niederfischbach",
+                    "dob": "1961-09-14",
+                    "flag": "sole representation",
+                    "lastname": "Bäumer",
+                    "name": "Karolina geborene Zöller"
+                },
+                "text": " Bäumer , Karolina geborene Zöller , Niederfischbach , * 14.09.1961 , einzelvertretungsberechtigt ."
             }
         ]
     }

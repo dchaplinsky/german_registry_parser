@@ -29,14 +29,19 @@
         "labels": [
             {
                 "label": "misc",
-                "text": " 25.000 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " 000 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Nuthetal",
+                    "dob": "1959-11-03",
+                    "lastname": "Lautenbach",
+                    "name": "Anke"
+                },
+                "text": " Lautenbach , Anke , * 11.03.1959 , Nuthetal"
             }
         ]
     }

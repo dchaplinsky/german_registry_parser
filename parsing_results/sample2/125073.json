@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=125073&land_abk=he"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Foisner , Clemens , Wiener Neustadt , Österreich , * 08.07.1970 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Wiener Neustadt  using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -38,13 +44,6 @@
             {
                 "label": "address",
                 "text": " Bockenheimer Landstraße 17 / 19 , 60325 Frankfurt am Main ."
-            }
-        ],
-        "officers": [
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Foisner , Clemens , Wiener Neustadt , Österreich , * 08.07.1970 , einzelvertretungsberechtigt"
             }
         ]
     }

@@ -45,18 +45,23 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Ettaler Straße 3 , 10777 Berlin Gegenstand : Durchführung von Trockenbau - und Gebäudereinigungsarbeiten"
             },
             {
                 "label": "misc",
-                "text": " 25.000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " 000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1972-06-14",
+                    "lastname": "Veza",
+                    "name": "Damir"
+                },
+                "text": " Veza , Damir , * 14.06.1972 , Berlin"
             }
         ]
     }

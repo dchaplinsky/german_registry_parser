@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=50979&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Verbarg , Jürgen , Kaufmann , Essern ."
-            }
-        ],
         "officers": [
             {
                 "class": "Owner",
@@ -32,6 +26,16 @@
                     "name": "Uwe"
                 },
                 "text": " Verbarg , Uwe , Diepenau , * 05.01.1966 ."
+            },
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Essern",
+                    "lastname": "Verbarg",
+                    "name": "Jürgen",
+                    "position": "Kaufmann"
+                },
+                "text": " Verbarg , Jürgen , Kaufmann , Essern ."
             }
         ]
     }

@@ -53,19 +53,29 @@
         "labels": [
             {
                 "label": "address",
-                "text": ""
+                "text": " Mehrower Str ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Osterhofen",
+                    "dob": "1970-04-29",
+                    "lastname": "Frammersberger",
+                    "name": "Josef"
+                },
+                "text": " Frammersberger , Josef , * 29.04.1970 , Osterhofen"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Schierling",
+                    "dob": "1961-06-15",
+                    "lastname": "Zeus",
+                    "name": "Roger"
+                },
+                "text": " Zeus , Roger , * 15.06.1961 , Schierling"
             }
         ]
     }

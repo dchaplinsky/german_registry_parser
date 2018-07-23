@@ -16,11 +16,10 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=8971&land_abk=sh"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "Liquidator",
-                "payload": {},
-                "text": ""
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from , error text was a person without DOB, number of chunks: 1"
             }
         ]
     }

@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Matyjaszczyk",
+                    "name": "Victor"
+                },
+                "text": " Matyjaszczyk , Victor"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Reinfeld",
+                    "dob": "1963-04-21",
+                    "lastname": "Matyjaszczyk",
+                    "name": "Regina geborene Frank"
+                },
+                "text": " Matyjaszczyk , Regina geborene Frank , * 21.04.1963 , Reinfeld"
             }
         ]
     }

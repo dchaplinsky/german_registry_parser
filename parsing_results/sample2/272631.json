@@ -25,12 +25,20 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1980-08-07",
+                    "lastname": "Heftol",
+                    "name": "Guy"
+                },
+                "text": " Heftol , Guy , * 08.07.1980 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Fischer",
+                    "name": "Marc"
+                },
                 "text": " Fischer , Marc"
             }
         ]

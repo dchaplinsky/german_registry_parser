@@ -41,18 +41,33 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Alerheim",
+                    "dob": "1971-01-14",
+                    "lastname": "Appl",
+                    "name": "Markus"
+                },
+                "text": " Appl , Markus , * 14.01.1971 , Alerheim"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Wechingen",
+                    "dob": "1971-11-03",
+                    "lastname": "Stimpfle",
+                    "name": "Monika geborene Schmidt"
+                },
+                "text": " Stimpfle , Monika geborene Schmidt , * 11.03.1971 , Wechingen"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 5 ."
+                "payload": {
+                    "city": "Nördlingen",
+                    "dob": "1972-02-16",
+                    "lastname": "Zinn",
+                    "name": "Thomas"
+                },
+                "text": " Zinn , Thomas , * 16.02.1972 , Nördlingen"
             }
         ]
     }

@@ -16,20 +16,33 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=87343&land_abk=hh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Vormschlag , Ilka , geb ."
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Schubert , Helga , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
                 "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Seevetal",
+                    "dob": "1962-08-28",
+                    "flag": "sole representation",
+                    "lastname": "Vormschlag",
+                    "name": "Ilka geborene Strauß"
+                },
+                "text": " Vormschlag , Ilka geborene Strauß , Seevetal , * 28.08.1962 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1939-11-23",
+                    "lastname": "Schubert",
+                    "name": "Helga geborene Bölicke"
+                },
+                "text": " Schubert , Helga geborene Bölicke , Hamburg , * 23.11.1939 ."
             }
         ]
     }

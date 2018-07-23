@@ -29,18 +29,31 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Scheifele",
+                    "name": "Rolf"
+                },
+                "text": " Scheifele , Rolf ."
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Lunestedt",
+                    "dob": "1974-01-07",
+                    "lastname": "Baumgarte",
+                    "name": "Marc"
+                },
+                "text": " Baumgarte , Marc , * 01.07.1974 , Lunestedt"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Weilheim",
+                    "dob": "1963-12-22",
+                    "lastname": "Brucker",
+                    "name": "Volker"
+                },
+                "text": " Brucker , Volker , * 22.12.1963 , Weilheim"
             }
         ]
     }

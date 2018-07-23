@@ -19,8 +19,13 @@
         "officers": [
             {
                 "class": "Owner",
-                "payload": {},
-                "text": " Vorstand : 4 ."
+                "payload": {
+                    "city": "Holm",
+                    "dob": "1956-12-14",
+                    "lastname": "Vorstand : Thöle",
+                    "name": "Achim"
+                },
+                "text": " Vorstand : Thöle , Achim , * 14.12.1956 , Holm"
             }
         ]
     }

@@ -25,11 +25,23 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Wilhelmsmühlenweg 61 , 12621 Berlin"
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Wilhelmsmühlenweg 61 , 12621 Berlin"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1981-05-20",
+                    "lastname": "Kosko",
+                    "name": "Alexandra"
+                },
+                "text": " Kosko , Alexandra , * 20.05.1981 , Berlin"
             }
         ]
     }

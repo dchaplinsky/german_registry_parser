@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Mittelnkirchen",
+                    "dob": "1947-11-07",
+                    "lastname": "Ebeling",
+                    "name": "Rainer"
+                },
+                "text": " Ebeling , Rainer , * 11.07.1947 , Mittelnkirchen"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Sick",
+                    "name": "Mathias"
+                },
+                "text": " Sick , Mathias"
             }
         ]
     }

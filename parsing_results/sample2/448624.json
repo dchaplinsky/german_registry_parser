@@ -31,18 +31,29 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Kaplan",
+                    "name": "Idan"
+                },
+                "text": " Kaplan , Idan"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "lastname": "Dr . Schulten",
+                    "name": "Marc"
+                },
+                "text": " Dr . Schulten , Marc"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1970-06-25",
+                    "lastname": "Schaer",
+                    "name": "Martin Ernst Wolfgang"
+                },
+                "text": " Schaer , Martin Ernst Wolfgang , * 25.06.1970 , Hamburg"
             }
         ]
     }

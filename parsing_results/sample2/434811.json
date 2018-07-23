@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=434811&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Sczygiel , Johannes , Oberasbach ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
@@ -29,6 +23,15 @@
             }
         ],
         "officers": [
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Oberasbach",
+                    "lastname": "Sczygiel",
+                    "name": "Johannes"
+                },
+                "text": " Sczygiel , Johannes , Oberasbach ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

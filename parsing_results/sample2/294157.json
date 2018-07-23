@@ -39,13 +39,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "lastname": "Zalel",
+                    "name": "Rom"
+                },
+                "text": " Zalel , Rom"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 5 ."
+                "payload": {
+                    "city": "Bangkok / Thailand",
+                    "dob": "1961-01-31",
+                    "lastname": "Singh",
+                    "name": "Sanjay Kumar"
+                },
+                "text": " Singh , Sanjay Kumar , * 31.01.1961 , Bangkok / Thailand"
             }
         ]
     }

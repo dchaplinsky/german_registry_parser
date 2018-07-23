@@ -16,16 +16,19 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=10540&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Perma Power Energy GmbH , St . Michaelisdonn ( Amtsgericht Pinneberg , HRB 6512 PI )"
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
                 "text": "Kommanditgesellschaft ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Perma Power Energy GmbH , St . Michaelisdonn ( Amtsgericht Pinneberg , HRB 6512 PI )"
+                },
+                "text": " Perma Power Energy GmbH , St . Michaelisdonn ( Amtsgericht Pinneberg , HRB 6512 PI )"
             }
         ]
     }

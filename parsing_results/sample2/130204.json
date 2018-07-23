@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=130204&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Sosna , Dominik , * 01.12.1973 , Berlin Prokura : Tascon , Hernán Camps , * 06.05.1971 , Berlin, error text was no valid patter found, number of chunks: 7"
+            }
+        ],
         "flags": [
             {
                 "flag": "Single procuration",
@@ -25,13 +31,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Camps Tascon",
+                    "name": "Hernán"
+                },
+                "text": " Camps Tascon , Hernán"
             },
             {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "class": "Procuration",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1971-06-05",
+                    "lastname": "Tascon",
+                    "name": "Hernán Camps"
+                },
+                "text": " Tascon , Hernán Camps , * 06.05.1971 , Berlin"
             }
         ]
     }

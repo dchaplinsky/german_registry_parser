@@ -16,10 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=235234&land_abk=rp"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Becker , Irina , geb ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Mammelzen",
+                    "dob": "1979-01-25",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Becker",
+                    "name": "Irina geborene Schuller"
+                },
+                "text": " Becker , Irina geborene Schuller , Mammelzen , * 25.01.1979 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

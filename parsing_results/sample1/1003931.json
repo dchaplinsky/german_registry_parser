@@ -16,11 +16,10 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1003931&land_abk=by"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " dr . benzler , guido helmut , langenfeld , * 17.05.1965 . geschäftsführer : heintze , joachim , stockdorf , * 11.04.1967 , einzelvertretungsberechtigt"
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  dr . benzler , guido helmut , langenfeld , * 17.05.1965 . geschäftsführer : heintze , joachim , stockdorf , * 11.04.1967 , einzelvertretungsberechtigt, error text was no valid patter found, number of chunks: 8"
             }
         ]
     }

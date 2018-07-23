@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=203070&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Busse , Henning , Braunschweig ."
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -32,6 +26,15 @@
                     "name": "Anthony"
                 },
                 "text": " Bandmann , Anthony , Weinstadt , * 06.07.1972 ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Braunschweig",
+                    "lastname": "Busse",
+                    "name": "Henning"
+                },
+                "text": " Busse , Henning , Braunschweig ."
             }
         ]
     }

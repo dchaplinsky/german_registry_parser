@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=410318&land_abk=be"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Saß , Henning , * 16.03.1983 , Hohen Neuendorf"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -40,6 +34,18 @@
             {
                 "label": "WHUT",
                 "text": " Alchemyst UG ( haftungsbeschränkt ) , Berlin , Herrfurthplatz 5 , 12049 Berlin ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Hohen Neuendorf",
+                    "dob": "1983-03-16",
+                    "lastname": "Saß",
+                    "name": "Henning"
+                },
+                "text": " Saß , Henning , * 16.03.1983 , Hohen Neuendorf"
             }
         ]
     }

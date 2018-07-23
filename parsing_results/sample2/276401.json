@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=276401&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  BVD Verwaltungs - GmbH , Darmstadt ( Amtsgericht Darmstadt HRB 8577 ) , vertretungsberechtigt gemeinsam mit der Wohnungsgesellschaft HEGEMAG GmbH , Darmstadt , AG Darmstadt HRB 8577 ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -37,8 +31,17 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "company_name": " HEGEMAG GmbH , Darmstadt ( Amtsgericht Darmstadt HRB 8427 ) ."
+                },
                 "text": " HEGEMAG GmbH , Darmstadt ( Amtsgericht Darmstadt HRB 8427 ) ."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " BVD Verwaltungs - GmbH , Darmstadt ( Amtsgericht Darmstadt HRB 8577 ) , vertretungsberechtigt gemeinsam mit der Wohnungsgesellschaft HEGEMAG GmbH , Darmstadt , AG Darmstadt HRB 8577 ."
+                },
+                "text": " BVD Verwaltungs - GmbH , Darmstadt ( Amtsgericht Darmstadt HRB 8577 ) , vertretungsberechtigt gemeinsam mit der Wohnungsgesellschaft HEGEMAG GmbH , Darmstadt , AG Darmstadt HRB 8577 ."
             }
         ]
     }

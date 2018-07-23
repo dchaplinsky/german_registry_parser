@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1403896&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  KÖNIGREICH DIREKT Verwaltungs - und Beteiligungsgesellschaft mbH , Köln ( Amtsgericht Köln HRB 55252 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -36,6 +30,15 @@
             {
                 "label": "address",
                 "text": " Bayenthalgürtel 26 , 50968 Köln ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " KÖNIGREICH DIREKT Verwaltungs - und Beteiligungsgesellschaft mbH , Köln ( Amtsgericht Köln HRB 55252 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " KÖNIGREICH DIREKT Verwaltungs - und Beteiligungsgesellschaft mbH , Köln ( Amtsgericht Köln HRB 55252 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

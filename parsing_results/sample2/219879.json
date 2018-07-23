@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=219879&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Rix , Hans - Eckhard , * 28.05.1946 , Osterrönfeld"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
@@ -30,6 +24,18 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Osterrönfeld",
+                    "dob": "1946-05-28",
+                    "lastname": "Rix",
+                    "name": "Hans - Eckhard"
+                },
+                "text": " Rix , Hans - Eckhard , * 28.05.1946 , Osterrönfeld"
             }
         ]
     }

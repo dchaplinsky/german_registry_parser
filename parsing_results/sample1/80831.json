@@ -19,8 +19,19 @@
         "officers": [
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Hantschel",
+                    "name": "Ulrike"
+                },
+                "text": " Hantschel , Ulrike ."
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Hantschel",
+                    "name": "Ulrike"
+                },
+                "text": " Nicht mehr Prokurist : Hantschel , Ulrike ."
             }
         ]
     }

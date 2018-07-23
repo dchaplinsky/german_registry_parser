@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=608599&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Ionut - Catalin , Lina , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -36,6 +30,19 @@
             {
                 "label": "address",
                 "text": " Rotweg 9 a , 70437 Stuttgart ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Ludwigsburg",
+                    "dob": "1992-03-16",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Ionut - Catalin",
+                    "name": "Lina geborene Ionut"
+                },
+                "text": " Ionut - Catalin , Lina geborene Ionut , Ludwigsburg , * 16.03.1992 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

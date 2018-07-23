@@ -47,8 +47,14 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Guangzhou City",
+                    "dob": "1974-10-05",
+                    "flag": "Guangdong Province",
+                    "lastname": "Jin",
+                    "name": "Minghua"
+                },
+                "text": " Jin , Minghua , * 10.05.1974 , Guangzhou City , Guangdong Province"
             }
         ]
     }

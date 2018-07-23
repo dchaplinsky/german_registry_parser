@@ -47,18 +47,29 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Casuccio",
+                    "name": "Daniele"
+                },
                 "text": " Casuccio , Daniele"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Dr . Heimann",
+                    "name": "Philip"
+                },
                 "text": " Dr . Heimann , Philip"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Opera ( MI ) / Italien",
+                    "dob": "1964-05-15",
+                    "lastname": "Leistner",
+                    "name": "Andrea"
+                },
+                "text": " Leistner , Andrea , * 15.05.1964 , Opera ( MI ) / Italien"
             }
         ]
     }

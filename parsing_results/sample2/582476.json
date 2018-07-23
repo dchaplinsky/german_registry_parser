@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=582476&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Pachut , Agnieszka , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -44,6 +38,19 @@
             {
                 "label": "address",
                 "text": " Am Tower 15 , 90475 Nürnberg ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Lauf a . d . Pegn",
+                    "dob": "1971-10-23",
+                    "flag": "sole representation",
+                    "lastname": "Pachut",
+                    "name": "Agnieszka geborene Stanko"
+                },
+                "text": " Pachut , Agnieszka geborene Stanko , Lauf a . d . Pegn . , * 23.10.1971 , einzelvertretungsberechtigt"
             }
         ]
     }

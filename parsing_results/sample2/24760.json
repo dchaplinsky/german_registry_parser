@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=24760&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Strupp , Marita , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -47,6 +41,16 @@
                     "name": "Kim"
                 },
                 "text": " Weg , Kim , Mainz , * 29.12.1981 , einzelvertretungsberechtigt ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bad Kreuznach",
+                    "dob": "1958-07-14",
+                    "lastname": "Strupp",
+                    "name": "Marita geborene Moser"
+                },
+                "text": " Strupp , Marita geborene Moser , Bad Kreuznach , * 14.07.1958 ."
             }
         ]
     }

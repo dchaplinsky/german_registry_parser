@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=303053&land_abk=nw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Wieczorek , Charlotte , geb ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Mönchengladbach",
+                    "dob": "1921-11-25",
+                    "lastname": "Wieczorek",
+                    "name": "Charlotte geborene Windberg"
+                },
+                "text": " Wieczorek , Charlotte geborene Windberg , Mönchengladbach , * 25.11.1921 ."
             }
         ]
     }

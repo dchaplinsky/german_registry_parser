@@ -47,18 +47,29 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Bertram",
+                    "name": "Ingmar"
+                },
+                "text": " Bertram , Ingmar"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "lastname": "Yassini",
+                    "name": "Sassan"
+                },
+                "text": " Yassini , Sassan"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1982-01-04",
+                    "lastname": "Öztüfek",
+                    "name": "Ender"
+                },
+                "text": " Öztüfek , Ender , * 01.04.1982 , Berlin"
             }
         ]
     }

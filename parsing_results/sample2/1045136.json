@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1045136&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Naabgold - Verwaltungs GmbH , Schwandorf ( Amtsgericht Amberg HRB 3721 ) , von der Vertretung ausgeschlossen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -39,13 +33,32 @@
         "officers": [
             {
                 "class": "Liquidator",
-                "payload": {},
+                "payload": {
+                    "city": "Schwandorf",
+                    "dob": "1961-10-23",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Gschossmann",
+                    "name": "Sabine"
+                },
                 "text": " Gschossmann , Sabine , Schwandorf , * 23.10.1961 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {
                 "class": "Liquidator",
-                "payload": {},
+                "payload": {
+                    "city": "Schwandorf",
+                    "dob": "1965-10-12",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Gschossmann",
+                    "name": "Ulrike"
+                },
                 "text": " Gschossmann , Ulrike , Schwandorf , * 10.12.1965 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Naabgold - Verwaltungs GmbH , Schwandorf ( Amtsgericht Amberg HRB 3721 ) , von der Vertretung ausgeschlossen ."
+                },
+                "text": " Naabgold - Verwaltungs GmbH , Schwandorf ( Amtsgericht Amberg HRB 3721 ) , von der Vertretung ausgeschlossen ."
             }
         ]
     }

@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Dr . Bruns",
+                    "name": "Silvin"
+                },
+                "text": " Dr . Bruns , Silvin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Schwentinental",
+                    "dob": "1974-03-01",
+                    "lastname": "Reetz",
+                    "name": "Oliver"
+                },
+                "text": " Reetz , Oliver , * 03.01.1974 , Schwentinental"
             }
         ]
     }

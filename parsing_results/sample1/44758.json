@@ -33,8 +33,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Dresden",
+                    "dob": "1960-09-26",
+                    "lastname": "Rohr",
+                    "name": "Stefan"
+                },
+                "text": " Rohr , Stefan , * 26.09.1960 , Dresden"
             }
         ]
     }

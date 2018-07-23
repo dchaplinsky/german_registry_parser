@@ -39,8 +39,13 @@
         "officers": [
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1969-10-13",
+                    "lastname": "Brühan",
+                    "name": "Andreas"
+                },
+                "text": " Brühan , Andreas , * 13.10.1969 , Berlin"
             }
         ]
     }

@@ -16,16 +16,22 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=36421&land_abk=th"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Reinboth , Gunter , Zahntechnikermeister , Walkenried ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
                 "text": " Löwentorstr ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Walkenried",
+                    "lastname": "Reinboth",
+                    "name": "Gunter",
+                    "position": "Zahntechnikermeister"
+                },
+                "text": " Reinboth , Gunter , Zahntechnikermeister , Walkenried ."
             }
         ]
     }

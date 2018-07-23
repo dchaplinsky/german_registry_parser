@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1984-02-29",
+                    "lastname": "Yalcin",
+                    "name": "Nilüfer"
+                },
+                "text": " Yalcin , Nilüfer , * 29.02.1984 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Yalcin",
+                    "name": "Sevil"
+                },
+                "text": " Yalcin , Sevil ."
             }
         ]
     }

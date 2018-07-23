@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=270561&land_abk=he"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Trapp geb ., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
@@ -32,11 +38,6 @@
                     "name": "Wolfgang"
                 },
                 "text": " Born , Wolfgang , Selzen , * 16.10.1951"
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Trapp geb ."
             },
             {
                 "class": "Liquidator",

@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=280593&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Pflanz , Susanne , geb ."
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a SingleProcuration from  Szanto - Kaiser , Sofia , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -41,11 +31,42 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Dudenhofen",
+                    "dob": "1964-09-05",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Pflanz",
+                    "name": "Susanne geborene Müller"
+                },
+                "text": " Pflanz , Susanne geborene Müller , Dudenhofen , * 09.05.1964 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Dudenhofen",
                     "dob": "1960-10-24",
                     "lastname": "Pflanz",
                     "name": "Thomas"
                 },
                 "text": " Pflanz , Thomas , Dudenhofen , * 24.10.1960 ."
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Mannheim",
+                    "dob": "1974-12-21",
+                    "lastname": "Szanto - Kaiser",
+                    "name": "Sofia geborene Szanto"
+                },
+                "text": " Szanto - Kaiser , Sofia geborene Szanto , Mannheim , * 21.12.1974 ."
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Mannheim",
+                    "dob": "1974-12-21",
+                    "lastname": "Szanto - Kaiser",
+                    "name": "Sofia geborene Szanto"
+                },
+                "text": " Szanto - Kaiser , Sofia geborene Szanto , Mannheim , * 21.12.1974 ."
             }
         ]
     }

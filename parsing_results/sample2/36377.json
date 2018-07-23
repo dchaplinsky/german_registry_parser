@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=36377&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Kamin , Andreas , * 03.06.1958 , Klein Nordende"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Krüger , Olaf , * 25.12.1971 , Burg ( Spreewald ) OT Müschen"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -64,6 +54,28 @@
             {
                 "label": "address",
                 "text": " Beelitzer Straße 24 , 14943 Luckenwalde ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Klein Nordende",
+                    "dob": "1958-03-06",
+                    "lastname": "Kamin",
+                    "name": "Andreas"
+                },
+                "text": " Kamin , Andreas , * 03.06.1958 , Klein Nordende"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Burg ( Spreewald ) OT Müschen",
+                    "dob": "1971-12-25",
+                    "lastname": "Krüger",
+                    "name": "Olaf"
+                },
+                "text": " Krüger , Olaf , * 25.12.1971 , Burg ( Spreewald ) OT Müschen"
             }
         ]
     }

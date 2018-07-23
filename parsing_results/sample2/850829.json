@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=850829&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Schloss Pikant Verwaltungs UG ( haftungsbeschränkt ) , Hürth ( Amtsgericht Köln HRB 76859 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -32,6 +26,18 @@
             {
                 "label": "address",
                 "text": " Goldenbergstraße 1 , 50354 Hürth ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Schloss Pikant Verwaltungs UG ( haftungsbeschränkt )",
+                    "name": "Hürth ( Amtsgericht Köln HRB 76859 )",
+                    "position": "mit der Befugnis - auch für jeden Geschäftsführer -"
+                },
+                "text": " Schloss Pikant Verwaltungs UG ( haftungsbeschränkt ) , Hürth ( Amtsgericht Köln HRB 76859 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

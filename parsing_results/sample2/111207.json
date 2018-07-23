@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=111207&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Pieper , Jürgen , * 05.02.1955 , Berlin"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
@@ -44,6 +38,18 @@
             {
                 "label": "address",
                 "text": " Amboßweg 2 , 16356 Ahrensfelde OT Lindenberg"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1955-05-02",
+                    "lastname": "Pieper",
+                    "name": "Jürgen"
+                },
+                "text": " Pieper , Jürgen , * 05.02.1955 , Berlin"
             }
         ]
     }

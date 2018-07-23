@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1196712&land_abk=nw"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Yazici , Osman Turgut , 34799 Cekmeköy , Istanbul / Türkei , * 01.01.1953 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ., error text was Cannot parse DOB  34799 Cekmeköy  using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -26,13 +32,6 @@
             {
                 "label": "address",
                 "text": " Hülser Straße 3 , 47906 Kempen ."
-            }
-        ],
-        "officers": [
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Yazici , Osman Turgut , 34799 Cekmeköy , Istanbul / Türkei , * 01.01.1953 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

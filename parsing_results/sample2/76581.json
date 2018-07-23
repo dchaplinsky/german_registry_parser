@@ -63,13 +63,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1980-06-04",
+                    "lastname": "Langowski",
+                    "name": "Lukas"
+                },
+                "text": " Langowski , Lukas , * 06.04.1980 , Bremen"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1984-07-17",
+                    "lastname": "Sauer",
+                    "name": "Marc"
+                },
+                "text": " Sauer , Marc , * 17.07.1984 , Bremen"
             }
         ]
     }

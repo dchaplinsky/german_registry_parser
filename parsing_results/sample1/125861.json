@@ -43,13 +43,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Selm",
+                    "dob": "1967-08-28",
+                    "lastname": "Irmer",
+                    "name": "Ralf"
+                },
+                "text": " Irmer , Ralf , * 28.08.1967 , Selm"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Schalksmühle",
+                    "dob": "1964-07-06",
+                    "lastname": "Neumann - Rosenkranz",
+                    "name": "Silke"
+                },
+                "text": " Neumann - Rosenkranz , Silke , * 07.06.1964 , Schalksmühle"
             }
         ]
     }

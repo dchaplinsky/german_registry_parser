@@ -25,13 +25,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "lastname": "Homann",
+                    "name": "Volker"
+                },
+                "text": " Homann , Volker"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 5 ."
+                "payload": {
+                    "city": "Höhenkirchen - Siegertsbrunn",
+                    "dob": "1964-02-29",
+                    "lastname": "Pin",
+                    "name": "Guiscardo"
+                },
+                "text": " Pin , Guiscardo , * 29.02.1964 , Höhenkirchen - Siegertsbrunn ."
             }
         ]
     }

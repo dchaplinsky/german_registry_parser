@@ -39,13 +39,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Jacobs",
+                    "name": "Sebastian"
+                },
+                "text": " Jacobs , Sebastian"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Altlandsberg",
+                    "dob": "1960-12-16",
+                    "lastname": "Wildenhayn",
+                    "name": "Frank"
+                },
+                "text": " Wildenhayn , Frank , * 16.12.1960 , Altlandsberg"
             }
         ]
     }

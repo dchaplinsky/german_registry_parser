@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=12337&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Werner , Günter , * 06.11.1962 , Wentorf"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -43,8 +37,24 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Wentorf",
+                    "dob": "1962-06-11",
+                    "lastname": "Werner",
+                    "name": "Günter"
+                },
+                "text": " Werner , Günter , * 06.11.1962 , Wentorf"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bispingen",
+                    "dob": "1966-11-25",
+                    "flag": "mit der Befugnis die Gesellschaft allein zu vertreten  mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen",
+                    "lastname": "Waltner",
+                    "name": "Heiko"
+                },
+                "text": " Waltner , Heiko , * 25.11.1966 , Bispingen , mit der Befugnis die Gesellschaft allein zu vertreten , mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen ."
             }
         ]
     }

@@ -49,23 +49,33 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Badstraße 32 , 13357 Berlin Vertretungsregelung : Ist ein Liquidator bestellt , so vertritt er die Gesellschaft allein ."
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Badstraße 32 , 13357 Berlin Vertretungsregelung : Ist ein Liquidator bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1937-07-15",
+                    "lastname": "Karabacak",
+                    "name": "Abdülkadir"
+                },
+                "text": " Karabacak , Abdülkadir , * 15.07.1937 , Berlin"
             },
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1963-12-16",
+                    "lastname": "Karabacak",
+                    "name": "Zehra"
+                },
+                "text": " Karabacak , Zehra , * 16.12.1963 , Berlin"
             }
         ]
     }

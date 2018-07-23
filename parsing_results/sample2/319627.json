@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=319627&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  DMS SERVICE MANAGEMENT LIMITED , London / Großbritannien ( Companies House Cardiff 7746667 ) , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -36,6 +30,18 @@
             {
                 "label": "address",
                 "text": " Schockenriedstraße 8 D , 70656 Stuttgart ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "DMS SERVICE MANAGEMENT LIMITED",
+                    "name": "London / Großbritannien ( Companies House Cardiff 7746667 )",
+                    "position": "mit der Befugnis"
+                },
+                "text": " DMS SERVICE MANAGEMENT LIMITED , London / Großbritannien ( Companies House Cardiff 7746667 ) , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

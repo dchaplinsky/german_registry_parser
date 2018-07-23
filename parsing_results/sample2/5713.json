@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=5713&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Berblinger , Michael , Karlsruhe"
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
@@ -31,13 +25,28 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "lastname": "Dr . Oetker Food - Service KG",
+                    "name": "Ettlingen ( Amtsgericht Mannheim HRA 361001 )"
+                },
                 "text": " Dr . Oetker Food - Service KG , Ettlingen ( Amtsgericht Mannheim HRA 361001 ) ."
             },
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "lastname": "Dr . August Oetker KG",
+                    "name": "Bielefeld"
+                },
                 "text": " Dr . August Oetker KG , Bielefeld ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Karlsruhe",
+                    "lastname": "Berblinger",
+                    "name": "Michael"
+                },
+                "text": " Berblinger , Michael , Karlsruhe"
             }
         ]
     }

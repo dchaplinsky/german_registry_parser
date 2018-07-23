@@ -39,13 +39,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Hoffmann",
+                    "name": "Jürgen"
+                },
+                "text": " Hoffmann , Jürgen"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1973-02-12",
+                    "lastname": "Kayapinar",
+                    "name": "Nilüfer"
+                },
+                "text": " Kayapinar , Nilüfer , * 02.12.1973 , Berlin"
             }
         ]
     }

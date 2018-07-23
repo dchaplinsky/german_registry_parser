@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=59359&land_abk=sn"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Dresdner Immobilien und Treuhandgesellschaft mbH , Radebeul ( Amtsgericht Dresden , HRB 1397 ) , Die persönlich haftende Gesellschafterin und ihre Geschäftsführer sind im Verhältnis zur Kommanditgesellschaft von den Beschränkungen des 181 BGB befreit ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -34,6 +28,15 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Dresdner Immobilien und Treuhandgesellschaft mbH , Radebeul ( Amtsgericht Dresden , HRB 1397 ) , Die persönlich haftende Gesellschafterin und ihre Geschäftsführer sind im Verhältnis zur Kommanditgesellschaft von den Beschränkungen des 181 BGB befreit ."
+                },
+                "text": " Dresdner Immobilien und Treuhandgesellschaft mbH , Radebeul ( Amtsgericht Dresden , HRB 1397 ) , Die persönlich haftende Gesellschafterin und ihre Geschäftsführer sind im Verhältnis zur Kommanditgesellschaft von den Beschränkungen des 181 BGB befreit ."
             }
         ]
     }

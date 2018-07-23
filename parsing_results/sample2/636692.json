@@ -16,16 +16,22 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=636692&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Beiermeister , Silke , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
                 "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Steinheim an der Murr",
+                    "dob": "1959-05-27",
+                    "lastname": "Beiermeister",
+                    "name": "Silke geborene Gaiser"
+                },
+                "text": " Beiermeister , Silke geborene Gaiser , Steinheim an der Murr , * 27.05.1959 ."
             }
         ]
     }

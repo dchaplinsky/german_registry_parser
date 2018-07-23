@@ -25,7 +25,10 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Lecuivre",
+                    "name": "Jacky"
+                },
                 "text": " Lecuivre , Jacky ."
             },
             {
@@ -41,7 +44,10 @@
             },
             {
                 "class": "ProcurationCancelled",
-                "payload": {},
+                "payload": {
+                    "lastname": "Nakach",
+                    "name": "Guy Frank Maurice"
+                },
                 "text": " Nakach , Guy Frank Maurice ."
             }
         ]

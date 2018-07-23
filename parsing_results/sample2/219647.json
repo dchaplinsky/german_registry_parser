@@ -37,23 +37,43 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1982-10-06",
+                    "lastname": "Krieger",
+                    "name": "Steve"
+                },
+                "text": " Krieger , Steve , * 10.06.1982 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1973-12-24",
+                    "lastname": "Otero",
+                    "name": "Rafael"
+                },
+                "text": " Otero , Rafael , * 24.12.1973 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1975-10-31",
+                    "lastname": "Zumdieck",
+                    "name": "Alexander"
+                },
+                "text": " Zumdieck , Alexander , * 31.10.1975 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Düsseldorf",
+                    "dob": "1980-10-22",
+                    "lastname": "Pingsmann",
+                    "name": "Hanno"
+                },
+                "text": " Pingsmann , Hanno , * 22.10.1980 , Düsseldorf"
             }
         ]
     }

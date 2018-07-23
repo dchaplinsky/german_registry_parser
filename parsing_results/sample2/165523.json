@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=165523&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Berndt , Cornelia , * 06.04.1962 , Hamburg"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several managing directors are appointed, the company is jointly represented by all managing directors.",
@@ -30,6 +24,18 @@
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
                 "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1962-06-04",
+                    "lastname": "Berndt",
+                    "name": "Cornelia"
+                },
+                "text": " Berndt , Cornelia , * 06.04.1962 , Hamburg"
             }
         ]
     }

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=856955&land_abk=by"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Öztürk , Gürsel , Bakirkoy , Istanbul / Türkei , * 12.10.1967 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Bakirkoy  using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -50,11 +56,6 @@
                     "name": "Robin"
                 },
                 "text": " Steiner , Robin , Wassertrüdingen , * 24.08.1958 ."
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Öztürk , Gürsel , Bakirkoy , Istanbul / Türkei , * 12.10.1967 , einzelvertretungsberechtigt"
             }
         ]
     }

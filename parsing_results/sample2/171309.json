@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=171309&land_abk=sn"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  F & D Beteiligungs GmbH , Dresden ( Amtsgericht Dresden HRB 33306 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -29,6 +23,13 @@
             }
         ],
         "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " F & D Beteiligungs GmbH , Dresden ( Amtsgericht Dresden HRB 33306 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " F & D Beteiligungs GmbH , Dresden ( Amtsgericht Dresden HRB 33306 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
             {
                 "class": "Owner",
                 "payload": {

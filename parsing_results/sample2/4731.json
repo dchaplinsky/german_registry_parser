@@ -33,13 +33,31 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Marks",
+                    "name": "Simone"
+                },
+                "text": " Marks , Simone"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1961-05-14",
+                    "lastname": "Barjic",
+                    "name": "Jakub"
+                },
+                "text": " Barjic , Jakub , * 14.05.1961 , Berlin"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1970-03-17",
+                    "lastname": "Burgic",
+                    "name": "Amir"
+                },
+                "text": " Burgic , Amir , * 17.03.1970 , Berlin"
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=244801&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Schumann , Ilka Andrea , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -49,12 +43,32 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Koblenz",
+                    "dob": "1971-10-29",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Schumann",
+                    "name": "Ilka Andrea geborene Sesterhenn"
+                },
+                "text": " Schumann , Ilka Andrea geborene Sesterhenn , Koblenz , * 29.10.1971 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1989-05-05",
+                    "flag": "gemäß allgemeiner Vertretungsregelung mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Gethmann",
+                    "name": "Eike Karsten"
+                },
                 "text": " Gethmann , Eike Karsten , München , * 05.05.1989 , gemäß allgemeiner Vertretungsregelung mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Dr . Züwerink",
+                    "name": "Tim"
+                },
                 "text": " Dr . Züwerink , Tim ."
             }
         ]

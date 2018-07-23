@@ -16,10 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=11493&land_abk=he"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Krayer , Michaela , geb ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Mainhausen",
+                    "dob": "1964-05-31",
+                    "flag": "sole representation",
+                    "lastname": "Krayer",
+                    "name": "Michaela geborene Assum"
+                },
+                "text": " Krayer , Michaela geborene Assum , Mainhausen , * 31.05.1964 , einzelvertretungsberechtigt"
             }
         ]
     }

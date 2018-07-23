@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=60887&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Dr ., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -33,13 +39,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Erfurt",
+                    "dob": "1966-05-03",
+                    "lastname": "Jedersberger",
+                    "name": "Olaf"
+                },
+                "text": " Jedersberger , Olaf , * 05.03.1966 , Erfurt"
             }
         ]
     }

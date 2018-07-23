@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=430689&land_abk=be"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Kober , Thomas , * 31.05.1960 , Berlin"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
@@ -45,8 +39,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "lastname": "Twohig",
+                    "name": "Bradley George"
+                },
+                "text": " Twohig , Bradley George"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1960-05-31",
+                    "lastname": "Kober",
+                    "name": "Thomas"
+                },
+                "text": " Kober , Thomas , * 31.05.1960 , Berlin"
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=277790&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Loose , Jürgen , Geschäftsführer , Rastatt ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -37,7 +31,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Rastatt",
+                    "lastname": "Loose",
+                    "name": "Jürgen",
+                    "position": "Geschäftsführer"
+                },
+                "text": " Loose , Jürgen , Geschäftsführer , Rastatt ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bühlertal",
+                    "dob": "1952-06-15",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Nawrath",
+                    "name": "Ingo"
+                },
                 "text": " Nawrath , Ingo , Bühlertal , * 15.06.1952 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {

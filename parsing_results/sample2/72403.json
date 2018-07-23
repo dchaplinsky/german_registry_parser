@@ -16,11 +16,10 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=72403&land_abk=by"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Carro de Prada , Fernando , Sant Cugat del Vallés / Barcelona , Spanien , * 27.07.1964 , einzelvertretungsberechtigt ."
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Carro de Prada , Fernando , Sant Cugat del Vallés / Barcelona , Spanien , * 27.07.1964 , einzelvertretungsberechtigt ., error text was Cannot parse DOB  Sant Cugat del Vallés / Barcelona  using regex"
             }
         ]
     }

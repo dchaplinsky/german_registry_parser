@@ -16,20 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=12447&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Langness , Hermann , * 23.03.1953 , Kiel"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Lahrtz , Jochen , * 02.07.1944 , Kiel"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Lahrtz , Christian , * 09.01.1970 , Rostock"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -39,7 +25,39 @@
         "labels": [
             {
                 "label": "misc",
-                "text": " 25.600 EUR Vertretungsregelung : Die Gesellschaft hat einen oder mehrere Geschäftsführer ."
+                "text": " 600 EUR Vertretungsregelung : Die Gesellschaft hat einen oder mehrere Geschäftsführer ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Kiel",
+                    "dob": "1953-03-23",
+                    "lastname": "Langness",
+                    "name": "Hermann"
+                },
+                "text": " Langness , Hermann , * 23.03.1953 , Kiel"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Kiel",
+                    "dob": "1944-02-07",
+                    "lastname": "Lahrtz",
+                    "name": "Jochen"
+                },
+                "text": " Lahrtz , Jochen , * 02.07.1944 , Kiel"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Rostock",
+                    "dob": "1970-09-01",
+                    "lastname": "Lahrtz",
+                    "name": "Christian"
+                },
+                "text": " Lahrtz , Christian , * 09.01.1970 , Rostock"
             }
         ]
     }

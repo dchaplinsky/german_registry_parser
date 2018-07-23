@@ -49,14 +49,29 @@
         "labels": [
             {
                 "label": "address",
-                "text": ""
+                "text": " Sachsenring 60 , 24534 Neumünster Gegenstand : Führung eines Senioren - und Pflegeheimes sowie alle Dienstleistungen in diesem Bereich ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Wedemark",
+                    "dob": "1951-07-03",
+                    "lastname": "Kollmeier",
+                    "name": "Dieter"
+                },
+                "text": " Kollmeier , Dieter , * 07.03.1951 , Wedemark"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Wedemark - Abbensen",
+                    "dob": "1979-08-10",
+                    "lastname": "Kollmeier",
+                    "name": "Marc"
+                },
+                "text": " Kollmeier , Marc , * 08.10.1979 , Wedemark - Abbensen"
             }
         ]
     }

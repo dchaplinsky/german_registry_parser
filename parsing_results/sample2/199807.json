@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Dr . Mörtzsch",
+                    "name": "Matthias"
+                },
+                "text": " Dr . Mörtzsch , Matthias"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1965-09-14",
+                    "lastname": "Mentzel",
+                    "name": "Andreas"
+                },
+                "text": " Mentzel , Andreas , * 14.09.1965 , Berlin"
             }
         ]
     }

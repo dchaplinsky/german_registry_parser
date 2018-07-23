@@ -16,12 +16,13 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=168430&land_abk=bw"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " teschner , hans otto , stockach , * 26.08.1950 . bestellt als liquidator : teschner , hans otto , stockach , * 26.08.1950 . die gesellschaft ist aufgelöst ."
-            },
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  teschner , hans otto , stockach , * 26.08.1950 . bestellt als liquidator : teschner , hans otto , stockach , * 26.08.1950 . die gesellschaft ist aufgelöst ., error text was no valid patter found, number of chunks: 7"
+            }
+        ],
+        "officers": [
             {
                 "class": "Liquidator",
                 "payload": {

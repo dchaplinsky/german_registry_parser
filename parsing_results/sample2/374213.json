@@ -39,13 +39,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Slyvester",
+                    "name": "Andy Christopher"
+                },
+                "text": " Slyvester , Andy Christopher"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1968-11-22",
+                    "lastname": "Kosev",
+                    "name": "Bozhidat Todorov"
+                },
+                "text": " Kosev , Bozhidat Todorov , * 22.11.1968 , Berlin"
             }
         ]
     }

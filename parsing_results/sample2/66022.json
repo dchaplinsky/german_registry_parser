@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=66022&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Peya , Ralph , * 06.03.1975 , Siegen"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -35,8 +29,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "van Leeuwen",
+                    "name": "Rüdiger"
+                },
                 "text": " van Leeuwen , Rüdiger"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Siegen",
+                    "dob": "1975-06-03",
+                    "lastname": "Peya",
+                    "name": "Ralph"
+                },
+                "text": " Peya , Ralph , * 06.03.1975 , Siegen"
             }
         ]
     }

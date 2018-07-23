@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=21420&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Rundquist , Erik , Zell - Kaimt ."
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -32,6 +26,15 @@
                     "name": "Hans - Josef"
                 },
                 "text": " Esch , Hans - Josef , Mülheim , * 04.05.1960"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Zell - Kaimt",
+                    "lastname": "Rundquist",
+                    "name": "Erik"
+                },
+                "text": " Rundquist , Erik , Zell - Kaimt ."
             }
         ]
     }

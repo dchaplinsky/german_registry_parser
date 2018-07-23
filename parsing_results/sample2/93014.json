@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=93014&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Kersting , Anna , geb ."
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -32,6 +26,16 @@
                     "name": "Josef"
                 },
                 "text": " Kersting , Josef , Rheine , * 07.02.1941 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Rheine",
+                    "dob": "1939-11-21",
+                    "lastname": "Kersting",
+                    "name": "Anna geborene Michel"
+                },
+                "text": " Kersting , Anna geborene Michel , Rheine , * 21.11.1939"
             }
         ]
     }

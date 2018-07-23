@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=191409&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Juppenlatz , Susanne , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -36,6 +30,19 @@
             {
                 "label": "address",
                 "text": " Fenchelstraße 14 , 70619 Stuttgart ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Stuttgart",
+                    "dob": "1962-08-02",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Juppenlatz",
+                    "name": "Susanne geborene Giek"
+                },
+                "text": " Juppenlatz , Susanne geborene Giek , Stuttgart , * 08.02.1962 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

@@ -19,13 +19,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Elteste",
+                    "name": "Jürgen"
+                },
+                "text": " Elteste , Jürgen"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "München",
+                    "dob": "1964-05-17",
+                    "lastname": "Neie",
+                    "name": "Philipp"
+                },
+                "text": " Neie , Philipp , * 17.05.1964 , München ."
             }
         ]
     }

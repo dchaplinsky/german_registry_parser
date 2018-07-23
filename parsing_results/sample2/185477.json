@@ -25,8 +25,19 @@
         "officers": [
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Dr . von Bodecker",
+                    "name": "Matthias"
+                },
+                "text": " Dr . von Bodecker , Matthias"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Dr . von Bodecker",
+                    "name": "Matthias"
+                },
+                "text": " Nicht mehr Prokurist : Dr . von Bodecker , Matthias"
             }
         ]
     }

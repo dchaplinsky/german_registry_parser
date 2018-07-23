@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=979518&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Diplom - Ingenieur Mackes , Karl Eugen , Ingenieur , Erkelenz ."
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
@@ -29,6 +23,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Erkelenz",
+                    "lastname": "Diplom - Ingenieur Mackes",
+                    "name": "Karl Eugen",
+                    "position": "Ingenieur"
+                },
+                "text": " Diplom - Ingenieur Mackes , Karl Eugen , Ingenieur , Erkelenz ."
+            },
             {
                 "class": "Liquidator",
                 "payload": {

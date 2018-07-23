@@ -45,23 +45,33 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Johannisstraße 20 , 10117 Berlin Gegenstand : Die Verwaltung eigenen Vermögens ."
             },
             {
                 "label": "misc",
-                "text": " 1.000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " 000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1971-04-23",
+                    "lastname": "Jeschke",
+                    "name": "Arnt"
+                },
+                "text": " Jeschke , Arnt , * 23.04.1971 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin Rechtsform : Gesellschaft mit beschränkter Haftung",
+                    "dob": "1975-09-15",
+                    "lastname": "Weiß",
+                    "name": "Christian"
+                },
+                "text": " Weiß , Christian , * 15.09.1975 , Berlin Rechtsform : Gesellschaft mit beschränkter Haftung"
             }
         ]
     }

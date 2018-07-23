@@ -16,16 +16,22 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=132578&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Zhou , André , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Mülheim an der Ruhr",
+                    "dob": "1971-10-06",
+                    "lastname": "Zhou",
+                    "name": "André geborene Schwarz"
+                },
+                "text": " Zhou , André geborene Schwarz , Mülheim an der Ruhr , * 10.06.1971 ."
             }
         ]
     }

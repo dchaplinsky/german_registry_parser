@@ -19,13 +19,19 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "company_name": " GSKR Vermögensverwaltung GmbH"
+                },
+                "text": " GSKR Vermögensverwaltung GmbH"
             },
             {
                 "class": "PersonalPartner",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "HRB 19030 P )",
+                    "lastname": "PHI Grundbesitz AG",
+                    "name": "Kleinmachnow ( Amtsgericht Potsdam"
+                },
+                "text": " PHI Grundbesitz AG , Kleinmachnow ( Amtsgericht Potsdam , HRB 19030 P )"
             }
         ]
     }

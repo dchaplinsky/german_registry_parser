@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=4758&land_abk=sn"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a SingleProcuration from  Dr . Drechsler , Gustl , Kaufmann , Nürnberg ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -35,8 +29,31 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "lastname": "Dr . Drechsler Immobilien Gesellschaft mit beschränkter Haftung",
+                    "name": "Nürnberg ( Amtsgericht Nürnberg HRB 1464 )"
+                },
                 "text": " Dr . Drechsler Immobilien Gesellschaft mit beschränkter Haftung , Nürnberg ( Amtsgericht Nürnberg HRB 1464 ) ."
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Nürnberg",
+                    "lastname": "Dr . Drechsler",
+                    "name": "Gustl",
+                    "position": "Kaufmann"
+                },
+                "text": " Dr . Drechsler , Gustl , Kaufmann , Nürnberg ."
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Nürnberg",
+                    "lastname": "Dr . Drechsler",
+                    "name": "Gustl",
+                    "position": "Kaufmann"
+                },
+                "text": " Dr . Drechsler , Gustl , Kaufmann , Nürnberg ."
             }
         ]
     }

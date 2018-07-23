@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Voigt",
+                    "name": "Michael"
+                },
+                "text": " Voigt , Michael"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1969-02-27",
+                    "lastname": "Pfitzner",
+                    "name": "Michael"
+                },
+                "text": " Pfitzner , Michael , * 27.02.1969 , Berlin"
             }
         ]
     }

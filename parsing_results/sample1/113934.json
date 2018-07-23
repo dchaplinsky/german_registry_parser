@@ -33,23 +33,31 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Ruhlaer Str ."
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Ruhlaer Str ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Dimitroff",
+                    "name": "Alexandra"
+                },
+                "text": " Dimitroff , Alexandra"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1965-03-04",
+                    "lastname": "Kerth",
+                    "name": "Daniela"
+                },
+                "text": " Kerth , Daniela , * 03.04.1965 , Berlin"
             }
         ]
     }

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=120746&land_abk=by"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Petrovic , Jovica , Fort Myers , Florida / USA , * 21.08.1950 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Fort Myers  using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -44,11 +50,6 @@
                     "name": "Robin"
                 },
                 "text": " Ribback , Robin , München , * 06.11.1968 ."
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Petrovic , Jovica , Fort Myers , Florida / USA , * 21.08.1950 , einzelvertretungsberechtigt"
             }
         ]
     }

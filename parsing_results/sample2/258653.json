@@ -33,23 +33,31 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Oberspreestraße 57 C , 12349 Berlin Nicht mehr Geschäftsführer : Bandlow , Nicole"
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Oberspreestraße 57 C , 12349 Berlin Nicht mehr Geschäftsführer : Bandlow , Nicole"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Bandlow",
+                    "name": "Nicole"
+                },
+                "text": " Bandlow , Nicole"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1973-04-17",
+                    "lastname": "Hild",
+                    "name": "Ramon"
+                },
+                "text": " Hild , Ramon , * 17.04.1973 , Berlin"
             }
         ]
     }

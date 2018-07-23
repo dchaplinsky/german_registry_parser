@@ -47,8 +47,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1965-03-10",
+                    "lastname": "Schmidt",
+                    "name": "Sebastian"
+                },
+                "text": " Schmidt , Sebastian , * 03.10.1965 , Berlin"
             }
         ]
     }

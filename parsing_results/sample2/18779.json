@@ -49,13 +49,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Halle",
+                    "dob": "1974-04-02",
+                    "lastname": "Kröning",
+                    "name": "Ralf"
+                },
+                "text": " Kröning , Ralf , * 04.02.1974 , Halle"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Halle",
+                    "dob": "1966-01-16",
+                    "lastname": "Neumann",
+                    "name": "Thomas"
+                },
+                "text": " Neumann , Thomas , * 16.01.1966 , Halle"
             }
         ]
     }

@@ -33,7 +33,7 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Weserstr ."
             },
             {
                 "label": "misc",
@@ -43,8 +43,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1981-12-23",
+                    "lastname": "Wdowiak",
+                    "name": "Anna"
+                },
+                "text": " Wdowiak , Anna , * 23.12.1981 , Berlin"
             }
         ]
     }

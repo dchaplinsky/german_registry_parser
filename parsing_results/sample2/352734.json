@@ -39,13 +39,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Maystrenko",
+                    "name": "Stanislaw"
+                },
+                "text": " Maystrenko , Stanislaw"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1972-08-01",
+                    "lastname": "Slutskiy",
+                    "name": "Vitaliy"
+                },
+                "text": " Slutskiy , Vitaliy , * 08.01.1972 , Berlin"
             }
         ]
     }

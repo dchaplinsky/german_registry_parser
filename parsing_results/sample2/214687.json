@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=214687&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Schätzl , Gert , Flachdruckermeister , Donauwörth ."
-            }
-        ],
         "officers": [
             {
                 "class": "Owner",
@@ -32,6 +26,16 @@
                     "name": "Ulrich"
                 },
                 "text": " Schätzl , Ulrich , Donauwörth , * 23.03.1969 ."
+            },
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Donauwörth",
+                    "lastname": "Schätzl",
+                    "name": "Gert",
+                    "position": "Flachdruckermeister"
+                },
+                "text": " Schätzl , Gert , Flachdruckermeister , Donauwörth ."
             },
             {
                 "class": "ProcurationCancelled",

@@ -19,7 +19,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Ball , David , Chicago , Illinois / USA , * 18.11.1969"
+                "text": "Cannot parse a ManagingDirector from  Ball , David , Chicago , Illinois / USA , * 18.11.1969, error text was Cannot parse DOB  Chicago  using regex"
             }
         ],
         "officers": [
@@ -35,7 +35,13 @@
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "München",
+                    "dob": "1950-10-18",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Dr . Urbanek",
+                    "name": "Otto"
+                },
                 "text": " Dr . Urbanek , Otto , München , * 18.10.1950 , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {

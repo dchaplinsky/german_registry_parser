@@ -29,13 +29,21 @@
         "officers": [
             {
                 "class": "Owner",
-                "payload": {},
-                "text": " Nicht mehr persönlich haftender Gesellschafter :"
+                "payload": {
+                    "lastname": "Nicht mehr persönlich haftender Gesellschafter : Fink",
+                    "name": "Helmut Otto"
+                },
+                "text": " Nicht mehr persönlich haftender Gesellschafter : Fink , Helmut Otto"
             },
             {
                 "class": "PersonalPartner",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1981-06-11",
+                    "lastname": "Kuzuoglu",
+                    "name": "Sevinc"
+                },
+                "text": " Kuzuoglu , Sevinc , * 06.11.1981 , Berlin"
             }
         ]
     }

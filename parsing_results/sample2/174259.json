@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=174259&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Anatomia Grundstücksverwaltungsgesellschaft mbH , Mainz ( Amtsgericht Mainz HRB 45399 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -32,6 +26,15 @@
             {
                 "label": "address",
                 "text": " Wilhelm - Theodor - Römheld - Straße 30 , 55130 Mainz ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Anatomia Grundstücksverwaltungsgesellschaft mbH , Mainz ( Amtsgericht Mainz HRB 45399 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " Anatomia Grundstücksverwaltungsgesellschaft mbH , Mainz ( Amtsgericht Mainz HRB 45399 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

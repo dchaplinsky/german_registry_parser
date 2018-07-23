@@ -29,14 +29,19 @@
         "labels": [
             {
                 "label": "address",
-                "text": ""
+                "text": " c / o Norbert Reusch , Danziger Allee 68 , 65239 Hochheim am Main"
             }
         ],
         "officers": [
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Hochheim / Main",
+                    "dob": "1941-02-06",
+                    "lastname": "Reusch",
+                    "name": "Norbert"
+                },
+                "text": " Reusch , Norbert , * 02.06.1941 , Hochheim / Main"
             }
         ]
     }

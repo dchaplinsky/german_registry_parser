@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Schroedter",
+                    "name": "Klaus - Dieter"
+                },
+                "text": " Schroedter , Klaus - Dieter"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1960-12-09",
+                    "lastname": "Förster",
+                    "name": "Martin"
+                },
+                "text": " Förster , Martin , * 12.09.1960 , Berlin"
             }
         ]
     }

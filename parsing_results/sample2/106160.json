@@ -19,13 +19,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Brinkmann",
+                    "name": "Egon"
+                },
+                "text": " Brinkmann , Egon"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Hösbach",
+                    "dob": "1953-07-30",
+                    "lastname": "Weis",
+                    "name": "Aloysius"
+                },
+                "text": " Weis , Aloysius , * 30.07.1953 , Hösbach ."
             }
         ]
     }

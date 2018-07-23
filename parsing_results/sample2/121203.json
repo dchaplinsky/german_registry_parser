@@ -16,16 +16,22 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=121203&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Werner , André , * 23.09.1971 , Potsdam"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
                 "text": "Sind mehrere Liquidatoren bestellt , wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Potsdam",
+                    "dob": "1971-09-23",
+                    "lastname": "Werner",
+                    "name": "André"
+                },
+                "text": " Werner , André , * 23.09.1971 , Potsdam"
             }
         ]
     }

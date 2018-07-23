@@ -25,18 +25,23 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Mohrenstraße 60 , 10117 Berlin Änderung zu Nr . 1 : hinsichtlich des Wohnortes : Geschäftsführer : Chudzinski , Pawel , * 29.06.1979 , Berlin"
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Mohrenstraße 60 , 10117 Berlin Änderung zu Nr . 1 : hinsichtlich des Wohnortes : Geschäftsführer : Chudzinski , Pawel , * 29.06.1979 , Berlin"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1979-06-29",
+                    "lastname": "Chudzinski",
+                    "name": "Pawel"
+                },
+                "text": " Chudzinski , Pawel , * 29.06.1979 , Berlin"
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=107590&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Nenneker , Jürgen , Pr ."
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -32,6 +26,15 @@
                     "name": "Uwe"
                 },
                 "text": " Tempelmeier , Uwe , Hüllhorst , * 14.09.1956 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Pr",
+                    "lastname": "Nenneker",
+                    "name": "Jürgen"
+                },
+                "text": " Nenneker , Jürgen , Pr ."
             }
         ]
     }

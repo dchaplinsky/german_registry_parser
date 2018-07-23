@@ -33,18 +33,29 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Muhr",
+                    "name": "Matthias"
+                },
+                "text": " Muhr , Matthias"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Noelte",
+                    "name": "Daniel"
+                },
+                "text": " Noelte , Daniel"
             },
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1964-05-07",
+                    "lastname": "Tornow",
+                    "name": "Uta"
+                },
+                "text": " Tornow , Uta , * 05.07.1964 , Berlin"
             }
         ]
     }

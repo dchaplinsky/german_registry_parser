@@ -16,23 +16,30 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=13190&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Rothe , Margrit , * 05.10.1933 , Halstenbek"
-            }
-        ],
         "labels": [
             {
                 "label": "misc",
-                "text": " 25.000 EUR Vertretungsregelung : Ist ein Liquidator bestellt , vertritt er die Gesellschaft allein ."
+                "text": " 000 EUR Vertretungsregelung : Ist ein Liquidator bestellt , vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Halstenbek",
+                    "dob": "1933-05-10",
+                    "lastname": "Rothe",
+                    "name": "Margrit"
+                },
+                "text": " Rothe , Margrit , * 05.10.1933 , Halstenbek"
+            },
+            {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Rothe",
+                    "name": "Margrit geborene Walther"
+                },
+                "text": " Rothe , Margrit geborene Walther"
             }
         ]
     }

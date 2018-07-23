@@ -37,18 +37,23 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Dietzgenstraße 56 , 13156 Berlin Gegenstand : Montage , Wartung und Service von Industrieanlagen"
             },
             {
                 "label": "misc",
-                "text": " 25.000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " 000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1967-01-17",
+                    "lastname": "Flotow",
+                    "name": "Uwe"
+                },
+                "text": " Flotow , Uwe , * 17.01.1967 , Berlin"
             }
         ]
     }

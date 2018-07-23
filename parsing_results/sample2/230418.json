@@ -53,23 +53,33 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Winterfeldtstraße 44 , 10781 Berlin Gegenstand : Die Entwicklung und der Vertrieb von Software sowie aller damit in Zusammenhang stehender Betätigungen ."
             },
             {
                 "label": "misc",
-                "text": " 25.000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " 000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1959-08-12",
+                    "lastname": "Oenicke",
+                    "name": "Marcus"
+                },
+                "text": " Oenicke , Marcus , * 08.12.1959 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Strachau",
+                    "dob": "1956-06-29",
+                    "lastname": "Schenck",
+                    "name": "Hans - Peter"
+                },
+                "text": " Schenck , Hans - Peter , * 29.06.1956 , Strachau"
             }
         ]
     }

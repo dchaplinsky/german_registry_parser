@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=131186&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Altin , Özer , * 28.10.1977 , Rendsburg"
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -40,6 +34,18 @@
             {
                 "label": "address",
                 "text": " Neue Straße 17 , 24768 Rendsburg ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Rendsburg",
+                    "dob": "1977-10-28",
+                    "lastname": "Altin",
+                    "name": "Özer"
+                },
+                "text": " Altin , Özer , * 28.10.1977 , Rendsburg"
             }
         ]
     }

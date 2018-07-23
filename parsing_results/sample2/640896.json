@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=640896&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Hierl , Silvia , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -48,6 +42,19 @@
             {
                 "label": "address",
                 "text": " Hahnenbalz 35 , 90411 Nürnberg ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Dormitz",
+                    "dob": "1960-06-13",
+                    "flag": "sole representation",
+                    "lastname": "Hierl",
+                    "name": "Silvia geborene Gumbrecht"
+                },
+                "text": " Hierl , Silvia geborene Gumbrecht , Dormitz , * 13.06.1960 , einzelvertretungsberechtigt"
             }
         ]
     }

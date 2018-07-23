@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=314697&land_abk=hh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Beiersdorf Aktiengesellschaft , Hamburg ( Amtsgericht Hamburg HRB 1787 ) , mit der Befugnis - auch für ihre Vorstände - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -32,6 +26,18 @@
             {
                 "label": "address",
                 "text": " Unnastraße 48 , 20245 Hamburg ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Beiersdorf Aktiengesellschaft",
+                    "name": "Hamburg ( Amtsgericht Hamburg HRB 1787 )",
+                    "position": "mit der Befugnis - auch für ihre Vorstände -"
+                },
+                "text": " Beiersdorf Aktiengesellschaft , Hamburg ( Amtsgericht Hamburg HRB 1787 ) , mit der Befugnis - auch für ihre Vorstände - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=187930&land_abk=ni"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Marks , William David , Rowton , Chester , CH3 6 AU / GB , * 30.09.1952 , einzelvertretungsberechtigt, error text was no valid patter found, number of chunks: 7"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -25,13 +31,11 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Brockmeyer",
+                    "name": "Volker"
+                },
                 "text": " Brockmeyer , Volker ."
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Marks , William David , Rowton , Chester , CH3 6 AU / GB , * 30.09.1952 , einzelvertretungsberechtigt"
             }
         ]
     }

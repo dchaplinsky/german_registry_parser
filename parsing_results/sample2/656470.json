@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=656470&land_abk=nw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Marek - Dieling , Maria , Kauffrau , Bochum ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bochum",
+                    "lastname": "Marek - Dieling",
+                    "name": "Maria",
+                    "position": "Kauffrau"
+                },
+                "text": " Marek - Dieling , Maria , Kauffrau , Bochum ."
             }
         ]
     }

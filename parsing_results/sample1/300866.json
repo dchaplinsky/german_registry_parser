@@ -16,16 +16,19 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=300866&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Schreier Verwaltungs GmbH , Bergisch Gladbach ( Köln HRB 62357 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
                 "text": "Kommanditgesellschaft ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Schreier Verwaltungs GmbH , Bergisch Gladbach ( Köln HRB 62357 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " Schreier Verwaltungs GmbH , Bergisch Gladbach ( Köln HRB 62357 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

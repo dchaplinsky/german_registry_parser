@@ -39,11 +39,27 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Stuttgart",
+                    "dob": "1992-03-09",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Weber",
+                    "name": "Daniel"
+                },
                 "text": " Weber , Daniel , Stuttgart , * 03.09.1992 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "Stuttgart",
+                    "dob": "1990-02-10",
+                    "lastname": "Schock",
+                    "name": "Manuel"
+                },
+                "text": " Schock , Manuel , Stuttgart , * 02.10.1990 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "Stuttgart",
                     "dob": "1990-02-10",

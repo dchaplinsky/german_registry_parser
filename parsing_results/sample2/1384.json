@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1384&land_abk=hb"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Hartwich , Lothar , * 30.04.1965 , Hamburg"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -38,13 +32,37 @@
         ],
         "officers": [
             {
-                "class": "NotAProcurator",
-                "payload": {},
-                "text": " Vroom , Andreas"
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1965-04-30",
+                    "lastname": "Hartwich",
+                    "name": "Lothar"
+                },
+                "text": " Hartwich , Lothar , * 30.04.1965 , Hamburg"
             },
             {
                 "class": "NotAProcurator",
-                "payload": {},
+                "payload": {
+                    "lastname": "Vroom",
+                    "name": "Andreas"
+                },
+                "text": " Vroom , Andreas"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Vroom",
+                    "name": "Andreas"
+                },
+                "text": " Nicht mehr Prokurist : Vroom , Andreas"
+            },
+            {
+                "class": "NotAProcurator",
+                "payload": {
+                    "lastname": "Hartwich",
+                    "name": "Lothar"
+                },
                 "text": " Hartwich , Lothar ."
             }
         ]

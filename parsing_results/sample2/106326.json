@@ -29,8 +29,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Barth",
+                    "name": "Patrick"
+                },
                 "text": " Barth , Patrick"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Groß Kreutz",
+                    "dob": "1984-10-05",
+                    "lastname": "Barth",
+                    "name": "Patrick"
+                },
+                "text": " Barth , Patrick , * 10.05.1984 , Groß Kreutz"
             }
         ]
     }

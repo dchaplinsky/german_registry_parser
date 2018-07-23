@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=54738&land_abk=sn"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Leikauf , Johannes , Techniker , Hersbruck ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hersbruck",
+                    "lastname": "Leikauf",
+                    "name": "Johannes",
+                    "position": "Techniker"
+                },
+                "text": " Leikauf , Johannes , Techniker , Hersbruck ."
             }
         ]
     }

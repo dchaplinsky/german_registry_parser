@@ -19,11 +19,11 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Richey jr . , Victor Lee , St . Louis , MO 63119 , * 10.08.1957 ."
+                "text": "Cannot parse a ManagingDirector from  Richey jr . , Victor Lee , St . Louis , MO 63119 , * 10.08.1957 ., error text was Cannot parse DOB  St . Louis  using regex"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Garretson , Richard , Smithton , IL / USA , * 20.12.1958"
+                "text": "Cannot parse a ManagingDirector from  Garretson , Richard , Smithton , IL / USA , * 20.12.1958, error text was Cannot parse DOB  Smithton  using regex"
             }
         ]
     }

@@ -25,7 +25,10 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Bonometti",
+                    "name": "Piergiorgio"
+                },
                 "text": " Bonometti , Piergiorgio ."
             },
             {
@@ -41,6 +44,16 @@
             },
             {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "Ense",
+                    "dob": "1955-07-16",
+                    "lastname": "Remmert",
+                    "name": "Heinz - Dieter"
+                },
+                "text": " Remmert , Heinz - Dieter , Ense , * 16.07.1955 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "Ense",
                     "dob": "1955-07-16",

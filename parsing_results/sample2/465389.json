@@ -59,18 +59,31 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Tronczik",
+                    "name": "Martin"
+                },
+                "text": " Tronczik , Martin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1990-05-18",
+                    "lastname": "Exter",
+                    "name": "Friederike"
+                },
+                "text": " Exter , Friederike , * 18.05.1990 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1948-06-08",
+                    "lastname": "Exter",
+                    "name": "Ernst Herrmann"
+                },
+                "text": " Exter , Ernst Herrmann , * 06.08.1948 , Berlin"
             }
         ]
     }

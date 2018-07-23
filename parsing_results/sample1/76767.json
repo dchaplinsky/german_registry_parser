@@ -47,8 +47,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1958-03-21",
+                    "lastname": "Kories",
+                    "name": "Peter"
+                },
+                "text": " Kories , Peter , * 21.03.1958 , Berlin"
             }
         ]
     }

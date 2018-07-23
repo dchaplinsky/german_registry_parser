@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=209934&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  HUM Uhrenmanufaktur Verwaltungs - GmbH , Gosheim ( Amtsgericht Stuttgart HRB 735025 ) , mit der Befugnis - auch für die jeweiligen Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -32,6 +26,15 @@
             {
                 "label": "address",
                 "text": " Bahnhofstraße 6 , 78559 Gosheim ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " HUM Uhrenmanufaktur Verwaltungs - GmbH , Gosheim ( Amtsgericht Stuttgart HRB 735025 ) , mit der Befugnis - auch für die jeweiligen Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " HUM Uhrenmanufaktur Verwaltungs - GmbH , Gosheim ( Amtsgericht Stuttgart HRB 735025 ) , mit der Befugnis - auch für die jeweiligen Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

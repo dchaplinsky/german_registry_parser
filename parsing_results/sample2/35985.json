@@ -18,9 +18,22 @@
     "parsed": {
         "officers": [
             {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Idstein",
+                    "dob": "1971-07-12",
+                    "lastname": "Hasselbächer",
+                    "name": "Jens"
+                },
+                "text": " Hasselbächer , Jens , * 07.12.1971 , Idstein"
+            },
+            {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Kettnaker",
+                    "name": "Frank"
+                },
+                "text": " Kettnaker , Frank ."
             }
         ]
     }

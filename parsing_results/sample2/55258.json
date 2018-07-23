@@ -39,13 +39,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Eisenhuth",
+                    "name": "Udo"
+                },
+                "text": " Eisenhuth , Udo"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Henstedt - Ulzburg",
+                    "dob": "1959-08-16",
+                    "lastname": "Foltin",
+                    "name": "Walter"
+                },
+                "text": " Foltin , Walter , * 16.08.1959 , Henstedt - Ulzburg"
             }
         ]
     }

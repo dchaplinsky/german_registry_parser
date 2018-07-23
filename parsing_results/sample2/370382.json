@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=370382&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Henning Krause , Langelsheim , Streittorstraße 26 , 38685 Langelsheim ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Sole trader",
@@ -35,6 +29,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "38685 Langelsheim",
+                    "lastname": "Henning Krause",
+                    "name": "Langelsheim",
+                    "position": "Streittorstraße 26"
+                },
+                "text": " Henning Krause , Langelsheim , Streittorstraße 26 , 38685 Langelsheim ."
+            },
             {
                 "class": "Owner",
                 "payload": {

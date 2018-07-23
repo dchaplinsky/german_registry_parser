@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Mehrwald",
+                    "name": "Siegfried Gerhard"
+                },
+                "text": " Mehrwald , Siegfried Gerhard"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Glückstadt",
+                    "dob": "1964-07-14",
+                    "lastname": "Ahrens",
+                    "name": "Uwe"
+                },
+                "text": " Ahrens , Uwe , * 14.07.1964 , Glückstadt"
             }
         ]
     }

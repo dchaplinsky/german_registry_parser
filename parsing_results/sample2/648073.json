@@ -16,10 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=648073&land_abk=bw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Schairer , Evelyn , geb ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Albstadt - Tailfingen",
+                    "dob": "1966-11-23",
+                    "flag": "im Namen der Gesellschaft mitsich im eigenen Namen oder als Vertretereines Dritten Rechtsgeschäfteabzuschließen",
+                    "lastname": "Schairer",
+                    "name": "Evelyn geborene Schairer"
+                },
+                "text": " Schairer , Evelyn geborene Schairer , Albstadt - Tailfingen , * 23.11.1966 einzelvertretungsberechtigt mit derBefugnis , im Namen der Gesellschaft mitsich im eigenen Namen oder als Vertretereines Dritten Rechtsgeschäfteabzuschließen ."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=313312&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Jankowiak , Berthold , Hemer ."
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -42,6 +36,15 @@
                     "name": "Gerhard"
                 },
                 "text": " Dr . Opitz , Gerhard , Marburg , * 24.10.1948 ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Hemer",
+                    "lastname": "Jankowiak",
+                    "name": "Berthold"
+                },
+                "text": " Jankowiak , Berthold , Hemer ."
             }
         ]
     }

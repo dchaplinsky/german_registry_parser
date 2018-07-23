@@ -19,7 +19,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Nicklaus , Heinz , Kaufmann , Günstadt , * 24.12.1925 ."
+                "text": "Cannot parse a PersonalPartner from  Nicklaus , Heinz , Kaufmann , Günstadt , * 24.12.1925 ., error text was Cannot parse DOB  Kaufmann  using regex"
             }
         ],
         "labels": [
@@ -31,7 +31,9 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "company_name": " Schiffer & Nicklaus Verwaltungs - GmbH , Grünstadt ( Amtsgericht Ludwigshafen am Rhein HRB 31029 ) ."
+                },
                 "text": " Schiffer & Nicklaus Verwaltungs - GmbH , Grünstadt ( Amtsgericht Ludwigshafen am Rhein HRB 31029 ) ."
             }
         ]

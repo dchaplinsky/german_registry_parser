@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=642404&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Kraushaar , Horst , St . Wendel / Hoof ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -62,6 +56,15 @@
                     "name": "Günther"
                 },
                 "text": " Schmidt , Günther , Nürnberg , * 11.03.1962 ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "St . Wendel / Hoof",
+                    "lastname": "Kraushaar",
+                    "name": "Horst"
+                },
+                "text": " Kraushaar , Horst , St . Wendel / Hoof ."
             },
             {
                 "class": "CommonProcuration",

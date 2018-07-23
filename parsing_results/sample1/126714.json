@@ -25,13 +25,17 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "company_name": " OVG Opitz Verwaltung GmbH , Rüdersdorf bei Berlin ( Amtsgericht Frankfurt ( Oder ) , HRB 15770 FF )"
+                },
+                "text": " OVG Opitz Verwaltung GmbH , Rüdersdorf bei Berlin ( Amtsgericht Frankfurt ( Oder ) , HRB 15770 FF )"
             },
             {
                 "class": "Owner",
-                "payload": {},
-                "text": " Persönlich haftender Gesellschafter : 1 ."
+                "payload": {
+                    "company_name": " Persönlich haftender Gesellschafter : OVG Opitz Verwaltung GmbH , Rüdersdorf bei Berlin ( Amtsgericht Frankfurt ( Oder ) , HRB 15770 FF )"
+                },
+                "text": " Persönlich haftender Gesellschafter : OVG Opitz Verwaltung GmbH , Rüdersdorf bei Berlin ( Amtsgericht Frankfurt ( Oder ) , HRB 15770 FF )"
             }
         ]
     }

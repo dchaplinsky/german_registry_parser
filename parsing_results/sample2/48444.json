@@ -45,14 +45,29 @@
         "labels": [
             {
                 "label": "misc",
-                "text": " 25.000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " 000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Wien / Österreich",
+                    "dob": "1969-06-17",
+                    "lastname": "Dr . Zartl",
+                    "name": "Alexander"
+                },
+                "text": " Dr . Zartl , Alexander , * 17.06.1969 , Wien / Österreich"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1966-05-29",
+                    "lastname": "Preetz",
+                    "name": "Silke"
+                },
+                "text": " Preetz , Silke , * 29.05.1966 , Berlin"
             }
         ]
     }

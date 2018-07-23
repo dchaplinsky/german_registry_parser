@@ -16,20 +16,42 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=107980&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Bartels , Bernd , * 08.02.1973 , Kaiser - Wilhelm - Koog"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a SingleProcuration from  Kahl , Lars Ulrich , * 20.06.1968 , Schwerte"
-            }
-        ],
         "flags": [
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Kaiser - Wilhelm - Koog",
+                    "dob": "1973-08-02",
+                    "lastname": "Bartels",
+                    "name": "Bernd"
+                },
+                "text": " Bartels , Bernd , * 08.02.1973 , Kaiser - Wilhelm - Koog"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Schwerte",
+                    "dob": "1968-06-20",
+                    "lastname": "Kahl",
+                    "name": "Lars Ulrich"
+                },
+                "text": " Kahl , Lars Ulrich , * 20.06.1968 , Schwerte"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Schwerte",
+                    "dob": "1968-06-20",
+                    "lastname": "Kahl",
+                    "name": "Lars Ulrich"
+                },
+                "text": " Kahl , Lars Ulrich , * 20.06.1968 , Schwerte"
             }
         ]
     }

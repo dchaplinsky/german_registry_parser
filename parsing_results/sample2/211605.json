@@ -25,13 +25,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Grube",
+                    "name": "Jürgen"
+                },
+                "text": " Grube , Jürgen"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Selmsdorf",
+                    "dob": "1969-08-16",
+                    "lastname": "Schumann",
+                    "name": "Dirk"
+                },
+                "text": " Schumann , Dirk , * 16.08.1969 , Selmsdorf"
             }
         ]
     }

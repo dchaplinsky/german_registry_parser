@@ -39,13 +39,29 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 9 ."
+                "payload": {
+                    "city": "Oberwaltersdorf / Österreich",
+                    "dob": "1965-12-27",
+                    "lastname": "Doll",
+                    "name": "Thomas"
+                },
+                "text": " Doll , Thomas , * 27.12.1965 , Oberwaltersdorf / Österreich"
             },
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "lastname": "Doll",
+                    "name": "Thomas"
+                },
+                "text": " Doll , Thomas"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Doll",
+                    "name": "Thomas"
+                },
+                "text": " Nicht mehr Prokurist : Doll , Thomas"
             }
         ]
     }

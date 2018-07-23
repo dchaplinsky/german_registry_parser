@@ -45,18 +45,33 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Dänischenhagen",
+                    "dob": "1971-07-29",
+                    "lastname": "Benthin",
+                    "name": "Niels"
+                },
+                "text": " Benthin , Niels , * 29.07.1971 , Dänischenhagen"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Plön",
+                    "dob": "1963-01-29",
+                    "lastname": "Hansen",
+                    "name": "Sven"
+                },
+                "text": " Hansen , Sven , * 29.01.1963 , Plön"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Heikendorf",
+                    "dob": "1972-08-06",
+                    "lastname": "Kühl",
+                    "name": "Bert"
+                },
+                "text": " Kühl , Bert , * 08.06.1972 , Heikendorf"
             }
         ]
     }

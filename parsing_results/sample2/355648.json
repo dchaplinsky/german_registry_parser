@@ -53,14 +53,19 @@
             },
             {
                 "label": "misc",
-                "text": " 25.000,00 EUR"
+                "text": " 000,00 EUR"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Pardes - Hana / Israel",
+                    "dob": "1973-07-21",
+                    "lastname": "Siani",
+                    "name": "Yossef"
+                },
+                "text": " Siani , Yossef , * 21.07.1973 , Pardes - Hana / Israel"
             }
         ]
     }

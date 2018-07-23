@@ -31,8 +31,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 5 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1966-01-21",
+                    "lastname": "Renner",
+                    "name": "Lars"
+                },
+                "text": " Renner , Lars , * 21.01.1966 , Berlin"
             }
         ]
     }

@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Schrader",
+                    "name": "Oliver"
+                },
+                "text": " Schrader , Oliver"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Lübeck",
+                    "dob": "1961-08-07",
+                    "lastname": "Ludewig",
+                    "name": "Bert"
+                },
+                "text": " Ludewig , Bert , * 08.07.1961 , Lübeck"
             }
         ]
     }

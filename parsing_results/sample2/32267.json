@@ -16,11 +16,10 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=32267&land_abk=sh"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "Owner",
-                "payload": {},
-                "text": " ."
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  ., error text was a person without DOB, number of chunks: 1"
             }
         ]
     }

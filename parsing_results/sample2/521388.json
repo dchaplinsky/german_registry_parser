@@ -39,11 +39,27 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Saarbrücken",
+                    "dob": "1974-07-25",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Chen",
+                    "name": "Zhou"
+                },
                 "text": " Chen , Zhou , Saarbrücken , * 25.07.1974 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "Saarbrücken",
+                    "dob": "1975-04-16",
+                    "lastname": "Aung",
+                    "name": "Ly"
+                },
+                "text": " Aung , Ly , Saarbrücken , * 16.04.1975 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "Saarbrücken",
                     "dob": "1975-04-16",

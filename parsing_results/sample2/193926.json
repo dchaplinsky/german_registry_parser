@@ -19,23 +19,45 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Jäpel",
+                    "name": "Jens"
+                },
+                "text": " Jäpel , Jens"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1957-04-19",
+                    "lastname": "Tappendorf",
+                    "name": "Frank"
+                },
+                "text": " Tappendorf , Frank , * 19.04.1957 , Hamburg"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Jaggy",
+                    "name": "Uwe"
+                },
                 "text": " Jaggy , Uwe"
             },
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "lastname": "Tappendorf",
+                    "name": "Frank"
+                },
+                "text": " Tappendorf , Frank"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Tappendorf",
+                    "name": "Frank"
+                },
+                "text": " Nicht mehr Prokurist : Tappendorf , Frank"
             }
         ]
     }

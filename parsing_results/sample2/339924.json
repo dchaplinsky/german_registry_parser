@@ -25,13 +25,29 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 6 ."
+                "payload": {
+                    "city": "Schierensee",
+                    "dob": "1970-09-16",
+                    "lastname": "Mohr",
+                    "name": "Thorsten"
+                },
+                "text": " Mohr , Thorsten , * 16.09.1970 , Schierensee"
             },
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "lastname": "Geringhoff",
+                    "name": "Jutta"
+                },
+                "text": " Geringhoff , Jutta"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Geringhoff",
+                    "name": "Jutta"
+                },
+                "text": " Nicht mehr Prokurist : Geringhoff , Jutta"
             }
         ]
     }

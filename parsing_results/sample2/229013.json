@@ -29,13 +29,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Sonnenberg",
+                    "name": "Herbert"
+                },
+                "text": " Sonnenberg , Herbert"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Bordelum",
+                    "dob": "1964-12-20",
+                    "lastname": "Böhnk",
+                    "name": "Ralf"
+                },
+                "text": " Böhnk , Ralf , * 20.12.1964 , Bordelum"
             }
         ]
     }

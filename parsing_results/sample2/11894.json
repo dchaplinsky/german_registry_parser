@@ -16,17 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=11894&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Hahn , Heinz Egon , Diplom - Betriebswirt , Wegberg ."
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Polmans , Dieter , Verwaltungsangestellter , Niederkrüchten ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Wegberg",
+                    "lastname": "Hahn",
+                    "name": "Heinz Egon",
+                    "position": "Diplom - Betriebswirt"
+                },
+                "text": " Hahn , Heinz Egon , Diplom - Betriebswirt , Wegberg ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {
@@ -37,6 +37,16 @@
                     "name": "Dieter"
                 },
                 "text": " Polmans , Dieter , Niederkrüchten , * 17.12.1958 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Niederkrüchten",
+                    "lastname": "Polmans",
+                    "name": "Dieter",
+                    "position": "Verwaltungsangestellter"
+                },
+                "text": " Polmans , Dieter , Verwaltungsangestellter , Niederkrüchten ."
             }
         ]
     }

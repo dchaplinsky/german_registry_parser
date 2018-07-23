@@ -47,8 +47,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1960-12-07",
+                    "lastname": "Frede - Bicici",
+                    "name": "Margit"
+                },
+                "text": " Frede - Bicici , Margit , * 12.07.1960 , Berlin"
             }
         ]
     }

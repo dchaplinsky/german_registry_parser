@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=693776&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Stöcker , Renate , Kauffrau , Düsseldorf ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -68,6 +62,16 @@
                     "name": "Max"
                 },
                 "text": " Stöcker , Max , Düsseldorf , * 26.10.1978 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "lastname": "Stöcker",
+                    "name": "Renate",
+                    "position": "Kauffrau"
+                },
+                "text": " Stöcker , Renate , Kauffrau , Düsseldorf ."
             },
             {
                 "class": "SingleProcuration",

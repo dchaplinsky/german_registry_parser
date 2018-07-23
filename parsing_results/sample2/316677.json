@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=316677&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  CAS Grau Verwaltungs GmbH , Höchstadt / Aisch ( AG Fürth HRB 7238 ) , mit der Befugnis - auch für die jeweiligen Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -32,6 +26,15 @@
             {
                 "label": "address",
                 "text": " Ailersbach 3 , 91315 Höchstadt / Aisch ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " CAS Grau Verwaltungs GmbH , Höchstadt / Aisch ( AG Fürth HRB 7238 ) , mit der Befugnis - auch für die jeweiligen Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " CAS Grau Verwaltungs GmbH , Höchstadt / Aisch ( AG Fürth HRB 7238 ) , mit der Befugnis - auch für die jeweiligen Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

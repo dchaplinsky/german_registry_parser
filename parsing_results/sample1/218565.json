@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=218565&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Joos , Erich , Glasermeister , Ruppertshofen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -37,8 +31,24 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Lorch",
+                    "dob": "1965-05-08",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Kolb",
+                    "name": "Andrea Maria"
+                },
                 "text": " Kolb , Andrea Maria , Lorch , * 05.08.1965 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Ruppertshofen",
+                    "lastname": "Joos",
+                    "name": "Erich",
+                    "position": "Glasermeister"
+                },
+                "text": " Joos , Erich , Glasermeister , Ruppertshofen ."
             }
         ]
     }

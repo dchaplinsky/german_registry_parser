@@ -16,20 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=130240&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Baars , Rüdiger , * 22.08.1974 , Braunschweig"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Murkisch , Wolfgang , * 11.05.1969 , Mönkeberg"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Heidbreder , Thomas , * 29.01.1966 , Kleinmachnow"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -80,6 +66,38 @@
             {
                 "label": "address",
                 "text": " Rheinstraße 17 B , 14513 Teltow"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Braunschweig",
+                    "dob": "1974-08-22",
+                    "lastname": "Baars",
+                    "name": "Rüdiger"
+                },
+                "text": " Baars , Rüdiger , * 22.08.1974 , Braunschweig"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Mönkeberg",
+                    "dob": "1969-11-05",
+                    "lastname": "Murkisch",
+                    "name": "Wolfgang"
+                },
+                "text": " Murkisch , Wolfgang , * 11.05.1969 , Mönkeberg"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Kleinmachnow",
+                    "dob": "1966-01-29",
+                    "lastname": "Heidbreder",
+                    "name": "Thomas"
+                },
+                "text": " Heidbreder , Thomas , * 29.01.1966 , Kleinmachnow"
             }
         ]
     }

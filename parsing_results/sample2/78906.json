@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=78906&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Friedrich , Michael , lndustriekaufmann , Börwang ."
-            }
-        ],
         "officers": [
             {
                 "class": "Owner",
@@ -32,6 +26,16 @@
                     "name": "Christina"
                 },
                 "text": " Preikschat , Christina , München , * 11.01.1946 ."
+            },
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Börwang",
+                    "lastname": "Friedrich",
+                    "name": "Michael",
+                    "position": "lndustriekaufmann"
+                },
+                "text": " Friedrich , Michael , lndustriekaufmann , Börwang ."
             }
         ]
     }

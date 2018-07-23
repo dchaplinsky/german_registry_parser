@@ -33,14 +33,19 @@
         "labels": [
             {
                 "label": "address",
-                "text": ""
+                "text": " Zeißstraße 38 a , 23623 Ratekau Vorstand : Geschäftsführer : Köppen , Detlev , * 06.06.1963 , Niendorf"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Niendorf",
+                    "dob": "1963-06-06",
+                    "lastname": "Köppen",
+                    "name": "Detlev"
+                },
+                "text": " Köppen , Detlev , * 06.06.1963 , Niendorf"
             }
         ]
     }

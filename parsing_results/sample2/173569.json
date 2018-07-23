@@ -69,18 +69,35 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Husum",
+                    "dob": "1942-03-12",
+                    "flag": "Apotheker",
+                    "lastname": "Articus",
+                    "name": "Volker"
+                },
+                "text": " Articus , Volker , * 03.12.1942 , Husum , Apotheker"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Husum",
+                    "dob": "1961-01-17",
+                    "lastname": "Cohrs",
+                    "name": "Peter"
+                },
+                "text": " Cohrs , Peter , * 17.01.1961 , Husum"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Husum",
+                    "dob": "1966-05-31",
+                    "flag": "Kaufmann",
+                    "lastname": "Seikowsky",
+                    "name": "Alexander Rothgordt"
+                },
+                "text": " Seikowsky , Alexander Rothgordt , * 31.05.1966 , Husum , Kaufmann"
             }
         ]
     }

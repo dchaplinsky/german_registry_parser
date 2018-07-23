@@ -35,8 +35,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Kastorf",
+                    "dob": "1975-05-31",
+                    "lastname": "Heise",
+                    "name": "Sebastian"
+                },
+                "text": " Heise , Sebastian , * 31.05.1975 , Kastorf"
             }
         ]
     }

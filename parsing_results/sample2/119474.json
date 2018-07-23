@@ -55,13 +55,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Norderstedt",
+                    "dob": "1959-07-19",
+                    "lastname": "Kohle",
+                    "name": "Thomas"
+                },
+                "text": " Kohle , Thomas , * 19.07.1959 , Norderstedt"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Norderstedt",
+                    "dob": "1966-11-01",
+                    "lastname": "Lohmeier",
+                    "name": "Holger"
+                },
+                "text": " Lohmeier , Holger , * 11.01.1966 , Norderstedt"
             }
         ]
     }

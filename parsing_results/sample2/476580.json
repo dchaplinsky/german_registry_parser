@@ -31,8 +31,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1962-03-26",
+                    "lastname": "Prof . Dr . Rasmussen - Bonne",
+                    "name": "Hans - Eric"
+                },
+                "text": " Prof . Dr . Rasmussen - Bonne , Hans - Eric , * 26.03.1962 , Berlin"
             }
         ]
     }

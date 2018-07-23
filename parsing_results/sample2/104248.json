@@ -45,18 +45,23 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Muskauer Straße 1 , 10997 Berlin Gegenstand : Der gastronomische Betrieb eines Restaurants nach Erteilung der erforderlichen Erlaubnis sowie Handel mit Spirituosen und Lebensmitteln ."
             },
             {
                 "label": "misc",
-                "text": " 25.000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " 000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1973-11-09",
+                    "lastname": "Dengg",
+                    "name": "Renate"
+                },
+                "text": " Dengg , Renate , * 11.09.1973 , Berlin"
             }
         ]
     }

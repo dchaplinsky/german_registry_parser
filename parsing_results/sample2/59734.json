@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=59734&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Rein , Erhard , * 06.11.1959 , Rahden"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -44,6 +38,18 @@
             {
                 "label": "address",
                 "text": " Berliner Straße 52 , 15806 Zossen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Rahden",
+                    "dob": "1959-06-11",
+                    "lastname": "Rein",
+                    "name": "Erhard"
+                },
+                "text": " Rein , Erhard , * 06.11.1959 , Rahden"
             }
         ]
     }

@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=132048&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Bode , Hans - Benno , Malermeister , Hildesheim"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Bode , Hannelore , Hildesheim ."
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
@@ -38,6 +28,16 @@
         ],
         "officers": [
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hildesheim",
+                    "lastname": "Bode",
+                    "name": "Hans - Benno",
+                    "position": "Malermeister"
+                },
+                "text": " Bode , Hans - Benno , Malermeister , Hildesheim"
+            },
+            {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Everode",
@@ -47,6 +47,15 @@
                     "name": "Martin"
                 },
                 "text": " Bode , Martin , Everode , * 19.02.1968 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Hildesheim",
+                    "lastname": "Bode",
+                    "name": "Hannelore"
+                },
+                "text": " Bode , Hannelore , Hildesheim ."
             }
         ]
     }

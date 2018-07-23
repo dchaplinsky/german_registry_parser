@@ -25,8 +25,13 @@
         "officers": [
             {
                 "class": "Owner",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1955-12-07",
+                    "lastname": "Dr . Kues",
+                    "name": "Jörg - Werner Hermann Walter"
+                },
+                "text": " Dr . Kues , Jörg - Werner Hermann Walter , * 12.07.1955 , Bremen ."
             }
         ]
     }

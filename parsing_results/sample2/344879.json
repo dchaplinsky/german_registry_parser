@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=344879&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Alt , Andrea , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Sole trader",
@@ -32,6 +26,18 @@
             {
                 "label": "address",
                 "text": " Wilhelm Raabe - Str ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Forchheim",
+                    "dob": "1967-04-16",
+                    "lastname": "Alt",
+                    "name": "Andrea geborene Ulitzka"
+                },
+                "text": " Alt , Andrea geborene Ulitzka , Forchheim , * 16.04.1967 ."
             }
         ]
     }

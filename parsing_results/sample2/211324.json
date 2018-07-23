@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Haible",
+                    "name": "Katrin"
+                },
+                "text": " Haible , Katrin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Murnau",
+                    "dob": "1973-05-13",
+                    "lastname": "Dauster - Hering",
+                    "name": "Barbara geborene Hering"
+                },
+                "text": " Dauster - Hering , Barbara geborene Hering , * 13.05.1973 , Murnau"
             }
         ]
     }

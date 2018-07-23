@@ -19,11 +19,15 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Vossius - Irshaid , Erik Lambert , Salzburg , Österreich , * 19.11.1960 ."
+                "text": "Cannot parse a ManagingDirector from  Vossius - Irshaid , Erik Lambert , Salzburg , Österreich , * 19.11.1960 ., error text was Cannot parse DOB  Salzburg  using regex"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a SingleProcuration from  Vossius - Irshaid , Erik Lambert , Salzburg , Österreich , * 19.11.1960 ."
+                "text": "Cannot parse a SingleProcuration from  Vossius - Irshaid , Erik Lambert , Salzburg , Österreich , * 19.11.1960 ., error text was Cannot parse DOB  Salzburg  using regex"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Procuration from  Vossius - Irshaid , Erik Lambert , Salzburg , Österreich , * 19.11.1960 ., error text was Cannot parse DOB  Salzburg  using regex"
             }
         ],
         "flags": [

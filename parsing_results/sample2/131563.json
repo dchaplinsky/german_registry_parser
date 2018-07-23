@@ -47,8 +47,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Klein Bennebek",
+                    "dob": "1956-04-19",
+                    "lastname": "Wagener",
+                    "name": "Günther"
+                },
+                "text": " Wagener , Günther , * 19.04.1956 , Klein Bennebek"
             }
         ]
     }

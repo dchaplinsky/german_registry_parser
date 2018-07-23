@@ -33,8 +33,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 5 ."
+                "payload": {
+                    "city": "Stuhr",
+                    "dob": "1968-07-02",
+                    "lastname": "Brauner",
+                    "name": "Axel"
+                },
+                "text": " Brauner , Axel , * 07.02.1968 , Stuhr"
             }
         ]
     }

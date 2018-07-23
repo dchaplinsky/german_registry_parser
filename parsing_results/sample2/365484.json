@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=365484&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Janz , Jürgen , Diplom - Betriebswirt , Appenheim ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
@@ -29,6 +23,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Appenheim",
+                    "lastname": "Janz",
+                    "name": "Jürgen",
+                    "position": "Diplom - Betriebswirt"
+                },
+                "text": " Janz , Jürgen , Diplom - Betriebswirt , Appenheim ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

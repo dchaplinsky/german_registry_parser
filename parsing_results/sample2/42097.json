@@ -25,14 +25,19 @@
         "labels": [
             {
                 "label": "address",
-                "text": ""
+                "text": " Frankfurter Str ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Turnow - Preilack OT Turnow",
+                    "dob": "1961-11-08",
+                    "lastname": "Schulz",
+                    "name": "Karsten"
+                },
+                "text": " Schulz , Karsten , * 11.08.1961 , Turnow - Preilack OT Turnow"
             }
         ]
     }

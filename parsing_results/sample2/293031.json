@@ -35,23 +35,47 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Ringleb",
+                    "name": "Wolfgang Carl"
+                },
+                "text": " Ringleb , Wolfgang Carl"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1982-12-24",
+                    "lastname": "Hagemann",
+                    "name": "Jens - Carsten"
+                },
+                "text": " Hagemann , Jens - Carsten , * 24.12.1982 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Hennigsdorf",
+                    "dob": "1959-08-25",
+                    "lastname": "Marquardt",
+                    "name": "Jörg"
+                },
+                "text": " Marquardt , Jörg , * 25.08.1959 , Hennigsdorf"
             },
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Hagemann",
+                    "name": "Jens - Carsten"
+                },
+                "text": " Hagemann , Jens - Carsten"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Hagemann",
+                    "name": "Jens - Carsten"
+                },
+                "text": " Nicht mehr Prokurist : Hagemann , Jens - Carsten"
             }
         ]
     }

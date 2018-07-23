@@ -16,16 +16,19 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=132350&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Mattil Beteiligungs GmbH , Lambrecht / Pfalz ( Amtsgericht Ludwigshafen am Rhein HR B 41652 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
                 "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "company_name": " Mattil Beteiligungs GmbH , Lambrecht / Pfalz ( Amtsgericht Ludwigshafen am Rhein HR B 41652 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " Mattil Beteiligungs GmbH , Lambrecht / Pfalz ( Amtsgericht Ludwigshafen am Rhein HR B 41652 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

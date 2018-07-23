@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=175307&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  MS \" Atair \" Verwaltungs - GmbH , Elsfleth ( Oldenburg HRB 205774 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -35,6 +29,13 @@
             }
         ],
         "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " MS \" Atair \" Verwaltungs - GmbH , Elsfleth ( Oldenburg HRB 205774 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " MS \" Atair \" Verwaltungs - GmbH , Elsfleth ( Oldenburg HRB 205774 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
             {
                 "class": "PersonalPartner",
                 "payload": {

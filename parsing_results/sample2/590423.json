@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=590423&land_abk=bw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Jedele , Bianca , geb ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Neuenstadt am Kocher",
+                    "dob": "1967-08-13",
+                    "lastname": "Jedele",
+                    "name": "Bianca geborene Bortt"
+                },
+                "text": " Jedele , Bianca geborene Bortt , Neuenstadt am Kocher , * 13.08.1967 ."
             }
         ]
     }

@@ -53,14 +53,19 @@
             },
             {
                 "label": "misc",
-                "text": " 25.000,00 EUR"
+                "text": " 000,00 EUR"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Fredersdorf - Vogelsdorf",
+                    "dob": "1970-12-08",
+                    "lastname": "Busch",
+                    "name": "Torsten"
+                },
+                "text": " Busch , Torsten , * 12.08.1970 , Fredersdorf - Vogelsdorf"
             }
         ]
     }

@@ -16,17 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=151135&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Immovesta Beteiligung GmbH , Trier ( Amtsgericht Wittlich HRB 42562 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "company_name": " Immovesta Beteiligung GmbH , Trier ( Amtsgericht Wittlich HRB 4329 ) ."
+                },
                 "text": " Immovesta Beteiligung GmbH , Trier ( Amtsgericht Wittlich HRB 4329 ) ."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Immovesta Beteiligung GmbH , Trier ( Amtsgericht Wittlich HRB 42562 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " Immovesta Beteiligung GmbH , Trier ( Amtsgericht Wittlich HRB 42562 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

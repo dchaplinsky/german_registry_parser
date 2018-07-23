@@ -33,18 +33,31 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Vieth",
+                    "name": "Julia"
+                },
+                "text": " Vieth , Julia"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Tel - Aviv / Israel",
+                    "dob": "1953-05-11",
+                    "lastname": "Dolev",
+                    "name": "Ben Zion"
+                },
+                "text": " Dolev , Ben Zion , * 05.11.1953 , Tel - Aviv / Israel"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Tel - Aviv / Israel",
+                    "dob": "1962-08-02",
+                    "lastname": "Erez",
+                    "name": "Ben - Nun"
+                },
+                "text": " Erez , Ben - Nun , * 08.02.1962 , Tel - Aviv / Israel"
             }
         ]
     }

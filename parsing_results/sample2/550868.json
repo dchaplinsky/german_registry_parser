@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=550868&land_abk=he"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Lloyd , Samuel Robson John , Whixley , North Yorkshire / Vereinigtes Königreich , * 15.11.1984 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Whixley  using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -38,13 +44,6 @@
             {
                 "label": "address",
                 "text": " c / o Michael Williams , Regus Frankfurt An der Messe , Platz der Einheit 1 , 60327 Frankfurt am Main ."
-            }
-        ],
-        "officers": [
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Lloyd , Samuel Robson John , Whixley , North Yorkshire / Vereinigtes Königreich , * 15.11.1984 , einzelvertretungsberechtigt"
             }
         ]
     }

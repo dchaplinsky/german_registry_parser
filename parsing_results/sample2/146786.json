@@ -16,16 +16,22 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=146786&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Behrendt , Sabine , * 29.11.1954 , Rathenow"
-            }
-        ],
         "labels": [
             {
                 "label": "address",
                 "text": " Friedrich - Engels - Straße 5 a , 14727 Premnitz"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Rathenow",
+                    "dob": "1954-11-29",
+                    "lastname": "Behrendt",
+                    "name": "Sabine"
+                },
+                "text": " Behrendt , Sabine , * 29.11.1954 , Rathenow"
             }
         ]
     }

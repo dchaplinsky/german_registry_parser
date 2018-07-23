@@ -47,8 +47,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1960-07-16",
+                    "lastname": "Marxen",
+                    "name": "Franz - Josef"
+                },
+                "text": " Marxen , Franz - Josef , * 16.07.1960 , Berlin"
             }
         ]
     }

@@ -51,13 +51,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Elmshorn",
+                    "dob": "1988-09-07",
+                    "lastname": "Schwabe",
+                    "name": "Björn"
+                },
+                "text": " Schwabe , Björn , * 09.07.1988 , Elmshorn"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1953-06-26",
+                    "lastname": "Dr . Schwabe",
+                    "name": "Bernhard"
+                },
+                "text": " Dr . Schwabe , Bernhard , * 26.06.1953 , Hamburg"
             }
         ]
     }

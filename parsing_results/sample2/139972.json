@@ -33,23 +33,31 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Scharfenberger Str ."
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Scharfenberger Str ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Roggenbach",
+                    "name": "Andreas"
+                },
+                "text": " Roggenbach , Andreas"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1964-05-13",
+                    "lastname": "Albrecht",
+                    "name": "Wolfgang"
+                },
+                "text": " Albrecht , Wolfgang , * 13.05.1964 , Berlin"
             }
         ]
     }

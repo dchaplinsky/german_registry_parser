@@ -31,13 +31,21 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Gönnebek",
+                    "dob": "1972-02-02",
+                    "lastname": "Doose",
+                    "name": "Kai"
+                },
+                "text": " Doose , Kai , * 02.02.1972 , Gönnebek"
             },
             {
                 "class": "PersonalPartner",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Jantzen",
+                    "name": "Keno"
+                },
+                "text": " Jantzen , Keno"
             }
         ]
     }

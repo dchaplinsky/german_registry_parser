@@ -19,7 +19,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Lotz , Nicole , geb ."
+                "text": "Cannot parse a ManagingDirector from  Curtis , Andrew Craige , London , Großbritannien , * 27.08.1952 , einzelvertretungsberechtigt, error text was Cannot parse DOB  London  using regex"
             }
         ],
         "flags": [
@@ -31,8 +31,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " Curtis , Andrew Craige , London , Großbritannien , * 27.08.1952 , einzelvertretungsberechtigt"
+                "payload": {
+                    "city": "München",
+                    "dob": "1969-07-06",
+                    "lastname": "Lotz",
+                    "name": "Nicole geborene Liebera"
+                },
+                "text": " Lotz , Nicole geborene Liebera , München , * 07.06.1969 ."
             }
         ]
     }

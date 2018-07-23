@@ -16,16 +16,19 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=18830&land_abk=st"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  ATB Verwaltungs - GmbH , Lindau ( AG Stendal , HRB 7831 ) ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
                 "text": "Kommanditgesellschaft ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " ATB Verwaltungs - GmbH , Lindau ( AG Stendal , HRB 7831 ) ."
+                },
+                "text": " ATB Verwaltungs - GmbH , Lindau ( AG Stendal , HRB 7831 ) ."
             }
         ]
     }

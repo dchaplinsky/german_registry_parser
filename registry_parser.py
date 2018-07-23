@@ -2,6 +2,7 @@
 import os.path
 import re
 from collections import defaultdict
+from itertools import chain
 
 from dateutil.parser import parse as dt_parse
 from nltk import data
@@ -65,7 +66,11 @@ class Error(object):
 class FullPerson(object):
     kls = "Person"
     kind = "officers"
-    translations = {"einzelvertretungsberechtigt": "sole representation"}
+    translations = {
+        "einzelvertretungsberechtigt": "sole representation",
+        "mit der befugnis , im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen":
+        "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party"
+    }
 
     @staticmethod
     def parse_dob(dob):
@@ -74,7 +79,18 @@ class FullPerson(object):
         if m:
             return dt_parse(m.group(0).strip("* ;.")).date()
         else:
-            raise ValueError()
+            raise ValueError("Cannot parse DOB {} using regex".format(dob))
+
+    @classmethod
+    def parse_dob_and_city(cls, chunk1, chunk2):
+        try:
+            dob = cls.parse_dob(chunk2)
+            city = chunk1.strip(" *;.")
+        except ValueError:
+            dob = cls.parse_dob(chunk1)
+            city = chunk2.strip(" *;.")
+
+        return city, dob
 
     def __init__(self, text):
         self.text = text
@@ -83,11 +99,62 @@ class FullPerson(object):
         self.payload = {}
 
         try:
-            if len(chunks) == 4:
+            dob_position = None
+            for i, c in enumerate(chunks):
+                if dob_regex.search(c.strip(" ;.")):
+                    dob_position = i
+                    break
+
+            if dob_position is None:
+                if " gmbh" in self.text.lower() or " mbh" in self.text.lower():
+                    self.company_name = self.text
+                    self.payload = {
+                        "company_name": self.company_name,
+                    }
+                    self.description = "\nCompanyName: {}".format(self.company_name)
+                else:
+                    if len(chunks) == 2:
+                        self.lastname = chunks[0].strip(" *;.")
+                        self.name = chunks[1].strip(" *;.")
+                        self.payload = {
+                            "name": self.name,
+                            "lastname": self.lastname,
+                        }
+                        self.description = "\nFirstname: {},\nLastname: {}".format(
+                            self.name, self.lastname
+                        )
+                    elif len(chunks) == 3:
+                        self.lastname = chunks[0].strip(" *;.")
+                        self.name = chunks[1].strip(" *;.")
+                        self.city = chunks[2].strip(" *;.")
+                        self.payload = {
+                            "name": self.name,
+                            "lastname": self.lastname,
+                            "city": self.city,
+                        }
+                        self.description = "\nFirstname: {},\nLastname: {},\nCity: {}".format(
+                            self.name, self.lastname, self.city
+                        )
+                    elif len(chunks) == 4:
+                        self.lastname = chunks[0].strip(" *;.")
+                        self.name = chunks[1].strip(" *;.")
+                        self.position = chunks[2].strip(" *;.")
+                        self.city = chunks[3].strip(" *;.")
+                        self.payload = {
+                            "name": self.name,
+                            "lastname": self.lastname,
+                            "position": self.position,
+                            "city": self.city,
+                        }
+                        self.description = "\nFirstname: {},\nLastname: {},\nCity: {},\nPosition: {}".format(
+                            self.name, self.lastname, self.city, self.position
+                        )
+                    else:
+                        raise ValueError("a person without DOB, number of chunks: {}".format(len(chunks)))
+            elif len(chunks) == 4:
                 self.lastname = chunks[0].strip(" *;.")
                 self.name = chunks[1].strip(" *;.")
-                self.city = chunks[2].strip(" *;.")
-                self.dob = self.parse_dob(chunks[3])
+                self.city, self.dob = self.parse_dob_and_city(chunks[2], chunks[3])
                 self.payload = {
                     "name": self.name,
                     "lastname": self.lastname,
@@ -97,14 +164,31 @@ class FullPerson(object):
                 self.description = "\nFirstname: {},\nLastname: {},\nCity: {},\nDOB: {}".format(
                     self.name, self.lastname, self.city, self.dob
                 )
-            if len(chunks) == 5:
+            elif len(chunks) == 5:
                 self.lastname = chunks[0].strip(" *;.")
                 self.name = chunks[1].strip(" *;.")
-                self.city = chunks[2].strip(" *;.")
-                self.dob = self.parse_dob(chunks[3])
+                self.city, self.dob = self.parse_dob_and_city(chunks[2], chunks[3])
                 self.flag = chunks[4].strip(" *;.")
                 if self.flag in self.translations:
                     self.flag = self.translations[self.flag]
+
+                self.payload = {
+                    "name": self.name,
+                    "lastname": self.lastname,
+                    "city": self.city,
+                    "dob": self.dob,
+                    "flag": self.flag,
+                }
+                self.description = "\nFirstname: {},\nLastname: {},\nCity: {},\nDOB: {},\nFlag: {}".format(
+                    self.name, self.lastname, self.city, self.dob, self.flag
+                )
+            elif len(chunks) == 6:
+                self.lastname = chunks[0].strip(" *;.")
+                self.name = chunks[1].strip(" *;.")
+                self.city, self.dob = self.parse_dob_and_city(chunks[2], chunks[3])
+                self.flag = (chunks[4] + chunks[5]).strip(" *;.")
+                if self.flag.lower() in self.translations:
+                    self.flag = self.translations[self.flag.lower()]
 
                 self.payload = {
                     "name": self.name,
@@ -129,8 +213,10 @@ class FullPerson(object):
                 self.description = "\nFirstname: {},\nLastname: {},\nDOB: {}".format(
                     self.name, self.lastname, self.dob
                 )
-        except ValueError:
-            raise ParsingError("Cannot parse a {} from {}".format(self.kls, text))
+            else:
+                raise ValueError("no valid patter found, number of chunks: {}".format(len(chunks)))
+        except ValueError as e:
+            raise ParsingError("Cannot parse a {} from {}, error text was {}".format(self.kls, text, e))
 
     def to_dict(self):
         return {"class": self.kls, "text": self.text, "payload": self.payload}
@@ -152,6 +238,10 @@ class Owner(FullPerson):
 
 class SingleProcuration(FullPerson):
     kls = "SingleProcuration"
+
+
+class Procuration(FullPerson):
+    kls = "Procuration"
 
 
 class NewProcuration(FullPerson):
@@ -237,6 +327,8 @@ sentences = [
     Sentence("geschäftsführerin :", assign_label_to_postfix=ManagingDirector),
     Sentence("Einzelprokura :", assign_label_to_postfix=SingleProcuration),
     Sentence("einzelprokura :", assign_label_to_postfix=SingleProcuration),
+    Sentence("Prokura :", assign_label_to_postfix=Procuration),
+    Sentence("prokura :", assign_label_to_postfix=Procuration),
     Sentence("Bestellt Vorstand :", assign_label_to_postfix=AppointedBoard),
     Sentence("bestellt vorstand :", assign_label_to_postfix=AppointedBoard),
     Sentence("Ausgeschieden Vorstand :", assign_label_to_postfix=RemovedFromBoard),
@@ -362,12 +454,16 @@ def parse_document(doc: dict) -> (defaultdict, tuple):
             errors.append("Cannot parse an event type out of text {}".format(text))
             useful_text = text  # type: str
 
+    useful_text = useful_text.replace(":; ", ": ")
+    useful_text = useful_text.replace(", geb.", " geborene")
+    useful_text = re.sub(r":\s\d+\.", ":", useful_text)
     sents = _german_tokenizer.tokenize(useful_text)  # type: tuple
     res = defaultdict(list)
 
     if errors:
         res["errors"] = errors
 
-    map(lambda v: res[v.kind].append(v), map(_parse_normalized, _get_normalized(sents)))
+    for v in chain.from_iterable(map(_parse_normalized, _get_normalized(sents))):
+        res[v.kind].append(v.to_dict())
 
     return res, sents

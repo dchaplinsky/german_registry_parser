@@ -47,13 +47,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "lastname": "Lorenz",
+                    "name": "Andreas"
+                },
+                "text": " Lorenz , Andreas"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1965-03-07",
+                    "lastname": "Engels",
+                    "name": "André"
+                },
+                "text": " Engels , André , * 03.07.1965 , Berlin"
             }
         ]
     }

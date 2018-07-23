@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=227918&land_abk=he"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  de Ruijter , Nicolaas Woltherus , PB Beverwijk , Niederlande , * 22.04.1964 , einzelvertretungsberechtigt, error text was Cannot parse DOB  PB Beverwijk  using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -38,13 +44,6 @@
             {
                 "label": "address",
                 "text": " Solzstraße 7 , 36132 Eiterfeld ."
-            }
-        ],
-        "officers": [
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " de Ruijter , Nicolaas Woltherus , PB Beverwijk , Niederlande , * 22.04.1964 , einzelvertretungsberechtigt"
             }
         ]
     }

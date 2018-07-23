@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=211885&land_abk=sh"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Wockenfuß , Thorsten , * 02.08.1967 , Hamburg"
+                "class": "Owner",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1967-02-08",
+                    "lastname": "Wockenfuß",
+                    "name": "Thorsten"
+                },
+                "text": " Wockenfuß , Thorsten , * 02.08.1967 , Hamburg"
             }
         ]
     }

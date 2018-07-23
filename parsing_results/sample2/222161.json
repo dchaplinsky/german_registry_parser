@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=222161&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Menken , Andreas , * 05.07.1964 , Trittau"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -34,6 +28,18 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Trittau",
+                    "dob": "1964-05-07",
+                    "lastname": "Menken",
+                    "name": "Andreas"
+                },
+                "text": " Menken , Andreas , * 05.07.1964 , Trittau"
             }
         ]
     }

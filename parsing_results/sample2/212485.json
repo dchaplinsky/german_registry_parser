@@ -25,8 +25,13 @@
         "officers": [
             {
                 "class": "Owner",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1953-06-07",
+                    "lastname": "Brandt",
+                    "name": "Andreas Wolfram"
+                },
+                "text": " Brandt , Andreas Wolfram , * 06.07.1953 , Hamburg"
             }
         ]
     }

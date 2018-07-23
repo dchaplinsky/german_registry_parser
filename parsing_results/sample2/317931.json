@@ -51,13 +51,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Hosemann",
+                    "name": "Klaus Karl Roland"
+                },
+                "text": " Hosemann , Klaus Karl Roland"
             },
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1949-12-09",
+                    "lastname": "Otte",
+                    "name": "Horst"
+                },
+                "text": " Otte , Horst , * 12.09.1949 , Berlin"
             }
         ]
     }

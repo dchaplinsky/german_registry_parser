@@ -31,8 +31,19 @@
         "officers": [
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Blaeßius",
+                    "name": "Kurt Erich"
+                },
+                "text": " Blaeßius , Kurt Erich"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Blaeßius",
+                    "name": "Kurt Erich"
+                },
+                "text": " Nicht mehr Prokurist : Blaeßius , Kurt Erich"
             }
         ]
     }

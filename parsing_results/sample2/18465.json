@@ -35,13 +35,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Pensky",
+                    "name": "Erik Arwed"
+                },
+                "text": " Pensky , Erik Arwed ."
             },
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1934-12-04",
+                    "lastname": "Dr . Küch",
+                    "name": "Friedrich"
+                },
+                "text": " Dr . Küch , Friedrich , * 12.04.1934 , Bremen"
             }
         ]
     }

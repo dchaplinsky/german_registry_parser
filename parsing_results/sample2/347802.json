@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=347802&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Elektro - Meisterbetrieb Unterholzner & Dirmeier GmbH , ( Amtsgericht Landshut , HRB 6863 ) ."
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
@@ -44,6 +38,13 @@
                     "name": "Helmut"
                 },
                 "text": " Unterholzner , Helmut , Dingolfing , * 05.07.1942 ."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Elektro - Meisterbetrieb Unterholzner & Dirmeier GmbH , ( Amtsgericht Landshut , HRB 6863 ) ."
+                },
+                "text": " Elektro - Meisterbetrieb Unterholzner & Dirmeier GmbH , ( Amtsgericht Landshut , HRB 6863 ) ."
             },
             {
                 "class": "PersonalPartner",

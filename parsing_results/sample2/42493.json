@@ -16,16 +16,22 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=42493&land_abk=hb"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Fix , Frank , * 26.08.1970 , Remchingen"
-            }
-        ],
         "labels": [
             {
                 "label": "WHUT",
                 "text": " BFJ Invest KGaA , Bremen , Fedelhören 76 , 28203 Bremen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Remchingen",
+                    "dob": "1970-08-26",
+                    "lastname": "Fix",
+                    "name": "Frank"
+                },
+                "text": " Fix , Frank , * 26.08.1970 , Remchingen"
             }
         ]
     }

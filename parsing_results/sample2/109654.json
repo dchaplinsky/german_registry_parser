@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=109654&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Berge , Thomas , * 23.03.1969 , Bad Freienwalde ( Oder )"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -40,6 +34,18 @@
             {
                 "label": "address",
                 "text": " Kietz 33 , 16259 Bad Freienwalde ( Oder )"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bad Freienwalde ( Oder )",
+                    "dob": "1969-03-23",
+                    "lastname": "Berge",
+                    "name": "Thomas"
+                },
+                "text": " Berge , Thomas , * 23.03.1969 , Bad Freienwalde ( Oder )"
             }
         ]
     }

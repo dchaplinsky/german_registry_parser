@@ -41,14 +41,19 @@
         "labels": [
             {
                 "label": "misc",
-                "text": " 25.500,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " 500,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1948-02-21",
+                    "lastname": "Scheer",
+                    "name": "Joachim"
+                },
+                "text": " Scheer , Joachim , * 21.02.1948 , Berlin"
             }
         ]
     }

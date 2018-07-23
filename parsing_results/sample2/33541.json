@@ -33,14 +33,19 @@
         "labels": [
             {
                 "label": "misc",
-                "text": " 25.000 EUR Geschäftsführer :"
+                "text": " 000 EUR Geschäftsführer : Kestner , Simone geborene Mackeldey , * 03.01.1966 , Berlin"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1966-03-01",
+                    "lastname": "Kestner",
+                    "name": "Simone geborene Mackeldey"
+                },
+                "text": " Kestner , Simone geborene Mackeldey , * 03.01.1966 , Berlin"
             }
         ]
     }

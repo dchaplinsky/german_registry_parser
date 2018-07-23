@@ -16,16 +16,23 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=116430&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Schumacher , Kerstin , geb ."
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Neuruppin",
+                    "dob": "1967-02-23",
+                    "lastname": "Schumacher",
+                    "name": "Kerstin geborene Wende"
+                },
+                "text": " Schumacher , Kerstin geborene Wende , * 23.02.1967 , Neuruppin ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "Lehmann",
+                    "name": "Erika"
+                },
                 "text": " Lehmann , Erika"
             }
         ]

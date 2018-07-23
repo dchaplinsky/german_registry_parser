@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1023639&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Generalow , Olga , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -44,6 +38,19 @@
             {
                 "label": "address",
                 "text": " Edisonstr ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Nürnberg",
+                    "dob": "1986-01-13",
+                    "flag": "sole representation",
+                    "lastname": "Generalow",
+                    "name": "Olga geborene Artyomova"
+                },
+                "text": " Generalow , Olga geborene Artyomova , Nürnberg , * 13.01.1986 , einzelvertretungsberechtigt"
             }
         ]
     }

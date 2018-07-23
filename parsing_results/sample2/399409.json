@@ -45,14 +45,19 @@
             },
             {
                 "label": "misc",
-                "text": " 25.000,00 EUR"
+                "text": " 000,00 EUR"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1984-05-21",
+                    "lastname": "Kaplan",
+                    "name": "Idan"
+                },
+                "text": " Kaplan , Idan , * 21.05.1984 , Berlin"
             }
         ]
     }

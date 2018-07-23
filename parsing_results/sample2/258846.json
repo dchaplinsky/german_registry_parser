@@ -37,13 +37,34 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1982-12-15",
+                    "lastname": "Duman",
+                    "name": "Mehtap"
+                },
+                "text": " Duman , Mehtap , * 15.12.1982 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Sinan",
+                    "dob": "1973-01-01",
+                    "flag": "Berlin",
+                    "lastname": "Meral",
+                    "name": "Erol Prokura : Artuc"
+                },
+                "text": " Meral , Erol Prokura : Artuc , Sinan , * 01.01.1973 , Berlin"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1973-01-01",
+                    "lastname": "Artuc",
+                    "name": "Sinan"
+                },
+                "text": " Artuc , Sinan , * 01.01.1973 , Berlin"
             }
         ]
     }

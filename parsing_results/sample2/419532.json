@@ -43,13 +43,23 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Birkenwerder",
+                    "dob": "1968-10-21",
+                    "lastname": "Groeneveld",
+                    "name": "Michael"
+                },
+                "text": " Groeneveld , Michael , * 21.10.1968 , Birkenwerder"
             },
             {
                 "class": "PersonalPartner",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1962-04-03",
+                    "lastname": "Lorenz",
+                    "name": "Oliver"
+                },
+                "text": " Lorenz , Oliver , * 04.03.1962 , Berlin"
             }
         ]
     }

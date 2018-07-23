@@ -16,17 +16,34 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=3766&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Schnell , Detlef , * 30.03.1950 , Düsseldorf ."
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Dauer",
+                    "name": "Axel"
+                },
                 "text": " Dauer , Axel"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "dob": "1950-03-30",
+                    "lastname": "Schnell",
+                    "name": "Detlef"
+                },
+                "text": " Schnell , Detlef , * 30.03.1950 , Düsseldorf ."
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Brüggen",
+                    "dob": "1948-11-12",
+                    "lastname": "Hue",
+                    "name": "Helmut"
+                },
+                "text": " Hue , Helmut , * 11.12.1948 , Brüggen"
             }
         ]
     }

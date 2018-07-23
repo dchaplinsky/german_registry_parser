@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=37831&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Kewitz , Hans - Jürgen , * 10.05.1964 , Berlin"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -41,7 +35,20 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1964-10-05",
+                    "lastname": "Kewitz",
+                    "name": "Hans - Jürgen"
+                },
+                "text": " Kewitz , Hans - Jürgen , * 10.05.1964 , Berlin"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "Hellwig",
+                    "name": "Herbert"
+                },
                 "text": " Hellwig , Herbert .."
             }
         ]

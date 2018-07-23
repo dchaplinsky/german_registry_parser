@@ -71,13 +71,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1964-02-07",
+                    "lastname": "Prinz",
+                    "name": "Andrea"
+                },
+                "text": " Prinz , Andrea , * 02.07.1964 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1978-11-10",
+                    "lastname": "Weisbrich",
+                    "name": "Sina"
+                },
+                "text": " Weisbrich , Sina , * 11.10.1978 , Berlin"
             }
         ]
     }

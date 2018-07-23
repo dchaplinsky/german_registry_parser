@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=26800&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Ossenberg , Marianne , Iserlohn ."
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
@@ -38,6 +32,15 @@
                     "name": "Ursula"
                 },
                 "text": " Ossenberg - Falkenroth , Ursula , Iserlohn , * 08.12.1948 ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Iserlohn",
+                    "lastname": "Ossenberg",
+                    "name": "Marianne"
+                },
+                "text": " Ossenberg , Marianne , Iserlohn ."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1203049&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  GSI Solarfonds Zwei Verwaltungs GmbH , Köln ( Amtsgericht Köln HRB 85024 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -32,6 +26,15 @@
             {
                 "label": "address",
                 "text": " Jabob - Kaiser - Straße 13 , 50858 Köln ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " GSI Solarfonds Zwei Verwaltungs GmbH , Köln ( Amtsgericht Köln HRB 85024 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " GSI Solarfonds Zwei Verwaltungs GmbH , Köln ( Amtsgericht Köln HRB 85024 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

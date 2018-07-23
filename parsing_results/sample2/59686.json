@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=59686&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Baars , Hannelore , Kauffrau ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Single procuration",
@@ -29,6 +23,15 @@
             }
         ],
         "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Kauffrau",
+                    "lastname": "Baars",
+                    "name": "Hannelore"
+                },
+                "text": " Baars , Hannelore , Kauffrau ."
+            },
             {
                 "class": "Owner",
                 "payload": {

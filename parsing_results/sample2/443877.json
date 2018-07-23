@@ -25,13 +25,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Özturan",
+                    "name": "Ercan"
+                },
+                "text": " Özturan , Ercan"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1952-08-01",
+                    "lastname": "Schurig",
+                    "name": "Hans - Dieter"
+                },
+                "text": " Schurig , Hans - Dieter , * 08.01.1952 , Berlin"
             }
         ]
     }

@@ -45,13 +45,23 @@
         "officers": [
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1972-10-07",
+                    "lastname": "Fischer",
+                    "name": "Fabian"
+                },
+                "text": " Fischer , Fabian , * 10.07.1972 , Berlin"
             },
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1976-11-27",
+                    "lastname": "Hückmann",
+                    "name": "Eva"
+                },
+                "text": " Hückmann , Eva , * 27.11.1976 , Hamburg"
             }
         ]
     }

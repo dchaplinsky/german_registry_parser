@@ -29,13 +29,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Francucci",
+                    "name": "Franco"
+                },
+                "text": " Francucci , Franco"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1968-03-26",
+                    "lastname": "Francucci",
+                    "name": "Maria Rosa"
+                },
+                "text": " Francucci , Maria Rosa , * 26.03.1968 , Berlin"
             }
         ]
     }

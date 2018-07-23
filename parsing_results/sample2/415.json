@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=415&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Müller , Manfred , Apotheker , Mutterstadt ."
-            }
-        ],
         "officers": [
             {
                 "class": "Owner",
@@ -32,6 +26,16 @@
                     "name": "Heidrun"
                 },
                 "text": " Helm , Heidrun , Mutterstadt , * 24.10.1957"
+            },
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Mutterstadt",
+                    "lastname": "Müller",
+                    "name": "Manfred",
+                    "position": "Apotheker"
+                },
+                "text": " Müller , Manfred , Apotheker , Mutterstadt ."
             }
         ]
     }

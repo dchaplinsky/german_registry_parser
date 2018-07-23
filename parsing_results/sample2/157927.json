@@ -47,8 +47,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Heusenstamm",
+                    "dob": "1976-11-03",
+                    "lastname": "Schubert",
+                    "name": "Frank Erik"
+                },
+                "text": " Schubert , Frank Erik , * 11.03.1976 , Heusenstamm"
             }
         ]
     }

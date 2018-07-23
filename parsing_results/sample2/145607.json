@@ -25,18 +25,37 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Viering",
+                    "name": "Harald"
+                },
+                "text": " Viering , Harald"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Gerolzhofen",
+                    "dob": "1965-03-19",
+                    "lastname": "Fetkenheuer",
+                    "name": "Klaus"
+                },
+                "text": " Fetkenheuer , Klaus , * 19.03.1965 , Gerolzhofen"
             },
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Löwigt",
+                    "name": "Uwe"
+                },
+                "text": " Löwigt , Uwe ."
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Löwigt",
+                    "name": "Uwe"
+                },
+                "text": " Nicht mehr Prokurist : Löwigt , Uwe ."
             }
         ]
     }

@@ -25,11 +25,24 @@
         "officers": [
             {
                 "class": "ProcurationCancelled",
-                "payload": {},
+                "payload": {
+                    "lastname": "Durst",
+                    "name": "Jan Patrick"
+                },
                 "text": " Durst , Jan Patrick ."
             },
             {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "Wuppertal",
+                    "dob": "1969-03-17",
+                    "lastname": "Nauber",
+                    "name": "Stefan"
+                },
+                "text": " Nauber , Stefan , Wuppertal , * 17.03.1969 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "Wuppertal",
                     "dob": "1969-03-17",

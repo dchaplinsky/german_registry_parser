@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=58918&land_abk=th"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Arndt , Hans - Peter , gen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -40,6 +34,17 @@
             {
                 "label": "address",
                 "text": " Richard - Hüttig - Platz 13 , 06571 Roßleben ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "gen",
+                    "lastname": "Arndt",
+                    "name": "Hans - Peter"
+                },
+                "text": " Arndt , Hans - Peter , gen ."
             }
         ]
     }

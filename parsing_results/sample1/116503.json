@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=116503&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Schindler , Susanne , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -49,6 +43,16 @@
                     "name": "Rolf"
                 },
                 "text": " Schindler , Rolf , Ingersheim , * 09.09.1958 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Ingersheim",
+                    "dob": "1966-05-25",
+                    "lastname": "Schindler",
+                    "name": "Susanne geborene Giedl"
+                },
+                "text": " Schindler , Susanne geborene Giedl , Ingersheim , * 25.05.1966 ."
             }
         ]
     }

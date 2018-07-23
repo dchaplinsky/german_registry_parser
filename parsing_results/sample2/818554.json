@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=818554&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Jovanic , Sonja , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -44,6 +38,18 @@
             {
                 "label": "address",
                 "text": " Hardenbergstraße 60 , 90491 Nürnberg ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Nürnberg",
+                    "dob": "1982-07-17",
+                    "lastname": "Jovanic",
+                    "name": "Sonja geborene Gigis"
+                },
+                "text": " Jovanic , Sonja geborene Gigis , Nürnberg , * 17.07.1982"
             }
         ]
     }

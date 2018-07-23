@@ -16,16 +16,19 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=342102&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  media Formel -4 Verwaltungs - und Beteiligungs GmbH , Enger ( Bad Oeynhausen HRB 10926 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
                 "text": "Kommanditgesellschaft ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " media Formel -4 Verwaltungs - und Beteiligungs GmbH , Enger ( Bad Oeynhausen HRB 10926 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " media Formel -4 Verwaltungs - und Beteiligungs GmbH , Enger ( Bad Oeynhausen HRB 10926 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

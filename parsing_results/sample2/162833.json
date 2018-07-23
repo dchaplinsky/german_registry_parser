@@ -43,13 +43,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1973-09-01",
+                    "lastname": "Gronenberg",
+                    "name": "Boris Alexander"
+                },
+                "text": " Gronenberg , Boris Alexander , * 09.01.1973 , Hamburg"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1970-01-27",
+                    "lastname": "Zander",
+                    "name": "Kerstin"
+                },
+                "text": " Zander , Kerstin , * 27.01.1970 , Berlin"
             }
         ]
     }

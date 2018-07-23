@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=12393&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  PrimaCom Berlin GmbH , Mainz ( Amtsgericht Mainz , HRB 7708 ) , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a SingleProcuration from  Thomason , Paul , Kronberg im Taunus"
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -34,6 +24,33 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " PrimaCom Berlin GmbH , Mainz ( Amtsgericht Mainz , HRB 7708 ) , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " PrimaCom Berlin GmbH , Mainz ( Amtsgericht Mainz , HRB 7708 ) , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Kronberg im Taunus",
+                    "lastname": "Thomason",
+                    "name": "Paul"
+                },
+                "text": " Thomason , Paul , Kronberg im Taunus"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Kronberg im Taunus",
+                    "lastname": "Thomason",
+                    "name": "Paul"
+                },
+                "text": " Thomason , Paul , Kronberg im Taunus"
             }
         ]
     }

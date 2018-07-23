@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Kirchlinteln",
+                    "dob": "1969-03-29",
+                    "lastname": "Krantz",
+                    "name": "Gorch"
+                },
+                "text": " Krantz , Gorch , * 29.03.1969 , Kirchlinteln"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Dr . Middendorf",
+                    "name": "Rolf"
+                },
+                "text": " Dr . Middendorf , Rolf ."
             }
         ]
     }

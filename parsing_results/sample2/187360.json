@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=187360&land_abk=ni"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Kromhout , Arie Abraham , Arkel , Niederlande , * 04.12.1949 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Arkel  using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -34,13 +40,6 @@
             {
                 "label": "address",
                 "text": " Hauptstraße 26 a , 28790 Schwanewede ."
-            }
-        ],
-        "officers": [
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Kromhout , Arie Abraham , Arkel , Niederlande , * 04.12.1949 , einzelvertretungsberechtigt"
             }
         ]
     }

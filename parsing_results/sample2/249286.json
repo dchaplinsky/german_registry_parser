@@ -32,24 +32,34 @@
                 "text": " Berlin"
             },
             {
-                "label": "address",
-                "text": ""
-            },
-            {
                 "label": "misc",
                 "text": " 500,00 EUR Vertretungsregelung : Jeder Geschäftsführer vertritt die Gesellschaft allein ."
+            },
+            {
+                "label": "address",
+                "text": " Sandsteinweg 23 B , 12349 Berlin Gegenstand : Heizung , Schornsteinbau - und - fegerei , Sanitär - und Gasinstallation Stamm - bzw . Grundkapital : 500,00 EUR Vertretungsregelung : Jeder Geschäftsführer vertritt die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Leipzig",
+                    "dob": "1976-01-13",
+                    "lastname": "Kerekes",
+                    "name": "Laszlo"
+                },
+                "text": " Kerekes , Laszlo , * 13.01.1976 , Leipzig"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1975-01-25",
+                    "lastname": "Mittelstraß",
+                    "name": "Dominic"
+                },
+                "text": " Mittelstraß , Dominic , * 25.01.1975 , Berlin"
             }
         ]
     }

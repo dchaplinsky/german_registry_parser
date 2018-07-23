@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=115333&land_abk=he"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Treibs , Gerhard , Malermeister , Maintal ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Maintal",
+                    "lastname": "Treibs",
+                    "name": "Gerhard",
+                    "position": "Malermeister"
+                },
+                "text": " Treibs , Gerhard , Malermeister , Maintal ."
             }
         ]
     }

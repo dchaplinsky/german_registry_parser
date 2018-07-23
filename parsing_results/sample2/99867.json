@@ -19,13 +19,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 6 ."
+                "payload": {
+                    "lastname": "Schmidt",
+                    "name": "Wolfgang"
+                },
+                "text": " Schmidt , Wolfgang"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 7 ."
+                "payload": {
+                    "city": "Ludwigshafen am Rhein",
+                    "dob": "1969-09-04",
+                    "lastname": "Magin",
+                    "name": "Bernhard"
+                },
+                "text": " Magin , Bernhard , * 09.04.1969 , Ludwigshafen am Rhein"
             }
         ]
     }

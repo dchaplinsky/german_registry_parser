@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Kumar",
+                    "name": "Rajinder"
+                },
+                "text": " Kumar , Rajinder"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1977-10-04",
+                    "lastname": "Kaur Sidhu",
+                    "name": "Kuljit"
+                },
+                "text": " Kaur Sidhu , Kuljit , * 10.04.1977 , Berlin"
             }
         ]
     }

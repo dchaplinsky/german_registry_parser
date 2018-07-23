@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=222229&land_abk=he"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Helge - Helfried , Muth , Bischofszell , Schweiz , * 09.06.1953 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Bischofszell  using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -38,13 +44,6 @@
             {
                 "label": "address",
                 "text": " Mainzer Landstraße 176 , 60327 Frankfurt am Main ."
-            }
-        ],
-        "officers": [
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Helge - Helfried , Muth , Bischofszell , Schweiz , * 09.06.1953 , einzelvertretungsberechtigt"
             }
         ]
     }

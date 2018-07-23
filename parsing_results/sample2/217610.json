@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=217610&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  ekofüll Warenhandels - und Immobilien GmbH , Schwarme ( Amtsgericht Walsrode HRB 110833 ) , einzelvertretungsberechtigt"
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -36,6 +30,15 @@
             {
                 "label": "address",
                 "text": " An der Heide 14 , 27327 Schwarme ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " ekofüll Warenhandels - und Immobilien GmbH , Schwarme ( Amtsgericht Walsrode HRB 110833 ) , einzelvertretungsberechtigt"
+                },
+                "text": " ekofüll Warenhandels - und Immobilien GmbH , Schwarme ( Amtsgericht Walsrode HRB 110833 ) , einzelvertretungsberechtigt"
             }
         ]
     }

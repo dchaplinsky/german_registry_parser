@@ -33,7 +33,7 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Heerstraße 207 , 13595 Berlin Gegenstand : Der Handel und die Reparatur von Fahrzeugen aller Art ."
             },
             {
                 "label": "misc",
@@ -43,8 +43,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Kloster Lehnin",
+                    "dob": "1967-04-19",
+                    "lastname": "Korte",
+                    "name": "Nils"
+                },
+                "text": " Korte , Nils , * 19.04.1967 , Kloster Lehnin"
             }
         ]
     }

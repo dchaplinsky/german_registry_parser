@@ -47,13 +47,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1972-05-19",
+                    "lastname": "Brose",
+                    "name": "Claudia"
+                },
+                "text": " Brose , Claudia , * 19.05.1972 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1978-10-31",
+                    "lastname": "Hubrich",
+                    "name": "Thomas"
+                },
+                "text": " Hubrich , Thomas , * 31.10.1978 , Berlin"
             }
         ]
     }

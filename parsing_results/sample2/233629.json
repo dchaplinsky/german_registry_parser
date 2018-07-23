@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=233629&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Meyer , Detlev , Neustadt a ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -44,6 +38,17 @@
             {
                 "label": "address",
                 "text": " Adenauerallee 4 , 30175 Hannover ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Neustadt a",
+                    "lastname": "Meyer",
+                    "name": "Detlev"
+                },
+                "text": " Meyer , Detlev , Neustadt a ."
             }
         ]
     }

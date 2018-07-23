@@ -49,19 +49,29 @@
         "labels": [
             {
                 "label": "address",
-                "text": ""
+                "text": " Holstenplatz 1-2 , 24103 Kiel Gegenstand : Betrieb von Hotels , die Verleihung von Personal sowie die Durchführung von Dienstleistungen im Hotelbereich jeder Art mit Schwerpunkt im Bereich von Berlin Kapital : 000 EUR Vertretungsregelung : Die Gesellschaft hat einen oder mehrere Geschäftsführer ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Kiel",
+                    "dob": "1957-02-25",
+                    "lastname": "Dag Johan",
+                    "name": "Kleveland"
+                },
+                "text": " Dag Johan , Kleveland , * 25.02.1957 , Kiel"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Holzdorf",
+                    "dob": "1974-09-15",
+                    "lastname": "Knudsen",
+                    "name": "Thomas"
+                },
+                "text": " Knudsen , Thomas , * 15.09.1974 , Holzdorf"
             }
         ]
     }

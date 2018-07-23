@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=71881&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Eirich , Annemarie , Bankkauffrau , Hardheim ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -35,8 +29,24 @@
         "officers": [
             {
                 "class": "Liquidator",
-                "payload": {},
+                "payload": {
+                    "city": "Hardheim",
+                    "dob": "1929-03-26",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Eirich",
+                    "name": "Annemarie"
+                },
                 "text": " Eirich , Annemarie , Hardheim , * 26.03.1929 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hardheim",
+                    "lastname": "Eirich",
+                    "name": "Annemarie",
+                    "position": "Bankkauffrau"
+                },
+                "text": " Eirich , Annemarie , Bankkauffrau , Hardheim ."
             }
         ]
     }

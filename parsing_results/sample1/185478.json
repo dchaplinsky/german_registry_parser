@@ -16,10 +16,13 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=185478&land_abk=rp"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  adlatus grundstücksverwaltungsgesellschaft mbh , mainz ( amtsgericht mainz hrb 45405 ) , mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen ."
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " adlatus grundstücksverwaltungsgesellschaft mbh , mainz ( amtsgericht mainz hrb 45405 ) , mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen ."
+                },
+                "text": " adlatus grundstücksverwaltungsgesellschaft mbh , mainz ( amtsgericht mainz hrb 45405 ) , mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen ."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=150247&land_abk=sn"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Fielmann Finanzservice GmbH , Hamburg ( Amtsgericht Hamburg HRB 30823 ) , von der Vertretung ausgeschlossen ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
@@ -31,8 +25,18 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "lastname": "Fielmann Aktiengesellschaft",
+                    "name": "Hamburg ( Amtsgericht Hamburg HRB 56098 )"
+                },
                 "text": " Fielmann Aktiengesellschaft , Hamburg ( Amtsgericht Hamburg HRB 56098 ) ."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Fielmann Finanzservice GmbH , Hamburg ( Amtsgericht Hamburg HRB 30823 ) , von der Vertretung ausgeschlossen ."
+                },
+                "text": " Fielmann Finanzservice GmbH , Hamburg ( Amtsgericht Hamburg HRB 30823 ) , von der Vertretung ausgeschlossen ."
             }
         ]
     }

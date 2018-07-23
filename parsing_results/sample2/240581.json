@@ -41,8 +41,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1954-09-13",
+                    "lastname": "Prof . Dr . Haselbach",
+                    "name": "Dieter"
+                },
+                "text": " Prof . Dr . Haselbach , Dieter , * 13.09.1954 , Berlin"
             }
         ]
     }

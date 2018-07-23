@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1081999&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr . Neumann , Martha Sophia , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -32,6 +26,19 @@
             {
                 "label": "address",
                 "text": " Steinkirchner Straße 26 a , 82166 Gräfelfing ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1982-10-16",
+                    "flag": "sole representation",
+                    "lastname": "Dr . Neumann",
+                    "name": "Martha Sophia geborene Pekala"
+                },
+                "text": " Dr . Neumann , Martha Sophia geborene Pekala , München , * 16.10.1982 , einzelvertretungsberechtigt"
             }
         ]
     }

@@ -31,13 +31,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Dr . Meifort",
+                    "name": "Rita geborene Stein"
+                },
+                "text": " Dr . Meifort , Rita geborene Stein"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Wesenberg",
+                    "dob": "1983-04-27",
+                    "lastname": "Grassl",
+                    "name": "Florian"
+                },
+                "text": " Grassl , Florian , * 27.04.1983 , Wesenberg"
             }
         ]
     }

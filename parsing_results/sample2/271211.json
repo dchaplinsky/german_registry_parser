@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=271211&land_abk=bw"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Dipl . - Ing ., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -29,11 +35,6 @@
             }
         ],
         "officers": [
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Dipl . - Ing ."
-            },
             {
                 "class": "ManagingDirector",
                 "payload": {

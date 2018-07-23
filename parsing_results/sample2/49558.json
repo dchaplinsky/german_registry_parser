@@ -39,8 +39,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1954-09-04",
+                    "lastname": "Fischer",
+                    "name": "Reinhard"
+                },
+                "text": " Fischer , Reinhard , * 09.04.1954 , Bremen"
             }
         ]
     }

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=454561&land_abk=he"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Coulon , Patrick , Grandchamp de Fontaines , Frankreich / Frankreich , * 02.12.1954 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Grandchamp de Fontaines  using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -38,13 +44,6 @@
             {
                 "label": "address",
                 "text": " Westerbachstraße 32 , 61476 Kronberg im Taunus ."
-            }
-        ],
-        "officers": [
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Coulon , Patrick , Grandchamp de Fontaines , Frankreich / Frankreich , * 02.12.1954 , einzelvertretungsberechtigt"
             }
         ]
     }

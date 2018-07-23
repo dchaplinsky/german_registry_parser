@@ -45,24 +45,37 @@
         "labels": [
             {
                 "label": "address",
-                "text": ""
+                "text": " Schulstr ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Dr . Slabschi",
+                    "name": "Peter"
+                },
+                "text": " Dr . Slabschi , Peter"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1950-07-08",
+                    "lastname": "Heinemann",
+                    "name": "Claus Helmut Otto"
+                },
+                "text": " Heinemann , Claus Helmut Otto , * 07.08.1950 , Hamburg"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1951-06-01",
+                    "lastname": "Heinemann",
+                    "name": "Gunnar"
+                },
+                "text": " Heinemann , Gunnar , * 06.01.1951 , Hamburg"
             }
         ]
     }

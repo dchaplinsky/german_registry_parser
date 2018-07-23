@@ -39,18 +39,37 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Müller",
+                    "name": "Dieter"
+                },
+                "text": " Müller , Dieter"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Storkow ( Mark )",
+                    "dob": "1953-02-04",
+                    "lastname": "Gärtner",
+                    "name": "Hans - Jürgen"
+                },
+                "text": " Gärtner , Hans - Jürgen , * 02.04.1953 , Storkow ( Mark )"
             },
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Feustel",
+                    "name": "Ilona geborene Biesterfeld"
+                },
+                "text": " Feustel , Ilona geborene Biesterfeld ."
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Feustel",
+                    "name": "Ilona geborene Biesterfeld"
+                },
+                "text": " Nicht mehr Prokurist : Feustel , Ilona geborene Biesterfeld ."
             }
         ]
     }

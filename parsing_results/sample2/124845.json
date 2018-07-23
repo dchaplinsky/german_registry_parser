@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Markowitz",
+                    "name": "James"
+                },
+                "text": " Markowitz , James"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Dallas / Texas ( USA )",
+                    "dob": "1966-03-07",
+                    "lastname": "Vafa",
+                    "name": "Ali"
+                },
+                "text": " Vafa , Ali , * 03.07.1966 , Dallas / Texas ( USA )"
             }
         ]
     }

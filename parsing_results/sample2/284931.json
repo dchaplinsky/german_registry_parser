@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=284931&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Graf , Heinrich , Kfz . - Meister , Feucht b . Nbg ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
@@ -29,6 +23,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Feucht b . Nbg",
+                    "lastname": "Graf",
+                    "name": "Heinrich",
+                    "position": "Kfz . - Meister"
+                },
+                "text": " Graf , Heinrich , Kfz . - Meister , Feucht b . Nbg ."
+            },
             {
                 "class": "Owner",
                 "payload": {

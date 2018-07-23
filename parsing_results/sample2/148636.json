@@ -25,8 +25,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 10 ."
+                "payload": {
+                    "city": "München",
+                    "dob": "1978-08-08",
+                    "lastname": "Dr . Federmann",
+                    "name": "Falco"
+                },
+                "text": " Dr . Federmann , Falco , * 08.08.1978 , München"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Leinfelden - Echterdingen",
+                    "dob": "1959-07-15",
+                    "lastname": "Hartenstein",
+                    "name": "Brigitte"
+                },
+                "text": " Hartenstein , Brigitte , * 15.07.1959 , Leinfelden - Echterdingen"
             }
         ]
     }

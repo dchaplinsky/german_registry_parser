@@ -29,33 +29,49 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Charlottenstraße 18 , 10117 Berlin Geschäftsführer : Salden , Jörg , * 31.12.1968 , Grünwald"
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Charlottenstraße 18 , 10117 Berlin Geschäftsführer : Salden , Jörg , * 31.12.1968 , Grünwald"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Grünwald",
+                    "dob": "1968-12-31",
+                    "lastname": "Salden",
+                    "name": "Jörg"
+                },
+                "text": " Salden , Jörg , * 31.12.1968 , Grünwald"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Grünwald",
+                    "dob": "1965-07-06",
+                    "lastname": "Schneider",
+                    "name": "Rolf"
+                },
+                "text": " Schneider , Rolf , * 07.06.1965 , Grünwald"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Breiert",
+                    "name": "Anke"
+                },
+                "text": " Breiert , Anke"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Liefländer",
+                    "name": "Christiane"
+                },
+                "text": " Liefländer , Christiane ."
             }
         ]
     }

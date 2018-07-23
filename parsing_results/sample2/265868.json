@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=265868&land_abk=be"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  2 . von Stocki , Pascal , * 11.11.1981 , Berlin"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -32,6 +26,18 @@
             {
                 "label": "WHUT",
                 "text": " von Stocki GmbH , Berlin , Toni - Lessler - Straße 2 , 14193 Berlin ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1981-11-11",
+                    "lastname": "von Stocki",
+                    "name": "Pascal"
+                },
+                "text": " von Stocki , Pascal , * 11.11.1981 , Berlin"
             }
         ]
     }

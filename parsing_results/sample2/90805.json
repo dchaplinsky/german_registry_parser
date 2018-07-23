@@ -19,7 +19,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dallmann , Hannelore , Weißenfels ."
+                "text": "Cannot parse a ManagingDirector from  Nisar , Anjum , Espoo , Finnland , * 17.04.1969 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Espoo  using regex"
             }
         ],
         "flags": [
@@ -53,8 +53,12 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " Nisar , Anjum , Espoo , Finnland , * 17.04.1969 , einzelvertretungsberechtigt"
+                "payload": {
+                    "city": "Weißenfels",
+                    "lastname": "Dallmann",
+                    "name": "Hannelore"
+                },
+                "text": " Dallmann , Hannelore , Weißenfels ."
             }
         ]
     }

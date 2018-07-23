@@ -33,7 +33,7 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Anklamer Straße 22 , 10115 Berlin Gegenstand : Verwaltung von Immoblien für Dritte , das Facilitymanagement und die kaufmännische Beratung ."
             },
             {
                 "label": "misc",
@@ -43,8 +43,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1964-11-09",
+                    "lastname": "Schlicht",
+                    "name": "Birgit"
+                },
+                "text": " Schlicht , Birgit , * 11.09.1964 , Berlin"
             }
         ]
     }

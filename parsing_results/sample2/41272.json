@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=41272&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Bodenstein - Dresler , Carl - Wilhelm , Langenhagen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -68,6 +62,25 @@
                     "name": "Susanne"
                 },
                 "text": " Gerstner , Susanne , Wittenberge , * 14.11.1967"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Wittenberge",
+                    "dob": "1967-11-14",
+                    "lastname": "Gerstner",
+                    "name": "Susanne"
+                },
+                "text": " Gerstner , Susanne , Wittenberge , * 14.11.1967"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Langenhagen",
+                    "lastname": "Bodenstein - Dresler",
+                    "name": "Carl - Wilhelm"
+                },
+                "text": " Bodenstein - Dresler , Carl - Wilhelm , Langenhagen ."
             }
         ]
     }

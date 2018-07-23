@@ -19,13 +19,21 @@
         "officers": [
             {
                 "class": "Owner",
-                "payload": {},
-                "text": " Nicht mehr persönlich haftender Gesellschafter :"
+                "payload": {
+                    "lastname": "Nicht mehr persönlich haftender Gesellschafter : Jonck",
+                    "name": "Ekhard"
+                },
+                "text": " Nicht mehr persönlich haftender Gesellschafter : Jonck , Ekhard"
             },
             {
                 "class": "Owner",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Bergfelde Rechtsform : Die Firma ist geändert",
+                    "dob": "1945-03-15",
+                    "lastname": "Wilhelm",
+                    "name": "Jörg"
+                },
+                "text": " Wilhelm , Jörg , * 15.03.1945 , Bergfelde Rechtsform : Die Firma ist geändert ."
             }
         ]
     }

@@ -16,13 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=997141&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Kozica , Brigitte , Kauffrau , Essen ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Essen",
+                    "lastname": "Kozica",
+                    "name": "Brigitte",
+                    "position": "Kauffrau"
+                },
+                "text": " Kozica , Brigitte , Kauffrau , Essen ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

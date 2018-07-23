@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=40938&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Kuntze , Michael , * 06.10.1978 , Breege"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Strohbach , Dennis , * 03.09.1975 , Potsdam"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -48,6 +38,28 @@
             {
                 "label": "address",
                 "text": " Stormstraße 4 , 14471 Potsdam . Gegenstand : seilunterstützende Arbeiten aller Art und Industrieklettern ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Breege",
+                    "dob": "1978-06-10",
+                    "lastname": "Kuntze",
+                    "name": "Michael"
+                },
+                "text": " Kuntze , Michael , * 06.10.1978 , Breege"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Potsdam",
+                    "dob": "1975-03-09",
+                    "lastname": "Strohbach",
+                    "name": "Dennis"
+                },
+                "text": " Strohbach , Dennis , * 03.09.1975 , Potsdam"
             }
         ]
     }

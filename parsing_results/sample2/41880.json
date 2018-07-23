@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=41880&land_abk=by"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Vonderlinden , Karl Heinz , Fuhrunternehmer , Wörth"
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Wörth",
+                    "lastname": "Vonderlinden",
+                    "name": "Karl Heinz",
+                    "position": "Fuhrunternehmer"
+                },
+                "text": " Vonderlinden , Karl Heinz , Fuhrunternehmer , Wörth"
             }
         ]
     }

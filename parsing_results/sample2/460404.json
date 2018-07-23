@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=460404&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Scheer , Wolfgang , Glasermeister , Bad Pyrmont ."
-            }
-        ],
         "flags": [
             {
                 "flag": "The owner is acting alone",
@@ -29,6 +23,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Bad Pyrmont",
+                    "lastname": "Scheer",
+                    "name": "Wolfgang",
+                    "position": "Glasermeister"
+                },
+                "text": " Scheer , Wolfgang , Glasermeister , Bad Pyrmont ."
+            },
             {
                 "class": "Owner",
                 "payload": {

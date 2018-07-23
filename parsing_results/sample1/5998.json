@@ -29,13 +29,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Wanzeck",
+                    "name": "Sandra"
+                },
+                "text": " Wanzeck , Sandra"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Nürnberg",
+                    "dob": "1954-10-06",
+                    "lastname": "Dr . Hagemann",
+                    "name": "Dirk"
+                },
+                "text": " Dr . Hagemann , Dirk , * 10.06.1954 , Nürnberg"
             }
         ]
     }

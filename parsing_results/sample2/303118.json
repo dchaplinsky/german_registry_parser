@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=303118&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Hansen , Heidrun , Sekretärin , Sulzbach - Laufen ."
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -33,6 +27,16 @@
                     "name": "Bernd"
                 },
                 "text": " Hansen , Bernd , Sulzbach - Laufen , * 20.08.1955 , einzelvertretungsberechtigt ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Sulzbach - Laufen",
+                    "lastname": "Hansen",
+                    "name": "Heidrun",
+                    "position": "Sekretärin"
+                },
+                "text": " Hansen , Heidrun , Sekretärin , Sulzbach - Laufen ."
             }
         ]
     }

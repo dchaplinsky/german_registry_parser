@@ -59,13 +59,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Bargteheide",
+                    "dob": "1983-03-30",
+                    "lastname": "Kenner",
+                    "name": "René"
+                },
+                "text": " Kenner , René , * 30.03.1983 , Bargteheide"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Ahrensburg",
+                    "dob": "1984-02-24",
+                    "lastname": "Kroschke",
+                    "name": "Christopher"
+                },
+                "text": " Kroschke , Christopher , * 24.02.1984 , Ahrensburg"
             }
         ]
     }

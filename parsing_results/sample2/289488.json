@@ -16,16 +16,22 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=289488&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Ziegler - Dürr , Andrea , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Remlingen",
+                    "dob": "1966-01-12",
+                    "lastname": "Ziegler - Dürr",
+                    "name": "Andrea geborene Mehlig"
+                },
+                "text": " Ziegler - Dürr , Andrea geborene Mehlig , Remlingen , * 01.12.1966 ."
             }
         ]
     }

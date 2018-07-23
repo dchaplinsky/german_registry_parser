@@ -31,8 +31,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1981-05-17",
+                    "lastname": "Bauer",
+                    "name": "Matthias"
+                },
+                "text": " Bauer , Matthias , * 17.05.1981 , Berlin"
             }
         ]
     }

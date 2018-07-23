@@ -16,11 +16,10 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=566089&land_abk=bw"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "CommonProcuration",
-                "payload": {},
-                "text": " Dip . - Ing ."
+                "kls": "ParsingError",
+                "text": "Cannot parse a CommonProcuration from  Dip . - Ing ., error text was a person without DOB, number of chunks: 1"
             }
         ]
     }

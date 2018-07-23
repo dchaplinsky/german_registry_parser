@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=40112&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Hecht , Gaby , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -38,6 +32,17 @@
                     "name": "Daniel"
                 },
                 "text": " Feij , Daniel , Lüneburg , * 24.09.1967 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Uettingen",
+                    "dob": "1980-09-04",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Hecht",
+                    "name": "Gaby geborene Schätzlein"
+                },
+                "text": " Hecht , Gaby geborene Schätzlein , Uettingen , * 09.04.1980 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

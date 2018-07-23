@@ -19,13 +19,21 @@
         "officers": [
             {
                 "class": "Owner",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Treuenbrietzen",
+                    "dob": "1975-09-22",
+                    "lastname": "Thielemann",
+                    "name": "Steffen"
+                },
+                "text": " Thielemann , Steffen , * 22.09.1975 , Treuenbrietzen"
             },
             {
                 "class": "Owner",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Thielemann",
+                    "name": "Marianne"
+                },
+                "text": " Thielemann , Marianne"
             }
         ]
     }

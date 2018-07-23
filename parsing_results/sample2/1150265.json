@@ -16,13 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1150265&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Gierecker , Heinrich , Rheda - Wiedenbrück ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Rheda - Wiedenbrück",
+                    "lastname": "Gierecker",
+                    "name": "Heinrich"
+                },
+                "text": " Gierecker , Heinrich , Rheda - Wiedenbrück ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

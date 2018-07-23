@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=344851&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Segelbacher jun . , Karl , Geschäftsführer , Friedrichshafen ."
-            }
-        ],
         "officers": [
             {
                 "class": "PersonalPartner",
@@ -32,6 +26,16 @@
                     "name": "Bernd"
                 },
                 "text": " Segelbacher , Bernd , Friedrichshafen , * 25.09.1964"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Friedrichshafen",
+                    "lastname": "Segelbacher jun",
+                    "name": "Karl",
+                    "position": "Geschäftsführer"
+                },
+                "text": " Segelbacher jun . , Karl , Geschäftsführer , Friedrichshafen ."
             }
         ]
     }

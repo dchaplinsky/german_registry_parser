@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=401181&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Luttmer , Jürgen , Kaufmann , Cloppenburg ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
@@ -29,6 +23,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Cloppenburg",
+                    "lastname": "Luttmer",
+                    "name": "Jürgen",
+                    "position": "Kaufmann"
+                },
+                "text": " Luttmer , Jürgen , Kaufmann , Cloppenburg ."
+            },
             {
                 "class": "Owner",
                 "payload": {

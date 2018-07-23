@@ -19,7 +19,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Canetta , Giovanni , Mailand , Italien , * 15.10.1971 ."
+                "text": "Cannot parse a ManagingDirector from  Canetta , Giovanni , Mailand , Italien , * 15.10.1971 ., error text was Cannot parse DOB  Mailand  using regex"
             }
         ],
         "flags": [
@@ -35,12 +35,24 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Köln",
+                    "dob": "1966-11-03",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Vanacker",
+                    "name": "Peter"
+                },
                 "text": " Vanacker , Peter , Köln , * 11.03.1966 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dob": "1967-10-02",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Dr . Trautmann",
+                    "name": "Boris"
+                },
                 "text": " Dr . Trautmann , Boris , Frankfurt am Main , * 10.02.1967 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]

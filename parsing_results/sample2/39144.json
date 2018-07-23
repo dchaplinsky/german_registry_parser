@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=39144&land_abk=hb"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Hillmann , Kay , * 16.04.1958 , Bremen"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -37,8 +31,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Niesing",
+                    "name": "Axel"
+                },
                 "text": " Niesing , Axel ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1958-04-16",
+                    "lastname": "Hillmann",
+                    "name": "Kay"
+                },
+                "text": " Hillmann , Kay , * 16.04.1958 , Bremen"
             }
         ]
     }

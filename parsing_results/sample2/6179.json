@@ -53,13 +53,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1972-07-08",
+                    "lastname": "Schofeld",
+                    "name": "John"
+                },
+                "text": " Schofeld , John , * 07.08.1972 , Bremen"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1972-07-08",
+                    "lastname": "Schofeld",
+                    "name": "Gil"
+                },
+                "text": " Schofeld , Gil , * 07.08.1972 , Bremen"
             }
         ]
     }

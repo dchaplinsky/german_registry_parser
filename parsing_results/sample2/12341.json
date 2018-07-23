@@ -29,14 +29,19 @@
         "labels": [
             {
                 "label": "misc",
-                "text": " 50.000,00 DM Vertretungsregelung : Die Gesellschaft hat einen oder mehrere Geschäftsführer ."
+                "text": " 000,00 DM Vertretungsregelung : Die Gesellschaft hat einen oder mehrere Geschäftsführer ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Neustadt i . H",
+                    "dob": "1960-04-21",
+                    "lastname": "von Engel",
+                    "name": "Corinna geborene Studt"
+                },
+                "text": " von Engel , Corinna geborene Studt , * 21.04.1960 , Neustadt i . H ."
             }
         ]
     }

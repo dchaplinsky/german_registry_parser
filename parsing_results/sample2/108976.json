@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=108976&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Mardo , Peter , Kältemeister , Landau in der Pfalz ."
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Mardo , Brunhilde , Landau in der Pfalz ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
@@ -36,6 +26,16 @@
             {
                 "class": "ManagingDirector",
                 "payload": {
+                    "city": "Landau in der Pfalz",
+                    "lastname": "Mardo",
+                    "name": "Peter",
+                    "position": "Kältemeister"
+                },
+                "text": " Mardo , Peter , Kältemeister , Landau in der Pfalz ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
                     "city": "Landau",
                     "dob": "1939-02-28",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
@@ -43,6 +43,15 @@
                     "name": "Brunhilde"
                 },
                 "text": " Mardo , Brunhilde , Landau , * 28.02.1939 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Landau in der Pfalz",
+                    "lastname": "Mardo",
+                    "name": "Brunhilde"
+                },
+                "text": " Mardo , Brunhilde , Landau in der Pfalz ."
             }
         ]
     }

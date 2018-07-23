@@ -39,13 +39,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Bouwer",
+                    "name": "Jürgen"
+                },
+                "text": " Bouwer , Jürgen"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Lübeck",
+                    "dob": "1975-10-08",
+                    "lastname": "Giesenberg - Kruse",
+                    "name": "Nina"
+                },
+                "text": " Giesenberg - Kruse , Nina , * 10.08.1975 , Lübeck"
             }
         ]
     }

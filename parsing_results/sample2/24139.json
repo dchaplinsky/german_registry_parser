@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=24139&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Gian , Paolo Fedrigo , Geschäftsführer , Sacile PN ( Italien )"
-            }
-        ],
         "flags": [
             {
                 "flag": "Single procuration",
@@ -45,6 +39,16 @@
                 "text": " Piazzi , Guglielmo , San Lazzaro di Savena ( Italien ) , * 16.01.1954 , einzelvertretungsberechtigt ."
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Sacile PN ( Italien )",
+                    "lastname": "Gian",
+                    "name": "Paolo Fedrigo",
+                    "position": "Geschäftsführer"
+                },
+                "text": " Gian , Paolo Fedrigo , Geschäftsführer , Sacile PN ( Italien )"
+            },
+            {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Kgs Lyngby ( Dänemark )",
@@ -55,7 +59,27 @@
                 "text": " Dunker , Kaj , Kgs Lyngby ( Dänemark ) , * 23.05.1962 ."
             },
             {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Kgs Lyngby ( Dänemark )",
+                    "dob": "1962-05-23",
+                    "lastname": "Dunker",
+                    "name": "Kaj"
+                },
+                "text": " Dunker , Kaj , Kgs Lyngby ( Dänemark ) , * 23.05.1962 ."
+            },
+            {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "Wernau Neckar",
+                    "dob": "1956-03-24",
+                    "lastname": "Einzelprokura : Nöfer",
+                    "name": "Michael"
+                },
+                "text": " Einzelprokura : Nöfer , Michael , Wernau Neckar , * 24.03.1956 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "Wernau Neckar",
                     "dob": "1956-03-24",

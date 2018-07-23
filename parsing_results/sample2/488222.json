@@ -16,13 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=488222&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Dodel , Alfred , techn ."
-            }
-        ],
         "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "techn",
+                    "lastname": "Dodel",
+                    "name": "Alfred"
+                },
+                "text": " Dodel , Alfred , techn ."
+            },
             {
                 "class": "Owner",
                 "payload": {

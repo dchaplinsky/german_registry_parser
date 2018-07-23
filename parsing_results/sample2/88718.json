@@ -51,13 +51,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Cottbus",
+                    "dob": "1957-08-17",
+                    "lastname": "Rühl",
+                    "name": "Bernd"
+                },
+                "text": " Rühl , Bernd , * 17.08.1957 , Cottbus"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Landshut",
+                    "dob": "1982-11-20",
+                    "lastname": "Beck",
+                    "name": "Stephanie"
+                },
+                "text": " Beck , Stephanie , * 20.11.1982 , Landshut"
             }
         ]
     }

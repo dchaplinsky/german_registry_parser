@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=126901&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Altwegg , Patrick , Genthod / Schweiz ."
-            }
-        ],
         "officers": [
             {
                 "class": "CommonProcuration",
@@ -32,6 +26,15 @@
                     "name": "René"
                 },
                 "text": " Deleglise , René , Reignier / Frankreich , * 22.07.1958"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Genthod / Schweiz",
+                    "lastname": "Altwegg",
+                    "name": "Patrick"
+                },
+                "text": " Altwegg , Patrick , Genthod / Schweiz ."
             }
         ]
     }

@@ -16,16 +16,21 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1107804&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Rheingoldhof Verwaltungs UG ( haftungsbeschränkt ) , Neubiberg ( Amtsgericht München HRB 236020 ) , einzelvertretungsberechtigt"
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
                 "text": "Kommanditgesellschaft ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "einzelvertretungsberechtigt",
+                    "lastname": "Rheingoldhof Verwaltungs UG ( haftungsbeschränkt )",
+                    "name": "Neubiberg ( Amtsgericht München HRB 236020 )"
+                },
+                "text": " Rheingoldhof Verwaltungs UG ( haftungsbeschränkt ) , Neubiberg ( Amtsgericht München HRB 236020 ) , einzelvertretungsberechtigt"
             }
         ]
     }

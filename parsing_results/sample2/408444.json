@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=408444&land_abk=be"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr . Mogalle , Marc Wolfgang Max , * 15.09.1971 , Berlin"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -40,6 +34,18 @@
             {
                 "label": "WHUT",
                 "text": " Business Buddies GmbH , Berlin , Joachimstraße 14 , 10119 Berlin ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1971-09-15",
+                    "lastname": "Dr . Mogalle",
+                    "name": "Marc Wolfgang Max"
+                },
+                "text": " Dr . Mogalle , Marc Wolfgang Max , * 15.09.1971 , Berlin"
             }
         ]
     }

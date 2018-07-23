@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=155750&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a SingleProcuration from  Jasper , Ingo , * 02.12.1977 , Quickborn"
-            }
-        ],
         "flags": [
             {
                 "flag": "Single procuration",
@@ -30,6 +24,28 @@
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
                 "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            }
+        ],
+        "officers": [
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Quickborn",
+                    "dob": "1977-02-12",
+                    "lastname": "Jasper",
+                    "name": "Ingo"
+                },
+                "text": " Jasper , Ingo , * 02.12.1977 , Quickborn"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Quickborn",
+                    "dob": "1977-02-12",
+                    "lastname": "Jasper",
+                    "name": "Ingo"
+                },
+                "text": " Jasper , Ingo , * 02.12.1977 , Quickborn"
             }
         ]
     }

@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Samoylenko",
+                    "name": "Viktoriya"
+                },
+                "text": " Samoylenko , Viktoriya"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1978-01-07",
+                    "lastname": "Riel",
+                    "name": "Igor"
+                },
+                "text": " Riel , Igor , * 01.07.1978 , Berlin"
             }
         ]
     }

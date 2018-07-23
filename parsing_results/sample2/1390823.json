@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1390823&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Niklas , Willy , Korschenbroich ."
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Niklas , Ursula , Mönchengladbach ."
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -36,6 +26,24 @@
                     "name": "Georg"
                 },
                 "text": " Reiter , Georg , Altdorf , * 26.01.1964"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Korschenbroich",
+                    "lastname": "Niklas",
+                    "name": "Willy"
+                },
+                "text": " Niklas , Willy , Korschenbroich ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Mönchengladbach",
+                    "lastname": "Niklas",
+                    "name": "Ursula"
+                },
+                "text": " Niklas , Ursula , Mönchengladbach ."
             }
         ]
     }

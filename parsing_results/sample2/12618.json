@@ -25,13 +25,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Krausen",
+                    "name": "Torsten"
+                },
+                "text": " Krausen , Torsten ."
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1963-07-01",
+                    "lastname": "Bauer",
+                    "name": "Gerd"
+                },
+                "text": " Bauer , Gerd , * 07.01.1963 , Bremen"
             }
         ]
     }

@@ -16,10 +16,15 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=537983&land_abk=by"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Valentin , Dietmar , Mainaschaff"
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Mainaschaff",
+                    "lastname": "Valentin",
+                    "name": "Dietmar"
+                },
+                "text": " Valentin , Dietmar , Mainaschaff"
             }
         ]
     }

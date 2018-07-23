@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=20435&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Wohlers , Hans - Heinrich , * 11.08.1956 , Osterby ."
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Wienroth , Helmut , * 21.07.1953 , Padenstedt"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -34,6 +24,28 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Osterby",
+                    "dob": "1956-11-08",
+                    "lastname": "Wohlers",
+                    "name": "Hans - Heinrich"
+                },
+                "text": " Wohlers , Hans - Heinrich , * 11.08.1956 , Osterby ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Padenstedt",
+                    "dob": "1953-07-21",
+                    "lastname": "Wienroth",
+                    "name": "Helmut"
+                },
+                "text": " Wienroth , Helmut , * 21.07.1953 , Padenstedt"
             }
         ]
     }

@@ -33,23 +33,45 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Rieger",
+                    "name": "Jörg S"
+                },
+                "text": " Rieger , Jörg S ."
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Neunfinger",
+                    "name": "Hans - Josef"
+                },
+                "text": " Neunfinger , Hans - Josef"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Ratekau",
+                    "dob": "1958-01-27",
+                    "lastname": "Böttle Kirberg",
+                    "name": "Peter"
+                },
+                "text": " Böttle Kirberg , Peter , * 27.01.1958 , Ratekau"
             },
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Böttle Kirberg",
+                    "name": "Peter"
+                },
+                "text": " Böttle Kirberg , Peter ."
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Böttle Kirberg",
+                    "name": "Peter"
+                },
+                "text": " Nicht mehr Prokurist : Böttle Kirberg , Peter ."
             }
         ]
     }

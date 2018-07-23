@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=82590&land_abk=mv"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  BS Rostocker Immobilien - und Bauträgergesellschaft mbH , Rostock ( Amtsgericht Rostock HRB 14022 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -37,8 +31,17 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "company_name": " SKS Immobiliengruppe Verwaltungsgesellschaft mbH , Kiel ( Amtsgericht Kiel HRB 17879 KI ) ."
+                },
                 "text": " SKS Immobiliengruppe Verwaltungsgesellschaft mbH , Kiel ( Amtsgericht Kiel HRB 17879 KI ) ."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " BS Rostocker Immobilien - und Bauträgergesellschaft mbH , Rostock ( Amtsgericht Rostock HRB 14022 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " BS Rostocker Immobilien - und Bauträgergesellschaft mbH , Rostock ( Amtsgericht Rostock HRB 14022 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

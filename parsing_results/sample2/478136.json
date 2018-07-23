@@ -19,7 +19,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Fischer , Erwin , Kaufmann , Preußisch Oldendorf , * 01.08.1951 ."
+                "text": "Cannot parse a ManagingDirector from  Fischer , Erwin , Kaufmann , Preußisch Oldendorf , * 01.08.1951 ., error text was Cannot parse DOB  Kaufmann  using regex"
             }
         ],
         "flags": [
@@ -48,6 +48,16 @@
             },
             {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "Bochum",
+                    "dob": "1958-06-18",
+                    "lastname": "Simon",
+                    "name": "Elke"
+                },
+                "text": " Simon , Elke , Bochum , * 18.06.1958 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "Bochum",
                     "dob": "1958-06-18",

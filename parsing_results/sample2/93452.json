@@ -16,13 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=93452&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Rübke , Heike , geb ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bruchköbel",
+                    "dob": "1972-01-01",
+                    "lastname": "Rübke",
+                    "name": "Heike geborene Woltschendorf"
+                },
+                "text": " Rübke , Heike geborene Woltschendorf , Bruchköbel , * 01.01.1972 ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

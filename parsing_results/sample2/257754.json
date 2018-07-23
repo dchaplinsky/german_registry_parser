@@ -33,7 +33,7 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Bergmannstraße 19 , 10961 Berlin Gegenstand : Der Erwerb , das Halten , Verwalten und Verwerten von eigenen Beteiligungen und Vermögensanlagen ."
             },
             {
                 "label": "misc",
@@ -43,8 +43,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1988-04-28",
+                    "lastname": "Ilse",
+                    "name": "Felix"
+                },
+                "text": " Ilse , Felix , * 28.04.1988 , Berlin"
             }
         ]
     }

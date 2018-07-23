@@ -29,8 +29,19 @@
         "officers": [
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Hante",
+                    "name": "Patrick"
+                },
+                "text": " Hante , Patrick"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Hante",
+                    "name": "Patrick"
+                },
+                "text": " Nicht mehr Prokurist : Hante , Patrick"
             }
         ]
     }

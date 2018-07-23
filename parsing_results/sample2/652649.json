@@ -16,16 +16,21 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=652649&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Neumann , Doris , Haimhausen ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
                 "text": " Messerschmittstraße 7 , 80992 München ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Haimhausen",
+                    "lastname": "Neumann",
+                    "name": "Doris"
+                },
+                "text": " Neumann , Doris , Haimhausen ."
             }
         ]
     }

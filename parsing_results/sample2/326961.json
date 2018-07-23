@@ -43,18 +43,29 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Perutzki",
+                    "name": "Lars"
+                },
+                "text": " Perutzki , Lars"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Toth",
+                    "name": "Aliz"
+                },
+                "text": " Toth , Aliz"
             },
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Torgau",
+                    "dob": "1970-06-10",
+                    "lastname": "Seiffert",
+                    "name": "Torsten"
+                },
+                "text": " Seiffert , Torsten , * 06.10.1970 , Torgau"
             }
         ]
     }

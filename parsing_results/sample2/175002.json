@@ -25,8 +25,13 @@
         "officers": [
             {
                 "class": "Owner",
-                "payload": {},
-                "text": " Inhaber : 1 ."
+                "payload": {
+                    "city": "Ahrensburg",
+                    "dob": "1979-03-29",
+                    "lastname": "Inhaber : Stotz",
+                    "name": "Henrike Gabriele"
+                },
+                "text": " Inhaber : Stotz , Henrike Gabriele , * 29.03.1979 , Ahrensburg"
             }
         ]
     }

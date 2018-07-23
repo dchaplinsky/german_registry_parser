@@ -19,13 +19,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Dr . Berentzen",
+                    "name": "Jan Bernd"
+                },
+                "text": " Dr . Berentzen , Jan Bernd"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Wertheim",
+                    "dob": "1959-04-29",
+                    "lastname": "Nagel",
+                    "name": "Hans - Werner"
+                },
+                "text": " Nagel , Hans - Werner , * 29.04.1959 , Wertheim ."
             }
         ]
     }

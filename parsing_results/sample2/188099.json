@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Apaydin",
+                    "name": "Ugur"
+                },
+                "text": " Apaydin , Ugur"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1971-02-09",
+                    "lastname": "Kodukov",
+                    "name": "Georgi"
+                },
+                "text": " Kodukov , Georgi , * 02.09.1971 , Berlin"
             }
         ]
     }

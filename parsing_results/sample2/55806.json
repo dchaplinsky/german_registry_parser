@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=55806&land_abk=hb"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Loges , Detlef , * 29.03.1951 , Bremen"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -45,8 +39,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Baum",
+                    "name": "Viktor"
+                },
                 "text": " Baum , Viktor"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1951-03-29",
+                    "lastname": "Loges",
+                    "name": "Detlef"
+                },
+                "text": " Loges , Detlef , * 29.03.1951 , Bremen"
             }
         ]
     }

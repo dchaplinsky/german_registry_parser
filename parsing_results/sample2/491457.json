@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=491457&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Leismüller Verwaltungs - GmbH , Lenggries ( München HRB 189958 ) , mit der Befugnis - auch für die jeweiligen Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -29,6 +23,13 @@
             }
         ],
         "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Leismüller Verwaltungs - GmbH , Lenggries ( München HRB 189958 ) , mit der Befugnis - auch für die jeweiligen Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " Leismüller Verwaltungs - GmbH , Lenggries ( München HRB 189958 ) , mit der Befugnis - auch für die jeweiligen Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
             {
                 "class": "PersonalPartner",
                 "payload": {

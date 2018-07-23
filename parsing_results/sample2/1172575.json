@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1172575&land_abk=by"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Wang , Cheng , Liaocheng , Bezirk Dongchangfu , Provinz Shandong / China , * 28.03.1982 , einzelvertretungsberechtigt, error text was no valid patter found, number of chunks: 7"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -38,13 +44,6 @@
             {
                 "label": "address",
                 "text": " Marie - Curie - Straße 6 , 85055 Ingolstadt ."
-            }
-        ],
-        "officers": [
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Wang , Cheng , Liaocheng , Bezirk Dongchangfu , Provinz Shandong / China , * 28.03.1982 , einzelvertretungsberechtigt"
             }
         ]
     }

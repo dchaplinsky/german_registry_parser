@@ -40,19 +40,34 @@
                 "text": " Berlin"
             },
             {
-                "label": "address",
-                "text": ""
+                "label": "misc",
+                "text": " 000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             },
             {
-                "label": "misc",
-                "text": " 2.000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "label": "address",
+                "text": " Eberswalder Straße 22 , 10437 Berlin Gegenstand : Entwicklung und Betrieb von innovativen internetbasierten Buchungsplattformen zur Optimierung der Mobilität Stamm - bzw . Grundkapital : 000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1981-11-03",
+                    "lastname": "Kleinau",
+                    "name": "Sebastian"
+                },
+                "text": " Kleinau , Sebastian , * 11.03.1981 , Berlin"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Hergiswil / Schweiz",
+                    "dob": "1981-03-21",
+                    "lastname": "Etzweiler",
+                    "name": "Dominik"
+                },
+                "text": " Etzweiler , Dominik , * 21.03.1981 , Hergiswil / Schweiz"
             }
         ]
     }

@@ -16,16 +16,22 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=50570&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Zahn , Mei , * 09.06.1981 , Clausthal - Zellerfeld ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
                 "text": "Gesellschaft mit beschränkter Haftung ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Clausthal - Zellerfeld",
+                    "dob": "1981-09-06",
+                    "lastname": "Zahn",
+                    "name": "Mei"
+                },
+                "text": " Zahn , Mei , * 09.06.1981 , Clausthal - Zellerfeld ."
             }
         ]
     }

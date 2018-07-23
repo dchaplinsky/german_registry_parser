@@ -19,13 +19,19 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Hiltl , Hedwig , geb ."
+                "text": "Cannot parse a ManagingDirector from  Hiltl , Hedwig geborene Steier , Fabrikantin , Rottach - Egern , * 19.10.1926 ., error text was Cannot parse DOB  Fabrikantin  using regex"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Rottach - Egern",
+                    "dob": "1969-04-24",
+                    "flag": "einzelvertretungsberechtigt Er ist befugt  die Gesellschaft bei der Vornahme von Rechtsgeschäften mit sich selbst oder als Vertreter eines Dritten uneingeschränkt u vertreten",
+                    "lastname": "Schock",
+                    "name": "Markus"
+                },
                 "text": " Schock , Markus , Rottach - Egern , * 24.04.1969 , einzelvertretungsberechtigt Er ist befugt , die Gesellschaft bei der Vornahme von Rechtsgeschäften mit sich selbst oder als Vertreter eines Dritten uneingeschränkt u vertreten ."
             },
             {

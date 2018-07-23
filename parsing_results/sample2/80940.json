@@ -19,23 +19,42 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Beeskowdamm 3-11 , 14167 Berlin Nicht mehr Geschäftsführer : Schanne , Hubert Alex Prokura : Oster , Kerstin , * 22.05.1967 , Berlin"
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Beeskowdamm 3-11 , 14167 Berlin Nicht mehr Geschäftsführer : Schanne , Hubert Alex Prokura : Oster , Kerstin , * 22.05.1967 , Berlin"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Kerstin",
+                    "dob": "1967-05-22",
+                    "flag": "Berlin",
+                    "lastname": "Schanne",
+                    "name": "Hubert Alex Prokura : Oster"
+                },
+                "text": " Schanne , Hubert Alex Prokura : Oster , Kerstin , * 22.05.1967 , Berlin"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1967-05-22",
+                    "lastname": "Oster",
+                    "name": "Kerstin"
+                },
+                "text": " Oster , Kerstin , * 22.05.1967 , Berlin"
             },
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Rieger",
+                    "name": "Richard"
+                },
+                "text": " Rieger , Richard ."
             }
         ]
     }

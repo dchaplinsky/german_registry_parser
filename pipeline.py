@@ -145,7 +145,8 @@ if __name__ == "__main__":
         outdir = os.path.abspath(args.outdir)
         infile = gzip.open(args.infile, "rt")
 
-        map(os.remove, glob.glob(os.path.join(outdir, "*.json")))
+        for f in glob.glob(os.path.join(outdir, "*.json")):
+            os.remove(f)
 
         with tqdm() as pbar:
             for l in infile:

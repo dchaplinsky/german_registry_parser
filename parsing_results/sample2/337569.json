@@ -39,13 +39,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Kleinhans",
+                    "name": "Bernd"
+                },
+                "text": " Kleinhans , Bernd"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Dernbach",
+                    "dob": "1975-10-24",
+                    "lastname": "Kleinhans",
+                    "name": "Denise"
+                },
+                "text": " Kleinhans , Denise , * 24.10.1975 , Dernbach"
             }
         ]
     }

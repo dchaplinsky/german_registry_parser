@@ -19,13 +19,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Krause",
+                    "name": "Thomas"
+                },
+                "text": " Krause , Thomas"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1951-06-22",
+                    "lastname": "Dresdner",
+                    "name": "Jörg"
+                },
+                "text": " Dresdner , Jörg , * 22.06.1951 , Berlin ."
             }
         ]
     }

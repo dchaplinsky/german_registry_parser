@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=411385&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Gumpert , Winfried , Diplom - Kaufmann , St . Augustin ."
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
@@ -35,6 +29,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "St . Augustin",
+                    "lastname": "Gumpert",
+                    "name": "Winfried",
+                    "position": "Diplom - Kaufmann"
+                },
+                "text": " Gumpert , Winfried , Diplom - Kaufmann , St . Augustin ."
+            },
             {
                 "class": "Liquidator",
                 "payload": {

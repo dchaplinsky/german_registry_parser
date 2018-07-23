@@ -25,13 +25,17 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "company_name": " NKG Zweite Grundstücks GmbH"
+                },
+                "text": " NKG Zweite Grundstücks GmbH"
             },
             {
                 "class": "PersonalPartner",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "company_name": " Saluta Grundstücksverwaltungs GmbH , Berlin ( Amtsgericht Charlottenburg , HRB 56802 B )"
+                },
+                "text": " Saluta Grundstücksverwaltungs GmbH , Berlin ( Amtsgericht Charlottenburg , HRB 56802 B )"
             }
         ]
     }

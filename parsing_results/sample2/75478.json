@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=75478&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Peter , Marko , * 23.08.1968 , Schönwalde - Glien"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -39,8 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Lehmann",
+                    "name": "Kay"
+                },
                 "text": " Lehmann , Kay"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Schönwalde - Glien",
+                    "dob": "1968-08-23",
+                    "lastname": "Peter",
+                    "name": "Marko"
+                },
+                "text": " Peter , Marko , * 23.08.1968 , Schönwalde - Glien"
             }
         ]
     }

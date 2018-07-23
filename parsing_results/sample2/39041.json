@@ -29,19 +29,29 @@
         "labels": [
             {
                 "label": "misc",
-                "text": " 25.000 EUR Vertretungsregelung : Jeder Geschäftsführer vertritt die Gesellschaft allein ."
+                "text": " 000 EUR Vertretungsregelung : Jeder Geschäftsführer vertritt die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1976-09-11",
+                    "lastname": "Behrendt",
+                    "name": "Alexander"
+                },
+                "text": " Behrendt , Alexander , * 09.11.1976 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Frankfurt ( Oder )",
+                    "dob": "1975-03-25",
+                    "lastname": "Mielke",
+                    "name": "Lars Heiko"
+                },
+                "text": " Mielke , Lars Heiko , * 25.03.1975 , Frankfurt ( Oder )"
             }
         ]
     }

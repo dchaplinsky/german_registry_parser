@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=275842&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Pulvermüller , Iris , geb ."
-            }
-        ],
         "officers": [
             {
                 "class": "Owner",
@@ -32,6 +26,16 @@
                     "name": "Jochen"
                 },
                 "text": " Dr . Pulvermüller , Jochen , Ruhstorf , * 15.07.1953 ."
+            },
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Ruhstorf / Rott",
+                    "dob": "1951-07-07",
+                    "lastname": "Pulvermüller",
+                    "name": "Iris geborene Merkle"
+                },
+                "text": " Pulvermüller , Iris geborene Merkle , Ruhstorf / Rott , * 07.07.1951 ."
             }
         ]
     }

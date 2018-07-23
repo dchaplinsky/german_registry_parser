@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=72917&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Klages , Ulrich , Augenoptikermeister , Holzminden ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
@@ -29,6 +23,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Holzminden",
+                    "lastname": "Klages",
+                    "name": "Ulrich",
+                    "position": "Augenoptikermeister"
+                },
+                "text": " Klages , Ulrich , Augenoptikermeister , Holzminden ."
+            },
             {
                 "class": "Owner",
                 "payload": {

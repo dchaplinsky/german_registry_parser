@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=407144&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Meerdorfer Kieswerk Verwaltungs GmbH , Wolfenbüttel ( Amtsgericht Braunschweig HRB 206072 ) , einzelvertretungsberechtigt ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -32,6 +26,15 @@
             {
                 "label": "address",
                 "text": " Dr . - Heinrich - Jasper - Straße 32 , 38304 Wolfenbüttel ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Meerdorfer Kieswerk Verwaltungs GmbH , Wolfenbüttel ( Amtsgericht Braunschweig HRB 206072 ) , einzelvertretungsberechtigt ."
+                },
+                "text": " Meerdorfer Kieswerk Verwaltungs GmbH , Wolfenbüttel ( Amtsgericht Braunschweig HRB 206072 ) , einzelvertretungsberechtigt ."
             }
         ]
     }

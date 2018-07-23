@@ -39,8 +39,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1984-11-30",
+                    "lastname": "Witte",
+                    "name": "Christoph Alexander Reinhold"
+                },
+                "text": " Witte , Christoph Alexander Reinhold , * 30.11.1984 , Hamburg"
             }
         ]
     }

@@ -55,13 +55,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1985-05-14",
+                    "lastname": "Heidmann",
+                    "name": "Ronny"
+                },
+                "text": " Heidmann , Ronny , * 14.05.1985 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1982-07-03",
+                    "lastname": "Tafti",
+                    "name": "Stefan Sorooshian"
+                },
+                "text": " Tafti , Stefan Sorooshian , * 07.03.1982 , Berlin"
             }
         ]
     }

@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=383308&land_abk=bw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a CommonProcuration from  Opitz , Isabelle Simone , geb ."
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Besigheim",
+                    "dob": "1966-04-10",
+                    "lastname": "Opitz",
+                    "name": "Isabelle Simone geborene Liepe"
+                },
+                "text": " Opitz , Isabelle Simone geborene Liepe , Besigheim , * 04.10.1966 ."
             }
         ]
     }

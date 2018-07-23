@@ -83,18 +83,37 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Bashan",
+                    "name": "Doron"
+                },
+                "text": " Bashan , Doron"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Echzell",
+                    "dob": "1976-04-03",
+                    "lastname": "Goldgruber",
+                    "name": "Florian"
+                },
+                "text": " Goldgruber , Florian , * 04.03.1976 , Echzell"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Savion",
+                    "name": "Rabin"
+                },
                 "text": " Savion , Rabin"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Änderung zu Nr . 1 : Horn",
+                    "name": "Eyal"
+                },
+                "text": " Änderung zu Nr . 1 : Horn , Eyal"
             }
         ]
     }

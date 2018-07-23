@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=171485&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Steffgen , Klaus , Kaufmann und Kfz . - Meister , Schweich ."
-            }
-        ],
         "flags": [
             {
                 "flag": "The owner is acting alone",
@@ -29,6 +23,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Schweich",
+                    "lastname": "Steffgen",
+                    "name": "Klaus",
+                    "position": "Kaufmann und Kfz . - Meister"
+                },
+                "text": " Steffgen , Klaus , Kaufmann und Kfz . - Meister , Schweich ."
+            },
             {
                 "class": "Owner",
                 "payload": {

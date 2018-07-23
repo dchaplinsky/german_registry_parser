@@ -25,13 +25,21 @@
         "officers": [
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Commentz",
+                    "name": "Volker geborene Maciejewski"
+                },
+                "text": " Commentz , Volker geborene Maciejewski"
             },
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Posen / Polen",
+                    "dob": "1979-03-28",
+                    "lastname": "Wozniak",
+                    "name": "Agnieszka Beata"
+                },
+                "text": " Wozniak , Agnieszka Beata , * 28.03.1979 , Posen / Polen"
             }
         ]
     }

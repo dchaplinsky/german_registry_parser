@@ -31,13 +31,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Jeschke",
+                    "name": "Arnt"
+                },
+                "text": " Jeschke , Arnt"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Singapur / Singapur",
+                    "dob": "1970-04-02",
+                    "lastname": "Karb",
+                    "name": "Michael"
+                },
+                "text": " Karb , Michael , * 04.02.1970 , Singapur / Singapur"
             }
         ]
     }

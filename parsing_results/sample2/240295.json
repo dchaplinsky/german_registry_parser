@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Kacar",
+                    "name": "Serdar"
+                },
+                "text": " Kacar , Serdar"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1988-11-01",
+                    "lastname": "Kacar",
+                    "name": "Selcuk"
+                },
+                "text": " Kacar , Selcuk , * 11.01.1988 , Berlin"
             }
         ]
     }

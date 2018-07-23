@@ -16,17 +16,24 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=137182&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Eggebrecht , André , * 28.06.1963 , Brandenburg an der Havel"
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Winkelmann",
+                    "name": "Renate"
+                },
                 "text": " Winkelmann , Renate"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Brandenburg an der Havel",
+                    "dob": "1963-06-28",
+                    "lastname": "Eggebrecht",
+                    "name": "André"
+                },
+                "text": " Eggebrecht , André , * 28.06.1963 , Brandenburg an der Havel"
             }
         ]
     }

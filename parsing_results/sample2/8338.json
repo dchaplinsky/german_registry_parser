@@ -53,13 +53,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Oyten",
+                    "dob": "1946-02-15",
+                    "lastname": "Heidemeyer",
+                    "name": "Gert"
+                },
+                "text": " Heidemeyer , Gert , * 15.02.1946 , Oyten"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1964-06-30",
+                    "lastname": "Meinke",
+                    "name": "Kathrin"
+                },
+                "text": " Meinke , Kathrin , * 30.06.1964 , Bremen"
             }
         ]
     }

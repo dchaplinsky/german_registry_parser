@@ -37,18 +37,31 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Wendt",
+                    "name": "Cornelia"
+                },
+                "text": " Wendt , Cornelia"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Goslar",
+                    "dob": "1946-10-28",
+                    "lastname": "Gasz",
+                    "name": "Wolfgang"
+                },
+                "text": " Gasz , Wolfgang , * 28.10.1946 , Goslar"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Bonn",
+                    "dob": "1961-07-04",
+                    "lastname": "Müffelmann",
+                    "name": "Karsten"
+                },
+                "text": " Müffelmann , Karsten , * 07.04.1961 , Bonn"
             }
         ]
     }

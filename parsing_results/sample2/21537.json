@@ -19,13 +19,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Luttermann",
+                    "name": "Anita"
+                },
+                "text": " Luttermann , Anita"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Flensburg",
+                    "dob": "1975-08-13",
+                    "lastname": "Narloch",
+                    "name": "Andreas"
+                },
+                "text": " Narloch , Andreas , * 13.08.1975 , Flensburg ."
             }
         ]
     }

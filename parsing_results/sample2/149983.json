@@ -19,18 +19,29 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Porta Westfalica",
+                    "dob": "1970-09-26",
+                    "lastname": "Plath",
+                    "name": "Ulf - U"
+                },
+                "text": " Plath , Ulf - U . , * 26.09.1970 , Porta Westfalica"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Kaul",
+                    "name": "Frank - Rainer"
+                },
+                "text": " Kaul , Frank - Rainer"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Kühn",
+                    "name": "Klaus"
+                },
+                "text": " Kühn , Klaus ."
             }
         ]
     }

@@ -33,23 +33,31 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Ilsensteinweg 6 , 14129 Berlin Nicht mehr Liquidator : Zimmermann , Thomas"
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Ilsensteinweg 6 , 14129 Berlin Nicht mehr Liquidator : Zimmermann , Thomas"
             }
         ],
         "officers": [
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Zimmermann",
+                    "name": "Thomas"
+                },
+                "text": " Zimmermann , Thomas"
             },
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1971-05-15",
+                    "lastname": "Müller",
+                    "name": "Petra"
+                },
+                "text": " Müller , Petra , * 15.05.1971 , Berlin"
             }
         ]
     }

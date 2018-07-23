@@ -45,19 +45,29 @@
             },
             {
                 "label": "misc",
-                "text": " 25.000,00 EUR"
+                "text": " 000,00 EUR"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1986-02-19",
+                    "lastname": "Fischer",
+                    "name": "Nils"
+                },
+                "text": " Fischer , Nils , * 19.02.1986 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1983-02-07",
+                    "lastname": "Onnenberg",
+                    "name": "Jan"
+                },
+                "text": " Onnenberg , Jan , * 02.07.1983 , Berlin"
             }
         ]
     }

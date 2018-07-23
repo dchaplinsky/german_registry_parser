@@ -28,9 +28,22 @@
         ],
         "officers": [
             {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Apenrade",
+                    "dob": "1977-06-21",
+                    "lastname": "Rettig Petersen",
+                    "name": "Julie Harriet"
+                },
+                "text": " Rettig Petersen , Julie Harriet , * 21.06.1977 , Apenrade"
+            },
+            {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Jensen",
+                    "name": "Tonni"
+                },
+                "text": " Jensen , Tonni"
             }
         ]
     }

@@ -41,18 +41,23 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : c / o ACCEPT Eins Steuerberatungsgesellschaft mbH , Ohmstraße 7 , 10179 Berlin Vertretungsregelung : Ist ein Liquidator bestellt , so vertritt er die Gesellschaft allein ."
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " c / o ACCEPT Eins Steuerberatungsgesellschaft mbH , Ohmstraße 7 , 10179 Berlin Vertretungsregelung : Ist ein Liquidator bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Lausanne / Schweiz",
+                    "dob": "1947-01-22",
+                    "lastname": "Imoberdorf",
+                    "name": "Margrit"
+                },
+                "text": " Imoberdorf , Margrit , * 22.01.1947 , Lausanne / Schweiz"
             }
         ]
     }

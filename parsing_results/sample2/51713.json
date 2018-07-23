@@ -19,18 +19,35 @@
         "officers": [
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Franz",
+                    "name": "Andrea"
+                },
+                "text": " Franz , Andrea"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Franz",
+                    "name": "Andrea"
+                },
+                "text": " Nicht mehr Prokurist : Franz , Andrea"
             },
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Wiechern",
+                    "name": "Volker"
+                },
+                "text": " Wiechern , Volker"
             },
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "lastname": "Marten",
+                    "name": "Claudia"
+                },
+                "text": " Marten , Claudia ."
             }
         ]
     }

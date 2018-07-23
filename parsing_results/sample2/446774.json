@@ -35,23 +35,39 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1975-10-27",
+                    "lastname": "Colak",
+                    "name": "Mustafa"
+                },
+                "text": " Colak , Mustafa , * 27.10.1975 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1980-03-31",
+                    "lastname": "Özcelik",
+                    "name": "Nadir"
+                },
+                "text": " Özcelik , Nadir , * 31.03.1980 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Özcelik",
+                    "name": "Seyfi"
+                },
+                "text": " Özcelik , Seyfi"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Özcelik",
+                    "name": "Refik"
+                },
+                "text": " Özcelik , Refik"
             }
         ]
     }

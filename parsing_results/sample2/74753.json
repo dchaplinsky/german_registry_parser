@@ -16,16 +16,14 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=74753&land_abk=bw"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "Owner",
-                "payload": {},
-                "text": " Thomas Berlet ."
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Thomas Berlet ., error text was a person without DOB, number of chunks: 1"
             },
             {
-                "class": "Owner",
-                "payload": {},
-                "text": " Berlet , Thomas , Dettingen unter Teck , * 07.01.1970 Nicht mehr Inhaber : Berlet , Helmut , Owen , * 23.09.1953 ."
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Berlet , Thomas , Dettingen unter Teck , * 07.01.1970 Nicht mehr Inhaber : Berlet , Helmut , Owen , * 23.09.1953 ., error text was no valid patter found, number of chunks: 7"
             }
         ]
     }

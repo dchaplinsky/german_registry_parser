@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=117726&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Oestreich , René , * 06.04.1961 , Löwenberger Land , mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "If several managing directors are appointed, the company is jointly represented by all managing directors.",
@@ -40,6 +34,19 @@
             {
                 "label": "address",
                 "text": " Am Sonnenhügel 2 , 16775 Löwenberger Land OT Löwenberg ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Löwenberger Land",
+                    "dob": "1961-06-04",
+                    "flag": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen",
+                    "lastname": "Oestreich",
+                    "name": "René"
+                },
+                "text": " Oestreich , René , * 06.04.1961 , Löwenberger Land , mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen ."
             }
         ]
     }

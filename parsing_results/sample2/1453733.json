@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1453733&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  bofrost * Vertrieb 14 Verwaltungs - GmbH , Straelen ( Amtsgericht Kleve HRB 14855 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich als Vertreter der persönlich haftenden Gesellschafterin Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -32,6 +26,15 @@
             {
                 "label": "address",
                 "text": " An der Oelmühle 6 , 47638 Straelen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " bofrost * Vertrieb 14 Verwaltungs - GmbH , Straelen ( Amtsgericht Kleve HRB 14855 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich als Vertreter der persönlich haftenden Gesellschafterin Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " bofrost * Vertrieb 14 Verwaltungs - GmbH , Straelen ( Amtsgericht Kleve HRB 14855 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich als Vertreter der persönlich haftenden Gesellschafterin Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

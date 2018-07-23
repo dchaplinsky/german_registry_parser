@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=658439&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Buder - Glück , Karin , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -36,6 +30,18 @@
             {
                 "label": "address",
                 "text": " Kirchstraße 18 , 71634 Ludwigsburg ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Ludwigsburg",
+                    "dob": "1959-02-13",
+                    "lastname": "Buder - Glück",
+                    "name": "Karin geborene Buder"
+                },
+                "text": " Buder - Glück , Karin geborene Buder , Ludwigsburg , * 13.02.1959"
             }
         ]
     }

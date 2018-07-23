@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=114908&land_abk=nw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Dr . Anderle , Sven , Diplom - Kaufmann , Essen"
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Essen",
+                    "lastname": "Dr . Anderle",
+                    "name": "Sven",
+                    "position": "Diplom - Kaufmann"
+                },
+                "text": " Dr . Anderle , Sven , Diplom - Kaufmann , Essen"
             }
         ]
     }

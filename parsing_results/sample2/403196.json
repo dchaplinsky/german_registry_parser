@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=403196&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  De West , Petra , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Sole trader",
@@ -32,6 +26,18 @@
             {
                 "label": "address",
                 "text": " Neumarktstraße 3 , 31683 Obernkirchen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Obernkirchen",
+                    "dob": "1964-02-16",
+                    "lastname": "De West",
+                    "name": "Petra geborene Brand"
+                },
+                "text": " De West , Petra geborene Brand , Obernkirchen , * 16.02.1964 ."
             }
         ]
     }

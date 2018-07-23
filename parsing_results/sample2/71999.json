@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=71999&land_abk=hb"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Schepers - Bauer , Maria , * 09.10.1974 , Bremen"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -41,8 +35,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Mørk",
+                    "name": "Per Christian"
+                },
                 "text": " Mørk , Per Christian"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1974-09-10",
+                    "lastname": "Schepers - Bauer",
+                    "name": "Maria"
+                },
+                "text": " Schepers - Bauer , Maria , * 09.10.1974 , Bremen"
             }
         ]
     }

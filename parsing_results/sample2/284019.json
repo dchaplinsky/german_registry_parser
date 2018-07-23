@@ -25,8 +25,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 7 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1974-01-30",
+                    "lastname": "Dr . Cremer",
+                    "name": "Philipp"
+                },
+                "text": " Dr . Cremer , Philipp , * 30.01.1974 , Berlin"
             }
         ]
     }

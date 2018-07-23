@@ -37,8 +37,14 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1969-08-22",
+                    "flag": "mit der Befugnis die Gesellschaft allein zu vertreten und mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen",
+                    "lastname": "Saul",
+                    "name": "Christian"
+                },
+                "text": " Saul , Christian , * 22.08.1969 , Hamburg , mit der Befugnis die Gesellschaft allein zu vertreten und mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
             }
         ]
     }

@@ -16,16 +16,23 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=310070&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Degen , Nadine , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
                 "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Wesel",
+                    "dob": "1978-05-31",
+                    "flag": "einzelvertretungsberechtigt solange sie alleinige Liquidatorin ist und mit der Befugnis mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Degen",
+                    "name": "Nadine geborene Nordmann"
+                },
+                "text": " Degen , Nadine geborene Nordmann , Wesel , * 31.05.1978 , einzelvertretungsberechtigt solange sie alleinige Liquidatorin ist und mit der Befugnis mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

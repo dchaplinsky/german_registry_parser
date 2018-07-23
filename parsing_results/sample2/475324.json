@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=475324&land_abk=be"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Nagel , Frederik , * 05.03.1991 , Kiel"
-            }
-        ],
         "labels": [
             {
                 "label": "WHUT",
@@ -31,18 +25,37 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Brill - Völkle",
+                    "name": "Keenan Hugo Lawrence Helmut"
+                },
+                "text": " Brill - Völkle , Keenan Hugo Lawrence Helmut"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Hüsgen",
+                    "name": "Jasper"
+                },
+                "text": " Hüsgen , Jasper"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "lastname": "Nagel",
+                    "name": "Julian Philipp"
+                },
+                "text": " Nagel , Julian Philipp"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Kiel",
+                    "dob": "1991-05-03",
+                    "lastname": "Nagel",
+                    "name": "Frederik"
+                },
+                "text": " Nagel , Frederik , * 05.03.1991 , Kiel"
             }
         ]
     }

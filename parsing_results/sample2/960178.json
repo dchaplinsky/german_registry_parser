@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=960178&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  BIONORIS VERWALTUNGS LTD . , Wakefield , West Yorkshire / Vereinigtes Königreich ( Companies House Nr . 10054718 , ) ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -36,6 +30,18 @@
             {
                 "label": "address",
                 "text": " Vorstadt 6 c , 90596 Schwanstetten ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": ")",
+                    "lastname": "BIONORIS VERWALTUNGS LTD",
+                    "name": "Wakefield",
+                    "position": "West Yorkshire / Vereinigtes Königreich ( Companies House Nr . 10054718"
+                },
+                "text": " BIONORIS VERWALTUNGS LTD . , Wakefield , West Yorkshire / Vereinigtes Königreich ( Companies House Nr . 10054718 , ) ."
             }
         ]
     }

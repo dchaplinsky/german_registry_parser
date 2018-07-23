@@ -47,8 +47,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1957-07-07",
+                    "lastname": "Picklapp",
+                    "name": "Stanislawa"
+                },
+                "text": " Picklapp , Stanislawa , * 07.07.1957 , Berlin"
             }
         ]
     }

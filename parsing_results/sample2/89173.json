@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=89173&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Ossig , Berthold , Wächtersbach"
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -32,6 +26,15 @@
                     "name": "Michael"
                 },
                 "text": " Griem , Michael , Bensheim , * 29.01.1945"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Wächtersbach",
+                    "lastname": "Ossig",
+                    "name": "Berthold"
+                },
+                "text": " Ossig , Berthold , Wächtersbach"
             }
         ]
     }

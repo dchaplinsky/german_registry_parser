@@ -25,8 +25,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 5 ."
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1963-02-09",
+                    "lastname": "Dr . John",
+                    "name": "Peer"
+                },
+                "text": " Dr . John , Peer , * 02.09.1963 , Bremen"
             }
         ]
     }

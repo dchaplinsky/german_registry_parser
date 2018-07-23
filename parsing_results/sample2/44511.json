@@ -16,14 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=44511&land_abk=sn"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Bäßler & Zacher Verwaltungs GmbH , Dresden ( Amtsgericht Dresden HRB 26033 ) , einzelvertretungsberechtigt ."
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Bäßler & Zacher Verwaltungs GmbH , Dresden ( Amtsgericht Dresden HRB 26033 ) , einzelvertretungsberechtigt ."
+                },
+                "text": " Bäßler & Zacher Verwaltungs GmbH , Dresden ( Amtsgericht Dresden HRB 26033 ) , einzelvertretungsberechtigt ."
             },
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  ZACHER Leiter - und Steigtechnik GmbH , Dresden ( Amtsgericht Dresden , HRB 12837 ) ."
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " ZACHER Leiter - und Steigtechnik GmbH , Dresden ( Amtsgericht Dresden , HRB 12837 ) ."
+                },
+                "text": " ZACHER Leiter - und Steigtechnik GmbH , Dresden ( Amtsgericht Dresden , HRB 12837 ) ."
             }
         ]
     }

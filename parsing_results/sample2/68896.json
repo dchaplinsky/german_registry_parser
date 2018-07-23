@@ -19,13 +19,21 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Sichler",
+                    "name": "Fritz"
+                },
+                "text": " Sichler , Fritz"
             },
             {
                 "class": "Owner",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin Rechtsform : Die Firma ist geändert",
+                    "dob": "1966-04-22",
+                    "lastname": "Spreitzer",
+                    "name": "Andreas"
+                },
+                "text": " Spreitzer , Andreas , * 22.04.1966 , Berlin Rechtsform : Die Firma ist geändert ."
             }
         ]
     }

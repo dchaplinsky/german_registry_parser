@@ -25,8 +25,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1974-06-16",
+                    "lastname": "Oltrogge",
+                    "name": "Silke"
+                },
+                "text": " Oltrogge , Silke , * 16.06.1974 , Berlin"
             }
         ]
     }

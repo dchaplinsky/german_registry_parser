@@ -19,11 +19,11 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Haaß , Eckhard , Diplom - Braumeister , Schwalmstadt , * 01.12.1966 ."
+                "text": "Cannot parse a PersonalPartner from  Haaß , Eckhard , Diplom - Braumeister , Schwalmstadt , * 01.12.1966 ., error text was Cannot parse DOB  Diplom - Braumeister  using regex"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Haaß , Eckhard , Diplom - Braumeister , Schwalmstadt , * 01.12.1966 ."
+                "text": "Cannot parse a ProcurationCancelled from  Haaß , Eckhard , Diplom - Braumeister , Schwalmstadt , * 01.12.1966 ., error text was Cannot parse DOB  Diplom - Braumeister  using regex"
             }
         ]
     }

@@ -19,13 +19,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "aksoy",
+                    "name": "murat"
+                },
+                "text": " aksoy , murat"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "berlin",
+                    "dob": "1956-01-01",
+                    "lastname": "aksoy",
+                    "name": "muhterem"
+                },
+                "text": " aksoy , muhterem , * 01.01.1956 , berlin"
             }
         ]
     }

@@ -25,13 +25,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Schlüter",
+                    "name": "Ralf"
+                },
+                "text": " Schlüter , Ralf"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Bremerhaven",
+                    "dob": "1971-05-23",
+                    "lastname": "Zieseniß",
+                    "name": "Mario"
+                },
+                "text": " Zieseniß , Mario , * 23.05.1971 , Bremerhaven"
             }
         ]
     }

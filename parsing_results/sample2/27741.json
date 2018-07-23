@@ -29,14 +29,29 @@
         "labels": [
             {
                 "label": "misc",
-                "text": " 25.000 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " 000 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Amberg",
+                    "dob": "1970-06-19",
+                    "lastname": "Kurz",
+                    "name": "Markus"
+                },
+                "text": " Kurz , Markus , * 19.06.1970 , Amberg"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "München",
+                    "dob": "1968-04-03",
+                    "lastname": "Villar del Rio",
+                    "name": "Maria Immaculada"
+                },
+                "text": " Villar del Rio , Maria Immaculada , * 04.03.1968 , München"
             }
         ]
     }

@@ -25,8 +25,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 7 ."
+                "payload": {
+                    "city": "Stein",
+                    "dob": "1978-05-27",
+                    "lastname": "Laufer",
+                    "name": "Michael"
+                },
+                "text": " Laufer , Michael , * 27.05.1978 , Stein"
             }
         ]
     }

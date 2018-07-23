@@ -25,13 +25,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Ebrahim",
+                    "name": "Hamada"
+                },
+                "text": " Ebrahim , Hamada"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1967-01-06",
+                    "lastname": "Akil",
+                    "name": "Mohamad"
+                },
+                "text": " Akil , Mohamad , * 01.06.1967 , Berlin"
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1356004&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  EstatePartner Beteiligungsgesellschaft mbH , Bad Salzuflen ( Amtsgericht Lemgo HRB 8419 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -37,7 +31,16 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "company_name": " EstatePartner Beteiligungsgesellschaft mbH , Bad Salzuflen ( Amtsgericht Lemgo HRB 8419 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " EstatePartner Beteiligungsgesellschaft mbH , Bad Salzuflen ( Amtsgericht Lemgo HRB 8419 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " solarpower project - invest Verwaltungs GmbH , Nürnberg ( Amtsgericht Nürnberg HRB 26989 ) ."
+                },
                 "text": " solarpower project - invest Verwaltungs GmbH , Nürnberg ( Amtsgericht Nürnberg HRB 26989 ) ."
             }
         ]

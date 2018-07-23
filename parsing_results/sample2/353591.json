@@ -49,19 +49,29 @@
             },
             {
                 "label": "misc",
-                "text": " 50.000,00 EUR"
+                "text": " 000,00 EUR"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Antalya / Türkei",
+                    "dob": "1967-01-01",
+                    "lastname": "Gür",
+                    "name": "Ömer"
+                },
+                "text": " Gür , Ömer , * 01.01.1967 , Antalya / Türkei"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Antalya / Türkei",
+                    "dob": "1966-05-08",
+                    "lastname": "Yildirim",
+                    "name": "Mehmet"
+                },
+                "text": " Yildirim , Mehmet , * 05.08.1966 , Antalya / Türkei"
             }
         ]
     }

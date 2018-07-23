@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=23408&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Wörtz , Kurt , Süßen ."
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Wörtz , Christian , Süßen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -35,8 +25,32 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Süßen",
+                    "dob": "1980-07-07",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Wörtz",
+                    "name": "Christian"
+                },
                 "text": " Wörtz , Christian , Süßen , * 07.07.1980 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Süßen",
+                    "lastname": "Wörtz",
+                    "name": "Kurt"
+                },
+                "text": " Wörtz , Kurt , Süßen ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Süßen",
+                    "lastname": "Wörtz",
+                    "name": "Christian"
+                },
+                "text": " Wörtz , Christian , Süßen ."
             }
         ]
     }

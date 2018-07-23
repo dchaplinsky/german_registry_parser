@@ -16,13 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=85943&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Przybilla , Rüdiger , Apotheker , Friedrichshafen ."
-            }
-        ],
         "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Friedrichshafen",
+                    "lastname": "Przybilla",
+                    "name": "Rüdiger",
+                    "position": "Apotheker"
+                },
+                "text": " Przybilla , Rüdiger , Apotheker , Friedrichshafen ."
+            },
             {
                 "class": "Owner",
                 "payload": {

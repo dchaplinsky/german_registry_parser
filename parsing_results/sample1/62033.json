@@ -19,13 +19,19 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Neumann",
+                    "name": "Alfred"
+                },
+                "text": " Neumann , Alfred"
             },
             {
                 "class": "Owner",
-                "payload": {},
-                "text": " Nicht mehr Persönlich haftender Gesellschafter :"
+                "payload": {
+                    "lastname": "Nicht mehr Persönlich haftender Gesellschafter : Neumann",
+                    "name": "Alfred"
+                },
+                "text": " Nicht mehr Persönlich haftender Gesellschafter : Neumann , Alfred"
             }
         ]
     }

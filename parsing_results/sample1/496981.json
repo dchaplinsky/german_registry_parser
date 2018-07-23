@@ -16,14 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=496981&land_abk=by"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  epuron fünfte management gmbh , hamburg ( amtsgericht hamburg , hrb 99546 ) ."
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " epuron fünfte management gmbh , hamburg ( amtsgericht hamburg , hrb 99546 ) ."
+                },
+                "text": " epuron fünfte management gmbh , hamburg ( amtsgericht hamburg , hrb 99546 ) ."
             },
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  res beteiligungs gmbh , münchen ( amtsgericht münchen , hrb 191530 ) ."
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " res beteiligungs gmbh , münchen ( amtsgericht münchen , hrb 191530 ) ."
+                },
+                "text": " res beteiligungs gmbh , münchen ( amtsgericht münchen , hrb 191530 ) ."
             }
         ]
     }

@@ -47,13 +47,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Mißfelder",
+                    "name": "Thomas"
+                },
+                "text": " Mißfelder , Thomas"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1958-11-12",
+                    "lastname": "Finze",
+                    "name": "Jörg"
+                },
+                "text": " Finze , Jörg , * 11.12.1958 , Berlin"
             }
         ]
     }

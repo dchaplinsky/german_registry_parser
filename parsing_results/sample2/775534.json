@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=775534&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Hamburg , Spitalerstraße 22-26 Beteiligungsgesellschaft mbH , Grünwald ( Amtsgericht München HRB 189395 ) ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -32,6 +26,15 @@
             {
                 "label": "address",
                 "text": " Otto - Heilmann - Str ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Hamburg , Spitalerstraße 22-26 Beteiligungsgesellschaft mbH , Grünwald ( Amtsgericht München HRB 189395 ) ."
+                },
+                "text": " Hamburg , Spitalerstraße 22-26 Beteiligungsgesellschaft mbH , Grünwald ( Amtsgericht München HRB 189395 ) ."
             }
         ]
     }

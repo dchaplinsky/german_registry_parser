@@ -33,23 +33,49 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Badstöber",
+                    "name": "Claudia"
+                },
+                "text": " Badstöber , Claudia"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Kowar",
+                    "name": "Johann"
+                },
+                "text": " Kowar , Johann"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Flein",
+                    "dob": "1957-09-21",
+                    "lastname": "Kelber",
+                    "name": "Jürgen F"
+                },
+                "text": " Kelber , Jürgen F . , * 21.09.1957 , Flein"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Wimsheim",
+                    "dob": "1958-12-28",
+                    "lastname": "Leitner",
+                    "name": "Walter"
+                },
+                "text": " Leitner , Walter , * 28.12.1958 , Wimsheim"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Wien / Österreich",
+                    "dob": "1968-03-02",
+                    "lastname": "Badstöber",
+                    "name": "Claudia"
+                },
+                "text": " Badstöber , Claudia , * 03.02.1968 , Wien / Österreich"
             }
         ]
     }

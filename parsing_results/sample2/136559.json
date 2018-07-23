@@ -16,17 +16,24 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=136559&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Wagner , Roland Horst , * 16.02.1961 , Heikendorf"
-            }
-        ],
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Heikendorf",
+                    "dob": "1961-02-16",
+                    "lastname": "Wagner",
+                    "name": "Roland Horst"
+                },
+                "text": " Wagner , Roland Horst , * 16.02.1961 , Heikendorf"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "lastname": "Wagner",
+                    "name": "Horst"
+                },
+                "text": " Wagner , Horst"
             }
         ]
     }

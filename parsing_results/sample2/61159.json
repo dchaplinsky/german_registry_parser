@@ -41,19 +41,29 @@
         "labels": [
             {
                 "label": "address",
-                "text": ""
+                "text": " Parallelstraße 5 , 22851 Norderstedt Gegenstand : Durchführung von Installationsarbeiten in den Fachbereichen Elektro - und Datentechnik , Handel mit Waren der genannten Tätigkeitsbereiche"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Norderstedt",
+                    "dob": "1951-12-05",
+                    "lastname": "Siedel",
+                    "name": "Roland"
+                },
+                "text": " Siedel , Roland , * 12.05.1951 , Norderstedt"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Greifswald Gesellschaft mit beschränkter Haftung",
+                    "dob": "1954-02-09",
+                    "lastname": "Dahlmann",
+                    "name": "Harald"
+                },
+                "text": " Dahlmann , Harald , * 02.09.1954 , Greifswald Gesellschaft mit beschränkter Haftung"
             }
         ]
     }

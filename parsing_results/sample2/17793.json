@@ -19,13 +19,17 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "company_name": " PHOENIX Verwaltungs GmbH , Bielefeld ( Amtsgericht Bielefeld , HRB 38569 ) Rechtsform : Kommanditgesellschaft"
+                },
+                "text": " PHOENIX Verwaltungs GmbH , Bielefeld ( Amtsgericht Bielefeld , HRB 38569 ) Rechtsform : Kommanditgesellschaft"
             },
             {
                 "class": "Owner",
-                "payload": {},
-                "text": " Persönlich haftender Gesellschafter :"
+                "payload": {
+                    "company_name": " Persönlich haftender Gesellschafter : PHOENIX Verwaltungs GmbH , Bielefeld ( Amtsgericht Bielefeld , HRB 38569 ) Rechtsform : Kommanditgesellschaft"
+                },
+                "text": " Persönlich haftender Gesellschafter : PHOENIX Verwaltungs GmbH , Bielefeld ( Amtsgericht Bielefeld , HRB 38569 ) Rechtsform : Kommanditgesellschaft"
             }
         ]
     }

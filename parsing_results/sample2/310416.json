@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=310416&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Königsreuther , Monika , geb ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
@@ -39,6 +33,16 @@
                     "name": "Reiner"
                 },
                 "text": " Zimmermann , Reiner , Nürnberg , * 06.03.1957 , einzelvertretungsberechtigt ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Fürth",
+                    "dob": "1953-03-15",
+                    "lastname": "Königsreuther",
+                    "name": "Monika geborene Krugmann"
+                },
+                "text": " Königsreuther , Monika geborene Krugmann , Fürth , * 15.03.1953 ."
             }
         ]
     }

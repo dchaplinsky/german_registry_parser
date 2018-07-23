@@ -29,7 +29,19 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Gerberstraße 7 , 25899 Niebüll Prokura : 1 ."
+                "text": " Gerberstraße 7 , 25899 Niebüll Prokura : Vogt , Lars , * 17.02.1981 , Niebüll"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Niebüll",
+                    "dob": "1981-02-17",
+                    "lastname": "Vogt",
+                    "name": "Lars"
+                },
+                "text": " Vogt , Lars , * 17.02.1981 , Niebüll"
             }
         ]
     }

@@ -33,23 +33,31 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Lüneburger Str ."
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Lüneburger Str ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Thamm",
+                    "name": "Thomas"
+                },
+                "text": " Thamm , Thomas"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1965-10-04",
+                    "lastname": "Zirhli",
+                    "name": "Bülent"
+                },
+                "text": " Zirhli , Bülent , * 10.04.1965 , Berlin"
             }
         ]
     }

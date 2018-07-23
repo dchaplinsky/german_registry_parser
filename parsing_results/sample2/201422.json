@@ -33,23 +33,31 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Johannisstraße 20-21 , 10117 Berlin Nicht mehr Geschäftsführer : Borcherdt , Antje"
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Johannisstraße 20-21 , 10117 Berlin Nicht mehr Geschäftsführer : Borcherdt , Antje"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Borcherdt",
+                    "name": "Antje"
+                },
+                "text": " Borcherdt , Antje"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1971-04-23",
+                    "lastname": "Jeschke",
+                    "name": "Arnt"
+                },
+                "text": " Jeschke , Arnt , * 23.04.1971 , Berlin"
             }
         ]
     }

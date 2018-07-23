@@ -19,13 +19,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Dr . Heer",
+                    "name": "Wolfgang Helmut"
+                },
+                "text": " Dr . Heer , Wolfgang Helmut"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1953-07-12",
+                    "lastname": "Schulz",
+                    "name": "Hans - Detlev"
+                },
+                "text": " Schulz , Hans - Detlev , * 07.12.1953 , Berlin"
             }
         ]
     }

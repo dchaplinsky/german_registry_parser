@@ -39,28 +39,53 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "München",
+                    "dob": "1977-11-15",
+                    "lastname": "Dr . Neuberger",
+                    "name": "Julius"
+                },
+                "text": " Dr . Neuberger , Julius , * 15.11.1977 , München"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Freiherr Marschall von Bieberstein",
+                    "name": "Michael Marius Christopher Sven Robert"
+                },
+                "text": " Freiherr Marschall von Bieberstein , Michael Marius Christopher Sven Robert"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Petersen",
+                    "name": "Frank"
+                },
+                "text": " Petersen , Frank"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "lastname": "Stern",
+                    "name": "Frank Arno Hermann Horst"
+                },
+                "text": " Stern , Frank Arno Hermann Horst"
             },
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Sievers",
+                    "name": "Andree"
+                },
+                "text": " Sievers , Andree"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Sievers",
+                    "name": "Andree"
+                },
+                "text": " Nicht mehr Prokurist : Sievers , Andree"
             }
         ]
     }

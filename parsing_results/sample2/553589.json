@@ -43,11 +43,27 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Aalborg SV / Dänemark",
+                    "dob": "1967-01-23",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Hansen",
+                    "name": "Lars Ernst"
+                },
                 "text": " Hansen , Lars Ernst , Aalborg SV / Dänemark , * 23.01.1967 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "München",
+                    "dob": "1989-08-26",
+                    "lastname": "Hansen",
+                    "name": "Dannie"
+                },
+                "text": " Hansen , Dannie , München , * 26.08.1989 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "München",
                     "dob": "1989-08-26",

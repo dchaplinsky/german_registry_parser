@@ -19,7 +19,11 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a SingleProcuration from  Höhne , Yvonne , Pfaffenhofen , Wagenhofen , * 19.08.1972"
+                "text": "Cannot parse a SingleProcuration from  Höhne , Yvonne , Pfaffenhofen , Wagenhofen , * 19.08.1972, error text was Cannot parse DOB  Pfaffenhofen  using regex"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Procuration from  Höhne , Yvonne , Pfaffenhofen , Wagenhofen , * 19.08.1972, error text was Cannot parse DOB  Pfaffenhofen  using regex"
             }
         ],
         "flags": [

@@ -33,24 +33,43 @@
         "labels": [
             {
                 "label": "address",
-                "text": ""
+                "text": " Josef - Orlopp - Straße 89 , 10365 Berlin"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Wolfert",
+                    "name": "Thomas"
+                },
+                "text": " Wolfert , Thomas"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Bernau",
+                    "dob": "1970-02-05",
+                    "lastname": "Weinrich",
+                    "name": "Andreas"
+                },
+                "text": " Weinrich , Andreas , * 02.05.1970 , Bernau"
             },
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Weinrich",
+                    "name": "Andreas Detlef"
+                },
+                "text": " Weinrich , Andreas Detlef ."
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Weinrich",
+                    "name": "Andreas Detlef"
+                },
+                "text": " Nicht mehr Prokurist : Weinrich , Andreas Detlef ."
             }
         ]
     }

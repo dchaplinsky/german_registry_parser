@@ -19,18 +19,37 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Kruså / Dänemark",
+                    "dob": "1973-01-19",
+                    "lastname": "Jepsen",
+                    "name": "Søren Aaskov"
+                },
+                "text": " Jepsen , Søren Aaskov , * 19.01.1973 , Kruså / Dänemark"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Johansen",
+                    "name": "Lars Vilhelm Munch"
+                },
+                "text": " Johansen , Lars Vilhelm Munch"
             },
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Jepsen",
+                    "name": "Søren Aaskov"
+                },
+                "text": " Jepsen , Søren Aaskov"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Jepsen",
+                    "name": "Søren Aaskov"
+                },
+                "text": " Nicht mehr Prokurist : Jepsen , Søren Aaskov"
             }
         ]
     }

@@ -33,18 +33,29 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Gogalla",
+                    "name": "Katja"
+                },
+                "text": " Gogalla , Katja"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Selnes",
+                    "name": "Randi Mette"
+                },
+                "text": " Selnes , Randi Mette"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1984-03-01",
+                    "lastname": "Tran",
+                    "name": "Le Thien Phuc"
+                },
+                "text": " Tran , Le Thien Phuc , * 03.01.1984 , Berlin"
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=145765&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Seipp , André , Radio - und Fernsehtechniker , Linden ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -40,8 +34,24 @@
         ],
         "officers": [
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Linden",
+                    "lastname": "Seipp",
+                    "name": "André",
+                    "position": "Radio - und Fernsehtechniker"
+                },
+                "text": " Seipp , André , Radio - und Fernsehtechniker , Linden ."
+            },
+            {
                 "class": "Liquidator",
-                "payload": {},
+                "payload": {
+                    "city": "Linden",
+                    "dob": "1944-08-30",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Seipp",
+                    "name": "Reinhold"
+                },
                 "text": " Seipp , Reinhold , Linden , * 30.08.1944 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]

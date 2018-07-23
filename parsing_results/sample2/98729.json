@@ -16,17 +16,24 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=98729&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Adam , Hans - Jürgen , * 02.04.1956 , Berlin"
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Köchig",
+                    "name": "Thomas"
+                },
                 "text": " Köchig , Thomas ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1956-02-04",
+                    "lastname": "Adam",
+                    "name": "Hans - Jürgen"
+                },
+                "text": " Adam , Hans - Jürgen , * 02.04.1956 , Berlin"
             }
         ]
     }

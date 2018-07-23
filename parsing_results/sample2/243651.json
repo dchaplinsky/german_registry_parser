@@ -33,7 +33,7 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Richard - Sorge - Straße 25 , 10249 Berlin Gegenstand : Das Halten und Verwalten von Beteiligungen im eigenen Namen und auf eigene Rechnung ."
             },
             {
                 "label": "misc",
@@ -43,8 +43,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1986-08-13",
+                    "lastname": "Buchwald",
+                    "name": "Felix Rasmus"
+                },
+                "text": " Buchwald , Felix Rasmus , * 13.08.1986 , Berlin"
             }
         ]
     }

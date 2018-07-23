@@ -51,18 +51,37 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Lenny",
+                    "name": "James Patrick"
+                },
+                "text": " Lenny , James Patrick"
             },
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Trebbin OT Großbeuthen",
+                    "dob": "1947-03-29",
+                    "lastname": "Rosseburg",
+                    "name": "Joachim"
+                },
+                "text": " Rosseburg , Joachim , * 29.03.1947 , Trebbin OT Großbeuthen"
             },
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Bäßler",
+                    "name": "Claudia Marion"
+                },
+                "text": " Bäßler , Claudia Marion"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Bäßler",
+                    "name": "Claudia Marion"
+                },
+                "text": " Nicht mehr Prokurist : Bäßler , Claudia Marion"
             }
         ]
     }

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=329001&land_abk=he"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Dipl ., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "Single procuration",
@@ -40,11 +46,6 @@
                 "text": " Fischer , Erwin , Nentershausen , * 05.07.1950 ."
             },
             {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Dipl ."
-            },
-            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Ringgau - Datterode",
@@ -56,6 +57,16 @@
             },
             {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "Sontra",
+                    "dob": "1978-04-08",
+                    "lastname": "Müller",
+                    "name": "Thomas"
+                },
+                "text": " Müller , Thomas , Sontra , * 04.08.1978 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "Sontra",
                     "dob": "1978-04-08",

@@ -16,11 +16,10 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=932048&land_abk=by"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " steichele , stephan , windach , * 09.10.1972 . personendaten geändert , nun : geschäftsführer : bauer , andreas casimiro , gräfelfing , * 31.05.1972 , einzelvertretungsberechtigt"
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  steichele , stephan , windach , * 09.10.1972 . personendaten geändert , nun : geschäftsführer : bauer , andreas casimiro , gräfelfing , * 31.05.1972 , einzelvertretungsberechtigt, error text was no valid patter found, number of chunks: 9"
             }
         ]
     }

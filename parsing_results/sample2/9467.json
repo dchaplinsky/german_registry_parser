@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=9467&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Kleveland , Dag Johan , * 25.02.1957 , Kiel"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -35,7 +29,19 @@
         "labels": [
             {
                 "label": "misc",
-                "text": " 25.000 EUR Vertretungsregelung : Die Gesellschaft hat einen oder mehrere Geschäftsführer ."
+                "text": " 000 EUR Vertretungsregelung : Die Gesellschaft hat einen oder mehrere Geschäftsführer ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Kiel",
+                    "dob": "1957-02-25",
+                    "lastname": "Kleveland",
+                    "name": "Dag Johan"
+                },
+                "text": " Kleveland , Dag Johan , * 25.02.1957 , Kiel"
             }
         ]
     }

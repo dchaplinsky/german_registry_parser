@@ -16,11 +16,10 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1467291&land_abk=nw"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "ProcurationCancelled",
-                "payload": {},
-                "text": " Diplom - Kfm ."
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Diplom - Kfm ., error text was a person without DOB, number of chunks: 1"
             }
         ]
     }

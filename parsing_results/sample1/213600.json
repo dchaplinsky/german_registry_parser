@@ -36,19 +36,24 @@
                 "text": " Berlin"
             },
             {
-                "label": "address",
-                "text": ""
-            },
-            {
                 "label": "misc",
                 "text": " 500,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+            },
+            {
+                "label": "address",
+                "text": " c / o VRB Vorratsgesellschaften GmbH , Friedrichstraße 133 , 10117 Berlin Gegenstand : Verwaltung eigenen Vermögens Stamm - bzw . Grundkapital : 500,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1969-01-10",
+                    "lastname": "Vieth",
+                    "name": "Julia"
+                },
+                "text": " Vieth , Julia , * 01.10.1969 , Berlin"
             }
         ]
     }

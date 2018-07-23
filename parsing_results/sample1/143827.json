@@ -19,7 +19,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Gota , Yoshihiro , Nishikatsura - cho , Japan , * 24.08.1951"
+                "text": "Cannot parse a ManagingDirector from  Gota , Yoshihiro , Nishikatsura - cho , Japan , * 24.08.1951, error text was Cannot parse DOB  Nishikatsura - cho  using regex"
             }
         ],
         "flags": [
@@ -37,7 +37,10 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Noguchi",
+                    "name": "Katsuhiko"
+                },
                 "text": " Noguchi , Katsuhiko ."
             }
         ]

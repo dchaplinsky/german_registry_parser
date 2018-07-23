@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=21913&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Dr . Rüger , Reinhard , Apotheker , Illertissen ."
-            }
-        ],
         "officers": [
             {
                 "class": "Owner",
@@ -32,6 +26,16 @@
                     "name": "Dieter"
                 },
                 "text": " Münzenrieder , Dieter , Vöhringen , * 11.03.1958 ."
+            },
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Illertissen",
+                    "lastname": "Dr . Rüger",
+                    "name": "Reinhard",
+                    "position": "Apotheker"
+                },
+                "text": " Dr . Rüger , Reinhard , Apotheker , Illertissen ."
             }
         ]
     }

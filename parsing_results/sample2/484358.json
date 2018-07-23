@@ -16,15 +16,19 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=484358&land_abk=by"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  aptus 622 ., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
-                "text": " aptus 622 ."
-            },
-            {
-                "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "lastname": "German City Real Estate AG",
+                    "name": "München ( München HRB 131605 )"
+                },
                 "text": " German City Real Estate AG , München ( München HRB 131605 ) ."
             },
             {

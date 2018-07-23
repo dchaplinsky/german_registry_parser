@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=698968&land_abk=nw"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Dipl . - Betriebswirt Schäfer , Thomas , Bochum , * 01.07.1968 . nach geänderter Vertretungsregelung Geschäftsführer : Schäfer , Ralf , Bochum , * 16.09.1967 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ., error text was no valid patter found, number of chunks: 8"
+            }
+        ],
         "flags": [
             {
                 "flag": "Single procuration",
@@ -33,11 +39,6 @@
                     "name": "Carsten"
                 },
                 "text": " Kroll , Carsten , Mülheim , * 21.03.1966 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Dipl . - Betriebswirt Schäfer , Thomas , Bochum , * 01.07.1968 . nach geänderter Vertretungsregelung Geschäftsführer : Schäfer , Ralf , Bochum , * 16.09.1967 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {
                 "class": "SingleProcuration",

@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Mathews",
+                    "name": "Richard"
+                },
+                "text": " Mathews , Richard"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1977-01-07",
+                    "lastname": "Becker",
+                    "name": "Jan"
+                },
+                "text": " Becker , Jan , * 01.07.1977 , Berlin"
             }
         ]
     }

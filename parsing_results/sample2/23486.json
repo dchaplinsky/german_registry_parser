@@ -37,8 +37,14 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Innsbruck",
+                    "dob": "1976-06-17",
+                    "flag": "Österreich",
+                    "lastname": "Lackner",
+                    "name": "Stefan"
+                },
+                "text": " Lackner , Stefan , * 17.06.1976 , Innsbruck , Österreich"
             }
         ]
     }

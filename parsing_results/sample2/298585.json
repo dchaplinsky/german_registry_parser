@@ -16,13 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=298585&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Glatt , Peter , Techniker , Riedlingen ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Riedlingen",
+                    "lastname": "Glatt",
+                    "name": "Peter",
+                    "position": "Techniker"
+                },
+                "text": " Glatt , Peter , Techniker , Riedlingen ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

@@ -25,13 +25,21 @@
         "officers": [
             {
                 "class": "Owner",
-                "payload": {},
-                "text": " Nicht mehr persönlich haftender Gesellschafter : 2 ."
+                "payload": {
+                    "lastname": "Nicht mehr persönlich haftender Gesellschafter : Bruhn",
+                    "name": "Hans - Peter"
+                },
+                "text": " Nicht mehr persönlich haftender Gesellschafter : Bruhn , Hans - Peter"
             },
             {
                 "class": "Owner",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Fehmarn",
+                    "dob": "1974-03-22",
+                    "lastname": "Bruhn",
+                    "name": "Marc"
+                },
+                "text": " Bruhn , Marc , * 22.03.1974 , Fehmarn ."
             }
         ]
     }

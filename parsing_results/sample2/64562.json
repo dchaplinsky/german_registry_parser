@@ -29,8 +29,19 @@
         "officers": [
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Lohse",
+                    "name": "Julia geborene Hartung"
+                },
+                "text": " Lohse , Julia geborene Hartung"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Lohse",
+                    "name": "Julia geborene Hartung"
+                },
+                "text": " Nicht mehr Prokurist : Lohse , Julia geborene Hartung"
             }
         ]
     }

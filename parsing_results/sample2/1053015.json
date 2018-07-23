@@ -16,11 +16,10 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1053015&land_abk=nw"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "ProcurationCancelled",
-                "payload": {},
-                "text": " Dipl ."
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Dipl ., error text was a person without DOB, number of chunks: 1"
             }
         ]
     }

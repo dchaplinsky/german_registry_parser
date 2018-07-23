@@ -29,14 +29,19 @@
         "labels": [
             {
                 "label": "misc",
-                "text": " 25.000 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " 000 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Freyburg",
+                    "dob": "1968-11-27",
+                    "lastname": "Kayser",
+                    "name": "Heike"
+                },
+                "text": " Kayser , Heike , * 27.11.1968 , Freyburg"
             }
         ]
     }

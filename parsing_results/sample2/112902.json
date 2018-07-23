@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=112902&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Sárközi , Michael , * 23.08.1959 , Leipzig"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -39,8 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Leipzig",
+                    "dob": "1959-08-23",
+                    "lastname": "Sárközi",
+                    "name": "Michael"
+                },
+                "text": " Sárközi , Michael , * 23.08.1959 , Leipzig"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "Grunwaldt",
+                    "name": "Rüdiger"
+                },
+                "text": " Grunwaldt , Rüdiger"
             }
         ]
     }

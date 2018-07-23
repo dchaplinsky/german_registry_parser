@@ -29,8 +29,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Firenze",
+                    "dob": "1965-12-30",
+                    "lastname": "Dr . Cangioli",
+                    "name": "Andrea"
+                },
+                "text": " Dr . Cangioli , Andrea , * 30.12.1965 , Firenze"
             }
         ]
     }

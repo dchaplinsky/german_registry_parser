@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=547&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Sattler , Hilde , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Sole trader",
@@ -38,6 +32,16 @@
                     "name": "Heiko T"
                 },
                 "text": " Sattler , Heiko T . , Rickenbach , * 29.01.1959 ."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Rickenbach",
+                    "lastname": "Sattler",
+                    "name": "Hilde geborene Kohlbrenner",
+                    "position": "Kauffrau"
+                },
+                "text": " Sattler , Hilde geborene Kohlbrenner , Kauffrau , Rickenbach ."
             }
         ]
     }

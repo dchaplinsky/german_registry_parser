@@ -19,15 +19,14 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Bosse , Peter , Elektroingenieur , Falkensee , * 22.05.1966 ."
+                "text": "Cannot parse a ManagingDirector from  Bosse , Peter , Elektroingenieur , Falkensee , * 22.05.1966 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen ., error text was Cannot parse DOB  Elektroingenieur  using regex"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Bosse , Peter , Elektroingenieur , Falkensee , * 22.05.1966 ., error text was Cannot parse DOB  Elektroingenieur  using regex"
             }
         ],
         "officers": [
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Bosse , Peter , Elektroingenieur , Falkensee , * 22.05.1966 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen ."
-            },
             {
                 "class": "ManagingDirector",
                 "payload": {

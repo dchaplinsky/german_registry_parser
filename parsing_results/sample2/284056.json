@@ -41,14 +41,19 @@
             },
             {
                 "label": "misc",
-                "text": " 2.500,00 EUR"
+                "text": " 500,00 EUR"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1972-05-18",
+                    "lastname": "Käppner",
+                    "name": "Christian"
+                },
+                "text": " Käppner , Christian , * 18.05.1972 , Berlin"
             }
         ]
     }

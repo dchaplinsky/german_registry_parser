@@ -19,7 +19,11 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Ponce Garcia , Maria - Cruz , Friseurin , Hamburg , * 27.07.1970 ."
+                "text": "Cannot parse a Liquidator from  Ponce Garcia , Maria - Cruz , Friseurin , Hamburg , * 27.07.1970 , einzelvertretungsberechtigt ., error text was Cannot parse DOB  Friseurin  using regex"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Ponce Garcia , Maria - Cruz , Friseurin , Hamburg , * 27.07.1970 ., error text was Cannot parse DOB  Friseurin  using regex"
             }
         ],
         "flags": [
@@ -30,13 +34,6 @@
             {
                 "flag": "ignore_for_now",
                 "text": "Die Gesellschaft ist aufgelöst ."
-            }
-        ],
-        "officers": [
-            {
-                "class": "Liquidator",
-                "payload": {},
-                "text": " Ponce Garcia , Maria - Cruz , Friseurin , Hamburg , * 27.07.1970 , einzelvertretungsberechtigt ."
             }
         ]
     }

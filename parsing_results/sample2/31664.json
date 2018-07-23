@@ -16,14 +16,26 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=31664&land_abk=rp"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Baltzer , Elisabeth , geb ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Andernach",
+                    "dob": "1965-01-06",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Baltzer",
+                    "name": "Elisabeth geborene Gaddum"
+                },
+                "text": " Baltzer , Elisabeth geborene Gaddum , Andernach , * 01.06.1965 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Schnack , Wilhelm , Andernach ."
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Andernach",
+                    "lastname": "Schnack",
+                    "name": "Wilhelm"
+                },
+                "text": " Schnack , Wilhelm , Andernach ."
             }
         ]
     }

@@ -16,13 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=455267&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Breisch , Helmut , Techniker , Balingen ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Balingen",
+                    "lastname": "Breisch",
+                    "name": "Helmut",
+                    "position": "Techniker"
+                },
+                "text": " Breisch , Helmut , Techniker , Balingen ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

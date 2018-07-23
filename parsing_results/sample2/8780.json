@@ -16,13 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=8780&land_abk=hh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Jäger , Dieter , Kaufmann , Hamburg ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "lastname": "Jäger",
+                    "name": "Dieter",
+                    "position": "Kaufmann"
+                },
+                "text": " Jäger , Dieter , Kaufmann , Hamburg ."
+            },
             {
                 "class": "ProcurationCancelled",
                 "payload": {

@@ -16,13 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=11376&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Reinhardt , Kurt , Wirtschaftsprüfer und Steuerberater , Büchenbach ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Büchenbach",
+                    "lastname": "Reinhardt",
+                    "name": "Kurt",
+                    "position": "Wirtschaftsprüfer und Steuerberater"
+                },
+                "text": " Reinhardt , Kurt , Wirtschaftsprüfer und Steuerberater , Büchenbach ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

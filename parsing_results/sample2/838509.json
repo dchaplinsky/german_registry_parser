@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=838509&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Faulhaber , Theodor , gen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -44,6 +38,17 @@
             {
                 "label": "address",
                 "text": " Koellikerstraße 15 , 97070 Würzburg ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "gen",
+                    "lastname": "Faulhaber",
+                    "name": "Theodor"
+                },
+                "text": " Faulhaber , Theodor , gen ."
             }
         ]
     }

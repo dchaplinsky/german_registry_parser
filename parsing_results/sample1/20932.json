@@ -25,13 +25,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Krawitsch",
+                    "name": "Roland"
+                },
+                "text": " Krawitsch , Roland"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Nettetal",
+                    "dob": "1966-07-07",
+                    "lastname": "Stahlhofen",
+                    "name": "Rene"
+                },
+                "text": " Stahlhofen , Rene , * 07.07.1966 , Nettetal .."
             }
         ]
     }

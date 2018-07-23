@@ -47,8 +47,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1980-12-28",
+                    "lastname": "Kirtan",
+                    "name": "Sedat"
+                },
+                "text": " Kirtan , Sedat , * 28.12.1980 , Berlin"
             }
         ]
     }

@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=26061&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Rössel , Lothar , * 15.02.1953 , Berlin"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Upgang , Reinhold , * 24.11.1962 , Südlohn"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -62,6 +52,38 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1953-02-15",
+                    "lastname": "Rössel",
+                    "name": "Lothar"
+                },
+                "text": " Rössel , Lothar , * 15.02.1953 , Berlin"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Südlohn",
+                    "dob": "1962-11-24",
+                    "lastname": "Upgang",
+                    "name": "Reinhold"
+                },
+                "text": " Upgang , Reinhold , * 24.11.1962 , Südlohn"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Heilsbronn",
+                    "dob": "1963-01-13",
+                    "lastname": "Hummel",
+                    "name": "Johannes"
+                },
+                "text": " Hummel , Johannes , * 13.01.1963 , Heilsbronn"
             }
         ]
     }

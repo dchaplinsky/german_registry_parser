@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=252391&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Stammermann , Klaus , Friesoythe - OT ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -44,6 +38,17 @@
             {
                 "label": "address",
                 "text": " Hauptstraße 35 , 26169 Friesoythe - OT ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Friesoythe - OT",
+                    "lastname": "Stammermann",
+                    "name": "Klaus"
+                },
+                "text": " Stammermann , Klaus , Friesoythe - OT ."
             }
         ]
     }

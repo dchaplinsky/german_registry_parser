@@ -29,13 +29,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Marotta - Martinelli",
+                    "name": "Bettina"
+                },
+                "text": " Marotta - Martinelli , Bettina"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1944-12-29",
+                    "lastname": "Jansen",
+                    "name": "Michael"
+                },
+                "text": " Jansen , Michael , * 29.12.1944 , Berlin"
             }
         ]
     }

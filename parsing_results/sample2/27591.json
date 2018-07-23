@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=27591&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Miesen , Holger , * 29.11.1943 , Dallgow - Döberitz"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -35,8 +29,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Miesen",
+                    "name": "Holger"
+                },
                 "text": " Miesen , Holger"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Dallgow - Döberitz",
+                    "dob": "1943-11-29",
+                    "lastname": "Miesen",
+                    "name": "Holger"
+                },
+                "text": " Miesen , Holger , * 29.11.1943 , Dallgow - Döberitz"
             }
         ]
     }

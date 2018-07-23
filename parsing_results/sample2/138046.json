@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=138046&land_abk=bw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Strahberger , Saskia Barbara , geb ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Buggingen",
+                    "dob": "1965-10-07",
+                    "lastname": "Strahberger",
+                    "name": "Saskia Barbara geborene Gawor"
+                },
+                "text": " Strahberger , Saskia Barbara geborene Gawor , Buggingen , * 10.07.1965 ."
             }
         ]
     }

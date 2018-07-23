@@ -57,13 +57,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Behrendorf",
+                    "dob": "1967-05-01",
+                    "lastname": "Siefert",
+                    "name": "Eugen"
+                },
+                "text": " Siefert , Eugen , * 05.01.1967 , Behrendorf"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Tönning",
+                    "dob": "1939-10-29",
+                    "lastname": "Wade",
+                    "name": "Horst - Dieter"
+                },
+                "text": " Wade , Horst - Dieter , * 29.10.1939 , Tönning"
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=213016&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Eitel , Peter , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -29,6 +23,17 @@
             }
         ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Donsieders",
+                    "dob": "1981-10-22",
+                    "flag": "sole representation",
+                    "lastname": "Eitel",
+                    "name": "Peter geborene Keller"
+                },
+                "text": " Eitel , Peter geborene Keller , Donsieders , * 22.10.1981 , einzelvertretungsberechtigt"
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

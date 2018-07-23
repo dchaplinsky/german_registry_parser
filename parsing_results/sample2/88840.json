@@ -25,18 +25,21 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Hallesches Ufer 74-76 , 10963 Berlin Nicht mehr Persönlich haftender Gesellschafter : Wagner , Peter"
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Hallesches Ufer 74-76 , 10963 Berlin Nicht mehr Persönlich haftender Gesellschafter : Wagner , Peter"
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Wagner",
+                    "name": "Peter"
+                },
+                "text": " Wagner , Peter"
             }
         ]
     }

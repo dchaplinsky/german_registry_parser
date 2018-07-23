@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=39232&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Herholz , Frank , * 24.01.1966 , Panketal"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -36,6 +30,18 @@
             {
                 "label": "address",
                 "text": " Dorfstr ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Panketal",
+                    "dob": "1966-01-24",
+                    "lastname": "Herholz",
+                    "name": "Frank"
+                },
+                "text": " Herholz , Frank , * 24.01.1966 , Panketal"
             }
         ]
     }

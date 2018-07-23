@@ -33,23 +33,31 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Franz - Mehring - Platz 1 , 10243 Berlin Nicht mehr Geschäftsführer : Fernandez - Albiach , Eva Maria"
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Franz - Mehring - Platz 1 , 10243 Berlin Nicht mehr Geschäftsführer : Fernandez - Albiach , Eva Maria"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Fernandez - Albiach",
+                    "name": "Eva Maria"
+                },
+                "text": " Fernandez - Albiach , Eva Maria"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Groß Köris",
+                    "dob": "1973-11-26",
+                    "lastname": "Runge",
+                    "name": "Thomas"
+                },
+                "text": " Runge , Thomas , * 26.11.1973 , Groß Köris"
             }
         ]
     }

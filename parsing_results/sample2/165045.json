@@ -37,18 +37,30 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Suter",
+                    "name": "Peter"
+                },
+                "text": " Suter , Peter"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Canbek",
+                    "name": "Erdin"
+                },
+                "text": " Canbek , Erdin"
             },
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1962-05-26",
+                    "flag": "Kaufmann",
+                    "lastname": "Katt",
+                    "name": "Thomas"
+                },
+                "text": " Katt , Thomas , * 26.05.1962 , Berlin , Kaufmann"
             }
         ]
     }

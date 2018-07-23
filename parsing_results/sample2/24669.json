@@ -25,13 +25,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Plön",
+                    "dob": "1960-04-02",
+                    "lastname": "Arndt",
+                    "name": "Ursel"
+                },
+                "text": " Arndt , Ursel , * 04.02.1960 , Plön"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Schashagen Rechtsform : Gesellschaft mit beschränkter Haftung",
+                    "dob": "1962-10-12",
+                    "lastname": "Hampfe",
+                    "name": "Joachim"
+                },
+                "text": " Hampfe , Joachim , * 10.12.1962 , Schashagen Rechtsform : Gesellschaft mit beschränkter Haftung"
             }
         ]
     }

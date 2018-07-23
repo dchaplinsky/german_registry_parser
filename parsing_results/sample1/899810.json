@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=899810&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  KATHREIN Immobilienverwaltung GmbH , Rosenheim ( Amtsgericht Traunstein HRB 24171 ) , mit der Befugnis - auch für die jeweiligen Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -32,6 +26,15 @@
             {
                 "label": "address",
                 "text": " Anton - Kathrein - Str ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " KATHREIN Immobilienverwaltung GmbH , Rosenheim ( Amtsgericht Traunstein HRB 24171 ) , mit der Befugnis - auch für die jeweiligen Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " KATHREIN Immobilienverwaltung GmbH , Rosenheim ( Amtsgericht Traunstein HRB 24171 ) , mit der Befugnis - auch für die jeweiligen Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

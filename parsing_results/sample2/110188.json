@@ -16,12 +16,13 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=110188&land_abk=he"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Naatz , Sylvia , Niedernhausen , * 11.02.1956 , Geschäftsführer : Naatz , Heinz , Niedernhausen , * 18.01.1949 ."
-            },
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Naatz , Sylvia , Niedernhausen , * 11.02.1956 , Geschäftsführer : Naatz , Heinz , Niedernhausen , * 18.01.1949 ., error text was no valid patter found, number of chunks: 8"
+            }
+        ],
+        "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {

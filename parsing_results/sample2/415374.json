@@ -31,13 +31,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "lastname": "Rickerts",
+                    "name": "Christian"
+                },
+                "text": " Rickerts , Christian"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Karlsruhe",
+                    "dob": "1978-11-02",
+                    "lastname": "Taherivand",
+                    "name": "Abraham"
+                },
+                "text": " Taherivand , Abraham , * 11.02.1978 , Karlsruhe"
             }
         ]
     }

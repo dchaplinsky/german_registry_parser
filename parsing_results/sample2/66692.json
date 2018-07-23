@@ -25,8 +25,19 @@
         "officers": [
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Geils",
+                    "name": "Andreas"
+                },
+                "text": " Geils , Andreas ."
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Geils",
+                    "name": "Andreas"
+                },
+                "text": " Nicht mehr Prokurist : Geils , Andreas ."
             }
         ]
     }

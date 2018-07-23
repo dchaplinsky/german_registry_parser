@@ -45,18 +45,23 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " c / o Daniel Schwabe , Manteuffelstraße 67 , 10999 Berlin Gegenstand : Die Entwicklung von Immobilienprojekten im In - und Ausland ."
             },
             {
                 "label": "misc",
-                "text": " 25.000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " 000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1977-10-07",
+                    "lastname": "Schwabe",
+                    "name": "Daniel"
+                },
+                "text": " Schwabe , Daniel , * 10.07.1977 , Berlin"
             }
         ]
     }

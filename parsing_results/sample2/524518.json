@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=524518&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Klingelhöfer , Bernd , Eschenburg - Eibelshausen"
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
@@ -31,8 +25,19 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "company_name": " Läderach GmbH , Dillenburg - Manderbach ( Amtsgericht Wetzlar HRB 3096 ) ."
+                },
                 "text": " Läderach GmbH , Dillenburg - Manderbach ( Amtsgericht Wetzlar HRB 3096 ) ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Eschenburg - Eibelshausen",
+                    "lastname": "Klingelhöfer",
+                    "name": "Bernd"
+                },
+                "text": " Klingelhöfer , Bernd , Eschenburg - Eibelshausen"
             }
         ]
     }

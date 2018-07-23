@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=15030&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Sliper , Jan - Erik , * 28.01.1962 , Börnsen"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -34,6 +28,18 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Börnsen",
+                    "dob": "1962-01-28",
+                    "lastname": "Sliper",
+                    "name": "Jan - Erik"
+                },
+                "text": " Sliper , Jan - Erik , * 28.01.1962 , Börnsen"
             }
         ]
     }

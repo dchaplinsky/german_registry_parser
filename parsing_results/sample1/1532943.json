@@ -16,17 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1532943&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  angela grünewälder , lage , lange straße 67 , 32791 lage ."
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  angela grünewälder , 33602 bielefeld , geschäftsanschrift : gehrenberg 17 , 33602 bielefeld ."
-            }
-        ],
         "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "32791 lage",
+                    "lastname": "angela grünewälder",
+                    "name": "lage",
+                    "position": "lange straße 67"
+                },
+                "text": " angela grünewälder , lage , lange straße 67 , 32791 lage ."
+            },
             {
                 "class": "Owner",
                 "payload": {
@@ -36,6 +36,16 @@
                     "name": "angela"
                 },
                 "text": " grünewälder , angela , lage , * 27.02.1952 . die niederlassung ist von bielefeld ( bisher amtsgericht bielefeld hra 12374 ) nach lage verlegt ."
+            },
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "33602 bielefeld",
+                    "lastname": "angela grünewälder",
+                    "name": "33602 bielefeld",
+                    "position": "geschäftsanschrift : gehrenberg 17"
+                },
+                "text": " angela grünewälder , 33602 bielefeld , geschäftsanschrift : gehrenberg 17 , 33602 bielefeld ."
             }
         ]
     }

@@ -37,19 +37,29 @@
         "labels": [
             {
                 "label": "misc",
-                "text": " 25.000 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " 000 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1966-10-25",
+                    "lastname": "Kalkan",
+                    "name": "Bülent"
+                },
+                "text": " Kalkan , Bülent , * 25.10.1966 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1962-11-09",
+                    "lastname": "Karagöz",
+                    "name": "Ali"
+                },
+                "text": " Karagöz , Ali , * 11.09.1962 , Berlin"
             }
         ]
     }

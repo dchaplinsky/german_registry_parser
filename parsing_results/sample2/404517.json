@@ -51,13 +51,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Gabay",
+                    "name": "Raanan"
+                },
                 "text": " Gabay , Raanan"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1983-09-18",
+                    "lastname": "Marciano",
+                    "name": "Eldad"
+                },
+                "text": " Marciano , Eldad , * 18.09.1983 , Berlin"
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=711&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Otto , Peter , * 26.06.1953 , Petershagen / Eggersdorf"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -30,6 +24,18 @@
             {
                 "flag": "Company with limited liability .",
                 "text": "Gesellschaft mit beschränkter Haftung ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Petershagen / Eggersdorf",
+                    "dob": "1953-06-26",
+                    "lastname": "Otto",
+                    "name": "Peter"
+                },
+                "text": " Otto , Peter , * 26.06.1953 , Petershagen / Eggersdorf"
             }
         ]
     }

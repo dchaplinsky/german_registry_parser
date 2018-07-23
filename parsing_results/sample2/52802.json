@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=52802&land_abk=st"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Borsch , Bodo , Schermen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Single procuration",
@@ -38,6 +32,15 @@
                     "name": "Heidemarie"
                 },
                 "text": " Voigt , Heidemarie , Burg OT Reesen , * 11.10.1950 ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Schermen",
+                    "lastname": "Borsch",
+                    "name": "Bodo"
+                },
+                "text": " Borsch , Bodo , Schermen ."
             },
             {
                 "class": "ProcurationCancelled",

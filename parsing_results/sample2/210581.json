@@ -16,11 +16,10 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=210581&land_abk=bw"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "ProcurationCancelled",
-                "payload": {},
-                "text": " Dr ."
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Dr ., error text was a person without DOB, number of chunks: 1"
             }
         ]
     }

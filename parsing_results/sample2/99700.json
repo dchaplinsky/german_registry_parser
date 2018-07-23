@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=99700&land_abk=he"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Schaumburg , Willy , Bad Arolsen , * 13.05.1949 , einzelvertretungsberechtigt mit der Befugnis , die Gesellschaft bei der Vornahme von Rechtsgeschäften mit sich als Vertreter der LACROIX + KRESS GmbH , eingetragen im Handelsregister des Amtsgerichts Osnabrück unter HRB 19693 , uneingeschränkt zu vertreten ., error text was no valid patter found, number of chunks: 8"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -40,11 +46,6 @@
                     "name": "Renaud"
                 },
                 "text": " Fauvarque , Renaud , Paris , * 31.05.1952"
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Schaumburg , Willy , Bad Arolsen , * 13.05.1949 , einzelvertretungsberechtigt mit der Befugnis , die Gesellschaft bei der Vornahme von Rechtsgeschäften mit sich als Vertreter der LACROIX + KRESS GmbH , eingetragen im Handelsregister des Amtsgerichts Osnabrück unter HRB 19693 , uneingeschränkt zu vertreten ."
             },
             {
                 "class": "CommonProcuration",

@@ -25,13 +25,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Stelmaszewski",
+                    "name": "Ulrich"
+                },
+                "text": " Stelmaszewski , Ulrich"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Offenbach",
+                    "dob": "1943-12-22",
+                    "lastname": "Lewens",
+                    "name": "Kai"
+                },
+                "text": " Lewens , Kai , * 22.12.1943 , Offenbach"
             }
         ]
     }

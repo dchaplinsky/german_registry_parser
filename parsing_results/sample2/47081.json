@@ -16,16 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=47081&land_abk=hb"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Weickert , Birgitt , geb ."
-            }
-        ],
         "labels": [
             {
                 "label": "WHUT",
                 "text": " mmb Verwaltungs - GmbH , Bremen , Lesumbroker Landstraße 15 , 28719 Bremen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "Weickert",
+                    "name": "Birgitt geborene Werkmeister"
+                },
+                "text": " Weickert , Birgitt geborene Werkmeister ."
             }
         ]
     }

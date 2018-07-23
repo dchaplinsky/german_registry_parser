@@ -39,13 +39,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Vieth",
+                    "name": "Julia"
+                },
+                "text": " Vieth , Julia"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1958-07-03",
+                    "lastname": "Adams",
+                    "name": "Klaus Dieter"
+                },
+                "text": " Adams , Klaus Dieter , * 07.03.1958 , Berlin"
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=238240&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Leffers , Burkhard , Bad Homburg v . d ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -35,6 +29,15 @@
             }
         ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bad Homburg v . d",
+                    "lastname": "Leffers",
+                    "name": "Burkhard"
+                },
+                "text": " Leffers , Burkhard , Bad Homburg v . d ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

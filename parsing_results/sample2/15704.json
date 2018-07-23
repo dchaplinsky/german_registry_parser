@@ -19,13 +19,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Dr . Rutke",
+                    "name": "Wolfgang"
+                },
+                "text": " Dr . Rutke , Wolfgang"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Kronberg / Ts",
+                    "dob": "1966-12-13",
+                    "lastname": "Dr . Naumann",
+                    "name": "Thomas"
+                },
+                "text": " Dr . Naumann , Thomas , * 13.12.1966 , Kronberg / Ts ."
             }
         ]
     }

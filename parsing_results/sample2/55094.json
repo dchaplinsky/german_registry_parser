@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=55094&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Rhodovi , Frank , Bad Salzuflen"
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
@@ -50,6 +44,15 @@
                     "name": "Steffi"
                 },
                 "text": " Rhodovi , Steffi , Bad Salzuflen , * 16.06.1948 , gemeinsam vertretungsberechtigt mit Frank Rhodovi ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Bad Salzuflen",
+                    "lastname": "Rhodovi",
+                    "name": "Frank"
+                },
+                "text": " Rhodovi , Frank , Bad Salzuflen"
             }
         ]
     }

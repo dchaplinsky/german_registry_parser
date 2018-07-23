@@ -33,28 +33,61 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Richter",
+                    "name": "Dan"
+                },
+                "text": " Richter , Dan"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Stuttgart",
+                    "dob": "1967-11-13",
+                    "lastname": "Dr . Frey",
+                    "name": "Daniel"
+                },
+                "text": " Dr . Frey , Daniel , * 13.11.1967 , Stuttgart"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Bochum",
+                    "dob": "1970-06-07",
+                    "lastname": "Dr . Hutner",
+                    "name": "Armin"
+                },
+                "text": " Dr . Hutner , Armin , * 06.07.1970 , Bochum"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 5 ."
+                "payload": {
+                    "city": "Dorsten",
+                    "dob": "1967-06-21",
+                    "lastname": "Langenhorst",
+                    "name": "Rainer"
+                },
+                "text": " Langenhorst , Rainer , * 21.06.1967 , Dorsten"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 6 ."
+                "payload": {
+                    "city": "Korschenbroich",
+                    "dob": "1956-05-14",
+                    "lastname": "Ziegler",
+                    "name": "Walter"
+                },
+                "text": " Ziegler , Walter , * 14.05.1956 , Korschenbroich"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Stuttgart",
+                    "dob": "1978-03-21",
+                    "lastname": "Bartenstein",
+                    "name": "Marcus"
+                },
+                "text": " Bartenstein , Marcus , * 21.03.1978 , Stuttgart"
             }
         ]
     }

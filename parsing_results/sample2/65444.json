@@ -47,11 +47,27 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Laußnitz",
+                    "dob": "1966-09-12",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Michael",
+                    "name": "Holm"
+                },
                 "text": " Michael , Holm , Laußnitz , * 09.12.1966 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "Panschwitz - Kuckau",
+                    "dob": "1979-11-24",
+                    "lastname": "Wosky",
+                    "name": "Christian"
+                },
+                "text": " Wosky , Christian , Panschwitz - Kuckau , * 24.11.1979 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "Panschwitz - Kuckau",
                     "dob": "1979-11-24",

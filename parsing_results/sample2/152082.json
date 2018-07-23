@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=152082&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Mayer , Werner , Maschinenbautechniker , Winnweiler ."
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
@@ -29,6 +23,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Winnweiler",
+                    "lastname": "Mayer",
+                    "name": "Werner",
+                    "position": "Maschinenbautechniker"
+                },
+                "text": " Mayer , Werner , Maschinenbautechniker , Winnweiler ."
+            },
             {
                 "class": "Liquidator",
                 "payload": {

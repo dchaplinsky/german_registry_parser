@@ -15,5 +15,12 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=205983&land_abk=be"
     },
-    "parsed": {}
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Procuration from  Änderung zu Nr . 2 : hinsichgtlich der Vertretungsbefugnis, error text was a person without DOB, number of chunks: 1"
+            }
+        ]
+    }
 }

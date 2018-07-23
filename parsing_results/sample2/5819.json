@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=5819&land_abk=hb"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr . Kierchhoff , Heinz Walter , * 26.04.1964 , Bremen"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -38,6 +32,28 @@
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
                 "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1964-04-26",
+                    "lastname": "Dr . Kierchhoff",
+                    "name": "Heinz Walter"
+                },
+                "text": " Dr . Kierchhoff , Heinz Walter , * 26.04.1964 , Bremen"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Riede OT Felde",
+                    "dob": "1961-03-30",
+                    "lastname": "Meyer - Heder",
+                    "name": "Carsten"
+                },
+                "text": " Meyer - Heder , Carsten , * 30.03.1961 , Riede OT Felde"
             }
         ]
     }

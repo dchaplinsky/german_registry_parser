@@ -16,13 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=626780&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Tamiaki , Fumiya , Kaufmann , Hiroshima / Japan ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hiroshima / Japan",
+                    "lastname": "Tamiaki",
+                    "name": "Fumiya",
+                    "position": "Kaufmann"
+                },
+                "text": " Tamiaki , Fumiya , Kaufmann , Hiroshima / Japan ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

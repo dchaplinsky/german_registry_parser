@@ -53,14 +53,19 @@
             },
             {
                 "label": "misc",
-                "text": " 25.000,00 EUR"
+                "text": " 000,00 EUR"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1972-06-17",
+                    "lastname": "Wachsmuth",
+                    "name": "Jörg"
+                },
+                "text": " Wachsmuth , Jörg , * 17.06.1972 , Berlin"
             }
         ]
     }

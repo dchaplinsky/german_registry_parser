@@ -33,7 +33,7 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Lietzenburger Straße 83 , 10719 Berlin Gegenstand : Vermittlung von medizinischen Dienstleistungen mit verschiedenen Fachrichtungen"
             },
             {
                 "label": "misc",
@@ -43,8 +43,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1989-11-05",
+                    "lastname": "Scarano",
+                    "name": "Antonio"
+                },
+                "text": " Scarano , Antonio , * 11.05.1989 , Berlin"
             }
         ]
     }

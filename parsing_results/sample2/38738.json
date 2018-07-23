@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=38738&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Freiherr von Versbach , Gunther , Diplom - Wirtschafts - Ingenieur , München ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -41,6 +35,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "lastname": "Freiherr von Versbach",
+                    "name": "Gunther",
+                    "position": "Diplom - Wirtschafts - Ingenieur"
+                },
+                "text": " Freiherr von Versbach , Gunther , Diplom - Wirtschafts - Ingenieur , München ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

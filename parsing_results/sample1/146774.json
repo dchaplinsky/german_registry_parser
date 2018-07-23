@@ -16,16 +16,32 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=146774&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a SingleProcuration from  He , Guangyu , * 14.02.1982 , Neumünster ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
+            }
+        ],
+        "officers": [
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Neumünster",
+                    "dob": "1982-02-14",
+                    "lastname": "He",
+                    "name": "Guangyu"
+                },
+                "text": " He , Guangyu , * 14.02.1982 , Neumünster ."
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Neumünster",
+                    "dob": "1982-02-14",
+                    "lastname": "He",
+                    "name": "Guangyu"
+                },
+                "text": " He , Guangyu , * 14.02.1982 , Neumünster ."
             }
         ]
     }

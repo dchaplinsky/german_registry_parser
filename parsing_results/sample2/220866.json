@@ -16,13 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=220866&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Wonchalla , Karl , Dortmund"
-            }
-        ],
         "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Dortmund",
+                    "lastname": "Wonchalla",
+                    "name": "Karl"
+                },
+                "text": " Wonchalla , Karl , Dortmund"
+            },
             {
                 "class": "Owner",
                 "payload": {

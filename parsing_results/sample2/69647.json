@@ -45,14 +45,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": ""
+                "text": " Eggerstedtstr ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Kolding",
+                    "dob": "1976-06-03",
+                    "flag": "Dänemark",
+                    "lastname": "Andersen",
+                    "name": "Jakob"
+                },
+                "text": " Andersen , Jakob , * 06.03.1976 , Kolding , Dänemark"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1962-02-15",
+                    "lastname": "Boublin",
+                    "name": "Mohammad Alisefat"
+                },
+                "text": " Boublin , Mohammad Alisefat , * 15.02.1962 , Hamburg"
             }
         ]
     }

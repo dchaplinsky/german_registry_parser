@@ -29,14 +29,19 @@
         "labels": [
             {
                 "label": "misc",
-                "text": " 25.000 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " 000 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1969-04-02",
+                    "lastname": "Hartmann - Hehn",
+                    "name": "Alecsandra geborene Husemann"
+                },
+                "text": " Hartmann - Hehn , Alecsandra geborene Husemann , * 04.02.1969 , Berlin"
             }
         ]
     }

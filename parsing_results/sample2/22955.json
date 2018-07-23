@@ -25,13 +25,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Weber",
+                    "name": "Lesja Konstantinovna geborene Scepetova"
+                },
+                "text": " Weber , Lesja Konstantinovna geborene Scepetova"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Bad Oeynhausen",
+                    "dob": "1965-10-06",
+                    "lastname": "Richter",
+                    "name": "Jörg"
+                },
+                "text": " Richter , Jörg , * 10.06.1965 , Bad Oeynhausen"
             }
         ]
     }

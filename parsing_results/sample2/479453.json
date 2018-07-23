@@ -39,13 +39,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 . van Holt , Sascha"
+                "payload": {
+                    "lastname": "van Holt",
+                    "name": "Sascha"
+                },
+                "text": " van Holt , Sascha"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Dortmund",
+                    "dob": "1990-04-20",
+                    "lastname": "Wilde",
+                    "name": "Julia"
+                },
+                "text": " Wilde , Julia , * 20.04.1990 , Dortmund"
             }
         ]
     }

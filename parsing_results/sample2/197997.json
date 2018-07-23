@@ -59,13 +59,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Seevetal OT Fleestedt",
+                    "dob": "1966-09-08",
+                    "lastname": "Dechow",
+                    "name": "Frank"
+                },
+                "text": " Dechow , Frank , * 09.08.1966 , Seevetal OT Fleestedt"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Lüdersdorf OT Herrnburg",
+                    "dob": "1953-02-08",
+                    "lastname": "Wolf",
+                    "name": "Michael"
+                },
+                "text": " Wolf , Michael , * 02.08.1953 , Lüdersdorf OT Herrnburg"
             }
         ]
     }

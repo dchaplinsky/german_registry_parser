@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Norderstedt",
+                    "dob": "1965-01-04",
+                    "lastname": "Groß",
+                    "name": "Gunnar"
+                },
+                "text": " Groß , Gunnar , * 01.04.1965 , Norderstedt"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Groß",
+                    "name": "Klaus"
+                },
+                "text": " Groß , Klaus ."
             }
         ]
     }

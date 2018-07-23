@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=49982&land_abk=mv"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dettmann , Daniela , Jesendorf * 23.02.1971 , einzelvertretungsberechtigt"
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "einzelvertretungsberechtigt",
+                    "dob": "1971-02-23",
+                    "lastname": "Dettmann",
+                    "name": "Daniela"
+                },
+                "text": " Dettmann , Daniela , Jesendorf * 23.02.1971 , einzelvertretungsberechtigt"
             }
         ]
     }

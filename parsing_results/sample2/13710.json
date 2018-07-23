@@ -33,8 +33,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Neuenhagen bei Berlin",
+                    "dob": "1972-10-07",
+                    "lastname": "Böhme",
+                    "name": "Frank"
+                },
+                "text": " Böhme , Frank , * 10.07.1972 , Neuenhagen bei Berlin"
             }
         ]
     }

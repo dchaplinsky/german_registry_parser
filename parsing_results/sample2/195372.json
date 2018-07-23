@@ -16,11 +16,10 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=195372&land_abk=by"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "Liquidator",
-                "payload": {},
-                "text": " Cengic Dino * 03.07.1976 , Grünwald ."
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Cengic Dino * 03.07.1976 , Grünwald ., error text was no valid patter found, number of chunks: 2"
             }
         ]
     }

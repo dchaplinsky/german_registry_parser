@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=822380&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Clamor , Angelika , Kaufmännische Angestellte , Stemwede ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
@@ -39,6 +33,16 @@
                     "name": "Jan Christoph"
                 },
                 "text": " Weitkamp , Jan Christoph , Bad Essen , * 20.07.1974 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Stemwede",
+                    "lastname": "Clamor",
+                    "name": "Angelika",
+                    "position": "Kaufmännische Angestellte"
+                },
+                "text": " Clamor , Angelika , Kaufmännische Angestellte , Stemwede ."
             }
         ]
     }

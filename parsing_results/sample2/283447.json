@@ -47,13 +47,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1947-03-27",
+                    "lastname": "Berger",
+                    "name": "Gabriele"
+                },
+                "text": " Berger , Gabriele , * 27.03.1947 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Berger",
+                    "name": "Oliver"
+                },
+                "text": " Berger , Oliver"
             }
         ]
     }

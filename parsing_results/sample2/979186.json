@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=979186&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Schaaf , Hans , Glasermeister , Aachen ."
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -33,6 +27,16 @@
                     "name": "Wolfgang"
                 },
                 "text": " Schaaf , Wolfgang , Aachen , * 10.07.1961 , einzelvertretungsberechtigt ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Aachen",
+                    "lastname": "Schaaf",
+                    "name": "Hans",
+                    "position": "Glasermeister"
+                },
+                "text": " Schaaf , Hans , Glasermeister , Aachen ."
             }
         ]
     }

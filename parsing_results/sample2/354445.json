@@ -31,13 +31,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "lastname": "Hüsemann",
+                    "name": "Thomas"
+                },
+                "text": " Hüsemann , Thomas"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Gladbeck",
+                    "dob": "1959-07-30",
+                    "lastname": "Berg",
+                    "name": "Petra"
+                },
+                "text": " Berg , Petra , * 30.07.1959 , Gladbeck"
             }
         ]
     }

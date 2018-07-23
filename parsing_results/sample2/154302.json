@@ -25,13 +25,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 5 ."
+                "payload": {
+                    "city": "Lilienthal",
+                    "dob": "1979-11-01",
+                    "lastname": "Roßkamp",
+                    "name": "Mark"
+                },
+                "text": " Roßkamp , Mark , * 11.01.1979 , Lilienthal"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "lastname": "Mardfeldt",
+                    "name": "Holger"
+                },
+                "text": " Mardfeldt , Holger"
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=243125&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Broschinski , Ute , Kauffrau , Schenklengsfeld - Wippershain ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Sole trader",
@@ -42,6 +36,16 @@
                     "name": "Udo"
                 },
                 "text": " Broschinski , Udo , Kirchheim , * 19.08.1964 ."
+            },
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Schenklengsfeld - Wippershain",
+                    "lastname": "Broschinski",
+                    "name": "Ute",
+                    "position": "Kauffrau"
+                },
+                "text": " Broschinski , Ute , Kauffrau , Schenklengsfeld - Wippershain ."
             }
         ]
     }

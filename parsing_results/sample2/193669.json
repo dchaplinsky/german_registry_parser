@@ -19,13 +19,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1966-02-22",
+                    "lastname": "Brückner",
+                    "name": "Christian"
+                },
+                "text": " Brückner , Christian , * 22.02.1966 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Griesbach",
+                    "name": "Ralph"
+                },
+                "text": " Griesbach , Ralph ."
             }
         ]
     }

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=997807&land_abk=nw"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Dipl . - Geol ., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -37,11 +43,6 @@
                     "name": "Nikolaus"
                 },
                 "text": " Linder , Nikolaus , Dortmund , * 29.09.1964 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "class": "ProcurationCancelled",
-                "payload": {},
-                "text": " Dipl . - Geol ."
             }
         ]
     }

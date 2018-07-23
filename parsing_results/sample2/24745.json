@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=24745&land_abk=hh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Erichsen , Joergen , Nest Gate , 56 Camp Road , Gerrards Cross Bucks , SL9 7 PD UK , * 12.05.1962 , einzelvertretungsberechtigt ., error text was no valid patter found, number of chunks: 8"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -26,11 +32,6 @@
                     "name": "Steven Garrett"
                 },
                 "text": " Marton , Steven Garrett , Hamburg , * 03.09.1956"
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Erichsen , Joergen , Nest Gate , 56 Camp Road , Gerrards Cross Bucks , SL9 7 PD UK , * 12.05.1962 , einzelvertretungsberechtigt ."
             }
         ]
     }

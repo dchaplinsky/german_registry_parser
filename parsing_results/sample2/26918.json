@@ -19,14 +19,25 @@
         "labels": [
             {
                 "label": "misc",
-                "text": " 25.600 EUR Prokura : Nicht mehr Prokurist :"
+                "text": " 600 EUR Prokura : Nicht mehr Prokurist : Dr . Berg , Erik"
             }
         ],
         "officers": [
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Dr . Berg",
+                    "name": "Erik"
+                },
+                "text": " Dr . Berg , Erik"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Dr . Berg",
+                    "name": "Erik"
+                },
+                "text": " Nicht mehr Prokurist : Dr . Berg , Erik"
             }
         ]
     }

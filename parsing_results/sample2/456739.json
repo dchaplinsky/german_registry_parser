@@ -19,7 +19,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Shin , Jang - Soon , Tokyo , Japan / Japan , * 01.04.1954 ."
+                "text": "Cannot parse a ManagingDirector from  Shin , Jang - Soon , Tokyo , Japan / Japan , * 01.04.1954 ., error text was Cannot parse DOB  Tokyo  using regex"
             }
         ],
         "flags": [
@@ -31,7 +31,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Tokyo / Japan",
+                    "dob": "1967-02-28",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Ishizuka",
+                    "name": "Junya"
+                },
                 "text": " Ishizuka , Junya , Tokyo / Japan , * 28.02.1967 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]

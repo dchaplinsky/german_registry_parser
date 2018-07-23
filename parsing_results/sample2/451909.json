@@ -39,11 +39,27 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Ketsch",
+                    "dob": "1986-06-11",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Koll",
+                    "name": "Martin"
+                },
                 "text": " Koll , Martin , Ketsch , * 06.11.1986 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "Ketsch",
+                    "dob": "1948-10-18",
+                    "lastname": "Koll",
+                    "name": "Hans"
+                },
+                "text": " Koll , Hans , Ketsch , * 18.10.1948 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "Ketsch",
                     "dob": "1948-10-18",

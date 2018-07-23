@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=34185&land_abk=hb"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  von Mangoldt , Wolfgang , * 16.09.1960 , Hamburg"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -41,8 +35,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Clasen",
+                    "name": "Lars"
+                },
                 "text": " Clasen , Lars ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1960-09-16",
+                    "lastname": "von Mangoldt",
+                    "name": "Wolfgang"
+                },
+                "text": " von Mangoldt , Wolfgang , * 16.09.1960 , Hamburg"
             }
         ]
     }

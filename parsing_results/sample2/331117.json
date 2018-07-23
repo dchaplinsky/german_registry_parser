@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=331117&land_abk=be"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Lange , Lothar , * 26.12.1946 , Karstädt GT Streesow"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -65,8 +59,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1978-04-28",
+                    "lastname": "Volpp",
+                    "name": "Oliver Charlie"
+                },
+                "text": " Volpp , Oliver Charlie , * 28.04.1978 , Berlin"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Karstädt GT Streesow",
+                    "dob": "1946-12-26",
+                    "lastname": "Lange",
+                    "name": "Lothar"
+                },
+                "text": " Lange , Lothar , * 26.12.1946 , Karstädt GT Streesow"
             }
         ]
     }

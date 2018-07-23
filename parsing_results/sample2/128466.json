@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=128466&land_abk=ni"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Többen , Heinrich , Bauunternehmer , Geeste OT Dalum ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Geeste OT Dalum",
+                    "lastname": "Többen",
+                    "name": "Heinrich",
+                    "position": "Bauunternehmer"
+                },
+                "text": " Többen , Heinrich , Bauunternehmer , Geeste OT Dalum ."
             }
         ]
     }

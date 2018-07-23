@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=58103&land_abk=st"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Alternatives Energiezentrum Verwaltungsgesellschaft mbH , Elsteraue ( Amtsgericht Stendal HRB 214103 ) , einzelvertretungsberechtigt"
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -36,6 +30,15 @@
             {
                 "label": "address",
                 "text": " Hauptstraße 30 , 06729 Elsteraue OT Alttröglitz ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Alternatives Energiezentrum Verwaltungsgesellschaft mbH , Elsteraue ( Amtsgericht Stendal HRB 214103 ) , einzelvertretungsberechtigt"
+                },
+                "text": " Alternatives Energiezentrum Verwaltungsgesellschaft mbH , Elsteraue ( Amtsgericht Stendal HRB 214103 ) , einzelvertretungsberechtigt"
             }
         ]
     }

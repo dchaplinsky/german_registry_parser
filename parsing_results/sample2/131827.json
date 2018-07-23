@@ -33,7 +33,7 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " c / o Igor Goldgamer , Schloßstraße 32 , 14059 Berlin Gegenstand : Der Betrieb von gastronomischen Einrichtungen , wenn die hierfür erforderliche Genehmigung vorliegt ."
             },
             {
                 "label": "misc",
@@ -43,8 +43,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1966-07-21",
+                    "lastname": "Goldgamer",
+                    "name": "Igor"
+                },
+                "text": " Goldgamer , Igor , * 21.07.1966 , Berlin"
             }
         ]
     }

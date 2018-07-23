@@ -43,8 +43,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Essen",
+                    "dob": "1974-11-27",
+                    "lastname": "Difonzo",
+                    "name": "Ralf"
+                },
+                "text": " Difonzo , Ralf , * 27.11.1974 , Essen"
             }
         ]
     }

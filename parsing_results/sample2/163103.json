@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=163103&land_abk=ni"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Hempen , Josef , Kaufmann , Dötlingen , * 30.01.1956 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Kaufmann  using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -34,13 +40,6 @@
             {
                 "label": "address",
                 "text": " Raiffeisenstraße 7 , 26219 Bösel ."
-            }
-        ],
-        "officers": [
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Hempen , Josef , Kaufmann , Dötlingen , * 30.01.1956 , einzelvertretungsberechtigt"
             }
         ]
     }

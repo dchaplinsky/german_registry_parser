@@ -16,20 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=143315&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Bensing , Reiner , * 13.04.1958 , Karben"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Köppel , Peter Anton , * 14.06.1959 , Falkensee"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Martin , Thomas Michael , * 02.01.1960 , Stahnsdorf"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -68,6 +54,38 @@
             {
                 "label": "address",
                 "text": " Rheinstraße 15 A , 14513 Teltow"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Karben",
+                    "dob": "1958-04-13",
+                    "lastname": "Bensing",
+                    "name": "Reiner"
+                },
+                "text": " Bensing , Reiner , * 13.04.1958 , Karben"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Falkensee",
+                    "dob": "1959-06-14",
+                    "lastname": "Köppel",
+                    "name": "Peter Anton"
+                },
+                "text": " Köppel , Peter Anton , * 14.06.1959 , Falkensee"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Stahnsdorf",
+                    "dob": "1960-02-01",
+                    "lastname": "Martin",
+                    "name": "Thomas Michael"
+                },
+                "text": " Martin , Thomas Michael , * 02.01.1960 , Stahnsdorf"
             }
         ]
     }

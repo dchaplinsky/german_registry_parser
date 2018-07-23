@@ -35,8 +35,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Osnabrück",
+                    "dob": "1933-08-26",
+                    "lastname": "Pump",
+                    "name": "Gerhard"
+                },
+                "text": " Pump , Gerhard , * 26.08.1933 , Osnabrück"
             }
         ]
     }

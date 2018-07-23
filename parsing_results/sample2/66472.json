@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=66472&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  van der Sluijs , Marcel , * 17.03.1967 , JP Leerdam , Niederlande"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -48,6 +42,29 @@
             {
                 "label": "address",
                 "text": " Chemnitzer Straße 6 , 14612 Falkensee ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "JP Leerdam",
+                    "dob": "1967-03-17",
+                    "flag": "Niederlande",
+                    "lastname": "van der Sluijs",
+                    "name": "Marcel"
+                },
+                "text": " van der Sluijs , Marcel , * 17.03.1967 , JP Leerdam , Niederlande"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Wesel",
+                    "dob": "1973-10-17",
+                    "lastname": "Bonnes",
+                    "name": "Doreen"
+                },
+                "text": " Bonnes , Doreen , * 17.10.1973 , Wesel"
             }
         ]
     }

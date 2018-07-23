@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=88571&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Arts , Johannes T . W . M . , * 01.04.1968 , Rüdnitz"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  van Els , Martinus R . J . , * 04.02.1966 , Linum"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -56,6 +46,28 @@
             {
                 "label": "address",
                 "text": " Rüsternstraße 19 , 16321 Rüdnitz OT Albertshof"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Rüdnitz",
+                    "dob": "1968-01-04",
+                    "lastname": "Arts",
+                    "name": "Johannes T . W . M"
+                },
+                "text": " Arts , Johannes T . W . M . , * 01.04.1968 , Rüdnitz"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Linum",
+                    "dob": "1966-04-02",
+                    "lastname": "van Els",
+                    "name": "Martinus R . J"
+                },
+                "text": " van Els , Martinus R . J . , * 04.02.1966 , Linum"
             }
         ]
     }

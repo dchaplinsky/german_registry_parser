@@ -16,16 +16,19 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=55878&land_abk=sn"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  IPL Premium Produktions - Beteiligungs GmbH , Diesbar - Seußlitz ( Amtsgericht Dresden , HRB 26639 ) ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
                 "text": "Kommanditgesellschaft ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " IPL Premium Produktions - Beteiligungs GmbH , Diesbar - Seußlitz ( Amtsgericht Dresden , HRB 26639 ) ."
+                },
+                "text": " IPL Premium Produktions - Beteiligungs GmbH , Diesbar - Seußlitz ( Amtsgericht Dresden , HRB 26639 ) ."
             }
         ]
     }

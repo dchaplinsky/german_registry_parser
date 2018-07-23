@@ -47,8 +47,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1964-10-04",
+                    "lastname": "Bergère Epouse Bosc",
+                    "name": "Valérie Georgette"
+                },
+                "text": " Bergère Epouse Bosc , Valérie Georgette , * 10.04.1964 , Berlin"
             }
         ]
     }

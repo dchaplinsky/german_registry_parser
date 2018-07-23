@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=414755&land_abk=bw"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Dr . Horn - Spirohn , Thomas , Cambridge , MA , USA / Vereinigte Staaten , * 22.12.1982, error text was Cannot parse DOB  Cambridge  using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -30,13 +36,6 @@
             {
                 "label": "address",
                 "text": " Brentanoweg 3 , 69126 Heidelberg ."
-            }
-        ],
-        "officers": [
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Dr . Horn - Spirohn , Thomas , Cambridge , MA , USA / Vereinigte Staaten , * 22.12.1982"
             }
         ]
     }

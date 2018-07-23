@@ -43,8 +43,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Stockelsdorf",
+                    "dob": "1977-09-30",
+                    "lastname": "Stock",
+                    "name": "Arne"
+                },
+                "text": " Stock , Arne , * 30.09.1977 , Stockelsdorf"
             }
         ]
     }

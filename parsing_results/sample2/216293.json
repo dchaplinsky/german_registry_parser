@@ -16,17 +16,24 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=216293&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Schlörmann , Alwin , * 26.05.1959 , Bad Zwischenahn"
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Carstensen",
+                    "name": "Uwe Thomas"
+                },
                 "text": " Carstensen , Uwe Thomas"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bad Zwischenahn",
+                    "dob": "1959-05-26",
+                    "lastname": "Schlörmann",
+                    "name": "Alwin"
+                },
+                "text": " Schlörmann , Alwin , * 26.05.1959 , Bad Zwischenahn"
             }
         ]
     }

@@ -19,13 +19,19 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Nose , Michihiro , Shinjuku - ku , Tokio / Japan , * 13.12.1962 ."
+                "text": "Cannot parse a ManagingDirector from  Nose , Michihiro , Shinjuku - ku , Tokio / Japan , * 13.12.1962 ., error text was Cannot parse DOB  Shinjuku - ku  using regex"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Tokio / Japan",
+                    "dob": "1969-05-31",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Shimizu",
+                    "name": "Yasushi"
+                },
                 "text": " Shimizu , Yasushi , Tokio / Japan , * 31.05.1969 , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {

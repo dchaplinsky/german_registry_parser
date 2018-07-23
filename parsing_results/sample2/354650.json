@@ -43,7 +43,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Bremervörde",
+                    "dob": "1964-11-09",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Gorke",
+                    "name": "Rolf"
+                },
                 "text": " Gorke , Rolf , Bremervörde , * 11.09.1964 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {
@@ -58,6 +64,16 @@
             },
             {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "Bremerhaven",
+                    "dob": "1964-01-03",
+                    "lastname": "Bartels",
+                    "name": "Holger"
+                },
+                "text": " Bartels , Holger , Bremerhaven , * 01.03.1964 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "Bremerhaven",
                     "dob": "1964-01-03",

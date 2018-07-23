@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=679575&land_abk=by"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Cox , Andrew Darrell , Byfield , Northhamptonshire , England , * 16.03.1965 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen ., error text was no valid patter found, number of chunks: 7"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -26,11 +32,6 @@
                     "name": "Georg"
                 },
                 "text": " Dr . Thurnes , Georg , Unterhaching , * 16.06.1960 ."
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Cox , Andrew Darrell , Byfield , Northhamptonshire , England , * 16.03.1965 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen ."
             },
             {
                 "class": "CommonProcuration",

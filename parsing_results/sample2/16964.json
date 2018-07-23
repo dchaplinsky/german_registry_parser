@@ -16,17 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=16964&land_abk=sn"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Hecker , Jürgen , Malermeister , Riesa , * 15.07.0194 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Malermeister  using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
                 "text": "Die Gesellschaft ist aufgelöst ."
-            }
-        ],
-        "officers": [
-            {
-                "class": "Liquidator",
-                "payload": {},
-                "text": " Hecker , Jürgen , Malermeister , Riesa , * 15.07.0194 , einzelvertretungsberechtigt"
             }
         ]
     }

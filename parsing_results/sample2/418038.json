@@ -29,7 +29,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Neuenstein",
+                    "dob": "1963-07-23",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Heim",
+                    "name": "Andrea"
+                },
                 "text": " Heim , Andrea , Neuenstein , * 23.07.1963 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {
@@ -44,6 +50,16 @@
             },
             {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "Neuenstein",
+                    "dob": "1959-07-05",
+                    "lastname": "Heim",
+                    "name": "Peter"
+                },
+                "text": " Heim , Peter , Neuenstein , * 07.05.1959 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "Neuenstein",
                     "dob": "1959-07-05",

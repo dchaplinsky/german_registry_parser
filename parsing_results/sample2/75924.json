@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=75924&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Jung , Mathias , * 01.02.1961 , Schulzendorf"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several managing directors are appointed, the company is jointly represented by all managing directors.",
@@ -36,6 +30,18 @@
             {
                 "label": "address",
                 "text": " Berliner Straße 10 , 12529 Schönefeld"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Schulzendorf",
+                    "dob": "1961-01-02",
+                    "lastname": "Jung",
+                    "name": "Mathias"
+                },
+                "text": " Jung , Mathias , * 01.02.1961 , Schulzendorf"
             }
         ]
     }

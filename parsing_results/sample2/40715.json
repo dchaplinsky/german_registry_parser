@@ -16,10 +16,15 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=40715&land_abk=sn"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Schneider , Karl , Dipl . - Ing ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Dipl . - Ing",
+                    "lastname": "Schneider",
+                    "name": "Karl"
+                },
+                "text": " Schneider , Karl , Dipl . - Ing ."
             }
         ]
     }

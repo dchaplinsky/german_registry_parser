@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=404549&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Frobart , Dietlind , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -40,6 +34,19 @@
             {
                 "label": "address",
                 "text": " Lindenstraße 22 , 38154 Königslutter am Elm ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Königslutter am Elm OT Bornum",
+                    "dob": "1962-07-21",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Frobart",
+                    "name": "Dietlind geborene Danneberg"
+                },
+                "text": " Frobart , Dietlind geborene Danneberg , Königslutter am Elm OT Bornum , * 21.07.1962 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

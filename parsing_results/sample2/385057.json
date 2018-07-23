@@ -47,8 +47,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1987-06-04",
+                    "lastname": "Landwehr",
+                    "name": "David Maximilian"
+                },
+                "text": " Landwehr , David Maximilian , * 06.04.1987 , Berlin"
             }
         ]
     }

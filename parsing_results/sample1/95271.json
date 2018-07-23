@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=95271&land_abk=by"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Nausch , Gerd , Kaufmann , Putzbrunn ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Putzbrunn",
+                    "lastname": "Nausch",
+                    "name": "Gerd",
+                    "position": "Kaufmann"
+                },
+                "text": " Nausch , Gerd , Kaufmann , Putzbrunn ."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=214325&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Schäfer , Dennis , * 30.08.1983 , Hohenlockstedt"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -40,6 +34,18 @@
             {
                 "label": "address",
                 "text": " Le - Portel - Ring 4 , 23617 Stockelsdorf"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hohenlockstedt",
+                    "dob": "1983-08-30",
+                    "lastname": "Schäfer",
+                    "name": "Dennis"
+                },
+                "text": " Schäfer , Dennis , * 30.08.1983 , Hohenlockstedt"
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=153918&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Paatsch , Carsten , * 11.05.1968 , Berlin"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -38,9 +32,22 @@
         ],
         "officers": [
             {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1968-11-05",
+                    "lastname": "Paatsch",
+                    "name": "Carsten"
+                },
+                "text": " Paatsch , Carsten , * 11.05.1968 , Berlin"
+            },
+            {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 . von Platen , Henrike"
+                "payload": {
+                    "lastname": "von Platen",
+                    "name": "Henrike"
+                },
+                "text": " von Platen , Henrike"
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=36010&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr . Clouth , Gundel , Königstein i ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -47,8 +41,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Niedernhausen",
+                    "dob": "1953-10-16",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Egger",
+                    "name": "Gustav"
+                },
                 "text": " Egger , Gustav , Niedernhausen , * 16.10.1953 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Königstein i",
+                    "lastname": "Dr . Clouth",
+                    "name": "Gundel"
+                },
+                "text": " Dr . Clouth , Gundel , Königstein i ."
             }
         ]
     }

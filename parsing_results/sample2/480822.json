@@ -59,8 +59,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1977-02-13",
+                    "lastname": "Gardow",
+                    "name": "Danny"
+                },
+                "text": " Gardow , Danny , * 13.02.1977 , Berlin"
             }
         ]
     }

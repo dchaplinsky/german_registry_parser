@@ -35,8 +35,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Hildebrandt",
+                    "name": "Petra geborene Hänel"
+                },
+                "text": " Hildebrandt , Petra geborene Hänel"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1956-06-08",
+                    "lastname": "Hildebrandt",
+                    "name": "Petra geborene Hänel"
+                },
+                "text": " Hildebrandt , Petra geborene Hänel , * 06.08.1956 , Berlin"
             }
         ]
     }

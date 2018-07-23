@@ -19,13 +19,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Dublin 6 W",
+                    "dob": "1965-01-28",
+                    "lastname": "O'Driscoll",
+                    "name": "Terence"
+                },
+                "text": " O'Driscoll , Terence , * 28.01.1965 , Dublin 6 W"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Holst",
+                    "name": "Andreas"
+                },
+                "text": " Holst , Andreas .."
             }
         ]
     }

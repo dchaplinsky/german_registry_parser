@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=40484&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Himberger , Hans - Jürgen , Kaufmann , Hahnstätten - Zollhaus ."
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -33,6 +27,16 @@
                     "name": "Eva - Katrein"
                 },
                 "text": " Bunte , Eva - Katrein , Altendiez , * 16.05.1941 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hahnstätten - Zollhaus",
+                    "lastname": "Himberger",
+                    "name": "Hans - Jürgen",
+                    "position": "Kaufmann"
+                },
+                "text": " Himberger , Hans - Jürgen , Kaufmann , Hahnstätten - Zollhaus ."
             }
         ]
     }

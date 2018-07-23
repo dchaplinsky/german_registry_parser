@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=381384&land_abk=be"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Köhler , Jens - Uwe , * 08.04.1969 , Berlin"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -32,6 +26,18 @@
             {
                 "label": "WHUT",
                 "text": " Studentendorf GmbH , Berlin , Wasgenstraße 75 , 14129 Berlin ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1969-08-04",
+                    "lastname": "Köhler",
+                    "name": "Jens - Uwe"
+                },
+                "text": " Köhler , Jens - Uwe , * 08.04.1969 , Berlin"
             }
         ]
     }

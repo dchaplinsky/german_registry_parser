@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=80567&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Pham , Quynh Mai , * 19.05.1965 , Potsdam"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several managing directors are appointed, the company is jointly represented by all managing directors.",
@@ -36,6 +30,18 @@
             {
                 "label": "address",
                 "text": " Breite Straße 20 , 14467 Potsdam"
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Potsdam",
+                    "dob": "1965-05-19",
+                    "lastname": "Pham",
+                    "name": "Quynh Mai"
+                },
+                "text": " Pham , Quynh Mai , * 19.05.1965 , Potsdam"
             }
         ]
     }

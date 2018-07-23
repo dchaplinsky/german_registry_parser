@@ -39,13 +39,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Muric",
+                    "name": "Hasim"
+                },
+                "text": " Muric , Hasim"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1976-12-06",
+                    "lastname": "Davies",
+                    "name": "Carl"
+                },
+                "text": " Davies , Carl , * 12.06.1976 , Berlin"
             }
         ]
     }

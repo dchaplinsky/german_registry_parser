@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=270267&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Goede , Michael , Neustadt a ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Sole trader",
@@ -36,6 +30,17 @@
             {
                 "label": "address",
                 "text": " Großer Weg 47 , 31535 Neustadt a . Rbge ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Neustadt a",
+                    "lastname": "Goede",
+                    "name": "Michael"
+                },
+                "text": " Goede , Michael , Neustadt a ."
             }
         ]
     }

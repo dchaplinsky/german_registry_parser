@@ -31,13 +31,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Valvanne",
+                    "name": "Juha"
+                },
+                "text": " Valvanne , Juha"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Köln",
+                    "dob": "1987-10-12",
+                    "lastname": "Friedlaender",
+                    "name": "Julius Kuno"
+                },
+                "text": " Friedlaender , Julius Kuno , * 10.12.1987 , Köln"
             }
         ]
     }

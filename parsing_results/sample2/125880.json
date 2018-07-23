@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=125880&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Bergunde , Marina , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -40,8 +34,21 @@
         ],
         "officers": [
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Rathenow OT Steckelsdorf",
+                    "dob": "1959-12-01",
+                    "lastname": "Bergunde",
+                    "name": "Marina geborene Deichsel"
+                },
+                "text": " Bergunde , Marina geborene Deichsel , * 12.01.1959 , Rathenow OT Steckelsdorf"
+            },
+            {
                 "class": "NotAProcurator",
-                "payload": {},
+                "payload": {
+                    "lastname": "Kündiger",
+                    "name": "Bernd"
+                },
                 "text": " Kündiger , Bernd"
             }
         ]

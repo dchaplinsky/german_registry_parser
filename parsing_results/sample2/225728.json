@@ -16,16 +16,22 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=225728&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Kröger , Dieter , * 04.07.1942 , Itzehoe"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Itzehoe",
+                    "dob": "1942-04-07",
+                    "lastname": "Kröger",
+                    "name": "Dieter"
+                },
+                "text": " Kröger , Dieter , * 04.07.1942 , Itzehoe"
             }
         ]
     }

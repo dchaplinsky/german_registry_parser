@@ -59,13 +59,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Lübeck",
+                    "dob": "1948-02-11",
+                    "lastname": "Puschaddel",
+                    "name": "Klaus"
+                },
+                "text": " Puschaddel , Klaus , * 02.11.1948 , Lübeck"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Lübeck",
+                    "dob": "1952-05-20",
+                    "lastname": "Ehrich",
+                    "name": "Ellen"
+                },
+                "text": " Ehrich , Ellen , * 20.05.1952 , Lübeck"
             }
         ]
     }

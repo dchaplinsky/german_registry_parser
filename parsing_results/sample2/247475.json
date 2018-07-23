@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=247475&land_abk=hh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Dr . Alexander Extra e . K . , Hamburg , Hasenhöhe 26 , 22587 Hamburg ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Sole trader",
@@ -35,6 +29,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "22587 Hamburg",
+                    "lastname": "Dr . Alexander Extra e . K",
+                    "name": "Hamburg",
+                    "position": "Hasenhöhe 26"
+                },
+                "text": " Dr . Alexander Extra e . K . , Hamburg , Hasenhöhe 26 , 22587 Hamburg ."
+            },
             {
                 "class": "Owner",
                 "payload": {

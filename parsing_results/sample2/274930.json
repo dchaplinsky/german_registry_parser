@@ -16,20 +16,27 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=274930&land_abk=nw"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Kirchmann , Marcus , Köln , * 04.11.1974 , mit der Befugnis , im Namen der Gesellschaft und zugleich als Vertreter der Steriserv Verwaltungsgesellschaft mbH , Köln ( AG Köln HRB 60569 ) und / oder der Steriserv GmbH & Co ., error text was no valid patter found, number of chunks: 7"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Lovenfosse - Gehrt",
+                    "name": "Roman"
+                },
                 "text": " Lovenfosse - Gehrt , Roman ."
             },
             {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Kirchmann , Marcus , Köln , * 04.11.1974 , mit der Befugnis , im Namen der Gesellschaft und zugleich als Vertreter der Steriserv Verwaltungsgesellschaft mbH , Köln ( AG Köln HRB 60569 ) und / oder der Steriserv GmbH & Co ."
-            },
-            {
                 "class": "ProcurationCancelled",
-                "payload": {},
+                "payload": {
+                    "lastname": "Kirchmann",
+                    "name": "Marcus"
+                },
                 "text": " Kirchmann , Marcus ."
             }
         ]

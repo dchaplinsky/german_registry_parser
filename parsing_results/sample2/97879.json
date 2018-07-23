@@ -59,13 +59,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Mildstedt",
+                    "dob": "1982-06-26",
+                    "lastname": "Dwars",
+                    "name": "Timo"
+                },
+                "text": " Dwars , Timo , * 26.06.1982 , Mildstedt"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Husum",
+                    "dob": "1963-12-04",
+                    "lastname": "Petersen",
+                    "name": "Kai"
+                },
+                "text": " Petersen , Kai , * 12.04.1963 , Husum"
             }
         ]
     }

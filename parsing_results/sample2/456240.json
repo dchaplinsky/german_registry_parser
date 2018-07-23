@@ -39,13 +39,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 6 ."
+                "payload": {
+                    "lastname": "Aue",
+                    "name": "André"
+                },
+                "text": " Aue , André"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 7 ."
+                "payload": {
+                    "city": "Kemmenau",
+                    "dob": "1959-12-19",
+                    "lastname": "Gies",
+                    "name": "Michael"
+                },
+                "text": " Gies , Michael , * 19.12.1959 , Kemmenau"
             }
         ]
     }

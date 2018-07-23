@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=13102&land_abk=sn"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  HMZ Bauservice - und Verwaltungs GmbH , Chemnitz ( Amtsgericht Chemnitz HRB 22405 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -33,6 +27,13 @@
             }
         ],
         "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " HMZ Bauservice - und Verwaltungs GmbH , Chemnitz ( Amtsgericht Chemnitz HRB 22405 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " HMZ Bauservice - und Verwaltungs GmbH , Chemnitz ( Amtsgericht Chemnitz HRB 22405 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
             {
                 "class": "SingleProcuration",
                 "payload": {

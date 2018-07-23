@@ -16,12 +16,13 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=36342&land_abk=bw"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Villis , Joachim Ernst , Waldbronn , * 24.07.1951 , Gesamtprokura gemeinsam mit einem Geschäftsführer : Pfloksch , Michael , Ahrensburg , * 26.05.1970 ."
-            },
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Villis , Joachim Ernst , Waldbronn , * 24.07.1951 , Gesamtprokura gemeinsam mit einem Geschäftsführer : Pfloksch , Michael , Ahrensburg , * 26.05.1970 ., error text was no valid patter found, number of chunks: 8"
+            }
+        ],
+        "officers": [
             {
                 "class": "ProcurationCancelled",
                 "payload": {

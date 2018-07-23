@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1076496&land_abk=by"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Thein , Roland , Zahntechnikermeister , Stein ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Stein",
+                    "lastname": "Thein",
+                    "name": "Roland",
+                    "position": "Zahntechnikermeister"
+                },
+                "text": " Thein , Roland , Zahntechnikermeister , Stein ."
             }
         ]
     }

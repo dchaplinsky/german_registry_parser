@@ -29,8 +29,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1968-07-07",
+                    "lastname": "Hiebner",
+                    "name": "Frank"
+                },
+                "text": " Hiebner , Frank , * 07.07.1968 , Hamburg"
             }
         ]
     }

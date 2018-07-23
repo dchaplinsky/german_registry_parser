@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=17991&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Schropp , Konrad , * 07.11.1962 , Berlin"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -38,6 +32,18 @@
             {
                 "flag": "Company with limited liability .",
                 "text": "Gesellschaft mit beschränkter Haftung ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1962-07-11",
+                    "lastname": "Schropp",
+                    "name": "Konrad"
+                },
+                "text": " Schropp , Konrad , * 07.11.1962 , Berlin"
             }
         ]
     }

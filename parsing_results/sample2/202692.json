@@ -25,8 +25,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 6 ."
+                "payload": {
+                    "city": "Hohn",
+                    "dob": "1957-08-23",
+                    "lastname": "Otto",
+                    "name": "Holger"
+                },
+                "text": " Otto , Holger , * 23.08.1957 , Hohn"
             }
         ]
     }

@@ -16,11 +16,10 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=330301&land_abk=he"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "ProcurationCancelled",
-                "payload": {},
-                "text": " mielsch , henrik , dortmund , * 26.02.1964 . personenbezogene daten geändert , nun : gesamtprokura gemeinsam mit einem vorstandsmitglied oder einem anderen prokuristen mit der befugnis , im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen : mues , rainer , neuss , * 22.12.1972 ."
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  mielsch , henrik , dortmund , * 26.02.1964 . personenbezogene daten geändert , nun : gesamtprokura gemeinsam mit einem vorstandsmitglied oder einem anderen prokuristen mit der befugnis , im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen : mues , rainer , neuss , * 22.12.1972 ., error text was no valid patter found, number of chunks: 9"
             }
         ]
     }

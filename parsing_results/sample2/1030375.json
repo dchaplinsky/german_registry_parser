@@ -16,13 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1030375&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Schorr , Juliane , geb ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Nürnberg",
+                    "dob": "1988-02-20",
+                    "lastname": "Schorr",
+                    "name": "Juliane geborene Sebald"
+                },
+                "text": " Schorr , Juliane geborene Sebald , Nürnberg , * 20.02.1988 ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

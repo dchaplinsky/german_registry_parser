@@ -39,8 +39,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1991-03-06",
+                    "lastname": "Zein",
+                    "name": "Sharief Dennis"
+                },
+                "text": " Zein , Sharief Dennis , * 03.06.1991 , Berlin"
             }
         ]
     }

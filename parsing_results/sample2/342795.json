@@ -31,23 +31,39 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Rebentrost",
+                    "name": "Anna"
+                },
+                "text": " Rebentrost , Anna"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "lastname": "Rebentrost",
+                    "name": "Fabian"
+                },
+                "text": " Rebentrost , Fabian"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1966-04-29",
+                    "lastname": "Eiff",
+                    "name": "Peter"
+                },
+                "text": " Eiff , Peter , * 29.04.1966 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 5 ."
+                "payload": {
+                    "city": "Bielefeld",
+                    "dob": "1969-04-11",
+                    "lastname": "Oberwelland",
+                    "name": "Timm"
+                },
+                "text": " Oberwelland , Timm , * 04.11.1969 , Bielefeld"
             }
         ]
     }

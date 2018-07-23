@@ -16,16 +16,22 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=454733&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Heinrich , Karl , Kaufmann , München ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
                 "text": " Mondstr ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "lastname": "Heinrich",
+                    "name": "Karl",
+                    "position": "Kaufmann"
+                },
+                "text": " Heinrich , Karl , Kaufmann , München ."
             }
         ]
     }

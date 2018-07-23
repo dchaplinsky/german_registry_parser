@@ -33,8 +33,25 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1955-12-23",
+                    "flag": "mit der Befugnis die Gesellschaft allein zu vertreten  mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen",
+                    "lastname": "Marseille",
+                    "name": "Ulrich"
+                },
                 "text": " Marseille , Ulrich , * 23.12.1955 , Hamburg , mit der Befugnis die Gesellschaft allein zu vertreten , mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen ."
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1963-06-23",
+                    "flag": "Einzelprokura mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen",
+                    "lastname": "Albracht",
+                    "name": "Klaus"
+                },
+                "text": " Albracht , Klaus , * 23.06.1963 , Hamburg , Einzelprokura mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen ."
             }
         ]
     }

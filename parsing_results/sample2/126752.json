@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Poll",
+                    "name": "Andreas"
+                },
+                "text": " Poll , Andreas"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Bad Saarow",
+                    "dob": "1965-11-02",
+                    "lastname": "Hegewald",
+                    "name": "Rowena"
+                },
+                "text": " Hegewald , Rowena , * 11.02.1965 , Bad Saarow"
             }
         ]
     }

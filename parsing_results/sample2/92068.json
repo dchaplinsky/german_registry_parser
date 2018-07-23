@@ -25,13 +25,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Zerdo",
+                    "name": "Sulejman"
+                },
+                "text": " Zerdo , Sulejman"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Oberlungwitz",
+                    "dob": "1976-12-01",
+                    "lastname": "Schnick",
+                    "name": "Michael"
+                },
+                "text": " Schnick , Michael , * 12.01.1976 , Oberlungwitz"
             }
         ]
     }

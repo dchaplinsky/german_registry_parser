@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=907864&land_abk=by"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Flynn , Richard F . , Oradell , New Jersey , USA / Vereinigte Staaten , * 30.12.1970, error text was Cannot parse DOB  Oradell  using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
@@ -24,13 +30,14 @@
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Flynn , Richard F . , Oradell , New Jersey , USA / Vereinigte Staaten , * 30.12.1970"
-            },
-            {
                 "class": "Liquidator",
-                "payload": {},
+                "payload": {
+                    "city": "Starnberg",
+                    "dob": "1943-08-27",
+                    "flag": "einzelvertretungsberechtigt  wenn und solange kein weiterer Liquidator bestellt ist",
+                    "lastname": "Dr . Gutsch",
+                    "name": "Hans Waldemar"
+                },
                 "text": " Dr . Gutsch , Hans Waldemar , Starnberg , * 27.08.1943 , einzelvertretungsberechtigt , wenn und solange kein weiterer Liquidator bestellt ist ."
             }
         ]

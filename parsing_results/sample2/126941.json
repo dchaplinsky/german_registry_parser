@@ -16,13 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=126941&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Stamm , Wilfried , Immobilienkaufmann , Werl ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Werl",
+                    "lastname": "Stamm",
+                    "name": "Wilfried",
+                    "position": "Immobilienkaufmann"
+                },
+                "text": " Stamm , Wilfried , Immobilienkaufmann , Werl ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

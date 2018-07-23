@@ -35,11 +35,23 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "company_name": " Voelkel Beteiligungs GmbH , Essen ( Amtsgericht Essen HRB 17844 ) ."
+                },
                 "text": " Voelkel Beteiligungs GmbH , Essen ( Amtsgericht Essen HRB 17844 ) ."
             },
             {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "Bochum",
+                    "dob": "1971-04-17",
+                    "lastname": "Voelkel",
+                    "name": "Claus"
+                },
+                "text": " Voelkel , Claus , Bochum , * 17.04.1971 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "Bochum",
                     "dob": "1971-04-17",

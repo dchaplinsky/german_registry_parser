@@ -19,11 +19,11 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Guzakowski , Vera , Bottrop ."
+                "text": "Cannot parse a SingleProcuration from  Khvan , Valentin , Almaty , Kasachstan / Russland , * 05.02.1960 ., error text was Cannot parse DOB  Almaty  using regex"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a SingleProcuration from  Khvan , Valentin , Almaty , Kasachstan / Russland , * 05.02.1960 ."
+                "text": "Cannot parse a Procuration from  Khvan , Valentin , Almaty , Kasachstan / Russland , * 05.02.1960 ., error text was Cannot parse DOB  Almaty  using regex"
             }
         ],
         "flags": [
@@ -66,6 +66,15 @@
                     "name": "Olga"
                 },
                 "text": " Khvan , Olga , Essen , * 10.07.1977 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bottrop",
+                    "lastname": "Guzakowski",
+                    "name": "Vera"
+                },
+                "text": " Guzakowski , Vera , Bottrop ."
             }
         ]
     }

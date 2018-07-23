@@ -33,11 +33,27 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "city": "Wiesbaden",
+                    "dob": "1962-03-05",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Pereira Cardoso",
+                    "name": "Abilio"
+                },
                 "text": " Pereira Cardoso , Abilio , Wiesbaden , * 03.05.1962 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "Heidesheim",
+                    "dob": "1965-02-01",
+                    "lastname": "Mohammed Aschoor",
+                    "name": "Mohammed"
+                },
+                "text": " Mohammed Aschoor , Mohammed , Heidesheim , * 02.01.1965 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "Heidesheim",
                     "dob": "1965-02-01",

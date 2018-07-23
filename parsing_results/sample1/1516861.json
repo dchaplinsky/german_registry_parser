@@ -16,11 +16,10 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1516861&land_abk=nw"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " ley , christian , gelsenkirchen , * 06.02.1968 . geschäftsführer : mauritz , volker , mülheim an der ruhr , * 02.07.1965 , einzelvertretungsberechtigt mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen ."
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  ley , christian , gelsenkirchen , * 06.02.1968 . geschäftsführer : mauritz , volker , mülheim an der ruhr , * 02.07.1965 , einzelvertretungsberechtigt mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen ., error text was no valid patter found, number of chunks: 8"
             }
         ]
     }

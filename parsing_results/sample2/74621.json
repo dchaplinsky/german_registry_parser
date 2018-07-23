@@ -16,10 +16,15 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=74621&land_abk=mv"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Schneider , Helga , Heiddorf ."
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Heiddorf",
+                    "lastname": "Schneider",
+                    "name": "Helga"
+                },
+                "text": " Schneider , Helga , Heiddorf ."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=35194&land_abk=hh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Beck , Catrin , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -50,7 +44,27 @@
         ],
         "officers": [
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1971-07-01",
+                    "lastname": "Beck",
+                    "name": "Catrin geborene Dörre"
+                },
+                "text": " Beck , Catrin geborene Dörre , München , * 07.01.1971"
+            },
+            {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "Lentföhrden",
+                    "dob": "1971-02-05",
+                    "lastname": "Stanke",
+                    "name": "Ralf"
+                },
+                "text": " Stanke , Ralf , Lentföhrden , * 02.05.1971 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "Lentföhrden",
                     "dob": "1971-02-05",

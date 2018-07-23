@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Dr . Shami",
+                    "name": "Salim"
+                },
+                "text": " Dr . Shami , Salim"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Edinburgh / Großbritannien",
+                    "dob": "1964-08-08",
+                    "lastname": "Saga",
+                    "name": "Samir"
+                },
+                "text": " Saga , Samir , * 08.08.1964 , Edinburgh / Großbritannien"
             }
         ]
     }

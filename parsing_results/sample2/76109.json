@@ -59,13 +59,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Bad Liebenwerda OT Zeischa",
+                    "dob": "1971-02-02",
+                    "lastname": "Müller",
+                    "name": "Matthias"
+                },
+                "text": " Müller , Matthias , * 02.02.1971 , Bad Liebenwerda OT Zeischa"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Leipzig",
+                    "dob": "1974-06-28",
+                    "lastname": "Rehhahn",
+                    "name": "Jens"
+                },
+                "text": " Rehhahn , Jens , * 28.06.1974 , Leipzig"
             }
         ]
     }

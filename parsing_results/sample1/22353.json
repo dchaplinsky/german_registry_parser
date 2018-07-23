@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=22353&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Vratislavsky , Jürgen , * 30.12.1934 , Berlin"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -31,8 +25,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Vratislavsky",
+                    "name": "Harald"
+                },
                 "text": " Vratislavsky , Harald"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1934-12-30",
+                    "lastname": "Vratislavsky",
+                    "name": "Jürgen"
+                },
+                "text": " Vratislavsky , Jürgen , * 30.12.1934 , Berlin"
             }
         ]
     }

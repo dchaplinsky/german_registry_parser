@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=72923&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Meyn , Andreas , * 04.04.1957 , Kappeln"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -39,8 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Bauer",
+                    "name": "Ingmar"
+                },
                 "text": " Bauer , Ingmar"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Kappeln",
+                    "dob": "1957-04-04",
+                    "lastname": "Meyn",
+                    "name": "Andreas"
+                },
+                "text": " Meyn , Andreas , * 04.04.1957 , Kappeln"
             }
         ]
     }

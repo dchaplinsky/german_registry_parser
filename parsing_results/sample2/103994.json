@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=103994&land_abk=nw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr . Brümmer , Detlef , Jurist , Düsseldorf ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "lastname": "Dr . Brümmer",
+                    "name": "Detlef",
+                    "position": "Jurist"
+                },
+                "text": " Dr . Brümmer , Detlef , Jurist , Düsseldorf ."
             }
         ]
     }

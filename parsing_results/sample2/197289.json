@@ -33,7 +33,7 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Manfred - von - Richthofen - Str ."
             },
             {
                 "label": "misc",
@@ -43,8 +43,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1962-12-16",
+                    "lastname": "Ercivan",
+                    "name": "Erdogan"
+                },
+                "text": " Ercivan , Erdogan , * 16.12.1962 , Berlin"
             }
         ]
     }

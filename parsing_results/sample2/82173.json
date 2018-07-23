@@ -16,13 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=82173&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Haack , Volker , Diplom - Sozialarbeiter , Gladbeck ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Gladbeck",
+                    "lastname": "Haack",
+                    "name": "Volker",
+                    "position": "Diplom - Sozialarbeiter"
+                },
+                "text": " Haack , Volker , Diplom - Sozialarbeiter , Gladbeck ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

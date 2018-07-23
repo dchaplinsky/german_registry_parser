@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=56229&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Huß , Max - Lennard , * 05.11.1985 , Neumünster"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a SingleProcuration from  Huß , Max - Michael , * 07.08.1955 , Neumünster ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -45,8 +35,41 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "lastname": "Huß",
+                    "name": "Max Michael"
+                },
                 "text": " Huß , Max Michael ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Neumünster",
+                    "dob": "1985-05-11",
+                    "lastname": "Huß",
+                    "name": "Max - Lennard"
+                },
+                "text": " Huß , Max - Lennard , * 05.11.1985 , Neumünster"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Neumünster",
+                    "dob": "1955-07-08",
+                    "lastname": "Huß",
+                    "name": "Max - Michael"
+                },
+                "text": " Huß , Max - Michael , * 07.08.1955 , Neumünster ."
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Neumünster",
+                    "dob": "1955-07-08",
+                    "lastname": "Huß",
+                    "name": "Max - Michael"
+                },
+                "text": " Huß , Max - Michael , * 07.08.1955 , Neumünster ."
             }
         ]
     }

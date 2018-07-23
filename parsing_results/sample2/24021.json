@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=24021&land_abk=th"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Schütze , Gudrun , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -40,6 +34,19 @@
             {
                 "label": "address",
                 "text": " Hauptstraße 77 , 99955 Kutzleben ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Kutzleben",
+                    "dob": "1958-07-13",
+                    "flag": "sole representation",
+                    "lastname": "Schütze",
+                    "name": "Gudrun geborene Schuchardt"
+                },
+                "text": " Schütze , Gudrun geborene Schuchardt , Kutzleben , * 13.07.1958 , einzelvertretungsberechtigt"
             }
         ]
     }

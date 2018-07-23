@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=96044&land_abk=sh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Dipl . - Ing ., error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Dipl . - Kfm ., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -49,24 +59,18 @@
         "labels": [
             {
                 "label": "address",
-                "text": ""
+                "text": " Meeschendorf 80 , 23769 Fehmarn Gegenstand : Gegenstand des Unternehmens ist die Vermietung und Verwaltung von eigenen Immobilien ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Fehmarn",
+                    "lastname": "Hegerfeld",
+                    "name": "Adolf"
+                },
+                "text": " Hegerfeld , Adolf , Fehmarn"
             }
         ]
     }

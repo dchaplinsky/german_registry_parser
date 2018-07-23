@@ -16,11 +16,10 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=20&land_abk=br"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Rumpke , Werner , Geschäftsführer : Kühn , Sebastian , * 17.09.1974 , Velten , mit der Befugnis die Gesellschaft mit einem anderen Geschäftsführer oder einem Prokuristen zu vertreten ."
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rumpke , Werner , Geschäftsführer : Kühn , Sebastian , * 17.09.1974 , Velten , mit der Befugnis die Gesellschaft mit einem anderen Geschäftsführer oder einem Prokuristen zu vertreten ., error text was no valid patter found, number of chunks: 7"
             }
         ]
     }

@@ -41,14 +41,19 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Tiedenkamp 16 , 24558 Henstedt - Ulzburg Gegenstand : Handel mit Büroeinrichtung aller Art Kapital : 25.000 EUR Vertretungsregelung : Die Gesellschaft hat einen oder mehrere Geschäftsführer ."
+                "text": " Tiedenkamp 16 , 24558 Henstedt - Ulzburg Gegenstand : Handel mit Büroeinrichtung aller Art Kapital : 000 EUR Vertretungsregelung : Die Gesellschaft hat einen oder mehrere Geschäftsführer ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Norderstedt",
+                    "dob": "1956-11-15",
+                    "lastname": "Beuthner",
+                    "name": "Maria geborene Lepiesova"
+                },
+                "text": " Beuthner , Maria geborene Lepiesova , * 15.11.1956 , Norderstedt"
             }
         ]
     }

@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=646720&land_abk=bw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Bogdanov , Olga , geb ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Baden - Baden",
+                    "dob": "1972-05-28",
+                    "lastname": "Bogdanov",
+                    "name": "Olga geborene Repina"
+                },
+                "text": " Bogdanov , Olga geborene Repina , Baden - Baden , * 28.05.1972 ."
             }
         ]
     }

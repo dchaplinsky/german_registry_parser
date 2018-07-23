@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=63027&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Martin , Kerstin Pia , geb ."
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Rehkopf , Christian , * 13.04.1969 , Beelitz"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -48,6 +38,28 @@
             {
                 "label": "address",
                 "text": " Falkenweg 10 , 14552 Michendorf OT Michendorf ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Michendorf",
+                    "dob": "1959-07-06",
+                    "lastname": "Martin",
+                    "name": "Kerstin Pia geborene Weiß"
+                },
+                "text": " Martin , Kerstin Pia geborene Weiß , * 07.06.1959 , Michendorf"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Beelitz",
+                    "dob": "1969-04-13",
+                    "lastname": "Rehkopf",
+                    "name": "Christian"
+                },
+                "text": " Rehkopf , Christian , * 13.04.1969 , Beelitz"
             }
         ]
     }

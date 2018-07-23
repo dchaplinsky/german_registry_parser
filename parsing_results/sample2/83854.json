@@ -31,13 +31,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Loh",
+                    "name": "Wolfgang"
+                },
+                "text": " Loh , Wolfgang"
             },
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Lübeck Rechtsverhaeltnis : Durch Beschluss der Gesellschafterversammlung vom 03.09.2010 ist die Gesellschaft zum 30.09.2010 aufgelöst",
+                    "dob": "1962-07-23",
+                    "lastname": "Loh",
+                    "name": "Wolfgang"
+                },
+                "text": " Loh , Wolfgang , * 23.07.1962 , Lübeck Rechtsverhaeltnis : Durch Beschluss der Gesellschafterversammlung vom 03.09.2010 ist die Gesellschaft zum 30.09.2010 aufgelöst .."
             }
         ]
     }

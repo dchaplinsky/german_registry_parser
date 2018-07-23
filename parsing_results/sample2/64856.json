@@ -33,19 +33,27 @@
         "labels": [
             {
                 "label": "misc",
-                "text": " 25.600 EUR Nicht mehr Liquidator :"
+                "text": " 600 EUR Nicht mehr Liquidator : Fritz , Gyula"
             }
         ],
         "officers": [
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Fritz",
+                    "name": "Gyula"
+                },
+                "text": " Fritz , Gyula"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1948-10-22",
+                    "lastname": "Krug",
+                    "name": "Heinz Jürgen"
+                },
+                "text": " Krug , Heinz Jürgen , * 22.10.1948 , Berlin"
             }
         ]
     }

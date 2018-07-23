@@ -29,23 +29,39 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Bojens",
+                    "name": "Holger"
+                },
+                "text": " Bojens , Holger"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Bojens",
+                    "name": "Hannelore"
+                },
+                "text": " Bojens , Hannelore"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Lübeck",
+                    "dob": "1980-06-05",
+                    "lastname": "Bojens",
+                    "name": "Florian"
+                },
+                "text": " Bojens , Florian , * 06.05.1980 , Lübeck"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Offenbach a . M",
+                    "dob": "1976-07-19",
+                    "lastname": "Lütgens",
+                    "name": "Marcus"
+                },
+                "text": " Lütgens , Marcus , * 19.07.1976 , Offenbach a . M ."
             }
         ]
     }

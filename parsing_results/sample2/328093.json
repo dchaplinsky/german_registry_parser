@@ -57,19 +57,29 @@
             },
             {
                 "label": "misc",
-                "text": " 25.000,00 EUR"
+                "text": " 000,00 EUR"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1987-01-03",
+                    "lastname": "Klenk",
+                    "name": "Boris"
+                },
+                "text": " Klenk , Boris , * 01.03.1987 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1966-06-05",
+                    "lastname": "Liebich",
+                    "name": "Steffen"
+                },
+                "text": " Liebich , Steffen , * 06.05.1966 , Berlin"
             }
         ]
     }

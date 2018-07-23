@@ -31,13 +31,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "lastname": "Körber",
+                    "name": "Robert"
+                },
+                "text": " Körber , Robert"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 5 ."
+                "payload": {
+                    "city": "Wiesenburg / Mark",
+                    "dob": "1965-11-12",
+                    "lastname": "Hammerstädt",
+                    "name": "Wolfgang Edgar Heinz"
+                },
+                "text": " Hammerstädt , Wolfgang Edgar Heinz , * 11.12.1965 , Wiesenburg / Mark"
             }
         ]
     }

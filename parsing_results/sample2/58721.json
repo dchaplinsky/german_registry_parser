@@ -29,11 +29,23 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "company_name": " WINIX Beteiligungsgesellschaft mbH , Hamburg ( Hamburg HRB 106102 ) ."
+                },
                 "text": " WINIX Beteiligungsgesellschaft mbH , Hamburg ( Hamburg HRB 106102 ) ."
             },
             {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1949-11-23",
+                    "lastname": "Nix",
+                    "name": "Sibylle"
+                },
+                "text": " Nix , Sibylle , Hamburg , * 23.11.1949 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1949-11-23",

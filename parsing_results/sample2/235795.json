@@ -16,20 +16,32 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=235795&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Drescher , Natalie , Steuerfachgehilfin , München ."
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Mallasch - Drescher , Silvia , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
                 "text": "Die Gesellschaft ist aufgelöst ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "lastname": "Drescher",
+                    "name": "Natalie",
+                    "position": "Steuerfachgehilfin"
+                },
+                "text": " Drescher , Natalie , Steuerfachgehilfin , München ."
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "München",
+                    "dob": "1944-01-29",
+                    "lastname": "Mallasch - Drescher",
+                    "name": "Silvia geborene Mallasch"
+                },
+                "text": " Mallasch - Drescher , Silvia geborene Mallasch , München , * 29.01.1944 ."
             }
         ]
     }

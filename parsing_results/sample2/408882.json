@@ -39,13 +39,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Avraham",
+                    "name": "Doron"
+                },
+                "text": " Avraham , Doron"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1955-09-15",
+                    "lastname": "Eliad",
+                    "name": "Ronen"
+                },
+                "text": " Eliad , Ronen , * 15.09.1955 , Berlin"
             }
         ]
     }

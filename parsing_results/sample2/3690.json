@@ -16,13 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=3690&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Bringmann , Bernd , kaufmännischer Angestellter , Solingen ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Solingen",
+                    "lastname": "Bringmann",
+                    "name": "Bernd",
+                    "position": "kaufmännischer Angestellter"
+                },
+                "text": " Bringmann , Bernd , kaufmännischer Angestellter , Solingen ."
+            },
             {
                 "class": "CommonProcuration",
                 "payload": {

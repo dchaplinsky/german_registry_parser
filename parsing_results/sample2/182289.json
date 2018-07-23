@@ -33,18 +33,23 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " c / o Network Corporate Finance GmbH & Co ."
             },
             {
                 "label": "misc",
-                "text": " 25.000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " 000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "München",
+                    "dob": "1965-11-30",
+                    "lastname": "Amann",
+                    "name": "Thorsten Karl"
+                },
+                "text": " Amann , Thorsten Karl , * 30.11.1965 , München"
             }
         ]
     }

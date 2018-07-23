@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=59318&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Aurich , Elisabeth , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -38,6 +32,19 @@
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
                 "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Krailling",
+                    "dob": "1948-11-05",
+                    "flag": "sole representation",
+                    "lastname": "Aurich",
+                    "name": "Elisabeth geborene Zwick"
+                },
+                "text": " Aurich , Elisabeth geborene Zwick , Krailling , * 11.05.1948 , einzelvertretungsberechtigt"
             }
         ]
     }

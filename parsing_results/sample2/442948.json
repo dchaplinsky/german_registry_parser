@@ -16,10 +16,15 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=442948&land_abk=nw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Noller , Tassilo , Leonberg ."
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Leonberg",
+                    "lastname": "Noller",
+                    "name": "Tassilo"
+                },
+                "text": " Noller , Tassilo , Leonberg ."
             }
         ]
     }

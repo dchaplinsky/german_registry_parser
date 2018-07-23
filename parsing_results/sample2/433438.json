@@ -39,8 +39,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1984-01-29",
+                    "lastname": "Husic",
+                    "name": "Rifet"
+                },
+                "text": " Husic , Rifet , * 29.01.1984 , Berlin"
             }
         ]
     }

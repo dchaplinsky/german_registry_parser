@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=583440&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Mitterer , Martin , Orthopädieschuhmachermeister , Tegernsee ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
@@ -29,6 +23,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Tegernsee",
+                    "lastname": "Mitterer",
+                    "name": "Martin",
+                    "position": "Orthopädieschuhmachermeister"
+                },
+                "text": " Mitterer , Martin , Orthopädieschuhmachermeister , Tegernsee ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

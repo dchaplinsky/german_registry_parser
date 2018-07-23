@@ -33,8 +33,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1979-08-31",
+                    "lastname": "Förster",
+                    "name": "Mirko"
+                },
+                "text": " Förster , Mirko , * 31.08.1979 , Berlin"
             }
         ]
     }

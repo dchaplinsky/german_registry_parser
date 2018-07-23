@@ -41,8 +41,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1964-12-11",
+                    "lastname": "Licht",
+                    "name": "Stefan"
+                },
+                "text": " Licht , Stefan , * 12.11.1964 , Bremen"
             }
         ]
     }

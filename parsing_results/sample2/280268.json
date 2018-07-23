@@ -65,19 +65,29 @@
             },
             {
                 "label": "misc",
-                "text": " 25.000,00 EUR"
+                "text": " 000,00 EUR"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1977-09-17",
+                    "lastname": "Wahedi Yeganeh",
+                    "name": "Arash"
+                },
+                "text": " Wahedi Yeganeh , Arash , * 17.09.1977 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Schortens",
+                    "dob": "1942-11-28",
+                    "lastname": "Welke",
+                    "name": "Lothar"
+                },
+                "text": " Welke , Lothar , * 28.11.1942 , Schortens"
             }
         ]
     }

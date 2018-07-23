@@ -16,13 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=21824&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr . Moser , Dieter , Geschäftsführer , Oberderdingen ."
-            }
-        ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Oberderdingen",
+                    "lastname": "Dr . Moser",
+                    "name": "Dieter",
+                    "position": "Geschäftsführer"
+                },
+                "text": " Dr . Moser , Dieter , Geschäftsführer , Oberderdingen ."
+            },
             {
                 "class": "ProcurationCancelled",
                 "payload": {

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=178055&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Grall , Karl , Kaufmann , Mainz ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Single procuration",
@@ -38,6 +32,26 @@
                     "name": "Sandra"
                 },
                 "text": " Jung , Sandra , Mainz , * 07.02.1967 ."
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Mainz",
+                    "dob": "1967-07-02",
+                    "lastname": "Jung",
+                    "name": "Sandra"
+                },
+                "text": " Jung , Sandra , Mainz , * 07.02.1967 ."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Mainz",
+                    "lastname": "Grall",
+                    "name": "Karl",
+                    "position": "Kaufmann"
+                },
+                "text": " Grall , Karl , Kaufmann , Mainz ."
             }
         ]
     }

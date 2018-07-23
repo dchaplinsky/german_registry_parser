@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=374617&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Stuck , Rolf , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
@@ -29,6 +23,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Ludwigshafen",
+                    "dob": "1956-02-29",
+                    "lastname": "Stuck",
+                    "name": "Rolf geborene Ramminger"
+                },
+                "text": " Stuck , Rolf geborene Ramminger , Ludwigshafen , * 29.02.1956 ."
+            },
             {
                 "class": "Liquidator",
                 "payload": {

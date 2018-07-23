@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=82743&land_abk=he"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Wiegand , Sabine , geb ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Rasdorf",
+                    "dob": "1960-03-04",
+                    "lastname": "Wiegand",
+                    "name": "Sabine geborene Becker"
+                },
+                "text": " Wiegand , Sabine geborene Becker , Rasdorf , * 03.04.1960 ."
             }
         ]
     }

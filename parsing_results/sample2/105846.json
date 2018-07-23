@@ -33,7 +33,7 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Joachimstaler Straße 15 , 10719 Berlin Gegenstand : Die Internetrecherche ."
             },
             {
                 "label": "misc",
@@ -43,8 +43,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1962-11-15",
+                    "lastname": "Dreeke",
+                    "name": "Rainer Günter"
+                },
+                "text": " Dreeke , Rainer Günter , * 15.11.1962 , Berlin"
             }
         ]
     }

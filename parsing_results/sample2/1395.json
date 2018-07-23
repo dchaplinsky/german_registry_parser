@@ -16,14 +16,25 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1395&land_abk=nw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Kohlhas , Irmtraut , Siegen ."
+                "class": "Owner",
+                "payload": {
+                    "city": "Siegen",
+                    "lastname": "Kohlhas",
+                    "name": "Irmtraut"
+                },
+                "text": " Kohlhas , Irmtraut , Siegen ."
             },
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Gent , Brigitte , geb ."
+                "class": "Owner",
+                "payload": {
+                    "city": "Erndtebrück",
+                    "dob": "1956-12-11",
+                    "lastname": "Gent",
+                    "name": "Brigitte geborene Treude"
+                },
+                "text": " Gent , Brigitte geborene Treude , Erndtebrück , * 12.11.1956 ."
             }
         ]
     }

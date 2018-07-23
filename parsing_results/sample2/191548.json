@@ -45,18 +45,23 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Kronenstraße 73 / 74 , 10117 Berlin Gegenstand : Die Verwaltung eigenen Vermögens ."
             },
             {
                 "label": "misc",
-                "text": " 25.000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " 000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1970-01-27",
+                    "lastname": "Zander",
+                    "name": "Kerstin"
+                },
+                "text": " Zander , Kerstin , * 27.01.1970 , Berlin"
             }
         ]
     }

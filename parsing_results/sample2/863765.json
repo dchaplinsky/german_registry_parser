@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=863765&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Verwaltungsgesellschaft des Hotels Bohne Hotel & Restaurant GmbH , Rahden ( Bad Oeynhausen HRB 10006 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
@@ -30,8 +24,17 @@
         ],
         "officers": [
             {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Verwaltungsgesellschaft des Hotels Bohne Hotel & Restaurant GmbH , Rahden ( Bad Oeynhausen HRB 10006 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " Verwaltungsgesellschaft des Hotels Bohne Hotel & Restaurant GmbH , Rahden ( Bad Oeynhausen HRB 10006 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+            },
+            {
                 "class": "Liquidator",
-                "payload": {},
+                "payload": {
+                    "company_name": " Verwaltungsgesellschaft des Hotels Bohne Hotel & Restaurant GmbH , Rahden ( Amtsgericht Bad Oeynhausen HRB 10006 ) ."
+                },
                 "text": " Verwaltungsgesellschaft des Hotels Bohne Hotel & Restaurant GmbH , Rahden ( Amtsgericht Bad Oeynhausen HRB 10006 ) ."
             },
             {

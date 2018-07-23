@@ -16,16 +16,23 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=147315&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Nowak , Inga , * 07.04.1966 , Schwentinental"
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Schwentinental",
+                    "dob": "1966-07-04",
+                    "lastname": "Nowak",
+                    "name": "Inga"
+                },
+                "text": " Nowak , Inga , * 07.04.1966 , Schwentinental"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "Schulz",
+                    "name": "Markus"
+                },
                 "text": " Schulz , Markus"
             }
         ]

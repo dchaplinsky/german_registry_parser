@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=52071&land_abk=th"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Dipl . - Ing ., error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ProcurationCancelled from  Dipl . - Ing ., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -33,16 +43,6 @@
                     "name": "Carl Johan Marcus"
                 },
                 "text": " Johansson , Carl Johan Marcus , Weimar , * 17.11.1970 , einzelvertretungsberechtigt"
-            },
-            {
-                "class": "ProcurationCancelled",
-                "payload": {},
-                "text": " Dipl . - Ing ."
-            },
-            {
-                "class": "ProcurationCancelled",
-                "payload": {},
-                "text": " Dipl . - Ing ."
             }
         ]
     }

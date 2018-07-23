@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=211119&land_abk=by"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Benedict , Eric , Rhys , London , * 04.09.1960 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Rhys  using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -24,13 +30,6 @@
             {
                 "flag": "ignore_for_now",
                 "text": "Die Gesellschaft ist aufgelöst ."
-            }
-        ],
-        "officers": [
-            {
-                "class": "Liquidator",
-                "payload": {},
-                "text": " Benedict , Eric , Rhys , London , * 04.09.1960 , einzelvertretungsberechtigt"
             }
         ]
     }

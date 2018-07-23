@@ -33,23 +33,31 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Finowstr ."
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Finowstr ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Strand",
+                    "name": "Jesper Ole Schougaard"
+                },
+                "text": " Strand , Jesper Ole Schougaard"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1955-04-09",
+                    "lastname": "Balle",
+                    "name": "Jan Lykke"
+                },
+                "text": " Balle , Jan Lykke , * 04.09.1955 , Berlin"
             }
         ]
     }

@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Tasiaux",
+                    "name": "Luc"
+                },
+                "text": " Tasiaux , Luc"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Eisenhüttenstadt",
+                    "dob": "1964-01-19",
+                    "lastname": "Keller",
+                    "name": "Ralf"
+                },
+                "text": " Keller , Ralf , * 19.01.1964 , Eisenhüttenstadt"
             }
         ]
     }

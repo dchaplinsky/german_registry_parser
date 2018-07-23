@@ -25,11 +25,24 @@
         "officers": [
             {
                 "class": "ProcurationCancelled",
-                "payload": {},
+                "payload": {
+                    "lastname": "Supperl",
+                    "name": "Frank"
+                },
                 "text": " Supperl , Frank ."
             },
             {
                 "class": "SingleProcuration",
+                "payload": {
+                    "city": "Frechen",
+                    "dob": "1970-12-11",
+                    "lastname": "Borner",
+                    "name": "Volker Jürgen"
+                },
+                "text": " Borner , Volker Jürgen , Frechen , * 12.11.1970 ."
+            },
+            {
+                "class": "Procuration",
                 "payload": {
                     "city": "Frechen",
                     "dob": "1970-12-11",

@@ -41,14 +41,19 @@
             },
             {
                 "label": "misc",
-                "text": " 5.000,00 EUR"
+                "text": " 000,00 EUR"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1980-11-26",
+                    "lastname": "Abdel - Halim",
+                    "name": "Hazim"
+                },
+                "text": " Abdel - Halim , Hazim , * 26.11.1980 , Berlin"
             }
         ]
     }

@@ -25,13 +25,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Canpolat",
+                    "name": "Suphi"
+                },
+                "text": " Canpolat , Suphi"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Salzburg / Österreich",
+                    "dob": "1968-07-18",
+                    "lastname": "Suarez",
+                    "name": "Carlos"
+                },
+                "text": " Suarez , Carlos , * 18.07.1968 , Salzburg / Österreich"
             }
         ]
     }

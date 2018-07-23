@@ -35,18 +35,31 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "London / Vereinigtes Königreich",
+                    "dob": "1978-06-08",
+                    "lastname": "Bruce",
+                    "name": "Robert Graham"
+                },
+                "text": " Bruce , Robert Graham , * 06.08.1978 , London / Vereinigtes Königreich"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 5 ."
+                "payload": {
+                    "city": "London / Vereinigtes Königreich",
+                    "dob": "1978-07-12",
+                    "lastname": "Stavrakos Stevenson",
+                    "name": "Alexander"
+                },
+                "text": " Stavrakos Stevenson , Alexander , * 07.12.1978 , London / Vereinigtes Königreich"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "lastname": "Hirschberg",
+                    "name": "Dörte"
+                },
+                "text": " Hirschberg , Dörte"
             }
         ]
     }

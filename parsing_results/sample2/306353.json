@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=306353&land_abk=bw"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Bernhardt , Thomas , Tervuren , Moorsel ( Belgien ) , * 28.06.1969 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ., error text was no valid patter found, number of chunks: 7"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -30,13 +36,6 @@
             {
                 "label": "address",
                 "text": " Mühlhaldenweg 95 , 73207 Plochingen ."
-            }
-        ],
-        "officers": [
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Bernhardt , Thomas , Tervuren , Moorsel ( Belgien ) , * 28.06.1969 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

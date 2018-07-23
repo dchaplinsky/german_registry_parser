@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=39187&land_abk=hh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Servo , Andrea , Front , Italien , * 05.12.1967 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Front  using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "Exclusive power of representation can be granted.",
@@ -27,11 +33,6 @@
             }
         ],
         "officers": [
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Servo , Andrea , Front , Italien , * 05.12.1967 , einzelvertretungsberechtigt"
-            },
             {
                 "class": "ManagingDirector",
                 "payload": {

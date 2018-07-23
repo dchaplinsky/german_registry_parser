@@ -16,16 +16,22 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=70938&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Grell , Frank , * 04.10.1965 , Scharstorf ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
                 "text": " Bahnhofstraße 17 , 24211 Preetz ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Scharstorf",
+                    "dob": "1965-04-10",
+                    "lastname": "Grell",
+                    "name": "Frank"
+                },
+                "text": " Grell , Frank , * 04.10.1965 , Scharstorf ."
             }
         ]
     }

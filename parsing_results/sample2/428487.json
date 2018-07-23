@@ -16,16 +16,22 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=428487&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Global Group for Management & Trade , Inc . , Aloha , Oregon / USA ( OREGON SECRETARY OF STATE Corporation Division Business Registry Nbr 323811-96 ) ."
-            }
-        ],
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "city": "Oregon / USA ( OREGON SECRETARY OF STATE Corporation Division Business Registry Nbr 323811-96 )",
+                    "lastname": "Global Group for Management & Trade",
+                    "name": "Inc",
+                    "position": "Aloha"
+                },
+                "text": " Global Group for Management & Trade , Inc . , Aloha , Oregon / USA ( OREGON SECRETARY OF STATE Corporation Division Business Registry Nbr 323811-96 ) ."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Inncona Geschäftsführungs GmbH , Enger ( AG Bad Oeynhausen HRB 6120 ) ."
+                },
                 "text": " Inncona Geschäftsführungs GmbH , Enger ( AG Bad Oeynhausen HRB 6120 ) ."
             }
         ]

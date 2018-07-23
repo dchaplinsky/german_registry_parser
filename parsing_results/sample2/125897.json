@@ -33,23 +33,31 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : c / o Beate U . Casati , Liebermannstr ."
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " c / o Beate U . Casati , Liebermannstr ."
             }
         ],
         "officers": [
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Lehmann - Andres",
+                    "name": "Karl - Heinz"
+                },
+                "text": " Lehmann - Andres , Karl - Heinz"
             },
             {
                 "class": "Liquidator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1938-08-19",
+                    "lastname": "Casati",
+                    "name": "Beate Ursula"
+                },
+                "text": " Casati , Beate Ursula , * 19.08.1938 , Hamburg"
             }
         ]
     }

@@ -63,13 +63,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1974-08-29",
+                    "lastname": "Bauer",
+                    "name": "Frank Stephan"
+                },
+                "text": " Bauer , Frank Stephan , * 29.08.1974 , Bremen"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1980-07-08",
+                    "lastname": "Demer",
+                    "name": "Carmen"
+                },
+                "text": " Demer , Carmen , * 07.08.1980 , Bremen"
             }
         ]
     }

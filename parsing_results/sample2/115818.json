@@ -19,14 +19,25 @@
         "labels": [
             {
                 "label": "address",
-                "text": ""
+                "text": " Hennigsdorfer Straße 159 / 163 , 13503 Berlin Prokura : Nicht mehr Prokurist : Albrecht , Günter"
             }
         ],
         "officers": [
             {
                 "class": "NotAProcurator",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Albrecht",
+                    "name": "Günter"
+                },
+                "text": " Albrecht , Günter"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "lastname": "Nicht mehr Prokurist : Albrecht",
+                    "name": "Günter"
+                },
+                "text": " Nicht mehr Prokurist : Albrecht , Günter"
             }
         ]
     }

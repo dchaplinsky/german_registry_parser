@@ -39,13 +39,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1956-12-26",
+                    "lastname": "Scholz",
+                    "name": "Hans - Peter"
+                },
+                "text": " Scholz , Hans - Peter , * 26.12.1956 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Dr . Antonic",
+                    "name": "Bodo Robert Viktor"
+                },
+                "text": " Dr . Antonic , Bodo Robert Viktor"
             }
         ]
     }

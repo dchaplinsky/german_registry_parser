@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=214990&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Färcher , Heribert , Apotheker , Garlsberg ."
-            }
-        ],
         "labels": [
             {
                 "label": "address",
@@ -38,6 +32,16 @@
                     "name": "Karolin"
                 },
                 "text": " Färcher , Karolin , Grünstadt , * 05.03.1989 ."
+            },
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Garlsberg",
+                    "lastname": "Färcher",
+                    "name": "Heribert",
+                    "position": "Apotheker"
+                },
+                "text": " Färcher , Heribert , Apotheker , Garlsberg ."
             }
         ]
     }

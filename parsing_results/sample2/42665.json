@@ -29,13 +29,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Taubitz",
+                    "name": "Stefan"
+                },
+                "text": " Taubitz , Stefan"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1969-06-30",
+                    "lastname": "Seidel",
+                    "name": "Holger"
+                },
+                "text": " Seidel , Holger , * 30.06.1969 , Berlin"
             }
         ]
     }

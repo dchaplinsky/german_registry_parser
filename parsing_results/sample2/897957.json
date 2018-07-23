@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=897957&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Oravec , Lubomir , Reisebürokaufmann , München ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -29,6 +23,16 @@
             }
         ],
         "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "lastname": "Oravec",
+                    "name": "Lubomir",
+                    "position": "Reisebürokaufmann"
+                },
+                "text": " Oravec , Lubomir , Reisebürokaufmann , München ."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {

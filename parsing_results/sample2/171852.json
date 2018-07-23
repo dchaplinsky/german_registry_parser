@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=171852&land_abk=sh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Hansen - Soltau , Claudia , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -40,6 +34,19 @@
             {
                 "label": "address",
                 "text": " Höhenkamp 1 , 22145 Braak ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Braak",
+                    "dob": "1971-03-21",
+                    "flag": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen",
+                    "lastname": "Hansen - Soltau",
+                    "name": "Claudia geborene Hansen"
+                },
+                "text": " Hansen - Soltau , Claudia geborene Hansen , * 21.03.1971 , Braak , mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
             }
         ]
     }

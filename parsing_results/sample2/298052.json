@@ -31,13 +31,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Elias",
+                    "name": "Michael"
+                },
+                "text": " Elias , Michael"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1963-04-28",
+                    "lastname": "Förner",
+                    "name": "Andreas"
+                },
+                "text": " Förner , Andreas , * 28.04.1963 , Berlin"
             }
         ]
     }

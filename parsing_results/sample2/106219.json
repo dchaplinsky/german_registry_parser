@@ -33,7 +33,7 @@
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Dietzgenstraße 56 , 13156 Berlin Gegenstand : Das Halten von Beteiligungen sowie die eigene Vermögensverwaltung ."
             },
             {
                 "label": "misc",
@@ -43,8 +43,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1971-07-06",
+                    "lastname": "Ahrens",
+                    "name": "Lutz"
+                },
+                "text": " Ahrens , Lutz , * 07.06.1971 , Berlin"
             }
         ]
     }

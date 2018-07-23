@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "lastname": "Lopez Häbel",
+                    "name": "Manuel"
+                },
+                "text": " Lopez Häbel , Manuel"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "London",
+                    "dob": "1977-08-30",
+                    "lastname": "Tonoli",
+                    "name": "Jacopo"
+                },
+                "text": " Tonoli , Jacopo , * 30.08.1977 , London"
             }
         ]
     }

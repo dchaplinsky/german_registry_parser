@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=90615&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Schanz , Volker , Apotheker , Waiblingen ."
-            }
-        ],
         "officers": [
             {
                 "class": "Owner",
@@ -32,6 +26,16 @@
                     "name": "Angela"
                 },
                 "text": " Riehle , Angela , Aichwald , * 31.03.1953 ."
+            },
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Waiblingen",
+                    "lastname": "Schanz",
+                    "name": "Volker",
+                    "position": "Apotheker"
+                },
+                "text": " Schanz , Volker , Apotheker , Waiblingen ."
             }
         ]
     }

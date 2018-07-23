@@ -25,8 +25,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "lastname": "Müller",
+                    "name": "Claus"
+                },
+                "text": " Müller , Claus"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Hoppegarten",
+                    "dob": "1966-02-20",
+                    "lastname": "Änderung zu Nr . 1 : Pradel",
+                    "name": "Karina"
+                },
+                "text": " Änderung zu Nr . 1 : Pradel , Karina , * 20.02.1966 , Hoppegarten"
             }
         ]
     }

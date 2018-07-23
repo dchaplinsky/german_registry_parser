@@ -47,8 +47,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1989-04-13",
+                    "lastname": "Cibis",
+                    "name": "Benjamin"
+                },
+                "text": " Cibis , Benjamin , * 13.04.1989 , Berlin"
             }
         ]
     }

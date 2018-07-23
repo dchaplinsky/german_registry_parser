@@ -41,14 +41,19 @@
         "labels": [
             {
                 "label": "misc",
-                "text": " 55.000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein und darf Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abschließen ."
+                "text": " 000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein und darf Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abschließen ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Essen",
+                    "dob": "1968-03-05",
+                    "lastname": "Werner",
+                    "name": "Hans - Jürgen"
+                },
+                "text": " Werner , Hans - Jürgen , * 03.05.1968 , Essen"
             }
         ]
     }

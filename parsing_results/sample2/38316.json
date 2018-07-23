@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=38316&land_abk=br"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Abraham , Christoph , * 11.02.1973 , Potsdam"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several managing directors are appointed, the company is jointly represented by all managing directors.",
@@ -42,6 +36,18 @@
             {
                 "flag": "Company with limited liability .",
                 "text": "Gesellschaft mit beschränkter Haftung ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Potsdam",
+                    "dob": "1973-11-02",
+                    "lastname": "Abraham",
+                    "name": "Christoph"
+                },
+                "text": " Abraham , Christoph , * 11.02.1973 , Potsdam"
             }
         ]
     }

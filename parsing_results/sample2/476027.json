@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=476027&land_abk=be"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Hubert , Dirk , * 26.11.1963 , Berlin"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -40,6 +34,18 @@
             {
                 "label": "WHUT",
                 "text": " Farbmeister Malereibetrieb GmbH , Berlin , Martin - Luther - Straße 64 , 10779 Berlin ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1963-11-26",
+                    "lastname": "Hubert",
+                    "name": "Dirk"
+                },
+                "text": " Hubert , Dirk , * 26.11.1963 , Berlin"
             }
         ]
     }

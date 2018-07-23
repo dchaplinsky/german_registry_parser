@@ -33,13 +33,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 6 ."
+                "payload": {
+                    "city": "Wyk auf Föhr",
+                    "dob": "1968-09-17",
+                    "lastname": "Kuhn",
+                    "name": "Uwe"
+                },
+                "text": " Kuhn , Uwe , * 17.09.1968 , Wyk auf Föhr"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 5 ."
+                "payload": {
+                    "lastname": "Rethwisch",
+                    "name": "Boy Joachim"
+                },
+                "text": " Rethwisch , Boy Joachim"
             }
         ]
     }

@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=301515&land_abk=be"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Sander , Tobias , * 09.03.1981 , Berlin"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Wübbe , Gorden , * 14.06.1979 , Berlin"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -56,6 +46,28 @@
             {
                 "label": "WHUT",
                 "text": " track by track GmbH , Berlin , Schönhauser Allee 48 , 10437 Berlin ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1981-09-03",
+                    "lastname": "Sander",
+                    "name": "Tobias"
+                },
+                "text": " Sander , Tobias , * 09.03.1981 , Berlin"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1979-06-14",
+                    "lastname": "Wübbe",
+                    "name": "Gorden"
+                },
+                "text": " Wübbe , Gorden , * 14.06.1979 , Berlin"
             }
         ]
     }

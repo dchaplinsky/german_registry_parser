@@ -16,17 +16,25 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=30597&land_abk=nw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Ulrich Schmidt , Iserlohn ( Wermingser Straße 54 , 58636 Iserlohn ) ."
+                "class": "Owner",
+                "payload": {
+                    "city": "58636 Iserlohn )",
+                    "lastname": "Ulrich Schmidt",
+                    "name": "Iserlohn ( Wermingser Straße 54"
+                },
+                "text": " Ulrich Schmidt , Iserlohn ( Wermingser Straße 54 , 58636 Iserlohn ) ."
             },
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Schmidt , Ulrich , Iserlohn ."
-            }
-        ],
-        "officers": [
+                "class": "Owner",
+                "payload": {
+                    "city": "Iserlohn",
+                    "lastname": "Schmidt",
+                    "name": "Ulrich"
+                },
+                "text": " Schmidt , Ulrich , Iserlohn ."
+            },
             {
                 "class": "Owner",
                 "payload": {

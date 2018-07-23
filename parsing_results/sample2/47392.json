@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=47392&land_abk=sh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Evers , Hans - Jürgen , * 19.02.1942 , Kattendorf , Geschäftsführer : Wrigth , John Glen , * 01.05.1955 , Quickborn , mit der Befugnis die Gesellschaft allein zu vertreten und Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen ., error text was no valid patter found, number of chunks: 9"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -34,18 +40,6 @@
             {
                 "label": "address",
                 "text": " Himmelmoorchaussee 39 , 25451 Quickborn , Gegenstand : Ingenieur - und Beratungsleistungen für den Schiffbau und alle artverwandten Tätigkeiten ."
-            }
-        ],
-        "officers": [
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
             }
         ]
     }

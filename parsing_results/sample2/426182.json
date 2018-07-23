@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=426182&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Glöckler , Evelyne , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -32,6 +26,18 @@
             {
                 "label": "address",
                 "text": " Riegeler Straße 12 , 79331 Teningen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Freiburg im Breisgau",
+                    "dob": "1973-05-30",
+                    "lastname": "Glöckler",
+                    "name": "Evelyne geborene Dreher"
+                },
+                "text": " Glöckler , Evelyne geborene Dreher , Freiburg im Breisgau , * 30.05.1973"
             }
         ]
     }

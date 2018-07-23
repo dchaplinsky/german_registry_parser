@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=40233&land_abk=hh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Nimetoglu , Zülay , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -47,6 +41,16 @@
                     "name": "Oguzhan"
                 },
                 "text": " Nacaroglu , Oguzhan , Hamburg , * 30.08.1971 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Escheburg",
+                    "dob": "1973-05-08",
+                    "lastname": "Nimetoglu",
+                    "name": "Zülay geborene Yaman"
+                },
+                "text": " Nimetoglu , Zülay geborene Yaman , Escheburg , * 05.08.1973 ."
             }
         ]
     }

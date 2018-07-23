@@ -19,18 +19,21 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Boxhagener Str ."
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Boxhagener Str ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Lange",
+                    "name": "Bianka"
+                },
+                "text": " Lange , Bianka ."
             }
         ]
     }

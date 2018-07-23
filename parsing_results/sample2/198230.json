@@ -16,14 +16,26 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=198230&land_abk=bw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Mack - Gutmann , Barbara Christina , geb ."
+                "class": "Owner",
+                "payload": {
+                    "city": "Glottertal",
+                    "dob": "1965-07-21",
+                    "lastname": "Mack - Gutmann",
+                    "name": "Barbara Christina geborene Mack"
+                },
+                "text": " Mack - Gutmann , Barbara Christina geborene Mack , Glottertal , * 21.07.1965 ."
             },
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Mack , Karl , Gastwirt , Glottertal ."
+                "class": "Owner",
+                "payload": {
+                    "city": "Glottertal",
+                    "lastname": "Mack",
+                    "name": "Karl",
+                    "position": "Gastwirt"
+                },
+                "text": " Mack , Karl , Gastwirt , Glottertal ."
             }
         ]
     }

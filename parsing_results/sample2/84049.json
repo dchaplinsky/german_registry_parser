@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=84049&land_abk=st"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Henneicke , Hiltrud , Magdeburg ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -41,12 +35,33 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "city": "Magdeburg",
+                    "lastname": "Henneicke",
+                    "name": "Hiltrud"
+                },
+                "text": " Henneicke , Hiltrud , Magdeburg ."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Magdeburg",
+                    "dob": "1976-01-06",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Henneicke",
+                    "name": "Dirk"
+                },
                 "text": " Henneicke , Dirk , Magdeburg , * 01.06.1976 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             },
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "city": "Magdeburg",
+                    "dob": "1946-10-29",
+                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Henneicke",
+                    "name": "Karl - Heinz"
+                },
                 "text": " Henneicke , Karl - Heinz , Magdeburg , * 29.10.1946 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]

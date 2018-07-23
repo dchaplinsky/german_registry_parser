@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=233555&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Lammers , Hermann , Tischlermeister , Haren / Ems ."
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -37,7 +31,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
+                "payload": {
+                    "city": "Haren / Ems",
+                    "lastname": "Lammers",
+                    "name": "Hermann",
+                    "position": "Tischlermeister"
+                },
+                "text": " Lammers , Hermann , Tischlermeister , Haren / Ems ."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Haren",
+                    "dob": "1972-07-09",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Lammers",
+                    "name": "Jürgen"
+                },
                 "text": " Lammers , Jürgen , Haren , * 07.09.1972 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]

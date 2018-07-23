@@ -39,13 +39,21 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "lastname": "Aslan",
+                    "name": "Ayhan"
+                },
+                "text": " Aslan , Ayhan"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 5 ."
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1989-05-29",
+                    "lastname": "Aslan",
+                    "name": "Volkan"
+                },
+                "text": " Aslan , Volkan , * 29.05.1989 , Berlin"
             }
         ]
     }

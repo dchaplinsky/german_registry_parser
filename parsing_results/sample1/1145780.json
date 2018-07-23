@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1145780&land_abk=by"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  münzinger , hannes , münchen , * 22.07.1981 . vertretungsbefugnis geändert , nun : geschäftsführer : heitzer , felix , münchen , * 04.09.1987 . prokura erloschen : münzinger , hannes , münchen , * 22.07.1981 ., error text was no valid patter found, number of chunks: 11"
+            }
+        ],
         "officers": [
             {
                 "class": "ProcurationCancelled",
@@ -26,11 +32,6 @@
                     "name": "hannes"
                 },
                 "text": " münzinger , hannes , münchen , * 22.07.1981 ."
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " münzinger , hannes , münchen , * 22.07.1981 . vertretungsbefugnis geändert , nun : geschäftsführer : heitzer , felix , münchen , * 04.09.1987 . prokura erloschen : münzinger , hannes , münchen , * 22.07.1981 ."
             }
         ]
     }

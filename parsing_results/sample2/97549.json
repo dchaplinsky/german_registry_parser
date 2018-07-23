@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=97549&land_abk=hh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  neko - stocks Hamburg Gesellschaft für Vermögensanlagenberatung mbH , Hamburg ( AG Hamburg HRB 34202 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -37,8 +31,17 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
+                "payload": {
+                    "company_name": " Inncona Geschäftsführungs GmbH , Enger ( AG Bad Oeynhausen HRB 6120 ) ."
+                },
                 "text": " Inncona Geschäftsführungs GmbH , Enger ( AG Bad Oeynhausen HRB 6120 ) ."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " neko - stocks Hamburg Gesellschaft für Vermögensanlagenberatung mbH , Hamburg ( AG Hamburg HRB 34202 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                },
+                "text": " neko - stocks Hamburg Gesellschaft für Vermögensanlagenberatung mbH , Hamburg ( AG Hamburg HRB 34202 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

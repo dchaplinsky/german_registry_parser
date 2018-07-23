@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=952572&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Roth , Nadja , geb ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -44,6 +38,19 @@
             {
                 "label": "address",
                 "text": " Haimendorfer Straße 18-20 , 90571 Schwaig b . Nürnberg ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Nürnberg",
+                    "dob": "1970-09-28",
+                    "flag": "sole representation",
+                    "lastname": "Roth",
+                    "name": "Nadja geborene Zippmann"
+                },
+                "text": " Roth , Nadja geborene Zippmann , Nürnberg , * 28.09.1970 , einzelvertretungsberechtigt"
             }
         ]
     }

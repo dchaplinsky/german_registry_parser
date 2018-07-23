@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=48315&land_abk=hb"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Gao , Song , * 04.03.1971 , Berlin"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Shen , Weiwei , * 18.11.1985 , Bremen"
-            }
-        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -64,6 +54,28 @@
             {
                 "label": "address",
                 "text": " Merkurstraße 49 , 28197 Bremen ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1971-04-03",
+                    "lastname": "Gao",
+                    "name": "Song"
+                },
+                "text": " Gao , Song , * 04.03.1971 , Berlin"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1985-11-18",
+                    "lastname": "Shen",
+                    "name": "Weiwei"
+                },
+                "text": " Shen , Weiwei , * 18.11.1985 , Bremen"
             }
         ]
     }

@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=572005&land_abk=by"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Strätker , Christine , geb ."
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Dinkelsbühl",
+                    "dob": "1968-06-10",
+                    "lastname": "Strätker",
+                    "name": "Christine geborene Baumann"
+                },
+                "text": " Strätker , Christine geborene Baumann , Dinkelsbühl , * 06.10.1968 ."
             }
         ]
     }

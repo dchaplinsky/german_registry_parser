@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=30048&land_abk=he"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Nishinakamura , Yoichi , Osaka , Japan , * 24.09.1949 , einzelvertretungsberechtigt ., error text was Cannot parse DOB  Osaka  using regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -26,11 +32,6 @@
                     "name": "Masuhiro"
                 },
                 "text": " Yoshitake , Masuhiro , Frankfurt am Main , * 03.02.1959 ."
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Nishinakamura , Yoichi , Osaka , Japan , * 24.09.1949 , einzelvertretungsberechtigt ."
             }
         ]
     }

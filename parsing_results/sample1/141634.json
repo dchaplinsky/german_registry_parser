@@ -45,23 +45,39 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "lastname": "Kettlitz",
+                    "name": "René"
+                },
+                "text": " Kettlitz , René"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "lastname": "Menke",
+                    "name": "Thomas"
+                },
+                "text": " Menke , Thomas"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1971-10-05",
+                    "lastname": "Gringel",
+                    "name": "Andreas"
+                },
+                "text": " Gringel , Andreas , * 10.05.1971 , Hamburg"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1977-10-06",
+                    "lastname": "Podlewski",
+                    "name": "Mario"
+                },
+                "text": " Podlewski , Mario , * 10.06.1977 , Hamburg"
             }
         ]
     }

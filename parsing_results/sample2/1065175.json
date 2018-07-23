@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1065175&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  MILA UG ( haftungsbeschränkt ) , Dortmund ( Amtsgericht Dortmund HRB 26741 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen Rechtsgeschäfte abzuschließen ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -32,6 +26,18 @@
             {
                 "label": "address",
                 "text": " Magdeburger Str ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "im Namen der Gesellschaft mit sich im eigenen Namen Rechtsgeschäfte abzuschließen",
+                    "lastname": "MILA UG ( haftungsbeschränkt )",
+                    "name": "Dortmund ( Amtsgericht Dortmund HRB 26741 )",
+                    "position": "mit der Befugnis - auch für jeden Geschäftsführer -"
+                },
+                "text": " MILA UG ( haftungsbeschränkt ) , Dortmund ( Amtsgericht Dortmund HRB 26741 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen Rechtsgeschäfte abzuschließen ."
             }
         ]
     }

@@ -16,16 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=51782&land_abk=mv"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Hansen , Dirk , Damm ."
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Wartmann , Peter , Krümmel ."
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
@@ -36,6 +26,26 @@
             {
                 "label": "address",
                 "text": " Im Dörp 4 , 17248 Lärz OT Krümmel ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Damm",
+                    "lastname": "Hansen",
+                    "name": "Dirk"
+                },
+                "text": " Hansen , Dirk , Damm ."
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Krümmel",
+                    "lastname": "Wartmann",
+                    "name": "Peter"
+                },
+                "text": " Wartmann , Peter , Krümmel ."
             }
         ]
     }

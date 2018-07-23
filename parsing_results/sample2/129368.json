@@ -31,13 +31,23 @@
         "officers": [
             {
                 "class": "PersonalPartner",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Breitenfelde",
+                    "dob": "1964-06-27",
+                    "lastname": "Siemers",
+                    "name": "Klaus - Peter"
+                },
+                "text": " Siemers , Klaus - Peter , * 27.06.1964 , Breitenfelde"
             },
             {
                 "class": "Owner",
-                "payload": {},
-                "text": " Persönlich haftender Gesellschafter : 1 ."
+                "payload": {
+                    "city": "Breitenfelde",
+                    "dob": "1964-06-27",
+                    "lastname": "Persönlich haftender Gesellschafter : Siemers",
+                    "name": "Klaus - Peter"
+                },
+                "text": " Persönlich haftender Gesellschafter : Siemers , Klaus - Peter , * 27.06.1964 , Breitenfelde"
             }
         ]
     }

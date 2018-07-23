@@ -31,8 +31,13 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 3 ."
+                "payload": {
+                    "city": "Grünwald",
+                    "dob": "1965-07-06",
+                    "lastname": "Schneider",
+                    "name": "Rolf"
+                },
+                "text": " Schneider , Rolf , * 07.06.1965 , Grünwald"
             }
         ]
     }

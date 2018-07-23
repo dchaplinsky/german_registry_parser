@@ -33,18 +33,23 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Cicerostraße 37 , 10709 Berlin Geschäftsführer : Nier , Ulrike , * 13.10.1969 , Berlin"
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Cicerostraße 37 , 10709 Berlin Geschäftsführer : Nier , Ulrike , * 13.10.1969 , Berlin"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1969-10-13",
+                    "lastname": "Nier",
+                    "name": "Ulrike"
+                },
+                "text": " Nier , Ulrike , * 13.10.1969 , Berlin"
             }
         ]
     }

@@ -33,23 +33,31 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift :"
+                "text": " Geschäftsanschrift : Axel - Springer - Str ."
             },
             {
                 "label": "address",
-                "text": ""
+                "text": " Axel - Springer - Str ."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1948-01-10",
+                    "lastname": "Lanz",
+                    "name": "Lothar"
+                },
+                "text": " Lanz , Lothar , * 01.10.1948 , Berlin"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": ""
+                "payload": {
+                    "lastname": "Naumann",
+                    "name": "Steffen"
+                },
+                "text": " Naumann , Steffen ."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=829199&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a SingleProcuration from  Dronne , Olivier , Sulzbach ."
-            }
-        ],
         "flags": [
             {
                 "flag": "Company with limited liability .",
@@ -67,6 +61,15 @@
                     "name": "Marc"
                 },
                 "text": " Achhammer , Marc , München , * 01.06.1968 ."
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Sulzbach",
+                    "lastname": "Dronne",
+                    "name": "Olivier"
+                },
+                "text": " Dronne , Olivier , Sulzbach ."
             }
         ]
     }

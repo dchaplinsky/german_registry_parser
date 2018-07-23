@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=441944&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Heinen , Ralf , Dipl . - Ing . , Hinte ."
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
@@ -43,6 +37,16 @@
                     "name": "Robert"
                 },
                 "text": " Hafemeister , Robert , Berlin , * 03.03.1978 , einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hinte",
+                    "lastname": "Heinen",
+                    "name": "Ralf",
+                    "position": "Dipl . - Ing"
+                },
+                "text": " Heinen , Ralf , Dipl . - Ing . , Hinte ."
             }
         ]
     }

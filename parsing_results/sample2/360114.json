@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=360114&land_abk=nw"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Dipl ., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -26,11 +32,6 @@
                     "name": "Achim"
                 },
                 "text": " Schön , Achim , Schiffdorf , * 05.07.1944 ."
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {},
-                "text": " Dipl ."
             },
             {
                 "class": "CommonProcuration",

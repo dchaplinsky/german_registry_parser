@@ -19,11 +19,11 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Koohestani , Bahman , Palo Alto , Kalifornien ( USA ) , * 30.01.1962"
+                "text": "Cannot parse a ManagingDirector from  Koohestani , Bahman , Palo Alto , Kalifornien ( USA ) , * 30.01.1962, error text was Cannot parse DOB  Palo Alto  using regex"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Regan , Brian , Los Altos , Kalifornien / USA , * 27.07.1971 ."
+                "text": "Cannot parse a ManagingDirector from  Regan , Brian , Los Altos , Kalifornien / USA , * 27.07.1971 ., error text was Cannot parse DOB  Los Altos  using regex"
             }
         ],
         "flags": [

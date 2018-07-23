@@ -53,13 +53,23 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 1 ."
+                "payload": {
+                    "city": "Dagebüll",
+                    "dob": "1970-05-20",
+                    "lastname": "Bethke",
+                    "name": "Christian"
+                },
+                "text": " Bethke , Christian , * 20.05.1970 , Dagebüll"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 2 ."
+                "payload": {
+                    "city": "Dagebüll",
+                    "dob": "1969-03-11",
+                    "lastname": "Erismann",
+                    "name": "Olaf"
+                },
+                "text": " Erismann , Olaf , * 03.11.1969 , Dagebüll"
             }
         ]
     }

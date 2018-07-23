@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=437589&land_abk=be"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Wesemann , Fabian , * 03.06.1986 , Berlin"
-            }
-        ],
         "flags": [
             {
                 "flag": "Exclusive power of representation can be granted.",
@@ -44,6 +38,18 @@
             {
                 "label": "WHUT",
                 "text": " Firma / Name vormals : Mieterhero UG ( haftungsbeschränkt ) , Berlin , c / o PAUAhouse , Urbanstraße 71 , 10967 Berlin ."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1986-03-06",
+                    "lastname": "Wesemann",
+                    "name": "Fabian"
+                },
+                "text": " Wesemann , Fabian , * 03.06.1986 , Berlin"
             }
         ]
     }

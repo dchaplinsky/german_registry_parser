@@ -35,23 +35,39 @@
         "officers": [
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 4 ."
+                "payload": {
+                    "lastname": "Knuvers",
+                    "name": "Henricus Clemens Gertrudis Franciscus"
+                },
+                "text": " Knuvers , Henricus Clemens Gertrudis Franciscus"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 8 ."
+                "payload": {
+                    "lastname": "Rosman",
+                    "name": "Johan Rubrecht"
+                },
+                "text": " Rosman , Johan Rubrecht"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 9 ."
+                "payload": {
+                    "city": "Darmstadt",
+                    "dob": "1973-01-26",
+                    "lastname": "Krumb",
+                    "name": "Christian"
+                },
+                "text": " Krumb , Christian , * 26.01.1973 , Darmstadt"
             },
             {
                 "class": "ManagingDirector",
-                "payload": {},
-                "text": " 10 ."
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dob": "1971-12-19",
+                    "lastname": "Maraffio",
+                    "name": "Gianfranco"
+                },
+                "text": " Maraffio , Gianfranco , * 19.12.1971 , Frankfurt am Main"
             }
         ]
     }
