@@ -154,8 +154,9 @@ if __name__ == "__main__":
                 p_doc = json.loads(l)
                 parsing_result, _ = parse_document(p_doc)
                 notice_id = p_doc["notice_id"]
+                federal_state = p_doc["federal_state"]
 
-                with open(os.path.join(outdir, notice_id + ".json"), "w") as fp:
+                with open(os.path.join(outdir, notice_id + "_" + federal_state + ".json"), "w") as fp:
                     if parsing_result:
                         stats[notice_id].update({k: len(v) for k, v in parsing_result.items()})
                         possible_persons = dob_regex.findall(p_doc["full_text"])
