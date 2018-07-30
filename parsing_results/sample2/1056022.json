@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Dachau",
+                    "dismissed": true,
                     "dob": "1962-08-06",
                     "lastname": "Gabler",
                     "name": "Petra Theresia"
                 },
-                "text": " Gabler , Petra Theresia , Dachau , * 08.06.1962 ."
+                "text": " Gabler, Petra Theresia, Dachau, *08.06.1962."
             },
             {
                 "class": "Liquidator",
@@ -41,7 +42,7 @@
                     "lastname": "Müller",
                     "name": "Sebastian"
                 },
-                "text": " Müller , Sebastian , Dachau , * 19.04.1985 ."
+                "text": " Müller, Sebastian, Dachau, *19.04.1985."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Leipzig",
+                    "dismissed": true,
                     "dob": "1956-06-05",
                     "lastname": "Wagner",
                     "name": "Norbert"
                 },
-                "text": " Wagner , Norbert , Leipzig , * 06.05.1956 ."
+                "text": " Wagner, Norbert, Leipzig, *06.05.1956."
             }
         ]
     }

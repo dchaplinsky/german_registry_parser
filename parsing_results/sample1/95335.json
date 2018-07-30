@@ -18,34 +18,36 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Krefeld",
-                    "lastname": "Dr . von Hofe",
+                    "dismissed": true,
+                    "lastname": "Doctor von Hofe",
                     "name": "Detlef",
-                    "position": "Diplom - Ingenieur"
+                    "position": "Diplom-Ingenieur"
                 },
-                "text": " Dr . von Hofe , Detlef , Diplom - Ingenieur , Krefeld ."
+                "text": " Doctor von Hofe, Detlef, Diplom-Ingenieur, Krefeld."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mönchengladbach",
                     "dob": "1966-12-06",
                     "lastname": "Sieben",
                     "name": "Dirk"
                 },
-                "text": " Sieben , Dirk , Mönchengladbach , * 12.06.1966 ."
+                "text": " Sieben, Dirk, Mönchengladbach, *12.06.1966."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Willich",
+                    "dismissed": true,
                     "dob": "1954-12-18",
                     "lastname": "Kösters",
                     "name": "Berthold"
                 },
-                "text": " Kösters , Berthold , Willich , * 18.12.1954"
+                "text": " Kösters, Berthold, Willich, *18.12.1954"
             },
             {
                 "class": "CommonProcuration",
@@ -53,9 +55,9 @@
                     "city": "Kerken",
                     "dob": "1978-05-01",
                     "lastname": "Hoene",
-                    "name": "Paul - Robert"
+                    "name": "Paul-Robert"
                 },
-                "text": " Hoene , Paul - Robert , Kerken , * 05.01.1978"
+                "text": " Hoene, Paul-Robert, Kerken, *05.01.1978"
             }
         ]
     }

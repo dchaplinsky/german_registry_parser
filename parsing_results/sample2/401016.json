@@ -16,22 +16,29 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=401016&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Meyer , Alfred , Maurer , Flörsheim am Main , * 24.08.1951 ., error text was Cannot parse DOB  Maurer  using regex"
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Untermainstraße 38 , 65439 Flörsheim am Main ."
+                "text": " Untermainstraße 38, 65439 Flörsheim am Main."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Flörsheim am Main",
+                    "dob": "1951-08-24",
+                    "lastname": ": Meyer",
+                    "name": "Alfred",
+                    "position": "Maurer"
+                },
+                "text": ": Meyer, Alfred, Maurer, Flörsheim am Main, *24.08.1951."
             }
         ]
     }

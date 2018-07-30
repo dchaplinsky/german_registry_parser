@@ -19,23 +19,20 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Großrückerswalde",
+                    "dismissed": true,
                     "dob": "1960-02-22",
                     "lastname": "Schreiter",
                     "name": "Andreas"
                 },
-                "text": " Schreiter , Andreas , Großrückerswalde , * 22.02.1960 ."
+                "text": " Schreiter, Andreas, Großrückerswalde, *22.02.1960."
             },
             {
                 "class": "ManagingDirector",
@@ -46,7 +43,7 @@
                     "lastname": "Morgenstern",
                     "name": "Jan"
                 },
-                "text": " Morgenstern , Jan , Marienberg , * 04.08.1970 , einzelvertretungsberechtigt"
+                "text": " Morgenstern, Jan, Marienberg, *04.08.1970, einzelvertretungsberechtigt"
             },
             {
                 "class": "SingleProcuration",
@@ -56,17 +53,7 @@
                     "lastname": "Lange",
                     "name": "Ines"
                 },
-                "text": " Lange , Ines , Wolkenstein , * 01.12.1971 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Wolkenstein",
-                    "dob": "1971-01-12",
-                    "lastname": "Lange",
-                    "name": "Ines"
-                },
-                "text": " Lange , Ines , Wolkenstein , * 01.12.1971 ."
+                "text": " Lange, Ines, Wolkenstein, *01.12.1971."
             }
         ]
     }

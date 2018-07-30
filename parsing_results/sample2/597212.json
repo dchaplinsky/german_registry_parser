@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Merzenich",
+                    "dismissed": true,
                     "dob": "1966-05-29",
                     "lastname": "Säbele",
                     "name": "Wolfgang"
                 },
-                "text": " Säbele , Wolfgang , Merzenich , * 29.05.1966 ."
+                "text": " Säbele, Wolfgang, Merzenich, *29.05.1966."
             }
         ]
     }

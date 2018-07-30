@@ -16,32 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=620755&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
                 "payload": {
-                    "city": "Billigheim - Ingenheim",
+                    "city": "Billigheim-Ingenheim",
                     "dob": "1967-12-29",
                     "lastname": "Holl",
                     "name": "Elke geborene Müller"
                 },
-                "text": " Holl , Elke geborene Müller , Billigheim - Ingenheim , * 29.12.1967 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Billigheim - Ingenheim",
-                    "dob": "1967-12-29",
-                    "lastname": "Holl",
-                    "name": "Elke geborene Müller"
-                },
-                "text": " Holl , Elke geborene Müller , Billigheim - Ingenheim , * 29.12.1967 ."
+                "text": " Holl, Elke geborene Müller, Billigheim-Ingenheim, *29.12.1967."
             }
         ]
     }

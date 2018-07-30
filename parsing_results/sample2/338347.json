@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=338347&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Solingen",
+                    "dismissed": true,
                     "dob": "1949-07-15",
                     "lastname": "Harbecke",
-                    "name": "Hans - Peter"
+                    "name": "Hans-Peter"
                 },
-                "text": " Harbecke , Hans - Peter , Solingen , * 15.07.1949 ."
+                "text": " Harbecke, Hans-Peter, Solingen, *15.07.1949."
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +36,7 @@
                     "lastname": "Litzenburger",
                     "name": "Frank Walter"
                 },
-                "text": " Litzenburger , Frank Walter , Solingen , * 27.09.1963 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Solingen",
-                    "dob": "1963-09-27",
-                    "lastname": "Litzenburger",
-                    "name": "Frank Walter"
-                },
-                "text": " Litzenburger , Frank Walter , Solingen , * 27.09.1963 ."
+                "text": " Litzenburger, Frank Walter, Solingen, *27.09.1963."
             }
         ]
     }

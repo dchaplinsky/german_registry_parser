@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Fritz - Vomfelde - Str ."
+                "text": " Fritz-Vomfelde-Str."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Grasbrunn",
+                    "dismissed": true,
                     "dob": "1968-07-11",
                     "lastname": "Forssman",
                     "name": "Alexander"
                 },
-                "text": " Forssman , Alexander , Grasbrunn , * 07.11.1968 ."
+                "text": " Forssman, Alexander, Grasbrunn, *07.11.1968."
             },
             {
                 "class": "CommonProcuration",
@@ -41,7 +42,7 @@
                     "lastname": "Waida",
                     "name": "Christian"
                 },
-                "text": " Waida , Christian , Grasbrunn , * 19.01.1966 ."
+                "text": " Waida, Christian, Grasbrunn, *19.01.1966."
             }
         ]
     }

@@ -18,59 +18,61 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Donaustraße 2 , 94491 Hengersberg ."
+                "text": " Donaustraße 2, 94491 Hengersberg."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Wels ( Österreich )",
+                    "city": "Wels (Österreich)",
                     "dob": "1970-11-30",
                     "flag": "sole representation",
                     "lastname": "Felbermayr",
                     "name": "Horst"
                 },
-                "text": " Felbermayr , Horst , Wels ( Österreich ) , * 30.11.1970 , einzelvertretungsberechtigt"
+                "text": " Felbermayr, Horst, Wels (Österreich), *30.11.1970, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1970-01-27",
                     "lastname": "Zander",
                     "name": "Kerstin"
                 },
-                "text": " Zander , Kerstin , Berlin , * 27.01.1970 ."
+                "text": " Zander, Kerstin, Berlin, *27.01.1970."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Marzling",
+                    "dismissed": true,
                     "dob": "1971-02-24",
                     "lastname": "Altschaeffl",
                     "name": "Michael"
                 },
-                "text": " Altschaeffl , Michael , Marzling , * 24.02.1971 ."
+                "text": " Altschaeffl, Michael, Marzling, *24.02.1971."
             }
         ]
     }

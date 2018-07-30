@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rhede",
                     "dob": "1972-07-06",
                     "flag": "sole representation",
                     "lastname": "Gast",
-                    "name": "Klaus - Georg"
+                    "name": "Klaus-Georg"
                 },
-                "text": " Gast , Klaus - Georg , Rhede , * 07.06.1972 , einzelvertretungsberechtigt ."
+                "text": " Gast, Klaus-Georg, Rhede, *07.06.1972, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Gründau",
+                    "dismissed": true,
                     "dob": "1952-11-15",
                     "lastname": "Bülte",
                     "name": "Rudolf Ernst"
                 },
-                "text": " Bülte , Rudolf Ernst , Gründau , * 15.11.1952 ."
+                "text": " Bülte, Rudolf Ernst, Gründau, *15.11.1952."
             }
         ]
     }

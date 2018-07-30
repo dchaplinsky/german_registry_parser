@@ -19,17 +19,17 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Alter Postweg 8 , 30916 Isernhagen ."
+                "text": " Alter Postweg 8, 30916 Isernhagen."
             }
         ],
         "officers": [
@@ -38,21 +38,22 @@
                 "payload": {
                     "city": "Isernhagen",
                     "dob": "1967-01-25",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Hein",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": ": Hein",
                     "name": "Karin Katharina"
                 },
-                "text": " Hein , Karin Katharina , Isernhagen , * 25.01.1967 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": ": Hein, Karin Katharina, Isernhagen, *25.01.1967, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Laatzen",
+                    "dismissed": true,
                     "dob": "1967-05-06",
-                    "lastname": "El - Kalagi",
+                    "lastname": "El-Kalagi",
                     "name": "Mona Sarah"
                 },
-                "text": " El - Kalagi , Mona Sarah , Laatzen , * 05.06.1967 ."
+                "text": " El-Kalagi, Mona Sarah, Laatzen, *05.06.1967."
             }
         ]
     }

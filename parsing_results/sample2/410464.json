@@ -19,40 +19,42 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Weinheim",
                     "dob": "1957-01-01",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Kirch",
                     "name": "Karl Gerhard"
                 },
-                "text": " Kirch , Karl Gerhard , Weinheim , * 01.01.1957 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Kirch, Karl Gerhard, Weinheim, *01.01.1957, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Lampertheim",
+                    "dismissed": true,
                     "dob": "1962-03-20",
                     "lastname": "Steffan",
                     "name": "Helmut"
                 },
-                "text": " Steffan , Helmut , Lampertheim , * 20.03.1962 ."
+                "text": " Steffan, Helmut, Lampertheim, *20.03.1962."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Weinheim",
+                    "dismissed": true,
                     "dob": "1957-01-01",
                     "lastname": "Kirch",
                     "name": "Karl Gerhard"
                 },
-                "text": " Kirch , Karl Gerhard , Weinheim , * 01.01.1957 ."
+                "text": " Kirch, Karl Gerhard, Weinheim, *01.01.1957."
             }
         ]
     }

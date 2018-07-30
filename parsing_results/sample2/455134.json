@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Reisholzer Werftstr ."
+                "text": " Reisholzer Werftstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Jüchen",
+                    "dismissed": true,
                     "dob": "1960-08-20",
                     "lastname": "Bolien",
                     "name": "Frank Thomas"
                 },
-                "text": " Bolien , Frank Thomas , Jüchen , * 20.08.1960 ."
+                "text": " Bolien, Frank Thomas, Jüchen, *20.08.1960."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Meerbusch",
                     "dob": "1956-05-03",
                     "lastname": "Gichtbrock",
                     "name": "Ralph"
                 },
-                "text": " Gichtbrock , Ralph , Meerbusch , * 05.03.1956"
+                "text": " Gichtbrock, Ralph, Meerbusch, *05.03.1956"
             },
             {
                 "class": "CommonProcuration",
@@ -51,7 +52,7 @@
                     "lastname": "Weber",
                     "name": "Andreas"
                 },
-                "text": " Weber , Andreas , Ratingen , * 02.06.1967 ."
+                "text": " Weber, Andreas, Ratingen, *02.06.1967."
             }
         ]
     }

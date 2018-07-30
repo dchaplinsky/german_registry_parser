@@ -16,32 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=278430&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
                 "payload": {
-                    "city": "CH - Matran",
+                    "city": "CH-Matran",
                     "dob": "1958-05-14",
                     "lastname": "Tinguely",
                     "name": "Michel"
                 },
-                "text": " Tinguely , Michel , CH - Matran , * 14.05.1958 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "CH - Matran",
-                    "dob": "1958-05-14",
-                    "lastname": "Tinguely",
-                    "name": "Michel"
-                },
-                "text": " Tinguely , Michel , CH - Matran , * 14.05.1958 ."
+                "text": " Tinguely, Michel, CH-Matran, *14.05.1958."
             }
         ]
     }

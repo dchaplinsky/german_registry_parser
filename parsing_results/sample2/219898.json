@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1959-08-02",
-                    "lastname": "Dr . Frick",
+                    "lastname": "Doctor Frick",
                     "name": "Axel"
                 },
-                "text": " Dr . Frick , Axel , Hamburg , * 08.02.1959 ."
+                "text": " Doctor Frick, Axel, Hamburg, *08.02.1959."
             }
         ]
     }

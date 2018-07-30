@@ -19,35 +19,39 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  gr ., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a DismissedManagingDirector from  gr., error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  gr., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Falkenrotter Str ."
+                "text": " Falkenrotter Str."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Ghemme / Italien",
+                    "city": "Ghemme/Italien",
                     "dob": "1955-09-08",
                     "flag": "vertretungsberechtigt gemäß allgemeiner Vertretungsregelung",
                     "lastname": "Giroldi",
                     "name": "Sergio"
                 },
-                "text": " Giroldi , Sergio , Ghemme / Italien , * 09.08.1955 , vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
+                "text": " Giroldi, Sergio, Ghemme/Italien, *09.08.1955, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Friedberg",
                     "dob": "1964-04-25",
@@ -55,7 +59,7 @@
                     "lastname": "Sandmann",
                     "name": "Andreas"
                 },
-                "text": " Sandmann , Andreas , Friedberg , * 25.04.1964 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen ."
+                "text": " Sandmann, Andreas, Friedberg, *25.04.1964, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen."
             },
             {
                 "class": "ManagingDirector",
@@ -65,7 +69,7 @@
                     "lastname": "Wischnewski",
                     "name": "Dirk"
                 },
-                "text": " Wischnewski , Dirk , Langenfeld , * 21.03.1967"
+                "text": " Wischnewski, Dirk, Langenfeld, *21.03.1967"
             }
         ]
     }

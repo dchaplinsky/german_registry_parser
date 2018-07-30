@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Gera",
+                    "dismissed": true,
                     "dob": "1965-12-19",
-                    "lastname": "Dr . Fuchs",
+                    "lastname": "Doctor Fuchs",
                     "name": "Merle"
                 },
-                "text": " Dr . Fuchs , Merle , Gera , * 19.12.1965 ."
+                "text": " Doctor Fuchs, Merle, Gera, *19.12.1965."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Jena",
                     "dob": "1975-03-24",
                     "lastname": "Hortig",
                     "name": "Andrea"
                 },
-                "text": " Hortig , Andrea , Jena , * 24.03.1975 ."
+                "text": " Hortig, Andrea, Jena, *24.03.1975."
             }
         ]
     }

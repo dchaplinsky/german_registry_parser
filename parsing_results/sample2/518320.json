@@ -19,23 +19,24 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Ammersbek",
+                    "dismissed": true,
                     "dob": "1964-11-14",
                     "lastname": "Berendsen",
                     "name": "Stephan"
                 },
-                "text": " Berendsen , Stephan , Ammersbek , * 14.11.1964"
+                "text": " Berendsen, Stephan, Ammersbek, *14.11.1964"
             },
             {
                 "class": "Liquidator",
@@ -46,7 +47,7 @@
                     "lastname": "Zonewitz",
                     "name": "Martina"
                 },
-                "text": " Zonewitz , Martina , Dahme , * 29.12.1962 , einzelvertretungsberechtigt"
+                "text": " Zonewitz, Martina, Dahme, *29.12.1962, einzelvertretungsberechtigt"
             }
         ]
     }

@@ -18,45 +18,46 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Landwehr 12 a , 40764 Langenfeld ."
+                "text": " Landwehr 12a, 40764 Langenfeld."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Mándok / Ungarn",
+                    "city": "Mándok/Ungarn",
                     "dob": "1964-07-28",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Katkó",
                     "name": "József"
                 },
-                "text": " Katkó , József , Mándok / Ungarn , * 28.07.1964 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Katkó, József, Mándok/Ungarn, *28.07.1964, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Langenfeld",
+                    "dismissed": true,
                     "dob": "1971-03-03",
                     "lastname": "Benthe",
                     "name": "Ralf"
                 },
-                "text": " Benthe , Ralf , Langenfeld , * 03.03.1971 ."
+                "text": " Benthe, Ralf, Langenfeld, *03.03.1971."
             }
         ]
     }

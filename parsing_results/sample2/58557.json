@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Jever",
+                    "dismissed": true,
                     "dob": "1949-07-24",
                     "lastname": "Wachtendorf",
                     "name": "Klaas"
                 },
-                "text": " Wachtendorf , Klaas , Jever , * 24.07.1949 ."
+                "text": " Wachtendorf, Klaas, Jever, *24.07.1949."
             }
         ]
     }

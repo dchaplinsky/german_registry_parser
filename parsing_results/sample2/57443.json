@@ -25,17 +25,18 @@
                     "lastname": "Becker",
                     "name": "Detlef"
                 },
-                "text": " Becker , Detlef , Saarbrücken , * 15.01.1960 ."
+                "text": " Becker, Detlef, Saarbrücken, *15.01.1960."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Saarbrücken",
+                    "dismissed": true,
                     "dob": "1967-01-21",
                     "lastname": "Becker",
                     "name": "Corinne"
                 },
-                "text": " Becker , Corinne , Saarbrücken , * 21.01.1967 ."
+                "text": " Becker, Corinne, Saarbrücken, *21.01.1967."
             }
         ]
     }

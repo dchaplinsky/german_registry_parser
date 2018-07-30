@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Wegenerstraße 13 , 89231 Neu - Ulm ."
+                "text": " Wegenerstraße 13, 89231 Neu-Ulm."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Earlston ( Großbritannien )",
+                    "city": "Earlston (Großbritannien)",
+                    "dismissed": true,
                     "dob": "1948-03-17",
-                    "lastname": "Dr . Hall",
+                    "lastname": "Doctor Hall",
                     "name": "John M"
                 },
-                "text": " Dr . Hall , John M . , Earlston ( Großbritannien ) , * 17.03.1948 ."
+                "text": " Doctor Hall, John M., Earlston (Großbritannien), *17.03.1948."
             }
         ]
     }

@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Trier",
+                    "dismissed": true,
                     "dob": "1965-05-29",
                     "lastname": "Zang",
                     "name": "Simone Ingeborg"
                 },
-                "text": " Zang , Simone Ingeborg , Trier , * 29.05.1965 ."
+                "text": " Zang, Simone Ingeborg, Trier, *29.05.1965."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Andernach",
                     "dob": "1967-10-20",
@@ -36,7 +37,7 @@
                     "lastname": "Kiriakidis",
                     "name": "Georgios"
                 },
-                "text": " Kiriakidis , Georgios , Andernach , * 20.10.1967 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Kiriakidis, Georgios, Andernach, *20.10.1967, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=527815&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Kipper",
                     "name": "Julian"
                 },
-                "text": " Kipper , Julian , Mücke , * 07.12.1989 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Mücke",
-                    "dob": "1989-07-12",
-                    "lastname": "Kipper",
-                    "name": "Julian"
-                },
-                "text": " Kipper , Julian , Mücke , * 07.12.1989 ."
+                "text": " Kipper, Julian, Mücke, *07.12.1989."
             }
         ]
     }

@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1964-01-12",
@@ -26,17 +26,18 @@
                     "lastname": "Drews",
                     "name": "Claudia"
                 },
-                "text": " Drews , Claudia , Hamburg , * 01.12.1964 , einzelvertretungsberechtigt ."
+                "text": " Drews, Claudia, Hamburg, *01.12.1964, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1961-07-29",
                     "lastname": "Torlée",
-                    "name": "Hans - Jürgen"
+                    "name": "Hans-Jürgen"
                 },
-                "text": " Torlée , Hans - Jürgen , Hamburg , * 29.07.1961 ."
+                "text": " Torlée, Hans-Jürgen, Hamburg, *29.07.1961."
             }
         ]
     }

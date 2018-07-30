@@ -16,10 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=258941&land_abk=he"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Rosenau , Klaus , London , Großbritannien , * 19.02.1959 ., error text was Cannot parse DOB  London  using regex"
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Großbritannien",
+                    "dob": "1959-02-19",
+                    "lastname": "Rosenau",
+                    "name": "Klaus",
+                    "position": "London"
+                },
+                "text": " Rosenau, Klaus, London, Großbritannien, *19.02.1959."
             }
         ]
     }

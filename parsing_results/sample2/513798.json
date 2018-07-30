@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Brachttal",
+                    "dismissed": true,
                     "dob": "1962-03-14",
                     "lastname": "Abraham",
                     "name": "Volker"
                 },
-                "text": " Abraham , Volker , Brachttal , * 14.03.1962 ."
+                "text": " Abraham, Volker, Brachttal, *14.03.1962."
             }
         ]
     }

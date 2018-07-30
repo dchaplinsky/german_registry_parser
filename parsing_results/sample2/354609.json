@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Blomberg",
+                    "dismissed": true,
                     "dob": "1938-12-03",
                     "lastname": "Koch",
                     "name": "Fritz"
                 },
-                "text": " Koch , Fritz , Blomberg , * 12.03.1938 ."
+                "text": " Koch, Fritz, Blomberg, *12.03.1938."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Berg - Ettishofen",
+                    "city": "Berg-Ettishofen",
                     "dob": "1962-02-20",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Gresens",
                     "name": "Michael"
                 },
-                "text": " Gresens , Michael , Berg - Ettishofen , * 20.02.1962 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Gresens, Michael, Berg-Ettishofen, *20.02.1962, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

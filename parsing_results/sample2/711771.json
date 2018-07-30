@@ -19,7 +19,11 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Rowbotham , Anthony Spencer , Southwater , Horsham , West Sussex / Großbritannien , * 20.12.1961 ., error text was Cannot parse DOB  Southwater  using regex"
+                "text": "Cannot parse a DismissedManagingDirector from  Rowbotham, Anthony Spencer, Southwater, Horsham, West Sussex/ Großbritannien, *20.12.1961., error text was Cannot parse DOB  Southwater using regex"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rowbotham, Anthony Spencer, Southwater, Horsham, West Sussex/ Großbritannien, *20.12.1961., error text was Cannot parse DOB  Southwater using regex"
             }
         ]
     }

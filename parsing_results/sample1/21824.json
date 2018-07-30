@@ -18,24 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Oberderdingen",
-                    "lastname": "Dr . Moser",
+                    "dismissed": true,
+                    "lastname": "Doctor Moser",
                     "name": "Dieter",
                     "position": "Geschäftsführer"
                 },
-                "text": " Dr . Moser , Dieter , Geschäftsführer , Oberderdingen ."
+                "text": " Doctor Moser, Dieter, Geschäftsführer, Oberderdingen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Oberderdingen",
+                    "dismissed": true,
                     "dob": "1954-04-29",
                     "lastname": "Koberger",
                     "name": "Dieter"
                 },
-                "text": " Koberger , Dieter , Oberderdingen , * 29.04.1954 ."
+                "text": " Koberger, Dieter, Oberderdingen, *29.04.1954."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=226693&land_abk=hh"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Rösler",
                     "name": "Michael"
                 },
-                "text": " Rösler , Michael , Hamburg , * 21.06.1958 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hamburg",
-                    "dob": "1958-06-21",
-                    "lastname": "Rösler",
-                    "name": "Michael"
-                },
-                "text": " Rösler , Michael , Hamburg , * 21.06.1958 ."
+                "text": " Rösler, Michael, Hamburg, *21.06.1958."
             }
         ]
     }

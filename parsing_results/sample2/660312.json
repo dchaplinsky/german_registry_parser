@@ -19,26 +19,27 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Rain",
+                    "dismissed": true,
                     "dob": "1958-03-15",
                     "lastname": "Soethe",
                     "name": "Robert"
                 },
-                "text": " Soethe , Robert , Rain , * 15.03.1958 ."
+                "text": " Soethe, Robert, Rain, *15.03.1958."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Grasbrunn",
                     "dob": "1955-10-05",
@@ -46,7 +47,7 @@
                     "lastname": "Memminger",
                     "name": "Wolfgang"
                 },
-                "text": " Memminger , Wolfgang , Grasbrunn , * 10.05.1955 , einzelvertretungsberechtigt"
+                "text": " Memminger, Wolfgang, Grasbrunn, *10.05.1955, einzelvertretungsberechtigt"
             },
             {
                 "class": "ManagingDirector",
@@ -56,7 +57,7 @@
                     "lastname": "Goldbrunner",
                     "name": "Christian"
                 },
-                "text": " Goldbrunner , Christian , Penzberg , * 15.10.1957"
+                "text": " Goldbrunner, Christian, Penzberg, *15.10.1957"
             }
         ]
     }

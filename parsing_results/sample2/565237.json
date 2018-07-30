@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -31,17 +31,18 @@
                     "lastname": "Gebhardt",
                     "name": "Matthias"
                 },
-                "text": " Gebhardt , Matthias , Höchstadt , * 25.10.1974 ."
+                "text": " Gebhardt, Matthias, Höchstadt, *25.10.1974."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Obernbreit",
+                    "dismissed": true,
                     "dob": "1966-11-07",
                     "lastname": "Kopitsch",
                     "name": "Jürgen"
                 },
-                "text": " Kopitsch , Jürgen , Obernbreit , * 11.07.1966 ."
+                "text": " Kopitsch, Jürgen, Obernbreit, *11.07.1966."
             }
         ]
     }

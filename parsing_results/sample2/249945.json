@@ -18,40 +18,41 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Elsternweg 14 , 21224 Rosengarten ."
+                "text": " Elsternweg 14, 21224 Rosengarten."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rosengarten",
+                    "dismissed": true,
                     "dob": "1944-06-13",
                     "lastname": "Schmidt",
                     "name": "Manfred"
                 },
-                "text": " Schmidt , Manfred , Rosengarten , * 13.06.1944 ."
+                "text": " Schmidt, Manfred, Rosengarten, *13.06.1944."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rosengarten",
                     "dob": "1945-01-17",
                     "lastname": "Schmidt",
                     "name": "Ingrid"
                 },
-                "text": " Schmidt , Ingrid , Rosengarten , * 17.01.1945 ."
+                "text": " Schmidt, Ingrid, Rosengarten, *17.01.1945."
             }
         ]
     }

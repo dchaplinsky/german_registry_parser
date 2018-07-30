@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wuppertal",
+                    "dismissed": true,
                     "dob": "1964-09-02",
                     "lastname": "vom Endt",
                     "name": "Gundela"
                 },
-                "text": " vom Endt , Gundela , Wuppertal , * 09.02.1964 ."
+                "text": " vom Endt, Gundela, Wuppertal, *09.02.1964."
             }
         ]
     }

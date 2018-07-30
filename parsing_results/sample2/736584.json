@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bocholt",
+                    "dismissed": true,
                     "dob": "1982-08-31",
                     "lastname": "Paschold",
                     "name": "Matthias"
                 },
-                "text": " Paschold , Matthias , Bocholt , * 31.08.1982 ."
+                "text": " Paschold, Matthias, Bocholt, *31.08.1982."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dorsten",
                     "dob": "1971-06-14",
                     "lastname": "Bellina",
                     "name": "Michael"
                 },
-                "text": " Bellina , Michael , Dorsten , * 14.06.1971"
+                "text": " Bellina, Michael, Dorsten, *14.06.1971"
             }
         ]
     }

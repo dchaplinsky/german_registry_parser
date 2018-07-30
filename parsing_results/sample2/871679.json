@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Roth",
+                    "dismissed": true,
                     "dob": "1955-03-25",
                     "lastname": "Kraus",
                     "name": "Udo"
                 },
-                "text": " Kraus , Udo , Roth , * 25.03.1955 ."
+                "text": " Kraus, Udo, Roth, *25.03.1955."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Schwabach",
                     "dob": "1987-05-20",
@@ -36,7 +37,7 @@
                     "lastname": "Kraus",
                     "name": "Katharina"
                 },
-                "text": " Kraus , Katharina , Schwabach , * 20.05.1987 , einzelvertretungsberechtigt ."
+                "text": " Kraus, Katharina, Schwabach, *20.05.1987, einzelvertretungsberechtigt."
             }
         ]
     }

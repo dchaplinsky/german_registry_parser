@@ -19,31 +19,32 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Miesen",
                     "name": "Holger"
                 },
-                "text": " Miesen , Holger"
+                "text": " Miesen, Holger"
             },
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "Dallgow - Döberitz",
+                    "city": "Dallgow-Döberitz",
                     "dob": "1943-11-29",
                     "lastname": "Miesen",
                     "name": "Holger"
                 },
-                "text": " Miesen , Holger , * 29.11.1943 , Dallgow - Döberitz"
+                "text": " Miesen, Holger, *29.11.1943, Dallgow-Döberitz"
             }
         ]
     }

@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1978-11-28",
                     "lastname": "Güven",
                     "name": "Nurten"
                 },
-                "text": " Güven , Nurten , Köln , * 28.11.1978 ."
+                "text": " Güven, Nurten, Köln, *28.11.1978."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Essen",
                     "dob": "1971-01-26",
@@ -36,7 +37,7 @@
                     "lastname": "Dogrusözlü",
                     "name": "Mahmut"
                 },
-                "text": " Dogrusözlü , Mahmut , Essen , * 26.01.1971 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Dogrusözlü, Mahmut, Essen, *26.01.1971, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Falkensteiner Ufer 8 , 22587 Hamburg ."
+                "text": " Falkensteiner Ufer 8, 22587 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1941-02-22",
                     "lastname": "Vogler",
                     "name": "Hilke"
                 },
-                "text": " Vogler , Hilke , Hamburg , * 22.02.1941 ."
+                "text": " Vogler, Hilke, Hamburg, *22.02.1941."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1947-12-26",
@@ -48,7 +49,7 @@
                     "lastname": "Schween",
                     "name": "Ursula"
                 },
-                "text": " Schween , Ursula , Hamburg , * 26.12.1947 , einzelvertretungsberechtigt"
+                "text": " Schween, Ursula, Hamburg, *26.12.1947, einzelvertretungsberechtigt"
             }
         ]
     }

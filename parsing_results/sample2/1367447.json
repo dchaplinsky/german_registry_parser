@@ -21,11 +21,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Seligenstadt",
+                    "dismissed": true,
                     "dob": "1967-12-14",
                     "lastname": "Klinger",
                     "name": "Thomas"
                 },
-                "text": " Klinger , Thomas , Seligenstadt , * 14.12.1967 ."
+                "text": " Klinger, Thomas, Seligenstadt, *14.12.1967."
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Kampruwen",
                     "name": "Ulf"
                 },
-                "text": " Kampruwen , Ulf , Münster , * 31.10.1969 ."
+                "text": " Kampruwen, Ulf, Münster, *31.10.1969."
             }
         ]
     }

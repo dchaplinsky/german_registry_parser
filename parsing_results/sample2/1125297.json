@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Lothar - Gau - Straße 11 , 58300 Wetter ."
+                "text": " Lothar-Gau-Straße 11, 58300 Wetter."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Gevelsberg",
+                    "dismissed": true,
                     "dob": "1969-07-17",
                     "lastname": "Schmitz",
                     "name": "Michael"
                 },
-                "text": " Schmitz , Michael , Gevelsberg , * 17.07.1969 ."
+                "text": " Schmitz, Michael, Gevelsberg, *17.07.1969."
             },
             {
                 "class": "ManagingDirector",
@@ -51,7 +52,7 @@
                     "lastname": "Mund",
                     "name": "Matthias"
                 },
-                "text": " Mund , Matthias , Wetter , * 15.03.1966 ."
+                "text": " Mund, Matthias, Wetter, *15.03.1966."
             },
             {
                 "class": "ManagingDirector",
@@ -62,7 +63,7 @@
                     "lastname": "Bachmann",
                     "name": "Markus"
                 },
-                "text": " Bachmann , Markus , Wetter , * 16.05.1971 , mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Bachmann, Markus, Wetter, *16.05.1971, mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

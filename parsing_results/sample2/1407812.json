@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Telgte",
+                    "dismissed": true,
                     "dob": "1957-11-22",
                     "lastname": "Schulte",
                     "name": "Christoph"
                 },
-                "text": " Schulte , Christoph , Telgte , * 22.11.1957 ."
+                "text": " Schulte, Christoph, Telgte, *22.11.1957."
             }
         ]
     }

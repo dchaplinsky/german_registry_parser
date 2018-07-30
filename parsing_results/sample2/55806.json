@@ -19,31 +19,32 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " SENIOREN FORUM GmbH , Bremen , Hahnenstr ."
+                "text": " SENIOREN FORUM GmbH, Bremen, Hahnenstr."
             },
             {
                 "label": "address",
-                "text": " Hahnenstr ."
+                "text": " Hahnenstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Baum",
                     "name": "Viktor"
                 },
-                "text": " Baum , Viktor"
+                "text": " Baum, Viktor"
             },
             {
                 "class": "ManagingDirector",
@@ -53,7 +54,7 @@
                     "lastname": "Loges",
                     "name": "Detlef"
                 },
-                "text": " Loges , Detlef , * 29.03.1951 , Bremen"
+                "text": " Loges, Detlef, *29.03.1951, Bremen"
             }
         ]
     }

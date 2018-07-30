@@ -21,21 +21,23 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Goldbach",
+                    "dismissed": true,
                     "dob": "1965-08-06",
-                    "lastname": "Dr . Grehl",
+                    "lastname": "Doctor Grehl",
                     "name": "Matthias"
                 },
-                "text": " Dr . Grehl , Matthias , Goldbach , * 08.06.1965 ."
+                "text": " Doctor Grehl, Matthias, Goldbach, *08.06.1965."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Aschaffenburg",
+                    "dismissed": true,
                     "dob": "1963-05-26",
-                    "lastname": "Dr . Schmoor",
+                    "lastname": "Doctor Schmoor",
                     "name": "Hartmut"
                 },
-                "text": " Dr . Schmoor , Hartmut , Aschaffenburg , * 26.05.1963 ."
+                "text": " Doctor Schmoor, Hartmut, Aschaffenburg, *26.05.1963."
             }
         ]
     }

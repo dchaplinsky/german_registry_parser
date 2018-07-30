@@ -19,39 +19,40 @@
         "flags": [
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Spichernstraße 77 , 50672 Köln ."
+                "text": " Spichernstraße 77, 50672 Köln."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bergisch Gladbach",
+                    "dismissed": true,
                     "dob": "1961-09-06",
-                    "lastname": "Dr . Luxem",
+                    "lastname": "Doctor Luxem",
                     "name": "Jörg"
                 },
-                "text": " Dr . Luxem , Jörg , Bergisch Gladbach , * 09.06.1961 ."
+                "text": " Doctor Luxem, Jörg, Bergisch Gladbach, *09.06.1961."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Köln",
                     "dob": "1967-01-08",
                     "lastname": "Jacobi",
                     "name": "Alexander"
                 },
-                "text": " Jacobi , Alexander , Köln , * 01.08.1967"
+                "text": " Jacobi, Alexander, Köln, *01.08.1967"
             }
         ]
     }

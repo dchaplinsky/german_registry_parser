@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Eschengrunder Str ."
+                "text": " Eschengrunder Str."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Langenfeld",
+                    "dismissed": true,
                     "dob": "1967-03-21",
                     "lastname": "Wischnweski",
                     "name": "Dirk"
                 },
-                "text": " Wischnweski , Dirk , Langenfeld , * 21.03.1967 ."
+                "text": " Wischnweski, Dirk, Langenfeld, *21.03.1967."
             }
         ]
     }

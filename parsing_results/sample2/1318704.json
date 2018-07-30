@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mülheim an der Ruhr",
+                    "dismissed": true,
                     "dob": "1936-02-21",
                     "lastname": "Pankok",
                     "name": "Ute Elske"
                 },
-                "text": " Pankok , Ute Elske , Mülheim an der Ruhr , * 21.02.1936 ."
+                "text": " Pankok, Ute Elske, Mülheim an der Ruhr, *21.02.1936."
             }
         ]
     }

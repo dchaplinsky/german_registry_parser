@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Mörfelden - Walldorf",
+                    "city": "Mörfelden-Walldorf",
+                    "dismissed": true,
                     "dob": "1986-08-16",
                     "lastname": "Bitsch",
                     "name": "Fabio"
                 },
-                "text": " Bitsch , Fabio , Mörfelden - Walldorf , * 16.08.1986 ."
+                "text": " Bitsch, Fabio, Mörfelden-Walldorf, *16.08.1986."
             }
         ]
     }

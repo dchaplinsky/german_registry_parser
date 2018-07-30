@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Grünwald",
+                    "dismissed": true,
                     "dob": "1946-11-19",
                     "lastname": "Walleitner",
                     "name": "Rudi"
                 },
-                "text": " Walleitner , Rudi , Grünwald , * 19.11.1946 ."
+                "text": " Walleitner, Rudi, Grünwald, *19.11.1946."
             },
             {
                 "class": "Owner",
@@ -35,7 +36,7 @@
                     "lastname": "Layritz",
                     "name": "Alexander"
                 },
-                "text": " Layritz , Alexander , Grünwald , * 06.02.1974 ."
+                "text": " Layritz, Alexander, Grünwald, *06.02.1974."
             }
         ]
     }

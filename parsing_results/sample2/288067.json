@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Nymphenburger Str ."
+                "text": " Nymphenburger Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
-                    "lastname": "Dr . Opderbeck",
-                    "name": "Kurt - Bernd",
-                    "position": "Diplom - Kaufmann"
+                    "dismissed": true,
+                    "lastname": "Doctor Opderbeck",
+                    "name": "Kurt- Bernd",
+                    "position": "Diplom-Kaufmann"
                 },
-                "text": " Dr . Opderbeck , Kurt - Bernd , Diplom - Kaufmann , München ."
+                "text": " Doctor Opderbeck, Kurt- Bernd, Diplom-Kaufmann, München."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1952-02-27",
@@ -48,7 +49,7 @@
                     "lastname": "Opderbeck",
                     "name": "Alexandra Christiana"
                 },
-                "text": " Opderbeck , Alexandra Christiana , München , * 27.02.1952 , einzelvertretungsberechtigt"
+                "text": " Opderbeck, Alexandra Christiana, München, *27.02.1952, einzelvertretungsberechtigt"
             }
         ]
     }

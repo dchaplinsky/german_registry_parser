@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Erkelenz",
-                    "lastname": "Diplom - Ingenieur Mackes",
+                    "dismissed": true,
+                    "lastname": "Diplom-Ingenieur Mackes",
                     "name": "Karl Eugen",
                     "position": "Ingenieur"
                 },
-                "text": " Diplom - Ingenieur Mackes , Karl Eugen , Ingenieur , Erkelenz ."
+                "text": " Diplom-Ingenieur Mackes, Karl Eugen, Ingenieur, Erkelenz."
             },
             {
                 "class": "Liquidator",
@@ -41,7 +42,7 @@
                     "lastname": "Plum",
                     "name": "Reinhold H"
                 },
-                "text": " Plum , Reinhold H . , Wegberg , * 23.03.1950 ."
+                "text": " Plum, Reinhold H., Wegberg, *23.03.1950."
             }
         ]
     }

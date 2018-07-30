@@ -16,22 +16,28 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=341903&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Kohlhepp , Karl - Ernst , Industriekaufmann , Schlüchtern - Gundhelm , * 13.12.1951 ., error text was Cannot parse DOB  Industriekaufmann  using regex"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Schlüchtern-Gundhelm",
+                    "dismissed": true,
+                    "dob": "1951-12-13",
+                    "lastname": "Kohlhepp",
+                    "name": "Karl-Ernst",
+                    "position": "Industriekaufmann"
+                },
+                "text": " Kohlhepp, Karl-Ernst, Industriekaufmann, Schlüchtern-Gundhelm, *13.12.1951."
+            },
+            {
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Ortenberg",
                     "dob": "1962-06-23",
                     "lastname": "Stegmaier",
                     "name": "Wolfram"
                 },
-                "text": " Stegmaier , Wolfram , Ortenberg , * 23.06.1962 ."
+                "text": " Stegmaier, Wolfram, Ortenberg, *23.06.1962."
             }
         ]
     }

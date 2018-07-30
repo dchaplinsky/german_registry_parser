@@ -16,9 +16,21 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=436697&land_abk=bw"
     },
     "parsed": {
+        "flags": [
+            {
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " alte schulstraße 7, 69118 heidelberg."
+            }
+        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "heidelberg",
                     "dob": "1979-01-15",
@@ -26,17 +38,18 @@
                     "lastname": "weng",
                     "name": "julan"
                 },
-                "text": " weng , julan , heidelberg , * 15.01.1979 , einzelvertretungsberechtigt ."
+                "text": " weng, julan, heidelberg, *15.01.1979, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "offenbach",
+                    "dismissed": true,
                     "dob": "1980-04-25",
                     "lastname": "chen",
                     "name": "yuanyuan"
                 },
-                "text": " chen , yuanyuan , offenbach , * 25.04.1980 ."
+                "text": " chen, yuanyuan, offenbach, *25.04.1980."
             }
         ]
     }

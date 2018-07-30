@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Mittlere Ortsstraße 12 e , 76761 Rülzheim ."
+                "text": " Mittlere Ortsstraße 12 e, 76761 Rülzheim."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rülzheim",
+                    "dismissed": true,
                     "dob": "1982-08-19",
                     "lastname": "Deutschler",
                     "name": "David"
                 },
-                "text": " Deutschler , David , Rülzheim , * 19.08.1982 ."
+                "text": " Deutschler, David, Rülzheim, *19.08.1982."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rülzheim",
                     "dob": "1990-12-30",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Brechtel",
                     "name": "Maximilian"
                 },
-                "text": " Brechtel , Maximilian , Rülzheim , * 30.12.1990 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Brechtel, Maximilian, Rülzheim, *30.12.1990, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

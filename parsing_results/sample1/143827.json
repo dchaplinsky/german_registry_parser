@@ -16,32 +16,38 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=143827&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Gota , Yoshihiro , Nishikatsura - cho , Japan , * 24.08.1951, error text was Cannot parse DOB  Nishikatsura - cho  using regex"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Schäfergasse 33 , 60313 Frankfurt am Main ."
+                "text": " Schäfergasse 33, 60313 Frankfurt am Main."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Noguchi",
                     "name": "Katsuhiko"
                 },
-                "text": " Noguchi , Katsuhiko ."
+                "text": " Noguchi, Katsuhiko."
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Japan",
+                    "dob": "1951-08-24",
+                    "lastname": "Gota",
+                    "name": "Yoshihiro",
+                    "position": "Nishikatsura-cho"
+                },
+                "text": " Gota, Yoshihiro, Nishikatsura-cho, Japan, *24.08.1951"
             }
         ]
     }

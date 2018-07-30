@@ -18,24 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "lastname": "Jäger",
                     "name": "Dieter",
                     "position": "Kaufmann"
                 },
-                "text": " Jäger , Dieter , Kaufmann , Hamburg ."
+                "text": " Jäger, Dieter, Kaufmann, Hamburg."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Cloppenburg",
+                    "dismissed": true,
                     "dob": "1964-12-03",
                     "lastname": "Hengelage",
                     "name": "Günther"
                 },
-                "text": " Hengelage , Günther , Cloppenburg , * 12.03.1964 ."
+                "text": " Hengelage, Günther, Cloppenburg, *12.03.1964."
             }
         ]
     }

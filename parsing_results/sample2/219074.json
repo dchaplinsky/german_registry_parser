@@ -18,15 +18,16 @@
     "parsed": {
         "officers": [
             {
-                "class": "Liquidator",
+                "class": "NotALiquidator",
                 "payload": {
-                    "lastname": "Springer",
+                    "dismissed": true,
+                    "lastname": ": Springer",
                     "name": "Simon"
                 },
-                "text": " Springer , Simon ."
+                "text": ": Springer, Simon."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1944-09-06",
@@ -34,7 +35,7 @@
                     "lastname": "Brauchle",
                     "name": "Horst"
                 },
-                "text": " Brauchle , Horst , München , * 09.06.1944 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Brauchle, Horst, München, *09.06.1944, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

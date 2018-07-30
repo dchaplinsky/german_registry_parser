@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=399823&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Kovacs",
                     "name": "Stefan"
                 },
-                "text": " Kovacs , Stefan , Gründau , * 21.12.1970 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Gründau",
-                    "dob": "1970-12-21",
-                    "lastname": "Kovacs",
-                    "name": "Stefan"
-                },
-                "text": " Kovacs , Stefan , Gründau , * 21.12.1970 ."
+                "text": " Kovacs, Stefan, Gründau, *21.12.1970."
             }
         ]
     }

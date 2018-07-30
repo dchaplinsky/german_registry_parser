@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Krefelder Str ."
+                "text": " Krefelder Str."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Trianel Onshore Windkraftwerk Standort Verwaltungs GmbH , Aachen ( Amtsgericht Aachen HRB 19621 ) ."
+                    "company_name": " Trianel Onshore Windkraftwerk Standort Verwaltungs GmbH, Aachen (Amtsgericht Aachen HRB 19621)."
                 },
-                "text": " Trianel Onshore Windkraftwerk Standort Verwaltungs GmbH , Aachen ( Amtsgericht Aachen HRB 19621 ) ."
+                "text": " Trianel Onshore Windkraftwerk Standort Verwaltungs GmbH, Aachen (Amtsgericht Aachen HRB 19621)."
             },
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "company_name": " Zero Emission People Asset Management GmbH , Mülheim an der Ruhr ( Amtsgericht Duisburg HRB 22491 ) ."
+                    "company_name": " Zero Emission People Asset Management GmbH, Mülheim an der Ruhr (Amtsgericht Duisburg HRB 22491).",
+                    "dismissed": true
                 },
-                "text": " Zero Emission People Asset Management GmbH , Mülheim an der Ruhr ( Amtsgericht Duisburg HRB 22491 ) ."
+                "text": " Zero Emission People Asset Management GmbH, Mülheim an der Ruhr (Amtsgericht Duisburg HRB 22491)."
             }
         ]
     }

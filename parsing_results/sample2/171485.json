@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "The owner is acting alone",
-                "text": "Der Inhaber handelt allein"
+                "text": "Der\\ Inhaber\\ handelt\\ allein"
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Schweich",
+                    "dismissed": true,
                     "lastname": "Steffgen",
                     "name": "Klaus",
-                    "position": "Kaufmann und Kfz . - Meister"
+                    "position": "Kaufmann und Kfz.-Meister"
                 },
-                "text": " Steffgen , Klaus , Kaufmann und Kfz . - Meister , Schweich ."
+                "text": " Steffgen, Klaus, Kaufmann und Kfz.-Meister, Schweich."
             },
             {
                 "class": "Owner",
@@ -41,7 +42,7 @@
                     "lastname": "Oster",
                     "name": "Frank"
                 },
-                "text": " Oster , Frank , Fell , * 07.05.1971 ."
+                "text": " Oster, Frank, Fell, *07.05.1971."
             }
         ]
     }

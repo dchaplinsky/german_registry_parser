@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Münster",
+                    "dismissed": true,
                     "dob": "1945-01-24",
                     "lastname": "Klapdor",
-                    "name": "Hans - Jürgen"
+                    "name": "Hans-Jürgen"
                 },
-                "text": " Klapdor , Hans - Jürgen , Münster , * 24.01.1945"
+                "text": " Klapdor, Hans-Jürgen, Münster, *24.01.1945"
             },
             {
                 "class": "Liquidator",
@@ -39,9 +40,9 @@
                     "city": "Münster",
                     "dob": "1945-01-24",
                     "lastname": "Klapdor",
-                    "name": "Hans - Jürgen"
+                    "name": "Hans-Jürgen"
                 },
-                "text": " Klapdor , Hans - Jürgen , Münster , * 24.01.1945 ."
+                "text": " Klapdor, Hans-Jürgen, Münster, *24.01.1945."
             }
         ]
     }

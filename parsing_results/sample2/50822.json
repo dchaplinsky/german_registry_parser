@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=50822&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Hönisch",
                     "name": "Ute geborene Wiesotzky"
                 },
-                "text": " Hönisch , Ute geborene Wiesotzky , Elz , * 17.03.1962 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Elz",
-                    "dob": "1962-03-17",
-                    "lastname": "Hönisch",
-                    "name": "Ute geborene Wiesotzky"
-                },
-                "text": " Hönisch , Ute geborene Wiesotzky , Elz , * 17.03.1962 ."
+                "text": " Hönisch, Ute geborene Wiesotzky, Elz, *17.03.1962."
             }
         ]
     }

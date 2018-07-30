@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Mondstr ."
+                "text": " Mondstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "lastname": "Heinrich",
                     "name": "Karl",
                     "position": "Kaufmann"
                 },
-                "text": " Heinrich , Karl , Kaufmann , München ."
+                "text": " Heinrich, Karl, Kaufmann, München."
             }
         ]
     }

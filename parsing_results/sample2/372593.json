@@ -19,27 +19,28 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "lastname": "L + J Verwaltungs UG ( haftungsbeschränkt )",
-                    "name": "Starnberg ( Amtsgericht München HRB 181820 )"
+                    "lastname": "L + J Verwaltungs UG (haftungsbeschränkt)",
+                    "name": "Starnberg (Amtsgericht München HRB 181820)"
                 },
-                "text": " L + J Verwaltungs UG ( haftungsbeschränkt ) , Starnberg ( Amtsgericht München HRB 181820 ) ."
+                "text": " L + J Verwaltungs UG (haftungsbeschränkt), Starnberg (Amtsgericht München HRB 181820)."
             },
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Starnberg",
+                    "dismissed": true,
                     "dob": "1926-03-28",
                     "lastname": "Jägerhuber",
                     "name": "Josef"
                 },
-                "text": " Jägerhuber , Josef , Starnberg , * 28.03.1926"
+                "text": " Jägerhuber, Josef, Starnberg, *28.03.1926"
             }
         ]
     }

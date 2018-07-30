@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bad Oeynhausen",
+                    "dismissed": true,
                     "dob": "1924-03-07",
                     "lastname": "Kasper",
                     "name": "Helmut"
                 },
-                "text": " Kasper , Helmut , Bad Oeynhausen , * 03.07.1924 ."
+                "text": " Kasper, Helmut, Bad Oeynhausen, *03.07.1924."
             }
         ]
     }

@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Krönenfeld 1 , 21077 Hamburg ."
+                "text": " Krönenfeld 1, 21077 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1918-06-20",
                     "lastname": "Sander",
                     "name": "Rolf Philipp Wilhelm"
                 },
-                "text": " Sander , Rolf Philipp Wilhelm , Hamburg , * 20.06.1918"
+                "text": " Sander, Rolf Philipp Wilhelm, Hamburg, *20.06.1918"
             }
         ]
     }

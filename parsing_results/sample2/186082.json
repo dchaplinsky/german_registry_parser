@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Hagen a . T . W",
+                    "city": "Hagen a.T.W",
+                    "dismissed": true,
                     "dob": "1959-03-11",
-                    "lastname": "Schmitz - Wenzel",
+                    "lastname": "Schmitz-Wenzel",
                     "name": "Hans"
                 },
-                "text": " Schmitz - Wenzel , Hans , Hagen a . T . W . , * 03.11.1959 ."
+                "text": " Schmitz-Wenzel, Hans, Hagen a.T.W., *03.11.1959."
             }
         ]
     }

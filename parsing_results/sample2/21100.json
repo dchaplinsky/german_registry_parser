@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Steinenbronn",
+                    "dismissed": true,
                     "dob": "1961-01-08",
                     "lastname": "Krause",
                     "name": "Rainer"
                 },
-                "text": " Krause , Rainer , Steinenbronn , * 01.08.1961 ."
+                "text": " Krause, Rainer, Steinenbronn, *01.08.1961."
             }
         ]
     }

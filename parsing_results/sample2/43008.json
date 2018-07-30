@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " St . - Georg - Str ."
+                "text": " St.-Georg-Str."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Rostock",
+                    "dismissed": true,
                     "dob": "1948-09-13",
                     "lastname": "Lange",
                     "name": "Werner Peter Wolfgang"
                 },
-                "text": " Lange , Werner Peter Wolfgang , Rostock , * 13.09.1948 ."
+                "text": " Lange, Werner Peter Wolfgang, Rostock, *13.09.1948."
             }
         ]
     }

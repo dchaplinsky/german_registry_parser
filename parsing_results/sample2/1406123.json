@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Schäferkampstraße 16 , 59439 Holzwickede ."
+                "text": " Schäferkampstraße 16, 59439 Holzwickede."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dortmund",
                     "dob": "1970-11-03",
                     "lastname": "Hermann",
                     "name": "Axel"
                 },
-                "text": " Hermann , Axel , Dortmund , * 11.03.1970"
+                "text": " Hermann, Axel, Dortmund, *11.03.1970"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Dortmund",
+                    "dismissed": true,
                     "dob": "1970-11-03",
                     "lastname": "Hermann",
                     "name": "Axel"
                 },
-                "text": " Hermann , Axel , Dortmund , * 11.03.1970"
+                "text": " Hermann, Axel, Dortmund, *11.03.1970"
             }
         ]
     }

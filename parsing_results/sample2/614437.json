@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Saarbrücken",
                     "dob": "1959-03-31",
@@ -26,17 +26,18 @@
                     "lastname": "Geisert",
                     "name": "Norbert"
                 },
-                "text": " Geisert , Norbert , Saarbrücken , * 31.03.1959 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Geisert, Norbert, Saarbrücken, *31.03.1959, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Zell am See ( Österreich )",
+                    "city": "Zell am See (Österreich)",
+                    "dismissed": true,
                     "dob": "1963-11-09",
-                    "lastname": "Dr . Nöbauer",
+                    "lastname": "Doctor Nöbauer",
                     "name": "Reinhard"
                 },
-                "text": " Dr . Nöbauer , Reinhard , Zell am See ( Österreich ) , * 11.09.1963 ."
+                "text": " Doctor Nöbauer, Reinhard, Zell am See (Österreich), *11.09.1963."
             }
         ]
     }

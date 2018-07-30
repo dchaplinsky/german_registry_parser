@@ -16,22 +16,28 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=324038&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Strehler , Michael , Brüssel , Belgien , * 22.08.1961, error text was Cannot parse DOB  Brüssel  using regex"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Harpenden / Hertfordshire / Großbritannien",
+                    "city": "Harpenden/Hertfordshire/Großbritannien",
                     "dob": "1966-02-19",
                     "lastname": "Larcombe",
                     "name": "Timothy John"
                 },
-                "text": " Larcombe , Timothy John , Harpenden / Hertfordshire / Großbritannien , * 19.02.1966 ."
+                "text": " Larcombe, Timothy John, Harpenden/Hertfordshire/Großbritannien, *19.02.1966."
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Belgien",
+                    "dismissed": true,
+                    "dob": "1961-08-22",
+                    "lastname": "Strehler",
+                    "name": "Michael",
+                    "position": "Brüssel"
+                },
+                "text": " Strehler, Michael, Brüssel, Belgien, *22.08.1961"
             },
             {
                 "class": "CommonProcuration",
@@ -41,7 +47,7 @@
                     "lastname": "Anthes",
                     "name": "Michael"
                 },
-                "text": " Anthes , Michael , Mainz , * 27.01.1973"
+                "text": " Anthes, Michael, Mainz, *27.01.1973"
             }
         ]
     }

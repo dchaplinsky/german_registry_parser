@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=641&land_abk=mv"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "CommonProcuration",
@@ -31,17 +25,18 @@
                     "lastname": "Blanke",
                     "name": "Gerd"
                 },
-                "text": " Blanke , Gerd , Damp , * 01.10.1939"
+                "text": " Blanke, Gerd, Damp, *01.10.1939"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Proseken",
+                    "dismissed": true,
                     "dob": "1947-07-24",
-                    "lastname": "Helms - Ferlemann",
+                    "lastname": "Helms-Ferlemann",
                     "name": "Friedel"
                 },
-                "text": " Helms - Ferlemann , Friedel , Proseken , * 24.07.1947 ."
+                "text": " Helms-Ferlemann, Friedel, Proseken, *24.07.1947."
             }
         ]
     }

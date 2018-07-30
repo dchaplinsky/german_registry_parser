@@ -19,33 +19,34 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " TIN Brillant Services GmbH , Berlin , Johannisstraße 20 , 10117 Berlin ."
+                "text": " TIN Brillant Services GmbH, Berlin, Johannisstraße 20, 10117 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Jeschke",
                     "name": "Arnt"
                 },
-                "text": " Jeschke , Arnt"
+                "text": " Jeschke, Arnt"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Singapur / Singapur",
+                    "city": "Singapur/Singapur",
                     "dob": "1970-04-02",
                     "lastname": "Karb",
                     "name": "Michael"
                 },
-                "text": " Karb , Michael , * 04.02.1970 , Singapur / Singapur"
+                "text": " Karb, Michael, *04.02.1970, Singapur/Singapur"
             }
         ]
     }

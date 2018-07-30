@@ -19,17 +19,18 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  aptus 622 ., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a PersonalPartner from  aptus 622., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "German City Real Estate AG",
-                    "name": "München ( München HRB 131605 )"
+                    "name": "München (München HRB 131605)"
                 },
-                "text": " German City Real Estate AG , München ( München HRB 131605 ) ."
+                "text": " German City Real Estate AG, München (München HRB 131605)."
             },
             {
                 "class": "Liquidator",
@@ -39,7 +40,7 @@
                     "lastname": "Grau",
                     "name": "Alexander"
                 },
-                "text": " Grau , Alexander , München , * 31.03.1961 ."
+                "text": " Grau, Alexander, München, *31.03.1961."
             }
         ]
     }

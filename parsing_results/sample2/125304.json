@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Solmsstraße 2 - 22 , 60486 Frankfurt am Main ."
+                "text": " Solmsstraße 2 - 22, 60486 Frankfurt am Main."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1966-01-16",
-                    "lastname": "Dr . Lüth",
+                    "lastname": "Doctor Lüth",
                     "name": "Dirk"
                 },
-                "text": " Dr . Lüth , Dirk , Hamburg , * 16.01.1966 ."
+                "text": " Doctor Lüth, Dirk, Hamburg, *16.01.1966."
             }
         ]
     }

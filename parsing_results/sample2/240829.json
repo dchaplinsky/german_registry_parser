@@ -18,24 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Münster",
+                    "dismissed": true,
                     "dob": "1970-12-25",
                     "lastname": "Reitter",
                     "name": "Elias"
                 },
-                "text": " Reitter , Elias , Münster , * 25.12.1970 ."
+                "text": " Reitter, Elias, Münster, *25.12.1970."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Schwarzenbruck",
+                    "dismissed": true,
                     "dob": "1954-09-16",
                     "lastname": "Stahlmann",
                     "name": "Jürgen"
                 },
-                "text": " Stahlmann , Jürgen , Schwarzenbruck , * 16.09.1954 ."
+                "text": " Stahlmann, Jürgen, Schwarzenbruck, *16.09.1954."
             }
         ]
     }

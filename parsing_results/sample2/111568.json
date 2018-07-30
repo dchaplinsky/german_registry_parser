@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Heilbronn",
+                    "dismissed": true,
                     "dob": "1955-11-08",
                     "lastname": "Scholz",
                     "name": "Wolfgang"
                 },
-                "text": " Scholz , Wolfgang , Heilbronn , * 11.08.1955 ."
+                "text": " Scholz, Wolfgang, Heilbronn, *11.08.1955."
             }
         ]
     }

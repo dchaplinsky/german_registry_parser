@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Bolkerstraße 31 , 40213 Düsseldorf ."
+                "text": " Bolkerstraße 31, 40213 Düsseldorf."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Velbert",
+                    "dismissed": true,
                     "dob": "1976-12-14",
                     "lastname": "Aksu",
                     "name": "Eren"
                 },
-                "text": " Aksu , Eren , Velbert , * 14.12.1976 ."
+                "text": " Aksu, Eren, Velbert, *14.12.1976."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
                     "dob": "1979-09-03",
                     "lastname": "Durmaz",
                     "name": "Seracettin"
                 },
-                "text": " Durmaz , Seracettin , Düsseldorf , * 09.03.1979 ."
+                "text": " Durmaz, Seracettin, Düsseldorf, *09.03.1979."
             }
         ]
     }

@@ -19,12 +19,12 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Boschstraße 3 , 61239 Ober - Mörlen ."
+                "text": " Boschstraße 3, 61239 Ober-Mörlen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Tokyo",
                     "dob": "1952-05-26",
@@ -32,17 +32,18 @@
                     "lastname": "Sato",
                     "name": "Masahiro"
                 },
-                "text": " Sato , Masahiro , Tokyo , * 26.05.1952 , einzelvertretungsberechtigt ."
+                "text": " Sato, Masahiro, Tokyo, *26.05.1952, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Minamiashigara City ( Japan )",
+                    "city": "Minamiashigara City (Japan)",
+                    "dismissed": true,
                     "dob": "1954-05-19",
                     "lastname": "Inoue",
                     "name": "Yuji"
                 },
-                "text": " Inoue , Yuji , Minamiashigara City ( Japan ) , * 19.05.1954 ."
+                "text": " Inoue, Yuji, Minamiashigara City (Japan), *19.05.1954."
             }
         ]
     }

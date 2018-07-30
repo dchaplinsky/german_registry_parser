@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Friesenheim",
+                    "dismissed": true,
                     "dob": "1955-10-14",
                     "lastname": "Lehn",
                     "name": "Wolfgang"
                 },
-                "text": " Lehn , Wolfgang , Friesenheim , * 14.10.1955"
+                "text": " Lehn, Wolfgang, Friesenheim, *14.10.1955"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Tutzing",
                     "dob": "1959-03-26",
                     "lastname": "Guske",
                     "name": "Manfred"
                 },
-                "text": " Guske , Manfred , Tutzing , * 26.03.1959"
+                "text": " Guske, Manfred, Tutzing, *26.03.1959"
             }
         ]
     }

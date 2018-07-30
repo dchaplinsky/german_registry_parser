@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -28,21 +28,22 @@
                 "payload": {
                     "city": "Gräfenhainichen",
                     "dob": "1962-04-23",
-                    "flag": "einzelvertretungsberechtigt  solange bis ein weiterer Liquidator bestellt wird",
-                    "lastname": "Sagner",
+                    "flag": "einzelvertretungsberechtigt solange bis ein weiterer Liquidator bestellt wird",
+                    "lastname": ": Sagner",
                     "name": "Thomas"
                 },
-                "text": " Sagner , Thomas , Gräfenhainichen , * 23.04.1962 , einzelvertretungsberechtigt , solange bis ein weiterer Liquidator bestellt wird ."
+                "text": ": Sagner, Thomas, Gräfenhainichen, *23.04.1962, einzelvertretungsberechtigt, solange bis ein weiterer Liquidator bestellt wird."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Gräfenhainichen",
+                    "dismissed": true,
                     "dob": "1964-10-07",
                     "lastname": "Sagner",
                     "name": "Heidi"
                 },
-                "text": " Sagner , Heidi , Gräfenhainichen , * 10.07.1964 ."
+                "text": " Sagner, Heidi, Gräfenhainichen, *10.07.1964."
             }
         ]
     }

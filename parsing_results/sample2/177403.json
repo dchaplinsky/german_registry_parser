@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kelkheim",
                     "dob": "1962-01-05",
@@ -26,17 +26,18 @@
                     "lastname": "Götz",
                     "name": "Elmar Bernhard"
                 },
-                "text": " Götz , Elmar Bernhard , Kelkheim , * 01.05.1962 , einzelvertretungsberechtigt"
+                "text": " Götz, Elmar Bernhard, Kelkheim, *01.05.1962, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1964-08-01",
                     "lastname": "van de Maat",
                     "name": "Dirk"
                 },
-                "text": " van de Maat , Dirk , Frankfurt am Main , * 08.01.1964"
+                "text": " van de Maat, Dirk, Frankfurt am Main, *08.01.1964"
             }
         ]
     }

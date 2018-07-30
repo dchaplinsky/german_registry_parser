@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -31,17 +31,18 @@
                     "lastname": "Streckmann",
                     "name": "Bernd"
                 },
-                "text": " Streckmann , Bernd , Ratingen , * 31.05.1966 ."
+                "text": " Streckmann, Bernd, Ratingen, *31.05.1966."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "California ( USA )",
+                    "city": "California (USA)",
+                    "dismissed": true,
                     "dob": "1964-02-29",
                     "lastname": "Dirk",
                     "name": "Brian P"
                 },
-                "text": " Dirk , Brian P . , California ( USA ) , * 29.02.1964 ."
+                "text": " Dirk, Brian P., California (USA), *29.02.1964."
             }
         ]
     }

@@ -18,34 +18,36 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Velbert",
+                    "dismissed": true,
                     "dob": "1964-04-24",
                     "lastname": "Hickmann",
                     "name": "Matthias"
                 },
-                "text": " Hickmann , Matthias , Velbert , * 24.04.1964 ."
+                "text": " Hickmann, Matthias, Velbert, *24.04.1964."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Leverkusen",
+                    "dismissed": true,
                     "dob": "1961-06-08",
                     "lastname": "Müller",
                     "name": "Georg"
                 },
-                "text": " Müller , Georg , Leverkusen , * 06.08.1961 ."
+                "text": " Müller, Georg, Leverkusen, *06.08.1961."
             },
             {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Krailling",
                     "dob": "1969-03-06",
-                    "lastname": "Dr . Afting",
+                    "lastname": "Doctor Afting",
                     "name": "Matthias Christian"
                 },
-                "text": " Dr . Afting , Matthias Christian , Krailling , * 03.06.1969 ."
+                "text": " Doctor Afting, Matthias Christian, Krailling, *03.06.1969."
             }
         ]
     }

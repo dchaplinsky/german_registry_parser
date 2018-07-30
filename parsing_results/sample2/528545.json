@@ -19,30 +19,31 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Wilhelm - Tell - Straße 14 , 40219 Düsseldorf ."
+                "text": " Wilhelm-Tell-Straße 14, 40219 Düsseldorf."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1973-09-30",
                     "lastname": "Vilensky",
                     "name": "Denis"
                 },
-                "text": " Vilensky , Denis , Berlin , * 30.09.1973 ."
+                "text": " Vilensky, Denis, Berlin, *30.09.1973."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Moskau / Russland",
+                    "city": "Moskau/Russland",
                     "dob": "1968-12-02",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Glushko",
                     "name": "Eduard"
                 },
-                "text": " Glushko , Eduard , Moskau / Russland , * 12.02.1968 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Glushko, Eduard, Moskau/Russland, *12.02.1968, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

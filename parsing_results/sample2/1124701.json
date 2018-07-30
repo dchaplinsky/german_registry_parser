@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1966-04-15",
                     "lastname": "Soiron",
                     "name": "Marcel"
                 },
-                "text": " Soiron , Marcel , Köln , * 15.04.1966 ."
+                "text": " Soiron, Marcel, Köln, *15.04.1966."
             }
         ]
     }

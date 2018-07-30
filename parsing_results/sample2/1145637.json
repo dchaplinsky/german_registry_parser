@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Sauerberg",
                     "dob": "1964-11-26",
@@ -26,17 +26,18 @@
                     "lastname": "Lachaise",
                     "name": "Michael"
                 },
-                "text": " Lachaise , Michael , Sauerberg , * 26.11.1964 , einzelvertretungsberechtigt ."
+                "text": " Lachaise, Michael, Sauerberg, *26.11.1964, einzelvertretungsberechtigt."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Grainbach",
+                    "dismissed": true,
                     "dob": "1964-11-26",
                     "lastname": "Lachaise",
                     "name": "Michael"
                 },
-                "text": " Lachaise , Michael , Grainbach , * 26.11.1964 ."
+                "text": " Lachaise, Michael, Grainbach, *26.11.1964."
             }
         ]
     }

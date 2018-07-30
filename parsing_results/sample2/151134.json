@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Schkeuditz OT Wolteritz",
+                    "dismissed": true,
                     "dob": "1969-08-30",
                     "lastname": "Merten",
                     "name": "Silke Sindy"
                 },
-                "text": " Merten , Silke Sindy , Schkeuditz OT Wolteritz , * 30.08.1969 ."
+                "text": " Merten, Silke Sindy, Schkeuditz OT Wolteritz, *30.08.1969."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Leipzig OT Stahmeln",
                     "dob": "1965-08-15",
@@ -42,7 +43,7 @@
                     "lastname": "Beranek",
                     "name": "Adam"
                 },
-                "text": " Beranek , Adam , Leipzig OT Stahmeln , * 15.08.1965 , einzelvertretungsberechtigt"
+                "text": " Beranek, Adam, Leipzig OT Stahmeln, *15.08.1965, einzelvertretungsberechtigt"
             }
         ]
     }

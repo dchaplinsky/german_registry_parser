@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Creazzo Vicenza",
+                    "dismissed": true,
                     "dob": "1974-11-12",
                     "lastname": "Rigo",
                     "name": "Giulia"
                 },
-                "text": " Rigo , Giulia , Creazzo Vicenza , * 11.12.1974"
+                "text": " Rigo, Giulia, Creazzo Vicenza, *11.12.1974"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Oxford / Großbritannien",
+                    "city": "Oxford/Großbritannien",
                     "dob": "1966-12-13",
                     "flag": "sole representation",
                     "lastname": "Khaitan",
                     "name": "Mandira"
                 },
-                "text": " Khaitan , Mandira , Oxford / Großbritannien , * 13.12.1966 , einzelvertretungsberechtigt"
+                "text": " Khaitan, Mandira, Oxford/Großbritannien, *13.12.1966, einzelvertretungsberechtigt"
             }
         ]
     }

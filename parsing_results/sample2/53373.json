@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=53373&land_abk=sl"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Wiedemann",
                     "name": "Peter"
                 },
-                "text": " Wiedemann , Peter , Kirkel , * 12.04.1970 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Kirkel",
-                    "dob": "1970-12-04",
-                    "lastname": "Wiedemann",
-                    "name": "Peter"
-                },
-                "text": " Wiedemann , Peter , Kirkel , * 12.04.1970 ."
+                "text": " Wiedemann, Peter, Kirkel, *12.04.1970."
             }
         ]
     }

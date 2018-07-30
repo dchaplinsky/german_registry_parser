@@ -16,10 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=964887&land_abk=by"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Dr . med . Wiedemann , Alexander Julius , Allgemeinarzt , Eichenau , * 04.02.1951 ., error text was Cannot parse DOB  Allgemeinarzt  using regex"
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Eichenau",
+                    "dob": "1951-04-02",
+                    "lastname": ": Doctor med. Wiedemann",
+                    "name": "Alexander Julius",
+                    "position": "Allgemeinarzt"
+                },
+                "text": ": Doctor med. Wiedemann, Alexander Julius, Allgemeinarzt, Eichenau, *04.02.1951."
             }
         ]
     }

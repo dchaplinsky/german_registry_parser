@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bielefeld",
+                    "dismissed": true,
                     "dob": "1979-06-25",
                     "lastname": "van Dillen",
                     "name": "Adrian Niklaas"
                 },
-                "text": " van Dillen , Adrian Niklaas , Bielefeld , * 25.06.1979 ."
+                "text": " van Dillen, Adrian Niklaas, Bielefeld, *25.06.1979."
             }
         ]
     }

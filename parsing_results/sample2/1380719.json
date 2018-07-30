@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Issum",
+                    "dismissed": true,
                     "dob": "1978-02-22",
                     "lastname": "Becker",
                     "name": "Igor"
                 },
-                "text": " Becker , Igor , Issum , * 22.02.1978"
+                "text": " Becker, Igor, Issum, *22.02.1978"
             },
             {
                 "class": "Liquidator",
@@ -35,7 +36,7 @@
                     "lastname": "Reinke",
                     "name": "Andreas"
                 },
-                "text": " Reinke , Andreas , Geldern , * 15.06.1981 ."
+                "text": " Reinke, Andreas, Geldern, *15.06.1981."
             }
         ]
     }

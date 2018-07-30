@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rheine",
+                    "dismissed": true,
                     "dob": "1941-07-02",
                     "lastname": "Kersting",
                     "name": "Josef"
                 },
-                "text": " Kersting , Josef , Rheine , * 07.02.1941 ."
+                "text": " Kersting, Josef, Rheine, *07.02.1941."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rheine",
                     "dob": "1939-11-21",
                     "lastname": "Kersting",
                     "name": "Anna geborene Michel"
                 },
-                "text": " Kersting , Anna geborene Michel , Rheine , * 21.11.1939"
+                "text": " Kersting, Anna geborene Michel, Rheine, *21.11.1939"
             }
         ]
     }

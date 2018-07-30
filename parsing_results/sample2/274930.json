@@ -19,25 +19,31 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Kirchmann , Marcus , Köln , * 04.11.1974 , mit der Befugnis , im Namen der Gesellschaft und zugleich als Vertreter der Steriserv Verwaltungsgesellschaft mbH , Köln ( AG Köln HRB 60569 ) und / oder der Steriserv GmbH & Co ., error text was no valid patter found, number of chunks: 7"
+                "text": "Cannot parse a AppointedManagingDirector from  Kirchmann, Marcus, Köln, *04.11.1974, mit der Befugnis, im Namen der Gesellschaft und zugleich als Vertreter der Steriserv Verwaltungsgesellschaft mbH, Köln ( AG Köln HRB 60569) und/ oder der Steriserv GmbH & Co., error text was no valid patter found, number of chunks: 7"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Kirchmann, Marcus, Köln, *04.11.1974, mit der Befugnis, im Namen der Gesellschaft und zugleich als Vertreter der Steriserv Verwaltungsgesellschaft mbH, Köln ( AG Köln HRB 60569) und/ oder der Steriserv GmbH & Co., error text was no valid patter found, number of chunks: 7"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "lastname": "Lovenfosse - Gehrt",
+                    "dismissed": true,
+                    "lastname": "Lovenfosse-Gehrt",
                     "name": "Roman"
                 },
-                "text": " Lovenfosse - Gehrt , Roman ."
+                "text": " Lovenfosse-Gehrt, Roman."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Kirchmann",
                     "name": "Marcus"
                 },
-                "text": " Kirchmann , Marcus ."
+                "text": " Kirchmann, Marcus."
             }
         ]
     }

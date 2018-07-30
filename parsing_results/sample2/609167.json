@@ -16,32 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=609167&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
                 "payload": {
-                    "city": "Villingen - Schwenningen",
+                    "city": "Villingen-Schwenningen",
                     "dob": "1983-10-02",
-                    "lastname": "Schreijäg - de Ortiz",
+                    "lastname": "Schreijäg-de Ortiz",
                     "name": "Aline geborene Schreijäg"
                 },
-                "text": " Schreijäg - de Ortiz , Aline geborene Schreijäg , Villingen - Schwenningen , * 10.02.1983 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Villingen - Schwenningen",
-                    "dob": "1983-10-02",
-                    "lastname": "Schreijäg - de Ortiz",
-                    "name": "Aline geborene Schreijäg"
-                },
-                "text": " Schreijäg - de Ortiz , Aline geborene Schreijäg , Villingen - Schwenningen , * 10.02.1983 ."
+                "text": " Schreijäg-de Ortiz, Aline geborene Schreijäg, Villingen-Schwenningen, *10.02.1983."
             }
         ]
     }

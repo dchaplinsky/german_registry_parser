@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Dorndorf - Steudnitz",
+                    "city": "Dorndorf-Steudnitz",
                     "dob": "1962-04-17",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Dr . Orth",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Doctor Orth",
                     "name": "Andreas"
                 },
-                "text": " Dr . Orth , Andreas , Dorndorf - Steudnitz , * 17.04.1962 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Orth, Andreas, Dorndorf-Steudnitz, *17.04.1962, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Waldbreitbach",
+                    "dismissed": true,
                     "dob": "1968-07-07",
                     "lastname": "Stattrop",
                     "name": "Bianka"
                 },
-                "text": " Stattrop , Bianka , Waldbreitbach , * 07.07.1968"
+                "text": " Stattrop, Bianka, Waldbreitbach, *07.07.1968"
             }
         ]
     }

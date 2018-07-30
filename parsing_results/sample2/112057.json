@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Burgau",
+                    "dismissed": true,
                     "lastname": "Zink",
                     "name": "Walter",
                     "position": "Maschinenbauingenieur"
                 },
-                "text": " Zink , Walter , Maschinenbauingenieur , Burgau ."
+                "text": " Zink, Walter, Maschinenbauingenieur, Burgau."
             }
         ]
     }

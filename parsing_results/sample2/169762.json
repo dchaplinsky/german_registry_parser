@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wolfsburg",
                     "dob": "1955-01-24",
-                    "lastname": "Dr . Fiebig",
+                    "lastname": "Doctor Fiebig",
                     "name": "Siegfried"
                 },
-                "text": " Dr . Fiebig , Siegfried , Wolfsburg , * 24.01.1955 ."
+                "text": " Doctor Fiebig, Siegfried, Wolfsburg, *24.01.1955."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Siegen",
+                    "dismissed": true,
                     "dob": "1957-10-08",
                     "lastname": "Rothenpieler",
-                    "name": "Hans - Joachim"
+                    "name": "Hans-Joachim"
                 },
-                "text": " Rothenpieler , Hans - Joachim , Siegen , * 10.08.1957 ."
+                "text": " Rothenpieler, Hans-Joachim, Siegen, *10.08.1957."
             }
         ]
     }

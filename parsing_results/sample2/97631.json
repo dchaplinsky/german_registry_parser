@@ -19,31 +19,32 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Müllerstr ."
+                "text": " Geschäftsanschrift: Müllerstr."
             },
             {
                 "label": "address",
-                "text": " Müllerstr ."
+                "text": " Müllerstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Baumann",
                     "name": "Werner"
                 },
-                "text": " Baumann , Werner"
+                "text": " Baumann, Werner"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hernau",
                     "dob": "1970-10-13",
-                    "lastname": "Dr . Metzner",
+                    "lastname": "Doctor Metzner",
                     "name": "Bernd"
                 },
-                "text": " Dr . Metzner , Bernd , * 13.10.1970 , Hernau ."
+                "text": " Doctor Metzner, Bernd, *13.10.1970, Hernau."
             }
         ]
     }

@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Zum Anger 2 , OT Grauenhagen , 17348 Woldegk ."
+                "text": " Zum Anger 2, OT Grauenhagen, 17348 Woldegk."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1977-12-07",
                     "lastname": "Tschepego",
                     "name": "Valentin"
                 },
-                "text": " Tschepego , Valentin , Berlin , * 12.07.1977 ."
+                "text": " Tschepego, Valentin, Berlin, *12.07.1977."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Woldegk OT Grauenhagen",
                     "dob": "1977-07-07",
                     "lastname": "Walther",
                     "name": "Florian"
                 },
-                "text": " Walther , Florian , Woldegk OT Grauenhagen , * 07.07.1977 ."
+                "text": " Walther, Florian, Woldegk OT Grauenhagen, *07.07.1977."
             }
         ]
     }

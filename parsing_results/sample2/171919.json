@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Kirchstraße 2 , 79170 Höchenschwand ."
+                "text": " Kirchstraße 2, 79170 Höchenschwand."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hartheim",
+                    "dismissed": true,
                     "dob": "1962-08-19",
                     "lastname": "Schultze",
                     "name": "Henrik"
                 },
-                "text": " Schultze , Henrik , Hartheim , * 19.08.1962 ."
+                "text": " Schultze, Henrik, Hartheim, *19.08.1962."
             }
         ]
     }

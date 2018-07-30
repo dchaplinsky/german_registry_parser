@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=46087&land_abk=sl"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Karwat",
                     "name": "Kai Jens"
                 },
-                "text": " Karwat , Kai Jens , Herne , * 20.10.1978 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Herne",
-                    "dob": "1978-10-20",
-                    "lastname": "Karwat",
-                    "name": "Kai Jens"
-                },
-                "text": " Karwat , Kai Jens , Herne , * 20.10.1978 ."
+                "text": " Karwat, Kai Jens, Herne, *20.10.1978."
             }
         ]
     }

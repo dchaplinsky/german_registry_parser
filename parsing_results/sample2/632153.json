@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=632153&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Baisch",
                     "name": "Volker"
                 },
-                "text": " Baisch , Volker , Reutlingen , * 01.09.1979 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Reutlingen",
-                    "dob": "1979-01-09",
-                    "lastname": "Baisch",
-                    "name": "Volker"
-                },
-                "text": " Baisch , Volker , Reutlingen , * 01.09.1979 ."
+                "text": " Baisch, Volker, Reutlingen, *01.09.1979."
             }
         ]
     }

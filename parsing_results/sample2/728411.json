@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Türkenfeld",
+                    "dismissed": true,
                     "dob": "1983-01-02",
                     "lastname": "Demmel",
                     "name": "Petra"
                 },
-                "text": " Demmel , Petra , Türkenfeld , * 01.02.1983 ."
+                "text": " Demmel, Petra, Türkenfeld, *01.02.1983."
             }
         ]
     }

@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Uracher Str ."
+                "text": " Uracher Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Dettingen an der Erms",
+                    "dismissed": true,
                     "dob": "1944-06-21",
                     "lastname": "Leibfarth",
                     "name": "Siegfried"
                 },
-                "text": " Leibfarth , Siegfried , Dettingen an der Erms , * 21.06.1944 ."
+                "text": " Leibfarth, Siegfried, Dettingen an der Erms, *21.06.1944."
             }
         ]
     }

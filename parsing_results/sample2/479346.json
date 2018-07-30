@@ -18,55 +18,56 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Neuwiesenstr ."
+                "text": " Neuwiesenstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
+                    "dismissed": true,
                     "dob": "1985-01-16",
                     "lastname": "Loch",
                     "name": "Roman"
                 },
-                "text": " Loch , Roman , Stuttgart , * 16.01.1985 ."
+                "text": " Loch, Roman, Stuttgart, *16.01.1985."
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Pfinztal",
                     "dob": "1989-07-25",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Loch",
                     "name": "Jonas David"
                 },
-                "text": " Loch , Jonas David , Pfinztal , * 25.07.1989 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Loch, Jonas David, Pfinztal, *25.07.1989, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Ravensburg",
                     "dob": "1982-12-21",
                     "lastname": "Blust",
                     "name": "Stefan"
                 },
-                "text": " Blust , Stefan , Ravensburg , * 21.12.1982"
+                "text": " Blust, Stefan, Ravensburg, *21.12.1982"
             }
         ]
     }

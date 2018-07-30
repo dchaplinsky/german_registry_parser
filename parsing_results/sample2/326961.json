@@ -19,43 +19,45 @@
         "flags": [
             {
                 "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
-                "text": "Sind mehrere Liquidatoren bestellt , wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten ."
+                "text": "Sind\\ mehrere\\ Liquidatoren\\ bestellt\\,\\ wird\\ die\\ Gesellschaft\\ durch\\ s\\ämtliche\\ Liquidatoren\\ gemeinsam\\ vertreten\\."
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " TP Haustechnik UG ( haftungsbeschränkt ) , Berlin , Güntherstraße 02 , 10318 Berlin ."
+                "text": " TP Haustechnik UG (haftungsbeschränkt), Berlin, Güntherstraße 02, 10318 Berlin."
             },
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Güntherstraße 02 , 10318 Berlin"
+                "text": " Geschäftsanschrift: Güntherstraße 02, 10318 Berlin"
             },
             {
                 "label": "address",
-                "text": " Güntherstraße 02 , 10318 Berlin"
+                "text": " Güntherstraße 02, 10318 Berlin"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Perutzki",
                     "name": "Lars"
                 },
-                "text": " Perutzki , Lars"
+                "text": " Perutzki, Lars"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Toth",
                     "name": "Aliz"
                 },
-                "text": " Toth , Aliz"
+                "text": " Toth, Aliz"
             },
             {
                 "class": "Liquidator",
@@ -65,7 +67,7 @@
                     "lastname": "Seiffert",
                     "name": "Torsten"
                 },
-                "text": " Seiffert , Torsten , * 06.10.1970 , Torgau"
+                "text": " Seiffert, Torsten, *06.10.1970, Torgau"
             }
         ]
     }

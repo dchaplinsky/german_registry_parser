@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Odelshofen",
+                    "dismissed": true,
                     "dob": "1947-12-26",
                     "lastname": "Steffen",
                     "name": "Udo"
                 },
-                "text": " Steffen , Udo , Odelshofen , * 26.12.1947 ."
+                "text": " Steffen, Udo, Odelshofen, *26.12.1947."
             },
             {
                 "class": "Liquidator",
@@ -41,7 +42,7 @@
                     "lastname": "Steffen",
                     "name": "Udo Rolf Alfons"
                 },
-                "text": " Steffen , Udo Rolf Alfons , Kehl , * 26.12.1947 ."
+                "text": " Steffen, Udo Rolf Alfons, Kehl, *26.12.1947."
             }
         ]
     }

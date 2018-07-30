@@ -19,50 +19,53 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
                     "dob": "1971-04-13",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Dr . Gerbaulet",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Doctor Gerbaulet",
                     "name": "Christian"
                 },
-                "text": " Dr . Gerbaulet , Christian , Düsseldorf , * 13.04.1971 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Gerbaulet, Christian, Düsseldorf, *13.04.1971, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "XS Maastricht / Niederlande",
+                    "city": "XS Maastricht/Niederlande",
+                    "dismissed": true,
                     "dob": "1960-09-10",
                     "lastname": "Burgers",
                     "name": "Evert"
                 },
-                "text": " Burgers , Evert , XS Maastricht / Niederlande , * 09.10.1960 ."
+                "text": " Burgers, Evert, XS Maastricht/Niederlande, *09.10.1960."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1971-04-13",
-                    "lastname": "Dr . Gerbaulet",
+                    "lastname": "Doctor Gerbaulet",
                     "name": "Christian"
                 },
-                "text": " Dr . Gerbaulet , Christian , Düsseldorf , * 13.04.1971 ."
+                "text": " Doctor Gerbaulet, Christian, Düsseldorf, *13.04.1971."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Mönchengladbach",
+                    "dismissed": true,
                     "dob": "1963-11-12",
                     "lastname": "Schmuck",
                     "name": "Thomas"
                 },
-                "text": " Schmuck , Thomas , Mönchengladbach , * 11.12.1963 ."
+                "text": " Schmuck, Thomas, Mönchengladbach, *11.12.1963."
             }
         ]
     }

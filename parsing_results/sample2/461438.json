@@ -16,22 +16,28 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=461438&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Todorov , Dragan , Novibolman , Jagodnjak / Kroatien , * 14.10.1962 ., error text was Cannot parse DOB  Novibolman  using regex"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Split / Kroatien",
                     "dob": "1995-08-17",
                     "lastname": "Aleksic",
                     "name": "Petar"
                 },
-                "text": " Aleksic , Petar , Split / Kroatien , * 17.08.1995 ."
+                "text": " Aleksic, Petar, Split / Kroatien, *17.08.1995."
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Jagodnjak / Kroatien",
+                    "dismissed": true,
+                    "dob": "1962-10-14",
+                    "lastname": "Todorov",
+                    "name": "Dragan",
+                    "position": "Novibolman"
+                },
+                "text": " Todorov, Dragan, Novibolman, Jagodnjak / Kroatien, *14.10.1962."
             }
         ]
     }

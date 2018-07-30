@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Westermühlstr ."
+                "text": " Westermühlstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1964-03-26",
                     "lastname": "Kristensen",
                     "name": "Thomas"
                 },
-                "text": " Kristensen , Thomas , München , * 26.03.1964 ."
+                "text": " Kristensen, Thomas, München, *26.03.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1968-02-12",
@@ -48,7 +49,7 @@
                     "lastname": "Ostergaard",
                     "name": "Pernille"
                 },
-                "text": " Ostergaard , Pernille , München , * 02.12.1968 , einzelvertretungsberechtigt"
+                "text": " Ostergaard, Pernille, München, *02.12.1968, einzelvertretungsberechtigt"
             }
         ]
     }

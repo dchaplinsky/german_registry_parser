@@ -19,19 +19,19 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  DGI P Limited , Birmingham / Großbritannien ( Companies House Birmingham , Nr . 6273888 ) , einzelvertretungsberechtigt mit der Befugnis - auch für die jeweiligen Direktoren der persönlich haftenden Gesellschafterin - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ., error text was a person without DOB, number of chunks: 5"
+                "text": "Cannot parse a PersonalPartner from  DGI P Limited, Birmingham/Großbritannien (Companies House Birmingham, Nr. 6273888), einzelvertretungsberechtigt mit der Befugnis - auch für die jeweiligen Direktoren der persönlich haftenden Gesellschafterin -, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was a person without DOB, number of chunks: 5"
             }
         ],
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Mülheimer Strasse 12 , 40878 Ratingen ."
+                "text": " Mülheimer Strasse 12, 40878 Ratingen."
             }
         ]
     }

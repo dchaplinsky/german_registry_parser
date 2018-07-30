@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hildesheim",
+                    "dismissed": true,
                     "dob": "1973-02-07",
                     "lastname": "Mehrle",
                     "name": "Nicolas"
                 },
-                "text": " Mehrle , Nicolas , Hildesheim , * 02.07.1973"
+                "text": " Mehrle, Nicolas, Hildesheim, *02.07.1973"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hildesheim",
                     "dob": "1938-06-05",
                     "lastname": "Bürger",
                     "name": "Gerhard"
                 },
-                "text": " Bürger , Gerhard , Hildesheim , * 06.05.1938"
+                "text": " Bürger, Gerhard, Hildesheim, *06.05.1938"
             }
         ]
     }

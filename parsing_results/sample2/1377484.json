@@ -19,26 +19,22 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Heisinger Str ."
+                "text": " Heisinger Str."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Voelkel Beteiligungs GmbH , Essen ( Amtsgericht Essen HRB 17844 ) ."
+                    "company_name": " Voelkel Beteiligungs GmbH, Essen (Amtsgericht Essen HRB 17844)."
                 },
-                "text": " Voelkel Beteiligungs GmbH , Essen ( Amtsgericht Essen HRB 17844 ) ."
+                "text": " Voelkel Beteiligungs GmbH, Essen (Amtsgericht Essen HRB 17844)."
             },
             {
                 "class": "SingleProcuration",
@@ -48,17 +44,7 @@
                     "lastname": "Voelkel",
                     "name": "Claus"
                 },
-                "text": " Voelkel , Claus , Bochum , * 17.04.1971 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Bochum",
-                    "dob": "1971-04-17",
-                    "lastname": "Voelkel",
-                    "name": "Claus"
-                },
-                "text": " Voelkel , Claus , Bochum , * 17.04.1971 ."
+                "text": " Voelkel, Claus, Bochum, *17.04.1971."
             }
         ]
     }

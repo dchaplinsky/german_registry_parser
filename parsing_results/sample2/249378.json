@@ -18,22 +18,18 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Hofacker 5 , 65589 Hadamar ."
+                "text": " Hofacker 5, 65589 Hadamar."
             }
         ],
         "officers": [
@@ -46,7 +42,7 @@
                     "lastname": "Csader",
                     "name": "Roland"
                 },
-                "text": " Csader , Roland , Hadamar , * 23.04.1969 , einzelvertretungsberechtigt"
+                "text": " Csader, Roland, Hadamar, *23.04.1969, einzelvertretungsberechtigt"
             },
             {
                 "class": "SingleProcuration",
@@ -56,17 +52,7 @@
                     "lastname": "Hackenbroch",
                     "name": "Nicole"
                 },
-                "text": " Hackenbroch , Nicole , Worms , * 07.04.1972 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Worms",
-                    "dob": "1972-07-04",
-                    "lastname": "Hackenbroch",
-                    "name": "Nicole"
-                },
-                "text": " Hackenbroch , Nicole , Worms , * 07.04.1972 ."
+                "text": " Hackenbroch, Nicole, Worms, *07.04.1972."
             }
         ]
     }

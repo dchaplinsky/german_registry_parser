@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Pulheim",
+                    "dismissed": true,
                     "dob": "1948-12-26",
                     "lastname": "Koppelmann",
-                    "name": "Hans - Günther"
+                    "name": "Hans-Günther"
                 },
-                "text": " Koppelmann , Hans - Günther , Pulheim , * 26.12.1948 ."
+                "text": " Koppelmann, Hans-Günther, Pulheim, *26.12.1948."
             }
         ]
     }

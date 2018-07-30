@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Schwalmstraße 301 , 41238 Mönchengladbach ."
+                "text": " Schwalmstraße 301, 41238 Mönchengladbach."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wegberg",
+                    "dismissed": true,
                     "dob": "1963-09-20",
                     "lastname": "Herren",
                     "name": "Ulrich"
                 },
-                "text": " Herren , Ulrich , Wegberg , * 20.09.1963 ."
+                "text": " Herren, Ulrich, Wegberg, *20.09.1963."
             }
         ]
     }

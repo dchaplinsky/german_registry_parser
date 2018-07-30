@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wieck",
+                    "dismissed": true,
                     "dob": "1972-02-11",
                     "lastname": "Raimund",
                     "name": "Thorsten"
                 },
-                "text": " Raimund , Thorsten , Wieck , * 02.11.1972 ."
+                "text": " Raimund, Thorsten, Wieck, *02.11.1972."
             }
         ]
     }

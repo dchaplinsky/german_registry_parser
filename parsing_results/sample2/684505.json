@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt",
+                    "dismissed": true,
                     "dob": "1962-01-24",
                     "lastname": "Deschler",
                     "name": "Robert"
                 },
-                "text": " Deschler , Robert , Frankfurt , * 24.01.1962 ."
+                "text": " Deschler, Robert, Frankfurt, *24.01.1962."
             }
         ]
     }

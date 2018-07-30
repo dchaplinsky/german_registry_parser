@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt",
+                    "dismissed": true,
                     "dob": "1954-08-20",
                     "lastname": "Dilekci",
                     "name": "Mahmut"
                 },
-                "text": " Dilekci , Mahmut , Frankfurt , * 20.08.1954 ."
+                "text": " Dilekci, Mahmut, Frankfurt, *20.08.1954."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Flörsheim",
                     "dob": "1967-10-06",
@@ -36,7 +37,7 @@
                     "lastname": "Özbek Meurer",
                     "name": "Necla"
                 },
-                "text": " Özbek Meurer , Necla , Flörsheim , * 10.06.1967 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Özbek Meurer, Necla, Flörsheim, *10.06.1967, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Dreieich",
+                    "dismissed": true,
                     "dob": "1962-01-15",
                     "lastname": "Haller",
                     "name": "Peter"
                 },
-                "text": " Haller , Peter , Dreieich , * 15.01.1962 ."
+                "text": " Haller, Peter, Dreieich, *15.01.1962."
             }
         ]
     }

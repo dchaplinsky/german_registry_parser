@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Bad Tölz",
+                    "dismissed": true,
                     "dob": "1977-12-06",
                     "lastname": "Kosyk",
                     "name": "Frank"
                 },
-                "text": " Kosyk , Frank , Bad Tölz , * 12.06.1977"
+                "text": " Kosyk, Frank, Bad Tölz, *12.06.1977"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Zürich",
                     "dob": "1972-02-02",
@@ -36,7 +37,7 @@
                     "lastname": "Tensing",
                     "name": "Markus"
                 },
-                "text": " Tensing , Markus , Zürich , * 02.02.1972 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen ."
+                "text": " Tensing, Markus, Zürich, *02.02.1972, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen."
             },
             {
                 "class": "CommonProcuration",
@@ -46,7 +47,7 @@
                     "lastname": "Manegold",
                     "name": "Nils"
                 },
-                "text": " Manegold , Nils , Dreieich , * 19.12.1971 ."
+                "text": " Manegold, Nils, Dreieich, *19.12.1971."
             }
         ]
     }

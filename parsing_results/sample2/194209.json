@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1962-07-18",
                     "lastname": "Petersen",
                     "name": "Karl"
                 },
-                "text": " Petersen , Karl , München , * 18.07.1962 ."
+                "text": " Petersen, Karl, München, *18.07.1962."
             }
         ]
     }

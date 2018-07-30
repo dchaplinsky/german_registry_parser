@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Tiefenbach",
+                    "dismissed": true,
                     "dob": "1940-03-22",
                     "lastname": "Schön",
                     "name": "Gerhard"
                 },
-                "text": " Schön , Gerhard , Tiefenbach , * 22.03.1940 ."
+                "text": " Schön, Gerhard, Tiefenbach, *22.03.1940."
             }
         ]
     }

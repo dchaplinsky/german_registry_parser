@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Berliner Straße 257 , 63067 Offenbach am Main ."
+                "text": " Berliner Straße 257, 63067 Offenbach am Main."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Obertshausen",
+                    "dismissed": true,
                     "dob": "1972-01-22",
                     "lastname": "Nicevic",
                     "name": "Husno"
                 },
-                "text": " Nicevic , Husno , Obertshausen , * 22.01.1972 ."
+                "text": " Nicevic, Husno, Obertshausen, *22.01.1972."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dob": "1972-04-03",
@@ -48,7 +49,7 @@
                     "lastname": "Günaydin",
                     "name": "Yadin"
                 },
-                "text": " Günaydin , Yadin , Frankfurt am Main , * 04.03.1972 , einzelvertretungsberechtigt"
+                "text": " Günaydin, Yadin, Frankfurt am Main, *04.03.1972, einzelvertretungsberechtigt"
             }
         ]
     }

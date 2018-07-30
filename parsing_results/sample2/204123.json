@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Garbsen",
+                    "dismissed": true,
                     "dob": "1964-03-21",
                     "lastname": "Osthushenrich",
                     "name": "Utz"
                 },
-                "text": " Osthushenrich , Utz , Garbsen , * 21.03.1964"
+                "text": " Osthushenrich, Utz, Garbsen, *21.03.1964"
             },
             {
                 "class": "Liquidator",
@@ -41,7 +42,7 @@
                     "lastname": "Osthushenrich",
                     "name": "Utz"
                 },
-                "text": " Osthushenrich , Utz , Wennigsen , * 21.03.1964"
+                "text": " Osthushenrich, Utz, Wennigsen, *21.03.1964"
             }
         ]
     }

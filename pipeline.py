@@ -66,7 +66,12 @@ if __name__ == "__main__":
     parser_parse.add_argument(
         "infile", help="Input file with company records, jsonlines, gzipped", type=str
     )
-
+    parser_parse.add_argument(
+        "--add_federal_state",
+        action="store_true",
+        default=False,
+        help="Add federal state to the filenames when parsing",
+    )
     parser_parse.add_argument(
         "outdir", type=str, help="path to a dir to store results in. Will be wiped!!!"
     )
@@ -77,7 +82,9 @@ if __name__ == "__main__":
         outfile = gzip.open(args.outfile, "wt")
 
         num_of_usual_records = round(
-            args.num_of_records * (100 - args.percent_of_relocated - args.percent_of_officers) / 100
+            args.num_of_records
+            * (100 - args.percent_of_relocated - args.percent_of_officers)
+            / 100
         )
         num_of_relocated_records = round(
             args.num_of_records * args.percent_of_relocated / 100
@@ -135,9 +142,10 @@ if __name__ == "__main__":
         print(num_of_officers_records, len(officers_records))
 
         for rec in chain(
-                random.sample(usual_records, num_of_usual_records),
-                random.sample(relocated_records, num_of_relocated_records),
-                random.sample(officers_records, num_of_officers_records)):
+            random.sample(usual_records, num_of_usual_records),
+            random.sample(relocated_records, num_of_relocated_records),
+            random.sample(officers_records, num_of_officers_records),
+        ):
             outfile.write(rec)
 
     elif args.operation == "parse":
@@ -154,13 +162,23 @@ if __name__ == "__main__":
                 p_doc = json.loads(l)
                 parsing_result, _ = parse_document(p_doc)
                 notice_id = p_doc["notice_id"]
+                federal_state = p_doc["federal_state"]
 
-                with open(os.path.join(outdir, notice_id + ".json"), "w") as fp:
+                if args.add_federal_state:
+                    fname = os.path.join(outdir, "{}_{}.json".format(notice_id, federal_state))
+                else:
+                    fname = os.path.join(outdir, "{}.json".format(notice_id))
+
+                with open(fname, "w") as fp:
                     if parsing_result:
-                        stats[notice_id].update({k: len(v) for k, v in parsing_result.items()})
+                        stats[notice_id].update(
+                            {k: len(v) for k, v in parsing_result.items()}
+                        )
                         possible_persons = dob_regex.findall(p_doc["full_text"])
 
-                        if len(possible_persons) > len(parsing_result.get("officers", [])):
+                        if len(possible_persons) > len(
+                            parsing_result.get("officers", [])
+                        ):
                             stats[notice_id]["might_have_unparsed_persons"] = 1
 
                         if "officers" not in parsing_result:
@@ -175,7 +193,7 @@ if __name__ == "__main__":
                         indent=4,
                         ensure_ascii=False,
                         sort_keys=True,
-                        default=str
+                        default=str,
                     )
 
         global_stats = Counter()
@@ -186,9 +204,11 @@ if __name__ == "__main__":
 
         fieldnames = ["notice_id"] + sorted(global_stats_headers)
 
-        with \
-                open(os.path.join(outdir, "__detailed_stats.csv"), "w") as f_detailed, \
-                open(os.path.join(outdir, "__global_stats.json"), "w") as f_global:
+        with open(
+            os.path.join(outdir, "__detailed_stats.csv"), "w"
+        ) as f_detailed, open(
+            os.path.join(outdir, "__global_stats.json"), "w"
+        ) as f_global:
             w = DictWriter(f_detailed, fieldnames=fieldnames)
             w.writeheader()
 
@@ -198,13 +218,9 @@ if __name__ == "__main__":
                 row.update(stats[k])
                 w.writerow(row)
 
-            json.dump(
-                global_stats,
-                f_global,
-                indent=4,
-                sort_keys=True)
+            json.dump(global_stats, f_global, indent=4, sort_keys=True)
 
-        with \
-                open(os.path.join(outdir, "__detailed_stats.csv"), "r") as f_in, \
-                open(os.path.join(outdir, "__detailed_stats.txt"), "w") as f_out:
+        with open(os.path.join(outdir, "__detailed_stats.csv"), "r") as f_in, open(
+            os.path.join(outdir, "__detailed_stats.txt"), "w"
+        ) as f_out:
             f_out.write(prettytable.from_csv(f_in).get_string())

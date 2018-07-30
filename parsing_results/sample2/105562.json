@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Nürnberg",
+                    "dismissed": true,
                     "dob": "1958-07-02",
                     "lastname": "Bettendorf",
                     "name": "Bernhard"
                 },
-                "text": " Bettendorf , Bernhard , Nürnberg , * 07.02.1958"
+                "text": " Bettendorf, Bernhard, Nürnberg, *07.02.1958"
             }
         ]
     }

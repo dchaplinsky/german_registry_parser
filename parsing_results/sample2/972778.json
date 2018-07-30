@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Neutraubling",
                     "dob": "1961-08-02",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Zimmermann",
                     "name": "Horst"
                 },
-                "text": " Zimmermann , Horst , Neutraubling , * 08.02.1961 , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Zimmermann, Horst, Neutraubling, *08.02.1961, mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Friedberg",
+                    "dismissed": true,
                     "dob": "1962-12-19",
                     "lastname": "Schatz",
                     "name": "Peter"
                 },
-                "text": " Schatz , Peter , Friedberg , * 19.12.1962 ."
+                "text": " Schatz, Peter, Friedberg, *19.12.1962."
             }
         ]
     }

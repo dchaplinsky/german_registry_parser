@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
-                    "lastname": "Dr . Brümmer",
+                    "dismissed": true,
+                    "lastname": "Doctor Brümmer",
                     "name": "Detlef",
                     "position": "Jurist"
                 },
-                "text": " Dr . Brümmer , Detlef , Jurist , Düsseldorf ."
+                "text": " Doctor Brümmer, Detlef, Jurist, Düsseldorf."
             }
         ]
     }

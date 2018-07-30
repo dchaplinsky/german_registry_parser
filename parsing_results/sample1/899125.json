@@ -16,10 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=899125&land_abk=nw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr . - Ing ., error text was a person without DOB, number of chunks: 1"
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Neuss",
+                    "dob": "1974-10-10",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Doktoringenieur Becher",
+                    "name": "Thorsten"
+                },
+                "text": " Doktoringenieur Becher, Thorsten, Neuss, *10.10.1974, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

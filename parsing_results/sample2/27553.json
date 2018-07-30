@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1971-07-23",
-                    "lastname": "Einsiedler - Johannsen",
+                    "lastname": "Einsiedler-Johannsen",
                     "name": "Tanja"
                 },
-                "text": " Einsiedler - Johannsen , Tanja , Hamburg , * 23.07.1971"
+                "text": " Einsiedler-Johannsen, Tanja, Hamburg, *23.07.1971"
             }
         ]
     }

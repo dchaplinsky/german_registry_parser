@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Ruhstorf",
+                    "dismissed": true,
                     "dob": "1953-07-15",
-                    "lastname": "Dr . Pulvermüller",
+                    "lastname": "Doctor Pulvermüller",
                     "name": "Jochen"
                 },
-                "text": " Dr . Pulvermüller , Jochen , Ruhstorf , * 15.07.1953 ."
+                "text": " Doctor Pulvermüller, Jochen, Ruhstorf, *15.07.1953."
             },
             {
                 "class": "Owner",
                 "payload": {
-                    "city": "Ruhstorf / Rott",
+                    "city": "Ruhstorf/Rott",
                     "dob": "1951-07-07",
                     "lastname": "Pulvermüller",
                     "name": "Iris geborene Merkle"
                 },
-                "text": " Pulvermüller , Iris geborene Merkle , Ruhstorf / Rott , * 07.07.1951 ."
+                "text": " Pulvermüller, Iris geborene Merkle, Ruhstorf/Rott, *07.07.1951."
             }
         ]
     }

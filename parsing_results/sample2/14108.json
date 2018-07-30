@@ -19,12 +19,12 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bielefeld",
                     "dob": "1955-01-04",
@@ -32,27 +32,29 @@
                     "lastname": "Graetz",
                     "name": "Michael"
                 },
-                "text": " Graetz , Michael , Bielefeld , * 01.04.1955 , einzelvertretungsberechtigt"
+                "text": " Graetz, Michael, Bielefeld, *01.04.1955, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1954-09-11",
                     "lastname": "Werner",
                     "name": "Elke geborene Alrutz"
                 },
-                "text": " Werner , Elke geborene Alrutz , Berlin , * 09.11.1954 ."
+                "text": " Werner, Elke geborene Alrutz, Berlin, *09.11.1954."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Herford",
+                    "dismissed": true,
                     "dob": "1956-12-22",
                     "lastname": "Alrutz",
                     "name": "Klaus"
                 },
-                "text": " Alrutz , Klaus , Herford , * 22.12.1956"
+                "text": " Alrutz, Klaus, Herford, *22.12.1956"
             }
         ]
     }

@@ -23,25 +23,27 @@
                     "city": "Porta Westfalica",
                     "dob": "1970-09-26",
                     "lastname": "Plath",
-                    "name": "Ulf - U"
+                    "name": "Ulf-U"
                 },
-                "text": " Plath , Ulf - U . , * 26.09.1970 , Porta Westfalica"
+                "text": " Plath, Ulf-U., *26.09.1970, Porta Westfalica"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Kaul",
-                    "name": "Frank - Rainer"
+                    "name": "Frank-Rainer"
                 },
-                "text": " Kaul , Frank - Rainer"
+                "text": " Kaul, Frank-Rainer"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Kühn",
                     "name": "Klaus"
                 },
-                "text": " Kühn , Klaus ."
+                "text": " Kühn, Klaus."
             }
         ]
     }

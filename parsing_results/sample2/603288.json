@@ -21,11 +21,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1971-11-20",
                     "lastname": "de Macedo",
                     "name": "Jorge"
                 },
-                "text": " de Macedo , Jorge , Düsseldorf , * 20.11.1971 ."
+                "text": " de Macedo, Jorge, Düsseldorf, *20.11.1971."
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Merta",
                     "name": "Roland"
                 },
-                "text": " Merta , Roland , Düsseldorf , * 05.12.1972 ."
+                "text": " Merta, Roland, Düsseldorf, *05.12.1972."
             }
         ]
     }

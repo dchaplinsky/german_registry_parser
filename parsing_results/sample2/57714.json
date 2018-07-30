@@ -19,17 +19,18 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Procur Assekuranzmakler GmbH , Bremen , Flughafenallee 28 , 28199 Bremen ."
+                "text": " Procur Assekuranzmakler GmbH, Bremen, Flughafenallee 28, 28199 Bremen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Rogge",
                     "name": "Stefan"
                 },
-                "text": " Rogge , Stefan"
+                "text": " Rogge, Stefan"
             },
             {
                 "class": "ManagingDirector",
@@ -39,15 +40,16 @@
                     "lastname": "Kleinfeld",
                     "name": "Ralph Michael"
                 },
-                "text": " Kleinfeld , Ralph Michael , * 14.12.1966 , Bochum"
+                "text": " Kleinfeld, Ralph Michael, *14.12.1966, Bochum"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Kleinfeld",
                     "name": "Ralph Michael"
                 },
-                "text": " Kleinfeld , Ralph Michael ."
+                "text": " Kleinfeld, Ralph Michael."
             }
         ]
     }

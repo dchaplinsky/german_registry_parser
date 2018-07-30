@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Flottmannstraße 55 , 44807 Bochum ."
+                "text": " Flottmannstraße 55, 44807 Bochum."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Bochum",
+                    "dismissed": true,
                     "dob": "1964-08-22",
                     "lastname": "Winzen",
                     "name": "Rolf"
                 },
-                "text": " Winzen , Rolf , Bochum , * 22.08.1964 ."
+                "text": " Winzen, Rolf, Bochum, *22.08.1964."
             }
         ]
     }

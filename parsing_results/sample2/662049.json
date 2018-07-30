@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Bukarest / Rumänien",
+                    "city": "Bukarest/ Rumänien",
                     "dob": "1984-10-12",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Brancusi",
                     "name": "Andrei Bogdan"
                 },
-                "text": " Brancusi , Andrei Bogdan , Bukarest / Rumänien , * 10.12.1984 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Brancusi, Andrei Bogdan, Bukarest/ Rumänien, *10.12.1984, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Moers",
+                    "dismissed": true,
                     "dob": "1978-06-18",
                     "lastname": "Bilali",
                     "name": "Ardijan"
                 },
-                "text": " Bilali , Ardijan , Moers , * 18.06.1978 ."
+                "text": " Bilali, Ardijan, Moers, *18.06.1978."
             }
         ]
     }

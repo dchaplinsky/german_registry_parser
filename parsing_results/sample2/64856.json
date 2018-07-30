@@ -19,31 +19,26 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "misc",
-                "text": " 600 EUR Nicht mehr Liquidator : Fritz , Gyula"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "officers": [
             {
-                "class": "Liquidator",
+                "class": "NotALiquidator",
                 "payload": {
-                    "lastname": "Fritz",
+                    "dismissed": true,
+                    "lastname": ": Fritz",
                     "name": "Gyula"
                 },
-                "text": " Fritz , Gyula"
+                "text": ": Fritz, Gyula"
             },
             {
                 "class": "ManagingDirector",
@@ -53,7 +48,7 @@
                     "lastname": "Krug",
                     "name": "Heinz Jürgen"
                 },
-                "text": " Krug , Heinz Jürgen , * 22.10.1948 , Berlin"
+                "text": " Krug, Heinz Jürgen, *22.10.1948, Berlin"
             }
         ]
     }

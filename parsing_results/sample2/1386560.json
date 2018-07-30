@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Best / Niederlande",
+                    "dismissed": true,
                     "dob": "1964-10-24",
                     "lastname": "Ikonen",
                     "name": "Petri T"
                 },
-                "text": " Ikonen , Petri T . , Best / Niederlande , * 24.10.1964 ."
+                "text": " Ikonen, Petri T., Best / Niederlande, *24.10.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Täby / Schweden",
                     "dob": "1967-02-09",
@@ -36,7 +37,7 @@
                     "lastname": "Vatn",
                     "name": "Tom Mikael"
                 },
-                "text": " Vatn , Tom Mikael , Täby / Schweden , * 02.09.1967 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Vatn, Tom Mikael, Täby / Schweden, *02.09.1967, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "CommonProcuration",
@@ -46,7 +47,7 @@
                     "lastname": "Bauer",
                     "name": "Michael"
                 },
-                "text": " Bauer , Michael , Wesel , * 17.09.1969 ."
+                "text": " Bauer, Michael, Wesel, *17.09.1969."
             }
         ]
     }

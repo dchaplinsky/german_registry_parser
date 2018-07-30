@@ -19,57 +19,51 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Berghof 2 , 15859 Storkow OT Rieplos ."
+                "text": " Berghof 2, 15859 Storkow OT Rieplos."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Müller",
                     "name": "Dieter"
                 },
-                "text": " Müller , Dieter"
+                "text": " Müller, Dieter"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Storkow ( Mark )",
+                    "city": "Storkow (Mark)",
                     "dob": "1953-02-04",
                     "lastname": "Gärtner",
-                    "name": "Hans - Jürgen"
+                    "name": "Hans-Jürgen"
                 },
-                "text": " Gärtner , Hans - Jürgen , * 02.04.1953 , Storkow ( Mark )"
+                "text": " Gärtner, Hans-Jürgen, *02.04.1953, Storkow (Mark)"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Feustel",
                     "name": "Ilona geborene Biesterfeld"
                 },
-                "text": " Feustel , Ilona geborene Biesterfeld ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Nicht mehr Prokurist : Feustel",
-                    "name": "Ilona geborene Biesterfeld"
-                },
-                "text": " Nicht mehr Prokurist : Feustel , Ilona geborene Biesterfeld ."
+                "text": " Feustel, Ilona geborene Biesterfeld."
             }
         ]
     }

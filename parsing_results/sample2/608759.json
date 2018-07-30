@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Simmerath",
                     "dob": "1957-10-26",
@@ -26,17 +26,18 @@
                     "lastname": "Nießen",
                     "name": "Achim"
                 },
-                "text": " Nießen , Achim , Simmerath , * 26.10.1957 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Nießen, Achim, Simmerath, *26.10.1957, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Monschau",
+                    "dismissed": true,
                     "dob": "1974-07-25",
                     "lastname": "Förster",
                     "name": "Marco"
                 },
-                "text": " Förster , Marco , Monschau , * 25.07.1974 ."
+                "text": " Förster, Marco, Monschau, *25.07.1974."
             }
         ]
     }

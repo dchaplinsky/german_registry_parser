@@ -18,22 +18,23 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Borcherdt",
                     "name": "Antje"
                 },
-                "text": " Borcherdt , Antje ."
+                "text": " Borcherdt, Antje."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Zürich / Schweiz",
                     "dob": "1972-08-12",
                     "lastname": "Hahr",
                     "name": "Andrea"
                 },
-                "text": " Hahr , Andrea , Zürich / Schweiz , * 08.12.1972"
+                "text": " Hahr, Andrea, Zürich / Schweiz, *08.12.1972"
             }
         ]
     }

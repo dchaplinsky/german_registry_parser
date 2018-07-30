@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bergkamen",
+                    "dismissed": true,
                     "dob": "1962-07-14",
                     "lastname": "Scholz",
                     "name": "Werner"
                 },
-                "text": " Scholz , Werner , Bergkamen , * 14.07.1962 ."
+                "text": " Scholz, Werner, Bergkamen, *14.07.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bochum",
                     "dob": "1977-09-23",
@@ -36,7 +37,7 @@
                     "lastname": "Rosenbohm",
                     "name": "Tim"
                 },
-                "text": " Rosenbohm , Tim , Bochum , * 23.09.1977 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Rosenbohm, Tim, Bochum, *23.09.1977, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

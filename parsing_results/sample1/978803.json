@@ -16,6 +16,26 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=978803&land_abk=nw"
     },
     "parsed": {
+        "flags": [
+            {
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
+            },
+            {
+                "flag": "If only one managing director is appointed, he represents the company alone.",
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
+            },
+            {
+                "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " hansaring 1, 49504 lotte."
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -26,7 +46,7 @@
                     "lastname": "suk",
                     "name": "chang jing"
                 },
-                "text": " suk , chang jing , gangnamgu seoul 135-920 / republik korea , * 06.02.1952 , einzelvertretungsberechtigt mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen ."
+                "text": " suk, chang jing, gangnamgu seoul 135-920 / republik korea, *06.02.1952, einzelvertretungsberechtigt mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",
@@ -36,17 +56,7 @@
                     "lastname": "prior",
                     "name": "isabella"
                 },
-                "text": " prior , isabella , lotte , * 24.09.1984 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "lotte",
-                    "dob": "1984-09-24",
-                    "lastname": "prior",
-                    "name": "isabella"
-                },
-                "text": " prior , isabella , lotte , * 24.09.1984 ."
+                "text": " prior, isabella, lotte, *24.09.1984."
             }
         ]
     }

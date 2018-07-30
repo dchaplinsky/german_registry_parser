@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Südfeld 22 , 26907 Walchum ."
+                "text": " Südfeld 22, 26907 Walchum."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Walchum",
+                    "dismissed": true,
                     "dob": "1944-06-07",
                     "lastname": "Schweers",
                     "name": "Hermann"
                 },
-                "text": " Schweers , Hermann , Walchum , * 06.07.1944 ."
+                "text": " Schweers, Hermann, Walchum, *06.07.1944."
             }
         ]
     }

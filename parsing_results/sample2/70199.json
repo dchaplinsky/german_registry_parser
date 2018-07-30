@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Schopfheim",
+                    "dismissed": true,
                     "dob": "1965-11-25",
                     "lastname": "de Lange",
                     "name": "Hendrik Johan"
                 },
-                "text": " de Lange , Hendrik Johan , Schopfheim , * 25.11.1965 ."
+                "text": " de Lange, Hendrik Johan, Schopfheim, *25.11.1965."
             }
         ]
     }

@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -32,7 +32,7 @@
                     "lastname": "Dahlhaus",
                     "name": "Hermann"
                 },
-                "text": " Dahlhaus , Hermann , Bingen am Rhein , * 05.04.1947 , einzelvertretungsberechtigt ."
+                "text": " Dahlhaus, Hermann, Bingen am Rhein, *05.04.1947, einzelvertretungsberechtigt."
             },
             {
                 "class": "Liquidator",
@@ -43,27 +43,29 @@
                     "lastname": "Höhne",
                     "name": "Heinz Günter"
                 },
-                "text": " Höhne , Heinz Günter , Mainz , * 01.05.1957 , einzelvertretungsberechtigt ."
+                "text": " Höhne, Heinz Günter, Mainz, *01.05.1957, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rockenberg",
+                    "dismissed": true,
                     "dob": "1967-02-02",
                     "lastname": "Noll",
                     "name": "Ralf Paul"
                 },
-                "text": " Noll , Ralf Paul , Rockenberg , * 02.02.1967"
+                "text": " Noll, Ralf Paul, Rockenberg, *02.02.1967"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Wiesbaden",
+                    "dismissed": true,
                     "dob": "1969-09-10",
                     "lastname": "Naumann",
                     "name": "Christoph"
                 },
-                "text": " Naumann , Christoph , Wiesbaden , * 09.10.1969 ."
+                "text": " Naumann, Christoph, Wiesbaden, *09.10.1969."
             }
         ]
     }

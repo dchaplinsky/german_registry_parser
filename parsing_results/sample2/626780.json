@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Hiroshima / Japan",
+                    "city": "Hiroshima/Japan",
+                    "dismissed": true,
                     "lastname": "Tamiaki",
                     "name": "Fumiya",
                     "position": "Kaufmann"
                 },
-                "text": " Tamiaki , Fumiya , Kaufmann , Hiroshima / Japan ."
+                "text": " Tamiaki, Fumiya, Kaufmann, Hiroshima/Japan."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Hiroshima / Japan",
+                    "city": "Hiroshima/Japan",
                     "dob": "1974-11-22",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Tamiaki",
                     "name": "Kiyofumi"
                 },
-                "text": " Tamiaki , Kiyofumi , Hiroshima / Japan , * 22.11.1974 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Tamiaki, Kiyofumi, Hiroshima/Japan, *22.11.1974, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

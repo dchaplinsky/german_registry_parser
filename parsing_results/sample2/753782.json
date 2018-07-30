@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Seekirchen am Wallersee / Österreich / Österreich",
+                    "city": "Seekirchen am Wallersee/Österreich / Österreich",
+                    "dismissed": true,
                     "dob": "1971-12-25",
                     "lastname": "Eisen",
                     "name": "Thomas"
                 },
-                "text": " Eisen , Thomas , Seekirchen am Wallersee / Österreich / Österreich , * 25.12.1971"
+                "text": " Eisen, Thomas, Seekirchen am Wallersee/Österreich / Österreich, *25.12.1971"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Köln",
                     "dob": "1965-11-12",
                     "lastname": "Heublein",
                     "name": "Carsten"
                 },
-                "text": " Heublein , Carsten , Köln , * 11.12.1965 ."
+                "text": " Heublein, Carsten, Köln, *11.12.1965."
             }
         ]
     }

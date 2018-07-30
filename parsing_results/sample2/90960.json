@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1955-01-05",
                     "lastname": "Schlitt",
                     "name": "Roland"
                 },
-                "text": " Schlitt , Roland , Köln , * 01.05.1955 ."
+                "text": " Schlitt, Roland, Köln, *01.05.1955."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Lotte",
                     "dob": "1971-01-28",
                     "lastname": "Schilaske",
                     "name": "Holger"
                 },
-                "text": " Schilaske , Holger , Lotte , * 28.01.1971"
+                "text": " Schilaske, Holger, Lotte, *28.01.1971"
             }
         ]
     }

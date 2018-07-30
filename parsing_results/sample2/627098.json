@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Neutraubling",
+                    "dismissed": true,
                     "dob": "1989-10-15",
                     "lastname": "Seidl",
                     "name": "Tobias"
                 },
-                "text": " Seidl , Tobias , Neutraubling , * 15.10.1989 ."
+                "text": " Seidl, Tobias, Neutraubling, *15.10.1989."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Sonnefeld",
                     "dob": "1974-02-11",
@@ -42,7 +43,7 @@
                     "lastname": "Stüpfert",
                     "name": "Mario"
                 },
-                "text": " Stüpfert , Mario , Sonnefeld , * 02.11.1974 , einzelvertretungsberechtigt"
+                "text": " Stüpfert, Mario, Sonnefeld, *02.11.1974, einzelvertretungsberechtigt"
             }
         ]
     }

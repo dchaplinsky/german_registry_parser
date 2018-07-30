@@ -19,13 +19,13 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Hauptstraße 27 a , 59969 Bromskirchen ."
+                "text": " Hauptstraße 27 a, 59969 Bromskirchen."
             }
         ],
         "officers": [
@@ -34,10 +34,10 @@
                 "payload": {
                     "city": "Bromskirchen",
                     "dob": "1958-04-14",
-                    "lastname": "Paulus",
+                    "lastname": ": Paulus",
                     "name": "Jürgen"
                 },
-                "text": " Paulus , Jürgen , Bromskirchen , * 14.04.1958 ."
+                "text": ": Paulus, Jürgen, Bromskirchen, *14.04.1958."
             }
         ]
     }

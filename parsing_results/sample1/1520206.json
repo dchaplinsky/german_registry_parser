@@ -16,13 +16,24 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1520206&land_abk=nw"
     },
     "parsed": {
+        "labels": [
+            {
+                "label": "address",
+                "text": " pulheim."
+            },
+            {
+                "label": "address",
+                "text": " sachsstr."
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " napasai media hören + sehen verwaltungs - gmbh , pulheim ( amtsgericht köln hrb 60083 ) ."
+                    "lastname": "napasai media hören + sehen verwaltungs-gmbh",
+                    "name": "pulheim (amtsgericht köln hrb 60083)"
                 },
-                "text": " napasai media hören + sehen verwaltungs - gmbh , pulheim ( amtsgericht köln hrb 60083 ) ."
+                "text": " napasai media hören + sehen verwaltungs-gmbh, pulheim (amtsgericht köln hrb 60083)."
             }
         ]
     }

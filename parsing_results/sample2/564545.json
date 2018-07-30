@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Ratingen",
+                    "dismissed": true,
                     "dob": "1978-06-23",
                     "lastname": "Pagel",
                     "name": "Tobias"
                 },
-                "text": " Pagel , Tobias , Ratingen , * 23.06.1978 ."
+                "text": " Pagel, Tobias, Ratingen, *23.06.1978."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wassenberg",
                     "dob": "1960-02-25",
@@ -36,7 +37,7 @@
                     "lastname": "Kessler",
                     "name": "Frank"
                 },
-                "text": " Kessler , Frank , Wassenberg , * 25.02.1960 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Kessler, Frank, Wassenberg, *25.02.1960, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

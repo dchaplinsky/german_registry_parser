@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=519295&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Simmern",
+                    "dismissed": true,
                     "dob": "1963-12-18",
                     "lastname": "Frey",
                     "name": "Friedrich Bernd"
                 },
-                "text": " Frey , Friedrich Bernd , Simmern , * 18.12.1963 ."
+                "text": " Frey, Friedrich Bernd, Simmern, *18.12.1963."
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +36,7 @@
                     "lastname": "Frühwein",
                     "name": "Uwe"
                 },
-                "text": " Frühwein , Uwe , Münster , * 26.04.1964 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Münster",
-                    "dob": "1964-04-26",
-                    "lastname": "Frühwein",
-                    "name": "Uwe"
-                },
-                "text": " Frühwein , Uwe , Münster , * 26.04.1964 ."
+                "text": " Frühwein, Uwe, Münster, *26.04.1964."
             }
         ]
     }

@@ -16,10 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=24252&land_abk=rp"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Berktold , Hans Werner , Traben - Trarbach , * 15.08.1941 . bestellt als Geschäftsführer : Ulrich , Heinz , Niederhausen , * 22.05.1953 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ., error text was no valid patter found, number of chunks: 8"
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Niederhausen",
+                    "dob": "1953-05-22",
+                    "flag": "vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Ulrich",
+                    "name": "Heinz"
+                },
+                "text": " Ulrich, Heinz, Niederhausen, *22.05.1953, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

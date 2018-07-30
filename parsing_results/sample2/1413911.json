@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Duisburg",
+                    "dismissed": true,
                     "dob": "1979-12-18",
                     "lastname": "Boni",
                     "name": "Roland"
                 },
-                "text": " Boni , Roland , Duisburg , * 18.12.1979 ."
+                "text": " Boni, Roland, Duisburg, *18.12.1979."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Neuss",
                     "dob": "1967-01-26",
@@ -36,7 +37,7 @@
                     "lastname": "Zsiga",
                     "name": "Jenö"
                 },
-                "text": " Zsiga , Jenö , Neuss , * 26.01.1967 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Zsiga, Jenö, Neuss, *26.01.1967, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

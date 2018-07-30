@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Holzkirchen",
+                    "dismissed": true,
                     "dob": "1959-06-21",
                     "lastname": "Peters",
                     "name": "Martin"
                 },
-                "text": " Peters , Martin , Holzkirchen , * 21.06.1959 ."
+                "text": " Peters, Martin, Holzkirchen, *21.06.1959."
             }
         ]
     }

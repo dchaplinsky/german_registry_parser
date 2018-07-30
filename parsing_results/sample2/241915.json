@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Leipzig",
+                    "dismissed": true,
                     "dob": "1972-01-10",
                     "lastname": "Staroste",
                     "name": "Paul"
                 },
-                "text": " Staroste , Paul , Leipzig , * 01.10.1972 ."
+                "text": " Staroste, Paul, Leipzig, *01.10.1972."
             }
         ]
     }

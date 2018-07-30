@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             },
             {
                 "flag": "Sole trader",
@@ -28,12 +28,13 @@
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "lastname": "Firma ROSTA - Buchladen Gesellschaft mit beschränkter Haftung",
-                    "name": "Münster ( Amtsgericht Münster HRB 760 )"
+                    "dismissed": true,
+                    "lastname": "Firma ROSTA-Buchladen Gesellschaft mit beschränkter Haftung",
+                    "name": "Münster (Amtsgericht Münster HRB 760)"
                 },
-                "text": " Firma ROSTA - Buchladen Gesellschaft mit beschränkter Haftung , Münster ( Amtsgericht Münster HRB 760 ) ."
+                "text": " Firma ROSTA-Buchladen Gesellschaft mit beschränkter Haftung, Münster (Amtsgericht Münster HRB 760)."
             },
             {
                 "class": "Owner",
@@ -43,7 +44,7 @@
                     "lastname": "Frevert",
                     "name": "Elisabeth K"
                 },
-                "text": " Frevert , Elisabeth K . , Münster , * 08.09.1934 ."
+                "text": " Frevert, Elisabeth K., Münster, *08.09.1934."
             }
         ]
     }

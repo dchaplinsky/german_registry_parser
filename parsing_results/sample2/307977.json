@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Haid - und Neu - Str ."
+                "text": " Haid- und Neu-Str."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Birkenfeld",
+                    "dismissed": true,
                     "dob": "1956-10-19",
                     "lastname": "Jost",
                     "name": "Rainer"
                 },
-                "text": " Jost , Rainer , Birkenfeld , * 19.10.1956"
+                "text": " Jost, Rainer, Birkenfeld, *19.10.1956"
             }
         ]
     }

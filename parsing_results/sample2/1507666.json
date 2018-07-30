@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1971-03-16",
                     "lastname": "Schmaler",
                     "name": "Claudia"
                 },
-                "text": " Schmaler , Claudia , Köln , * 16.03.1971 ."
+                "text": " Schmaler, Claudia, Köln, *16.03.1971."
             }
         ]
     }

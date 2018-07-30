@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Velbert",
+                    "dismissed": true,
                     "dob": "1930-07-09",
                     "lastname": "Fliether",
                     "name": "Karl Joachim"
                 },
-                "text": " Fliether , Karl Joachim , Velbert , * 07.09.1930 ."
+                "text": " Fliether, Karl Joachim, Velbert, *07.09.1930."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Velbert",
                     "dob": "1954-01-19",
@@ -36,7 +37,7 @@
                     "lastname": "Fliether",
                     "name": "Stefan"
                 },
-                "text": " Fliether , Stefan , Velbert , * 19.01.1954 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Fliether, Stefan, Velbert, *19.01.1954, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=541401&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -32,17 +26,18 @@
                     "lastname": "Hayat",
                     "name": "Nazir"
                 },
-                "text": " Hayat , Nazir , Fulda , * 02.08.1971 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Hayat, Nazir, Fulda, *02.08.1971, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Fulda",
+                    "dismissed": true,
                     "dob": "1977-08-01",
                     "lastname": "Kubiak",
                     "name": "Carsten"
                 },
-                "text": " Kubiak , Carsten , Fulda , * 08.01.1977 ."
+                "text": " Kubiak, Carsten, Fulda, *08.01.1977."
             },
             {
                 "class": "SingleProcuration",
@@ -52,17 +47,7 @@
                     "lastname": "Heuer",
                     "name": "Kirsten"
                 },
-                "text": " Heuer , Kirsten , Bad Salzuflen , * 16.01.1961 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Bad Salzuflen",
-                    "dob": "1961-01-16",
-                    "lastname": "Heuer",
-                    "name": "Kirsten"
-                },
-                "text": " Heuer , Kirsten , Bad Salzuflen , * 16.01.1961 ."
+                "text": " Heuer, Kirsten, Bad Salzuflen, *16.01.1961."
             }
         ]
     }

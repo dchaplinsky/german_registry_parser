@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1960-03-30",
                     "lastname": "Krämer",
                     "name": "Ute"
                 },
-                "text": " Krämer , Ute , München , * 30.03.1960 ."
+                "text": " Krämer, Ute, München, *30.03.1960."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Berg",
                     "dob": "1956-02-16",
-                    "lastname": "Dr . Moser",
+                    "lastname": "Doctor Moser",
                     "name": "Rolf"
                 },
-                "text": " Dr . Moser , Rolf , Berg , * 16.02.1956 ."
+                "text": " Doctor Moser, Rolf, Berg, *16.02.1956."
             }
         ]
     }

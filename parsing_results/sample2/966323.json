@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rödinghausen",
                     "dob": "1944-12-06",
@@ -26,17 +26,18 @@
                     "lastname": "Coors",
                     "name": "Manfred"
                 },
-                "text": " Coors , Manfred , Rödinghausen , * 12.06.1944 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Coors, Manfred, Rödinghausen, *12.06.1944, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Backnang",
+                    "dismissed": true,
                     "dob": "1969-05-30",
                     "lastname": "Coors",
                     "name": "Andreas"
                 },
-                "text": " Coors , Andreas , Backnang , * 30.05.1969 ."
+                "text": " Coors, Andreas, Backnang, *30.05.1969."
             }
         ]
     }

@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Donnerschweer Straße 267 , 26123 Oldenburg ."
+                "text": " Donnerschweer Straße 267, 26123 Oldenburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Oldenburg",
+                    "dismissed": true,
                     "dob": "1937-02-27",
                     "lastname": "Dirks",
                     "name": "Klaus"
                 },
-                "text": " Dirks , Klaus , Oldenburg , * 27.02.1937 ."
+                "text": " Dirks, Klaus, Oldenburg, *27.02.1937."
             }
         ]
     }

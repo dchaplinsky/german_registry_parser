@@ -19,13 +19,13 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Sanders , Johannes Theodorus Engelbertus Maria , Kaufmann , 6721 MA Bennekom / Niederlande , * 07.06.1952 , einzelvertretungsberechtigt ., error text was Cannot parse DOB  Kaufmann  using regex"
+                "text": "Cannot parse a Liquidator from  Sanders, Johannes Theodorus Engelbertus Maria, Kaufmann, 6721MA Bennekom / Niederlande, *07.06.1952, einzelvertretungsberechtigt., error text was Cannot parse DOB  Kaufmann using regex"
             }
         ],
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Heidelberg",
+                    "dismissed": true,
                     "dob": "1963-04-29",
                     "lastname": "Klug",
                     "name": "Armin"
                 },
-                "text": " Klug , Armin , Heidelberg , * 29.04.1963 ."
+                "text": " Klug, Armin, Heidelberg, *29.04.1963."
             }
         ]
     }

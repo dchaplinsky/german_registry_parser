@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Am Güterbahnhof 2 , 38667 Bad Harzburg ."
+                "text": " Am Güterbahnhof 2, 38667 Bad Harzburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Braunschweig",
+                    "dismissed": true,
                     "dob": "1950-07-30",
                     "lastname": "Schmidt",
                     "name": "Gerhard"
                 },
-                "text": " Schmidt , Gerhard , Braunschweig , * 30.07.1950 ."
+                "text": " Schmidt, Gerhard, Braunschweig, *30.07.1950."
             }
         ]
     }

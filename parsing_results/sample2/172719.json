@@ -18,36 +18,37 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Weißenfelser Straße 14 , 04229 Leipzig ."
+                "text": " Weißenfelser Straße 14, 04229 Leipzig."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Leipzig",
+                    "dismissed": true,
                     "dob": "1954-01-21",
                     "lastname": "Friedrich",
                     "name": "Lutz"
                 },
-                "text": " Friedrich , Lutz , Leipzig , * 21.01.1954 ."
+                "text": " Friedrich, Lutz, Leipzig, *21.01.1954."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Solms",
                     "dob": "1972-02-09",
                     "lastname": "Schröder",
                     "name": "Jens"
                 },
-                "text": " Schröder , Jens , Solms , * 02.09.1972 ."
+                "text": " Schröder, Jens, Solms, *02.09.1972."
             }
         ]
     }

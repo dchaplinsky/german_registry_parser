@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Dreieich",
+                    "dismissed": true,
                     "dob": "1966-03-10",
                     "lastname": "Casey",
                     "name": "Paul"
                 },
-                "text": " Casey , Paul , Dreieich , * 03.10.1966 ."
+                "text": " Casey, Paul, Dreieich, *03.10.1966."
             }
         ]
     }

@@ -18,13 +18,13 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mülheim an der Ruhr",
                     "dob": "1960-10-05",
@@ -32,17 +32,18 @@
                     "lastname": "Sikora",
                     "name": "Miroslaw Franz"
                 },
-                "text": " Sikora , Miroslaw Franz , Mülheim an der Ruhr , * 10.05.1960 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Sikora, Miroslaw Franz, Mülheim an der Ruhr, *10.05.1960, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Velbert",
+                    "dismissed": true,
                     "dob": "1958-09-17",
                     "lastname": "Hildebrandt",
                     "name": "Birgt"
                 },
-                "text": " Hildebrandt , Birgt , Velbert , * 17.09.1958 ."
+                "text": " Hildebrandt, Birgt, Velbert, *17.09.1958."
             }
         ]
     }

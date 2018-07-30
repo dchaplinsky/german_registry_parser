@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Anatomiestraße 33 , 85049 Ingolstadt ."
+                "text": " Anatomiestraße 33, 85049 Ingolstadt."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Ingolstadt",
+                    "dismissed": true,
                     "dob": "1963-12-03",
                     "lastname": "Bußinger",
                     "name": "Bernd"
                 },
-                "text": " Bußinger , Bernd , Ingolstadt , * 12.03.1963 ."
+                "text": " Bußinger, Bernd, Ingolstadt, *12.03.1963."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Ingolstadt",
                     "dob": "1972-05-23",
@@ -56,7 +57,7 @@
                     "lastname": "Detchian",
                     "name": "Lekha"
                 },
-                "text": " Detchian , Lekha , Ingolstadt , * 23.05.1972 , einzelvertretungsberechtigt"
+                "text": " Detchian, Lekha, Ingolstadt, *23.05.1972, einzelvertretungsberechtigt"
             }
         ]
     }

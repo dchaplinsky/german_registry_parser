@@ -19,11 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
@@ -36,7 +32,7 @@
                     "lastname": "Heinrich",
                     "name": "Rainer"
                 },
-                "text": " Heinrich , Rainer , Mitterteich , * 03.10.1948 , einzelvertretungsberechtigt"
+                "text": " Heinrich, Rainer, Mitterteich, *03.10.1948, einzelvertretungsberechtigt"
             },
             {
                 "class": "PersonalPartner",
@@ -46,17 +42,18 @@
                     "lastname": "Schmidt",
                     "name": "Erich"
                 },
-                "text": " Schmidt , Erich , Regenstauf , * 01.05.1945 ."
+                "text": " Schmidt, Erich, Regenstauf, *01.05.1945."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Mitterteich",
+                    "dismissed": true,
                     "dob": "1948-03-10",
                     "lastname": "Heinrich",
                     "name": "Rainer"
                 },
-                "text": " Heinrich , Rainer , Mitterteich , * 03.10.1948 ."
+                "text": " Heinrich, Rainer, Mitterteich, *03.10.1948."
             },
             {
                 "class": "SingleProcuration",
@@ -66,17 +63,7 @@
                     "lastname": "Schmidt",
                     "name": "Erich"
                 },
-                "text": " Schmidt , Erich , Regenstauf , * 01.05.1945 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Regenstauf",
-                    "dob": "1945-01-05",
-                    "lastname": "Schmidt",
-                    "name": "Erich"
-                },
-                "text": " Schmidt , Erich , Regenstauf , * 01.05.1945 ."
+                "text": " Schmidt, Erich, Regenstauf, *01.05.1945."
             }
         ]
     }

@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wiesbaden",
+                    "dismissed": true,
                     "dob": "1980-07-04",
                     "lastname": "Kilic",
                     "name": "Erkan"
                 },
-                "text": " Kilic , Erkan , Wiesbaden , * 07.04.1980 ."
+                "text": " Kilic, Erkan, Wiesbaden, *07.04.1980."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dob": "1991-01-09",
                     "lastname": "Kilic",
                     "name": "Onur"
                 },
-                "text": " Kilic , Onur , Frankfurt am Main , * 01.09.1991 ."
+                "text": " Kilic, Onur, Frankfurt am Main, *01.09.1991."
             }
         ]
     }

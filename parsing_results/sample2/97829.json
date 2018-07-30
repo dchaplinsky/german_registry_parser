@@ -16,32 +16,38 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=97829&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr . Karsten , Jürgen Robert , Steuerberater , Gladenbach , * 24.05.1958, error text was Cannot parse DOB  Steuerberater  using regex"
-            }
-        ],
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Schopfheim",
+                    "dismissed": true,
                     "dob": "1957-08-17",
                     "lastname": "Doll",
                     "name": "Gerhard"
                 },
-                "text": " Doll , Gerhard , Schopfheim , * 17.08.1957"
+                "text": " Doll, Gerhard, Schopfheim, *17.08.1957"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Gladenbach",
+                    "dob": "1958-05-24",
+                    "lastname": "Doctor Karsten",
+                    "name": "Jürgen Robert",
+                    "position": "Steuerberater"
+                },
+                "text": " Doctor Karsten, Jürgen Robert, Steuerberater, Gladenbach, *24.05.1958"
             }
         ]
     }

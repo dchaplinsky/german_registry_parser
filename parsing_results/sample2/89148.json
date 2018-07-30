@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Fräschels ( Schweiz )",
+                    "city": "Fräschels (Schweiz)",
+                    "dismissed": true,
                     "dob": "1958-02-21",
                     "lastname": "Hurni",
                     "name": "Ulrich"
                 },
-                "text": " Hurni , Ulrich , Fräschels ( Schweiz ) , * 21.02.1958"
+                "text": " Hurni, Ulrich, Fräschels (Schweiz), *21.02.1958"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "St . Louis ( Frankreich )",
+                    "city": "St. Louis (Frankreich)",
                     "dob": "1957-01-21",
                     "lastname": "Collin",
                     "name": "Pierre"
                 },
-                "text": " Collin , Pierre , St . Louis ( Frankreich ) , * 21.01.1957"
+                "text": " Collin, Pierre, St. Louis (Frankreich), *21.01.1957"
             }
         ]
     }

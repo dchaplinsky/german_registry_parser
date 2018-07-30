@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Drochtersen",
+                    "dismissed": true,
                     "dob": "1969-01-08",
                     "lastname": "Lünstedt",
                     "name": "Katja"
                 },
-                "text": " Lünstedt , Katja , Drochtersen , * 01.08.1969 ."
+                "text": " Lünstedt, Katja, Drochtersen, *01.08.1969."
             }
         ]
     }

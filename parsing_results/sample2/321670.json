@@ -16,32 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=321670&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a SingleProcuration from  Khvan , Valentin , Almaty , Kasachstan / Russland , * 05.02.1960 ., error text was Cannot parse DOB  Almaty  using regex"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Procuration from  Khvan , Valentin , Almaty , Kasachstan / Russland , * 05.02.1960 ., error text was Cannot parse DOB  Almaty  using regex"
-            }
-        ],
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             }
         ],
         "officers": [
@@ -54,7 +40,7 @@
                     "lastname": "Khvan",
                     "name": "Viktor"
                 },
-                "text": " Khvan , Viktor , Essen , * 05.02.1960 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Khvan, Viktor, Essen, *05.02.1960, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ManagingDirector",
@@ -65,16 +51,28 @@
                     "lastname": "Khvan",
                     "name": "Olga"
                 },
-                "text": " Khvan , Olga , Essen , * 10.07.1977 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Khvan, Olga, Essen, *10.07.1977, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bottrop",
+                    "dismissed": true,
                     "lastname": "Guzakowski",
                     "name": "Vera"
                 },
-                "text": " Guzakowski , Vera , Bottrop ."
+                "text": " Guzakowski, Vera, Bottrop."
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Kasachstan/Russland",
+                    "dob": "1960-05-02",
+                    "lastname": "Khvan",
+                    "name": "Valentin",
+                    "position": "Almaty"
+                },
+                "text": " Khvan, Valentin, Almaty, Kasachstan/Russland, *05.02.1960."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Wolnzach - Geroldshausen",
+                    "city": "Wolnzach-Geroldshausen",
+                    "dismissed": true,
                     "dob": "1962-01-22",
                     "lastname": "Raith",
                     "name": "Josef"
                 },
-                "text": " Raith , Josef , Wolnzach - Geroldshausen , * 22.01.1962 ."
+                "text": " Raith, Josef, Wolnzach-Geroldshausen, *22.01.1962."
             }
         ]
     }

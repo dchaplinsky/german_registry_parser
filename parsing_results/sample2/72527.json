@@ -19,7 +19,11 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Gschwindt Heinrich , Bellheim * 15.12.1944, error text was no valid patter found, number of chunks: 2"
+                "text": "Cannot parse a DismissedManagingDirector from  Gschwindt Heinrich, Bellheim *15.12.1944, error text was no valid patter found, number of chunks: 2"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Gschwindt Heinrich, Bellheim *15.12.1944, error text was no valid patter found, number of chunks: 2"
             }
         ]
     }

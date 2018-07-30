@@ -19,12 +19,12 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Regensburg",
                     "dob": "1980-09-19",
@@ -32,17 +32,18 @@
                     "lastname": "Zuckerer",
                     "name": "Benjamin"
                 },
-                "text": " Zuckerer , Benjamin , Regensburg , * 19.09.1980 , einzelvertretungsberechtigt"
+                "text": " Zuckerer, Benjamin, Regensburg, *19.09.1980, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Regensburg",
+                    "dismissed": true,
                     "dob": "1975-06-20",
                     "lastname": "Schlott",
                     "name": "Ulrich"
                 },
-                "text": " Schlott , Ulrich , Regensburg , * 20.06.1975 ."
+                "text": " Schlott, Ulrich, Regensburg, *20.06.1975."
             }
         ]
     }

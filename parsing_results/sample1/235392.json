@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Stetten",
                     "dob": "1963-08-07",
@@ -26,17 +26,18 @@
                     "lastname": "Kiemann",
                     "name": "Thomas"
                 },
-                "text": " Kiemann , Thomas , Stetten , * 08.07.1963 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Kiemann, Thomas, Stetten, *08.07.1963, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Ludwigshafen",
+                    "dismissed": true,
                     "dob": "1963-08-07",
                     "lastname": "Kiemann",
                     "name": "Thomas"
                 },
-                "text": " Kiemann , Thomas , Ludwigshafen , * 08.07.1963 ."
+                "text": " Kiemann, Thomas, Ludwigshafen, *08.07.1963."
             }
         ]
     }

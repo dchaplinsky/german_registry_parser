@@ -16,22 +16,27 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=928984&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr ., error text was a person without DOB, number of chunks: 1"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "LL Sint - Michielsgestell / Niederlande",
+                    "city": "Bayreuth",
+                    "dob": "1967-12-09",
+                    "lastname": "Doctor Schneller",
+                    "name": "Christian"
+                },
+                "text": " Doctor Schneller, Christian, Bayreuth, *12.09.1967."
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "LL Sint-Michielsgestell / Niederlande",
+                    "dismissed": true,
                     "dob": "1973-07-19",
                     "lastname": "Ingenieur Abbenhuis MBA",
                     "name": "Maarten Cornelis"
                 },
-                "text": " Ingenieur Abbenhuis MBA , Maarten Cornelis , LL Sint - Michielsgestell / Niederlande , * 19.07.1973 ."
+                "text": " Ingenieur Abbenhuis MBA, Maarten Cornelis, LL Sint-Michielsgestell / Niederlande, *19.07.1973."
             }
         ]
     }

@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Diezelweg 40 , 40468 Düsseldorf ."
+                "text": " Diezelweg 40, 40468 Düsseldorf."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Euskirchen",
+                    "dismissed": true,
                     "dob": "1973-03-12",
                     "lastname": "Stanisic",
                     "name": "Danijela"
                 },
-                "text": " Stanisic , Danijela , Euskirchen , * 03.12.1973 ."
+                "text": " Stanisic, Danijela, Euskirchen, *03.12.1973."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
                     "dob": "1946-11-06",
@@ -42,7 +43,7 @@
                     "lastname": "Stanisic",
                     "name": "Ilija"
                 },
-                "text": " Stanisic , Ilija , Düsseldorf , * 11.06.1946 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Stanisic, Ilija, Düsseldorf, *11.06.1946, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

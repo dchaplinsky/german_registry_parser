@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rastede",
+                    "dismissed": true,
                     "dob": "1965-06-29",
                     "lastname": "Heinen",
                     "name": "Olaf"
                 },
-                "text": " Heinen , Olaf , Rastede , * 29.06.1965 ."
+                "text": " Heinen, Olaf, Rastede, *29.06.1965."
             }
         ]
     }

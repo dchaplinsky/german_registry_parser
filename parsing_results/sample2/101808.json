@@ -19,23 +19,24 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Hamburger Chaussee 7 , 23858 Reinfeld"
+                "text": " Hamburger Chaussee 7, 23858 Reinfeld"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "lastname": "Dr . Meifort",
+                    "dismissed": true,
+                    "lastname": "Doctor Meifort",
                     "name": "Rita geborene Stein"
                 },
-                "text": " Dr . Meifort , Rita geborene Stein"
+                "text": " Doctor Meifort, Rita geborene Stein"
             },
             {
                 "class": "ManagingDirector",
@@ -45,7 +46,7 @@
                     "lastname": "Grassl",
                     "name": "Florian"
                 },
-                "text": " Grassl , Florian , * 27.04.1983 , Wesenberg"
+                "text": " Grassl, Florian, *27.04.1983, Wesenberg"
             }
         ]
     }

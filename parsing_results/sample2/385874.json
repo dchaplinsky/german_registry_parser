@@ -19,33 +19,34 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Firma / Name vormals : 4 S EventServices GmbH , Berlin , Pascalstr ."
+                "text": " Firma / Name vormals: 4S EventServices GmbH, Berlin, Pascalstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Körber",
                     "name": "Robert"
                 },
-                "text": " Körber , Robert"
+                "text": " Körber, Robert"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Wiesenburg / Mark",
+                    "city": "Wiesenburg/Mark",
                     "dob": "1965-11-12",
                     "lastname": "Hammerstädt",
                     "name": "Wolfgang Edgar Heinz"
                 },
-                "text": " Hammerstädt , Wolfgang Edgar Heinz , * 11.12.1965 , Wiesenburg / Mark"
+                "text": " Hammerstädt, Wolfgang Edgar Heinz, *11.12.1965, Wiesenburg/Mark"
             }
         ]
     }

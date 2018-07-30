@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Halbe 21 , 31079 Adenstedt ."
+                "text": " Halbe 21, 31079 Adenstedt."
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Grafelde",
+                    "dismissed": true,
                     "dob": "1939-02-26",
-                    "lastname": "Schaper - Hoppe",
+                    "lastname": "Schaper-Hoppe",
                     "name": "Gerhard"
                 },
-                "text": " Schaper - Hoppe , Gerhard , Grafelde , * 26.02.1939 ."
+                "text": " Schaper-Hoppe, Gerhard, Grafelde, *26.02.1939."
             },
             {
                 "class": "Owner",
                 "payload": {
                     "city": "Adenstedt",
                     "dob": "1969-03-07",
-                    "lastname": "Schaper - Hoppe",
+                    "lastname": "Schaper-Hoppe",
                     "name": "Holger"
                 },
-                "text": " Schaper - Hoppe , Holger , Adenstedt , * 03.07.1969 ."
+                "text": " Schaper-Hoppe, Holger, Adenstedt, *03.07.1969."
             }
         ]
     }

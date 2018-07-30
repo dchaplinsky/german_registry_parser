@@ -20,12 +20,13 @@
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Mülheim / Ruhr",
+                    "city": "Mülheim/Ruhr",
+                    "dismissed": true,
                     "dob": "1957-05-08",
                     "lastname": "Walther",
                     "name": "Ralf"
                 },
-                "text": " Walther , Ralf , Mülheim / Ruhr , * 05.08.1957 ."
+                "text": " Walther, Ralf, Mülheim/Ruhr, *05.08.1957."
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Andres",
                     "name": "Bernd"
                 },
-                "text": " Andres , Bernd , Oberhausen , * 18.12.1954 ."
+                "text": " Andres, Bernd, Oberhausen, *18.12.1954."
             }
         ]
     }

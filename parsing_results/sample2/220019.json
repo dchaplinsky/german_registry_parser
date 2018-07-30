@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Dachau",
+                    "dismissed": true,
                     "dob": "1973-08-13",
                     "lastname": "Wickertsheim",
                     "name": "Thorsten"
                 },
-                "text": " Wickertsheim , Thorsten , Dachau , * 13.08.1973 ."
+                "text": " Wickertsheim, Thorsten, Dachau, *13.08.1973."
             }
         ]
     }

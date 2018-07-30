@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1969-05-11",
                     "lastname": "Unger",
                     "name": "Kai"
                 },
-                "text": " Unger , Kai , Hamburg , * 05.11.1969 ."
+                "text": " Unger, Kai, Hamburg, *05.11.1969."
             }
         ]
     }

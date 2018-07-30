@@ -25,15 +25,16 @@
                     "lastname": "Beaudemoulin",
                     "name": "Thierry"
                 },
-                "text": " Beaudemoulin , Thierry , Paris , * 07.05.1971 ."
+                "text": " Beaudemoulin, Thierry, Paris, *07.05.1971."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Heuken",
                     "name": "Jürgen"
                 },
-                "text": " Heuken , Jürgen"
+                "text": " Heuken, Jürgen"
             }
         ]
     }

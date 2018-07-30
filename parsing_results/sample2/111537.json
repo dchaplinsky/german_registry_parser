@@ -20,12 +20,13 @@
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Zeulenroda - Triebes",
+                    "city": "Zeulenroda-Triebes",
+                    "dismissed": true,
                     "dob": "1956-01-22",
                     "lastname": "Haupt",
                     "name": "Harald"
                 },
-                "text": " Haupt , Harald , Zeulenroda - Triebes , * 22.01.1956 ."
+                "text": " Haupt, Harald, Zeulenroda-Triebes, *22.01.1956."
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Bock",
                     "name": "André"
                 },
-                "text": " Bock , André , Sandberg , * 18.08.1979 ."
+                "text": " Bock, André, Sandberg, *18.08.1979."
             }
         ]
     }

@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Obernkirchen",
+                    "dismissed": true,
                     "dob": "1965-01-27",
                     "lastname": "Berkenbusch",
                     "name": "Frank"
                 },
-                "text": " Berkenbusch , Frank , Obernkirchen , * 27.01.1965 ."
+                "text": " Berkenbusch, Frank, Obernkirchen, *27.01.1965."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt",
                     "dob": "1967-07-20",
@@ -36,7 +37,7 @@
                     "lastname": "Herborn",
                     "name": "Dirk"
                 },
-                "text": " Herborn , Dirk , Frankfurt , * 20.07.1967 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen ."
+                "text": " Herborn, Dirk, Frankfurt, *20.07.1967, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen."
             }
         ]
     }

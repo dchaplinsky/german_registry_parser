@@ -19,33 +19,35 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Firma / Name vormals : Blitz B14 -340 GmbH , Berlin , Potsdamer Platz 5 , 10785 Berlin ."
+                "text": " Firma / Name vormals: Blitz B14-340 GmbH, Berlin, Potsdamer Platz 5, 10785 Berlin."
             },
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Potsdamer Platz 5 , 10785 Berlin"
+                "text": " Geschäftsanschrift: Potsdamer Platz 5, 10785 Berlin"
             },
             {
                 "label": "address",
-                "text": " Potsdamer Platz 5 , 10785 Berlin"
+                "text": " Potsdamer Platz 5, 10785 Berlin"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Gogalla",
                     "name": "Katja"
                 },
-                "text": " Gogalla , Katja"
+                "text": " Gogalla, Katja"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Selnes",
                     "name": "Randi Mette"
                 },
-                "text": " Selnes , Randi Mette"
+                "text": " Selnes, Randi Mette"
             },
             {
                 "class": "ManagingDirector",
@@ -55,7 +57,7 @@
                     "lastname": "Tran",
                     "name": "Le Thien Phuc"
                 },
-                "text": " Tran , Le Thien Phuc , * 03.01.1984 , Berlin"
+                "text": " Tran, Le Thien Phuc, *03.01.1984, Berlin"
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Ahorn",
+                    "dismissed": true,
                     "dob": "1948-02-12",
                     "lastname": "Harm",
                     "name": "Sigurd"
                 },
-                "text": " Harm , Sigurd , Ahorn , * 02.12.1948 ."
+                "text": " Harm, Sigurd, Ahorn, *02.12.1948."
             }
         ]
     }

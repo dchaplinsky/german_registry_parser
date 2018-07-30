@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Fasanenstr ."
+                "text": " Fasanenstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Zirndorf",
+                    "dismissed": true,
                     "dob": "1965-04-30",
                     "lastname": "Kestler",
                     "name": "Thomas"
                 },
-                "text": " Kestler , Thomas , Zirndorf , * 30.04.1965 ."
+                "text": " Kestler, Thomas, Zirndorf, *30.04.1965."
             }
         ]
     }

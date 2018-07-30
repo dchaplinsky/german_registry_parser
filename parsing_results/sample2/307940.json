@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mannheim",
+                    "dismissed": true,
                     "dob": "1962-07-07",
                     "lastname": "Tobiasz",
                     "name": "Katja Josefa Rikarta"
                 },
-                "text": " Tobiasz , Katja Josefa Rikarta , Mannheim , * 07.07.1962 ."
+                "text": " Tobiasz, Katja Josefa Rikarta, Mannheim, *07.07.1962."
             }
         ]
     }

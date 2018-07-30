@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Nettetal",
                     "dob": "1958-02-14",
@@ -26,17 +26,18 @@
                     "lastname": "Schmitz",
                     "name": "Uwe"
                 },
-                "text": " Schmitz , Uwe , Nettetal , * 14.02.1958 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schmitz, Uwe, Nettetal, *14.02.1958, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kempen",
+                    "dismissed": true,
                     "dob": "1949-10-28",
                     "lastname": "Thielemann",
                     "name": "Werner"
                 },
-                "text": " Thielemann , Werner , Kempen , * 28.10.1949 ."
+                "text": " Thielemann, Werner, Kempen, *28.10.1949."
             }
         ]
     }

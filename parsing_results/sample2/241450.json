@@ -19,12 +19,12 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1982-10-31",
@@ -32,17 +32,18 @@
                     "lastname": "Rickmers",
                     "name": "Isabelle"
                 },
-                "text": " Rickmers , Isabelle , Hamburg , * 31.10.1982 , einzelvertretungsberechtigt"
+                "text": " Rickmers, Isabelle, Hamburg, *31.10.1982, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1961-03-04",
                     "lastname": "Burfeindt",
                     "name": "Frank"
                 },
-                "text": " Burfeindt , Frank , Hamburg , * 03.04.1961 ."
+                "text": " Burfeindt, Frank, Hamburg, *03.04.1961."
             }
         ]
     }

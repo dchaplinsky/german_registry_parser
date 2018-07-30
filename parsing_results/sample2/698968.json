@@ -19,18 +19,16 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dipl . - Betriebswirt Schäfer , Thomas , Bochum , * 01.07.1968 . nach geänderter Vertretungsregelung Geschäftsführer : Schäfer , Ralf , Bochum , * 16.09.1967 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ., error text was no valid patter found, number of chunks: 8"
-            }
-        ],
-        "flags": [
+                "text": "Cannot parse a DismissedManagingDirector from  Dipl.-Betriebswirt Schäfer, Thomas, Bochum, *01.07.1968. nach geänderter Vertretungsregelung Geschäftsführer: Schäfer, Ralf, Bochum, *16.09.1967, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was no valid patter found, number of chunks: 8"
+            },
             {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Dipl.-Betriebswirt Schäfer, Thomas, Bochum, *01.07.1968. nach geänderter Vertretungsregelung Geschäftsführer: Schäfer, Ralf, Bochum, *16.09.1967, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was no valid patter found, number of chunks: 8"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mülheim",
                     "dob": "1966-03-21",
@@ -38,7 +36,7 @@
                     "lastname": "Kroll",
                     "name": "Carsten"
                 },
-                "text": " Kroll , Carsten , Mülheim , * 21.03.1966 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Kroll, Carsten, Mülheim, *21.03.1966, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",
@@ -48,7 +46,7 @@
                     "lastname": "Schäfer",
                     "name": "Thomas"
                 },
-                "text": " Schäfer , Thomas , Bochum , * 01.07.1968 ."
+                "text": " Schäfer, Thomas, Bochum, *01.07.1968."
             }
         ]
     }

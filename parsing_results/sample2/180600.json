@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Oberursel ( Taunus )",
+                    "city": "Oberursel (Taunus)",
+                    "dismissed": true,
                     "dob": "1959-12-18",
                     "lastname": "Reitz",
                     "name": "Ulrich"
                 },
-                "text": " Reitz , Ulrich , Oberursel ( Taunus ) , * 18.12.1959 ."
+                "text": " Reitz, Ulrich, Oberursel (Taunus), *18.12.1959."
             }
         ]
     }

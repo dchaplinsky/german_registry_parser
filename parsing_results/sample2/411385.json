@@ -19,35 +19,36 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Urfelder Str ."
+                "text": " Urfelder Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "St . Augustin",
+                    "city": "St. Augustin",
+                    "dismissed": true,
                     "lastname": "Gumpert",
                     "name": "Winfried",
-                    "position": "Diplom - Kaufmann"
+                    "position": "Diplom-Kaufmann"
                 },
-                "text": " Gumpert , Winfried , Diplom - Kaufmann , St . Augustin ."
+                "text": " Gumpert, Winfried, Diplom-Kaufmann, St. Augustin."
             },
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "St . Augustin",
+                    "city": "St. Augustin",
                     "dob": "1945-09-23",
                     "lastname": "Gumpert",
                     "name": "Karin Doris"
                 },
-                "text": " Gumpert , Karin Doris , St . Augustin , * 23.09.1945 ."
+                "text": " Gumpert, Karin Doris, St. Augustin, *23.09.1945."
             }
         ]
     }

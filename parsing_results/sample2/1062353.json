@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Blomberg",
+                    "dismissed": true,
                     "dob": "1964-06-03",
                     "lastname": "Happe",
                     "name": "Frank"
                 },
-                "text": " Happe , Frank , Blomberg , * 06.03.1964 ."
+                "text": " Happe, Frank, Blomberg, *06.03.1964."
             }
         ]
     }

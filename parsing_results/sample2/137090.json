@@ -19,18 +19,18 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Blankeneser Landstraße 81 , 22587 Hamburg ."
+                "text": " Blankeneser Landstraße 81, 22587 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wedel",
                     "dob": "1967-08-08",
@@ -38,17 +38,18 @@
                     "lastname": "Mertens",
                     "name": "Olaf"
                 },
-                "text": " Mertens , Olaf , Wedel , * 08.08.1967 , einzelvertretungsberechtigt"
+                "text": " Mertens, Olaf, Wedel, *08.08.1967, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "lastname": "Ahrend",
                     "name": "Wolfgang",
                     "position": "Kaufmann"
                 },
-                "text": " Ahrend , Wolfgang , Kaufmann , Hamburg ."
+                "text": " Ahrend, Wolfgang, Kaufmann, Hamburg."
             }
         ]
     }

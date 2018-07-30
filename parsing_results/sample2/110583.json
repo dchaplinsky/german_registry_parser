@@ -26,22 +26,23 @@
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Berga / Elster",
+                    "city": "Berga/Elster",
                     "dob": "1961-10-10",
                     "lastname": "Rose",
                     "name": "Angela geborene Neefe"
                 },
-                "text": " Rose , Angela geborene Neefe , Berga / Elster , * 10.10.1961 ."
+                "text": " Rose, Angela geborene Neefe, Berga/Elster, *10.10.1961."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Gera",
+                    "dismissed": true,
                     "dob": "1953-01-08",
                     "lastname": "Friedrich",
                     "name": "Beate"
                 },
-                "text": " Friedrich , Beate , Gera , * 01.08.1953 ."
+                "text": " Friedrich, Beate, Gera, *01.08.1953."
             }
         ]
     }

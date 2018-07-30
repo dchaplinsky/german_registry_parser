@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=369265&land_abk=ni"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Lingen",
+                    "dismissed": true,
                     "dob": "1952-12-08",
                     "lastname": "Westkamp",
                     "name": "Helmut"
                 },
-                "text": " Westkamp , Helmut , Lingen , * 12.08.1952 ."
+                "text": " Westkamp, Helmut, Lingen, *12.08.1952."
             },
             {
                 "class": "NewProcuration",
@@ -41,27 +36,7 @@
                     "lastname": "Adolfsen",
                     "name": "Michael"
                 },
-                "text": " Adolfsen , Michael , Neuenhaus , * 03.08.1973 ."
-            },
-            {
-                "class": "SingleProcuration",
-                "payload": {
-                    "city": "Neuenhaus",
-                    "dob": "1973-03-08",
-                    "lastname": "Adolfsen",
-                    "name": "Michael"
-                },
-                "text": " Adolfsen , Michael , Neuenhaus , * 03.08.1973 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Neuenhaus",
-                    "dob": "1973-03-08",
-                    "lastname": "Adolfsen",
-                    "name": "Michael"
-                },
-                "text": " Adolfsen , Michael , Neuenhaus , * 03.08.1973 ."
+                "text": " Adolfsen, Michael, Neuenhaus, *03.08.1973."
             }
         ]
     }

@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kirchheim unter Teck",
                     "dob": "1965-03-30",
                     "lastname": "Burck",
                     "name": "Torsten"
                 },
-                "text": " Burck , Torsten , Kirchheim unter Teck , * 30.03.1965 ."
+                "text": " Burck, Torsten, Kirchheim unter Teck, *30.03.1965."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Stuttgart",
+                    "dismissed": true,
                     "dob": "1962-03-06",
                     "lastname": "Krummel",
                     "name": "Ulrike"
                 },
-                "text": " Krummel , Ulrike , Stuttgart , * 03.06.1962 ."
+                "text": " Krummel, Ulrike, Stuttgart, *03.06.1962."
             }
         ]
     }

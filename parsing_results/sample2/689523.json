@@ -16,38 +16,22 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=689523&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "labels": [
             {
                 "label": "address",
-                "text": " Maximilianstraße 29 , 93047 Regensburg ."
+                "text": " Maximilianstraße 29, 93047 Regensburg."
             }
         ],
         "officers": [
             {
                 "class": "SingleProcuration",
                 "payload": {
-                    "city": "Painten / Maierhofen",
+                    "city": "Painten/Maierhofen",
                     "dob": "1959-10-13",
                     "lastname": "Schmid",
                     "name": "Karl"
                 },
-                "text": " Schmid , Karl , Painten / Maierhofen , * 13.10.1959 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Painten / Maierhofen",
-                    "dob": "1959-10-13",
-                    "lastname": "Schmid",
-                    "name": "Karl"
-                },
-                "text": " Schmid , Karl , Painten / Maierhofen , * 13.10.1959 ."
+                "text": " Schmid, Karl, Painten/Maierhofen, *13.10.1959."
             }
         ]
     }

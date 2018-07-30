@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Im Steingerüst 57 , 76437 Rastatt ."
+                "text": " Im Steingerüst 57, 76437 Rastatt."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rastatt",
+                    "dismissed": true,
                     "lastname": "Loose",
                     "name": "Jürgen",
                     "position": "Geschäftsführer"
                 },
-                "text": " Loose , Jürgen , Geschäftsführer , Rastatt ."
+                "text": " Loose, Jürgen, Geschäftsführer, Rastatt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bühlertal",
                     "dob": "1952-06-15",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Nawrath",
                     "name": "Ingo"
                 },
-                "text": " Nawrath , Ingo , Bühlertal , * 15.06.1952 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Nawrath, Ingo, Bühlertal, *15.06.1952, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "CommonProcuration",
@@ -58,7 +59,7 @@
                     "lastname": "Welle",
                     "name": "Stefan"
                 },
-                "text": " Welle , Stefan , Bühl , * 20.12.1967 ."
+                "text": " Welle, Stefan, Bühl, *20.12.1967."
             }
         ]
     }

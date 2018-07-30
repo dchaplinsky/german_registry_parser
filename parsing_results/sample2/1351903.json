@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Bertramstr ."
+                "text": " Bertramstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1969-10-06",
                     "lastname": "Rasul",
                     "name": "Nabas Abdullah"
                 },
-                "text": " Rasul , Nabas Abdullah , Köln , * 10.06.1969 ."
+                "text": " Rasul, Nabas Abdullah, Köln, *10.06.1969."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Köln",
                     "dob": "1968-01-11",
@@ -42,7 +43,7 @@
                     "lastname": "Abdukadir",
                     "name": "Ako"
                 },
-                "text": " Abdukadir , Ako , Köln , * 01.11.1968 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Abdukadir, Ako, Köln, *01.11.1968, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

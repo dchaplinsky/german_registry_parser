@@ -16,22 +16,27 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=100247&land_abk=st"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr . - Ing ., error text was a person without DOB, number of chunks: 1"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Hohenwarthe",
+                    "dismissed": true,
+                    "dob": "1958-11-14",
+                    "lastname": "Doktoringenieur Ude",
+                    "name": "Jürgen"
+                },
+                "text": " Doktoringenieur Ude, Jürgen, Hohenwarthe, *14.11.1958."
+            },
+            {
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wernigerode",
                     "dob": "1975-05-26",
                     "lastname": "Meinen",
                     "name": "Mathias"
                 },
-                "text": " Meinen , Mathias , Wernigerode , * 26.05.1975 ."
+                "text": " Meinen, Mathias, Wernigerode, *26.05.1975."
             }
         ]
     }

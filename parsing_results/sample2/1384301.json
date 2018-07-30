@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Wettener Straße 18 , 47623 Kevelaer ."
+                "text": " Wettener Straße 18, 47623 Kevelaer."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Krefeld",
+                    "dismissed": true,
                     "dob": "1943-02-20",
                     "lastname": "Gossens",
                     "name": "Helmut"
                 },
-                "text": " Gossens , Helmut , Krefeld , * 20.02.1943 ."
+                "text": " Gossens, Helmut, Krefeld, *20.02.1943."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Geldern",
                     "dob": "1964-09-19",
                     "lastname": "Holtermann",
                     "name": "Sven"
                 },
-                "text": " Holtermann , Sven , Geldern , * 19.09.1964"
+                "text": " Holtermann, Sven, Geldern, *19.09.1964"
             }
         ]
     }

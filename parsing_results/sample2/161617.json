@@ -18,34 +18,36 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Leipzig",
+                    "dismissed": true,
                     "dob": "1957-01-21",
                     "lastname": "Ludwig",
                     "name": "Michael"
                 },
-                "text": " Ludwig , Michael , Leipzig , * 21.01.1957 ."
+                "text": " Ludwig, Michael, Leipzig, *21.01.1957."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Markkleeberg",
                     "dob": "1968-04-30",
                     "lastname": "Rodestock",
                     "name": "Bodo"
                 },
-                "text": " Rodestock , Bodo , Markkleeberg , * 30.04.1968 ."
+                "text": " Rodestock, Bodo, Markkleeberg, *30.04.1968."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Markkleeberg",
+                    "dismissed": true,
                     "dob": "1968-04-30",
                     "lastname": "Rodestock",
                     "name": "Bodo"
                 },
-                "text": " Rodestock , Bodo , Markkleeberg , * 30.04.1968 ."
+                "text": " Rodestock, Bodo, Markkleeberg, *30.04.1968."
             }
         ]
     }

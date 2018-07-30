@@ -20,19 +20,20 @@
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Walter Kletzander Verwaltungs GmbH , Puchheim - Bahnhof ( Amtsgericht München HRB 147144 ) ."
+                    "company_name": " Walter Kletzander Verwaltungs GmbH, Puchheim-Bahnhof (Amtsgericht München HRB 147144)."
                 },
-                "text": " Walter Kletzander Verwaltungs GmbH , Puchheim - Bahnhof ( Amtsgericht München HRB 147144 ) ."
+                "text": " Walter Kletzander Verwaltungs GmbH, Puchheim-Bahnhof (Amtsgericht München HRB 147144)."
             },
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Puchheim",
+                    "dismissed": true,
                     "dob": "1937-07-29",
                     "lastname": "Kletzander",
                     "name": "Walther"
                 },
-                "text": " Kletzander , Walther , Puchheim , * 29.07.1937 ."
+                "text": " Kletzander, Walther, Puchheim, *29.07.1937."
             }
         ]
     }

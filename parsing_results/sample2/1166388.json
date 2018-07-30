@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Stockummer Str ."
+                "text": " Stockummer Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Duisburg",
+                    "dismissed": true,
                     "dob": "1964-04-14",
                     "lastname": "Ducharme",
                     "name": "Daniel"
                 },
-                "text": " Ducharme , Daniel , Duisburg , * 14.04.1964 ."
+                "text": " Ducharme, Daniel, Duisburg, *14.04.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wetter",
                     "dob": "1967-12-16",
@@ -42,7 +43,7 @@
                     "lastname": "Gressner",
                     "name": "Rolf"
                 },
-                "text": " Gressner , Rolf , Wetter , * 16.12.1967 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Gressner, Rolf, Wetter, *16.12.1967, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

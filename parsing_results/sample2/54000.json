@@ -16,10 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=54000&land_abk=rp"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dipl . - Kfm Gemba , Volker , Wirtschaftsprüfer und Steuerberater , Kirkel , * 07.11.1969 ., error text was Cannot parse DOB  Wirtschaftsprüfer und Steuerberater  using regex"
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Kirkel",
+                    "dob": "1969-07-11",
+                    "lastname": "Dipl.-Kfm Gemba",
+                    "name": "Volker",
+                    "position": "Wirtschaftsprüfer und Steuerberater"
+                },
+                "text": " Dipl.-Kfm Gemba, Volker, Wirtschaftsprüfer und Steuerberater, Kirkel, *07.11.1969."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Dreieich",
+                    "dismissed": true,
                     "dob": "1972-04-22",
                     "lastname": "Simon",
                     "name": "Daniel"
                 },
-                "text": " Simon , Daniel , Dreieich , * 22.04.1972 ."
+                "text": " Simon, Daniel, Dreieich, *22.04.1972."
             }
         ]
     }

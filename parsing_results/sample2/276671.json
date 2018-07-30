@@ -19,46 +19,32 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Neuer Graben 21 , 89073 Ulm ."
+                "text": " Neuer Graben 21, 89073 Ulm."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " STERN Immobilien GmbH , Ulm ( Amtsgericht Ulm HRB 2335 ) ."
+                    "company_name": " STERN Immobilien GmbH, Ulm (Amtsgericht Ulm HRB 2335)."
                 },
-                "text": " STERN Immobilien GmbH , Ulm ( Amtsgericht Ulm HRB 2335 ) ."
+                "text": " STERN Immobilien GmbH, Ulm (Amtsgericht Ulm HRB 2335)."
             },
             {
                 "class": "SingleProcuration",
                 "payload": {
-                    "city": "Neu - Ulm",
+                    "city": "Neu-Ulm",
                     "dob": "1985-01-07",
                     "lastname": "Weyrich",
                     "name": "Manuela"
                 },
-                "text": " Weyrich , Manuela , Neu - Ulm , * 01.07.1985 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Neu - Ulm",
-                    "dob": "1985-01-07",
-                    "lastname": "Weyrich",
-                    "name": "Manuela"
-                },
-                "text": " Weyrich , Manuela , Neu - Ulm , * 01.07.1985 ."
+                "text": " Weyrich, Manuela, Neu-Ulm, *01.07.1985."
             }
         ]
     }

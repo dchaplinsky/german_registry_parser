@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wiesbaden",
+                    "dismissed": true,
                     "dob": "1959-05-02",
                     "lastname": "Brand",
                     "name": "Axel"
                 },
-                "text": " Brand , Axel , Wiesbaden , * 05.02.1959 ."
+                "text": " Brand, Axel, Wiesbaden, *05.02.1959."
             }
         ]
     }

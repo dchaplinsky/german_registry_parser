@@ -25,17 +25,18 @@
                     "lastname": "Münzenrieder",
                     "name": "Dieter"
                 },
-                "text": " Münzenrieder , Dieter , Vöhringen , * 11.03.1958 ."
+                "text": " Münzenrieder, Dieter, Vöhringen, *11.03.1958."
             },
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Illertissen",
-                    "lastname": "Dr . Rüger",
+                    "dismissed": true,
+                    "lastname": "Doctor Rüger",
                     "name": "Reinhard",
                     "position": "Apotheker"
                 },
-                "text": " Dr . Rüger , Reinhard , Apotheker , Illertissen ."
+                "text": " Doctor Rüger, Reinhard, Apotheker, Illertissen."
             }
         ]
     }

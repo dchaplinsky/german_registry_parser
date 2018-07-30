@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Sonthofen",
+                    "dismissed": true,
                     "dob": "1952-07-12",
                     "lastname": "Kley",
                     "name": "Wolfgang"
                 },
-                "text": " Kley , Wolfgang , Sonthofen , * 07.12.1952 ."
+                "text": " Kley, Wolfgang, Sonthofen, *07.12.1952."
             },
             {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Fuchstal",
                     "dob": "1956-03-09",
-                    "lastname": "Reyer",
+                    "lastname": ": Reyer",
                     "name": "Emil Johann"
                 },
-                "text": " Reyer , Emil Johann , Fuchstal , * 03.09.1956 ."
+                "text": ": Reyer, Emil Johann, Fuchstal, *03.09.1956."
             }
         ]
     }

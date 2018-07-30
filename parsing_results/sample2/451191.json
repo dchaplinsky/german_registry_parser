@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=451191&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Eschenburg - Simmersbach",
+                    "city": "Eschenburg-Simmersbach",
+                    "dismissed": true,
                     "dob": "1941-02-10",
                     "lastname": "Michel",
                     "name": "Helmut"
                 },
-                "text": " Michel , Helmut , Eschenburg - Simmersbach , * 02.10.1941 ."
+                "text": " Michel, Helmut, Eschenburg-Simmersbach, *02.10.1941."
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +36,7 @@
                     "lastname": "Mevius",
                     "name": "Peter"
                 },
-                "text": " Mevius , Peter , Dautphetal , * 27.08.1974 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Dautphetal",
-                    "dob": "1974-08-27",
-                    "lastname": "Mevius",
-                    "name": "Peter"
-                },
-                "text": " Mevius , Peter , Dautphetal , * 27.08.1974 ."
+                "text": " Mevius, Peter, Dautphetal, *27.08.1974."
             }
         ]
     }

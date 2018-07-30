@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hilchenbach",
+                    "dismissed": true,
                     "dob": "1963-02-01",
                     "lastname": "Bender",
                     "name": "Andrea"
                 },
-                "text": " Bender , Andrea , Hilchenbach , * 02.01.1963 ."
+                "text": " Bender, Andrea, Hilchenbach, *02.01.1963."
             }
         ]
     }

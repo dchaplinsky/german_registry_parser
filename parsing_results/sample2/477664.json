@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=477664&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Walz",
                     "name": "Simone"
                 },
-                "text": " Walz , Simone , Sigmaringen , * 30.10.1980"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Sigmaringen",
-                    "dob": "1980-10-30",
-                    "lastname": "Walz",
-                    "name": "Simone"
-                },
-                "text": " Walz , Simone , Sigmaringen , * 30.10.1980"
+                "text": " Walz, Simone, Sigmaringen, *30.10.1980"
             }
         ]
     }

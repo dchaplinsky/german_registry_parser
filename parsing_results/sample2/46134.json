@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Börgitzer Dorfstraße 57 , 39599 Stendal OT Börgitz ."
+                "text": " Börgitzer Dorfstraße 57, 39599 Stendal OT Börgitz."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Stendal OT Börgitz",
                     "dob": "1956-01-24",
                     "flag": "sole representation",
                     "lastname": "Bark",
-                    "name": "Hans - Jürgen"
+                    "name": "Hans-Jürgen"
                 },
-                "text": " Bark , Hans - Jürgen , Stendal OT Börgitz , * 24.01.1956 , einzelvertretungsberechtigt"
+                "text": " Bark, Hans-Jürgen, Stendal OT Börgitz, *24.01.1956, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Börgitz",
+                    "dismissed": true,
                     "dob": "1959-10-08",
                     "lastname": "Bark",
                     "name": "Christina"
                 },
-                "text": " Bark , Christina , Börgitz , * 10.08.1959 ."
+                "text": " Bark, Christina, Börgitz, *10.08.1959."
             }
         ]
     }

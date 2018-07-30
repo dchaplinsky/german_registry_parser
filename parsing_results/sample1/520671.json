@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Hervorster Straße 56 , 47574 Goch ."
+                "text": " Hervorster Straße 56, 47574 Goch."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Goch",
+                    "dismissed": true,
                     "lastname": "Willinghöfer",
                     "name": "Beate",
                     "position": "Krankenschwester"
                 },
-                "text": " Willinghöfer , Beate , Krankenschwester , Goch ."
+                "text": " Willinghöfer, Beate, Krankenschwester, Goch."
             }
         ]
     }

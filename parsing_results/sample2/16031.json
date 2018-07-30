@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Saarbrücken",
                     "dob": "1959-11-15",
@@ -26,17 +26,18 @@
                     "lastname": "Trenz",
                     "name": "Frank"
                 },
-                "text": " Trenz , Frank , Saarbrücken , * 15.11.1959 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Trenz, Frank, Saarbrücken, *15.11.1959, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Saarbrücken",
+                    "dismissed": true,
                     "dob": "1960-12-23",
-                    "lastname": "Gluic - Trenz",
+                    "lastname": "Gluic-Trenz",
                     "name": "Zeljana"
                 },
-                "text": " Gluic - Trenz , Zeljana , Saarbrücken , * 23.12.1960 ."
+                "text": " Gluic-Trenz, Zeljana, Saarbrücken, *23.12.1960."
             }
         ]
     }

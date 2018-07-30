@@ -16,16 +16,26 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=199799&land_abk=he"
     },
     "parsed": {
+        "flags": [
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
+            },
+            {
+                "flag": "ignore_for_now",
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
+            }
+        ],
         "officers": [
             {
                 "class": "Liquidator",
                 "payload": {
                     "city": "frankfurt am main",
                     "dob": "1959-08-28",
-                    "lastname": "liebethal",
+                    "lastname": ": liebethal",
                     "name": "andreas"
                 },
-                "text": " liebethal , andreas , frankfurt am main , * 28.08.1959"
+                "text": ": liebethal, andreas, frankfurt am main, *28.08.1959"
             }
         ]
     }

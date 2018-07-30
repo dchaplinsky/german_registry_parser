@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "Single procuration",
@@ -35,15 +35,16 @@
                     "lastname": "Rettig Petersen",
                     "name": "Julie Harriet"
                 },
-                "text": " Rettig Petersen , Julie Harriet , * 21.06.1977 , Apenrade"
+                "text": "Rettig Petersen, Julie Harriet, *21.06.1977, Apenrade"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Jensen",
                     "name": "Tonni"
                 },
-                "text": " Jensen , Tonni"
+                "text": " Jensen, Tonni"
             }
         ]
     }

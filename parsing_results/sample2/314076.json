@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Halstenbek",
+                    "dismissed": true,
                     "dob": "1974-11-17",
                     "lastname": "Neef",
                     "name": "Thomas"
                 },
-                "text": " Neef , Thomas , Halstenbek , * 17.11.1974 ."
+                "text": " Neef, Thomas, Halstenbek, *17.11.1974."
             }
         ]
     }

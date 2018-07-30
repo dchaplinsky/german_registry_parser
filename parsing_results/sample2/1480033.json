@@ -21,11 +21,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Düren",
+                    "dismissed": true,
                     "dob": "1960-08-21",
                     "lastname": "Koudelka",
                     "name": "Werner"
                 },
-                "text": " Koudelka , Werner , Düren , * 21.08.1960 ."
+                "text": " Koudelka, Werner, Düren, *21.08.1960."
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Dobbelstein",
                     "name": "Kurt"
                 },
-                "text": " Dobbelstein , Kurt , Baesweiler , * 28.02.1966 ."
+                "text": " Dobbelstein, Kurt, Baesweiler, *28.02.1966."
             }
         ]
     }

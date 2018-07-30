@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Buchenallee 5 , 51427 Bergisch Gladbach ."
+                "text": " Buchenallee 5, 51427 Bergisch Gladbach."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1977-09-14",
                     "lastname": "Rolland",
                     "name": "Andreas"
                 },
-                "text": " Rolland , Andreas , Köln , * 14.09.1977 ."
+                "text": " Rolland, Andreas, Köln, *14.09.1977."
             }
         ]
     }

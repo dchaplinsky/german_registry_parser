@@ -19,25 +19,26 @@
         "flags": [
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " c / o BDO AG Wirtschaftsprüfungsgesellschaft , Hanauer Landstraße 115 , 60314 Frankfurt ."
+                "text": " c/o BDO AG Wirtschaftsprüfungsgesellschaft, Hanauer Landstraße 115, 60314 Frankfurt."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bonn",
+                    "dismissed": true,
                     "dob": "1964-10-17",
                     "lastname": "Koglin",
                     "name": "Andreas"
                 },
-                "text": " Koglin , Andreas , Bonn , * 17.10.1964 ."
+                "text": " Koglin, Andreas, Bonn, *17.10.1964."
             },
             {
                 "class": "ManagingDirector",
@@ -48,7 +49,7 @@
                     "lastname": "Wang",
                     "name": "Xin"
                 },
-                "text": " Wang , Xin , Heverlee / Belgien , * 20.02.1981 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Wang, Xin, Heverlee / Belgien, *20.02.1981, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

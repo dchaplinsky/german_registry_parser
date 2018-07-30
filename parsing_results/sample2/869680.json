@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Cranachstr ."
+                "text": " Cranachstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Solingen",
+                    "dismissed": true,
                     "dob": "1962-03-01",
                     "lastname": "Bohnen",
                     "name": "Michael"
                 },
-                "text": " Bohnen , Michael , Solingen , * 03.01.1962 ."
+                "text": " Bohnen, Michael, Solingen, *03.01.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Solingen",
                     "dob": "1961-12-16",
@@ -42,7 +43,7 @@
                     "lastname": "Bohnen",
                     "name": "Ralf"
                 },
-                "text": " Bohnen , Ralf , Solingen , * 16.12.1961 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Bohnen, Ralf, Solingen, *16.12.1961, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

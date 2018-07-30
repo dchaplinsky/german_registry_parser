@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Wittestraße 30 , 13509 Berlin ."
+                "text": " Wittestraße 30, 13509 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Doha / Katar",
+                    "dismissed": true,
                     "dob": "1972-07-06",
-                    "lastname": "Al - Mulla",
+                    "lastname": "Al-Mulla",
                     "name": "Hamad Abdulla A"
                 },
-                "text": " Al - Mulla , Hamad Abdulla A , Doha / Katar , * 07.06.1972"
+                "text": " Al-Mulla, Hamad Abdulla A, Doha / Katar, *07.06.1972"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Berlin",
                     "dob": "1982-04-21",
                     "lastname": "Hupfer",
                     "name": "Christian"
                 },
-                "text": " Hupfer , Christian , Berlin , * 21.04.1982 ."
+                "text": " Hupfer, Christian, Berlin, *21.04.1982."
             }
         ]
     }

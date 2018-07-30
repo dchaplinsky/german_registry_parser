@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Olfen",
+                    "dismissed": true,
                     "dob": "1987-09-23",
                     "lastname": "Leufke",
                     "name": "Oliver"
                 },
-                "text": " Leufke , Oliver , Olfen , * 23.09.1987 ."
+                "text": " Leufke, Oliver, Olfen, *23.09.1987."
             }
         ]
     }

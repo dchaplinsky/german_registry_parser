@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Matosinhos / Portugal",
+                    "dismissed": true,
                     "dob": "1976-08-09",
                     "lastname": "Fegan",
                     "name": "Michael"
                 },
-                "text": " Fegan , Michael , Matosinhos / Portugal , * 08.09.1976 ."
+                "text": " Fegan, Michael, Matosinhos / Portugal, *08.09.1976."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hilden",
                     "dob": "1967-05-22",
@@ -36,7 +37,7 @@
                     "lastname": "Schmeiß",
                     "name": "Andreas"
                 },
-                "text": " Schmeiß , Andreas , Hilden , * 22.05.1967 , einzelvertretungsberechtigt ."
+                "text": " Schmeiß, Andreas, Hilden, *22.05.1967, einzelvertretungsberechtigt."
             }
         ]
     }

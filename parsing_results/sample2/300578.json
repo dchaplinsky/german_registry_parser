@@ -19,40 +19,42 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hirschberg",
                     "dob": "1972-03-15",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Schmitt",
                     "name": "Jörn"
                 },
-                "text": " Schmitt , Jörn , Hirschberg , * 15.03.1972 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schmitt, Jörn, Hirschberg, *15.03.1972, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hirschberg",
+                    "dismissed": true,
                     "dob": "1961-12-08",
                     "lastname": "Büßecker",
                     "name": "Jörg"
                 },
-                "text": " Büßecker , Jörg , Hirschberg , * 12.08.1961 ."
+                "text": " Büßecker, Jörg, Hirschberg, *12.08.1961."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Hirschberg",
+                    "dismissed": true,
                     "dob": "1972-03-15",
                     "lastname": "Schmitt",
                     "name": "Jörn"
                 },
-                "text": " Schmitt , Jörn , Hirschberg , * 15.03.1972 ."
+                "text": " Schmitt, Jörn, Hirschberg, *15.03.1972."
             }
         ]
     }

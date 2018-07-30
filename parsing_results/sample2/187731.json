@@ -19,11 +19,11 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -36,17 +36,18 @@
                     "lastname": "Riediger",
                     "name": "Denis"
                 },
-                "text": " Riediger , Denis , Dresden , * 20.10.1977 , einzelvertretungsberechtigt"
+                "text": " Riediger, Denis, Dresden, *20.10.1977, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Most / Tschechien / Tschechische Republik",
+                    "city": "Most/Tschechien / Tschechische Republik",
+                    "dismissed": true,
                     "dob": "1956-01-14",
                     "lastname": "Zelenka",
                     "name": "Jiri"
                 },
-                "text": " Zelenka , Jiri , Most / Tschechien / Tschechische Republik , * 14.01.1956 ."
+                "text": " Zelenka, Jiri, Most/Tschechien / Tschechische Republik, *14.01.1956."
             }
         ]
     }

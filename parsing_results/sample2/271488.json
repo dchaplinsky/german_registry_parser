@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Seevetal",
+                    "dismissed": true,
                     "dob": "1948-08-27",
                     "lastname": "Grewe",
                     "name": "Thomas"
                 },
-                "text": " Grewe , Thomas , Seevetal , * 27.08.1948 ."
+                "text": " Grewe, Thomas, Seevetal, *27.08.1948."
             }
         ]
     }

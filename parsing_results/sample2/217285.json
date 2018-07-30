@@ -16,22 +16,28 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=217285&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Frederick , John W . , Fallston , Maryland / USA , * 26.10.1963 ., error text was Cannot parse DOB  Fallston  using regex"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Maryland/USA",
+                    "dismissed": true,
+                    "dob": "1963-10-26",
+                    "lastname": "Frederick",
+                    "name": "John W",
+                    "position": "Fallston"
+                },
+                "text": " Frederick, John W., Fallston, Maryland/USA, *26.10.1963."
+            },
+            {
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Boxborough / USA - Vereinigte Staaten",
                     "dob": "1962-10-20",
                     "lastname": "Agle",
                     "name": "Brian"
                 },
-                "text": " Agle , Brian , Boxborough / USA - Vereinigte Staaten , * 20.10.1962"
+                "text": " Agle, Brian, Boxborough / USA - Vereinigte Staaten, *20.10.1962"
             }
         ]
     }

@@ -19,13 +19,13 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Landauer Straße 30 A , 70499 Stuttgart - Weilimdorf ."
+                "text": " Landauer Straße 30 A, 70499 Stuttgart-Weilimdorf."
             }
         ],
         "officers": [
@@ -34,20 +34,21 @@
                 "payload": {
                     "city": "Stuttgart",
                     "dob": "1965-07-03",
-                    "lastname": "Chiduch - Peters",
+                    "lastname": "Chiduch-Peters",
                     "name": "Annette Manuela geborene Chiduch"
                 },
-                "text": " Chiduch - Peters , Annette Manuela geborene Chiduch , Stuttgart , * 07.03.1965 ."
+                "text": " Chiduch-Peters, Annette Manuela geborene Chiduch, Stuttgart, *07.03.1965."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
+                    "dismissed": true,
                     "lastname": "Peters",
                     "name": "Wolfgang",
                     "position": "Industriekaufmann"
                 },
-                "text": " Peters , Wolfgang , Industriekaufmann , Stuttgart ."
+                "text": " Peters, Wolfgang, Industriekaufmann, Stuttgart."
             }
         ]
     }

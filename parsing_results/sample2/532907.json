@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Offenbach am Main",
+                    "dismissed": true,
                     "dob": "1983-05-25",
                     "lastname": "Zager",
                     "name": "Shen"
                 },
-                "text": " Zager , Shen , Offenbach am Main , * 25.05.1983 ."
+                "text": " Zager, Shen, Offenbach am Main, *25.05.1983."
             }
         ]
     }

@@ -19,17 +19,18 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Core - Cubes GmbH , Berlin , Rosenthaler Straße 46 - 47 , 10178 Berlin ."
+                "text": " Core-Cubes GmbH, Berlin, Rosenthaler Straße 46 - 47, 10178 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "lastname": "Dr . Rinschede",
+                    "dismissed": true,
+                    "lastname": "Doctor Rinschede",
                     "name": "Matthias"
                 },
-                "text": " Dr . Rinschede , Matthias"
+                "text": " Doctor Rinschede, Matthias"
             }
         ]
     }

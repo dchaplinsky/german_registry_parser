@@ -19,47 +19,48 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " OCM Online Car Marketplace Global Services GmbH , Berlin , Johannisstraße 20 , 10117 Berlin ."
+                "text": " OCM Online Car Marketplace Global Services GmbH, Berlin, Johannisstraße 20, 10117 Berlin."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "London / Vereinigtes Königreich",
+                    "city": "London/Vereinigtes Königreich",
                     "dob": "1978-06-08",
                     "lastname": "Bruce",
                     "name": "Robert Graham"
                 },
-                "text": " Bruce , Robert Graham , * 06.08.1978 , London / Vereinigtes Königreich"
+                "text": " Bruce, Robert Graham, *06.08.1978, London/Vereinigtes Königreich"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "London / Vereinigtes Königreich",
+                    "city": "London/Vereinigtes Königreich",
                     "dob": "1978-07-12",
                     "lastname": "Stavrakos Stevenson",
                     "name": "Alexander"
                 },
-                "text": " Stavrakos Stevenson , Alexander , * 07.12.1978 , London / Vereinigtes Königreich"
+                "text": " Stavrakos Stevenson, Alexander, *07.12.1978, London/Vereinigtes Königreich"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Hirschberg",
                     "name": "Dörte"
                 },
-                "text": " Hirschberg , Dörte"
+                "text": " Hirschberg, Dörte"
             }
         ]
     }

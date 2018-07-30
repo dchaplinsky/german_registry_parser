@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Konstanz",
+                    "dismissed": true,
                     "dob": "1976-10-15",
                     "lastname": "Honsell",
                     "name": "Christoph"
                 },
-                "text": " Honsell , Christoph , Konstanz , * 15.10.1976"
+                "text": " Honsell, Christoph, Konstanz, *15.10.1976"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Rankweil ( Österreich )",
+                    "city": "Rankweil (Österreich)",
                     "dob": "1976-03-07",
                     "flag": "sole representation",
                     "lastname": "Kinz",
                     "name": "Alexandra Stefanie"
                 },
-                "text": " Kinz , Alexandra Stefanie , Rankweil ( Österreich ) , * 03.07.1976 , einzelvertretungsberechtigt"
+                "text": " Kinz, Alexandra Stefanie, Rankweil (Österreich), *03.07.1976, einzelvertretungsberechtigt"
             }
         ]
     }

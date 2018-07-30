@@ -19,53 +19,55 @@
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
-                "text": "Sind mehrere Geschäftsführer bestellt , wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten ."
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ wird\\ die\\ Gesellschaft\\ gemeinschaftlich\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ in\\ Gemeinschaft\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             },
             {
                 "flag": "Exclusive power of representation can be granted.",
-                "text": "Alleinvertretungsbefugnis kann erteilt werden ."
+                "text": "Alleinvertretungsbefugnis\\ kann\\ erteilt\\ werden\\."
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " MM Auto UG ( haftungsbeschränkt ) , Berlin , Friedrichstraße 88 , 10117 Berlin ."
+                "text": " MM Auto UG (haftungsbeschränkt), Berlin, Friedrichstraße 88, 10117 Berlin."
             },
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Friedrichstraße 88 , 10117 Berlin"
+                "text": " Geschäftsanschrift: Friedrichstraße 88, 10117 Berlin"
             },
             {
                 "label": "address",
-                "text": " Friedrichstraße 88 , 10117 Berlin"
+                "text": " Friedrichstraße 88, 10117 Berlin"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Gut",
                     "name": "Marek Cezary"
                 },
-                "text": " Gut , Marek Cezary"
+                "text": " Gut, Marek Cezary"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Koncewicz",
                     "name": "Dariusz"
                 },
-                "text": " Koncewicz , Dariusz"
+                "text": " Koncewicz, Dariusz"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Zukowo / Polen",
+                    "city": "Zukowo/Polen",
                     "dob": "1977-09-04",
                     "lastname": "Kuberna",
                     "name": "Marcin Jan"
                 },
-                "text": " Kuberna , Marcin Jan , * 09.04.1977 , Zukowo / Polen"
+                "text": " Kuberna, Marcin Jan, *09.04.1977, Zukowo/Polen"
             }
         ]
     }

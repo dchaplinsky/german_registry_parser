@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Trünzig OT Langenbernsdorf",
+                    "dismissed": true,
                     "dob": "1946-11-11",
                     "lastname": "Döhrer",
                     "name": "Hartmut"
                 },
-                "text": " Döhrer , Hartmut , Trünzig OT Langenbernsdorf , * 11.11.1946 ."
+                "text": " Döhrer, Hartmut, Trünzig OT Langenbernsdorf, *11.11.1946."
             },
             {
                 "class": "ManagingDirector",
@@ -35,7 +36,7 @@
                     "lastname": "Krause",
                     "name": "Anke"
                 },
-                "text": " Krause , Anke , Gera , * 10.07.1964 ."
+                "text": " Krause, Anke, Gera, *10.07.1964."
             }
         ]
     }

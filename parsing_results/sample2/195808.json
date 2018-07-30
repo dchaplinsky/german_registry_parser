@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Erthalstraße 1 , 55118 Mainz ."
+                "text": " Erthalstraße 1, 55118 Mainz."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kirchheimbolanden",
                     "dob": "1958-10-18",
                     "lastname": "Ehmann",
                     "name": "Bernhard"
                 },
-                "text": " Ehmann , Bernhard , Kirchheimbolanden , * 18.10.1958"
+                "text": " Ehmann, Bernhard, Kirchheimbolanden, *18.10.1958"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bellingen",
+                    "dismissed": true,
                     "dob": "1959-07-07",
                     "lastname": "Strüder",
                     "name": "Harald"
                 },
-                "text": " Strüder , Harald , Bellingen , * 07.07.1959 ."
+                "text": " Strüder, Harald, Bellingen, *07.07.1959."
             }
         ]
     }

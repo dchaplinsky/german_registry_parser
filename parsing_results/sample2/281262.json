@@ -19,13 +19,13 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Roosenboom , Tim Mathijs Maria , EJ Bergen , Niederlande , * 16.09.1982 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ., error text was Cannot parse DOB  EJ Bergen  using regex"
+                "text": "Cannot parse a ManagingDirector from  Roosenboom, Tim Mathijs Maria, EJ Bergen, Niederlande, *16.09.1982, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was Cannot parse DOB  EJ Bergen using regex"
             }
         ],
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ]
     }

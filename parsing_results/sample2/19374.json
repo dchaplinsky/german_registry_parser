@@ -16,16 +16,23 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=19374&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dipl . - Ing ., error text was a person without DOB, number of chunks: 1"
-            }
-        ],
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Cadolzburg",
+                    "dob": "1951-09-16",
+                    "flag": "sole representation",
+                    "lastname": "Diplomingenieur Drescher",
+                    "name": "Werner"
+                },
+                "text": " Diplomingenieur Drescher, Werner, Cadolzburg, *16.09.1951, einzelvertretungsberechtigt."
             }
         ]
     }

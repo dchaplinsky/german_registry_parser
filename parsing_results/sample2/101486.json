@@ -18,8 +18,8 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "officers": [
@@ -32,17 +32,18 @@
                     "lastname": "Fründt",
                     "name": "Thomas"
                 },
-                "text": " Fründt , Thomas , Dorsten , * 09.01.1964 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Fründt, Thomas, Dorsten, *09.01.1964, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1936-07-24",
                     "lastname": "vom Hagen",
                     "name": "Wolfgang"
                 },
-                "text": " vom Hagen , Wolfgang , Düsseldorf , * 24.07.1936 ."
+                "text": " vom Hagen, Wolfgang, Düsseldorf, *24.07.1936."
             }
         ]
     }

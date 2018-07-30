@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rasdorf",
+                    "dismissed": true,
                     "dob": "1960-03-04",
                     "lastname": "Wiegand",
                     "name": "Sabine geborene Becker"
                 },
-                "text": " Wiegand , Sabine geborene Becker , Rasdorf , * 03.04.1960 ."
+                "text": " Wiegand, Sabine geborene Becker, Rasdorf, *03.04.1960."
             }
         ]
     }

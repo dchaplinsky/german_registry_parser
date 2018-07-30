@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Courbevoie / Frankreich",
+                    "dismissed": true,
                     "dob": "1972-05-28",
                     "lastname": "Célérier",
                     "name": "Eric"
                 },
-                "text": " Célérier , Eric , Courbevoie / Frankreich , * 28.05.1972 ."
+                "text": " Célérier, Eric, Courbevoie / Frankreich, *28.05.1972."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
                     "dob": "1968-09-30",
                     "lastname": "Cyrkel",
                     "name": "Hartmut"
                 },
-                "text": " Cyrkel , Hartmut , Düsseldorf , * 30.09.1968"
+                "text": " Cyrkel, Hartmut, Düsseldorf, *30.09.1968"
             }
         ]
     }

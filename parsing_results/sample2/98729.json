@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Köchig",
                     "name": "Thomas"
                 },
-                "text": " Köchig , Thomas ."
+                "text": " Köchig, Thomas."
             },
             {
                 "class": "ManagingDirector",
@@ -31,9 +32,9 @@
                     "city": "Berlin",
                     "dob": "1956-02-04",
                     "lastname": "Adam",
-                    "name": "Hans - Jürgen"
+                    "name": "Hans-Jürgen"
                 },
-                "text": " Adam , Hans - Jürgen , * 02.04.1956 , Berlin"
+                "text": " Adam, Hans-Jürgen, *02.04.1956, Berlin"
             }
         ]
     }

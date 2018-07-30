@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Winnert",
+                    "dismissed": true,
                     "dob": "1949-12-15",
                     "lastname": "Paulsen",
                     "name": "Sönke"
                 },
-                "text": " Paulsen , Sönke , Winnert , * 15.12.1949 ."
+                "text": " Paulsen, Sönke, Winnert, *15.12.1949."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Flensburg",
                     "dob": "1957-05-26",
                     "flag": "sole representation",
                     "lastname": "Wiener",
-                    "name": "Frank - Ulrich"
+                    "name": "Frank-Ulrich"
                 },
-                "text": " Wiener , Frank - Ulrich , Flensburg , * 26.05.1957 , einzelvertretungsberechtigt"
+                "text": " Wiener, Frank-Ulrich, Flensburg, *26.05.1957, einzelvertretungsberechtigt"
             }
         ]
     }

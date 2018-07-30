@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Bismarckstraße 63 , 41061 Mönchengladbach ."
+                "text": " Bismarckstraße 63, 41061 Mönchengladbach."
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Mönchengladbach",
+                    "dismissed": true,
                     "dob": "1926-11-12",
                     "lastname": "Giesers",
                     "name": "Marianne geborene Lindgens"
                 },
-                "text": " Giesers , Marianne geborene Lindgens , Mönchengladbach , * 11.12.1926 ."
+                "text": " Giesers, Marianne geborene Lindgens, Mönchengladbach, *11.12.1926."
             },
             {
                 "class": "Owner",
                 "payload": {
                     "city": "Niederkrüchten",
                     "dob": "1968-03-25",
-                    "lastname": "Giesers - Kaufmann",
+                    "lastname": "Giesers-Kaufmann",
                     "name": "Beate"
                 },
-                "text": " Giesers - Kaufmann , Beate , Niederkrüchten , * 25.03.1968 ."
+                "text": " Giesers-Kaufmann, Beate, Niederkrüchten, *25.03.1968."
             }
         ]
     }

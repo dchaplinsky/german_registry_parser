@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=991907&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Gelsenkirchen",
+                    "dismissed": true,
                     "dob": "1986-06-11",
                     "lastname": "Freiherr von Klopmann",
                     "name": "Philippe"
                 },
-                "text": " Freiherr von Klopmann , Philippe , Gelsenkirchen , * 06.11.1986 ."
+                "text": " Freiherr von Klopmann, Philippe, Gelsenkirchen, *06.11.1986."
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +36,7 @@
                     "lastname": "Lilienthal",
                     "name": "Peter"
                 },
-                "text": " Lilienthal , Peter , Bochum , * 06.11.1984 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Bochum",
-                    "dob": "1984-06-11",
-                    "lastname": "Lilienthal",
-                    "name": "Peter"
-                },
-                "text": " Lilienthal , Peter , Bochum , * 06.11.1984 ."
+                "text": " Lilienthal, Peter, Bochum, *06.11.1984."
             }
         ]
     }

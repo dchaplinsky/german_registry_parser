@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Orcq / Belgien",
+                    "dismissed": true,
                     "dob": "1957-06-16",
                     "lastname": "Parize",
                     "name": "Isabelle Veronique"
                 },
-                "text": " Parize , Isabelle Veronique , Orcq / Belgien , * 16.06.1957 ."
+                "text": " Parize, Isabelle Veronique, Orcq / Belgien, *16.06.1957."
             }
         ]
     }

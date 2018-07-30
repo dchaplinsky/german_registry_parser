@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1985-09-10",
                     "lastname": "Partovi",
                     "name": "Schahin"
                 },
-                "text": " Partovi , Schahin , Hamburg , * 09.10.1985 ."
+                "text": " Partovi, Schahin, Hamburg, *09.10.1985."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1993-08-02",
@@ -36,7 +37,7 @@
                     "lastname": "Nobari",
                     "name": "Ardeshir"
                 },
-                "text": " Nobari , Ardeshir , Hamburg , * 08.02.1993 , vertretungsberechtigt gemäß allgemeiner Vertretungsregelung ."
+                "text": " Nobari, Ardeshir, Hamburg, *08.02.1993, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung."
             }
         ]
     }

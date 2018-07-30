@@ -19,13 +19,17 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Mergen , Murat , Hatay - Izmir , Türkei , * 17.10.1974 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Hatay - Izmir  using regex"
+                "text": "Cannot parse a AppointedManagingDirector from  Mergen, Murat, Hatay-Izmir, Türkei, *17.10.1974, einzelvertretungsberechtigt, error text was Cannot parse DOB  Hatay-Izmir using regex"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Mergen, Murat, Hatay-Izmir, Türkei, *17.10.1974, einzelvertretungsberechtigt, error text was Cannot parse DOB  Hatay-Izmir using regex"
             }
         ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ]
     }

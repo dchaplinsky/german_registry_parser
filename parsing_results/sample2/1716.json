@@ -19,21 +19,22 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "lastname": "Marotta - Martinelli",
+                    "dismissed": true,
+                    "lastname": "Marotta-Martinelli",
                     "name": "Bettina"
                 },
-                "text": " Marotta - Martinelli , Bettina"
+                "text": " Marotta-Martinelli, Bettina"
             },
             {
                 "class": "ManagingDirector",
@@ -43,7 +44,7 @@
                     "lastname": "Jansen",
                     "name": "Michael"
                 },
-                "text": " Jansen , Michael , * 29.12.1944 , Berlin"
+                "text": " Jansen, Michael, *29.12.1944, Berlin"
             }
         ]
     }

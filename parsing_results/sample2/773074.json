@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Nordendstr ."
+                "text": " Nordendstr."
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Rimsting",
+                    "dismissed": true,
                     "dob": "1945-10-11",
-                    "lastname": "Weber - Kämpfer",
+                    "lastname": "Weber-Kämpfer",
                     "name": "Birgit"
                 },
-                "text": " Weber - Kämpfer , Birgit , Rimsting , * 10.11.1945 ."
+                "text": " Weber-Kämpfer, Birgit, Rimsting, *10.11.1945."
             },
             {
                 "class": "Owner",
                 "payload": {
-                    "city": "Garching b . München",
+                    "city": "Garching b. München",
                     "dob": "1970-10-27",
                     "lastname": "Hilger",
                     "name": "Dominika"
                 },
-                "text": " Hilger , Dominika , Garching b . München , * 27.10.1970 ."
+                "text": " Hilger, Dominika, Garching b. München, *27.10.1970."
             }
         ]
     }

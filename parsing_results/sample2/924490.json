@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Oberstotzingen",
+                    "dismissed": true,
                     "dob": "1970-12-19",
                     "lastname": "Kupfer",
                     "name": "Annett"
                 },
-                "text": " Kupfer , Annett , Oberstotzingen , * 19.12.1970 ."
+                "text": " Kupfer, Annett, Oberstotzingen, *19.12.1970."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Aystetten",
                     "dob": "1959-12-14",
@@ -36,7 +37,7 @@
                     "lastname": "Arlt",
                     "name": "Christian"
                 },
-                "text": " Arlt , Christian , Aystetten , * 14.12.1959 , einzelvertretungsberechtigt ."
+                "text": " Arlt, Christian, Aystetten, *14.12.1959, einzelvertretungsberechtigt."
             }
         ]
     }

@@ -16,32 +16,39 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=38973&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Wink , Anton Franz , Kaufmann , Bingen , * 10.11.1958 ., error text was Cannot parse DOB  Kaufmann  using regex"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Bingen",
+                    "dismissed": true,
+                    "dob": "1958-10-11",
+                    "lastname": "Wink",
+                    "name": "Anton Franz",
+                    "position": "Kaufmann"
+                },
+                "text": " Wink, Anton Franz, Kaufmann, Bingen, *10.11.1958."
+            },
+            {
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1968-08-29",
                     "lastname": "Prigge",
                     "name": "Heino"
                 },
-                "text": " Prigge , Heino , Hamburg , * 29.08.1968 ."
+                "text": " Prigge, Heino, Hamburg, *29.08.1968."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Leopoldsdorf im Marchfelde A -2285",
+                    "city": "Leopoldsdorf im Marchfelde A-2285",
+                    "dismissed": true,
                     "dob": "1944-09-20",
-                    "lastname": "Dr . Nefischer",
+                    "lastname": "Doctor Nefischer",
                     "name": "Dieter"
                 },
-                "text": " Dr . Nefischer , Dieter , Leopoldsdorf im Marchfelde A -2285 , * 20.09.1944"
+                "text": " Doctor Nefischer, Dieter, Leopoldsdorf im Marchfelde A-2285, *20.09.1944"
             },
             {
                 "class": "CommonProcuration",
@@ -51,7 +58,7 @@
                     "lastname": "Breitner",
                     "name": "Robert"
                 },
-                "text": " Breitner , Robert , Wien , * 04.10.1961 ."
+                "text": " Breitner, Robert, Wien, *04.10.1961."
             }
         ]
     }

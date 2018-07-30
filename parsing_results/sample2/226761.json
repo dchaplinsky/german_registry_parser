@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Wittmund",
+                    "dismissed": true,
                     "dob": "1927-09-27",
                     "lastname": "Peters",
                     "name": "Gottfried"
                 },
-                "text": " Peters , Gottfried , Wittmund , * 27.09.1927 ."
+                "text": " Peters, Gottfried, Wittmund, *27.09.1927."
             },
             {
                 "class": "Owner",
@@ -35,7 +36,7 @@
                     "lastname": "Peters",
                     "name": "Petra Gritje Erika"
                 },
-                "text": " Peters , Petra Gritje Erika , Wittmund , * 07.03.1973 ."
+                "text": " Peters, Petra Gritje Erika, Wittmund, *07.03.1973."
             }
         ]
     }

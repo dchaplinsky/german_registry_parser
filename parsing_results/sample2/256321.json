@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Trebur",
                     "dob": "1968-09-22",
@@ -26,17 +26,18 @@
                     "lastname": "Seidl",
                     "name": "Roger"
                 },
-                "text": " Seidl , Roger , Trebur , * 22.09.1968 , einzelvertretungsberechtigt ."
+                "text": " Seidl, Roger, Trebur, *22.09.1968, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wiesbaden",
+                    "dismissed": true,
                     "dob": "1945-10-08",
                     "lastname": "Grautegein",
                     "name": "Uwe"
                 },
-                "text": " Grautegein , Uwe , Wiesbaden , * 10.08.1945 ."
+                "text": " Grautegein, Uwe, Wiesbaden, *10.08.1945."
             }
         ]
     }

@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Erich - Bammel - Weg 3-5 , 38446 Wolfsburg ."
+                "text": " Erich-Bammel-Weg 3-5, 38446 Wolfsburg."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Braunschweig",
+                    "dismissed": true,
                     "dob": "1949-12-05",
                     "lastname": "Siedentop",
                     "name": "Joachim"
                 },
-                "text": " Siedentop , Joachim , Braunschweig , * 12.05.1949 ."
+                "text": " Siedentop, Joachim, Braunschweig, *12.05.1949."
             }
         ]
     }

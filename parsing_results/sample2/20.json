@@ -19,7 +19,11 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Rumpke , Werner , Geschäftsführer : Kühn , Sebastian , * 17.09.1974 , Velten , mit der Befugnis die Gesellschaft mit einem anderen Geschäftsführer oder einem Prokuristen zu vertreten ., error text was no valid patter found, number of chunks: 7"
+                "text": "Cannot parse a DismissedManagingDirector from  Rumpke, Werner, Geschäftsführer: Kühn, Sebastian, *17.09.1974, Velten, mit der Befugnis die Gesellschaft mit einem anderen Geschäftsführer oder einem Prokuristen zu vertreten., error text was no valid patter found, number of chunks: 7"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rumpke, Werner, Geschäftsführer: Kühn, Sebastian, *17.09.1974, Velten, mit der Befugnis die Gesellschaft mit einem anderen Geschäftsführer oder einem Prokuristen zu vertreten., error text was no valid patter found, number of chunks: 7"
             }
         ]
     }

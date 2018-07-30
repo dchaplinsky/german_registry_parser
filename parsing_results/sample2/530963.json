@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Grevenbroich",
+                    "dismissed": true,
                     "dob": "1947-12-14",
                     "lastname": "Küpper",
                     "name": "Heinrich"
                 },
-                "text": " Küpper , Heinrich , Grevenbroich , * 14.12.1947 ."
+                "text": " Küpper, Heinrich, Grevenbroich, *14.12.1947."
             },
             {
                 "class": "ManagingDirector",
@@ -33,10 +34,10 @@
                     "city": "Hürth",
                     "dob": "1965-01-16",
                     "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Dr . Richard",
+                    "lastname": "Doctor Richard",
                     "name": "Oliver"
                 },
-                "text": " Dr . Richard , Oliver , Hürth , * 16.01.1965 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Richard, Oliver, Hürth, *16.01.1965, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

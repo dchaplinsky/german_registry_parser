@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Meckenheim",
+                    "dismissed": true,
                     "dob": "1943-02-12",
                     "lastname": "Bosch",
                     "name": "Josef"
                 },
-                "text": " Bosch , Josef , Meckenheim , * 02.12.1943 ."
+                "text": " Bosch, Josef, Meckenheim, *02.12.1943."
             },
             {
                 "class": "ManagingDirector",
@@ -36,7 +37,7 @@
                     "lastname": "Streich",
                     "name": "Britta"
                 },
-                "text": " Streich , Britta , Bad Honnef , * 16.12.1971 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Streich, Britta, Bad Honnef, *16.12.1971, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

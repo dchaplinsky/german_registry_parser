@@ -19,17 +19,17 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Friedrichshafener Straße 18 , 14772 Brandenburg an der Havel ."
+                "text": " Friedrichshafener Straße 18, 14772 Brandenburg an der Havel."
             }
         ],
         "officers": [
@@ -41,15 +41,16 @@
                     "lastname": "Zatlidis",
                     "name": "Panajotis"
                 },
-                "text": " Zatlidis , Panajotis , * 18.08.1958 , Brandenburg an der Havel"
+                "text": " Zatlidis, Panajotis, *18.08.1958, Brandenburg an der Havel"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Okon",
                     "name": "Normen"
                 },
-                "text": " Okon , Normen"
+                "text": " Okon, Normen"
             }
         ]
     }

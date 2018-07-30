@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Krefeld",
+                    "dismissed": true,
                     "dob": "1956-05-27",
-                    "lastname": "Dr . Slotta",
+                    "lastname": "Doctor Slotta",
                     "name": "Gerd"
                 },
-                "text": " Dr . Slotta , Gerd , Krefeld , * 27.05.1956 ."
+                "text": " Doctor Slotta, Gerd, Krefeld, *27.05.1956."
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Amberg",
                     "dob": "1970-08-14",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Wiedemann",
                     "name": "Patrick"
                 },
-                "text": " Wiedemann , Patrick , Amberg , * 14.08.1970 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Wiedemann, Patrick, Amberg, *14.08.1970, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

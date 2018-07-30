@@ -19,35 +19,32 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Ilsensteinweg 6 , 14129 Berlin Nicht mehr Liquidator : Zimmermann , Thomas"
-            },
-            {
-                "label": "address",
-                "text": " Ilsensteinweg 6 , 14129 Berlin Nicht mehr Liquidator : Zimmermann , Thomas"
+                "text": " Geschäftsanschrift: Ilsensteinweg 6, 14129 Berlin Nicht mehr Liquidator: Zimmermann, Thomas"
             }
         ],
         "officers": [
             {
-                "class": "Liquidator",
+                "class": "NotALiquidator",
                 "payload": {
-                    "lastname": "Zimmermann",
+                    "dismissed": true,
+                    "lastname": ": Zimmermann",
                     "name": "Thomas"
                 },
-                "text": " Zimmermann , Thomas"
+                "text": ": Zimmermann, Thomas"
             },
             {
                 "class": "Liquidator",
@@ -57,7 +54,7 @@
                     "lastname": "Müller",
                     "name": "Petra"
                 },
-                "text": " Müller , Petra , * 15.05.1971 , Berlin"
+                "text": " Müller, Petra, *15.05.1971, Berlin"
             }
         ]
     }

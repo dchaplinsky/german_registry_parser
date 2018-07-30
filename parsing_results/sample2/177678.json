@@ -18,34 +18,36 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mainz",
                     "dob": "1957-01-05",
                     "lastname": "Höhne",
                     "name": "Heinz Günter"
                 },
-                "text": " Höhne , Heinz Günter , Mainz , * 01.05.1957"
+                "text": " Höhne, Heinz Günter, Mainz, *01.05.1957"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Albig",
+                    "dismissed": true,
                     "dob": "1952-02-15",
                     "lastname": "Hagenguth",
                     "name": "Peter Heinz"
                 },
-                "text": " Hagenguth , Peter Heinz , Albig , * 15.02.1952"
+                "text": " Hagenguth, Peter Heinz, Albig, *15.02.1952"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Mainz",
+                    "dismissed": true,
                     "dob": "1957-01-05",
                     "lastname": "Höhne",
                     "name": "Heinz Günter"
                 },
-                "text": " Höhne , Heinz Günter , Mainz , * 01.05.1957"
+                "text": " Höhne, Heinz Günter, Mainz, *01.05.1957"
             }
         ]
     }

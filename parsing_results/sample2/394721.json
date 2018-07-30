@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Bad Homburg v . d . Höhe",
+                    "city": "Bad Homburg v. d. Höhe",
+                    "dismissed": true,
                     "dob": "1938-12-08",
-                    "lastname": "Dr . Winkler",
+                    "lastname": "Doctor Winkler",
                     "name": "Gabor"
                 },
-                "text": " Dr . Winkler , Gabor , Bad Homburg v . d . Höhe , * 12.08.1938 ."
+                "text": " Doctor Winkler, Gabor, Bad Homburg v. d. Höhe, *12.08.1938."
             }
         ]
     }

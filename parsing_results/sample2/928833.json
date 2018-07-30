@@ -19,40 +19,42 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1977-03-26",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Meyer - Glöckner",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Meyer-Glöckner",
                     "name": "Birger"
                 },
-                "text": " Meyer - Glöckner , Birger , München , * 26.03.1977 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Meyer-Glöckner, Birger, München, *26.03.1977, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1969-04-23",
                     "lastname": "Sedlmeyr",
                     "name": "Josef"
                 },
-                "text": " Sedlmeyr , Josef , München , * 23.04.1969 ."
+                "text": " Sedlmeyr, Josef, München, *23.04.1969."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1977-03-26",
-                    "lastname": "Meyer - Glöckner",
+                    "lastname": "Meyer-Glöckner",
                     "name": "Birger"
                 },
-                "text": " Meyer - Glöckner , Birger , München , * 26.03.1977 ."
+                "text": " Meyer-Glöckner, Birger, München, *26.03.1977."
             }
         ]
     }

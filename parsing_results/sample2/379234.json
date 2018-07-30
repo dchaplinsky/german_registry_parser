@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Sarstedt",
+                    "dismissed": true,
                     "dob": "1967-04-22",
                     "lastname": "Glöckner",
                     "name": "Klaus Peter"
                 },
-                "text": " Glöckner , Klaus Peter , Sarstedt , * 22.04.1967 ."
+                "text": " Glöckner, Klaus Peter, Sarstedt, *22.04.1967."
             }
         ]
     }

@@ -19,27 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Heinrichstraße 14 , 49413 Dinklage ."
+                "text": " Heinrichstraße 14, 49413 Dinklage."
             }
         ],
         "officers": [
             {
                 "class": "Liquidator",
                 "payload": {
+                    "city": "Dinklage",
+                    "dob": "1940-01-21",
+                    "flag": "sole representation",
                     "lastname": "Horstkötter",
-                    "name": "Anneliese geb"
+                    "name": "Anneliese geborene Wiepel"
                 },
-                "text": " Horstkötter , Anneliese geb ."
+                "text": " Horstkötter, Anneliese geborene Wiepel, Dinklage, *21.01.1940, einzelvertretungsberechtigt"
             }
         ]
     }

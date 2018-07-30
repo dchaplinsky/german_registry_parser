@@ -19,33 +19,34 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Im Dörp 4 , 17248 Lärz OT Krümmel ."
+                "text": " Im Dörp 4, 17248 Lärz OT Krümmel."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Damm",
+                    "dismissed": true,
                     "lastname": "Hansen",
                     "name": "Dirk"
                 },
-                "text": " Hansen , Dirk , Damm ."
+                "text": " Hansen, Dirk, Damm."
             },
             {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Krümmel",
-                    "lastname": "Wartmann",
+                    "lastname": ": Wartmann",
                     "name": "Peter"
                 },
-                "text": " Wartmann , Peter , Krümmel ."
+                "text": ": Wartmann, Peter, Krümmel."
             }
         ]
     }

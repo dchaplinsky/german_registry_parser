@@ -25,15 +25,16 @@
                     "lastname": "Hirth",
                     "name": "Ulrike"
                 },
-                "text": " Hirth , Ulrike , * 07.10.1972 , Bremen"
+                "text": " Hirth, Ulrike, *07.10.1972, Bremen"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Meyer",
                     "name": "Joachim"
                 },
-                "text": " Meyer , Joachim ."
+                "text": " Meyer, Joachim."
             }
         ]
     }

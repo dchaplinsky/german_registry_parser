@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=960567&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Eitel , Michael , jun . , Freihung , * 19.01.1973 ., error text was Cannot parse DOB  jun .  using regex"
-            }
-        ],
         "officers": [
             {
                 "class": "Owner",
@@ -31,17 +25,30 @@
                     "lastname": "Eitel",
                     "name": "Natascha"
                 },
-                "text": " Eitel , Natascha , Freihung , * 20.09.1967 ."
+                "text": " Eitel, Natascha, Freihung, *20.09.1967."
             },
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
-                    "city": "Freihung - Thansüß",
+                    "city": "Freihung-Thansüß",
+                    "dismissed": true,
                     "dob": "1950-08-24",
                     "lastname": "Eitel",
                     "name": "Michael"
                 },
-                "text": " Eitel , Michael , Freihung - Thansüß , * 24.08.1950 ."
+                "text": " Eitel, Michael, Freihung-Thansüß, *24.08.1950."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Freihung",
+                    "dismissed": true,
+                    "dob": "1973-01-19",
+                    "lastname": "Eitel",
+                    "name": "Michael",
+                    "position": "jun"
+                },
+                "text": " Eitel, Michael, jun., Freihung, *19.01.1973."
             }
         ]
     }

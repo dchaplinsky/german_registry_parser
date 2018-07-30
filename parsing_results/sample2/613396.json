@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Uerdinger Straße 90 , 40474 Düsseldorf ."
+                "text": " Uerdinger Straße 90, 40474 Düsseldorf."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Tutzing",
                     "dob": "1959-03-26",
                     "lastname": "Guske",
                     "name": "Manfred"
                 },
-                "text": " Guske , Manfred , Tutzing , * 26.03.1959"
+                "text": " Guske, Manfred, Tutzing, *26.03.1959"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kaarst",
+                    "dismissed": true,
                     "dob": "1948-08-24",
                     "lastname": "Rosenkranz",
                     "name": "Wilfried"
                 },
-                "text": " Rosenkranz , Wilfried , Kaarst , * 24.08.1948 ."
+                "text": " Rosenkranz, Wilfried, Kaarst, *24.08.1948."
             }
         ]
     }

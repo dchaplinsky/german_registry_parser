@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1966-11-28",
                     "lastname": "Schotten",
                     "name": "Martin Bernhard Gerhard"
                 },
-                "text": " Schotten , Martin Bernhard Gerhard , München , * 28.11.1966 ."
+                "text": " Schotten, Martin Bernhard Gerhard, München, *28.11.1966."
             }
         ]
     }

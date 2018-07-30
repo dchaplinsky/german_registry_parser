@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "The owner is acting alone",
-                "text": "Der Inhaber handelt allein"
+                "text": "Der\\ Inhaber\\ handelt\\ allein"
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Bad Pyrmont",
+                    "dismissed": true,
                     "lastname": "Scheer",
                     "name": "Wolfgang",
                     "position": "Glasermeister"
                 },
-                "text": " Scheer , Wolfgang , Glasermeister , Bad Pyrmont ."
+                "text": " Scheer, Wolfgang, Glasermeister, Bad Pyrmont."
             },
             {
                 "class": "Owner",
@@ -41,7 +42,7 @@
                     "lastname": "Scheer",
                     "name": "Ilona"
                 },
-                "text": " Scheer , Ilona , Bad Pyrmont , * 01.09.1952 ."
+                "text": " Scheer, Ilona, Bad Pyrmont, *01.09.1952."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1978-04-30",
                     "lastname": "Gromotka",
                     "name": "Daniel"
                 },
-                "text": " Gromotka , Daniel , München , * 30.04.1978 ."
+                "text": " Gromotka, Daniel, München, *30.04.1978."
             }
         ]
     }

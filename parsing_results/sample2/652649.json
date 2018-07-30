@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Messerschmittstraße 7 , 80992 München ."
+                "text": " Messerschmittstraße 7, 80992 München."
             }
         ],
         "officers": [
@@ -27,10 +27,11 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Haimhausen",
+                    "dismissed": true,
                     "lastname": "Neumann",
                     "name": "Doris"
                 },
-                "text": " Neumann , Doris , Haimhausen ."
+                "text": " Neumann, Doris, Haimhausen."
             }
         ]
     }

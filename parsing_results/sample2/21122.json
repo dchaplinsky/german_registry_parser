@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Chène Bougéries",
+                    "dismissed": true,
                     "dob": "1965-05-31",
                     "lastname": "Gruschka",
                     "name": "Martin"
                 },
-                "text": " Gruschka , Martin , Chène Bougéries , * 31.05.1965 ."
+                "text": " Gruschka, Martin, Chène Bougéries, *31.05.1965."
             }
         ]
     }

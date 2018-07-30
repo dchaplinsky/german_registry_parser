@@ -19,22 +19,22 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  EDEKA ZENTRALE AG & Co ., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a PersonalPartner from  EDEKA ZENTRALE AG & Co., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " New - York - Ring 6 , 22297 Hamburg ."
+                "text": " New-York-Ring 6, 22297 Hamburg."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " EDEKA ZENTRALE Handel und Produktion GmbH , Hamburg ( Amtsgericht Hamburg HRB 121449 ) , von der Vertretung ausgeschlossen ."
+                    "company_name": " EDEKA ZENTRALE Handel und Produktion GmbH, Hamburg (Amtsgericht Hamburg HRB 121449), von der Vertretung ausgeschlossen."
                 },
-                "text": " EDEKA ZENTRALE Handel und Produktion GmbH , Hamburg ( Amtsgericht Hamburg HRB 121449 ) , von der Vertretung ausgeschlossen ."
+                "text": " EDEKA ZENTRALE Handel und Produktion GmbH, Hamburg (Amtsgericht Hamburg HRB 121449), von der Vertretung ausgeschlossen."
             }
         ]
     }

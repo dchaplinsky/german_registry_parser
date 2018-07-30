@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Unkel / Rhein",
+                    "city": "Unkel/Rhein",
                     "dob": "1963-05-14",
                     "flag": "sole representation",
                     "lastname": "Nitsch",
                     "name": "Wolfgang"
                 },
-                "text": " Nitsch , Wolfgang , Unkel / Rhein , * 14.05.1963 , einzelvertretungsberechtigt ."
+                "text": " Nitsch, Wolfgang, Unkel/Rhein, *14.05.1963, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Bad Honnef",
+                    "dismissed": true,
                     "dob": "1936-09-06",
                     "lastname": "Birkenstock",
                     "name": "Karl"
                 },
-                "text": " Birkenstock , Karl , Bad Honnef , * 09.06.1936 ."
+                "text": " Birkenstock, Karl, Bad Honnef, *09.06.1936."
             }
         ]
     }

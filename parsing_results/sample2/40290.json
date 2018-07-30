@@ -19,17 +19,17 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "PersonalPartner",
                 "payload": {
-                    "lastname": "Nicht mehr persönlich haftender Gesellschafter : Bruhn",
-                    "name": "Hans - Peter"
+                    "lastname": "Bruhn",
+                    "name": "Hans-Peter"
                 },
-                "text": " Nicht mehr persönlich haftender Gesellschafter : Bruhn , Hans - Peter"
+                "text": " Bruhn, Hans-Peter"
             },
             {
                 "class": "Owner",
@@ -39,7 +39,7 @@
                     "lastname": "Bruhn",
                     "name": "Marc"
                 },
-                "text": " Bruhn , Marc , * 22.03.1974 , Fehmarn ."
+                "text": " Bruhn, Marc, *22.03.1974, Fehmarn."
             }
         ]
     }

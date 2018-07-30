@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1115&land_abk=mv"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Andelewski",
                     "name": "Sven"
                 },
-                "text": " Andelewski , Sven , Bröbberow , * 07.04.1973 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Bröbberow",
-                    "dob": "1973-07-04",
-                    "lastname": "Andelewski",
-                    "name": "Sven"
-                },
-                "text": " Andelewski , Sven , Bröbberow , * 07.04.1973 ."
+                "text": " Andelewski, Sven, Bröbberow, *07.04.1973."
             }
         ]
     }

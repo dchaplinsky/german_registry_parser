@@ -16,13 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1079141&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr ., error text was a person without DOB, number of chunks: 1"
-            }
-        ],
         "officers": [
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Bonstetten",
+                    "dob": "1962-12-16",
+                    "flag": "sole representation",
+                    "lastname": "Doctor Hoch",
+                    "name": "Bernhard"
+                },
+                "text": " Doctor Hoch, Bernhard, Bonstetten, *16.12.1962, einzelvertretungsberechtigt."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {
@@ -32,7 +37,7 @@
                     "lastname": "Strobl",
                     "name": "Günter"
                 },
-                "text": " Strobl , Günter , Oberhausen , * 25.10.1967 , einzelvertretungsberechtigt"
+                "text": " Strobl, Günter, Oberhausen, *25.10.1967, einzelvertretungsberechtigt"
             }
         ]
     }

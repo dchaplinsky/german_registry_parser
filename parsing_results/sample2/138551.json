@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Karl - Benz - Straße 19 , 70794 Filderstadt ."
+                "text": " Karl-Benz-Straße 19, 70794 Filderstadt."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rodgau",
+                    "dismissed": true,
                     "dob": "1955-04-13",
                     "lastname": "Kalbskopf",
                     "name": "Günther"
                 },
-                "text": " Kalbskopf , Günther , Rodgau , * 13.04.1955 ."
+                "text": " Kalbskopf, Günther, Rodgau, *13.04.1955."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Leonberg",
                     "dob": "1976-06-03",
                     "lastname": "Wörösch",
                     "name": "Stephan"
                 },
-                "text": " Wörösch , Stephan , Leonberg , * 06.03.1976 ."
+                "text": " Wörösch, Stephan, Leonberg, *06.03.1976."
             }
         ]
     }

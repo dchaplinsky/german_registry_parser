@@ -19,21 +19,21 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Charlottenstraße 18 , 10117 Berlin Geschäftsführer : Salden , Jörg , * 31.12.1968 , Grünwald"
+                "text": " Geschäftsanschrift: Charlottenstraße 18, 10117 Berlin Geschäftsführer: Salden, Jörg, *31.12.1968, Grünwald"
             },
             {
                 "label": "address",
-                "text": " Charlottenstraße 18 , 10117 Berlin Geschäftsführer : Salden , Jörg , * 31.12.1968 , Grünwald"
+                "text": " Charlottenstraße 18, 10117 Berlin Geschäftsführer: Salden, Jörg, *31.12.1968, Grünwald"
             }
         ],
         "officers": [
@@ -45,7 +45,7 @@
                     "lastname": "Salden",
                     "name": "Jörg"
                 },
-                "text": " Salden , Jörg , * 31.12.1968 , Grünwald"
+                "text": " Salden, Jörg, *31.12.1968, Grünwald"
             },
             {
                 "class": "ManagingDirector",
@@ -55,23 +55,25 @@
                     "lastname": "Schneider",
                     "name": "Rolf"
                 },
-                "text": " Schneider , Rolf , * 07.06.1965 , Grünwald"
+                "text": " Schneider, Rolf, *07.06.1965, Grünwald"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Breiert",
                     "name": "Anke"
                 },
-                "text": " Breiert , Anke"
+                "text": " Breiert, Anke"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Liefländer",
                     "name": "Christiane"
                 },
-                "text": " Liefländer , Christiane ."
+                "text": " Liefländer, Christiane."
             }
         ]
     }

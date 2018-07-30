@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1152713&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Essen",
+                    "dismissed": true,
                     "dob": "1961-03-20",
                     "lastname": "Röser",
                     "name": "Dorothea"
                 },
-                "text": " Röser , Dorothea , Essen , * 20.03.1961 ."
+                "text": " Röser, Dorothea, Essen, *20.03.1961."
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +36,7 @@
                     "lastname": "Altenhoff",
                     "name": "Bettina"
                 },
-                "text": " Altenhoff , Bettina , Essen , * 26.03.1964 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Essen",
-                    "dob": "1964-03-26",
-                    "lastname": "Altenhoff",
-                    "name": "Bettina"
-                },
-                "text": " Altenhoff , Bettina , Essen , * 26.03.1964 ."
+                "text": " Altenhoff, Bettina, Essen, *26.03.1964."
             }
         ]
     }

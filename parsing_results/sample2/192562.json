@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Am Rain 23 , 35236 Breidenbach - Oberdieten ."
+                "text": " Am Rain 23, 35236 Breidenbach-Oberdieten."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Breidenbach",
+                    "dismissed": true,
                     "dob": "1933-07-25",
                     "lastname": "Sänger",
                     "name": "Alwin Heinrich"
                 },
-                "text": " Sänger , Alwin Heinrich , Breidenbach , * 25.07.1933 ."
+                "text": " Sänger, Alwin Heinrich, Breidenbach, *25.07.1933."
             }
         ]
     }

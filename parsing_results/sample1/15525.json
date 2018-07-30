@@ -20,23 +20,24 @@
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Rheda - Wiedenbrück",
+                    "city": "Rheda-Wiedenbrück",
                     "dob": "1961-04-02",
                     "flag": "sole representation",
                     "lastname": "Schulz",
                     "name": "Jürgen"
                 },
-                "text": " Schulz , Jürgen , Rheda - Wiedenbrück , * 04.02.1961 , einzelvertretungsberechtigt ."
+                "text": " Schulz, Jürgen, Rheda-Wiedenbrück, *04.02.1961, einzelvertretungsberechtigt."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Rheda - Wiedenbrück",
+                    "city": "Rheda-Wiedenbrück",
+                    "dismissed": true,
                     "dob": "1961-04-02",
                     "lastname": "Schulz",
                     "name": "Jürgen"
                 },
-                "text": " Schulz , Jürgen , Rheda - Wiedenbrück , * 04.02.1961 ."
+                "text": " Schulz, Jürgen, Rheda-Wiedenbrück, *04.02.1961."
             }
         ]
     }

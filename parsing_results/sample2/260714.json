@@ -25,17 +25,18 @@
                     "lastname": "Boznar",
                     "name": "Andreas"
                 },
-                "text": " Boznar , Andreas , Essen , * 19.06.1960 ."
+                "text": " Boznar, Andreas, Essen, *19.06.1960."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kaltenkirchen",
+                    "dismissed": true,
                     "dob": "1957-10-06",
                     "lastname": "Zümpel",
                     "name": "Dieter"
                 },
-                "text": " Zümpel , Dieter , Kaltenkirchen , * 10.06.1957 ."
+                "text": " Zümpel, Dieter, Kaltenkirchen, *10.06.1957."
             }
         ]
     }

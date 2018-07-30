@@ -20,23 +20,24 @@
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Versailles / Frankreich",
+                    "city": "Versailles/Frankreich",
                     "dob": "1970-04-25",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Besnault",
                     "name": "David Pierre"
                 },
-                "text": " Besnault , David Pierre , Versailles / Frankreich , * 25.04.1970 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Besnault, David Pierre, Versailles/Frankreich, *25.04.1970, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "LePecq / Frankreich",
+                    "city": "LePecq/Frankreich",
+                    "dismissed": true,
                     "dob": "1953-11-26",
                     "lastname": "Lebrun",
                     "name": "Marc"
                 },
-                "text": " Lebrun , Marc , LePecq / Frankreich , * 26.11.1953 ."
+                "text": " Lebrun, Marc, LePecq/Frankreich, *26.11.1953."
             }
         ]
     }

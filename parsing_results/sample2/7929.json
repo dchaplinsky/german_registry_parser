@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Neukalen",
+                    "dismissed": true,
                     "dob": "1944-12-15",
                     "lastname": "Priwitzer",
                     "name": "Alfred"
                 },
-                "text": " Priwitzer , Alfred , Neukalen , * 15.12.1944 ."
+                "text": " Priwitzer, Alfred, Neukalen, *15.12.1944."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1977-07-12",
-                    "lastname": "Ben - Mousa",
+                    "lastname": "Ben-Mousa",
                     "name": "Mohamed"
                 },
-                "text": " Ben - Mousa , Mohamed , Köln , * 07.12.1977 ."
+                "text": " Ben-Mousa, Mohamed, Köln, *07.12.1977."
             },
             {
                 "class": "Owner",
@@ -35,7 +36,7 @@
                     "lastname": "Ben Mousa",
                     "name": "Rachid"
                 },
-                "text": " Ben Mousa , Rachid , Köln , * 07.11.1971 ."
+                "text": " Ben Mousa, Rachid, Köln, *07.11.1971."
             }
         ]
     }

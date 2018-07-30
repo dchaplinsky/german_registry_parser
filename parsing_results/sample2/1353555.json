@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Theuerbach 30 , 88630 Pfullendorf ."
+                "text": " Theuerbach 30, 88630 Pfullendorf."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wuppertal",
+                    "dismissed": true,
                     "dob": "1963-05-07",
                     "lastname": "Korovko",
                     "name": "Volodymyr"
                 },
-                "text": " Korovko , Volodymyr , Wuppertal , * 05.07.1963 ."
+                "text": " Korovko, Volodymyr, Wuppertal, *05.07.1963."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Pfullendorf",
                     "dob": "1972-12-02",
@@ -42,7 +43,7 @@
                     "lastname": "Moßbrucker",
                     "name": "Martin"
                 },
-                "text": " Moßbrucker , Martin , Pfullendorf , * 12.02.1972 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Moßbrucker, Martin, Pfullendorf, *12.02.1972, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

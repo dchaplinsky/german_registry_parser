@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Mainz - Kastel",
+                    "city": "Mainz-Kastel",
                     "dob": "1962-01-11",
                     "lastname": "Stefanov",
                     "name": "Mitko"
                 },
-                "text": " Stefanov , Mitko , Mainz - Kastel , * 01.11.1962 ."
+                "text": " Stefanov, Mitko, Mainz-Kastel, *01.11.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hadamar",
+                    "dismissed": true,
                     "dob": "1971-08-16",
                     "lastname": "Ilemin",
                     "name": "Abdullah"
                 },
-                "text": " Ilemin , Abdullah , Hadamar , * 16.08.1971 ."
+                "text": " Ilemin, Abdullah, Hadamar, *16.08.1971."
             }
         ]
     }

@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1959-07-16",
                     "lastname": "Schulze",
                     "name": "William"
                 },
-                "text": " Schulze , William , Köln , * 16.07.1959 ."
+                "text": " Schulze, William, Köln, *16.07.1959."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1973-11-08",
@@ -42,7 +43,7 @@
                     "lastname": "Schüßler",
                     "name": "Björn"
                 },
-                "text": " Schüßler , Björn , München , * 11.08.1973 , einzelvertretungsberechtigt"
+                "text": " Schüßler, Björn, München, *11.08.1973, einzelvertretungsberechtigt"
             }
         ]
     }

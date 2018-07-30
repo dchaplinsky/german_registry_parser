@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=648849&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Birner",
                     "name": "Klaus"
                 },
-                "text": " Birner , Klaus , München , * 29.02.1972 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "München",
-                    "dob": "1972-02-29",
-                    "lastname": "Birner",
-                    "name": "Klaus"
-                },
-                "text": " Birner , Klaus , München , * 29.02.1972 ."
+                "text": " Birner, Klaus, München, *29.02.1972."
             }
         ]
     }

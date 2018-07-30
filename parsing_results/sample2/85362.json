@@ -19,25 +19,30 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  De Stefano , Rosario , Neapel , Italien , * 22.03.1973 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Neapel  using regex"
+                "text": "Cannot parse a AppointedManagingDirector from  De Stefano, Rosario, Neapel, Italien, *22.03.1973, einzelvertretungsberechtigt, error text was Cannot parse DOB  Neapel using regex"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  De Stefano, Rosario, Neapel, Italien, *22.03.1973, einzelvertretungsberechtigt, error text was Cannot parse DOB  Neapel using regex"
             }
         ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "San Martino in Freddano / Italien",
+                    "city": "San Martino in Freddano/Italien",
+                    "dismissed": true,
                     "dob": "1951-11-17",
-                    "lastname": "Dr . Schlawien",
+                    "lastname": "Doctor Schlawien",
                     "name": "Stefan"
                 },
-                "text": " Dr . Schlawien , Stefan , San Martino in Freddano / Italien , * 17.11.1951 ."
+                "text": " Doctor Schlawien, Stefan, San Martino in Freddano/Italien, *17.11.1951."
             }
         ]
     }

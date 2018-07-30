@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Richard - Wagner - Straße 32 , 82049 Pullach ."
+                "text": " Richard-Wagner-Straße 32, 82049 Pullach."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Ginsheim - Gustavsburg",
+                    "city": "Ginsheim-Gustavsburg",
+                    "dismissed": true,
                     "dob": "1965-04-17",
-                    "lastname": "Prof . Steyer",
+                    "lastname": "Prof. Steyer",
                     "name": "Andreas"
                 },
-                "text": " Prof . Steyer , Andreas , Ginsheim - Gustavsburg , * 17.04.1965 ."
+                "text": " Prof. Steyer, Andreas, Ginsheim-Gustavsburg, *17.04.1965."
             }
         ]
     }

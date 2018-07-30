@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Stade",
+                    "dismissed": true,
                     "dob": "1943-09-04",
                     "lastname": "Steffen",
                     "name": "Rüdiger"
                 },
-                "text": " Steffen , Rüdiger , Stade , * 09.04.1943 ."
+                "text": " Steffen, Rüdiger, Stade, *09.04.1943."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
                     "dob": "1970-06-19",
@@ -36,7 +37,7 @@
                     "lastname": "Celik",
                     "name": "Ahmet"
                 },
-                "text": " Celik , Ahmet , Stuttgart , * 19.06.1970 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Celik, Ahmet, Stuttgart, *19.06.1970, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

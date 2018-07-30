@@ -19,7 +19,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  sanetra , vanessa , münchen , * 20.09.1975 . geändert , nun : persönlich haftender gesellschafter : sanetra , gregor , münchen , * 20.09.1977 . prokura erloschen : sanetra , vanessa , münchen , * 20.09.1975 ., error text was no valid patter found, number of chunks: 11"
+                "text": "Cannot parse a PersonalPartner from  sanetra, vanessa, münchen, *20.09.1975. geändert, nun: persönlich haftender gesellschafter: sanetra, gregor, münchen, *20.09.1977. prokura erloschen: sanetra, vanessa, münchen, *20.09.1975., error text was no valid patter found, number of chunks: 11"
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "münchen",
+                    "dismissed": true,
                     "dob": "1975-09-20",
                     "lastname": "sanetra",
                     "name": "vanessa"
                 },
-                "text": " sanetra , vanessa , münchen , * 20.09.1975 ."
+                "text": " sanetra, vanessa, münchen, *20.09.1975."
             }
         ]
     }

@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Siemensstraße 9-11 , 40885 Ratingen ."
+                "text": " Siemensstraße 9-11, 40885 Ratingen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Solingen",
+                    "dismissed": true,
                     "dob": "1968-11-22",
                     "lastname": "Mentzel",
                     "name": "Thorsten"
                 },
-                "text": " Mentzel , Thorsten , Solingen , * 22.11.1968 ."
+                "text": " Mentzel, Thorsten, Solingen, *22.11.1968."
             }
         ]
     }

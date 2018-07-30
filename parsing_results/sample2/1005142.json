@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Lochhamer Str ."
+                "text": " Lochhamer Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1942-05-28",
                     "lastname": "Berger",
                     "name": "Corrado"
                 },
-                "text": " Berger , Corrado , München , * 28.05.1942 ."
+                "text": " Berger, Corrado, München, *28.05.1942."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1945-09-21",
                     "lastname": "Berger",
                     "name": "Heidelinde"
                 },
-                "text": " Berger , Heidelinde , München , * 21.09.1945 ."
+                "text": " Berger, Heidelinde, München, *21.09.1945."
             }
         ]
     }

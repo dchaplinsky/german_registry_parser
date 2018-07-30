@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kaiserslautern",
+                    "dismissed": true,
                     "dob": "1967-04-01",
                     "lastname": "Bossert",
                     "name": "Herbert"
                 },
-                "text": " Bossert , Herbert , Kaiserslautern , * 04.01.1967 ."
+                "text": " Bossert, Herbert, Kaiserslautern, *04.01.1967."
             }
         ]
     }

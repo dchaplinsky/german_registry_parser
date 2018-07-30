@@ -19,25 +19,26 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Just Trading UG ( haftungsbeschränkt ) , Berlin , c / o Haldi , Niederbarnimstraße 27 , 10247 Berlin ."
+                "text": " Just Trading UG (haftungsbeschränkt), Berlin, c/o Haldi, Niederbarnimstraße 27, 10247 Berlin."
             },
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : c / o Haldi , Niederbarnimstraße 27 , 10247 Berlin"
+                "text": " Geschäftsanschrift: c/o Haldi, Niederbarnimstraße 27, 10247 Berlin"
             },
             {
                 "label": "address",
-                "text": " c / o Haldi , Niederbarnimstraße 27 , 10247 Berlin"
+                "text": " c/o Haldi, Niederbarnimstraße 27, 10247 Berlin"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Kumar",
                     "name": "Rajinder"
                 },
-                "text": " Kumar , Rajinder"
+                "text": " Kumar, Rajinder"
             },
             {
                 "class": "ManagingDirector",
@@ -47,7 +48,7 @@
                     "lastname": "Kaur Sidhu",
                     "name": "Kuljit"
                 },
-                "text": " Kaur Sidhu , Kuljit , * 10.04.1977 , Berlin"
+                "text": " Kaur Sidhu, Kuljit, *10.04.1977, Berlin"
             }
         ]
     }

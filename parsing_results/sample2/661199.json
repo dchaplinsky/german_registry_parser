@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Pforzheim",
+                    "dismissed": true,
                     "dob": "1977-11-28",
                     "lastname": "Gerhardt",
                     "name": "Anna"
                 },
-                "text": " Gerhardt , Anna , Pforzheim , * 28.11.1977 ."
+                "text": " Gerhardt, Anna, Pforzheim, *28.11.1977."
             }
         ]
     }

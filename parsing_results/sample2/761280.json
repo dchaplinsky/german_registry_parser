@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Wörthsee",
+                    "dismissed": true,
                     "dob": "1956-10-13",
                     "lastname": "Schneider",
                     "name": "Nikolaus"
                 },
-                "text": " Schneider , Nikolaus , Wörthsee , * 13.10.1956 ."
+                "text": " Schneider, Nikolaus, Wörthsee, *13.10.1956."
             }
         ]
     }

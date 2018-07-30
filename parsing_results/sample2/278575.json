@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Isernhagen",
+                    "dismissed": true,
                     "dob": "1968-02-10",
-                    "lastname": "Dr . Bähre",
-                    "name": "Wolf - Friedrich"
+                    "lastname": "Doctor Bähre",
+                    "name": "Wolf-Friedrich"
                 },
-                "text": " Dr . Bähre , Wolf - Friedrich , Isernhagen , * 02.10.1968 ."
+                "text": " Doctor Bähre, Wolf-Friedrich, Isernhagen, *02.10.1968."
             }
         ]
     }

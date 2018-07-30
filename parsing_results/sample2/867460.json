@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mönchengladbach",
+                    "dismissed": true,
                     "dob": "1953-03-30",
                     "lastname": "Maciejewski",
                     "name": "Walter"
                 },
-                "text": " Maciejewski , Walter , Mönchengladbach , * 30.03.1953 ."
+                "text": " Maciejewski, Walter, Mönchengladbach, *30.03.1953."
             }
         ]
     }

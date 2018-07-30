@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bonn",
+                    "dismissed": true,
                     "dob": "1971-12-21",
                     "lastname": "Ackermann",
                     "name": "Frank Friedrich"
                 },
-                "text": " Ackermann , Frank Friedrich , Bonn , * 21.12.1971 ."
+                "text": " Ackermann, Frank Friedrich, Bonn, *21.12.1971."
             },
             {
                 "class": "Liquidator",
@@ -41,7 +42,7 @@
                     "lastname": "Rushkov",
                     "name": "Branimir Blagoev"
                 },
-                "text": " Rushkov , Branimir Blagoev , 1504 Sofia / Bulgarien , * 15.01.1970 ."
+                "text": " Rushkov, Branimir Blagoev, 1504 Sofia / Bulgarien, *15.01.1970."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=27901&land_abk=sn"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Klebanova",
                     "name": "Polina"
                 },
-                "text": " Klebanova , Polina , Glauchau , * 10.01.1986 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Glauchau",
-                    "dob": "1986-10-01",
-                    "lastname": "Klebanova",
-                    "name": "Polina"
-                },
-                "text": " Klebanova , Polina , Glauchau , * 10.01.1986 ."
+                "text": " Klebanova, Polina, Glauchau, *10.01.1986."
             }
         ]
     }

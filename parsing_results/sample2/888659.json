@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hildesheim",
                     "dob": "1967-10-29",
@@ -26,17 +26,18 @@
                     "lastname": "Meder",
                     "name": "Dirk"
                 },
-                "text": " Meder , Dirk , Hildesheim , * 29.10.1967 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Meder, Dirk, Hildesheim, *29.10.1967, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Pöcking",
+                    "dismissed": true,
                     "dob": "1951-03-11",
                     "lastname": "Bourjau",
                     "name": "Thomas"
                 },
-                "text": " Bourjau , Thomas , Pöcking , * 03.11.1951 ."
+                "text": " Bourjau, Thomas, Pöcking, *03.11.1951."
             }
         ]
     }

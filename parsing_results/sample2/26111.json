@@ -19,16 +19,12 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Neuenkirchen",
                     "dob": "1965-09-01",
@@ -36,17 +32,18 @@
                     "lastname": "Lüdeke",
                     "name": "Michael"
                 },
-                "text": " Lüdeke , Michael , Neuenkirchen , * 09.01.1965 , einzelvertretungsberechtigt"
+                "text": " Lüdeke, Michael, Neuenkirchen, *09.01.1965, einzelvertretungsberechtigt"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Lübeck",
+                    "dismissed": true,
                     "dob": "1946-10-13",
                     "lastname": "Rehfeld",
-                    "name": "Klaus - Dieter"
+                    "name": "Klaus-Dieter"
                 },
-                "text": " Rehfeld , Klaus - Dieter , Lübeck , * 13.10.1946"
+                "text": " Rehfeld, Klaus-Dieter, Lübeck, *13.10.1946"
             },
             {
                 "class": "SingleProcuration",
@@ -55,16 +52,7 @@
                     "lastname": "Damstädter",
                     "name": "Dirk"
                 },
-                "text": " Damstädter , Dirk , * 08.10.1964 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "dob": "1964-08-10",
-                    "lastname": "Damstädter",
-                    "name": "Dirk"
-                },
-                "text": " Damstädter , Dirk , * 08.10.1964 ."
+                "text": " Damstädter, Dirk, *08.10.1964."
             }
         ]
     }

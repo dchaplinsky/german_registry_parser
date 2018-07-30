@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Krause",
                     "name": "Thomas"
                 },
-                "text": " Krause , Thomas"
+                "text": " Krause, Thomas"
             },
             {
                 "class": "ManagingDirector",
@@ -33,7 +34,7 @@
                     "lastname": "Dresdner",
                     "name": "Jörg"
                 },
-                "text": " Dresdner , Jörg , * 22.06.1951 , Berlin ."
+                "text": " Dresdner, Jörg, *22.06.1951, Berlin."
             }
         ]
     }

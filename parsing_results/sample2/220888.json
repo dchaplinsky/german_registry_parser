@@ -19,25 +19,25 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Glockengießerwall 26 , 20095 Hamburg Geschäftsführer : Schumacher , Frank , * 08.01.1965 , Wedel"
+                "text": " Geschäftsanschrift: Glockengießerwall 26, 20095 Hamburg Geschäftsführer: Schumacher, Frank, *08.01.1965, Wedel"
             },
             {
                 "label": "address",
-                "text": " Glockengießerwall 26 , 20095 Hamburg Geschäftsführer : Schumacher , Frank , * 08.01.1965 , Wedel"
+                "text": " Glockengießerwall 26, 20095 Hamburg Geschäftsführer: Schumacher, Frank, *08.01.1965, Wedel"
             }
         ],
         "officers": [
@@ -49,15 +49,16 @@
                     "lastname": "Schumacher",
                     "name": "Frank"
                 },
-                "text": " Schumacher , Frank , * 08.01.1965 , Wedel"
+                "text": " Schumacher, Frank, *08.01.1965, Wedel"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Bundschuh",
                     "name": "Meinhard"
                 },
-                "text": " Bundschuh , Meinhard ."
+                "text": " Bundschuh, Meinhard."
             }
         ]
     }

@@ -19,35 +19,36 @@
         "flags": [
             {
                 "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
-                "text": "Sind mehrere Liquidatoren bestellt , wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten ."
+                "text": "Sind\\ mehrere\\ Liquidatoren\\ bestellt\\,\\ wird\\ die\\ Gesellschaft\\ durch\\ s\\ämtliche\\ Liquidatoren\\ gemeinsam\\ vertreten\\."
             },
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " toonsUp UG ( haftungsbeschränkt ) , Berlin , Oehlertplatz 10 , 12169 Berlin ."
+                "text": " toonsUp UG (haftungsbeschränkt), Berlin, Oehlertplatz 10, 12169 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Sander",
                     "name": "Martin"
                 },
-                "text": " Sander , Martin"
+                "text": " Sander, Martin"
             },
             {
                 "class": "Liquidator",
@@ -57,7 +58,7 @@
                     "lastname": "Markworth",
                     "name": "Ronald"
                 },
-                "text": " Markworth , Ronald , * 31.07.1973 , Berlin"
+                "text": " Markworth, Ronald, *31.07.1973, Berlin"
             }
         ]
     }

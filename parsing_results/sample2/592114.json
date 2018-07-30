@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Rheinbach",
+                    "dismissed": true,
                     "dob": "1966-04-06",
                     "lastname": "Gräfen",
                     "name": "Achim"
                 },
-                "text": " Gräfen , Achim , Rheinbach , * 04.06.1966 ."
+                "text": " Gräfen, Achim, Rheinbach, *04.06.1966."
             }
         ]
     }

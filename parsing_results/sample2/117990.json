@@ -25,17 +25,18 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " RELAN Renaturierung und Landschaftspflege Elsterwerda GmbH , Merzdorf , Gröditzer Str ."
+                "text": " RELAN Renaturierung und Landschaftspflege Elsterwerda GmbH, Merzdorf, Gröditzer Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Bornack",
                     "name": "Horst"
                 },
-                "text": " Bornack , Horst"
+                "text": " Bornack, Horst"
             },
             {
                 "class": "Procuration",
@@ -45,7 +46,7 @@
                     "lastname": "Bornack",
                     "name": "Horst"
                 },
-                "text": " Bornack , Horst , * 02.02.1951 , Tröbitz"
+                "text": " Bornack, Horst, *02.02.1951, Tröbitz"
             }
         ]
     }

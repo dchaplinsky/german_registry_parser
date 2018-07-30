@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -28,20 +28,21 @@
                 "payload": {
                     "city": "Karlsruhe",
                     "dob": "1946-01-20",
-                    "lastname": "Dr . Mazetti - Rau",
+                    "lastname": "Doctor Mazetti-Rau",
                     "name": "Waltraud geborene Mazetti"
                 },
-                "text": " Dr . Mazetti - Rau , Waltraud geborene Mazetti , Karlsruhe , * 20.01.1946 ."
+                "text": " Doctor Mazetti-Rau, Waltraud geborene Mazetti, Karlsruhe, *20.01.1946."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Karlsruhe",
+                    "dismissed": true,
                     "dob": "1946-01-20",
-                    "lastname": "Dr . Mazetti - Rau",
+                    "lastname": "Doctor Mazetti-Rau",
                     "name": "Waltraud Annemarie"
                 },
-                "text": " Dr . Mazetti - Rau , Waltraud Annemarie , Karlsruhe , * 20.01.1946 ."
+                "text": " Doctor Mazetti-Rau, Waltraud Annemarie, Karlsruhe, *20.01.1946."
             }
         ]
     }

@@ -19,26 +19,30 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Leismüller Verwaltungs - GmbH , Lenggries ( München HRB 189958 ) , mit der Befugnis - auch für die jeweiligen Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                    "city": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Leismüller Verwaltungs-GmbH",
+                    "name": "Lenggries (München HRB 189958)",
+                    "position": "mit der Befugnis - auch für die jeweiligen Geschäftsführer -"
                 },
-                "text": " Leismüller Verwaltungs - GmbH , Lenggries ( München HRB 189958 ) , mit der Befugnis - auch für die jeweiligen Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Leismüller Verwaltungs-GmbH, Lenggries (München HRB 189958), mit der Befugnis - auch für die jeweiligen Geschäftsführer -, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Lenggries",
+                    "dismissed": true,
                     "dob": "1978-07-10",
                     "lastname": "Leismüller",
                     "name": "Johann"
                 },
-                "text": " Leismüller , Johann , Lenggries , * 07.10.1978"
+                "text": " Leismüller, Johann, Lenggries, *07.10.1978"
             }
         ]
     }

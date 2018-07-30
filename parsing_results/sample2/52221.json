@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hattersheim am Main",
+                    "dismissed": true,
                     "dob": "1985-05-05",
                     "lastname": "Kökden",
                     "name": "Ömer"
                 },
-                "text": " Kökden , Ömer , Hattersheim am Main , * 05.05.1985 ."
+                "text": " Kökden, Ömer, Hattersheim am Main, *05.05.1985."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Aachen",
                     "dob": "1978-09-21",
@@ -42,17 +43,18 @@
                     "lastname": "Kabeya",
                     "name": "Buba"
                 },
-                "text": " Kabeya , Buba , Aachen , * 21.09.1978 , einzelvertretungsberechtigt"
+                "text": " Kabeya, Buba, Aachen, *21.09.1978, einzelvertretungsberechtigt"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1952-10-10",
                     "lastname": "Kökden",
                     "name": "Arif"
                 },
-                "text": " Kökden , Arif , Frankfurt am Main , * 10.10.1952 ."
+                "text": " Kökden, Arif, Frankfurt am Main, *10.10.1952."
             }
         ]
     }

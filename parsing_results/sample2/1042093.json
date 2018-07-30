@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Neufahrn",
+                    "dismissed": true,
                     "dob": "1954-02-04",
                     "lastname": "Queiroz",
                     "name": "Carlos"
                 },
-                "text": " Queiroz , Carlos , Neufahrn , * 02.04.1954 ."
+                "text": " Queiroz, Carlos, Neufahrn, *02.04.1954."
             }
         ]
     }

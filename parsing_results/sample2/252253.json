@@ -19,39 +19,41 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Großsteinberg",
+                    "dismissed": true,
                     "dob": "1964-10-28",
                     "lastname": "Schmidt",
                     "name": "Tino"
                 },
-                "text": " Schmidt , Tino , Großsteinberg , * 28.10.1964 ."
+                "text": " Schmidt, Tino, Großsteinberg, *28.10.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Waldheim",
                     "dob": "1964-01-30",
                     "lastname": "Hebenstreit",
                     "name": "Ralf"
                 },
-                "text": " Hebenstreit , Ralf , Waldheim , * 30.01.1964"
+                "text": " Hebenstreit, Ralf, Waldheim, *30.01.1964"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Leipzig",
+                    "dismissed": true,
                     "dob": "1968-01-27",
                     "lastname": "Kaltenborn",
                     "name": "Bettina"
                 },
-                "text": " Kaltenborn , Bettina , Leipzig , * 27.01.1968 ."
+                "text": " Kaltenborn, Bettina, Leipzig, *27.01.1968."
             }
         ]
     }

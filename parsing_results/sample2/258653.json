@@ -19,35 +19,26 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "company",
-                "text": " Geschäftsanschrift : Oberspreestraße 57 C , 12349 Berlin Nicht mehr Geschäftsführer : Bandlow , Nicole"
-            },
-            {
-                "label": "address",
-                "text": " Oberspreestraße 57 C , 12349 Berlin Nicht mehr Geschäftsführer : Bandlow , Nicole"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Bandlow",
                     "name": "Nicole"
                 },
-                "text": " Bandlow , Nicole"
+                "text": " Bandlow, Nicole"
             },
             {
                 "class": "ManagingDirector",
@@ -57,7 +48,7 @@
                     "lastname": "Hild",
                     "name": "Ramon"
                 },
-                "text": " Hild , Ramon , * 17.04.1973 , Berlin"
+                "text": " Hild, Ramon, *17.04.1973, Berlin"
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=566157&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Ruppel",
                     "name": "Garvin"
                 },
-                "text": " Ruppel , Garvin , Steinau an der Straße , * 18.01.1981 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Steinau an der Straße",
-                    "dob": "1981-01-18",
-                    "lastname": "Ruppel",
-                    "name": "Garvin"
-                },
-                "text": " Ruppel , Garvin , Steinau an der Straße , * 18.01.1981 ."
+                "text": " Ruppel, Garvin, Steinau an der Straße, *18.01.1981."
             }
         ]
     }

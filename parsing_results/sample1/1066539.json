@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Bayreuth",
+                    "dismissed": true,
                     "dob": "1969-02-09",
-                    "lastname": "Dr . Witte",
+                    "lastname": "Doctor Witte",
                     "name": "Markus"
                 },
-                "text": " Dr . Witte , Markus , Bayreuth , * 02.09.1969 ."
+                "text": " Doctor Witte, Markus, Bayreuth, *02.09.1969."
             }
         ]
     }

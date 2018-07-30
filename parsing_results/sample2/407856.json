@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Stade",
+                    "dismissed": true,
                     "dob": "1978-06-01",
                     "lastname": "Schulz",
                     "name": "Oliver"
                 },
-                "text": " Schulz , Oliver , Stade , * 06.01.1978 ."
+                "text": " Schulz, Oliver, Stade, *06.01.1978."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Berlin",
                     "dob": "1973-08-19",
@@ -42,7 +43,7 @@
                     "lastname": "Grobosch",
                     "name": "Adrian"
                 },
-                "text": " Grobosch , Adrian , Berlin , * 19.08.1973 , einzelvertretungsberechtigt"
+                "text": " Grobosch, Adrian, Berlin, *19.08.1973, einzelvertretungsberechtigt"
             }
         ]
     }

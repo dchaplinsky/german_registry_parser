@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Sundern",
+                    "dismissed": true,
                     "dob": "1957-11-02",
                     "lastname": "Davidovic",
                     "name": "Pavel"
                 },
-                "text": " Davidovic , Pavel , Sundern , * 11.02.1957 ."
+                "text": " Davidovic, Pavel, Sundern, *11.02.1957."
             }
         ]
     }

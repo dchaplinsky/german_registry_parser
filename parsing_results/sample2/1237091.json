@@ -18,26 +18,27 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Epelstr ."
+                "text": " Epelstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Gummersbach",
+                    "dismissed": true,
                     "dob": "1938-09-21",
                     "lastname": "Schroeder",
                     "name": "Rolf"
                 },
-                "text": " Schroeder , Rolf , Gummersbach , * 21.09.1938 ."
+                "text": " Schroeder, Rolf, Gummersbach, *21.09.1938."
             },
             {
                 "class": "ManagingDirector",
@@ -46,9 +47,9 @@
                     "dob": "1968-02-07",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Schroeder",
-                    "name": "Marc - Wilhelm"
+                    "name": "Marc-Wilhelm"
                 },
-                "text": " Schroeder , Marc - Wilhelm , Gummersbach , * 02.07.1968 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schroeder, Marc-Wilhelm, Gummersbach, *02.07.1968, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

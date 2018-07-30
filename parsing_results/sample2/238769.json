@@ -16,10 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=238769&land_abk=ni"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Schmidt , Manfred , Kaufmann , Rosengarten , * 13.06.1944 ., error text was Cannot parse DOB  Kaufmann  using regex"
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Rosengarten",
+                    "dob": "1944-06-13",
+                    "lastname": "Schmidt",
+                    "name": "Manfred",
+                    "position": "Kaufmann"
+                },
+                "text": " Schmidt, Manfred, Kaufmann, Rosengarten, *13.06.1944."
             }
         ]
     }

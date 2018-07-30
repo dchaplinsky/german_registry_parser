@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Lutry / Schweiz / Schweiz",
+                    "city": "Lutry/Schweiz / Schweiz",
+                    "dismissed": true,
                     "dob": "1966-03-21",
                     "lastname": "Nüsser",
                     "name": "Bernhard"
                 },
-                "text": " Nüsser , Bernhard , Lutry / Schweiz / Schweiz , * 21.03.1966 ."
+                "text": " Nüsser, Bernhard, Lutry/Schweiz / Schweiz, *21.03.1966."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Neuwied",
                     "dob": "1974-02-10",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Rüdiger",
                     "name": "Stefan"
                 },
-                "text": " Rüdiger , Stefan , Neuwied , * 02.10.1974 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Rüdiger, Stefan, Neuwied, *02.10.1974, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "CommonProcuration",
@@ -52,7 +53,7 @@
                     "lastname": "Schmitz",
                     "name": "Marcus"
                 },
-                "text": " Schmitz , Marcus , Bad Honnef , * 01.12.1963 ."
+                "text": " Schmitz, Marcus, Bad Honnef, *01.12.1963."
             }
         ]
     }

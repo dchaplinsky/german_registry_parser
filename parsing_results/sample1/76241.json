@@ -16,16 +16,28 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=76241&land_abk=rp"
     },
     "parsed": {
+        "flags": [
+            {
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " winzergasse 5, 76889 gleiszellen-gleishorbach."
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "gleiszellen - gleishorbach",
+                    "city": "gleiszellen-gleishorbach",
                     "dob": "1968-11-24",
                     "lastname": "treu",
                     "name": "patrice"
                 },
-                "text": " treu , patrice , gleiszellen - gleishorbach , * 24.11.1968"
+                "text": " treu, patrice, gleiszellen-gleishorbach, *24.11.1968"
             }
         ]
     }

@@ -19,13 +19,17 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Hess II , Stanely C . , Newbury Park , Kalifornien , * 31.12.1958 , einzelvertretungsberechtigt ., error text was Cannot parse DOB  Newbury Park  using regex"
+                "text": "Cannot parse a AppointedManagingDirector from  Hess II, Stanely C., Newbury Park, Kalifornien, *31.12.1958, einzelvertretungsberechtigt., error text was Cannot parse DOB  Newbury Park using regex"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Hess II, Stanely C., Newbury Park, Kalifornien, *31.12.1958, einzelvertretungsberechtigt., error text was Cannot parse DOB  Newbury Park using regex"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Isestrasse 15 , 20144 Hamburg ."
+                "text": " Isestrasse 15, 20144 Hamburg."
             }
         ],
         "officers": [
@@ -38,7 +42,7 @@
                     "lastname": "Kedenburg",
                     "name": "Axel"
                 },
-                "text": " Kedenburg , Axel , Hamburg , * 30.03.1967 , einzelvertretungsberechtigt ."
+                "text": " Kedenburg, Axel, Hamburg, *30.03.1967, einzelvertretungsberechtigt."
             }
         ]
     }

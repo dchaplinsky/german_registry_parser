@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Am Strande 3 e , 18055 Rostock ."
+                "text": " Am Strande 3e, 18055 Rostock."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rostock",
+                    "dismissed": true,
                     "dob": "1950-04-02",
-                    "lastname": "Dr . Zerbin",
-                    "name": "Karl - Ludwig"
+                    "lastname": "Doctor Zerbin",
+                    "name": "Karl-Ludwig"
                 },
-                "text": " Dr . Zerbin , Karl - Ludwig , Rostock , * 04.02.1950 ."
+                "text": " Doctor Zerbin, Karl-Ludwig, Rostock, *04.02.1950."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Sildemow",
                     "dob": "1959-12-18",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Westenberger",
                     "name": "Michael"
                 },
-                "text": " Westenberger , Michael , Sildemow , * 18.12.1959 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Westenberger, Michael, Sildemow, *18.12.1959, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

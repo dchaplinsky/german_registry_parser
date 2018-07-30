@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1965-04-22",
                     "lastname": "Kanein",
                     "name": "Angela"
                 },
-                "text": " Kanein , Angela , Düsseldorf , * 22.04.1965 ."
+                "text": " Kanein, Angela, Düsseldorf, *22.04.1965."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Köln",
                     "dob": "1957-09-13",
@@ -36,7 +37,7 @@
                     "lastname": "Schwarz",
                     "name": "Jürgen"
                 },
-                "text": " Schwarz , Jürgen , Köln , * 13.09.1957 , einzelvertretungsberechtigt ."
+                "text": " Schwarz, Jürgen, Köln, *13.09.1957, einzelvertretungsberechtigt."
             }
         ]
     }

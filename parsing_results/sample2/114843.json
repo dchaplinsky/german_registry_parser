@@ -18,18 +18,14 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Deichhausweg 2 , 21073 Hamburg ."
+                "text": " Deichhausweg 2, 21073 Hamburg."
             }
         ],
         "officers": [
@@ -42,7 +38,7 @@
                     "lastname": "Gül",
                     "name": "Dennis"
                 },
-                "text": " Gül , Dennis , Hamburg , * 20.02.1972 , vertretungsberechtigt gemäß allgemeiner Vertretungsregelung ."
+                "text": " Gül, Dennis, Hamburg, *20.02.1972, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung."
             },
             {
                 "class": "SingleProcuration",
@@ -52,17 +48,7 @@
                     "lastname": "Schneider",
                     "name": "Thorsten"
                 },
-                "text": " Schneider , Thorsten , Wedel , * 02.12.1979 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Wedel",
-                    "dob": "1979-02-12",
-                    "lastname": "Schneider",
-                    "name": "Thorsten"
-                },
-                "text": " Schneider , Thorsten , Wedel , * 02.12.1979 ."
+                "text": " Schneider, Thorsten, Wedel, *02.12.1979."
             }
         ]
     }

@@ -19,17 +19,17 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " SuR Verwaltungs - GmbH , Berlin , Münsterlandstraße 5 , 10317 Berlin ."
+                "text": " SuR Verwaltungs-GmbH, Berlin, Münsterlandstraße 5, 10317 Berlin."
             }
         ],
         "officers": [
@@ -41,7 +41,7 @@
                     "lastname": "Colak",
                     "name": "Mustafa"
                 },
-                "text": " Colak , Mustafa , * 27.10.1975 , Berlin"
+                "text": " Colak, Mustafa, *27.10.1975, Berlin"
             },
             {
                 "class": "ManagingDirector",
@@ -51,23 +51,25 @@
                     "lastname": "Özcelik",
                     "name": "Nadir"
                 },
-                "text": " Özcelik , Nadir , * 31.03.1980 , Berlin"
+                "text": " Özcelik, Nadir, *31.03.1980, Berlin"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Özcelik",
                     "name": "Seyfi"
                 },
-                "text": " Özcelik , Seyfi"
+                "text": " Özcelik, Seyfi"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Özcelik",
                     "name": "Refik"
                 },
-                "text": " Özcelik , Refik"
+                "text": " Özcelik, Refik"
             }
         ]
     }

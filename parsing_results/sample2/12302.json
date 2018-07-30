@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Lichtenfels",
+                    "dismissed": true,
                     "lastname": "Rösler",
                     "name": "Roland",
                     "position": "Ingenieur"
                 },
-                "text": " Rösler , Roland , Ingenieur , Lichtenfels ."
+                "text": " Rösler, Roland, Ingenieur, Lichtenfels."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Mengersgereuth - Hämmern",
+                    "city": "Mengersgereuth-Hämmern",
                     "dob": "1973-07-13",
                     "flag": "sole representation",
                     "lastname": "Stötzer",
                     "name": "Alexander"
                 },
-                "text": " Stötzer , Alexander , Mengersgereuth - Hämmern , * 13.07.1973 , einzelvertretungsberechtigt ."
+                "text": " Stötzer, Alexander, Mengersgereuth-Hämmern, *13.07.1973, einzelvertretungsberechtigt."
             }
         ]
     }

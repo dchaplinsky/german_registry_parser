@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mönchengladbach",
+                    "dismissed": true,
                     "dob": "1971-03-16",
                     "lastname": "Kabashi",
                     "name": "Sabit"
                 },
-                "text": " Kabashi , Sabit , Mönchengladbach , * 16.03.1971 ."
+                "text": " Kabashi, Sabit, Mönchengladbach, *16.03.1971."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Viersen",
                     "dob": "1961-06-26",
@@ -36,7 +37,7 @@
                     "lastname": "Klix",
                     "name": "Frank Martin"
                 },
-                "text": " Klix , Frank Martin , Viersen , * 26.06.1961 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Klix, Frank Martin, Viersen, *26.06.1961, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

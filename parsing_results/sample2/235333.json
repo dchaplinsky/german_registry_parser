@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=235333&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dipl . - Ing ., error text was a person without DOB, number of chunks: 1"
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -31,15 +25,26 @@
                     "lastname": "Ermer",
                     "name": "Matthias"
                 },
-                "text": " Ermer , Matthias , Odelzhausen , * 05.03.1959"
+                "text": " Ermer, Matthias, Odelzhausen, *05.03.1959"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "dismissed": true,
+                    "lastname": "Koeppen",
+                    "name": "Christoph"
+                },
+                "text": " Koeppen, Christoph."
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "lastname": "Koeppen",
-                    "name": "Christoph"
+                    "city": "Krefeld",
+                    "dob": "1966-11-27",
+                    "lastname": "Diplomingenieur(FH) Jerz",
+                    "name": "Andreas"
                 },
-                "text": " Koeppen , Christoph ."
+                "text": " Diplomingenieur(FH) Jerz, Andreas, Krefeld, *27.11.1966."
             }
         ]
     }

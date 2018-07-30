@@ -16,9 +16,29 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=96871&land_abk=ni"
     },
     "parsed": {
+        "flags": [
+            {
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
+            },
+            {
+                "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " linienweg 45, 26487 neuschoo."
+            }
+        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "neuschoo",
                     "dob": "1956-11-11",
@@ -26,7 +46,7 @@
                     "lastname": "kalbreyer",
                     "name": "axel"
                 },
-                "text": " kalbreyer , axel , neuschoo , * 11.11.1956 , einzelvertretungsberechtigt"
+                "text": " kalbreyer, axel, neuschoo, *11.11.1956, einzelvertretungsberechtigt"
             }
         ]
     }

@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Brannenburg",
+                    "dismissed": true,
                     "dob": "1980-12-30",
                     "lastname": "Bilkei",
                     "name": "Henrik"
                 },
-                "text": " Bilkei , Henrik , Brannenburg , * 30.12.1980 ."
+                "text": " Bilkei, Henrik, Brannenburg, *30.12.1980."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Brannenburg",
                     "dob": "1976-04-23",
@@ -42,7 +43,7 @@
                     "lastname": "Molnar",
                     "name": "Laszlo"
                 },
-                "text": " Molnar , Laszlo , Brannenburg , * 23.04.1976 , einzelvertretungsberechtigt"
+                "text": " Molnar, Laszlo, Brannenburg, *23.04.1976, einzelvertretungsberechtigt"
             }
         ]
     }

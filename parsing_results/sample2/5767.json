@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
@@ -31,20 +31,21 @@
                     "lastname": "Golde",
                     "name": "Sabine"
                 },
-                "text": " Golde , Sabine , Plauen , * 04.11.1969 ."
+                "text": " Golde, Sabine, Plauen, *04.11.1969."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Görkwitz",
+                    "dismissed": true,
                     "dob": "1953-02-24",
                     "lastname": "Walther",
                     "name": "Lutz"
                 },
-                "text": " Walther , Lutz , Görkwitz , * 24.02.1953 ."
+                "text": " Walther, Lutz, Görkwitz, *24.02.1953."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Schleiz",
                     "dob": "1964-10-09",
@@ -52,7 +53,7 @@
                     "lastname": "Cramer",
                     "name": "Oliver"
                 },
-                "text": " Cramer , Oliver , Schleiz , * 10.09.1964 , einzelvertretungsberechtigt"
+                "text": " Cramer, Oliver, Schleiz, *10.09.1964, einzelvertretungsberechtigt"
             }
         ]
     }

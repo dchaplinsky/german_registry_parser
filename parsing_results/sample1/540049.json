@@ -16,16 +16,23 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=540049&land_abk=nw"
     },
     "parsed": {
+        "labels": [
+            {
+                "label": "address",
+                "text": " oelder str."
+            }
+        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "saarbrücken",
+                    "dismissed": true,
                     "dob": "1979-09-01",
                     "lastname": "rehberger",
                     "name": "patrick"
                 },
-                "text": " rehberger , patrick , saarbrücken , * 09.01.1979"
+                "text": " rehberger, patrick, saarbrücken, *09.01.1979"
             }
         ]
     }

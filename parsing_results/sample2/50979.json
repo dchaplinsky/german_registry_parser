@@ -25,17 +25,18 @@
                     "lastname": "Verbarg",
                     "name": "Uwe"
                 },
-                "text": " Verbarg , Uwe , Diepenau , * 05.01.1966 ."
+                "text": " Verbarg, Uwe, Diepenau, *05.01.1966."
             },
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Essern",
+                    "dismissed": true,
                     "lastname": "Verbarg",
                     "name": "Jürgen",
                     "position": "Kaufmann"
                 },
-                "text": " Verbarg , Jürgen , Kaufmann , Essern ."
+                "text": " Verbarg, Jürgen, Kaufmann, Essern."
             }
         ]
     }

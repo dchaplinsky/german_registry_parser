@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Laher - Feld - Straße 6 , 30659 Hannover ."
+                "text": " Laher-Feld-Straße 6, 30659 Hannover."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hannover",
+                    "dismissed": true,
                     "dob": "1940-12-22",
                     "lastname": "Woityczka",
                     "name": "Eckhard"
                 },
-                "text": " Woityczka , Eckhard , Hannover , * 22.12.1940 ."
+                "text": " Woityczka, Eckhard, Hannover, *22.12.1940."
             }
         ]
     }

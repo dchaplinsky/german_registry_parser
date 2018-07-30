@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "The owner is acting alone",
-                "text": "Der Inhaber handelt allein"
+                "text": "Der\\ Inhaber\\ handelt\\ allein"
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
-                    "city": "Neustadt a . Rbge",
+                    "city": "Neustadt a. Rbge",
+                    "dismissed": true,
                     "lastname": "Philipp",
                     "name": "Erika",
                     "position": "Kauffrau"
                 },
-                "text": " Philipp , Erika , Kauffrau , Neustadt a . Rbge ."
+                "text": " Philipp, Erika, Kauffrau, Neustadt a. Rbge."
             },
             {
                 "class": "Owner",
                 "payload": {
-                    "city": "Neustadt a . Rbge",
+                    "city": "Neustadt a.Rbge",
                     "dob": "1972-01-15",
                     "lastname": "Philipp",
                     "name": "Markus"
                 },
-                "text": " Philipp , Markus , Neustadt a . Rbge . , * 15.01.1972 ."
+                "text": " Philipp, Markus, Neustadt a.Rbge., *15.01.1972."
             }
         ]
     }

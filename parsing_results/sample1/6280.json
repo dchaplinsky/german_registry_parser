@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -29,20 +29,21 @@
                     "city": "Georgsmarienhütte",
                     "dob": "1946-04-17",
                     "flag": "sole representation",
-                    "lastname": "Schoppmeier",
+                    "lastname": ": Schoppmeier",
                     "name": "Walter"
                 },
-                "text": " Schoppmeier , Walter , Georgsmarienhütte , * 17.04.1946 , einzelvertretungsberechtigt ."
+                "text": ": Schoppmeier, Walter, Georgsmarienhütte, *17.04.1946, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Lotte",
+                    "dismissed": true,
                     "dob": "1965-04-10",
                     "lastname": "Hindersmann",
                     "name": "Rainer"
                 },
-                "text": " Hindersmann , Rainer , Lotte , * 04.10.1965 ."
+                "text": " Hindersmann, Rainer, Lotte, *04.10.1965."
             }
         ]
     }

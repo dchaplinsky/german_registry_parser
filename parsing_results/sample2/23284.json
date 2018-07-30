@@ -16,32 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=23284&land_abk=sl"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Haan",
                     "dob": "1958-12-17",
-                    "lastname": "Dr . Hagemeister",
+                    "lastname": "Doctor Hagemeister",
                     "name": "Stefan"
                 },
-                "text": " Dr . Hagemeister , Stefan , Haan , * 17.12.1958 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Haan",
-                    "dob": "1958-12-17",
-                    "lastname": "Dr . Hagemeister",
-                    "name": "Stefan"
-                },
-                "text": " Dr . Hagemeister , Stefan , Haan , * 17.12.1958 ."
+                "text": " Doctor Hagemeister, Stefan, Haan, *17.12.1958."
             }
         ]
     }

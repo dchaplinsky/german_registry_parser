@@ -19,13 +19,13 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Bruckstr ."
+                "text": " Bruckstr."
             }
         ],
         "officers": [
@@ -37,27 +37,29 @@
                     "lastname": "Hilleberg",
                     "name": "Eckhard"
                 },
-                "text": " Hilleberg , Eckhard , Stuttgart , * 30.09.1943 ."
+                "text": " Hilleberg, Eckhard, Stuttgart, *30.09.1943."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
+                    "dismissed": true,
                     "dob": "1943-09-30",
                     "lastname": "Hilleberg",
                     "name": "Eckhard"
                 },
-                "text": " Hilleberg , Eckhard , Stuttgart , * 30.09.1943 ."
+                "text": " Hilleberg, Eckhard, Stuttgart, *30.09.1943."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Aichwald",
+                    "dismissed": true,
                     "dob": "1952-09-24",
                     "lastname": "Loos",
                     "name": "Karin"
                 },
-                "text": " Loos , Karin , Aichwald , * 24.09.1952 ."
+                "text": " Loos, Karin, Aichwald, *24.09.1952."
             }
         ]
     }

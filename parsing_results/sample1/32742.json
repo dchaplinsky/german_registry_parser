@@ -16,6 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=32742&land_abk=by"
     },
     "parsed": {
+        "flags": [
+            {
+                "flag": "ignore_for_now",
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
+            },
+            {
+                "flag": "Sole trader",
+                "text": "Einzelkaufmann"
+            },
+            {
+                "flag": "The owner is acting alone",
+                "text": "Der\\ Inhaber\\ handelt\\ allein"
+            }
+        ],
         "officers": [
             {
                 "class": "Owner",
@@ -25,7 +39,7 @@
                     "lastname": "biller",
                     "name": "rainer"
                 },
-                "text": " biller , rainer , haunwang , * 27.06.1963 . einzelkaufmann ."
+                "text": " biller, rainer, haunwang, *27.06.1963. einzelkaufmann."
             }
         ]
     }

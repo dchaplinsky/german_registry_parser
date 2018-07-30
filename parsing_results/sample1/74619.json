@@ -19,12 +19,12 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bad Köstritz",
                     "dob": "1977-06-02",
@@ -32,17 +32,18 @@
                     "lastname": "Rohn",
                     "name": "Kay"
                 },
-                "text": " Rohn , Kay , Bad Köstritz , * 06.02.1977 , einzelvertretungsberechtigt"
+                "text": " Rohn, Kay, Bad Köstritz, *06.02.1977, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Wiltshire - UK",
+                    "dismissed": true,
                     "dob": "1969-09-11",
                     "lastname": "Goode",
                     "name": "Stuart"
                 },
-                "text": " Goode , Stuart , Wiltshire - UK , * 09.11.1969 ."
+                "text": " Goode, Stuart, Wiltshire - UK, *09.11.1969."
             }
         ]
     }

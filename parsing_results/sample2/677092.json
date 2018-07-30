@@ -19,39 +19,41 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Spaichingen",
                     "dob": "1979-10-06",
                     "lastname": "Kauth",
                     "name": "Christian"
                 },
-                "text": " Kauth , Christian , Spaichingen , * 10.06.1979"
+                "text": " Kauth, Christian, Spaichingen, *10.06.1979"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Denkingen",
+                    "dismissed": true,
                     "dob": "1972-08-29",
                     "lastname": "Kauth",
                     "name": "Alexander"
                 },
-                "text": " Kauth , Alexander , Denkingen , * 29.08.1972 ."
+                "text": " Kauth, Alexander, Denkingen, *29.08.1972."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Spaichingen",
+                    "dismissed": true,
                     "dob": "1973-09-30",
                     "lastname": "May",
                     "name": "Steffen"
                 },
-                "text": " May , Steffen , Spaichingen , * 30.09.1973 ."
+                "text": " May, Steffen, Spaichingen, *30.09.1973."
             }
         ]
     }

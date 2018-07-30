@@ -19,35 +19,36 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Kohlenhofstraße 10 , 67663 Kaiserslautern ."
+                "text": " Kohlenhofstraße 10, 67663 Kaiserslautern."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1968-11-04",
                     "lastname": "Gogalla",
                     "name": "Katja"
                 },
-                "text": " Gogalla , Katja , München , * 11.04.1968"
+                "text": " Gogalla, Katja, München, *11.04.1968"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Birmingham / Vereinigtes Königreich",
                     "dob": "1985-05-03",
                     "lastname": "Hassam",
                     "name": "Shan"
                 },
-                "text": " Hassam , Shan , Birmingham / Vereinigtes Königreich , * 05.03.1985"
+                "text": " Hassam, Shan, Birmingham / Vereinigtes Königreich, *05.03.1985"
             }
         ]
     }

@@ -19,54 +19,41 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dudenhofen",
                     "dob": "1964-09-05",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Pflanz",
                     "name": "Susanne geborene Müller"
                 },
-                "text": " Pflanz , Susanne geborene Müller , Dudenhofen , * 09.05.1964 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Pflanz, Susanne geborene Müller, Dudenhofen, *09.05.1964, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Dudenhofen",
+                    "dismissed": true,
                     "dob": "1960-10-24",
                     "lastname": "Pflanz",
                     "name": "Thomas"
                 },
-                "text": " Pflanz , Thomas , Dudenhofen , * 24.10.1960 ."
+                "text": " Pflanz, Thomas, Dudenhofen, *24.10.1960."
             },
             {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Mannheim",
                     "dob": "1974-12-21",
-                    "lastname": "Szanto - Kaiser",
+                    "lastname": "Szanto-Kaiser",
                     "name": "Sofia geborene Szanto"
                 },
-                "text": " Szanto - Kaiser , Sofia geborene Szanto , Mannheim , * 21.12.1974 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Mannheim",
-                    "dob": "1974-12-21",
-                    "lastname": "Szanto - Kaiser",
-                    "name": "Sofia geborene Szanto"
-                },
-                "text": " Szanto - Kaiser , Sofia geborene Szanto , Mannheim , * 21.12.1974 ."
+                "text": " Szanto-Kaiser, Sofia geborene Szanto, Mannheim, *21.12.1974."
             }
         ]
     }

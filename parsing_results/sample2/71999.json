@@ -19,37 +19,38 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " HÖEGH AUTOLINERS GMBH , Bremen , Martinistraße 61 , 28195 Bremen ."
+                "text": " HÖEGH AUTOLINERS GMBH, Bremen, Martinistraße 61, 28195 Bremen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Mørk",
                     "name": "Per Christian"
                 },
-                "text": " Mørk , Per Christian"
+                "text": " Mørk, Per Christian"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Bremen",
                     "dob": "1974-09-10",
-                    "lastname": "Schepers - Bauer",
+                    "lastname": "Schepers-Bauer",
                     "name": "Maria"
                 },
-                "text": " Schepers - Bauer , Maria , * 09.10.1974 , Bremen"
+                "text": " Schepers-Bauer, Maria, *09.10.1974, Bremen"
             }
         ]
     }

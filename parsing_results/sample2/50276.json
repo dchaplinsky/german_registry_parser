@@ -19,16 +19,17 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Höffner Möbelgesellschaft Beteiligungs - GmbH , Taucha ( Amtsgericht Leipzig HRB 23875 ) ."
+                    "lastname": "Höffner Möbelgesellschaft Beteiligungs-GmbH",
+                    "name": "Taucha (Amtsgericht Leipzig HRB 23875)"
                 },
-                "text": " Höffner Möbelgesellschaft Beteiligungs - GmbH , Taucha ( Amtsgericht Leipzig HRB 23875 ) ."
+                "text": " Höffner Möbelgesellschaft Beteiligungs-GmbH, Taucha (Amtsgericht Leipzig HRB 23875)."
             },
             {
                 "class": "PersonalPartner",
@@ -39,7 +40,7 @@
                     "lastname": "Rotter",
                     "name": "Thomas"
                 },
-                "text": " Rotter , Thomas , Berlin , * 27.05.1970 , von der Vertretung ausgeschlossen ."
+                "text": " Rotter, Thomas, Berlin, *27.05.1970, von der Vertretung ausgeschlossen."
             }
         ]
     }

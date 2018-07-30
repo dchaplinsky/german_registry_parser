@@ -19,41 +19,41 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dipl ., error text was a person without DOB, number of chunks: 1"
-            }
-        ],
-        "flags": [
+                "text": "Cannot parse a AppointedManagingDirector from  Dipl., error text was a person without DOB, number of chunks: 1"
+            },
             {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Dipl., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Brodberg 7 b , 36205 Sontra ."
+                "text": " Brodberg 7b, 36205 Sontra."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Nentershausen",
+                    "dismissed": true,
                     "dob": "1950-05-07",
                     "lastname": "Fischer",
                     "name": "Erwin"
                 },
-                "text": " Fischer , Erwin , Nentershausen , * 05.07.1950 ."
+                "text": " Fischer, Erwin, Nentershausen, *05.07.1950."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Ringgau - Datterode",
+                    "city": "Ringgau-Datterode",
+                    "dismissed": true,
                     "dob": "1965-06-03",
                     "lastname": "Hose",
                     "name": "Ralf"
                 },
-                "text": " Hose , Ralf , Ringgau - Datterode , * 06.03.1965 ."
+                "text": " Hose, Ralf, Ringgau-Datterode, *06.03.1965."
             },
             {
                 "class": "SingleProcuration",
@@ -63,17 +63,7 @@
                     "lastname": "Müller",
                     "name": "Thomas"
                 },
-                "text": " Müller , Thomas , Sontra , * 04.08.1978 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Sontra",
-                    "dob": "1978-04-08",
-                    "lastname": "Müller",
-                    "name": "Thomas"
-                },
-                "text": " Müller , Thomas , Sontra , * 04.08.1978 ."
+                "text": " Müller, Thomas, Sontra, *04.08.1978."
             }
         ]
     }

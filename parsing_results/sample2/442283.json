@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Münster",
+                    "dismissed": true,
                     "dob": "1962-01-14",
                     "lastname": "Witzel",
                     "name": "Norbert"
                 },
-                "text": " Witzel , Norbert , Münster , * 14.01.1962 ."
+                "text": " Witzel, Norbert, Münster, *14.01.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Eichenzell",
                     "dob": "1965-04-11",
                     "lastname": "Stöppler",
-                    "name": "Ralf - Stefan"
+                    "name": "Ralf-Stefan"
                 },
-                "text": " Stöppler , Ralf - Stefan , Eichenzell , * 04.11.1965 ."
+                "text": " Stöppler, Ralf-Stefan, Eichenzell, *04.11.1965."
             }
         ]
     }

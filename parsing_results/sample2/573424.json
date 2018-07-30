@@ -18,37 +18,38 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Wankelstraße 13 , 41352 Korschenbroich ."
+                "text": " Wankelstraße 13, 41352 Korschenbroich."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kolbermoor",
+                    "dismissed": true,
                     "dob": "1965-11-01",
                     "lastname": "Eder",
                     "name": "Manuela"
                 },
-                "text": " Eder , Manuela , Kolbermoor , * 11.01.1965"
+                "text": " Eder, Manuela, Kolbermoor, *11.01.1965"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Heinsberg",
                     "dob": "1963-05-15",
@@ -56,7 +57,7 @@
                     "lastname": "Coßmann",
                     "name": "Dieter"
                 },
-                "text": " Coßmann , Dieter , Heinsberg , * 15.05.1963 , einzelvertretungsberechtigt ."
+                "text": " Coßmann, Dieter, Heinsberg, *15.05.1963, einzelvertretungsberechtigt."
             }
         ]
     }

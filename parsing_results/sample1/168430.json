@@ -19,7 +19,23 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  teschner , hans otto , stockach , * 26.08.1950 . bestellt als liquidator : teschner , hans otto , stockach , * 26.08.1950 . die gesellschaft ist aufgelöst ., error text was no valid patter found, number of chunks: 7"
+                "text": "Cannot parse a DismissedManagingDirector from  teschner, hans otto, stockach, *26.08.1950. bestellt als liquidator: teschner, hans otto, stockach, *26.08.1950. die gesellschaft ist aufgelöst., error text was no valid patter found, number of chunks: 7"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  teschner, hans otto, stockach, *26.08.1950. bestellt als liquidator: teschner, hans otto, stockach, *26.08.1950. die gesellschaft ist aufgelöst., error text was no valid patter found, number of chunks: 7"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "ignore_for_now",
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " alois-mutz-straße 13, 78333 stockach."
             }
         ],
         "officers": [
@@ -31,7 +47,7 @@
                     "lastname": "teschner",
                     "name": "hans otto"
                 },
-                "text": " teschner , hans otto , stockach , * 26.08.1950 . die gesellschaft ist aufgelöst ."
+                "text": " teschner, hans otto, stockach, *26.08.1950. die gesellschaft ist aufgelöst."
             }
         ]
     }

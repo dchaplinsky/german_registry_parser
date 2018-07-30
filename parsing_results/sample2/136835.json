@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Industriestr ."
+                "text": " Industriestr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bösel",
+                    "dismissed": true,
                     "dob": "1972-04-24",
                     "lastname": "Stärk",
                     "name": "Burkhard"
                 },
-                "text": " Stärk , Burkhard , Bösel , * 24.04.1972 ."
+                "text": " Stärk, Burkhard, Bösel, *24.04.1972."
             },
             {
                 "class": "CommonProcuration",
@@ -41,7 +42,7 @@
                     "lastname": "Looschen",
                     "name": "Wilfried"
                 },
-                "text": " Looschen , Wilfried , Garrel , * 17.10.1953 ."
+                "text": " Looschen, Wilfried, Garrel, *17.10.1953."
             }
         ]
     }

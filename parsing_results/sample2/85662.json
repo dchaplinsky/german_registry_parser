@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1966-01-07",
                     "lastname": "Anthon",
                     "name": "Jan Nicolay Engelke"
                 },
-                "text": " Anthon , Jan Nicolay Engelke , Hamburg , * 01.07.1966 ."
+                "text": " Anthon, Jan Nicolay Engelke, Hamburg, *01.07.1966."
             }
         ]
     }

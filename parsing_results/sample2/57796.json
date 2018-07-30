@@ -19,38 +19,47 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Hohe Straße 14 , 24768 Rendsburg"
+                "text": " Hohe Straße 14, 24768 Rendsburg"
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "PersonalPartner",
                 "payload": {
-                    "city": "Karl - Heinz",
+                    "city": "Fockbeck",
                     "dob": "1957-09-29",
-                    "flag": "Fockbeck",
-                    "lastname": "Änderung zu Nr . 1 : unter gleichzeitiger Ergänzung des Geburtsdatums von Amts wegen und Änderung des Wohnortes",
-                    "name": "nunmehr : persönlich haftender Gesellschafter : Egbring"
+                    "lastname": "Egbring",
+                    "name": "Karl-Heinz"
                 },
-                "text": " Änderung zu Nr . 1 : unter gleichzeitiger Ergänzung des Geburtsdatums von Amts wegen und Änderung des Wohnortes , nunmehr : persönlich haftender Gesellschafter : Egbring , Karl - Heinz , * 29.09.1957 , Fockbeck"
+                "text": " Egbring, Karl-Heinz, *29.09.1957, Fockbeck"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Borgstedt",
+                    "dob": "1970-04-28",
+                    "lastname": "Lilienthal",
+                    "name": "Henning"
+                },
+                "text": " Lilienthal, Henning, *28.04.1970, Borgstedt"
             },
             {
                 "class": "Owner",
                 "payload": {
-                    "lastname": "Henning Lilienthal e . K ( Amtsgericht Kiel",
-                    "name": "HRA 95 RD ) geführte Unternehmen wird unter unverändertem Firmenkern als Zweigniederlassung fortgeführt"
+                    "lastname": "Henning Lilienthal e.K (Amtsgericht Kiel",
+                    "name": "HRA 95 RD)geführte Unternehmen wird unter unverändertem Firmenkern als Zweigniederlassung fortgeführt"
                 },
-                "text": " Henning Lilienthal e . K ( Amtsgericht Kiel , HRA 95 RD ) geführte Unternehmen wird unter unverändertem Firmenkern als Zweigniederlassung fortgeführt .."
+                "text": " Henning Lilienthal e.K (Amtsgericht Kiel, HRA 95 RD)geführte Unternehmen wird unter unverändertem Firmenkern als Zweigniederlassung fortgeführt.."
             }
         ]
     }

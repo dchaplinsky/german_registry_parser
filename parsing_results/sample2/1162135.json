@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Nördlingen",
+                    "dismissed": true,
                     "dob": "1970-01-05",
                     "lastname": "Kamberi",
                     "name": "Bujar"
                 },
-                "text": " Kamberi , Bujar , Nördlingen , * 01.05.1970 ."
+                "text": " Kamberi, Bujar, Nördlingen, *01.05.1970."
             }
         ]
     }

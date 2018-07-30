@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Carstensen",
                     "name": "Uwe Thomas"
                 },
-                "text": " Carstensen , Uwe Thomas"
+                "text": " Carstensen, Uwe Thomas"
             },
             {
                 "class": "ManagingDirector",
@@ -33,7 +34,7 @@
                     "lastname": "Schlörmann",
                     "name": "Alwin"
                 },
-                "text": " Schlörmann , Alwin , * 26.05.1959 , Bad Zwischenahn"
+                "text": " Schlörmann, Alwin, *26.05.1959, Bad Zwischenahn"
             }
         ]
     }

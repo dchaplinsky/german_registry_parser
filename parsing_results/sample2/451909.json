@@ -18,22 +18,18 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Hockenheimer Straße 22 , 68775 Ketsch ."
+                "text": " Hockenheimer Straße 22, 68775 Ketsch."
             }
         ],
         "officers": [
@@ -42,11 +38,11 @@
                 "payload": {
                     "city": "Ketsch",
                     "dob": "1986-06-11",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Koll",
                     "name": "Martin"
                 },
-                "text": " Koll , Martin , Ketsch , * 06.11.1986 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Koll, Martin, Ketsch, *06.11.1986, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",
@@ -56,17 +52,7 @@
                     "lastname": "Koll",
                     "name": "Hans"
                 },
-                "text": " Koll , Hans , Ketsch , * 18.10.1948 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Ketsch",
-                    "dob": "1948-10-18",
-                    "lastname": "Koll",
-                    "name": "Hans"
-                },
-                "text": " Koll , Hans , Ketsch , * 18.10.1948 ."
+                "text": " Koll, Hans, Ketsch, *18.10.1948."
             }
         ]
     }

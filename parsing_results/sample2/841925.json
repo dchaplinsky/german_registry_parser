@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1967-03-08",
                     "lastname": "Hartsieker",
                     "name": "Katrin"
                 },
-                "text": " Hartsieker , Katrin , Düsseldorf , * 03.08.1967 ."
+                "text": " Hartsieker, Katrin, Düsseldorf, *03.08.1967."
             },
             {
                 "class": "Liquidator",
@@ -41,7 +42,7 @@
                     "lastname": "Garich",
                     "name": "Uta"
                 },
-                "text": " Garich , Uta , Wülfrath , * 29.07.1964 ."
+                "text": " Garich, Uta, Wülfrath, *29.07.1964."
             }
         ]
     }

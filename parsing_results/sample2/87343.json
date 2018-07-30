@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
@@ -32,17 +32,18 @@
                     "lastname": "Vormschlag",
                     "name": "Ilka geborene Strauß"
                 },
-                "text": " Vormschlag , Ilka geborene Strauß , Seevetal , * 28.08.1962 , einzelvertretungsberechtigt"
+                "text": " Vormschlag, Ilka geborene Strauß, Seevetal, *28.08.1962, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1939-11-23",
                     "lastname": "Schubert",
                     "name": "Helga geborene Bölicke"
                 },
-                "text": " Schubert , Helga geborene Bölicke , Hamburg , * 23.11.1939 ."
+                "text": " Schubert, Helga geborene Bölicke, Hamburg, *23.11.1939."
             }
         ]
     }

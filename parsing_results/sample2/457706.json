@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Königsallee 106 , 40215 Düsseldorf ."
+                "text": " Königsallee 106, 40215 Düsseldorf."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Meerbusch",
+                    "dismissed": true,
                     "dob": "1947-10-11",
                     "lastname": "vor dem Esche",
-                    "name": "Hans - Bernd"
+                    "name": "Hans-Bernd"
                 },
-                "text": " vor dem Esche , Hans - Bernd , Meerbusch , * 10.11.1947 ."
+                "text": " vor dem Esche, Hans-Bernd, Meerbusch, *10.11.1947."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Tönisvorst",
                     "dob": "1963-09-28",
@@ -42,7 +43,7 @@
                     "lastname": "Schmidt",
                     "name": "Ronald Hans"
                 },
-                "text": " Schmidt , Ronald Hans , Tönisvorst , * 28.09.1963 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schmidt, Ronald Hans, Tönisvorst, *28.09.1963, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

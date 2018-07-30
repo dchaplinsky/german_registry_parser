@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Wendenstr ."
+                "text": " Wendenstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1974-01-01",
                     "lastname": "Demirdag",
                     "name": "Mehmet"
                 },
-                "text": " Demirdag , Mehmet , Hamburg , * 01.01.1974 ."
+                "text": " Demirdag, Mehmet, Hamburg, *01.01.1974."
             }
         ]
     }

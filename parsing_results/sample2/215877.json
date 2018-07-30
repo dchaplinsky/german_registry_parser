@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "Insheim b . Landau",
+                    "city": "Insheim b. Landau",
                     "dob": "1949-01-17",
                     "flag": "sole representation",
                     "lastname": "Bus",
                     "name": "Edith"
                 },
-                "text": " Bus , Edith , Insheim b . Landau , * 17.01.1949 , einzelvertretungsberechtigt ."
+                "text": " Bus, Edith, Insheim b. Landau, *17.01.1949, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Insheim bei Landau",
+                    "dismissed": true,
                     "dob": "1949-01-17",
                     "lastname": "Bus",
                     "name": "Edith"
                 },
-                "text": " Bus , Edith , Insheim bei Landau , * 17.01.1949 ."
+                "text": " Bus, Edith, Insheim bei Landau, *17.01.1949."
             }
         ]
     }

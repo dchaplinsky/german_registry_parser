@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Amsterdam / Niederlande",
                     "dob": "1979-02-06",
                     "lastname": "De Graaf",
                     "name": "Deirdre"
                 },
-                "text": " De Graaf , Deirdre , Amsterdam / Niederlande , * 02.06.1979 ."
+                "text": " De Graaf, Deirdre, Amsterdam / Niederlande, *02.06.1979."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Denzlingen",
+                    "dismissed": true,
                     "dob": "1974-03-16",
                     "lastname": "Schäfer",
                     "name": "Boris"
                 },
-                "text": " Schäfer , Boris , Denzlingen , * 16.03.1974 ."
+                "text": " Schäfer, Boris, Denzlingen, *16.03.1974."
             }
         ]
     }

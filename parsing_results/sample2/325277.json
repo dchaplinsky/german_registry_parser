@@ -23,20 +23,21 @@
                     "city": "Solingen",
                     "dob": "1962-10-10",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Dr . Koch",
+                    "lastname": "Doctor Koch",
                     "name": "Gernot"
                 },
-                "text": " Dr . Koch , Gernot , Solingen , * 10.10.1962 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Koch, Gernot, Solingen, *10.10.1962, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Much",
+                    "dismissed": true,
                     "dob": "1972-09-06",
                     "lastname": "Klein",
                     "name": "Nicole geborene Braun"
                 },
-                "text": " Klein , Nicole geborene Braun , Much , * 09.06.1972 ."
+                "text": " Klein, Nicole geborene Braun, Much, *09.06.1972."
             }
         ]
     }

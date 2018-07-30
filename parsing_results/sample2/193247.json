@@ -19,13 +19,13 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Helmdach , Herbert , Traunreut , Ortsteil Traunwalchen , * 31.05.1957 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Traunreut  using regex"
+                "text": "Cannot parse a ManagingDirector from  Helmdach, Herbert, Traunreut, Ortsteil Traunwalchen, *31.05.1957, einzelvertretungsberechtigt, error text was Cannot parse DOB  Traunreut using regex"
             }
         ],
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ]
     }

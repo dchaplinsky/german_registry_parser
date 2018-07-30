@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Jüchen",
+                    "dismissed": true,
                     "dob": "1946-09-09",
                     "lastname": "Strerath",
                     "name": "Volker"
                 },
-                "text": " Strerath , Volker , Jüchen , * 09.09.1946 ."
+                "text": " Strerath, Volker, Jüchen, *09.09.1946."
             }
         ]
     }

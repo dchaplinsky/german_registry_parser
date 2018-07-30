@@ -23,11 +23,11 @@
             },
             {
                 "flag": "The owner is acting alone",
-                "text": "Der Inhaber handelt allein"
+                "text": "Der\\ Inhaber\\ handelt\\ allein"
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -36,20 +36,21 @@
                 "payload": {
                     "city": "Calden",
                     "dob": "1955-01-22",
-                    "lastname": "Dr . Fiehn",
+                    "lastname": "Doctor Fiehn",
                     "name": "Andreas"
                 },
-                "text": " Dr . Fiehn , Andreas , Calden , * 22.01.1955 ."
+                "text": " Doctor Fiehn, Andreas, Calden, *22.01.1955."
             },
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Waiblingen",
+                    "dismissed": true,
                     "dob": "1965-09-09",
                     "lastname": "Frentz",
                     "name": "Andreas"
                 },
-                "text": " Frentz , Andreas , Waiblingen , * 09.09.1965"
+                "text": " Frentz, Andreas, Waiblingen, *09.09.1965"
             }
         ]
     }

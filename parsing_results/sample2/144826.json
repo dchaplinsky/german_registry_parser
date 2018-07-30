@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Grevenbroich",
+                    "dismissed": true,
                     "dob": "1954-11-22",
                     "lastname": "Salbani",
                     "name": "Angelo"
                 },
-                "text": " Salbani , Angelo , Grevenbroich , * 22.11.1954 ."
+                "text": " Salbani, Angelo, Grevenbroich, *22.11.1954."
             },
             {
                 "class": "Liquidator",
@@ -42,7 +43,7 @@
                     "lastname": "Lumia",
                     "name": "Giuseppe"
                 },
-                "text": " Lumia , Giuseppe , Grevenbroich , * 16.11.1969 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Lumia, Giuseppe, Grevenbroich, *16.11.1969, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

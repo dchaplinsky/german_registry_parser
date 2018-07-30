@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " In den Ellern 5 , 28832 Achim ."
+                "text": " In den Ellern 5, 28832 Achim."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Oyten - Sagehorn",
+                    "city": "Oyten-Sagehorn",
+                    "dismissed": true,
                     "dob": "1977-09-26",
                     "lastname": "Azizi Bonakdar",
                     "name": "Sandra"
                 },
-                "text": " Azizi Bonakdar , Sandra , Oyten - Sagehorn , * 26.09.1977 ."
+                "text": " Azizi Bonakdar, Sandra, Oyten-Sagehorn, *26.09.1977."
             }
         ]
     }

@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Winkelmann",
                     "name": "Renate"
                 },
-                "text": " Winkelmann , Renate"
+                "text": " Winkelmann, Renate"
             },
             {
                 "class": "Liquidator",
@@ -33,7 +34,7 @@
                     "lastname": "Eggebrecht",
                     "name": "André"
                 },
-                "text": " Eggebrecht , André , * 28.06.1963 , Brandenburg an der Havel"
+                "text": " Eggebrecht, André, *28.06.1963, Brandenburg an der Havel"
             }
         ]
     }

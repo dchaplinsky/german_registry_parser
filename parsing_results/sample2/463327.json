@@ -19,17 +19,27 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Minnetian , Christopher P . , New York , USA , * 22.12.1968 ., error text was Cannot parse DOB  New York  using regex"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Elkins , Randolph H . , Annandale , Virginia , USA , * 06.11.1946 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ., error text was no valid patter found, number of chunks: 7"
+                "text": "Cannot parse a ManagingDirector from  Elkins, Randolph H., Annandale, Virginia, USA, *06.11.1946, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was no valid patter found, number of chunks: 7"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Poppelsdorfer Allee 114 , 53115 Bonn ."
+                "text": " Poppelsdorfer Allee 114, 53115 Bonn."
+            }
+        ],
+        "officers": [
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "USA",
+                    "dismissed": true,
+                    "dob": "1968-12-22",
+                    "lastname": "Minnetian",
+                    "name": "Christopher P",
+                    "position": "New York"
+                },
+                "text": " Minnetian, Christopher P., New York, USA, *22.12.1968."
             }
         ]
     }

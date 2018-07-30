@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "Bodman - Ludwigshafen",
+                    "city": "Bodman-Ludwigshafen",
                     "dob": "1959-07-10",
                     "lastname": "Jicha",
                     "name": "Horst"
                 },
-                "text": " Jicha , Horst , Bodman - Ludwigshafen , * 07.10.1959 ."
+                "text": " Jicha, Horst, Bodman-Ludwigshafen, *07.10.1959."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Bodman - Ludwigshafen",
+                    "city": "Bodman-Ludwigshafen",
+                    "dismissed": true,
                     "dob": "1959-07-10",
                     "lastname": "Jicha",
                     "name": "Horst"
                 },
-                "text": " Jicha , Horst , Bodman - Ludwigshafen , * 07.10.1959 ."
+                "text": " Jicha, Horst, Bodman-Ludwigshafen, *07.10.1959."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Loßburg",
+                    "dismissed": true,
                     "dob": "1943-10-08",
                     "lastname": "Eckle",
                     "name": "Peter"
                 },
-                "text": " Eckle , Peter , Loßburg , * 10.08.1943 ."
+                "text": " Eckle, Peter, Loßburg, *10.08.1943."
             }
         ]
     }

@@ -18,23 +18,23 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Kurtalstraße 21 , 76887 Bad Bergzabern ."
+                "text": " Kurtalstraße 21, 76887 Bad Bergzabern."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bad Bergzabern",
                     "dob": "1967-07-31",
@@ -42,7 +42,7 @@
                     "lastname": "Herkommer",
                     "name": "Stefanie"
                 },
-                "text": " Herkommer , Stefanie , Bad Bergzabern , * 31.07.1967 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Herkommer, Stefanie, Bad Bergzabern, *31.07.1967, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

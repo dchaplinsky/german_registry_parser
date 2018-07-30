@@ -18,36 +18,37 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Hafenstr ."
+                "text": " Hafenstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Speyer",
                     "dob": "1971-03-24",
                     "lastname": "Schultz",
                     "name": "Ralf"
                 },
-                "text": " Schultz , Ralf , Speyer , * 24.03.1971 ."
+                "text": " Schultz, Ralf, Speyer, *24.03.1971."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mannheim",
+                    "dismissed": true,
                     "dob": "1952-12-09",
                     "lastname": "Bühn",
                     "name": "Gerhard"
                 },
-                "text": " Bühn , Gerhard , Mannheim , * 12.09.1952 ."
+                "text": " Bühn, Gerhard, Mannheim, *12.09.1952."
             }
         ]
     }

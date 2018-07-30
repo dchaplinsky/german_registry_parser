@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Lüdinghausen",
+                    "dismissed": true,
                     "dob": "1948-09-20",
-                    "lastname": "Dr . Linke",
+                    "lastname": "Doctor Linke",
                     "name": "Georg"
                 },
-                "text": " Dr . Linke , Georg , Lüdinghausen , * 20.09.1948 ."
+                "text": " Doctor Linke, Georg, Lüdinghausen, *20.09.1948."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Soest",
                     "dob": "1979-11-07",
                     "flag": "vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Dr . Oberdorf",
+                    "lastname": "Doctor Oberdorf",
                     "name": "Christoph"
                 },
-                "text": " Dr . Oberdorf , Christoph , Soest , * 11.07.1979 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Oberdorf, Christoph, Soest, *11.07.1979, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

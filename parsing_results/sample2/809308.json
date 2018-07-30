@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -28,10 +28,10 @@
                 "payload": {
                     "city": "München",
                     "dob": "1941-04-30",
-                    "lastname": "Steger",
+                    "lastname": ": Steger",
                     "name": "Gerhard"
                 },
-                "text": " Steger , Gerhard , München , * 30.04.1941 ."
+                "text": ": Steger, Gerhard, München, *30.04.1941."
             }
         ]
     }

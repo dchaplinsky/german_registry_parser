@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Breitenbrunn",
                     "dob": "1957-12-30",
                     "lastname": "Braun",
                     "name": "Gerhard"
                 },
-                "text": " Braun , Gerhard , Breitenbrunn , * 30.12.1957"
+                "text": " Braun, Gerhard, Breitenbrunn, *30.12.1957"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Gröbenzell",
+                    "dismissed": true,
                     "dob": "1956-02-20",
                     "lastname": "Bullerdieck",
                     "name": "Friedhelm"
                 },
-                "text": " Bullerdieck , Friedhelm , Gröbenzell , * 20.02.1956 ."
+                "text": " Bullerdieck, Friedhelm, Gröbenzell, *20.02.1956."
             }
         ]
     }

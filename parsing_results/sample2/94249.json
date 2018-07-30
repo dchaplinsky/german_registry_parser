@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Griesheim",
+                    "dismissed": true,
                     "dob": "1972-07-26",
-                    "lastname": "Dr . Cziesla",
+                    "lastname": "Doctor Cziesla",
                     "name": "Michael"
                 },
-                "text": " Dr . Cziesla , Michael , Griesheim , * 26.07.1972 ."
+                "text": " Doctor Cziesla, Michael, Griesheim, *26.07.1972."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Rotenburg a . d . Fulda",
+                    "city": "Rotenburg a.d. Fulda",
                     "dob": "1964-06-13",
                     "lastname": "Hahnelt",
                     "name": "Michael"
                 },
-                "text": " Hahnelt , Michael , Rotenburg a . d . Fulda , * 13.06.1964"
+                "text": " Hahnelt, Michael, Rotenburg a.d. Fulda, *13.06.1964"
             }
         ]
     }

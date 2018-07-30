@@ -19,40 +19,42 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Garching",
                     "dob": "1965-03-18",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Schmidt",
                     "name": "Bettina"
                 },
-                "text": " Schmidt , Bettina , Garching , * 18.03.1965 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schmidt, Bettina, Garching, *18.03.1965, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Dachau",
+                    "dismissed": true,
                     "dob": "1960-04-02",
                     "lastname": "Menne",
                     "name": "Marcus"
                 },
-                "text": " Menne , Marcus , Dachau , * 04.02.1960 ."
+                "text": " Menne, Marcus, Dachau, *04.02.1960."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1961-06-29",
                     "lastname": "Kroog",
                     "name": "Thorsten"
                 },
-                "text": " Kroog , Thorsten , München , * 29.06.1961 ."
+                "text": " Kroog, Thorsten, München, *29.06.1961."
             }
         ]
     }

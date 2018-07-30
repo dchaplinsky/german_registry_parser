@@ -18,34 +18,35 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bad Nauheim",
+                    "dismissed": true,
                     "dob": "1969-04-06",
                     "lastname": "Brandner",
                     "name": "Alfred"
                 },
-                "text": " Brandner , Alfred , Bad Nauheim , * 04.06.1969 ."
+                "text": " Brandner, Alfred, Bad Nauheim, *04.06.1969."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Ingelheim",
                     "dob": "1964-10-13",
                     "lastname": "Lau",
                     "name": "Andreas"
                 },
-                "text": " Lau , Andreas , Ingelheim , * 13.10.1964 ."
+                "text": " Lau, Andreas, Ingelheim, *13.10.1964."
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Dreieich",
                     "dob": "1960-04-14",
-                    "lastname": "Dr . Schmidt - Mohr",
+                    "lastname": "Doctor Schmidt-Mohr",
                     "name": "Udo"
                 },
-                "text": " Dr . Schmidt - Mohr , Udo , Dreieich , * 14.04.1960 ."
+                "text": " Doctor Schmidt-Mohr, Udo, Dreieich, *14.04.1960."
             }
         ]
     }

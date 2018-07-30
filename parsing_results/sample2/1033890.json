@@ -18,34 +18,36 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Maurach / Österreich",
+                    "dismissed": true,
                     "dob": "1944-02-08",
-                    "lastname": "Weinhart - Hemmerich",
-                    "name": "Bernd - Michael"
+                    "lastname": "Weinhart-Hemmerich",
+                    "name": "Bernd-Michael"
                 },
-                "text": " Weinhart - Hemmerich , Bernd - Michael , Maurach / Österreich , * 02.08.1944 ."
+                "text": " Weinhart-Hemmerich, Bernd-Michael, Maurach / Österreich, *02.08.1944."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1980-10-20",
                     "lastname": "Weinhart",
                     "name": "Nicolas"
                 },
-                "text": " Weinhart , Nicolas , München , * 20.10.1980 ."
+                "text": " Weinhart, Nicolas, München, *20.10.1980."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Karlsfeld",
+                    "dismissed": true,
                     "dob": "1980-10-20",
                     "lastname": "Weinhart",
                     "name": "Nicolas"
                 },
-                "text": " Weinhart , Nicolas , Karlsfeld , * 20.10.1980 ."
+                "text": " Weinhart, Nicolas, Karlsfeld, *20.10.1980."
             }
         ]
     }

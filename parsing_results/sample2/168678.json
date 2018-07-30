@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Wollerau / Schweiz",
+                    "city": "Wollerau/Schweiz",
+                    "dismissed": true,
                     "dob": "1939-02-20",
-                    "lastname": "Dr . Hoefter",
+                    "lastname": "Doctor Hoefter",
                     "name": "Max Anton"
                 },
-                "text": " Dr . Hoefter , Max Anton , Wollerau / Schweiz , * 20.02.1939 ."
+                "text": " Doctor Hoefter, Max Anton, Wollerau/Schweiz, *20.02.1939."
             }
         ]
     }

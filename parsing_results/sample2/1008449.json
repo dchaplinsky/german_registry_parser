@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Duisburg",
+                    "dismissed": true,
                     "dob": "1965-12-01",
                     "lastname": "Evers",
                     "name": "Johannes Franciscus Maria"
                 },
-                "text": " Evers , Johannes Franciscus Maria , Duisburg , * 12.01.1965 ."
+                "text": " Evers, Johannes Franciscus Maria, Duisburg, *12.01.1965."
             }
         ]
     }

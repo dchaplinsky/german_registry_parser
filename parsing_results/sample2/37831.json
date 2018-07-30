@@ -19,17 +19,17 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Berliner Straße 4 , 16727 Velten , Geschäftsführer : Kewitz , Hans - Jürgen , * 10.05.1964 , Berlin"
+                "text": " Berliner Straße 4, 16727 Velten, Geschäftsführer: Kewitz, Hans-Jürgen, *10.05.1964, Berlin"
             }
         ],
         "officers": [
@@ -39,17 +39,18 @@
                     "city": "Berlin",
                     "dob": "1964-10-05",
                     "lastname": "Kewitz",
-                    "name": "Hans - Jürgen"
+                    "name": "Hans-Jürgen"
                 },
-                "text": " Kewitz , Hans - Jürgen , * 10.05.1964 , Berlin"
+                "text": " Kewitz, Hans-Jürgen, *10.05.1964, Berlin"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Hellwig",
                     "name": "Herbert"
                 },
-                "text": " Hellwig , Herbert .."
+                "text": " Hellwig, Herbert.."
             }
         ]
     }

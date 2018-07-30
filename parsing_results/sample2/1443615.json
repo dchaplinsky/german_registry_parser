@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Wittener Straße 38 , 42277 Wuppertal ."
+                "text": " Wittener Straße 38, 42277 Wuppertal."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bonn",
+                    "dismissed": true,
                     "dob": "1983-04-05",
                     "lastname": "Schenk",
-                    "name": "Jan - Michael"
+                    "name": "Jan-Michael"
                 },
-                "text": " Schenk , Jan - Michael , Bonn , * 04.05.1983 ."
+                "text": " Schenk, Jan-Michael, Bonn, *04.05.1983."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wuppertal",
                     "dob": "1988-05-11",
@@ -42,7 +43,7 @@
                     "lastname": "Orlovskis",
                     "name": "Normunds"
                 },
-                "text": " Orlovskis , Normunds , Wuppertal , * 05.11.1988 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Orlovskis, Normunds, Wuppertal, *05.11.1988, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

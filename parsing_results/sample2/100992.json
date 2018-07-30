@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1979-02-19",
                     "lastname": "Zak",
                     "name": "Andreas"
                 },
-                "text": " Zak , Andreas , Hamburg , * 19.02.1979 ."
+                "text": " Zak, Andreas, Hamburg, *19.02.1979."
             }
         ]
     }

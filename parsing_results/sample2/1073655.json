@@ -18,34 +18,36 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Regensburg",
+                    "dismissed": true,
                     "dob": "1965-10-22",
                     "lastname": "Zettler",
                     "name": "Wolfgang Klaus Walter"
                 },
-                "text": " Zettler , Wolfgang Klaus Walter , Regensburg , * 22.10.1965 ."
+                "text": " Zettler, Wolfgang Klaus Walter, Regensburg, *22.10.1965."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Pentling",
                     "dob": "1960-08-21",
                     "lastname": "Past",
-                    "name": "Julius - Alexander"
+                    "name": "Julius-Alexander"
                 },
-                "text": " Past , Julius - Alexander , Pentling , * 21.08.1960 ."
+                "text": " Past, Julius-Alexander, Pentling, *21.08.1960."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Starnberg",
+                    "dismissed": true,
                     "dob": "1956-11-06",
                     "lastname": "Neubarth",
                     "name": "Jürgen"
                 },
-                "text": " Neubarth , Jürgen , Starnberg , * 11.06.1956"
+                "text": " Neubarth, Jürgen, Starnberg, *11.06.1956"
             }
         ]
     }

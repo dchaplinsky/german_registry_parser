@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Remseck am Neckar",
+                    "dismissed": true,
                     "dob": "1958-08-28",
                     "lastname": "Nebel",
                     "name": "Rainer"
                 },
-                "text": " Nebel , Rainer , Remseck am Neckar , * 28.08.1958 ."
+                "text": " Nebel, Rainer, Remseck am Neckar, *28.08.1958."
             }
         ]
     }

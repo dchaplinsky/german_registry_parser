@@ -19,25 +19,26 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Primelweg 9 , 74417 Gschwend ."
+                "text": " Primelweg 9, 74417 Gschwend."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Schwäbisch Gmünd",
+                    "dismissed": true,
                     "lastname": "Voß",
                     "name": "Norbert",
                     "position": "Karosseriebaumeister"
                 },
-                "text": " Voß , Norbert , Karosseriebaumeister , Schwäbisch Gmünd ."
+                "text": " Voß, Norbert, Karosseriebaumeister, Schwäbisch Gmünd."
             },
             {
                 "class": "Liquidator",
@@ -47,7 +48,7 @@
                     "lastname": "Brenner",
                     "name": "Waltraud geborene Maile"
                 },
-                "text": " Brenner , Waltraud geborene Maile , Gschwend , * 18.05.1951 ."
+                "text": " Brenner, Waltraud geborene Maile, Gschwend, *18.05.1951."
             }
         ]
     }

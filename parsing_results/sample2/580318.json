@@ -16,20 +16,14 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=580318&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Jungels , Jean - Claude , Fexhe - Le - Haut - Clocher , Belgien , * 17.01.1942, error text was Cannot parse DOB  Fexhe - Le - Haut - Clocher  using regex"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -42,7 +36,19 @@
                     "lastname": "de Bruin",
                     "name": "Willem"
                 },
-                "text": " de Bruin , Willem , Kockengen / Niederlande , * 28.03.1956 , einzelvertretungsberechtigt"
+                "text": " de Bruin, Willem, Kockengen / Niederlande, *28.03.1956, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Belgien",
+                    "dismissed": true,
+                    "dob": "1942-01-17",
+                    "lastname": "Jungels",
+                    "name": "Jean-Claude",
+                    "position": "Fexhe-Le-Haut-Clocher"
+                },
+                "text": " Jungels, Jean-Claude, Fexhe-Le-Haut-Clocher, Belgien, *17.01.1942"
             }
         ]
     }

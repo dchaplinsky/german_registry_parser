@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=216812&land_abk=ni"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Oetken",
                     "name": "Tim"
                 },
-                "text": " Oetken , Tim , Oldenburg , * 21.08.1973 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Oldenburg",
-                    "dob": "1973-08-21",
-                    "lastname": "Oetken",
-                    "name": "Tim"
-                },
-                "text": " Oetken , Tim , Oldenburg , * 21.08.1973 ."
+                "text": " Oetken, Tim, Oldenburg, *21.08.1973."
             }
         ]
     }

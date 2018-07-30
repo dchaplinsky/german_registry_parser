@@ -19,17 +19,18 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " ORTEC GmbH , Bremen , Am Winterhafen 3 , 28217 Bremen ."
+                "text": " ORTEC GmbH, Bremen, Am Winterhafen 3, 28217 Bremen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Bacher",
                     "name": "Olaf"
                 },
-                "text": " Bacher , Olaf"
+                "text": " Bacher, Olaf"
             }
         ]
     }

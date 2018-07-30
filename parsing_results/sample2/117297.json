@@ -18,25 +18,27 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Marl",
+                    "dismissed": true,
                     "dob": "1959-07-11",
                     "lastname": "Teltrop",
                     "name": "Ulrich"
                 },
-                "text": " Teltrop , Ulrich , Marl , * 07.11.1959 ."
+                "text": " Teltrop, Ulrich, Marl, *07.11.1959."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Marl",
+                    "dismissed": true,
                     "dob": "1966-04-07",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Koppers",
                     "name": "Gregor"
                 },
-                "text": " Koppers , Gregor , Marl , * 04.07.1966 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Koppers, Gregor, Marl, *04.07.1966, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

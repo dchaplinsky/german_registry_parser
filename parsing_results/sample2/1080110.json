@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Großostheim",
+                    "dismissed": true,
                     "dob": "1959-06-09",
                     "lastname": "Weiser",
                     "name": "Günter"
                 },
-                "text": " Weiser , Günter , Großostheim , * 06.09.1959 ."
+                "text": " Weiser, Günter, Großostheim, *06.09.1959."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Wald - Michelbach",
+                    "city": "Wald-Michelbach",
                     "dob": "1981-08-08",
                     "lastname": "Grigull",
                     "name": "Simon"
                 },
-                "text": " Grigull , Simon , Wald - Michelbach , * 08.08.1981"
+                "text": " Grigull, Simon, Wald-Michelbach, *08.08.1981"
             }
         ]
     }

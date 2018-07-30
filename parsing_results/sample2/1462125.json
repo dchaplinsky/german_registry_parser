@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Löhne",
+                    "dismissed": true,
                     "dob": "1983-03-21",
                     "lastname": "Platenius",
                     "name": "Jan Philipp"
                 },
-                "text": " Platenius , Jan Philipp , Löhne , * 21.03.1983 ."
+                "text": " Platenius, Jan Philipp, Löhne, *21.03.1983."
             }
         ]
     }

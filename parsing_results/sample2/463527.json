@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Lotharstr ."
+                "text": " Lotharstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Duisburg",
+                    "dismissed": true,
                     "dob": "1962-09-16",
                     "lastname": "Reuter",
                     "name": "Carmen"
                 },
-                "text": " Reuter , Carmen , Duisburg , * 16.09.1962 ."
+                "text": " Reuter, Carmen, Duisburg, *16.09.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Duisburg",
                     "dob": "1959-11-17",
@@ -42,7 +43,7 @@
                     "lastname": "Leverberg",
                     "name": "Martin"
                 },
-                "text": " Leverberg , Martin , Duisburg , * 17.11.1959 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Leverberg, Martin, Duisburg, *17.11.1959, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

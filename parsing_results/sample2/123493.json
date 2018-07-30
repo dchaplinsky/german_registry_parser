@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt",
+                    "dismissed": true,
                     "dob": "1962-10-02",
                     "lastname": "Huberti",
                     "name": "Wolfgang"
                 },
-                "text": " Huberti , Wolfgang , Frankfurt , * 10.02.1962 ."
+                "text": " Huberti, Wolfgang, Frankfurt, *10.02.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Ruppichteroth",
                     "dob": "1974-10-22",
@@ -36,7 +37,7 @@
                     "lastname": "Schrahe",
                     "name": "Stefan"
                 },
-                "text": " Schrahe , Stefan , Ruppichteroth , * 22.10.1974 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schrahe, Stefan, Ruppichteroth, *22.10.1974, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

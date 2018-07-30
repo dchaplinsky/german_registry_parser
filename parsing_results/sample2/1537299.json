@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Marl",
                     "dob": "1965-12-01",
@@ -26,17 +26,18 @@
                     "lastname": "Beutz",
                     "name": "Martina"
                 },
-                "text": " Beutz , Martina , Marl , * 12.01.1965 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Beutz, Martina, Marl, *12.01.1965, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Marl",
+                    "dismissed": true,
                     "dob": "1956-09-21",
                     "lastname": "Beutz",
                     "name": "Uwe"
                 },
-                "text": " Beutz , Uwe , Marl , * 21.09.1956 ."
+                "text": " Beutz, Uwe, Marl, *21.09.1956."
             }
         ]
     }

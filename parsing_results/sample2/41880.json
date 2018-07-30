@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Wörth",
+                    "dismissed": true,
                     "lastname": "Vonderlinden",
                     "name": "Karl Heinz",
                     "position": "Fuhrunternehmer"
                 },
-                "text": " Vonderlinden , Karl Heinz , Fuhrunternehmer , Wörth"
+                "text": " Vonderlinden, Karl Heinz, Fuhrunternehmer, Wörth"
             }
         ]
     }

@@ -23,19 +23,20 @@
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Oberursel",
+                    "dismissed": true,
                     "dob": "1938-09-26",
                     "lastname": "Brüderle",
                     "name": "Karl Maria"
                 },
-                "text": " Brüderle , Karl Maria , Oberursel , * 26.09.1938 ."
+                "text": " Brüderle, Karl Maria, Oberursel, *26.09.1938."
             },
             {
                 "class": "Owner",
@@ -46,7 +47,7 @@
                     "lastname": "Brüderle",
                     "name": "Stefan Karl Herbert"
                 },
-                "text": " Brüderle , Stefan Karl Herbert , Oberursel , * 02.11.1970 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Brüderle, Stefan Karl Herbert, Oberursel, *02.11.1970, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

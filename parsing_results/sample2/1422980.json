@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Zweigertstr ."
+                "text": " Zweigertstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Essen",
+                    "dismissed": true,
                     "dob": "1978-10-19",
                     "lastname": "Aldaoud",
                     "name": "Hoschang"
                 },
-                "text": " Aldaoud , Hoschang , Essen , * 19.10.1978 ."
+                "text": " Aldaoud, Hoschang, Essen, *19.10.1978."
             },
             {
                 "class": "ManagingDirector",
@@ -42,7 +43,7 @@
                     "lastname": "Haj Sulayman",
                     "name": "Medya"
                 },
-                "text": " Haj Sulayman , Medya , Herne , * 05.08.1975 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Haj Sulayman, Medya, Herne, *05.08.1975, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

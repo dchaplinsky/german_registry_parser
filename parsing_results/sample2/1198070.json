@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Schöppinger Str ."
+                "text": " Schöppinger Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Horstmar",
+                    "dismissed": true,
                     "dob": "1964-07-29",
                     "lastname": "Schumacher",
                     "name": "Udo"
                 },
-                "text": " Schumacher , Udo , Horstmar , * 29.07.1964 ."
+                "text": " Schumacher, Udo, Horstmar, *29.07.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Lüdenscheid",
                     "dob": "1975-03-07",
@@ -42,7 +43,7 @@
                     "lastname": "Schroll",
                     "name": "Michael"
                 },
-                "text": " Schroll , Michael , Lüdenscheid , * 03.07.1975 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schroll, Michael, Lüdenscheid, *03.07.1975, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -18,44 +18,45 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Hafenweg 15 , 48155 Münster ."
+                "text": " Hafenweg 15, 48155 Münster."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Telgte",
                     "dob": "1957-07-04",
                     "lastname": "Hugenroth",
                     "name": "Bernhard"
                 },
-                "text": " Hugenroth , Bernhard , Telgte , * 07.04.1957"
+                "text": " Hugenroth, Bernhard, Telgte, *07.04.1957"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rhede",
+                    "dismissed": true,
                     "dob": "1960-12-03",
                     "lastname": "Bölting",
                     "name": "Stefan"
                 },
-                "text": " Bölting , Stefan , Rhede , * 12.03.1960"
+                "text": " Bölting, Stefan, Rhede, *12.03.1960"
             }
         ]
     }

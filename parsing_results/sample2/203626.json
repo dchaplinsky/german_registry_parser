@@ -16,42 +16,27 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=203626&land_abk=ni"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Bremen",
+                    "dismissed": true,
                     "dob": "1956-07-07",
                     "lastname": "Fitschen",
                     "name": "Ronald"
                 },
-                "text": " Fitschen , Ronald , Bremen , * 07.07.1956 ."
+                "text": " Fitschen, Ronald, Bremen, *07.07.1956."
             },
             {
                 "class": "SingleProcuration",
                 "payload": {
-                    "city": "Bockwen / Klipphausen",
+                    "city": "Bockwen/Klipphausen",
                     "dob": "1962-03-10",
                     "lastname": "Möbius",
                     "name": "Rainer"
                 },
-                "text": " Möbius , Rainer , Bockwen / Klipphausen , * 03.10.1962 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Bockwen / Klipphausen",
-                    "dob": "1962-03-10",
-                    "lastname": "Möbius",
-                    "name": "Rainer"
-                },
-                "text": " Möbius , Rainer , Bockwen / Klipphausen , * 03.10.1962 ."
+                "text": " Möbius, Rainer, Bockwen/Klipphausen, *03.10.1962."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Poing",
+                    "dismissed": true,
                     "dob": "1974-01-12",
-                    "lastname": "Dr . Raitner",
+                    "lastname": "Doctor Raitner",
                     "name": "Marcus"
                 },
-                "text": " Dr . Raitner , Marcus , Poing , * 01.12.1974 ."
+                "text": " Doctor Raitner, Marcus, Poing, *01.12.1974."
             }
         ]
     }

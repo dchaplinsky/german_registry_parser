@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=522872&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Hasenauer",
                     "name": "Jessica Brigitte"
                 },
-                "text": " Hasenauer , Jessica Brigitte , Hosenfeld , * 18.06.1986 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hosenfeld",
-                    "dob": "1986-06-18",
-                    "lastname": "Hasenauer",
-                    "name": "Jessica Brigitte"
-                },
-                "text": " Hasenauer , Jessica Brigitte , Hosenfeld , * 18.06.1986 ."
+                "text": " Hasenauer, Jessica Brigitte, Hosenfeld, *18.06.1986."
             }
         ]
     }

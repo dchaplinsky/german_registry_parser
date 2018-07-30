@@ -19,45 +19,46 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " CWB Coral World Berlin GmbH , Berlin , Bleibtreustraße 41 , 10623 Berlin ."
+                "text": " CWB Coral World Berlin GmbH, Berlin, Bleibtreustraße 41, 10623 Berlin."
             },
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Bleibtreustraße 41 , 10623 Berlin"
+                "text": " Geschäftsanschrift: Bleibtreustraße 41, 10623 Berlin"
             },
             {
                 "label": "address",
-                "text": " Bleibtreustraße 41 , 10623 Berlin"
+                "text": " Bleibtreustraße 41, 10623 Berlin"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Vieth",
                     "name": "Julia"
                 },
-                "text": " Vieth , Julia"
+                "text": " Vieth, Julia"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Tel - Aviv / Israel",
+                    "city": "Tel-Aviv/Israel",
                     "dob": "1953-05-11",
                     "lastname": "Dolev",
                     "name": "Ben Zion"
                 },
-                "text": " Dolev , Ben Zion , * 05.11.1953 , Tel - Aviv / Israel"
+                "text": " Dolev, Ben Zion, *05.11.1953, Tel-Aviv/Israel"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Tel - Aviv / Israel",
+                    "city": "Tel-Aviv/Israel",
                     "dob": "1962-08-02",
                     "lastname": "Erez",
-                    "name": "Ben - Nun"
+                    "name": "Ben-Nun"
                 },
-                "text": " Erez , Ben - Nun , * 08.02.1962 , Tel - Aviv / Israel"
+                "text": " Erez, Ben-Nun, *08.02.1962, Tel-Aviv/Israel"
             }
         ]
     }

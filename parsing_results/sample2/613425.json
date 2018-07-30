@@ -19,13 +19,13 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Marienstraße 39 , 70178 Stuttgart ."
+                "text": " Marienstraße 39, 70178 Stuttgart."
             }
         ],
         "officers": [
@@ -37,17 +37,18 @@
                     "lastname": "Engelhardt",
                     "name": "Christoph"
                 },
-                "text": " Engelhardt , Christoph , Bühl , * 02.05.1964"
+                "text": " Engelhardt, Christoph, Bühl, *02.05.1964"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Ditzingen",
+                    "dismissed": true,
                     "dob": "1930-10-21",
                     "lastname": "Engelhardt",
                     "name": "Elfriede"
                 },
-                "text": " Engelhardt , Elfriede , Ditzingen , * 21.10.1930 ."
+                "text": " Engelhardt, Elfriede, Ditzingen, *21.10.1930."
             }
         ]
     }

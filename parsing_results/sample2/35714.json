@@ -25,17 +25,18 @@
                     "lastname": "Schüler",
                     "name": "Martin"
                 },
-                "text": " Schüler , Martin , Lippstadt , * 30.10.1967 ."
+                "text": " Schüler, Martin, Lippstadt, *30.10.1967."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Obernkirchen",
+                    "dismissed": true,
                     "dob": "1959-12-04",
                     "lastname": "Hedenborg",
                     "name": "Thomas"
                 },
-                "text": " Hedenborg , Thomas , Obernkirchen , * 12.04.1959 ."
+                "text": " Hedenborg, Thomas, Obernkirchen, *12.04.1959."
             }
         ]
     }

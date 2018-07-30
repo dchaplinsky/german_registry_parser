@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rauenberg",
                     "dob": "1965-09-17",
                     "lastname": "Suleiman",
                     "name": "Muhyddin"
                 },
-                "text": " Suleiman , Muhyddin , Rauenberg , * 17.09.1965 ."
+                "text": " Suleiman, Muhyddin, Rauenberg, *17.09.1965."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Rauenberg",
+                    "dismissed": true,
                     "dob": "1965-09-17",
                     "lastname": "Suleiman",
                     "name": "Muhyddin"
                 },
-                "text": " Suleiman , Muhyddin , Rauenberg , * 17.09.1965 ."
+                "text": " Suleiman, Muhyddin, Rauenberg, *17.09.1965."
             }
         ]
     }

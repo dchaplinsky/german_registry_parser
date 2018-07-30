@@ -20,20 +20,21 @@
             {
                 "class": "Owner",
                 "payload": {
-                    "city": "58636 Iserlohn )",
+                    "city": "58636 Iserlohn)",
                     "lastname": "Ulrich Schmidt",
-                    "name": "Iserlohn ( Wermingser Straße 54"
+                    "name": "Iserlohn (Wermingser Straße 54"
                 },
-                "text": " Ulrich Schmidt , Iserlohn ( Wermingser Straße 54 , 58636 Iserlohn ) ."
+                "text": " Ulrich Schmidt, Iserlohn (Wermingser Straße 54, 58636 Iserlohn)."
             },
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Iserlohn",
+                    "dismissed": true,
                     "lastname": "Schmidt",
                     "name": "Ulrich"
                 },
-                "text": " Schmidt , Ulrich , Iserlohn ."
+                "text": " Schmidt, Ulrich, Iserlohn."
             },
             {
                 "class": "Owner",
@@ -43,7 +44,7 @@
                     "lastname": "Schmidt",
                     "name": "Ulrike"
                 },
-                "text": " Schmidt , Ulrike , Iserlohn , * 14.01.1970 ."
+                "text": " Schmidt, Ulrike, Iserlohn, *14.01.1970."
             }
         ]
     }

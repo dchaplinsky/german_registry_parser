@@ -19,13 +19,13 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Willy - Brandt - Allee 6 , 79111 Freiburg im Breisgau ."
+                "text": " Willy-Brandt-Allee 6, 79111 Freiburg im Breisgau."
             }
         ],
         "officers": [
@@ -37,17 +37,18 @@
                     "lastname": "Ohletz",
                     "name": "Stefan"
                 },
-                "text": " Ohletz , Stefan , Freiburg im Breisgau , * 23.05.1951 ."
+                "text": " Ohletz, Stefan, Freiburg im Breisgau, *23.05.1951."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Freiburg im Breisgau",
+                    "dismissed": true,
                     "dob": "1951-05-23",
                     "lastname": "Ohletz",
                     "name": "Stefan"
                 },
-                "text": " Ohletz , Stefan , Freiburg im Breisgau , * 23.05.1951 ."
+                "text": " Ohletz, Stefan, Freiburg im Breisgau, *23.05.1951."
             }
         ]
     }

@@ -19,22 +19,22 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dipl ., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a RetiredManagingDirector from  Dipl., error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Dipl., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wien / Österreich",
                     "dob": "1969-02-17",
@@ -42,27 +42,17 @@
                     "lastname": "Windhager",
                     "name": "Gernot"
                 },
-                "text": " Windhager , Gernot , Wien / Österreich , * 17.02.1969 , einzelvertretungsberechtigt"
+                "text": " Windhager, Gernot, Wien / Österreich, *17.02.1969, einzelvertretungsberechtigt"
             },
             {
                 "class": "SingleProcuration",
                 "payload": {
-                    "city": "Ohlsdorf / Österreich",
+                    "city": "Ohlsdorf/Österreich",
                     "dob": "1971-10-16",
                     "lastname": "Sandner",
                     "name": "Christoph"
                 },
-                "text": " Sandner , Christoph , Ohlsdorf / Österreich , * 16.10.1971 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Ohlsdorf / Österreich",
-                    "dob": "1971-10-16",
-                    "lastname": "Sandner",
-                    "name": "Christoph"
-                },
-                "text": " Sandner , Christoph , Ohlsdorf / Österreich , * 16.10.1971 ."
+                "text": " Sandner, Christoph, Ohlsdorf/Österreich, *16.10.1971."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Herzogenaurach",
+                    "dismissed": true,
                     "dob": "1955-04-04",
-                    "lastname": "Dr . Pöhlmann",
+                    "lastname": "Doctor Pöhlmann",
                     "name": "Karl"
                 },
-                "text": " Dr . Pöhlmann , Karl , Herzogenaurach , * 04.04.1955 ."
+                "text": " Doctor Pöhlmann, Karl, Herzogenaurach, *04.04.1955."
             }
         ]
     }

@@ -18,35 +18,37 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hennef",
+                    "dismissed": true,
                     "dob": "1965-03-18",
                     "lastname": "Leven",
                     "name": "Klaus"
                 },
-                "text": " Leven , Klaus , Hennef , * 18.03.1965 ."
+                "text": " Leven, Klaus, Hennef, *18.03.1965."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mönchengladbach",
                     "dob": "1975-05-02",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Lau",
                     "name": "Christian"
                 },
-                "text": " Lau , Christian , Mönchengladbach , * 05.02.1975 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Lau, Christian, Mönchengladbach, *05.02.1975, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1964-10-31",
                     "lastname": "Rohde",
                     "name": "Henry"
                 },
-                "text": " Rohde , Henry , Köln , * 31.10.1964 ."
+                "text": " Rohde, Henry, Köln, *31.10.1964."
             }
         ]
     }

@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1936-09-17",
                     "lastname": "Tassone",
                     "name": "Pietro"
                 },
-                "text": " Tassone , Pietro , Düsseldorf , * 17.09.1936 ."
+                "text": " Tassone, Pietro, Düsseldorf, *17.09.1936."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
                     "dob": "1963-02-23",
@@ -36,7 +37,7 @@
                     "lastname": "Tassone",
                     "name": "Guiseppe Antonio"
                 },
-                "text": " Tassone , Guiseppe Antonio , Düsseldorf , * 23.02.1963 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Tassone, Guiseppe Antonio, Düsseldorf, *23.02.1963, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

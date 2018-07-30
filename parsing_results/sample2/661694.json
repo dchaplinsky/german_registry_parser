@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
                     "dob": "1978-09-15",
                     "lastname": "Haug",
                     "name": "Birgit Katrin"
                 },
-                "text": " Haug , Birgit Katrin , Stuttgart , * 15.09.1978 ."
+                "text": " Haug, Birgit Katrin, Stuttgart, *15.09.1978."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
+                    "dismissed": true,
                     "dob": "1973-04-28",
                     "lastname": "Seyfried",
                     "name": "Mike"
                 },
-                "text": " Seyfried , Mike , Stuttgart , * 28.04.1973 ."
+                "text": " Seyfried, Mike, Stuttgart, *28.04.1973."
             }
         ]
     }

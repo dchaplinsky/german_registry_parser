@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Wasserstraße 18 , 47533 Kleve ."
+                "text": " Wasserstraße 18, 47533 Kleve."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rheden",
+                    "dismissed": true,
                     "dob": "1948-05-04",
                     "lastname": "Kruitbosch",
                     "name": "Bernardus Willem"
                 },
-                "text": " Kruitbosch , Bernardus Willem , Rheden , * 05.04.1948 ."
+                "text": " Kruitbosch, Bernardus Willem, Rheden, *05.04.1948."
             }
         ]
     }

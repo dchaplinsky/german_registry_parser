@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "Single procuration",
@@ -27,10 +27,17 @@
             },
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " Sönke Nagel Windkraft Verwaltungs GmbH, Hellschen-Heringsand-Unterschaar (Amtsgericht Pinneberg, HRB 1318 ME), mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                },
+                "text": " Sönke Nagel Windkraft Verwaltungs GmbH, Hellschen-Heringsand-Unterschaar (Amtsgericht Pinneberg, HRB 1318 ME), mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
             {
                 "class": "Procuration",
                 "payload": {
@@ -40,7 +47,7 @@
                     "lastname": "Mohr",
                     "name": "Jens"
                 },
-                "text": " Mohr , Jens , * 21.09.1968 , Heringsand , Einzelprokura mit der Befugnis zur Veräußerung und Belastung von Grundstücken"
+                "text": " Mohr, Jens, *21.09.1968, Heringsand, Einzelprokura mit der Befugnis zur Veräußerung und Belastung von Grundstücken"
             }
         ]
     }

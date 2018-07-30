@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Blieskastel ST Böckweiler",
+                    "dismissed": true,
                     "dob": "1959-04-06",
                     "lastname": "Schöck",
                     "name": "Rudolf"
                 },
-                "text": " Schöck , Rudolf , Blieskastel ST Böckweiler , * 04.06.1959 ."
+                "text": " Schöck, Rudolf, Blieskastel ST Böckweiler, *04.06.1959."
             }
         ]
     }

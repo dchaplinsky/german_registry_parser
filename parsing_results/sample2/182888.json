@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=182888&land_abk=hh"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Decker",
                     "name": "Bernd"
                 },
-                "text": " Decker , Bernd , Leegebruch , * 19.10.1955"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Leegebruch",
-                    "dob": "1955-10-19",
-                    "lastname": "Decker",
-                    "name": "Bernd"
-                },
-                "text": " Decker , Bernd , Leegebruch , * 19.10.1955"
+                "text": " Decker, Bernd, Leegebruch, *19.10.1955"
             }
         ]
     }

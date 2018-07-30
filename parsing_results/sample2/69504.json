@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Torgauer Straße 2 , 01591 Riesa ."
+                "text": " Torgauer Straße 2, 01591 Riesa."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Torgau",
+                    "dismissed": true,
                     "dob": "1971-12-09",
                     "lastname": "Gerlach",
                     "name": "Ralph"
                 },
-                "text": " Gerlach , Ralph , Torgau , * 12.09.1971 ."
+                "text": " Gerlach, Ralph, Torgau, *12.09.1971."
             }
         ]
     }

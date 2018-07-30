@@ -19,19 +19,20 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a CommonProcuration from  Dr . Ing ., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a CommonProcuration from  Doctor Ing., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "St . Ingbert",
+                    "city": "St. Ingbert",
+                    "dismissed": true,
                     "dob": "1952-06-08",
                     "lastname": "Abel",
                     "name": "Franz Jakob"
                 },
-                "text": " Abel , Franz Jakob , St . Ingbert , * 06.08.1952 ."
+                "text": " Abel, Franz Jakob, St. Ingbert, *06.08.1952."
             }
         ]
     }

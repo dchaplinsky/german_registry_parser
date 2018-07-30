@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Industriestraße 23 , 66129 Saarbrücken ."
+                "text": " Industriestraße 23, 66129 Saarbrücken."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kleinblittersdorf",
                     "dob": "1965-10-14",
                     "lastname": "Bye",
                     "name": "Ole Christian"
                 },
-                "text": " Bye , Ole Christian , Kleinblittersdorf , * 14.10.1965 ."
+                "text": " Bye, Ole Christian, Kleinblittersdorf, *14.10.1965."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Berg",
+                    "dismissed": true,
                     "dob": "1971-12-01",
                     "lastname": "Lukas",
                     "name": "Christian"
                 },
-                "text": " Lukas , Christian , Berg , * 12.01.1971 ."
+                "text": " Lukas, Christian, Berg, *12.01.1971."
             }
         ]
     }

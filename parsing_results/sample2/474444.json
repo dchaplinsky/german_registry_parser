@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=474444&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Böhlein",
                     "name": "Dominik"
                 },
-                "text": " Böhlein , Dominik , Bamberg , * 12.03.1982 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Bamberg",
-                    "dob": "1982-12-03",
-                    "lastname": "Böhlein",
-                    "name": "Dominik"
-                },
-                "text": " Böhlein , Dominik , Bamberg , * 12.03.1982 ."
+                "text": " Böhlein, Dominik, Bamberg, *12.03.1982."
             }
         ]
     }

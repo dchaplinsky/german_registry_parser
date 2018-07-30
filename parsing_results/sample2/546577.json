@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Karlsruhe",
+                    "dismissed": true,
                     "dob": "1985-04-25",
                     "lastname": "Kunkis",
                     "name": "Marius Alexander"
                 },
-                "text": " Kunkis , Marius Alexander , Karlsruhe , * 25.04.1985 ."
+                "text": " Kunkis, Marius Alexander, Karlsruhe, *25.04.1985."
             }
         ]
     }

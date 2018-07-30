@@ -19,22 +19,25 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Hafenstraße 4 , 26931 Elsfleth ."
+                "text": " Hafenstraße 4, 26931 Elsfleth."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " MS \" Atair \" Verwaltungs - GmbH , Elsfleth ( Oldenburg HRB 205774 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                    "city": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "MS \"Atair\" Verwaltungs-GmbH",
+                    "name": "Elsfleth (Oldenburg HRB 205774)",
+                    "position": "mit der Befugnis -auch für jeden Geschäftsführer-"
                 },
-                "text": " MS \" Atair \" Verwaltungs - GmbH , Elsfleth ( Oldenburg HRB 205774 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " MS \"Atair\" Verwaltungs-GmbH, Elsfleth (Oldenburg HRB 205774), mit der Befugnis -auch für jeden Geschäftsführer-, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "PersonalPartner",
@@ -45,7 +48,7 @@
                     "lastname": "Bräuler",
                     "name": "Anke"
                 },
-                "text": " Bräuler , Anke , Worpswede , * 12.08.1946 , von der Vertretung ausgeschlossen ."
+                "text": " Bräuler, Anke, Worpswede, *12.08.1946, von der Vertretung ausgeschlossen."
             }
         ]
     }

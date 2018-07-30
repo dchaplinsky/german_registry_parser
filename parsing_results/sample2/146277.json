@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mannheim",
+                    "dismissed": true,
                     "dob": "1967-05-09",
                     "lastname": "Weiß",
                     "name": "Christian"
                 },
-                "text": " Weiß , Christian , Mannheim , * 05.09.1967 ."
+                "text": " Weiß, Christian, Mannheim, *05.09.1967."
             }
         ]
     }

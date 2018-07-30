@@ -18,22 +18,23 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Schulze",
                     "name": "Wolfgang"
                 },
-                "text": " Schulze , Wolfgang ."
+                "text": " Schulze, Wolfgang."
             },
             {
                 "class": "Owner",
                 "payload": {
                     "city": "Lübeck",
                     "dob": "1958-11-28",
-                    "lastname": "Hügle - Harms",
+                    "lastname": "Hügle-Harms",
                     "name": "Ruth geborene Hügle"
                 },
-                "text": " Hügle - Harms , Ruth geborene Hügle , * 28.11.1958 , Lübeck ."
+                "text": " Hügle-Harms, Ruth geborene Hügle, *28.11.1958, Lübeck."
             }
         ]
     }

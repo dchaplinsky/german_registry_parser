@@ -16,32 +16,27 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=910433&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Stemwede",
                     "dob": "1968-08-10",
                     "lastname": "Sellenriek",
                     "name": "Meik"
                 },
-                "text": " Sellenriek , Meik , Stemwede , * 08.10.1968 ."
+                "text": " Sellenriek, Meik, Stemwede, *08.10.1968."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Leverkusen",
+                    "dismissed": true,
                     "dob": "1963-08-15",
                     "lastname": "Hoffmann",
                     "name": "Michael"
                 },
-                "text": " Hoffmann , Michael , Leverkusen , * 15.08.1963 ."
+                "text": " Hoffmann, Michael, Leverkusen, *15.08.1963."
             },
             {
                 "class": "SingleProcuration",
@@ -51,17 +46,7 @@
                     "lastname": "Barner",
                     "name": "Friedrich"
                 },
-                "text": " Barner , Friedrich , Lübbecke , * 22.12.1961 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Lübbecke",
-                    "dob": "1961-12-22",
-                    "lastname": "Barner",
-                    "name": "Friedrich"
-                },
-                "text": " Barner , Friedrich , Lübbecke , * 22.12.1961 ."
+                "text": " Barner, Friedrich, Lübbecke, *22.12.1961."
             }
         ]
     }

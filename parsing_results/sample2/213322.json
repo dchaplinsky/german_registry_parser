@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Rottenburg a . d . Laaber",
+                    "city": "Rottenburg a.d. Laaber",
+                    "dismissed": true,
                     "dob": "1967-08-21",
                     "lastname": "Czerwionka",
                     "name": "Gerhard"
                 },
-                "text": " Czerwionka , Gerhard , Rottenburg a . d . Laaber , * 21.08.1967 ."
+                "text": " Czerwionka, Gerhard, Rottenburg a.d. Laaber, *21.08.1967."
             }
         ]
     }

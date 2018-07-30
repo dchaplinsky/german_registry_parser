@@ -20,16 +20,12 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Marktstraße 20 / 21 , 99610 Sömmerda ."
+                "text": " Marktstraße 20/21, 99610 Sömmerda."
             }
         ],
         "officers": [
@@ -41,23 +37,17 @@
                     "lastname": "Becker",
                     "name": "Lars"
                 },
-                "text": " Becker , Lars , Sömmerda , * 29.05.1978 ."
+                "text": " Becker, Lars, Sömmerda, *29.05.1978."
             },
             {
                 "class": "SingleProcuration",
                 "payload": {
+                    "city": "Sömmerda",
+                    "dob": "1979-05-25",
                     "lastname": "Becker",
-                    "name": "Kati geb"
+                    "name": "Kati geborene Gläßer"
                 },
-                "text": " Becker , Kati geb ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Becker",
-                    "name": "Kati geb"
-                },
-                "text": " Becker , Kati geb ."
+                "text": " Becker, Kati geborene Gläßer, Sömmerda, *25.05.1979."
             }
         ]
     }

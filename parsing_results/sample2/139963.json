@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Goethestr ."
+                "text": " Goethestr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Weingarten",
+                    "dismissed": true,
                     "dob": "1966-12-22",
                     "lastname": "Harder",
                     "name": "Stefan"
                 },
-                "text": " Harder , Stefan , Weingarten , * 22.12.1966 ."
+                "text": " Harder, Stefan, Weingarten, *22.12.1966."
             }
         ]
     }

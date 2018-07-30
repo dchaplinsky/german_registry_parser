@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=614762&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Beck",
                     "name": "Tim"
                 },
-                "text": " Beck , Tim , Bammental , * 18.01.1990 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Bammental",
-                    "dob": "1990-01-18",
-                    "lastname": "Beck",
-                    "name": "Tim"
-                },
-                "text": " Beck , Tim , Bammental , * 18.01.1990 ."
+                "text": " Beck, Tim, Bammental, *18.01.1990."
             }
         ]
     }

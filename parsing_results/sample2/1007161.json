@@ -19,23 +19,20 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Martinsried",
+                    "dismissed": true,
                     "lastname": "Dell'Aquia",
                     "name": "Giuseppe",
                     "position": "Reisekaufmann"
                 },
-                "text": " Dell'Aquia , Giuseppe , Reisekaufmann , Martinsried ."
+                "text": " Dell'Aquia, Giuseppe, Reisekaufmann, Martinsried."
             },
             {
                 "class": "ManagingDirector",
@@ -46,7 +43,7 @@
                     "lastname": "Dell'Aquia",
                     "name": "Gerlinde"
                 },
-                "text": " Dell'Aquia , Gerlinde , Gilching , * 17.11.1952 , einzelvertretungsberechtigt"
+                "text": " Dell'Aquia, Gerlinde, Gilching, *17.11.1952, einzelvertretungsberechtigt"
             },
             {
                 "class": "SingleProcuration",
@@ -56,17 +53,7 @@
                     "lastname": "Dell'Aquia",
                     "name": "Alessandro"
                 },
-                "text": " Dell'Aquia , Alessandro , München , * 23.07.1989 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "München",
-                    "dob": "1989-07-23",
-                    "lastname": "Dell'Aquia",
-                    "name": "Alessandro"
-                },
-                "text": " Dell'Aquia , Alessandro , München , * 23.07.1989 ."
+                "text": " Dell'Aquia, Alessandro, München, *23.07.1989."
             }
         ]
     }

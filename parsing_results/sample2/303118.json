@@ -20,23 +20,24 @@
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Sulzbach - Laufen",
+                    "city": "Sulzbach-Laufen",
                     "dob": "1955-08-20",
                     "flag": "sole representation",
                     "lastname": "Hansen",
                     "name": "Bernd"
                 },
-                "text": " Hansen , Bernd , Sulzbach - Laufen , * 20.08.1955 , einzelvertretungsberechtigt ."
+                "text": " Hansen, Bernd, Sulzbach-Laufen, *20.08.1955, einzelvertretungsberechtigt."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Sulzbach - Laufen",
+                    "city": "Sulzbach-Laufen",
+                    "dismissed": true,
                     "lastname": "Hansen",
                     "name": "Heidrun",
                     "position": "Sekretärin"
                 },
-                "text": " Hansen , Heidrun , Sekretärin , Sulzbach - Laufen ."
+                "text": " Hansen, Heidrun, Sekretärin, Sulzbach-Laufen."
             }
         ]
     }

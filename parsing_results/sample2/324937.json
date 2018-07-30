@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Walldürn",
+                    "dismissed": true,
                     "dob": "1962-11-22",
                     "lastname": "Turra",
                     "name": "Frank"
                 },
-                "text": " Turra , Frank , Walldürn , * 22.11.1962 ."
+                "text": " Turra, Frank, Walldürn, *22.11.1962."
             }
         ]
     }

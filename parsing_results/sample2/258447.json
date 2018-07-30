@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=258447&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Fauser",
                     "name": "Michael"
                 },
-                "text": " Fauser , Michael , Illertissen , * 14.08.1970 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Illertissen",
-                    "dob": "1970-08-14",
-                    "lastname": "Fauser",
-                    "name": "Michael"
-                },
-                "text": " Fauser , Michael , Illertissen , * 14.08.1970 ."
+                "text": " Fauser, Michael, Illertissen, *14.08.1970."
             }
         ]
     }

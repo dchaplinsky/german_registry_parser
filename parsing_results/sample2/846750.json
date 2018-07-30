@@ -18,34 +18,36 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Feldkirchen",
+                    "dismissed": true,
                     "dob": "1947-12-14",
                     "lastname": "Egetenmeir",
                     "name": "Eugen"
                 },
-                "text": " Egetenmeir , Eugen , Feldkirchen , * 14.12.1947 ."
+                "text": " Egetenmeir, Eugen, Feldkirchen, *14.12.1947."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1960-10-27",
                     "lastname": "Dech",
                     "name": "Monika Marianne"
                 },
-                "text": " Dech , Monika Marianne , München , * 27.10.1960"
+                "text": " Dech, Monika Marianne, München, *27.10.1960"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Gilching",
+                    "dismissed": true,
                     "dob": "1960-10-27",
                     "lastname": "Dech",
                     "name": "Monika"
                 },
-                "text": " Dech , Monika , Gilching , * 27.10.1960"
+                "text": " Dech, Monika, Gilching, *27.10.1960"
             }
         ]
     }

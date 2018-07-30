@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Aachen",
+                    "dismissed": true,
                     "dob": "1967-12-20",
                     "lastname": "Schneider",
                     "name": "Eva"
                 },
-                "text": " Schneider , Eva , Aachen , * 20.12.1967 ."
+                "text": " Schneider, Eva, Aachen, *20.12.1967."
             }
         ]
     }

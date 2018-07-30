@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1967-07-20",
                     "lastname": "Rieseweber",
                     "name": "Henning"
                 },
-                "text": " Rieseweber , Henning , Hamburg , * 20.07.1967 ."
+                "text": " Rieseweber, Henning, Hamburg, *20.07.1967."
             }
         ]
     }

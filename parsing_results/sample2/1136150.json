@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1976-05-12",
@@ -26,7 +26,7 @@
                     "lastname": "Kraatz",
                     "name": "Donald"
                 },
-                "text": " Kraatz , Donald , München , * 05.12.1976 , einzelvertretungsberechtigt ."
+                "text": " Kraatz, Donald, München, *05.12.1976, einzelvertretungsberechtigt."
             },
             {
                 "class": "ManagingDirector",
@@ -37,7 +37,7 @@
                     "lastname": "Weber",
                     "name": "Erich"
                 },
-                "text": " Weber , Erich , München , * 24.10.1962 , einzelvertretungsberechtigt ."
+                "text": " Weber, Erich, München, *24.10.1962, einzelvertretungsberechtigt."
             }
         ]
     }

@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Durbach",
                     "dob": "1976-07-05",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Geiler",
                     "name": "Marco"
                 },
-                "text": " Geiler , Marco , Durbach , * 07.05.1976 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Geiler, Marco, Durbach, *07.05.1976, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Sasbachwalden",
+                    "dismissed": true,
                     "dob": "1978-05-04",
                     "lastname": "Fischer",
                     "name": "Stephan"
                 },
-                "text": " Fischer , Stephan , Sasbachwalden , * 05.04.1978 ."
+                "text": " Fischer, Stephan, Sasbachwalden, *05.04.1978."
             }
         ]
     }

@@ -19,32 +19,33 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " c / o Mayfield Property Management GmbH Reuterweg 49 , 60323 Frankfurt am Main ."
+                "text": " c/o Mayfield Property Management GmbH Reuterweg 49, 60323 Frankfurt am Main."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Paderborn",
+                    "dismissed": true,
                     "dob": "1982-01-25",
                     "lastname": "Englisch",
                     "name": "Jana"
                 },
-                "text": " Englisch , Jana , Paderborn , * 25.01.1982 ."
+                "text": " Englisch, Jana, Paderborn, *25.01.1982."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Gibraltar",
                     "dob": "1946-11-27",
@@ -52,7 +53,7 @@
                     "lastname": "Hassan",
                     "name": "James David"
                 },
-                "text": " Hassan , James David , Gibraltar , * 27.11.1946 , einzelvertretungsberechtigt"
+                "text": " Hassan, James David, Gibraltar, *27.11.1946, einzelvertretungsberechtigt"
             },
             {
                 "class": "ManagingDirector",
@@ -63,7 +64,7 @@
                     "lastname": "Marsh",
                     "name": "Amanda Joy"
                 },
-                "text": " Marsh , Amanda Joy , Gibraltar , * 30.04.1966 , einzelvertretungsberechtigt"
+                "text": " Marsh, Amanda Joy, Gibraltar, *30.04.1966, einzelvertretungsberechtigt"
             }
         ]
     }

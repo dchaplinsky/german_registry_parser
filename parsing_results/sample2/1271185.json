@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Gladbeck",
+                    "dismissed": true,
                     "dob": "1963-06-11",
                     "lastname": "Bartosik",
                     "name": "Michael"
                 },
-                "text": " Bartosik , Michael , Gladbeck , * 06.11.1963 ."
+                "text": " Bartosik, Michael, Gladbeck, *06.11.1963."
             },
             {
                 "class": "ManagingDirector",
@@ -35,7 +36,7 @@
                     "lastname": "Kamberi",
                     "name": "Kadri"
                 },
-                "text": " Kamberi , Kadri , Aachen , * 06.06.1954"
+                "text": " Kamberi, Kadri, Aachen, *06.06.1954"
             }
         ]
     }

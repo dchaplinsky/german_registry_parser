@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Halberstadt",
+                    "dismissed": true,
                     "dob": "1969-10-17",
                     "lastname": "Vorwerk",
                     "name": "Toralf"
                 },
-                "text": " Vorwerk , Toralf , Halberstadt , * 17.10.1969 ."
+                "text": " Vorwerk, Toralf, Halberstadt, *17.10.1969."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Halberstadt",
                     "dob": "1932-07-29",
@@ -36,7 +37,7 @@
                     "lastname": "Vorwerk",
                     "name": "Manfred"
                 },
-                "text": " Vorwerk , Manfred , Halberstadt , * 29.07.1932 , einzelvertretungsberechtigt"
+                "text": " Vorwerk, Manfred, Halberstadt, *29.07.1932, einzelvertretungsberechtigt"
             }
         ]
     }

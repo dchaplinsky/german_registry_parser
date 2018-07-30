@@ -16,32 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=822778&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Germering",
                     "dob": "1965-09-25",
-                    "lastname": "Dr . Breu",
+                    "lastname": "Doctor Breu",
                     "name": "Marcus"
                 },
-                "text": " Dr . Breu , Marcus , Germering , * 25.09.1965"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Germering",
-                    "dob": "1965-09-25",
-                    "lastname": "Dr . Breu",
-                    "name": "Marcus"
-                },
-                "text": " Dr . Breu , Marcus , Germering , * 25.09.1965"
+                "text": " Doctor Breu, Marcus, Germering, *25.09.1965"
             },
             {
                 "class": "CommonProcuration",
@@ -51,7 +35,7 @@
                     "lastname": "Knabe",
                     "name": "Lutz"
                 },
-                "text": " Knabe , Lutz , Planegg , * 25.08.1963 ."
+                "text": " Knabe, Lutz, Planegg, *25.08.1963."
             }
         ]
     }

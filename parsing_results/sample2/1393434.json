@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Hasbergen",
+                    "dismissed": true,
                     "dob": "1966-03-10",
                     "lastname": "Hacks",
                     "name": "Frank"
                 },
-                "text": " Hacks , Frank , Hasbergen , * 03.10.1966"
+                "text": " Hacks, Frank, Hasbergen, *03.10.1966"
             },
             {
                 "class": "PersonalPartner",
@@ -36,7 +37,7 @@
                     "lastname": "Haacks",
                     "name": "Monika"
                 },
-                "text": " Haacks , Monika , Georgsmarienhütte , * 18.06.1968 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Haacks, Monika, Georgsmarienhütte, *18.06.1968, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

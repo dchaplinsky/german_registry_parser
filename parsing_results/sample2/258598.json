@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "Liquidator",
+                "class": "NotALiquidator",
                 "payload": {
-                    "lastname": "Helle",
+                    "dismissed": true,
+                    "lastname": ": Helle",
                     "name": "Ralf"
                 },
-                "text": " Helle , Ralf ."
+                "text": ": Helle, Ralf."
             }
         ]
     }

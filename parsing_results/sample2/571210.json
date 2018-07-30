@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " August - Sieghardt - Str ."
+                "text": " August-Sieghardt-Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Nürnberg",
+                    "dismissed": true,
                     "dob": "1946-01-06",
                     "lastname": "Kutter",
                     "name": "Werner"
                 },
-                "text": " Kutter , Werner , Nürnberg , * 01.06.1946 ."
+                "text": " Kutter, Werner, Nürnberg, *01.06.1946."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Nürnberg",
                     "dob": "1949-05-16",
@@ -48,7 +49,7 @@
                     "lastname": "Kutter",
                     "name": "Dorith"
                 },
-                "text": " Kutter , Dorith , Nürnberg , * 16.05.1949 , einzelvertretungsberechtigt"
+                "text": " Kutter, Dorith, Nürnberg, *16.05.1949, einzelvertretungsberechtigt"
             }
         ]
     }

@@ -18,36 +18,37 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Holtweg 56 , 41379 Brüggen ."
+                "text": " Holtweg 56, 41379 Brüggen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bad Wimpfen",
+                    "dismissed": true,
                     "dob": "1972-10-16",
                     "lastname": "Khalil",
                     "name": "Kashif"
                 },
-                "text": " Khalil , Kashif , Bad Wimpfen , * 16.10.1972 ."
+                "text": " Khalil, Kashif, Bad Wimpfen, *16.10.1972."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Den Haag / Niederlande",
                     "dob": "1971-09-17",
                     "lastname": "Bhulai",
                     "name": "Salindra"
                 },
-                "text": " Bhulai , Salindra , Den Haag / Niederlande , * 17.09.1971 ."
+                "text": " Bhulai, Salindra, Den Haag / Niederlande, *17.09.1971."
             }
         ]
     }

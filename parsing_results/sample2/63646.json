@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Icking",
+                    "dismissed": true,
                     "dob": "1942-01-12",
                     "lastname": "Denk",
                     "name": "Peter"
                 },
-                "text": " Denk , Peter , Icking , * 01.12.1942 ."
+                "text": " Denk, Peter, Icking, *01.12.1942."
             }
         ]
     }

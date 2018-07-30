@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "Single procuration",
@@ -29,29 +29,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Geißentalstraße 5 a , 82041 Deisenhofen ."
+                "text": " Geißentalstraße 5a, 82041 Deisenhofen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Le - Mont - Sur - Lausanne / Schweiz",
+                    "city": "Le-Mont-Sur-Lausanne/Schweiz",
                     "dob": "1968-07-30",
                     "lastname": "Lynard",
                     "name": "Kenneth"
                 },
-                "text": " Lynard , Kenneth , Le - Mont - Sur - Lausanne / Schweiz , * 30.07.1968"
+                "text": " Lynard, Kenneth, Le-Mont-Sur-Lausanne/Schweiz, *30.07.1968"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1959-03-07",
                     "lastname": "Groenewegen",
                     "name": "Frank"
                 },
-                "text": " Groenewegen , Frank , München , * 03.07.1959"
+                "text": " Groenewegen, Frank, München, *03.07.1959"
             }
         ]
     }

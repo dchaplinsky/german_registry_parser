@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Goslar",
+                    "dismissed": true,
                     "dob": "1967-03-15",
                     "lastname": "Cakmakli",
                     "name": "Ferhat"
                 },
-                "text": " Cakmakli , Ferhat , Goslar , * 15.03.1967 ."
+                "text": " Cakmakli, Ferhat, Goslar, *15.03.1967."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
                     "dob": "1979-03-26",
                     "lastname": "Kahyaoglu",
                     "name": "Baris"
                 },
-                "text": " Kahyaoglu , Baris , Düsseldorf , * 26.03.1979 ."
+                "text": " Kahyaoglu, Baris, Düsseldorf, *26.03.1979."
             }
         ]
     }

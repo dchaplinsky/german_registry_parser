@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bensheim",
+                    "dismissed": true,
                     "dob": "1952-01-25",
-                    "lastname": "Dr . Mäncher",
+                    "lastname": "Doctor Mäncher",
                     "name": "Hubert"
                 },
-                "text": " Dr . Mäncher , Hubert , Bensheim , * 25.01.1952 ."
+                "text": " Doctor Mäncher, Hubert, Bensheim, *25.01.1952."
             }
         ]
     }

@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Stahlhainer Mühlen 10 , 61267 Neu - Anspach ."
+                "text": " Stahlhainer Mühlen 10, 61267 Neu-Anspach."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hosenfeld",
+                    "dismissed": true,
                     "dob": "1956-11-03",
                     "lastname": "Gerhardt",
                     "name": "Jürgen"
                 },
-                "text": " Gerhardt , Jürgen , Hosenfeld , * 11.03.1956 ."
+                "text": " Gerhardt, Jürgen, Hosenfeld, *11.03.1956."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Neu - Anspach",
+                    "city": "Neu-Anspach",
                     "dob": "1955-03-09",
                     "lastname": "Winter",
                     "name": "Arnold"
                 },
-                "text": " Winter , Arnold , Neu - Anspach , * 03.09.1955 ."
+                "text": " Winter, Arnold, Neu-Anspach, *03.09.1955."
             }
         ]
     }

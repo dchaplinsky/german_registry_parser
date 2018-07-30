@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -31,25 +31,27 @@
                     "lastname": "Dahlhaus",
                     "name": "Hermann"
                 },
-                "text": " Dahlhaus , Hermann , Bingen am Rhein , * 05.04.1947"
+                "text": " Dahlhaus, Hermann, Bingen am Rhein, *05.04.1947"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Butsch",
                     "name": "Mainz"
                 },
-                "text": " Butsch , Mainz"
+                "text": " Butsch, Mainz"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Mainz",
+                    "dismissed": true,
                     "dob": "1952-02-15",
                     "lastname": "Hagenguth",
                     "name": "Peter Heinz"
                 },
-                "text": " Hagenguth , Peter Heinz , Mainz , * 15.02.1952"
+                "text": " Hagenguth, Peter Heinz, Mainz, *15.02.1952"
             }
         ]
     }

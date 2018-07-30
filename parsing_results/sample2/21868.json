@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "Single procuration",
@@ -28,17 +28,18 @@
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wunstorf",
+                    "dismissed": true,
                     "dob": "1943-12-11",
                     "lastname": "Engels",
                     "name": "Peter"
                 },
-                "text": " Engels , Peter , Wunstorf , * 12.11.1943"
+                "text": " Engels, Peter, Wunstorf, *12.11.1943"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt",
                     "dob": "1964-08-01",
@@ -46,17 +47,17 @@
                     "lastname": "van de Maat",
                     "name": "Dirk"
                 },
-                "text": " van de Maat , Dirk , Frankfurt , * 08.01.1964 , einzelvertretungsberechtigt"
+                "text": " van de Maat, Dirk, Frankfurt, *08.01.1964, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mommenheim",
                     "dob": "1960-04-06",
                     "lastname": "Matzat",
                     "name": "Karsten"
                 },
-                "text": " Matzat , Karsten , Mommenheim , * 04.06.1960"
+                "text": " Matzat, Karsten, Mommenheim, *04.06.1960"
             }
         ]
     }

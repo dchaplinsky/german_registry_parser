@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Gewerbegebiet Rankäcker , Am Römerhof 15 , 78727 Oberndorf am Neckar ."
+                "text": " Gewerbegebiet Rankäcker, Am Römerhof 15, 78727 Oberndorf am Neckar."
             }
         ],
         "officers": [
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Engelburg ( Schweiz )",
+                    "city": "Engelburg (Schweiz)",
+                    "dismissed": true,
                     "dob": "1961-10-24",
                     "lastname": "Pohle",
                     "name": "Daniel"
                 },
-                "text": " Pohle , Daniel , Engelburg ( Schweiz ) , * 24.10.1961 ."
+                "text": " Pohle, Daniel, Engelburg (Schweiz), *24.10.1961."
             },
             {
                 "class": "CommonProcuration",
@@ -39,9 +40,9 @@
                     "city": "Dornhan",
                     "dob": "1965-11-13",
                     "lastname": "Schaible",
-                    "name": "Hans - Walter"
+                    "name": "Hans-Walter"
                 },
-                "text": " Schaible , Hans - Walter , Dornhan , * 13.11.1965 ."
+                "text": " Schaible, Hans-Walter, Dornhan, *13.11.1965."
             }
         ]
     }

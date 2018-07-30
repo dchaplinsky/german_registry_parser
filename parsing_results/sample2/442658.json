@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Kölner Str ."
+                "text": " Kölner Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bergisch Gladbach",
+                    "dismissed": true,
                     "dob": "1950-09-06",
                     "lastname": "Täschler",
                     "name": "Markus Johann"
                 },
-                "text": " Täschler , Markus Johann , Bergisch Gladbach , * 09.06.1950 ."
+                "text": " Täschler, Markus Johann, Bergisch Gladbach, *09.06.1950."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Balingen",
                     "dob": "1961-04-09",
                     "lastname": "Walter",
                     "name": "Christian"
                 },
-                "text": " Walter , Christian , Balingen , * 04.09.1961 ."
+                "text": " Walter, Christian, Balingen, *04.09.1961."
             }
         ]
     }

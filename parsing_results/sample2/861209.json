@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Leinfelden - Echterdingen",
+                    "city": "Leinfelden-Echterdingen",
+                    "dismissed": true,
                     "dob": "1965-12-23",
                     "lastname": "Brenner",
                     "name": "Utz"
                 },
-                "text": " Brenner , Utz , Leinfelden - Echterdingen , * 23.12.1965 ."
+                "text": " Brenner, Utz, Leinfelden-Echterdingen, *23.12.1965."
             }
         ]
     }

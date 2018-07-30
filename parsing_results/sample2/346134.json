@@ -19,25 +19,26 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Bahnhofstraße 55 , 35282 Rauschenberg ."
+                "text": " Bahnhofstraße 55, 35282 Rauschenberg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Mühlheim / Ruhr",
+                    "city": "Mühlheim/Ruhr",
+                    "dismissed": true,
                     "lastname": "Goldkuhle",
                     "name": "Georg",
                     "position": "Kaufmann"
                 },
-                "text": " Goldkuhle , Georg , Kaufmann , Mühlheim / Ruhr ."
+                "text": " Goldkuhle, Georg, Kaufmann, Mühlheim/Ruhr."
             },
             {
                 "class": "ManagingDirector",
@@ -48,7 +49,7 @@
                     "lastname": "Steinkühler",
                     "name": "Karin"
                 },
-                "text": " Steinkühler , Karin , Ratingen , * 21.09.1941 , einzelvertretungsberechtigt"
+                "text": " Steinkühler, Karin, Ratingen, *21.09.1941, einzelvertretungsberechtigt"
             }
         ]
     }

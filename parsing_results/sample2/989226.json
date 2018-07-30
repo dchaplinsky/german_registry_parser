@@ -18,22 +18,18 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Lenaustraße 11 , 53332 Bornheim ."
+                "text": " Lenaustraße 11, 53332 Bornheim."
             }
         ],
         "officers": [
@@ -46,7 +42,7 @@
                     "lastname": "Molitor",
                     "name": "Manfred"
                 },
-                "text": " Molitor , Manfred , Bornheim , * 26.10.1940 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Molitor, Manfred, Bornheim, *26.10.1940, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",
@@ -56,17 +52,7 @@
                     "lastname": "Lottis",
                     "name": "Manuela"
                 },
-                "text": " Lottis , Manuela , Köln , * 10.09.1970 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Köln",
-                    "dob": "1970-10-09",
-                    "lastname": "Lottis",
-                    "name": "Manuela"
-                },
-                "text": " Lottis , Manuela , Köln , * 10.09.1970 ."
+                "text": " Lottis, Manuela, Köln, *10.09.1970."
             }
         ]
     }

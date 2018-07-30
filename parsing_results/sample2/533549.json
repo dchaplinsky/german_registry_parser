@@ -19,43 +19,45 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Klosterwachtstraße 19 , 83684 Tegernsee ."
+                "text": " Klosterwachtstraße 19, 83684 Tegernsee."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "GH Duiven / Niederlande",
+                    "city": "GH Duiven/Niederlande",
+                    "dismissed": true,
                     "dob": "1977-03-04",
                     "lastname": "Lemmens",
                     "name": "René"
                 },
-                "text": " Lemmens , René , GH Duiven / Niederlande , * 03.04.1977 ."
+                "text": " Lemmens, René, GH Duiven/Niederlande, *03.04.1977."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "dob": "1954-02-17",
                     "lastname": "Lemmens",
                     "name": "Josephus Wilhelmus"
                 },
-                "text": " Lemmens , Josephus Wilhelmus , * 17.02.1954"
+                "text": " Lemmens, Josephus Wilhelmus, *17.02.1954"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
+                    "dismissed": true,
                     "dob": "1954-02-17",
                     "lastname": "Lemmens",
                     "name": "Josephus Wilhelmus"
                 },
-                "text": " Lemmens , Josephus Wilhelmus , * 17.02.1954 ."
+                "text": " Lemmens, Josephus Wilhelmus, *17.02.1954."
             }
         ]
     }

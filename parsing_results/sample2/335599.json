@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Vilbeler Landstraße 7 , 60386 Frankfurt am Main ."
+                "text": " Vilbeler Landstraße 7, 60386 Frankfurt am Main."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Maintal",
+                    "dismissed": true,
                     "dob": "1971-06-10",
                     "lastname": "Huthmann",
                     "name": "Stephan"
                 },
-                "text": " Huthmann , Stephan , Maintal , * 06.10.1971 ."
+                "text": " Huthmann, Stephan, Maintal, *06.10.1971."
             }
         ]
     }

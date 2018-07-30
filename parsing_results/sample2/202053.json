@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Süderstraße 202 , 20537 Hamburg ."
+                "text": " Süderstraße 202, 20537 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1958-03-25",
-                    "lastname": "Al - Sayed",
+                    "lastname": "Al-Sayed",
                     "name": "Gamal"
                 },
-                "text": " Al - Sayed , Gamal , Hamburg , * 25.03.1958 ."
+                "text": " Al-Sayed, Gamal, Hamburg, *25.03.1958."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Großhansdorf",
                     "dob": "1967-03-28",
                     "flag": "sole representation",
                     "lastname": "Abu Rashed",
-                    "name": "Mohammed Subhi Al - Sayyed"
+                    "name": "Mohammed Subhi Al-Sayyed"
                 },
-                "text": " Abu Rashed , Mohammed Subhi Al - Sayyed , Großhansdorf , * 28.03.1967 , einzelvertretungsberechtigt"
+                "text": " Abu Rashed, Mohammed Subhi Al-Sayyed, Großhansdorf, *28.03.1967, einzelvertretungsberechtigt"
             }
         ]
     }

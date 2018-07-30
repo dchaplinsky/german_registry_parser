@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=186859&land_abk=rp"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Micheel",
                     "name": "Thomas"
                 },
-                "text": " Micheel , Thomas , Hillscheid , * 23.11.1986 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hillscheid",
-                    "dob": "1986-11-23",
-                    "lastname": "Micheel",
-                    "name": "Thomas"
-                },
-                "text": " Micheel , Thomas , Hillscheid , * 23.11.1986 ."
+                "text": " Micheel, Thomas, Hillscheid, *23.11.1986."
             }
         ]
     }

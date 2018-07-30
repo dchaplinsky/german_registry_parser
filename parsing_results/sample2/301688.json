@@ -19,13 +19,13 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Sonnenstraße 31 , 92709 Moosbach ."
+                "text": " Sonnenstraße 31, 92709 Moosbach."
             }
         ],
         "officers": [
@@ -34,10 +34,10 @@
                 "payload": {
                     "city": "Moosbach",
                     "dob": "1947-09-24",
-                    "lastname": "Enders",
+                    "lastname": ": Enders",
                     "name": "Peter"
                 },
-                "text": " Enders , Peter , Moosbach , * 24.09.1947 ."
+                "text": ": Enders, Peter, Moosbach, *24.09.1947."
             }
         ]
     }

@@ -16,28 +16,23 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=553978&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "labels": [
             {
                 "label": "address",
-                "text": " Max - Eyth - Straße 21 , 71088 Holzgerlingen ."
+                "text": " Max-Eyth-Straße 21, 71088 Holzgerlingen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Herbsleben",
+                    "dismissed": true,
                     "dob": "1965-06-20",
                     "lastname": "Bratfisch",
                     "name": "Uwe"
                 },
-                "text": " Bratfisch , Uwe , Herbsleben , * 20.06.1965 ."
+                "text": " Bratfisch, Uwe, Herbsleben, *20.06.1965."
             },
             {
                 "class": "SingleProcuration",
@@ -47,17 +42,7 @@
                     "lastname": "Bratfisch",
                     "name": "Uwe"
                 },
-                "text": " Bratfisch , Uwe , Herbsleben , * 20.06.1965 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Herbsleben",
-                    "dob": "1965-06-20",
-                    "lastname": "Bratfisch",
-                    "name": "Uwe"
-                },
-                "text": " Bratfisch , Uwe , Herbsleben , * 20.06.1965 ."
+                "text": " Bratfisch, Uwe, Herbsleben, *20.06.1965."
             }
         ]
     }

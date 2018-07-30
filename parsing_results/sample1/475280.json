@@ -19,34 +19,35 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Malterdingen",
+                    "dismissed": true,
                     "dob": "1949-11-18",
                     "lastname": "Zügel",
                     "name": "Gabriele Hannelore Carmen"
                 },
-                "text": " Zügel , Gabriele Hannelore Carmen , Malterdingen , * 18.11.1949 ."
+                "text": " Zügel, Gabriele Hannelore Carmen, Malterdingen, *18.11.1949."
             },
             {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Malterdingen",
                     "dob": "1949-11-18",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Zügel",
                     "name": "Gabriele Hannelore Carmen"
                 },
-                "text": " Zügel , Gabriele Hannelore Carmen , Malterdingen , * 18.11.1949 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Zügel, Gabriele Hannelore Carmen, Malterdingen, *18.11.1949, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -19,11 +19,11 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
@@ -33,20 +33,21 @@
                     "city": "Augsburg",
                     "dob": "1959-06-23",
                     "flag": "sole representation",
-                    "lastname": "Lochbrunner",
+                    "lastname": ": Lochbrunner",
                     "name": "Elmar"
                 },
-                "text": " Lochbrunner , Elmar , Augsburg , * 23.06.1959 , einzelvertretungsberechtigt"
+                "text": ": Lochbrunner, Elmar, Augsburg, *23.06.1959, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Kutzenhausen",
+                    "dismissed": true,
                     "dob": "1952-07-13",
                     "lastname": "Fihn",
                     "name": "Wolfgang"
                 },
-                "text": " Fihn , Wolfgang , Kutzenhausen , * 13.07.1952 ."
+                "text": " Fihn, Wolfgang, Kutzenhausen, *13.07.1952."
             }
         ]
     }

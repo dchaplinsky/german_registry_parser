@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=213041&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Günther",
                     "name": "Susanne"
                 },
-                "text": " Günther , Susanne , Rettenberg , * 06.12.1967 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Rettenberg",
-                    "dob": "1967-06-12",
-                    "lastname": "Günther",
-                    "name": "Susanne"
-                },
-                "text": " Günther , Susanne , Rettenberg , * 06.12.1967 ."
+                "text": " Günther, Susanne, Rettenberg, *06.12.1967."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=556517&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Bales",
                     "name": "Ralf"
                 },
-                "text": " Bales , Ralf , Erftstadt , * 20.04.1976"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Erftstadt",
-                    "dob": "1976-04-20",
-                    "lastname": "Bales",
-                    "name": "Ralf"
-                },
-                "text": " Bales , Ralf , Erftstadt , * 20.04.1976"
+                "text": " Bales, Ralf, Erftstadt, *20.04.1976"
             }
         ]
     }

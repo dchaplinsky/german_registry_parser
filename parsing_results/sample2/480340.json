@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Bahnhofstr ."
+                "text": " Bahnhofstr."
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Kolbermoor",
+                    "dismissed": true,
                     "lastname": "Markl",
                     "name": "Helmut",
                     "position": "Apotheker"
                 },
-                "text": " Markl , Helmut , Apotheker , Kolbermoor ."
+                "text": " Markl, Helmut, Apotheker, Kolbermoor."
             },
             {
                 "class": "Owner",
@@ -41,16 +42,17 @@
                     "lastname": "Nagele",
                     "name": "Florian"
                 },
-                "text": " Nagele , Florian , Brannenburg , * 17.10.1979 ."
+                "text": " Nagele, Florian, Brannenburg, *17.10.1979."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Kolbermoor",
+                    "dismissed": true,
                     "lastname": "Markl",
                     "name": "Irene"
                 },
-                "text": " Markl , Irene , Kolbermoor ."
+                "text": " Markl, Irene, Kolbermoor."
             }
         ]
     }

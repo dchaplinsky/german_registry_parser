@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Dennewartstr ."
+                "text": " Dennewartstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Alsdorf",
+                    "dismissed": true,
                     "dob": "1967-09-20",
-                    "lastname": "Dr . Böhm",
+                    "lastname": "Doctor Böhm",
                     "name": "Stefan"
                 },
-                "text": " Dr . Böhm , Stefan , Alsdorf , * 20.09.1967 ."
+                "text": " Doctor Böhm, Stefan, Alsdorf, *20.09.1967."
             }
         ]
     }

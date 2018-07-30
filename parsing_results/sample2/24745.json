@@ -19,19 +19,24 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Erichsen , Joergen , Nest Gate , 56 Camp Road , Gerrards Cross Bucks , SL9 7 PD UK , * 12.05.1962 , einzelvertretungsberechtigt ., error text was no valid patter found, number of chunks: 8"
+                "text": "Cannot parse a AppointedManagingDirector from  Erichsen, Joergen, Nest Gate, 56 Camp Road ,Gerrards Cross Bucks,SL9 7PD UK, *12.05.1962, einzelvertretungsberechtigt., error text was no valid patter found, number of chunks: 8"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Erichsen, Joergen, Nest Gate, 56 Camp Road ,Gerrards Cross Bucks,SL9 7PD UK, *12.05.1962, einzelvertretungsberechtigt., error text was no valid patter found, number of chunks: 8"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1956-03-09",
                     "lastname": "Marton",
                     "name": "Steven Garrett"
                 },
-                "text": " Marton , Steven Garrett , Hamburg , * 03.09.1956"
+                "text": " Marton, Steven Garrett, Hamburg, *03.09.1956"
             }
         ]
     }

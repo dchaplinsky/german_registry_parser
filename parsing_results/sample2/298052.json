@@ -19,23 +19,24 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Viscura Beteiligungen UG ( haftungsbeschränkt ) , Berlin , Friedrichstraße 4 , 12205 Berlin ."
+                "text": " Viscura Beteiligungen UG (haftungsbeschränkt), Berlin, Friedrichstraße 4, 12205 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Elias",
                     "name": "Michael"
                 },
-                "text": " Elias , Michael"
+                "text": " Elias, Michael"
             },
             {
                 "class": "ManagingDirector",
@@ -45,7 +46,7 @@
                     "lastname": "Förner",
                     "name": "Andreas"
                 },
-                "text": " Förner , Andreas , * 28.04.1963 , Berlin"
+                "text": " Förner, Andreas, *28.04.1963, Berlin"
             }
         ]
     }

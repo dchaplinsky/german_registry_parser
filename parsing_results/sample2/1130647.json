@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rheine",
+                    "dismissed": true,
                     "dob": "1934-01-31",
                     "lastname": "Baving",
                     "name": "Hans"
                 },
-                "text": " Baving , Hans , Rheine , * 31.01.1934 ."
+                "text": " Baving, Hans, Rheine, *31.01.1934."
             }
         ]
     }

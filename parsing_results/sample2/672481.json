@@ -16,32 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=672481&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
                 "payload": {
-                    "city": "Bad Berleburg - Schwarzenau",
+                    "city": "Bad Berleburg-Schwarzenau",
                     "dob": "1944-12-24",
                     "lastname": "Gelbach",
                     "name": "Adolf Georg"
                 },
-                "text": " Gelbach , Adolf Georg , Bad Berleburg - Schwarzenau , * 24.12.1944 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Bad Berleburg - Schwarzenau",
-                    "dob": "1944-12-24",
-                    "lastname": "Gelbach",
-                    "name": "Adolf Georg"
-                },
-                "text": " Gelbach , Adolf Georg , Bad Berleburg - Schwarzenau , * 24.12.1944 ."
+                "text": " Gelbach, Adolf Georg, Bad Berleburg-Schwarzenau, *24.12.1944."
             }
         ]
     }

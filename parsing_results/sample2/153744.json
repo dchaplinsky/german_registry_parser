@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Sankt Sebastian",
+                    "dismissed": true,
                     "dob": "1979-01-21",
                     "lastname": "Christl",
                     "name": "Andreas"
                 },
-                "text": " Christl , Andreas , Sankt Sebastian , * 21.01.1979 ."
+                "text": " Christl, Andreas, Sankt Sebastian, *21.01.1979."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Lüdenscheid",
+                    "dismissed": true,
                     "dob": "1947-02-01",
                     "lastname": "Wieghardt",
                     "name": "Klaus Dieter"
                 },
-                "text": " Wieghardt , Klaus Dieter , Lüdenscheid , * 02.01.1947 ."
+                "text": " Wieghardt, Klaus Dieter, Lüdenscheid, *02.01.1947."
             }
         ]
     }

@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Detmold",
+                    "dismissed": true,
                     "dob": "1976-12-14",
                     "lastname": "Kannengiesser",
                     "name": "Falko"
                 },
-                "text": " Kannengiesser , Falko , Detmold , * 14.12.1976 ."
+                "text": " Kannengiesser, Falko, Detmold, *14.12.1976."
             },
             {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Stuttgart",
                     "dob": "1953-05-14",
-                    "flag": "alleinvertretungsberechtigt  solange sie alleinige Liquidatorin ist",
+                    "flag": "alleinvertretungsberechtigt solange sie alleinige Liquidatorin ist",
                     "lastname": "Mildenberger",
                     "name": "Renate"
                 },
-                "text": " Mildenberger , Renate , Stuttgart , * 14.05.1953 , alleinvertretungsberechtigt , solange sie alleinige Liquidatorin ist ."
+                "text": " Mildenberger, Renate, Stuttgart, *14.05.1953, alleinvertretungsberechtigt, solange sie alleinige Liquidatorin ist."
             }
         ]
     }

@@ -19,19 +19,19 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Balanstraße 73 , 81541 München ."
+                "text": " Balanstraße 73, 81541 München."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Merchweiler",
                     "dob": "1976-05-29",
-                    "lastname": "Dr . Mues",
+                    "lastname": "Doctor Mues",
                     "name": "Joachim"
                 },
-                "text": " Dr . Mues , Joachim , Merchweiler , * 29.05.1976"
+                "text": " Doctor Mues, Joachim, Merchweiler, *29.05.1976"
             },
             {
                 "class": "ManagingDirector",
@@ -41,7 +41,7 @@
                     "lastname": "Ottmann",
                     "name": "Rita"
                 },
-                "text": " Ottmann , Rita , München , * 18.08.1953 ."
+                "text": " Ottmann, Rita, München, *18.08.1953."
             }
         ]
     }

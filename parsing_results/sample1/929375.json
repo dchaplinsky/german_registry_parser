@@ -18,11 +18,12 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "company_name": " CERION Leasing Verwaltungs GmbH , Minden ( Amtsgericht Bad Oeynhausen HRB 10348 ) ."
+                    "company_name": " CERION Leasing Verwaltungs GmbH, Minden (Amtsgericht Bad Oeynhausen HRB 10348).",
+                    "dismissed": true
                 },
-                "text": " CERION Leasing Verwaltungs GmbH , Minden ( Amtsgericht Bad Oeynhausen HRB 10348 ) ."
+                "text": " CERION Leasing Verwaltungs GmbH, Minden (Amtsgericht Bad Oeynhausen HRB 10348)."
             }
         ]
     }

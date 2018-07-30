@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Burghausen",
+                    "dismissed": true,
                     "dob": "1977-01-27",
                     "lastname": "Subasic Ljubovic",
                     "name": "Silvia"
                 },
-                "text": " Subasic Ljubovic , Silvia , Burghausen , * 27.01.1977 ."
+                "text": " Subasic Ljubovic, Silvia, Burghausen, *27.01.1977."
             }
         ]
     }

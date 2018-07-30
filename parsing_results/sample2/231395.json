@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Industriepark 80 , 56593 Krunkel ."
+                "text": " Industriepark 80, 56593 Krunkel."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Lohmar",
+                    "dismissed": true,
                     "dob": "1962-01-03",
                     "lastname": "Krebs",
                     "name": "Ludger"
                 },
-                "text": " Krebs , Ludger , Lohmar , * 01.03.1962"
+                "text": " Krebs, Ludger, Lohmar, *01.03.1962"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Urbach",
                     "dob": "1972-09-03",
                     "lastname": "Sojka",
                     "name": "Ralf"
                 },
-                "text": " Sojka , Ralf , Urbach , * 09.03.1972"
+                "text": " Sojka, Ralf, Urbach, *09.03.1972"
             }
         ]
     }

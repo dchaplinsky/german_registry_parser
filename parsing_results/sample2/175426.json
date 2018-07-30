@@ -16,32 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=175426&land_abk=hh"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1943-05-31",
-                    "lastname": "Melkonian - Ezekian",
+                    "lastname": "Melkonian-Ezekian",
                     "name": "Haik"
                 },
-                "text": " Melkonian - Ezekian , Haik , Hamburg , * 31.05.1943 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hamburg",
-                    "dob": "1943-05-31",
-                    "lastname": "Melkonian - Ezekian",
-                    "name": "Haik"
-                },
-                "text": " Melkonian - Ezekian , Haik , Hamburg , * 31.05.1943 ."
+                "text": " Melkonian-Ezekian, Haik, Hamburg, *31.05.1943."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Essen",
+                    "dismissed": true,
                     "dob": "1979-01-08",
                     "lastname": "Ma",
                     "name": "Fei"
                 },
-                "text": " Ma , Fei , Essen , * 01.08.1979"
+                "text": " Ma, Fei, Essen, *01.08.1979"
             },
             {
                 "class": "ManagingDirector",
@@ -36,7 +37,7 @@
                     "lastname": "Zhang",
                     "name": "Ying"
                 },
-                "text": " Zhang , Ying , Essen , * 30.11.1982 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Zhang, Ying, Essen, *30.11.1982, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

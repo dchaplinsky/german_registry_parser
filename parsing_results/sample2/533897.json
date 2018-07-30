@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Como ( Italien )",
+                    "city": "Como (Italien)",
+                    "dismissed": true,
                     "dob": "1959-05-15",
                     "lastname": "Holmberg",
                     "name": "Per"
                 },
-                "text": " Holmberg , Per , Como ( Italien ) , * 15.05.1959 ."
+                "text": " Holmberg, Per, Como (Italien), *15.05.1959."
             }
         ]
     }

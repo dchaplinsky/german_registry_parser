@@ -16,17 +16,27 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=237353&land_abk=nw"
     },
     "parsed": {
+        "flags": [
+            {
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "mönchengladbach",
                     "dob": "1956-09-23",
-                    "flag": "einzelvertretungsberechtigt mit der befugnis  im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen",
                     "lastname": "riegel",
                     "name": "youssef frank"
                 },
-                "text": " riegel , youssef frank , mönchengladbach , * 23.09.1956 , einzelvertretungsberechtigt mit der befugnis , im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen ."
+                "text": " riegel, youssef frank, mönchengladbach, *23.09.1956, einzelvertretungsberechtigt mit der befugnis, im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen."
             }
         ]
     }

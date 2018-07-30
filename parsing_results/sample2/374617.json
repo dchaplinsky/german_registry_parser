@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Ludwigshafen",
+                    "dismissed": true,
                     "dob": "1956-02-29",
                     "lastname": "Stuck",
                     "name": "Rolf geborene Ramminger"
                 },
-                "text": " Stuck , Rolf geborene Ramminger , Ludwigshafen , * 29.02.1956 ."
+                "text": " Stuck, Rolf geborene Ramminger, Ludwigshafen, *29.02.1956."
             },
             {
                 "class": "Liquidator",
@@ -41,7 +42,7 @@
                     "lastname": "Stuck",
                     "name": "Rolf"
                 },
-                "text": " Stuck , Rolf , Ludwigshafen , * 29.02.1956 ."
+                "text": " Stuck, Rolf, Ludwigshafen, *29.02.1956."
             }
         ]
     }

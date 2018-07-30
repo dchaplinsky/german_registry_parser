@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=184117&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Thomas",
                     "name": "Christoph"
                 },
-                "text": " Thomas , Christoph , München , * 19.07.1971 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "München",
-                    "dob": "1971-07-19",
-                    "lastname": "Thomas",
-                    "name": "Christoph"
-                },
-                "text": " Thomas , Christoph , München , * 19.07.1971 ."
+                "text": " Thomas, Christoph, München, *19.07.1971."
             }
         ]
     }

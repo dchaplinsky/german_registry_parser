@@ -16,10 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=51215&land_abk=by"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Kammermeier , Hans , Kaufmann , Mallersdorf - Pfaffenberg , * 29.04.1935 ., error text was Cannot parse DOB  Kaufmann  using regex"
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Mallersdorf-Pfaffenberg",
+                    "dob": "1935-04-29",
+                    "lastname": "Kammermeier",
+                    "name": "Hans",
+                    "position": "Kaufmann"
+                },
+                "text": " Kammermeier, Hans, Kaufmann, Mallersdorf-Pfaffenberg, *29.04.1935."
             }
         ]
     }

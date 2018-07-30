@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Sanne",
-                    "name": "Ralf Rechtsform : Durch Beschluss der Gesellschafterversammlung vom 18.02.2010 ist der Gesellschaftsvertrag geändert in 1 ( Firma )"
+                    "name": "Ralf Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 18.02.2010 ist der Gesellschaftsvertrag geändert in § 1 (Firma)"
                 },
-                "text": " Sanne , Ralf Rechtsform : Durch Beschluss der Gesellschafterversammlung vom 18.02.2010 ist der Gesellschaftsvertrag geändert in 1 ( Firma ) ."
+                "text": " Sanne, Ralf Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 18.02.2010 ist der Gesellschaftsvertrag geändert in § 1 (Firma)."
             }
         ]
     }

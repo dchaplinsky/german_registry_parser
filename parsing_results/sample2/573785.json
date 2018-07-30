@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=573785&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Pfaff",
                     "name": "Barbara"
                 },
-                "text": " Pfaff , Barbara , Freiburg im Breisgau , * 05.12.1990"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Freiburg im Breisgau",
-                    "dob": "1990-05-12",
-                    "lastname": "Pfaff",
-                    "name": "Barbara"
-                },
-                "text": " Pfaff , Barbara , Freiburg im Breisgau , * 05.12.1990"
+                "text": " Pfaff, Barbara, Freiburg im Breisgau, *05.12.1990"
             }
         ]
     }

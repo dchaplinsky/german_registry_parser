@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Asselner Hellweg 94 d , 44319 Dortmund ."
+                "text": " Asselner Hellweg 94 d, 44319 Dortmund."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Dortmund",
+                    "dismissed": true,
                     "dob": "1988-12-01",
                     "lastname": "Grzeszick",
                     "name": "René"
                 },
-                "text": " Grzeszick , René , Dortmund , * 12.01.1988 ."
+                "text": " Grzeszick, René, Dortmund, *12.01.1988."
             }
         ]
     }

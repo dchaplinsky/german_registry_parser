@@ -18,26 +18,26 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Kettenhofweg 101 , 60325 Frankfurt am Main ."
+                "text": " Kettenhofweg 101, 60325 Frankfurt am Main."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Bad Homburg v . d . Höhe",
+                    "city": "Bad Homburg v. d. Höhe",
                     "dob": "1969-02-18",
                     "lastname": "Simon",
                     "name": "Hanno"
                 },
-                "text": " Simon , Hanno , Bad Homburg v . d . Höhe , * 18.02.1969 ."
+                "text": " Simon, Hanno, Bad Homburg v. d. Höhe, *18.02.1969."
             }
         ]
     }

@@ -16,10 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=183415&land_abk=nw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Behrmann , André , Diplom - Ingenieur , Versmold , * 19.02.1966 ., error text was Cannot parse DOB  Diplom - Ingenieur  using regex"
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Versmold",
+                    "dismissed": true,
+                    "dob": "1966-02-19",
+                    "lastname": "Behrmann",
+                    "name": "André",
+                    "position": "Diplom-Ingenieur"
+                },
+                "text": " Behrmann, André, Diplom-Ingenieur, Versmold, *19.02.1966."
             }
         ]
     }

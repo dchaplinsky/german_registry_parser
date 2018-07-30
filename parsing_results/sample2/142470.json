@@ -19,30 +19,26 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Marktstraße 47 , 69123 Heidelberg ."
+                "text": " Marktstraße 47, 69123 Heidelberg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Heidelberg",
                     "dob": "1962-03-17",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Geier",
                     "name": "Daniel"
                 },
-                "text": " Geier , Daniel , Heidelberg , * 17.03.1962 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Geier, Daniel, Heidelberg, *17.03.1962, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",
@@ -52,17 +48,7 @@
                     "lastname": "Geier",
                     "name": "Michael"
                 },
-                "text": " Geier , Michael , Heidelberg , * 09.08.1966"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Heidelberg",
-                    "dob": "1966-09-08",
-                    "lastname": "Geier",
-                    "name": "Michael"
-                },
-                "text": " Geier , Michael , Heidelberg , * 09.08.1966"
+                "text": " Geier, Michael, Heidelberg, *09.08.1966"
             }
         ]
     }

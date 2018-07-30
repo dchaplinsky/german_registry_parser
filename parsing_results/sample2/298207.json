@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Eingetragen w . o . Prokura erloschen : Oscheka , Berit , Weilheim , * 29.11.1966 ."
+                "text": "Eingetragen w.o.Prokura erloschen: Oscheka, Berit, Weilheim, *29.11.1966."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Weilheim",
+                    "dismissed": true,
                     "dob": "1966-11-29",
                     "lastname": "Oscheka",
                     "name": "Berit"
                 },
-                "text": " Oscheka , Berit , Weilheim , * 29.11.1966 ."
+                "text": " Oscheka, Berit, Weilheim, *29.11.1966."
             }
         ]
     }

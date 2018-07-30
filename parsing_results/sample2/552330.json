@@ -18,30 +18,30 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Königstraße 1 , 41460 Neuss ."
+                "text": " Königstraße 1, 41460 Neuss."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Neuss",
                     "dob": "1956-12-03",
                     "lastname": "Mahnke",
                     "name": "Lutz"
                 },
-                "text": " Mahnke , Lutz , Neuss , * 12.03.1956"
+                "text": " Mahnke, Lutz, Neuss, *12.03.1956"
             },
             {
                 "class": "CommonProcuration",
@@ -51,7 +51,7 @@
                     "lastname": "Böhme",
                     "name": "Arndt"
                 },
-                "text": " Böhme , Arndt , Neuss , * 12.06.1970"
+                "text": " Böhme, Arndt, Neuss, *12.06.1970"
             }
         ]
     }

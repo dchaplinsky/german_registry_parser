@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Haideweg 43 , 65191 Wiesbaden ."
+                "text": " Haideweg 43, 65191 Wiesbaden."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wiesbaden",
+                    "dismissed": true,
                     "dob": "1984-03-26",
                     "lastname": "Frolenko",
                     "name": "Aleksandr"
                 },
-                "text": " Frolenko , Aleksandr , Wiesbaden , * 26.03.1984 ."
+                "text": " Frolenko, Aleksandr, Wiesbaden, *26.03.1984."
             }
         ]
     }

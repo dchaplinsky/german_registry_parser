@@ -19,30 +19,26 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Otto - Hahn - Straße 12 , 64823 Groß - Umstadt ."
+                "text": " Otto-Hahn-Straße 12, 64823 Groß-Umstadt."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Groß - Umstadt",
+                    "city": "Groß-Umstadt",
                     "dob": "1946-01-24",
                     "flag": "sole representation",
                     "lastname": "Sindlhauser",
                     "name": "Herbert"
                 },
-                "text": " Sindlhauser , Herbert , Groß - Umstadt , * 24.01.1946 , einzelvertretungsberechtigt"
+                "text": " Sindlhauser, Herbert, Groß-Umstadt, *24.01.1946, einzelvertretungsberechtigt"
             },
             {
                 "class": "SingleProcuration",
@@ -52,17 +48,7 @@
                     "lastname": "Selzer",
                     "name": "Frank"
                 },
-                "text": " Selzer , Frank , Schaafheim , * 11.09.1975 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Schaafheim",
-                    "dob": "1975-11-09",
-                    "lastname": "Selzer",
-                    "name": "Frank"
-                },
-                "text": " Selzer , Frank , Schaafheim , * 11.09.1975 ."
+                "text": " Selzer, Frank, Schaafheim, *11.09.1975."
             }
         ]
     }

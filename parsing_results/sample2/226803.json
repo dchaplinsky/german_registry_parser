@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hesel",
+                    "dismissed": true,
                     "dob": "1958-06-28",
                     "lastname": "Spekker",
                     "name": "Hertha"
                 },
-                "text": " Spekker , Hertha , Hesel , * 28.06.1958 ."
+                "text": " Spekker, Hertha, Hesel, *28.06.1958."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kirchlengern",
                     "dob": "1981-09-15",
@@ -36,7 +37,7 @@
                     "lastname": "Lückemeier",
                     "name": "Harald"
                 },
-                "text": " Lückemeier , Harald , Kirchlengern , * 15.09.1981 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen ."
+                "text": " Lückemeier, Harald, Kirchlengern, *15.09.1981, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen."
             }
         ]
     }

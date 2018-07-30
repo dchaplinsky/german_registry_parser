@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wachenheim",
+                    "dismissed": true,
                     "dob": "1958-01-31",
                     "lastname": "Berker",
                     "name": "Josef"
                 },
-                "text": " Berker , Josef , Wachenheim , * 31.01.1958 ."
+                "text": " Berker, Josef, Wachenheim, *31.01.1958."
             }
         ]
     }

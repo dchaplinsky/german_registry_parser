@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Roloff",
                     "name": "Alexander"
                 },
-                "text": " Roloff , Alexander ."
+                "text": " Roloff, Alexander."
             }
         ]
     }

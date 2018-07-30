@@ -18,12 +18,8 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "officers": [
@@ -32,10 +28,10 @@
                 "payload": {
                     "city": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "dob": "1969-05-04",
-                    "lastname": "Dr . Krisch",
+                    "lastname": "Doctor Krisch",
                     "name": "Ingo"
                 },
-                "text": " Dr . Krisch , Ingo , * 05.04.1969 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Krisch, Ingo, *05.04.1969, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",
@@ -45,17 +41,7 @@
                     "lastname": "Kurzschenkel",
                     "name": "Michael"
                 },
-                "text": " Kurzschenkel , Michael , Düsseldorf , * 30.12.1977 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Düsseldorf",
-                    "dob": "1977-12-30",
-                    "lastname": "Kurzschenkel",
-                    "name": "Michael"
-                },
-                "text": " Kurzschenkel , Michael , Düsseldorf , * 30.12.1977 ."
+                "text": " Kurzschenkel, Michael, Düsseldorf, *30.12.1977."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=198270&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Eutermoser",
                     "name": "Erich"
                 },
-                "text": " Eutermoser , Erich , Stephanskirchen , * 05.12.1957 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Stephanskirchen",
-                    "dob": "1957-05-12",
-                    "lastname": "Eutermoser",
-                    "name": "Erich"
-                },
-                "text": " Eutermoser , Erich , Stephanskirchen , * 05.12.1957 ."
+                "text": " Eutermoser, Erich, Stephanskirchen, *05.12.1957."
             }
         ]
     }

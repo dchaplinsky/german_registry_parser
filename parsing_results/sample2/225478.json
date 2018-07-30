@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wilnsdorf",
+                    "dismissed": true,
                     "dob": "1956-12-09",
                     "lastname": "Strunk",
                     "name": "Gerd"
                 },
-                "text": " Strunk , Gerd , Wilnsdorf , * 12.09.1956 ."
+                "text": " Strunk, Gerd, Wilnsdorf, *12.09.1956."
             }
         ]
     }

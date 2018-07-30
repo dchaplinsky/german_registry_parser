@@ -21,21 +21,22 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1962-08-03",
                     "lastname": "Portugall",
                     "name": "Kai"
                 },
-                "text": " Portugall , Kai , Hamburg , * 08.03.1962 ."
+                "text": " Portugall, Kai, Hamburg, *08.03.1962."
             },
             {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Füssen",
                     "dob": "1965-08-17",
-                    "lastname": "Dr . Schubert",
+                    "lastname": "Doctor Schubert",
                     "name": "Peter"
                 },
-                "text": " Dr . Schubert , Peter , Füssen , * 17.08.1965 ."
+                "text": " Doctor Schubert, Peter, Füssen, *17.08.1965."
             }
         ]
     }

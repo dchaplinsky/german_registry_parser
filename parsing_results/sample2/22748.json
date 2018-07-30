@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1963-11-14",
                     "lastname": "Wagner",
                     "name": "Torsten"
                 },
-                "text": " Wagner , Torsten , Hamburg , * 14.11.1963 ."
+                "text": " Wagner, Torsten, Hamburg, *14.11.1963."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1968-05-04",
                     "flag": "sole representation",
-                    "lastname": "Dr . Best",
+                    "lastname": "Doctor Best",
                     "name": "Stefan"
                 },
-                "text": " Dr . Best , Stefan , Hamburg , * 05.04.1968 , einzelvertretungsberechtigt"
+                "text": " Doctor Best, Stefan, Hamburg, *05.04.1968, einzelvertretungsberechtigt"
             }
         ]
     }

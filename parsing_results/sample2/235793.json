@@ -19,49 +19,50 @@
         "flags": [
             {
                 "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
-                "text": "Sind mehrere Liquidatoren bestellt , wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten ."
+                "text": "Sind\\ mehrere\\ Liquidatoren\\ bestellt\\,\\ wird\\ die\\ Gesellschaft\\ durch\\ s\\ämtliche\\ Liquidatoren\\ gemeinsam\\ vertreten\\."
             },
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Kaiderdamm 100 , 14050 Berlin Vertretungsregelung : Ist ein Liquidator bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " Geschäftsanschrift: Kaiderdamm 100, 14050 Berlin Vertretungsregelung: Ist ein Liquidator bestellt, so vertritt er die Gesellschaft allein."
             },
             {
                 "label": "address",
-                "text": " Kaiderdamm 100 , 14050 Berlin Vertretungsregelung : Ist ein Liquidator bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " Kaiderdamm 100, 14050 Berlin Vertretungsregelung: Ist ein Liquidator bestellt, so vertritt er die Gesellschaft allein."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Wolfram",
                     "name": "Kai"
                 },
-                "text": " Wolfram , Kai"
+                "text": " Wolfram, Kai"
             },
             {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Berlin",
                     "dob": "1960-05-20",
-                    "lastname": "Dr . Eichberger",
+                    "lastname": "Doctor Eichberger",
                     "name": "Christian"
                 },
-                "text": " Dr . Eichberger , Christian , * 20.05.1960 , Berlin"
+                "text": " Doctor Eichberger, Christian, *20.05.1960, Berlin"
             }
         ]
     }

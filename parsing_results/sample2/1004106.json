@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Wassermühlenweg 13 , 32130 Enger ."
+                "text": " Wassermühlenweg 13, 32130 Enger."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Enger",
+                    "dismissed": true,
                     "dob": "1965-01-03",
                     "lastname": "Brehr",
                     "name": "Frank"
                 },
-                "text": " Brehr , Frank , Enger , * 01.03.1965 ."
+                "text": " Brehr, Frank, Enger, *01.03.1965."
             }
         ]
     }

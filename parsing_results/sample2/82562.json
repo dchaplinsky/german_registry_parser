@@ -22,20 +22,21 @@
                 "payload": {
                     "city": "Stralsund",
                     "dob": "1953-05-24",
-                    "lastname": "Kapalczynski",
+                    "lastname": ": Kapalczynski",
                     "name": "Peter"
                 },
-                "text": " Kapalczynski , Peter , Stralsund , * 24.05.1953 ."
+                "text": ": Kapalczynski, Peter, Stralsund, *24.05.1953."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Stralsund",
+                    "dismissed": true,
                     "dob": "1962-12-21",
                     "lastname": "Kapalczynski",
                     "name": "Kirsten"
                 },
-                "text": " Kapalczynski , Kirsten , Stralsund , * 21.12.1962 ."
+                "text": " Kapalczynski, Kirsten, Stralsund, *21.12.1962."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Edertal",
+                    "dismissed": true,
                     "dob": "1980-04-20",
                     "lastname": "Wagner",
                     "name": "Robert"
                 },
-                "text": " Wagner , Robert , Edertal , * 20.04.1980 ."
+                "text": " Wagner, Robert, Edertal, *20.04.1980."
             }
         ]
     }

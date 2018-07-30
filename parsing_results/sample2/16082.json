@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Wohltorf",
+                    "dismissed": true,
                     "dob": "1958-01-24",
-                    "lastname": "Fischer - Klages",
+                    "lastname": "Fischer-Klages",
                     "name": "Adelheid"
                 },
-                "text": " Fischer - Klages , Adelheid , Wohltorf , * 24.01.1958 ."
+                "text": " Fischer-Klages, Adelheid, Wohltorf, *24.01.1958."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1959-05-28",
                     "flag": "sole representation",
-                    "lastname": "Dr . med . Kressel",
+                    "lastname": "Doctor med. Kressel",
                     "name": "Kim"
                 },
-                "text": " Dr . med . Kressel , Kim , Hamburg , * 28.05.1959 , einzelvertretungsberechtigt"
+                "text": " Doctor med. Kressel, Kim, Hamburg, *28.05.1959, einzelvertretungsberechtigt"
             }
         ]
     }

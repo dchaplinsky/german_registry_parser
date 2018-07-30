@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kaiserslautern",
                     "dob": "1956-07-26",
@@ -26,17 +26,18 @@
                     "lastname": "Bißbort",
                     "name": "Gerhard"
                 },
-                "text": " Bißbort , Gerhard , Kaiserslautern , * 26.07.1956 , einzelvertretungsberechtigt ."
+                "text": " Bißbort, Gerhard, Kaiserslautern, *26.07.1956, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Heltersberg",
+                    "dismissed": true,
                     "dob": "1939-09-02",
                     "lastname": "Birle",
                     "name": "Helmut"
                 },
-                "text": " Birle , Helmut , Heltersberg , * 09.02.1939 ."
+                "text": " Birle, Helmut, Heltersberg, *09.02.1939."
             }
         ]
     }

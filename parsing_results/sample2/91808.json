@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "RG10 9 TL Hare Hatch",
+                    "city": "RG10 9TL Hare Hatch",
+                    "dismissed": true,
                     "dob": "1955-05-11",
                     "lastname": "Herlinger",
                     "name": "Charles"
                 },
-                "text": " Herlinger , Charles , RG10 9 TL Hare Hatch , * 05.11.1955 ."
+                "text": " Herlinger, Charles, RG10 9TL Hare Hatch, *05.11.1955."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Friedrichsdorf",
                     "dob": "1963-03-06",
@@ -36,7 +37,7 @@
                     "lastname": "Stams",
                     "name": "Henning"
                 },
-                "text": " Stams , Henning , Friedrichsdorf , * 03.06.1963 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Stams, Henning, Friedrichsdorf, *03.06.1963, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

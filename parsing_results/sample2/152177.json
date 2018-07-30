@@ -19,17 +19,31 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Castelnau , Jerome , Vaucresson , Frankreich , * 07.03.1958 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Vaucresson  using regex"
+                "text": "Cannot parse a AppointedManagingDirector from  Castelnau, Jerome, Vaucresson, Frankreich, *07.03.1958, einzelvertretungsberechtigt, error text was Cannot parse DOB  Vaucresson using regex"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Revon , Damien , Paris , Frankreich , * 24.01.1957 ., error text was Cannot parse DOB  Paris  using regex"
+                "text": "Cannot parse a ManagingDirector from  Castelnau, Jerome, Vaucresson, Frankreich, *07.03.1958, einzelvertretungsberechtigt, error text was Cannot parse DOB  Vaucresson using regex"
             }
         ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
+            }
+        ],
+        "officers": [
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Frankreich",
+                    "dismissed": true,
+                    "dob": "1957-01-24",
+                    "lastname": "Revon",
+                    "name": "Damien",
+                    "position": "Paris"
+                },
+                "text": " Revon, Damien, Paris, Frankreich, *24.01.1957."
             }
         ]
     }

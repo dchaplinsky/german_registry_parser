@@ -19,34 +19,36 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "lastname": "Dr . Oetker Food - Service KG",
-                    "name": "Ettlingen ( Amtsgericht Mannheim HRA 361001 )"
+                    "lastname": "Doctor Oetker Food-Service KG",
+                    "name": "Ettlingen (Amtsgericht Mannheim HRA 361001)"
                 },
-                "text": " Dr . Oetker Food - Service KG , Ettlingen ( Amtsgericht Mannheim HRA 361001 ) ."
+                "text": " Doctor Oetker Food-Service KG, Ettlingen (Amtsgericht Mannheim HRA 361001)."
             },
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "lastname": "Dr . August Oetker KG",
+                    "dismissed": true,
+                    "lastname": "Doctor August Oetker KG",
                     "name": "Bielefeld"
                 },
-                "text": " Dr . August Oetker KG , Bielefeld ."
+                "text": " Doctor August Oetker KG, Bielefeld."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Karlsruhe",
+                    "dismissed": true,
                     "lastname": "Berblinger",
                     "name": "Michael"
                 },
-                "text": " Berblinger , Michael , Karlsruhe"
+                "text": " Berblinger, Michael, Karlsruhe"
             }
         ]
     }

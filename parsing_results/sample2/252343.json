@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Langenweißbach OT Langenbach",
+                    "dismissed": true,
                     "dob": "1969-11-24",
                     "lastname": "Günther",
                     "name": "Hendrik"
                 },
-                "text": " Günther , Hendrik , Langenweißbach OT Langenbach , * 24.11.1969 ."
+                "text": " Günther, Hendrik, Langenweißbach OT Langenbach, *24.11.1969."
             }
         ]
     }

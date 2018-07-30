@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Porta Westfalica",
                     "dob": "1954-03-12",
@@ -26,16 +26,17 @@
                     "lastname": "Sturhan",
                     "name": "Evamarie"
                 },
-                "text": " Sturhan , Evamarie , Porta Westfalica , * 03.12.1954 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Sturhan, Evamarie, Porta Westfalica, *03.12.1954, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "dob": "1977-02-27",
                     "lastname": "Lücke",
                     "name": "Christoph"
                 },
-                "text": " Lücke , Christoph , * 27.02.1977 ."
+                "text": " Lücke, Christoph, *27.02.1977."
             }
         ]
     }

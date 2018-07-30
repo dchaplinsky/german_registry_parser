@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Schmalkalden",
+                    "dismissed": true,
                     "dob": "1969-09-20",
                     "lastname": "Voß",
                     "name": "Markus"
                 },
-                "text": " Voß , Markus , Schmalkalden , * 20.09.1969 ."
+                "text": " Voß, Markus, Schmalkalden, *20.09.1969."
             }
         ]
     }

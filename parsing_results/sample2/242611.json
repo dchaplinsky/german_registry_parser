@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hünfeld",
+                    "dismissed": true,
                     "dob": "1948-07-27",
                     "lastname": "Olberg",
                     "name": "Herbert"
                 },
-                "text": " Olberg , Herbert , Hünfeld , * 27.07.1948 ."
+                "text": " Olberg, Herbert, Hünfeld, *27.07.1948."
             }
         ]
     }

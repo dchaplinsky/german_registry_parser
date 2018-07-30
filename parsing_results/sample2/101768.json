@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Esplanade 6 , 20354 Hamburg ."
+                "text": " Esplanade 6, 20354 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1962-02-16",
-                    "lastname": "Dr . von Kuhlberg",
+                    "lastname": "Doctor von Kuhlberg",
                     "name": "Alexander"
                 },
-                "text": " Dr . von Kuhlberg , Alexander , Hamburg , * 16.02.1962 ."
+                "text": " Doctor von Kuhlberg, Alexander, Hamburg, *16.02.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1954-02-10",
                     "flag": "vertretungsberechtigt gemäß allgemeiner Vertretungsregelung",
-                    "lastname": "Dr . von Gierke",
+                    "lastname": "Doctor von Gierke",
                     "name": "Klaus"
                 },
-                "text": " Dr . von Gierke , Klaus , Hamburg , * 02.10.1954 , vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
+                "text": " Doctor von Gierke, Klaus, Hamburg, *02.10.1954, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
             }
         ]
     }

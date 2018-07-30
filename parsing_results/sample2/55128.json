@@ -19,18 +19,19 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Meseberg",
+                    "dismissed": true,
                     "lastname": "Groß",
                     "name": "Erhard"
                 },
-                "text": " Groß , Erhard , Meseberg ."
+                "text": " Groß, Erhard, Meseberg."
             },
             {
                 "class": "ManagingDirector",
@@ -40,7 +41,7 @@
                     "lastname": "Bergmann",
                     "name": "Rainer"
                 },
-                "text": " Bergmann , Rainer , Wolmirstedt , * 01.11.1961"
+                "text": " Bergmann, Rainer, Wolmirstedt, *01.11.1961"
             }
         ]
     }

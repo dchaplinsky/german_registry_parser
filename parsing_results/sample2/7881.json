@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Köln",
                     "dob": "1973-04-21",
                     "lastname": "Gardeler",
                     "name": "Michael"
                 },
-                "text": " Gardeler , Michael , Köln , * 21.04.1973"
+                "text": " Gardeler, Michael, Köln, *21.04.1973"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Vallendar",
+                    "dismissed": true,
                     "dob": "1967-04-10",
                     "lastname": "Bogler",
                     "name": "Thomas"
                 },
-                "text": " Bogler , Thomas , Vallendar , * 04.10.1967 ."
+                "text": " Bogler, Thomas, Vallendar, *04.10.1967."
             }
         ]
     }

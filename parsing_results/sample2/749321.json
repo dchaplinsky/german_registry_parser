@@ -19,13 +19,13 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Schorberger Str ."
+                "text": " Schorberger Str."
             }
         ],
         "officers": [
@@ -33,11 +33,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Solingen",
+                    "dismissed": true,
                     "dob": "1954-11-25",
                     "lastname": "Hartkopf",
                     "name": "Ernst Joachim"
                 },
-                "text": " Hartkopf , Ernst Joachim , Solingen , * 25.11.1954 ."
+                "text": " Hartkopf, Ernst Joachim, Solingen, *25.11.1954."
             }
         ]
     }

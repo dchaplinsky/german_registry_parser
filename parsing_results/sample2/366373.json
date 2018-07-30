@@ -19,43 +19,45 @@
         "flags": [
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Goslar",
                     "dob": "1963-08-05",
                     "lastname": "Manzke",
                     "name": "Arne"
                 },
-                "text": " Manzke , Arne , Goslar , * 08.05.1963 ."
+                "text": " Manzke, Arne, Goslar, *08.05.1963."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Radevormwald",
+                    "dismissed": true,
                     "dob": "1961-06-05",
-                    "lastname": "Dr . Bartelt",
+                    "lastname": "Doctor Bartelt",
                     "name": "Volker"
                 },
-                "text": " Dr . Bartelt , Volker , Radevormwald , * 06.05.1961 ."
+                "text": " Doctor Bartelt, Volker, Radevormwald, *06.05.1961."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Goslar",
+                    "dismissed": true,
                     "dob": "1963-08-05",
                     "lastname": "Manzke",
                     "name": "Arne"
                 },
-                "text": " Manzke , Arne , Goslar , * 08.05.1963 ."
+                "text": " Manzke, Arne, Goslar, *08.05.1963."
             }
         ]
     }

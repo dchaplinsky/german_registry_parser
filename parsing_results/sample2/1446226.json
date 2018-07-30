@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1958-06-15",
                     "lastname": "Conrad",
                     "name": "Andreas"
                 },
-                "text": " Conrad , Andreas , Köln , * 15.06.1958 ."
+                "text": " Conrad, Andreas, Köln, *15.06.1958."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bergisch Gladbach",
                     "dob": "1965-06-04",
@@ -36,7 +37,7 @@
                     "lastname": "Klüwer",
                     "name": "Ralf"
                 },
-                "text": " Klüwer , Ralf , Bergisch Gladbach , * 06.04.1965 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Klüwer, Ralf, Bergisch Gladbach, *06.04.1965, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

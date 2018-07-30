@@ -19,34 +19,35 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "Pfaffenhofen a . d . Ilm",
+                    "city": "Pfaffenhofen a.d. Ilm",
                     "dob": "1961-07-11",
                     "flag": "sole representation",
-                    "lastname": "Maier",
+                    "lastname": ": Maier",
                     "name": "Gerhard Alfons"
                 },
-                "text": " Maier , Gerhard Alfons , Pfaffenhofen a . d . Ilm , * 07.11.1961 , einzelvertretungsberechtigt"
+                "text": ": Maier, Gerhard Alfons, Pfaffenhofen a.d. Ilm, *07.11.1961, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Pfaffenhofen a . d . Ilm",
+                    "city": "Pfaffenhofen a.d. Ilm",
+                    "dismissed": true,
                     "dob": "1960-01-27",
                     "lastname": "Maier",
                     "name": "Regina"
                 },
-                "text": " Maier , Regina , Pfaffenhofen a . d . Ilm , * 27.01.1960 ."
+                "text": " Maier, Regina, Pfaffenhofen a.d. Ilm, *27.01.1960."
             }
         ]
     }

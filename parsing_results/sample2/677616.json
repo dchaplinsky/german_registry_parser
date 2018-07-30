@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Weener",
+                    "dismissed": true,
                     "dob": "1983-08-31",
                     "lastname": "Schallenberg",
                     "name": "Melanie"
                 },
-                "text": " Schallenberg , Melanie , Weener , * 31.08.1983 ."
+                "text": " Schallenberg, Melanie, Weener, *31.08.1983."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Troisdorf",
                     "dob": "1975-06-18",
@@ -36,7 +37,7 @@
                     "lastname": "Schlothauer",
                     "name": "Tanja"
                 },
-                "text": " Schlothauer , Tanja , Troisdorf , * 18.06.1975 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schlothauer, Tanja, Troisdorf, *18.06.1975, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

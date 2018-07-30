@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -32,17 +32,18 @@
                     "lastname": "Jaouadi",
                     "name": "Aymen"
                 },
-                "text": " Jaouadi , Aymen , Hamburg , * 21.01.1983 , vertretungsberechtigt gemäß allgemeiner Vertretungsregelung ."
+                "text": " Jaouadi, Aymen, Hamburg, *21.01.1983, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1983-01-21",
                     "lastname": "Jaouadi",
                     "name": "Aymen"
                 },
-                "text": " Jaouadi , Aymen , Hamburg , * 21.01.1983 ."
+                "text": " Jaouadi, Aymen, Hamburg, *21.01.1983."
             }
         ]
     }

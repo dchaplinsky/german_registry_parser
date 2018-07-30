@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Königsbrunn",
                     "dob": "1962-11-19",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Dr . Eing",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Doctor Eing",
                     "name": "Bodo"
                 },
-                "text": " Dr . Eing , Bodo , Königsbrunn , * 19.11.1962 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Eing, Bodo, Königsbrunn, *19.11.1962, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Dirlewang",
+                    "dismissed": true,
                     "dob": "1961-12-08",
-                    "lastname": "Dr . Borucki",
+                    "lastname": "Doctor Borucki",
                     "name": "Hendrik"
                 },
-                "text": " Dr . Borucki , Hendrik , Dirlewang , * 12.08.1961 ."
+                "text": " Doctor Borucki, Hendrik, Dirlewang, *12.08.1961."
             }
         ]
     }

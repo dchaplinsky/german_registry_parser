@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Nürnberg",
+                    "dismissed": true,
                     "lastname": "Diehl",
                     "name": "Thomas",
-                    "position": "Diplom - Ingenieur"
+                    "position": "Diplom-Ingenieur"
                 },
-                "text": " Diehl , Thomas , Diplom - Ingenieur , Nürnberg ."
+                "text": " Diehl, Thomas, Diplom-Ingenieur, Nürnberg."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Sachsen b . Ansbach",
+                    "city": "Sachsen b. Ansbach",
                     "dob": "1978-02-05",
                     "flag": "sole representation",
-                    "lastname": "Dr . Diehl",
+                    "lastname": "Doctor Diehl",
                     "name": "Alexander"
                 },
-                "text": " Dr . Diehl , Alexander , Sachsen b . Ansbach , * 02.05.1978 , einzelvertretungsberechtigt"
+                "text": " Doctor Diehl, Alexander, Sachsen b. Ansbach, *02.05.1978, einzelvertretungsberechtigt"
             },
             {
                 "class": "CommonProcuration",
@@ -52,7 +53,7 @@
                     "lastname": "Böhm",
                     "name": "Ulrike geborene Marx"
                 },
-                "text": " Böhm , Ulrike geborene Marx , Fürth , * 15.08.1962 ."
+                "text": " Böhm, Ulrike geborene Marx, Fürth, *15.08.1962."
             }
         ]
     }

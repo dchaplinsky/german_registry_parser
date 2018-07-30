@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hemmingen",
+                    "dismissed": true,
                     "dob": "1963-12-13",
                     "lastname": "Bock",
                     "name": "Stefan"
                 },
-                "text": " Bock , Stefan , Hemmingen , * 13.12.1963 ."
+                "text": " Bock, Stefan, Hemmingen, *13.12.1963."
             }
         ]
     }

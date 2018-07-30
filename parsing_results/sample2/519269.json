@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Herne",
+                    "dismissed": true,
                     "dob": "1943-04-05",
                     "lastname": "Mittrop",
                     "name": "Erhard"
                 },
-                "text": " Mittrop , Erhard , Herne , * 04.05.1943 ."
+                "text": " Mittrop, Erhard, Herne, *04.05.1943."
             },
             {
                 "class": "Owner",
@@ -35,7 +36,7 @@
                     "lastname": "Mittrop",
                     "name": "Dirk"
                 },
-                "text": " Mittrop , Dirk , Herne , * 21.02.1968 ."
+                "text": " Mittrop, Dirk, Herne, *21.02.1968."
             }
         ]
     }

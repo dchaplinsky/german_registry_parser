@@ -18,15 +18,16 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Bartoniczek",
                     "name": "Hubert"
                 },
-                "text": " Bartoniczek , Hubert ."
+                "text": " Bartoniczek, Hubert."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Erftstadt",
                     "dob": "1977-04-16",
@@ -34,7 +35,7 @@
                     "lastname": "Radermacher",
                     "name": "Oliver"
                 },
-                "text": " Radermacher , Oliver , Erftstadt , * 16.04.1977 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Radermacher, Oliver, Erftstadt, *16.04.1977, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

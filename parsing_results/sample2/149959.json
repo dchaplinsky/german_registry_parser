@@ -18,44 +18,46 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Leinfelden - Echterdingen",
+                    "city": "Leinfelden-Echterdingen",
                     "dob": "1960-12-01",
                     "lastname": "Koch",
                     "name": "Heimo"
                 },
-                "text": " Koch , Heimo , Leinfelden - Echterdingen , * 12.01.1960"
+                "text": " Koch, Heimo, Leinfelden-Echterdingen, *12.01.1960"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Dudenhofen",
+                    "dismissed": true,
                     "dob": "1963-11-02",
                     "lastname": "Deuerling",
                     "name": "Gunther"
                 },
-                "text": " Deuerling , Gunther , Dudenhofen , * 11.02.1963"
+                "text": " Deuerling, Gunther, Dudenhofen, *11.02.1963"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Mannheim",
+                    "dismissed": true,
                     "dob": "1953-09-16",
                     "lastname": "Dreizler",
                     "name": "Helmut"
                 },
-                "text": " Dreizler , Helmut , Mannheim , * 16.09.1953"
+                "text": " Dreizler, Helmut, Mannheim, *16.09.1953"
             }
         ]
     }

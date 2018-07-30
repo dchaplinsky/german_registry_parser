@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Kümmersbruck",
+                    "dismissed": true,
                     "dob": "1967-06-06",
                     "lastname": "Kirschner",
                     "name": "Manfred"
                 },
-                "text": " Kirschner , Manfred , Kümmersbruck , * 06.06.1967 ."
+                "text": " Kirschner, Manfred, Kümmersbruck, *06.06.1967."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Liquidator",
+                "class": "NotALiquidator",
                 "payload": {
                     "city": "Kröslin",
+                    "dismissed": true,
                     "dob": "1955-01-15",
-                    "lastname": "Merkel",
+                    "lastname": ": Merkel",
                     "name": "Heinz"
                 },
-                "text": " Merkel , Heinz , Kröslin , * 15.01.1955 ."
+                "text": ": Merkel, Heinz, Kröslin, *15.01.1955."
             },
             {
                 "class": "Liquidator",
@@ -35,7 +36,7 @@
                     "lastname": "Krietsch",
                     "name": "Tom"
                 },
-                "text": " Krietsch , Tom , Weitenhagen , * 11.02.1975 ."
+                "text": " Krietsch, Tom, Weitenhagen, *11.02.1975."
             }
         ]
     }

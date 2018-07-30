@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bochum",
-                    "lastname": "Marek - Dieling",
+                    "dismissed": true,
+                    "lastname": "Marek-Dieling",
                     "name": "Maria",
                     "position": "Kauffrau"
                 },
-                "text": " Marek - Dieling , Maria , Kauffrau , Bochum ."
+                "text": " Marek-Dieling, Maria, Kauffrau, Bochum."
             }
         ]
     }

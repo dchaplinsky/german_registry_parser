@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Tübingen",
+                    "dismissed": true,
                     "dob": "1975-03-21",
                     "lastname": "Nefzer",
                     "name": "Katja"
                 },
-                "text": " Nefzer , Katja , Tübingen , * 21.03.1975"
+                "text": " Nefzer, Katja, Tübingen, *21.03.1975"
             },
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "New York / USA",
+                    "city": "New York/USA",
                     "dob": "1970-02-19",
                     "flag": "sole representation",
-                    "lastname": "Rego",
+                    "lastname": ": Rego",
                     "name": "Matthew Thomas"
                 },
-                "text": " Rego , Matthew Thomas , New York / USA , * 19.02.1970 , einzelvertretungsberechtigt ."
+                "text": ": Rego, Matthew Thomas, New York/USA, *19.02.1970, einzelvertretungsberechtigt."
             }
         ]
     }

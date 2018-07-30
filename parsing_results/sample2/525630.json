@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Küppersbuschstraße 16 , 45883 Gelsenkirchen ."
+                "text": " Küppersbuschstraße 16, 45883 Gelsenkirchen."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Bochum",
+                    "dismissed": true,
                     "dob": "1960-07-22",
                     "lastname": "Huber",
                     "name": "Michael"
                 },
-                "text": " Huber , Michael , Bochum , * 22.07.1960 ."
+                "text": " Huber, Michael, Bochum, *22.07.1960."
             }
         ]
     }

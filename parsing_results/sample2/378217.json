@@ -21,11 +21,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1956-07-29",
-                    "lastname": "Dr . Giersiepen",
+                    "lastname": "Doctor Giersiepen",
                     "name": "Martin"
                 },
-                "text": " Dr . Giersiepen , Martin , München , * 29.07.1956 ."
+                "text": " Doctor Giersiepen, Martin, München, *29.07.1956."
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Sommer",
                     "name": "Jürgen"
                 },
-                "text": " Sommer , Jürgen , Berglern , * 06.02.1966 ."
+                "text": " Sommer, Jürgen, Berglern, *06.02.1966."
             }
         ]
     }

@@ -19,23 +19,24 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Südliche Münchner Str ."
+                "text": " Südliche Münchner Str."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Center Verwaltungsgesellschaft mbH , Berg ( Amtsgericht München , HRB 176436 ) ."
+                    "company_name": " Center Verwaltungsgesellschaft mbH, Berg (Amtsgericht München, HRB 176436)."
                 },
-                "text": " Center Verwaltungsgesellschaft mbH , Berg ( Amtsgericht München , HRB 176436 ) ."
+                "text": " Center Verwaltungsgesellschaft mbH, Berg (Amtsgericht München, HRB 176436)."
             },
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "company_name": " Center Grundstücksverwaltungsgesellschaft mbH , Berg ( Amtsgericht München HRB 80642 ) ."
+                    "company_name": " Center Grundstücksverwaltungsgesellschaft mbH, Berg (Amtsgericht München HRB 80642).",
+                    "dismissed": true
                 },
-                "text": " Center Grundstücksverwaltungsgesellschaft mbH , Berg ( Amtsgericht München HRB 80642 ) ."
+                "text": " Center Grundstücksverwaltungsgesellschaft mbH, Berg (Amtsgericht München HRB 80642)."
             }
         ]
     }

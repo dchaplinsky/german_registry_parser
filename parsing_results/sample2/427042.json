@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Temmlerstraße 17 , 35039 Marburg ."
+                "text": " Temmlerstraße 17, 35039 Marburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Marburg",
+                    "dismissed": true,
                     "dob": "1940-12-07",
                     "lastname": "Schütt",
                     "name": "Reinhold"
                 },
-                "text": " Schütt , Reinhold , Marburg , * 12.07.1940 ."
+                "text": " Schütt, Reinhold, Marburg, *12.07.1940."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Marburg",
                     "dob": "1969-03-09",
@@ -42,17 +43,18 @@
                     "lastname": "Schütt",
                     "name": "Björn Olaf"
                 },
-                "text": " Schütt , Björn Olaf , Marburg , * 03.09.1969 , einzelvertretungsberechtigt ."
+                "text": " Schütt, Björn Olaf, Marburg, *03.09.1969, einzelvertretungsberechtigt."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Marburg",
+                    "dismissed": true,
                     "dob": "1969-03-09",
                     "lastname": "Schütt",
                     "name": "Björn Olaf"
                 },
-                "text": " Schütt , Björn Olaf , Marburg , * 03.09.1969 ."
+                "text": " Schütt, Björn Olaf, Marburg, *03.09.1969."
             }
         ]
     }

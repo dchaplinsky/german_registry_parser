@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Vittoriosa / Malta / Malta",
+                    "city": "Vittoriosa/Malta / Malta",
+                    "dismissed": true,
                     "dob": "1944-04-13",
                     "lastname": "Rademaker",
                     "name": "Dietgar"
                 },
-                "text": " Rademaker , Dietgar , Vittoriosa / Malta / Malta , * 13.04.1944 ."
+                "text": " Rademaker, Dietgar, Vittoriosa/Malta / Malta, *13.04.1944."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Viersen",
                     "dob": "1971-03-25",
@@ -36,7 +37,7 @@
                     "lastname": "Abbriata",
                     "name": "Christian Oscar"
                 },
-                "text": " Abbriata , Christian Oscar , Viersen , * 25.03.1971 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Abbriata, Christian Oscar, Viersen, *25.03.1971, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

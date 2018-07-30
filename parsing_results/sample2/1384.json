@@ -19,15 +19,15 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "officers": [
@@ -39,31 +39,25 @@
                     "lastname": "Hartwich",
                     "name": "Lothar"
                 },
-                "text": " Hartwich , Lothar , * 30.04.1965 , Hamburg"
+                "text": " Hartwich, Lothar, *30.04.1965, Hamburg"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Vroom",
                     "name": "Andreas"
                 },
-                "text": " Vroom , Andreas"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Nicht mehr Prokurist : Vroom",
-                    "name": "Andreas"
-                },
-                "text": " Nicht mehr Prokurist : Vroom , Andreas"
+                "text": " Vroom, Andreas"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Hartwich",
                     "name": "Lothar"
                 },
-                "text": " Hartwich , Lothar ."
+                "text": " Hartwich, Lothar."
             }
         ]
     }

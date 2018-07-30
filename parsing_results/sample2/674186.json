@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1964-05-22",
                     "lastname": "Fehrlage",
                     "name": "Arne O"
                 },
-                "text": " Fehrlage , Arne O . , München , * 22.05.1964 ."
+                "text": " Fehrlage, Arne O., München, *22.05.1964."
             },
             {
                 "class": "Liquidator",
@@ -41,7 +42,7 @@
                     "lastname": "Fassbender",
                     "name": "Guido"
                 },
-                "text": " Fassbender , Guido , Rheine , * 12.12.1967 ."
+                "text": " Fassbender, Guido, Rheine, *12.12.1967."
             }
         ]
     }

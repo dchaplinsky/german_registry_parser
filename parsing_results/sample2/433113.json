@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Hohenzollernstraße 24 , 45128 Essen ."
+                "text": " Hohenzollernstraße 24, 45128 Essen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1947-11-20",
                     "lastname": "Alber",
                     "name": "Heinz"
                 },
-                "text": " Alber , Heinz , Düsseldorf , * 20.11.1947 ."
+                "text": " Alber, Heinz, Düsseldorf, *20.11.1947."
             },
             {
                 "class": "CommonProcuration",
@@ -41,17 +42,17 @@
                     "lastname": "Baumgarten",
                     "name": "Christian"
                 },
-                "text": " Baumgarten , Christian , Essen , * 04.01.1966"
+                "text": " Baumgarten, Christian, Essen, *04.01.1966"
             },
             {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Düsseldorf",
                     "dob": "1972-05-21",
-                    "lastname": "Gesamtprokura gemeinsam mit einem Geschäftsführer oder einem anderen Prokuristen : Sövegjarto",
+                    "lastname": "Gesamtprokura gemeinsam mit einem Geschäftsführer oder einem anderen Prokuristen: Sövegjarto",
                     "name": "Ralf"
                 },
-                "text": " Gesamtprokura gemeinsam mit einem Geschäftsführer oder einem anderen Prokuristen : Sövegjarto , Ralf , Düsseldorf , * 21.05.1972 ."
+                "text": " Gesamtprokura gemeinsam mit einem Geschäftsführer oder einem anderen Prokuristen: Sövegjarto, Ralf, Düsseldorf, *21.05.1972."
             }
         ]
     }

@@ -18,18 +18,19 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "company_name": " Zweite Fehn Beteiligungs GmbH , Leer ( Amtsgericht Aurich , HRB 200719 ) ."
+                    "company_name": " Zweite Fehn Beteiligungs GmbH, Leer (Amtsgericht Aurich, HRB 200719).",
+                    "dismissed": true
                 },
-                "text": " Zweite Fehn Beteiligungs GmbH , Leer ( Amtsgericht Aurich , HRB 200719 ) ."
+                "text": " Zweite Fehn Beteiligungs GmbH, Leer (Amtsgericht Aurich, HRB 200719)."
             },
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Vierte Fehn Beteiligungs GmbH , Leer ( Amtsgericht Aurich , HRB 200892 ) ."
+                    "company_name": " Vierte Fehn Beteiligungs GmbH, Leer (Amtsgericht Aurich, HRB 200892)."
                 },
-                "text": " Vierte Fehn Beteiligungs GmbH , Leer ( Amtsgericht Aurich , HRB 200892 ) ."
+                "text": " Vierte Fehn Beteiligungs GmbH, Leer (Amtsgericht Aurich, HRB 200892)."
             }
         ]
     }

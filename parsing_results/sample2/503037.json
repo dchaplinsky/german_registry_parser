@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Dietrich - von - Scharfenberg - Straße 1 , 37281 Wanfried ."
+                "text": " Dietrich-von-Scharfenberg-Straße 1, 37281 Wanfried."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wanfried",
+                    "dismissed": true,
                     "dob": "1979-12-19",
                     "lastname": "Arndt",
                     "name": "Sebastian"
                 },
-                "text": " Arndt , Sebastian , Wanfried , * 19.12.1979 ."
+                "text": " Arndt, Sebastian, Wanfried, *19.12.1979."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wanfried",
                     "dob": "1980-10-01",
                     "lastname": "Arndt",
                     "name": "Jasmin"
                 },
-                "text": " Arndt , Jasmin , Wanfried , * 10.01.1980 ."
+                "text": " Arndt, Jasmin, Wanfried, *10.01.1980."
             }
         ]
     }

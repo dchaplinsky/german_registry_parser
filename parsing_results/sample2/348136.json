@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Gütersloh",
+                    "dismissed": true,
                     "dob": "1980-08-21",
                     "lastname": "Wink",
                     "name": "Ingo"
                 },
-                "text": " Wink , Ingo , Gütersloh , * 21.08.1980 ."
+                "text": " Wink, Ingo, Gütersloh, *21.08.1980."
             },
             {
                 "class": "Liquidator",
@@ -41,7 +42,7 @@
                     "lastname": "Hakobyan",
                     "name": "Nona"
                 },
-                "text": " Hakobyan , Nona , Bielefeld , * 12.11.1988 ."
+                "text": " Hakobyan, Nona, Bielefeld, *12.11.1988."
             }
         ]
     }

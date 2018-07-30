@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Bark",
                     "name": "Beatrice"
                 },
-                "text": " Bark , Beatrice ."
+                "text": " Bark, Beatrice."
             },
             {
                 "class": "ManagingDirector",
@@ -31,10 +32,10 @@
                     "city": "Wuppertal",
                     "dob": "1962-02-05",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Taubert - Jüttner",
+                    "lastname": "Taubert-Jüttner",
                     "name": "Sabine"
                 },
-                "text": " Taubert - Jüttner , Sabine , Wuppertal , * 02.05.1962 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Taubert-Jüttner, Sabine, Wuppertal, *02.05.1962, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

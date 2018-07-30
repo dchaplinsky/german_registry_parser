@@ -18,35 +18,37 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Oberbiberg",
+                    "dismissed": true,
                     "dob": "1977-08-27",
                     "lastname": "Harle",
                     "name": "Robert"
                 },
-                "text": " Harle , Robert , Oberbiberg , * 27.08.1977 ."
+                "text": " Harle, Robert, Oberbiberg, *27.08.1977."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1974-11-21",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Essers",
                     "name": "Jan"
                 },
-                "text": " Essers , Jan , München , * 21.11.1974 , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Essers, Jan, München, *21.11.1974, mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1974-11-21",
                     "lastname": "Essers",
                     "name": "Jan"
                 },
-                "text": " Essers , Jan , München , * 21.11.1974 ."
+                "text": " Essers, Jan, München, *21.11.1974."
             }
         ]
     }

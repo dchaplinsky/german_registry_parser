@@ -19,7 +19,16 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
+            }
+        ],
+        "officers": [
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " LIV Lammerting Immobilien Vermietungsgesellschaft mbH."
+                },
+                "text": " LIV Lammerting Immobilien Vermietungsgesellschaft mbH."
             }
         ]
     }

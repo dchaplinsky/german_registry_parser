@@ -18,13 +18,14 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Dortmund",
+                    "dismissed": true,
                     "lastname": "Wonchalla",
                     "name": "Karl"
                 },
-                "text": " Wonchalla , Karl , Dortmund"
+                "text": " Wonchalla, Karl, Dortmund"
             },
             {
                 "class": "Owner",
@@ -34,7 +35,7 @@
                     "lastname": "Wonchalla",
                     "name": "Irmgard"
                 },
-                "text": " Wonchalla , Irmgard , Dortmund , * 19.05.1933 ."
+                "text": " Wonchalla, Irmgard, Dortmund, *19.05.1933."
             }
         ]
     }

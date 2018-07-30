@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Zürich",
+                    "dismissed": true,
                     "dob": "1971-05-21",
-                    "lastname": "Dr . Wendel",
+                    "lastname": "Doctor Wendel",
                     "name": "Volker"
                 },
-                "text": " Dr . Wendel , Volker , Zürich , * 21.05.1971 ."
+                "text": " Doctor Wendel, Volker, Zürich, *21.05.1971."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Ueckermünde",
                     "dob": "1970-04-11",
                     "lastname": "Firneisen",
                     "name": "Kai"
                 },
-                "text": " Firneisen , Kai , Ueckermünde , * 04.11.1970 ."
+                "text": " Firneisen, Kai, Ueckermünde, *04.11.1970."
             }
         ]
     }

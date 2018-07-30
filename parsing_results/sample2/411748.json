@@ -19,12 +19,12 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wald / Österreich",
                     "dob": "1953-07-30",
@@ -32,17 +32,18 @@
                     "lastname": "Novotny",
                     "name": "Albert"
                 },
-                "text": " Novotny , Albert , Wald / Österreich , * 30.07.1953 , einzelvertretungsberechtigt"
+                "text": " Novotny, Albert, Wald / Österreich, *30.07.1953, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Büdingen",
+                    "dismissed": true,
                     "dob": "1976-02-15",
                     "lastname": "Lorenz",
                     "name": "Anja"
                 },
-                "text": " Lorenz , Anja , Büdingen , * 15.02.1976 ."
+                "text": " Lorenz, Anja, Büdingen, *15.02.1976."
             }
         ]
     }

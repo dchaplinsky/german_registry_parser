@@ -16,27 +16,27 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=478136&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Fischer , Erwin , Kaufmann , Preußisch Oldendorf , * 01.08.1951 ., error text was Cannot parse DOB  Kaufmann  using regex"
-            }
-        ],
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "labels": [
             {
                 "label": "address",
-                "text": " Wattenscheider Hellweg 224 , 44869 Bochum ."
+                "text": " Wattenscheider Hellweg 224, 44869 Bochum."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Preußisch Oldendorf",
+                    "dismissed": true,
+                    "dob": "1951-01-08",
+                    "lastname": "Fischer",
+                    "name": "Erwin",
+                    "position": "Kaufmann"
+                },
+                "text": " Fischer, Erwin, Kaufmann, Preußisch Oldendorf, *01.08.1951."
+            },
+            {
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Essen",
                     "dob": "1964-11-15",
@@ -44,7 +44,7 @@
                     "lastname": "Köckritz",
                     "name": "Thomas"
                 },
-                "text": " Köckritz , Thomas , Essen , * 15.11.1964 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Köckritz, Thomas, Essen, *15.11.1964, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",
@@ -54,17 +54,7 @@
                     "lastname": "Simon",
                     "name": "Elke"
                 },
-                "text": " Simon , Elke , Bochum , * 18.06.1958 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Bochum",
-                    "dob": "1958-06-18",
-                    "lastname": "Simon",
-                    "name": "Elke"
-                },
-                "text": " Simon , Elke , Bochum , * 18.06.1958 ."
+                "text": " Simon, Elke, Bochum, *18.06.1958."
             }
         ]
     }

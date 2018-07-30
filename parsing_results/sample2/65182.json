@@ -18,14 +18,14 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kitzscher",
                     "dob": "1952-08-04",
                     "lastname": "Büttner",
                     "name": "Andreas"
                 },
-                "text": " Büttner , Andreas , Kitzscher , * 08.04.1952"
+                "text": " Büttner, Andreas, Kitzscher, *08.04.1952"
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +35,7 @@
                     "lastname": "Jahn",
                     "name": "Tobias"
                 },
-                "text": " Jahn , Tobias , Erfurt , * 23.02.1966"
+                "text": " Jahn, Tobias, Erfurt, *23.02.1966"
             }
         ]
     }

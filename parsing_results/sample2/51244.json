@@ -19,40 +19,41 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kriftel",
+                    "dismissed": true,
                     "lastname": "Witt",
                     "name": "Johannes",
                     "position": "Kaufmann"
                 },
-                "text": " Witt , Johannes , Kaufmann , Kriftel ."
+                "text": " Witt, Johannes, Kaufmann, Kriftel."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Paris / Frankreich",
+                    "city": "Paris/ Frankreich",
                     "dob": "1955-01-26",
                     "flag": "sole representation",
                     "lastname": "Adam",
                     "name": "Patrick"
                 },
-                "text": " Adam , Patrick , Paris / Frankreich , * 26.01.1955 , einzelvertretungsberechtigt"
+                "text": " Adam, Patrick, Paris/ Frankreich, *26.01.1955, einzelvertretungsberechtigt"
             },
             {
                 "class": "CommonProcuration",
                 "payload": {
-                    "city": "Versailles / Frankreich",
+                    "city": "Versailles/ Frankreich",
                     "dob": "1974-11-21",
-                    "lastname": "Roger - Kouyoumdjan",
+                    "lastname": "Roger-Kouyoumdjan",
                     "name": "Johann Georges Stéphane"
                 },
-                "text": " Roger - Kouyoumdjan , Johann Georges Stéphane , Versailles / Frankreich , * 21.11.1974 ."
+                "text": " Roger-Kouyoumdjan, Johann Georges Stéphane, Versailles/ Frankreich, *21.11.1974."
             }
         ]
     }

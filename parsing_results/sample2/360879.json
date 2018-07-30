@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Heinrichstr ."
+                "text": " Heinrichstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rüdesheim am Rhein",
+                    "dismissed": true,
                     "dob": "1973-05-11",
                     "lastname": "Semmler",
                     "name": "Mark"
                 },
-                "text": " Semmler , Mark , Rüdesheim am Rhein , * 05.11.1973 ."
+                "text": " Semmler, Mark, Rüdesheim am Rhein, *05.11.1973."
             }
         ]
     }

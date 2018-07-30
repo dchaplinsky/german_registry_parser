@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Karl - Bierschenk - Str ."
+                "text": " Karl-Bierschenk-Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bad Rappenau",
+                    "dismissed": true,
                     "dob": "1983-11-13",
                     "lastname": "Müller",
                     "name": "Sebastian"
                 },
-                "text": " Müller , Sebastian , Bad Rappenau , * 13.11.1983 ."
+                "text": " Müller, Sebastian, Bad Rappenau, *13.11.1983."
             }
         ]
     }

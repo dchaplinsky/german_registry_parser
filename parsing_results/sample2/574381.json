@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=574381&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Jetter",
                     "name": "Nico"
                 },
-                "text": " Jetter , Nico , Hechingen , * 01.04.1982 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hechingen",
-                    "dob": "1982-01-04",
-                    "lastname": "Jetter",
-                    "name": "Nico"
-                },
-                "text": " Jetter , Nico , Hechingen , * 01.04.1982 ."
+                "text": " Jetter, Nico, Hechingen, *01.04.1982."
             }
         ]
     }

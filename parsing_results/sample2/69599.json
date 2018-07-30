@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "lastname": "Dr . Heer",
+                    "dismissed": true,
+                    "lastname": "Doctor Heer",
                     "name": "Wolfgang Helmut"
                 },
-                "text": " Dr . Heer , Wolfgang Helmut"
+                "text": " Doctor Heer, Wolfgang Helmut"
             },
             {
                 "class": "ManagingDirector",
@@ -31,9 +32,9 @@
                     "city": "Berlin",
                     "dob": "1953-07-12",
                     "lastname": "Schulz",
-                    "name": "Hans - Detlev"
+                    "name": "Hans-Detlev"
                 },
-                "text": " Schulz , Hans - Detlev , * 07.12.1953 , Berlin"
+                "text": " Schulz, Hans-Detlev, *07.12.1953, Berlin"
             }
         ]
     }

@@ -19,33 +19,36 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Mepadi UG ( haftungsbeschränkt ) , Berlin , Auguststraße 58 , 10119 Berlin ."
+                "text": " Mepadi UG (haftungsbeschränkt), Berlin, Auguststraße 58, 10119 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "lastname": "Brill - Völkle",
+                    "dismissed": true,
+                    "lastname": "Brill-Völkle",
                     "name": "Keenan Hugo Lawrence Helmut"
                 },
-                "text": " Brill - Völkle , Keenan Hugo Lawrence Helmut"
+                "text": " Brill-Völkle, Keenan Hugo Lawrence Helmut"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Hüsgen",
                     "name": "Jasper"
                 },
-                "text": " Hüsgen , Jasper"
+                "text": " Hüsgen, Jasper"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Nagel",
                     "name": "Julian Philipp"
                 },
-                "text": " Nagel , Julian Philipp"
+                "text": " Nagel, Julian Philipp"
             },
             {
                 "class": "Liquidator",
@@ -55,7 +58,7 @@
                     "lastname": "Nagel",
                     "name": "Frederik"
                 },
-                "text": " Nagel , Frederik , * 05.03.1991 , Kiel"
+                "text": " Nagel, Frederik, *05.03.1991, Kiel"
             }
         ]
     }

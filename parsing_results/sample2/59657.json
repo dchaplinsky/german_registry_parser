@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=59657&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Lee",
                     "name": "Gil Hun"
                 },
-                "text": " Lee , Gil Hun , Frankfurt am Main , * 06.10.1973 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Frankfurt am Main",
-                    "dob": "1973-06-10",
-                    "lastname": "Lee",
-                    "name": "Gil Hun"
-                },
-                "text": " Lee , Gil Hun , Frankfurt am Main , * 06.10.1973 ."
+                "text": " Lee, Gil Hun, Frankfurt am Main, *06.10.1973."
             }
         ]
     }

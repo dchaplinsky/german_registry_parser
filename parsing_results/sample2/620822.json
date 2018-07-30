@@ -16,26 +16,23 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=620822&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a SingleProcuration from  Höhne , Yvonne , Pfaffenhofen , Wagenhofen , * 19.08.1972, error text was Cannot parse DOB  Pfaffenhofen  using regex"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Procuration from  Höhne , Yvonne , Pfaffenhofen , Wagenhofen , * 19.08.1972, error text was Cannot parse DOB  Pfaffenhofen  using regex"
-            }
-        ],
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "labels": [
             {
                 "label": "address",
-                "text": " Umbacher Str ."
+                "text": " Umbacher Str."
+            }
+        ],
+        "officers": [
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Wagenhofen",
+                    "dob": "1972-08-19",
+                    "lastname": "Höhne",
+                    "name": "Yvonne",
+                    "position": "Pfaffenhofen"
+                },
+                "text": " Höhne, Yvonne, Pfaffenhofen, Wagenhofen, *19.08.1972"
             }
         ]
     }

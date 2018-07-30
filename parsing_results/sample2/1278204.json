@@ -18,30 +18,31 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
-                "text": "Sind mehrere Geschäftsführer bestellt , wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten ."
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ wird\\ die\\ Gesellschaft\\ gemeinschaftlich\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ in\\ Gemeinschaft\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Hochheimer Weg 26 , 53343 Wachtberg ."
+                "text": " Hochheimer Weg 26, 53343 Wachtberg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Fockbek",
+                    "dismissed": true,
                     "dob": "1989-02-18",
                     "lastname": "Brüger",
-                    "name": "Jan - Hendrik"
+                    "name": "Jan-Hendrik"
                 },
-                "text": " Brüger , Jan - Hendrik , Fockbek , * 18.02.1989 ."
+                "text": " Brüger, Jan-Hendrik, Fockbek, *18.02.1989."
             },
             {
                 "class": "ManagingDirector",
@@ -50,9 +51,9 @@
                     "dob": "1992-08-19",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Schäfer",
-                    "name": "Marie - Claire"
+                    "name": "Marie-Claire"
                 },
-                "text": " Schäfer , Marie - Claire , Wachtberg , * 19.08.1992 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schäfer, Marie-Claire, Wachtberg, *19.08.1992, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

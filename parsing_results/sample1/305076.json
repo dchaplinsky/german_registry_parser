@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=305076&land_abk=hh"
     },
     "parsed": {
+        "flags": [
+            {
+                "flag": "Exclusive power of representation can be granted.",
+                "text": "Alleinvertretungsbefugnis\\ kann\\ erteilt\\ werden\\."
+            },
+            {
+                "flag": "ignore_for_now",
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
+            }
+        ],
         "officers": [
             {
                 "class": "Liquidator",
@@ -26,17 +36,18 @@
                     "lastname": "wolff",
                     "name": "katharina"
                 },
-                "text": " wolff , katharina , hamburg , * 30.11.1983 , vertretungsberechtigt gemäß allgemeiner vertretungsregelung ."
+                "text": " wolff, katharina, hamburg, *30.11.1983, vertretungsberechtigt gemäß allgemeiner vertretungsregelung."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "hamburg",
+                    "dismissed": true,
                     "dob": "1987-10-31",
                     "lastname": "fielker",
                     "name": "max"
                 },
-                "text": " fielker , max , hamburg , * 31.10.1987 . die gesellschaft ist aufgelöst ."
+                "text": " fielker, max, hamburg, *31.10.1987. die gesellschaft ist aufgelöst."
             }
         ]
     }

@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1969-09-03",
                     "lastname": "Wegener",
                     "name": "Andreas"
                 },
-                "text": " Wegener , Andreas , Düsseldorf , * 09.03.1969 ."
+                "text": " Wegener, Andreas, Düsseldorf, *09.03.1969."
             },
             {
                 "class": "Liquidator",
@@ -42,7 +43,7 @@
                     "lastname": "Hackstein",
                     "name": "Rainer"
                 },
-                "text": " Hackstein , Rainer , Duisburg , * 05.11.1955 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Hackstein, Rainer, Duisburg, *05.11.1955, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

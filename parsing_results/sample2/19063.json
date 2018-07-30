@@ -18,34 +18,36 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Dresden",
+                    "dismissed": true,
                     "dob": "1974-01-13",
                     "lastname": "Kliebenstein",
                     "name": "Isabella"
                 },
-                "text": " Kliebenstein , Isabella , Dresden , * 13.01.1974 ."
+                "text": " Kliebenstein, Isabella, Dresden, *13.01.1974."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Markkleeberg",
                     "dob": "1948-03-11",
                     "lastname": "Kliebenstein",
-                    "name": "Hans - Jürgen"
+                    "name": "Hans-Jürgen"
                 },
-                "text": " Kliebenstein , Hans - Jürgen , Markkleeberg , * 03.11.1948"
+                "text": " Kliebenstein, Hans-Jürgen, Markkleeberg, *03.11.1948"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Dresden",
+                    "dismissed": true,
                     "dob": "1948-03-11",
                     "lastname": "Kliebenstein",
-                    "name": "Hans - Jürgen"
+                    "name": "Hans-Jürgen"
                 },
-                "text": " Kliebenstein , Hans - Jürgen , Dresden , * 03.11.1948 ."
+                "text": " Kliebenstein, Hans-Jürgen, Dresden, *03.11.1948."
             }
         ]
     }

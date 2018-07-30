@@ -16,45 +16,27 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=80940&land_abk=be"
     },
     "parsed": {
-        "labels": [
-            {
-                "label": "company",
-                "text": " Geschäftsanschrift : Beeskowdamm 3-11 , 14167 Berlin Nicht mehr Geschäftsführer : Schanne , Hubert Alex Prokura : Oster , Kerstin , * 22.05.1967 , Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Beeskowdamm 3-11 , 14167 Berlin Nicht mehr Geschäftsführer : Schanne , Hubert Alex Prokura : Oster , Kerstin , * 22.05.1967 , Berlin"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kerstin",
+                    "dismissed": true,
                     "dob": "1967-05-22",
                     "flag": "Berlin",
                     "lastname": "Schanne",
-                    "name": "Hubert Alex Prokura : Oster"
+                    "name": "Hubert Alex Prokura: Oster"
                 },
-                "text": " Schanne , Hubert Alex Prokura : Oster , Kerstin , * 22.05.1967 , Berlin"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Berlin",
-                    "dob": "1967-05-22",
-                    "lastname": "Oster",
-                    "name": "Kerstin"
-                },
-                "text": " Oster , Kerstin , * 22.05.1967 , Berlin"
+                "text": " Schanne, Hubert Alex Prokura: Oster, Kerstin, *22.05.1967, Berlin"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Rieger",
                     "name": "Richard"
                 },
-                "text": " Rieger , Richard ."
+                "text": " Rieger, Richard."
             }
         ]
     }

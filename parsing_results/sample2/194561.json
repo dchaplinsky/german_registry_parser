@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Eleonorenstraße 64 , 55252 Mainz - Kastel ."
+                "text": " Eleonorenstraße 64, 55252 Mainz-Kastel."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Heusenstamm",
+                    "dismissed": true,
                     "dob": "1944-12-06",
                     "lastname": "Feiler",
                     "name": "Michael"
                 },
-                "text": " Feiler , Michael , Heusenstamm , * 12.06.1944 ."
+                "text": " Feiler, Michael, Heusenstamm, *12.06.1944."
             }
         ]
     }

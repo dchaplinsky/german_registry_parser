@@ -19,29 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " ABSOLID GmbH Die Fondsdetektive , Berlin , Kantstraße 48 , 10625 Berlin ."
+                "text": " ABSOLID GmbH Die Fondsdetektive, Berlin, Kantstraße 48, 10625 Berlin."
             },
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Kantstraße 48 , 10625 Berlin"
+                "text": " Geschäftsanschrift: Kantstraße 48, 10625 Berlin"
             },
             {
                 "label": "address",
-                "text": " Kantstraße 48 , 10625 Berlin"
+                "text": " Kantstraße 48, 10625 Berlin"
             }
         ],
         "officers": [
@@ -53,15 +53,16 @@
                     "lastname": "Berger",
                     "name": "Gabriele"
                 },
-                "text": " Berger , Gabriele , * 27.03.1947 , Berlin"
+                "text": " Berger, Gabriele, *27.03.1947, Berlin"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Berger",
                     "name": "Oliver"
                 },
-                "text": " Berger , Oliver"
+                "text": " Berger, Oliver"
             }
         ]
     }

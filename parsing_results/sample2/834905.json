@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "CZE Prag",
+                    "dismissed": true,
                     "dob": "1971-04-25",
                     "lastname": "Kuznetsova",
                     "name": "Natalia"
                 },
-                "text": " Kuznetsova , Natalia , CZE Prag , * 25.04.1971 ."
+                "text": " Kuznetsova, Natalia, CZE Prag, *25.04.1971."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Prag / Tschechische Republik",
+                    "city": "Prag/Tschechische Republik",
                     "dob": "1957-05-01",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Tagiev",
                     "name": "Konstantin"
                 },
-                "text": " Tagiev , Konstantin , Prag / Tschechische Republik , * 05.01.1957 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Tagiev, Konstantin, Prag/Tschechische Republik, *05.01.1957, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

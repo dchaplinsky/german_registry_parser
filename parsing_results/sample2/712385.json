@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "lastname": "A - HEAT Allied Heat Exchange Technology AG",
-                    "name": "München ( Amtsgericht München HRB 140545 )"
+                    "dismissed": true,
+                    "lastname": "A-HEAT Allied Heat Exchange Technology AG",
+                    "name": "München (Amtsgericht München HRB 140545)"
                 },
-                "text": " A - HEAT Allied Heat Exchange Technology AG , München ( Amtsgericht München HRB 140545 ) ."
+                "text": " A-HEAT Allied Heat Exchange Technology AG, München (Amtsgericht München HRB 140545)."
             }
         ]
     }

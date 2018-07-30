@@ -19,18 +19,19 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Uferstr ."
+                "text": " Uferstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Dipl",
+                    "dismissed": true,
                     "lastname": "Sievers",
                     "name": "Rainer"
                 },
-                "text": " Sievers , Rainer , Dipl ."
+                "text": " Sievers, Rainer, Dipl."
             }
         ]
     }

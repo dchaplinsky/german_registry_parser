@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Hojen 18 , 87490 Haldenwang ."
+                "text": " Hojen 18, 87490 Haldenwang."
             }
         ],
         "officers": [
@@ -31,17 +31,18 @@
                     "lastname": "Schilling",
                     "name": "Claus Dieter"
                 },
-                "text": " Schilling , Claus Dieter , Haldenwang , * 17.08.1965 ."
+                "text": " Schilling, Claus Dieter, Haldenwang, *17.08.1965."
             },
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Haldenwang",
+                    "dismissed": true,
                     "dob": "1935-02-25",
                     "lastname": "Schilling",
                     "name": "Josef"
                 },
-                "text": " Schilling , Josef , Haldenwang , * 25.02.1935 ."
+                "text": " Schilling, Josef, Haldenwang, *25.02.1935."
             }
         ]
     }

@@ -20,20 +20,21 @@
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Dublin 6 W",
+                    "city": "Dublin 6W",
                     "dob": "1965-01-28",
                     "lastname": "O'Driscoll",
                     "name": "Terence"
                 },
-                "text": " O'Driscoll , Terence , * 28.01.1965 , Dublin 6 W"
+                "text": " O'Driscoll, Terence, *28.01.1965, Dublin 6W"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Holst",
                     "name": "Andreas"
                 },
-                "text": " Holst , Andreas .."
+                "text": " Holst, Andreas.."
             }
         ]
     }

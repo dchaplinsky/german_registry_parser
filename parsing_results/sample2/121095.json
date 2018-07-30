@@ -16,43 +16,49 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=121095&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Ball , David , Chicago , Illinois / USA , * 18.11.1969, error text was Cannot parse DOB  Chicago  using regex"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Lake Forest / USA",
+                    "city": "Illinois/USA",
+                    "dismissed": true,
+                    "dob": "1969-11-18",
+                    "lastname": "Ball",
+                    "name": "David",
+                    "position": "Chicago"
+                },
+                "text": " Ball, David, Chicago, Illinois/USA, *18.11.1969"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Lake Forest/USA",
                     "dob": "1944-02-18",
                     "lastname": "Osborne",
                     "name": "Richard"
                 },
-                "text": " Osborne , Richard , Lake Forest / USA , * 18.02.1944 ."
+                "text": " Osborne, Richard, Lake Forest/USA, *18.02.1944."
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1950-10-18",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Dr . Urbanek",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Doctor Urbanek",
                     "name": "Otto"
                 },
-                "text": " Dr . Urbanek , Otto , München , * 18.10.1950 , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Urbanek, Otto, München, *18.10.1950, mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "München",
                     "dob": "1960-06-21",
-                    "lastname": "Dr . Auer",
+                    "lastname": "Doctor Auer",
                     "name": "Stefan"
                 },
-                "text": " Dr . Auer , Stefan , München , * 21.06.1960"
+                "text": " Doctor Auer, Stefan, München, *21.06.1960"
             }
         ]
     }

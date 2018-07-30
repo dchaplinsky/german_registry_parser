@@ -19,35 +19,26 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "company",
-                "text": " Geschäftsanschrift : Franz - Mehring - Platz 1 , 10243 Berlin Nicht mehr Geschäftsführer : Fernandez - Albiach , Eva Maria"
-            },
-            {
-                "label": "address",
-                "text": " Franz - Mehring - Platz 1 , 10243 Berlin Nicht mehr Geschäftsführer : Fernandez - Albiach , Eva Maria"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "lastname": "Fernandez - Albiach",
+                    "dismissed": true,
+                    "lastname": "Fernandez-Albiach",
                     "name": "Eva Maria"
                 },
-                "text": " Fernandez - Albiach , Eva Maria"
+                "text": " Fernandez-Albiach, Eva Maria"
             },
             {
                 "class": "ManagingDirector",
@@ -57,7 +48,7 @@
                     "lastname": "Runge",
                     "name": "Thomas"
                 },
-                "text": " Runge , Thomas , * 26.11.1973 , Groß Köris"
+                "text": " Runge, Thomas, *26.11.1973, Groß Köris"
             }
         ]
     }

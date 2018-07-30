@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Camburger Straße 44 , 99518 Bad Sulza ."
+                "text": " Camburger Straße 44, 99518 Bad Sulza."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Bad Sulza",
+                    "dismissed": true,
                     "dob": "1947-11-16",
                     "lastname": "Werner",
                     "name": "Klaus"
                 },
-                "text": " Werner , Klaus , Bad Sulza , * 16.11.1947 ."
+                "text": " Werner, Klaus, Bad Sulza, *16.11.1947."
             }
         ]
     }

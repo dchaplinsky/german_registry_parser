@@ -19,40 +19,42 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wernau Neckar",
                     "dob": "1957-11-25",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Lang",
                     "name": "Peter"
                 },
-                "text": " Lang , Peter , Wernau Neckar , * 25.11.1957 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Lang, Peter, Wernau Neckar, *25.11.1957, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1970-06-18",
                     "lastname": "Hüsges",
                     "name": "Mark"
                 },
-                "text": " Hüsges , Mark , München , * 18.06.1970 ."
+                "text": " Hüsges, Mark, München, *18.06.1970."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Wernau Neckar",
+                    "dismissed": true,
                     "dob": "1957-11-25",
                     "lastname": "Lang",
                     "name": "Peter"
                 },
-                "text": " Lang , Peter , Wernau Neckar , * 25.11.1957 ."
+                "text": " Lang, Peter, Wernau Neckar, *25.11.1957."
             }
         ]
     }

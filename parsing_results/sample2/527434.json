@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Offenbach am Main",
+                    "dismissed": true,
                     "dob": "1984-09-19",
                     "lastname": "Kreuzer",
                     "name": "Denis"
                 },
-                "text": " Kreuzer , Denis , Offenbach am Main , * 19.09.1984 ."
+                "text": " Kreuzer, Denis, Offenbach am Main, *19.09.1984."
             }
         ]
     }

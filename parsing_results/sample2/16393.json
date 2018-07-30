@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Siegen",
+                    "dismissed": true,
                     "dob": "1939-11-13",
                     "lastname": "Kring",
                     "name": "Inge"
                 },
-                "text": " Kring , Inge , Siegen , * 13.11.1939 ."
+                "text": " Kring, Inge, Siegen, *13.11.1939."
             }
         ]
     }

@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Moorbecker Straße 17 , 26197 Ahlhorn / Großenkneten ."
+                "text": " Moorbecker Straße 17, 26197 Ahlhorn/Großenkneten."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Lohne",
+                    "dismissed": true,
                     "dob": "1969-12-07",
                     "lastname": "Borchers",
                     "name": "Christian"
                 },
-                "text": " Borchers , Christian , Lohne , * 12.07.1969"
+                "text": " Borchers, Christian, Lohne, *12.07.1969"
             }
         ]
     }

@@ -19,11 +19,25 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Rebig , Peter Paul , Diplom - Kaufmann , Tönisvorst , * 24.06.1953 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ., error text was Cannot parse DOB  Diplom - Kaufmann  using regex"
+                "text": "Cannot parse a AppointedManagingDirector from  Rebig, Peter Paul, Diplom-Kaufmann, Tönisvorst, *24.06.1953, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was Cannot parse DOB  Diplom-Kaufmann using regex"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Harnischmacher , Klaus , Diplom - Volkswirt , Neuss , * 07.07.1941 ., error text was Cannot parse DOB  Diplom - Volkswirt  using regex"
+                "text": "Cannot parse a ManagingDirector from  Rebig, Peter Paul, Diplom-Kaufmann, Tönisvorst, *24.06.1953, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was Cannot parse DOB  Diplom-Kaufmann using regex"
+            }
+        ],
+        "officers": [
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Neuss",
+                    "dismissed": true,
+                    "dob": "1941-07-07",
+                    "lastname": "Harnischmacher",
+                    "name": "Klaus",
+                    "position": "Diplom-Volkswirt"
+                },
+                "text": " Harnischmacher, Klaus, Diplom-Volkswirt, Neuss, *07.07.1941."
             }
         ]
     }

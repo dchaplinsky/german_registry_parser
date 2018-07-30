@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Neunkirchen",
+                    "dismissed": true,
                     "dob": "1971-03-20",
                     "lastname": "Resnikow",
                     "name": "Dmitri"
                 },
-                "text": " Resnikow , Dmitri , Neunkirchen , * 20.03.1971 ."
+                "text": " Resnikow, Dmitri, Neunkirchen, *20.03.1971."
             },
             {
                 "class": "ManagingDirector",
@@ -36,7 +37,7 @@
                     "lastname": "Resnikow",
                     "name": "Olga"
                 },
-                "text": " Resnikow , Olga , Neunkirchen , * 06.02.1969 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Resnikow, Olga, Neunkirchen, *06.02.1969, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

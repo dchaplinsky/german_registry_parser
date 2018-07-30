@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Friedrichstraße 68 , floor 7 , office 773 , 10117 Berlin ."
+                "text": " Friedrichstraße 68, floor 7, office 773, 10117 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1958-12-28",
                     "lastname": "Witt",
                     "name": "Uwe"
                 },
-                "text": " Witt , Uwe , Hamburg , * 28.12.1958 ."
+                "text": " Witt, Uwe, Hamburg, *28.12.1958."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Berlin",
                     "dob": "1982-10-22",
                     "lastname": "Bell",
                     "name": "Cameron Hunter"
                 },
-                "text": " Bell , Cameron Hunter , Berlin , * 22.10.1982"
+                "text": " Bell, Cameron Hunter, Berlin, *22.10.1982"
             }
         ]
     }

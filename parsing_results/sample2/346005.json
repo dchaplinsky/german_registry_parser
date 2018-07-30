@@ -18,34 +18,36 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Haan",
+                    "dismissed": true,
                     "dob": "1941-03-23",
                     "lastname": "Hesselmann",
                     "name": "Hermann"
                 },
-                "text": " Hesselmann , Hermann , Haan , * 23.03.1941"
+                "text": " Hesselmann, Hermann, Haan, *23.03.1941"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
                     "dob": "1959-04-17",
                     "lastname": "Schmitz",
                     "name": "Christoph"
                 },
-                "text": " Schmitz , Christoph , Düsseldorf , * 17.04.1959"
+                "text": " Schmitz, Christoph, Düsseldorf, *17.04.1959"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Korschenbroich",
+                    "dismissed": true,
                     "dob": "1963-09-13",
                     "lastname": "Suchsland",
                     "name": "Martin"
                 },
-                "text": " Suchsland , Martin , Korschenbroich , * 13.09.1963 ."
+                "text": " Suchsland, Martin, Korschenbroich, *13.09.1963."
             }
         ]
     }

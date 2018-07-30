@@ -19,13 +19,13 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Jakob - Heuser - Straße 5 , 35075 Gladenbach ."
+                "text": " Jakob-Heuser-Straße 5, 35075 Gladenbach."
             }
         ],
         "officers": [
@@ -38,17 +38,18 @@
                     "lastname": "Pitzer",
                     "name": "Erwin"
                 },
-                "text": " Pitzer , Erwin , Bad Endbach , * 22.11.1936 , einzelvertretungsberechtigt ."
+                "text": " Pitzer, Erwin, Bad Endbach, *22.11.1936, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Bad Endbach - Bottenhorn",
+                    "city": "Bad Endbach-Bottenhorn",
+                    "dismissed": true,
                     "dob": "1966-02-07",
                     "lastname": "Pitzer",
                     "name": "Dolf"
                 },
-                "text": " Pitzer , Dolf , Bad Endbach - Bottenhorn , * 02.07.1966 ."
+                "text": " Pitzer, Dolf, Bad Endbach-Bottenhorn, *02.07.1966."
             }
         ]
     }

@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Kitzingen",
+                    "dismissed": true,
                     "dob": "1976-04-05",
                     "lastname": "Schaub",
                     "name": "Katja"
                 },
-                "text": " Schaub , Katja , Kitzingen , * 04.05.1976"
+                "text": " Schaub, Katja, Kitzingen, *04.05.1976"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kitzingen",
                     "dob": "1969-08-17",
@@ -42,7 +43,7 @@
                     "lastname": "Schlander",
                     "name": "Michael"
                 },
-                "text": " Schlander , Michael , Kitzingen , * 17.08.1969 , einzelvertretungsberechtigt"
+                "text": " Schlander, Michael, Kitzingen, *17.08.1969, einzelvertretungsberechtigt"
             }
         ]
     }

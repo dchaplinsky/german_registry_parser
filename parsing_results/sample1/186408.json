@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Weender Landstraße 3-7 , 37073 Göttingen ."
+                "text": " Weender Landstraße 3-7, 37073 Göttingen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Göttingen",
+                    "dismissed": true,
                     "dob": "1959-09-17",
-                    "lastname": "Prof . Dr . Sierke",
+                    "lastname": "Prof. Doctor Sierke",
                     "name": "Bernt"
                 },
-                "text": " Prof . Dr . Sierke , Bernt , Göttingen , * 17.09.1959 ."
+                "text": " Prof. Doctor Sierke, Bernt, Göttingen, *17.09.1959."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Göttingen",
                     "dob": "1960-11-05",
@@ -48,7 +49,7 @@
                     "lastname": "Rose",
                     "name": "Werner"
                 },
-                "text": " Rose , Werner , Göttingen , * 11.05.1960 , einzelvertretungsberechtigt"
+                "text": " Rose, Werner, Göttingen, *11.05.1960, einzelvertretungsberechtigt"
             }
         ]
     }

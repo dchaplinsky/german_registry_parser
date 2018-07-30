@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=233498&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Maric",
                     "name": "Andy"
                 },
-                "text": " Maric , Andy , Stuttgart , * 07.07.1971 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Stuttgart",
-                    "dob": "1971-07-07",
-                    "lastname": "Maric",
-                    "name": "Andy"
-                },
-                "text": " Maric , Andy , Stuttgart , * 07.07.1971 ."
+                "text": " Maric, Andy, Stuttgart, *07.07.1971."
             }
         ]
     }

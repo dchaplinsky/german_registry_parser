@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kerpen",
+                    "dismissed": true,
                     "dob": "1962-06-28",
                     "lastname": "Cetin",
                     "name": "Ramazan"
                 },
-                "text": " Cetin , Ramazan , Kerpen , * 28.06.1962 ."
+                "text": " Cetin, Ramazan, Kerpen, *28.06.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Genk / Belgien",
                     "dob": "1956-09-23",
@@ -36,7 +37,7 @@
                     "lastname": "Brunori",
                     "name": "Domenico"
                 },
-                "text": " Brunori , Domenico , Genk / Belgien , * 23.09.1956 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Brunori, Domenico, Genk / Belgien, *23.09.1956, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

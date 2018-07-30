@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Grubenstraße 20 , 18055 Rostock ."
+                "text": " Grubenstraße 20, 18055 Rostock."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "company_name": " SKS Immobiliengruppe Verwaltungsgesellschaft mbH , Kiel ( Amtsgericht Kiel HRB 17879 KI ) ."
+                    "company_name": " SKS Immobiliengruppe Verwaltungsgesellschaft mbH, Kiel (Amtsgericht Kiel HRB 17879 KI).",
+                    "dismissed": true
                 },
-                "text": " SKS Immobiliengruppe Verwaltungsgesellschaft mbH , Kiel ( Amtsgericht Kiel HRB 17879 KI ) ."
+                "text": " SKS Immobiliengruppe Verwaltungsgesellschaft mbH, Kiel (Amtsgericht Kiel HRB 17879 KI)."
             },
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " BS Rostocker Immobilien - und Bauträgergesellschaft mbH , Rostock ( Amtsgericht Rostock HRB 14022 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                    "company_name": " BS Rostocker Immobilien- und Bauträgergesellschaft mbH, Rostock (Amtsgericht Rostock HRB 14022), mit der Befugnis -auch für jeden Geschäftsführer-, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
                 },
-                "text": " BS Rostocker Immobilien - und Bauträgergesellschaft mbH , Rostock ( Amtsgericht Rostock HRB 14022 ) , mit der Befugnis - auch für jeden Geschäftsführer - , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " BS Rostocker Immobilien- und Bauträgergesellschaft mbH, Rostock (Amtsgericht Rostock HRB 14022), mit der Befugnis -auch für jeden Geschäftsführer-, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

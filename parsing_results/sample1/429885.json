@@ -19,11 +19,45 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  santchurn , bhajun , london , gb , * 22.05.1954 , einzelvertretungsberechtigt mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen ., error text was Cannot parse DOB  london  using regex"
+                "text": "Cannot parse a AppointedManagingDirector from  santchurn, bhajun, london, gb, *22.05.1954, einzelvertretungsberechtigt mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen., error text was Cannot parse DOB  london using regex"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  turpie , neil , glasgow , gb , * 03.10.1944 ., error text was Cannot parse DOB  glasgow  using regex"
+                "text": "Cannot parse a ManagingDirector from  santchurn, bhajun, london, gb, *22.05.1954, einzelvertretungsberechtigt mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen., error text was Cannot parse DOB  london using regex"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
+            },
+            {
+                "flag": "If only one managing director is appointed, he represents the company alone.",
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
+            },
+            {
+                "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " gartenkamp 8 c, 49492 westerkappeln."
+            }
+        ],
+        "officers": [
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "gb",
+                    "dismissed": true,
+                    "dob": "1944-03-10",
+                    "lastname": "turpie",
+                    "name": "neil",
+                    "position": "glasgow"
+                },
+                "text": " turpie, neil, glasgow, gb, *03.10.1944."
             }
         ]
     }

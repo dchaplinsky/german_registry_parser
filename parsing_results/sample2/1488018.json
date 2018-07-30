@@ -19,16 +19,17 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Fleischerei Nöll Verwaltungs - GmbH , Sitz : Kreuztal - Buschhütten ( AG Siegen HR B 4541 ) ."
+                    "lastname": "Fleischerei Nöll Verwaltungs-GmbH",
+                    "name": "Sitz: Kreuztal-Buschhütten (AG Siegen HR B 4541)"
                 },
-                "text": " Fleischerei Nöll Verwaltungs - GmbH , Sitz : Kreuztal - Buschhütten ( AG Siegen HR B 4541 ) ."
+                "text": " Fleischerei Nöll Verwaltungs-GmbH, Sitz: Kreuztal-Buschhütten (AG Siegen HR B 4541)."
             },
             {
                 "class": "Liquidator",
@@ -39,7 +40,7 @@
                     "lastname": "Nöll",
                     "name": "Heiner"
                 },
-                "text": " Nöll , Heiner , Kreuztal , * 03.07.1964 , einzelvertretungsberechtigt ."
+                "text": " Nöll, Heiner, Kreuztal, *03.07.1964, einzelvertretungsberechtigt."
             }
         ]
     }

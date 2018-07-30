@@ -19,27 +19,28 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " P . A . C ."
+                "text": " P.A.C."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Reuter",
                     "name": "Bernd"
                 },
-                "text": " Reuter , Bernd"
+                "text": " Reuter, Bernd"
             },
             {
                 "class": "ManagingDirector",
@@ -49,7 +50,7 @@
                     "lastname": "Henkel",
                     "name": "Clemens"
                 },
-                "text": " Henkel , Clemens , * 08.06.1960 , Grasberg"
+                "text": " Henkel, Clemens, *08.06.1960, Grasberg"
             },
             {
                 "class": "ManagingDirector",
@@ -57,9 +58,9 @@
                     "city": "Bremen",
                     "dob": "1966-01-10",
                     "lastname": "Neise",
-                    "name": "Joerg - Friedrich"
+                    "name": "Joerg-Friedrich"
                 },
-                "text": " Neise , Joerg - Friedrich , * 01.10.1966 , Bremen"
+                "text": " Neise, Joerg-Friedrich, *01.10.1966, Bremen"
             }
         ]
     }

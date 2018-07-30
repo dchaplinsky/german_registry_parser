@@ -25,17 +25,18 @@
                     "lastname": "Lohnes",
                     "name": "Silke"
                 },
-                "text": " Lohnes , Silke , Osnabrück , * 26.06.1969 ."
+                "text": " Lohnes, Silke, Osnabrück, *26.06.1969."
             },
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Mettingen",
+                    "dismissed": true,
                     "dob": "1957-06-17",
                     "lastname": "Stüven",
                     "name": "Rüdiger"
                 },
-                "text": " Stüven , Rüdiger , Mettingen , * 17.06.1957 ."
+                "text": " Stüven, Rüdiger, Mettingen, *17.06.1957."
             }
         ]
     }

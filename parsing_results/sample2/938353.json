@@ -16,33 +16,28 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=938353&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Korschenbroich",
+                    "dismissed": true,
                     "dob": "1980-07-31",
                     "lastname": "Yilmaz",
                     "name": "Izzet Serkan"
                 },
-                "text": " Yilmaz , Izzet Serkan , Korschenbroich , * 31.07.1980 ."
+                "text": " Yilmaz, Izzet Serkan, Korschenbroich, *31.07.1980."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Izmir / Türkei",
+                    "city": "Izmir/Türkei",
                     "dob": "1984-07-03",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Celik",
                     "name": "Hayriye Gönül"
                 },
-                "text": " Celik , Hayriye Gönül , Izmir / Türkei , * 07.03.1984 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Celik, Hayriye Gönül, Izmir/Türkei, *07.03.1984, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",
@@ -52,7 +47,7 @@
                     "lastname": "Yilmaz",
                     "name": "Barboros"
                 },
-                "text": " Yilmaz , Barboros , Korschenbroich , * 01.05.1955 ."
+                "text": " Yilmaz, Barboros, Korschenbroich, *01.05.1955."
             }
         ]
     }

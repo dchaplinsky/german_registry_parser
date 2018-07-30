@@ -18,26 +18,26 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Uferstraße 2 , 34327 Körle ."
+                "text": " Uferstraße 2, 34327 Körle."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Körle",
                     "dob": "1966-07-14",
                     "lastname": "Angersbach",
                     "name": "Peggi"
                 },
-                "text": " Angersbach , Peggi , Körle , * 14.07.1966"
+                "text": " Angersbach, Peggi, Körle, *14.07.1966"
             }
         ]
     }

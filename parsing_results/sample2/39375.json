@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Rostock",
+                    "dismissed": true,
                     "dob": "1977-10-18",
                     "lastname": "Duchek",
                     "name": "Sven"
                 },
-                "text": " Duchek , Sven , Rostock , * 18.10.1977 ."
+                "text": " Duchek, Sven, Rostock, *18.10.1977."
             }
         ]
     }

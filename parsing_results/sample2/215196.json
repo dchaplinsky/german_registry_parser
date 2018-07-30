@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Leipzig",
+                    "dismissed": true,
                     "dob": "1962-05-16",
                     "lastname": "Gómez Fernandez",
                     "name": "Luis Ignacio"
                 },
-                "text": " Gómez Fernandez , Luis Ignacio , Leipzig , * 16.05.1962 ."
+                "text": " Gómez Fernandez, Luis Ignacio, Leipzig, *16.05.1962."
             }
         ]
     }

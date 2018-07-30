@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Varel",
+                    "dismissed": true,
                     "dob": "1963-07-25",
                     "lastname": "Winter",
                     "name": "Martina"
                 },
-                "text": " Winter , Martina , Varel , * 25.07.1963 ."
+                "text": " Winter, Martina, Varel, *25.07.1963."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Varel",
                     "dob": "1963-12-05",
@@ -42,7 +43,7 @@
                     "lastname": "Winter",
                     "name": "Claus"
                 },
-                "text": " Winter , Claus , Varel , * 12.05.1963 , einzelvertretungsberechtigt"
+                "text": " Winter, Claus, Varel, *12.05.1963, einzelvertretungsberechtigt"
             }
         ]
     }

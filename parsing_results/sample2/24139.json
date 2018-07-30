@@ -16,77 +16,48 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=24139&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "San Lazzaro di Savena ( Italien )",
+                    "city": "San Lazzaro di Savena (Italien)",
                     "dob": "1954-01-16",
                     "flag": "sole representation",
                     "lastname": "Piazzi",
                     "name": "Guglielmo"
                 },
-                "text": " Piazzi , Guglielmo , San Lazzaro di Savena ( Italien ) , * 16.01.1954 , einzelvertretungsberechtigt ."
+                "text": " Piazzi, Guglielmo, San Lazzaro di Savena (Italien), *16.01.1954, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Sacile PN ( Italien )",
+                    "city": "Sacile PN (Italien)",
+                    "dismissed": true,
                     "lastname": "Gian",
                     "name": "Paolo Fedrigo",
                     "position": "Geschäftsführer"
                 },
-                "text": " Gian , Paolo Fedrigo , Geschäftsführer , Sacile PN ( Italien )"
+                "text": " Gian, Paolo Fedrigo, Geschäftsführer, Sacile PN (Italien)"
             },
             {
                 "class": "SingleProcuration",
                 "payload": {
-                    "city": "Kgs Lyngby ( Dänemark )",
+                    "city": "Kgs Lyngby (Dänemark)",
                     "dob": "1962-05-23",
                     "lastname": "Dunker",
                     "name": "Kaj"
                 },
-                "text": " Dunker , Kaj , Kgs Lyngby ( Dänemark ) , * 23.05.1962 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Kgs Lyngby ( Dänemark )",
-                    "dob": "1962-05-23",
-                    "lastname": "Dunker",
-                    "name": "Kaj"
-                },
-                "text": " Dunker , Kaj , Kgs Lyngby ( Dänemark ) , * 23.05.1962 ."
+                "text": " Dunker, Kaj, Kgs Lyngby (Dänemark), *23.05.1962."
             },
             {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Wernau Neckar",
                     "dob": "1956-03-24",
-                    "lastname": "Einzelprokura : Nöfer",
+                    "lastname": "Einzelprokura: Nöfer",
                     "name": "Michael"
                 },
-                "text": " Einzelprokura : Nöfer , Michael , Wernau Neckar , * 24.03.1956 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Wernau Neckar",
-                    "dob": "1956-03-24",
-                    "lastname": "Einzelprokura : Nöfer",
-                    "name": "Michael"
-                },
-                "text": " Einzelprokura : Nöfer , Michael , Wernau Neckar , * 24.03.1956 ."
+                "text": " Einzelprokura: Nöfer, Michael, Wernau Neckar, *24.03.1956."
             }
         ]
     }

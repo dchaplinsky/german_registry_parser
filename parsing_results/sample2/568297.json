@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1972-06-11",
                     "lastname": "Heck",
                     "name": "Rainer"
                 },
-                "text": " Heck , Rainer , München , * 06.11.1972 ."
+                "text": " Heck, Rainer, München, *06.11.1972."
             }
         ]
     }

@@ -18,48 +18,51 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1947-01-24",
-                    "lastname": "Dr . Amonat",
+                    "lastname": "Doctor Amonat",
                     "name": "Wolfgang"
                 },
-                "text": " Dr . Amonat , Wolfgang , Köln , * 24.01.1947"
+                "text": " Doctor Amonat, Wolfgang, Köln, *24.01.1947"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Neunkirchen",
+                    "dismissed": true,
                     "dob": "1958-11-29",
                     "lastname": "Bail",
                     "name": "Ulrich"
                 },
-                "text": " Bail , Ulrich , Neunkirchen , * 29.11.1958"
+                "text": " Bail, Ulrich, Neunkirchen, *29.11.1958"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Schwalbach",
+                    "dismissed": true,
                     "dob": "1954-07-09",
                     "lastname": "Klein",
                     "name": "Werner"
                 },
-                "text": " Klein , Werner , Schwalbach , * 07.09.1954"
+                "text": " Klein, Werner, Schwalbach, *07.09.1954"
             }
         ]
     }

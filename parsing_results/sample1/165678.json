@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Ludwigshafen",
+                    "dismissed": true,
                     "dob": "1964-12-02",
                     "lastname": "Ellmann",
                     "name": "Thorsten"
                 },
-                "text": " Ellmann , Thorsten , Ludwigshafen , * 12.02.1964 ."
+                "text": " Ellmann, Thorsten, Ludwigshafen, *12.02.1964."
             }
         ]
     }

@@ -19,34 +19,35 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Briloner Str ."
+                "text": " Briloner Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Frankenau - Ellershausen",
+                    "city": "Frankenau-Ellershausen",
+                    "dismissed": true,
                     "dob": "1952-09-30",
                     "lastname": "Schellberger",
                     "name": "Lothar"
                 },
-                "text": " Schellberger , Lothar , Frankenau - Ellershausen , * 30.09.1952"
+                "text": " Schellberger, Lothar, Frankenau-Ellershausen, *30.09.1952"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Willingen ( Upl",
+                    "city": "Willingen (Upl",
                     "lastname": "Wilke",
                     "name": "Jörg"
                 },
-                "text": " Wilke , Jörg , Willingen ( Upl ."
+                "text": " Wilke, Jörg, Willingen (Upl."
             }
         ]
     }

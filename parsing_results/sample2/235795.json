@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "lastname": "Drescher",
                     "name": "Natalie",
                     "position": "Steuerfachgehilfin"
                 },
-                "text": " Drescher , Natalie , Steuerfachgehilfin , München ."
+                "text": " Drescher, Natalie, Steuerfachgehilfin, München."
             },
             {
                 "class": "Liquidator",
                 "payload": {
                     "city": "München",
                     "dob": "1944-01-29",
-                    "lastname": "Mallasch - Drescher",
+                    "lastname": ": Mallasch-Drescher",
                     "name": "Silvia geborene Mallasch"
                 },
-                "text": " Mallasch - Drescher , Silvia geborene Mallasch , München , * 29.01.1944 ."
+                "text": ": Mallasch-Drescher, Silvia geborene Mallasch, München, *29.01.1944."
             }
         ]
     }

@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bad Segeberg",
                     "dob": "1971-07-07",
@@ -26,17 +26,18 @@
                     "lastname": "Zierow",
                     "name": "Björn"
                 },
-                "text": " Zierow , Björn , Bad Segeberg , * 07.07.1971 , einzelvertretungsberechtigt ."
+                "text": " Zierow, Björn, Bad Segeberg, *07.07.1971, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Bad Hersfeld",
+                    "dismissed": true,
                     "dob": "1939-04-17",
                     "lastname": "Kurz",
                     "name": "Gerhard"
                 },
-                "text": " Kurz , Gerhard , Bad Hersfeld , * 17.04.1939 ."
+                "text": " Kurz, Gerhard, Bad Hersfeld, *17.04.1939."
             }
         ]
     }

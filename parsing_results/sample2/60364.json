@@ -24,14 +24,15 @@
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "city": "Rottach - Egern",
+                    "city": "Rottach-Egern",
+                    "dismissed": true,
                     "dob": "1961-11-26",
                     "lastname": "Schäfer",
                     "name": "Michael"
                 },
-                "text": " Schäfer , Michael , Rottach - Egern , * 26.11.1961 ."
+                "text": " Schäfer, Michael, Rottach-Egern,*26.11.1961."
             }
         ]
     }

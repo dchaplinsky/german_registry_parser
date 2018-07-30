@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Arnsberg",
+                    "dismissed": true,
                     "dob": "1927-10-18",
                     "lastname": "Lange",
-                    "name": "Franz - Josef"
+                    "name": "Franz- Josef"
                 },
-                "text": " Lange , Franz - Josef , Arnsberg , * 18.10.1927 ."
+                "text": " Lange, Franz- Josef, Arnsberg, *18.10.1927."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Arnsberg",
                     "dob": "1974-09-20",
@@ -36,7 +37,7 @@
                     "lastname": "Lange",
                     "name": "Sandra"
                 },
-                "text": " Lange , Sandra , Arnsberg , * 20.09.1974 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen Rechtsgeschäfte abzuschließen ."
+                "text": " Lange, Sandra, Arnsberg, *20.09.1974, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen Rechtsgeschäfte abzuschließen."
             }
         ]
     }

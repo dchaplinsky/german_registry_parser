@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Minden",
+                    "dismissed": true,
                     "dob": "1970-03-12",
                     "lastname": "Witt",
                     "name": "Kathy"
                 },
-                "text": " Witt , Kathy , Minden , * 03.12.1970 ."
+                "text": " Witt, Kathy, Minden, *03.12.1970."
             }
         ]
     }

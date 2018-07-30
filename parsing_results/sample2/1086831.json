@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Lugano / Schweiz",
+                    "city": "Lugano/Schweiz",
+                    "dismissed": true,
                     "dob": "1948-04-13",
                     "lastname": "Melamed",
                     "name": "Marko"
                 },
-                "text": " Melamed , Marko , Lugano / Schweiz , * 13.04.1948 ."
+                "text": " Melamed, Marko, Lugano/Schweiz, *13.04.1948."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Oberägeri / Schweiz",
                     "dob": "1952-12-20",
@@ -36,7 +37,7 @@
                     "lastname": "Pryor",
                     "name": "Martin Thomas"
                 },
-                "text": " Pryor , Martin Thomas , Oberägeri / Schweiz , * 20.12.1952 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Pryor, Martin Thomas, Oberägeri / Schweiz, *20.12.1952, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

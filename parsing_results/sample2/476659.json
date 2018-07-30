@@ -19,27 +19,29 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Querallee 1 , 34119 Kassel ."
+                "text": " Querallee 1, 34119 Kassel."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kassel",
+                    "dismissed": true,
                     "lastname": "Jepsen",
                     "name": "Henning"
                 },
-                "text": " Jepsen , Henning , Kassel ."
+                "text": " Jepsen, Henning, Kassel."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kassel",
-                    "lastname": "Eberl - Jepsen",
+                    "dismissed": true,
+                    "lastname": "Eberl-Jepsen",
                     "name": "Ulrike Albine"
                 },
-                "text": " Eberl - Jepsen , Ulrike Albine , Kassel ."
+                "text": " Eberl-Jepsen, Ulrike Albine, Kassel."
             },
             {
                 "class": "ManagingDirector",
@@ -50,7 +52,7 @@
                     "lastname": "Pfaab",
                     "name": "Christa"
                 },
-                "text": " Pfaab , Christa , Kassel , * 17.09.1954 , einzelvertretungsberechtigt ."
+                "text": " Pfaab, Christa, Kassel, *17.09.1954, einzelvertretungsberechtigt."
             }
         ]
     }

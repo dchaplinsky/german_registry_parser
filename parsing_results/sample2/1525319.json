@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Schwelm",
+                    "dismissed": true,
                     "dob": "1962-11-22",
                     "lastname": "Mittelmann",
                     "name": "Klaus"
                 },
-                "text": " Mittelmann , Klaus , Schwelm , * 22.11.1962 ."
+                "text": " Mittelmann, Klaus, Schwelm, *22.11.1962."
             }
         ]
     }

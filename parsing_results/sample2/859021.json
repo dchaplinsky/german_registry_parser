@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Stiefenhofen",
+                    "dismissed": true,
                     "dob": "1983-05-27",
                     "lastname": "Duarte Ordonez",
                     "name": "Johannes"
                 },
-                "text": " Duarte Ordonez , Johannes , Stiefenhofen , * 27.05.1983 ."
+                "text": " Duarte Ordonez, Johannes, Stiefenhofen, *27.05.1983."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Stiefenhofen",
                     "dob": "1958-05-27",
@@ -42,7 +43,7 @@
                     "lastname": "Duarte Ordonez",
                     "name": "Margarete"
                 },
-                "text": " Duarte Ordonez , Margarete , Stiefenhofen , * 27.05.1958 , einzelvertretungsberechtigt"
+                "text": " Duarte Ordonez, Margarete, Stiefenhofen, *27.05.1958, einzelvertretungsberechtigt"
             }
         ]
     }

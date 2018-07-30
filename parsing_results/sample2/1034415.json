@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Niedwiesenstraße 56 , 60431 Frankfurt am Main ."
+                "text": " Niedwiesenstraße 56, 60431 Frankfurt am Main."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Hösbach - Rottenberg",
+                    "city": "Hösbach-Rottenberg",
+                    "dismissed": true,
                     "dob": "1962-04-22",
                     "lastname": "Diplombetriebswirt Schilff",
                     "name": "Norbert"
                 },
-                "text": " Diplombetriebswirt Schilff , Norbert , Hösbach - Rottenberg , * 22.04.1962 ."
+                "text": " Diplombetriebswirt Schilff, Norbert, Hösbach-Rottenberg, *22.04.1962."
             },
             {
                 "class": "Liquidator",
@@ -52,7 +53,7 @@
                     "lastname": "Kendel",
                     "name": "Stefanie"
                 },
-                "text": " Kendel , Stefanie , Frankfurt am Main , * 13.04.1972 , einzelvertretungsberechtigt"
+                "text": " Kendel, Stefanie, Frankfurt am Main, *13.04.1972, einzelvertretungsberechtigt"
             }
         ]
     }

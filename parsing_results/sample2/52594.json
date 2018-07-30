@@ -19,12 +19,12 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Heikendorf",
                     "dob": "1956-03-08",
@@ -32,17 +32,18 @@
                     "lastname": "Bresges",
                     "name": "Michael Walter"
                 },
-                "text": " Bresges , Michael Walter , Heikendorf , * 03.08.1956 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen ."
+                "text": " Bresges, Michael Walter, Heikendorf, *03.08.1956, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1961-08-14",
                     "lastname": "Laudien",
                     "name": "Andreas"
                 },
-                "text": " Laudien , Andreas , Hamburg , * 14.08.1961 ."
+                "text": " Laudien, Andreas, Hamburg, *14.08.1961."
             }
         ]
     }

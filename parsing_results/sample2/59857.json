@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Reutlingen",
                     "dob": "1956-01-18",
@@ -26,17 +26,18 @@
                     "lastname": "Schwechheimer",
                     "name": "Dieter"
                 },
-                "text": " Schwechheimer , Dieter , Reutlingen , * 18.01.1956 , einzelvertretungsberechtigt ."
+                "text": " Schwechheimer, Dieter, Reutlingen, *18.01.1956, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
+                    "dismissed": true,
                     "dob": "1957-07-28",
                     "lastname": "Muche",
                     "name": "Andreas"
                 },
-                "text": " Muche , Andreas , Stuttgart , * 28.07.1957 ."
+                "text": " Muche, Andreas, Stuttgart, *28.07.1957."
             }
         ]
     }

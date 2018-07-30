@@ -19,25 +19,27 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "company_name": " Läderach GmbH , Dillenburg - Manderbach ( Amtsgericht Wetzlar HRB 3096 ) ."
+                    "company_name": " Läderach GmbH, Dillenburg-Manderbach (Amtsgericht Wetzlar HRB 3096).",
+                    "dismissed": true
                 },
-                "text": " Läderach GmbH , Dillenburg - Manderbach ( Amtsgericht Wetzlar HRB 3096 ) ."
+                "text": " Läderach GmbH, Dillenburg-Manderbach (Amtsgericht Wetzlar HRB 3096)."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Eschenburg - Eibelshausen",
+                    "city": "Eschenburg-Eibelshausen",
+                    "dismissed": true,
                     "lastname": "Klingelhöfer",
                     "name": "Bernd"
                 },
-                "text": " Klingelhöfer , Bernd , Eschenburg - Eibelshausen"
+                "text": " Klingelhöfer, Bernd, Eschenburg-Eibelshausen"
             }
         ]
     }

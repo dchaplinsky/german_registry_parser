@@ -19,23 +19,28 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Marks , William David , Rowton , Chester , CH3 6 AU / GB , * 30.09.1952 , einzelvertretungsberechtigt, error text was no valid patter found, number of chunks: 7"
+                "text": "Cannot parse a AppointedManagingDirector from  Marks, William David, Rowton, Chester, CH3 6AU/GB, *30.09.1952, einzelvertretungsberechtigt, error text was no valid patter found, number of chunks: 7"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Marks, William David, Rowton, Chester, CH3 6AU/GB, *30.09.1952, einzelvertretungsberechtigt, error text was no valid patter found, number of chunks: 7"
             }
         ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Brockmeyer",
                     "name": "Volker"
                 },
-                "text": " Brockmeyer , Volker ."
+                "text": " Brockmeyer, Volker."
             }
         ]
     }

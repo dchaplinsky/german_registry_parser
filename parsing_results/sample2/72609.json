@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Barmbeker Straße 4 a , 22303 Hamburg ."
+                "text": " Barmbeker Straße 4a, 22303 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1956-04-02",
-                    "lastname": "Dr . Bente",
+                    "lastname": "Doctor Bente",
                     "name": "Heinrich"
                 },
-                "text": " Dr . Bente , Heinrich , Hamburg , * 04.02.1956"
+                "text": " Doctor Bente, Heinrich, Hamburg, *04.02.1956"
             }
         ]
     }

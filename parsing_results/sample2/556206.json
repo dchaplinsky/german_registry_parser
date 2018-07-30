@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1969-12-04",
                     "lastname": "Moshar",
                     "name": "Sasan"
                 },
-                "text": " Moshar , Sasan , Frankfurt am Main , * 12.04.1969 ."
+                "text": " Moshar, Sasan, Frankfurt am Main, *12.04.1969."
             }
         ]
     }

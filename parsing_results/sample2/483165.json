@@ -19,12 +19,12 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Alexanderstr ."
+                "text": " Alexanderstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rosengarten",
                     "dob": "1967-08-11",
@@ -32,17 +32,18 @@
                     "lastname": "Wege",
                     "name": "Jörn"
                 },
-                "text": " Wege , Jörn , Rosengarten , * 08.11.1967 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Wege, Jörn, Rosengarten, *08.11.1967, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Rosengarten",
+                    "dismissed": true,
                     "dob": "1967-08-11",
                     "lastname": "Wege",
                     "name": "Jörn"
                 },
-                "text": " Wege , Jörn , Rosengarten , * 08.11.1967 ."
+                "text": " Wege, Jörn, Rosengarten, *08.11.1967."
             }
         ]
     }

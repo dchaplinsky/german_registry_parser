@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Waghäusel",
+                    "dismissed": true,
                     "dob": "1962-04-23",
-                    "lastname": "Dr . Ruhland",
+                    "lastname": "Doctor Ruhland",
                     "name": "Thomas"
                 },
-                "text": " Dr . Ruhland , Thomas , Waghäusel , * 23.04.1962 ."
+                "text": " Doctor Ruhland, Thomas, Waghäusel, *23.04.1962."
             }
         ]
     }

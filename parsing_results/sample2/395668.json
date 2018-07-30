@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rottweil",
                     "dob": "1966-05-25",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Hauschild",
                     "name": "Ralf"
                 },
-                "text": " Hauschild , Ralf , Rottweil , * 25.05.1966 , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Hauschild, Ralf, Rottweil, *25.05.1966, mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Neckarsulm",
+                    "dismissed": true,
                     "dob": "1966-05-25",
                     "lastname": "Hauschild",
                     "name": "Ralf"
                 },
-                "text": " Hauschild , Ralf , Neckarsulm , * 25.05.1966 ."
+                "text": " Hauschild, Ralf, Neckarsulm, *25.05.1966."
             }
         ]
     }

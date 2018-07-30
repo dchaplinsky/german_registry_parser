@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mirandola / Italien",
+                    "dismissed": true,
                     "dob": "1968-10-25",
                     "lastname": "Morandi",
                     "name": "Daniele"
                 },
-                "text": " Morandi , Daniele , Mirandola / Italien , * 25.10.1968 ."
+                "text": " Morandi, Daniele, Mirandola / Italien, *25.10.1968."
             }
         ]
     }

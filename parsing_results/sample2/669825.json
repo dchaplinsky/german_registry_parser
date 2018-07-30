@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Laufen",
+                    "dismissed": true,
                     "dob": "1969-09-30",
                     "lastname": "Putz",
                     "name": "Oliver"
                 },
-                "text": " Putz , Oliver , Laufen , * 30.09.1969 ."
+                "text": " Putz, Oliver, Laufen, *30.09.1969."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wenden",
+                    "dismissed": true,
                     "dob": "1979-12-04",
                     "lastname": "Wurm",
                     "name": "Henning"
                 },
-                "text": " Wurm , Henning , Wenden , * 12.04.1979 ."
+                "text": " Wurm, Henning, Wenden, *12.04.1979."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=231801&land_abk=sn"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Braunschweig",
                     "name": "Florian"
                 },
-                "text": " Braunschweig , Florian , Dresden , * 16.05.1984 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Dresden",
-                    "dob": "1984-05-16",
-                    "lastname": "Braunschweig",
-                    "name": "Florian"
-                },
-                "text": " Braunschweig , Florian , Dresden , * 16.05.1984 ."
+                "text": " Braunschweig, Florian, Dresden, *16.05.1984."
             }
         ]
     }

@@ -18,21 +18,21 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "Exclusive power of representation can be granted.",
-                "text": "Alleinvertretungsbefugnis kann erteilt werden ."
+                "text": "Alleinvertretungsbefugnis\\ kann\\ erteilt\\ werden\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1971-08-30",
@@ -40,17 +40,18 @@
                     "lastname": "Nacaroglu",
                     "name": "Oguzhan"
                 },
-                "text": " Nacaroglu , Oguzhan , Hamburg , * 30.08.1971 , einzelvertretungsberechtigt"
+                "text": " Nacaroglu, Oguzhan, Hamburg, *30.08.1971, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Escheburg",
+                    "dismissed": true,
                     "dob": "1973-05-08",
                     "lastname": "Nimetoglu",
                     "name": "Zülay geborene Yaman"
                 },
-                "text": " Nimetoglu , Zülay geborene Yaman , Escheburg , * 05.08.1973 ."
+                "text": " Nimetoglu, Zülay geborene Yaman, Escheburg, *05.08.1973."
             }
         ]
     }

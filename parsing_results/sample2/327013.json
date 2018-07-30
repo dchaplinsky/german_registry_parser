@@ -19,65 +19,59 @@
         "flags": [
             {
                 "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
-                "text": "Sind mehrere Liquidatoren bestellt , wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten ."
+                "text": "Sind\\ mehrere\\ Liquidatoren\\ bestellt\\,\\ wird\\ die\\ Gesellschaft\\ durch\\ s\\ämtliche\\ Liquidatoren\\ gemeinsam\\ vertreten\\."
             },
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Spry Solutions GmbH , Berlin , Komturstraße 18 , 12099 Berlin ."
+                "text": " Spry Solutions GmbH, Berlin, Komturstraße 18, 12099 Berlin."
             }
         ],
         "officers": [
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "Lübeck - Travemünde",
+                    "city": "Lübeck-Travemünde",
                     "dob": "1952-03-06",
                     "lastname": "Diebitz",
                     "name": "Manfred"
                 },
-                "text": " Diebitz , Manfred , * 03.06.1952 , Lübeck - Travemünde"
+                "text": " Diebitz, Manfred, *03.06.1952, Lübeck-Travemünde"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Würmli",
                     "name": "Marcel"
                 },
-                "text": " Würmli , Marcel"
+                "text": " Würmli, Marcel"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
-                    "lastname": "Dr . Hilgarth",
+                    "dismissed": true,
+                    "lastname": "Doctor Hilgarth",
                     "name": "Bernd"
                 },
-                "text": " Dr . Hilgarth , Bernd"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Nicht mehr Prokurist : Dr . Hilgarth",
-                    "name": "Bernd"
-                },
-                "text": " Nicht mehr Prokurist : Dr . Hilgarth , Bernd"
+                "text": " Doctor Hilgarth, Bernd"
             }
         ]
     }

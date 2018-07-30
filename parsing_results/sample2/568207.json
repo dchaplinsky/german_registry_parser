@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1979-09-05",
                     "lastname": "Baumgartner",
                     "name": "David"
                 },
-                "text": " Baumgartner , David , München , * 09.05.1979 ."
+                "text": " Baumgartner, David, München, *09.05.1979."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1971-09-23",
                     "lastname": "Piquetti Schazmann",
                     "name": "Sirlei"
                 },
-                "text": " Piquetti Schazmann , Sirlei , München , * 23.09.1971 ."
+                "text": " Piquetti Schazmann, Sirlei, München, *23.09.1971."
             }
         ]
     }

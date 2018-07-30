@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=837043&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Goebel",
                     "name": "Tim"
                 },
-                "text": " Goebel , Tim , Wendelstein , * 24.11.1970"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Wendelstein",
-                    "dob": "1970-11-24",
-                    "lastname": "Goebel",
-                    "name": "Tim"
-                },
-                "text": " Goebel , Tim , Wendelstein , * 24.11.1970"
+                "text": " Goebel, Tim, Wendelstein, *24.11.1970"
             }
         ]
     }

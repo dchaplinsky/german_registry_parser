@@ -16,33 +16,40 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=228959&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Nose , Michihiro , Shinjuku - ku , Tokio / Japan , * 13.12.1962 ., error text was Cannot parse DOB  Shinjuku - ku  using regex"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Tokio / Japan",
+                    "city": "Tokio/Japan",
                     "dob": "1969-05-31",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Shimizu",
                     "name": "Yasushi"
                 },
-                "text": " Shimizu , Yasushi , Tokio / Japan , * 31.05.1969 , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Shimizu, Yasushi, Tokio/Japan, *31.05.1969, mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Tokio/Japan",
+                    "dismissed": true,
+                    "dob": "1962-12-13",
+                    "lastname": "Nose",
+                    "name": "Michihiro",
+                    "position": "Shinjuku-ku"
+                },
+                "text": " Nose, Michihiro, Shinjuku-ku, Tokio/Japan, *13.12.1962."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1975-04-18",
                     "lastname": "Lehnert",
                     "name": "Torsten"
                 },
-                "text": " Lehnert , Torsten , München , * 18.04.1975 ."
+                "text": " Lehnert, Torsten, München, *18.04.1975."
             }
         ]
     }

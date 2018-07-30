@@ -19,46 +19,48 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " c / o HauckSchuchardt , Niedenau 61-63 , 60325 Frankfurt am Main ."
+                "text": " c/o HauckSchuchardt, Niedenau 61-63, 60325 Frankfurt am Main."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1973-03-17",
                     "lastname": "Schmitz",
                     "name": "Marcus"
                 },
-                "text": " Schmitz , Marcus , Frankfurt am Main , * 17.03.1973 ."
+                "text": " Schmitz, Marcus, Frankfurt am Main, *17.03.1973."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dob": "1964-09-21",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Kunz",
                     "name": "Ronald Justus"
                 },
-                "text": " Kunz , Ronald Justus , Frankfurt am Main , * 21.09.1964 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Kunz, Ronald Justus, Frankfurt am Main, *21.09.1964, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Machern",
+                    "dismissed": true,
                     "dob": "1966-03-02",
                     "lastname": "Esch",
                     "name": "Michael Werner"
                 },
-                "text": " Esch , Michael Werner , Machern , * 03.02.1966 ."
+                "text": " Esch, Michael Werner, Machern, *03.02.1966."
             }
         ]
     }

@@ -19,25 +19,26 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Am Heidbergdamm 55 , 40668 Meerbusch ."
+                "text": " Am Heidbergdamm 55, 40668 Meerbusch."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1961-03-06",
                     "lastname": "Zweigle",
                     "name": "Dieter Hermann"
                 },
-                "text": " Zweigle , Dieter Hermann , Düsseldorf , * 03.06.1961 ."
+                "text": " Zweigle, Dieter Hermann, Düsseldorf, *03.06.1961."
             },
             {
                 "class": "Liquidator",
@@ -47,7 +48,7 @@
                     "lastname": "Breuer",
                     "name": "Wilhelm"
                 },
-                "text": " Breuer , Wilhelm , Meerbusch , * 22.05.1962 ."
+                "text": " Breuer, Wilhelm, Meerbusch, *22.05.1962."
             }
         ]
     }

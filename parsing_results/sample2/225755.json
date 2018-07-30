@@ -19,25 +19,26 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Betzdorfer Straße 1 a , 57520 Molzhain ."
+                "text": " Betzdorfer Straße 1a, 57520 Molzhain."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Molzhain",
+                    "dismissed": true,
                     "dob": "1966-09-11",
                     "lastname": "Härter",
-                    "name": "Klaus - Martin"
+                    "name": "Klaus-Martin"
                 },
-                "text": " Härter , Klaus - Martin , Molzhain , * 09.11.1966 ."
+                "text": " Härter, Klaus-Martin, Molzhain, *09.11.1966."
             },
             {
                 "class": "Liquidator",
@@ -48,7 +49,7 @@
                     "lastname": "Frei",
                     "name": "Bernward"
                 },
-                "text": " Frei , Bernward , Molzhain , * 12.12.1964 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Frei, Bernward, Molzhain, *12.12.1964, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

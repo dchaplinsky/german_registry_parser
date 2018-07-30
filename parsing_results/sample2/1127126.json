@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Beijing / China",
+                    "dismissed": true,
                     "dob": "1961-10-25",
                     "lastname": "Wang",
                     "name": "Yemeng"
                 },
-                "text": " Wang , Yemeng , Beijing / China , * 25.10.1961 ."
+                "text": " Wang, Yemeng, Beijing / China, *25.10.1961."
             }
         ]
     }

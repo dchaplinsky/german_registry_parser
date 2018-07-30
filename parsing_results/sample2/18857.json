@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Emsdetten",
                     "dob": "1960-07-08",
                     "lastname": "Fischer",
-                    "name": "Heinz - Dieter"
+                    "name": "Heinz-Dieter"
                 },
-                "text": " Fischer , Heinz - Dieter , Emsdetten , * 07.08.1960 ."
+                "text": " Fischer, Heinz-Dieter, Emsdetten, *07.08.1960."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Emsdetten",
+                    "dismissed": true,
                     "dob": "1960-07-08",
                     "lastname": "Fischer",
-                    "name": "Heinz - Dieter"
+                    "name": "Heinz-Dieter"
                 },
-                "text": " Fischer , Heinz - Dieter , Emsdetten , * 07.08.1960 ."
+                "text": " Fischer, Heinz-Dieter, Emsdetten, *07.08.1960."
             }
         ]
     }

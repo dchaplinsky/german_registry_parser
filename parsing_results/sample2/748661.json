@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Bad Neustadt",
+                    "dismissed": true,
                     "dob": "1949-03-12",
                     "lastname": "Krenig",
                     "name": "Karl Lorenz"
                 },
-                "text": " Krenig , Karl Lorenz , Bad Neustadt , * 03.12.1949 ."
+                "text": " Krenig, Karl Lorenz, Bad Neustadt, *03.12.1949."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Münnerstadt - Kleinwenkheim",
+                    "city": "Münnerstadt-Kleinwenkheim",
                     "dob": "1963-02-05",
                     "lastname": "Kissner",
                     "name": "Günter Josef"
                 },
-                "text": " Kissner , Günter Josef , Münnerstadt - Kleinwenkheim , * 02.05.1963 ."
+                "text": " Kissner, Günter Josef, Münnerstadt-Kleinwenkheim, *02.05.1963."
             }
         ]
     }

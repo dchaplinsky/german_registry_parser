@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Weißenhorn",
+                    "dismissed": true,
                     "dob": "1964-05-14",
                     "lastname": "Lauer",
                     "name": "Jürgen"
                 },
-                "text": " Lauer , Jürgen , Weißenhorn , * 14.05.1964 ."
+                "text": " Lauer, Jürgen, Weißenhorn, *14.05.1964."
             }
         ]
     }

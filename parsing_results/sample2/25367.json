@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Sohren",
+                    "dismissed": true,
                     "dob": "1967-04-16",
                     "lastname": "Gross",
                     "name": "Inna"
                 },
-                "text": " Gross , Inna , Sohren , * 16.04.1967 ."
+                "text": " Gross, Inna, Sohren, *16.04.1967."
             }
         ]
     }

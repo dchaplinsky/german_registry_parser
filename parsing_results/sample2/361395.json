@@ -16,23 +16,28 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=361395&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr ., error text was a person without DOB, number of chunks: 1"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Dettingen unter Teck",
+                    "dismissed": true,
+                    "dob": "1968-01-29",
+                    "lastname": "Doctor Klein",
+                    "name": "Thomas"
+                },
+                "text": " Doctor Klein, Thomas, Dettingen unter Teck, *29.01.1968."
+            },
+            {
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bonn",
                     "dob": "1956-03-06",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Keinert",
                     "name": "Michael"
                 },
-                "text": " Keinert , Michael , Bonn , * 03.06.1956 , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Keinert, Michael, Bonn, *03.06.1956, mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

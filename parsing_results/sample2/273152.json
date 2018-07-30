@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1940-04-03",
                     "lastname": "Wörner",
                     "name": "Armin"
                 },
-                "text": " Wörner , Armin , Hamburg , * 04.03.1940 ."
+                "text": " Wörner, Armin, Hamburg, *04.03.1940."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Siegen",
                     "dob": "1959-05-20",
                     "lastname": "Heinz",
                     "name": "Eberhard"
                 },
-                "text": " Heinz , Eberhard , Siegen , * 20.05.1959"
+                "text": " Heinz, Eberhard, Siegen, *20.05.1959"
             }
         ]
     }

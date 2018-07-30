@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1940-01-15",
                     "lastname": "Rebenstock",
                     "name": "Klaus Dieter"
                 },
-                "text": " Rebenstock , Klaus Dieter , Frankfurt am Main , * 15.01.1940 ."
+                "text": " Rebenstock, Klaus Dieter, Frankfurt am Main, *15.01.1940."
             },
             {
                 "class": "Owner",
@@ -35,7 +36,7 @@
                     "lastname": "Philippi",
                     "name": "Thorsten"
                 },
-                "text": " Philippi , Thorsten , Frankfurt am Main , * 13.07.1979 ."
+                "text": " Philippi, Thorsten, Frankfurt am Main, *13.07.1979."
             }
         ]
     }

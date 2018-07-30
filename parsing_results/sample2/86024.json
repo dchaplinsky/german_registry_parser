@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
-                "text": "Sind mehrere Geschäftsführer bestellt , wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten ."
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ wird\\ die\\ Gesellschaft\\ gemeinschaftlich\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ in\\ Gemeinschaft\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             }
         ],
         "labels": [
@@ -29,11 +29,7 @@
             },
             {
                 "label": "address",
-                "text": " Birkenstr ."
-            },
-            {
-                "label": "misc",
-                "text": " 000,00 EUR Vertretungsregelung : Ist ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " Birkenstr."
             }
         ],
         "officers": [
@@ -43,9 +39,9 @@
                     "city": "Minden",
                     "dob": "1955-11-21",
                     "lastname": "Kaul",
-                    "name": "Frank - Rainer"
+                    "name": "Frank-Rainer"
                 },
-                "text": " Kaul , Frank - Rainer , * 21.11.1955 , Minden"
+                "text": " Kaul, Frank-Rainer, *21.11.1955, Minden"
             },
             {
                 "class": "ManagingDirector",
@@ -55,17 +51,17 @@
                     "lastname": "Kühn",
                     "name": "Klaus"
                 },
-                "text": " Kühn , Klaus , * 30.12.1958 , Berlin"
+                "text": " Kühn, Klaus, *30.12.1958, Berlin"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Berlin Rechtsform : Gesellschaft mit beschränkter Haftung",
+                    "city": "Berlin Rechtsform: Gesellschaft mit beschränkter Haftung",
                     "dob": "1958-04-27",
                     "lastname": "Schlender",
-                    "name": "Hans - Ulrich"
+                    "name": "Hans-Ulrich"
                 },
-                "text": " Schlender , Hans - Ulrich , * 27.04.1958 , Berlin Rechtsform : Gesellschaft mit beschränkter Haftung"
+                "text": " Schlender, Hans-Ulrich, *27.04.1958, Berlin Rechtsform: Gesellschaft mit beschränkter Haftung"
             }
         ]
     }

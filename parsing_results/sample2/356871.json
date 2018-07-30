@@ -19,18 +19,18 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Kirchstraße 36 , 63512 Hainburg ."
+                "text": " Kirchstraße 36, 63512 Hainburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dob": "1971-12-01",
@@ -38,17 +38,18 @@
                     "lastname": "Kolarov",
                     "name": "Dimitar"
                 },
-                "text": " Kolarov , Dimitar , Frankfurt am Main , * 12.01.1971 , einzelvertretungsberechtigt"
+                "text": " Kolarov, Dimitar, Frankfurt am Main, *12.01.1971, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1963-03-06",
                     "lastname": "Talovic",
                     "name": "Fatima"
                 },
-                "text": " Talovic , Fatima , Frankfurt am Main , * 03.06.1963 ."
+                "text": " Talovic, Fatima, Frankfurt am Main, *03.06.1963."
             }
         ]
     }

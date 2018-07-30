@@ -16,16 +16,23 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=234251&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Braun , Berthold , Kaufmann , Calden , * 14.05.1965 ., error text was Cannot parse DOB  Kaufmann  using regex"
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Calden",
+                    "dob": "1965-05-14",
+                    "lastname": ": Braun",
+                    "name": "Berthold",
+                    "position": "Kaufmann"
+                },
+                "text": ": Braun, Berthold, Kaufmann, Calden, *14.05.1965."
             }
         ]
     }

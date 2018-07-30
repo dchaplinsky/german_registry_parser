@@ -21,11 +21,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Rüsselsheim",
+                    "dismissed": true,
                     "dob": "1964-01-12",
                     "lastname": "Weller",
                     "name": "Frank"
                 },
-                "text": " Weller , Frank , Rüsselsheim , * 01.12.1964 ."
+                "text": " Weller, Frank, Rüsselsheim, *01.12.1964."
             },
             {
                 "class": "ManagingDirector",
@@ -35,7 +36,7 @@
                     "lastname": "Schröder",
                     "name": "Petra"
                 },
-                "text": " Schröder , Petra , Rüsselsheim , * 11.12.1962 ."
+                "text": " Schröder, Petra, Rüsselsheim, *11.12.1962."
             }
         ]
     }

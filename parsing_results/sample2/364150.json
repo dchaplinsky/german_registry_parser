@@ -19,40 +19,41 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Limburg a . d . Lahn",
+                    "city": "Limburg a.d. Lahn",
                     "dob": "1942-01-01",
                     "flag": "sole representation",
                     "lastname": "Gobell",
                     "name": "Jürgen"
                 },
-                "text": " Gobell , Jürgen , Limburg a . d . Lahn , * 01.01.1942 , einzelvertretungsberechtigt"
+                "text": " Gobell, Jürgen, Limburg a.d. Lahn, *01.01.1942, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wiesbaden",
                     "dob": "1961-06-08",
                     "lastname": "Ott",
                     "name": "Stephan"
                 },
-                "text": " Ott , Stephan , Wiesbaden , * 06.08.1961"
+                "text": " Ott, Stephan, Wiesbaden, *06.08.1961"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Wiesbaden",
+                    "dismissed": true,
                     "dob": "1961-06-08",
                     "lastname": "Ott",
                     "name": "Stephan"
                 },
-                "text": " Ott , Stephan , Wiesbaden , * 06.08.1961"
+                "text": " Ott, Stephan, Wiesbaden, *06.08.1961"
             }
         ]
     }

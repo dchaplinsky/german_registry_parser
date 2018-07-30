@@ -19,17 +19,18 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Flughafenallee 3 , 28199 Bremen ."
+                "text": " Flughafenallee 3, 28199 Bremen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Krawitsch",
                     "name": "Roland"
                 },
-                "text": " Krawitsch , Roland"
+                "text": " Krawitsch, Roland"
             },
             {
                 "class": "ManagingDirector",
@@ -39,7 +40,7 @@
                     "lastname": "Stahlhofen",
                     "name": "Rene"
                 },
-                "text": " Stahlhofen , Rene , * 07.07.1966 , Nettetal .."
+                "text": " Stahlhofen, Rene, *07.07.1966, Nettetal.."
             }
         ]
     }

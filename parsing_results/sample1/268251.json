@@ -19,49 +19,42 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " conwert Deutschland Beteiligungsholding GmbH , Berlin , Leipziger Platz 9 , 10117 Berlin ."
+                "text": " conwert Deutschland Beteiligungsholding GmbH, Berlin, Leipziger Platz 9, 10117 Berlin."
             },
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Leipziger Platz 9 , 10117 Berlin"
+                "text": " Geschäftsanschrift: Leipziger Platz 9, 10117 Berlin"
             },
             {
                 "label": "address",
-                "text": " Leipziger Platz 9 , 10117 Berlin"
+                "text": " Leipziger Platz 9, 10117 Berlin"
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Oberwaltersdorf / Österreich",
+                    "city": "Oberwaltersdorf/Österreich",
                     "dob": "1965-12-27",
                     "lastname": "Doll",
                     "name": "Thomas"
                 },
-                "text": " Doll , Thomas , * 27.12.1965 , Oberwaltersdorf / Österreich"
+                "text": " Doll, Thomas, *27.12.1965, Oberwaltersdorf/Österreich"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Doll",
                     "name": "Thomas"
                 },
-                "text": " Doll , Thomas"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Nicht mehr Prokurist : Doll",
-                    "name": "Thomas"
-                },
-                "text": " Nicht mehr Prokurist : Doll , Thomas"
+                "text": " Doll, Thomas"
             }
         ]
     }

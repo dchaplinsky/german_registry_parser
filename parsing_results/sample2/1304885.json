@@ -20,12 +20,13 @@
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Limburg - Dietkirchen",
+                    "city": "Limburg-Dietkirchen",
+                    "dismissed": true,
                     "dob": "1964-04-10",
                     "lastname": "Patz",
                     "name": "Andreas"
                 },
-                "text": " Patz , Andreas , Limburg - Dietkirchen , * 04.10.1964 ."
+                "text": " Patz, Andreas, Limburg-Dietkirchen, *04.10.1964."
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Behner",
                     "name": "Matthias"
                 },
-                "text": " Behner , Matthias , Hamburg , * 03.10.1977 ."
+                "text": " Behner, Matthias, Hamburg, *03.10.1977."
             }
         ]
     }

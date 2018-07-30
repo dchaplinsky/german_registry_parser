@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mainz",
+                    "dismissed": true,
                     "dob": "1978-05-17",
                     "lastname": "Ferreira De Almeida",
                     "name": "Carlos Alberto"
                 },
-                "text": " Ferreira De Almeida , Carlos Alberto , Mainz , * 17.05.1978 ."
+                "text": " Ferreira De Almeida, Carlos Alberto, Mainz, *17.05.1978."
             }
         ]
     }

@@ -16,10 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=219773&land_abk=by"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Strubreiter , Hans - Peter , Diplom - Kaufmann , München , * 24.10.1946 ., error text was Cannot parse DOB  Diplom - Kaufmann  using regex"
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1946-10-24",
+                    "lastname": "Strubreiter",
+                    "name": "Hans-Peter",
+                    "position": "Diplom-Kaufmann"
+                },
+                "text": " Strubreiter, Hans-Peter, Diplom-Kaufmann, München, *24.10.1946."
             }
         ]
     }

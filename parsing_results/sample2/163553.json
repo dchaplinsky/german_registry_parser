@@ -16,32 +16,27 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=163553&land_abk=rp"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Bad Neuenahr - Ahrweiler",
+                    "city": "Bad Neuenahr-Ahrweiler",
                     "dob": "1966-09-10",
                     "lastname": "Wiemer",
                     "name": "Herbert"
                 },
-                "text": " Wiemer , Herbert , Bad Neuenahr - Ahrweiler , * 09.10.1966 ."
+                "text": " Wiemer, Herbert, Bad Neuenahr-Ahrweiler, *09.10.1966."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Wiesemscheid",
+                    "dismissed": true,
                     "dob": "1967-01-25",
                     "lastname": "Nisius",
                     "name": "Guido"
                 },
-                "text": " Nisius , Guido , Wiesemscheid , * 25.01.1967 ."
+                "text": " Nisius, Guido, Wiesemscheid, *25.01.1967."
             },
             {
                 "class": "SingleProcuration",
@@ -51,7 +46,7 @@
                     "lastname": "Birkenbeil",
                     "name": "Michael"
                 },
-                "text": " Birkenbeil , Michael , Neuwied , * 02.03.1970 ."
+                "text": " Birkenbeil, Michael, Neuwied, *02.03.1970."
             }
         ]
     }

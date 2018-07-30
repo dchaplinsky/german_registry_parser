@@ -18,20 +18,22 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Brown",
                     "name": "Steven E"
                 },
-                "text": " Brown , Steven E ."
+                "text": " Brown, Steven E."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "du Plessis",
                     "name": "Jacobus Gerhardus"
                 },
-                "text": " du Plessis , Jacobus Gerhardus"
+                "text": " du Plessis, Jacobus Gerhardus"
             },
             {
                 "class": "ManagingDirector",
@@ -41,7 +43,7 @@
                     "lastname": "Herrmann",
                     "name": "Christian"
                 },
-                "text": " Herrmann , Christian , * 01.06.1981 , Rangsdorf"
+                "text": " Herrmann, Christian, *01.06.1981, Rangsdorf"
             },
             {
                 "class": "ManagingDirector",
@@ -51,7 +53,7 @@
                     "lastname": "Jänicke",
                     "name": "Rayko"
                 },
-                "text": " Jänicke , Rayko , * 02.10.1981 , Berlin"
+                "text": " Jänicke, Rayko, *02.10.1981, Berlin"
             }
         ]
     }

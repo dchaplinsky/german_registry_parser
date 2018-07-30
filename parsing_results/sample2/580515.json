@@ -19,7 +19,16 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "company_name": "in: Golden Ross Mainz GmbH, Eschborn (Amtsgericht Frankfurt am Main HRB 98265), einzelvertretungsberechtigt."
+                },
+                "text": "in: Golden Ross Mainz GmbH, Eschborn (Amtsgericht Frankfurt am Main HRB 98265), einzelvertretungsberechtigt."
             }
         ]
     }

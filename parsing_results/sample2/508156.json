@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Maria Gugging / Österreich / Österreich",
+                    "city": "Maria Gugging/Österreich / Österreich",
+                    "dismissed": true,
                     "dob": "1969-05-11",
                     "lastname": "Vybiral",
-                    "name": "Ricardo - José"
+                    "name": "Ricardo-José"
                 },
-                "text": " Vybiral , Ricardo - José , Maria Gugging / Österreich / Österreich , * 05.11.1969 ."
+                "text": " Vybiral, Ricardo-José, Maria Gugging/Österreich / Österreich, *05.11.1969."
             }
         ]
     }

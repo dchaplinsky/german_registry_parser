@@ -19,19 +19,20 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Dipl . - Geol ., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a ProcurationCancelled from  Dipl.-Geol., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bonn",
+                    "dismissed": true,
                     "dob": "1950-12-13",
-                    "lastname": "Dr . Vels",
+                    "lastname": "Doctor Vels",
                     "name": "Bernd"
                 },
-                "text": " Dr . Vels , Bernd , Bonn , * 13.12.1950 ."
+                "text": " Doctor Vels, Bernd, Bonn, *13.12.1950."
             },
             {
                 "class": "ManagingDirector",
@@ -42,7 +43,7 @@
                     "lastname": "Linder",
                     "name": "Nikolaus"
                 },
-                "text": " Linder , Nikolaus , Dortmund , * 29.09.1964 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Linder, Nikolaus, Dortmund, *29.09.1964, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

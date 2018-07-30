@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Lauf",
                     "dob": "1966-05-18",
@@ -26,15 +26,16 @@
                     "lastname": "Kirsch",
                     "name": "Thomas"
                 },
-                "text": " Kirsch , Thomas , Lauf , * 18.05.1966 , mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Kirsch, Thomas, Lauf, *18.05.1966, mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Herrmann",
                     "name": "Jörg"
                 },
-                "text": " Herrmann , Jörg ."
+                "text": " Herrmann, Jörg."
             }
         ]
     }

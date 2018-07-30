@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1947-08-12",
                     "lastname": "Mardt",
-                    "name": "Heinz - Herman"
+                    "name": "Heinz-Herman"
                 },
-                "text": " Mardt , Heinz - Herman , Hamburg , * 08.12.1947 ."
+                "text": " Mardt, Heinz-Herman, Hamburg, *08.12.1947."
             },
             {
                 "class": "Owner",
@@ -35,7 +36,7 @@
                     "lastname": "Dede",
                     "name": "Andreas"
                 },
-                "text": " Dede , Andreas , Hamburg , * 02.03.1970 ."
+                "text": " Dede, Andreas, Hamburg, *02.03.1970."
             }
         ]
     }

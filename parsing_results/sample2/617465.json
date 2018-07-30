@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Wartenberg",
+                    "dismissed": true,
                     "dob": "1958-04-17",
-                    "lastname": "Prof . Dr . Schriever",
+                    "lastname": "Prof. Doctor Schriever",
                     "name": "Folke"
                 },
-                "text": " Prof . Dr . Schriever , Folke , Wartenberg , * 17.04.1958 ."
+                "text": " Prof. Doctor Schriever, Folke, Wartenberg, *17.04.1958."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wartenberg",
                     "dob": "1963-07-29",
                     "lastname": "Jacobs",
                     "name": "Eric"
                 },
-                "text": " Jacobs , Eric , Wartenberg , * 29.07.1963"
+                "text": " Jacobs, Eric, Wartenberg, *29.07.1963"
             }
         ]
     }

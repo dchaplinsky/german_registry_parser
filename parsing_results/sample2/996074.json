@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Fröndenberg",
+                    "dismissed": true,
                     "dob": "1952-01-27",
                     "lastname": "Schön",
                     "name": "Helga"
                 },
-                "text": " Schön , Helga , Fröndenberg , * 27.01.1952 ."
+                "text": " Schön, Helga, Fröndenberg, *27.01.1952."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Fröndenberg",
                     "dob": "1951-12-11",
                     "lastname": "Schön",
                     "name": "Werner"
                 },
-                "text": " Schön , Werner , Fröndenberg , * 12.11.1951 ."
+                "text": " Schön, Werner, Fröndenberg, *12.11.1951."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kamen",
+                    "dismissed": true,
                     "dob": "1971-04-25",
-                    "lastname": "Prieto - Rodriguez",
+                    "lastname": "Prieto-Rodriguez",
                     "name": "Raul"
                 },
-                "text": " Prieto - Rodriguez , Raul , Kamen , * 25.04.1971 ."
+                "text": " Prieto-Rodriguez, Raul, Kamen, *25.04.1971."
             }
         ]
     }

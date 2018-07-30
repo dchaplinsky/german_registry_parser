@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Buchholz in der Nordheide",
+                    "dismissed": true,
                     "dob": "1964-02-13",
                     "lastname": "Mittmann",
                     "name": "Dirk"
                 },
-                "text": " Mittmann , Dirk , Buchholz in der Nordheide , * 13.02.1964 ."
+                "text": " Mittmann, Dirk, Buchholz in der Nordheide, *13.02.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Buchholz in der Nordheide",
                     "dob": "1967-06-02",
@@ -42,7 +43,7 @@
                     "lastname": "Allzeit",
                     "name": "Marco"
                 },
-                "text": " Allzeit , Marco , Buchholz in der Nordheide , * 06.02.1967 , einzelvertretungsberechtigt"
+                "text": " Allzeit, Marco, Buchholz in der Nordheide, *06.02.1967, einzelvertretungsberechtigt"
             }
         ]
     }

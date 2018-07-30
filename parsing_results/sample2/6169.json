@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1951-08-11",
                     "lastname": "Ronge",
                     "name": "Joachim"
                 },
-                "text": " Ronge , Joachim , Hamburg , * 08.11.1951 ."
+                "text": " Ronge, Joachim, Hamburg, *08.11.1951."
             }
         ]
     }

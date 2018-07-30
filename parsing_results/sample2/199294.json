@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Gkouromichos",
                     "name": "Georgios"
                 },
-                "text": " Gkouromichos , Georgios"
+                "text": " Gkouromichos, Georgios"
             },
             {
                 "class": "ManagingDirector",
@@ -33,7 +34,7 @@
                     "lastname": "Anastasiadis",
                     "name": "Nikolaos"
                 },
-                "text": " Anastasiadis , Nikolaos , * 02.11.1985 , Berlin ."
+                "text": " Anastasiadis, Nikolaos, *02.11.1985, Berlin."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=341777&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Trautwein",
                     "name": "Simone"
                 },
-                "text": " Trautwein , Simone , Crailsheim , * 24.02.1975 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Crailsheim",
-                    "dob": "1975-02-24",
-                    "lastname": "Trautwein",
-                    "name": "Simone"
-                },
-                "text": " Trautwein , Simone , Crailsheim , * 24.02.1975 ."
+                "text": " Trautwein, Simone, Crailsheim, *24.02.1975."
             }
         ]
     }

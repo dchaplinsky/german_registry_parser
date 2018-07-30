@@ -19,54 +19,41 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Leipzig",
+                    "dismissed": true,
                     "dob": "1969-09-02",
-                    "lastname": "Dr . Pilgram",
+                    "lastname": "Doctor Pilgram",
                     "name": "Thomas"
                 },
-                "text": " Dr . Pilgram , Thomas , Leipzig , * 09.02.1969 ."
+                "text": " Doctor Pilgram, Thomas, Leipzig, *09.02.1969."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Oppegard / Norwegen",
+                    "city": "Oppegard/Norwegen",
                     "dob": "1967-02-02",
                     "flag": "sole representation",
                     "lastname": "Hembre",
                     "name": "Kolbjörn"
                 },
-                "text": " Hembre , Kolbjörn , Oppegard / Norwegen , * 02.02.1967 , einzelvertretungsberechtigt"
+                "text": " Hembre, Kolbjörn, Oppegard/Norwegen, *02.02.1967, einzelvertretungsberechtigt"
             },
             {
                 "class": "SingleProcuration",
                 "payload": {
-                    "city": "Raadal / Norwegen",
+                    "city": "Raadal/Norwegen",
                     "dob": "1973-04-23",
                     "lastname": "Gjerde",
                     "name": "Therese"
                 },
-                "text": " Gjerde , Therese , Raadal / Norwegen , * 23.04.1973"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Raadal / Norwegen",
-                    "dob": "1973-04-23",
-                    "lastname": "Gjerde",
-                    "name": "Therese"
-                },
-                "text": " Gjerde , Therese , Raadal / Norwegen , * 23.04.1973"
+                "text": " Gjerde, Therese, Raadal/Norwegen, *23.04.1973"
             }
         ]
     }

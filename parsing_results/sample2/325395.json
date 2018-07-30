@@ -19,33 +19,34 @@
         "flags": [
             {
                 "flag": "Exclusive power of representation can be granted.",
-                "text": "Alleinvertretungsbefugnis kann erteilt werden ."
+                "text": "Alleinvertretungsbefugnis\\ kann\\ erteilt\\ werden\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Neumühlen 13 , 22763 Hamburg ."
+                "text": " Neumühlen 13, 22763 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1949-05-23",
                     "lastname": "Ebel",
                     "name": "Hermann"
                 },
-                "text": " Ebel , Hermann , Hamburg , * 23.05.1949 ."
+                "text": " Ebel, Hermann, Hamburg, *23.05.1949."
             },
             {
                 "class": "Liquidator",
@@ -56,7 +57,7 @@
                     "lastname": "Leonhardt",
                     "name": "Frank Hans"
                 },
-                "text": " Leonhardt , Frank Hans , Hamburg , * 27.03.1946 , einzelvertretungsberechtigt"
+                "text": " Leonhardt, Frank Hans, Hamburg, *27.03.1946, einzelvertretungsberechtigt"
             }
         ]
     }

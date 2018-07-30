@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Geislingen / Steige",
+                    "city": "Geislingen/Steige",
+                    "dismissed": true,
                     "dob": "1965-06-10",
                     "lastname": "Benz",
                     "name": "Ralf"
                 },
-                "text": " Benz , Ralf , Geislingen / Steige , * 06.10.1965 ."
+                "text": " Benz, Ralf, Geislingen/Steige, *06.10.1965."
             }
         ]
     }

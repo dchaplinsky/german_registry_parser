@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Kardinal - Faulhaber - Str ."
+                "text": " Kardinal-Faulhaber-Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1959-02-13",
                     "lastname": "Mössbauer",
                     "name": "Renate"
                 },
-                "text": " Mössbauer , Renate , München , * 13.02.1959 ."
+                "text": " Mössbauer, Renate, München, *13.02.1959."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1951-06-22",
@@ -48,7 +49,7 @@
                     "lastname": "Erl",
                     "name": "Hans"
                 },
-                "text": " Erl , Hans , München , * 22.06.1951 , einzelvertretungsberechtigt"
+                "text": " Erl, Hans, München, *22.06.1951, einzelvertretungsberechtigt"
             }
         ]
     }

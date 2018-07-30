@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Steinhagen",
+                    "dismissed": true,
                     "dob": "1939-12-23",
                     "lastname": "Kobusch",
                     "name": "Dieter"
                 },
-                "text": " Kobusch , Dieter , Steinhagen , * 23.12.1939 ."
+                "text": " Kobusch, Dieter, Steinhagen, *23.12.1939."
             }
         ]
     }

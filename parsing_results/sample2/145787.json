@@ -16,32 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=145787&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Dieblich",
                     "dob": "1972-07-05",
-                    "lastname": "Dr . Borzov",
+                    "lastname": "Doctor Borzov",
                     "name": "Dmitry"
                 },
-                "text": " Dr . Borzov , Dmitry , Dieblich , * 07.05.1972 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Dieblich",
-                    "dob": "1972-07-05",
-                    "lastname": "Dr . Borzov",
-                    "name": "Dmitry"
-                },
-                "text": " Dr . Borzov , Dmitry , Dieblich , * 07.05.1972 ."
+                "text": " Doctor Borzov, Dmitry, Dieblich, *07.05.1972."
             }
         ]
     }

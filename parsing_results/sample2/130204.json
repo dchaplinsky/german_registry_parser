@@ -19,7 +19,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Sosna , Dominik , * 01.12.1973 , Berlin Prokura : Tascon , Hernán Camps , * 06.05.1971 , Berlin, error text was no valid patter found, number of chunks: 7"
+                "text": "Cannot parse a ManagingDirector from  Sosna, Dominik, *01.12.1973, Berlin Prokura: Tascon, Hernán Camps, *06.05.1971, Berlin, error text was no valid patter found, number of chunks: 7"
             }
         ],
         "flags": [
@@ -30,12 +30,13 @@
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Camps Tascon",
                     "name": "Hernán"
                 },
-                "text": " Camps Tascon , Hernán"
+                "text": " Camps Tascon, Hernán"
             },
             {
                 "class": "Procuration",
@@ -45,7 +46,7 @@
                     "lastname": "Tascon",
                     "name": "Hernán Camps"
                 },
-                "text": " Tascon , Hernán Camps , * 06.05.1971 , Berlin"
+                "text": " Tascon, Hernán Camps, *06.05.1971, Berlin"
             }
         ]
     }

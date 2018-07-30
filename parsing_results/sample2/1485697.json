@@ -19,12 +19,12 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Venloer Straße 2344 , 50672 Köln ."
+                "text": " Venloer Straße 2344, 50672 Köln."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Köln",
                     "dob": "1972-10-18",
@@ -32,17 +32,18 @@
                     "lastname": "Weihrauch",
                     "name": "Constance Anita"
                 },
-                "text": " Weihrauch , Constance Anita , Köln , * 18.10.1972 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Weihrauch, Constance Anita, Köln, *18.10.1972, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bergisch Gladbach",
+                    "dismissed": true,
                     "dob": "1973-09-25",
                     "lastname": "Bott",
                     "name": "Sandra"
                 },
-                "text": " Bott , Sandra , Bergisch Gladbach , * 25.09.1973 ."
+                "text": " Bott, Sandra, Bergisch Gladbach, *25.09.1973."
             }
         ]
     }

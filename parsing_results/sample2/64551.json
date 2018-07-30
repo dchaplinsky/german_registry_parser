@@ -19,12 +19,12 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Elversberger Straße 40 a , 66386 St . Ingbert ."
+                "text": " Elversberger Straße 40a, 66386 St. Ingbert."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kaiserslautern",
                     "dob": "1980-02-13",
@@ -32,17 +32,18 @@
                     "lastname": "Ritter",
                     "name": "Christian"
                 },
-                "text": " Ritter , Christian , Kaiserslautern , * 13.02.1980 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Ritter, Christian, Kaiserslautern, *13.02.1980, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Saarbrücken",
+                    "dismissed": true,
                     "dob": "1974-06-22",
                     "lastname": "Schmeer",
                     "name": "Torsten"
                 },
-                "text": " Schmeer , Torsten , Saarbrücken , * 22.06.1974 ."
+                "text": " Schmeer, Torsten, Saarbrücken, *22.06.1974."
             }
         ]
     }

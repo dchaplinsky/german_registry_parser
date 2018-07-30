@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Bohmte",
+                    "dismissed": true,
                     "lastname": "Leimbrock",
                     "name": "Franz",
                     "position": "Kaufmann"
                 },
-                "text": " Leimbrock , Franz , Kaufmann , Bohmte ."
+                "text": " Leimbrock, Franz, Kaufmann, Bohmte."
             },
             {
                 "class": "Owner",
@@ -35,7 +36,7 @@
                     "lastname": "Leimbrock",
                     "name": "Wilhelm"
                 },
-                "text": " Leimbrock , Wilhelm , Dissen , * 11.06.1943 ."
+                "text": " Leimbrock, Wilhelm, Dissen, *11.06.1943."
             }
         ]
     }

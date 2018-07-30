@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1945-09-15",
-                    "lastname": "Dr . El Agamy",
+                    "lastname": "Doctor El Agamy",
                     "name": "Tahany"
                 },
-                "text": " Dr . El Agamy , Tahany , Berlin , * 15.09.1945 ."
+                "text": " Doctor El Agamy, Tahany, Berlin, *15.09.1945."
             }
         ]
     }

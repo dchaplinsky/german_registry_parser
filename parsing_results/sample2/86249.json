@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Hohe Leuchte 3 , 39130 Magdeburg ."
+                "text": " Hohe Leuchte 3, 39130 Magdeburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Magdeburg",
+                    "dismissed": true,
                     "dob": "1969-08-28",
                     "lastname": "May",
                     "name": "Thomas"
                 },
-                "text": " May , Thomas , Magdeburg , * 28.08.1969 ."
+                "text": " May, Thomas, Magdeburg, *28.08.1969."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Leipzig",
                     "dob": "1973-04-18",
                     "lastname": "Frenzel",
                     "name": "Sandra"
                 },
-                "text": " Frenzel , Sandra , Leipzig , * 18.04.1973 ."
+                "text": " Frenzel, Sandra, Leipzig, *18.04.1973."
             }
         ]
     }

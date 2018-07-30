@@ -16,10 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=472687&land_abk=nw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Wöhler , Joachim , Kaufmann , Wiehl , * 12.03.1954 ., error text was Cannot parse DOB  Kaufmann  using regex"
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Wiehl",
+                    "dismissed": true,
+                    "dob": "1954-12-03",
+                    "lastname": "Wöhler",
+                    "name": "Joachim",
+                    "position": "Kaufmann"
+                },
+                "text": " Wöhler, Joachim, Kaufmann, Wiehl, *12.03.1954."
             }
         ]
     }

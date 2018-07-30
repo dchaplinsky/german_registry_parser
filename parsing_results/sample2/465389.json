@@ -19,51 +19,52 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             },
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Firma / Name vormals : Kurfürst 1502 GmbH , Berlin , Prinzregentenstraße 85 , 10717 Berlin ."
+                "text": " Firma / Name vormals: Kurfürst 1502 GmbH, Berlin, Prinzregentenstraße 85, 10717 Berlin."
             },
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Prinzregentenstraße 85 , 10717 Berlin"
+                "text": " Geschäftsanschrift: Prinzregentenstraße 85, 10717 Berlin"
             },
             {
                 "label": "address",
-                "text": " Prinzregentenstraße 85 , 10717 Berlin"
+                "text": " Prinzregentenstraße 85, 10717 Berlin"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Tronczik",
                     "name": "Martin"
                 },
-                "text": " Tronczik , Martin"
+                "text": " Tronczik, Martin"
             },
             {
                 "class": "ManagingDirector",
@@ -73,7 +74,7 @@
                     "lastname": "Exter",
                     "name": "Friederike"
                 },
-                "text": " Exter , Friederike , * 18.05.1990 , Berlin"
+                "text": " Exter, Friederike, *18.05.1990, Berlin"
             },
             {
                 "class": "ManagingDirector",
@@ -83,7 +84,7 @@
                     "lastname": "Exter",
                     "name": "Ernst Herrmann"
                 },
-                "text": " Exter , Ernst Herrmann , * 06.08.1948 , Berlin"
+                "text": " Exter, Ernst Herrmann, *06.08.1948, Berlin"
             }
         ]
     }

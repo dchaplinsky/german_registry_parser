@@ -24,14 +24,15 @@
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1980-09-29",
                     "lastname": "Burykin",
                     "name": "Dmitriy"
                 },
-                "text": " Burykin , Dmitriy , München , * 29.09.1980 ."
+                "text": " Burykin, Dmitriy, München, *29.09.1980."
             }
         ]
     }

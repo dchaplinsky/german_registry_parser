@@ -18,26 +18,26 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Bahnhofstraße 108 , 35415 Pohlheim ."
+                "text": " Bahnhofstraße 108, 35415 Pohlheim."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Gießen",
                     "dob": "1958-09-05",
                     "lastname": "Pfeffer",
                     "name": "Jürgen"
                 },
-                "text": " Pfeffer , Jürgen , Gießen , * 09.05.1958 ."
+                "text": " Pfeffer, Jürgen, Gießen, *09.05.1958."
             }
         ]
     }

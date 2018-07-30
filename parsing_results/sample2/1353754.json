@@ -21,11 +21,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Münster",
+                    "dismissed": true,
                     "dob": "1975-10-24",
                     "lastname": "Grave",
                     "name": "Daniela"
                 },
-                "text": " Grave , Daniela , Münster , * 24.10.1975 ."
+                "text": " Grave, Daniela, Münster, *24.10.1975."
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Schmitz",
                     "name": "Thorsten"
                 },
-                "text": " Schmitz , Thorsten , Dortmund , * 23.06.1966 ."
+                "text": " Schmitz, Thorsten, Dortmund, *23.06.1966."
             }
         ]
     }

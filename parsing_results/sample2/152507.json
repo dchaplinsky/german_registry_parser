@@ -18,23 +18,24 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Meitingen",
                     "dob": "1952-10-25",
                     "lastname": "Polkehn",
                     "name": "Irene"
                 },
-                "text": " Polkehn , Irene , Meitingen , * 25.10.1952 ."
+                "text": " Polkehn, Irene, Meitingen, *25.10.1952."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Meitingen",
+                    "dismissed": true,
                     "lastname": "Filz",
                     "name": "Maria"
                 },
-                "text": " Filz , Maria , Meitingen ."
+                "text": " Filz, Maria, Meitingen."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Kößlarn",
+                    "dismissed": true,
                     "dob": "1959-07-07",
                     "lastname": "Piller",
                     "name": "Pia"
                 },
-                "text": " Piller , Pia , Kößlarn , * 07.07.1959 ."
+                "text": " Piller, Pia, Kößlarn, *07.07.1959."
             }
         ]
     }

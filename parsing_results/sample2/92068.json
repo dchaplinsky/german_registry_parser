@@ -19,17 +19,18 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Kjellberg Industrie - Consulting GmbH , Finsterwalde , Oscar - Kjellberg - Straße 24 , 03238 Finsterwalde ."
+                "text": " Kjellberg Industrie-Consulting GmbH, Finsterwalde, Oscar-Kjellberg-Straße 24, 03238 Finsterwalde."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Zerdo",
                     "name": "Sulejman"
                 },
-                "text": " Zerdo , Sulejman"
+                "text": " Zerdo, Sulejman"
             },
             {
                 "class": "ManagingDirector",
@@ -39,7 +40,7 @@
                     "lastname": "Schnick",
                     "name": "Michael"
                 },
-                "text": " Schnick , Michael , * 12.01.1976 , Oberlungwitz"
+                "text": " Schnick, Michael, *12.01.1976, Oberlungwitz"
             }
         ]
     }

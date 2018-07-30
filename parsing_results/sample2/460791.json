@@ -18,14 +18,14 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Edwin - Reis - Straße 6-10 , 68229 Mannheim ."
+                "text": " Edwin-Reis-Straße 6-10, 68229 Mannheim."
             }
         ],
         "officers": [
@@ -35,20 +35,21 @@
                     "city": "Leipzig",
                     "dob": "1948-08-14",
                     "flag": "sole representation",
-                    "lastname": "Dr . Appelt",
+                    "lastname": "Doctor Appelt",
                     "name": "Gerold"
                 },
-                "text": " Dr . Appelt , Gerold , Leipzig , * 14.08.1948 , einzelvertretungsberechtigt ."
+                "text": " Doctor Appelt, Gerold, Leipzig, *14.08.1948, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Freiburg im Breisgau",
+                    "dismissed": true,
                     "dob": "1966-03-17",
-                    "lastname": "Dr . Haas",
+                    "lastname": "Doctor Haas",
                     "name": "Christian"
                 },
-                "text": " Dr . Haas , Christian , Freiburg im Breisgau , * 17.03.1966 ."
+                "text": " Doctor Haas, Christian, Freiburg im Breisgau, *17.03.1966."
             }
         ]
     }

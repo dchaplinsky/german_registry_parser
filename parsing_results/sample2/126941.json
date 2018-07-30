@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Werl",
+                    "dismissed": true,
                     "lastname": "Stamm",
                     "name": "Wilfried",
                     "position": "Immobilienkaufmann"
                 },
-                "text": " Stamm , Wilfried , Immobilienkaufmann , Werl ."
+                "text": " Stamm, Wilfried, Immobilienkaufmann, Werl."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wickede",
                     "dob": "1939-09-18",
@@ -36,7 +37,7 @@
                     "lastname": "Macha",
                     "name": "Günter"
                 },
-                "text": " Macha , Günter , Wickede , * 18.09.1939 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Macha, Günter, Wickede, *18.09.1939, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

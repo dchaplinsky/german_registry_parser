@@ -19,23 +19,24 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " bastian ."
+                "text": " bastian."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Niesing",
                     "name": "Axel"
                 },
-                "text": " Niesing , Axel ."
+                "text": " Niesing, Axel."
             },
             {
                 "class": "ManagingDirector",
@@ -45,7 +46,7 @@
                     "lastname": "Hillmann",
                     "name": "Kay"
                 },
-                "text": " Hillmann , Kay , * 16.04.1958 , Bremen"
+                "text": " Hillmann, Kay, *16.04.1958, Bremen"
             }
         ]
     }

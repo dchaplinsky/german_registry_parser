@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Delitzsch OT Schenkenberg",
+                    "dismissed": true,
                     "dob": "1964-11-14",
                     "lastname": "Sonntag",
                     "name": "Ingo"
                 },
-                "text": " Sonntag , Ingo , Delitzsch OT Schenkenberg , * 14.11.1964 ."
+                "text": " Sonntag, Ingo, Delitzsch OT Schenkenberg, *14.11.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Delitzsch OT Schenkenberg",
                     "dob": "1971-01-25",
                     "lastname": "Sonntag",
                     "name": "Antja"
                 },
-                "text": " Sonntag , Antja , Delitzsch OT Schenkenberg , * 25.01.1971 ."
+                "text": " Sonntag, Antja, Delitzsch OT Schenkenberg, *25.01.1971."
             }
         ]
     }

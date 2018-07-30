@@ -16,28 +16,15 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=26918&land_abk=be"
     },
     "parsed": {
-        "labels": [
-            {
-                "label": "misc",
-                "text": " 600 EUR Prokura : Nicht mehr Prokurist : Dr . Berg , Erik"
-            }
-        ],
         "officers": [
             {
                 "class": "NotAProcurator",
                 "payload": {
-                    "lastname": "Dr . Berg",
+                    "dismissed": true,
+                    "lastname": "Doctor Berg",
                     "name": "Erik"
                 },
-                "text": " Dr . Berg , Erik"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Nicht mehr Prokurist : Dr . Berg",
-                    "name": "Erik"
-                },
-                "text": " Nicht mehr Prokurist : Dr . Berg , Erik"
+                "text": " Doctor Berg, Erik"
             }
         ]
     }

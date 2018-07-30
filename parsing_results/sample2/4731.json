@@ -19,11 +19,11 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "Single procuration",
@@ -32,12 +32,13 @@
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Marks",
                     "name": "Simone"
                 },
-                "text": " Marks , Simone"
+                "text": " Marks, Simone"
             },
             {
                 "class": "ManagingDirector",
@@ -47,7 +48,7 @@
                     "lastname": "Barjic",
                     "name": "Jakub"
                 },
-                "text": " Barjic , Jakub , * 14.05.1961 , Berlin"
+                "text": " Barjic, Jakub, *14.05.1961, Berlin"
             },
             {
                 "class": "Procuration",
@@ -57,7 +58,7 @@
                     "lastname": "Burgic",
                     "name": "Amir"
                 },
-                "text": " Burgic , Amir , * 17.03.1970 , Berlin"
+                "text": " Burgic, Amir, *17.03.1970, Berlin"
             }
         ]
     }

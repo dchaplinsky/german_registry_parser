@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hösbach",
+                    "dismissed": true,
                     "dob": "1959-06-16",
                     "lastname": "Krebs",
                     "name": "Maria"
                 },
-                "text": " Krebs , Maria , Hösbach , * 16.06.1959 ."
+                "text": " Krebs, Maria, Hösbach, *16.06.1959."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mömbris",
                     "dob": "1984-03-23",
@@ -42,7 +43,7 @@
                     "lastname": "Fischer",
                     "name": "Gisela"
                 },
-                "text": " Fischer , Gisela , Mömbris , * 23.03.1984 , einzelvertretungsberechtigt"
+                "text": " Fischer, Gisela, Mömbris, *23.03.1984, einzelvertretungsberechtigt"
             }
         ]
     }

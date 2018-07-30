@@ -19,12 +19,12 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Cottaweg 49 a , 22117 Hamburg ."
+                "text": " Cottaweg 49 a, 22117 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1988-09-04",
@@ -32,17 +32,18 @@
                     "lastname": "Mariampillai",
                     "name": "Vathanee"
                 },
-                "text": " Mariampillai , Vathanee , Hamburg , * 09.04.1988 , vertretungsberechtigt gemäß allgemeiner Vertretungsregelung ."
+                "text": " Mariampillai, Vathanee, Hamburg, *09.04.1988, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1978-02-03",
                     "lastname": "Yeter",
                     "name": "Tuncay"
                 },
-                "text": " Yeter , Tuncay , Hamburg , * 02.03.1978 ."
+                "text": " Yeter, Tuncay, Hamburg, *02.03.1978."
             }
         ]
     }

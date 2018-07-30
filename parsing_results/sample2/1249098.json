@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Olpe",
+                    "dismissed": true,
                     "dob": "1965-06-02",
                     "lastname": "Huckestein",
                     "name": "Georg"
                 },
-                "text": " Huckestein , Georg , Olpe , * 06.02.1965 ."
+                "text": " Huckestein, Georg, Olpe, *06.02.1965."
             }
         ]
     }

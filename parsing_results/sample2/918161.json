@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Gummersbach",
                     "dob": "1971-03-05",
@@ -26,17 +26,18 @@
                     "lastname": "Stute",
                     "name": "Mathias"
                 },
-                "text": " Stute , Mathias , Gummersbach , * 03.05.1971 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Stute, Mathias, Gummersbach, *03.05.1971, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Gummersbach",
+                    "dismissed": true,
                     "dob": "1940-11-23",
                     "lastname": "Bremicker",
                     "name": "Siegfried"
                 },
-                "text": " Bremicker , Siegfried , Gummersbach , * 23.11.1940 ."
+                "text": " Bremicker, Siegfried, Gummersbach, *23.11.1940."
             }
         ]
     }

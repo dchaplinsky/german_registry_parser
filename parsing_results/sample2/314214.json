@@ -23,19 +23,20 @@
             },
             {
                 "flag": "The owner is acting alone",
-                "text": "Der Inhaber handelt allein"
+                "text": "Der\\ Inhaber\\ handelt\\ allein"
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Hohenstein",
+                    "dismissed": true,
                     "dob": "1954-01-05",
                     "lastname": "Lohrer",
                     "name": "Ulrike"
                 },
-                "text": " Lohrer , Ulrike , Hohenstein , * 01.05.1954 ."
+                "text": " Lohrer, Ulrike, Hohenstein, *01.05.1954."
             },
             {
                 "class": "Owner",
@@ -45,7 +46,7 @@
                     "lastname": "Lohrer",
                     "name": "Uwe"
                 },
-                "text": " Lohrer , Uwe , Hohenstein , * 17.09.1947 ."
+                "text": " Lohrer, Uwe, Hohenstein, *17.09.1947."
             }
         ]
     }

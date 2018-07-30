@@ -16,10 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=931243&land_abk=by"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Steckermeier , Karl jun . , Kaufmann , Gangkofen , * 18.03.1953 ., error text was Cannot parse DOB  Kaufmann  using regex"
+                "class": "Owner",
+                "payload": {
+                    "city": "Gangkofen",
+                    "dob": "1953-03-18",
+                    "lastname": "Steckermeier",
+                    "name": "Karl jun",
+                    "position": "Kaufmann"
+                },
+                "text": " Steckermeier, Karl jun., Kaufmann, Gangkofen, *18.03.1953."
             }
         ]
     }

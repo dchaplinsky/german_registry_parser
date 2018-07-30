@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1986-01-06",
                     "lastname": "Kabelitz",
                     "name": "Stefanie"
                 },
-                "text": " Kabelitz , Stefanie , Frankfurt am Main , * 01.06.1986 ."
+                "text": " Kabelitz, Stefanie, Frankfurt am Main, *01.06.1986."
             },
             {
                 "class": "ManagingDirector",
@@ -42,7 +43,7 @@
                     "lastname": "Kahl",
                     "name": "Ricarda"
                 },
-                "text": " Kahl , Ricarda , Büttelborn , * 16.03.1987 , einzelvertretungsberechtigt"
+                "text": " Kahl, Ricarda, Büttelborn, *16.03.1987, einzelvertretungsberechtigt"
             }
         ]
     }

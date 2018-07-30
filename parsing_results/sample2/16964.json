@@ -19,13 +19,13 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Hecker , Jürgen , Malermeister , Riesa , * 15.07.0194 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Malermeister  using regex"
+                "text": "Cannot parse a Liquidator from  Hecker, Jürgen, Malermeister, Riesa, *15.07.0194, einzelvertretungsberechtigt, error text was Cannot parse DOB  Malermeister using regex"
             }
         ],
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ]
     }

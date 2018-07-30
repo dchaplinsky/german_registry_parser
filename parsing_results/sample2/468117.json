@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " c / o Gehring & Partner mbB , Georgstraße 30-32 , 49809 Lingen ."
+                "text": " c/o Gehring & Partner mbB, Georgstraße 30-32, 49809 Lingen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Lingen",
+                    "dismissed": true,
                     "dob": "1965-03-12",
                     "lastname": "Böhmer",
                     "name": "Johanna"
                 },
-                "text": " Böhmer , Johanna , Lingen , * 03.12.1965 ."
+                "text": " Böhmer, Johanna, Lingen, *03.12.1965."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Lingen ( Ems )",
+                    "city": "Lingen (Ems)",
                     "dob": "1969-08-02",
                     "lastname": "Böhmer",
                     "name": "Martina"
                 },
-                "text": " Böhmer , Martina , Lingen ( Ems ) , * 08.02.1969"
+                "text": " Böhmer, Martina, Lingen (Ems), *08.02.1969"
             }
         ]
     }

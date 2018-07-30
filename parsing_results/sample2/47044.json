@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Burgwedel",
                     "dob": "1944-04-28",
@@ -26,17 +26,18 @@
                     "lastname": "Kind",
                     "name": "Martin"
                 },
-                "text": " Kind , Martin , Burgwedel , * 28.04.1944 , einzelvertretungsberechtigt ."
+                "text": " Kind, Martin, Burgwedel, *28.04.1944, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Steinheim",
+                    "dismissed": true,
                     "dob": "1965-04-05",
                     "lastname": "Schnitzmeier",
                     "name": "Ralf"
                 },
-                "text": " Schnitzmeier , Ralf , Steinheim , * 04.05.1965 ."
+                "text": " Schnitzmeier, Ralf, Steinheim, *04.05.1965."
             }
         ]
     }

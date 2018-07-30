@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Thiendorf",
+                    "dismissed": true,
                     "dob": "1977-03-31",
                     "lastname": "Jakob",
                     "name": "Judith"
                 },
-                "text": " Jakob , Judith , Thiendorf , * 31.03.1977 ."
+                "text": " Jakob, Judith, Thiendorf, *31.03.1977."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dresden",
                     "dob": "1958-05-27",
@@ -36,7 +37,7 @@
                     "lastname": "Freiherr von Wangenheim",
                     "name": "Stephan Georg"
                 },
-                "text": " Freiherr von Wangenheim , Stephan Georg , Dresden , * 27.05.1958 , einzelvertretungsberechtigt"
+                "text": " Freiherr von Wangenheim, Stephan Georg, Dresden, *27.05.1958, einzelvertretungsberechtigt"
             }
         ]
     }

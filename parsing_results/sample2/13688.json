@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Syke",
+                    "dismissed": true,
                     "dob": "1938-03-09",
                     "lastname": "Wesemann",
                     "name": "Werner"
                 },
-                "text": " Wesemann , Werner , Syke , * 03.09.1938 ."
+                "text": " Wesemann, Werner, Syke, *03.09.1938."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Syke",
                     "dob": "1971-09-11",
                     "lastname": "Wesemann",
                     "name": "Robert"
                 },
-                "text": " Wesemann , Robert , Syke , * 09.11.1971"
+                "text": " Wesemann, Robert, Syke, *09.11.1971"
             }
         ]
     }

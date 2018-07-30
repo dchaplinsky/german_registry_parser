@@ -19,26 +19,28 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
+                "text": "Kommanditgesellschaft\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Bremerhavener Straße 10 , 27442 Gnarrenburg ."
+                "text": " Bremerhavener Straße 10, 27442 Gnarrenburg."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Meyer Landmaschinen Verwaltungs - GmbH , Gnarrenburg ( Amtsgericht Tostedt HRB 101358 ) , einzelvertretungsberechtigt"
+                    "city": "einzelvertretungsberechtigt",
+                    "lastname": "Meyer Landmaschinen Verwaltungs-GmbH",
+                    "name": "Gnarrenburg (Amtsgericht Tostedt HRB 101358)"
                 },
-                "text": " Meyer Landmaschinen Verwaltungs - GmbH , Gnarrenburg ( Amtsgericht Tostedt HRB 101358 ) , einzelvertretungsberechtigt"
+                "text": " Meyer Landmaschinen Verwaltungs-GmbH, Gnarrenburg (Amtsgericht Tostedt HRB 101358), einzelvertretungsberechtigt"
             }
         ]
     }

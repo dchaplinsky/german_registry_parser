@@ -18,23 +18,24 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Sangerhausen",
+                    "dismissed": true,
                     "lastname": "Bischoff",
                     "name": "Siegfried"
                 },
-                "text": " Bischoff , Siegfried , Sangerhausen ."
+                "text": " Bischoff, Siegfried, Sangerhausen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Allstedt OT Beyernaumburg",
                     "dob": "1972-05-11",
                     "lastname": "Schlennstedt",
                     "name": "Yvonne"
                 },
-                "text": " Schlennstedt , Yvonne , Allstedt OT Beyernaumburg , * 05.11.1972 ."
+                "text": " Schlennstedt, Yvonne, Allstedt OT Beyernaumburg, *05.11.1972."
             }
         ]
     }

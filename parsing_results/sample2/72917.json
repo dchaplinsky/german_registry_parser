@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Neue Straße 4 , 37603 Holzminden ."
+                "text": " Neue Straße 4, 37603 Holzminden."
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Holzminden",
+                    "dismissed": true,
                     "lastname": "Klages",
                     "name": "Ulrich",
                     "position": "Augenoptikermeister"
                 },
-                "text": " Klages , Ulrich , Augenoptikermeister , Holzminden ."
+                "text": " Klages, Ulrich, Augenoptikermeister, Holzminden."
             },
             {
                 "class": "Owner",
@@ -41,7 +42,7 @@
                     "lastname": "Beinlich",
                     "name": "Frank"
                 },
-                "text": " Beinlich , Frank , Einbeck , * 25.09.1968 ."
+                "text": " Beinlich, Frank, Einbeck, *25.09.1968."
             }
         ]
     }

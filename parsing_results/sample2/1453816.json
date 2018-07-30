@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Gartenstr ."
+                "text": " Gartenstr."
             }
         ],
         "officers": [
@@ -31,17 +31,18 @@
                     "lastname": "Meins",
                     "name": "Wiebke"
                 },
-                "text": " Meins , Wiebke , Mettmann , * 04.03.1975 ."
+                "text": " Meins, Wiebke, Mettmann, *04.03.1975."
             },
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Mettmann",
+                    "dismissed": true,
                     "dob": "1957-08-31",
                     "lastname": "Steinbach",
                     "name": "Bettina"
                 },
-                "text": " Steinbach , Bettina , Mettmann , * 31.08.1957 ."
+                "text": " Steinbach, Bettina, Mettmann, *31.08.1957."
             }
         ]
     }

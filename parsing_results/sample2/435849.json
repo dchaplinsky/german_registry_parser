@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Shropshire / Vereinigtes Königreich",
+                    "dismissed": true,
                     "dob": "1961-02-08",
                     "lastname": "Nesbitt",
                     "name": "John Oliver"
                 },
-                "text": " Nesbitt , John Oliver , Shropshire / Vereinigtes Königreich , * 02.08.1961"
+                "text": " Nesbitt, John Oliver, Shropshire / Vereinigtes Königreich, *02.08.1961"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Midhurst / Vereinigtes Königreich",
                     "dob": "1976-01-17",
                     "lastname": "Lock",
                     "name": "James"
                 },
-                "text": " Lock , James , Midhurst / Vereinigtes Königreich , * 17.01.1976"
+                "text": " Lock, James, Midhurst / Vereinigtes Königreich, *17.01.1976"
             }
         ]
     }

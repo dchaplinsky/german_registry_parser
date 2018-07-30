@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Dettingen",
+                    "dismissed": true,
                     "dob": "1961-06-03",
                     "lastname": "Eininger",
                     "name": "Martin"
                 },
-                "text": " Eininger , Martin , Dettingen , * 06.03.1961 ."
+                "text": " Eininger, Martin, Dettingen, *06.03.1961."
             }
         ]
     }

@@ -18,22 +18,23 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
-                    "lastname": "Nicht mehr Inhaber : Ahrens",
+                    "dismissed": true,
+                    "lastname": "Ahrens",
                     "name": "Ursula"
                 },
-                "text": " Nicht mehr Inhaber : Ahrens , Ursula"
+                "text": " Ahrens, Ursula"
             },
             {
                 "class": "Owner",
                 "payload": {
-                    "city": "Berlin Rechtsform : Geschäft und Firma sind auf Kristin Fussan übergegangen",
+                    "city": "Berlin Rechtsform: Geschäft und Firma sind auf Kristin Fussan übergegangen",
                     "dob": "1967-05-30",
                     "lastname": "Fussan",
                     "name": "Kristin geborene Stahl"
                 },
-                "text": " Fussan , Kristin geborene Stahl , * 30.05.1967 , Berlin Rechtsform : Geschäft und Firma sind auf Kristin Fussan übergegangen ."
+                "text": " Fussan, Kristin geborene Stahl, *30.05.1967, Berlin Rechtsform: Geschäft und Firma sind auf Kristin Fussan übergegangen."
             }
         ]
     }

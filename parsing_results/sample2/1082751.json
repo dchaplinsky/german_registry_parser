@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Fürth",
+                    "dismissed": true,
                     "dob": "1953-05-02",
                     "lastname": "Dauchenbeck",
                     "name": "Walter"
                 },
-                "text": " Dauchenbeck , Walter , Fürth , * 05.02.1953 ."
+                "text": " Dauchenbeck, Walter, Fürth, *05.02.1953."
             },
             {
                 "class": "PersonalPartner",
@@ -42,17 +43,18 @@
                     "lastname": "Dauchenbeck",
                     "name": "Mirja"
                 },
-                "text": " Dauchenbeck , Mirja , Fürth , * 10.12.1979 , einzelvertretungsberechtigt"
+                "text": " Dauchenbeck, Mirja, Fürth, *10.12.1979, einzelvertretungsberechtigt"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Fürth",
+                    "dismissed": true,
                     "dob": "1979-10-12",
                     "lastname": "Dauchenbeck",
                     "name": "Mirja"
                 },
-                "text": " Dauchenbeck , Mirja , Fürth , * 10.12.1979 ."
+                "text": " Dauchenbeck, Mirja, Fürth, *10.12.1979."
             }
         ]
     }

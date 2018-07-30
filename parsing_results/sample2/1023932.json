@@ -19,40 +19,42 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Grünwald",
+                    "dismissed": true,
                     "dob": "1962-11-09",
                     "lastname": "Brandt",
                     "name": "Thorsten"
                 },
-                "text": " Brandt , Thorsten , Grünwald , * 11.09.1962 ."
+                "text": " Brandt, Thorsten, Grünwald, *11.09.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Aschheim",
                     "dob": "1982-06-25",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Fach",
                     "name": "Rabea"
                 },
-                "text": " Fach , Rabea , Aschheim , * 25.06.1982 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Fach, Rabea, Aschheim, *25.06.1982, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Aschheim",
+                    "dismissed": true,
                     "dob": "1982-06-25",
                     "lastname": "Fach",
                     "name": "Rabea"
                 },
-                "text": " Fach , Rabea , Aschheim , * 25.06.1982 ."
+                "text": " Fach, Rabea, Aschheim, *25.06.1982."
             }
         ]
     }

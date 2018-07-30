@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Beverungen - Haarbrück",
+                    "city": "Beverungen-Haarbrück",
+                    "dismissed": true,
                     "dob": "1957-07-23",
                     "lastname": "Asessor Hanewinkel",
-                    "name": "Hans - Josef"
+                    "name": "Hans-Josef"
                 },
-                "text": " Asessor Hanewinkel , Hans - Josef , Beverungen - Haarbrück , * 23.07.1957 ."
+                "text": " Asessor Hanewinkel, Hans-Josef, Beverungen-Haarbrück, *23.07.1957."
             }
         ]
     }

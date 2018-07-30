@@ -19,18 +19,18 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Bahnhofstraße 6 , 63500 Seligenstadt ."
+                "text": " Bahnhofstraße 6, 63500 Seligenstadt."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Leverkusen",
                     "dob": "1963-12-12",
@@ -38,17 +38,18 @@
                     "lastname": "Seibert",
                     "name": "Michael"
                 },
-                "text": " Seibert , Michael , Leverkusen , * 12.12.1963 , einzelvertretungsberechtigt"
+                "text": " Seibert, Michael, Leverkusen, *12.12.1963, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Stolberg",
+                    "dismissed": true,
                     "dob": "1953-02-14",
                     "lastname": "Coir",
-                    "name": "Bernd J . J"
+                    "name": "Bernd J. J"
                 },
-                "text": " Coir , Bernd J . J . , Stolberg , * 14.02.1953 ."
+                "text": " Coir, Bernd J. J., Stolberg, *14.02.1953."
             }
         ]
     }

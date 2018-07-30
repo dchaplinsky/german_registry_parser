@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1955-09-03",
                     "lastname": "Loose",
                     "name": "Detlev"
                 },
-                "text": " Loose , Detlev , Berlin , * 09.03.1955 ."
+                "text": " Loose, Detlev, Berlin, *09.03.1955."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Eggersdorf",
                     "dob": "1968-09-21",
                     "lastname": "Fries",
                     "name": "Hendrik"
                 },
-                "text": " Fries , Hendrik , Eggersdorf , * 21.09.1968 ."
+                "text": " Fries, Hendrik, Eggersdorf, *21.09.1968."
             }
         ]
     }

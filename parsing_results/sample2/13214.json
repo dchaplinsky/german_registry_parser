@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Hagen",
+                    "dismissed": true,
                     "dob": "1958-04-01",
                     "lastname": "Vitzthum",
                     "name": "Christel"
                 },
-                "text": " Vitzthum , Christel , Hagen , * 04.01.1958 ."
+                "text": " Vitzthum, Christel, Hagen, *04.01.1958."
             },
             {
                 "class": "Owner",
@@ -35,7 +36,7 @@
                     "lastname": "Vitzthum",
                     "name": "Detlef"
                 },
-                "text": " Vitzthum , Detlef , Hagen , * 27.03.1952 ."
+                "text": " Vitzthum, Detlef, Hagen, *27.03.1952."
             }
         ]
     }

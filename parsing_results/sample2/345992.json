@@ -16,32 +16,39 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=345992&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Hesselmann , Hermann , kaufmännischer Angestellter , Haan , * 23.03.1941, error text was Cannot parse DOB  kaufmännischer Angestellter  using regex"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Heiligenhaus",
                     "dob": "1964-11-25",
                     "lastname": "Gebhardt",
                     "name": "Stephan"
                 },
-                "text": " Gebhardt , Stephan , Heiligenhaus , * 25.11.1964"
+                "text": " Gebhardt, Stephan, Heiligenhaus, *25.11.1964"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Haan",
+                    "dismissed": true,
+                    "dob": "1941-03-23",
+                    "lastname": "Hesselmann",
+                    "name": "Hermann",
+                    "position": "kaufmännischer Angestellter"
+                },
+                "text": " Hesselmann, Hermann, kaufmännischer Angestellter, Haan, *23.03.1941"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Neuss",
+                    "dismissed": true,
                     "dob": "1941-07-08",
                     "lastname": "Calefice",
                     "name": "Jürgen"
                 },
-                "text": " Calefice , Jürgen , Neuss , * 07.08.1941"
+                "text": " Calefice, Jürgen, Neuss, *07.08.1941"
             }
         ]
     }

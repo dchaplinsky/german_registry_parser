@@ -19,46 +19,48 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Oststr ."
+                "text": " Oststr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kehl",
+                    "dismissed": true,
                     "dob": "1957-05-27",
                     "lastname": "Stiefel",
                     "name": "Peter"
                 },
-                "text": " Stiefel , Peter , Kehl , * 27.05.1957 ."
+                "text": " Stiefel, Peter, Kehl, *27.05.1957."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Gaggenau",
                     "dob": "1967-01-22",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Meier",
                     "name": "Rolf"
                 },
-                "text": " Meier , Rolf , Gaggenau , * 22.01.1967 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Meier, Rolf, Gaggenau, *22.01.1967, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Gaggenau",
+                    "dismissed": true,
                     "dob": "1967-01-22",
                     "lastname": "Meier",
                     "name": "Rolf"
                 },
-                "text": " Meier , Rolf , Gaggenau , * 22.01.1967 ."
+                "text": " Meier, Rolf, Gaggenau, *22.01.1967."
             }
         ]
     }

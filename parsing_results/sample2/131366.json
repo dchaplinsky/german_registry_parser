@@ -18,22 +18,23 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Sinzig",
                     "dob": "1952-08-01",
                     "lastname": "Bieler",
                     "name": "Werner"
                 },
-                "text": " Bieler , Werner , Sinzig , * 08.01.1952 ."
+                "text": " Bieler, Werner, Sinzig, *08.01.1952."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Post",
                     "name": "Bruno"
                 },
-                "text": " Post , Bruno ."
+                "text": " Post, Bruno."
             }
         ]
     }

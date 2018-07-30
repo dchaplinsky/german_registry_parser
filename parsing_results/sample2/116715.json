@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Südbeckenstr ."
+                "text": " Südbeckenstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bruchsal",
+                    "dismissed": true,
                     "dob": "1960-03-28",
                     "lastname": "Heil",
                     "name": "Thomas"
                 },
-                "text": " Heil , Thomas , Bruchsal , * 28.03.1960 ."
+                "text": " Heil, Thomas, Bruchsal, *28.03.1960."
             }
         ]
     }

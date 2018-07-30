@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1970-03-09",
                     "lastname": "Dernen",
                     "name": "Claudia"
                 },
-                "text": " Dernen , Claudia , Düsseldorf , * 03.09.1970 ."
+                "text": " Dernen, Claudia, Düsseldorf, *03.09.1970."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dietzenbach",
                     "dob": "1965-09-10",
@@ -36,7 +37,7 @@
                     "lastname": "Heising",
                     "name": "Ulrich"
                 },
-                "text": " Heising , Ulrich , Dietzenbach , * 09.10.1965 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Heising, Ulrich, Dietzenbach, *09.10.1965, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

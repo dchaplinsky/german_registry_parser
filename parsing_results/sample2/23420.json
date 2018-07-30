@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Freisen - Reitscheid",
+                    "city": "Freisen-Reitscheid",
+                    "dismissed": true,
                     "dob": "1958-02-09",
                     "lastname": "Gierend",
                     "name": "Reiner"
                 },
-                "text": " Gierend , Reiner , Freisen - Reitscheid , * 02.09.1958 ."
+                "text": " Gierend, Reiner, Freisen-Reitscheid, *02.09.1958."
             }
         ]
     }

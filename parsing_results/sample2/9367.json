@@ -25,17 +25,18 @@
                     "lastname": "Fuß",
                     "name": "Heiko"
                 },
-                "text": " Fuß , Heiko , Lübeck , * 27.04.1961 ."
+                "text": " Fuß, Heiko, Lübeck, *27.04.1961."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Leipzig",
+                    "dismissed": true,
                     "dob": "1965-09-12",
                     "lastname": "Kreitsch",
                     "name": "Uwe"
                 },
-                "text": " Kreitsch , Uwe , Leipzig , * 09.12.1965 ."
+                "text": " Kreitsch, Uwe, Leipzig, *09.12.1965."
             }
         ]
     }

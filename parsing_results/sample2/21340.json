@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Theobald",
                     "name": "Silke Ottilie gen"
                 },
-                "text": " Theobald , Silke Ottilie gen ."
+                "text": " Theobald, Silke Ottilie gen."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Taunusstein",
+                    "dismissed": true,
                     "dob": "1969-03-14",
                     "lastname": "Derix",
                     "name": "Barbara Christine"
                 },
-                "text": " Derix , Barbara Christine , Taunusstein , * 14.03.1969 ."
+                "text": " Derix, Barbara Christine, Taunusstein, *14.03.1969."
             }
         ]
     }

@@ -19,23 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Bad Berkaer Str ."
+                "text": " Bad Berkaer Str."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Ilmenau / Unterpörlitz",
+                    "city": "Ilmenau/Unterpörlitz",
                     "dob": "1945-12-03",
                     "flag": "sole representation",
                     "lastname": "Fox",
                     "name": "Wolfgang"
                 },
-                "text": " Fox , Wolfgang , Ilmenau / Unterpörlitz , * 12.03.1945 , einzelvertretungsberechtigt ."
+                "text": " Fox, Wolfgang, Ilmenau/Unterpörlitz, *12.03.1945, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Ilmenau",
                     "dob": "1969-04-18",
@@ -43,17 +43,18 @@
                     "lastname": "Weinert",
                     "name": "Rico"
                 },
-                "text": " Weinert , Rico , Ilmenau , * 18.04.1969 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen ."
+                "text": " Weinert, Rico, Ilmenau, *18.04.1969, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Ilmenau",
+                    "dismissed": true,
                     "dob": "1969-04-18",
                     "lastname": "Weinert",
                     "name": "Rico"
                 },
-                "text": " Weinert , Rico , Ilmenau , * 18.04.1969 ."
+                "text": " Weinert, Rico, Ilmenau, *18.04.1969."
             }
         ]
     }

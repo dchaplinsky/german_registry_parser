@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Lüdenscheid",
+                    "dismissed": true,
                     "dob": "1956-11-25",
                     "lastname": "Borghardt",
-                    "name": "Klaus - Peter"
+                    "name": "Klaus-Peter"
                 },
-                "text": " Borghardt , Klaus - Peter , Lüdenscheid , * 25.11.1956 ."
+                "text": " Borghardt, Klaus-Peter, Lüdenscheid, *25.11.1956."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Goch",
                     "dob": "1964-04-29",
@@ -36,7 +37,7 @@
                     "lastname": "Leenen",
                     "name": "Helmut"
                 },
-                "text": " Leenen , Helmut , Goch , * 29.04.1964 , einzelvertretungsberechtigt ."
+                "text": " Leenen, Helmut, Goch, *29.04.1964, einzelvertretungsberechtigt."
             }
         ]
     }

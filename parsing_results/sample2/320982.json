@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=320982&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Kummer",
                     "name": "Christian"
                 },
-                "text": " Kummer , Christian , Augsburg , * 13.03.1976 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Augsburg",
-                    "dob": "1976-03-13",
-                    "lastname": "Kummer",
-                    "name": "Christian"
-                },
-                "text": " Kummer , Christian , Augsburg , * 13.03.1976 ."
+                "text": " Kummer, Christian, Augsburg, *13.03.1976."
             }
         ]
     }

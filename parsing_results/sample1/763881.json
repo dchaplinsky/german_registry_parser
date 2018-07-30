@@ -16,10 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=763881&land_abk=by"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr ., error text was a person without DOB, number of chunks: 1"
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1970-02-21",
+                    "lastname": "Doctor Kühn",
+                    "name": "Ralph Dieter"
+                },
+                "text": " Doctor Kühn, Ralph Dieter, München, *21.02.1970."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=238685&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Hausherr",
                     "name": "Pius"
                 },
-                "text": " Hausherr , Pius , Gauting , * 08.03.1971 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Gauting",
-                    "dob": "1971-08-03",
-                    "lastname": "Hausherr",
-                    "name": "Pius"
-                },
-                "text": " Hausherr , Pius , Gauting , * 08.03.1971 ."
+                "text": " Hausherr, Pius, Gauting, *08.03.1971."
             }
         ]
     }

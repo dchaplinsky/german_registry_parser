@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Endingen am Kaiserstuhl",
+                    "dismissed": true,
                     "dob": "1983-09-12",
                     "lastname": "König",
                     "name": "Georg Franz Stefan"
                 },
-                "text": " König , Georg Franz Stefan , Endingen am Kaiserstuhl , * 09.12.1983 ."
+                "text": " König, Georg Franz Stefan, Endingen am Kaiserstuhl, *09.12.1983."
             }
         ]
     }

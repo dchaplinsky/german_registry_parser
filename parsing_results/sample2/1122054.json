@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1122054&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Cserno",
                     "name": "Adrienn"
                 },
-                "text": " Cserno , Adrienn , Senden , * 22.09.1975 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Senden",
-                    "dob": "1975-09-22",
-                    "lastname": "Cserno",
-                    "name": "Adrienn"
-                },
-                "text": " Cserno , Adrienn , Senden , * 22.09.1975 ."
+                "text": " Cserno, Adrienn, Senden, *22.09.1975."
             }
         ]
     }

@@ -19,25 +19,26 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Schenkendorfstraße 29 , 45472 Mülheim an der Ruhr ."
+                "text": " Schenkendorfstraße 29, 45472 Mülheim an der Ruhr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Essen",
+                    "dismissed": true,
                     "dob": "1975-04-30",
                     "lastname": "Mamisch",
                     "name": "Omar John"
                 },
-                "text": " Mamisch , Omar John , Essen , * 30.04.1975 ."
+                "text": " Mamisch, Omar John, Essen, *30.04.1975."
             },
             {
                 "class": "Liquidator",
@@ -48,7 +49,7 @@
                     "lastname": "Sommerwerck",
                     "name": "Joachim"
                 },
-                "text": " Sommerwerck , Joachim , Tönisvorst , * 05.11.1960 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Sommerwerck, Joachim, Tönisvorst, *05.11.1960, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

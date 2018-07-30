@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Iserlohn",
+                    "dismissed": true,
                     "dob": "1960-05-20",
                     "lastname": "Nehrenst",
-                    "name": "Hans - Joachim"
+                    "name": "Hans-Joachim"
                 },
-                "text": " Nehrenst , Hans - Joachim , Iserlohn , * 20.05.1960 ."
+                "text": " Nehrenst, Hans-Joachim, Iserlohn, *20.05.1960."
             },
             {
                 "class": "Owner",
@@ -35,7 +36,7 @@
                     "lastname": "Zadylak",
                     "name": "Christoph"
                 },
-                "text": " Zadylak , Christoph , Hemer , * 24.07.1974 ."
+                "text": " Zadylak, Christoph, Hemer, *24.07.1974."
             }
         ]
     }

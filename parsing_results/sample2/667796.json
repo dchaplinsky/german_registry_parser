@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hilden",
+                    "dismissed": true,
                     "dob": "1944-02-28",
                     "lastname": "Heil",
                     "name": "Peter"
                 },
-                "text": " Heil , Peter , Hilden , * 28.02.1944 ."
+                "text": " Heil, Peter, Hilden, *28.02.1944."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Solingen",
                     "dob": "1966-02-11",
                     "lastname": "Kuckenberg",
                     "name": "Regina"
                 },
-                "text": " Kuckenberg , Regina , Solingen , * 02.11.1966 ."
+                "text": " Kuckenberg, Regina, Solingen, *02.11.1966."
             }
         ]
     }

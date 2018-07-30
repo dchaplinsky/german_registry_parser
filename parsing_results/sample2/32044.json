@@ -25,27 +25,29 @@
                     "lastname": "Fischer",
                     "name": "Bernhard"
                 },
-                "text": " Fischer , Bernhard , Preetz , * 06.09.1955 ."
+                "text": " Fischer, Bernhard, Preetz, *06.09.1955."
             },
             {
                 "class": "RemovedFromBoard",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1943-08-05",
-                    "lastname": "Prof . Elsässer",
+                    "lastname": "Prof. Elsässer",
                     "name": "Rainer Frank"
                 },
-                "text": " Prof . Elsässer , Rainer Frank , München , * 08.05.1943 ."
+                "text": " Prof. Elsässer, Rainer Frank, München, *08.05.1943."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Preetz",
+                    "dismissed": true,
                     "dob": "1955-06-09",
                     "lastname": "Fischer",
                     "name": "Bernhard"
                 },
-                "text": " Fischer , Bernhard , Preetz , * 06.09.1955 ."
+                "text": " Fischer, Bernhard, Preetz, *06.09.1955."
             }
         ]
     }

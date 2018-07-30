@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hattersheim am Main",
+                    "dismissed": true,
                     "dob": "1986-02-25",
                     "lastname": "Kunchev",
                     "name": "Kuncho"
                 },
-                "text": " Kunchev , Kuncho , Hattersheim am Main , * 25.02.1986 ."
+                "text": " Kunchev, Kuncho, Hattersheim am Main, *25.02.1986."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hattersheim am Main",
                     "dob": "1987-07-09",
@@ -42,7 +43,7 @@
                     "lastname": "Kunchev",
                     "name": "Hristo"
                 },
-                "text": " Kunchev , Hristo , Hattersheim am Main , * 07.09.1987 , einzelvertretungsberechtigt"
+                "text": " Kunchev, Hristo, Hattersheim am Main, *07.09.1987, einzelvertretungsberechtigt"
             }
         ]
     }

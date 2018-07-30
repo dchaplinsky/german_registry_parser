@@ -23,19 +23,20 @@
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Fürth",
+                    "dismissed": true,
                     "dob": "1977-06-14",
                     "lastname": "Kertes",
                     "name": "Martin"
                 },
-                "text": " Kertes , Martin , Fürth , * 14.06.1977 ."
+                "text": " Kertes, Martin, Fürth, *14.06.1977."
             },
             {
                 "class": "Owner",
@@ -45,7 +46,7 @@
                     "lastname": "Kertes",
                     "name": "Michael"
                 },
-                "text": " Kertes , Michael , Fürth , * 26.09.1979 ."
+                "text": " Kertes, Michael, Fürth, *26.09.1979."
             }
         ]
     }

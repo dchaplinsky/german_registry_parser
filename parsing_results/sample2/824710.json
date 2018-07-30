@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hagen",
+                    "dismissed": true,
                     "dob": "1965-03-19",
-                    "lastname": "Dr . Meierling",
+                    "lastname": "Doctor Meierling",
                     "name": "Lars"
                 },
-                "text": " Dr . Meierling , Lars , Hagen , * 19.03.1965 ."
+                "text": " Doctor Meierling, Lars, Hagen, *19.03.1965."
             }
         ]
     }

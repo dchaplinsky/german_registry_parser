@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Münster",
                     "dob": "1964-03-22",
                     "lastname": "Kumbrink",
                     "name": "Jens"
                 },
-                "text": " Kumbrink , Jens , Münster , * 22.03.1964 ."
+                "text": " Kumbrink, Jens, Münster, *22.03.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1966-06-23",
                     "lastname": "Brockhaus",
                     "name": "Michael"
                 },
-                "text": " Brockhaus , Michael , Düsseldorf , * 23.06.1966 ."
+                "text": " Brockhaus, Michael, Düsseldorf, *23.06.1966."
             }
         ]
     }

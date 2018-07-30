@@ -19,31 +19,32 @@
         "flags": [
             {
                 "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
-                "text": "Sind mehrere Liquidatoren bestellt , wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten ."
+                "text": "Sind\\ mehrere\\ Liquidatoren\\ bestellt\\,\\ wird\\ die\\ Gesellschaft\\ durch\\ s\\ämtliche\\ Liquidatoren\\ gemeinsam\\ vertreten\\."
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " I . T ."
+                "text": " I.T."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Twohig",
                     "name": "Bradley George"
                 },
-                "text": " Twohig , Bradley George"
+                "text": " Twohig, Bradley George"
             },
             {
                 "class": "Liquidator",
@@ -53,7 +54,7 @@
                     "lastname": "Kober",
                     "name": "Thomas"
                 },
-                "text": " Kober , Thomas , * 31.05.1960 , Berlin"
+                "text": " Kober, Thomas, *31.05.1960, Berlin"
             }
         ]
     }

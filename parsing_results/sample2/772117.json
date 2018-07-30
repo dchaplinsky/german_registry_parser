@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Liquidator",
+                "class": "NotALiquidator",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1949-12-01",
-                    "lastname": "Heinen",
+                    "lastname": ": Heinen",
                     "name": "Volker"
                 },
-                "text": " Heinen , Volker , Köln , * 12.01.1949 ."
+                "text": ": Heinen, Volker, Köln, *12.01.1949."
             },
             {
                 "class": "Liquidator",
@@ -36,7 +37,7 @@
                     "lastname": "Lindzus",
                     "name": "Henry"
                 },
-                "text": " Lindzus , Henry , Köln , * 26.06.1943 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Lindzus, Henry, Köln, *26.06.1943, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

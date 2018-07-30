@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Ergolding",
+                    "dismissed": true,
                     "dob": "1975-11-08",
                     "lastname": "Wollny",
                     "name": "Stefanie"
                 },
-                "text": " Wollny , Stefanie , Ergolding , * 11.08.1975 ."
+                "text": " Wollny, Stefanie, Ergolding, *11.08.1975."
             },
             {
                 "class": "Liquidator",
@@ -42,7 +43,7 @@
                     "lastname": "Wollny",
                     "name": "Jörg"
                 },
-                "text": " Wollny , Jörg , Ergolding , * 18.05.1976 , einzelvertretungsberechtigt"
+                "text": " Wollny, Jörg, Ergolding, *18.05.1976, einzelvertretungsberechtigt"
             }
         ]
     }

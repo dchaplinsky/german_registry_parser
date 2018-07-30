@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Geesthacht",
                     "dob": "1974-10-26",
                     "flag": "sole representation",
-                    "lastname": "Dr . Kramer",
+                    "lastname": "Doctor Kramer",
                     "name": "Jan"
                 },
-                "text": " Dr . Kramer , Jan , Geesthacht , * 26.10.1974 , einzelvertretungsberechtigt"
+                "text": " Doctor Kramer, Jan, Geesthacht, *26.10.1974, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Münster",
+                    "dismissed": true,
                     "dob": "1966-09-12",
-                    "lastname": "Dr . Löer",
+                    "lastname": "Doctor Löer",
                     "name": "Dominik"
                 },
-                "text": " Dr . Löer , Dominik , Münster , * 09.12.1966 ."
+                "text": " Doctor Löer, Dominik, Münster, *09.12.1966."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Haan",
+                    "dismissed": true,
                     "dob": "1935-01-20",
                     "lastname": "Schröteler",
                     "name": "Bernward"
                 },
-                "text": " Schröteler , Bernward , Haan , * 20.01.1935 ."
+                "text": " Schröteler, Bernward, Haan, *20.01.1935."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=976967&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Bauernfeind",
                     "name": "Michael"
                 },
-                "text": " Bauernfeind , Michael , Weißenstadt , * 06.09.1964 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Weißenstadt",
-                    "dob": "1964-06-09",
-                    "lastname": "Bauernfeind",
-                    "name": "Michael"
-                },
-                "text": " Bauernfeind , Michael , Weißenstadt , * 06.09.1964 ."
+                "text": " Bauernfeind, Michael, Weißenstadt, *06.09.1964."
             }
         ]
     }

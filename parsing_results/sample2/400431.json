@@ -25,17 +25,18 @@
                     "lastname": "Heindl",
                     "name": "Brigitte"
                 },
-                "text": " Heindl , Brigitte , Röthenbach , * 16.01.1955 ."
+                "text": " Heindl, Brigitte, Röthenbach, *16.01.1955."
             },
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
-                    "city": "Röthenbach - Haimendorf",
+                    "city": "Röthenbach-Haimendorf",
+                    "dismissed": true,
                     "dob": "1946-09-14",
-                    "lastname": "Dr . Heindl",
+                    "lastname": "Doctor Heindl",
                     "name": "Bernd"
                 },
-                "text": " Dr . Heindl , Bernd , Röthenbach - Haimendorf , * 14.09.1946 ."
+                "text": " Doctor Heindl, Bernd, Röthenbach-Haimendorf, *14.09.1946."
             }
         ]
     }

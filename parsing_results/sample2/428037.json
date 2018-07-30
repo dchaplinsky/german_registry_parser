@@ -19,22 +19,22 @@
         "flags": [
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Hamelstraße 32 , 26939 Ovelgönne ."
+                "text": " Hamelstraße 32, 26939 Ovelgönne."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Jever",
                     "dob": "1955-10-31",
@@ -42,10 +42,10 @@
                     "lastname": "von Thülen",
                     "name": "Georg"
                 },
-                "text": " von Thülen , Georg , Jever , * 31.10.1955 , vertretungsberechtigt gemeinsam mit den Geschäftsführern Wilhelm Harken und Heinz Thomßen ."
+                "text": " von Thülen, Georg, Jever, *31.10.1955, vertretungsberechtigt gemeinsam mit den Geschäftsführern Wilhelm Harken und Heinz Thomßen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wangerland",
                     "dob": "1961-04-27",
@@ -53,7 +53,7 @@
                     "lastname": "Harken",
                     "name": "Wilhelm"
                 },
-                "text": " Harken , Wilhelm , Wangerland , * 27.04.1961 , vertretungsberechtigt gemeinsam mit den Geschäftsführern Georg von Thülen und Heinz Thomßen ."
+                "text": " Harken, Wilhelm, Wangerland, *27.04.1961, vertretungsberechtigt gemeinsam mit den Geschäftsführern Georg von Thülen und Heinz Thomßen."
             },
             {
                 "class": "ManagingDirector",
@@ -64,7 +64,7 @@
                     "lastname": "Thomßen",
                     "name": "Heinz"
                 },
-                "text": " Thomßen , Heinz , Wangerland , * 17.01.1955 , vertretungsberechtigt gemeinsam mit den Geschäftsführern Georg von Thülen und Wilhelm Harken ."
+                "text": " Thomßen, Heinz, Wangerland, *17.01.1955, vertretungsberechtigt gemeinsam mit den Geschäftsführern Georg von Thülen und Wilhelm Harken."
             }
         ]
     }

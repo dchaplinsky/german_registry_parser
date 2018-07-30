@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1942-06-19",
                     "lastname": "Ballreich",
                     "name": "Peter Paul Werner"
                 },
-                "text": " Ballreich , Peter Paul Werner , Hamburg , * 19.06.1942"
+                "text": " Ballreich, Peter Paul Werner, Hamburg, *19.06.1942"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1979-05-18",
@@ -42,7 +43,7 @@
                     "lastname": "Bostelmann",
                     "name": "Sven"
                 },
-                "text": " Bostelmann , Sven , Hamburg , * 18.05.1979 , einzelvertretungsberechtigt"
+                "text": " Bostelmann, Sven, Hamburg, *18.05.1979, einzelvertretungsberechtigt"
             }
         ]
     }

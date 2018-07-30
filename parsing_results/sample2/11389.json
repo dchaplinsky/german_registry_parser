@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Armsheim",
+                    "dismissed": true,
                     "dob": "1955-06-20",
                     "lastname": "Engel",
                     "name": "Hermann"
                 },
-                "text": " Engel , Hermann , Armsheim , * 20.06.1955 ."
+                "text": " Engel, Hermann, Armsheim, *20.06.1955."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Buch - Mörz",
+                    "city": "Buch-Mörz",
                     "dob": "1962-01-10",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Nick",
                     "name": "Robert"
                 },
-                "text": " Nick , Robert , Buch - Mörz , * 01.10.1962 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Nick, Robert, Buch-Mörz, *01.10.1962, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

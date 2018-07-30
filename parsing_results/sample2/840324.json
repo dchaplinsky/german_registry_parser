@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Cham",
+                    "dismissed": true,
                     "dob": "1979-01-06",
                     "lastname": "Herzig",
                     "name": "Oliver"
                 },
-                "text": " Herzig , Oliver , Cham , * 01.06.1979 ."
+                "text": " Herzig, Oliver, Cham, *01.06.1979."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Gora Kalwaria / Polen",
                     "dob": "1958-04-30",
@@ -42,7 +43,7 @@
                     "lastname": "Szatkowksi",
                     "name": "Andrzej"
                 },
-                "text": " Szatkowksi , Andrzej , Gora Kalwaria / Polen , * 30.04.1958 , einzelvertretungsberechtigt"
+                "text": " Szatkowksi, Andrzej, Gora Kalwaria / Polen, *30.04.1958, einzelvertretungsberechtigt"
             }
         ]
     }

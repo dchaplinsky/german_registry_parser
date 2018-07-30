@@ -18,27 +18,27 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Blaues Wunder 11 , 18374 Zingst ."
+                "text": " Blaues Wunder 11, 18374 Zingst."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Linkenheim - Hochstetten",
+                    "city": "Linkenheim-Hochstetten",
                     "dob": "1960-04-26",
                     "flag": "vertretungsberechtigt gemäß allgemeiner Vertretungsregelung",
-                    "lastname": "Dr . Meissner",
+                    "lastname": "Doctor Meissner",
                     "name": "Karin"
                 },
-                "text": " Dr . Meissner , Karin , Linkenheim - Hochstetten , * 26.04.1960 , vertretungsberechtigt gemäß allgemeiner Vertretungsregelung ."
+                "text": " Doctor Meissner, Karin, Linkenheim-Hochstetten, *26.04.1960, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung."
             }
         ]
     }

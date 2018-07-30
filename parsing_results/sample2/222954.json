@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1977-07-07",
                     "lastname": "Eckelmann",
                     "name": "Robert Patrick"
                 },
-                "text": " Eckelmann , Robert Patrick , Hamburg , * 07.07.1977 ."
+                "text": " Eckelmann, Robert Patrick, Hamburg, *07.07.1977."
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Hasenbanck",
                     "name": "Andreas"
                 },
-                "text": " Hasenbanck , Andreas , Buchholz , * 28.03.1960 ."
+                "text": " Hasenbanck, Andreas, Buchholz, *28.03.1960."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=544606&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "Owner",
@@ -31,27 +25,17 @@
                     "lastname": "Kakaris",
                     "name": "Sokrates"
                 },
-                "text": " Kakaris , Sokrates , Ostfildern , * 01.11.1953 ."
+                "text": " Kakaris, Sokrates, Ostfildern, *01.11.1953."
             },
             {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Esslingen am Neckar",
                     "dob": "1976-12-11",
-                    "lastname": "Brückner - Kakaris",
+                    "lastname": "Brückner-Kakaris",
                     "name": "Sven Martin"
                 },
-                "text": " Brückner - Kakaris , Sven Martin , Esslingen am Neckar , * 12.11.1976 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Esslingen am Neckar",
-                    "dob": "1976-12-11",
-                    "lastname": "Brückner - Kakaris",
-                    "name": "Sven Martin"
-                },
-                "text": " Brückner - Kakaris , Sven Martin , Esslingen am Neckar , * 12.11.1976 ."
+                "text": " Brückner-Kakaris, Sven Martin, Esslingen am Neckar, *12.11.1976."
             }
         ]
     }

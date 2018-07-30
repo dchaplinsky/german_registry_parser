@@ -19,35 +19,36 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Königstr ."
+                "text": " Königstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Pretzfeld",
+                    "dismissed": true,
                     "dob": "1954-10-27",
                     "lastname": "Grünsteudel",
                     "name": "Hermann"
                 },
-                "text": " Grünsteudel , Hermann , Pretzfeld , * 27.10.1954"
+                "text": " Grünsteudel, Hermann, Pretzfeld, *27.10.1954"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bamberg",
                     "dob": "1968-03-26",
                     "lastname": "Böttger",
                     "name": "Oliver"
                 },
-                "text": " Böttger , Oliver , Bamberg , * 26.03.1968"
+                "text": " Böttger, Oliver, Bamberg, *26.03.1968"
             }
         ]
     }

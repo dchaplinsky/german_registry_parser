@@ -16,16 +16,23 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=154946&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Dipl . - Ing ., error text was a person without DOB, number of chunks: 1"
-            }
-        ],
         "labels": [
             {
                 "label": "address",
-                "text": " Erntestr ."
+                "text": " Erntestr."
+            }
+        ],
+        "officers": [
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Friedberg (Hessen)",
+                    "dismissed": true,
+                    "dob": "1951-11-04",
+                    "lastname": "Diplomingenieur Tzovanis",
+                    "name": "Vassilios"
+                },
+                "text": " Diplomingenieur Tzovanis, Vassilios, Friedberg (Hessen), *11.04.1951."
             }
         ]
     }

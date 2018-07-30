@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=42298&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Haese",
                     "name": "Christina"
                 },
-                "text": " Haese , Christina , Wiesbaden , * 15.09.1981"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Wiesbaden",
-                    "dob": "1981-09-15",
-                    "lastname": "Haese",
-                    "name": "Christina"
-                },
-                "text": " Haese , Christina , Wiesbaden , * 15.09.1981"
+                "text": " Haese, Christina, Wiesbaden, *15.09.1981"
             }
         ]
     }

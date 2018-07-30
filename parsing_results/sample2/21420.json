@@ -23,18 +23,19 @@
                     "city": "Mülheim",
                     "dob": "1960-04-05",
                     "lastname": "Esch",
-                    "name": "Hans - Josef"
+                    "name": "Hans-Josef"
                 },
-                "text": " Esch , Hans - Josef , Mülheim , * 04.05.1960"
+                "text": " Esch, Hans-Josef, Mülheim, *04.05.1960"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Zell - Kaimt",
+                    "city": "Zell-Kaimt",
+                    "dismissed": true,
                     "lastname": "Rundquist",
                     "name": "Erik"
                 },
-                "text": " Rundquist , Erik , Zell - Kaimt ."
+                "text": " Rundquist, Erik, Zell-Kaimt."
             }
         ]
     }

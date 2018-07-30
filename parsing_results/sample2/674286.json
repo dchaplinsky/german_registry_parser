@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Köln",
                     "dob": "1979-05-28",
@@ -26,17 +26,18 @@
                     "lastname": "Irle",
                     "name": "Volker"
                 },
-                "text": " Irle , Volker , Köln , * 28.05.1979 , einzelvertretungsberechtigt ."
+                "text": " Irle, Volker, Köln, *28.05.1979, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1978-01-08",
                     "lastname": "Mangels",
                     "name": "Kirk Luer"
                 },
-                "text": " Mangels , Kirk Luer , Düsseldorf , * 01.08.1978 ."
+                "text": " Mangels, Kirk Luer, Düsseldorf, *01.08.1978."
             }
         ]
     }

@@ -19,11 +19,20 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Thomas Berlet ., error text was a person without DOB, number of chunks: 1"
-            },
+                "text": "Cannot parse a Owner from  Thomas Berlet., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Berlet , Thomas , Dettingen unter Teck , * 07.01.1970 Nicht mehr Inhaber : Berlet , Helmut , Owen , * 23.09.1953 ., error text was no valid patter found, number of chunks: 7"
+                "class": "NotLongerOwner",
+                "payload": {
+                    "city": "Owen",
+                    "dismissed": true,
+                    "dob": "1953-09-23",
+                    "lastname": "Berlet",
+                    "name": "Helmut"
+                },
+                "text": " Berlet, Helmut, Owen, *23.09.1953."
             }
         ]
     }

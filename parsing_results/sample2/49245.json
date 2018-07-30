@@ -19,21 +19,31 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Ponce Garcia , Maria - Cruz , Friseurin , Hamburg , * 27.07.1970 , einzelvertretungsberechtigt ., error text was Cannot parse DOB  Friseurin  using regex"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Ponce Garcia , Maria - Cruz , Friseurin , Hamburg , * 27.07.1970 ., error text was Cannot parse DOB  Friseurin  using regex"
+                "text": "Cannot parse a Liquidator from  Ponce Garcia, Maria-Cruz, Friseurin, Hamburg, *27.07.1970, einzelvertretungsberechtigt., error text was Cannot parse DOB  Friseurin using regex"
             }
         ],
         "flags": [
             {
                 "flag": "Exclusive power of representation can be granted.",
-                "text": "Alleinvertretungsbefugnis kann erteilt werden ."
+                "text": "Alleinvertretungsbefugnis\\ kann\\ erteilt\\ werden\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
+            }
+        ],
+        "officers": [
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dismissed": true,
+                    "dob": "1970-07-27",
+                    "lastname": "Ponce Garcia",
+                    "name": "Maria-Cruz",
+                    "position": "Friseurin"
+                },
+                "text": " Ponce Garcia, Maria-Cruz, Friseurin, Hamburg, *27.07.1970."
             }
         ]
     }

@@ -16,14 +16,29 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=77989&land_abk=be"
     },
     "parsed": {
+        "flags": [
+            {
+                "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
+            },
+            {
+                "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
+            },
+            {
+                "flag": "with the power to represent the company alone",
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
+            }
+        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "aksoy",
                     "name": "murat"
                 },
-                "text": " aksoy , murat"
+                "text": " aksoy, murat"
             },
             {
                 "class": "ManagingDirector",
@@ -33,7 +48,7 @@
                     "lastname": "aksoy",
                     "name": "muhterem"
                 },
-                "text": " aksoy , muhterem , * 01.01.1956 , berlin"
+                "text": " aksoy, muhterem, *01.01.1956, berlin"
             }
         ]
     }

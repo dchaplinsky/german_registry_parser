@@ -19,23 +19,24 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Zürich / Schweiz",
+                    "dismissed": true,
                     "dob": "1974-11-22",
-                    "lastname": "Dr . Jäkel",
+                    "lastname": "Doctor Jäkel",
                     "name": "Martin"
                 },
-                "text": " Dr . Jäkel , Martin , Zürich / Schweiz , * 22.11.1974 ."
+                "text": " Doctor Jäkel, Martin, Zürich / Schweiz, *22.11.1974."
             },
             {
                 "class": "Liquidator",
@@ -43,10 +44,10 @@
                     "city": "Regenstauf",
                     "dob": "1976-07-25",
                     "flag": "sole representation",
-                    "lastname": "Dr . Hartung",
+                    "lastname": ": Doctor Hartung",
                     "name": "Georg"
                 },
-                "text": " Dr . Hartung , Georg , Regenstauf , * 25.07.1976 , einzelvertretungsberechtigt"
+                "text": ": Doctor Hartung, Georg, Regenstauf, *25.07.1976, einzelvertretungsberechtigt"
             }
         ]
     }

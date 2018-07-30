@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Gronau ( Leine )",
+                    "city": "Gronau (Leine)",
+                    "dismissed": true,
                     "dob": "1970-09-18",
-                    "lastname": "Dr . Rothenburger",
+                    "lastname": "Doctor Rothenburger",
                     "name": "Miriam"
                 },
-                "text": " Dr . Rothenburger , Miriam , Gronau ( Leine ) , * 18.09.1970 ."
+                "text": " Doctor Rothenburger, Miriam, Gronau (Leine), *18.09.1970."
             }
         ]
     }

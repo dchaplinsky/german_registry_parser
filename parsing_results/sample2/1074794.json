@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1973-03-03",
                     "lastname": "Fedunik",
                     "name": "Stefan"
                 },
-                "text": " Fedunik , Stefan , München , * 03.03.1973 ."
+                "text": " Fedunik, Stefan, München, *03.03.1973."
             }
         ]
     }

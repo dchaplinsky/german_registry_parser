@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Sasbach",
+                    "dismissed": true,
                     "dob": "1966-11-02",
                     "lastname": "Laupichler",
                     "name": "Christian"
                 },
-                "text": " Laupichler , Christian , Sasbach , * 11.02.1966 ."
+                "text": " Laupichler, Christian, Sasbach, *11.02.1966."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Lauterbach",
                     "dob": "1963-07-26",
@@ -42,7 +43,7 @@
                     "lastname": "Seidler",
                     "name": "Hubertus"
                 },
-                "text": " Seidler , Hubertus , Lauterbach , * 26.07.1963 , einzelvertretungsberechtigt"
+                "text": " Seidler, Hubertus, Lauterbach, *26.07.1963, einzelvertretungsberechtigt"
             }
         ]
     }

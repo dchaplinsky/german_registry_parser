@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1970-10-13",
-                    "lastname": "Dr . Metzner",
+                    "lastname": "Doctor Metzner",
                     "name": "Bernd"
                 },
-                "text": " Dr . Metzner , Bernd , Köln , * 13.10.1970 ."
+                "text": " Doctor Metzner, Bernd, Köln, *13.10.1970."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bonn",
                     "dob": "1969-03-26",
                     "lastname": "Schallenberg",
                     "name": "Christoph"
                 },
-                "text": " Schallenberg , Christoph , Bonn , * 26.03.1969 ."
+                "text": " Schallenberg, Christoph, Bonn, *26.03.1969."
             }
         ]
     }

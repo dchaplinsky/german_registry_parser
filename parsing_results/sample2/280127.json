@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Weimar",
+                    "dismissed": true,
                     "dob": "1974-11-10",
                     "lastname": "Spät",
                     "name": "Martin"
                 },
-                "text": " Spät , Martin , Weimar , * 11.10.1974 ."
+                "text": " Spät, Martin, Weimar, *11.10.1974."
             }
         ]
     }

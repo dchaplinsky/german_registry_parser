@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Duisburg",
+                    "dismissed": true,
                     "dob": "1947-09-05",
                     "lastname": "Schulz",
                     "name": "Willi"
                 },
-                "text": " Schulz , Willi , Duisburg , * 09.05.1947 ."
+                "text": " Schulz, Willi, Duisburg, *09.05.1947."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dinslaken",
                     "dob": "1966-07-06",
@@ -36,7 +37,7 @@
                     "lastname": "Kochanski",
                     "name": "Dirk"
                 },
-                "text": " Kochanski , Dirk , Dinslaken , * 07.06.1966 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Kochanski, Dirk, Dinslaken, *07.06.1966, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

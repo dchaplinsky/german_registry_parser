@@ -24,7 +24,7 @@
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Magdeburg",
                     "dob": "1966-01-06",
@@ -32,17 +32,18 @@
                     "lastname": "Sänger",
                     "name": "Thomas"
                 },
-                "text": " Sänger , Thomas , Magdeburg , * 01.06.1966 , einzelvertretungsberechtigt"
+                "text": " Sänger, Thomas, Magdeburg, *01.06.1966, einzelvertretungsberechtigt"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Magdeburg",
+                    "dismissed": true,
                     "dob": "1966-01-06",
                     "lastname": "Sänger",
                     "name": "Thomas"
                 },
-                "text": " Sänger , Thomas , Magdeburg , * 01.06.1966 ."
+                "text": " Sänger, Thomas, Magdeburg, *01.06.1966."
             }
         ]
     }

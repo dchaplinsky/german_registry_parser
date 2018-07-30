@@ -19,16 +19,16 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Den Haag",
                     "dob": "1982-01-12",
@@ -36,28 +36,29 @@
                     "lastname": "van Noort",
                     "name": "Martijn Henricus Johannes"
                 },
-                "text": " van Noort , Martijn Henricus Johannes , Den Haag , * 01.12.1982 , einzelvertretungsberechtigt"
+                "text": " van Noort, Martijn Henricus Johannes, Den Haag, *01.12.1982, einzelvertretungsberechtigt"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Roelofarendsveen / NL",
+                    "city": "Roelofarendsveen/ NL",
                     "dob": "1951-01-14",
                     "flag": "sole representation",
                     "lastname": "Verdel",
                     "name": "Fredericus Adrianus Maria"
                 },
-                "text": " Verdel , Fredericus Adrianus Maria , Roelofarendsveen / NL , * 14.01.1951 , einzelvertretungsberechtigt"
+                "text": " Verdel, Fredericus Adrianus Maria, Roelofarendsveen/ NL, *14.01.1951, einzelvertretungsberechtigt"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Bad Berneck",
+                    "dismissed": true,
                     "dob": "1958-09-30",
                     "lastname": "Verdel",
                     "name": "Robert"
                 },
-                "text": " Verdel , Robert , Bad Berneck , * 30.09.1958 ."
+                "text": " Verdel, Robert, Bad Berneck, *30.09.1958."
             }
         ]
     }

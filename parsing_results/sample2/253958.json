@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Obermichelbach",
+                    "dismissed": true,
                     "dob": "1959-05-05",
                     "lastname": "Fierus",
                     "name": "Roman"
                 },
-                "text": " Fierus , Roman , Obermichelbach , * 05.05.1959 ."
+                "text": " Fierus, Roman, Obermichelbach, *05.05.1959."
             },
             {
                 "class": "Liquidator",
@@ -39,10 +40,10 @@
                     "city": "Wendelstein",
                     "dob": "1963-12-08",
                     "flag": "sole representation",
-                    "lastname": "Wilczek",
+                    "lastname": ": Wilczek",
                     "name": "Volker"
                 },
-                "text": " Wilczek , Volker , Wendelstein , * 12.08.1963 , einzelvertretungsberechtigt ."
+                "text": ": Wilczek, Volker, Wendelstein, *12.08.1963, einzelvertretungsberechtigt."
             }
         ]
     }

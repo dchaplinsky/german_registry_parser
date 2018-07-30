@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1968-01-30",
                     "lastname": "Koop",
                     "name": "Thorsten"
                 },
-                "text": " Koop , Thorsten , Hamburg , * 30.01.1968"
+                "text": " Koop, Thorsten, Hamburg, *30.01.1968"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Pinneberg",
+                    "dismissed": true,
                     "dob": "1952-04-08",
                     "lastname": "Schlegel",
                     "name": "Erich"
                 },
-                "text": " Schlegel , Erich , Pinneberg , * 04.08.1952 ."
+                "text": " Schlegel, Erich, Pinneberg, *04.08.1952."
             }
         ]
     }

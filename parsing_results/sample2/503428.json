@@ -18,33 +18,34 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Moltkestraße 32 , 40477 Düsseldorf ."
+                "text": " Moltkestraße 32, 40477 Düsseldorf."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1949-09-15",
                     "lastname": "Brenk",
                     "name": "Willibald - genannt Willy -"
                 },
-                "text": " Brenk , Willibald - genannt Willy - , Düsseldorf , * 15.09.1949 ."
+                "text": " Brenk, Willibald - genannt Willy -, Düsseldorf, *15.09.1949."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kaarst",
                     "dob": "1943-01-22",
@@ -52,7 +53,7 @@
                     "lastname": "Führer",
                     "name": "Reinhard"
                 },
-                "text": " Führer , Reinhard , Kaarst , * 22.01.1943 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Führer, Reinhard, Kaarst, *22.01.1943, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

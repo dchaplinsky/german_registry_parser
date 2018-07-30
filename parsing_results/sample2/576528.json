@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Liebigstraße 11 , 60323 Frankfurt am Main ."
+                "text": " Liebigstraße 11, 60323 Frankfurt am Main."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1968-11-04",
                     "lastname": "Gogalla",
                     "name": "Katja"
                 },
-                "text": " Gogalla , Katja , München , * 11.04.1968"
+                "text": " Gogalla, Katja, München, *11.04.1968"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dieburg",
                     "dob": "1963-04-10",
@@ -42,7 +43,7 @@
                     "lastname": "Moser",
                     "name": "Matthias"
                 },
-                "text": " Moser , Matthias , Dieburg , * 04.10.1963 , einzelvertretungsberechtigt"
+                "text": " Moser, Matthias, Dieburg, *04.10.1963, einzelvertretungsberechtigt"
             }
         ]
     }

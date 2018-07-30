@@ -18,38 +18,34 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Saerbecker Straße 42 , 49549 Ladbergen ."
+                "text": " Saerbecker Straße 42, 49549 Ladbergen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Telgte",
                     "dob": "1975-08-09",
                     "lastname": "Gülker",
                     "name": "Nicole"
                 },
-                "text": " Gülker , Nicole , Telgte , * 08.09.1975 ."
+                "text": " Gülker, Nicole, Telgte, *08.09.1975."
             },
             {
                 "class": "SingleProcuration",
@@ -59,17 +55,7 @@
                     "lastname": "Oelrich",
                     "name": "Martin"
                 },
-                "text": " Oelrich , Martin , Ladbergen , * 30.04.1971 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Ladbergen",
-                    "dob": "1971-04-30",
-                    "lastname": "Oelrich",
-                    "name": "Martin"
-                },
-                "text": " Oelrich , Martin , Ladbergen , * 30.04.1971 ."
+                "text": " Oelrich, Martin, Ladbergen, *30.04.1971."
             }
         ]
     }

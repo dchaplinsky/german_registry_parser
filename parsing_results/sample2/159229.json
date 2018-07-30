@@ -18,8 +18,8 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "officers": [
@@ -31,17 +31,17 @@
                     "lastname": "Bösch",
                     "name": "Ute"
                 },
-                "text": " Bösch , Ute , Lüneburg , * 24.05.1964 ."
+                "text": " Bösch, Ute, Lüneburg, *24.05.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Grünwald",
                     "dob": "1963-08-29",
                     "lastname": "Scheuermann",
                     "name": "Caroline"
                 },
-                "text": " Scheuermann , Caroline , Grünwald , * 29.08.1963 ."
+                "text": " Scheuermann, Caroline, Grünwald, *29.08.1963."
             }
         ]
     }

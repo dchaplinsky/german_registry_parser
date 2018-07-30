@@ -18,23 +18,23 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Zum Kamp 64 , 33428 Harsewinkel ."
+                "text": " Zum Kamp 64, 33428 Harsewinkel."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Harsewinkel",
                     "dob": "1979-01-25",
@@ -42,7 +42,7 @@
                     "lastname": "Mihajlovic",
                     "name": "Aleksandra"
                 },
-                "text": " Mihajlovic , Aleksandra , Harsewinkel , * 25.01.1979 , einzelvertretungsberechtigt ."
+                "text": " Mihajlovic, Aleksandra, Harsewinkel, *25.01.1979, einzelvertretungsberechtigt."
             }
         ]
     }

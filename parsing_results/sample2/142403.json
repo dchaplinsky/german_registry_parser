@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "Single procuration",
@@ -30,18 +30,11 @@
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Hante",
                     "name": "Patrick"
                 },
-                "text": " Hante , Patrick"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Nicht mehr Prokurist : Hante",
-                    "name": "Patrick"
-                },
-                "text": " Nicht mehr Prokurist : Hante , Patrick"
+                "text": " Hante, Patrick"
             }
         ]
     }

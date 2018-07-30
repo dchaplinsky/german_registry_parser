@@ -19,20 +19,31 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "Mörfelden - Walldorf",
+                    "city": "Mörfelden-Walldorf",
                     "dob": "1943-11-09",
                     "flag": "sole representation",
-                    "lastname": "Grüning",
+                    "lastname": ": Grüning",
                     "name": "Sigurd"
                 },
-                "text": " Grüning , Sigurd , Mörfelden - Walldorf , * 11.09.1943 , einzelvertretungsberechtigt ."
+                "text": ": Grüning, Sigurd, Mörfelden-Walldorf, *11.09.1943, einzelvertretungsberechtigt."
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Mörfelden-Walldorf",
+                    "dob": "1950-09-04",
+                    "flag": "sole representation",
+                    "lastname": "in: Grüning",
+                    "name": "Renate geborene Appel"
+                },
+                "text": "in: Grüning, Renate geborene Appel, Mörfelden-Walldorf, *09.04.1950, einzelvertretungsberechtigt."
             }
         ]
     }

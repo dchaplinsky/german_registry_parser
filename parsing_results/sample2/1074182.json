@@ -16,25 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1074182&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Aachen",
+                    "dismissed": true,
                     "dob": "1966-01-06",
                     "lastname": "Abt",
                     "name": "Marcus Thomas"
                 },
-                "text": " Abt , Marcus Thomas , Aachen , * 01.06.1966 ."
+                "text": " Abt, Marcus Thomas, Aachen, *01.06.1966."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dörrenbach",
                     "dob": "1951-02-23",
@@ -42,7 +37,7 @@
                     "lastname": "Ruland",
                     "name": "Arthur"
                 },
-                "text": " Ruland , Arthur , Dörrenbach , * 23.02.1951 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Ruland, Arthur, Dörrenbach, *23.02.1951, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",
@@ -52,17 +47,7 @@
                     "lastname": "Abt",
                     "name": "Marcus Thomas"
                 },
-                "text": " Abt , Marcus Thomas , Aachen , * 01.06.1966 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Aachen",
-                    "dob": "1966-01-06",
-                    "lastname": "Abt",
-                    "name": "Marcus Thomas"
-                },
-                "text": " Abt , Marcus Thomas , Aachen , * 01.06.1966 ."
+                "text": " Abt, Marcus Thomas, Aachen, *01.06.1966."
             }
         ]
     }

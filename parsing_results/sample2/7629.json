@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Weimar",
+                    "dismissed": true,
                     "lastname": "Holm",
                     "name": "Jens",
                     "position": "Diplomingenieur"
                 },
-                "text": " Holm , Jens , Diplomingenieur , Weimar ."
+                "text": " Holm, Jens, Diplomingenieur, Weimar."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Tonndorf",
                     "dob": "1947-01-27",
@@ -42,7 +43,7 @@
                     "lastname": "Cyriax",
                     "name": "Helga"
                 },
-                "text": " Cyriax , Helga , Tonndorf , * 27.01.1947 , einzelvertretungsberechtigt"
+                "text": " Cyriax, Helga, Tonndorf, *27.01.1947, einzelvertretungsberechtigt"
             }
         ]
     }

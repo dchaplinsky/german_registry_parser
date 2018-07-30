@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Boschstraße 1 , 71404 Korb ."
+                "text": " Boschstraße 1, 71404 Korb."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Korb",
+                    "dismissed": true,
                     "dob": "1965-05-10",
                     "lastname": "Lauterbach",
                     "name": "Mayk"
                 },
-                "text": " Lauterbach , Mayk , Korb , * 05.10.1965 ."
+                "text": " Lauterbach, Mayk, Korb, *05.10.1965."
             }
         ]
     }

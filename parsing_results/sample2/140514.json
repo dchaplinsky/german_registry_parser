@@ -16,10 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=140514&land_abk=by"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Manavizadeh - Jörges , Lilly geborene Manavizadeh , Hotelfachfrau , Landsberg am Lech , * 18.02.1958 ., error text was Cannot parse DOB  Hotelfachfrau  using regex"
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Landsberg am Lech",
+                    "dismissed": true,
+                    "dob": "1958-02-18",
+                    "lastname": "Manavizadeh-Jörges",
+                    "name": "Lilly geborene Manavizadeh",
+                    "position": "Hotelfachfrau"
+                },
+                "text": " Manavizadeh-Jörges, Lilly geborene Manavizadeh, Hotelfachfrau, Landsberg am Lech, *18.02.1958."
             }
         ]
     }

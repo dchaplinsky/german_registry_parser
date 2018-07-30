@@ -19,13 +19,13 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Weidenweg 80 , 59423 Unna ."
+                "text": " Weidenweg 80, 59423 Unna."
             }
         ],
         "officers": [
@@ -35,20 +35,21 @@
                     "city": "Unna",
                     "dob": "1948-03-10",
                     "flag": "sole representation",
-                    "lastname": "Dr . Huth",
+                    "lastname": "Doctor Huth",
                     "name": "Thomas"
                 },
-                "text": " Dr . Huth , Thomas , Unna , * 03.10.1948 , einzelvertretungsberechtigt ."
+                "text": " Doctor Huth, Thomas, Unna, *03.10.1948, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Drensteinfurt",
+                    "dismissed": true,
                     "dob": "1962-06-29",
-                    "lastname": "Dr . Winzen",
+                    "lastname": "Doctor Winzen",
                     "name": "Thomas F"
                 },
-                "text": " Dr . Winzen , Thomas F . , Drensteinfurt , * 29.06.1962 ."
+                "text": " Doctor Winzen, Thomas F., Drensteinfurt, *29.06.1962."
             }
         ]
     }

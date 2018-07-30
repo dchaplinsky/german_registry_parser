@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Betzdorf",
                     "dob": "1943-02-01",
@@ -26,17 +26,18 @@
                     "lastname": "Panthöfer",
                     "name": "Bergitt"
                 },
-                "text": " Panthöfer , Bergitt , Betzdorf , * 02.01.1943 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Panthöfer, Bergitt, Betzdorf, *02.01.1943, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Betzdorf",
+                    "dismissed": true,
                     "dob": "1933-06-22",
                     "lastname": "Panthöfer",
                     "name": "Paul Gerhard"
                 },
-                "text": " Panthöfer , Paul Gerhard , Betzdorf , * 22.06.1933 ."
+                "text": " Panthöfer, Paul Gerhard, Betzdorf, *22.06.1933."
             }
         ]
     }

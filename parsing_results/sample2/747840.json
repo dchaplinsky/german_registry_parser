@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "Single procuration",
@@ -28,7 +28,7 @@
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Übersee",
                     "dob": "1945-01-16",
@@ -36,17 +36,18 @@
                     "lastname": "Graus",
                     "name": "Herbert"
                 },
-                "text": " Graus , Herbert , Übersee , * 16.01.1945 , einzelvertretungsberechtigt"
+                "text": " Graus, Herbert, Übersee, *16.01.1945, einzelvertretungsberechtigt"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1945-01-16",
                     "lastname": "Graus",
                     "name": "Herbert"
                 },
-                "text": " Graus , Herbert , München , * 16.01.1945 ."
+                "text": " Graus, Herbert, München, *16.01.1945."
             }
         ]
     }

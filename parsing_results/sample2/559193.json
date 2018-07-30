@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Backnang",
+                    "dismissed": true,
                     "dob": "1957-10-28",
-                    "lastname": "Dr . Riede",
+                    "lastname": "Doctor Riede",
                     "name": "Matthias"
                 },
-                "text": " Dr . Riede , Matthias , Backnang , * 28.10.1957 ."
+                "text": " Doctor Riede, Matthias, Backnang, *28.10.1957."
             }
         ]
     }

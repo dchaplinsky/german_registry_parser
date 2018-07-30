@@ -19,39 +19,41 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wehrheim",
+                    "dismissed": true,
                     "dob": "1953-12-26",
-                    "lastname": "Dr . Becker",
+                    "lastname": "Doctor Becker",
                     "name": "Fritz"
                 },
-                "text": " Dr . Becker , Fritz , Wehrheim , * 26.12.1953"
+                "text": " Doctor Becker, Fritz, Wehrheim, *26.12.1953"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Otterstadt",
                     "dob": "1962-11-18",
-                    "lastname": "Dr . Knittel",
+                    "lastname": "Doctor Knittel",
                     "name": "Michael"
                 },
-                "text": " Dr . Knittel , Michael , Otterstadt , * 18.11.1962"
+                "text": " Doctor Knittel, Michael, Otterstadt, *18.11.1962"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Otterstadt",
+                    "dismissed": true,
                     "dob": "1962-11-18",
-                    "lastname": "Dr . Knittel",
+                    "lastname": "Doctor Knittel",
                     "name": "Michael"
                 },
-                "text": " Dr . Knittel , Michael , Otterstadt , * 18.11.1962"
+                "text": " Doctor Knittel, Michael, Otterstadt, *18.11.1962"
             }
         ]
     }

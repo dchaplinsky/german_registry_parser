@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Moorenstr ."
+                "text": " Moorenstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kaarst",
+                    "dismissed": true,
                     "dob": "1951-10-30",
                     "lastname": "Nikzad",
                     "name": "Mehdi"
                 },
-                "text": " Nikzad , Mehdi , Kaarst , * 30.10.1951 ."
+                "text": " Nikzad, Mehdi, Kaarst, *30.10.1951."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Meerbusch",
                     "dob": "1989-06-29",
                     "lastname": "Bahrami",
                     "name": "Mahrokh"
                 },
-                "text": " Bahrami , Mahrokh , Meerbusch , * 29.06.1989 ."
+                "text": " Bahrami, Mahrokh, Meerbusch, *29.06.1989."
             }
         ]
     }

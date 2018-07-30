@@ -24,14 +24,15 @@
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Biblis",
+                    "dismissed": true,
                     "dob": "1969-03-22",
                     "lastname": "Strauch",
-                    "name": "Jens - Peter"
+                    "name": "Jens-Peter"
                 },
-                "text": " Strauch , Jens - Peter , Biblis , * 22.03.1969 ."
+                "text": " Strauch, Jens-Peter, Biblis, *22.03.1969."
             },
             {
                 "class": "Owner",
@@ -41,7 +42,7 @@
                     "lastname": "Stumpf",
                     "name": "Stephan"
                 },
-                "text": " Stumpf , Stephan , Lampertheim , * 22.10.1968 ."
+                "text": " Stumpf, Stephan, Lampertheim, *22.10.1968."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=190089&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Elting",
                     "name": "Reinhard"
                 },
-                "text": " Elting , Reinhard , Gladbeck , * 09.05.1960 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Gladbeck",
-                    "dob": "1960-09-05",
-                    "lastname": "Elting",
-                    "name": "Reinhard"
-                },
-                "text": " Elting , Reinhard , Gladbeck , * 09.05.1960 ."
+                "text": " Elting, Reinhard, Gladbeck, *09.05.1960."
             }
         ]
     }

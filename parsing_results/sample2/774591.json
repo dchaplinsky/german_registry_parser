@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Frauenauracher Str ."
+                "text": " Frauenauracher Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Nürnberg",
                     "dob": "1959-03-26",
                     "lastname": "Schmidt",
                     "name": "Werner"
                 },
-                "text": " Schmidt , Werner , Nürnberg , * 26.03.1959 ."
+                "text": " Schmidt, Werner, Nürnberg, *26.03.1959."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Bayreuth",
+                    "dismissed": true,
                     "dob": "1964-10-31",
                     "lastname": "Kohler",
                     "name": "Petra"
                 },
-                "text": " Kohler , Petra , Bayreuth , * 31.10.1964 ."
+                "text": " Kohler, Petra, Bayreuth, *31.10.1964."
             }
         ]
     }

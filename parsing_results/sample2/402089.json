@@ -19,47 +19,49 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Firma / Name vormals : XiiT Media GmbH , Berlin , Badener Ring 28 , 12101 Berlin ."
+                "text": " Firma / Name vormals: XiiT Media GmbH, Berlin, Badener Ring 28, 12101 Berlin."
             },
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Badener Ring 28 , 12101 Berlin"
+                "text": " Geschäftsanschrift: Badener Ring 28, 12101 Berlin"
             },
             {
                 "label": "address",
-                "text": " Badener Ring 28 , 12101 Berlin"
+                "text": " Badener Ring 28, 12101 Berlin"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Bertram",
                     "name": "Ingmar"
                 },
-                "text": " Bertram , Ingmar"
+                "text": " Bertram, Ingmar"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Yassini",
                     "name": "Sassan"
                 },
-                "text": " Yassini , Sassan"
+                "text": " Yassini, Sassan"
             },
             {
                 "class": "ManagingDirector",
@@ -69,7 +71,7 @@
                     "lastname": "Öztüfek",
                     "name": "Ender"
                 },
-                "text": " Öztüfek , Ender , * 01.04.1982 , Berlin"
+                "text": " Öztüfek, Ender, *01.04.1982, Berlin"
             }
         ]
     }

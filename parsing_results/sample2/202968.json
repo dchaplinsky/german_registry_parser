@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Bayreuth",
+                    "dismissed": true,
                     "dob": "1959-06-29",
-                    "lastname": "Dr . Mauch",
+                    "lastname": "Doctor Mauch",
                     "name": "Peter"
                 },
-                "text": " Dr . Mauch , Peter , Bayreuth , * 29.06.1959 ."
+                "text": " Doctor Mauch, Peter, Bayreuth, *29.06.1959."
             }
         ]
     }

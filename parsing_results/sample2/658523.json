@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Sommerhausen",
+                    "dismissed": true,
                     "dob": "1940-02-08",
                     "lastname": "Schramm",
                     "name": "Herbert"
                 },
-                "text": " Schramm , Herbert , Sommerhausen , * 02.08.1940 ."
+                "text": " Schramm, Herbert, Sommerhausen, *02.08.1940."
             },
             {
                 "class": "Liquidator",
@@ -41,7 +42,7 @@
                     "lastname": "Schramm",
                     "name": "Bernhard"
                 },
-                "text": " Schramm , Bernhard , Würzburg , * 04.11.1946 ."
+                "text": " Schramm, Bernhard, Würzburg, *04.11.1946."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wesel",
+                    "dismissed": true,
                     "dob": "1948-10-10",
                     "lastname": "Prast",
-                    "name": "Theodor - J"
+                    "name": "Theodor-J"
                 },
-                "text": " Prast , Theodor - J . , Wesel , * 10.10.1948 ."
+                "text": " Prast, Theodor-J., Wesel, *10.10.1948."
             }
         ]
     }

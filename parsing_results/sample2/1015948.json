@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Oberhaching",
+                    "dismissed": true,
                     "dob": "1950-12-22",
                     "lastname": "Mair",
                     "name": "Christa"
                 },
-                "text": " Mair , Christa , Oberhaching , * 22.12.1950 ."
+                "text": " Mair, Christa, Oberhaching, *22.12.1950."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Oberhaching",
                     "dob": "1944-05-08",
                     "lastname": "Mair",
                     "name": "Johann"
                 },
-                "text": " Mair , Johann , Oberhaching , * 05.08.1944 ."
+                "text": " Mair, Johann, Oberhaching, *05.08.1944."
             },
             {
                 "class": "ManagingDirector",
@@ -45,7 +46,7 @@
                     "lastname": "Ketelhut",
                     "name": "Ralph Steffen"
                 },
-                "text": " Ketelhut , Ralph Steffen , Ingolstadt , * 10.12.1966"
+                "text": " Ketelhut, Ralph Steffen, Ingolstadt, *10.12.1966"
             }
         ]
     }

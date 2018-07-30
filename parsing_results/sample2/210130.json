@@ -18,15 +18,16 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Bromkamp",
                     "name": "Alfons"
                 },
-                "text": " Bromkamp , Alfons ."
+                "text": " Bromkamp, Alfons."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hilchenbach",
                     "dob": "1961-05-28",
@@ -34,7 +35,7 @@
                     "lastname": "Knipp",
                     "name": "Rüdiger"
                 },
-                "text": " Knipp , Rüdiger , Hilchenbach , * 28.05.1961 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Knipp, Rüdiger, Hilchenbach, *28.05.1961, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

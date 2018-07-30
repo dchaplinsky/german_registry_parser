@@ -19,11 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
@@ -36,7 +32,7 @@
                     "lastname": "Kaack",
                     "name": "Thomas"
                 },
-                "text": " Kaack , Thomas , Leipzig , * 23.08.1948 , einzelvertretungsberechtigt"
+                "text": " Kaack, Thomas, Leipzig, *23.08.1948, einzelvertretungsberechtigt"
             },
             {
                 "class": "CommonProcuration",
@@ -46,7 +42,7 @@
                     "lastname": "Kaack",
                     "name": "Daniel"
                 },
-                "text": " Kaack , Daniel , Leipzig , * 21.10.1988 ."
+                "text": " Kaack, Daniel, Leipzig, *21.10.1988."
             },
             {
                 "class": "SingleProcuration",
@@ -56,17 +52,7 @@
                     "lastname": "Kaack",
                     "name": "Karin"
                 },
-                "text": " Kaack , Karin , Leipzig , * 25.10.1962 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Leipzig",
-                    "dob": "1962-10-25",
-                    "lastname": "Kaack",
-                    "name": "Karin"
-                },
-                "text": " Kaack , Karin , Leipzig , * 25.10.1962 ."
+                "text": " Kaack, Karin, Leipzig, *25.10.1962."
             }
         ]
     }

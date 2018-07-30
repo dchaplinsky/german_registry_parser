@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=896163&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "NewProcuration",
@@ -31,27 +25,7 @@
                     "lastname": "Böwer",
                     "name": "Hildegard"
                 },
-                "text": " Böwer , Hildegard , Münster , * 08.08.1959 ."
-            },
-            {
-                "class": "SingleProcuration",
-                "payload": {
-                    "city": "Münster",
-                    "dob": "1959-08-08",
-                    "lastname": "Böwer",
-                    "name": "Hildegard"
-                },
-                "text": " Böwer , Hildegard , Münster , * 08.08.1959 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Münster",
-                    "dob": "1959-08-08",
-                    "lastname": "Böwer",
-                    "name": "Hildegard"
-                },
-                "text": " Böwer , Hildegard , Münster , * 08.08.1959 ."
+                "text": " Böwer, Hildegard, Münster, *08.08.1959."
             }
         ]
     }

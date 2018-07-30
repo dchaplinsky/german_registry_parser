@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Stader Str ."
+                "text": " Stader Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Scheeßel",
+                    "dismissed": true,
                     "dob": "1949-11-18",
                     "lastname": "Stemmann",
                     "name": "Wilhelm"
                 },
-                "text": " Stemmann , Wilhelm , Scheeßel , * 18.11.1949 ."
+                "text": " Stemmann, Wilhelm, Scheeßel, *18.11.1949."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Sittensen",
                     "dob": "1978-05-22",
                     "lastname": "Kropp",
                     "name": "Kathrin"
                 },
-                "text": " Kropp , Kathrin , Sittensen , * 22.05.1978 ."
+                "text": " Kropp, Kathrin, Sittensen, *22.05.1978."
             }
         ]
     }

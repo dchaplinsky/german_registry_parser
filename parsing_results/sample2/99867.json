@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Schmidt",
                     "name": "Wolfgang"
                 },
-                "text": " Schmidt , Wolfgang"
+                "text": " Schmidt, Wolfgang"
             },
             {
                 "class": "ManagingDirector",
@@ -33,7 +34,7 @@
                     "lastname": "Magin",
                     "name": "Bernhard"
                 },
-                "text": " Magin , Bernhard , * 09.04.1969 , Ludwigshafen am Rhein"
+                "text": " Magin, Bernhard, *09.04.1969, Ludwigshafen am Rhein"
             }
         ]
     }

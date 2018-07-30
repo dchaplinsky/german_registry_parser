@@ -23,7 +23,7 @@
             },
             {
                 "flag": "The owner is acting alone",
-                "text": "Der Inhaber handelt allein"
+                "text": "Der\\ Inhaber\\ handelt\\ allein"
             }
         ],
         "officers": [
@@ -35,17 +35,18 @@
                     "lastname": "Broschinski",
                     "name": "Udo"
                 },
-                "text": " Broschinski , Udo , Kirchheim , * 19.08.1964 ."
+                "text": " Broschinski, Udo, Kirchheim, *19.08.1964."
             },
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
-                    "city": "Schenklengsfeld - Wippershain",
+                    "city": "Schenklengsfeld-Wippershain",
+                    "dismissed": true,
                     "lastname": "Broschinski",
                     "name": "Ute",
                     "position": "Kauffrau"
                 },
-                "text": " Broschinski , Ute , Kauffrau , Schenklengsfeld - Wippershain ."
+                "text": " Broschinski, Ute, Kauffrau, Schenklengsfeld-Wippershain."
             }
         ]
     }

@@ -18,26 +18,22 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Goebelstraße 50 , 28865 Lilienthal ."
+                "text": " Goebelstraße 50, 28865 Lilienthal."
             }
         ],
         "officers": [
@@ -46,21 +42,22 @@
                 "payload": {
                     "city": "Bremervörde",
                     "dob": "1964-11-09",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Gorke",
                     "name": "Rolf"
                 },
-                "text": " Gorke , Rolf , Bremervörde , * 11.09.1964 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Gorke, Rolf, Bremervörde, *11.09.1964, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Schiffdorf",
+                    "dismissed": true,
                     "dob": "1965-01-01",
                     "lastname": "Staats",
                     "name": "Helmut"
                 },
-                "text": " Staats , Helmut , Schiffdorf , * 01.01.1965 ."
+                "text": " Staats, Helmut, Schiffdorf, *01.01.1965."
             },
             {
                 "class": "SingleProcuration",
@@ -70,17 +67,7 @@
                     "lastname": "Bartels",
                     "name": "Holger"
                 },
-                "text": " Bartels , Holger , Bremerhaven , * 01.03.1964 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Bremerhaven",
-                    "dob": "1964-01-03",
-                    "lastname": "Bartels",
-                    "name": "Holger"
-                },
-                "text": " Bartels , Holger , Bremerhaven , * 01.03.1964 ."
+                "text": " Bartels, Holger, Bremerhaven, *01.03.1964."
             }
         ]
     }

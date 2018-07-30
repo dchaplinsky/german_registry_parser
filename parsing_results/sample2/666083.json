@@ -19,40 +19,42 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wien / Österreich",
                     "dob": "1970-12-08",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Halmenschlager",
                     "name": "Roland"
                 },
-                "text": " Halmenschlager , Roland , Wien / Österreich , * 12.08.1970 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Halmenschlager, Roland, Wien / Österreich, *12.08.1970, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Wien / Österreich",
+                    "city": "Wien/Österreich",
+                    "dismissed": true,
                     "dob": "1975-07-29",
-                    "lastname": "Dr . Jestädt",
+                    "lastname": "Doctor Jestädt",
                     "name": "Guido"
                 },
-                "text": " Dr . Jestädt , Guido , Wien / Österreich , * 29.07.1975"
+                "text": " Doctor Jestädt, Guido, Wien/Österreich, *29.07.1975"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Wien / Österreich",
+                    "city": "Wien/Österreich",
+                    "dismissed": true,
                     "dob": "1970-12-08",
                     "lastname": "Halmenschlager",
                     "name": "Ronald"
                 },
-                "text": " Halmenschlager , Ronald , Wien / Österreich , * 12.08.1970 ."
+                "text": " Halmenschlager, Ronald, Wien/Österreich, *12.08.1970."
             }
         ]
     }

@@ -18,20 +18,21 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Geldern",
+                    "dismissed": true,
                     "dob": "1954-10-23",
                     "lastname": "Düxmann",
                     "name": "Rolf"
                 },
-                "text": " Düxmann , Rolf , Geldern , * 23.10.1954 ."
+                "text": " Düxmann, Rolf, Geldern, *23.10.1954."
             },
             {
                 "class": "ManagingDirector",
@@ -39,19 +40,19 @@
                     "city": "Willich",
                     "dob": "1963-10-24",
                     "lastname": "Tischler",
-                    "name": "Hans - Peter"
+                    "name": "Hans-Peter"
                 },
-                "text": " Tischler , Hans - Peter , Willich , * 24.10.1963 ."
+                "text": " Tischler, Hans-Peter, Willich, *24.10.1963."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Lünen",
                     "dob": "1967-03-15",
                     "lastname": "Saur",
                     "name": "Wolfgang"
                 },
-                "text": " Saur , Wolfgang , Lünen , * 15.03.1967 ."
+                "text": " Saur, Wolfgang, Lünen, *15.03.1967."
             },
             {
                 "class": "CommonProcuration",
@@ -61,7 +62,7 @@
                     "lastname": "Brammer",
                     "name": "Nils"
                 },
-                "text": " Brammer , Nils , Mülheim an der Ruhr , * 16.07.1970"
+                "text": " Brammer, Nils, Mülheim an der Ruhr, *16.07.1970"
             }
         ]
     }

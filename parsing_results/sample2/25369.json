@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=25369&land_abk=rp"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Labonte",
                     "name": "Herbert"
                 },
-                "text": " Labonte , Herbert , Koblenz , * 11.01.1952 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Koblenz",
-                    "dob": "1952-11-01",
-                    "lastname": "Labonte",
-                    "name": "Herbert"
-                },
-                "text": " Labonte , Herbert , Koblenz , * 11.01.1952 ."
+                "text": " Labonte, Herbert, Koblenz, *11.01.1952."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Gelsenkirchen",
+                    "dismissed": true,
                     "dob": "1953-07-10",
                     "lastname": "Escherlor",
-                    "name": "Hans - Jürgen"
+                    "name": "Hans-Jürgen"
                 },
-                "text": " Escherlor , Hans - Jürgen , Gelsenkirchen , * 07.10.1953 ."
+                "text": " Escherlor, Hans-Jürgen, Gelsenkirchen, *07.10.1953."
             },
             {
                 "class": "ManagingDirector",
@@ -36,7 +37,7 @@
                     "lastname": "Kashtanjeva",
                     "name": "Jalldeze"
                 },
-                "text": " Kashtanjeva , Jalldeze , Münster , * 23.08.1981 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Kashtanjeva, Jalldeze, Münster, *23.08.1981, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

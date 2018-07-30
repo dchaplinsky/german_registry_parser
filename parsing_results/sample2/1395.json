@@ -18,13 +18,14 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Siegen",
+                    "dismissed": true,
                     "lastname": "Kohlhas",
                     "name": "Irmtraut"
                 },
-                "text": " Kohlhas , Irmtraut , Siegen ."
+                "text": " Kohlhas, Irmtraut, Siegen."
             },
             {
                 "class": "Owner",
@@ -34,7 +35,7 @@
                     "lastname": "Gent",
                     "name": "Brigitte geborene Treude"
                 },
-                "text": " Gent , Brigitte geborene Treude , Erndtebrück , * 12.11.1956 ."
+                "text": " Gent, Brigitte geborene Treude, Erndtebrück, *12.11.1956."
             }
         ]
     }

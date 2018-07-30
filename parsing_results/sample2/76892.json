@@ -25,17 +25,18 @@
                     "lastname": "Bartusiak",
                     "name": "Marek"
                 },
-                "text": " Bartusiak , Marek , Düsseldorf , * 06.05.1961"
+                "text": " Bartusiak, Marek, Düsseldorf, *06.05.1961"
             },
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1954-04-15",
                     "lastname": "Schlamm",
                     "name": "Karl"
                 },
-                "text": " Schlamm , Karl , Berlin , * 15.04.1954 ."
+                "text": " Schlamm, Karl, Berlin, *15.04.1954."
             }
         ]
     }

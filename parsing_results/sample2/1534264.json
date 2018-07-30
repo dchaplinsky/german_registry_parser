@@ -18,24 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Magden",
+                    "dismissed": true,
                     "dob": "1951-07-02",
-                    "lastname": "Müller - Wiedemann",
+                    "lastname": "Müller-Wiedemann",
                     "name": "Dorothee Elisabeth"
                 },
-                "text": " Müller - Wiedemann , Dorothee Elisabeth , Magden , * 07.02.1951 ."
+                "text": " Müller-Wiedemann, Dorothee Elisabeth, Magden, *07.02.1951."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Magden",
+                    "dismissed": true,
                     "dob": "1984-02-21",
                     "lastname": "Müller",
                     "name": "Andreas Felix Georg"
                 },
-                "text": " Müller , Andreas Felix Georg , Magden , * 21.02.1984 ."
+                "text": " Müller, Andreas Felix Georg, Magden, *21.02.1984."
             }
         ]
     }

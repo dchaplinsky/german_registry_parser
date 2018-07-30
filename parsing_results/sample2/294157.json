@@ -19,31 +19,32 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Objekt Sandkamp Bad Oldesloe Grundstücks GmbH , Berlin , Hardenbergstraße 12 , 10623 Berlin ."
+                "text": " Objekt Sandkamp Bad Oldesloe Grundstücks GmbH, Berlin, Hardenbergstraße 12, 10623 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Zalel",
                     "name": "Rom"
                 },
-                "text": " Zalel , Rom"
+                "text": " Zalel, Rom"
             },
             {
                 "class": "ManagingDirector",
@@ -53,7 +54,7 @@
                     "lastname": "Singh",
                     "name": "Sanjay Kumar"
                 },
-                "text": " Singh , Sanjay Kumar , * 31.01.1961 , Bangkok / Thailand"
+                "text": " Singh, Sanjay Kumar, *31.01.1961, Bangkok / Thailand"
             }
         ]
     }

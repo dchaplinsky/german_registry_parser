@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "officers": [
@@ -28,19 +28,20 @@
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1963-06-22",
-                    "flag": "mit der Befugnis die Gesellschaft allein zu vertreten  mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen",
+                    "flag": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen",
                     "lastname": "Hölzer",
                     "name": "Axel"
                 },
-                "text": " Hölzer , Axel , * 22.06.1963 , Hamburg , mit der Befugnis die Gesellschaft allein zu vertreten , mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen ."
+                "text": " Hölzer, Axel, *22.06.1963, Hamburg, mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "lastname": "Dr . Ohm",
+                    "dismissed": true,
+                    "lastname": "Doctor Ohm",
                     "name": "Thorsten"
                 },
-                "text": " Dr . Ohm , Thorsten ."
+                "text": " Doctor Ohm, Thorsten."
             }
         ]
     }

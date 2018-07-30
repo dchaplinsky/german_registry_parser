@@ -16,16 +16,23 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=369200&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Philippi , Burkhard , Kaufmann , Wölfersheim , * 24.05.1955 ., error text was Cannot parse DOB  Kaufmann  using regex"
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Wölfersheim",
+                    "dob": "1955-05-24",
+                    "lastname": ": Philippi",
+                    "name": "Burkhard",
+                    "position": "Kaufmann"
+                },
+                "text": ": Philippi, Burkhard, Kaufmann, Wölfersheim, *24.05.1955."
             }
         ]
     }

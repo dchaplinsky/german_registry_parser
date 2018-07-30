@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "lastname": "Arnold",
                     "name": "Robert",
-                    "position": "Diplom - Wirtschaftsingenieur"
+                    "position": "Diplom-Wirtschaftsingenieur"
                 },
-                "text": " Arnold , Robert , Diplom - Wirtschaftsingenieur , München ."
+                "text": " Arnold, Robert, Diplom-Wirtschaftsingenieur, München."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Landshut",
                     "dob": "1987-08-26",
@@ -42,7 +43,7 @@
                     "lastname": "Arnold",
                     "name": "Laura Alexandra"
                 },
-                "text": " Arnold , Laura Alexandra , Landshut , * 26.08.1987 , einzelvertretungsberechtigt"
+                "text": " Arnold, Laura Alexandra, Landshut, *26.08.1987, einzelvertretungsberechtigt"
             }
         ]
     }

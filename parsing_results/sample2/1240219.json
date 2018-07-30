@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wuppertal",
+                    "dismissed": true,
                     "dob": "1962-02-05",
                     "lastname": "Hölscheid",
                     "name": "Axel"
                 },
-                "text": " Hölscheid , Axel , Wuppertal , * 02.05.1962 ."
+                "text": " Hölscheid, Axel, Wuppertal, *02.05.1962."
             },
             {
                 "class": "ManagingDirector",
@@ -35,7 +36,7 @@
                     "lastname": "Moulin",
                     "name": "Thibaut"
                 },
-                "text": " Moulin , Thibaut , Saint Bonnet les Oules / Frankreich , * 20.11.1973"
+                "text": " Moulin, Thibaut, Saint Bonnet les Oules / Frankreich, *20.11.1973"
             }
         ]
     }

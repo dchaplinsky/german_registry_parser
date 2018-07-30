@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=445017&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Königstein im Taunus",
+                    "dismissed": true,
                     "dob": "1971-04-03",
                     "lastname": "Bauer",
                     "name": "Andreas"
                 },
-                "text": " Bauer , Andreas , Königstein im Taunus , * 04.03.1971"
+                "text": " Bauer, Andreas, Königstein im Taunus, *04.03.1971"
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +36,7 @@
                     "lastname": "Krause",
                     "name": "Andreas"
                 },
-                "text": " Krause , Andreas , Zürich , * 04.08.1976"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Zürich",
-                    "dob": "1976-04-08",
-                    "lastname": "Krause",
-                    "name": "Andreas"
-                },
-                "text": " Krause , Andreas , Zürich , * 04.08.1976"
+                "text": " Krause, Andreas, Zürich, *04.08.1976"
             }
         ]
     }

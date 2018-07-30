@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Pattenser Str ."
+                "text": " Pattenser Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Laatzen",
+                    "dismissed": true,
                     "dob": "1959-09-04",
                     "lastname": "Derushinski",
                     "name": "Viktor"
                 },
-                "text": " Derushinski , Viktor , Laatzen , * 09.04.1959"
+                "text": " Derushinski, Viktor, Laatzen, *09.04.1959"
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Puchkirchen / Österreich",
+                    "dismissed": true,
                     "dob": "1977-04-23",
                     "lastname": "Bamberger",
                     "name": "Christian"
                 },
-                "text": " Bamberger , Christian , Puchkirchen / Österreich , * 23.04.1977 ."
+                "text": " Bamberger, Christian, Puchkirchen / Österreich, *23.04.1977."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Eriskirch",
+                    "dismissed": true,
                     "dob": "1959-01-17",
                     "lastname": "Berth",
                     "name": "Andreas"
                 },
-                "text": " Berth , Andreas , Eriskirch , * 17.01.1959 ."
+                "text": " Berth, Andreas, Eriskirch, *17.01.1959."
             }
         ]
     }

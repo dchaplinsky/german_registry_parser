@@ -19,12 +19,12 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Schillerstrasse 20 c / o avocado rechtsanwälte , 60313 Frankfurt am Main ."
+                "text": " Schillerstrasse 20 c/o avocado rechtsanwälte, 60313 Frankfurt am Main."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Singapur / Singapur",
                     "dob": "1968-06-04",
@@ -32,17 +32,18 @@
                     "lastname": "Douglas",
                     "name": "Ian"
                 },
-                "text": " Douglas , Ian , Singapur / Singapur , * 06.04.1968 , einzelvertretungsberechtigt ."
+                "text": " Douglas, Ian, Singapur / Singapur, *06.04.1968, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Bucks / Großbritannien",
+                    "city": "Bucks/ Großbritannien",
+                    "dismissed": true,
                     "dob": "1964-09-28",
                     "lastname": "Ruhan",
                     "name": "Gabriel Martin"
                 },
-                "text": " Ruhan , Gabriel Martin , Bucks / Großbritannien , * 28.09.1964 ."
+                "text": " Ruhan, Gabriel Martin, Bucks/ Großbritannien, *28.09.1964."
             }
         ]
     }

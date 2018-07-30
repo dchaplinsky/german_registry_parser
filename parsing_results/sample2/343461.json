@@ -16,15 +16,21 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=343461&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Jaust , Herbert , Techniker , Recklinghausen , * 02.12.1943 ., error text was Cannot parse DOB  Techniker  using regex"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Recklinghausen",
+                    "dismissed": true,
+                    "dob": "1943-02-12",
+                    "lastname": "Jaust",
+                    "name": "Herbert",
+                    "position": "Techniker"
+                },
+                "text": " Jaust, Herbert, Techniker, Recklinghausen, *02.12.1943."
+            },
+            {
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1963-04-30",
@@ -32,7 +38,7 @@
                     "lastname": "Rosenkilde",
                     "name": "Carsten"
                 },
-                "text": " Rosenkilde , Carsten , Hamburg , * 30.04.1963 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Rosenkilde, Carsten, Hamburg, *30.04.1963, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

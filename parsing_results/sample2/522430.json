@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Nottuln",
+                    "dismissed": true,
                     "dob": "1957-12-25",
                     "lastname": "Saure",
                     "name": "Lukas"
                 },
-                "text": " Saure , Lukas , Nottuln , * 25.12.1957 ."
+                "text": " Saure, Lukas, Nottuln, *25.12.1957."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Nottuln",
                     "dob": "1968-11-06",
@@ -36,7 +37,7 @@
                     "lastname": "Sommer",
                     "name": "Matthias"
                 },
-                "text": " Sommer , Matthias , Nottuln , * 11.06.1968 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Sommer, Matthias, Nottuln, *11.06.1968, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

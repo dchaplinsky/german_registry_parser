@@ -19,35 +19,36 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Traminerweg 5 , 74321 Bietigheim - Bissingen ."
+                "text": " Traminerweg 5, 74321 Bietigheim-Bissingen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Bietigheim - Bissingen",
+                    "city": "Bietigheim- Bissingen",
+                    "dismissed": true,
                     "dob": "1940-04-13",
                     "lastname": "Imle",
                     "name": "Günter"
                 },
-                "text": " Imle , Günter , Bietigheim - Bissingen , * 13.04.1940 ."
+                "text": " Imle, Günter, Bietigheim- Bissingen, *13.04.1940."
             },
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "Bietigheim - Bissingen",
+                    "city": "Bietigheim- Bissingen",
                     "dob": "1940-04-13",
                     "lastname": "Imle",
                     "name": "Günter"
                 },
-                "text": " Imle , Günter , Bietigheim - Bissingen , * 13.04.1940 ."
+                "text": " Imle, Günter, Bietigheim- Bissingen, *13.04.1940."
             }
         ]
     }

@@ -19,37 +19,38 @@
         "flags": [
             {
                 "flag": "Exclusive power of representation can be granted.",
-                "text": "Alleinvertretungsbefugnis kann erteilt werden ."
+                "text": "Alleinvertretungsbefugnis\\ kann\\ erteilt\\ werden\\."
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Verdener Str ."
+                "text": " Verdener Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Pensky",
                     "name": "Erik Arwed"
                 },
-                "text": " Pensky , Erik Arwed ."
+                "text": " Pensky, Erik Arwed."
             },
             {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Bremen",
                     "dob": "1934-12-04",
-                    "lastname": "Dr . Küch",
+                    "lastname": "Doctor Küch",
                     "name": "Friedrich"
                 },
-                "text": " Dr . Küch , Friedrich , * 12.04.1934 , Bremen"
+                "text": " Doctor Küch, Friedrich, *12.04.1934, Bremen"
             }
         ]
     }

@@ -19,13 +19,30 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Benrather Straße 18-20 , 40213 Düsseldorf ."
+                "text": " Benrather Straße 18-20, 40213 Düsseldorf."
+            }
+        ],
+        "officers": [
+            {
+                "class": "RetiredPersonalPartner",
+                "payload": {
+                    "company_name": " TORIN Beteiligungs GmbH, Leipzig (Amtsgericht Leipzig HRB 23483).",
+                    "dismissed": true
+                },
+                "text": " TORIN Beteiligungs GmbH, Leipzig (Amtsgericht Leipzig HRB 23483)."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": " KidINVEST Management GmbH, Düsseldorf (Amtsgericht Düsseldorf HRB 76293), mit der Befugnis -auch für jeden Geschäftsführer-, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+                },
+                "text": " KidINVEST Management GmbH, Düsseldorf (Amtsgericht Düsseldorf HRB 76293), mit der Befugnis -auch für jeden Geschäftsführer-, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

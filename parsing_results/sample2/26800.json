@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -28,19 +28,20 @@
                 "payload": {
                     "city": "Iserlohn",
                     "dob": "1948-08-12",
-                    "lastname": "Ossenberg - Falkenroth",
+                    "lastname": "Ossenberg-Falkenroth",
                     "name": "Ursula"
                 },
-                "text": " Ossenberg - Falkenroth , Ursula , Iserlohn , * 08.12.1948 ."
+                "text": " Ossenberg-Falkenroth, Ursula, Iserlohn, *08.12.1948."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Iserlohn",
+                    "dismissed": true,
                     "lastname": "Ossenberg",
                     "name": "Marianne"
                 },
-                "text": " Ossenberg , Marianne , Iserlohn ."
+                "text": " Ossenberg, Marianne, Iserlohn."
             }
         ]
     }

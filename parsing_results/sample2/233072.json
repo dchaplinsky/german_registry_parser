@@ -19,19 +19,19 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Darmstadt",
                     "dob": "1966-04-06",
                     "lastname": "Hannemann",
                     "name": "Henrik"
                 },
-                "text": " Hannemann , Henrik , Darmstadt , * 04.06.1966 ."
+                "text": " Hannemann, Henrik, Darmstadt, *04.06.1966."
             },
             {
                 "class": "ManagingDirector",
@@ -40,9 +40,9 @@
                     "dob": "1960-10-03",
                     "flag": "sole representation",
                     "lastname": "Wienecke",
-                    "name": "Hans - Otto"
+                    "name": "Hans-Otto"
                 },
-                "text": " Wienecke , Hans - Otto , Frankfurt am Main , * 10.03.1960 , einzelvertretungsberechtigt"
+                "text": " Wienecke, Hans-Otto, Frankfurt am Main, *10.03.1960, einzelvertretungsberechtigt"
             }
         ]
     }

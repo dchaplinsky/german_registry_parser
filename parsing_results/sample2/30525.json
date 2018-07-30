@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=30525&land_abk=rp"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Althausse",
                     "name": "Christoph"
                 },
-                "text": " Althausse , Christoph , Hochheim am Main , * 07.04.1969 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hochheim am Main",
-                    "dob": "1969-07-04",
-                    "lastname": "Althausse",
-                    "name": "Christoph"
-                },
-                "text": " Althausse , Christoph , Hochheim am Main , * 07.04.1969 ."
+                "text": " Althausse, Christoph, Hochheim am Main, *07.04.1969."
             }
         ]
     }

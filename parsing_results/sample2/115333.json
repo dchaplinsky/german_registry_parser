@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Maintal",
+                    "dismissed": true,
                     "lastname": "Treibs",
                     "name": "Gerhard",
                     "position": "Malermeister"
                 },
-                "text": " Treibs , Gerhard , Malermeister , Maintal ."
+                "text": " Treibs, Gerhard, Malermeister, Maintal."
             }
         ]
     }

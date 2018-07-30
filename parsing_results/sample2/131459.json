@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Bangin",
                     "name": "Omar"
                 },
-                "text": " Bangin , Omar ."
+                "text": " Bangin, Omar."
             }
         ]
     }

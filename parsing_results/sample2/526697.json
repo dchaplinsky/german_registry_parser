@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=526697&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Stoffel",
                     "name": "Michael Karl Heinz"
                 },
-                "text": " Stoffel , Michael Karl Heinz , Hückeswagen , * 03.06.1962 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hückeswagen",
-                    "dob": "1962-03-06",
-                    "lastname": "Stoffel",
-                    "name": "Michael Karl Heinz"
-                },
-                "text": " Stoffel , Michael Karl Heinz , Hückeswagen , * 03.06.1962 ."
+                "text": " Stoffel, Michael Karl Heinz, Hückeswagen, *03.06.1962."
             }
         ]
     }

@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Lindenstraße 24 , 06749 Bitterfeld - Wolfen OT Bitterfeld ."
+                "text": " Lindenstraße 24, 06749 Bitterfeld-Wolfen OT Bitterfeld."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Rehden",
+                    "dismissed": true,
                     "dob": "1976-09-17",
                     "lastname": "Schilling",
                     "name": "Marc"
                 },
-                "text": " Schilling , Marc , Rehden , * 17.09.1976 ."
+                "text": " Schilling, Marc, Rehden, *17.09.1976."
             }
         ]
     }

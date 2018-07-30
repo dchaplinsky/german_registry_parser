@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Rossau",
+                    "dismissed": true,
                     "dob": "1954-02-08",
                     "lastname": "Krüger",
                     "name": "Wilfried"
                 },
-                "text": " Krüger , Wilfried , Rossau , * 02.08.1954 ."
+                "text": " Krüger, Wilfried, Rossau, *02.08.1954."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Innsbruck / Österreich",
                     "dob": "1965-07-10",
                     "flag": "sole representation",
-                    "lastname": "Dr . Hamm",
+                    "lastname": "Doctor Hamm",
                     "name": "Stefan"
                 },
-                "text": " Dr . Hamm , Stefan , Innsbruck / Österreich , * 07.10.1965 , einzelvertretungsberechtigt"
+                "text": " Doctor Hamm, Stefan, Innsbruck / Österreich, *07.10.1965, einzelvertretungsberechtigt"
             },
             {
                 "class": "ManagingDirector",
@@ -53,7 +54,7 @@
                     "lastname": "Walter",
                     "name": "Andreas"
                 },
-                "text": " Walter , Andreas , Bernsdorf , * 12.11.1964 , nicht mehr einzelvertretungsberechtigt ."
+                "text": " Walter, Andreas, Bernsdorf, *12.11.1964, nicht mehr einzelvertretungsberechtigt."
             }
         ]
     }

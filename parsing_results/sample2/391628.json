@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Guntramsdorf / Österreich",
+                    "city": "Guntramsdorf/Österreich",
+                    "dismissed": true,
                     "dob": "1950-04-24",
                     "lastname": "Sandler",
                     "name": "Gerhard"
                 },
-                "text": " Sandler , Gerhard , Guntramsdorf / Österreich , * 24.04.1950 ."
+                "text": " Sandler, Gerhard, Guntramsdorf/Österreich, *24.04.1950."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt",
                     "dob": "1956-03-25",
                     "lastname": "Spangenberg",
                     "name": "Ralph"
                 },
-                "text": " Spangenberg , Ralph , Frankfurt , * 25.03.1956 ."
+                "text": " Spangenberg, Ralph, Frankfurt, *25.03.1956."
             }
         ]
     }

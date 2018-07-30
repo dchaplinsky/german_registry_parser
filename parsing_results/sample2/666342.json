@@ -16,32 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=666342&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
                 "payload": {
-                    "city": "Leinfelden - Echterdingen",
+                    "city": "Leinfelden-Echterdingen",
                     "dob": "1972-08-19",
                     "lastname": "Faust",
                     "name": "Katrin"
                 },
-                "text": " Faust , Katrin , Leinfelden - Echterdingen , * 19.08.1972"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Leinfelden - Echterdingen",
-                    "dob": "1972-08-19",
-                    "lastname": "Faust",
-                    "name": "Katrin"
-                },
-                "text": " Faust , Katrin , Leinfelden - Echterdingen , * 19.08.1972"
+                "text": " Faust, Katrin, Leinfelden-Echterdingen, *19.08.1972"
             }
         ]
     }

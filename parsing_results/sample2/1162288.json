@@ -16,25 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1162288&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Pfäffikon / Schweiz",
+                    "dismissed": true,
                     "dob": "1967-01-20",
                     "lastname": "Kant",
                     "name": "Matthias Andreas Leonhard"
                 },
-                "text": " Kant , Matthias Andreas Leonhard , Pfäffikon / Schweiz , * 20.01.1967 ."
+                "text": " Kant, Matthias Andreas Leonhard, Pfäffikon / Schweiz, *20.01.1967."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Krefeld",
                     "dob": "1971-10-10",
@@ -42,17 +37,18 @@
                     "lastname": "Schulz",
                     "name": "Sascha"
                 },
-                "text": " Schulz , Sascha , Krefeld , * 10.10.1971 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schulz, Sascha, Krefeld, *10.10.1971, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Richterswil",
+                    "dismissed": true,
                     "dob": "1953-02-28",
                     "lastname": "Gerteis",
                     "name": "Urs"
                 },
-                "text": " Gerteis , Urs , Richterswil , * 28.02.1953"
+                "text": " Gerteis, Urs, Richterswil, *28.02.1953"
             },
             {
                 "class": "SingleProcuration",
@@ -62,17 +58,7 @@
                     "lastname": "Stiemert",
                     "name": "Christina"
                 },
-                "text": " Stiemert , Christina , Velbert , * 28.01.1957 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Velbert",
-                    "dob": "1957-01-28",
-                    "lastname": "Stiemert",
-                    "name": "Christina"
-                },
-                "text": " Stiemert , Christina , Velbert , * 28.01.1957 ."
+                "text": " Stiemert, Christina, Velbert, *28.01.1957."
             }
         ]
     }

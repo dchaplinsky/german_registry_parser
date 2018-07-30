@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1965-01-03",
                     "lastname": "Hagen",
                     "name": "Kai Oliver"
                 },
-                "text": " Hagen , Kai Oliver , Düsseldorf , * 01.03.1965 ."
+                "text": " Hagen, Kai Oliver, Düsseldorf, *01.03.1965."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dömitz",
                     "dob": "1982-01-09",
                     "lastname": "Lehnert",
                     "name": "Jasmin"
                 },
-                "text": " Lehnert , Jasmin , Dömitz , * 01.09.1982 ."
+                "text": " Lehnert, Jasmin, Dömitz, *01.09.1982."
             }
         ]
     }

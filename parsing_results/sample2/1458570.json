@@ -19,30 +19,31 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Marie - Bernays - Ring 33 , 41199 Mönchengladbach ."
+                "text": " Marie-Bernays-Ring 33, 41199 Mönchengladbach."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wegberg",
+                    "dismissed": true,
                     "dob": "1961-12-21",
-                    "lastname": "Dr . Rauh",
+                    "lastname": "Doctor Rauh",
                     "name": "Heinz Theo"
                 },
-                "text": " Dr . Rauh , Heinz Theo , Wegberg , * 21.12.1961 ."
+                "text": " Doctor Rauh, Heinz Theo, Wegberg, *21.12.1961."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mönchengladbach",
                     "dob": "1945-03-10",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Pehl",
-                    "name": "Karl - Heinz Willi"
+                    "name": "Karl-Heinz Willi"
                 },
-                "text": " Pehl , Karl - Heinz Willi , Mönchengladbach , * 03.10.1945 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Pehl, Karl-Heinz Willi, Mönchengladbach, *03.10.1945, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

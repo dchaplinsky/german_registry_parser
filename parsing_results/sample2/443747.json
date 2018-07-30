@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Berliner Allee 2 , 40212 Düsseldorf ."
+                "text": " Berliner Allee 2, 40212 Düsseldorf."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1959-08-29",
-                    "lastname": "Dr . Ridder",
+                    "lastname": "Doctor Ridder",
                     "name": "Thomas P"
                 },
-                "text": " Dr . Ridder , Thomas P . , Düsseldorf , * 29.08.1959 ."
+                "text": " Doctor Ridder, Thomas P., Düsseldorf, *29.08.1959."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bonn",
                     "dob": "1976-03-06",
                     "lastname": "Krause",
                     "name": "Michael"
                 },
-                "text": " Krause , Michael , Bonn , * 03.06.1976"
+                "text": " Krause, Michael, Bonn, *03.06.1976"
             }
         ]
     }

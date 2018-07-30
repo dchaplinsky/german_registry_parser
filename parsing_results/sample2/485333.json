@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Linden",
+                    "dismissed": true,
                     "dob": "1966-09-16",
                     "lastname": "Bartz",
-                    "name": "Tina - Alexa"
+                    "name": "Tina-Alexa"
                 },
-                "text": " Bartz , Tina - Alexa , Linden , * 16.09.1966"
+                "text": " Bartz, Tina-Alexa, Linden, *16.09.1966"
             },
             {
                 "class": "ManagingDirector",
@@ -39,13 +40,13 @@
                     "city": "Berlin",
                     "dob": "1976-08-12",
                     "flag": "sole representation",
-                    "lastname": "Dr . Bartz",
+                    "lastname": "Doctor Bartz",
                     "name": "Katharina Valeska"
                 },
-                "text": " Dr . Bartz , Katharina Valeska , Berlin , * 08.12.1976 , einzelvertretungsberechtigt"
+                "text": " Doctor Bartz, Katharina Valeska, Berlin, *08.12.1976, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Linden",
                     "dob": "1951-05-22",
@@ -53,7 +54,7 @@
                     "lastname": "Bartz",
                     "name": "Volker Walter Paul"
                 },
-                "text": " Bartz , Volker Walter Paul , Linden , * 22.05.1951 , einzelvertretungsberechtigt ."
+                "text": " Bartz, Volker Walter Paul, Linden, *22.05.1951, einzelvertretungsberechtigt."
             }
         ]
     }

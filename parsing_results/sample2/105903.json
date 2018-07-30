@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Neuer Kamp 2 , 27801 Dötlingen ."
+                "text": " Neuer Kamp 2, 27801 Dötlingen."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Oldenburg",
+                    "dismissed": true,
                     "dob": "1955-03-13",
-                    "lastname": "Weerts - Aussum",
+                    "lastname": "Weerts-Aussum",
                     "name": "Heino"
                 },
-                "text": " Weerts - Aussum , Heino , Oldenburg , * 13.03.1955 ."
+                "text": " Weerts-Aussum, Heino, Oldenburg, *13.03.1955."
             }
         ]
     }

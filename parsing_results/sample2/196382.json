@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Hochstraße 94 , 45731 Waltrop ."
+                "text": " Hochstraße 94, 45731 Waltrop."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Grünberg",
+                    "dismissed": true,
                     "dob": "1938-08-30",
                     "lastname": "Böcher",
                     "name": "Wilfried"
                 },
-                "text": " Böcher , Wilfried , Grünberg , * 30.08.1938 ."
+                "text": " Böcher, Wilfried, Grünberg, *30.08.1938."
             },
             {
                 "class": "ManagingDirector",
@@ -42,7 +43,7 @@
                     "lastname": "Marquard",
                     "name": "Meryem"
                 },
-                "text": " Marquard , Meryem , Gelsenkirchen , * 30.03.1965 , einzelvertretungsberechtigt"
+                "text": " Marquard, Meryem, Gelsenkirchen, *30.03.1965, einzelvertretungsberechtigt"
             }
         ]
     }

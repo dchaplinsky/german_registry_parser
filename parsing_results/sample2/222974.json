@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "Single procuration",
@@ -28,17 +28,18 @@
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1960-04-22",
                     "lastname": "Jungclaussen",
                     "name": "Heinz"
                 },
-                "text": " Jungclaussen , Heinz , Hamburg , * 22.04.1960 ."
+                "text": " Jungclaussen, Heinz, Hamburg, *22.04.1960."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
                     "dob": "1980-09-11",
@@ -46,7 +47,7 @@
                     "lastname": "Bugri",
                     "name": "Francis Tampuli"
                 },
-                "text": " Bugri , Francis Tampuli , Düsseldorf , * 09.11.1980 , einzelvertretungsberechtigt"
+                "text": " Bugri, Francis Tampuli, Düsseldorf, *09.11.1980, einzelvertretungsberechtigt"
             }
         ]
     }

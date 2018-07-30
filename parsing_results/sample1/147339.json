@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Herten",
+                    "dismissed": true,
                     "dob": "1957-03-17",
                     "lastname": "Wien",
                     "name": "Wolfgang"
                 },
-                "text": " Wien , Wolfgang , Herten , * 17.03.1957 ."
+                "text": " Wien, Wolfgang, Herten, *17.03.1957."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Herten",
                     "dob": "1975-09-20",
@@ -36,7 +37,7 @@
                     "lastname": "Tetik",
                     "name": "Mete"
                 },
-                "text": " Tetik , Mete , Herten , * 20.09.1975 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Tetik, Mete, Herten, *20.09.1975, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

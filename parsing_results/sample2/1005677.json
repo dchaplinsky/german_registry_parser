@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mülheim an der Ruhr",
+                    "dismissed": true,
                     "dob": "1950-12-27",
                     "lastname": "Bangel",
                     "name": "Franz Josef"
                 },
-                "text": " Bangel , Franz Josef , Mülheim an der Ruhr , * 27.12.1950 ."
+                "text": " Bangel, Franz Josef, Mülheim an der Ruhr, *27.12.1950."
             },
             {
                 "class": "Liquidator",
@@ -42,7 +43,7 @@
                     "lastname": "Koch",
                     "name": "Heinz"
                 },
-                "text": " Koch , Heinz , Oberhausen , * 13.04.1947 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Koch, Heinz, Oberhausen, *13.04.1947, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

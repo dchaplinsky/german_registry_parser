@@ -19,25 +19,25 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Lietzenburger Straße 22 , 10789 Berlin Geschäftsführer : Scheding , Kai - Uwe , * 11.04.1963 , Berlin"
+                "text": " Geschäftsanschrift: Lietzenburger Straße 22, 10789 Berlin Geschäftsführer: Scheding, Kai-Uwe, *11.04.1963, Berlin"
             },
             {
                 "label": "address",
-                "text": " Lietzenburger Straße 22 , 10789 Berlin Geschäftsführer : Scheding , Kai - Uwe , * 11.04.1963 , Berlin"
+                "text": " Lietzenburger Straße 22, 10789 Berlin Geschäftsführer: Scheding, Kai-Uwe, *11.04.1963, Berlin"
             }
         ],
         "officers": [
@@ -47,17 +47,18 @@
                     "city": "Berlin",
                     "dob": "1963-11-04",
                     "lastname": "Scheding",
-                    "name": "Kai - Uwe"
+                    "name": "Kai-Uwe"
                 },
-                "text": " Scheding , Kai - Uwe , * 11.04.1963 , Berlin"
+                "text": " Scheding, Kai-Uwe, *11.04.1963, Berlin"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Schmidt",
                     "name": "Thomas"
                 },
-                "text": " Schmidt , Thomas ."
+                "text": " Schmidt, Thomas."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1967-03-11",
                     "lastname": "Knoblich",
                     "name": "Achim"
                 },
-                "text": " Knoblich , Achim , Köln , * 03.11.1967"
+                "text": " Knoblich, Achim, Köln, *03.11.1967"
             }
         ]
     }

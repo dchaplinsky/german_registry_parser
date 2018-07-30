@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -32,17 +32,18 @@
                     "lastname": "Huth",
                     "name": "Mathias"
                 },
-                "text": " Huth , Mathias , Hanau , * 19.11.1970 , einzelvertretungsberechtigt ."
+                "text": " Huth, Mathias, Hanau, *19.11.1970, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wörrstadt",
+                    "dismissed": true,
                     "lastname": "Schmand",
                     "name": "Uwe",
                     "position": "Kaufmann"
                 },
-                "text": " Schmand , Uwe , Kaufmann , Wörrstadt ."
+                "text": " Schmand, Uwe, Kaufmann, Wörrstadt."
             }
         ]
     }

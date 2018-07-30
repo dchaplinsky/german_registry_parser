@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Schöppingen",
+                    "dismissed": true,
                     "dob": "1972-01-05",
                     "lastname": "Theissing",
                     "name": "Anke"
                 },
-                "text": " Theissing , Anke , Schöppingen , * 01.05.1972 ."
+                "text": " Theissing, Anke, Schöppingen, *01.05.1972."
             }
         ]
     }

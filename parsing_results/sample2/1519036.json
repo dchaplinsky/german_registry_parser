@@ -18,34 +18,36 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Schriesheim",
+                    "dismissed": true,
                     "dob": "1967-09-29",
-                    "lastname": "Dr . Birglechner",
+                    "lastname": "Doctor Birglechner",
                     "name": "Werner"
                 },
-                "text": " Dr . Birglechner , Werner , Schriesheim , * 29.09.1967 ."
+                "text": " Doctor Birglechner, Werner, Schriesheim, *29.09.1967."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mechernich",
                     "dob": "1965-10-18",
-                    "lastname": "Prof . Dr . Lang",
+                    "lastname": "Prof. Doctor Lang",
                     "name": "Birger"
                 },
-                "text": " Prof . Dr . Lang , Birger , Mechernich , * 18.10.1965"
+                "text": " Prof. Doctor Lang, Birger, Mechernich, *18.10.1965"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Rheine",
+                    "dismissed": true,
                     "dob": "1974-08-26",
                     "lastname": "Siggemann",
                     "name": "André"
                 },
-                "text": " Siggemann , André , Rheine , * 26.08.1974 ."
+                "text": " Siggemann, André, Rheine, *26.08.1974."
             }
         ]
     }

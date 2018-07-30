@@ -18,16 +18,17 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Rheda - Wiedenbrück",
+                    "city": "Rheda-Wiedenbrück",
+                    "dismissed": true,
                     "lastname": "Gierecker",
                     "name": "Heinrich"
                 },
-                "text": " Gierecker , Heinrich , Rheda - Wiedenbrück ."
+                "text": " Gierecker, Heinrich, Rheda-Wiedenbrück."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wadersloh",
                     "dob": "1979-02-07",
@@ -35,7 +36,7 @@
                     "lastname": "Rüschenbeck",
                     "name": "Hubert"
                 },
-                "text": " Rüschenbeck , Hubert , Wadersloh , * 02.07.1979 , einzelvertretungsberechtigt ."
+                "text": " Rüschenbeck, Hubert, Wadersloh, *02.07.1979, einzelvertretungsberechtigt."
             }
         ]
     }

@@ -18,15 +18,16 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Kläber",
                     "name": "Jürgen"
                 },
-                "text": " Kläber , Jürgen ."
+                "text": " Kläber, Jürgen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Luxemburg",
                     "dob": "1953-07-21",
@@ -34,7 +35,7 @@
                     "lastname": "Nickel",
                     "name": "Harald"
                 },
-                "text": " Nickel , Harald , Luxemburg , * 21.07.1953 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Nickel, Harald, Luxemburg, *21.07.1953, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

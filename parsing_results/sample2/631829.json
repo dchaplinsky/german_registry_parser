@@ -19,40 +19,42 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Stockdorf",
                     "dob": "1966-06-29",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Stüber",
                     "name": "Michael"
                 },
-                "text": " Stüber , Michael , Stockdorf , * 29.06.1966 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Stüber, Michael, Stockdorf, *29.06.1966, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1969-09-10",
                     "lastname": "Bucksch",
-                    "name": "Marc - Oliver"
+                    "name": "Marc-Oliver"
                 },
-                "text": " Bucksch , Marc - Oliver , München , * 09.10.1969 ."
+                "text": " Bucksch, Marc-Oliver, München, *09.10.1969."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Gräfelfing",
+                    "dismissed": true,
                     "dob": "1966-06-29",
                     "lastname": "Stüber",
                     "name": "Michael"
                 },
-                "text": " Stüber , Michael , Gräfelfing , * 29.06.1966 ."
+                "text": " Stüber, Michael, Gräfelfing, *29.06.1966."
             }
         ]
     }

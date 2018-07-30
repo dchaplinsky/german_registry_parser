@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Am Hirschpark 14 , 22587 Hamburg ."
+                "text": " Am Hirschpark 14, 22587 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Eppstein",
+                    "dismissed": true,
                     "dob": "1964-10-05",
                     "lastname": "Waddington",
                     "name": "Simon"
                 },
-                "text": " Waddington , Simon , Eppstein , * 10.05.1964 ."
+                "text": " Waddington, Simon, Eppstein, *10.05.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1951-02-08",
                     "flag": "sole representation",
-                    "lastname": "Dr . Barlage",
+                    "lastname": "Doctor Barlage",
                     "name": "Tonio"
                 },
-                "text": " Dr . Barlage , Tonio , Hamburg , * 02.08.1951 , einzelvertretungsberechtigt"
+                "text": " Doctor Barlage, Tonio, Hamburg, *02.08.1951, einzelvertretungsberechtigt"
             }
         ]
     }

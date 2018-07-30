@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Rutsch 1 , 22587 Hamburg ."
+                "text": " Rutsch 1, 22587 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1938-08-05",
                     "lastname": "Behrendt",
                     "name": "Hartwig"
                 },
-                "text": " Behrendt , Hartwig , Hamburg , * 08.05.1938 ."
+                "text": " Behrendt, Hartwig, Hamburg, *08.05.1938."
             },
             {
                 "class": "ManagingDirector",
@@ -42,7 +43,7 @@
                     "lastname": "Ehrigsen",
                     "name": "Kathrin"
                 },
-                "text": " Ehrigsen , Kathrin , Hamburg , * 11.02.1966 , einzelvertretungsberechtigt"
+                "text": " Ehrigsen, Kathrin, Hamburg, *11.02.1966, einzelvertretungsberechtigt"
             }
         ]
     }

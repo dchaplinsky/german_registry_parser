@@ -19,12 +19,12 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dob": "1980-06-28",
@@ -32,27 +32,29 @@
                     "lastname": "Kreutzer",
                     "name": "Florian"
                 },
-                "text": " Kreutzer , Florian , Frankfurt am Main , * 28.06.1980 , einzelvertretungsberechtigt"
+                "text": " Kreutzer, Florian, Frankfurt am Main, *28.06.1980, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1978-09-18",
                     "lastname": "Josipovic",
                     "name": "Anto"
                 },
-                "text": " Josipovic , Anto , Frankfurt am Main , * 18.09.1978 ."
+                "text": " Josipovic, Anto, Frankfurt am Main, *18.09.1978."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1980-02-21",
                     "lastname": "Bingula",
                     "name": "Dubravko"
                 },
-                "text": " Bingula , Dubravko , Frankfurt am Main , * 21.02.1980 ."
+                "text": " Bingula, Dubravko, Frankfurt am Main, *21.02.1980."
             },
             {
                 "class": "CommonProcuration",
@@ -62,7 +64,7 @@
                     "lastname": "Josipovic",
                     "name": "Anto"
                 },
-                "text": " Josipovic , Anto , Frankfurt am Main , * 18.09.1978 ."
+                "text": " Josipovic, Anto, Frankfurt am Main, *18.09.1978."
             }
         ]
     }

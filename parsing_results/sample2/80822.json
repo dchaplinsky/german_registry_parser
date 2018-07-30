@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Nettetal",
+                    "dismissed": true,
                     "dob": "1969-10-04",
                     "lastname": "Büschgens",
                     "name": "Ulrich"
                 },
-                "text": " Büschgens , Ulrich , Nettetal , * 10.04.1969"
+                "text": " Büschgens, Ulrich, Nettetal, *10.04.1969"
             }
         ]
     }

@@ -16,10 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1035039&land_abk=nw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Mueller , Robert J . , Bouth Barrington , Illinois / Vereinigte Staaten von Amerika , * 26.07.1951, error text was Cannot parse DOB  Bouth Barrington  using regex"
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Illinois/Vereinigte Staaten von Amerika",
+                    "dismissed": true,
+                    "dob": "1951-07-26",
+                    "lastname": "Mueller",
+                    "name": "Robert J",
+                    "position": "Bouth Barrington"
+                },
+                "text": " Mueller, Robert J., Bouth Barrington, Illinois/Vereinigte Staaten von Amerika, *26.07.1951"
             }
         ]
     }

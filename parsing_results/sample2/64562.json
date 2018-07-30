@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "Single procuration",
@@ -30,18 +30,11 @@
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Lohse",
                     "name": "Julia geborene Hartung"
                 },
-                "text": " Lohse , Julia geborene Hartung"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Nicht mehr Prokurist : Lohse",
-                    "name": "Julia geborene Hartung"
-                },
-                "text": " Nicht mehr Prokurist : Lohse , Julia geborene Hartung"
+                "text": " Lohse, Julia geborene Hartung"
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Liquidator",
+                "class": "NotALiquidator",
                 "payload": {
                     "city": "Bad Laasphe",
+                    "dismissed": true,
                     "dob": "1965-08-12",
-                    "lastname": "Hauk",
+                    "lastname": ": Hauk",
                     "name": "Thomas Ulrich"
                 },
-                "text": " Hauk , Thomas Ulrich , Bad Laasphe , * 08.12.1965 ."
+                "text": ": Hauk, Thomas Ulrich, Bad Laasphe, *08.12.1965."
             },
             {
                 "class": "ManagingDirector",
@@ -36,7 +37,7 @@
                     "lastname": "Hauk",
                     "name": "Thomas Ulrich"
                 },
-                "text": " Hauk , Thomas Ulrich , Bad Laasphe , * 08.12.1965 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Hauk, Thomas Ulrich, Bad Laasphe, *08.12.1965, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

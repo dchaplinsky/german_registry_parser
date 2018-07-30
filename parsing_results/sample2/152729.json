@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Meine",
+                    "dismissed": true,
                     "dob": "1969-08-10",
                     "lastname": "Sonnenmoser",
                     "name": "Karin"
                 },
-                "text": " Sonnenmoser , Karin , Meine , * 08.10.1969 ."
+                "text": " Sonnenmoser, Karin, Meine, *08.10.1969."
             }
         ]
     }

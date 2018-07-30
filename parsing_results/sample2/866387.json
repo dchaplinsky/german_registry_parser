@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=866387&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Kötter",
                     "name": "Thomas"
                 },
-                "text": " Kötter , Thomas , Bielefeld , * 23.05.1963"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Bielefeld",
-                    "dob": "1963-05-23",
-                    "lastname": "Kötter",
-                    "name": "Thomas"
-                },
-                "text": " Kötter , Thomas , Bielefeld , * 23.05.1963"
+                "text": " Kötter, Thomas, Bielefeld, *23.05.1963"
             }
         ]
     }

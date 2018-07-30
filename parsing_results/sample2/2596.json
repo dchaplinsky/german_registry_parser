@@ -19,23 +19,36 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Bosse , Peter , Elektroingenieur , Falkensee , * 22.05.1966 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen ., error text was Cannot parse DOB  Elektroingenieur  using regex"
+                "text": "Cannot parse a AppointedManagingDirector from  Bosse, Peter, Elektroingenieur, Falkensee, *22.05.1966, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen., error text was Cannot parse DOB  Elektroingenieur using regex"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Bosse , Peter , Elektroingenieur , Falkensee , * 22.05.1966 ., error text was Cannot parse DOB  Elektroingenieur  using regex"
+                "text": "Cannot parse a ManagingDirector from  Bosse, Peter, Elektroingenieur, Falkensee, *22.05.1966, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen., error text was Cannot parse DOB  Elektroingenieur using regex"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bad Bentheim",
+                    "dismissed": true,
                     "dob": "1936-05-21",
                     "lastname": "Sawatzki",
                     "name": "Rolf"
                 },
-                "text": " Sawatzki , Rolf , Bad Bentheim , * 21.05.1936 ."
+                "text": " Sawatzki, Rolf, Bad Bentheim, *21.05.1936."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Falkensee",
+                    "dismissed": true,
+                    "dob": "1966-05-22",
+                    "lastname": "Bosse",
+                    "name": "Peter",
+                    "position": "Elektroingenieur"
+                },
+                "text": " Bosse, Peter, Elektroingenieur, Falkensee, *22.05.1966."
             }
         ]
     }

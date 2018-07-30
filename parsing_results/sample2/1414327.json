@@ -18,22 +18,22 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " c / o Marccus Rechtsanwaltsgesellschaft mbH , Königsallee 60 C , 40212 Düsseldorf ."
+                "text": " c/o Marccus Rechtsanwaltsgesellschaft mbH, Königsallee 60C, 40212 Düsseldorf."
             }
         ],
         "officers": [
@@ -45,28 +45,28 @@
                     "lastname": "Loh",
                     "name": "Simon Markus"
                 },
-                "text": " Loh , Simon Markus , Oberstenfeld , * 17.07.1981 ."
+                "text": " Loh, Simon Markus, Oberstenfeld, *17.07.1981."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Herborn",
                     "dob": "1976-06-23",
                     "lastname": "Loh",
                     "name": "Frank Michael"
                 },
-                "text": " Loh , Frank Michael , Herborn , * 23.06.1976 ."
+                "text": " Loh, Frank Michael, Herborn, *23.06.1976."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dietzhölztal",
                     "dob": "1946-08-16",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Dr . Loh",
+                    "lastname": "Doctor Loh",
                     "name": "Friedhelm"
                 },
-                "text": " Dr . Loh , Friedhelm , Dietzhölztal , * 16.08.1946 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Loh, Friedhelm, Dietzhölztal, *16.08.1946, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

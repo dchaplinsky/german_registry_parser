@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Feldkirchen",
                     "dob": "1967-04-02",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Dr . Beck",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Doctor Beck",
                     "name": "Martin"
                 },
-                "text": " Dr . Beck , Martin , Feldkirchen , * 04.02.1967 , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Beck, Martin, Feldkirchen, *04.02.1967, mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1969-07-06",
                     "lastname": "Lotz",
                     "name": "Nicole"
                 },
-                "text": " Lotz , Nicole , München , * 07.06.1969 ."
+                "text": " Lotz, Nicole, München, *07.06.1969."
             }
         ]
     }

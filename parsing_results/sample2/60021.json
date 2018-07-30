@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Garrel",
+                    "dismissed": true,
                     "dob": "1967-06-02",
                     "lastname": "Fragge",
                     "name": "Andreas"
                 },
-                "text": " Fragge , Andreas , Garrel , * 06.02.1967 ."
+                "text": " Fragge, Andreas, Garrel, *06.02.1967."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Cloppenburg",
                     "dob": "1968-07-19",
@@ -42,7 +43,7 @@
                     "lastname": "Kartal",
                     "name": "Halis"
                 },
-                "text": " Kartal , Halis , Cloppenburg , * 19.07.1968 , einzelvertretungsberechtigt"
+                "text": " Kartal, Halis, Cloppenburg, *19.07.1968, einzelvertretungsberechtigt"
             }
         ]
     }

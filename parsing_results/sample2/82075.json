@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=82075&land_abk=mv"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Grünke",
                     "name": "David"
                 },
-                "text": " Grünke , David , Rostock , * 29.06.1990 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Rostock",
-                    "dob": "1990-06-29",
-                    "lastname": "Grünke",
-                    "name": "David"
-                },
-                "text": " Grünke , David , Rostock , * 29.06.1990 ."
+                "text": " Grünke, David, Rostock, *29.06.1990."
             }
         ]
     }

@@ -16,10 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1165845&land_abk=by"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ProcurationCancelled from  Kirkoyun , Ersal , Vize , Kirklareli / Türkei , * 18.10.1988 ., error text was Cannot parse DOB  Vize  using regex"
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Kirklareli / Türkei",
+                    "dismissed": true,
+                    "dob": "1988-10-18",
+                    "lastname": "Kirkoyun",
+                    "name": "Ersal",
+                    "position": "Vize"
+                },
+                "text": " Kirkoyun, Ersal, Vize, Kirklareli / Türkei, *18.10.1988."
             }
         ]
     }

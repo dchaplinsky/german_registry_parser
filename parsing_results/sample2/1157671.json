@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Dortmund",
+                    "dismissed": true,
                     "dob": "1967-06-15",
                     "lastname": "Gröne",
                     "name": "Wilhelm Manfred"
                 },
-                "text": " Gröne , Wilhelm Manfred , Dortmund , * 15.06.1967 ."
+                "text": " Gröne, Wilhelm Manfred, Dortmund, *15.06.1967."
             }
         ]
     }

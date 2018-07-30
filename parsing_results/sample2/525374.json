@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Oberer Graben 27 , 86152 Augsburg ."
+                "text": " Oberer Graben 27, 86152 Augsburg."
             }
         ],
         "officers": [
@@ -31,17 +31,18 @@
                     "lastname": "Hubmann",
                     "name": "Michael"
                 },
-                "text": " Hubmann , Michael , Augsburg , * 10.12.1978 ."
+                "text": " Hubmann, Michael, Augsburg, *10.12.1978."
             },
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Aystetten",
+                    "dismissed": true,
                     "dob": "1952-01-03",
                     "lastname": "Nendse",
                     "name": "Arthur"
                 },
-                "text": " Nendse , Arthur , Aystetten , * 01.03.1952 ."
+                "text": " Nendse, Arthur, Aystetten, *01.03.1952."
             }
         ]
     }

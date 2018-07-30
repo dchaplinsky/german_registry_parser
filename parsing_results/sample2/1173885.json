@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Mannheim",
+                    "dismissed": true,
                     "dob": "1966-02-09",
                     "lastname": "Schneider",
                     "name": "Birgit"
                 },
-                "text": " Schneider , Birgit , Mannheim , * 02.09.1966 ."
+                "text": " Schneider, Birgit, Mannheim, *02.09.1966."
             }
         ]
     }

@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Zur Pannhütt 64 , 45731 Waltrop ."
+                "text": " Zur Pannhütt 64, 45731 Waltrop."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Oelde",
+                    "dismissed": true,
                     "dob": "1971-07-01",
                     "lastname": "Steinhoff",
                     "name": "Volker"
                 },
-                "text": " Steinhoff , Volker , Oelde , * 07.01.1971 ."
+                "text": " Steinhoff, Volker, Oelde, *07.01.1971."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Ascheberg",
                     "dob": "1948-06-03",
@@ -42,7 +43,7 @@
                     "lastname": "Wismann",
                     "name": "Theodor"
                 },
-                "text": " Wismann , Theodor , Ascheberg , * 06.03.1948 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Wismann, Theodor, Ascheberg, *06.03.1948, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

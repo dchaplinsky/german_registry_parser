@@ -19,29 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Bojens",
                     "name": "Holger"
                 },
-                "text": " Bojens , Holger"
+                "text": " Bojens, Holger"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Bojens",
                     "name": "Hannelore"
                 },
-                "text": " Bojens , Hannelore"
+                "text": " Bojens, Hannelore"
             },
             {
                 "class": "ManagingDirector",
@@ -51,17 +53,17 @@
                     "lastname": "Bojens",
                     "name": "Florian"
                 },
-                "text": " Bojens , Florian , * 06.05.1980 , Lübeck"
+                "text": " Bojens, Florian, *06.05.1980, Lübeck"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Offenbach a . M",
+                    "city": "Offenbach a.M",
                     "dob": "1976-07-19",
                     "lastname": "Lütgens",
                     "name": "Marcus"
                 },
-                "text": " Lütgens , Marcus , * 19.07.1976 , Offenbach a . M ."
+                "text": " Lütgens, Marcus, *19.07.1976, Offenbach a.M."
             }
         ]
     }

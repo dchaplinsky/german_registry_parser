@@ -19,13 +19,25 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Hessenstraße 25 , 65719 Hofheim / Taunus ."
+                "text": " Hessenstraße 25, 65719 Hofheim/Taunus."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Dietingen",
+                    "dob": "1959-02-07",
+                    "lastname": "in: Gutheil",
+                    "name": "Doris"
+                },
+                "text": "in: Gutheil, Doris, Dietingen, *02.07.1959."
             }
         ]
     }

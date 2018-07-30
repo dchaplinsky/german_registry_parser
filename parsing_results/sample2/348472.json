@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bad Homburg",
+                    "dismissed": true,
                     "dob": "1967-04-27",
                     "lastname": "Nagel",
                     "name": "Frank"
                 },
-                "text": " Nagel , Frank , Bad Homburg , * 27.04.1967 ."
+                "text": " Nagel, Frank, Bad Homburg, *27.04.1967."
             }
         ]
     }

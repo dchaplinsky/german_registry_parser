@@ -18,39 +18,35 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Engelhardstraße 10 , c / o Hansen , Dannie , 81369 München ."
+                "text": " Engelhardstraße 10, c/o Hansen, Dannie, 81369 München."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Aalborg SV / Dänemark",
+                    "city": "Aalborg SV/Dänemark",
                     "dob": "1967-01-23",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Hansen",
                     "name": "Lars Ernst"
                 },
-                "text": " Hansen , Lars Ernst , Aalborg SV / Dänemark , * 23.01.1967 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Hansen, Lars Ernst, Aalborg SV/Dänemark, *23.01.1967, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",
@@ -60,17 +56,7 @@
                     "lastname": "Hansen",
                     "name": "Dannie"
                 },
-                "text": " Hansen , Dannie , München , * 26.08.1989 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "München",
-                    "dob": "1989-08-26",
-                    "lastname": "Hansen",
-                    "name": "Dannie"
-                },
-                "text": " Hansen , Dannie , München , * 26.08.1989 ."
+                "text": " Hansen, Dannie, München, *26.08.1989."
             }
         ]
     }

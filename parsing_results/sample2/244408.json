@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Neuberg",
+                    "dismissed": true,
                     "dob": "1956-03-13",
                     "lastname": "Proba",
                     "name": "Hubert"
                 },
-                "text": " Proba , Hubert , Neuberg , * 13.03.1956 ."
+                "text": " Proba, Hubert, Neuberg, *13.03.1956."
             }
         ]
     }

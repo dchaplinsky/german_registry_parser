@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Bahnhofstr ."
+                "text": " Bahnhofstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bad Essen",
+                    "dismissed": true,
                     "lastname": "Ellmer",
                     "name": "Hartmut",
-                    "position": "Diplom - Sozialarbeiter"
+                    "position": "Diplom-Sozialarbeiter"
                 },
-                "text": " Ellmer , Hartmut , Diplom - Sozialarbeiter , Bad Essen ."
+                "text": " Ellmer, Hartmut, Diplom-Sozialarbeiter, Bad Essen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bad Essen",
                     "dob": "1971-11-26",
@@ -42,17 +43,18 @@
                     "lastname": "Ellmer",
                     "name": "Tim"
                 },
-                "text": " Ellmer , Tim , Bad Essen , * 26.11.1971 , einzelvertretungsberechtigt ."
+                "text": " Ellmer, Tim, Bad Essen, *26.11.1971, einzelvertretungsberechtigt."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Bad Essen",
+                    "dismissed": true,
                     "dob": "1971-11-26",
                     "lastname": "Ellmer",
                     "name": "Tim"
                 },
-                "text": " Ellmer , Tim , Bad Essen , * 26.11.1971 ."
+                "text": " Ellmer, Tim, Bad Essen, *26.11.1971."
             }
         ]
     }

@@ -16,27 +16,48 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=648549&land_abk=nw"
     },
     "parsed": {
+        "flags": [
+            {
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
+            },
+            {
+                "flag": "If only one managing director is appointed, he represents the company alone.",
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
+            },
+            {
+                "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " kaiser-friedrich-allee 24, 52074 aachen."
+            }
+        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "raeren / belgien",
+                    "city": "raeren/belgien",
                     "dob": "1978-05-06",
                     "flag": "einzelvertretungsberechtigt mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen",
                     "lastname": "thylmann",
                     "name": "fabian"
                 },
-                "text": " thylmann , fabian , raeren / belgien , * 05.06.1978 , einzelvertretungsberechtigt mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen ."
+                "text": " thylmann, fabian, raeren/belgien, *05.06.1978, einzelvertretungsberechtigt mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "bad sachsa",
+                    "dismissed": true,
                     "dob": "1973-04-20",
                     "lastname": "fuchs",
                     "name": "corinna"
                 },
-                "text": " fuchs , corinna , bad sachsa , * 20.04.1973 ."
+                "text": " fuchs, corinna, bad sachsa, *20.04.1973."
             }
         ]
     }

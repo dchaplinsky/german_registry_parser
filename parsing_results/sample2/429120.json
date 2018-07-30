@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Dammstr ."
+                "text": " Dammstr."
             }
         ],
         "officers": [
@@ -29,20 +29,21 @@
                     "city": "Ratingen",
                     "dob": "1963-08-21",
                     "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Dr . Bruch",
+                    "lastname": "Doctor Bruch",
                     "name": "Karl Hermann"
                 },
-                "text": " Dr . Bruch , Karl Hermann , Ratingen , * 21.08.1963 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Bruch, Karl Hermann, Ratingen, *21.08.1963, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Lünen",
+                    "dismissed": true,
                     "dob": "1952-01-29",
                     "lastname": "Schulz",
                     "name": "Dagmar"
                 },
-                "text": " Schulz , Dagmar , Lünen , * 29.01.1952 ."
+                "text": " Schulz, Dagmar, Lünen, *29.01.1952."
             }
         ]
     }

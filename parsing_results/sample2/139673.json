@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Osburg",
+                    "dismissed": true,
                     "dob": "1945-10-04",
-                    "lastname": "Wulfes - Riewer",
+                    "lastname": "Wulfes-Riewer",
                     "name": "Karin"
                 },
-                "text": " Wulfes - Riewer , Karin , Osburg , * 10.04.1945 ."
+                "text": " Wulfes-Riewer, Karin, Osburg, *10.04.1945."
             },
             {
                 "class": "Liquidator",
@@ -41,7 +42,7 @@
                     "lastname": "Riewer",
                     "name": "Manfred"
                 },
-                "text": " Riewer , Manfred , Osburg , * 21.06.1942 ."
+                "text": " Riewer, Manfred, Osburg, *21.06.1942."
             }
         ]
     }

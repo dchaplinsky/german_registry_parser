@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=18383&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Hartmann",
                     "name": "Thomas"
                 },
-                "text": " Hartmann , Thomas , München , * 09.03.1965 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "München",
-                    "dob": "1965-09-03",
-                    "lastname": "Hartmann",
-                    "name": "Thomas"
-                },
-                "text": " Hartmann , Thomas , München , * 09.03.1965 ."
+                "text": " Hartmann, Thomas, München, *09.03.1965."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bochum",
+                    "dismissed": true,
                     "dob": "1971-08-17",
                     "lastname": "Zohari",
                     "name": "Worna"
                 },
-                "text": " Zohari , Worna , Bochum , * 17.08.1971 ."
+                "text": " Zohari, Worna, Bochum, *17.08.1971."
             },
             {
                 "class": "ManagingDirector",
@@ -36,7 +37,7 @@
                     "lastname": "de Greiff",
                     "name": "Stefan"
                 },
-                "text": " de Greiff , Stefan , Taunusstein , * 03.09.1975 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " de Greiff, Stefan, Taunusstein, *03.09.1975, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Lamspringe",
+                    "dismissed": true,
                     "dob": "1956-08-04",
                     "lastname": "Bode",
-                    "name": "Karl - Joachim"
+                    "name": "Karl-Joachim"
                 },
-                "text": " Bode , Karl - Joachim , Lamspringe , * 08.04.1956 ."
+                "text": " Bode, Karl-Joachim, Lamspringe, *08.04.1956."
             }
         ]
     }

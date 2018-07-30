@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Tirschenreuth",
+                    "dismissed": true,
                     "lastname": "Friedl",
                     "name": "Thomas",
                     "position": "Techniker"
                 },
-                "text": " Friedl , Thomas , Techniker , Tirschenreuth ."
+                "text": " Friedl, Thomas, Techniker, Tirschenreuth."
             }
         ]
     }

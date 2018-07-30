@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "Single procuration",
@@ -28,12 +28,13 @@
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Barth",
                     "name": "Patrick"
                 },
-                "text": " Barth , Patrick"
+                "text": " Barth, Patrick"
             },
             {
                 "class": "Procuration",
@@ -43,7 +44,7 @@
                     "lastname": "Barth",
                     "name": "Patrick"
                 },
-                "text": " Barth , Patrick , * 10.05.1984 , Groß Kreutz"
+                "text": " Barth, Patrick, *10.05.1984, Groß Kreutz"
             }
         ]
     }

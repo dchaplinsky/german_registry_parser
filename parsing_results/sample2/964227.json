@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -28,21 +28,22 @@
                 "payload": {
                     "city": "München",
                     "dob": "1967-06-29",
-                    "flag": "einzelvertretungsberechtigt  solange er alleiniger Liquidator ist",
-                    "lastname": "Begemann",
+                    "flag": "einzelvertretungsberechtigt solange er alleiniger Liquidator ist",
+                    "lastname": ": Begemann",
                     "name": "Stefan"
                 },
-                "text": " Begemann , Stefan , München , * 29.06.1967 , einzelvertretungsberechtigt , solange er alleiniger Liquidator ist ."
+                "text": ": Begemann, Stefan, München, *29.06.1967, einzelvertretungsberechtigt, solange er alleiniger Liquidator ist."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1965-03-26",
                     "lastname": "Epple",
                     "name": "Jörg"
                 },
-                "text": " Epple , Jörg , München , * 26.03.1965 ."
+                "text": " Epple, Jörg, München, *26.03.1965."
             }
         ]
     }

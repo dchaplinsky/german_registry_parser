@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Zell",
+                    "dismissed": true,
                     "dob": "1960-01-24",
                     "lastname": "Karls",
                     "name": "Paul Wilfried"
                 },
-                "text": " Karls , Paul Wilfried , Zell , * 24.01.1960 ."
+                "text": " Karls, Paul Wilfried, Zell, *24.01.1960."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Trier",
                     "dob": "1980-05-11",
@@ -36,7 +37,7 @@
                     "lastname": "Eping",
                     "name": "Hendrik"
                 },
-                "text": " Eping , Hendrik , Trier , * 05.11.1980 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Eping, Hendrik, Trier, *05.11.1980, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

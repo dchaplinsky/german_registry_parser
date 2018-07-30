@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Kamp - Lintfort",
+                    "city": "Kamp-Lintfort",
                     "dob": "1959-09-09",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Lehmbrock",
                     "name": "Heinrich - genannt Heiner -"
                 },
-                "text": " Lehmbrock , Heinrich - genannt Heiner - , Kamp - Lintfort , * 09.09.1959 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Lehmbrock, Heinrich - genannt Heiner -, Kamp-Lintfort, *09.09.1959, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rheinberg",
+                    "dismissed": true,
                     "dob": "1961-07-07",
                     "lastname": "Cornelißen",
                     "name": "Eckhardt"
                 },
-                "text": " Cornelißen , Eckhardt , Rheinberg , * 07.07.1961 ."
+                "text": " Cornelißen, Eckhardt, Rheinberg, *07.07.1961."
             }
         ]
     }

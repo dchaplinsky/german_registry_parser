@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Oldenburg",
+                    "dismissed": true,
                     "dob": "1969-05-05",
                     "lastname": "Forch",
                     "name": "Peter"
                 },
-                "text": " Forch , Peter , Oldenburg , * 05.05.1969 ."
+                "text": " Forch, Peter, Oldenburg, *05.05.1969."
             }
         ]
     }

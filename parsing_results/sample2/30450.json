@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Illingen",
+                    "dismissed": true,
                     "dob": "1980-01-03",
                     "lastname": "Mertes",
                     "name": "Nicole"
                 },
-                "text": " Mertes , Nicole , Illingen , * 01.03.1980 ."
+                "text": " Mertes, Nicole, Illingen, *01.03.1980."
             }
         ]
     }

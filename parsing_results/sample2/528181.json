@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Haibach",
+                    "dismissed": true,
                     "dob": "1957-11-07",
                     "lastname": "Schultes",
                     "name": "Armin"
                 },
-                "text": " Schultes , Armin , Haibach , * 11.07.1957 ."
+                "text": " Schultes, Armin, Haibach, *11.07.1957."
             }
         ]
     }

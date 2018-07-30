@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Siegburg",
+                    "dismissed": true,
                     "dob": "1952-10-20",
                     "lastname": "Klopsch",
                     "name": "Lothar"
                 },
-                "text": " Klopsch , Lothar , Siegburg , * 20.10.1952"
+                "text": " Klopsch, Lothar, Siegburg, *20.10.1952"
             }
         ]
     }

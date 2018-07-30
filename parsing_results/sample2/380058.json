@@ -19,43 +19,44 @@
         "flags": [
             {
                 "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
-                "text": "Sind mehrere Liquidatoren bestellt , wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten ."
+                "text": "Sind\\ mehrere\\ Liquidatoren\\ bestellt\\,\\ wird\\ die\\ Gesellschaft\\ durch\\ s\\ämtliche\\ Liquidatoren\\ gemeinsam\\ vertreten\\."
             },
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Musical Tommy GmbH , Berlin , Am Anger 1 , 14959 Trebbin OT Großbeuthen ."
+                "text": " Musical Tommy GmbH, Berlin, Am Anger 1, 14959 Trebbin OT Großbeuthen."
             },
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Am Anger 1 , 14959 Trebbin OT Großbeuthen"
+                "text": " Geschäftsanschrift: Am Anger 1, 14959 Trebbin OT Großbeuthen"
             },
             {
                 "label": "address",
-                "text": " Am Anger 1 , 14959 Trebbin OT Großbeuthen"
+                "text": " Am Anger 1, 14959 Trebbin OT Großbeuthen"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Lenny",
                     "name": "James Patrick"
                 },
-                "text": " Lenny , James Patrick"
+                "text": " Lenny, James Patrick"
             },
             {
                 "class": "Liquidator",
@@ -65,23 +66,16 @@
                     "lastname": "Rosseburg",
                     "name": "Joachim"
                 },
-                "text": " Rosseburg , Joachim , * 29.03.1947 , Trebbin OT Großbeuthen"
+                "text": " Rosseburg, Joachim, *29.03.1947, Trebbin OT Großbeuthen"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Bäßler",
                     "name": "Claudia Marion"
                 },
-                "text": " Bäßler , Claudia Marion"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Nicht mehr Prokurist : Bäßler",
-                    "name": "Claudia Marion"
-                },
-                "text": " Nicht mehr Prokurist : Bäßler , Claudia Marion"
+                "text": " Bäßler, Claudia Marion"
             }
         ]
     }

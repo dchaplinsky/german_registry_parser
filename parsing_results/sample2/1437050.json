@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Krefeld",
+                    "dismissed": true,
                     "dob": "1965-06-10",
                     "lastname": "Sahin",
                     "name": "Hasan"
                 },
-                "text": " Sahin , Hasan , Krefeld , * 06.10.1965 ."
+                "text": " Sahin, Hasan, Krefeld, *06.10.1965."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Krefeld",
                     "dob": "1991-02-02",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Uzgeldi",
-                    "name": "David - Ahmet"
+                    "name": "David-Ahmet"
                 },
-                "text": " Uzgeldi , David - Ahmet , Krefeld , * 02.02.1991 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Uzgeldi, David-Ahmet, Krefeld, *02.02.1991, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

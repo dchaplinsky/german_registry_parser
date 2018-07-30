@@ -19,21 +19,22 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "van Leeuwen",
                     "name": "Rüdiger"
                 },
-                "text": " van Leeuwen , Rüdiger"
+                "text": " van Leeuwen, Rüdiger"
             },
             {
                 "class": "ManagingDirector",
@@ -43,7 +44,7 @@
                     "lastname": "Peya",
                     "name": "Ralph"
                 },
-                "text": " Peya , Ralph , * 06.03.1975 , Siegen"
+                "text": " Peya, Ralph, *06.03.1975, Siegen"
             }
         ]
     }

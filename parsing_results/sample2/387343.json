@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Brunsteinstraße 32 , 44789 Bochum ."
+                "text": " Brunsteinstraße 32, 44789 Bochum."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Essen",
+                    "dismissed": true,
                     "dob": "1962-10-12",
                     "lastname": "Lümmen",
                     "name": "Bernhard"
                 },
-                "text": " Lümmen , Bernhard , Essen , * 10.12.1962 ."
+                "text": " Lümmen, Bernhard, Essen, *10.12.1962."
             }
         ]
     }

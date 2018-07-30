@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Dauer",
                     "name": "Axel"
                 },
-                "text": " Dauer , Axel"
+                "text": " Dauer, Axel"
             },
             {
                 "class": "ManagingDirector",
@@ -33,7 +34,7 @@
                     "lastname": "Schnell",
                     "name": "Detlef"
                 },
-                "text": " Schnell , Detlef , * 30.03.1950 , Düsseldorf ."
+                "text": " Schnell, Detlef, *30.03.1950, Düsseldorf."
             },
             {
                 "class": "Procuration",
@@ -43,7 +44,7 @@
                     "lastname": "Hue",
                     "name": "Helmut"
                 },
-                "text": " Hue , Helmut , * 11.12.1948 , Brüggen"
+                "text": " Hue, Helmut, *11.12.1948, Brüggen"
             }
         ]
     }

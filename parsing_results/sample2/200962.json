@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bonn",
+                    "dismissed": true,
                     "lastname": "Knobloch",
                     "name": "Bodo",
                     "position": "Kaufmann"
                 },
-                "text": " Knobloch , Bodo , Kaufmann , Bonn ."
+                "text": " Knobloch, Bodo, Kaufmann, Bonn."
             }
         ]
     }

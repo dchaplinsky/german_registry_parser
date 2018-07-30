@@ -19,21 +19,21 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "PersonalPartner",
                 "payload": {
-                    "lastname": "Nicht mehr persönlich haftender Gesellschafter : Fink",
+                    "lastname": "Fink",
                     "name": "Helmut Otto"
                 },
-                "text": " Nicht mehr persönlich haftender Gesellschafter : Fink , Helmut Otto"
+                "text": " Fink, Helmut Otto"
             },
             {
                 "class": "PersonalPartner",
@@ -43,7 +43,7 @@
                     "lastname": "Kuzuoglu",
                     "name": "Sevinc"
                 },
-                "text": " Kuzuoglu , Sevinc , * 06.11.1981 , Berlin"
+                "text": " Kuzuoglu, Sevinc, *06.11.1981, Berlin"
             }
         ]
     }

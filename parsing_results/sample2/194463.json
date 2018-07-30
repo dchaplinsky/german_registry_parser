@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=194463&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Schramm",
                     "name": "Maria"
                 },
-                "text": " Schramm , Maria , Bad Endorf , * 31.08.1960 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Bad Endorf",
-                    "dob": "1960-08-31",
-                    "lastname": "Schramm",
-                    "name": "Maria"
-                },
-                "text": " Schramm , Maria , Bad Endorf , * 31.08.1960 ."
+                "text": " Schramm, Maria, Bad Endorf, *31.08.1960."
             }
         ]
     }

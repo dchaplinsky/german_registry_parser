@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Penzberg",
+                    "dismissed": true,
                     "dob": "1964-01-19",
                     "lastname": "Trautmann",
                     "name": "Martin"
                 },
-                "text": " Trautmann , Martin , Penzberg , * 19.01.1964 ."
+                "text": " Trautmann, Martin, Penzberg, *19.01.1964."
             }
         ]
     }

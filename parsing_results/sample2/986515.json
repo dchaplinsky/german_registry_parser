@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Allnerhof 1 , 53773 Hennef ."
+                "text": " Allnerhof 1, 53773 Hennef."
             }
         ],
         "officers": [
@@ -29,20 +29,21 @@
                     "city": "Wallerfangen",
                     "dob": "1973-06-01",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Dr . Krutisch",
+                    "lastname": "Doctor Krutisch",
                     "name": "Dominic"
                 },
-                "text": " Dr . Krutisch , Dominic , Wallerfangen , * 06.01.1973 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Krutisch, Dominic, Wallerfangen, *06.01.1973, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Sankt Augustin",
+                    "dismissed": true,
                     "dob": "1963-07-31",
-                    "lastname": "Seitz - Friedrich",
+                    "lastname": "Seitz-Friedrich",
                     "name": "Heike"
                 },
-                "text": " Seitz - Friedrich , Heike , Sankt Augustin , * 31.07.1963 ."
+                "text": " Seitz-Friedrich, Heike, Sankt Augustin, *31.07.1963."
             }
         ]
     }

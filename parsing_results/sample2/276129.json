@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=276129&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Wittbrodt",
                     "name": "Jens"
                 },
-                "text": " Wittbrodt , Jens , Lengerich , * 10.02.1977 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Lengerich",
-                    "dob": "1977-10-02",
-                    "lastname": "Wittbrodt",
-                    "name": "Jens"
-                },
-                "text": " Wittbrodt , Jens , Lengerich , * 10.02.1977 ."
+                "text": " Wittbrodt, Jens, Lengerich, *10.02.1977."
             }
         ]
     }

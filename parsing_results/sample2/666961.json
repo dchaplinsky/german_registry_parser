@@ -16,15 +16,9 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=666961&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Bovenschulte , Peter , Rechtsanwalt , Lengerich , * 10.01.1965 ., error text was Cannot parse DOB  Rechtsanwalt  using regex"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rheine",
                     "dob": "1957-03-19",
@@ -32,7 +26,19 @@
                     "lastname": "Brinkmann",
                     "name": "Manfred"
                 },
-                "text": " Brinkmann , Manfred , Rheine , * 19.03.1957 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Brinkmann, Manfred, Rheine, *19.03.1957, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Lengerich",
+                    "dismissed": true,
+                    "dob": "1965-10-01",
+                    "lastname": "Bovenschulte",
+                    "name": "Peter",
+                    "position": "Rechtsanwalt"
+                },
+                "text": " Bovenschulte, Peter, Rechtsanwalt, Lengerich, *10.01.1965."
             }
         ]
     }

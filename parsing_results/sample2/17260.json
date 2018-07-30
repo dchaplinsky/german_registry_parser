@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Karlsruhe",
+                    "dismissed": true,
                     "dob": "1950-10-19",
                     "lastname": "Mirali",
                     "name": "Ruben"
                 },
-                "text": " Mirali , Ruben , Karlsruhe , * 19.10.1950"
+                "text": " Mirali, Ruben, Karlsruhe, *19.10.1950"
             },
             {
                 "class": "PersonalPartner",
@@ -36,7 +37,7 @@
                     "lastname": "Kronewald",
                     "name": "Viktor"
                 },
-                "text": " Kronewald , Viktor , Bad Mergentheim , * 16.06.1962 , vertretungsberechtigt gemeinsam mit einem anderen persönlich haftenden Gesellschafter ."
+                "text": " Kronewald, Viktor, Bad Mergentheim, *16.06.1962, vertretungsberechtigt gemeinsam mit einem anderen persönlich haftenden Gesellschafter."
             }
         ]
     }

@@ -16,32 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=443288&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
                 "payload": {
-                    "city": "Kirchheim - Frielingen",
+                    "city": "Kirchheim-Frielingen",
                     "dob": "1983-07-14",
                     "lastname": "Hess",
                     "name": "Dennis"
                 },
-                "text": " Hess , Dennis , Kirchheim - Frielingen , * 14.07.1983 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Kirchheim - Frielingen",
-                    "dob": "1983-07-14",
-                    "lastname": "Hess",
-                    "name": "Dennis"
-                },
-                "text": " Hess , Dennis , Kirchheim - Frielingen , * 14.07.1983 ."
+                "text": " Hess, Dennis, Kirchheim-Frielingen, *14.07.1983."
             }
         ]
     }

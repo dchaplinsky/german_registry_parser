@@ -19,17 +19,18 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Langenstraße 2-4 , 28195 Bremen ."
+                "text": " Langenstraße 2-4, 28195 Bremen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Krausen",
                     "name": "Torsten"
                 },
-                "text": " Krausen , Torsten ."
+                "text": " Krausen, Torsten."
             },
             {
                 "class": "ManagingDirector",
@@ -39,7 +40,7 @@
                     "lastname": "Bauer",
                     "name": "Gerd"
                 },
-                "text": " Bauer , Gerd , * 07.01.1963 , Bremen"
+                "text": " Bauer, Gerd, *07.01.1963, Bremen"
             }
         ]
     }

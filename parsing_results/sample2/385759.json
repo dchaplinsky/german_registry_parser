@@ -16,22 +16,29 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=385759&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Schröder , Ulrich , Speditionskaufmann , Warstein , * 28.05.1966 ., error text was Cannot parse DOB  Speditionskaufmann  using regex"
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " St . Barbara Str ."
+                "text": " St. Barbara Str."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Warstein",
+                    "dob": "1966-05-28",
+                    "lastname": "Schröder",
+                    "name": "Ulrich",
+                    "position": "Speditionskaufmann"
+                },
+                "text": " Schröder, Ulrich, Speditionskaufmann, Warstein, *28.05.1966."
             }
         ]
     }

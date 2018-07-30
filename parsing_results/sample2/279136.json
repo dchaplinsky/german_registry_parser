@@ -19,35 +19,36 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Festus Licensing UG ( haftungsbeschränkt ) , Berlin , Hausvogteiplatz 11 , 10117 Berlin ."
+                "text": " Festus Licensing UG (haftungsbeschränkt), Berlin, Hausvogteiplatz 11, 10117 Berlin."
             },
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Hausvogteiplatz 11 , 10117 Berlin"
+                "text": " Geschäftsanschrift: Hausvogteiplatz 11, 10117 Berlin"
             },
             {
                 "label": "address",
-                "text": " Hausvogteiplatz 11 , 10117 Berlin"
+                "text": " Hausvogteiplatz 11, 10117 Berlin"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Kühn",
                     "name": "Benjamin"
                 },
-                "text": " Kühn , Benjamin"
+                "text": " Kühn, Benjamin"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Neftenbach / Schweiz",
+                    "city": "Neftenbach/Schweiz",
                     "dob": "1964-04-05",
                     "lastname": "Klier",
                     "name": "Helmut"
                 },
-                "text": " Klier , Helmut , * 04.05.1964 , Neftenbach / Schweiz"
+                "text": " Klier, Helmut, *04.05.1964, Neftenbach/Schweiz"
             }
         ]
     }

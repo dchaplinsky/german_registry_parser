@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Brückenweg 3 , 84130 Dingolfing ."
+                "text": " Brückenweg 3, 84130 Dingolfing."
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Dingolfing",
+                    "dismissed": true,
                     "dob": "1928-03-24",
                     "lastname": "Egger",
                     "name": "Johann"
                 },
-                "text": " Egger , Johann , Dingolfing , * 24.03.1928 ."
+                "text": " Egger, Johann, Dingolfing, *24.03.1928."
             },
             {
                 "class": "Owner",
@@ -41,7 +42,7 @@
                     "lastname": "Egger",
                     "name": "Lore"
                 },
-                "text": " Egger , Lore , Dingolfing , * 21.02.1936 ."
+                "text": " Egger, Lore, Dingolfing, *21.02.1936."
             }
         ]
     }

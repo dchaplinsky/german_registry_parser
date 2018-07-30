@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=297270&land_abk=hh"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Moses",
                     "name": "Corinna"
                 },
-                "text": " Moses , Corinna , Seevetal , * 23.09.1960 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Seevetal",
-                    "dob": "1960-09-23",
-                    "lastname": "Moses",
-                    "name": "Corinna"
-                },
-                "text": " Moses , Corinna , Seevetal , * 23.09.1960 ."
+                "text": " Moses, Corinna, Seevetal, *23.09.1960."
             }
         ]
     }

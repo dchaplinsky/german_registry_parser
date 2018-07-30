@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "Single procuration",
@@ -29,17 +29,18 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Pflegewerk Senioren Centrum Haus Pappelhof gGmbH , Berlin , Wisbyer Str ."
+                "text": " Pflegewerk Senioren Centrum Haus Pappelhof gGmbH, Berlin, Wisbyer Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Hildebrandt",
                     "name": "Petra geborene Hänel"
                 },
-                "text": " Hildebrandt , Petra geborene Hänel"
+                "text": " Hildebrandt, Petra geborene Hänel"
             },
             {
                 "class": "Procuration",
@@ -49,7 +50,7 @@
                     "lastname": "Hildebrandt",
                     "name": "Petra geborene Hänel"
                 },
-                "text": " Hildebrandt , Petra geborene Hänel , * 06.08.1956 , Berlin"
+                "text": " Hildebrandt, Petra geborene Hänel, *06.08.1956, Berlin"
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Drensteinfurt",
+                    "dismissed": true,
                     "dob": "1958-01-22",
                     "lastname": "Schweda",
                     "name": "Peter"
                 },
-                "text": " Schweda , Peter , Drensteinfurt , * 22.01.1958 ."
+                "text": " Schweda, Peter, Drensteinfurt, *22.01.1958."
             }
         ]
     }

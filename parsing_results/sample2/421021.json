@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Buchholz",
                     "dob": "1967-05-24",
                     "lastname": "Bohn",
                     "name": "Oliver"
                 },
-                "text": " Bohn , Oliver , Buchholz , * 24.05.1967"
+                "text": " Bohn, Oliver, Buchholz, *24.05.1967"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Dipl",
+                    "dismissed": true,
                     "lastname": "Köhnke",
                     "name": "Norbert"
                 },
-                "text": " Köhnke , Norbert , Dipl ."
+                "text": " Köhnke, Norbert, Dipl."
             }
         ]
     }

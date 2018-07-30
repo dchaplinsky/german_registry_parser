@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Kirchmannstraße 25 , 45133 Essen ."
+                "text": " Kirchmannstraße 25, 45133 Essen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Essen",
+                    "dismissed": true,
                     "dob": "1946-01-21",
                     "lastname": "Jäckel",
                     "name": "Rainer"
                 },
-                "text": " Jäckel , Rainer , Essen , * 21.01.1946 ."
+                "text": " Jäckel, Rainer, Essen, *21.01.1946."
             }
         ]
     }

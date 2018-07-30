@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Denninger Str ."
+                "text": " Denninger Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1961-06-07",
                     "lastname": "Schörghuber",
                     "name": "Stefan"
                 },
-                "text": " Schörghuber , Stefan , München , * 06.07.1961 ."
+                "text": " Schörghuber, Stefan, München, *06.07.1961."
             }
         ]
     }

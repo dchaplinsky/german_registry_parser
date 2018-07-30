@@ -18,34 +18,36 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1948-08-12",
-                    "lastname": "Dr . Seiler",
+                    "lastname": "Doctor Seiler",
                     "name": "Wilhelm"
                 },
-                "text": " Dr . Seiler , Wilhelm , München , * 08.12.1948 ."
+                "text": " Doctor Seiler, Wilhelm, München, *08.12.1948."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Raubling",
                     "dob": "1965-01-04",
                     "lastname": "Hillesheim",
                     "name": "Horst"
                 },
-                "text": " Hillesheim , Horst , Raubling , * 01.04.1965"
+                "text": " Hillesheim, Horst, Raubling, *01.04.1965"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Walluf",
+                    "dismissed": true,
                     "dob": "1973-05-09",
                     "lastname": "Schlimbach",
                     "name": "Boris"
                 },
-                "text": " Schlimbach , Boris , Walluf , * 05.09.1973 ."
+                "text": " Schlimbach, Boris, Walluf, *05.09.1973."
             }
         ]
     }

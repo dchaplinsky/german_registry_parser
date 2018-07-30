@@ -18,34 +18,36 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wolfsburg",
+                    "dismissed": true,
                     "dob": "1960-10-29",
-                    "lastname": "Dr . Holst",
+                    "lastname": "Doctor Holst",
                     "name": "Berend"
                 },
-                "text": " Dr . Holst , Berend , Wolfsburg , * 29.10.1960"
+                "text": " Doctor Holst, Berend, Wolfsburg, *29.10.1960"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Cremlingen",
                     "dob": "1966-01-28",
                     "lastname": "de Neidels",
                     "name": "Gabriele Regina"
                 },
-                "text": " de Neidels , Gabriele Regina , Cremlingen , * 28.01.1966"
+                "text": " de Neidels, Gabriele Regina, Cremlingen, *28.01.1966"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Esslingen am Neckar",
+                    "dismissed": true,
                     "dob": "1973-05-23",
-                    "lastname": "Dr . Lattwein",
+                    "lastname": "Doctor Lattwein",
                     "name": "Johannes"
                 },
-                "text": " Dr . Lattwein , Johannes , Esslingen am Neckar , * 23.05.1973 ."
+                "text": " Doctor Lattwein, Johannes, Esslingen am Neckar, *23.05.1973."
             }
         ]
     }

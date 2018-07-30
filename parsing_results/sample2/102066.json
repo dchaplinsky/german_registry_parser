@@ -19,25 +19,25 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Axel - Springer - Str ."
+                "text": " Geschäftsanschrift: Axel-Springer-Str."
             },
             {
                 "label": "address",
-                "text": " Axel - Springer - Str ."
+                "text": " Axel-Springer-Str."
             }
         ],
         "officers": [
@@ -49,15 +49,16 @@
                     "lastname": "Lanz",
                     "name": "Lothar"
                 },
-                "text": " Lanz , Lothar , * 01.10.1948 , Berlin"
+                "text": " Lanz, Lothar, *01.10.1948, Berlin"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Naumann",
                     "name": "Steffen"
                 },
-                "text": " Naumann , Steffen ."
+                "text": " Naumann, Steffen."
             }
         ]
     }

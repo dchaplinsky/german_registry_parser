@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -31,17 +31,18 @@
                     "lastname": "Klatt",
                     "name": "Horst"
                 },
-                "text": " Klatt , Horst , Braunschweig , * 07.04.1947 ."
+                "text": " Klatt, Horst, Braunschweig, *07.04.1947."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Braunschweig",
+                    "dismissed": true,
                     "dob": "1947-07-04",
                     "lastname": "Klatt",
                     "name": "Horst"
                 },
-                "text": " Klatt , Horst , Braunschweig , * 07.04.1947 ."
+                "text": " Klatt, Horst, Braunschweig, *07.04.1947."
             }
         ]
     }

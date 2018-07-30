@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1367567&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Aachen",
+                    "dismissed": true,
                     "dob": "1975-10-09",
                     "lastname": "Tumma",
                     "name": "Markus"
                 },
-                "text": " Tumma , Markus , Aachen , * 10.09.1975 ."
+                "text": " Tumma, Markus, Aachen, *10.09.1975."
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +36,7 @@
                     "lastname": "Lüth",
                     "name": "Dominik"
                 },
-                "text": " Lüth , Dominik , Düren , * 20.07.1990 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Düren",
-                    "dob": "1990-07-20",
-                    "lastname": "Lüth",
-                    "name": "Dominik"
-                },
-                "text": " Lüth , Dominik , Düren , * 20.07.1990 ."
+                "text": " Lüth, Dominik, Düren, *20.07.1990."
             }
         ]
     }

@@ -19,11 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
@@ -32,11 +28,11 @@
                 "payload": {
                     "city": "Karlsruhe",
                     "dob": "1976-12-11",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Fürst",
                     "name": "Markus Andreas geborene Pely"
                 },
-                "text": " Fürst , Markus Andreas geborene Pely , Karlsruhe , * 12.11.1976 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Fürst, Markus Andreas geborene Pely, Karlsruhe, *12.11.1976, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",
@@ -46,27 +42,17 @@
                     "lastname": "Fürst",
                     "name": "Sandra Daniela"
                 },
-                "text": " Fürst , Sandra Daniela , Karlsruhe , * 10.01.1979 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Karlsruhe",
-                    "dob": "1979-10-01",
-                    "lastname": "Fürst",
-                    "name": "Sandra Daniela"
-                },
-                "text": " Fürst , Sandra Daniela , Karlsruhe , * 10.01.1979 ."
+                "text": " Fürst, Sandra Daniela, Karlsruhe, *10.01.1979."
             },
             {
                 "class": "CommonProcuration",
                 "payload": {
-                    "city": "Eggenstein - Leopoldshafen",
+                    "city": "Eggenstein-Leopoldshafen",
                     "dob": "1967-10-14",
                     "lastname": "Balogh",
                     "name": "Petra Edeltraud geborene Götzinger"
                 },
-                "text": " Balogh , Petra Edeltraud geborene Götzinger , Eggenstein - Leopoldshafen , * 14.10.1967"
+                "text": " Balogh, Petra Edeltraud geborene Götzinger, Eggenstein-Leopoldshafen, *14.10.1967"
             }
         ]
     }

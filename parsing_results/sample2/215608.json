@@ -19,16 +19,16 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Änderung zu Nr . 1 : Sitzverlegung und Firmenänderung, error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a Owner from  Änderung zu Nr. 1: Sitzverlegung und Firmenänderung, error text was a person without DOB, number of chunks: 1"
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " my photo studio Verwaltungs GmbH , Dänischenhagen ( Amtsgericht Kiel , HRB 15518 KI )"
+                    "company_name": " my photo studio Verwaltungs GmbH, Dänischenhagen (Amtsgericht Kiel, HRB 15518 KI)"
                 },
-                "text": " my photo studio Verwaltungs GmbH , Dänischenhagen ( Amtsgericht Kiel , HRB 15518 KI )"
+                "text": " my photo studio Verwaltungs GmbH, Dänischenhagen (Amtsgericht Kiel, HRB 15518 KI)"
             }
         ]
     }

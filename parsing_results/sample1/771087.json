@@ -16,22 +16,28 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=771087&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Dr . Eichhorn , Fritz , Apotheker , Pommelsbrunn , * 17.08.1945 ., error text was Cannot parse DOB  Apotheker  using regex"
-            }
-        ],
         "officers": [
             {
                 "class": "Owner",
                 "payload": {
+                    "city": "Pommelsbrunn",
+                    "dob": "1945-08-17",
+                    "lastname": "Doctor Eichhorn",
+                    "name": "Fritz",
+                    "position": "Apotheker"
+                },
+                "text": " Doctor Eichhorn, Fritz, Apotheker, Pommelsbrunn, *17.08.1945."
+            },
+            {
+                "class": "NotLongerOwner",
+                "payload": {
                     "city": "Reichenbach",
+                    "dismissed": true,
                     "dob": "1957-12-05",
                     "lastname": "Dölcker",
                     "name": "Rainer"
                 },
-                "text": " Dölcker , Rainer , Reichenbach , * 12.05.1957 ."
+                "text": " Dölcker, Rainer, Reichenbach, *12.05.1957."
             }
         ]
     }

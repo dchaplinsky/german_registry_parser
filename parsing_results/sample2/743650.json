@@ -18,15 +18,16 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "lastname": "Dr . Unser",
+                    "dismissed": true,
+                    "lastname": "Doctor Unser",
                     "name": "Matthias"
                 },
-                "text": " Dr . Unser , Matthias ."
+                "text": " Doctor Unser, Matthias."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
                     "dob": "1967-07-10",
@@ -34,7 +35,7 @@
                     "lastname": "Borchers",
                     "name": "Jürgen"
                 },
-                "text": " Borchers , Jürgen , Düsseldorf , * 07.10.1967 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Borchers, Jürgen, Düsseldorf, *07.10.1967, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

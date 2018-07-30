@@ -16,41 +16,37 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=272973&land_abk=ni"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "lastname": "Hess",
                     "name": "Gerhard",
                     "position": "Regisseur"
                 },
-                "text": " Hess , Gerhard , Regisseur , Hamburg ."
+                "text": " Hess, Gerhard, Regisseur, Hamburg."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wilhelmshaven",
                     "dob": "1969-05-15",
                     "lastname": "Strieb",
                     "name": "Olaf"
                 },
-                "text": " Strieb , Olaf , Wilhelmshaven , * 15.05.1969 ."
+                "text": " Strieb, Olaf, Wilhelmshaven, *15.05.1969."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Horsten",
-                    "lastname": "Hans - Wilhelm",
+                    "dismissed": true,
+                    "lastname": "Hans-Wilhelm",
                     "name": "Berner"
                 },
-                "text": " Hans - Wilhelm , Berner , Horsten ."
+                "text": " Hans-Wilhelm, Berner, Horsten."
             },
             {
                 "class": "SingleProcuration",
@@ -60,17 +56,7 @@
                     "lastname": "Schumacher",
                     "name": "Torben"
                 },
-                "text": " Schumacher , Torben , Wilhelmshaven , * 08.06.1978 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Wilhelmshaven",
-                    "dob": "1978-08-06",
-                    "lastname": "Schumacher",
-                    "name": "Torben"
-                },
-                "text": " Schumacher , Torben , Wilhelmshaven , * 08.06.1978 ."
+                "text": " Schumacher, Torben, Wilhelmshaven, *08.06.1978."
             }
         ]
     }

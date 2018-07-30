@@ -16,22 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=501831&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Bodnegg",
                     "dob": "1950-07-09",
-                    "lastname": "Dr . Kessler",
+                    "lastname": "Doctor Kessler",
                     "name": "Edgar"
                 },
-                "text": " Dr . Kessler , Edgar , Bodnegg , * 07.09.1950"
+                "text": " Doctor Kessler, Edgar, Bodnegg, *07.09.1950"
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +35,7 @@
                     "lastname": "Klinger",
                     "name": "Werner"
                 },
-                "text": " Klinger , Werner , Berg , * 24.08.1956"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Berg",
-                    "dob": "1956-08-24",
-                    "lastname": "Klinger",
-                    "name": "Werner"
-                },
-                "text": " Klinger , Werner , Berg , * 24.08.1956"
+                "text": " Klinger, Werner, Berg, *24.08.1956"
             }
         ]
     }

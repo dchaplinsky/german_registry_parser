@@ -19,30 +19,31 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Volksgartenstraße 34 , 50677 Köln ."
+                "text": " Volksgartenstraße 34, 50677 Köln."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1953-12-04",
                     "lastname": "Rieger",
                     "name": "Peter"
                 },
-                "text": " Rieger , Peter , Köln , * 12.04.1953 ."
+                "text": " Rieger, Peter, Köln, *12.04.1953."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Köln",
                     "dob": "1980-03-09",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Rieger - Breuer",
+                    "lastname": "Rieger-Breuer",
                     "name": "Esther"
                 },
-                "text": " Rieger - Breuer , Esther , Köln , * 03.09.1980 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Rieger-Breuer, Esther, Köln, *03.09.1980, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

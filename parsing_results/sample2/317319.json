@@ -18,34 +18,36 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Herford",
                     "dob": "1950-05-08",
                     "lastname": "Gronlied",
                     "name": "Wolfgang"
                 },
-                "text": " Gronlied , Wolfgang , Herford , * 05.08.1950"
+                "text": " Gronlied, Wolfgang, Herford, *05.08.1950"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Porta Westfalica",
+                    "dismissed": true,
                     "dob": "1957-10-28",
                     "lastname": "Balg",
                     "name": "Jürgen"
                 },
-                "text": " Balg , Jürgen , Porta Westfalica , * 28.10.1957"
+                "text": " Balg, Jürgen, Porta Westfalica, *28.10.1957"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Herford",
+                    "dismissed": true,
                     "dob": "1950-05-08",
                     "lastname": "Gronlied",
                     "name": "Wolfgang"
                 },
-                "text": " Gronlied , Wolfgang , Herford , * 05.08.1950"
+                "text": " Gronlied, Wolfgang, Herford, *05.08.1950"
             }
         ]
     }

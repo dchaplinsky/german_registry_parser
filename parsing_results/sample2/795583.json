@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Griesbergstraße 1 c , 82205 Gilching ."
+                "text": " Griesbergstraße 1 c, 82205 Gilching."
             }
         ],
         "officers": [
@@ -31,17 +31,18 @@
                     "lastname": "Müller",
                     "name": "Thomas"
                 },
-                "text": " Müller , Thomas , Gilching , * 23.07.1966 ."
+                "text": " Müller, Thomas, Gilching, *23.07.1966."
             },
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Dachau",
+                    "dismissed": true,
                     "dob": "1944-12-09",
                     "lastname": "Engelbrecht",
                     "name": "Klaus Dieter"
                 },
-                "text": " Engelbrecht , Klaus Dieter , Dachau , * 12.09.1944 ."
+                "text": " Engelbrecht, Klaus Dieter, Dachau, *12.09.1944."
             }
         ]
     }

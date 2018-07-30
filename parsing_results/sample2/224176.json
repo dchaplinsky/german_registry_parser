@@ -16,32 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=224176&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
                 "payload": {
-                    "city": "Foulbec / Frankreich",
+                    "city": "Foulbec/Frankreich",
                     "dob": "1969-05-31",
                     "lastname": "Brunois",
                     "name": "Laurent"
                 },
-                "text": " Brunois , Laurent , Foulbec / Frankreich , * 31.05.1969"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Foulbec / Frankreich",
-                    "dob": "1969-05-31",
-                    "lastname": "Brunois",
-                    "name": "Laurent"
-                },
-                "text": " Brunois , Laurent , Foulbec / Frankreich , * 31.05.1969"
+                "text": " Brunois, Laurent, Foulbec/Frankreich, *31.05.1969"
             }
         ]
     }

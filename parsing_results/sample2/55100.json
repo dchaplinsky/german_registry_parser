@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hildesheim",
+                    "dismissed": true,
                     "dob": "1954-09-29",
-                    "lastname": "Dr . Dambrowski",
+                    "lastname": "Doctor Dambrowski",
                     "name": "Jürgen"
                 },
-                "text": " Dr . Dambrowski , Jürgen , Hildesheim , * 29.09.1954 ."
+                "text": " Doctor Dambrowski, Jürgen, Hildesheim, *29.09.1954."
             }
         ]
     }

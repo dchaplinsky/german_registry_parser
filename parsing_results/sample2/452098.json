@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=452098&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Ternes",
                     "name": "René"
                 },
-                "text": " Ternes , René , Würzburg , * 29.10.1968 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Würzburg",
-                    "dob": "1968-10-29",
-                    "lastname": "Ternes",
-                    "name": "René"
-                },
-                "text": " Ternes , René , Würzburg , * 29.10.1968 ."
+                "text": " Ternes, René, Würzburg, *29.10.1968."
             }
         ]
     }

@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Römerstr ."
+                "text": " Römerstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Krefeld",
+                    "dismissed": true,
                     "dob": "1961-09-12",
-                    "lastname": "Wolff - Peterseim",
+                    "lastname": "Wolff-Peterseim",
                     "name": "Dominik"
                 },
-                "text": " Wolff - Peterseim , Dominik , Krefeld , * 09.12.1961 ."
+                "text": " Wolff-Peterseim, Dominik, Krefeld, *09.12.1961."
             }
         ]
     }

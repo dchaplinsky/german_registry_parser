@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Biberach an der Riß",
+                    "dismissed": true,
                     "lastname": "Gerster",
                     "name": "Hans",
                     "position": "Elektromechanikermeister"
                 },
-                "text": " Gerster , Hans , Elektromechanikermeister , Biberach an der Riß ."
+                "text": " Gerster, Hans, Elektromechanikermeister, Biberach an der Riß."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bad Zwischenahn",
+                    "dismissed": true,
                     "dob": "1973-01-07",
                     "lastname": "Venter",
                     "name": "Gerhardus Johannes"
                 },
-                "text": " Venter , Gerhardus Johannes , Bad Zwischenahn , * 01.07.1973 ."
+                "text": " Venter, Gerhardus Johannes, Bad Zwischenahn, *01.07.1973."
             }
         ]
     }

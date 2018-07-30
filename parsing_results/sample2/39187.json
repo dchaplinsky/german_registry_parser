@@ -19,29 +19,34 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Servo , Andrea , Front , Italien , * 05.12.1967 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Front  using regex"
+                "text": "Cannot parse a AppointedManagingDirector from  Servo, Andrea, Front, Italien, *05.12.1967, einzelvertretungsberechtigt, error text was Cannot parse DOB  Front using regex"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Servo, Andrea, Front, Italien, *05.12.1967, einzelvertretungsberechtigt, error text was Cannot parse DOB  Front using regex"
             }
         ],
         "flags": [
             {
                 "flag": "Exclusive power of representation can be granted.",
-                "text": "Alleinvertretungsbefugnis kann erteilt werden ."
+                "text": "Alleinvertretungsbefugnis\\ kann\\ erteilt\\ werden\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1949-07-17",
                     "lastname": "Genschow",
                     "name": "Heidemarie"
                 },
-                "text": " Genschow , Heidemarie , Hamburg , * 17.07.1949 ."
+                "text": " Genschow, Heidemarie, Hamburg, *17.07.1949."
             }
         ]
     }

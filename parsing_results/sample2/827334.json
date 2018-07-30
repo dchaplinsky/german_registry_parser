@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=827334&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "CommonProcuration",
@@ -31,7 +25,7 @@
                     "lastname": "Walter",
                     "name": "Erik"
                 },
-                "text": " Walter , Erik , Grasbrunn , * 30.12.1959 ."
+                "text": " Walter, Erik, Grasbrunn, *30.12.1959."
             },
             {
                 "class": "NewProcuration",
@@ -41,27 +35,7 @@
                     "lastname": "Harthauß",
                     "name": "Gisela"
                 },
-                "text": " Harthauß , Gisela , Pliening , * 15.05.1966 ."
-            },
-            {
-                "class": "SingleProcuration",
-                "payload": {
-                    "city": "Pliening",
-                    "dob": "1966-05-15",
-                    "lastname": "Harthauß",
-                    "name": "Gisela"
-                },
-                "text": " Harthauß , Gisela , Pliening , * 15.05.1966 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Pliening",
-                    "dob": "1966-05-15",
-                    "lastname": "Harthauß",
-                    "name": "Gisela"
-                },
-                "text": " Harthauß , Gisela , Pliening , * 15.05.1966 ."
+                "text": " Harthauß, Gisela, Pliening, *15.05.1966."
             }
         ]
     }

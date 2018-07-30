@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1966-04-10",
                     "lastname": "Frauen",
                     "name": "Christian"
                 },
-                "text": " Frauen , Christian , Frankfurt am Main , * 04.10.1966 ."
+                "text": " Frauen, Christian, Frankfurt am Main, *04.10.1966."
             }
         ]
     }

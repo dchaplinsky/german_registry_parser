@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Asniéres - sur - Seine / Frankreich",
+                    "city": "Asniéres-sur-Seine / Frankreich",
+                    "dismissed": true,
                     "dob": "1957-10-13",
                     "lastname": "Lee",
                     "name": "Sym Keun"
                 },
-                "text": " Lee , Sym Keun , Asniéres - sur - Seine / Frankreich , * 13.10.1957 ."
+                "text": " Lee, Sym Keun, Asniéres-sur-Seine / Frankreich, *13.10.1957."
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Le Plessir Trévise / Frankreich",
                     "dob": "1966-09-25",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Aw - Lassus",
-                    "name": "Marie - Isabelle"
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Aw-Lassus",
+                    "name": "Marie-Isabelle"
                 },
-                "text": " Aw - Lassus , Marie - Isabelle , Le Plessir Trévise / Frankreich , * 25.09.1966 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Aw-Lassus, Marie-Isabelle, Le Plessir Trévise / Frankreich, *25.09.1966, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

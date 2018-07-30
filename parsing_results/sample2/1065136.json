@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Nettetal",
+                    "dismissed": true,
                     "dob": "1989-06-05",
                     "lastname": "Bork",
                     "name": "Christian"
                 },
-                "text": " Bork , Christian , Nettetal , * 06.05.1989 ."
+                "text": " Bork, Christian, Nettetal, *06.05.1989."
             },
             {
                 "class": "Liquidator",
@@ -41,7 +42,7 @@
                     "lastname": "Hanto",
                     "name": "Volker Carsten"
                 },
-                "text": " Hanto , Volker Carsten , Nettetal , * 20.09.1984 ."
+                "text": " Hanto, Volker Carsten, Nettetal, *20.09.1984."
             }
         ]
     }

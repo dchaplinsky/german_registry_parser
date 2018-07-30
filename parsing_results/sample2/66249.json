@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=66249&land_abk=th"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Peter",
                     "name": "Doreen geborene Rothamel"
                 },
-                "text": " Peter , Doreen geborene Rothamel , Schmalkalden , * 04.02.1979 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Schmalkalden",
-                    "dob": "1979-04-02",
-                    "lastname": "Peter",
-                    "name": "Doreen geborene Rothamel"
-                },
-                "text": " Peter , Doreen geborene Rothamel , Schmalkalden , * 04.02.1979 ."
+                "text": " Peter, Doreen geborene Rothamel, Schmalkalden, *04.02.1979."
             }
         ]
     }

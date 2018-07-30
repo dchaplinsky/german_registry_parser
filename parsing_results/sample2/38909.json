@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=38909&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Mack",
                     "name": "Michael Jürgen"
                 },
-                "text": " Mack , Michael Jürgen , Rust , * 21.12.1978 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Rust",
-                    "dob": "1978-12-21",
-                    "lastname": "Mack",
-                    "name": "Michael Jürgen"
-                },
-                "text": " Mack , Michael Jürgen , Rust , * 21.12.1978 ."
+                "text": " Mack, Michael Jürgen, Rust, *21.12.1978."
             }
         ]
     }

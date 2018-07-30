@@ -19,28 +19,28 @@
         "flags": [
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             },
             {
                 "flag": "Exclusive power of representation can be granted.",
-                "text": "Alleinvertretungsbefugnis kann erteilt werden ."
+                "text": "Alleinvertretungsbefugnis\\ kann\\ erteilt\\ werden\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1943-05-23",
                     "flag": "sole representation",
                     "lastname": "Baierle",
-                    "name": "Rolf - Rüdiger"
+                    "name": "Rolf-Rüdiger"
                 },
-                "text": " Baierle , Rolf - Rüdiger , Hamburg , * 23.05.1943 , einzelvertretungsberechtigt"
+                "text": " Baierle, Rolf-Rüdiger, Hamburg, *23.05.1943, einzelvertretungsberechtigt"
             },
             {
                 "class": "Liquidator",
@@ -50,7 +50,7 @@
                     "lastname": "Olberg",
                     "name": "Henry"
                 },
-                "text": " Olberg , Henry , Hamburg , * 19.07.1951 ."
+                "text": " Olberg, Henry, Hamburg, *19.07.1951."
             }
         ]
     }

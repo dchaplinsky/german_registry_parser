@@ -19,18 +19,18 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Haarmannstraße 22 , 49090 Osnabrück ."
+                "text": " Haarmannstraße 22, 49090 Osnabrück."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dob": "1975-05-10",
@@ -38,17 +38,18 @@
                     "lastname": "Schuster",
                     "name": "Stefan Michael"
                 },
-                "text": " Schuster , Stefan Michael , Frankfurt am Main , * 05.10.1975 , einzelvertretungsberechtigt"
+                "text": " Schuster, Stefan Michael, Frankfurt am Main, *05.10.1975, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1965-03-12",
-                    "lastname": "Prof . Dr . Sandhaus",
+                    "lastname": "Prof. Doctor Sandhaus",
                     "name": "Gregor"
                 },
-                "text": " Prof . Dr . Sandhaus , Gregor , Düsseldorf , * 03.12.1965 ."
+                "text": " Prof. Doctor Sandhaus, Gregor, Düsseldorf, *03.12.1965."
             }
         ]
     }

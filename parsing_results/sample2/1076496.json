@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Stein",
+                    "dismissed": true,
                     "lastname": "Thein",
                     "name": "Roland",
                     "position": "Zahntechnikermeister"
                 },
-                "text": " Thein , Roland , Zahntechnikermeister , Stein ."
+                "text": " Thein, Roland, Zahntechnikermeister, Stein."
             }
         ]
     }

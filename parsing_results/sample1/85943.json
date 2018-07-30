@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Friedrichshafen",
+                    "dismissed": true,
                     "lastname": "Przybilla",
                     "name": "Rüdiger",
                     "position": "Apotheker"
                 },
-                "text": " Przybilla , Rüdiger , Apotheker , Friedrichshafen ."
+                "text": " Przybilla, Rüdiger, Apotheker, Friedrichshafen."
             },
             {
                 "class": "Owner",
@@ -35,7 +36,7 @@
                     "lastname": "Klimek",
                     "name": "Sylvia"
                 },
-                "text": " Klimek , Sylvia , Friedrichshafen , * 15.03.1966 ."
+                "text": " Klimek, Sylvia, Friedrichshafen, *15.03.1966."
             }
         ]
     }

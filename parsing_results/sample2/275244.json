@@ -18,20 +18,20 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Neukirchen - Vluyn",
+                    "city": "Neukirchen-Vluyn",
                     "dob": "1963-04-27",
-                    "lastname": "Dr . Ewen",
+                    "lastname": "Doctor Ewen",
                     "name": "Elmar"
                 },
-                "text": " Dr . Ewen , Elmar , Neukirchen - Vluyn , * 27.04.1963"
+                "text": " Doctor Ewen, Elmar, Neukirchen-Vluyn, *27.04.1963"
             },
             {
                 "class": "ManagingDirector",
@@ -41,7 +41,7 @@
                     "lastname": "Brinkmann",
                     "name": "Udo Günter"
                 },
-                "text": " Brinkmann , Udo Günter , Geldern , * 16.07.1953"
+                "text": " Brinkmann, Udo Günter, Geldern, *16.07.1953"
             }
         ]
     }

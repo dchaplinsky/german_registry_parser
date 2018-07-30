@@ -20,16 +20,12 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Erholungsstraße 1 , 96515 Sonneberg ."
+                "text": " Erholungsstraße 1, 96515 Sonneberg."
             }
         ],
         "officers": [
@@ -41,7 +37,7 @@
                     "lastname": "End",
                     "name": "Peter"
                 },
-                "text": " End , Peter , Sonneberg , * 13.06.1957 ."
+                "text": " End, Peter, Sonneberg, *13.06.1957."
             },
             {
                 "class": "SingleProcuration",
@@ -51,17 +47,7 @@
                     "lastname": "End",
                     "name": "Martin"
                 },
-                "text": " End , Martin , Lauf an der Pegnitz , * 28.12.1984 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Lauf an der Pegnitz",
-                    "dob": "1984-12-28",
-                    "lastname": "End",
-                    "name": "Martin"
-                },
-                "text": " End , Martin , Lauf an der Pegnitz , * 28.12.1984 ."
+                "text": " End, Martin, Lauf an der Pegnitz, *28.12.1984."
             }
         ]
     }

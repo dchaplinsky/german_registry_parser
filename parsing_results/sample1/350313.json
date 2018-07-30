@@ -16,16 +16,24 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=350313&land_abk=hh"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Mallory , Carl , Penath , South Glamorgan / Großbritannien / Vereinigtes Königreich , * 09.02.1965 ., error text was Cannot parse DOB  Penath  using regex"
-            }
-        ],
         "labels": [
             {
                 "label": "address",
-                "text": " Esplanade 41 , 20354 Hamburg ."
+                "text": " Esplanade 41, 20354 Hamburg."
+            }
+        ],
+        "officers": [
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "South Glamorgan/Großbritannien / Vereinigtes Königreich",
+                    "dismissed": true,
+                    "dob": "1965-09-02",
+                    "lastname": "Mallory",
+                    "name": "Carl",
+                    "position": "Penath"
+                },
+                "text": " Mallory, Carl, Penath, South Glamorgan/Großbritannien / Vereinigtes Königreich, *09.02.1965."
             }
         ]
     }

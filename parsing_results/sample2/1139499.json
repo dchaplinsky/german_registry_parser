@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1983-12-19",
                     "lastname": "Reinhardt",
                     "name": "David"
                 },
-                "text": " Reinhardt , David , München , * 19.12.1983 ."
+                "text": " Reinhardt, David, München, *19.12.1983."
             }
         ]
     }

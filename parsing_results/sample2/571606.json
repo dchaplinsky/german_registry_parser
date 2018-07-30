@@ -19,44 +19,46 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Lindau ( B )",
+                    "city": "Lindau (B)",
+                    "dismissed": true,
                     "dob": "1949-09-07",
                     "lastname": "Poralla",
                     "name": "Horst Alois"
                 },
-                "text": " Poralla , Horst Alois , Lindau ( B ) , * 09.07.1949 ."
+                "text": " Poralla, Horst Alois, Lindau (B), *09.07.1949."
             },
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "Lindau ( B )",
+                    "city": "Lindau (B)",
                     "dob": "1960-04-29",
                     "flag": "sole representation",
                     "lastname": "Firsching",
                     "name": "Harald"
                 },
-                "text": " Firsching , Harald , Lindau ( B ) , * 29.04.1960 , einzelvertretungsberechtigt"
+                "text": " Firsching, Harald, Lindau (B), *29.04.1960, einzelvertretungsberechtigt"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Lindau ( B )",
+                    "city": "Lindau (B)",
+                    "dismissed": true,
                     "dob": "1960-04-29",
                     "lastname": "Firsching",
                     "name": "Harald"
                 },
-                "text": " Firsching , Harald , Lindau ( B ) , * 29.04.1960 ."
+                "text": " Firsching, Harald, Lindau (B), *29.04.1960."
             }
         ]
     }

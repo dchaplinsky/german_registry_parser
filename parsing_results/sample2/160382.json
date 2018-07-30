@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Worms",
+                    "dismissed": true,
                     "dob": "1978-11-06",
                     "lastname": "Bäcker",
                     "name": "Lars"
                 },
-                "text": " Bäcker , Lars , Worms , * 11.06.1978 ."
+                "text": " Bäcker, Lars, Worms, *11.06.1978."
             }
         ]
     }

@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Königs Wusterhausen",
                     "dob": "1967-05-30",
@@ -26,17 +26,18 @@
                     "lastname": "Kühn",
                     "name": "Steffen"
                 },
-                "text": " Kühn , Steffen , Königs Wusterhausen , * 30.05.1967 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Kühn, Steffen, Königs Wusterhausen, *30.05.1967, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Zeesen",
+                    "dismissed": true,
                     "dob": "1967-05-30",
                     "lastname": "Kühn",
                     "name": "Steffen"
                 },
-                "text": " Kühn , Steffen , Zeesen , * 30.05.1967 ."
+                "text": " Kühn, Steffen, Zeesen, *30.05.1967."
             }
         ]
     }

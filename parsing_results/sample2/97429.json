@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mainz",
                     "dob": "1972-04-14",
@@ -26,17 +26,18 @@
                     "lastname": "Simon",
                     "name": "Frank"
                 },
-                "text": " Simon , Frank , Mainz , * 14.04.1972 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Simon, Frank, Mainz, *14.04.1972, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Stadecken - Elsheim",
+                    "city": "Stadecken-Elsheim",
+                    "dismissed": true,
                     "dob": "1960-07-31",
                     "lastname": "Käsberger",
                     "name": "Peter Philipp"
                 },
-                "text": " Käsberger , Peter Philipp , Stadecken - Elsheim , * 31.07.1960 ."
+                "text": " Käsberger, Peter Philipp, Stadecken-Elsheim, *31.07.1960."
             }
         ]
     }

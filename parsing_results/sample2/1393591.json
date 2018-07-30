@@ -16,13 +16,19 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1393591&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Deliméle geb ., error text was a person without DOB, number of chunks: 1"
-            }
-        ],
         "officers": [
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Essen",
+                    "dismissed": true,
+                    "lastname": "Deliméle",
+                    "maidenname": "Gimken",
+                    "name": "Ulrike",
+                    "position": "Kauffrau"
+                },
+                "text": " Deliméle geborene Gimken, Ulrike, Kauffrau, Essen."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {
@@ -32,7 +38,7 @@
                     "lastname": "Delimèle",
                     "name": "Patricia"
                 },
-                "text": " Delimèle , Patricia , Essen , * 19.02.1967 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Delimèle, Patricia, Essen, *19.02.1967, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Köln",
                     "dob": "1948-05-28",
@@ -26,15 +26,16 @@
                     "lastname": "Ulmann",
                     "name": "Jürgen"
                 },
-                "text": " Ulmann , Jürgen , Köln , * 28.05.1948 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Ulmann, Jürgen, Köln, *28.05.1948, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Blazene",
                     "name": "Laura Albinovna"
                 },
-                "text": " Blazene , Laura Albinovna ."
+                "text": " Blazene, Laura Albinovna."
             }
         ]
     }

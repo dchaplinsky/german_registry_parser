@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Stadtallendorf",
+                    "dismissed": true,
                     "dob": "1970-07-17",
-                    "lastname": "Felice - Özen",
+                    "lastname": "Felice-Özen",
                     "name": "Anna"
                 },
-                "text": " Felice - Özen , Anna , Stadtallendorf , * 17.07.1970 ."
+                "text": " Felice-Özen, Anna, Stadtallendorf, *17.07.1970."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Ahlen",
                     "dob": "1973-07-16",
@@ -36,7 +37,7 @@
                     "lastname": "Cun",
                     "name": "Murat"
                 },
-                "text": " Cun , Murat , Ahlen , * 16.07.1973 , einzelvertretungsberechtigt ."
+                "text": " Cun, Murat, Ahlen, *16.07.1973, einzelvertretungsberechtigt."
             }
         ]
     }

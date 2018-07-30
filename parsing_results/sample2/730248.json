@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wuppertal",
+                    "dismissed": true,
                     "dob": "1967-07-13",
                     "lastname": "Köhn",
                     "name": "Vivien"
                 },
-                "text": " Köhn , Vivien , Wuppertal , * 13.07.1967"
+                "text": " Köhn, Vivien, Wuppertal, *13.07.1967"
             },
             {
                 "class": "ManagingDirector",
@@ -36,10 +37,10 @@
                     "lastname": "vom Bauer",
                     "name": "Carsten"
                 },
-                "text": " vom Bauer , Carsten , Wuppertal , * 04.06.1969 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " vom Bauer, Carsten, Wuppertal, *04.06.1969, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wuppertal",
                     "dob": "1956-05-06",
@@ -47,7 +48,7 @@
                     "lastname": "Otto",
                     "name": "Gerhard"
                 },
-                "text": " Otto , Gerhard , Wuppertal , * 05.06.1956 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Otto, Gerhard, Wuppertal, *05.06.1956, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

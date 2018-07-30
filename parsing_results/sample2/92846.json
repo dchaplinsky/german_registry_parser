@@ -18,27 +18,28 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Friedrichsdorf",
+                    "dismissed": true,
                     "dob": "1960-09-06",
                     "lastname": "Willebrand",
                     "name": "Elmar"
                 },
-                "text": " Willebrand , Elmar , Friedrichsdorf , * 09.06.1960 ."
+                "text": " Willebrand, Elmar, Friedrichsdorf, *09.06.1960."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Seesen",
                     "dob": "1961-08-30",
                     "lastname": "Gnauck",
                     "name": "Ulrich"
                 },
-                "text": " Gnauck , Ulrich , Seesen , * 30.08.1961 ."
+                "text": " Gnauck, Ulrich, Seesen, *30.08.1961."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dob": "1961-01-02",
@@ -46,7 +47,7 @@
                     "lastname": "Leonhard",
                     "name": "Stephan"
                 },
-                "text": " Leonhard , Stephan , Frankfurt am Main , * 01.02.1961 , einzelvertretungsberechtigt ."
+                "text": " Leonhard, Stephan, Frankfurt am Main, *01.02.1961, einzelvertretungsberechtigt."
             }
         ]
     }

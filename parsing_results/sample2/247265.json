@@ -19,17 +19,17 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Taubenstraße 20-22 , 10117 Berlin Geschäftsführer : Beuermann , Paul - Friedrich , * 16.03.1955 , Hamburg"
+                "text": " Geschäftsanschrift: Taubenstraße 20-22, 10117 Berlin Geschäftsführer: Beuermann, Paul-Friedrich, *16.03.1955, Hamburg"
             },
             {
                 "label": "address",
-                "text": " Taubenstraße 20-22 , 10117 Berlin Geschäftsführer : Beuermann , Paul - Friedrich , * 16.03.1955 , Hamburg"
+                "text": " Taubenstraße 20-22, 10117 Berlin Geschäftsführer: Beuermann, Paul-Friedrich, *16.03.1955, Hamburg"
             }
         ],
         "officers": [
@@ -39,17 +39,18 @@
                     "city": "Hamburg",
                     "dob": "1955-03-16",
                     "lastname": "Beuermann",
-                    "name": "Paul - Friedrich"
+                    "name": "Paul-Friedrich"
                 },
-                "text": " Beuermann , Paul - Friedrich , * 16.03.1955 , Hamburg"
+                "text": " Beuermann, Paul-Friedrich, *16.03.1955, Hamburg"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "von Stryk",
                     "name": "Lutz"
                 },
-                "text": " von Stryk , Lutz ."
+                "text": " von Stryk, Lutz."
             }
         ]
     }

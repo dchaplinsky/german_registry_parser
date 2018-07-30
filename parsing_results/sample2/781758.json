@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Eggenkamp 5 , 48356 Nordwalde ."
+                "text": " Eggenkamp 5, 48356 Nordwalde."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Sulzbach / Murr",
+                    "city": "Sulzbach/Murr",
+                    "dismissed": true,
                     "dob": "1960-04-17",
                     "lastname": "Kogler",
                     "name": "Wilhelm Thomas"
                 },
-                "text": " Kogler , Wilhelm Thomas , Sulzbach / Murr , * 17.04.1960 ."
+                "text": " Kogler, Wilhelm Thomas, Sulzbach/Murr, *17.04.1960."
             }
         ]
     }

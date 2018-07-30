@@ -19,18 +19,19 @@
         "labels": [
             {
                 "label": "address",
-                "text": " P 6 , 22 , 68161 Mannheim ."
+                "text": " P 6, 22, 68161 Mannheim."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Neustadt / a",
+                    "city": "Neustadt/a",
+                    "dismissed": true,
                     "lastname": "Kreker",
                     "name": "Sabine geborene Möller"
                 },
-                "text": " Kreker , Sabine geborene Möller , Neustadt / a ."
+                "text": " Kreker, Sabine geborene Möller, Neustadt/a."
             }
         ]
     }

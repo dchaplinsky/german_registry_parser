@@ -16,31 +16,26 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=344456&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Bonometti",
                     "name": "Piergiorgio"
                 },
-                "text": " Bonometti , Piergiorgio ."
+                "text": " Bonometti, Piergiorgio."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Wien / Österreich",
+                    "city": "Wien/Österreich",
                     "dob": "1960-03-20",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Sala",
                     "name": "Fabio Giovanni Sebastiano"
                 },
-                "text": " Sala , Fabio Giovanni Sebastiano , Wien / Österreich , * 20.03.1960 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Sala, Fabio Giovanni Sebastiano, Wien/Österreich, *20.03.1960, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",
@@ -48,19 +43,9 @@
                     "city": "Ense",
                     "dob": "1955-07-16",
                     "lastname": "Remmert",
-                    "name": "Heinz - Dieter"
+                    "name": "Heinz-Dieter"
                 },
-                "text": " Remmert , Heinz - Dieter , Ense , * 16.07.1955 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Ense",
-                    "dob": "1955-07-16",
-                    "lastname": "Remmert",
-                    "name": "Heinz - Dieter"
-                },
-                "text": " Remmert , Heinz - Dieter , Ense , * 16.07.1955 ."
+                "text": " Remmert, Heinz-Dieter, Ense, *16.07.1955."
             }
         ]
     }

@@ -16,22 +16,28 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=64523&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Kaiser , Karl Heinz , Kaufmann , Mengeringhausen , * 27.09.1927 ., error text was Cannot parse DOB  Kaufmann  using regex"
-            }
-        ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "city": "Bad Arolsen - Mengeringhausen",
+                    "city": "Bad Arolsen-Mengeringhausen",
                     "dob": "1958-03-11",
                     "lastname": "Kaiser",
-                    "name": "Franz - Peter"
+                    "name": "Franz-Peter"
                 },
-                "text": " Kaiser , Franz - Peter , Bad Arolsen - Mengeringhausen , * 03.11.1958 ."
+                "text": " Kaiser, Franz-Peter, Bad Arolsen-Mengeringhausen, *03.11.1958."
+            },
+            {
+                "class": "RetiredPersonalPartner",
+                "payload": {
+                    "city": "Mengeringhausen",
+                    "dismissed": true,
+                    "dob": "1927-09-27",
+                    "lastname": "Kaiser",
+                    "name": "Karl Heinz",
+                    "position": "Kaufmann"
+                },
+                "text": " Kaiser, Karl Heinz, Kaufmann, Mengeringhausen, *27.09.1927."
             }
         ]
     }

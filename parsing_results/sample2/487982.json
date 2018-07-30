@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=487982&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Burkhardt",
                     "name": "Angelika"
                 },
-                "text": " Burkhardt , Angelika , Kraichtal , * 13.07.1964 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Kraichtal",
-                    "dob": "1964-07-13",
-                    "lastname": "Burkhardt",
-                    "name": "Angelika"
-                },
-                "text": " Burkhardt , Angelika , Kraichtal , * 13.07.1964 ."
+                "text": " Burkhardt, Angelika, Kraichtal, *13.07.1964."
             }
         ]
     }

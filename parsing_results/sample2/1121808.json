@@ -18,24 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Sosnowiec / Polen",
+                    "dismissed": true,
                     "dob": "1967-07-29",
                     "lastname": "Karcz",
                     "name": "Rafal"
                 },
-                "text": " Karcz , Rafal , Sosnowiec / Polen , * 29.07.1967 ."
+                "text": " Karcz, Rafal, Sosnowiec / Polen, *29.07.1967."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Berngau",
+                    "dismissed": true,
                     "dob": "1953-12-07",
                     "lastname": "Hammerschmidt",
                     "name": "Gerd"
                 },
-                "text": " Hammerschmidt , Gerd , Berngau , * 12.07.1953 ."
+                "text": " Hammerschmidt, Gerd, Berngau, *12.07.1953."
             }
         ]
     }

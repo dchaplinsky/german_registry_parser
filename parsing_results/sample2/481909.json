@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=481909&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Kistler",
                     "name": "Alexander"
                 },
-                "text": " Kistler , Alexander , Taufkirchen , * 23.01.1966 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Taufkirchen",
-                    "dob": "1966-01-23",
-                    "lastname": "Kistler",
-                    "name": "Alexander"
-                },
-                "text": " Kistler , Alexander , Taufkirchen , * 23.01.1966 ."
+                "text": " Kistler, Alexander, Taufkirchen, *23.01.1966."
             }
         ]
     }

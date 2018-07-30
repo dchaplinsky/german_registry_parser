@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Übach - Palenberg",
+                    "city": "Übach-Palenberg",
+                    "dismissed": true,
                     "dob": "1950-08-06",
                     "lastname": "Reinartz",
                     "name": "Heinz Peter"
                 },
-                "text": " Reinartz , Heinz Peter , Übach - Palenberg , * 08.06.1950 ."
+                "text": " Reinartz, Heinz Peter, Übach-Palenberg, *08.06.1950."
             }
         ]
     }

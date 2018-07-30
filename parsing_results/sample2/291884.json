@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Mönchengladbach",
+                    "dismissed": true,
                     "dob": "1977-07-02",
                     "lastname": "Oral",
                     "name": "Cansun"
                 },
-                "text": " Oral , Cansun , Mönchengladbach , * 07.02.1977 ."
+                "text": " Oral, Cansun, Mönchengladbach, *07.02.1977."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1978-01-20",
@@ -42,7 +43,7 @@
                     "lastname": "Soysever",
                     "name": "Aysel Nahid"
                 },
-                "text": " Soysever , Aysel Nahid , Hamburg , * 20.01.1978 , vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
+                "text": " Soysever, Aysel Nahid, Hamburg, *20.01.1978, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
             }
         ]
     }

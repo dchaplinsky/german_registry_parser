@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Schönenberg - Kübelberg",
+                    "city": "Schönenberg-Kübelberg",
+                    "dismissed": true,
                     "dob": "1949-03-30",
                     "lastname": "Hutzel",
                     "name": "Wolfgang"
                 },
-                "text": " Hutzel , Wolfgang , Schönenberg - Kübelberg , * 30.03.1949 ."
+                "text": " Hutzel, Wolfgang, Schönenberg-Kübelberg, *30.03.1949."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Homburg",
                     "dob": "1977-10-07",
@@ -36,7 +37,7 @@
                     "lastname": "Hutzel",
                     "name": "Tim"
                 },
-                "text": " Hutzel , Tim , Homburg , * 10.07.1977 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Hutzel, Tim, Homburg, *10.07.1977, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

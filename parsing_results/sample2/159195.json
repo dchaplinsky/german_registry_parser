@@ -19,31 +19,32 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Josef - Orlopp - Straße 89 , 10365 Berlin"
+                "text": " Josef-Orlopp-Straße 89, 10365 Berlin"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Wolfert",
                     "name": "Thomas"
                 },
-                "text": " Wolfert , Thomas"
+                "text": " Wolfert, Thomas"
             },
             {
                 "class": "ManagingDirector",
@@ -53,23 +54,16 @@
                     "lastname": "Weinrich",
                     "name": "Andreas"
                 },
-                "text": " Weinrich , Andreas , * 02.05.1970 , Bernau"
+                "text": " Weinrich, Andreas, *02.05.1970, Bernau"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Weinrich",
                     "name": "Andreas Detlef"
                 },
-                "text": " Weinrich , Andreas Detlef ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Nicht mehr Prokurist : Weinrich",
-                    "name": "Andreas Detlef"
-                },
-                "text": " Nicht mehr Prokurist : Weinrich , Andreas Detlef ."
+                "text": " Weinrich, Andreas Detlef."
             }
         ]
     }

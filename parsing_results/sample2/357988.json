@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Borner Stieg 32 , 22417 Hamburg ."
+                "text": " Borner Stieg 32, 22417 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Flensburg",
+                    "dismissed": true,
                     "dob": "1984-05-17",
                     "lastname": "Hollatz",
                     "name": "Benjamin"
                 },
-                "text": " Hollatz , Benjamin , Flensburg , * 17.05.1984 ."
+                "text": " Hollatz, Benjamin, Flensburg, *17.05.1984."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1997-09-16",
@@ -42,7 +43,7 @@
                     "lastname": "Schmidt",
                     "name": "Theresa Sophie"
                 },
-                "text": " Schmidt , Theresa Sophie , Hamburg , * 16.09.1997 , vertretungsberechtigt gemäß allgemeiner Vertretungsregelung ."
+                "text": " Schmidt, Theresa Sophie, Hamburg, *16.09.1997, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung."
             }
         ]
     }

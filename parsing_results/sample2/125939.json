@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " ABC - Straße 35 , 20354 Hamburg ."
+                "text": " ABC-Straße 35, 20354 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1956-01-29",
                     "lastname": "Lüders",
                     "name": "Reinhard Manuel"
                 },
-                "text": " Lüders , Reinhard Manuel , Hamburg , * 29.01.1956 ."
+                "text": " Lüders, Reinhard Manuel, Hamburg, *29.01.1956."
             }
         ]
     }

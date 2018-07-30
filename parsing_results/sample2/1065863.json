@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Fürth",
+                    "dismissed": true,
                     "dob": "1983-01-15",
                     "lastname": "Karakuzu",
                     "name": "Güven"
                 },
-                "text": " Karakuzu , Güven , Fürth , * 15.01.1983 ."
+                "text": " Karakuzu, Güven, Fürth, *15.01.1983."
             }
         ]
     }

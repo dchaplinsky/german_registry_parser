@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Doylestown / USA - Vereinigte Staaten",
                     "dob": "1958-07-30",
@@ -26,17 +26,18 @@
                     "lastname": "O'Brien",
                     "name": "Paul"
                 },
-                "text": " O'Brien , Paul , Doylestown / USA - Vereinigte Staaten , * 30.07.1958 , einzelvertretungsberechtigt ."
+                "text": " O'Brien, Paul, Doylestown / USA - Vereinigte Staaten, *30.07.1958, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Texas / USA - Vereinigte Staaten",
+                    "dismissed": true,
                     "dob": "1966-09-07",
                     "lastname": "Pledger",
                     "name": "Jonathan Mark"
                 },
-                "text": " Pledger , Jonathan Mark , Texas / USA - Vereinigte Staaten , * 09.07.1966 ."
+                "text": " Pledger, Jonathan Mark, Texas / USA - Vereinigte Staaten, *09.07.1966."
             }
         ]
     }

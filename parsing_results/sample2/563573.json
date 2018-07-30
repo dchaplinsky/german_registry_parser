@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Alling",
+                    "dismissed": true,
                     "dob": "1937-03-01",
                     "lastname": "Reynartz",
                     "name": "Anna Elisabeth"
                 },
-                "text": " Reynartz , Anna Elisabeth , Alling , * 03.01.1937 ."
+                "text": " Reynartz, Anna Elisabeth, Alling, *03.01.1937."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Gilching",
                     "dob": "1961-07-27",
                     "lastname": "Reynartz",
                     "name": "Armin"
                 },
-                "text": " Reynartz , Armin , Gilching , * 27.07.1961 ."
+                "text": " Reynartz, Armin, Gilching, *27.07.1961."
             }
         ]
     }

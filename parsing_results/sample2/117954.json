@@ -18,29 +18,30 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Jahnstraße 4 , 74889 Sinsheim ."
+                "text": " Jahnstraße 4, 74889 Sinsheim."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wahlenau",
+                    "dismissed": true,
                     "dob": "1964-02-15",
                     "lastname": "Everding",
                     "name": "Bernd"
                 },
-                "text": " Everding , Bernd , Wahlenau , * 15.02.1964 ."
+                "text": " Everding, Bernd, Wahlenau, *15.02.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Baumholder",
                     "dob": "1963-04-25",
@@ -48,7 +49,7 @@
                     "lastname": "Saar",
                     "name": "Gerhard"
                 },
-                "text": " Saar , Gerhard , Baumholder , * 25.04.1963 , einzelvertretungsberechtigt ."
+                "text": " Saar, Gerhard, Baumholder, *25.04.1963, einzelvertretungsberechtigt."
             }
         ]
     }

@@ -16,16 +16,23 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=52013&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Bien , Reinhold , Elektromeister , Ruppertsberg , * 23.08.1944, error text was Cannot parse DOB  Elektromeister  using regex"
-            }
-        ],
         "labels": [
             {
                 "label": "address",
-                "text": " Im hohen Acker 7 , 67146 Deidesheim ."
+                "text": " Im hohen Acker 7, 67146 Deidesheim."
+            }
+        ],
+        "officers": [
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Ruppertsberg",
+                    "dob": "1944-08-23",
+                    "lastname": "Bien",
+                    "name": "Reinhold",
+                    "position": "Elektromeister"
+                },
+                "text": " Bien, Reinhold, Elektromeister, Ruppertsberg, *23.08.1944"
             }
         ]
     }

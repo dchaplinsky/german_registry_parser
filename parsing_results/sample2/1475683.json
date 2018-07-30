@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Eisenhüttenstraße 27 A , 57074 Siegen ."
+                "text": " Eisenhüttenstraße 27 A, 57074 Siegen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Siegen",
+                    "dismissed": true,
                     "dob": "1945-01-03",
                     "lastname": "de Caluwé",
                     "name": "Iric"
                 },
-                "text": " de Caluwé , Iric , Siegen , * 01.03.1945 ."
+                "text": " de Caluwé, Iric, Siegen, *01.03.1945."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Siegen",
                     "dob": "1983-10-03",
@@ -42,7 +43,7 @@
                     "lastname": "Dornhöfer",
                     "name": "Sebastian"
                 },
-                "text": " Dornhöfer , Sebastian , Siegen , * 10.03.1983 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Dornhöfer, Sebastian, Siegen, *10.03.1983, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

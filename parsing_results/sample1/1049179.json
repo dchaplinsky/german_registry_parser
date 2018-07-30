@@ -18,14 +18,14 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Krefeld",
                     "dob": "1967-07-04",
-                    "lastname": "Dr . Kadelke",
+                    "lastname": "Doctor Kadelke",
                     "name": "Jan"
                 },
-                "text": " Dr . Kadelke , Jan , Krefeld , * 07.04.1967"
+                "text": " Doctor Kadelke, Jan, Krefeld, *07.04.1967"
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +35,7 @@
                     "lastname": "Krath",
                     "name": "Stefany"
                 },
-                "text": " Krath , Stefany , Köln , * 14.04.1966 ."
+                "text": " Krath, Stefany, Köln, *14.04.1966."
             }
         ]
     }

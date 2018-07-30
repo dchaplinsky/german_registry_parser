@@ -19,39 +19,41 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "Oberursel ( Taunus )",
+                    "city": "Oberursel (Taunus)",
                     "dob": "1961-10-08",
-                    "lastname": "Luick - Nijboer",
+                    "lastname": "Luick-Nijboer",
                     "name": "Susanne"
                 },
-                "text": " Luick - Nijboer , Susanne , Oberursel ( Taunus ) , * 10.08.1961"
+                "text": " Luick-Nijboer, Susanne, Oberursel (Taunus), *10.08.1961"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Königstein im Taunus",
+                    "dismissed": true,
                     "dob": "1972-04-03",
                     "lastname": "Levointurier",
                     "name": "Celine"
                 },
-                "text": " Levointurier , Celine , Königstein im Taunus , * 04.03.1972"
+                "text": " Levointurier, Celine, Königstein im Taunus, *04.03.1972"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Bad Homburg v . d . Höhe",
+                    "city": "Bad Homburg v. d. Höhe",
+                    "dismissed": true,
                     "dob": "1953-03-17",
                     "lastname": "Engelmann",
                     "name": "Oswald"
                 },
-                "text": " Engelmann , Oswald , Bad Homburg v . d . Höhe , * 17.03.1953 ."
+                "text": " Engelmann, Oswald, Bad Homburg v. d. Höhe, *17.03.1953."
             }
         ]
     }

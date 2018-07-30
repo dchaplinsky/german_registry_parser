@@ -19,27 +19,28 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Lausitzer Analytik GmbH Laboratorium für Umwelt und Brennstoffe ( LAG mbH ) , Spremberg , Südstraße 7 , 03130 Spremberg ."
+                "text": " Lausitzer Analytik GmbH Laboratorium für Umwelt und Brennstoffe (LAG mbH), Spremberg, Südstraße 7, 03130 Spremberg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Müller",
                     "name": "Claus"
                 },
-                "text": " Müller , Claus"
+                "text": " Müller, Claus"
             },
             {
                 "class": "Procuration",
                 "payload": {
                     "city": "Hoppegarten",
                     "dob": "1966-02-20",
-                    "lastname": "Änderung zu Nr . 1 : Pradel",
+                    "lastname": "Änderung zu Nr. 1: Pradel",
                     "name": "Karina"
                 },
-                "text": " Änderung zu Nr . 1 : Pradel , Karina , * 20.02.1966 , Hoppegarten"
+                "text": " Änderung zu Nr. 1: Pradel, Karina, *20.02.1966, Hoppegarten"
             }
         ]
     }

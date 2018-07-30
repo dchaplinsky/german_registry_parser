@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Quickborn",
                     "dob": "1980-11-08",
@@ -26,17 +26,18 @@
                     "lastname": "Michaela",
                     "name": "Krawutsche"
                 },
-                "text": " Michaela , Krawutsche , Quickborn , * 11.08.1980 , vertretungsberechtigt gemäß allgemeiner Vertretungsregelung ."
+                "text": " Michaela, Krawutsche, Quickborn, *11.08.1980, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1965-10-02",
-                    "lastname": "Dr . Becker",
+                    "lastname": "Doctor Becker",
                     "name": "Thomas"
                 },
-                "text": " Dr . Becker , Thomas , Hamburg , * 10.02.1965 ."
+                "text": " Doctor Becker, Thomas, Hamburg, *10.02.1965."
             }
         ]
     }

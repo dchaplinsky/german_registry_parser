@@ -19,11 +19,11 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Schöfferstraße 2 , 64295 Darmstadt ."
+                "text": " Schöfferstraße 2, 64295 Darmstadt."
             },
             {
                 "label": "address",
-                "text": " Kaiserstraße 11 , 24534 Neumünster ."
+                "text": " Kaiserstraße 11, 24534 Neumünster."
             }
         ],
         "officers": [
@@ -31,11 +31,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Neumünster",
+                    "dismissed": true,
                     "dob": "1977-11-24",
                     "lastname": "Friedrichsen",
                     "name": "Lars"
                 },
-                "text": " Friedrichsen , Lars , Neumünster , * 24.11.1977 ."
+                "text": " Friedrichsen, Lars, Neumünster, *24.11.1977."
             }
         ]
     }

@@ -16,32 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=274543&land_abk=ni"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Vechta",
                     "dob": "1974-05-26",
-                    "lastname": "Dr . Willwerth",
+                    "lastname": "Doctor Willwerth",
                     "name": "Michael"
                 },
-                "text": " Dr . Willwerth , Michael , Vechta , * 26.05.1974 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Vechta",
-                    "dob": "1974-05-26",
-                    "lastname": "Dr . Willwerth",
-                    "name": "Michael"
-                },
-                "text": " Dr . Willwerth , Michael , Vechta , * 26.05.1974 ."
+                "text": " Doctor Willwerth, Michael, Vechta, *26.05.1974."
             }
         ]
     }

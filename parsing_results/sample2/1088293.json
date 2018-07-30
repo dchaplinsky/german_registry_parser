@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Bad Neuenahr - Ahrweiler",
+                    "city": "Bad Neuenahr-Ahrweiler",
+                    "dismissed": true,
                     "dob": "1970-10-28",
                     "lastname": "Prüter",
                     "name": "Dirk"
                 },
-                "text": " Prüter , Dirk , Bad Neuenahr - Ahrweiler , * 28.10.1970 ."
+                "text": " Prüter, Dirk, Bad Neuenahr-Ahrweiler, *28.10.1970."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Monheim",
                     "dob": "1971-06-07",
@@ -36,7 +37,7 @@
                     "lastname": "Zetzmann",
                     "name": "Sascha Paul"
                 },
-                "text": " Zetzmann , Sascha Paul , Monheim , * 06.07.1971 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Zetzmann, Sascha Paul, Monheim, *06.07.1971, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

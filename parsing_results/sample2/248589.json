@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Marl",
+                    "dismissed": true,
                     "dob": "1953-06-09",
                     "lastname": "Lange",
                     "name": "Christel geborene Weniger"
                 },
-                "text": " Lange , Christel geborene Weniger , Marl , * 06.09.1953 ."
+                "text": " Lange, Christel geborene Weniger, Marl, *06.09.1953."
             },
             {
                 "class": "ManagingDirector",
@@ -35,7 +36,7 @@
                     "lastname": "Demond",
                     "name": "Wolfgang"
                 },
-                "text": " Demond , Wolfgang , Dorsten , * 20.06.1960 ."
+                "text": " Demond, Wolfgang, Dorsten, *20.06.1960."
             }
         ]
     }

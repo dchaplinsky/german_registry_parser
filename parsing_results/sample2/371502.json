@@ -16,16 +16,10 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=371502&land_abk=bw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Benzinger , Manfred , Kaufmann , Bad Wurzach , * 05.01.1955 ., error text was Cannot parse DOB  Kaufmann  using regex"
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -38,7 +32,19 @@
                     "lastname": "Fink",
                     "name": "Sieglinde"
                 },
-                "text": " Fink , Sieglinde , Wolfegg , * 09.07.1956 , einzelvertretungsberechtigt ."
+                "text": " Fink, Sieglinde, Wolfegg, *09.07.1956, einzelvertretungsberechtigt."
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Bad Wurzach",
+                    "dismissed": true,
+                    "dob": "1955-05-01",
+                    "lastname": "Benzinger",
+                    "name": "Manfred",
+                    "position": "Kaufmann"
+                },
+                "text": " Benzinger, Manfred, Kaufmann, Bad Wurzach, *05.01.1955."
             }
         ]
     }

@@ -25,17 +25,18 @@
                     "lastname": "Bakker",
                     "name": "Thijs"
                 },
-                "text": " Bakker , Thijs , Singapore / Singapur , * 06.07.1974"
+                "text": " Bakker, Thijs, Singapore / Singapur, *06.07.1974"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wiesbaden",
+                    "dismissed": true,
                     "dob": "1959-08-28",
                     "lastname": "Hollenhorst",
                     "name": "Martin"
                 },
-                "text": " Hollenhorst , Martin , Wiesbaden , * 28.08.1959 ."
+                "text": " Hollenhorst, Martin, Wiesbaden, *28.08.1959."
             },
             {
                 "class": "CommonProcuration",
@@ -45,7 +46,7 @@
                     "lastname": "von Deylen",
                     "name": "Jörg"
                 },
-                "text": " von Deylen , Jörg , Meerbusch , * 09.05.1978 ."
+                "text": " von Deylen, Jörg, Meerbusch, *09.05.1978."
             }
         ]
     }

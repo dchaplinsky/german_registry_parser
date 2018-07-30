@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Druten / Niederlande",
+                    "city": "Druten/Niederlande",
+                    "dismissed": true,
                     "dob": "1965-08-08",
                     "lastname": "Bolster",
                     "name": "Bernardus Johannes"
                 },
-                "text": " Bolster , Bernardus Johannes , Druten / Niederlande , * 08.08.1965 ."
+                "text": " Bolster, Bernardus Johannes, Druten/Niederlande, *08.08.1965."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Zutphen / Niederlande",
                     "dob": "1954-09-03",
@@ -36,7 +37,7 @@
                     "lastname": "Koeze",
                     "name": "Benjamin"
                 },
-                "text": " Koeze , Benjamin , Zutphen / Niederlande , * 09.03.1954 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Koeze, Benjamin, Zutphen / Niederlande, *09.03.1954, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

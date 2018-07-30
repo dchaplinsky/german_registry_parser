@@ -19,29 +19,31 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Gögginger Straße 94 , 86199 Augsburg ."
+                "text": " Gögginger Straße 94, 86199 Augsburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Augsburg",
+                    "dismissed": true,
                     "dob": "1968-05-21",
                     "lastname": "Wieland",
                     "name": "Robert Rudolf"
                 },
-                "text": " Wieland , Robert Rudolf , Augsburg , * 21.05.1968 ."
+                "text": " Wieland, Robert Rudolf, Augsburg, *21.05.1968."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Oberstreu",
+                    "dismissed": true,
                     "dob": "1963-05-28",
                     "lastname": "Zernentsch",
                     "name": "Klaus"
                 },
-                "text": " Zernentsch , Klaus , Oberstreu , * 28.05.1963 ."
+                "text": " Zernentsch, Klaus, Oberstreu, *28.05.1963."
             }
         ]
     }

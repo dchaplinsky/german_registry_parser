@@ -19,47 +19,50 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "dob": "1957-10-15",
                     "lastname": "Goldbrunner",
                     "name": "Christian"
                 },
-                "text": " Goldbrunner , Christian , * 15.10.1957"
+                "text": " Goldbrunner, Christian, *15.10.1957"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Pöcking",
+                    "dismissed": true,
                     "lastname": "Kirberg",
                     "name": "Ralf",
                     "position": "Bankkaufmann"
                 },
-                "text": " Kirberg , Ralf , Bankkaufmann , Pöcking"
+                "text": " Kirberg, Ralf, Bankkaufmann, Pöcking"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Starnberg",
+                    "dismissed": true,
                     "lastname": "Guske",
                     "name": "Manfred"
                 },
-                "text": " Guske , Manfred , Starnberg ."
+                "text": " Guske, Manfred, Starnberg."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Penzberg",
+                    "dismissed": true,
                     "dob": "1957-10-15",
                     "lastname": "Goldbrunner",
                     "name": "Christian"
                 },
-                "text": " Goldbrunner , Christian , Penzberg , * 15.10.1957 ."
+                "text": " Goldbrunner, Christian, Penzberg, *15.10.1957."
             }
         ]
     }

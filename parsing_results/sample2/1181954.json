@@ -18,24 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Witten",
+                    "dismissed": true,
                     "dob": "1966-05-17",
                     "lastname": "Prior",
                     "name": "Thorsten"
                 },
-                "text": " Prior , Thorsten , Witten , * 17.05.1966 ."
+                "text": " Prior, Thorsten, Witten, *17.05.1966."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Schalksmühle",
+                    "dismissed": true,
                     "dob": "1970-04-20",
                     "lastname": "Wollweber",
                     "name": "Dirk Klaus"
                 },
-                "text": " Wollweber , Dirk Klaus , Schalksmühle , * 20.04.1970 ."
+                "text": " Wollweber, Dirk Klaus, Schalksmühle, *20.04.1970."
             }
         ]
     }

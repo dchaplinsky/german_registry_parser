@@ -16,20 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=299740&land_abk=he"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a SingleProcuration from  Dr ., error text was a person without DOB, number of chunks: 1"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Procuration from  Dr ., error text was a person without DOB, number of chunks: 1"
-            }
-        ],
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dob": "1972-06-04",
+                    "lastname": "Doctor Fuhr",
+                    "name": "Thomas"
+                },
+                "text": " Doctor Fuhr, Thomas, Frankfurt am Main, *06.04.1972."
             }
         ]
     }

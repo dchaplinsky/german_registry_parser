@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Ochtruper Str ."
+                "text": " Ochtruper Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Nordhorn",
+                    "dismissed": true,
                     "dob": "1953-07-23",
                     "lastname": "Spering",
                     "name": "Marianne"
                 },
-                "text": " Spering , Marianne , Nordhorn , * 23.07.1953 ."
+                "text": " Spering, Marianne, Nordhorn, *23.07.1953."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Nordhorn",
                     "dob": "1975-08-29",
                     "flag": "sole representation",
                     "lastname": "Diederichs",
-                    "name": "Jan - Christian"
+                    "name": "Jan-Christian"
                 },
-                "text": " Diederichs , Jan - Christian , Nordhorn , * 29.08.1975 , einzelvertretungsberechtigt"
+                "text": " Diederichs, Jan-Christian, Nordhorn, *29.08.1975, einzelvertretungsberechtigt"
             }
         ]
     }

@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Am Räsenberg 3 , 29456 Hitzacker ."
+                "text": " Am Räsenberg 3, 29456 Hitzacker."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Luxembourg / Luxemburg",
                     "dob": "1970-12-14",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Thome",
                     "name": "Frank"
                 },
-                "text": " Thome , Frank , Luxembourg / Luxemburg , * 14.12.1970 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Thome, Frank, Luxembourg / Luxemburg, *14.12.1970, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Tübingen",
+                    "dismissed": true,
                     "dob": "1973-04-19",
-                    "lastname": "Dr . Lüdtke",
+                    "lastname": "Doctor Lüdtke",
                     "name": "Arndt"
                 },
-                "text": " Dr . Lüdtke , Arndt , Tübingen , * 19.04.1973 ."
+                "text": " Doctor Lüdtke, Arndt, Tübingen, *19.04.1973."
             }
         ]
     }

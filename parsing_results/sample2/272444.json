@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Mitterteich",
+                    "dismissed": true,
                     "dob": "1957-08-02",
                     "lastname": "Lößl",
                     "name": "Herbert"
                 },
-                "text": " Lößl , Herbert , Mitterteich , * 08.02.1957 ."
+                "text": " Lößl, Herbert, Mitterteich, *08.02.1957."
             }
         ]
     }

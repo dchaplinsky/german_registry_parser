@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kranenburg",
+                    "dismissed": true,
                     "dob": "1964-02-03",
                     "lastname": "Vogt",
                     "name": "Rainer Paul"
                 },
-                "text": " Vogt , Rainer Paul , Kranenburg , * 02.03.1964 ."
+                "text": " Vogt, Rainer Paul, Kranenburg, *02.03.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Grefrath",
                     "dob": "1951-10-22",
@@ -36,17 +37,18 @@
                     "lastname": "Konnen",
                     "name": "Helmut Wilhelm Hermann"
                 },
-                "text": " Konnen , Helmut Wilhelm Hermann , Grefrath , * 22.10.1951 , einzelvertretungsberechtigt ."
+                "text": " Konnen, Helmut Wilhelm Hermann, Grefrath, *22.10.1951, einzelvertretungsberechtigt."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Grefrath",
+                    "dismissed": true,
                     "dob": "1951-10-22",
                     "lastname": "Konnen",
                     "name": "Helmut"
                 },
-                "text": " Konnen , Helmut , Grefrath , * 22.10.1951 ."
+                "text": " Konnen, Helmut, Grefrath, *22.10.1951."
             }
         ]
     }

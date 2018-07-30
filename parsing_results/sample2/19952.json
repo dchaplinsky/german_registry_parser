@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Meerbusch",
+                    "dismissed": true,
                     "dob": "1947-11-10",
                     "lastname": "Peltzer",
                     "name": "Rolf"
                 },
-                "text": " Peltzer , Rolf , Meerbusch , * 11.10.1947 ."
+                "text": " Peltzer, Rolf, Meerbusch, *11.10.1947."
             }
         ]
     }

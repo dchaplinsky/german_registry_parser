@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=422721&land_abk=ni"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Nordholz",
                     "name": "Elvira"
                 },
-                "text": " Nordholz , Elvira , Oldenburg , * 02.08.1959 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Oldenburg",
-                    "dob": "1959-02-08",
-                    "lastname": "Nordholz",
-                    "name": "Elvira"
-                },
-                "text": " Nordholz , Elvira , Oldenburg , * 02.08.1959 ."
+                "text": " Nordholz, Elvira, Oldenburg, *02.08.1959."
             }
         ]
     }

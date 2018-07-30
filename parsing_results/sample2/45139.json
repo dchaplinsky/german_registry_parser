@@ -19,26 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hürth",
+                    "dismissed": true,
                     "dob": "1971-09-19",
-                    "lastname": "Dr . Häp",
+                    "lastname": "Doctor Häp",
                     "name": "Markus"
                 },
-                "text": " Dr . Häp , Markus , Hürth , * 19.09.1971 ."
+                "text": " Doctor Häp, Markus, Hürth, *19.09.1971."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1960-07-20",
@@ -46,7 +43,7 @@
                     "lastname": "Eberle",
                     "name": "Marc"
                 },
-                "text": " Eberle , Marc , Hamburg , * 20.07.1960 , einzelvertretungsberechtigt"
+                "text": " Eberle, Marc, Hamburg, *20.07.1960, einzelvertretungsberechtigt"
             },
             {
                 "class": "SingleProcuration",
@@ -56,17 +53,7 @@
                     "lastname": "Tilmes",
                     "name": "Jörg"
                 },
-                "text": " Tilmes , Jörg , Reinbek , * 20.03.1961 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Reinbek",
-                    "dob": "1961-03-20",
-                    "lastname": "Tilmes",
-                    "name": "Jörg"
-                },
-                "text": " Tilmes , Jörg , Reinbek , * 20.03.1961 ."
+                "text": " Tilmes, Jörg, Reinbek, *20.03.1961."
             }
         ]
     }

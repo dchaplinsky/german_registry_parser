@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1960-01-13",
                     "lastname": "Koopmann",
                     "name": "Maria"
                 },
-                "text": " Koopmann , Maria , Hamburg , * 13.01.1960 ."
+                "text": " Koopmann, Maria, Hamburg, *13.01.1960."
             }
         ]
     }

@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Weilmünster",
+                    "dismissed": true,
                     "dob": "1954-10-01",
                     "lastname": "Herrmann",
                     "name": "Klaus"
                 },
-                "text": " Herrmann , Klaus , Weilmünster , * 10.01.1954 ."
+                "text": " Herrmann, Klaus, Weilmünster, *10.01.1954."
             },
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "Dannstadt - Schauernheim",
+                    "city": "Dannstadt-Schauernheim",
                     "dob": "1926-04-16",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Arnold",
                     "name": "Karl"
                 },
-                "text": " Arnold , Karl , Dannstadt - Schauernheim , * 16.04.1926 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Arnold, Karl, Dannstadt-Schauernheim, *16.04.1926, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

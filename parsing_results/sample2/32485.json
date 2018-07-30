@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=32485&land_abk=st"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Fricke",
                     "name": "Andreas"
                 },
-                "text": " Fricke , Andreas , Lutherstadt Wittenberg , * 01.11.1974"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Lutherstadt Wittenberg",
-                    "dob": "1974-01-11",
-                    "lastname": "Fricke",
-                    "name": "Andreas"
-                },
-                "text": " Fricke , Andreas , Lutherstadt Wittenberg , * 01.11.1974"
+                "text": " Fricke, Andreas, Lutherstadt Wittenberg, *01.11.1974"
             }
         ]
     }

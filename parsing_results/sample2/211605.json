@@ -19,17 +19,18 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Grube",
                     "name": "Jürgen"
                 },
-                "text": " Grube , Jürgen"
+                "text": " Grube, Jürgen"
             },
             {
                 "class": "ManagingDirector",
@@ -39,7 +40,7 @@
                     "lastname": "Schumann",
                     "name": "Dirk"
                 },
-                "text": " Schumann , Dirk , * 16.08.1969 , Selmsdorf"
+                "text": " Schumann, Dirk, *16.08.1969, Selmsdorf"
             }
         ]
     }

@@ -18,12 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
+                    "city": "Bolanden",
+                    "dob": "1985-04-12",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Schil",
-                    "name": "Inna geb"
+                    "name": "Inna geborene Schendel"
                 },
-                "text": " Schil , Inna geb ."
+                "text": " Schil, Inna geborene Schendel, Bolanden, *04.12.1985, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

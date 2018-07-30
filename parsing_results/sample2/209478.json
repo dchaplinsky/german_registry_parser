@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Engelsberg",
+                    "dismissed": true,
                     "dob": "1965-12-05",
                     "lastname": "Abel",
                     "name": "Hermann"
                 },
-                "text": " Abel , Hermann , Engelsberg , * 12.05.1965 ."
+                "text": " Abel, Hermann, Engelsberg, *12.05.1965."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Regensburg",
                     "dob": "1968-02-14",
@@ -36,7 +37,7 @@
                     "lastname": "Stockel",
                     "name": "Wilhelm"
                 },
-                "text": " Stockel , Wilhelm , Regensburg , * 14.02.1968 , einzelvertretungsberechtigt ."
+                "text": " Stockel, Wilhelm, Regensburg, *14.02.1968, einzelvertretungsberechtigt."
             }
         ]
     }

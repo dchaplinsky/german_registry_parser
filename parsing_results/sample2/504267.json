@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=504267&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1984-08-03",
                     "lastname": "Balint",
                     "name": "Karoly"
                 },
-                "text": " Balint , Karoly , München , * 08.03.1984 ."
+                "text": " Balint, Karoly, München, *08.03.1984."
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +36,7 @@
                     "lastname": "Arnold",
                     "name": "Alexandra"
                 },
-                "text": " Arnold , Alexandra , Weilheim , * 30.08.1977 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Weilheim",
-                    "dob": "1977-08-30",
-                    "lastname": "Arnold",
-                    "name": "Alexandra"
-                },
-                "text": " Arnold , Alexandra , Weilheim , * 30.08.1977 ."
+                "text": " Arnold, Alexandra, Weilheim, *30.08.1977."
             }
         ]
     }

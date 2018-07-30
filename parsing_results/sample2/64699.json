@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Leipzig",
+                    "dismissed": true,
                     "dob": "1974-01-09",
                     "lastname": "Friedrich",
                     "name": "Claudia"
                 },
-                "text": " Friedrich , Claudia , Leipzig , * 01.09.1974 ."
+                "text": " Friedrich, Claudia, Leipzig, *01.09.1974."
             }
         ]
     }

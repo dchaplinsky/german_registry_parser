@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Lienen",
+                    "dismissed": true,
                     "dob": "1935-04-27",
                     "lastname": "Dierk",
                     "name": "Günther"
                 },
-                "text": " Dierk , Günther , Lienen , * 27.04.1935 ."
+                "text": " Dierk, Günther, Lienen, *27.04.1935."
             }
         ]
     }

@@ -18,32 +18,34 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Altdorf",
                     "dob": "1964-01-26",
                     "lastname": "Reiter",
                     "name": "Georg"
                 },
-                "text": " Reiter , Georg , Altdorf , * 26.01.1964"
+                "text": " Reiter, Georg, Altdorf, *26.01.1964"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Korschenbroich",
+                    "dismissed": true,
                     "lastname": "Niklas",
                     "name": "Willy"
                 },
-                "text": " Niklas , Willy , Korschenbroich ."
+                "text": " Niklas, Willy, Korschenbroich."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Mönchengladbach",
+                    "dismissed": true,
                     "lastname": "Niklas",
                     "name": "Ursula"
                 },
-                "text": " Niklas , Ursula , Mönchengladbach ."
+                "text": " Niklas, Ursula, Mönchengladbach."
             }
         ]
     }

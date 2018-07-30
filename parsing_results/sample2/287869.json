@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Limbecker Platz 1 a , EKZ Limbecker Platz Essen , 45127 Essen ."
+                "text": " Limbecker Platz 1a, EKZ Limbecker Platz Essen, 45127 Essen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1976-07-22",
                     "lastname": "Nezam",
                     "name": "Khaled"
                 },
-                "text": " Nezam , Khaled , Hamburg , * 22.07.1976 ."
+                "text": " Nezam, Khaled, Hamburg, *22.07.1976."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1981-10-15",
@@ -48,7 +49,7 @@
                     "lastname": "Heder",
                     "name": "Ramin Gullam"
                 },
-                "text": " Heder , Ramin Gullam , Hamburg , * 15.10.1981 , einzelvertretungsberechtigt"
+                "text": " Heder, Ramin Gullam, Hamburg, *15.10.1981, einzelvertretungsberechtigt"
             }
         ]
     }

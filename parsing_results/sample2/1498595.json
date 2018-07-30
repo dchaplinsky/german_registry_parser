@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1498595&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wallenhorst",
+                    "dismissed": true,
                     "dob": "1943-03-20",
                     "lastname": "Rothlübbers",
                     "name": "Josef"
                 },
-                "text": " Rothlübbers , Josef , Wallenhorst , * 20.03.1943"
+                "text": " Rothlübbers, Josef, Wallenhorst, *20.03.1943"
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +36,7 @@
                     "lastname": "Schleitzer",
                     "name": "Marco"
                 },
-                "text": " Schleitzer , Marco , Elze , * 31.05.1971 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Elze",
-                    "dob": "1971-05-31",
-                    "lastname": "Schleitzer",
-                    "name": "Marco"
-                },
-                "text": " Schleitzer , Marco , Elze , * 31.05.1971 ."
+                "text": " Schleitzer, Marco, Elze, *31.05.1971."
             }
         ]
     }

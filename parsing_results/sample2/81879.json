@@ -19,26 +19,22 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " August - Bebel - Str ."
+                "text": " August-Bebel-Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bördeaue OT Unseburg",
                     "dob": "1970-02-22",
@@ -46,27 +42,28 @@
                     "lastname": "Boose",
                     "name": "Simone"
                 },
-                "text": " Boose , Simone , Bördeaue OT Unseburg , * 22.02.1970 , einzelvertretungsberechtigt"
+                "text": " Boose, Simone, Bördeaue OT Unseburg, *22.02.1970, einzelvertretungsberechtigt"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "einzelvertretungsberechtigt",
                     "lastname": "Boos",
-                    "name": "Franz - Christian",
+                    "name": "Franz-Christian",
                     "position": "Bördeaue OT Unseburg"
                 },
-                "text": " Boos , Franz - Christian , Bördeaue OT Unseburg , einzelvertretungsberechtigt"
+                "text": " Boos, Franz-Christian, Bördeaue OT Unseburg, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Dorsten",
+                    "dismissed": true,
                     "dob": "1929-12-17",
                     "lastname": "Boos",
-                    "name": "Franz - Friedrich"
+                    "name": "Franz-Friedrich"
                 },
-                "text": " Boos , Franz - Friedrich , Dorsten , * 17.12.1929 ."
+                "text": " Boos, Franz-Friedrich, Dorsten, *17.12.1929."
             },
             {
                 "class": "SingleProcuration",
@@ -76,17 +73,7 @@
                     "lastname": "Wolf",
                     "name": "Birgit"
                 },
-                "text": " Wolf , Birgit , Bördeaue OT Tarthun , * 18.03.1958 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Bördeaue OT Tarthun",
-                    "dob": "1958-03-18",
-                    "lastname": "Wolf",
-                    "name": "Birgit"
-                },
-                "text": " Wolf , Birgit , Bördeaue OT Tarthun , * 18.03.1958 ."
+                "text": " Wolf, Birgit, Bördeaue OT Tarthun, *18.03.1958."
             }
         ]
     }

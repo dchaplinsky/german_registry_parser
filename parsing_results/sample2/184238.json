@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Kranbergstrasse 34 , 26123 Oldenburg ."
+                "text": " Kranbergstrasse 34, 26123 Oldenburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Edemissen",
+                    "dismissed": true,
                     "dob": "1972-07-14",
                     "lastname": "Kieseleit",
                     "name": "Arvid"
                 },
-                "text": " Kieseleit , Arvid , Edemissen , * 14.07.1972 ."
+                "text": " Kieseleit, Arvid, Edemissen, *14.07.1972."
             }
         ]
     }

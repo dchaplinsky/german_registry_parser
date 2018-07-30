@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Oelder Str ."
+                "text": " Oelder Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Saarbrücken",
                     "dob": "1979-09-01",
                     "lastname": "Rehberger",
                     "name": "Patrick"
                 },
-                "text": " Rehberger , Patrick , Saarbrücken , * 09.01.1979 ."
+                "text": " Rehberger, Patrick, Saarbrücken, *09.01.1979."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Ennigerloh",
+                    "dismissed": true,
                     "dob": "1973-02-27",
                     "lastname": "Yigit",
                     "name": "Genco"
                 },
-                "text": " Yigit , Genco , Ennigerloh , * 27.02.1973 ."
+                "text": " Yigit, Genco, Ennigerloh, *27.02.1973."
             }
         ]
     }

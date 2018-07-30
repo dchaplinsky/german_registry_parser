@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=557185&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Schulte",
                     "name": "Uwe"
                 },
-                "text": " Schulte , Uwe , Paderborn , * 30.12.1970 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Paderborn",
-                    "dob": "1970-12-30",
-                    "lastname": "Schulte",
-                    "name": "Uwe"
-                },
-                "text": " Schulte , Uwe , Paderborn , * 30.12.1970 ."
+                "text": " Schulte, Uwe, Paderborn, *30.12.1970."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=351846&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Deiml",
                     "name": "Michael"
                 },
-                "text": " Deiml , Michael , Hersbruck , * 12.02.1968 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hersbruck",
-                    "dob": "1968-12-02",
-                    "lastname": "Deiml",
-                    "name": "Michael"
-                },
-                "text": " Deiml , Michael , Hersbruck , * 12.02.1968 ."
+                "text": " Deiml, Michael, Hersbruck, *12.02.1968."
             }
         ]
     }

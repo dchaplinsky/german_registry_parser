@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Mörsenbroicher Weg 191 , 40470 Düsseldorf ."
+                "text": " Mörsenbroicher Weg 191, 40470 Düsseldorf."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1995-07-13",
                     "lastname": "Kinzel",
                     "name": "Mike"
                 },
-                "text": " Kinzel , Mike , Düsseldorf , * 13.07.1995 ."
+                "text": " Kinzel, Mike, Düsseldorf, *13.07.1995."
             }
         ]
     }

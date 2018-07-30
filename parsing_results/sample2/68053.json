@@ -19,17 +19,13 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Lindenstraße 1 , 02923 Kodersdorf ."
+                "text": " Lindenstraße 1, 02923 Kodersdorf."
             }
         ],
         "officers": [
@@ -41,7 +37,7 @@
                     "lastname": "Bartoschek",
                     "name": "Herbert"
                 },
-                "text": " Bartoschek , Herbert , Herne , * 18.03.1942"
+                "text": " Bartoschek, Herbert, Herne, *18.03.1942"
             },
             {
                 "class": "SingleProcuration",
@@ -51,17 +47,7 @@
                     "lastname": "Beyer",
                     "name": "Claudia"
                 },
-                "text": " Beyer , Claudia , Görlitz , * 01.06.1970 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Görlitz",
-                    "dob": "1970-01-06",
-                    "lastname": "Beyer",
-                    "name": "Claudia"
-                },
-                "text": " Beyer , Claudia , Görlitz , * 01.06.1970 ."
+                "text": " Beyer, Claudia, Görlitz, *01.06.1970."
             }
         ]
     }

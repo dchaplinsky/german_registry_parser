@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Ziegelstr ."
+                "text": " Ziegelstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Coswig",
+                    "dismissed": true,
                     "dob": "1947-10-09",
                     "lastname": "Schreiber",
                     "name": "Roland"
                 },
-                "text": " Schreiber , Roland , Coswig , * 10.09.1947 ."
+                "text": " Schreiber, Roland, Coswig, *10.09.1947."
             }
         ]
     }

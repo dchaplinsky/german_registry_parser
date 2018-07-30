@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Affalterbach",
+                    "dismissed": true,
                     "dob": "1966-06-27",
                     "lastname": "Krämer",
                     "name": "Zoran"
                 },
-                "text": " Krämer , Zoran , Affalterbach , * 27.06.1966 ."
+                "text": " Krämer, Zoran, Affalterbach, *27.06.1966."
             }
         ]
     }

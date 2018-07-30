@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hille",
+                    "dismissed": true,
                     "dob": "1960-04-03",
                     "lastname": "Meinert",
                     "name": "Heinrich"
                 },
-                "text": " Meinert , Heinrich , Hille , * 04.03.1960 ."
+                "text": " Meinert, Heinrich, Hille, *04.03.1960."
             }
         ]
     }

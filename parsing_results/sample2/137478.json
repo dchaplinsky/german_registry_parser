@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1959-10-24",
                     "lastname": "Fritzen",
                     "name": "Christian"
                 },
-                "text": " Fritzen , Christian , Düsseldorf , * 24.10.1959 ."
+                "text": " Fritzen, Christian, Düsseldorf, *24.10.1959."
             }
         ]
     }

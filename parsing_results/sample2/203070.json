@@ -18,23 +18,24 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Weinstadt",
                     "dob": "1972-06-07",
                     "lastname": "Bandmann",
                     "name": "Anthony"
                 },
-                "text": " Bandmann , Anthony , Weinstadt , * 06.07.1972 ."
+                "text": " Bandmann, Anthony, Weinstadt, *06.07.1972."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Braunschweig",
+                    "dismissed": true,
                     "lastname": "Busse",
                     "name": "Henning"
                 },
-                "text": " Busse , Henning , Braunschweig ."
+                "text": " Busse, Henning, Braunschweig."
             }
         ]
     }

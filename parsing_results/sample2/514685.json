@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Eberdingen",
                     "dob": "1971-11-05",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Ernst",
                     "name": "Wolfgang"
                 },
-                "text": " Ernst , Wolfgang , Eberdingen , * 11.05.1971 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Ernst, Wolfgang, Eberdingen, *11.05.1971, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Leonberg",
+                    "dismissed": true,
                     "dob": "1953-01-29",
                     "lastname": "Luz",
                     "name": "Werner"
                 },
-                "text": " Luz , Werner , Leonberg , * 29.01.1953 ."
+                "text": " Luz, Werner, Leonberg, *29.01.1953."
             }
         ]
     }

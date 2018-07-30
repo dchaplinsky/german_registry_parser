@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mönchengladbach",
+                    "dismissed": true,
                     "dob": "1965-07-30",
                     "lastname": "Graf",
                     "name": "Ursula Anna"
                 },
-                "text": " Graf , Ursula Anna , Mönchengladbach , * 30.07.1965"
+                "text": " Graf, Ursula Anna, Mönchengladbach, *30.07.1965"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Köln",
                     "dob": "1964-10-30",
@@ -36,7 +37,7 @@
                     "lastname": "Elbert",
                     "name": "Bernd"
                 },
-                "text": " Elbert , Bernd , Köln , * 30.10.1964 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Elbert, Bernd, Köln, *30.10.1964, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

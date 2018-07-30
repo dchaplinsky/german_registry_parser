@@ -19,30 +19,31 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Esslinger Str ."
+                "text": " Esslinger Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wien / Österreich",
                     "dob": "1983-08-08",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Schwarzgorn",
                     "name": "Mark"
                 },
-                "text": " Schwarzgorn , Mark , Wien / Österreich , * 08.08.1983 , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schwarzgorn, Mark, Wien / Österreich, *08.08.1983, mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
+                    "dismissed": true,
                     "dob": "1966-06-16",
                     "lastname": "Kolb",
                     "name": "Volker"
                 },
-                "text": " Kolb , Volker , Stuttgart , * 16.06.1966 ."
+                "text": " Kolb, Volker, Stuttgart, *16.06.1966."
             }
         ]
     }

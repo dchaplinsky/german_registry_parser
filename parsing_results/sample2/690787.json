@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Schönberg",
+                    "dismissed": true,
                     "dob": "1962-11-24",
                     "lastname": "Kern",
                     "name": "Karl Heinz"
                 },
-                "text": " Kern , Karl Heinz , Schönberg , * 24.11.1962 ."
+                "text": " Kern, Karl Heinz, Schönberg, *24.11.1962."
             }
         ]
     }

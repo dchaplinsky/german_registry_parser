@@ -18,41 +18,42 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Sundgaustraße 5 , 89537 Giengen an der Brenz ."
+                "text": " Sundgaustraße 5, 89537 Giengen an der Brenz."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Heiningen",
                     "dob": "1967-05-04",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Holzhäuer",
                     "name": "Thomas"
                 },
-                "text": " Holzhäuer , Thomas , Heiningen , * 05.04.1967 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Holzhäuer, Thomas, Heiningen, *05.04.1967, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "Liquidator",
+                "class": "NotALiquidator",
                 "payload": {
                     "city": "Esslingen am Neckar",
+                    "dismissed": true,
                     "dob": "1971-02-26",
-                    "lastname": "Hettich",
+                    "lastname": ": Hettich",
                     "name": "Michael"
                 },
-                "text": " Hettich , Michael , Esslingen am Neckar , * 26.02.1971 ."
+                "text": ": Hettich, Michael, Esslingen am Neckar, *26.02.1971."
             }
         ]
     }

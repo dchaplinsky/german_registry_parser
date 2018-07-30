@@ -18,15 +18,16 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Parrigin",
                     "name": "Michael"
                 },
-                "text": " Parrigin , Michael ."
+                "text": " Parrigin, Michael."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Niederroden",
                     "dob": "1965-11-10",
@@ -34,7 +35,7 @@
                     "lastname": "Gärtner",
                     "name": "Thomas"
                 },
-                "text": " Gärtner , Thomas , Niederroden , * 11.10.1965 , einzelvertretungsberechtigt ."
+                "text": " Gärtner, Thomas, Niederroden, *11.10.1965, einzelvertretungsberechtigt."
             }
         ]
     }

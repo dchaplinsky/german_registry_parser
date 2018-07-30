@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Alzey",
                     "dob": "1964-09-25",
@@ -26,17 +26,18 @@
                     "lastname": "Özdemir",
                     "name": "Fuat"
                 },
-                "text": " Özdemir , Fuat , Alzey , * 25.09.1964 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Özdemir, Fuat, Alzey, *25.09.1964, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wörrstadt",
+                    "dismissed": true,
                     "dob": "1983-05-21",
                     "lastname": "Günesdogdu",
                     "name": "Gülbahar"
                 },
-                "text": " Günesdogdu , Gülbahar , Wörrstadt , * 21.05.1983 ."
+                "text": " Günesdogdu, Gülbahar, Wörrstadt, *21.05.1983."
             }
         ]
     }

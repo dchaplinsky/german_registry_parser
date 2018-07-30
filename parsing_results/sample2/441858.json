@@ -16,32 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=441858&land_abk=ni"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Münster",
                     "dob": "1983-09-19",
-                    "lastname": "Dr . Wistuba",
+                    "lastname": "Doctor Wistuba",
                     "name": "Martin"
                 },
-                "text": " Dr . Wistuba , Martin , Münster , * 19.09.1983 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Münster",
-                    "dob": "1983-09-19",
-                    "lastname": "Dr . Wistuba",
-                    "name": "Martin"
-                },
-                "text": " Dr . Wistuba , Martin , Münster , * 19.09.1983 ."
+                "text": " Doctor Wistuba, Martin, Münster, *19.09.1983."
             }
         ]
     }

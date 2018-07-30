@@ -19,25 +19,18 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Atlantik Hafenbetriebe Geuther & Schnitger GmbH & Co ."
+                "text": " Atlantik Hafenbetriebe Geuther & Schnitger GmbH & Co."
             }
         ],
         "officers": [
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Geils",
                     "name": "Andreas"
                 },
-                "text": " Geils , Andreas ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Nicht mehr Prokurist : Geils",
-                    "name": "Andreas"
-                },
-                "text": " Nicht mehr Prokurist : Geils , Andreas ."
+                "text": " Geils, Andreas."
             }
         ]
     }

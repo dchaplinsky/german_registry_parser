@@ -18,19 +18,20 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "company_name": " Traxxis Grundbesitz GmbH , Stuttgart ( Amtsgericht Stuttgart HRB 735666 ) ."
+                    "company_name": " Traxxis Grundbesitz GmbH, Stuttgart (Amtsgericht Stuttgart HRB 735666).",
+                    "dismissed": true
                 },
-                "text": " Traxxis Grundbesitz GmbH , Stuttgart ( Amtsgericht Stuttgart HRB 735666 ) ."
+                "text": " Traxxis Grundbesitz GmbH, Stuttgart (Amtsgericht Stuttgart HRB 735666)."
             },
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "lastname": "PCO Liegenschaften und Beteiligungen Leipzig UG ( haftungsbeschränkt )",
-                    "name": "Leipzig ( Amtsgericht Leipzig HRB 27425 )"
+                    "lastname": "PCO Liegenschaften und Beteiligungen Leipzig UG (haftungsbeschränkt)",
+                    "name": "Leipzig (Amtsgericht Leipzig HRB 27425)"
                 },
-                "text": " PCO Liegenschaften und Beteiligungen Leipzig UG ( haftungsbeschränkt ) , Leipzig ( Amtsgericht Leipzig HRB 27425 ) ."
+                "text": " PCO Liegenschaften und Beteiligungen Leipzig UG (haftungsbeschränkt), Leipzig (Amtsgericht Leipzig HRB 27425)."
             }
         ]
     }

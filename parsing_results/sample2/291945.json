@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -28,10 +28,10 @@
                 "payload": {
                     "city": "Hannover",
                     "dob": "1949-01-14",
-                    "lastname": "Dr . Wattendorff",
+                    "lastname": ": Doctor Wattendorff",
                     "name": "Frank"
                 },
-                "text": " Dr . Wattendorff , Frank , Hannover , * 14.01.1949 ."
+                "text": ": Doctor Wattendorff, Frank, Hannover, *14.01.1949."
             }
         ]
     }

@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -31,17 +31,18 @@
                     "lastname": "Eberhard",
                     "name": "Wolfgang Ernst Adam"
                 },
-                "text": " Eberhard , Wolfgang Ernst Adam , Laudenbach , * 29.05.1944 ."
+                "text": " Eberhard, Wolfgang Ernst Adam, Laudenbach, *29.05.1944."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Laudenbach",
+                    "dismissed": true,
                     "dob": "1944-05-29",
                     "lastname": "Eberhard",
                     "name": "Wolfgang Ernst Adam"
                 },
-                "text": " Eberhard , Wolfgang Ernst Adam , Laudenbach , * 29.05.1944 ."
+                "text": " Eberhard, Wolfgang Ernst Adam, Laudenbach, *29.05.1944."
             }
         ]
     }

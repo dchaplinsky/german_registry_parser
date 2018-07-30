@@ -19,13 +19,13 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Schlachthofstraße 7 , 47167 Duisburg ."
+                "text": " Schlachthofstraße 7, 47167 Duisburg."
             }
         ],
         "officers": [
@@ -38,17 +38,18 @@
                     "lastname": "Gürses",
                     "name": "Tamer"
                 },
-                "text": " Gürses , Tamer , Dorsten , * 06.06.1969 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Gürses, Tamer, Dorsten, *06.06.1969, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Essen",
+                    "dismissed": true,
                     "dob": "1964-05-10",
                     "lastname": "Geyik",
                     "name": "Hüseyin"
                 },
-                "text": " Geyik , Hüseyin , Essen , * 05.10.1964 ."
+                "text": " Geyik, Hüseyin, Essen, *05.10.1964."
             }
         ]
     }

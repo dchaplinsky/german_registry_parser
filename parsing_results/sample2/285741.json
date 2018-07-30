@@ -19,31 +19,36 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Mag ., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a AppointedManagingDirector from  Mag., error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Mag., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " c / o Dissmann Orth , RA . - StB . GmbH , Kardinal - Faulhaber - Str ."
+                "text": " c/o Dissmann Orth,RA.-StB.GmbH, Kardinal-Faulhaber-Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Wien / Österreich",
+                    "city": "Wien/Österreich",
+                    "dismissed": true,
                     "dob": "1972-02-02",
                     "lastname": "Bodizs",
                     "name": "Christian"
                 },
-                "text": " Bodizs , Christian , Wien / Österreich , * 02.02.1972 ."
+                "text": " Bodizs, Christian, Wien/Österreich, *02.02.1972."
             }
         ]
     }

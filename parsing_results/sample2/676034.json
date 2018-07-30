@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Steinheim / Murr",
+                    "city": "Steinheim/Murr",
+                    "dismissed": true,
                     "dob": "1960-12-03",
-                    "lastname": "Dr . Thiem",
+                    "lastname": "Doctor Thiem",
                     "name": "Hiltrud"
                 },
-                "text": " Dr . Thiem , Hiltrud , Steinheim / Murr , * 12.03.1960 ."
+                "text": " Doctor Thiem, Hiltrud, Steinheim/Murr, *12.03.1960."
             }
         ]
     }

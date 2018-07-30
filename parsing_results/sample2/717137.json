@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Forchheim",
+                    "dismissed": true,
                     "dob": "1982-02-26",
                     "lastname": "Dietzel",
                     "name": "Katrin"
                 },
-                "text": " Dietzel , Katrin , Forchheim , * 26.02.1982 ."
+                "text": " Dietzel, Katrin, Forchheim, *26.02.1982."
             }
         ]
     }

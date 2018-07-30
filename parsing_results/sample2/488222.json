@@ -18,13 +18,14 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "techn",
+                    "dismissed": true,
                     "lastname": "Dodel",
                     "name": "Alfred"
                 },
-                "text": " Dodel , Alfred , techn ."
+                "text": " Dodel, Alfred, techn."
             },
             {
                 "class": "Owner",
@@ -34,7 +35,7 @@
                     "lastname": "Dodel",
                     "name": "André"
                 },
-                "text": " Dodel , André , Murnau , * 13.11.1968 ."
+                "text": " Dodel, André, Murnau, *13.11.1968."
             }
         ]
     }

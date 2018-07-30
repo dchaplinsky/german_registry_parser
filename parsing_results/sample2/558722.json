@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Gundelsheim",
+                    "dismissed": true,
                     "dob": "1954-05-28",
                     "lastname": "Keicher",
                     "name": "Harry"
                 },
-                "text": " Keicher , Harry , Gundelsheim , * 28.05.1954 ."
+                "text": " Keicher, Harry, Gundelsheim, *28.05.1954."
             }
         ]
     }

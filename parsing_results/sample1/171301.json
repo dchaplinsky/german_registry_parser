@@ -16,27 +16,44 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=171301&land_abk=bw"
     },
     "parsed": {
+        "flags": [
+            {
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " schlossgasse 35, 74523 schwäbisch hall."
+            }
+        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "schwäbisch hall",
                     "dob": "1985-07-02",
-                    "flag": "einzelvertretungsberechtigt mit der befugnis  im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen",
                     "lastname": "rößler",
                     "name": "manuel"
                 },
-                "text": " rößler , manuel , schwäbisch hall , * 07.02.1985 , einzelvertretungsberechtigt mit der befugnis , im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen ."
+                "text": " rößler, manuel, schwäbisch hall, *07.02.1985, einzelvertretungsberechtigt mit der befugnis, im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "münchen",
+                    "dismissed": true,
                     "dob": "1981-08-04",
                     "lastname": "uhlig",
                     "name": "ivonne"
                 },
-                "text": " uhlig , ivonne , münchen , * 08.04.1981 ."
+                "text": " uhlig, ivonne, münchen, *08.04.1981."
             }
         ]
     }

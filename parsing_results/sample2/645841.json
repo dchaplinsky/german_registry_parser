@@ -18,13 +18,14 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "lastname": "Cloppenburg",
                     "name": "Hendrik"
                 },
-                "text": " Cloppenburg , Hendrik , Düsseldorf ."
+                "text": " Cloppenburg, Hendrik, Düsseldorf."
             },
             {
                 "class": "ManagingDirector",
@@ -35,7 +36,7 @@
                     "lastname": "Hinrichs",
                     "name": "Oliver"
                 },
-                "text": " Hinrichs , Oliver , Düsseldorf , * 06.09.1965 , vertretungsberechtigt gemeinsam mit dem Geschäftsführer Patrick Cloppenburg ."
+                "text": " Hinrichs, Oliver, Düsseldorf, *06.09.1965, vertretungsberechtigt gemeinsam mit dem Geschäftsführer Patrick Cloppenburg."
             },
             {
                 "class": "ManagingDirector",
@@ -43,10 +44,10 @@
                     "city": "Düsseldorf",
                     "dob": "1967-11-03",
                     "flag": "vertretungsberechtigt gemeinsam mit dem Geschäftsführer Patrick Cloppenburg",
-                    "lastname": "Dr . Clemens",
+                    "lastname": "Doctor Clemens",
                     "name": "Horst"
                 },
-                "text": " Dr . Clemens , Horst , Düsseldorf , * 11.03.1967 , vertretungsberechtigt gemeinsam mit dem Geschäftsführer Patrick Cloppenburg ."
+                "text": " Doctor Clemens, Horst, Düsseldorf, *11.03.1967, vertretungsberechtigt gemeinsam mit dem Geschäftsführer Patrick Cloppenburg."
             }
         ]
     }

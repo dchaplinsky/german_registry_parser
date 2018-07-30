@@ -16,28 +16,23 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=107738&land_abk=ni"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "labels": [
             {
                 "label": "address",
-                "text": " Mühlenfeld 13 , 31789 Hameln ."
+                "text": " Mühlenfeld 13, 31789 Hameln."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hameln",
+                    "dismissed": true,
                     "dob": "1964-12-04",
                     "lastname": "Lutz",
                     "name": "Kerstin"
                 },
-                "text": " Lutz , Kerstin , Hameln , * 12.04.1964 ."
+                "text": " Lutz, Kerstin, Hameln, *12.04.1964."
             },
             {
                 "class": "NewProcuration",
@@ -47,27 +42,7 @@
                     "lastname": "Schönemann",
                     "name": "Martina"
                 },
-                "text": " Schönemann , Martina , Hameln , * 30.12.1968 ."
-            },
-            {
-                "class": "SingleProcuration",
-                "payload": {
-                    "city": "Hameln",
-                    "dob": "1968-12-30",
-                    "lastname": "Schönemann",
-                    "name": "Martina"
-                },
-                "text": " Schönemann , Martina , Hameln , * 30.12.1968 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hameln",
-                    "dob": "1968-12-30",
-                    "lastname": "Schönemann",
-                    "name": "Martina"
-                },
-                "text": " Schönemann , Martina , Hameln , * 30.12.1968 ."
+                "text": " Schönemann, Martina, Hameln, *30.12.1968."
             }
         ]
     }

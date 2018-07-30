@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Krefeld",
+                    "dismissed": true,
                     "dob": "1961-02-25",
                     "lastname": "Cirener",
                     "name": "Hermann Karl Martin"
                 },
-                "text": " Cirener , Hermann Karl Martin , Krefeld , * 25.02.1961 ."
+                "text": " Cirener, Hermann Karl Martin, Krefeld, *25.02.1961."
             },
             {
                 "class": "ManagingDirector",
@@ -35,7 +36,7 @@
                     "lastname": "Liedtke",
                     "name": "Carsten"
                 },
-                "text": " Liedtke , Carsten , Krefeld , * 15.05.1969 ."
+                "text": " Liedtke, Carsten, Krefeld, *15.05.1969."
             }
         ]
     }

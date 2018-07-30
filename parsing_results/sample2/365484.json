@@ -19,39 +19,41 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Hauptstraße 131-137 , 65760 Eschborn ."
+                "text": " Hauptstraße 131-137, 65760 Eschborn."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Appenheim",
+                    "dismissed": true,
                     "lastname": "Janz",
                     "name": "Jürgen",
-                    "position": "Diplom - Betriebswirt"
+                    "position": "Diplom-Betriebswirt"
                 },
-                "text": " Janz , Jürgen , Diplom - Betriebswirt , Appenheim ."
+                "text": " Janz, Jürgen, Diplom-Betriebswirt, Appenheim."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dob": "1971-02-04",
                     "lastname": "Preiß",
                     "name": "Stefan"
                 },
-                "text": " Preiß , Stefan , Frankfurt am Main , * 02.04.1971 ."
+                "text": " Preiß, Stefan, Frankfurt am Main, *02.04.1971."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Mainz",
+                    "dismissed": true,
                     "dob": "1964-05-15",
                     "lastname": "Fauth",
                     "name": "Jürgen"
                 },
-                "text": " Fauth , Jürgen , Mainz , * 15.05.1964 ."
+                "text": " Fauth, Jürgen, Mainz, *15.05.1964."
             }
         ]
     }

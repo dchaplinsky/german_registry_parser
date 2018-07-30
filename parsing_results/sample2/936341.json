@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Neuss",
+                    "dismissed": true,
                     "dob": "1977-03-29",
                     "lastname": "Rduch",
                     "name": "Andreas"
                 },
-                "text": " Rduch , Andreas , Neuss , * 29.03.1977 ."
+                "text": " Rduch, Andreas, Neuss, *29.03.1977."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Neuss",
                     "dob": "1972-05-16",
                     "lastname": "Schiffer",
                     "name": "Justina Danuta"
                 },
-                "text": " Schiffer , Justina Danuta , Neuss , * 16.05.1972 ."
+                "text": " Schiffer, Justina Danuta, Neuss, *16.05.1972."
             }
         ]
     }

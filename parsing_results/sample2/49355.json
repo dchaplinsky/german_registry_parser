@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Leipzig",
+                    "dismissed": true,
                     "lastname": "Hildebrandt",
                     "name": "Lieselotte",
                     "position": "Kauffrau"
                 },
-                "text": " Hildebrandt , Lieselotte , Kauffrau , Leipzig ."
+                "text": " Hildebrandt, Lieselotte, Kauffrau, Leipzig."
             },
             {
                 "class": "Owner",
@@ -35,7 +36,7 @@
                     "lastname": "Weiser",
                     "name": "Nanette"
                 },
-                "text": " Weiser , Nanette , Leipzig , * 19.11.1957 ."
+                "text": " Weiser, Nanette, Leipzig, *19.11.1957."
             }
         ]
     }

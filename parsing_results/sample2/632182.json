@@ -19,12 +19,12 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Max - Eyth - Straße 220 , 72766 Reutlingen ."
+                "text": " Max-Eyth-Straße 220, 72766 Reutlingen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Reutlingen",
                     "dob": "1951-09-29",
@@ -32,17 +32,18 @@
                     "lastname": "Hahn",
                     "name": "Jürgen"
                 },
-                "text": " Hahn , Jürgen , Reutlingen , * 29.09.1951 , einzelvertretungsberechtigt ."
+                "text": " Hahn, Jürgen, Reutlingen, *29.09.1951, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Neuhausen auf den Fildern",
+                    "dismissed": true,
                     "dob": "1979-09-04",
                     "lastname": "Maier",
                     "name": "Thomas"
                 },
-                "text": " Maier , Thomas , Neuhausen auf den Fildern , * 09.04.1979 ."
+                "text": " Maier, Thomas, Neuhausen auf den Fildern, *09.04.1979."
             }
         ]
     }

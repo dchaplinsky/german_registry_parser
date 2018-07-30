@@ -16,16 +16,23 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=331363&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Tischlermeiser Klaus - Günter Völker e . K . Geändert , nun : Inhaber : Völker , Klaus - Günter , Hoya , * 27.11.1949 ., error text was Cannot parse DOB  Klaus - Günter  using regex"
-            }
-        ],
         "flags": [
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Hoya",
+                    "dob": "1949-11-27",
+                    "lastname": "Tischlermeiser Klaus-Günter Völker e. K. Geändert",
+                    "name": "nun: Inhaber: Völker",
+                    "position": "Klaus-Günter"
+                },
+                "text": " Tischlermeiser Klaus-Günter Völker e. K. Geändert, nun: Inhaber: Völker, Klaus-Günter, Hoya, *27.11.1949."
             }
         ]
     }

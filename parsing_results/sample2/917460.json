@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -32,17 +32,18 @@
                     "lastname": "Lüth",
                     "name": "Melanie Vanessa"
                 },
-                "text": " Lüth , Melanie Vanessa , Hagen , * 26.08.1982 , einzelvertretungsberechtigt ."
+                "text": " Lüth, Melanie Vanessa, Hagen, *26.08.1982, einzelvertretungsberechtigt."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Menden",
+                    "dismissed": true,
                     "dob": "1951-07-15",
                     "lastname": "Drees",
                     "name": "Herbert"
                 },
-                "text": " Drees , Herbert , Menden , * 15.07.1951 ."
+                "text": " Drees, Herbert, Menden, *15.07.1951."
             }
         ]
     }

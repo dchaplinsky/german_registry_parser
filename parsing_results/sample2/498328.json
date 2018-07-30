@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Wendelstein",
+                    "dismissed": true,
                     "dob": "1951-09-24",
                     "lastname": "Ludwig",
                     "name": "Roland"
                 },
-                "text": " Ludwig , Roland , Wendelstein , * 24.09.1951 ."
+                "text": " Ludwig, Roland, Wendelstein, *24.09.1951."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wendelstein",
                     "dob": "1946-07-14",
@@ -42,7 +43,7 @@
                     "lastname": "Prem",
                     "name": "Willi"
                 },
-                "text": " Prem , Willi , Wendelstein , * 14.07.1946 , einzelvertretungsberechtigt"
+                "text": " Prem, Willi, Wendelstein, *14.07.1946, einzelvertretungsberechtigt"
             }
         ]
     }

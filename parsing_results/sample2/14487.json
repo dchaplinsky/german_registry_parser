@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Dortmund",
+                    "dismissed": true,
                     "dob": "1940-06-12",
                     "lastname": "Sievers",
-                    "name": "Karl - Heinz"
+                    "name": "Karl-Heinz"
                 },
-                "text": " Sievers , Karl - Heinz , Dortmund , * 06.12.1940"
+                "text": " Sievers, Karl-Heinz, Dortmund, *06.12.1940"
             }
         ]
     }

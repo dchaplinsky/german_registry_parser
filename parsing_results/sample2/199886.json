@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Meißen",
+                    "dismissed": true,
                     "dob": "1949-06-05",
                     "lastname": "Kluge",
                     "name": "Reinhard"
                 },
-                "text": " Kluge , Reinhard , Meißen , * 06.05.1949 ."
+                "text": " Kluge, Reinhard, Meißen, *06.05.1949."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Essen",
                     "dob": "1979-02-12",
                     "lastname": "Hunold",
                     "name": "Christian"
                 },
-                "text": " Hunold , Christian , Essen , * 02.12.1979"
+                "text": " Hunold, Christian, Essen, *02.12.1979"
             },
             {
                 "class": "CommonProcuration",
@@ -45,7 +46,7 @@
                     "lastname": "Düssel",
                     "name": "Georg"
                 },
-                "text": " Düssel , Georg , Bochum , * 04.07.1970 ."
+                "text": " Düssel, Georg, Bochum, *04.07.1970."
             },
             {
                 "class": "NewProcuration",
@@ -55,17 +56,7 @@
                     "lastname": "Herrmann",
                     "name": "Kathrin"
                 },
-                "text": " Herrmann , Kathrin , Dresden , * 30.07.1967 ."
-            },
-            {
-                "class": "CommonProcuration",
-                "payload": {
-                    "city": "Dresden",
-                    "dob": "1967-07-30",
-                    "lastname": "Herrmann",
-                    "name": "Kathrin"
-                },
-                "text": " Herrmann , Kathrin , Dresden , * 30.07.1967 ."
+                "text": " Herrmann, Kathrin, Dresden, *30.07.1967."
             }
         ]
     }

@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -28,10 +28,10 @@
                 "payload": {
                     "city": "Nürnberg",
                     "dob": "1970-02-21",
-                    "lastname": "Wagner",
+                    "lastname": ": Wagner",
                     "name": "Andreas"
                 },
-                "text": " Wagner , Andreas , Nürnberg , * 21.02.1970 ."
+                "text": ": Wagner, Andreas, Nürnberg, *21.02.1970."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Liquidator",
+                "class": "NotALiquidator",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1947-06-14",
-                    "lastname": "Kelm",
+                    "lastname": ": Kelm",
                     "name": "Willi"
                 },
-                "text": " Kelm , Willi , Düsseldorf , * 14.06.1947 ."
+                "text": ": Kelm, Willi, Düsseldorf, *14.06.1947."
             },
             {
                 "class": "Liquidator",
@@ -36,7 +37,7 @@
                     "lastname": "Hesper",
                     "name": "Ralf"
                 },
-                "text": " Hesper , Ralf , Krefeld , * 07.02.1962 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Hesper, Ralf, Krefeld, *07.02.1962, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

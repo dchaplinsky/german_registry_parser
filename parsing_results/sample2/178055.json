@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=178055&land_abk=rp"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,27 +25,18 @@
                     "lastname": "Jung",
                     "name": "Sandra"
                 },
-                "text": " Jung , Sandra , Mainz , * 07.02.1967 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Mainz",
-                    "dob": "1967-07-02",
-                    "lastname": "Jung",
-                    "name": "Sandra"
-                },
-                "text": " Jung , Sandra , Mainz , * 07.02.1967 ."
+                "text": " Jung, Sandra, Mainz, *07.02.1967."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Mainz",
+                    "dismissed": true,
                     "lastname": "Grall",
                     "name": "Karl",
                     "position": "Kaufmann"
                 },
-                "text": " Grall , Karl , Kaufmann , Mainz ."
+                "text": " Grall, Karl, Kaufmann, Mainz."
             }
         ]
     }

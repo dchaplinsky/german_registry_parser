@@ -19,31 +19,33 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Tobis Filmproduktion Management GmbH , Berlin , Kurfürstendamm 63 , 10707 Berlin ."
+                "text": " Tobis Filmproduktion Management GmbH, Berlin, Kurfürstendamm 63, 10707 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Rebentrost",
                     "name": "Anna"
                 },
-                "text": " Rebentrost , Anna"
+                "text": " Rebentrost, Anna"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Rebentrost",
                     "name": "Fabian"
                 },
-                "text": " Rebentrost , Fabian"
+                "text": " Rebentrost, Fabian"
             },
             {
                 "class": "ManagingDirector",
@@ -53,7 +55,7 @@
                     "lastname": "Eiff",
                     "name": "Peter"
                 },
-                "text": " Eiff , Peter , * 29.04.1966 , Berlin"
+                "text": " Eiff, Peter, *29.04.1966, Berlin"
             },
             {
                 "class": "ManagingDirector",
@@ -63,7 +65,7 @@
                     "lastname": "Oberwelland",
                     "name": "Timm"
                 },
-                "text": " Oberwelland , Timm , * 04.11.1969 , Bielefeld"
+                "text": " Oberwelland, Timm, *04.11.1969, Bielefeld"
             }
         ]
     }

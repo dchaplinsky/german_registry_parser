@@ -19,27 +19,28 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Essen",
+                    "dismissed": true,
                     "dob": "1932-08-27",
                     "lastname": "Sacksteder",
                     "name": "Herbert"
                 },
-                "text": " Sacksteder , Herbert , Essen , * 27.08.1932"
+                "text": " Sacksteder, Herbert, Essen, *27.08.1932"
             },
             {
                 "class": "Liquidator",
                 "payload": {
-                    "lastname": "Gesellschaft für die Verwaltung von Beteiligungen an Tankschiffen m . b . H",
-                    "name": "Dortmund ( Amtsgericht Dortmund HRB 13444 )"
+                    "lastname": "Gesellschaft für die Verwaltung von Beteiligungen an Tankschiffen m.b.H",
+                    "name": "Dortmund (Amtsgericht Dortmund HRB 13444)"
                 },
-                "text": " Gesellschaft für die Verwaltung von Beteiligungen an Tankschiffen m . b . H . , Dortmund ( Amtsgericht Dortmund HRB 13444 ) ."
+                "text": " Gesellschaft für die Verwaltung von Beteiligungen an Tankschiffen m.b.H., Dortmund (Amtsgericht Dortmund HRB 13444)."
             }
         ]
     }

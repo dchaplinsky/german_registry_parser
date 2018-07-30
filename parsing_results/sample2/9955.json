@@ -16,10 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=9955&land_abk=he"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Faust , Rainer , Betriebsleiter , Schlangenbad , * 26.04.1957 ., error text was Cannot parse DOB  Betriebsleiter  using regex"
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Schlangenbad",
+                    "dismissed": true,
+                    "dob": "1957-04-26",
+                    "lastname": "Faust",
+                    "name": "Rainer",
+                    "position": "Betriebsleiter"
+                },
+                "text": " Faust, Rainer, Betriebsleiter, Schlangenbad, *26.04.1957."
             }
         ]
     }

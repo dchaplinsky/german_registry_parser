@@ -19,31 +19,32 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " my Mekan Gastronomie GmbH , Berlin , Leibnizkollonaden , Walter - Benjamin - Platz 8 , 10629 Berlin ."
+                "text": " my Mekan Gastronomie GmbH, Berlin, Leibnizkollonaden,Walter-Benjamin-Platz 8, 10629 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Hoffmann",
                     "name": "Jürgen"
                 },
-                "text": " Hoffmann , Jürgen"
+                "text": " Hoffmann, Jürgen"
             },
             {
                 "class": "ManagingDirector",
@@ -53,7 +54,7 @@
                     "lastname": "Kayapinar",
                     "name": "Nilüfer"
                 },
-                "text": " Kayapinar , Nilüfer , * 02.12.1973 , Berlin"
+                "text": " Kayapinar, Nilüfer, *02.12.1973, Berlin"
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hürth",
+                    "dismissed": true,
                     "dob": "1960-11-26",
                     "lastname": "Reichenauer",
                     "name": "Martin"
                 },
-                "text": " Reichenauer , Martin , Hürth , * 26.11.1960 ."
+                "text": " Reichenauer, Martin, Hürth, *26.11.1960."
             }
         ]
     }

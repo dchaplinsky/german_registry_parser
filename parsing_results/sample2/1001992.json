@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Herdecke",
+                    "dismissed": true,
                     "dob": "1938-06-28",
                     "lastname": "Meschkat",
                     "name": "Ursula"
                 },
-                "text": " Meschkat , Ursula , Herdecke , * 28.06.1938 ."
+                "text": " Meschkat, Ursula, Herdecke, *28.06.1938."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dortmund",
                     "dob": "1965-07-22",
@@ -36,7 +37,7 @@
                     "lastname": "Schmitt",
                     "name": "Karlheinz"
                 },
-                "text": " Schmitt , Karlheinz , Dortmund , * 22.07.1965 , einzelvertretungsberechtigt ."
+                "text": " Schmitt, Karlheinz, Dortmund, *22.07.1965, einzelvertretungsberechtigt."
             }
         ]
     }

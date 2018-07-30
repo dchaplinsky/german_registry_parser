@@ -19,23 +19,24 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Hüsemann & Partner Wirtschaftsberatungs GmbH , Berlin , Halterner Straße 10 , 46284 Dorsten ."
+                "text": " Hüsemann & Partner Wirtschaftsberatungs GmbH, Berlin, Halterner Straße 10, 46284 Dorsten."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Hüsemann",
                     "name": "Thomas"
                 },
-                "text": " Hüsemann , Thomas"
+                "text": " Hüsemann, Thomas"
             },
             {
                 "class": "ManagingDirector",
@@ -45,7 +46,7 @@
                     "lastname": "Berg",
                     "name": "Petra"
                 },
-                "text": " Berg , Petra , * 30.07.1959 , Gladbeck"
+                "text": " Berg, Petra, *30.07.1959, Gladbeck"
             }
         ]
     }

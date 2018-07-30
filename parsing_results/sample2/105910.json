@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Bahnhofstraße 82 , 26197 Großenkneten / Huntlosen ."
+                "text": " Bahnhofstraße 82, 26197 Großenkneten/Huntlosen."
             }
         ],
         "officers": [
@@ -28,20 +28,21 @@
                 "payload": {
                     "city": "Ganderkesee",
                     "dob": "1949-01-18",
-                    "lastname": "Goedecke",
+                    "lastname": ": Goedecke",
                     "name": "Georg"
                 },
-                "text": " Goedecke , Georg , Ganderkesee , * 18.01.1949 ."
+                "text": ": Goedecke, Georg, Ganderkesee, *18.01.1949."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Bordesholm",
+                    "dismissed": true,
                     "dob": "1962-12-30",
-                    "lastname": "Langenbeck - Waldeck",
+                    "lastname": "Langenbeck-Waldeck",
                     "name": "Garloff"
                 },
-                "text": " Langenbeck - Waldeck , Garloff , Bordesholm , * 30.12.1962 ."
+                "text": " Langenbeck-Waldeck, Garloff, Bordesholm, *30.12.1962."
             }
         ]
     }

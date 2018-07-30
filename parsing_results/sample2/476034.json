@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bremen",
                     "dob": "1983-04-25",
                     "lastname": "Georgievski",
                     "name": "Viktor"
                 },
-                "text": " Georgievski , Viktor , Bremen , * 25.04.1983"
+                "text": " Georgievski, Viktor, Bremen, *25.04.1983"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Delmenhorst",
+                    "dismissed": true,
                     "dob": "1960-03-27",
                     "lastname": "Blome",
                     "name": "Ingo"
                 },
-                "text": " Blome , Ingo , Delmenhorst , * 27.03.1960"
+                "text": " Blome, Ingo, Delmenhorst, *27.03.1960"
             }
         ]
     }

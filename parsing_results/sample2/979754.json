@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hohenwart",
+                    "dismissed": true,
                     "lastname": "Preuße",
                     "name": "Uwe",
                     "position": "Kaufmann"
                 },
-                "text": " Preuße , Uwe , Kaufmann , Hohenwart ."
+                "text": " Preuße, Uwe, Kaufmann, Hohenwart."
             },
             {
                 "class": "ManagingDirector",
@@ -35,7 +36,7 @@
                     "lastname": "Spörl",
                     "name": "Jutta"
                 },
-                "text": " Spörl , Jutta , Neufahrn , * 28.11.1961 ."
+                "text": " Spörl, Jutta, Neufahrn, *28.11.1961."
             }
         ]
     }

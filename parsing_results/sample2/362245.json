@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1974-05-04",
-                    "lastname": "Stuertz - Wolff",
+                    "lastname": "Stuertz-Wolff",
                     "name": "Sebastian"
                 },
-                "text": " Stuertz - Wolff , Sebastian , Hamburg , * 05.04.1974 ."
+                "text": " Stuertz-Wolff, Sebastian, Hamburg, *05.04.1974."
             }
         ]
     }

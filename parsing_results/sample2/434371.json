@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Edewecht",
+                    "dismissed": true,
                     "dob": "1947-07-04",
                     "lastname": "Haskamp",
-                    "name": "Heinz - Josef"
+                    "name": "Heinz-Josef"
                 },
-                "text": " Haskamp , Heinz - Josef , Edewecht , * 07.04.1947 ."
+                "text": " Haskamp, Heinz-Josef, Edewecht, *07.04.1947."
             }
         ]
     }

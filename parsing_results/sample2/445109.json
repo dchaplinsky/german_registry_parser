@@ -19,26 +19,27 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Schütz Group Verwaltungsgesellschaft mbH , Rosbach v . d . Höhe ( Amtsgericht Friedberg ( Hessen ) HRB 6051 ) ."
+                    "company_name": " Schütz Group Verwaltungsgesellschaft mbH, Rosbach v.d.Höhe (Amtsgericht Friedberg (Hessen) HRB 6051)."
                 },
-                "text": " Schütz Group Verwaltungsgesellschaft mbH , Rosbach v . d . Höhe ( Amtsgericht Friedberg ( Hessen ) HRB 6051 ) ."
+                "text": " Schütz Group Verwaltungsgesellschaft mbH, Rosbach v.d.Höhe (Amtsgericht Friedberg (Hessen) HRB 6051)."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Butzbach",
+                    "dismissed": true,
                     "dob": "1976-07-09",
                     "lastname": "Ballnus",
                     "name": "Sandra"
                 },
-                "text": " Ballnus , Sandra , Butzbach , * 07.09.1976"
+                "text": " Ballnus, Sandra, Butzbach, *07.09.1976"
             }
         ]
     }

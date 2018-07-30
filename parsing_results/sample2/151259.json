@@ -19,26 +19,27 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Ratingen",
+                    "dismissed": true,
                     "dob": "1950-03-18",
                     "lastname": "Höfges",
                     "name": "Volker"
                 },
-                "text": " Höfges , Volker , Ratingen , * 18.03.1950"
+                "text": " Höfges, Volker, Ratingen, *18.03.1950"
             },
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Höfges & Koch Orthopädie - Technik GmbH , Ratingen ( AG Düsseldorf HRB 53083 ) ."
+                    "company_name": " Höfges & Koch Orthopädie-Technik GmbH, Ratingen (AG Düsseldorf HRB 53083)."
                 },
-                "text": " Höfges & Koch Orthopädie - Technik GmbH , Ratingen ( AG Düsseldorf HRB 53083 ) ."
+                "text": " Höfges & Koch Orthopädie-Technik GmbH, Ratingen (AG Düsseldorf HRB 53083)."
             }
         ]
     }

@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Südstraße 29 , 33129 Delbrück ."
+                "text": " Südstraße 29, 33129 Delbrück."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Steinheim",
+                    "dismissed": true,
                     "dob": "1995-05-05",
                     "lastname": "Lehr",
                     "name": "Inga Simona"
                 },
-                "text": " Lehr , Inga Simona , Steinheim , * 05.05.1995 ."
+                "text": " Lehr, Inga Simona, Steinheim, *05.05.1995."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Delbrück",
                     "dob": "1975-11-10",
                     "lastname": "Sprick",
                     "name": "Bianca"
                 },
-                "text": " Sprick , Bianca , Delbrück , * 11.10.1975 ."
+                "text": " Sprick, Bianca, Delbrück, *11.10.1975."
             }
         ]
     }

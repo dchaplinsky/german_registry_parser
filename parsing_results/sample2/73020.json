@@ -19,30 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Charlottenstr ."
+                "text": " Charlottenstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Bitterfeld - Wolfen",
+                    "city": "Bitterfeld-Wolfen",
                     "dob": "1966-01-03",
                     "flag": "sole representation",
                     "lastname": "Giesen",
                     "name": "Dirk"
                 },
-                "text": " Giesen , Dirk , Bitterfeld - Wolfen , * 01.03.1966 , einzelvertretungsberechtigt ."
+                "text": " Giesen, Dirk, Bitterfeld-Wolfen, *01.03.1966, einzelvertretungsberechtigt."
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Halle ( Saale )",
+                    "city": "Halle (Saale)",
                     "dob": "1946-12-21",
                     "lastname": "Schuh",
                     "name": "Christa"
                 },
-                "text": " Schuh , Christa , Halle ( Saale ) , * 21.12.1946 ."
+                "text": " Schuh, Christa, Halle (Saale), *21.12.1946."
             }
         ]
     }

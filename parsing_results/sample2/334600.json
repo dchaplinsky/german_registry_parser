@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -32,17 +32,18 @@
                     "lastname": "Wolf",
                     "name": "Thorsten"
                 },
-                "text": " Wolf , Thorsten , Lütjensee , * 31.12.1964 , vertretungsberechtigt gemäß allgemeiner Vertretungsregelung ."
+                "text": " Wolf, Thorsten, Lütjensee, *31.12.1964, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Lütjensee",
+                    "dismissed": true,
                     "dob": "1964-12-31",
                     "lastname": "Wolf",
                     "name": "Thorsten"
                 },
-                "text": " Wolf , Thorsten , Lütjensee , * 31.12.1964 ."
+                "text": " Wolf, Thorsten, Lütjensee, *31.12.1964."
             }
         ]
     }

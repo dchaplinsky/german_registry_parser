@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "lastname": "Ortlieb",
                     "name": "Alfred",
                     "position": "Glasermeister"
                 },
-                "text": " Ortlieb , Alfred , Glasermeister , München ."
+                "text": " Ortlieb, Alfred, Glasermeister, München."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1984-07-19",
                     "lastname": "Simmerl",
                     "name": "Sebastian"
                 },
-                "text": " Simmerl , Sebastian , München , * 19.07.1984"
+                "text": " Simmerl, Sebastian, München, *19.07.1984"
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=271964&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Baur",
                     "name": "Wolfgang"
                 },
-                "text": " Baur , Wolfgang , Bad Urach , * 19.06.1962"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Bad Urach",
-                    "dob": "1962-06-19",
-                    "lastname": "Baur",
-                    "name": "Wolfgang"
-                },
-                "text": " Baur , Wolfgang , Bad Urach , * 19.06.1962"
+                "text": " Baur, Wolfgang, Bad Urach, *19.06.1962"
             }
         ]
     }

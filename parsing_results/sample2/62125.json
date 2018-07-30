@@ -16,22 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=62125&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Fritz , Rüdiger Heinrich , Gas - und Wasserinstallateur , Heidesheim , * 03.11.1952 ., error text was Cannot parse DOB  Gas - und Wasserinstallateur  using regex"
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Clemensstraße 4 , 55262 Heidesheim ."
+                "text": " Clemensstraße 4, 55262 Heidesheim."
             }
         ],
         "officers": [
@@ -44,7 +38,19 @@
                     "lastname": "Fritz",
                     "name": "Rüdiger Heinrich"
                 },
-                "text": " Fritz , Rüdiger Heinrich , Heidesheim , * 03.11.1952 , einzelvertretungsberechtigt ."
+                "text": " Fritz, Rüdiger Heinrich, Heidesheim, *03.11.1952, einzelvertretungsberechtigt."
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Heidesheim",
+                    "dismissed": true,
+                    "dob": "1952-03-11",
+                    "lastname": "Fritz",
+                    "name": "Rüdiger Heinrich",
+                    "position": "Gas- und Wasserinstallateur"
+                },
+                "text": " Fritz, Rüdiger Heinrich, Gas- und Wasserinstallateur, Heidesheim, *03.11.1952."
             }
         ]
     }

@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Gersthofen",
+                    "dismissed": true,
                     "dob": "1972-11-11",
                     "lastname": "Humberg",
                     "name": "Markus"
                 },
-                "text": " Humberg , Markus , Gersthofen , * 11.11.1972 ."
+                "text": " Humberg, Markus, Gersthofen, *11.11.1972."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Augsburg",
                     "dob": "1971-08-18",
@@ -36,7 +37,7 @@
                     "lastname": "Tschirk",
                     "name": "Oliver"
                 },
-                "text": " Tschirk , Oliver , Augsburg , * 18.08.1971 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Tschirk, Oliver, Augsburg, *18.08.1971, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

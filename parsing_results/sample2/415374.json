@@ -19,23 +19,24 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Gemeinnützige Wikimedia Fördergesellschaft mbH , Berlin , Tempelhofer Ufer 23 / 24 , 10963 Berlin ."
+                "text": " Gemeinnützige Wikimedia Fördergesellschaft mbH, Berlin, Tempelhofer Ufer 23/24, 10963 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Rickerts",
                     "name": "Christian"
                 },
-                "text": " Rickerts , Christian"
+                "text": " Rickerts, Christian"
             },
             {
                 "class": "ManagingDirector",
@@ -45,7 +46,7 @@
                     "lastname": "Taherivand",
                     "name": "Abraham"
                 },
-                "text": " Taherivand , Abraham , * 11.02.1978 , Karlsruhe"
+                "text": " Taherivand, Abraham, *11.02.1978, Karlsruhe"
             }
         ]
     }

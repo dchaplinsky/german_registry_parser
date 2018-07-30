@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Chamalièrs / Frankreich / Frankreich",
+                    "dismissed": true,
                     "dob": "1962-05-25",
                     "lastname": "Chapot",
                     "name": "Yves Claudius"
                 },
-                "text": " Chapot , Yves Claudius , Chamalièrs / Frankreich / Frankreich , * 25.05.1962 ."
+                "text": " Chapot, Yves Claudius, Chamalièrs / Frankreich / Frankreich, *25.05.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Cebazat / Frankreich",
                     "dob": "1963-09-30",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Pekle",
                     "name": "Guy Yves"
                 },
-                "text": " Pekle , Guy Yves , Cebazat / Frankreich , * 30.09.1963 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Pekle, Guy Yves, Cebazat / Frankreich, *30.09.1963, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

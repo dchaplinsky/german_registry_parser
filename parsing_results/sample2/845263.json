@@ -19,12 +19,12 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mönchengladbach",
                     "dob": "1941-08-19",
@@ -32,17 +32,18 @@
                     "lastname": "Königs",
                     "name": "Rolf"
                 },
-                "text": " Königs , Rolf , Mönchengladbach , * 19.08.1941 , einzelvertretungsberechtigt"
+                "text": " Königs, Rolf, Mönchengladbach, *19.08.1941, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Frankfurt / Main",
+                    "city": "Frankfurt/Main",
+                    "dismissed": true,
                     "dob": "1956-02-20",
                     "lastname": "Graf",
                     "name": "Tom"
                 },
-                "text": " Graf , Tom , Frankfurt / Main , * 20.02.1956 ."
+                "text": " Graf, Tom, Frankfurt/Main, *20.02.1956."
             }
         ]
     }

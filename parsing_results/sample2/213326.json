@@ -19,16 +19,22 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a PersonalPartner from  Wilh ., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a RetiredPersonalPartner from  Wilh., error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Wilh., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Werhahn Mühlen Verwaltungs - GmbH , Neuss ( Amtsgericht Neuss HRB 14093 ) , einzelvertretungsberechtigt ."
+                    "city": "einzelvertretungsberechtigt",
+                    "lastname": "Werhahn Mühlen Verwaltungs-GmbH",
+                    "name": "Neuss (Amtsgericht Neuss HRB 14093)"
                 },
-                "text": " Werhahn Mühlen Verwaltungs - GmbH , Neuss ( Amtsgericht Neuss HRB 14093 ) , einzelvertretungsberechtigt ."
+                "text": " Werhahn Mühlen Verwaltungs-GmbH, Neuss (Amtsgericht Neuss HRB 14093), einzelvertretungsberechtigt."
             }
         ]
     }

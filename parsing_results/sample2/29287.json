@@ -19,11 +19,11 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -35,15 +35,16 @@
                     "lastname": "Haubold",
                     "name": "Michael"
                 },
-                "text": " Haubold , Michael , * 09.10.1955 , Elmshorn"
+                "text": " Haubold, Michael, *09.10.1955, Elmshorn"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Haubold",
-                    "name": "Marlis Rechtsverhaeltnis : Die Gesellschaft ist aufgelöst"
+                    "name": "Marlis Rechtsverhaeltnis: Die Gesellschaft ist aufgelöst"
                 },
-                "text": " Haubold , Marlis Rechtsverhaeltnis : Die Gesellschaft ist aufgelöst .."
+                "text": " Haubold, Marlis Rechtsverhaeltnis: Die Gesellschaft ist aufgelöst.."
             }
         ]
     }

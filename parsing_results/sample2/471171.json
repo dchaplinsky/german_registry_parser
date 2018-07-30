@@ -19,27 +19,28 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " MacKal netzwerkgolf UG ( haftungsbeschränkt ) , Berlin , c / o Volker Commentz , Heinrich - Böll - Straße 19 , 12529 Schönefeld ."
+                "text": " MacKal netzwerkgolf UG (haftungsbeschränkt), Berlin, c/o Volker Commentz, Heinrich-Böll-Straße 19, 12529 Schönefeld."
             }
         ],
         "officers": [
             {
-                "class": "Liquidator",
+                "class": "NotALiquidator",
                 "payload": {
-                    "lastname": "Commentz",
+                    "dismissed": true,
+                    "lastname": ": Commentz",
                     "name": "Volker geborene Maciejewski"
                 },
-                "text": " Commentz , Volker geborene Maciejewski"
+                "text": ": Commentz, Volker geborene Maciejewski"
             },
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "Posen / Polen",
+                    "city": "Posen/ Polen",
                     "dob": "1979-03-28",
                     "lastname": "Wozniak",
                     "name": "Agnieszka Beata"
                 },
-                "text": " Wozniak , Agnieszka Beata , * 28.03.1979 , Posen / Polen"
+                "text": " Wozniak, Agnieszka Beata, *28.03.1979, Posen/ Polen"
             }
         ]
     }

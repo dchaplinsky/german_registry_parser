@@ -18,26 +18,27 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Max - Eyth - Straße 47 , 46149 Oberhausen ."
+                "text": " Max-Eyth-Straße 47, 46149 Oberhausen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Duisburg",
+                    "dismissed": true,
                     "dob": "1974-10-26",
                     "lastname": "Giorgi",
                     "name": "Francesco"
                 },
-                "text": " Giorgi , Francesco , Duisburg , * 26.10.1974 ."
+                "text": " Giorgi, Francesco, Duisburg, *26.10.1974."
             },
             {
                 "class": "ManagingDirector",
@@ -48,7 +49,7 @@
                     "lastname": "Giosue",
                     "name": "Giuseppe Dario"
                 },
-                "text": " Giosue , Giuseppe Dario , Duisburg , * 21.05.1972 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Giosue, Giuseppe Dario, Duisburg, *21.05.1972, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

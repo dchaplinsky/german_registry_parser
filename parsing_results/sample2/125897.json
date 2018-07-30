@@ -19,35 +19,36 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : c / o Beate U . Casati , Liebermannstr ."
+                "text": " Geschäftsanschrift: c/o Beate U. Casati, Liebermannstr."
             },
             {
                 "label": "address",
-                "text": " c / o Beate U . Casati , Liebermannstr ."
+                "text": " c/o Beate U. Casati, Liebermannstr."
             }
         ],
         "officers": [
             {
-                "class": "Liquidator",
+                "class": "NotALiquidator",
                 "payload": {
-                    "lastname": "Lehmann - Andres",
-                    "name": "Karl - Heinz"
+                    "dismissed": true,
+                    "lastname": ": Lehmann-Andres",
+                    "name": "Karl-Heinz"
                 },
-                "text": " Lehmann - Andres , Karl - Heinz"
+                "text": ": Lehmann-Andres, Karl-Heinz"
             },
             {
                 "class": "Liquidator",
@@ -57,7 +58,7 @@
                     "lastname": "Casati",
                     "name": "Beate Ursula"
                 },
-                "text": " Casati , Beate Ursula , * 19.08.1938 , Hamburg"
+                "text": " Casati, Beate Ursula, *19.08.1938, Hamburg"
             }
         ]
     }

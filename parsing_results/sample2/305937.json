@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Obere Klinge 11 , 75245 Neulingen ."
+                "text": " Obere Klinge 11, 75245 Neulingen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Neulingen",
+                    "dismissed": true,
                     "dob": "1944-02-25",
                     "lastname": "Spörr",
                     "name": "Walter"
                 },
-                "text": " Spörr , Walter , Neulingen , * 25.02.1944 ."
+                "text": " Spörr, Walter, Neulingen, *25.02.1944."
             }
         ]
     }

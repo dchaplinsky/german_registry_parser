@@ -18,38 +18,27 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Langestück 19 , 56206 Hilgert ."
+                "text": " Langestück 19, 56206 Hilgert."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Höhr - Grenzhausen",
+                    "city": "Höhr-Grenzhausen",
                     "dob": "1968-07-27",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Weyer",
+                    "lastname": "Geschäftsführer: Weyer",
                     "name": "Ralf"
                 },
-                "text": " Weyer , Ralf , Höhr - Grenzhausen , * 27.07.1968 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
-                    "city": "Höhr - Grenzhausen",
-                    "dob": "1968-07-27",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Geschäftsführer : Weyer",
-                    "name": "Ralf"
-                },
-                "text": " Geschäftsführer : Weyer , Ralf , Höhr - Grenzhausen , * 27.07.1968 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Geschäftsführer: Weyer, Ralf, Höhr-Grenzhausen, *27.07.1968, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=191662&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Rawson , Geoffrey , Allestree , Derby ( England ) , * 03.03.1948 ., error text was Cannot parse DOB  Allestree  using regex"
-            }
-        ],
         "flags": [
             {
                 "flag": "Single procuration",
@@ -31,10 +25,22 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Am Schlirfer Weg 2-4 , 36358 Herbstein ."
+                "text": " Am Schlirfer Weg 2-4, 36358 Herbstein."
             }
         ],
         "officers": [
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Derby (England)",
+                    "dismissed": true,
+                    "dob": "1948-03-03",
+                    "lastname": "Rawson",
+                    "name": "Geoffrey",
+                    "position": "Allestree"
+                },
+                "text": " Rawson, Geoffrey, Allestree, Derby (England), *03.03.1948."
+            },
             {
                 "class": "NewProcuration",
                 "payload": {
@@ -43,7 +49,7 @@
                     "lastname": "Langer",
                     "name": "Andrea"
                 },
-                "text": " Langer , Andrea , Grebenhain , * 11.10.1964 ."
+                "text": " Langer, Andrea, Grebenhain, *11.10.1964."
             }
         ]
     }

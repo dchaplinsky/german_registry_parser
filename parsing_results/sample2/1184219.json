@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Korschenbroich",
+                    "dismissed": true,
                     "dob": "1937-04-22",
                     "lastname": "Osterspey",
-                    "name": "Hans - Georg"
+                    "name": "Hans-Georg"
                 },
-                "text": " Osterspey , Hans - Georg , Korschenbroich , * 22.04.1937 ."
+                "text": " Osterspey, Hans-Georg, Korschenbroich, *22.04.1937."
             }
         ]
     }

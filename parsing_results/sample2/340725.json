@@ -19,25 +19,26 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Spessartstraße 2 , 63165 Mühlheim am Main ."
+                "text": " Spessartstraße 2, 63165 Mühlheim am Main."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Offenbach am Main",
+                    "dismissed": true,
                     "dob": "1952-10-11",
                     "lastname": "Gerstner",
                     "name": "Felicitas"
                 },
-                "text": " Gerstner , Felicitas , Offenbach am Main , * 10.11.1952 ."
+                "text": " Gerstner, Felicitas, Offenbach am Main, *10.11.1952."
             },
             {
                 "class": "ManagingDirector",
@@ -48,7 +49,7 @@
                     "lastname": "Preuß",
                     "name": "Bianca"
                 },
-                "text": " Preuß , Bianca , Dannenberg , * 07.12.1954 , einzelvertretungsberechtigt"
+                "text": " Preuß, Bianca, Dannenberg, *07.12.1954, einzelvertretungsberechtigt"
             }
         ]
     }

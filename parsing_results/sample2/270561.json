@@ -16,28 +16,35 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=270561&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Trapp geb ., error text was a person without DOB, number of chunks: 1"
-            }
-        ],
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Selzen",
+                    "dismissed": true,
                     "dob": "1951-10-16",
                     "lastname": "Born",
                     "name": "Wolfgang"
                 },
-                "text": " Born , Wolfgang , Selzen , * 16.10.1951"
+                "text": " Born, Wolfgang, Selzen, *16.10.1951"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Friedrichsdorf",
+                    "dismissed": true,
+                    "dob": "1960-10-05",
+                    "lastname": "Trapp",
+                    "maidenname": "Stoll",
+                    "name": "Birgit"
+                },
+                "text": " Trapp geborene Stoll, Birgit, Friedrichsdorf, *10.05.1960."
             },
             {
                 "class": "Liquidator",
@@ -47,17 +54,18 @@
                     "lastname": "Dahlhaus",
                     "name": "Hermann"
                 },
-                "text": " Dahlhaus , Hermann , Bingen , * 05.04.1947"
+                "text": " Dahlhaus, Hermann, Bingen, *05.04.1947"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Kelkheim",
+                    "dismissed": true,
                     "dob": "1955-02-10",
                     "lastname": "Düll",
                     "name": "Werner"
                 },
-                "text": " Düll , Werner , Kelkheim , * 02.10.1955"
+                "text": " Düll, Werner, Kelkheim, *02.10.1955"
             }
         ]
     }

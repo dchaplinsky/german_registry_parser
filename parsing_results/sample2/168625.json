@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Karlstr ."
+                "text": " Karlstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Ulm",
+                    "dismissed": true,
                     "dob": "1961-05-06",
                     "lastname": "Lettenmayer",
                     "name": "Stefan"
                 },
-                "text": " Lettenmayer , Stefan , Ulm , * 05.06.1961 ."
+                "text": " Lettenmayer, Stefan, Ulm, *05.06.1961."
             }
         ]
     }

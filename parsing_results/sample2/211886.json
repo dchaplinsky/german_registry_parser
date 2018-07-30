@@ -18,25 +18,27 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hövelhof",
+                    "dismissed": true,
                     "lastname": "Bröckling",
                     "name": "Heinrich",
                     "position": "Landwirt"
                 },
-                "text": " Bröckling , Heinrich , Landwirt , Hövelhof ."
+                "text": " Bröckling, Heinrich, Landwirt, Hövelhof."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hövelhof",
+                    "dismissed": true,
                     "dob": "1974-10-24",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Bröckling - Maske",
+                    "lastname": "Bröckling-Maske",
                     "name": "Anja"
                 },
-                "text": " Bröckling - Maske , Anja , Hövelhof , * 24.10.1974 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Bröckling-Maske, Anja, Hövelhof, *24.10.1974, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Alte Tegernseer Str ."
+                "text": " Alte Tegernseer Str."
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Hausham",
+                    "dismissed": true,
                     "lastname": "Schuhbauer",
                     "name": "Johann",
-                    "position": "Schreinermeister u . Möbelhändl"
+                    "position": "Schreinermeister u.Möbelhändl"
                 },
-                "text": " Schuhbauer , Johann , Schreinermeister u . Möbelhändl . , Hausham ."
+                "text": " Schuhbauer, Johann, Schreinermeister u.Möbelhändl., Hausham."
             },
             {
                 "class": "Owner",
@@ -41,7 +42,7 @@
                     "lastname": "Fiedler",
                     "name": "Doris"
                 },
-                "text": " Fiedler , Doris , Hausham , * 07.01.1944 ."
+                "text": " Fiedler, Doris, Hausham, *07.01.1944."
             }
         ]
     }

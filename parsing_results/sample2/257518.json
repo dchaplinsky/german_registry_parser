@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Gibraltar / Großbritannien",
+                    "dismissed": true,
                     "dob": "1977-03-04",
                     "lastname": "Aharoni",
                     "name": "Royi"
                 },
-                "text": " Aharoni , Royi , Gibraltar / Großbritannien , * 03.04.1977 ."
+                "text": " Aharoni, Royi, Gibraltar / Großbritannien, *03.04.1977."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Gibraltar / Großbritannien",
                     "dob": "1975-04-17",
@@ -42,7 +43,7 @@
                     "lastname": "Belilo",
                     "name": "Ariel"
                 },
-                "text": " Belilo , Ariel , Gibraltar / Großbritannien , * 17.04.1975 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer"
+                "text": " Belilo, Ariel, Gibraltar / Großbritannien, *17.04.1975, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer"
             }
         ]
     }

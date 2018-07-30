@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Veringstraße 171 , 21107 Hamburg ."
+                "text": " Veringstraße 171, 21107 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Shanghei / China",
+                    "city": "Shanghei/China",
                     "dob": "1974-03-05",
                     "flag": "sole representation",
                     "lastname": "Li",
                     "name": "Chenhao"
                 },
-                "text": " Li , Chenhao , Shanghei / China , * 03.05.1974 , einzelvertretungsberechtigt"
+                "text": " Li, Chenhao, Shanghei/China, *03.05.1974, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Aumühle",
+                    "dismissed": true,
                     "dob": "1960-08-28",
-                    "lastname": "Dr . Li",
+                    "lastname": "Doctor Li",
                     "name": "Ying"
                 },
-                "text": " Dr . Li , Ying , Aumühle , * 28.08.1960"
+                "text": " Doctor Li, Ying, Aumühle, *28.08.1960"
             }
         ]
     }

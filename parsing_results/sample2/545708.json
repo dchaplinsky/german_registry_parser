@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Ortenberg ( Hessen )",
+                    "city": "Ortenberg (Hessen)",
+                    "dismissed": true,
                     "dob": "1953-06-29",
                     "lastname": "Härich",
                     "name": "Peter"
                 },
-                "text": " Härich , Peter , Ortenberg ( Hessen ) , * 29.06.1953 ."
+                "text": " Härich, Peter, Ortenberg (Hessen), *29.06.1953."
             }
         ]
     }

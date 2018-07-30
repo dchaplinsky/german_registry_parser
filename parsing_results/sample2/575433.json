@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Essen",
+                    "dismissed": true,
                     "dob": "1987-12-01",
                     "lastname": "Thillainathan",
                     "name": "Mayooran"
                 },
-                "text": " Thillainathan , Mayooran , Essen , * 12.01.1987 ."
+                "text": " Thillainathan, Mayooran, Essen, *12.01.1987."
             }
         ]
     }

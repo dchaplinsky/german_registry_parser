@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Weyher",
+                    "dismissed": true,
                     "dob": "1954-10-05",
                     "lastname": "Ruland",
                     "name": "Günter"
                 },
-                "text": " Ruland , Günter , Weyher , * 10.05.1954 ."
+                "text": " Ruland, Günter, Weyher, *10.05.1954."
             }
         ]
     }

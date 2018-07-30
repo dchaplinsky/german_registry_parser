@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " eingetragen w . o ."
+                "text": "eingetragen w.o."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Moosburg a . d . Isar",
+                    "city": "Moosburg a.d.Isar",
                     "dob": "1967-12-20",
                     "lastname": "Driescher",
                     "name": "Christoph"
                 },
-                "text": " Driescher , Christoph , Moosburg a . d . Isar , * 20.12.1967"
+                "text": " Driescher, Christoph, Moosburg a.d.Isar, *20.12.1967"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Högertshausen",
+                    "dismissed": true,
                     "dob": "1939-11-29",
                     "lastname": "Driescher",
                     "name": "Werner"
                 },
-                "text": " Driescher , Werner , Högertshausen , * 29.11.1939"
+                "text": " Driescher, Werner, Högertshausen, *29.11.1939"
             }
         ]
     }

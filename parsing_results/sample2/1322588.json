@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bremen",
+                    "dismissed": true,
                     "dob": "1972-09-08",
                     "lastname": "Dillinger",
                     "name": "André"
                 },
-                "text": " Dillinger , André , Bremen , * 09.08.1972 ."
+                "text": " Dillinger, André, Bremen, *09.08.1972."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Schmitten",
                     "dob": "1968-03-10",
@@ -36,7 +37,7 @@
                     "lastname": "Feldmann",
                     "name": "Theodor"
                 },
-                "text": " Feldmann , Theodor , Schmitten , * 03.10.1968 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Feldmann, Theodor, Schmitten, *03.10.1968, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

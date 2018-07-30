@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Handwerkerstraße 1 , 78176 Blumberg ."
+                "text": " Handwerkerstraße 1, 78176 Blumberg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Gailingen am Hochrhein",
+                    "dismissed": true,
                     "dob": "1973-02-26",
                     "lastname": "Jaser",
                     "name": "Heike Tina geborene Erbers"
                 },
-                "text": " Jaser , Heike Tina geborene Erbers , Gailingen am Hochrhein , * 26.02.1973 ."
+                "text": " Jaser, Heike Tina geborene Erbers, Gailingen am Hochrhein, *26.02.1973."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hennef",
+                    "dismissed": true,
                     "dob": "1967-12-03",
                     "lastname": "Weiß",
                     "name": "Frank"
                 },
-                "text": " Weiß , Frank , Hennef , * 12.03.1967 ."
+                "text": " Weiß, Frank, Hennef, *12.03.1967."
             }
         ]
     }

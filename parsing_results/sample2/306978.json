@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Am Denkmal 5 , 38112 Braunschweig ."
+                "text": " Am Denkmal 5, 38112 Braunschweig."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Cremlingen",
+                    "dismissed": true,
                     "dob": "1948-04-09",
                     "lastname": "Hinrichs",
                     "name": "Torsten"
                 },
-                "text": " Hinrichs , Torsten , Cremlingen , * 04.09.1948 ."
+                "text": " Hinrichs, Torsten, Cremlingen, *04.09.1948."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Meinersen",
                     "dob": "1971-03-19",
@@ -42,17 +43,18 @@
                     "lastname": "Laubrich",
                     "name": "Maic"
                 },
-                "text": " Laubrich , Maic , Meinersen , * 19.03.1971 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer ."
+                "text": " Laubrich, Maic, Meinersen, *19.03.1971, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Braunschweig",
+                    "dismissed": true,
                     "dob": "1956-01-20",
                     "lastname": "Becker",
                     "name": "Frank"
                 },
-                "text": " Becker , Frank , Braunschweig , * 20.01.1956 ."
+                "text": " Becker, Frank, Braunschweig, *20.01.1956."
             }
         ]
     }

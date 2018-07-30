@@ -21,21 +21,22 @@
                 "class": "RemovedFromBoard",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1945-09-02",
                     "lastname": "Hurling",
                     "name": "Walter"
                 },
-                "text": " Hurling , Walter , Hamburg , * 09.02.1945"
+                "text": " Hurling, Walter, Hamburg, *09.02.1945"
             },
             {
                 "class": "AppointedBoard",
                 "payload": {
                     "city": "Stendal",
                     "dob": "1941-06-25",
-                    "lastname": "Dr . Lischka",
+                    "lastname": "Doctor Lischka",
                     "name": "Volkmar"
                 },
-                "text": " Dr . Lischka , Volkmar , Stendal , * 25.06.1941"
+                "text": " Doctor Lischka, Volkmar, Stendal, *25.06.1941"
             }
         ]
     }

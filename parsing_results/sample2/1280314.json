@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Willich",
                     "dob": "1959-07-07",
@@ -26,17 +26,18 @@
                     "lastname": "Priske",
                     "name": "Bernd"
                 },
-                "text": " Priske , Bernd , Willich , * 07.07.1959 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Priske, Bernd, Willich, *07.07.1959, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bad Oeynhausen",
+                    "dismissed": true,
                     "dob": "1944-11-07",
                     "lastname": "Hallinger",
                     "name": "Lieselotte"
                 },
-                "text": " Hallinger , Lieselotte , Bad Oeynhausen , * 11.07.1944 ."
+                "text": " Hallinger, Lieselotte, Bad Oeynhausen, *11.07.1944."
             }
         ]
     }

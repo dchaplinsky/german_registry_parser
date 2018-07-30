@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Schwabacher Straße 40 , 90537 Feucht ."
+                "text": " Schwabacher Straße 40, 90537 Feucht."
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
-                    "city": "Feucht b . Nbg",
+                    "city": "Feucht b.Nbg",
+                    "dismissed": true,
                     "lastname": "Graf",
                     "name": "Heinrich",
-                    "position": "Kfz . - Meister"
+                    "position": "Kfz.-Meister"
                 },
-                "text": " Graf , Heinrich , Kfz . - Meister , Feucht b . Nbg ."
+                "text": " Graf, Heinrich, Kfz.-Meister, Feucht b.Nbg."
             },
             {
                 "class": "Owner",
@@ -41,7 +42,7 @@
                     "lastname": "Graf",
                     "name": "Andreas"
                 },
-                "text": " Graf , Andreas , Feucht , * 14.01.1968 ."
+                "text": " Graf, Andreas, Feucht, *14.01.1968."
             }
         ]
     }

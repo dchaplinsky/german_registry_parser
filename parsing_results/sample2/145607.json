@@ -19,17 +19,18 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Viering",
                     "name": "Harald"
                 },
-                "text": " Viering , Harald"
+                "text": " Viering, Harald"
             },
             {
                 "class": "ManagingDirector",
@@ -39,23 +40,16 @@
                     "lastname": "Fetkenheuer",
                     "name": "Klaus"
                 },
-                "text": " Fetkenheuer , Klaus , * 19.03.1965 , Gerolzhofen"
+                "text": " Fetkenheuer, Klaus, *19.03.1965, Gerolzhofen"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Löwigt",
                     "name": "Uwe"
                 },
-                "text": " Löwigt , Uwe ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Nicht mehr Prokurist : Löwigt",
-                    "name": "Uwe"
-                },
-                "text": " Nicht mehr Prokurist : Löwigt , Uwe ."
+                "text": " Löwigt, Uwe."
             }
         ]
     }

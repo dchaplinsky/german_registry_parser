@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Löwentorstr ."
+                "text": " Löwentorstr."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Walkenried",
+                    "dismissed": true,
                     "lastname": "Reinboth",
                     "name": "Gunter",
                     "position": "Zahntechnikermeister"
                 },
-                "text": " Reinboth , Gunter , Zahntechnikermeister , Walkenried ."
+                "text": " Reinboth, Gunter, Zahntechnikermeister, Walkenried."
             }
         ]
     }

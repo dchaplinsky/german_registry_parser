@@ -16,13 +16,25 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=696342&land_abk=nw"
     },
     "parsed": {
+        "flags": [
+            {
+                "flag": "Limited partnership.",
+                "text": "Kommanditgesellschaft\\."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " heidestr."
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " bonitas pflegedienste verwaltungs gmbh , herford ( bad oeynhausen hrb 5568 ) ."
+                    "company_name": " bonitas pflegedienste verwaltungs gmbh, herford (bad oeynhausen hrb 5568)."
                 },
-                "text": " bonitas pflegedienste verwaltungs gmbh , herford ( bad oeynhausen hrb 5568 ) ."
+                "text": " bonitas pflegedienste verwaltungs gmbh, herford (bad oeynhausen hrb 5568)."
             }
         ]
     }

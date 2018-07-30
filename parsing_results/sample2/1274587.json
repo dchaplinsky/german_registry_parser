@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Jülicher Straße 11 , 52070 Aachen ."
+                "text": " Jülicher Straße 11, 52070 Aachen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Aachen",
+                    "dismissed": true,
                     "dob": "1956-04-01",
                     "lastname": "Mangal",
                     "name": "Sultan Ahmad"
                 },
-                "text": " Mangal , Sultan Ahmad , Aachen , * 04.01.1956 ."
+                "text": " Mangal, Sultan Ahmad, Aachen, *04.01.1956."
             }
         ]
     }

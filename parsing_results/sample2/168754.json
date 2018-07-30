@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Güglingstraße 66-70 , 73529 Schwäbisch Gmünd ."
+                "text": " Güglingstraße 66-70, 73529 Schwäbisch Gmünd."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Lorch",
+                    "dismissed": true,
                     "dob": "1967-12-12",
                     "lastname": "Krause",
                     "name": "Mark"
                 },
-                "text": " Krause , Mark , Lorch , * 12.12.1967 ."
+                "text": " Krause, Mark, Lorch, *12.12.1967."
             }
         ]
     }

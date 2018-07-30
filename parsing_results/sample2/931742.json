@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Maria - Josepha - Straße 30 , 80802 München ."
+                "text": " Maria-Josepha-Straße 30, 80802 München."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1974-11-16",
                     "lastname": "Oldenburg",
                     "name": "Ines"
                 },
-                "text": " Oldenburg , Ines , München , * 16.11.1974 ."
+                "text": " Oldenburg, Ines, München, *16.11.1974."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1974-10-15",
                     "flag": "sole representation",
-                    "lastname": "Dr . Krieger",
+                    "lastname": "Doctor Krieger",
                     "name": "Axel"
                 },
-                "text": " Dr . Krieger , Axel , München , * 15.10.1974 , einzelvertretungsberechtigt"
+                "text": " Doctor Krieger, Axel, München, *15.10.1974, einzelvertretungsberechtigt"
             }
         ]
     }

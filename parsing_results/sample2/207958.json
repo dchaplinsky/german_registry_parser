@@ -23,7 +23,7 @@
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -35,14 +35,15 @@
                     "lastname": "Würl",
                     "name": "Franz"
                 },
-                "text": " Würl , Franz , Oberstenfeld , * 17.06.1962 ."
+                "text": " Würl, Franz, Oberstenfeld, *17.06.1962."
             },
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Würl Beteiligungs - und Grundstücksverwaltungs - GmbH , Oberstenfeld ( Amtsgericht Stuttgart HRB 311162 ) ."
+                    "lastname": "Würl Beteiligungs- und Grundstücksverwaltungs-GmbH",
+                    "name": "Oberstenfeld (Amtsgericht Stuttgart HRB 311162)"
                 },
-                "text": " Würl Beteiligungs - und Grundstücksverwaltungs - GmbH , Oberstenfeld ( Amtsgericht Stuttgart HRB 311162 ) ."
+                "text": " Würl Beteiligungs- und Grundstücksverwaltungs-GmbH, Oberstenfeld (Amtsgericht Stuttgart HRB 311162)."
             }
         ]
     }

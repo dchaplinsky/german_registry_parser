@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
@@ -29,20 +29,21 @@
                     "city": "Bad Essen",
                     "dob": "1962-09-19",
                     "flag": "sole representation",
-                    "lastname": "Mix",
+                    "lastname": ": Mix",
                     "name": "Frank"
                 },
-                "text": " Mix , Frank , Bad Essen , * 19.09.1962 , einzelvertretungsberechtigt"
+                "text": ": Mix, Frank, Bad Essen, *19.09.1962, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bremen",
+                    "dismissed": true,
                     "dob": "1969-09-22",
                     "lastname": "Rothgänger",
                     "name": "Kerstin"
                 },
-                "text": " Rothgänger , Kerstin , Bremen , * 22.09.1969 ."
+                "text": " Rothgänger, Kerstin, Bremen, *22.09.1969."
             }
         ]
     }

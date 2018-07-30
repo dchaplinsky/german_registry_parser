@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Wiesthal",
+                    "dismissed": true,
                     "dob": "1978-02-11",
                     "lastname": "Wegmann",
                     "name": "Klaus"
                 },
-                "text": " Wegmann , Klaus , Wiesthal , * 02.11.1978 ."
+                "text": " Wegmann, Klaus, Wiesthal, *02.11.1978."
             }
         ]
     }

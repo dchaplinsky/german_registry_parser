@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Nicolaistraße 9 , 04668 Grimma ."
+                "text": " Nicolaistraße 9, 04668 Grimma."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Machern",
+                    "dismissed": true,
                     "dob": "1960-04-06",
                     "lastname": "Billig",
                     "name": "Thomas F"
                 },
-                "text": " Billig , Thomas F . , Machern , * 04.06.1960 ."
+                "text": " Billig, Thomas F., Machern, *04.06.1960."
             }
         ]
     }

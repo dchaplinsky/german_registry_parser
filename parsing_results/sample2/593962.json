@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Am Buschhäuschen 19 , , 42115 Wuppertal ."
+                "text": " Am Buschhäuschen 19,, 42115 Wuppertal."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wesseling",
+                    "dismissed": true,
                     "dob": "1975-02-11",
                     "lastname": "Hundt",
                     "name": "Angelika"
                 },
-                "text": " Hundt , Angelika , Wesseling , * 02.11.1975 ."
+                "text": " Hundt, Angelika, Wesseling, *02.11.1975."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wuppertal",
                     "dob": "1969-06-20",
                     "lastname": "Altfeld",
                     "name": "Jasmin"
                 },
-                "text": " Altfeld , Jasmin , Wuppertal , * 20.06.1969"
+                "text": " Altfeld, Jasmin, Wuppertal, *20.06.1969"
             }
         ]
     }

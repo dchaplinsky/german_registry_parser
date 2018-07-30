@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hannover",
+                    "dismissed": true,
                     "dob": "1937-11-09",
                     "lastname": "Pape",
                     "name": "Gerhard"
                 },
-                "text": " Pape , Gerhard , Hannover , * 11.09.1937 ."
+                "text": " Pape, Gerhard, Hannover, *11.09.1937."
             }
         ]
     }

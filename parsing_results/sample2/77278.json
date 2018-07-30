@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Halle ( Saale )",
+                    "city": "Halle (Saale)",
                     "dob": "1969-12-03",
-                    "lastname": "Prof . Dr . Furchert",
+                    "lastname": "Prof. Doctor Furchert",
                     "name": "Dirk"
                 },
-                "text": " Prof . Dr . Furchert , Dirk , Halle ( Saale ) , * 12.03.1969"
+                "text": " Prof. Doctor Furchert, Dirk, Halle (Saale), *12.03.1969"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Magdeburg",
+                    "dismissed": true,
                     "dob": "1963-05-28",
                     "lastname": "Gosch",
                     "name": "Holger"
                 },
-                "text": " Gosch , Holger , Magdeburg , * 28.05.1963"
+                "text": " Gosch, Holger, Magdeburg, *28.05.1963"
             }
         ]
     }

@@ -19,18 +19,22 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr . Ing ., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a RetiredManagingDirector from  Doctor Ing., error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Doctor Ing., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Urbar",
                     "dob": "1963-03-17",
@@ -38,7 +42,7 @@
                     "lastname": "Hoffmann",
                     "name": "Ralf Gerhard"
                 },
-                "text": " Hoffmann , Ralf Gerhard , Urbar , * 17.03.1963 , einzelvertretungsberechtigt"
+                "text": " Hoffmann, Ralf Gerhard, Urbar, *17.03.1963, einzelvertretungsberechtigt"
             }
         ]
     }

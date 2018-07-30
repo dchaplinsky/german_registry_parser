@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Koblenz",
+                    "dismissed": true,
                     "dob": "1964-07-13",
                     "lastname": "Schmidt",
                     "name": "Klaus"
                 },
-                "text": " Schmidt , Klaus , Koblenz , * 13.07.1964 ."
+                "text": " Schmidt, Klaus, Koblenz, *13.07.1964."
             }
         ]
     }

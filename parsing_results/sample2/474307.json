@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Neckargemünd",
+                    "dismissed": true,
                     "dob": "1947-05-14",
                     "lastname": "Weber",
                     "name": "Renate"
                 },
-                "text": " Weber , Renate , Neckargemünd , * 14.05.1947 ."
+                "text": " Weber, Renate, Neckargemünd, *14.05.1947."
             }
         ]
     }

@@ -16,45 +16,51 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=645701&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Rask , Steven H . , Highlands Ranch , Colorado / USA , * 14.11.1969 ., error text was Cannot parse DOB  Highlands Ranch  using regex"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Esbachgraben 21 , 95463 Bindlach"
+                "text": " Esbachgraben 21, 95463 Bindlach"
             },
             {
                 "label": "address",
-                "text": " Am Winkelsteig 1 , 91207 Lauf a . d . Pegnitz"
+                "text": " Am Winkelsteig 1, 91207 Lauf a.d.Pegnitz"
             },
             {
                 "label": "address",
-                "text": " Nobelstraße 6 , 41189 Mönchengladbach ."
+                "text": " Nobelstraße 6, 41189 Mönchengladbach."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Colorado/USA",
+                    "dismissed": true,
+                    "dob": "1969-11-14",
+                    "lastname": "Rask",
+                    "name": "Steven H",
+                    "position": "Highlands Ranch"
+                },
+                "text": " Rask, Steven H., Highlands Ranch, Colorado/USA, *14.11.1969."
+            },
+            {
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mönchengladbach",
                     "dob": "1952-04-05",
                     "lastname": "Baude",
                     "name": "Joachim"
                 },
-                "text": " Baude , Joachim , Mönchengladbach , * 04.05.1952 ."
+                "text": " Baude, Joachim, Mönchengladbach, *04.05.1952."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Littleton / USA",
                     "dob": "1973-04-11",
@@ -62,7 +68,7 @@
                     "lastname": "Carlson",
                     "name": "Robert"
                 },
-                "text": " Carlson , Robert , Littleton / USA , * 04.11.1973 , einzelvertretungsberechtigt"
+                "text": " Carlson, Robert, Littleton / USA, *04.11.1973, einzelvertretungsberechtigt"
             },
             {
                 "class": "ManagingDirector",
@@ -72,7 +78,7 @@
                     "lastname": "Schneider",
                     "name": "Andreas"
                 },
-                "text": " Schneider , Andreas , Pegnitz , * 12.01.1966 ."
+                "text": " Schneider, Andreas, Pegnitz, *12.01.1966."
             }
         ]
     }

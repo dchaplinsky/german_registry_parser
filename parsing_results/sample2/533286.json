@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Härkingen / Schweiz",
+                    "city": "Härkingen/Schweiz",
+                    "dismissed": true,
                     "dob": "1980-11-17",
                     "lastname": "Jacob",
                     "name": "Heiko"
                 },
-                "text": " Jacob , Heiko , Härkingen / Schweiz , * 17.11.1980 ."
+                "text": " Jacob, Heiko, Härkingen/Schweiz, *17.11.1980."
             }
         ]
     }

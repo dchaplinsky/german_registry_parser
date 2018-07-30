@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "city": "Rheda - Wiedenbrück",
+                    "city": "Rheda-Wiedenbrück",
+                    "dismissed": true,
                     "dob": "1947-10-26",
                     "lastname": "Karaula",
                     "name": "Frano"
                 },
-                "text": " Karaula , Frano , Rheda - Wiedenbrück , * 26.10.1947 ."
+                "text": " Karaula, Frano, Rheda-Wiedenbrück, *26.10.1947."
             }
         ]
     }

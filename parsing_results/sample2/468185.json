@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=468185&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Meisinger , Hans , Kaufmann , Freising , * 03.03.1656 ., error text was Cannot parse DOB  Kaufmann  using regex"
-            }
-        ],
         "flags": [
             {
                 "flag": "Sole trader",
@@ -29,25 +23,37 @@
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Am Lohmühlbach 9 , 85356 Freising ."
+                "text": " Am Lohmühlbach 9, 85356 Freising."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Kranzberg",
+                    "dismissed": true,
                     "lastname": "Meisinger",
                     "name": "Johann Hans",
                     "position": "Kaufmann"
                 },
-                "text": " Meisinger , Johann Hans , Kaufmann , Kranzberg ."
+                "text": " Meisinger, Johann Hans, Kaufmann, Kranzberg."
+            },
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Freising",
+                    "dob": "1656-03-03",
+                    "lastname": "Meisinger",
+                    "name": "Hans",
+                    "position": "Kaufmann"
+                },
+                "text": " Meisinger, Hans, Kaufmann, Freising, *03.03.1656."
             }
         ]
     }

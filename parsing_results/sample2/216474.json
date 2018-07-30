@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Köln",
                     "dob": "1971-05-18",
                     "lastname": "Herbrand",
                     "name": "Timo"
                 },
-                "text": " Herbrand , Timo , Köln , * 18.05.1971"
+                "text": " Herbrand, Timo, Köln, *18.05.1971"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1966-01-09",
                     "lastname": "Meyer",
                     "name": "Marco"
                 },
-                "text": " Meyer , Marco , Köln , * 01.09.1966 ."
+                "text": " Meyer, Marco, Köln, *01.09.1966."
             }
         ]
     }

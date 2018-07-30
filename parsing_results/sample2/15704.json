@@ -18,22 +18,23 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "lastname": "Dr . Rutke",
+                    "dismissed": true,
+                    "lastname": "Doctor Rutke",
                     "name": "Wolfgang"
                 },
-                "text": " Dr . Rutke , Wolfgang"
+                "text": " Doctor Rutke, Wolfgang"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Kronberg / Ts",
+                    "city": "Kronberg/Ts",
                     "dob": "1966-12-13",
-                    "lastname": "Dr . Naumann",
+                    "lastname": "Doctor Naumann",
                     "name": "Thomas"
                 },
-                "text": " Dr . Naumann , Thomas , * 13.12.1966 , Kronberg / Ts ."
+                "text": " Doctor Naumann, Thomas, *13.12.1966, Kronberg/Ts."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Havelberg",
+                    "dismissed": true,
                     "dob": "1962-11-12",
-                    "lastname": "Dr . Jahnke",
+                    "lastname": "Doctor Jahnke",
                     "name": "Ralph"
                 },
-                "text": " Dr . Jahnke , Ralph , Havelberg , * 11.12.1962 ."
+                "text": " Doctor Jahnke, Ralph, Havelberg, *11.12.1962."
             }
         ]
     }

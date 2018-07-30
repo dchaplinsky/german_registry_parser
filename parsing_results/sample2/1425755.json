@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1979-08-31",
                     "lastname": "Steinwand",
                     "name": "Michael"
                 },
-                "text": " Steinwand , Michael , Köln , * 31.08.1979 ."
+                "text": " Steinwand, Michael, Köln, *31.08.1979."
             }
         ]
     }

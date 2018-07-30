@@ -19,35 +19,36 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Schön",
                     "name": "Heike geborene Walther"
                 },
-                "text": " Schön , Heike geborene Walther"
+                "text": " Schön, Heike geborene Walther"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Berlin",
                     "dob": "1953-11-08",
-                    "lastname": "Prof . Dr . Häussler",
+                    "lastname": "Prof. Doctor Häussler",
                     "name": "Bertram"
                 },
-                "text": " Prof . Dr . Häussler , Bertram , * 11.08.1953 , Berlin"
+                "text": " Prof. Doctor Häussler, Bertram, *11.08.1953, Berlin"
             }
         ]
     }

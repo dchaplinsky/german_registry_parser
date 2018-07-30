@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=300776&land_abk=hh"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Albrecht",
                     "name": "Sven"
                 },
-                "text": " Albrecht , Sven , Geesthacht , * 19.11.1965"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Geesthacht",
-                    "dob": "1965-11-19",
-                    "lastname": "Albrecht",
-                    "name": "Sven"
-                },
-                "text": " Albrecht , Sven , Geesthacht , * 19.11.1965"
+                "text": " Albrecht, Sven, Geesthacht, *19.11.1965"
             }
         ]
     }

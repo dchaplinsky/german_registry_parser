@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Lachendorf",
+                    "dismissed": true,
                     "dob": "1949-06-09",
                     "lastname": "Schallock",
                     "name": "Reinhard"
                 },
-                "text": " Schallock , Reinhard , Lachendorf , * 06.09.1949 ."
+                "text": " Schallock, Reinhard, Lachendorf, *06.09.1949."
             },
             {
                 "class": "ManagingDirector",
@@ -35,7 +36,7 @@
                     "lastname": "Kerp",
                     "name": "Peter Jürgen"
                 },
-                "text": " Kerp , Peter Jürgen , Wesseling , * 21.06.1958 ."
+                "text": " Kerp, Peter Jürgen, Wesseling, *21.06.1958."
             }
         ]
     }

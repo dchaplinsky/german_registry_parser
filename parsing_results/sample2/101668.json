@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Schaumburger Str ."
+                "text": " Schaumburger Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bad Nenndorf",
+                    "dismissed": true,
                     "dob": "1956-02-10",
                     "lastname": "Schöps",
                     "name": "Dietmar"
                 },
-                "text": " Schöps , Dietmar , Bad Nenndorf , * 02.10.1956"
+                "text": " Schöps, Dietmar, Bad Nenndorf, *02.10.1956"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hannover",
                     "dob": "1980-05-09",
                     "lastname": "Hosseinzadehfarahied",
                     "name": "Kaveh"
                 },
-                "text": " Hosseinzadehfarahied , Kaveh , Hannover , * 05.09.1980 ."
+                "text": " Hosseinzadehfarahied, Kaveh, Hannover, *05.09.1980."
             }
         ]
     }

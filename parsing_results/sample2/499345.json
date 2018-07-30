@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Pullenhofen 12 b , 85567 Bruck ."
+                "text": " Pullenhofen 12 b, 85567 Bruck."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Straßlach",
+                    "dismissed": true,
                     "dob": "1961-02-10",
                     "lastname": "Jäggle",
                     "name": "Peter"
                 },
-                "text": " Jäggle , Peter , Straßlach , * 02.10.1961"
+                "text": " Jäggle, Peter, Straßlach, *02.10.1961"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rosenheim",
                     "dob": "1977-02-12",
                     "lastname": "Schwer",
                     "name": "Christoph"
                 },
-                "text": " Schwer , Christoph , Rosenheim , * 02.12.1977 ."
+                "text": " Schwer, Christoph, Rosenheim, *02.12.1977."
             }
         ]
     }

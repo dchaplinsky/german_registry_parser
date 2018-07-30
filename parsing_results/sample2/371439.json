@@ -21,11 +21,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Bochum",
+                    "dismissed": true,
                     "dob": "1967-03-15",
                     "lastname": "Wilkens",
                     "name": "Christian"
                 },
-                "text": " Wilkens , Christian , Bochum , * 15.03.1967 ."
+                "text": " Wilkens, Christian, Bochum, *15.03.1967."
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Schnidrig",
                     "name": "Lars"
                 },
-                "text": " Schnidrig , Lars , Bochum , * 15.05.1972 ."
+                "text": " Schnidrig, Lars, Bochum, *15.05.1972."
             }
         ]
     }

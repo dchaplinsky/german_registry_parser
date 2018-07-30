@@ -21,11 +21,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Uthleben",
+                    "dismissed": true,
                     "dob": "1951-10-18",
                     "lastname": "Junker",
-                    "name": "Hans - Joachim"
+                    "name": "Hans-Joachim"
                 },
-                "text": " Junker , Hans - Joachim , Uthleben , * 18.10.1951 ."
+                "text": " Junker, Hans-Joachim, Uthleben, *18.10.1951."
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Jankowa",
                     "name": "Hannelore"
                 },
-                "text": " Jankowa , Hannelore , Freyburg , * 18.09.1956 ."
+                "text": " Jankowa, Hannelore, Freyburg, *18.09.1956."
             }
         ]
     }

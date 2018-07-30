@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Schöneiche b . Berlin",
+                    "city": "Schöneiche b. Berlin",
+                    "dismissed": true,
                     "dob": "1966-09-12",
                     "lastname": "Anton",
                     "name": "Oleg"
                 },
-                "text": " Anton , Oleg , Schöneiche b . Berlin , * 09.12.1966 ."
+                "text": " Anton, Oleg, Schöneiche b. Berlin, *09.12.1966."
             }
         ]
     }

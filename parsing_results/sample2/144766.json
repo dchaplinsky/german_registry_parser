@@ -19,40 +19,41 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Osterbekstraße 90 b , 22083 Hamburg ."
+                "text": " Osterbekstraße 90b, 22083 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Weinfelden / Schweiz",
+                    "city": "Weinfelden/Schweiz",
+                    "dismissed": true,
                     "dob": "1940-07-27",
                     "lastname": "Hill",
                     "name": "Jonny"
                 },
-                "text": " Hill , Jonny , Weinfelden / Schweiz , * 27.07.1940 ."
+                "text": " Hill, Jonny, Weinfelden/Schweiz, *27.07.1940."
             },
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "Güttingen / Schweiz",
+                    "city": "Güttingen/Schweiz",
                     "dob": "1946-03-03",
                     "flag": "sole representation",
                     "lastname": "Oetken",
-                    "name": "Lutz - Uwe"
+                    "name": "Lutz-Uwe"
                 },
-                "text": " Oetken , Lutz - Uwe , Güttingen / Schweiz , * 03.03.1946 , einzelvertretungsberechtigt"
+                "text": " Oetken, Lutz-Uwe, Güttingen/Schweiz, *03.03.1946, einzelvertretungsberechtigt"
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bissendorf",
-                    "lastname": "Dr . Hamm",
-                    "name": "Hans - Peter",
+                    "dismissed": true,
+                    "lastname": "Doctor Hamm",
+                    "name": "Hans-Peter",
                     "position": "Kaufmann"
                 },
-                "text": " Dr . Hamm , Hans - Peter , Kaufmann , Bissendorf ."
+                "text": " Doctor Hamm, Hans-Peter, Kaufmann, Bissendorf."
             }
         ]
     }

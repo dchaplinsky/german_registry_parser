@@ -19,54 +19,56 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Frankfurter Str ."
+                "text": " Frankfurter Str."
             },
             {
                 "label": "address",
-                "text": " Außer der Schleifmühle 48 , 28203 Bremen ."
+                "text": " Außer der Schleifmühle 48, 28203 Bremen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1964-04-01",
                     "lastname": "Peper",
                     "name": "Dirk"
                 },
-                "text": " Peper , Dirk , Hamburg , * 04.01.1964"
+                "text": " Peper, Dirk, Hamburg, *04.01.1964"
             },
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "Bad Homburg v . d . Höhe",
+                    "city": "Bad Homburg v. d. Höhe",
                     "dob": "1968-12-09",
                     "flag": "sole representation",
-                    "lastname": "Baums",
+                    "lastname": ": Baums",
                     "name": "Carsten"
                 },
-                "text": " Baums , Carsten , Bad Homburg v . d . Höhe , * 12.09.1968 , einzelvertretungsberechtigt"
+                "text": ": Baums, Carsten, Bad Homburg v. d. Höhe, *12.09.1968, einzelvertretungsberechtigt"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Bad Homburg v . d . Höhe",
+                    "city": "Bad Homburg v. d. Höhe",
+                    "dismissed": true,
                     "dob": "1972-05-24",
                     "lastname": "Baums",
                     "name": "Uta Dorothea Lore"
                 },
-                "text": " Baums , Uta Dorothea Lore , Bad Homburg v . d . Höhe , * 24.05.1972 ."
+                "text": " Baums, Uta Dorothea Lore, Bad Homburg v. d. Höhe, *24.05.1972."
             }
         ]
     }

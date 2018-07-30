@@ -21,21 +21,22 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Weinheim",
+                    "dismissed": true,
                     "dob": "1960-03-17",
                     "lastname": "Röttinger",
                     "name": "Christel"
                 },
-                "text": " Röttinger , Christel , Weinheim , * 17.03.1960 ."
+                "text": " Röttinger, Christel, Weinheim, *17.03.1960."
             },
             {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Lüneburg",
                     "dob": "1962-10-27",
-                    "lastname": "Dr . Bauer",
+                    "lastname": "Doctor Bauer",
                     "name": "Frank"
                 },
-                "text": " Dr . Bauer , Frank , Lüneburg , * 27.10.1962 ."
+                "text": " Doctor Bauer, Frank, Lüneburg, *27.10.1962."
             }
         ]
     }

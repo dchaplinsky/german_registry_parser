@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Haan",
+                    "dismissed": true,
                     "dob": "1971-12-17",
                     "lastname": "Leder",
                     "name": "Ronald Peter"
                 },
-                "text": " Leder , Ronald Peter , Haan , * 17.12.1971 ."
+                "text": " Leder, Ronald Peter, Haan, *17.12.1971."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Haan",
                     "dob": "1963-06-22",
@@ -36,7 +37,7 @@
                     "lastname": "Harnisch",
                     "name": "Klaus Peter"
                 },
-                "text": " Harnisch , Klaus Peter , Haan , * 22.06.1963 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Harnisch, Klaus Peter, Haan, *22.06.1963, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

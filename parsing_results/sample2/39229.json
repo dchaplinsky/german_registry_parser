@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Sulzaer Str ."
+                "text": " Sulzaer Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Wien / Österreich",
+                    "city": "Wien/Österreich",
+                    "dismissed": true,
                     "dob": "1949-03-09",
                     "lastname": "Markowski",
                     "name": "Wasil"
                 },
-                "text": " Markowski , Wasil , Wien / Österreich , * 03.09.1949 ."
+                "text": " Markowski, Wasil, Wien/Österreich, *03.09.1949."
             }
         ]
     }

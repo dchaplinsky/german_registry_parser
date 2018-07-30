@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=615795&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Eichwald",
                     "name": "Meik Andreas"
                 },
-                "text": " Eichwald , Meik Andreas , Mühlheim an der Donau , * 12.06.1978 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Mühlheim an der Donau",
-                    "dob": "1978-12-06",
-                    "lastname": "Eichwald",
-                    "name": "Meik Andreas"
-                },
-                "text": " Eichwald , Meik Andreas , Mühlheim an der Donau , * 12.06.1978 ."
+                "text": " Eichwald, Meik Andreas, Mühlheim an der Donau, *12.06.1978."
             }
         ]
     }

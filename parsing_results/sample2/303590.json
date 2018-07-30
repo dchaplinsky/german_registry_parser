@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Mainzer Straße 118 , 65189 Wiesbaden ."
+                "text": " Mainzer Straße 118, 65189 Wiesbaden."
             }
         ],
         "officers": [
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Mainz - Kostheim",
+                    "city": "Mainz-Kostheim",
+                    "dismissed": true,
                     "dob": "1950-09-07",
                     "lastname": "Faßbender",
                     "name": "Eberhard"
                 },
-                "text": " Faßbender , Eberhard , Mainz - Kostheim , * 09.07.1950 ."
+                "text": " Faßbender, Eberhard, Mainz-Kostheim, *09.07.1950."
             },
             {
                 "class": "CommonProcuration",
@@ -41,7 +42,7 @@
                     "lastname": "Wenzel",
                     "name": "Claudia"
                 },
-                "text": " Wenzel , Claudia , Mainz , * 17.03.1966 ."
+                "text": " Wenzel, Claudia, Mainz, *17.03.1966."
             }
         ]
     }

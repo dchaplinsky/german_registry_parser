@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mülheim an der Ruhr",
+                    "dismissed": true,
                     "dob": "1956-01-08",
                     "lastname": "Heuken",
                     "name": "Jürgen"
                 },
-                "text": " Heuken , Jürgen , Mülheim an der Ruhr , * 01.08.1956 ."
+                "text": " Heuken, Jürgen, Mülheim an der Ruhr, *01.08.1956."
             }
         ]
     }

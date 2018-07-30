@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Solbadstraße 2 , 06406 Bernburg ( Saale ) ."
+                "text": " Solbadstraße 2, 06406 Bernburg (Saale)."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Staßfurt",
                     "dob": "1983-12-16",
                     "lastname": "Peulecke",
                     "name": "Nadine"
                 },
-                "text": " Peulecke , Nadine , Staßfurt , * 16.12.1983 ."
+                "text": " Peulecke, Nadine, Staßfurt, *16.12.1983."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Könnern",
+                    "dismissed": true,
                     "dob": "1954-03-09",
                     "lastname": "Ruß",
                     "name": "Roland"
                 },
-                "text": " Ruß , Roland , Könnern , * 03.09.1954 ."
+                "text": " Ruß, Roland, Könnern, *03.09.1954."
             }
         ]
     }

@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Siedlung Vier Morgen 2 b , 74921 Helmstadt - Bargen ."
+                "text": " Siedlung Vier Morgen 2b, 74921 Helmstadt-Bargen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Helmstadt - Bargen",
+                    "city": "Helmstadt-Bargen",
                     "dob": "1971-08-31",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Heymanns",
                     "name": "Bernd"
                 },
-                "text": " Heymanns , Bernd , Helmstadt - Bargen , * 31.08.1971 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Heymanns, Bernd, Helmstadt-Bargen, *31.08.1971, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Weinstadt",
+                    "dismissed": true,
                     "dob": "1968-07-13",
                     "lastname": "Hennig",
                     "name": "Steffen"
                 },
-                "text": " Hennig , Steffen , Weinstadt , * 13.07.1968 ."
+                "text": " Hennig, Steffen, Weinstadt, *13.07.1968."
             }
         ]
     }

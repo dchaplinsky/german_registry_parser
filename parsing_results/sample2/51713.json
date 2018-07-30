@@ -20,34 +20,29 @@
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Franz",
                     "name": "Andrea"
                 },
-                "text": " Franz , Andrea"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Nicht mehr Prokurist : Franz",
-                    "name": "Andrea"
-                },
-                "text": " Nicht mehr Prokurist : Franz , Andrea"
+                "text": " Franz, Andrea"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Wiechern",
                     "name": "Volker"
                 },
-                "text": " Wiechern , Volker"
+                "text": " Wiechern, Volker"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Marten",
                     "name": "Claudia"
                 },
-                "text": " Marten , Claudia ."
+                "text": " Marten, Claudia."
             }
         ]
     }

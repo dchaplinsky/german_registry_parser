@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Oberhausen",
+                    "dismissed": true,
                     "dob": "1974-10-23",
                     "lastname": "Reichert",
                     "name": "Ralf"
                 },
-                "text": " Reichert , Ralf , Oberhausen , * 23.10.1974 ."
+                "text": " Reichert, Ralf, Oberhausen, *23.10.1974."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Köln",
                     "dob": "1982-10-08",
                     "lastname": "Menge",
                     "name": "Marcel"
                 },
-                "text": " Menge , Marcel , Köln , * 10.08.1982"
+                "text": " Menge, Marcel, Köln, *10.08.1982"
             }
         ]
     }

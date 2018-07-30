@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Pfälzer Hof 1 , 56812 Valwig ."
+                "text": " Pfälzer Hof 1, 56812 Valwig."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Burrweiler",
+                    "dismissed": true,
                     "dob": "1979-07-09",
                     "lastname": "Ackermann",
                     "name": "Sebastian"
                 },
-                "text": " Ackermann , Sebastian , Burrweiler , * 07.09.1979 ."
+                "text": " Ackermann, Sebastian, Burrweiler, *07.09.1979."
             }
         ]
     }

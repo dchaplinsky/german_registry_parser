@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=43334&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1967-09-26",
                     "lastname": "Wunn",
                     "name": "Constantin"
                 },
-                "text": " Wunn , Constantin , München , * 26.09.1967 ."
+                "text": " Wunn, Constantin, München, *26.09.1967."
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +36,7 @@
                     "lastname": "Schiffauer",
                     "name": "Harald"
                 },
-                "text": " Schiffauer , Harald , München , * 03.11.1969 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "München",
-                    "dob": "1969-03-11",
-                    "lastname": "Schiffauer",
-                    "name": "Harald"
-                },
-                "text": " Schiffauer , Harald , München , * 03.11.1969 ."
+                "text": " Schiffauer, Harald, München, *03.11.1969."
             }
         ]
     }

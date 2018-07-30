@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Heusweiler",
+                    "dismissed": true,
                     "dob": "1949-03-17",
                     "lastname": "Veit",
                     "name": "Gerd Josef"
                 },
-                "text": " Veit , Gerd Josef , Heusweiler , * 17.03.1949 ."
+                "text": " Veit, Gerd Josef, Heusweiler, *17.03.1949."
             },
             {
                 "class": "Liquidator",
@@ -35,7 +36,7 @@
                     "lastname": "Theobald",
                     "name": "Norbert"
                 },
-                "text": " Theobald , Norbert , Beckingen , * 29.04.1966 ."
+                "text": " Theobald, Norbert, Beckingen, *29.04.1966."
             }
         ]
     }

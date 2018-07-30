@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1954-05-28",
                     "lastname": "Zacharias",
-                    "name": "Claus - Otto"
+                    "name": "Claus-Otto"
                 },
-                "text": " Zacharias , Claus - Otto , Düsseldorf , * 28.05.1954 ."
+                "text": " Zacharias, Claus-Otto, Düsseldorf, *28.05.1954."
             }
         ]
     }

@@ -19,21 +19,21 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Seelenbinder23 Projektgesellschaft UG ( haftungsbeschränkt ) , Berlin , Gormannstraße 14 , 10119 Berlin ."
+                "text": " Seelenbinder23 Projektgesellschaft UG (haftungsbeschränkt), Berlin, Gormannstraße 14, 10119 Berlin."
             },
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Gormannstraße 14 , 10119 Berlin"
+                "text": " Geschäftsanschrift: Gormannstraße 14, 10119 Berlin"
             },
             {
                 "label": "address",
-                "text": " Gormannstraße 14 , 10119 Berlin"
+                "text": " Gormannstraße 14, 10119 Berlin"
             }
         ],
         "officers": [
@@ -43,17 +43,18 @@
                     "city": "Berlin",
                     "dob": "1956-12-26",
                     "lastname": "Scholz",
-                    "name": "Hans - Peter"
+                    "name": "Hans-Peter"
                 },
-                "text": " Scholz , Hans - Peter , * 26.12.1956 , Berlin"
+                "text": " Scholz, Hans-Peter, *26.12.1956, Berlin"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "lastname": "Dr . Antonic",
+                    "dismissed": true,
+                    "lastname": "Doctor Antonic",
                     "name": "Bodo Robert Viktor"
                 },
-                "text": " Dr . Antonic , Bodo Robert Viktor"
+                "text": " Doctor Antonic, Bodo Robert Viktor"
             }
         ]
     }

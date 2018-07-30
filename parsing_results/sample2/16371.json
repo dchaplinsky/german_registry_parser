@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Charlottenberg 8 , 19065 Raben Steinfeld ."
+                "text": " Charlottenberg 8, 19065 Raben Steinfeld."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Raben Steinfeld",
+                    "dismissed": true,
                     "dob": "1938-04-28",
                     "lastname": "Clauß",
                     "name": "Dieter"
                 },
-                "text": " Clauß , Dieter , Raben Steinfeld , * 28.04.1938 ."
+                "text": " Clauß, Dieter, Raben Steinfeld, *28.04.1938."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1968-08-08",
@@ -48,7 +49,7 @@
                     "lastname": "Clauß",
                     "name": "Katrin"
                 },
-                "text": " Clauß , Katrin , Hamburg , * 08.08.1968 , einzelvertretungsberechtigt"
+                "text": " Clauß, Katrin, Hamburg, *08.08.1968, einzelvertretungsberechtigt"
             }
         ]
     }

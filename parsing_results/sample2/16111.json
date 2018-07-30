@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bruchsal",
+                    "dismissed": true,
                     "dob": "1972-03-09",
                     "lastname": "Staiger",
                     "name": "Martin"
                 },
-                "text": " Staiger , Martin , Bruchsal , * 03.09.1972 ."
+                "text": " Staiger, Martin, Bruchsal, *03.09.1972."
             }
         ]
     }

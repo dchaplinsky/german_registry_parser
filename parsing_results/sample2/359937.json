@@ -18,24 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bonn",
+                    "dismissed": true,
                     "dob": "1955-03-02",
                     "lastname": "Steinhausen",
                     "name": "Wolfgang"
                 },
-                "text": " Steinhausen , Wolfgang , Bonn , * 03.02.1955 ."
+                "text": " Steinhausen, Wolfgang, Bonn, *03.02.1955."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "lastname": "Kaltwasser",
                     "name": "Johann",
-                    "position": "Diplom - Kaufmann"
+                    "position": "Diplom-Kaufmann"
                 },
-                "text": " Kaltwasser , Johann , Diplom - Kaufmann , Köln"
+                "text": " Kaltwasser, Johann, Diplom-Kaufmann, Köln"
             }
         ]
     }

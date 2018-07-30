@@ -19,17 +19,25 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Becker , Robert , Köln , * 04.03.1954 und Hufschlag , Jochen Oswald , Köln , * 02.08.1958 ., error text was no valid patter found, number of chunks: 7"
+                "text": "Cannot parse a DismissedManagingDirector from  Becker, Robert, Köln, *04.03.1954 und Hufschlag, Jochen Oswald, Köln, *02.08.1958., error text was no valid patter found, number of chunks: 7"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Mohr , Michael , Brühl , * 13.12.1965 und Ninow , Stephan , Krefeld , * 01.03.1963 , jeweils mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ., error text was no valid patter found, number of chunks: 9"
+                "text": "Cannot parse a ManagingDirector from  Becker, Robert, Köln, *04.03.1954 und Hufschlag, Jochen Oswald, Köln, *02.08.1958., error text was no valid patter found, number of chunks: 7"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a AppointedManagingDirector from  Mohr, Michael, Brühl, *13.12.1965 und Ninow, Stephan, Krefeld, *01.03.1963, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was no valid patter found, number of chunks: 9"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Mohr, Michael, Brühl, *13.12.1965 und Ninow, Stephan, Krefeld, *01.03.1963, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was no valid patter found, number of chunks: 9"
             }
         ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Alsdorf",
+                    "dismissed": true,
                     "dob": "1964-06-20",
                     "lastname": "Maljoku",
                     "name": "Jakup"
                 },
-                "text": " Maljoku , Jakup , Alsdorf , * 20.06.1964 ."
+                "text": " Maljoku, Jakup, Alsdorf, *20.06.1964."
             }
         ]
     }

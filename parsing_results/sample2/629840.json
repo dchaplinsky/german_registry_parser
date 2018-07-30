@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Perchtinger Straße 39 , c / o WP / StB Dipl . - Kfm ."
+                "text": " Perchtinger Straße 39, c/o WP/StB Dipl.-Kfm."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1978-03-10",
                     "lastname": "Meyer",
                     "name": "Marcus"
                 },
-                "text": " Meyer , Marcus , München , * 03.10.1978 ."
+                "text": " Meyer, Marcus, München, *03.10.1978."
             },
             {
                 "class": "Liquidator",
@@ -49,10 +50,10 @@
                     "city": "München",
                     "dob": "1959-03-26",
                     "flag": "sole representation",
-                    "lastname": "Forster",
+                    "lastname": ": Forster",
                     "name": "Roland"
                 },
-                "text": " Forster , Roland , München , * 26.03.1959 , einzelvertretungsberechtigt"
+                "text": ": Forster, Roland, München, *26.03.1959, einzelvertretungsberechtigt"
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=654626&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Tittel",
                     "name": "Rainer"
                 },
-                "text": " Tittel , Rainer , Stolberg , * 20.04.1975 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Stolberg",
-                    "dob": "1975-04-20",
-                    "lastname": "Tittel",
-                    "name": "Rainer"
-                },
-                "text": " Tittel , Rainer , Stolberg , * 20.04.1975 ."
+                "text": " Tittel, Rainer, Stolberg, *20.04.1975."
             }
         ]
     }

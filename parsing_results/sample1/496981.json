@@ -16,20 +16,33 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=496981&land_abk=by"
     },
     "parsed": {
+        "flags": [
+            {
+                "flag": "Limited partnership.",
+                "text": "Kommanditgesellschaft\\."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " ganghoferstraße 68 a, 80339 münchen."
+            }
+        ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "company_name": " epuron fünfte management gmbh , hamburg ( amtsgericht hamburg , hrb 99546 ) ."
+                    "company_name": " epuron fünfte management gmbh, hamburg (amtsgericht hamburg, hrb 99546).",
+                    "dismissed": true
                 },
-                "text": " epuron fünfte management gmbh , hamburg ( amtsgericht hamburg , hrb 99546 ) ."
+                "text": " epuron fünfte management gmbh, hamburg (amtsgericht hamburg, hrb 99546)."
             },
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " res beteiligungs gmbh , münchen ( amtsgericht münchen , hrb 191530 ) ."
+                    "company_name": " res beteiligungs gmbh, münchen (amtsgericht münchen, hrb 191530)."
                 },
-                "text": " res beteiligungs gmbh , münchen ( amtsgericht münchen , hrb 191530 ) ."
+                "text": " res beteiligungs gmbh, münchen (amtsgericht münchen, hrb 191530)."
             }
         ]
     }

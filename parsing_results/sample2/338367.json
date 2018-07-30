@@ -19,19 +19,19 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Mateo - Krause , Cherrylyn , Lonato Garda , Italien , * 30.07.1971 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Lonato Garda  using regex"
+                "text": "Cannot parse a ManagingDirector from  Mateo-Krause, Cherrylyn, Lonato Garda,Italien, *30.07.1971, einzelvertretungsberechtigt, error text was Cannot parse DOB  Lonato Garda using regex"
             }
         ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Klingerstr ."
+                "text": " Klingerstr."
             }
         ]
     }

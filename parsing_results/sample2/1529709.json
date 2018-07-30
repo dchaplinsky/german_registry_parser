@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bohmte",
+                    "dismissed": true,
                     "dob": "1959-03-28",
                     "lastname": "Wittkorn",
                     "name": "Rainer"
                 },
-                "text": " Wittkorn , Rainer , Bohmte , * 28.03.1959 ."
+                "text": " Wittkorn, Rainer, Bohmte, *28.03.1959."
             }
         ]
     }

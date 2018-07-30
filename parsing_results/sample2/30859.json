@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Reichenbach",
+                    "dismissed": true,
                     "dob": "1964-10-21",
                     "lastname": "Schnappauf",
                     "name": "Thomas"
                 },
-                "text": " Schnappauf , Thomas , Reichenbach , * 21.10.1964 ."
+                "text": " Schnappauf, Thomas, Reichenbach, *21.10.1964."
             }
         ]
     }

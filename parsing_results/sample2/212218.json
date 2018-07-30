@@ -19,29 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "lastname": "Blum",
                     "name": "Wolfgang",
                     "position": "Patentberichterstatter"
                 },
-                "text": " Blum , Wolfgang , Patentberichterstatter , München ."
+                "text": " Blum, Wolfgang, Patentberichterstatter, München."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1949-06-22",
                     "lastname": "Herklotz",
                     "name": "Günter"
                 },
-                "text": " Herklotz , Günter , München , * 22.06.1949"
+                "text": " Herklotz, Günter, München, *22.06.1949"
             }
         ]
     }

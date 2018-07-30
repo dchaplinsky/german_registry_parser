@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Recklinghausen",
+                    "dismissed": true,
                     "dob": "1966-09-11",
                     "lastname": "Arendt",
                     "name": "Sandra"
                 },
-                "text": " Arendt , Sandra , Recklinghausen , * 09.11.1966 ."
+                "text": " Arendt, Sandra, Recklinghausen, *09.11.1966."
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Castrop - Rauxel",
+                    "city": "Castrop-Rauxel",
                     "dob": "1980-12-09",
                     "lastname": "Koch",
                     "name": "Marc"
                 },
-                "text": " Koch , Marc , Castrop - Rauxel , * 12.09.1980"
+                "text": " Koch, Marc, Castrop-Rauxel, *12.09.1980"
             }
         ]
     }

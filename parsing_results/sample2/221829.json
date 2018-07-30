@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Eggenstein - Leopoldshafen",
+                    "city": "Eggenstein- Leopoldshafen",
+                    "dismissed": true,
                     "dob": "1962-02-04",
                     "lastname": "Hagmann",
                     "name": "Frank"
                 },
-                "text": " Hagmann , Frank , Eggenstein - Leopoldshafen , * 02.04.1962 ."
+                "text": " Hagmann, Frank, Eggenstein- Leopoldshafen, *02.04.1962."
             }
         ]
     }

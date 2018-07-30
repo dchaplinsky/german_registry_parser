@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Weitramsdorf",
+                    "dismissed": true,
                     "dob": "1964-12-06",
                     "lastname": "Böckmann",
                     "name": "Aloisius Heinrich"
                 },
-                "text": " Böckmann , Aloisius Heinrich , Weitramsdorf , * 12.06.1964 ."
+                "text": " Böckmann, Aloisius Heinrich, Weitramsdorf, *12.06.1964."
             }
         ]
     }

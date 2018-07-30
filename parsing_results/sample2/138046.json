@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Buggingen",
+                    "dismissed": true,
                     "dob": "1965-10-07",
                     "lastname": "Strahberger",
                     "name": "Saskia Barbara geborene Gawor"
                 },
-                "text": " Strahberger , Saskia Barbara geborene Gawor , Buggingen , * 10.07.1965 ."
+                "text": " Strahberger, Saskia Barbara geborene Gawor, Buggingen, *10.07.1965."
             }
         ]
     }

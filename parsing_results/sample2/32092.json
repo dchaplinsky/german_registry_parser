@@ -21,11 +21,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Bobritzsch",
+                    "dismissed": true,
                     "dob": "1966-02-04",
                     "lastname": "Wolf",
                     "name": "Uwe"
                 },
-                "text": " Wolf , Uwe , Bobritzsch , * 02.04.1966 ."
+                "text": " Wolf, Uwe, Bobritzsch, *02.04.1966."
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Scheich",
                     "name": "Holger"
                 },
-                "text": " Scheich , Holger , Scharfenberg , * 22.09.1971 ."
+                "text": " Scheich, Holger, Scharfenberg, *22.09.1971."
             }
         ]
     }

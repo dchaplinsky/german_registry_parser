@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Kaiserslautern",
+                    "dismissed": true,
                     "dob": "1960-02-23",
                     "lastname": "Scheinost",
                     "name": "Lutz"
                 },
-                "text": " Scheinost , Lutz , Kaiserslautern , * 23.02.1960 ."
+                "text": " Scheinost, Lutz, Kaiserslautern, *23.02.1960."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mörlenbach",
                     "dob": "1959-04-28",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Kaufmann",
                     "name": "Titus"
                 },
-                "text": " Kaufmann , Titus , Mörlenbach , * 28.04.1959 , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Kaufmann, Titus, Mörlenbach, *28.04.1959, mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

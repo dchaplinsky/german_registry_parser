@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Reichertshofen",
+                    "dismissed": true,
                     "dob": "1966-05-04",
                     "lastname": "Sauer",
                     "name": "Jochen"
                 },
-                "text": " Sauer , Jochen , Reichertshofen , * 05.04.1966 ."
+                "text": " Sauer, Jochen, Reichertshofen, *05.04.1966."
             }
         ]
     }

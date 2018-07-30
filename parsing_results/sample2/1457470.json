@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Friedrich - Franz - Straße 13 , 12103 Berlin ."
+                "text": " Friedrich-Franz-Straße 13, 12103 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Aachen",
+                    "dismissed": true,
                     "dob": "1958-11-10",
                     "lastname": "Heigl",
                     "name": "Andre"
                 },
-                "text": " Heigl , Andre , Aachen , * 11.10.1958 ."
+                "text": " Heigl, Andre, Aachen, *11.10.1958."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Fürstenwalde",
                     "dob": "1961-02-06",
@@ -42,7 +43,7 @@
                     "lastname": "Bülowius",
                     "name": "Gerti"
                 },
-                "text": " Bülowius , Gerti , Fürstenwalde , * 02.06.1961 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Bülowius, Gerti, Fürstenwalde, *02.06.1961, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

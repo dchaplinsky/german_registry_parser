@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Wien / Österreich",
+                    "dismissed": true,
                     "dob": "1981-11-06",
                     "lastname": "Kharitonashvili",
                     "name": "Julia"
                 },
-                "text": " Kharitonashvili , Julia , Wien / Österreich , * 11.06.1981 ."
+                "text": " Kharitonashvili, Julia, Wien / Österreich, *11.06.1981."
             }
         ]
     }

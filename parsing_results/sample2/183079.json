@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hannover",
+                    "dismissed": true,
                     "dob": "1959-01-07",
                     "lastname": "Stange",
                     "name": "Ronald"
                 },
-                "text": " Stange , Ronald , Hannover , * 01.07.1959 ."
+                "text": " Stange, Ronald, Hannover, *01.07.1959."
             }
         ]
     }

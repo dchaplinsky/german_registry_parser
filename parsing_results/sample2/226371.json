@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=226371&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Räppgen",
                     "name": "Patricia geborene Schmalz"
                 },
-                "text": " Räppgen , Patricia geborene Schmalz , Wendelstein , * 18.04.1965 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Wendelstein",
-                    "dob": "1965-04-18",
-                    "lastname": "Räppgen",
-                    "name": "Patricia geborene Schmalz"
-                },
-                "text": " Räppgen , Patricia geborene Schmalz , Wendelstein , * 18.04.1965 ."
+                "text": " Räppgen, Patricia geborene Schmalz, Wendelstein, *18.04.1965."
             }
         ]
     }

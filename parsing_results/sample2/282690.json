@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Overath",
+                    "dismissed": true,
                     "dob": "1949-07-11",
                     "lastname": "Herkenrath",
                     "name": "Heinz"
                 },
-                "text": " Herkenrath , Heinz , Overath , * 07.11.1949 ."
+                "text": " Herkenrath, Heinz, Overath, *07.11.1949."
             },
             {
                 "class": "NewProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Pischke",
                     "name": "Hauke"
                 },
-                "text": " Pischke , Hauke , Overath , * 24.06.1970 ."
+                "text": " Pischke, Hauke, Overath, *24.06.1970."
             }
         ]
     }

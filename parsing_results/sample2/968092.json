@@ -23,19 +23,20 @@
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1963-01-07",
                     "lastname": "Hayyool",
                     "name": "Jameel Hashim"
                 },
-                "text": " Hayyool , Jameel Hashim , München , * 01.07.1963 ."
+                "text": " Hayyool, Jameel Hashim, München, *01.07.1963."
             },
             {
                 "class": "Owner",
@@ -45,7 +46,7 @@
                     "lastname": "Ahmad",
                     "name": "Hikmat Ibrahim Hassan"
                 },
-                "text": " Ahmad , Hikmat Ibrahim Hassan , München , * 02.02.1966 ."
+                "text": " Ahmad, Hikmat Ibrahim Hassan, München, *02.02.1966."
             }
         ]
     }

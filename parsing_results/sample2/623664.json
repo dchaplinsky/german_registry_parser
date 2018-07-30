@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wermelskirchen",
+                    "dismissed": true,
                     "dob": "1963-03-15",
                     "lastname": "Taha",
                     "name": "Max"
                 },
-                "text": " Taha , Max , Wermelskirchen , * 15.03.1963 ."
+                "text": " Taha, Max, Wermelskirchen, *15.03.1963."
             }
         ]
     }

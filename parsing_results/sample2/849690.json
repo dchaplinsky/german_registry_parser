@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Theresienstr ."
+                "text": " Theresienstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Wien / Österreich",
+                    "city": "Wien/Österreich",
+                    "dismissed": true,
                     "dob": "1961-10-15",
                     "lastname": "Krause",
                     "name": "Erwin"
                 },
-                "text": " Krause , Erwin , Wien / Österreich , * 15.10.1961 ."
+                "text": " Krause, Erwin, Wien/Österreich, *15.10.1961."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1954-03-28",
@@ -48,7 +49,7 @@
                     "lastname": "Zwerenz",
                     "name": "Carl Georg"
                 },
-                "text": " Zwerenz , Carl Georg , München , * 28.03.1954 , einzelvertretungsberechtigt"
+                "text": " Zwerenz, Carl Georg, München, *28.03.1954, einzelvertretungsberechtigt"
             }
         ]
     }

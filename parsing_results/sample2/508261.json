@@ -16,25 +16,31 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=508261&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Kreissl , Hans - Jürgen , Herisau , Schweiz , * 01.08.1956 ., error text was Cannot parse DOB  Herisau  using regex"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Groß - Breitenbach 60 , 69509 Mörlenbach ."
+                "text": " Groß-Breitenbach 60, 69509 Mörlenbach."
             }
         ],
         "officers": [
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Schweiz",
+                    "dismissed": true,
+                    "dob": "1956-01-08",
+                    "lastname": "Kreissl",
+                    "name": "Hans-Jürgen",
+                    "position": "Herisau"
+                },
+                "text": " Kreissl, Hans-Jürgen, Herisau, Schweiz, *01.08.1956."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {
@@ -44,7 +50,7 @@
                     "lastname": "Glas",
                     "name": "Barbara"
                 },
-                "text": " Glas , Barbara , Pfäffikon / Schweiz , * 11.09.1968 , einzelvertretungsberechtigt"
+                "text": " Glas, Barbara, Pfäffikon / Schweiz, *11.09.1968, einzelvertretungsberechtigt"
             }
         ]
     }

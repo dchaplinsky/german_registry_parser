@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Am Heidenweg 3 , 76829 Landau in der Pfalz ."
+                "text": " Am Heidenweg 3, 76829 Landau in der Pfalz."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Landau in der Pfalz",
+                    "dismissed": true,
                     "lastname": "Mardo",
                     "name": "Peter",
                     "position": "Kältemeister"
                 },
-                "text": " Mardo , Peter , Kältemeister , Landau in der Pfalz ."
+                "text": " Mardo, Peter, Kältemeister, Landau in der Pfalz."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Landau",
                     "dob": "1939-02-28",
@@ -42,16 +43,17 @@
                     "lastname": "Mardo",
                     "name": "Brunhilde"
                 },
-                "text": " Mardo , Brunhilde , Landau , * 28.02.1939 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Mardo, Brunhilde, Landau, *28.02.1939, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Landau in der Pfalz",
+                    "dismissed": true,
                     "lastname": "Mardo",
                     "name": "Brunhilde"
                 },
-                "text": " Mardo , Brunhilde , Landau in der Pfalz ."
+                "text": " Mardo, Brunhilde, Landau in der Pfalz."
             }
         ]
     }

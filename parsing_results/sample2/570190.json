@@ -18,19 +18,19 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Bayerstraße 16 A , 80335 München ."
+                "text": " Bayerstraße 16 A, 80335 München."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1963-06-14",
@@ -38,17 +38,18 @@
                     "lastname": "Schu",
                     "name": "Andreas"
                 },
-                "text": " Schu , Andreas , München , * 14.06.1963 , einzelvertretungsberechtigt ."
+                "text": " Schu, Andreas, München, *14.06.1963, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bruchsal",
+                    "dismissed": true,
                     "dob": "1978-10-26",
                     "lastname": "König",
                     "name": "Viktor"
                 },
-                "text": " König , Viktor , Bruchsal , * 26.10.1978 ."
+                "text": " König, Viktor, Bruchsal, *26.10.1978."
             }
         ]
     }

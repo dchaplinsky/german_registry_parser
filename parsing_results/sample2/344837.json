@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1950-11-27",
                     "lastname": "Quell",
-                    "name": "Hans - Hinrich"
+                    "name": "Hans-Hinrich"
                 },
-                "text": " Quell , Hans - Hinrich , Hamburg , * 27.11.1950 ."
+                "text": " Quell, Hans-Hinrich, Hamburg, *27.11.1950."
             }
         ]
     }

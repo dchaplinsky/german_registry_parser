@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=478455&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Kennedy",
                     "name": "Elena"
                 },
-                "text": " Kennedy , Elena , Wetzlar , * 13.06.1987 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Wetzlar",
-                    "dob": "1987-06-13",
-                    "lastname": "Kennedy",
-                    "name": "Elena"
-                },
-                "text": " Kennedy , Elena , Wetzlar , * 13.06.1987 ."
+                "text": " Kennedy, Elena, Wetzlar, *13.06.1987."
             }
         ]
     }

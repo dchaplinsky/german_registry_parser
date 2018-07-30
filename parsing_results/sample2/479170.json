@@ -19,23 +19,24 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " WOLAB Grundstücks GmbH , Berlin , Wittestraße 30 , Haus F , 13509 Berlin ."
+                "text": " WOLAB Grundstücks GmbH, Berlin, Wittestraße 30, Haus F, 13509 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Kaplan",
                     "name": "Idan"
                 },
-                "text": " Kaplan , Idan"
+                "text": " Kaplan, Idan"
             },
             {
                 "class": "ManagingDirector",
@@ -45,7 +46,7 @@
                     "lastname": "Vishnovizki",
                     "name": "Roy"
                 },
-                "text": " Vishnovizki , Roy , * 03.06.1982 , Berlin"
+                "text": " Vishnovizki, Roy, *03.06.1982, Berlin"
             }
         ]
     }

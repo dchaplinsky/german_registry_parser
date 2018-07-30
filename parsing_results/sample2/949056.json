@@ -18,20 +18,16 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             },
             {
                 "flag": "Single procuration",
@@ -41,7 +37,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Luxemburger Straße 299 , 50939 Köln ."
+                "text": " Luxemburger Straße 299, 50939 Köln."
             }
         ],
         "officers": [
@@ -53,7 +49,7 @@
                     "lastname": "Cordes",
                     "name": "Marcel Hans"
                 },
-                "text": " Cordes , Marcel Hans , Hürth , * 21.08.1965"
+                "text": " Cordes, Marcel Hans, Hürth, *21.08.1965"
             },
             {
                 "class": "SingleProcuration",
@@ -63,17 +59,17 @@
                     "lastname": "Borchert",
                     "name": "Volker"
                 },
-                "text": " Borchert , Volker , Köln , * 03.08.1964 ."
+                "text": " Borchert, Volker, Köln, *03.08.1964."
             },
             {
                 "class": "CommonProcuration",
                 "payload": {
-                    "city": "Eggenstein - Leopoldshafen",
+                    "city": "Eggenstein-Leopoldshafen",
                     "dob": "1976-11-30",
                     "lastname": "Riedle",
                     "name": "Christian"
                 },
-                "text": " Riedle , Christian , Eggenstein - Leopoldshafen , * 30.11.1976 ."
+                "text": " Riedle, Christian, Eggenstein-Leopoldshafen, *30.11.1976."
             }
         ]
     }

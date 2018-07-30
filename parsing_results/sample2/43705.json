@@ -19,18 +19,19 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Wilhelmshaven",
+                    "dismissed": true,
                     "lastname": "Kramer",
                     "name": "Jürgen"
                 },
-                "text": " Kramer , Jürgen , Wilhelmshaven ."
+                "text": " Kramer, Jürgen, Wilhelmshaven."
             },
             {
                 "class": "Owner",
@@ -40,7 +41,7 @@
                     "lastname": "Kramer",
                     "name": "Hans Jürgen"
                 },
-                "text": " Kramer , Hans Jürgen , Wilhelmshaven , * 02.01.1949 ."
+                "text": " Kramer, Hans Jürgen, Wilhelmshaven, *02.01.1949."
             }
         ]
     }

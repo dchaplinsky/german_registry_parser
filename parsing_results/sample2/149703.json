@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Ramstein - Miesenbach",
+                    "city": "Ramstein-Miesenbach",
+                    "dismissed": true,
                     "dob": "1968-05-29",
-                    "lastname": "Dr . Hausmann",
+                    "lastname": "Doctor Hausmann",
                     "name": "Andreas"
                 },
-                "text": " Dr . Hausmann , Andreas , Ramstein - Miesenbach , * 29.05.1968"
+                "text": " Doctor Hausmann, Andreas, Ramstein-Miesenbach, *29.05.1968"
             },
             {
                 "class": "Liquidator",
@@ -41,7 +42,7 @@
                     "lastname": "Seiwert",
                     "name": "Christian"
                 },
-                "text": " Seiwert , Christian , Dillingen , * 13.09.1956 ."
+                "text": " Seiwert, Christian, Dillingen, *13.09.1956."
             }
         ]
     }

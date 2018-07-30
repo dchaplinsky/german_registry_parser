@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Kreuzstr . 68 , 38118 Braunschweig ."
+                "text": " Kreuzstr.68, 38118 Braunschweig."
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Braunschweig",
+                    "dismissed": true,
                     "lastname": "Eifrig",
                     "name": "Gotthelf",
                     "position": "Diplomingenieur"
                 },
-                "text": " Eifrig , Gotthelf , Diplomingenieur , Braunschweig ."
+                "text": " Eifrig, Gotthelf, Diplomingenieur, Braunschweig."
             },
             {
                 "class": "Owner",
@@ -41,7 +42,7 @@
                     "lastname": "Eifrig",
                     "name": "Gotthelf Theodor"
                 },
-                "text": " Eifrig , Gotthelf Theodor , Sickte , * 15.02.1958 ."
+                "text": " Eifrig, Gotthelf Theodor, Sickte, *15.02.1958."
             }
         ]
     }

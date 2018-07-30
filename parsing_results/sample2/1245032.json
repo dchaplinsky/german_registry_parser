@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bergkamen",
+                    "dismissed": true,
                     "dob": "1967-03-19",
                     "lastname": "Temur",
                     "name": "Hüseyin"
                 },
-                "text": " Temur , Hüseyin , Bergkamen , * 19.03.1967 ."
+                "text": " Temur, Hüseyin, Bergkamen, *19.03.1967."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Köln",
                     "dob": "1962-08-13",
@@ -36,7 +37,7 @@
                     "lastname": "Seidenglanz",
                     "name": "Jens"
                 },
-                "text": " Seidenglanz , Jens , Köln , * 13.08.1962 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Seidenglanz, Jens, Köln, *13.08.1962, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

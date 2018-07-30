@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Langenfeld",
+                    "dismissed": true,
                     "dob": "1962-06-03",
                     "lastname": "Christ",
                     "name": "Klaus"
                 },
-                "text": " Christ , Klaus , Langenfeld , * 06.03.1962"
+                "text": " Christ, Klaus, Langenfeld, *06.03.1962"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Köln",
                     "dob": "1950-07-23",
@@ -36,7 +37,7 @@
                     "lastname": "Schumacher",
                     "name": "Peter Klaus"
                 },
-                "text": " Schumacher , Peter Klaus , Köln , * 23.07.1950 , einzelvertretungsberechtigt"
+                "text": " Schumacher, Peter Klaus, Köln, *23.07.1950, einzelvertretungsberechtigt"
             }
         ]
     }

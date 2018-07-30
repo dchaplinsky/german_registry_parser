@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Wolfskaulstraße 54 , 56072 Koblenz ."
+                "text": " Wolfskaulstraße 54, 56072 Koblenz."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Koblenz",
+                    "dismissed": true,
                     "dob": "1945-09-30",
                     "lastname": "Möhlich",
                     "name": "Alex"
                 },
-                "text": " Möhlich , Alex , Koblenz , * 30.09.1945 ."
+                "text": " Möhlich, Alex, Koblenz, *30.09.1945."
             }
         ]
     }

@@ -21,21 +21,22 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Münster",
+                    "dismissed": true,
                     "dob": "1958-06-27",
-                    "lastname": "Dr . Otten",
+                    "lastname": "Doctor Otten",
                     "name": "Wilhelm"
                 },
-                "text": " Dr . Otten , Wilhelm , Münster , * 27.06.1958 ."
+                "text": " Doctor Otten, Wilhelm, Münster, *27.06.1958."
             },
             {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Herten",
                     "dob": "1961-01-30",
-                    "lastname": "Dr . Metternich",
+                    "lastname": "Doctor Metternich",
                     "name": "Hans Jürgen"
                 },
-                "text": " Dr . Metternich , Hans Jürgen , Herten , * 30.01.1961 ."
+                "text": " Doctor Metternich, Hans Jürgen, Herten, *30.01.1961."
             }
         ]
     }

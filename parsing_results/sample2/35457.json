@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wiesbaden",
+                    "dismissed": true,
                     "dob": "1961-12-26",
-                    "lastname": "Lauck - Schmidt",
+                    "lastname": "Lauck-Schmidt",
                     "name": "Pia geborene Lauck"
                 },
-                "text": " Lauck - Schmidt , Pia geborene Lauck , Wiesbaden , * 26.12.1961 ."
+                "text": " Lauck-Schmidt, Pia geborene Lauck, Wiesbaden, *26.12.1961."
             }
         ]
     }

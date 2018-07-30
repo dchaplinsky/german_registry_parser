@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Reisbach",
+                    "dismissed": true,
                     "dob": "1969-10-23",
                     "lastname": "Gangkofer",
                     "name": "Albert"
                 },
-                "text": " Gangkofer , Albert , Reisbach , * 23.10.1969 ."
+                "text": " Gangkofer, Albert, Reisbach, *23.10.1969."
             },
             {
                 "class": "Owner",
@@ -35,7 +36,7 @@
                     "lastname": "Gangkofer",
                     "name": "Gabriele"
                 },
-                "text": " Gangkofer , Gabriele , Reisbach , * 14.10.1975 ."
+                "text": " Gangkofer, Gabriele, Reisbach, *14.10.1975."
             }
         ]
     }

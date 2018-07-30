@@ -16,32 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=66890&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Gauting",
                     "dob": "1961-09-30",
-                    "lastname": "Dr . Wilimzig",
+                    "lastname": "Doctor Wilimzig",
                     "name": "Claus"
                 },
-                "text": " Dr . Wilimzig , Claus , Gauting , * 30.09.1961 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Gauting",
-                    "dob": "1961-09-30",
-                    "lastname": "Dr . Wilimzig",
-                    "name": "Claus"
-                },
-                "text": " Dr . Wilimzig , Claus , Gauting , * 30.09.1961 ."
+                "text": " Doctor Wilimzig, Claus, Gauting, *30.09.1961."
             }
         ]
     }

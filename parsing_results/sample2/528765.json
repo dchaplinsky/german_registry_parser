@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Hof",
+                    "dismissed": true,
                     "dob": "1949-12-06",
                     "lastname": "Knöchel",
                     "name": "Willi"
                 },
-                "text": " Knöchel , Willi , Hof , * 12.06.1949 ."
+                "text": " Knöchel, Willi, Hof, *12.06.1949."
             }
         ]
     }

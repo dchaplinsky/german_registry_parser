@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mettingen",
                     "dob": "1946-05-10",
@@ -26,17 +26,18 @@
                     "lastname": "Lohmann",
                     "name": "Otto"
                 },
-                "text": " Lohmann , Otto , Mettingen , * 05.10.1946 , einzelvertretungsberechtigt ."
+                "text": " Lohmann, Otto, Mettingen, *05.10.1946, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Lengerich",
+                    "dismissed": true,
                     "dob": "1922-08-25",
                     "lastname": "Banning",
                     "name": "Hildegard geborene Kemper"
                 },
-                "text": " Banning , Hildegard geborene Kemper , Lengerich , * 25.08.1922 ."
+                "text": " Banning, Hildegard geborene Kemper, Lengerich, *25.08.1922."
             }
         ]
     }

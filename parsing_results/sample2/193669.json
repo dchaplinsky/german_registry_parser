@@ -25,15 +25,16 @@
                     "lastname": "Brückner",
                     "name": "Christian"
                 },
-                "text": " Brückner , Christian , * 22.02.1966 , Berlin"
+                "text": " Brückner, Christian, *22.02.1966, Berlin"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Griesbach",
                     "name": "Ralph"
                 },
-                "text": " Griesbach , Ralph ."
+                "text": " Griesbach, Ralph."
             }
         ]
     }

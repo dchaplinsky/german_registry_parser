@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1968-09-30",
                     "lastname": "Cyrkel",
                     "name": "Hartmut"
                 },
-                "text": " Cyrkel , Hartmut , Düsseldorf , * 30.09.1968 ."
+                "text": " Cyrkel, Hartmut, Düsseldorf, *30.09.1968."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Vijfhuizen / Niederlande",
                     "dob": "1970-11-14",
                     "lastname": "Nobels",
                     "name": "Arco"
                 },
-                "text": " Nobels , Arco , Vijfhuizen / Niederlande , * 14.11.1970"
+                "text": " Nobels, Arco, Vijfhuizen / Niederlande, *14.11.1970"
             }
         ]
     }

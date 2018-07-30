@@ -19,35 +19,36 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Weinsbergstraße 70 , 50823 Köln ."
+                "text": " Weinsbergstraße 70, 50823 Köln."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Grevenbroich",
+                    "dismissed": true,
                     "dob": "1978-03-09",
                     "lastname": "Gerber",
                     "name": "Nico Jürgen"
                 },
-                "text": " Gerber , Nico Jürgen , Grevenbroich , * 03.09.1978 ."
+                "text": " Gerber, Nico Jürgen, Grevenbroich, *03.09.1978."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wachtberg",
                     "dob": "1964-03-16",
                     "lastname": "Knauer",
                     "name": "Martin"
                 },
-                "text": " Knauer , Martin , Wachtberg , * 16.03.1964"
+                "text": " Knauer, Martin, Wachtberg, *16.03.1964"
             },
             {
                 "class": "CommonProcuration",
@@ -57,7 +58,7 @@
                     "lastname": "Flindt",
                     "name": "Henning"
                 },
-                "text": " Flindt , Henning , Meerbusch , * 11.10.1963 ."
+                "text": " Flindt, Henning, Meerbusch, *11.10.1963."
             }
         ]
     }

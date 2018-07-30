@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Marl",
+                    "dismissed": true,
                     "dob": "1965-01-12",
                     "lastname": "Bonnemeier",
                     "name": "Sandra"
                 },
-                "text": " Bonnemeier , Sandra , Marl , * 01.12.1965 ."
+                "text": " Bonnemeier, Sandra, Marl, *01.12.1965."
             }
         ]
     }

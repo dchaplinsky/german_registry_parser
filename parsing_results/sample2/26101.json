@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Sinntal",
+                    "dismissed": true,
                     "dob": "1961-07-03",
                     "lastname": "Abraham",
                     "name": "Uwe"
                 },
-                "text": " Abraham , Uwe , Sinntal , * 07.03.1961 ."
+                "text": " Abraham, Uwe, Sinntal, *07.03.1961."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Offenbach am Main",
                     "dob": "1977-06-11",
                     "lastname": "Gesser",
                     "name": "Markus"
                 },
-                "text": " Gesser , Markus , Offenbach am Main , * 06.11.1977 ."
+                "text": " Gesser, Markus, Offenbach am Main, *06.11.1977."
             }
         ]
     }

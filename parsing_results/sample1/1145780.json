@@ -19,7 +19,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  münzinger , hannes , münchen , * 22.07.1981 . vertretungsbefugnis geändert , nun : geschäftsführer : heitzer , felix , münchen , * 04.09.1987 . prokura erloschen : münzinger , hannes , münchen , * 22.07.1981 ., error text was no valid patter found, number of chunks: 11"
+                "text": "Cannot parse a AppointedManagingDirector from  münzinger, hannes, münchen, *22.07.1981. vertretungsbefugnis geändert, nun: geschäftsführer: heitzer, felix, münchen, *04.09.1987. prokura erloschen: münzinger, hannes, münchen, *22.07.1981., error text was no valid patter found, number of chunks: 11"
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "münchen",
+                    "dismissed": true,
                     "dob": "1981-07-22",
                     "lastname": "münzinger",
                     "name": "hannes"
                 },
-                "text": " münzinger , hannes , münchen , * 22.07.1981 ."
+                "text": " münzinger, hannes, münchen, *22.07.1981."
             }
         ]
     }

@@ -19,21 +19,21 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Reuterallee 44 , 64297 Darmstadt ."
+                "text": " Reuterallee 44, 64297 Darmstadt."
             }
         ],
         "officers": [
@@ -43,10 +43,21 @@
                     "city": "Darmstadt",
                     "dob": "1962-01-12",
                     "flag": "sole representation",
-                    "lastname": "Detjen",
+                    "lastname": ": Detjen",
                     "name": "Uwe Gerd Andreas"
                 },
-                "text": " Detjen , Uwe Gerd Andreas , Darmstadt , * 01.12.1962 , einzelvertretungsberechtigt"
+                "text": ": Detjen, Uwe Gerd Andreas, Darmstadt, *01.12.1962, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Darmstadt",
+                    "dob": "1973-07-25",
+                    "flag": "sole representation",
+                    "lastname": "in: Detjen",
+                    "name": "Erica"
+                },
+                "text": "in: Detjen, Erica, Darmstadt, *25.07.1973, einzelvertretungsberechtigt"
             }
         ]
     }

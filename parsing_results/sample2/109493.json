@@ -18,26 +18,26 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Krautgasse 13 , 07743 Jena ."
+                "text": " Krautgasse 13, 07743 Jena."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Jena",
                     "dob": "1977-11-17",
                     "lastname": "Bode",
                     "name": "Roy"
                 },
-                "text": " Bode , Roy , Jena , * 17.11.1977 ."
+                "text": " Bode, Roy, Jena, *17.11.1977."
             }
         ]
     }

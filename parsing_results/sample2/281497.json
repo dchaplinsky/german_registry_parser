@@ -16,10 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=281497&land_abk=nw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Frentrup , Rita , Kauffrau , Kleve , * 08.06.1967 ., error text was Cannot parse DOB  Kauffrau  using regex"
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Kleve",
+                    "dismissed": true,
+                    "dob": "1967-08-06",
+                    "lastname": "Frentrup",
+                    "name": "Rita",
+                    "position": "Kauffrau"
+                },
+                "text": " Frentrup, Rita, Kauffrau, Kleve, *08.06.1967."
             }
         ]
     }

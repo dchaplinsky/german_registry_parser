@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Ketsch",
+                    "dismissed": true,
                     "dob": "1949-10-27",
                     "lastname": "Ullrich",
                     "name": "Alfred"
                 },
-                "text": " Ullrich , Alfred , Ketsch , * 27.10.1949 ."
+                "text": " Ullrich, Alfred, Ketsch, *27.10.1949."
             },
             {
                 "class": "ManagingDirector",
@@ -35,7 +36,7 @@
                     "lastname": "Krämer",
                     "name": "Andreas"
                 },
-                "text": " Krämer , Andreas , Netphen , * 14.03.1955 ."
+                "text": " Krämer, Andreas, Netphen, *14.03.1955."
             }
         ]
     }

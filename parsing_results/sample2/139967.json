@@ -18,25 +18,27 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Krefeld",
+                    "dismissed": true,
                     "dob": "1934-11-16",
                     "lastname": "Eggert",
                     "name": "Joachim"
                 },
-                "text": " Eggert , Joachim , Krefeld , * 16.11.1934 ."
+                "text": " Eggert, Joachim, Krefeld, *16.11.1934."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Meerbusch",
+                    "dismissed": true,
                     "dob": "1973-05-04",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Maklas",
                     "name": "Spiros"
                 },
-                "text": " Maklas , Spiros , Meerbusch , * 05.04.1973 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Maklas, Spiros, Meerbusch, *05.04.1973, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

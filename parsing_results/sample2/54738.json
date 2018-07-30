@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hersbruck",
+                    "dismissed": true,
                     "lastname": "Leikauf",
                     "name": "Johannes",
                     "position": "Techniker"
                 },
-                "text": " Leikauf , Johannes , Techniker , Hersbruck ."
+                "text": " Leikauf, Johannes, Techniker, Hersbruck."
             }
         ]
     }

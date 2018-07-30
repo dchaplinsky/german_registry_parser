@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=221601&land_abk=hh"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Kunstmann",
                     "name": "Wolfgang Norbert"
                 },
-                "text": " Kunstmann , Wolfgang Norbert , Norderstedt , * 09.11.1951 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Norderstedt",
-                    "dob": "1951-09-11",
-                    "lastname": "Kunstmann",
-                    "name": "Wolfgang Norbert"
-                },
-                "text": " Kunstmann , Wolfgang Norbert , Norderstedt , * 09.11.1951 ."
+                "text": " Kunstmann, Wolfgang Norbert, Norderstedt, *09.11.1951."
             }
         ]
     }

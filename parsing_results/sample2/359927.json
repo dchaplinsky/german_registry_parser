@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Liquidator",
+                "class": "NotALiquidator",
                 "payload": {
                     "city": "Salzgitter",
+                    "dismissed": true,
                     "dob": "1958-05-15",
-                    "lastname": "Alker",
+                    "lastname": ": Alker",
                     "name": "Helmut"
                 },
-                "text": " Alker , Helmut , Salzgitter , * 15.05.1958 ."
+                "text": ": Alker, Helmut, Salzgitter, *15.05.1958."
             },
             {
                 "class": "Liquidator",
@@ -36,7 +37,7 @@
                     "lastname": "Alker",
                     "name": "Helmut"
                 },
-                "text": " Alker , Helmut , Salzgitter , * 15.05.1958 , vertretungsberechtigt gemäß allgemeiner Vertretungsregelung ."
+                "text": " Alker, Helmut, Salzgitter, *15.05.1958, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung."
             }
         ]
     }

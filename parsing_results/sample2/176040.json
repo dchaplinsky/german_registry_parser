@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Carl - Ulrich - Straße 11 - 13 , 63263 Neu - Isenburg ."
+                "text": " Carl-Ulrich-Straße 11 - 13, 63263 Neu-Isenburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Oosterhout / Niederlande",
+                    "dismissed": true,
                     "dob": "1960-09-16",
                     "lastname": "Lange",
                     "name": "Robert Johannes"
                 },
-                "text": " Lange , Robert Johannes , Oosterhout / Niederlande , * 16.09.1960 ."
+                "text": " Lange, Robert Johannes, Oosterhout / Niederlande, *16.09.1960."
             }
         ]
     }

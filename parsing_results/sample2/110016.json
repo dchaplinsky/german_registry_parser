@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
+                "text": "Kommanditgesellschaft\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Neumarkt 31 , 04109 Leipzig ."
+                "text": " Neumarkt 31, 04109 Leipzig."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "company_name": " Solarpark Zerre Management GmbH , Cottbus ( Amtsgericht Cottbus HRB 8564 CB ) ."
+                    "company_name": " Solarpark Zerre Management GmbH, Cottbus (Amtsgericht Cottbus HRB 8564 CB).",
+                    "dismissed": true
                 },
-                "text": " Solarpark Zerre Management GmbH , Cottbus ( Amtsgericht Cottbus HRB 8564 CB ) ."
+                "text": " Solarpark Zerre Management GmbH, Cottbus (Amtsgericht Cottbus HRB 8564 CB)."
             },
             {
                 "class": "PersonalPartner",
                 "payload": {
                     "city": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "7 c Rooftop Exchange BVBA",
-                    "name": "Begijnendijk / Belgien ( Handelsregister KBO Belgien Nr . : 669.472 )",
+                    "lastname": "7c Rooftop Exchange BVBA",
+                    "name": "Begijnendijk/Belgien (Handelsregister KBO Belgien Nr.:669.472)",
                     "position": "mit der Befugnis"
                 },
-                "text": " 7 c Rooftop Exchange BVBA , Begijnendijk / Belgien ( Handelsregister KBO Belgien Nr . : 669.472 ) , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " 7c Rooftop Exchange BVBA, Begijnendijk/Belgien (Handelsregister KBO Belgien Nr.:669.472), mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

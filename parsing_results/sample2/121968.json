@@ -16,16 +16,10 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=121968&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "labels": [
             {
                 "label": "address",
-                "text": " Hasengartenstraße 23 , 65189 Wiesbaden ."
+                "text": " Hasengartenstraße 23, 65189 Wiesbaden."
             }
         ],
         "officers": [
@@ -33,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Wiesbaden",
+                    "dismissed": true,
                     "dob": "1953-08-16",
                     "lastname": "Dingler",
                     "name": "Horst"
                 },
-                "text": " Dingler , Horst , Wiesbaden , * 16.08.1953 ."
+                "text": " Dingler, Horst, Wiesbaden, *16.08.1953."
             },
             {
                 "class": "SingleProcuration",
@@ -47,17 +42,7 @@
                     "lastname": "Gallo",
                     "name": "Volker"
                 },
-                "text": " Gallo , Volker , Wiesbaden , * 07.10.1961 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Wiesbaden",
-                    "dob": "1961-07-10",
-                    "lastname": "Gallo",
-                    "name": "Volker"
-                },
-                "text": " Gallo , Volker , Wiesbaden , * 07.10.1961 ."
+                "text": " Gallo, Volker, Wiesbaden, *07.10.1961."
             }
         ]
     }

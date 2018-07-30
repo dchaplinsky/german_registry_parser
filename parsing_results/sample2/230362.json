@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " M 2 , 15 b , 68161 Mannheim ."
+                "text": " M 2, 15 b, 68161 Mannheim."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Weinheim",
+                    "dismissed": true,
                     "dob": "1966-09-22",
                     "lastname": "Exposito",
                     "name": "Alfonso Prieto"
                 },
-                "text": " Exposito , Alfonso Prieto , Weinheim , * 22.09.1966 ."
+                "text": " Exposito, Alfonso Prieto, Weinheim, *22.09.1966."
             }
         ]
     }

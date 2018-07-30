@@ -18,26 +18,26 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Bullenholz 6 , 27449 Kutenholz ."
+                "text": " Bullenholz 6, 27449 Kutenholz."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kutenholz",
                     "dob": "1962-10-19",
                     "lastname": "Scharkus",
                     "name": "Christiane"
                 },
-                "text": " Scharkus , Christiane , Kutenholz , * 19.10.1962 ."
+                "text": " Scharkus, Christiane, Kutenholz, *19.10.1962."
             }
         ]
     }

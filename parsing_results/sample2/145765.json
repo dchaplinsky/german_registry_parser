@@ -19,40 +19,41 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " An der Berufsschule 6 , 63667 Nidda ."
+                "text": " An der Berufsschule 6, 63667 Nidda."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Linden",
+                    "dismissed": true,
                     "lastname": "Seipp",
                     "name": "André",
-                    "position": "Radio - und Fernsehtechniker"
+                    "position": "Radio- und Fernsehtechniker"
                 },
-                "text": " Seipp , André , Radio - und Fernsehtechniker , Linden ."
+                "text": " Seipp, André, Radio- und Fernsehtechniker, Linden."
             },
             {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Linden",
                     "dob": "1944-08-30",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Seipp",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": ": Seipp",
                     "name": "Reinhold"
                 },
-                "text": " Seipp , Reinhold , Linden , * 30.08.1944 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": ": Seipp, Reinhold, Linden, *30.08.1944, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

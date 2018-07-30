@@ -19,7 +19,19 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Wetter",
+                    "dob": "1970-06-25",
+                    "lastname": "in: Franke",
+                    "name": "Melanie"
+                },
+                "text": "in: Franke, Melanie, Wetter, *25.06.1970."
             }
         ]
     }

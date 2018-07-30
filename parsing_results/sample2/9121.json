@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Saarbrücken",
+                    "dismissed": true,
                     "dob": "1961-04-23",
                     "lastname": "Schenk",
                     "name": "Christa"
                 },
-                "text": " Schenk , Christa , Saarbrücken , * 23.04.1961 ."
+                "text": " Schenk, Christa, Saarbrücken, *23.04.1961."
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "St . Ingbert",
+                    "city": "St.Ingbert",
                     "dob": "1963-05-29",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Schlicker",
                     "name": "Thomas"
                 },
-                "text": " Schlicker , Thomas , St . Ingbert , * 29.05.1963 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schlicker, Thomas, St.Ingbert, *29.05.1963, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

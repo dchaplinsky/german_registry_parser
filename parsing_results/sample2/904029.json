@@ -19,25 +19,30 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Diana , John , Boulder , Colorado / Vereinigte Staaten , * 21.04.1966 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Boulder  using regex"
+                "text": "Cannot parse a AppointedManagingDirector from  Diana, John, Boulder, Colorado / Vereinigte Staaten, *21.04.1966, einzelvertretungsberechtigt, error text was Cannot parse DOB  Boulder using regex"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Diana, John, Boulder, Colorado / Vereinigte Staaten, *21.04.1966, einzelvertretungsberechtigt, error text was Cannot parse DOB  Boulder using regex"
             }
         ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Berkshire / Großbritannien / Vereinigtes Königreich",
+                    "city": "Berkshire/Großbritannien / Vereinigtes Königreich",
+                    "dismissed": true,
                     "dob": "1968-12-28",
                     "lastname": "Brewer",
                     "name": "Ross"
                 },
-                "text": " Brewer , Ross , Berkshire / Großbritannien / Vereinigtes Königreich , * 28.12.1968 ."
+                "text": " Brewer, Ross, Berkshire/Großbritannien / Vereinigtes Königreich, *28.12.1968."
             }
         ]
     }

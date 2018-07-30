@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Augsburger Straße 133 , 86633 Neuburg a . d . Donau ."
+                "text": " Augsburger Straße 133, 86633 Neuburg a.d. Donau."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Ingolstadt",
+                    "dismissed": true,
                     "dob": "1980-06-21",
                     "lastname": "Matous",
                     "name": "Diana"
                 },
-                "text": " Matous , Diana , Ingolstadt , * 21.06.1980 ."
+                "text": " Matous, Diana, Ingolstadt, *21.06.1980."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Ingolstadt",
                     "dob": "1963-11-25",
@@ -48,7 +49,7 @@
                     "lastname": "Beran",
                     "name": "Roland"
                 },
-                "text": " Beran , Roland , Ingolstadt , * 25.11.1963 , einzelvertretungsberechtigt"
+                "text": " Beran, Roland, Ingolstadt, *25.11.1963, einzelvertretungsberechtigt"
             }
         ]
     }

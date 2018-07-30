@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mössingen",
                     "dob": "1967-02-25",
@@ -26,17 +26,18 @@
                     "lastname": "Gründel",
                     "name": "Birgit geborene Stehle"
                 },
-                "text": " Gründel , Birgit geborene Stehle , Mössingen , * 25.02.1967 , einzelvertretungsberechtigt ."
+                "text": " Gründel, Birgit geborene Stehle, Mössingen, *25.02.1967, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Metzingen",
+                    "dismissed": true,
                     "dob": "1959-06-24",
                     "lastname": "Schöffler",
                     "name": "Rainer"
                 },
-                "text": " Schöffler , Rainer , Metzingen , * 24.06.1959 ."
+                "text": " Schöffler, Rainer, Metzingen, *24.06.1959."
             }
         ]
     }

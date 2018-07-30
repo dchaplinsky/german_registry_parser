@@ -19,17 +19,30 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Thiergartenstraße 82 C , 63654 Büdingen ."
+                "text": " Thiergartenstraße 82 C, 63654 Büdingen."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Büdingen",
+                    "dob": "1971-03-23",
+                    "flag": "sole representation",
+                    "lastname": "in: Schulz",
+                    "name": "Tanja"
+                },
+                "text": "in: Schulz, Tanja, Büdingen, *23.03.1971, einzelvertretungsberechtigt"
             }
         ]
     }

@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Trier",
+                    "dismissed": true,
                     "dob": "1961-03-30",
                     "lastname": "Reh",
                     "name": "Nick"
                 },
-                "text": " Reh , Nick , Trier , * 30.03.1961 ."
+                "text": " Reh, Nick, Trier, *30.03.1961."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Langerwehe",
                     "dob": "1964-08-05",
@@ -36,7 +37,7 @@
                     "lastname": "Meier",
                     "name": "Andreas Friedrich"
                 },
-                "text": " Meier , Andreas Friedrich , Langerwehe , * 08.05.1964 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Meier, Andreas Friedrich, Langerwehe, *08.05.1964, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

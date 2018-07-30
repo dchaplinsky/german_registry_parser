@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Saarbrücken",
+                    "dismissed": true,
                     "dob": "1967-04-22",
                     "lastname": "Reese",
                     "name": "Bernhard H"
                 },
-                "text": " Reese , Bernhard H . , Saarbrücken , * 22.04.1967 ."
+                "text": " Reese, Bernhard H., Saarbrücken, *22.04.1967."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Saarbrücken",
                     "dob": "1952-09-28",
                     "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Dr . Meinhold",
+                    "lastname": "Doctor Meinhold",
                     "name": "Joachim"
                 },
-                "text": " Dr . Meinhold , Joachim , Saarbrücken , * 28.09.1952 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Meinhold, Joachim, Saarbrücken, *28.09.1952, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

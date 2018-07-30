@@ -18,25 +18,27 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Meinborn",
+                    "dismissed": true,
                     "lastname": "Lehning",
                     "name": "Norbert",
                     "position": "Kaufmann"
                 },
-                "text": " Lehning , Norbert , Kaufmann , Meinborn ."
+                "text": " Lehning, Norbert, Kaufmann, Meinborn."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Meinborn",
+                    "dismissed": true,
                     "dob": "1981-10-15",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Lehning",
                     "name": "Christoph"
                 },
-                "text": " Lehning , Christoph , Meinborn , * 15.10.1981 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Lehning, Christoph, Meinborn, *15.10.1981, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

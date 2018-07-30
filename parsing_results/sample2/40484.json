@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Altendiez",
                     "dob": "1941-05-16",
                     "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Bunte",
-                    "name": "Eva - Katrein"
+                    "name": "Eva-Katrein"
                 },
-                "text": " Bunte , Eva - Katrein , Altendiez , * 16.05.1941 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Bunte, Eva-Katrein, Altendiez, *16.05.1941, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Hahnstätten - Zollhaus",
+                    "city": "Hahnstätten- Zollhaus",
+                    "dismissed": true,
                     "lastname": "Himberger",
-                    "name": "Hans - Jürgen",
+                    "name": "Hans-Jürgen",
                     "position": "Kaufmann"
                 },
-                "text": " Himberger , Hans - Jürgen , Kaufmann , Hahnstätten - Zollhaus ."
+                "text": " Himberger, Hans-Jürgen, Kaufmann, Hahnstätten- Zollhaus."
             }
         ]
     }

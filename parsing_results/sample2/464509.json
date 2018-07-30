@@ -19,31 +19,32 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Kronberg Projektentwichlungsgesellschaft Berlin I GmbH , Berlin , Ziegelstraße 24 , 10117 Berlin ."
+                "text": " Kronberg Projektentwichlungsgesellschaft Berlin I GmbH, Berlin, Ziegelstraße 24, 10117 Berlin."
             },
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Ziegelstraße 24 , 10117 Berlin"
+                "text": " Geschäftsanschrift: Ziegelstraße 24, 10117 Berlin"
             },
             {
                 "label": "address",
-                "text": " Ziegelstraße 24 , 10117 Berlin"
+                "text": " Ziegelstraße 24, 10117 Berlin"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Vieth",
                     "name": "Julia"
                 },
-                "text": " Vieth , Julia"
+                "text": " Vieth, Julia"
             },
             {
                 "class": "ManagingDirector",
@@ -53,7 +54,7 @@
                     "lastname": "Adams",
                     "name": "Klaus Dieter"
                 },
-                "text": " Adams , Klaus Dieter , * 07.03.1958 , Berlin"
+                "text": " Adams, Klaus Dieter, *07.03.1958, Berlin"
             }
         ]
     }

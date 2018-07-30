@@ -26,17 +26,18 @@
                     "lastname": "Müller",
                     "name": "Thomas"
                 },
-                "text": " Müller , Thomas , Leipzig , * 05.09.1962 , einzelvertretungsberechtigt"
+                "text": " Müller, Thomas, Leipzig, *05.09.1962, einzelvertretungsberechtigt"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Leipzig",
+                    "dismissed": true,
                     "dob": "1934-04-05",
                     "lastname": "Müller",
                     "name": "Karl"
                 },
-                "text": " Müller , Karl , Leipzig , * 04.05.1934 ."
+                "text": " Müller, Karl, Leipzig, *04.05.1934."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bischofsheim",
+                    "dismissed": true,
                     "dob": "1967-10-06",
                     "lastname": "Forsch",
                     "name": "Winfried Philipp"
                 },
-                "text": " Forsch , Winfried Philipp , Bischofsheim , * 10.06.1967 ."
+                "text": " Forsch, Winfried Philipp, Bischofsheim, *10.06.1967."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=619168&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Strohmaier",
                     "name": "Ute"
                 },
-                "text": " Strohmaier , Ute , Backnang , * 08.05.1967 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Backnang",
-                    "dob": "1967-08-05",
-                    "lastname": "Strohmaier",
-                    "name": "Ute"
-                },
-                "text": " Strohmaier , Ute , Backnang , * 08.05.1967 ."
+                "text": " Strohmaier, Ute, Backnang, *08.05.1967."
             }
         ]
     }

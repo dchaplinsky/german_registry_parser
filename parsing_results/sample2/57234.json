@@ -19,35 +19,36 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Espeso",
                     "name": "Luis José Pereda"
                 },
-                "text": " Espeso , Luis José Pereda"
+                "text": " Espeso, Luis José Pereda"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Madrid / Spanien",
+                    "city": "Madrid/Spanien",
                     "dob": "1967-11-21",
                     "lastname": "Pérez de Leza Eguiguren",
                     "name": "Jorge"
                 },
-                "text": " Pérez de Leza Eguiguren , Jorge , * 21.11.1967 , Madrid / Spanien"
+                "text": " Pérez de Leza Eguiguren, Jorge, *21.11.1967, Madrid/Spanien"
             }
         ]
     }

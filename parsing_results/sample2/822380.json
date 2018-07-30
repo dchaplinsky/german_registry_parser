@@ -19,12 +19,12 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Schröttinghauser Str ."
+                "text": " Schröttinghauser Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bad Essen",
                     "dob": "1974-07-20",
@@ -32,17 +32,18 @@
                     "lastname": "Weitkamp",
                     "name": "Jan Christoph"
                 },
-                "text": " Weitkamp , Jan Christoph , Bad Essen , * 20.07.1974 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Weitkamp, Jan Christoph, Bad Essen, *20.07.1974, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Stemwede",
+                    "dismissed": true,
                     "lastname": "Clamor",
                     "name": "Angelika",
                     "position": "Kaufmännische Angestellte"
                 },
-                "text": " Clamor , Angelika , Kaufmännische Angestellte , Stemwede ."
+                "text": " Clamor, Angelika, Kaufmännische Angestellte, Stemwede."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1980-02-03",
                     "lastname": "Hartmann",
-                    "name": "Jan - Oliver"
+                    "name": "Jan-Oliver"
                 },
-                "text": " Hartmann , Jan - Oliver , München , * 02.03.1980 ."
+                "text": " Hartmann, Jan-Oliver, München, *02.03.1980."
             },
             {
                 "class": "ManagingDirector",
@@ -33,9 +34,9 @@
                     "city": "München",
                     "dob": "1980-02-03",
                     "lastname": "Hartmann",
-                    "name": "Jan - Oliver"
+                    "name": "Jan-Oliver"
                 },
-                "text": " Hartmann , Jan - Oliver , München , * 02.03.1980 ."
+                "text": " Hartmann, Jan-Oliver, München, *02.03.1980."
             }
         ]
     }

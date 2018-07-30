@@ -18,24 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Amsterdam / Niederlande",
+                    "city": "Amsterdam/Niederlande",
+                    "dismissed": true,
                     "dob": "1973-11-21",
                     "lastname": "Hartman",
                     "name": "Martijn Jan Simon"
                 },
-                "text": " Hartman , Martijn Jan Simon , Amsterdam / Niederlande , * 21.11.1973 ."
+                "text": " Hartman, Martijn Jan Simon, Amsterdam/Niederlande, *21.11.1973."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Amsterdam",
+                    "dismissed": true,
                     "dob": "1976-12-27",
                     "lastname": "Spruijt",
                     "name": "Evelijn Tina"
                 },
-                "text": " Spruijt , Evelijn Tina , Amsterdam , * 27.12.1976 ."
+                "text": " Spruijt, Evelijn Tina, Amsterdam, *27.12.1976."
             }
         ]
     }

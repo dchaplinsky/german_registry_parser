@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Nikolaus - Kopernikus - Straße 7 , 27283 Verden ."
+                "text": " Nikolaus-Kopernikus-Straße 7, 27283 Verden."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Leonberg",
+                    "dismissed": true,
                     "dob": "1957-07-04",
-                    "lastname": "Dr . Moosmann",
+                    "lastname": "Doctor Moosmann",
                     "name": "Bernfried"
                 },
-                "text": " Dr . Moosmann , Bernfried , Leonberg , * 07.04.1957 ."
+                "text": " Doctor Moosmann, Bernfried, Leonberg, *07.04.1957."
             }
         ]
     }

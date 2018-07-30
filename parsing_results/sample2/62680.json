@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Osnabrück",
+                    "dismissed": true,
                     "dob": "1961-08-01",
                     "lastname": "Frömbling",
                     "name": "Hans"
                 },
-                "text": " Frömbling , Hans , Osnabrück , * 08.01.1961 ."
+                "text": " Frömbling, Hans, Osnabrück, *08.01.1961."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Osnabrück",
                     "dob": "1959-08-05",
                     "flag": "sole representation",
-                    "lastname": "Dr . Graen",
-                    "name": "Hans - Hermann"
+                    "lastname": "Doctor Graen",
+                    "name": "Hans-Hermann"
                 },
-                "text": " Dr . Graen , Hans - Hermann , Osnabrück , * 08.05.1959 , einzelvertretungsberechtigt ."
+                "text": " Doctor Graen, Hans-Hermann, Osnabrück, *08.05.1959, einzelvertretungsberechtigt."
             }
         ]
     }

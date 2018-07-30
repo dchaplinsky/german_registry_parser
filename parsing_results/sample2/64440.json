@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Elteste",
                     "name": "Jürgen"
                 },
-                "text": " Elteste , Jürgen"
+                "text": " Elteste, Jürgen"
             },
             {
                 "class": "ManagingDirector",
@@ -33,7 +34,7 @@
                     "lastname": "Neie",
                     "name": "Philipp"
                 },
-                "text": " Neie , Philipp , * 17.05.1964 , München ."
+                "text": " Neie, Philipp, *17.05.1964, München."
             }
         ]
     }

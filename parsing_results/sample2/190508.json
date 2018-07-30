@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Thiersheim",
+                    "dismissed": true,
                     "dob": "1950-01-25",
                     "lastname": "Wegmann",
                     "name": "Manfred"
                 },
-                "text": " Wegmann , Manfred , Thiersheim , * 25.01.1950 ."
+                "text": " Wegmann, Manfred, Thiersheim, *25.01.1950."
             }
         ]
     }

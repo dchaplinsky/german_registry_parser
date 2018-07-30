@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Stadtallendorf",
+                    "dismissed": true,
                     "dob": "1945-12-19",
                     "lastname": "Corvinelli",
                     "name": "Luigi"
                 },
-                "text": " Corvinelli , Luigi , Stadtallendorf , * 19.12.1945 ."
+                "text": " Corvinelli, Luigi, Stadtallendorf, *19.12.1945."
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Homberg ( Ohm )",
+                    "city": "Homberg (Ohm)",
                     "dob": "1982-08-14",
                     "flag": "sole representation",
                     "lastname": "Corvinelli",
                     "name": "Yvonne"
                 },
-                "text": " Corvinelli , Yvonne , Homberg ( Ohm ) , * 14.08.1982 , einzelvertretungsberechtigt"
+                "text": " Corvinelli, Yvonne, Homberg (Ohm), *14.08.1982, einzelvertretungsberechtigt"
             }
         ]
     }

@@ -18,24 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Sulingen",
+                    "dismissed": true,
                     "dob": "1962-07-07",
                     "lastname": "Lahmeyer",
                     "name": "Klaus"
                 },
-                "text": " Lahmeyer , Klaus , Sulingen , * 07.07.1962 ."
+                "text": " Lahmeyer, Klaus, Sulingen, *07.07.1962."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Warmsen",
+                    "dismissed": true,
                     "dob": "1954-07-14",
                     "lastname": "Pfaffinger",
                     "name": "Gabriele"
                 },
-                "text": " Pfaffinger , Gabriele , Warmsen , * 14.07.1954 ."
+                "text": " Pfaffinger, Gabriele, Warmsen, *14.07.1954."
             }
         ]
     }

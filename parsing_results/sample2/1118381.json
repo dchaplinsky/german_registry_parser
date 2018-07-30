@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Mülheim / Ruhr",
+                    "city": "Mülheim/Ruhr",
                     "dob": "1969-12-04",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Wichmann",
                     "name": "Marco"
                 },
-                "text": " Wichmann , Marco , Mülheim / Ruhr , * 12.04.1969 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Wichmann, Marco, Mülheim/Ruhr, *12.04.1969, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Mülheim / Ruhr",
+                    "city": "Mülheim/Ruhr",
+                    "dismissed": true,
                     "dob": "1969-12-04",
                     "lastname": "Wichmann",
                     "name": "Marco"
                 },
-                "text": " Wichmann , Marco , Mülheim / Ruhr , * 12.04.1969 ."
+                "text": " Wichmann, Marco, Mülheim/Ruhr, *12.04.1969."
             }
         ]
     }

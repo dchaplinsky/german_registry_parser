@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Aachen",
+                    "dismissed": true,
                     "dob": "1989-11-26",
                     "lastname": "Tahirovic",
                     "name": "Sandro"
                 },
-                "text": " Tahirovic , Sandro , Aachen , * 26.11.1989 ."
+                "text": " Tahirovic, Sandro, Aachen, *26.11.1989."
             }
         ]
     }

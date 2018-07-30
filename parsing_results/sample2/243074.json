@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Marienfließ",
+                    "dismissed": true,
                     "dob": "1967-06-17",
                     "lastname": "Becken",
                     "name": "Thomas"
                 },
-                "text": " Becken , Thomas , Marienfließ , * 17.06.1967 ."
+                "text": " Becken, Thomas, Marienfließ, *17.06.1967."
             }
         ]
     }

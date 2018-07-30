@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Eimsheim",
+                    "dismissed": true,
                     "dob": "1964-09-30",
                     "lastname": "Rogge",
                     "name": "Frank Markus"
                 },
-                "text": " Rogge , Frank Markus , Eimsheim , * 30.09.1964 ."
+                "text": " Rogge, Frank Markus, Eimsheim, *30.09.1964."
             },
             {
                 "class": "CommonProcuration",
@@ -33,9 +34,9 @@
                     "city": "Mainz",
                     "dob": "1961-05-17",
                     "lastname": "Koch",
-                    "name": "Hans - Georg"
+                    "name": "Hans-Georg"
                 },
-                "text": " Koch , Hans - Georg , Mainz , * 17.05.1961 ."
+                "text": " Koch, Hans-Georg, Mainz, *17.05.1961."
             }
         ]
     }

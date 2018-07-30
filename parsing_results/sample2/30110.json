@@ -19,26 +19,27 @@
         "flags": [
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1969-07-06",
                     "lastname": "Lotz",
                     "name": "Nicole geborene Liebera"
                 },
-                "text": " Lotz , Nicole geborene Liebera , München , * 07.06.1969 ."
+                "text": " Lotz, Nicole geborene Liebera, München, *07.06.1969."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dob": "1966-03-28",
@@ -46,7 +47,7 @@
                     "lastname": "Nielen",
                     "name": "Sebastiaan"
                 },
-                "text": " Nielen , Sebastiaan , Frankfurt am Main , * 28.03.1966 , einzelvertretungsberechtigt"
+                "text": " Nielen, Sebastiaan, Frankfurt am Main, *28.03.1966, einzelvertretungsberechtigt"
             }
         ]
     }

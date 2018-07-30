@@ -19,7 +19,19 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  ley , christian , gelsenkirchen , * 06.02.1968 . geschäftsführer : mauritz , volker , mülheim an der ruhr , * 02.07.1965 , einzelvertretungsberechtigt mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen ., error text was no valid patter found, number of chunks: 8"
+                "text": "Cannot parse a ManagingDirector from  ley, christian, gelsenkirchen, *06.02.1968. geschäftsführer: mauritz, volker, mülheim an der ruhr, *02.07.1965, einzelvertretungsberechtigt mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen., error text was no valid patter found, number of chunks: 8"
+            }
+        ],
+        "flags": [
+            {
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " vinckeweg 15, 47119 duisburg."
             }
         ]
     }

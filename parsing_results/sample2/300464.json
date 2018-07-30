@@ -19,11 +19,24 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Mag ., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a DismissedManagingDirector from  Mag., error text was a person without DOB, number of chunks: 1"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Nowotny , Florian , Wien , Österreich , * 19.08.1975 ., error text was Cannot parse DOB  Wien  using regex"
+                "text": "Cannot parse a ManagingDirector from  Mag., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
+        "officers": [
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Österreich",
+                    "dob": "1975-08-19",
+                    "lastname": "Nowotny",
+                    "name": "Florian",
+                    "position": "Wien"
+                },
+                "text": " Nowotny, Florian, Wien, Österreich, *19.08.1975."
             }
         ]
     }

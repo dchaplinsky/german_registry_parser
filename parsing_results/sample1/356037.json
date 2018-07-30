@@ -16,13 +16,19 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=356037&land_abk=hh"
     },
     "parsed": {
+        "flags": [
+            {
+                "flag": "ignore_for_now",
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " rs verwaltung gmbh , hamburg ( amtsgericht hamburg hrb 149487 ) ."
+                    "company_name": " rs verwaltung gmbh, hamburg (amtsgericht hamburg hrb 149487)."
                 },
-                "text": " rs verwaltung gmbh , hamburg ( amtsgericht hamburg hrb 149487 ) ."
+                "text": " rs verwaltung gmbh, hamburg (amtsgericht hamburg hrb 149487)."
             }
         ]
     }

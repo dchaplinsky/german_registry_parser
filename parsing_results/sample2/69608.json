@@ -16,20 +16,15 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=69608&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "ProcurationCancelled",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Supperl",
                     "name": "Frank"
                 },
-                "text": " Supperl , Frank ."
+                "text": " Supperl, Frank."
             },
             {
                 "class": "SingleProcuration",
@@ -39,17 +34,7 @@
                     "lastname": "Borner",
                     "name": "Volker Jürgen"
                 },
-                "text": " Borner , Volker Jürgen , Frechen , * 12.11.1970 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Frechen",
-                    "dob": "1970-12-11",
-                    "lastname": "Borner",
-                    "name": "Volker Jürgen"
-                },
-                "text": " Borner , Volker Jürgen , Frechen , * 12.11.1970 ."
+                "text": " Borner, Volker Jürgen, Frechen, *12.11.1970."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1966-12-02",
                     "lastname": "Siegel",
-                    "name": "Carl - Christian"
+                    "name": "Carl-Christian"
                 },
-                "text": " Siegel , Carl - Christian , Frankfurt am Main , * 12.02.1966"
+                "text": " Siegel, Carl-Christian, Frankfurt am Main, *12.02.1966"
             },
             {
                 "class": "ManagingDirector",
@@ -35,27 +36,28 @@
                     "lastname": "Becker",
                     "name": "Gitta"
                 },
-                "text": " Becker , Gitta , Frankfurt am Main , * 12.01.1962 ."
+                "text": " Becker, Gitta, Frankfurt am Main, *12.01.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "London ( Großbritannien )",
+                    "city": "London (Großbritannien)",
                     "dob": "1983-10-11",
                     "lastname": "Feix",
                     "name": "Sebastian"
                 },
-                "text": " Feix , Sebastian , London ( Großbritannien ) , * 10.11.1983 ."
+                "text": " Feix, Sebastian, London (Großbritannien), *10.11.1983."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "London ( Großbritanien )",
+                    "city": "London (Großbritanien)",
+                    "dismissed": true,
                     "dob": "1983-10-11",
                     "lastname": "Feix",
                     "name": "Sebastian"
                 },
-                "text": " Feix , Sebastian , London ( Großbritanien ) , * 10.11.1983"
+                "text": " Feix, Sebastian, London (Großbritanien), *10.11.1983"
             }
         ]
     }

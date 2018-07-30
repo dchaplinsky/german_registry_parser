@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Oberhausen",
+                    "dismissed": true,
                     "dob": "1966-02-17",
                     "lastname": "Hasley",
                     "name": "Jens"
                 },
-                "text": " Hasley , Jens , Oberhausen , * 17.02.1966 ."
+                "text": " Hasley, Jens, Oberhausen, *17.02.1966."
             }
         ]
     }

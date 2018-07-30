@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=382777&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Wawczyniak",
                     "name": "Klaus"
                 },
-                "text": " Wawczyniak , Klaus , Freudental , * 01.07.1977 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Freudental",
-                    "dob": "1977-01-07",
-                    "lastname": "Wawczyniak",
-                    "name": "Klaus"
-                },
-                "text": " Wawczyniak , Klaus , Freudental , * 01.07.1977 ."
+                "text": " Wawczyniak, Klaus, Freudental, *01.07.1977."
             }
         ]
     }

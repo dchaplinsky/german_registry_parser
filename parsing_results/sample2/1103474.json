@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1103474&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Remscheid",
+                    "dismissed": true,
                     "dob": "1939-06-09",
                     "lastname": "Richter",
                     "name": "Hellmut"
                 },
-                "text": " Richter , Hellmut , Remscheid , * 06.09.1939 ."
+                "text": " Richter, Hellmut, Remscheid, *06.09.1939."
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +36,7 @@
                     "lastname": "Feurich",
                     "name": "Karin"
                 },
-                "text": " Feurich , Karin , Düsseldorf , * 05.11.1961 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Düsseldorf",
-                    "dob": "1961-05-11",
-                    "lastname": "Feurich",
-                    "name": "Karin"
-                },
-                "text": " Feurich , Karin , Düsseldorf , * 05.11.1961 ."
+                "text": " Feurich, Karin, Düsseldorf, *05.11.1961."
             }
         ]
     }

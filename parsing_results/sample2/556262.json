@@ -19,46 +19,48 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Mainzer Landstraße 46 , 60325 Frankfurt am Main ."
+                "text": " Mainzer Landstraße 46, 60325 Frankfurt am Main."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1966-10-20",
                     "lastname": "Rutovitz",
                     "name": "Ursula"
                 },
-                "text": " Rutovitz , Ursula , Frankfurt am Main , * 20.10.1966 ."
+                "text": " Rutovitz, Ursula, Frankfurt am Main, *20.10.1966."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dob": "1980-04-16",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Hirschel",
                     "name": "Boris Hellmuth Hermann"
                 },
-                "text": " Hirschel , Boris Hellmuth Hermann , Frankfurt am Main , * 16.04.1980 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Hirschel, Boris Hellmuth Hermann, Frankfurt am Main, *16.04.1980, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Darmstadt",
+                    "dismissed": true,
                     "dob": "1973-01-26",
                     "lastname": "Krumb",
                     "name": "Christian"
                 },
-                "text": " Krumb , Christian , Darmstadt , * 26.01.1973 ."
+                "text": " Krumb, Christian, Darmstadt, *26.01.1973."
             }
         ]
     }

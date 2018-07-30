@@ -21,21 +21,22 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Liederbach im Taunus",
+                    "dismissed": true,
                     "dob": "1959-10-18",
-                    "lastname": "Dr . Brockmeyer",
+                    "lastname": "Doctor Brockmeyer",
                     "name": "Andreas"
                 },
-                "text": " Dr . Brockmeyer , Andreas , Liederbach im Taunus , * 18.10.1959 ."
+                "text": " Doctor Brockmeyer, Andreas, Liederbach im Taunus, *18.10.1959."
             },
             {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Bad Vilbel",
                     "dob": "1956-09-12",
-                    "lastname": "Dr . Burdenski",
+                    "lastname": "Doctor Burdenski",
                     "name": "Wolfhart"
                 },
-                "text": " Dr . Burdenski , Wolfhart , Bad Vilbel , * 09.12.1956 ."
+                "text": " Doctor Burdenski, Wolfhart, Bad Vilbel, *09.12.1956."
             }
         ]
     }

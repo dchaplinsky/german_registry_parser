@@ -19,19 +19,19 @@
         "flags": [
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dob": "1944-09-02",
                     "lastname": "Aigner",
                     "name": "Franz"
                 },
-                "text": " Aigner , Franz , Frankfurt am Main , * 09.02.1944 ."
+                "text": " Aigner, Franz, Frankfurt am Main, *09.02.1944."
             }
         ]
     }

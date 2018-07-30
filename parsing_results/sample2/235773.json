@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Kirchdorf",
+                    "dismissed": true,
                     "dob": "1946-08-26",
                     "lastname": "Schuhbauer",
                     "name": "Benedikt"
                 },
-                "text": " Schuhbauer , Benedikt , Kirchdorf , * 26.08.1946 ."
+                "text": " Schuhbauer, Benedikt, Kirchdorf, *26.08.1946."
             },
             {
                 "class": "PersonalPartner",
@@ -35,7 +36,7 @@
                     "lastname": "Schuhbauer",
                     "name": "Benedikt"
                 },
-                "text": " Schuhbauer , Benedikt , Kirchdorf , * 16.05.1979 ."
+                "text": " Schuhbauer, Benedikt, Kirchdorf, *16.05.1979."
             }
         ]
     }

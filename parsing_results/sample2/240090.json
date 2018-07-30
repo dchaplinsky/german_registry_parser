@@ -19,17 +19,31 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Brenninkmeijer , Johannes Amadeo Raymond , Amsterdam , Niederlande , * 01.05.1984 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Amsterdam  using regex"
+                "text": "Cannot parse a AppointedManagingDirector from  Brenninkmeijer, Johannes Amadeo Raymond, Amsterdam,Niederlande, *01.05.1984, einzelvertretungsberechtigt, error text was Cannot parse DOB  Amsterdam using regex"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Brenninkmeijer , John William Maria , Amsterdam , Niederlande , * 27.04.1952 ., error text was Cannot parse DOB  Amsterdam  using regex"
+                "text": "Cannot parse a ManagingDirector from  Brenninkmeijer, Johannes Amadeo Raymond, Amsterdam,Niederlande, *01.05.1984, einzelvertretungsberechtigt, error text was Cannot parse DOB  Amsterdam using regex"
             }
         ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
+            }
+        ],
+        "officers": [
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Niederlande",
+                    "dismissed": true,
+                    "dob": "1952-04-27",
+                    "lastname": "Brenninkmeijer",
+                    "name": "John William Maria",
+                    "position": "Amsterdam"
+                },
+                "text": " Brenninkmeijer, John William Maria, Amsterdam, Niederlande, *27.04.1952."
             }
         ]
     }

@@ -23,20 +23,21 @@
                     "city": "Stolberg",
                     "dob": "1968-02-22",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Dr . Fitzner",
+                    "lastname": "Doctor Fitzner",
                     "name": "Sabine"
                 },
-                "text": " Dr . Fitzner , Sabine , Stolberg , * 22.02.1968 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Fitzner, Sabine, Stolberg, *22.02.1968, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Königswinter",
+                    "dismissed": true,
                     "dob": "1967-10-25",
                     "lastname": "Fitzner",
                     "name": "Michael Rudolph"
                 },
-                "text": " Fitzner , Michael Rudolph , Königswinter , * 25.10.1967 ."
+                "text": " Fitzner, Michael Rudolph, Königswinter, *25.10.1967."
             }
         ]
     }

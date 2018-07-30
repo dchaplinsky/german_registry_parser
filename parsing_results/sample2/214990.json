@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Brunnenstraße 14 , 67316 Carlsberg ."
+                "text": " Brunnenstraße 14, 67316 Carlsberg."
             }
         ],
         "officers": [
@@ -31,17 +31,18 @@
                     "lastname": "Färcher",
                     "name": "Karolin"
                 },
-                "text": " Färcher , Karolin , Grünstadt , * 05.03.1989 ."
+                "text": " Färcher, Karolin, Grünstadt, *05.03.1989."
             },
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Garlsberg",
+                    "dismissed": true,
                     "lastname": "Färcher",
                     "name": "Heribert",
                     "position": "Apotheker"
                 },
-                "text": " Färcher , Heribert , Apotheker , Garlsberg ."
+                "text": " Färcher, Heribert, Apotheker, Garlsberg."
             }
         ]
     }

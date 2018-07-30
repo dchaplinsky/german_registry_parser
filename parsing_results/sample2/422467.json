@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bissingen",
+                    "dismissed": true,
                     "dob": "1984-10-28",
                     "lastname": "Martin",
                     "name": "Franz"
                 },
-                "text": " Martin , Franz , Bissingen , * 28.10.1984 ."
+                "text": " Martin, Franz, Bissingen, *28.10.1984."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Herrsching",
                     "dob": "1960-02-01",
@@ -42,7 +43,7 @@
                     "lastname": "Eisele",
                     "name": "Hannes"
                 },
-                "text": " Eisele , Hannes , Herrsching , * 02.01.1960 , einzelvertretungsberechtigt"
+                "text": " Eisele, Hannes, Herrsching, *02.01.1960, einzelvertretungsberechtigt"
             }
         ]
     }

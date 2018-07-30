@@ -18,45 +18,46 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
-                "text": "Sind mehrere Geschäftsführer bestellt , wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten ."
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ wird\\ die\\ Gesellschaft\\ gemeinschaftlich\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ in\\ Gemeinschaft\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " c / o Rechtsanwälte Bendel & Partner , Hofstraße 3 , 97070 Würzburg ."
+                "text": " c/o Rechtsanwälte Bendel & Partner, Hofstraße 3, 97070 Würzburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1946-10-06",
-                    "lastname": "Dr . Kauermann",
+                    "lastname": "Doctor Kauermann",
                     "name": "Karl"
                 },
-                "text": " Dr . Kauermann , Karl , Berlin , * 10.06.1946 ."
+                "text": " Doctor Kauermann, Karl, Berlin, *10.06.1946."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Würzburg",
                     "dob": "1967-10-17",
                     "flag": "sole representation",
-                    "lastname": "Dr . Schädler",
+                    "lastname": "Doctor Schädler",
                     "name": "Markus"
                 },
-                "text": " Dr . Schädler , Markus , Würzburg , * 17.10.1967 , einzelvertretungsberechtigt"
+                "text": " Doctor Schädler, Markus, Würzburg, *17.10.1967, einzelvertretungsberechtigt"
             }
         ]
     }

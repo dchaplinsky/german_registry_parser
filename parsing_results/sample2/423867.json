@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Esslingen am Neckar",
+                    "dismissed": true,
                     "dob": "1978-05-29",
                     "lastname": "Leonberger",
                     "name": "Felix"
                 },
-                "text": " Leonberger , Felix , Esslingen am Neckar , * 29.05.1978 ."
+                "text": " Leonberger, Felix, Esslingen am Neckar, *29.05.1978."
             }
         ]
     }

@@ -19,26 +19,27 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
                 "class": "Liquidator",
                 "payload": {
-                    "company_name": " Udo Täubrich Betreuungs GmbH , Moers ( Amtsgericht Kleve HRB 12046 ) , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                    "company_name": " Udo Täubrich Betreuungs GmbH, Moers (Amtsgericht Kleve HRB 12046), einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
                 },
-                "text": " Udo Täubrich Betreuungs GmbH , Moers ( Amtsgericht Kleve HRB 12046 ) , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Udo Täubrich Betreuungs GmbH, Moers (Amtsgericht Kleve HRB 12046), einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Duisburg",
+                    "dismissed": true,
                     "dob": "1963-05-16",
                     "lastname": "Krahl",
                     "name": "Ralph"
                 },
-                "text": " Krahl , Ralph , Duisburg , * 16.05.1963"
+                "text": " Krahl, Ralph, Duisburg, *16.05.1963"
             }
         ]
     }

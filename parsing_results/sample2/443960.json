@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1985-09-17",
                     "lastname": "Hochmuth",
                     "name": "Daniel"
                 },
-                "text": " Hochmuth , Daniel , Frankfurt am Main , * 17.09.1985 ."
+                "text": " Hochmuth, Daniel, Frankfurt am Main, *17.09.1985."
             }
         ]
     }

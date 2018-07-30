@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Rüthi ( Schweiz ) / Schweiz",
+                    "city": "Rüthi (Schweiz) / Schweiz",
+                    "dismissed": true,
                     "dob": "1971-03-23",
                     "lastname": "Hörburger",
                     "name": "Jürgen"
                 },
-                "text": " Hörburger , Jürgen , Rüthi ( Schweiz ) / Schweiz , * 23.03.1971 ."
+                "text": " Hörburger, Jürgen, Rüthi (Schweiz) / Schweiz, *23.03.1971."
             }
         ]
     }

@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=449558&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kaisheim",
+                    "dismissed": true,
                     "dob": "1954-03-16",
                     "lastname": "Minning",
                     "name": "Bernd"
                 },
-                "text": " Minning , Bernd , Kaisheim , * 16.03.1954 ."
+                "text": " Minning, Bernd, Kaisheim, *16.03.1954."
             },
             {
                 "class": "NewProcuration",
@@ -41,27 +36,7 @@
                     "lastname": "Grenzebach",
                     "name": "Stefan"
                 },
-                "text": " Grenzebach , Stefan , Stadtbergen , * 28.04.1973 ."
-            },
-            {
-                "class": "SingleProcuration",
-                "payload": {
-                    "city": "Stadtbergen",
-                    "dob": "1973-04-28",
-                    "lastname": "Grenzebach",
-                    "name": "Stefan"
-                },
-                "text": " Grenzebach , Stefan , Stadtbergen , * 28.04.1973 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Stadtbergen",
-                    "dob": "1973-04-28",
-                    "lastname": "Grenzebach",
-                    "name": "Stefan"
-                },
-                "text": " Grenzebach , Stefan , Stadtbergen , * 28.04.1973 ."
+                "text": " Grenzebach, Stefan, Stadtbergen, *28.04.1973."
             }
         ]
     }

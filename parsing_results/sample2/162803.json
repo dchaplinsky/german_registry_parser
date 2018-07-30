@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bünde",
+                    "dismissed": true,
                     "dob": "1939-08-17",
-                    "lastname": "Dr . Priemer",
+                    "lastname": "Doctor Priemer",
                     "name": "Wolfgang"
                 },
-                "text": " Dr . Priemer , Wolfgang , Bünde , * 17.08.1939 ."
+                "text": " Doctor Priemer, Wolfgang, Bünde, *17.08.1939."
             }
         ]
     }

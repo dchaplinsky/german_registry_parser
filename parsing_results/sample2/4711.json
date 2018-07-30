@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Dinklage",
+                    "dismissed": true,
                     "dob": "1950-04-01",
                     "lastname": "Westermann",
                     "name": "Kurt"
                 },
-                "text": " Westermann , Kurt , Dinklage , * 04.01.1950 ."
+                "text": " Westermann, Kurt, Dinklage, *04.01.1950."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Berlin - Tempelhof - Schöneberg",
+                    "city": "Berlin-Tempelhof-Schöneberg",
                     "dob": "1964-05-10",
                     "flag": "sole representation",
                     "lastname": "Fischer",
                     "name": "Thomas"
                 },
-                "text": " Fischer , Thomas , Berlin - Tempelhof - Schöneberg , * 05.10.1964 , einzelvertretungsberechtigt"
+                "text": " Fischer, Thomas, Berlin-Tempelhof-Schöneberg, *05.10.1964, einzelvertretungsberechtigt"
             }
         ]
     }

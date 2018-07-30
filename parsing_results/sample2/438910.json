@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Spaichingen",
+                    "dismissed": true,
                     "dob": "1955-02-11",
                     "lastname": "Bühler",
                     "name": "Manfred"
                 },
-                "text": " Bühler , Manfred , Spaichingen , * 02.11.1955 ."
+                "text": " Bühler, Manfred, Spaichingen, *02.11.1955."
             }
         ]
     }

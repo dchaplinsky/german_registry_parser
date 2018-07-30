@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Krailling",
+                    "dismissed": true,
                     "dob": "1959-10-20",
-                    "lastname": "Müller - Lorentz",
+                    "lastname": "Müller-Lorentz",
                     "name": "Heinz"
                 },
-                "text": " Müller - Lorentz , Heinz , Krailling , * 20.10.1959 ."
+                "text": " Müller-Lorentz, Heinz, Krailling, *20.10.1959."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "CH - Meggen",
+                    "city": "CH-Meggen",
                     "dob": "1956-08-06",
                     "flag": "sole representation",
                     "lastname": "Wiget",
                     "name": "Urs"
                 },
-                "text": " Wiget , Urs , CH - Meggen , * 08.06.1956 , einzelvertretungsberechtigt"
+                "text": " Wiget, Urs, CH-Meggen, *08.06.1956, einzelvertretungsberechtigt"
             }
         ]
     }

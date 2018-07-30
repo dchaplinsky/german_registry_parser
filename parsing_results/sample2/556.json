@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rostock",
+                    "dismissed": true,
                     "dob": "1954-02-17",
                     "lastname": "Wendlandt",
                     "name": "Udo"
                 },
-                "text": " Wendlandt , Udo , Rostock , * 17.02.1954 ."
+                "text": " Wendlandt, Udo, Rostock, *17.02.1954."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rostock",
                     "dob": "1948-03-10",
@@ -36,7 +37,7 @@
                     "lastname": "Dudek",
                     "name": "Helmuth"
                 },
-                "text": " Dudek , Helmuth , Rostock , * 03.10.1948 , einzelvertretungsberechtigt ."
+                "text": " Dudek, Helmuth, Rostock, *03.10.1948, einzelvertretungsberechtigt."
             }
         ]
     }

@@ -19,19 +19,19 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Yazici , Osman Turgut , 34799 Cekmeköy , Istanbul / Türkei , * 01.01.1953 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ., error text was Cannot parse DOB  34799 Cekmeköy  using regex"
+                "text": "Cannot parse a ManagingDirector from  Yazici, Osman Turgut, 34799 Cekmeköy,Istanbul / Türkei, *01.01.1953, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was Cannot parse DOB  34799 Cekmeköy using regex"
             }
         ],
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Hülser Straße 3 , 47906 Kempen ."
+                "text": " Hülser Straße 3, 47906 Kempen."
             }
         ]
     }

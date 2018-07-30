@@ -19,13 +19,13 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Löhrstraße 129 , 56068 Koblenz ."
+                "text": " Löhrstraße 129, 56068 Koblenz."
             }
         ],
         "officers": [
@@ -37,17 +37,18 @@
                     "lastname": "Oehms",
                     "name": "Marco Herbert"
                 },
-                "text": " Oehms , Marco Herbert , Koblenz , * 16.03.1990 ."
+                "text": " Oehms, Marco Herbert, Koblenz, *16.03.1990."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Vallendar",
+                    "dismissed": true,
                     "dob": "1990-03-16",
                     "lastname": "Oehms",
                     "name": "Marco"
                 },
-                "text": " Oehms , Marco , Vallendar , * 16.03.1990 ."
+                "text": " Oehms, Marco, Vallendar, *16.03.1990."
             }
         ]
     }

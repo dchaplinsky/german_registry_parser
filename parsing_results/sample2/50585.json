@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hüffelsheim",
+                    "dismissed": true,
                     "lastname": "Bechtoldt",
                     "name": "Dorothea geborene Lohbeck",
                     "position": "Kauffrau"
                 },
-                "text": " Bechtoldt , Dorothea geborene Lohbeck , Kauffrau , Hüffelsheim"
+                "text": " Bechtoldt, Dorothea geborene Lohbeck, Kauffrau, Hüffelsheim"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt",
                     "dob": "1971-04-21",
@@ -36,7 +37,7 @@
                     "lastname": "Jung",
                     "name": "Thomas"
                 },
-                "text": " Jung , Thomas , Frankfurt , * 21.04.1971 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Jung, Thomas, Frankfurt, *21.04.1971, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

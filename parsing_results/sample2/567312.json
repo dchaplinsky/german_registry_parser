@@ -19,18 +19,18 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Haingasse 28 , 60388 Frankfurt am Main ."
+                "text": " Haingasse 28, 60388 Frankfurt am Main."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Gaiberg",
                     "dob": "1987-06-10",
@@ -38,17 +38,18 @@
                     "lastname": "Lautenschläger",
                     "name": "Maximilian"
                 },
-                "text": " Lautenschläger , Maximilian , Gaiberg , * 06.10.1987 , einzelvertretungsberechtigt"
+                "text": " Lautenschläger, Maximilian, Gaiberg, *06.10.1987, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rösrath",
+                    "dismissed": true,
                     "dob": "1970-02-17",
                     "lastname": "Braun",
                     "name": "Ralf"
                 },
-                "text": " Braun , Ralf , Rösrath , * 17.02.1970 ."
+                "text": " Braun, Ralf, Rösrath, *17.02.1970."
             }
         ]
     }

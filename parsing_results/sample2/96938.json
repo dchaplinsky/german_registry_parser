@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bockenem",
+                    "dismissed": true,
                     "dob": "1962-11-25",
                     "lastname": "Maaß",
                     "name": "Jörg"
                 },
-                "text": " Maaß , Jörg , Bockenem , * 25.11.1962 ."
+                "text": " Maaß, Jörg, Bockenem, *25.11.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wolfenbüttel",
                     "dob": "1964-04-20",
@@ -36,7 +37,7 @@
                     "lastname": "Zink",
                     "name": "Torsten"
                 },
-                "text": " Zink , Torsten , Wolfenbüttel , * 20.04.1964 , einzelvertretungsberechtigt ."
+                "text": " Zink, Torsten, Wolfenbüttel, *20.04.1964, einzelvertretungsberechtigt."
             }
         ]
     }

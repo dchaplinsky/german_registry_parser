@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kelkheim",
+                    "dismissed": true,
                     "dob": "1961-04-19",
                     "lastname": "Hempel",
                     "name": "Ralf"
                 },
-                "text": " Hempel , Ralf , Kelkheim , * 19.04.1961 ."
+                "text": " Hempel, Ralf, Kelkheim, *19.04.1961."
             }
         ]
     }

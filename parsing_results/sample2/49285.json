@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Zweibrücken",
+                    "dismissed": true,
                     "dob": "1962-04-25",
                     "lastname": "Hamelin",
                     "name": "Patrick"
                 },
-                "text": " Hamelin , Patrick , Zweibrücken , * 25.04.1962 ."
+                "text": " Hamelin, Patrick, Zweibrücken, *25.04.1962."
             },
             {
                 "class": "Owner",
@@ -35,7 +36,7 @@
                     "lastname": "Hamelin",
                     "name": "Cedric Philip"
                 },
-                "text": " Hamelin , Cedric Philip , Zweibrücken , * 08.02.1995 ."
+                "text": " Hamelin, Cedric Philip, Zweibrücken, *08.02.1995."
             }
         ]
     }

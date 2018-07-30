@@ -19,13 +19,13 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Schlehenweg 4 , 59425 Unna ."
+                "text": " Schlehenweg 4, 59425 Unna."
             }
         ],
         "officers": [
@@ -38,16 +38,17 @@
                     "lastname": "Kuhlmann",
                     "name": "Rolf"
                 },
-                "text": " Kuhlmann , Rolf , Unna , * 28.03.1944 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Kuhlmann, Rolf, Unna, *28.03.1944, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Herten",
+                    "dismissed": true,
                     "lastname": "Kuhlmann",
                     "name": "Annemarie"
                 },
-                "text": " Kuhlmann , Annemarie , Herten ."
+                "text": " Kuhlmann, Annemarie, Herten."
             }
         ]
     }

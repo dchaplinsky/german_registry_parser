@@ -19,34 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Neuenstein",
                     "dob": "1963-07-23",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Heim",
                     "name": "Andrea"
                 },
-                "text": " Heim , Andrea , Neuenstein , * 23.07.1963 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Heim, Andrea, Neuenstein, *23.07.1963, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Neuenstein",
+                    "dismissed": true,
                     "dob": "1959-07-05",
                     "lastname": "Heim",
                     "name": "Peter"
                 },
-                "text": " Heim , Peter , Neuenstein , * 07.05.1959 ."
+                "text": " Heim, Peter, Neuenstein, *07.05.1959."
             },
             {
                 "class": "SingleProcuration",
@@ -56,17 +53,7 @@
                     "lastname": "Heim",
                     "name": "Peter"
                 },
-                "text": " Heim , Peter , Neuenstein , * 07.05.1959 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Neuenstein",
-                    "dob": "1959-07-05",
-                    "lastname": "Heim",
-                    "name": "Peter"
-                },
-                "text": " Heim , Peter , Neuenstein , * 07.05.1959 ."
+                "text": " Heim, Peter, Neuenstein, *07.05.1959."
             }
         ]
     }

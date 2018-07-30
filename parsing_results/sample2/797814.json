@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Grenofen Tavistock Devon ( GB ) / Vereinigtes Königreich",
+                    "city": "Grenofen Tavistock Devon (GB) / Vereinigtes Königreich",
+                    "dismissed": true,
                     "dob": "1970-09-02",
                     "lastname": "Hallas",
                     "name": "Joanna Christine"
                 },
-                "text": " Hallas , Joanna Christine , Grenofen Tavistock Devon ( GB ) / Vereinigtes Königreich , * 09.02.1970 ."
+                "text": " Hallas, Joanna Christine, Grenofen Tavistock Devon (GB) / Vereinigtes Königreich, *09.02.1970."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wesel",
                     "dob": "1968-08-05",
                     "lastname": "Bussing",
                     "name": "Dirk"
                 },
-                "text": " Bussing , Dirk , Wesel , * 08.05.1968"
+                "text": " Bussing, Dirk, Wesel, *08.05.1968"
             }
         ]
     }

@@ -16,22 +16,28 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=164321&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  de Jong geb ., error text was a person without DOB, number of chunks: 1"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Wijchen/Niederlande",
+                    "dismissed": true,
+                    "lastname": "de Jong",
+                    "maidenname": "Düngel",
+                    "name": "Gabriela",
+                    "position": "Immobilienkauffrau"
+                },
+                "text": " de Jong geborene Düngel, Gabriela, Immobilienkauffrau, Wijchen/Niederlande."
+            },
+            {
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Berlin",
                     "dob": "1957-04-28",
-                    "lastname": "Dr . Herdmann",
+                    "lastname": "Doctor Herdmann",
                     "name": "Frank"
                 },
-                "text": " Dr . Herdmann , Frank , Berlin , * 28.04.1957"
+                "text": " Doctor Herdmann, Frank, Berlin, *28.04.1957"
             }
         ]
     }

@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Guardianstraße 1 , 06766 Bitterfeld - Wolfen OT Thalheim ."
+                "text": " Guardianstraße 1, 06766 Bitterfeld-Wolfen OT Thalheim."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1969-01-10",
                     "lastname": "Vieth",
                     "name": "Julia"
                 },
-                "text": " Vieth , Julia , Berlin , * 01.10.1969 ."
+                "text": " Vieth, Julia, Berlin, *01.10.1969."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Sandersdorf",
                     "dob": "1947-03-28",
@@ -42,7 +43,7 @@
                     "lastname": "Stirn",
                     "name": "Fernand"
                 },
-                "text": " Stirn , Fernand , Sandersdorf , * 28.03.1947 , einzelvertretungsberechtigt ."
+                "text": " Stirn, Fernand, Sandersdorf, *28.03.1947, einzelvertretungsberechtigt."
             }
         ]
     }

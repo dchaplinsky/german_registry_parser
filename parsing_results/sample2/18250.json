@@ -19,17 +19,17 @@
         "flags": [
             {
                 "flag": "Exclusive power of representation can be granted.",
-                "text": "Alleinvertretungsbefugnis kann erteilt werden ."
+                "text": "Alleinvertretungsbefugnis\\ kann\\ erteilt\\ werden\\."
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Schlachte 27 / 28 , 28195 Bremen ."
+                "text": " Schlachte 27/28, 28195 Bremen."
             }
         ],
         "officers": [
@@ -41,15 +41,16 @@
                     "lastname": "Diez",
                     "name": "Holm"
                 },
-                "text": " Diez , Holm , * 17.06.1974 , Hagen"
+                "text": " Diez, Holm, *17.06.1974, Hagen"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Schröder",
-                    "name": "Kai - Peter"
+                    "name": "Kai-Peter"
                 },
-                "text": " Schröder , Kai - Peter"
+                "text": " Schröder, Kai-Peter"
             }
         ]
     }

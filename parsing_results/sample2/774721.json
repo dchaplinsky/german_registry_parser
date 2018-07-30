@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Friedberg",
+                    "dismissed": true,
                     "dob": "1970-08-06",
                     "lastname": "Reichenbach",
                     "name": "Martin"
                 },
-                "text": " Reichenbach , Martin , Friedberg , * 08.06.1970 ."
+                "text": " Reichenbach, Martin, Friedberg, *08.06.1970."
             },
             {
                 "class": "ManagingDirector",
@@ -42,7 +43,7 @@
                     "lastname": "Strasser",
                     "name": "Konstantin"
                 },
-                "text": " Strasser , Konstantin , Aschheim , * 12.06.1975 , einzelvertretungsberechtigt"
+                "text": " Strasser, Konstantin, Aschheim, *12.06.1975, einzelvertretungsberechtigt"
             }
         ]
     }

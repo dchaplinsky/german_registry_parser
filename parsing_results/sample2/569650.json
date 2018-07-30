@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Sinzheim",
                     "dob": "1962-02-11",
                     "lastname": "Schniedenharn",
                     "name": "Ralf"
                 },
-                "text": " Schniedenharn , Ralf , Sinzheim , * 02.11.1962"
+                "text": " Schniedenharn, Ralf, Sinzheim, *02.11.1962"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Achern",
+                    "dismissed": true,
                     "dob": "1955-06-23",
                     "lastname": "Panter",
                     "name": "Werner"
                 },
-                "text": " Panter , Werner , Achern , * 23.06.1955 ."
+                "text": " Panter, Werner, Achern, *23.06.1955."
             }
         ]
     }

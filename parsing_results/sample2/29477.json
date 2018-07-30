@@ -19,27 +19,28 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " TA Triumph - Adler Norddeutschland GmbH , Bremen , Johann - von - Bodeck - Str ."
+                "text": " TA Triumph-Adler Norddeutschland GmbH, Bremen, Johann-von-Bodeck-Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Homann",
                     "name": "Volker"
                 },
-                "text": " Homann , Volker"
+                "text": " Homann, Volker"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Höhenkirchen - Siegertsbrunn",
+                    "city": "Höhenkirchen-Siegertsbrunn",
                     "dob": "1964-02-29",
                     "lastname": "Pin",
                     "name": "Guiscardo"
                 },
-                "text": " Pin , Guiscardo , * 29.02.1964 , Höhenkirchen - Siegertsbrunn ."
+                "text": " Pin, Guiscardo, *29.02.1964, Höhenkirchen-Siegertsbrunn."
             }
         ]
     }

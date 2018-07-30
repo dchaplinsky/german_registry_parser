@@ -18,26 +18,22 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Hohenzollernstraße 23-25 , 40211 Düsseldorf ."
+                "text": " Hohenzollernstraße 23-25, 40211 Düsseldorf."
             }
         ],
         "officers": [
@@ -47,13 +43,13 @@
                     "city": "Düsseldorf",
                     "dob": "1942-05-22",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Dr . Stöcker",
+                    "lastname": "Doctor Stöcker",
                     "name": "Heinrich Georg"
                 },
-                "text": " Dr . Stöcker , Heinrich Georg , Düsseldorf , * 22.05.1942 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Stöcker, Heinrich Georg, Düsseldorf, *22.05.1942, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
                     "dob": "1978-10-26",
@@ -61,17 +57,18 @@
                     "lastname": "Stöcker",
                     "name": "Max"
                 },
-                "text": " Stöcker , Max , Düsseldorf , * 26.10.1978 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Stöcker, Max, Düsseldorf, *26.10.1978, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "lastname": "Stöcker",
                     "name": "Renate",
                     "position": "Kauffrau"
                 },
-                "text": " Stöcker , Renate , Kauffrau , Düsseldorf ."
+                "text": " Stöcker, Renate, Kauffrau, Düsseldorf."
             },
             {
                 "class": "SingleProcuration",
@@ -81,7 +78,7 @@
                     "lastname": "Stöcker",
                     "name": "Lukas"
                 },
-                "text": " Stöcker , Lukas , Düsseldorf , * 14.12.1983 ."
+                "text": " Stöcker, Lukas, Düsseldorf, *14.12.1983."
             }
         ]
     }

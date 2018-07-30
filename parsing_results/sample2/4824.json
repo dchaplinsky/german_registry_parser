@@ -19,17 +19,22 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Rose , Kirk A . , Hinsdale , Illinois , USA , * 09.01.1960 , einzelvertretungsberechtigt ., error text was no valid patter found, number of chunks: 7"
+                "text": "Cannot parse a AppointedManagingDirector from  Rose, Kirk A., Hinsdale, Illinois, USA, *09.01.1960, einzelvertretungsberechtigt., error text was no valid patter found, number of chunks: 7"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rose, Kirk A., Hinsdale, Illinois, USA, *09.01.1960, einzelvertretungsberechtigt., error text was no valid patter found, number of chunks: 7"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Stoga",
                     "name": "Leonard"
                 },
-                "text": " Stoga , Leonard ."
+                "text": " Stoga, Leonard."
             }
         ]
     }

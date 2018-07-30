@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Edemissen",
                     "dob": "1950-10-26",
                     "flag": "sole representation",
                     "lastname": "Oppenborn",
-                    "name": "Frank - Peter"
+                    "name": "Frank-Peter"
                 },
-                "text": " Oppenborn , Frank - Peter , Edemissen , * 26.10.1950 , einzelvertretungsberechtigt"
+                "text": " Oppenborn, Frank-Peter, Edemissen, *26.10.1950, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hannover",
+                    "dismissed": true,
                     "dob": "1964-03-23",
                     "lastname": "Quader",
                     "name": "Sylvia"
                 },
-                "text": " Quader , Sylvia , Hannover , * 23.03.1964 ."
+                "text": " Quader, Sylvia, Hannover, *23.03.1964."
             }
         ]
     }

@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Soest",
+                    "dismissed": true,
                     "dob": "1959-11-06",
                     "lastname": "Neuhaus",
                     "name": "Philippine Martha Doris"
                 },
-                "text": " Neuhaus , Philippine Martha Doris , Soest , * 11.06.1959 ."
+                "text": " Neuhaus, Philippine Martha Doris, Soest, *11.06.1959."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Soest",
                     "dob": "1953-02-05",
                     "lastname": "Goldmann",
                     "name": "Rolf"
                 },
-                "text": " Goldmann , Rolf , Soest , * 02.05.1953 ."
+                "text": " Goldmann, Rolf, Soest, *02.05.1953."
             }
         ]
     }

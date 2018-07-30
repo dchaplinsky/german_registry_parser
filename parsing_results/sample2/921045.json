@@ -21,11 +21,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Solingen",
+                    "dismissed": true,
                     "dob": "1950-11-15",
                     "lastname": "Sorgenicht",
                     "name": "Alexander"
                 },
-                "text": " Sorgenicht , Alexander , Solingen , * 15.11.1950 ."
+                "text": " Sorgenicht, Alexander, Solingen, *15.11.1950."
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Menzel",
                     "name": "Stefan"
                 },
-                "text": " Menzel , Stefan , Köln , * 26.06.1964 ."
+                "text": " Menzel, Stefan, Köln, *26.06.1964."
             }
         ]
     }

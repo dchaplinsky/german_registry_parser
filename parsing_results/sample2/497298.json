@@ -16,20 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=497298&land_abk=he"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a SingleProcuration from  Reinhard , Marco , Steuerberater , Langgöns , * 10.06.1970 ., error text was Cannot parse DOB  Steuerberater  using regex"
-            },
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Procuration from  Reinhard , Marco , Steuerberater , Langgöns , * 10.06.1970 ., error text was Cannot parse DOB  Steuerberater  using regex"
-            }
-        ],
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Langgöns",
+                    "dob": "1970-10-06",
+                    "lastname": "Reinhard",
+                    "name": "Marco",
+                    "position": "Steuerberater"
+                },
+                "text": " Reinhard, Marco, Steuerberater, Langgöns, *10.06.1970."
             }
         ]
     }

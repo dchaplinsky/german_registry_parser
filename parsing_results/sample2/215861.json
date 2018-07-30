@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Schubertstr ."
+                "text": " Schubertstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Jeddeloh II",
                     "dob": "1971-12-16",
                     "flag": "sole representation",
-                    "lastname": "Dr . Coldewey",
+                    "lastname": "Doctor Coldewey",
                     "name": "Bodo"
                 },
-                "text": " Dr . Coldewey , Bodo , Jeddeloh II , * 16.12.1971 , einzelvertretungsberechtigt"
+                "text": " Doctor Coldewey, Bodo, Jeddeloh II, *16.12.1971, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Oldenburg",
+                    "dismissed": true,
                     "dob": "1952-03-31",
                     "lastname": "Baumeister",
                     "name": "Horst"
                 },
-                "text": " Baumeister , Horst , Oldenburg , * 31.03.1952 ."
+                "text": " Baumeister, Horst, Oldenburg, *31.03.1952."
             }
         ]
     }

@@ -19,25 +19,26 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Braugasse 12 , 50859 Köln ."
+                "text": " Braugasse 12, 50859 Köln."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1974-08-01",
                     "lastname": "Apel",
                     "name": "Thorsten"
                 },
-                "text": " Apel , Thorsten , Köln , * 08.01.1974 ."
+                "text": " Apel, Thorsten, Köln, *08.01.1974."
             },
             {
                 "class": "Liquidator",
@@ -48,7 +49,7 @@
                     "lastname": "Schumacher",
                     "name": "Wolf Henrik"
                 },
-                "text": " Schumacher , Wolf Henrik , Köln , * 24.05.1970 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schumacher, Wolf Henrik, Köln, *24.05.1970, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

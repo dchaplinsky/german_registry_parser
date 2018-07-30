@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Dötlingen - Brettorf",
+                    "city": "Dötlingen-Brettorf",
+                    "dismissed": true,
                     "dob": "1947-09-14",
                     "lastname": "Martens",
                     "name": "Bernhild"
                 },
-                "text": " Martens , Bernhild , Dötlingen - Brettorf , * 14.09.1947"
+                "text": " Martens, Bernhild, Dötlingen-Brettorf, *14.09.1947"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dötlingen",
                     "dob": "1985-02-19",
@@ -42,7 +43,7 @@
                     "lastname": "Martens",
                     "name": "Diane"
                 },
-                "text": " Martens , Diane , Dötlingen , * 19.02.1985 , einzelvertretungsberechtigt"
+                "text": " Martens, Diane, Dötlingen, *19.02.1985, einzelvertretungsberechtigt"
             }
         ]
     }

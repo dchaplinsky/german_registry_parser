@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Perchtoldsdorf / Österreich",
+                    "city": "Perchtoldsdorf/Österreich",
+                    "dismissed": true,
                     "dob": "1970-07-29",
-                    "lastname": "Dr . Knoll",
+                    "lastname": "Doctor Knoll",
                     "name": "Christian"
                 },
-                "text": " Dr . Knoll , Christian , Perchtoldsdorf / Österreich , * 29.07.1970 ."
+                "text": " Doctor Knoll, Christian, Perchtoldsdorf/Österreich, *29.07.1970."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Wien / Österreich",
+                    "city": "Wien/Österreich",
                     "dob": "1972-02-17",
                     "flag": "sole representation",
-                    "lastname": "Dr . Hubl",
+                    "lastname": "Doctor Hubl",
                     "name": "Michael"
                 },
-                "text": " Dr . Hubl , Michael , Wien / Österreich , * 17.02.1972 , einzelvertretungsberechtigt"
+                "text": " Doctor Hubl, Michael, Wien/Österreich, *17.02.1972, einzelvertretungsberechtigt"
             }
         ]
     }

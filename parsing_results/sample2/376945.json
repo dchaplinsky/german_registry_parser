@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=376945&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Würzburg",
+                    "dismissed": true,
                     "dob": "1969-08-05",
                     "lastname": "Frisch",
                     "name": "Markus"
                 },
-                "text": " Frisch , Markus , Würzburg , * 08.05.1969 ."
+                "text": " Frisch, Markus, Würzburg, *08.05.1969."
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +36,7 @@
                     "lastname": "Frisch",
                     "name": "Markus"
                 },
-                "text": " Frisch , Markus , Würzburg , * 08.05.1969 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Würzburg",
-                    "dob": "1969-08-05",
-                    "lastname": "Frisch",
-                    "name": "Markus"
-                },
-                "text": " Frisch , Markus , Würzburg , * 08.05.1969 ."
+                "text": " Frisch, Markus, Würzburg, *08.05.1969."
             }
         ]
     }

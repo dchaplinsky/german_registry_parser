@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Zeppelinstraße 5 , 52511 Geilenkirchen ."
+                "text": " Zeppelinstraße 5, 52511 Geilenkirchen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Geilenkirchen",
+                    "dismissed": true,
                     "dob": "1962-12-01",
                     "lastname": "Lieben",
                     "name": "Rolf"
                 },
-                "text": " Lieben , Rolf , Geilenkirchen , * 12.01.1962 ."
+                "text": " Lieben, Rolf, Geilenkirchen, *12.01.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dorsten",
                     "dob": "1949-01-03",
                     "lastname": "Bell",
                     "name": "Hermann K"
                 },
-                "text": " Bell , Hermann K , Dorsten , * 01.03.1949"
+                "text": " Bell, Hermann K, Dorsten, *01.03.1949"
             }
         ]
     }

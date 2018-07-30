@@ -19,22 +19,18 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Marktstr ."
+                "text": " Marktstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hildesheim",
                     "dob": "1986-03-16",
@@ -42,7 +38,7 @@
                     "lastname": "Krüger",
                     "name": "Nicolaus"
                 },
-                "text": " Krüger , Nicolaus , Hildesheim . , * 16.03.1986 , einzelvertretungsberechtigt"
+                "text": " Krüger, Nicolaus, Hildesheim., *16.03.1986, einzelvertretungsberechtigt"
             },
             {
                 "class": "SingleProcuration",
@@ -52,17 +48,7 @@
                     "lastname": "Krüger",
                     "name": "Christian"
                 },
-                "text": " Krüger , Christian , Hildesheim , * 11.02.1948 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hildesheim",
-                    "dob": "1948-11-02",
-                    "lastname": "Krüger",
-                    "name": "Christian"
-                },
-                "text": " Krüger , Christian , Hildesheim , * 11.02.1948 ."
+                "text": " Krüger, Christian, Hildesheim, *11.02.1948."
             }
         ]
     }

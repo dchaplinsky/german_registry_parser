@@ -16,23 +16,29 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=139756&land_abk=he"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Arase , Hideo , Boulogne Billancourt , Frankreich , * 19.03.1955 ., error text was Cannot parse DOB  Boulogne Billancourt  using regex"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Friedberg ( Hessen )",
+                    "city": "Frankreich",
+                    "dismissed": true,
+                    "dob": "1955-03-19",
+                    "lastname": "Arase",
+                    "name": "Hideo",
+                    "position": "Boulogne Billancourt"
+                },
+                "text": " Arase, Hideo, Boulogne Billancourt, Frankreich, *19.03.1955."
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Friedberg (Hessen)",
                     "dob": "1964-03-02",
                     "flag": "sole representation",
                     "lastname": "Feudtner",
                     "name": "Matthias"
                 },
-                "text": " Feudtner , Matthias , Friedberg ( Hessen ) , * 03.02.1964 , einzelvertretungsberechtigt ."
+                "text": " Feudtner, Matthias, Friedberg (Hessen), *03.02.1964, einzelvertretungsberechtigt."
             }
         ]
     }

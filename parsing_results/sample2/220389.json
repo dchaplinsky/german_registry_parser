@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Worms",
+                    "dismissed": true,
                     "dob": "1967-09-28",
                     "lastname": "Ruh",
                     "name": "Jörg Werner"
                 },
-                "text": " Ruh , Jörg Werner , Worms , * 28.09.1967 ."
+                "text": " Ruh, Jörg Werner, Worms, *28.09.1967."
             }
         ]
     }

@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1952-12-04",
                     "lastname": "Achner",
                     "name": "Theodor"
                 },
-                "text": " Achner , Theodor , München , * 12.04.1952"
+                "text": " Achner, Theodor, München, *12.04.1952"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1961-07-22",
                     "lastname": "Grammüller",
                     "name": "Elvira"
                 },
-                "text": " Grammüller , Elvira , München , * 22.07.1961 ."
+                "text": " Grammüller, Elvira, München, *22.07.1961."
             }
         ]
     }

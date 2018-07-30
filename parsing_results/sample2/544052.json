@@ -18,14 +18,14 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Crailsheim",
                     "dob": "1981-05-22",
                     "lastname": "Müller",
                     "name": "Sascha"
                 },
-                "text": " Müller , Sascha , Crailsheim , * 22.05.1981 ."
+                "text": " Müller, Sascha, Crailsheim, *22.05.1981."
             },
             {
                 "class": "ManagingDirector",
@@ -35,7 +35,7 @@
                     "lastname": "Terzi",
                     "name": "Gülperi"
                 },
-                "text": " Terzi , Gülperi , Driedorf , * 18.10.1970 ."
+                "text": " Terzi, Gülperi, Driedorf, *18.10.1970."
             }
         ]
     }

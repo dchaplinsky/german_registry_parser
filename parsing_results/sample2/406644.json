@@ -16,10 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=406644&land_abk=ni"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Specken geb ., error text was a person without DOB, number of chunks: 1"
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Saterland-Strücklingen",
+                    "dismissed": true,
+                    "dob": "1953-08-22",
+                    "lastname": "Specken",
+                    "maidenname": "Siemer",
+                    "name": "Annegret"
+                },
+                "text": " Specken geborene Siemer, Annegret, Saterland-Strücklingen, *22.08.1953."
             }
         ]
     }

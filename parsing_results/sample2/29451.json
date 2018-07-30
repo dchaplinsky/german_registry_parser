@@ -19,17 +19,18 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Schlüter",
                     "name": "Ralf"
                 },
-                "text": " Schlüter , Ralf"
+                "text": " Schlüter, Ralf"
             },
             {
                 "class": "ManagingDirector",
@@ -39,7 +40,7 @@
                     "lastname": "Zieseniß",
                     "name": "Mario"
                 },
-                "text": " Zieseniß , Mario , * 23.05.1971 , Bremerhaven"
+                "text": " Zieseniß, Mario, *23.05.1971, Bremerhaven"
             }
         ]
     }

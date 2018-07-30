@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Chemnitz",
+                    "dismissed": true,
                     "dob": "1979-06-01",
                     "lastname": "Köhler",
                     "name": "Michael"
                 },
-                "text": " Köhler , Michael , Chemnitz , * 06.01.1979 ."
+                "text": " Köhler, Michael, Chemnitz, *06.01.1979."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Chemnitz",
                     "dob": "1966-09-13",
@@ -42,7 +43,7 @@
                     "lastname": "Reiher",
                     "name": "Thoralf"
                 },
-                "text": " Reiher , Thoralf , Chemnitz , * 13.09.1966 , einzelvertretungsberechtigt"
+                "text": " Reiher, Thoralf, Chemnitz, *13.09.1966, einzelvertretungsberechtigt"
             }
         ]
     }

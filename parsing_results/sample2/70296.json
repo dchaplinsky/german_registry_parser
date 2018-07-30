@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Auf dem Meisenberg 11 , 01099 Dresden ."
+                "text": " Auf dem Meisenberg 11, 01099 Dresden."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Dresden",
+                    "dismissed": true,
                     "dob": "1958-11-29",
                     "lastname": "Laubender",
                     "name": "Christoph"
                 },
-                "text": " Laubender , Christoph , Dresden , * 29.11.1958 ."
+                "text": " Laubender, Christoph, Dresden, *29.11.1958."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
                     "dob": "1960-02-16",
@@ -48,7 +49,7 @@
                     "lastname": "Solenthaler",
                     "name": "André"
                 },
-                "text": " Solenthaler , André , Stuttgart , * 16.02.1960 , einzelvertretungsberechtigt"
+                "text": " Solenthaler, André, Stuttgart, *16.02.1960, einzelvertretungsberechtigt"
             }
         ]
     }

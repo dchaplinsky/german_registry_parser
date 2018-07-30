@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Grabenstätt",
+                    "dismissed": true,
                     "dob": "1965-09-10",
-                    "lastname": "Dr . Fauser",
+                    "lastname": "Doctor Fauser",
                     "name": "Matthias"
                 },
-                "text": " Dr . Fauser , Matthias , Grabenstätt , * 09.10.1965"
+                "text": " Doctor Fauser, Matthias, Grabenstätt, *09.10.1965"
             },
             {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Traunstein",
                     "dob": "1967-03-07",
-                    "lastname": "Dr . Ermer",
+                    "lastname": "Doctor Ermer",
                     "name": "Hubert"
                 },
-                "text": " Dr . Ermer , Hubert , Traunstein , * 03.07.1967 ."
+                "text": " Doctor Ermer, Hubert, Traunstein, *03.07.1967."
             }
         ]
     }

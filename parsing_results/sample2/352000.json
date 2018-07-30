@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Praha / Tschechien",
+                    "city": "Praha/Tschechien",
+                    "dismissed": true,
                     "dob": "1964-07-04",
-                    "lastname": "Dr . Sponar",
+                    "lastname": "Doctor Sponar",
                     "name": "Zdenek"
                 },
-                "text": " Dr . Sponar , Zdenek , Praha / Tschechien , * 07.04.1964 ."
+                "text": " Doctor Sponar, Zdenek, Praha/Tschechien, *07.04.1964."
             }
         ]
     }

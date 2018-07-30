@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Gütersloh",
+                    "dismissed": true,
                     "dob": "1969-01-03",
                     "lastname": "Das",
                     "name": "Orcan"
                 },
-                "text": " Das , Orcan , Gütersloh , * 01.03.1969 ."
+                "text": " Das, Orcan, Gütersloh, *01.03.1969."
             },
             {
                 "class": "ManagingDirector",
@@ -35,7 +36,7 @@
                     "lastname": "Quliyev",
                     "name": "Sädraddin"
                 },
-                "text": " Quliyev , Sädraddin , Gütersloh , * 11.11.1956 ."
+                "text": " Quliyev, Sädraddin, Gütersloh, *11.11.1956."
             }
         ]
     }

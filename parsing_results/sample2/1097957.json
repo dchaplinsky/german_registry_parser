@@ -19,26 +19,27 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Buffalo Grove / Illinois / Vereinigte Staaten",
+                    "dismissed": true,
                     "dob": "1980-05-08",
                     "lastname": "Eydelman",
                     "name": "Mikhail"
                 },
-                "text": " Eydelman , Mikhail , Buffalo Grove / Illinois / Vereinigte Staaten , * 05.08.1980 ."
+                "text": " Eydelman, Mikhail, Buffalo Grove / Illinois / Vereinigte Staaten, *05.08.1980."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Chicago / Vereinigte Staaten",
                     "dob": "1961-10-15",
@@ -46,7 +47,7 @@
                     "lastname": "Weingrow",
                     "name": "Sheryl A"
                 },
-                "text": " Weingrow , Sheryl A . , Chicago / Vereinigte Staaten , * 15.10.1961 , einzelvertretungsberechtigt"
+                "text": " Weingrow, Sheryl A., Chicago / Vereinigte Staaten, *15.10.1961, einzelvertretungsberechtigt"
             },
             {
                 "class": "ManagingDirector",
@@ -57,7 +58,7 @@
                     "lastname": "Noel Boge",
                     "name": "Christine"
                 },
-                "text": " Noel Boge , Christine , Coralville / Iowa / Vereinigte Staaten , * 15.06.1973 , einzelvertretungsberechtigt"
+                "text": " Noel Boge, Christine, Coralville / Iowa / Vereinigte Staaten, *15.06.1973, einzelvertretungsberechtigt"
             }
         ]
     }

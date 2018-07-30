@@ -18,30 +18,31 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Emanuel - Leutze - Straße 21 , 40547 Düsseldorf ."
+                "text": " Emanuel-Leutze-Straße 21, 40547 Düsseldorf."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Oulu / Finnland / Finnland",
+                    "city": "Oulu/Finnland / Finnland",
+                    "dismissed": true,
                     "dob": "1964-09-14",
                     "lastname": "Pukari",
                     "name": "Mika Samuli"
                 },
-                "text": " Pukari , Mika Samuli , Oulu / Finnland / Finnland , * 14.09.1964 ."
+                "text": " Pukari, Mika Samuli, Oulu/Finnland / Finnland, *14.09.1964."
             },
             {
                 "class": "ManagingDirector",
@@ -52,17 +53,17 @@
                     "lastname": "Sallanko",
                     "name": "Sirpa Helena"
                 },
-                "text": " Sallanko , Sirpa Helena , Oulu / Finnland , * 16.05.1963 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Sallanko, Sirpa Helena, Oulu / Finnland, *16.05.1963, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Neuss",
                     "dob": "1968-03-02",
                     "lastname": "Kewel",
                     "name": "Eric"
                 },
-                "text": " Kewel , Eric , Neuss , * 03.02.1968"
+                "text": " Kewel, Eric, Neuss, *03.02.1968"
             }
         ]
     }

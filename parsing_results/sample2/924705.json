@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Poing",
+                    "dismissed": true,
                     "dob": "1962-08-27",
                     "lastname": "Lichtner",
                     "name": "Franz"
                 },
-                "text": " Lichtner , Franz , Poing , * 27.08.1962 ."
+                "text": " Lichtner, Franz, Poing, *27.08.1962."
             },
             {
                 "class": "ManagingDirector",
@@ -42,7 +43,7 @@
                     "lastname": "Zerbe",
                     "name": "Christel"
                 },
-                "text": " Zerbe , Christel , Mertingen , * 20.12.1960 , einzelvertretungsberechtigt"
+                "text": " Zerbe, Christel, Mertingen, *20.12.1960, einzelvertretungsberechtigt"
             }
         ]
     }

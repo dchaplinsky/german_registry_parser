@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " KAMPA - Platz 1 , 73432 Aalen ."
+                "text": " KAMPA-Platz 1, 73432 Aalen."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Steinheim am Albuch",
+                    "dismissed": true,
                     "dob": "1963-06-02",
                     "lastname": "Niehues",
                     "name": "Josef"
                 },
-                "text": " Niehues , Josef , Steinheim am Albuch , * 06.02.1963 ."
+                "text": " Niehues, Josef, Steinheim am Albuch, *06.02.1963."
             }
         ]
     }

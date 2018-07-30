@@ -19,17 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
-            }
-        ],
-        "labels": [
-            {
-                "label": "company",
-                "text": " Geschäftsanschrift : Hallesches Ufer 74-76 , 10963 Berlin Nicht mehr Persönlich haftender Gesellschafter : Wagner , Peter"
-            },
-            {
-                "label": "address",
-                "text": " Hallesches Ufer 74-76 , 10963 Berlin Nicht mehr Persönlich haftender Gesellschafter : Wagner , Peter"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "officers": [
@@ -39,7 +29,17 @@
                     "lastname": "Wagner",
                     "name": "Peter"
                 },
-                "text": " Wagner , Peter"
+                "text": " Wagner, Peter"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Diespeck",
+                    "dob": "1954-05-13",
+                    "lastname": "Doctor Bauer",
+                    "name": "Felix"
+                },
+                "text": " Doctor Bauer, Felix, *13.05.1954, Diespeck"
             }
         ]
     }

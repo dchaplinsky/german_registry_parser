@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Brühl",
+                    "dismissed": true,
                     "dob": "1967-03-09",
                     "lastname": "Aubermann",
                     "name": "Michael"
                 },
-                "text": " Aubermann , Michael , Brühl , * 03.09.1967 ."
+                "text": " Aubermann, Michael, Brühl, *03.09.1967."
             }
         ]
     }

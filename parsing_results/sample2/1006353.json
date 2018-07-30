@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rösrath",
+                    "dismissed": true,
                     "dob": "1947-12-25",
                     "lastname": "Bröhl",
-                    "name": "Hans - Josef"
+                    "name": "Hans-Josef"
                 },
-                "text": " Bröhl , Hans - Josef , Rösrath , * 25.12.1947 ."
+                "text": " Bröhl, Hans-Josef, Rösrath, *25.12.1947."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Hong Kong ( SAR )",
+                    "city": "Hong Kong (SAR)",
                     "dob": "1977-01-03",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Merkel",
                     "name": "Patrick"
                 },
-                "text": " Merkel , Patrick , Hong Kong ( SAR ) , * 01.03.1977 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Merkel, Patrick, Hong Kong (SAR), *01.03.1977, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ManagingDirector",
@@ -47,7 +48,7 @@
                     "lastname": "Schürnpeck",
                     "name": "Sven"
                 },
-                "text": " Schürnpeck , Sven , Hamburg , * 10.01.1964 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schürnpeck, Sven, Hamburg, *10.01.1964, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

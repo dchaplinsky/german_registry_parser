@@ -16,16 +16,10 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=462075&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "labels": [
             {
                 "label": "address",
-                "text": " Mühlenstraße 75 , 55743 Idar - Oberstein ."
+                "text": " Mühlenstraße 75, 55743 Idar-Oberstein."
             }
         ],
         "officers": [
@@ -33,31 +27,22 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Geisenheim",
+                    "dismissed": true,
                     "dob": "1981-09-27",
                     "lastname": "Barth",
                     "name": "Yujuan"
                 },
-                "text": " Barth , Yujuan , Geisenheim , * 27.09.1981 ."
+                "text": " Barth, Yujuan, Geisenheim, *27.09.1981."
             },
             {
                 "class": "SingleProcuration",
                 "payload": {
-                    "city": "Idar - Oberstein",
+                    "city": "Idar-Oberstein",
                     "dob": "1984-11-03",
                     "lastname": "Zhang",
                     "name": "Wenjia"
                 },
-                "text": " Zhang , Wenjia , Idar - Oberstein , * 11.03.1984 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Idar - Oberstein",
-                    "dob": "1984-11-03",
-                    "lastname": "Zhang",
-                    "name": "Wenjia"
-                },
-                "text": " Zhang , Wenjia , Idar - Oberstein , * 11.03.1984 ."
+                "text": " Zhang, Wenjia, Idar-Oberstein, *11.03.1984."
             }
         ]
     }

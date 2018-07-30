@@ -16,28 +16,34 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=594959&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Echter , Alfons , Schlosser , Affing , * 01.03.1943 ., error text was Cannot parse DOB  Schlosser  using regex"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Gersthofen",
                     "dob": "1974-02-09",
                     "lastname": "Echter",
                     "name": "Alfons"
                 },
-                "text": " Echter , Alfons , Gersthofen , * 02.09.1974"
+                "text": " Echter, Alfons, Gersthofen, *02.09.1974"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Affing",
+                    "dismissed": true,
+                    "dob": "1943-01-03",
+                    "lastname": "Echter",
+                    "name": "Alfons",
+                    "position": "Schlosser"
+                },
+                "text": " Echter, Alfons, Schlosser, Affing, *01.03.1943."
             }
         ]
     }

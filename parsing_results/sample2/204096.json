@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "Single procuration",
@@ -28,35 +28,37 @@
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Forst ( Lausitz )",
+                    "city": "Forst (Lausitz)",
+                    "dismissed": true,
                     "dob": "1949-10-21",
                     "lastname": "Losehand",
                     "name": "Sabine"
                 },
-                "text": " Losehand , Sabine , Forst ( Lausitz ) , * 21.10.1949 ."
+                "text": " Losehand, Sabine, Forst (Lausitz), *21.10.1949."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Forst ( Lausitz )",
+                    "city": "Forst (Lausitz)",
                     "dob": "1969-04-11",
                     "flag": "sole representation",
                     "lastname": "Kloas",
                     "name": "Mario"
                 },
-                "text": " Kloas , Mario , Forst ( Lausitz ) , * 04.11.1969 , einzelvertretungsberechtigt"
+                "text": " Kloas, Mario, Forst (Lausitz), *04.11.1969, einzelvertretungsberechtigt"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Forst ( Lausitz )",
+                    "city": "Forst (Lausitz)",
+                    "dismissed": true,
                     "dob": "1969-04-11",
                     "lastname": "Kloas",
                     "name": "Mario"
                 },
-                "text": " Kloas , Mario , Forst ( Lausitz ) , * 04.11.1969 ."
+                "text": " Kloas, Mario, Forst (Lausitz), *04.11.1969."
             }
         ]
     }

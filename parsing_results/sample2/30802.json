@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Herzhorn",
                     "dob": "1970-06-04",
                     "lastname": "Neubauer",
                     "name": "Christian"
                 },
-                "text": " Neubauer , Christian , Herzhorn , * 06.04.1970"
+                "text": " Neubauer, Christian, Herzhorn, *06.04.1970"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1967-10-17",
-                    "lastname": "Dr . Ohm",
+                    "lastname": "Doctor Ohm",
                     "name": "Thorsten"
                 },
-                "text": " Dr . Ohm , Thorsten , Hamburg , * 17.10.1967 ."
+                "text": " Doctor Ohm, Thorsten, Hamburg, *17.10.1967."
             }
         ]
     }

@@ -18,34 +18,36 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hannover",
+                    "dismissed": true,
                     "dob": "1962-09-13",
                     "lastname": "Soeters",
                     "name": "Karel"
                 },
-                "text": " Soeters , Karel , Hannover , * 13.09.1962 ."
+                "text": " Soeters, Karel, Hannover, *13.09.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wunstorf",
                     "dob": "1967-07-19",
                     "lastname": "Berkling",
                     "name": "Axel"
                 },
-                "text": " Berkling , Axel , Wunstorf , * 19.07.1967 ."
+                "text": " Berkling, Axel, Wunstorf, *19.07.1967."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Wunstorf",
+                    "dismissed": true,
                     "dob": "1967-07-19",
                     "lastname": "Berkling",
                     "name": "Axel"
                 },
-                "text": " Berkling , Axel , Wunstorf , * 19.07.1967 ."
+                "text": " Berkling, Axel, Wunstorf, *19.07.1967."
             }
         ]
     }

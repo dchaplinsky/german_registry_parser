@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Kobern - Gondorf",
+                    "city": "Kobern-Gondorf",
                     "dob": "1955-05-17",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Paulus",
                     "name": "Uwe"
                 },
-                "text": " Paulus , Uwe , Kobern - Gondorf , * 17.05.1955 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Paulus, Uwe, Kobern-Gondorf, *17.05.1955, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1965-08-25",
                     "lastname": "Begolli",
                     "name": "Haki"
                 },
-                "text": " Begolli , Haki , Köln , * 25.08.1965 ."
+                "text": " Begolli, Haki, Köln, *25.08.1965."
             }
         ]
     }

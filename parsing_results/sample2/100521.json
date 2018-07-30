@@ -21,11 +21,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Teutleben",
+                    "dismissed": true,
                     "dob": "1951-08-01",
                     "lastname": "Schade",
                     "name": "Hartmut"
                 },
-                "text": " Schade , Hartmut , Teutleben , * 08.01.1951 ."
+                "text": " Schade, Hartmut, Teutleben, *08.01.1951."
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Hartmann",
                     "name": "Wolfgang"
                 },
-                "text": " Hartmann , Wolfgang , Tonna OT Gräfentonna , * 01.09.1978 ."
+                "text": " Hartmann, Wolfgang, Tonna OT Gräfentonna, *01.09.1978."
             }
         ]
     }

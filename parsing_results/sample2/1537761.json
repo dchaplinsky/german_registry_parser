@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Wülfrather Straße 37 , 42553 Velbert ."
+                "text": " Wülfrather Straße 37, 42553 Velbert."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Heiligenhaus",
+                    "dismissed": true,
                     "dob": "1965-10-01",
                     "lastname": "Frey",
                     "name": "Frank"
                 },
-                "text": " Frey , Frank , Heiligenhaus , * 10.01.1965 ."
+                "text": " Frey, Frank, Heiligenhaus, *10.01.1965."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Velbert",
                     "dob": "1948-09-16",
@@ -42,7 +43,7 @@
                     "lastname": "Hübner",
                     "name": "Wolfgang Heinz Julius"
                 },
-                "text": " Hübner , Wolfgang Heinz Julius , Velbert , * 16.09.1948 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Hübner, Wolfgang Heinz Julius, Velbert, *16.09.1948, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

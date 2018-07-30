@@ -19,32 +19,33 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Seulingen",
+                    "dismissed": true,
                     "dob": "1982-08-10",
                     "lastname": "Lukat",
                     "name": "David"
                 },
-                "text": " Lukat , David , Seulingen , * 08.10.1982 ."
+                "text": " Lukat, David, Seulingen, *08.10.1982."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bad Lauterberg",
                     "dob": "1959-07-12",
                     "lastname": "Rudolph",
                     "name": "Klaus"
                 },
-                "text": " Rudolph , Klaus , Bad Lauterberg , * 07.12.1959 ."
+                "text": " Rudolph, Klaus, Bad Lauterberg, *07.12.1959."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Seulingen",
                     "dob": "1950-10-05",
@@ -52,7 +53,7 @@
                     "lastname": "Lukat",
                     "name": "Rainer"
                 },
-                "text": " Lukat , Rainer , Seulingen , * 10.05.1950 , einzelvertretungsberechtigt"
+                "text": " Lukat, Rainer, Seulingen, *10.05.1950, einzelvertretungsberechtigt"
             }
         ]
     }

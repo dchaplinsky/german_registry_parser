@@ -20,22 +20,23 @@
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Metz / Frankreich",
+                    "city": "Metz/Frankreich",
+                    "dismissed": true,
                     "dob": "1951-06-22",
                     "lastname": "Macmillan",
                     "name": "Ian"
                 },
-                "text": " Macmillan , Ian , Metz / Frankreich , * 22.06.1951 ."
+                "text": " Macmillan, Ian, Metz/Frankreich, *22.06.1951."
             },
             {
                 "class": "CommonProcuration",
                 "payload": {
-                    "city": "Asnières La Giraud / Frankreich",
+                    "city": "Asnières La Giraud/Frankreich",
                     "dob": "1951-10-24",
                     "lastname": "Heise",
-                    "name": "Dominique Jean - Louis"
+                    "name": "Dominique Jean-Louis"
                 },
-                "text": " Heise , Dominique Jean - Louis , Asnières La Giraud / Frankreich , * 24.10.1951 ."
+                "text": " Heise, Dominique Jean-Louis, Asnières La Giraud/Frankreich, *24.10.1951."
             }
         ]
     }

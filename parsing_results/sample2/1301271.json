@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Ratingen",
+                    "dismissed": true,
                     "dob": "1976-03-06",
                     "lastname": "Grüber",
                     "name": "Michael"
                 },
-                "text": " Grüber , Michael , Ratingen , * 03.06.1976 ."
+                "text": " Grüber, Michael, Ratingen, *03.06.1976."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wuppertal",
                     "dob": "1966-08-19",
@@ -36,7 +37,7 @@
                     "lastname": "Liebe",
                     "name": "Michael"
                 },
-                "text": " Liebe , Michael , Wuppertal , * 19.08.1966 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Liebe, Michael, Wuppertal, *19.08.1966, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

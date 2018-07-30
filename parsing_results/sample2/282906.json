@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Nienburg",
+                    "dismissed": true,
                     "dob": "1977-04-25",
                     "lastname": "Es",
                     "name": "Serdal"
                 },
-                "text": " Es , Serdal , Nienburg , * 25.04.1977 ."
+                "text": " Es, Serdal, Nienburg, *25.04.1977."
             }
         ]
     }

@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Schönfeldstraße 17 , 80539 München ."
+                "text": " Schönfeldstraße 17, 80539 München."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1981-12-28",
                     "lastname": "Ernst",
                     "name": "Andreas"
                 },
-                "text": " Ernst , Andreas , München , * 28.12.1981 ."
+                "text": " Ernst, Andreas, München, *28.12.1981."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Berlin",
                     "dob": "1981-07-04",
                     "flag": "sole representation",
-                    "lastname": "Schrader - Rohde",
+                    "lastname": "Schrader-Rohde",
                     "name": "Maximilian"
                 },
-                "text": " Schrader - Rohde , Maximilian , Berlin , * 07.04.1981 , einzelvertretungsberechtigt"
+                "text": " Schrader-Rohde, Maximilian, Berlin, *07.04.1981, einzelvertretungsberechtigt"
             }
         ]
     }

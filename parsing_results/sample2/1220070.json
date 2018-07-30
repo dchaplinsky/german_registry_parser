@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1220070&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Solingen",
+                    "dismissed": true,
                     "dob": "1954-08-27",
                     "lastname": "Schilling",
                     "name": "Winfried"
                 },
-                "text": " Schilling , Winfried , Solingen , * 27.08.1954 ."
+                "text": " Schilling, Winfried, Solingen, *27.08.1954."
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +36,7 @@
                     "lastname": "Cornelius",
                     "name": "Marina"
                 },
-                "text": " Cornelius , Marina , Essen , * 08.10.1984 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Essen",
-                    "dob": "1984-08-10",
-                    "lastname": "Cornelius",
-                    "name": "Marina"
-                },
-                "text": " Cornelius , Marina , Essen , * 08.10.1984 ."
+                "text": " Cornelius, Marina, Essen, *08.10.1984."
             }
         ]
     }

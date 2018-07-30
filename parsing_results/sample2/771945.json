@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Friedrich - Ebert - Ring 12 , 97072 Würzburg ."
+                "text": " Friedrich-Ebert-Ring 12, 97072 Würzburg."
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Würzburg",
+                    "dismissed": true,
                     "lastname": "Reiter",
                     "name": "Gottfried",
                     "position": "Kaufmann"
                 },
-                "text": " Reiter , Gottfried , Kaufmann , Würzburg ."
+                "text": " Reiter, Gottfried, Kaufmann, Würzburg."
             },
             {
                 "class": "Owner",
@@ -41,7 +42,7 @@
                     "lastname": "Meder",
                     "name": "Josef"
                 },
-                "text": " Meder , Josef , Bad Kissingen , * 14.08.1965 ."
+                "text": " Meder, Josef, Bad Kissingen, *14.08.1965."
             }
         ]
     }

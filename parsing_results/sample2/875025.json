@@ -19,17 +19,17 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Dorfstr ."
+                "text": " Dorfstr."
             }
         ],
         "officers": [
@@ -42,26 +42,28 @@
                     "lastname": "Merk",
                     "name": "Katharina"
                 },
-                "text": " Merk , Katharina , Taxa , * 24.12.1959 , einzelvertretungsberechtigt"
+                "text": " Merk, Katharina, Taxa, *24.12.1959, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Taxa",
+                    "dismissed": true,
                     "lastname": "Merk",
                     "name": "Rupert",
                     "position": "Kaufmann"
                 },
-                "text": " Merk , Rupert , Kaufmann , Taxa ."
+                "text": " Merk, Rupert, Kaufmann, Taxa."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Taxa",
+                    "dismissed": true,
                     "lastname": "Merk",
                     "name": "Katharina"
                 },
-                "text": " Merk , Katharina , Taxa ."
+                "text": " Merk, Katharina, Taxa."
             }
         ]
     }

@@ -18,24 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Riedlingen",
+                    "dismissed": true,
                     "dob": "1945-05-02",
                     "lastname": "Blank",
                     "name": "Werner"
                 },
-                "text": " Blank , Werner , Riedlingen , * 05.02.1945 ."
+                "text": " Blank, Werner, Riedlingen, *05.02.1945."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Ertingen",
+                    "dismissed": true,
                     "dob": "1954-11-14",
                     "lastname": "Reck",
                     "name": "Ulrich"
                 },
-                "text": " Reck , Ulrich , Ertingen , * 14.11.1954 ."
+                "text": " Reck, Ulrich, Ertingen, *14.11.1954."
             }
         ]
     }

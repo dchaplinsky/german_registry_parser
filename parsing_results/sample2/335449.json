@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Panzerleite 47 , 96049 Bamberg ."
+                "text": " Panzerleite 47, 96049 Bamberg."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "city": "Bayerisch - Gmain",
+                    "city": "Bayerisch-Gmain",
+                    "dismissed": true,
                     "dob": "1934-12-12",
                     "lastname": "Gramß",
                     "name": "Reinhold"
                 },
-                "text": " Gramß , Reinhold , Bayerisch - Gmain , * 12.12.1934 ."
+                "text": " Gramß, Reinhold, Bayerisch-Gmain, *12.12.1934."
             }
         ]
     }

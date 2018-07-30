@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bingen am Rhein",
+                    "dismissed": true,
                     "dob": "1976-11-24",
                     "lastname": "Schurr",
                     "name": "Martin"
                 },
-                "text": " Schurr , Martin , Bingen am Rhein , * 24.11.1976 ."
+                "text": " Schurr, Martin, Bingen am Rhein, *24.11.1976."
             }
         ]
     }

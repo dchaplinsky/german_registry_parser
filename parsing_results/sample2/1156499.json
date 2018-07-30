@@ -19,23 +19,24 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1965-10-19",
-                    "lastname": "Dr . Roskrow",
+                    "lastname": "Doctor Roskrow",
                     "name": "Marie Ann"
                 },
-                "text": " Dr . Roskrow , Marie Ann , München , * 19.10.1965 ."
+                "text": " Doctor Roskrow, Marie Ann, München, *19.10.1965."
             },
             {
                 "class": "Liquidator",
@@ -43,10 +44,10 @@
                     "city": "München",
                     "dob": "1959-03-11",
                     "flag": "sole representation",
-                    "lastname": "Wedershoven",
+                    "lastname": ": Wedershoven",
                     "name": "Volker"
                 },
-                "text": " Wedershoven , Volker , München , * 03.11.1959 , einzelvertretungsberechtigt"
+                "text": ": Wedershoven, Volker, München, *03.11.1959, einzelvertretungsberechtigt"
             }
         ]
     }

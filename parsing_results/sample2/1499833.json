@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Finnentrop",
+                    "dismissed": true,
                     "dob": "1973-08-08",
                     "lastname": "Menke",
                     "name": "Thomas"
                 },
-                "text": " Menke , Thomas , Finnentrop , * 08.08.1973"
+                "text": " Menke, Thomas, Finnentrop, *08.08.1973"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kirchhundem",
                     "dob": "1987-07-16",
                     "lastname": "Hecker",
                     "name": "Florian"
                 },
-                "text": " Hecker , Florian , Kirchhundem , * 16.07.1987"
+                "text": " Hecker, Florian, Kirchhundem, *16.07.1987"
             }
         ]
     }

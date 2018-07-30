@@ -19,18 +19,18 @@
         "flags": [
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Eysseneckstraße 4 , 60322 Frankfurt am Mai ."
+                "text": " Eysseneckstraße 4, 60322 Frankfurt am Mai."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt",
                     "dob": "1938-02-15",
@@ -38,7 +38,7 @@
                     "lastname": "Ippolito",
                     "name": "Paolo"
                 },
-                "text": " Ippolito , Paolo , Frankfurt , * 15.02.1938 , einzelvertretungsberechtigt ."
+                "text": " Ippolito, Paolo, Frankfurt, *15.02.1938, einzelvertretungsberechtigt."
             }
         ]
     }

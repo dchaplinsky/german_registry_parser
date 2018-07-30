@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Leipzig",
+                    "dismissed": true,
                     "dob": "1979-10-13",
                     "lastname": "Förster",
                     "name": "Diana"
                 },
-                "text": " Förster , Diana , Leipzig , * 13.10.1979 ."
+                "text": " Förster, Diana, Leipzig, *13.10.1979."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Riedstadt",
                     "dob": "1963-08-01",
@@ -36,7 +37,7 @@
                     "lastname": "Hartung",
                     "name": "Jörg"
                 },
-                "text": " Hartung , Jörg , Riedstadt , * 08.01.1963 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Hartung, Jörg, Riedstadt, *08.01.1963, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

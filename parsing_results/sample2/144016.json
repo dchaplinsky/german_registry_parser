@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Nackenheim",
+                    "dismissed": true,
                     "dob": "1976-06-21",
                     "lastname": "Petri",
                     "name": "Michael"
                 },
-                "text": " Petri , Michael , Nackenheim , * 21.06.1976 ."
+                "text": " Petri, Michael, Nackenheim, *21.06.1976."
             }
         ]
     }

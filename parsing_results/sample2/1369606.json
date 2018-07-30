@@ -18,18 +18,14 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Kölner Str ."
+                "text": " Kölner Str."
             }
         ],
         "officers": [
@@ -42,7 +38,7 @@
                     "lastname": "Kloos",
                     "name": "Anatoli"
                 },
-                "text": " Kloos , Anatoli , Jüchen , * 10.06.1971 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Kloos, Anatoli, Jüchen, *10.06.1971, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",
@@ -52,17 +48,7 @@
                     "lastname": "Reshto",
                     "name": "Yuliya"
                 },
-                "text": " Reshto , Yuliya , Kaarst , * 05.08.1981 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Kaarst",
-                    "dob": "1981-05-08",
-                    "lastname": "Reshto",
-                    "name": "Yuliya"
-                },
-                "text": " Reshto , Yuliya , Kaarst , * 05.08.1981 ."
+                "text": " Reshto, Yuliya, Kaarst, *05.08.1981."
             }
         ]
     }

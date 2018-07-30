@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Waldstraße 32 , 72116 Mössingen ."
+                "text": " Waldstraße 32, 72116 Mössingen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mössingen",
+                    "dismissed": true,
                     "dob": "1963-12-27",
                     "lastname": "Plankenhorn",
                     "name": "Rolf"
                 },
-                "text": " Plankenhorn , Rolf , Mössingen , * 27.12.1963 ."
+                "text": " Plankenhorn, Rolf, Mössingen, *27.12.1963."
             }
         ]
     }

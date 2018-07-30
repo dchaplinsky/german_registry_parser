@@ -16,15 +16,21 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=192774&land_abk=sn"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Brand , Klaus , Kaufmann , Braunschweig , * 02.01.1919 ., error text was Cannot parse DOB  Kaufmann  using regex"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Braunschweig",
+                    "dismissed": true,
+                    "dob": "1919-02-01",
+                    "lastname": "Brand",
+                    "name": "Klaus",
+                    "position": "Kaufmann"
+                },
+                "text": " Brand, Klaus, Kaufmann, Braunschweig, *02.01.1919."
+            },
+            {
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wathlingen",
                     "dob": "1970-02-26",
@@ -32,7 +38,7 @@
                     "lastname": "Hildebrandt",
                     "name": "Joachim"
                 },
-                "text": " Hildebrandt , Joachim , Wathlingen , * 26.02.1970 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen ."
+                "text": " Hildebrandt, Joachim, Wathlingen, *26.02.1970, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen."
             }
         ]
     }

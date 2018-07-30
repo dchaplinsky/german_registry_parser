@@ -19,33 +19,35 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Badstöber",
                     "name": "Claudia"
                 },
-                "text": " Badstöber , Claudia"
+                "text": " Badstöber, Claudia"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Kowar",
                     "name": "Johann"
                 },
-                "text": " Kowar , Johann"
+                "text": " Kowar, Johann"
             },
             {
                 "class": "ManagingDirector",
@@ -55,7 +57,7 @@
                     "lastname": "Kelber",
                     "name": "Jürgen F"
                 },
-                "text": " Kelber , Jürgen F . , * 21.09.1957 , Flein"
+                "text": " Kelber, Jürgen F., *21.09.1957, Flein"
             },
             {
                 "class": "ManagingDirector",
@@ -65,17 +67,17 @@
                     "lastname": "Leitner",
                     "name": "Walter"
                 },
-                "text": " Leitner , Walter , * 28.12.1958 , Wimsheim"
+                "text": " Leitner, Walter, *28.12.1958, Wimsheim"
             },
             {
                 "class": "Procuration",
                 "payload": {
-                    "city": "Wien / Österreich",
+                    "city": "Wien/Österreich",
                     "dob": "1968-03-02",
                     "lastname": "Badstöber",
                     "name": "Claudia"
                 },
-                "text": " Badstöber , Claudia , * 03.02.1968 , Wien / Österreich"
+                "text": " Badstöber, Claudia, *03.02.1968, Wien/Österreich"
             }
         ]
     }

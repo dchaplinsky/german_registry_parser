@@ -18,24 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Ratingen",
+                    "dismissed": true,
                     "dob": "1943-02-20",
                     "lastname": "Schwaßmann",
                     "name": "Wilfried"
                 },
-                "text": " Schwaßmann , Wilfried , Ratingen , * 20.02.1943 ."
+                "text": " Schwaßmann, Wilfried, Ratingen, *20.02.1943."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Ratingen",
+                    "dismissed": true,
                     "dob": "1973-08-11",
                     "lastname": "Schwaßmann",
                     "name": "Oliver"
                 },
-                "text": " Schwaßmann , Oliver , Ratingen , * 08.11.1973 ."
+                "text": " Schwaßmann, Oliver, Ratingen, *08.11.1973."
             }
         ]
     }

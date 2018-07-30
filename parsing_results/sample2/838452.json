@@ -16,33 +16,39 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=838452&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Hiltl , Hedwig geborene Steier , Fabrikantin , Rottach - Egern , * 19.10.1926 ., error text was Cannot parse DOB  Fabrikantin  using regex"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Rottach - Egern",
+                    "city": "Rottach-Egern",
+                    "dismissed": true,
+                    "dob": "1926-10-19",
+                    "lastname": "Hiltl",
+                    "name": "Hedwig geborene Steier",
+                    "position": "Fabrikantin"
+                },
+                "text": " Hiltl, Hedwig geborene Steier, Fabrikantin, Rottach-Egern, *19.10.1926."
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Rottach-Egern",
                     "dob": "1969-04-24",
-                    "flag": "einzelvertretungsberechtigt Er ist befugt  die Gesellschaft bei der Vornahme von Rechtsgeschäften mit sich selbst oder als Vertreter eines Dritten uneingeschränkt u vertreten",
+                    "flag": "einzelvertretungsberechtigt Er ist befugt die Gesellschaft bei der Vornahme von Rechtsgeschäften mit sich selbst oder als Vertreter eines Dritten uneingeschränkt u vertreten",
                     "lastname": "Schock",
                     "name": "Markus"
                 },
-                "text": " Schock , Markus , Rottach - Egern , * 24.04.1969 , einzelvertretungsberechtigt Er ist befugt , die Gesellschaft bei der Vornahme von Rechtsgeschäften mit sich selbst oder als Vertreter eines Dritten uneingeschränkt u vertreten ."
+                "text": " Schock, Markus, Rottach-Egern, *24.04.1969, einzelvertretungsberechtigt Er ist befugt, die Gesellschaft bei der Vornahme von Rechtsgeschäften mit sich selbst oder als Vertreter eines Dritten uneingeschränkt u vertreten."
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Rottach - Egern",
+                    "city": "Rottach-Egern",
                     "dob": "1944-10-19",
                     "lastname": "Gwarys",
                     "name": "Gunther"
                 },
-                "text": " Gwarys , Gunther , Rottach - Egern , * 19.10.1944 ."
+                "text": " Gwarys, Gunther, Rottach-Egern, *19.10.1944."
             }
         ]
     }

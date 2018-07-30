@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Osterstraße 46 , 49661 Cloppenburg ."
+                "text": " Osterstraße 46, 49661 Cloppenburg."
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Cloppenburg",
+                    "dismissed": true,
                     "lastname": "Luttmer",
                     "name": "Jürgen",
                     "position": "Kaufmann"
                 },
-                "text": " Luttmer , Jürgen , Kaufmann , Cloppenburg ."
+                "text": " Luttmer, Jürgen, Kaufmann, Cloppenburg."
             },
             {
                 "class": "Owner",
                 "payload": {
-                    "city": "Emstek / Halen",
+                    "city": "Emstek/Halen",
                     "dob": "1969-01-31",
                     "lastname": "Grave",
                     "name": "Helga"
                 },
-                "text": " Grave , Helga , Emstek / Halen , * 31.01.1969 ."
+                "text": " Grave, Helga, Emstek/Halen, *31.01.1969."
             }
         ]
     }

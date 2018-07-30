@@ -19,13 +19,13 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Augustusstraße 8 , 60439 Frankfurt am Main ."
+                "text": " Augustusstraße 8, 60439 Frankfurt am Main."
             }
         ],
         "officers": [
@@ -37,17 +37,18 @@
                     "lastname": "Morr",
                     "name": "Thomas"
                 },
-                "text": " Morr , Thomas , Frankfurt am Main , * 18.11.1953 ."
+                "text": " Morr, Thomas, Frankfurt am Main, *18.11.1953."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1984-02-23",
                     "lastname": "Philippenko",
                     "name": "Victor"
                 },
-                "text": " Philippenko , Victor , Frankfurt am Main , * 23.02.1984"
+                "text": " Philippenko, Victor, Frankfurt am Main, *23.02.1984"
             }
         ]
     }

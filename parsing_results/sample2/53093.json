@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Saarbrücken",
+                    "dismissed": true,
                     "dob": "1959-02-18",
                     "lastname": "Heinrich",
                     "name": "Paul"
                 },
-                "text": " Heinrich , Paul , Saarbrücken , * 18.02.1959 ."
+                "text": " Heinrich, Paul, Saarbrücken, *18.02.1959."
             }
         ]
     }

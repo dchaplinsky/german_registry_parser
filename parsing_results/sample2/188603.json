@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Straßlach",
+                    "dismissed": true,
                     "dob": "1948-03-11",
                     "lastname": "Berger",
                     "name": "Ulrich"
                 },
-                "text": " Berger , Ulrich , Straßlach , * 03.11.1948"
+                "text": " Berger, Ulrich, Straßlach, *03.11.1948"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1965-01-01",
                     "lastname": "Eckert",
                     "name": "Carsten"
                 },
-                "text": " Eckert , Carsten , München , * 01.01.1965"
+                "text": " Eckert, Carsten, München, *01.01.1965"
             }
         ]
     }

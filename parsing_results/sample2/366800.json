@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Solingen",
+                    "dismissed": true,
                     "dob": "1964-12-31",
                     "lastname": "Figiel",
                     "name": "Matthias Günther"
                 },
-                "text": " Figiel , Matthias Günther , Solingen , * 31.12.1964 ."
+                "text": " Figiel, Matthias Günther, Solingen, *31.12.1964."
             }
         ]
     }

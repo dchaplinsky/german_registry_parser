@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Poststr ."
+                "text": " Poststr."
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Wassertrüdingen",
+                    "dismissed": true,
                     "lastname": "Straller",
                     "name": "Hans",
                     "position": "Apotheker"
                 },
-                "text": " Straller , Hans , Apotheker , Wassertrüdingen ."
+                "text": " Straller, Hans, Apotheker, Wassertrüdingen."
             },
             {
                 "class": "Owner",
@@ -41,7 +42,7 @@
                     "lastname": "Straller",
                     "name": "Ulrich"
                 },
-                "text": " Straller , Ulrich , Wassertrüdingen , * 18.12.1978 ."
+                "text": " Straller, Ulrich, Wassertrüdingen, *18.12.1978."
             }
         ]
     }

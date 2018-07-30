@@ -16,21 +16,27 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=422232&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr . Guddorf , Rolf , Diplom - Volkswirt , Düsseldorf , * 01.01.1900 ., error text was Cannot parse DOB  Diplom - Volkswirt  using regex"
-            }
-        ],
         "labels": [
             {
                 "label": "address",
-                "text": " Stresemannstr ."
+                "text": " Stresemannstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "dismissed": true,
+                    "dob": "1900-01-01",
+                    "lastname": "Doctor Guddorf",
+                    "name": "Rolf",
+                    "position": "Diplom-Volkswirt"
+                },
+                "text": " Doctor Guddorf, Rolf, Diplom-Volkswirt, Düsseldorf, *01.01.1900."
+            },
+            {
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Altena",
                     "dob": "1966-11-14",
@@ -38,7 +44,7 @@
                     "lastname": "Herburg",
                     "name": "Stefan"
                 },
-                "text": " Herburg , Stefan , Altena , * 14.11.1966 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Herburg, Stefan, Altena, *14.11.1966, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

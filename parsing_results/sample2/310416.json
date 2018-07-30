@@ -19,12 +19,12 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Herrnstraße 45 , 90763 Fürth ."
+                "text": " Herrnstraße 45, 90763 Fürth."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Nürnberg",
                     "dob": "1957-06-03",
@@ -32,17 +32,18 @@
                     "lastname": "Zimmermann",
                     "name": "Reiner"
                 },
-                "text": " Zimmermann , Reiner , Nürnberg , * 06.03.1957 , einzelvertretungsberechtigt ."
+                "text": " Zimmermann, Reiner, Nürnberg, *06.03.1957, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Fürth",
+                    "dismissed": true,
                     "dob": "1953-03-15",
                     "lastname": "Königsreuther",
                     "name": "Monika geborene Krugmann"
                 },
-                "text": " Königsreuther , Monika geborene Krugmann , Fürth , * 15.03.1953 ."
+                "text": " Königsreuther, Monika geborene Krugmann, Fürth, *15.03.1953."
             }
         ]
     }

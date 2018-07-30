@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Mainaschaff",
+                    "dismissed": true,
                     "dob": "1960-03-05",
                     "lastname": "Engelleitner",
                     "name": "Brigitte"
                 },
-                "text": " Engelleitner , Brigitte , Mainaschaff , * 03.05.1960 ."
+                "text": " Engelleitner, Brigitte, Mainaschaff, *03.05.1960."
             }
         ]
     }

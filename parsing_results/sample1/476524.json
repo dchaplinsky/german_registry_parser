@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wiefelstede",
+                    "dismissed": true,
                     "dob": "1986-10-03",
                     "lastname": "Goldbach",
                     "name": "Ilona"
                 },
-                "text": " Goldbach , Ilona , Wiefelstede , * 10.03.1986 ."
+                "text": " Goldbach, Ilona, Wiefelstede, *10.03.1986."
             }
         ]
     }

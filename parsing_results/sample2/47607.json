@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=47607&land_abk=hh"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Garber",
                     "name": "Sven"
                 },
-                "text": " Garber , Sven , Hamburg , * 13.05.1972 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hamburg",
-                    "dob": "1972-05-13",
-                    "lastname": "Garber",
-                    "name": "Sven"
-                },
-                "text": " Garber , Sven , Hamburg , * 13.05.1972 ."
+                "text": " Garber, Sven, Hamburg, *13.05.1972."
             }
         ]
     }

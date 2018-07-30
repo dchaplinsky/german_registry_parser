@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=38170&land_abk=rp"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Scholl , Ulrich , Softwareentwickler , Erpel , * 29.01.1962, error text was Cannot parse DOB  Softwareentwickler  using regex"
-            }
-        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -32,7 +26,19 @@
                     "lastname": "Kostka",
                     "name": "Mike Werner"
                 },
-                "text": " Kostka , Mike Werner , Hövels , * 06.07.1968 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Kostka, Mike Werner, Hövels, *06.07.1968, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Erpel",
+                    "dismissed": true,
+                    "dob": "1962-01-29",
+                    "lastname": "Scholl",
+                    "name": "Ulrich",
+                    "position": "Softwareentwickler"
+                },
+                "text": " Scholl, Ulrich, Softwareentwickler, Erpel, *29.01.1962"
             }
         ]
     }

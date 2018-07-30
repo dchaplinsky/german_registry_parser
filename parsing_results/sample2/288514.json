@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hüllhorst",
                     "dob": "1954-06-07",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Gimpel - Henning",
+                    "lastname": "Gimpel-Henning",
                     "name": "Joachim"
                 },
-                "text": " Gimpel - Henning , Joachim , Hüllhorst , * 06.07.1954 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Gimpel-Henning, Joachim, Hüllhorst, *06.07.1954, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kleve",
+                    "dismissed": true,
                     "lastname": "Risch",
                     "name": "Helmut",
                     "position": "kaufmännischer Angestellter"
                 },
-                "text": " Risch , Helmut , kaufmännischer Angestellter , Kleve ."
+                "text": " Risch, Helmut, kaufmännischer Angestellter, Kleve."
             }
         ]
     }

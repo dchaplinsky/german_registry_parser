@@ -25,17 +25,18 @@
                     "lastname": "Schuster",
                     "name": "Florian"
                 },
-                "text": " Schuster , Florian , München , * 08.12.1978 ."
+                "text": " Schuster, Florian, München, *08.12.1978."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1970-10-08",
-                    "lastname": "Dr . Miserre",
+                    "lastname": "Doctor Miserre",
                     "name": "Roman"
                 },
-                "text": " Dr . Miserre , Roman , München , * 10.08.1970 ."
+                "text": " Doctor Miserre, Roman, München, *10.08.1970."
             }
         ]
     }

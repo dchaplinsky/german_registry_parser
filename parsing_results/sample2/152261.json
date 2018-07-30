@@ -19,21 +19,21 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Ludwig - Ganghofer - Straße 27 , 82031 Grünwald"
+                "text": " Ludwig-Ganghofer-Straße 27, 82031 Grünwald"
             }
         ],
         "officers": [
@@ -42,50 +42,46 @@
                 "payload": {
                     "city": "München",
                     "dob": "1977-11-15",
-                    "lastname": "Dr . Neuberger",
+                    "lastname": "Dr. Neuberger",
                     "name": "Julius"
                 },
-                "text": " Dr . Neuberger , Julius , * 15.11.1977 , München"
+                "text": " Dr. Neuberger, Julius, *15.11.1977, München"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Freiherr Marschall von Bieberstein",
                     "name": "Michael Marius Christopher Sven Robert"
                 },
-                "text": " Freiherr Marschall von Bieberstein , Michael Marius Christopher Sven Robert"
+                "text": " Freiherr Marschall von Bieberstein, Michael Marius Christopher Sven Robert"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Petersen",
                     "name": "Frank"
                 },
-                "text": " Petersen , Frank"
+                "text": " Petersen, Frank"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Stern",
                     "name": "Frank Arno Hermann Horst"
                 },
-                "text": " Stern , Frank Arno Hermann Horst"
+                "text": " Stern, Frank Arno Hermann Horst"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Sievers",
                     "name": "Andree"
                 },
-                "text": " Sievers , Andree"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Nicht mehr Prokurist : Sievers",
-                    "name": "Andree"
-                },
-                "text": " Nicht mehr Prokurist : Sievers , Andree"
+                "text": " Sievers, Andree"
             }
         ]
     }

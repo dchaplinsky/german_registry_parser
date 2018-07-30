@@ -19,17 +19,18 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Weber",
                     "name": "Lesja Konstantinovna geborene Scepetova"
                 },
-                "text": " Weber , Lesja Konstantinovna geborene Scepetova"
+                "text": " Weber, Lesja Konstantinovna geborene Scepetova"
             },
             {
                 "class": "ManagingDirector",
@@ -39,7 +40,7 @@
                     "lastname": "Richter",
                     "name": "Jörg"
                 },
-                "text": " Richter , Jörg , * 10.06.1965 , Bad Oeynhausen"
+                "text": " Richter, Jörg, *10.06.1965, Bad Oeynhausen"
             }
         ]
     }

@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Krefelder Straße 43 , 47226 Duisburg ."
+                "text": " Krefelder Straße 43, 47226 Duisburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1964-06-07",
                     "lastname": "Hartmann",
                     "name": "Stefan"
                 },
-                "text": " Hartmann , Stefan , Düsseldorf , * 06.07.1964 ."
+                "text": " Hartmann, Stefan, Düsseldorf, *06.07.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Duisburg",
                     "dob": "1957-01-12",
                     "lastname": "Deckers",
                     "name": "Hartmut"
                 },
-                "text": " Deckers , Hartmut , Duisburg , * 01.12.1957"
+                "text": " Deckers, Hartmut, Duisburg, *01.12.1957"
             }
         ]
     }

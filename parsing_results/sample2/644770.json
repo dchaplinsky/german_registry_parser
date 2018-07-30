@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Arnulfstr ."
+                "text": " Arnulfstr."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1967-10-03",
                     "lastname": "Barzen",
                     "name": "Erich Theodor"
                 },
-                "text": " Barzen , Erich Theodor , München , * 10.03.1967 ."
+                "text": " Barzen, Erich Theodor, München, *10.03.1967."
             }
         ]
     }

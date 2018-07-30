@@ -19,19 +19,24 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Nishinakamura , Yoichi , Osaka , Japan , * 24.09.1949 , einzelvertretungsberechtigt ., error text was Cannot parse DOB  Osaka  using regex"
+                "text": "Cannot parse a AppointedManagingDirector from  Nishinakamura, Yoichi, Osaka, Japan, *24.09.1949, einzelvertretungsberechtigt., error text was Cannot parse DOB  Osaka using regex"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Nishinakamura, Yoichi, Osaka, Japan, *24.09.1949, einzelvertretungsberechtigt., error text was Cannot parse DOB  Osaka using regex"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1959-03-02",
                     "lastname": "Yoshitake",
                     "name": "Masuhiro"
                 },
-                "text": " Yoshitake , Masuhiro , Frankfurt am Main , * 03.02.1959 ."
+                "text": " Yoshitake, Masuhiro, Frankfurt am Main, *03.02.1959."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Drolshagen",
+                    "dismissed": true,
                     "dob": "1981-08-13",
                     "lastname": "Wurmbach",
                     "name": "Norbert"
                 },
-                "text": " Wurmbach , Norbert , Drolshagen , * 13.08.1981 ."
+                "text": " Wurmbach, Norbert, Drolshagen, *13.08.1981."
             }
         ]
     }

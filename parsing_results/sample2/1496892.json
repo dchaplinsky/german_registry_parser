@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Dortmund",
+                    "dismissed": true,
                     "dob": "1958-08-23",
                     "lastname": "Peuckert",
                     "name": "Holger"
                 },
-                "text": " Peuckert , Holger , Dortmund , * 23.08.1958"
+                "text": " Peuckert, Holger, Dortmund, *23.08.1958"
             },
             {
                 "class": "Liquidator",
@@ -39,9 +40,9 @@
                     "city": "Dortmund",
                     "dob": "1944-12-24",
                     "lastname": "Weinrich",
-                    "name": "Hans - Jürgen"
+                    "name": "Hans-Jürgen"
                 },
-                "text": " Weinrich , Hans - Jürgen , Dortmund , * 24.12.1944 ."
+                "text": " Weinrich, Hans-Jürgen, Dortmund, *24.12.1944."
             }
         ]
     }

@@ -19,17 +19,18 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Paulsen",
                     "name": "Peter Christian"
                 },
-                "text": " Paulsen , Peter Christian ."
+                "text": " Paulsen, Peter Christian."
             },
             {
                 "class": "ManagingDirector",
@@ -39,7 +40,7 @@
                     "lastname": "Paulsen",
                     "name": "Gabriele"
                 },
-                "text": " Paulsen , Gabriele , * 14.11.1955 , Nebel auf Amrum"
+                "text": " Paulsen, Gabriele, *14.11.1955, Nebel auf Amrum"
             }
         ]
     }

@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Herweg 92 , 51429 Bergisch Gladbach ."
+                "text": " Herweg 92, 51429 Bergisch Gladbach."
             }
         ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Bergisch Gladbach",
+                    "dismissed": true,
                     "dob": "1953-12-22",
                     "lastname": "Lucke",
                     "name": "Peter"
                 },
-                "text": " Lucke , Peter , Bergisch Gladbach , * 22.12.1953 ."
+                "text": " Lucke, Peter, Bergisch Gladbach, *22.12.1953."
             },
             {
                 "class": "Owner",
@@ -41,7 +42,7 @@
                     "lastname": "Zubcic",
                     "name": "Simon"
                 },
-                "text": " Zubcic , Simon , Bergisch Gladbach , * 23.01.1977 ."
+                "text": " Zubcic, Simon, Bergisch Gladbach, *23.01.1977."
             }
         ]
     }

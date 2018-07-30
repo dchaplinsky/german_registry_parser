@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Vahrenwalder Str ."
+                "text": " Vahrenwalder Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Sarstedt",
+                    "dismissed": true,
                     "dob": "1948-12-17",
                     "lastname": "Rischmüller",
                     "name": "Gerhard"
                 },
-                "text": " Rischmüller , Gerhard , Sarstedt , * 17.12.1948 ."
+                "text": " Rischmüller, Gerhard, Sarstedt, *17.12.1948."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hannover",
                     "dob": "1967-04-28",
                     "lastname": "Seid",
                     "name": "Karin"
                 },
-                "text": " Seid , Karin , Hannover , * 28.04.1967 ."
+                "text": " Seid, Karin, Hannover, *28.04.1967."
             }
         ]
     }

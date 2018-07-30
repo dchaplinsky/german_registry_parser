@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Leverkusen",
+                    "dismissed": true,
                     "lastname": "Voigt",
                     "name": "Günter",
                     "position": "Transportunternehmer"
                 },
-                "text": " Voigt , Günter , Transportunternehmer , Leverkusen ."
+                "text": " Voigt, Günter, Transportunternehmer, Leverkusen."
             },
             {
                 "class": "Owner",
                 "payload": {
                     "city": "Leverkusen",
                     "dob": "1972-11-13",
-                    "lastname": "Voigt - Frick",
+                    "lastname": "Voigt-Frick",
                     "name": "Sabine"
                 },
-                "text": " Voigt - Frick , Sabine , Leverkusen , * 13.11.1972 ."
+                "text": " Voigt-Frick, Sabine, Leverkusen, *13.11.1972."
             }
         ]
     }

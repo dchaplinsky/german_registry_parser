@@ -19,35 +19,36 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Hohe Bleichen 12 , 20354 Hamburg ."
+                "text": " Hohe Bleichen 12, 20354 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1976-10-27",
                     "lastname": "Neumann",
                     "name": "Björn Dieter"
                 },
-                "text": " Neumann , Björn Dieter , Hamburg , * 27.10.1976"
+                "text": " Neumann, Björn Dieter, Hamburg, *27.10.1976"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1973-12-21",
                     "lastname": "große Holthaus",
                     "name": "Tobias"
                 },
-                "text": " große Holthaus , Tobias , Hamburg , * 21.12.1973 ."
+                "text": " große Holthaus, Tobias, Hamburg, *21.12.1973."
             }
         ]
     }

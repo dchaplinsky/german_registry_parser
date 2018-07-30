@@ -19,49 +19,50 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Firma / Name vormals : aptus 1152 ."
+                "text": " Firma / Name vormals: aptus 1152."
             },
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Cuvrystraße 3-4 , 10997 Berlin"
+                "text": " Geschäftsanschrift: Cuvrystraße 3-4, 10997 Berlin"
             },
             {
                 "label": "address",
-                "text": " Cuvrystraße 3-4 , 10997 Berlin"
+                "text": " Cuvrystraße 3-4, 10997 Berlin"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Wendt",
                     "name": "Cornelia"
                 },
-                "text": " Wendt , Cornelia"
+                "text": " Wendt, Cornelia"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Puteaux / Frankreich",
+                    "city": "Puteaux/Frankreich",
                     "dob": "1977-06-09",
                     "lastname": "Wolff",
                     "name": "Julien"
                 },
-                "text": " Wolff , Julien , * 06.09.1977 , Puteaux / Frankreich"
+                "text": " Wolff, Julien, *06.09.1977, Puteaux/Frankreich"
             }
         ]
     }

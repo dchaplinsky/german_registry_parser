@@ -18,20 +18,21 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
+                    "dismissed": true,
                     "dob": "1966-11-21",
                     "lastname": "Bosch",
                     "name": "Stephan Alexander"
                 },
-                "text": " Bosch , Stephan Alexander , Stuttgart , * 21.11.1966 ."
+                "text": " Bosch, Stephan Alexander, Stuttgart, *21.11.1966."
             },
             {
                 "class": "ManagingDirector",
@@ -41,7 +42,7 @@
                     "lastname": "Niedringhaus",
                     "name": "Karsten"
                 },
-                "text": " Niedringhaus , Karsten , Hüllhorst , * 01.08.1962"
+                "text": " Niedringhaus, Karsten, Hüllhorst, *01.08.1962"
             }
         ]
     }

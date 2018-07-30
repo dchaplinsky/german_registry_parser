@@ -19,13 +19,13 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Moselufer 48 , 56073 Koblenz ."
+                "text": " Moselufer 48, 56073 Koblenz."
             }
         ],
         "officers": [
@@ -37,17 +37,18 @@
                     "lastname": "Klabautschke",
                     "name": "Alfred"
                 },
-                "text": " Klabautschke , Alfred , Koblenz , * 25.06.1962 ."
+                "text": " Klabautschke, Alfred, Koblenz, *25.06.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Winningen",
+                    "dismissed": true,
                     "dob": "1962-06-25",
                     "lastname": "Klabautschke",
                     "name": "Alfred"
                 },
-                "text": " Klabautschke , Alfred , Winningen , * 25.06.1962 ."
+                "text": " Klabautschke, Alfred, Winningen, *25.06.1962."
             }
         ]
     }

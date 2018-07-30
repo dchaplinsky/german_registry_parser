@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Karlskron",
+                    "dismissed": true,
                     "dob": "1978-11-07",
                     "lastname": "Nägele",
                     "name": "Mirko"
                 },
-                "text": " Nägele , Mirko , Karlskron , * 11.07.1978 ."
+                "text": " Nägele, Mirko, Karlskron, *11.07.1978."
             },
             {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Rohrbach",
                     "dob": "1971-02-18",
-                    "lastname": "Reuter",
+                    "lastname": ": Reuter",
                     "name": "Markus"
                 },
-                "text": " Reuter , Markus , Rohrbach , * 18.02.1971 ."
+                "text": ": Reuter, Markus, Rohrbach, *18.02.1971."
             }
         ]
     }

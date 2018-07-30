@@ -19,55 +19,58 @@
         "flags": [
             {
                 "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
-                "text": "Sind mehrere Liquidatoren bestellt , wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten ."
+                "text": "Sind\\ mehrere\\ Liquidatoren\\ bestellt\\,\\ wird\\ die\\ Gesellschaft\\ durch\\ s\\ämtliche\\ Liquidatoren\\ gemeinsam\\ vertreten\\."
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Häusliche Krankenpflege Elisabeth Zeh GmbH , Berlin , Teschendorfer Weg 18 A , 13439 Berlin ."
+                "text": " Häusliche Krankenpflege Elisabeth Zeh GmbH, Berlin, Teschendorfer Weg 18 A, 13439 Berlin."
             },
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Teschendorfer Weg 18 A , 13439 Berlin"
+                "text": " Geschäftsanschrift: Teschendorfer Weg 18 A, 13439 Berlin"
             },
             {
                 "label": "address",
-                "text": " Teschendorfer Weg 18 A , 13439 Berlin"
+                "text": " Teschendorfer Weg 18 A, 13439 Berlin"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Zeh",
                     "name": "Elisabeth geborene Janisch"
                 },
-                "text": " Zeh , Elisabeth geborene Janisch"
+                "text": " Zeh, Elisabeth geborene Janisch"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Dahrendorf",
                     "name": "Lukas"
                 },
-                "text": " Dahrendorf , Lukas"
+                "text": " Dahrendorf, Lukas"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Ebel",
                     "name": "Stephan"
                 },
-                "text": " Ebel , Stephan"
+                "text": " Ebel, Stephan"
             },
             {
                 "class": "Liquidator",
@@ -77,7 +80,7 @@
                     "lastname": "Zeh",
                     "name": "Markus Alexander"
                 },
-                "text": " Zeh , Markus Alexander , * 15.11.1966 , Berlin"
+                "text": " Zeh, Markus Alexander, *15.11.1966, Berlin"
             }
         ]
     }

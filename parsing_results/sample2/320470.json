@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bielefeld",
+                    "dismissed": true,
                     "dob": "1955-04-05",
                     "lastname": "Kunk",
                     "name": "Angelika"
                 },
-                "text": " Kunk , Angelika , Bielefeld , * 04.05.1955 ."
+                "text": " Kunk, Angelika, Bielefeld, *04.05.1955."
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Bad Bentheim / Stadtteil Gildehaus",
+                    "city": "Bad Bentheim/Stadtteil Gildehaus",
                     "dob": "1973-02-15",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Zandman",
                     "name": "Hermann"
                 },
-                "text": " Zandman , Hermann , Bad Bentheim / Stadtteil Gildehaus , * 15.02.1973 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Zandman, Hermann, Bad Bentheim/Stadtteil Gildehaus, *15.02.1973, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

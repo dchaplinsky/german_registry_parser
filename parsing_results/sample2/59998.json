@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Coburg",
+                    "dismissed": true,
                     "dob": "1966-07-02",
                     "lastname": "Engel",
                     "name": "Andreas"
                 },
-                "text": " Engel , Andreas , Coburg , * 07.02.1966 ."
+                "text": " Engel, Andreas, Coburg, *07.02.1966."
             }
         ]
     }

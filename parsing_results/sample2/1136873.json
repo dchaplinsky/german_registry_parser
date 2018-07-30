@@ -16,19 +16,24 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1136873&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr ., error text was a person without DOB, number of chunks: 1"
-            }
-        ],
         "labels": [
             {
                 "label": "address",
-                "text": " Otto - Brenner - Str ."
+                "text": " Otto-Brenner-Str."
             }
         ],
         "officers": [
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Bielefeld",
+                    "dismissed": true,
+                    "dob": "1941-12-24",
+                    "lastname": "Doctor Klein",
+                    "name": "Michael"
+                },
+                "text": " Doctor Klein, Michael, Bielefeld, *24.12.1941."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {
@@ -38,7 +43,7 @@
                     "lastname": "Klein",
                     "name": "Christian"
                 },
-                "text": " Klein , Christian , Bielefeld , * 07.08.1972 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Klein, Christian, Bielefeld, *07.08.1972, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

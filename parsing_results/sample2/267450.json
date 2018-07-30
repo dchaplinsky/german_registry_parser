@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=267450&land_abk=ni"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Emden",
+                    "dismissed": true,
                     "dob": "1981-07-27",
                     "lastname": "Doliwa",
                     "name": "Martin"
                 },
-                "text": " Doliwa , Martin , Emden , * 27.07.1981 ."
+                "text": " Doliwa, Martin, Emden, *27.07.1981."
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +36,7 @@
                     "lastname": "Schild",
                     "name": "Philipp"
                 },
-                "text": " Schild , Philipp , Emden , * 26.03.1985 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Emden",
-                    "dob": "1985-03-26",
-                    "lastname": "Schild",
-                    "name": "Philipp"
-                },
-                "text": " Schild , Philipp , Emden , * 26.03.1985 ."
+                "text": " Schild, Philipp, Emden, *26.03.1985."
             }
         ]
     }

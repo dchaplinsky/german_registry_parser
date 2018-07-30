@@ -25,27 +25,29 @@
                     "lastname": "Schätzl",
                     "name": "Ulrich"
                 },
-                "text": " Schätzl , Ulrich , Donauwörth , * 23.03.1969 ."
+                "text": " Schätzl, Ulrich, Donauwörth, *23.03.1969."
             },
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Donauwörth",
+                    "dismissed": true,
                     "lastname": "Schätzl",
                     "name": "Gert",
                     "position": "Flachdruckermeister"
                 },
-                "text": " Schätzl , Gert , Flachdruckermeister , Donauwörth ."
+                "text": " Schätzl, Gert, Flachdruckermeister, Donauwörth."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Donauwörth",
+                    "dismissed": true,
                     "dob": "1969-03-23",
                     "lastname": "Schätzl",
                     "name": "Ulrich"
                 },
-                "text": " Schätzl , Ulrich , Donauwörth , * 23.03.1969 ."
+                "text": " Schätzl, Ulrich, Donauwörth, *23.03.1969."
             }
         ]
     }

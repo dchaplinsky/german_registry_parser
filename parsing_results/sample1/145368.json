@@ -20,17 +20,18 @@
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " SOLeika GmbH , Döbeln ( Amtsgericht Chemnitz HRB 26288 ) ."
+                    "company_name": " SOLeika GmbH, Döbeln (Amtsgericht Chemnitz HRB 26288)."
                 },
-                "text": " SOLeika GmbH , Döbeln ( Amtsgericht Chemnitz HRB 26288 ) ."
+                "text": " SOLeika GmbH, Döbeln (Amtsgericht Chemnitz HRB 26288)."
             },
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "lastname": "Solar Placement Unternehmergesellschaft ( haftungsbeschränkt )",
-                    "name": "Döbeln ( Amtsgericht Chemnitz HRB 25075 )"
+                    "dismissed": true,
+                    "lastname": "Solar Placement Unternehmergesellschaft (haftungsbeschränkt)",
+                    "name": "Döbeln (Amtsgericht Chemnitz HRB 25075)"
                 },
-                "text": " Solar Placement Unternehmergesellschaft ( haftungsbeschränkt ) , Döbeln ( Amtsgericht Chemnitz HRB 25075 ) ."
+                "text": " Solar Placement Unternehmergesellschaft (haftungsbeschränkt), Döbeln (Amtsgericht Chemnitz HRB 25075)."
             }
         ]
     }

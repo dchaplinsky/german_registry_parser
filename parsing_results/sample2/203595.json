@@ -16,15 +16,9 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=203595&land_abk=rp"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Gerach",
                     "dob": "1988-03-10",
@@ -32,17 +26,18 @@
                     "lastname": "Berkler",
                     "name": "Simon Narayn"
                 },
-                "text": " Berkler , Simon Narayn , Gerach , * 03.10.1988 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Berkler, Simon Narayn, Gerach, *03.10.1988, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Schmittweiler",
+                    "dismissed": true,
                     "dob": "1958-06-16",
                     "lastname": "Berkler",
                     "name": "Wilhelm"
                 },
-                "text": " Berkler , Wilhelm , Schmittweiler , * 16.06.1958 ."
+                "text": " Berkler, Wilhelm, Schmittweiler, *16.06.1958."
             },
             {
                 "class": "SingleProcuration",
@@ -52,17 +47,7 @@
                     "lastname": "Berkler",
                     "name": "Wilhelm"
                 },
-                "text": " Berkler , Wilhelm , Schmittweiler , * 16.06.1958 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Schmittweiler",
-                    "dob": "1958-06-16",
-                    "lastname": "Berkler",
-                    "name": "Wilhelm"
-                },
-                "text": " Berkler , Wilhelm , Schmittweiler , * 16.06.1958 ."
+                "text": " Berkler, Wilhelm, Schmittweiler, *16.06.1958."
             }
         ]
     }

@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -28,10 +28,10 @@
                 "payload": {
                     "city": "Hoppenrade",
                     "dob": "1969-04-24",
-                    "lastname": "Walter",
+                    "lastname": ": Walter",
                     "name": "Christian Michael Martin"
                 },
-                "text": " Walter , Christian Michael Martin , Hoppenrade , * 24.04.1969 ."
+                "text": ": Walter, Christian Michael Martin, Hoppenrade, *24.04.1969."
             },
             {
                 "class": "Liquidator",
@@ -39,9 +39,9 @@
                     "city": "Gutow",
                     "dob": "1942-02-04",
                     "lastname": "Piehl",
-                    "name": "Hans - Joachim"
+                    "name": "Hans-Joachim"
                 },
-                "text": " Piehl , Hans - Joachim , Gutow , * 02.04.1942 ."
+                "text": " Piehl, Hans-Joachim, Gutow, *02.04.1942."
             }
         ]
     }

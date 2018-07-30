@@ -19,18 +19,18 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Waldstraße 2 c , 63128 Dietzenbach ."
+                "text": " Waldstraße 2c, 63128 Dietzenbach."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dob": "1988-03-21",
@@ -38,17 +38,18 @@
                     "lastname": "Ciubotaru",
                     "name": "Sergiu"
                 },
-                "text": " Ciubotaru , Sergiu , Frankfurt am Main , * 21.03.1988 , einzelvertretungsberechtigt"
+                "text": " Ciubotaru, Sergiu, Frankfurt am Main, *21.03.1988, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Egelsbach",
+                    "dismissed": true,
                     "dob": "1976-01-13",
                     "lastname": "Weissenburger",
                     "name": "Eduard"
                 },
-                "text": " Weissenburger , Eduard , Egelsbach , * 13.01.1976 ."
+                "text": " Weissenburger, Eduard, Egelsbach, *13.01.1976."
             }
         ]
     }

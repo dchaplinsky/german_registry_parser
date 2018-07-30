@@ -16,10 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=888551&land_abk=nw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr . - Ing ., error text was a person without DOB, number of chunks: 1"
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Münster",
+                    "dob": "1975-10-27",
+                    "lastname": "Doktoringenieur Ebel",
+                    "name": "Gerald"
+                },
+                "text": " Doktoringenieur Ebel, Gerald, Münster, *27.10.1975."
             }
         ]
     }

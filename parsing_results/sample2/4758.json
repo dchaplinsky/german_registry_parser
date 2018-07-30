@@ -19,41 +19,27 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "lastname": "Dr . Drechsler Immobilien Gesellschaft mit beschränkter Haftung",
-                    "name": "Nürnberg ( Amtsgericht Nürnberg HRB 1464 )"
+                    "lastname": "Doctor Drechsler Immobilien Gesellschaft mit beschränkter Haftung",
+                    "name": "Nürnberg (Amtsgericht Nürnberg HRB 1464)"
                 },
-                "text": " Dr . Drechsler Immobilien Gesellschaft mit beschränkter Haftung , Nürnberg ( Amtsgericht Nürnberg HRB 1464 ) ."
+                "text": " Doctor Drechsler Immobilien Gesellschaft mit beschränkter Haftung, Nürnberg (Amtsgericht Nürnberg HRB 1464)."
             },
             {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Nürnberg",
-                    "lastname": "Dr . Drechsler",
+                    "lastname": "Doctor Drechsler",
                     "name": "Gustl",
                     "position": "Kaufmann"
                 },
-                "text": " Dr . Drechsler , Gustl , Kaufmann , Nürnberg ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Nürnberg",
-                    "lastname": "Dr . Drechsler",
-                    "name": "Gustl",
-                    "position": "Kaufmann"
-                },
-                "text": " Dr . Drechsler , Gustl , Kaufmann , Nürnberg ."
+                "text": " Doctor Drechsler, Gustl, Kaufmann, Nürnberg."
             }
         ]
     }

@@ -19,32 +19,32 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Berlin - Lichtenberg",
+                    "city": "Berlin-Lichtenberg",
                     "dob": "1946-10-15",
                     "lastname": "Bartsch",
                     "name": "Uwe F"
                 },
-                "text": " Bartsch , Uwe F . , Berlin - Lichtenberg , * 15.10.1946 ."
+                "text": " Bartsch, Uwe F., Berlin-Lichtenberg, *15.10.1946."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Görlitz",
                     "dob": "1971-12-04",
                     "lastname": "Migga",
                     "name": "Manuela"
                 },
-                "text": " Migga , Manuela , Görlitz , * 12.04.1971 ."
+                "text": " Migga, Manuela, Görlitz, *12.04.1971."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Görlitz",
                     "dob": "1963-01-27",
@@ -52,7 +52,7 @@
                     "lastname": "Arndt",
                     "name": "Matthias"
                 },
-                "text": " Arndt , Matthias , Görlitz , * 27.01.1963 , einzelvertretungsberechtigt"
+                "text": " Arndt, Matthias, Görlitz, *27.01.1963, einzelvertretungsberechtigt"
             }
         ]
     }

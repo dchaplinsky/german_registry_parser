@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Gagny ( Frankreich )",
+                    "city": "Gagny (Frankreich)",
+                    "dismissed": true,
                     "dob": "1970-03-15",
                     "lastname": "Podevin",
                     "name": "Fabrice"
                 },
-                "text": " Podevin , Fabrice , Gagny ( Frankreich ) , * 15.03.1970 ."
+                "text": " Podevin, Fabrice, Gagny (Frankreich), *15.03.1970."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1973-05-04",
                     "lastname": "Heinrich",
                     "name": "Elke"
                 },
-                "text": " Heinrich , Elke , Düsseldorf , * 05.04.1973 ."
+                "text": " Heinrich, Elke, Düsseldorf, *05.04.1973."
             }
         ]
     }

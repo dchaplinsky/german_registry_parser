@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Immermannstr ."
+                "text": " Immermannstr."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Bochum",
+                    "dismissed": true,
                     "dob": "1967-03-20",
                     "lastname": "Mielke",
                     "name": "Christian"
                 },
-                "text": " Mielke , Christian , Bochum , * 20.03.1967 ."
+                "text": " Mielke, Christian, Bochum, *20.03.1967."
             }
         ]
     }

@@ -18,18 +18,19 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "company_name": " Sponsel Verwaltungs - GmbH , Bamberg ( Amtsgericht Bamberg HRB 5687 ) ."
+                    "company_name": " Sponsel Verwaltungs - GmbH, Bamberg (Amtsgericht Bamberg HRB 5687).",
+                    "dismissed": true
                 },
-                "text": " Sponsel Verwaltungs - GmbH , Bamberg ( Amtsgericht Bamberg HRB 5687 ) ."
+                "text": " Sponsel Verwaltungs - GmbH, Bamberg (Amtsgericht Bamberg HRB 5687)."
             },
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Sponsel Holding GmbH , Bamberg ( Amtsgericht Bamberg HRB 7836 ) ."
+                    "company_name": " Sponsel Holding GmbH, Bamberg (Amtsgericht Bamberg HRB 7836)."
                 },
-                "text": " Sponsel Holding GmbH , Bamberg ( Amtsgericht Bamberg HRB 7836 ) ."
+                "text": " Sponsel Holding GmbH, Bamberg (Amtsgericht Bamberg HRB 7836)."
             }
         ]
     }

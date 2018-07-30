@@ -19,12 +19,12 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wedel",
                     "dob": "1983-03-26",
@@ -32,17 +32,18 @@
                     "lastname": "Diers",
                     "name": "Bianca"
                 },
-                "text": " Diers , Bianca , Wedel , * 26.03.1983 , einzelvertretungsberechtigt"
+                "text": " Diers, Bianca, Wedel, *26.03.1983, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "lastname": "Diers",
-                    "name": "Horst - Otto",
+                    "name": "Horst-Otto",
                     "position": "Kaufmann"
                 },
-                "text": " Diers , Horst - Otto , Kaufmann , Hamburg ."
+                "text": " Diers, Horst-Otto, Kaufmann, Hamburg."
             }
         ]
     }

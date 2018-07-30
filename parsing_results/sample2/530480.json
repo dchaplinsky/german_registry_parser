@@ -18,14 +18,14 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
                     "dob": "1963-02-04",
                     "lastname": "Preißler",
                     "name": "Florian"
                 },
-                "text": " Preißler , Florian , Stuttgart , * 02.04.1963 ."
+                "text": " Preißler, Florian, Stuttgart, *02.04.1963."
             },
             {
                 "class": "ManagingDirector",
@@ -35,7 +35,7 @@
                     "lastname": "Beutler",
                     "name": "Beate"
                 },
-                "text": " Beutler , Beate , Stuttgart , * 01.07.1968 ."
+                "text": " Beutler, Beate, Stuttgart, *01.07.1968."
             }
         ]
     }

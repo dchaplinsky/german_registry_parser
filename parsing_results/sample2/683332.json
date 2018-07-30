@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=683332&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -29,19 +23,9 @@
                     "city": "Hückelhoven",
                     "dob": "1954-06-18",
                     "lastname": "Boldt",
-                    "name": "Heinz - Peter"
+                    "name": "Heinz-Peter"
                 },
-                "text": " Boldt , Heinz - Peter , Hückelhoven , * 18.06.1954 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hückelhoven",
-                    "dob": "1954-06-18",
-                    "lastname": "Boldt",
-                    "name": "Heinz - Peter"
-                },
-                "text": " Boldt , Heinz - Peter , Hückelhoven , * 18.06.1954 ."
+                "text": " Boldt, Heinz-Peter, Hückelhoven, *18.06.1954."
             }
         ]
     }

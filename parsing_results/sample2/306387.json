@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Paderborn",
+                    "dismissed": true,
                     "dob": "1969-11-06",
                     "lastname": "Przondiono",
                     "name": "Martin"
                 },
-                "text": " Przondiono , Martin , Paderborn , * 11.06.1969 ."
+                "text": " Przondiono, Martin, Paderborn, *11.06.1969."
             }
         ]
     }

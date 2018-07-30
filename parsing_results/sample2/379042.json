@@ -16,38 +16,22 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=379042&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "labels": [
             {
                 "label": "address",
-                "text": " Mörfelder Landstraße 22 , 63225 Langen ( Hessen ) ."
+                "text": " Mörfelder Landstraße 22, 63225 Langen (Hessen)."
             }
         ],
         "officers": [
             {
                 "class": "SingleProcuration",
                 "payload": {
-                    "city": "Rödersheim - Gronau",
+                    "city": "Rödersheim-Gronau",
                     "dob": "1965-07-27",
                     "lastname": "Beyer",
                     "name": "Andrea"
                 },
-                "text": " Beyer , Andrea , Rödersheim - Gronau , * 27.07.1965 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Rödersheim - Gronau",
-                    "dob": "1965-07-27",
-                    "lastname": "Beyer",
-                    "name": "Andrea"
-                },
-                "text": " Beyer , Andrea , Rödersheim - Gronau , * 27.07.1965 ."
+                "text": " Beyer, Andrea, Rödersheim-Gronau, *27.07.1965."
             }
         ]
     }

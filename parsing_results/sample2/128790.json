@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Hanauer Landstr ."
+                "text": " Hanauer Landstr."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1961-07-12",
                     "lastname": "Briel",
                     "name": "Jörg"
                 },
-                "text": " Briel , Jörg , Düsseldorf , * 07.12.1961"
+                "text": " Briel, Jörg, Düsseldorf, *07.12.1961"
             }
         ]
     }

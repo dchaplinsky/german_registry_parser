@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mönchengladbach",
+                    "dismissed": true,
                     "dob": "1921-11-25",
                     "lastname": "Wieczorek",
                     "name": "Charlotte geborene Windberg"
                 },
-                "text": " Wieczorek , Charlotte geborene Windberg , Mönchengladbach , * 25.11.1921 ."
+                "text": " Wieczorek, Charlotte geborene Windberg, Mönchengladbach, *25.11.1921."
             }
         ]
     }

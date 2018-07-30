@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=155528&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "Owner",
@@ -31,7 +25,7 @@
                     "lastname": "Fluhr",
                     "name": "Gottfried M"
                 },
-                "text": " Fluhr , Gottfried M . , Biburg , * 24.11.1966 ."
+                "text": " Fluhr, Gottfried M., Biburg, *24.11.1966."
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +35,7 @@
                     "lastname": "Mayr",
                     "name": "Isolde"
                 },
-                "text": " Mayr , Isolde , Walkertshofen , * 11.09.1960"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Walkertshofen",
-                    "dob": "1960-11-09",
-                    "lastname": "Mayr",
-                    "name": "Isolde"
-                },
-                "text": " Mayr , Isolde , Walkertshofen , * 11.09.1960"
+                "text": " Mayr, Isolde, Walkertshofen, *11.09.1960"
             }
         ]
     }

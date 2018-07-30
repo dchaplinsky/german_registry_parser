@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=519833&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Schwarzkopf",
                     "name": "Simone"
                 },
-                "text": " Schwarzkopf , Simone , Bad Schussenried , * 27.12.1985 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Bad Schussenried",
-                    "dob": "1985-12-27",
-                    "lastname": "Schwarzkopf",
-                    "name": "Simone"
-                },
-                "text": " Schwarzkopf , Simone , Bad Schussenried , * 27.12.1985 ."
+                "text": " Schwarzkopf, Simone, Bad Schussenried, *27.12.1985."
             }
         ]
     }

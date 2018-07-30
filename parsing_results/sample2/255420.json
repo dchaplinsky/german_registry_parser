@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Neu - Ulm",
+                    "city": "Neu-Ulm",
                     "dob": "1970-06-08",
                     "lastname": "Huck",
                     "name": "Christian"
                 },
-                "text": " Huck , Christian , Neu - Ulm , * 06.08.1970 ."
+                "text": " Huck, Christian, Neu-Ulm, *06.08.1970."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Ulm",
+                    "dismissed": true,
                     "dob": "1977-04-27",
                     "lastname": "Friedrichsen",
                     "name": "Kaike"
                 },
-                "text": " Friedrichsen , Kaike , Ulm , * 27.04.1977 ."
+                "text": " Friedrichsen, Kaike, Ulm, *27.04.1977."
             }
         ]
     }

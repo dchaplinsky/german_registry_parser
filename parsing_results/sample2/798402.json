@@ -18,29 +18,30 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Collinweg , 47059 Duisburg ."
+                "text": " Collinweg, 47059 Duisburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Dresden",
+                    "dismissed": true,
                     "dob": "1967-05-26",
                     "lastname": "Dinger",
                     "name": "Thomas"
                 },
-                "text": " Dinger , Thomas , Dresden , * 26.05.1967"
+                "text": " Dinger, Thomas, Dresden, *26.05.1967"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Niederzimmern",
                     "dob": "1968-02-28",
@@ -48,7 +49,7 @@
                     "lastname": "Müller",
                     "name": "Frank"
                 },
-                "text": " Müller , Frank , Niederzimmern , * 28.02.1968 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Müller, Frank, Niederzimmern, *28.02.1968, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -18,24 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Altenbeken",
+                    "dismissed": true,
                     "dob": "1959-06-10",
                     "lastname": "Wiek",
                     "name": "Jürgen"
                 },
-                "text": " Wiek , Jürgen , Altenbeken , * 06.10.1959 ."
+                "text": " Wiek, Jürgen, Altenbeken, *06.10.1959."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Heidelberg",
+                    "dismissed": true,
                     "dob": "1965-04-27",
-                    "lastname": "Dr . Wiek",
+                    "lastname": "Doctor Wiek",
                     "name": "Ulrich"
                 },
-                "text": " Dr . Wiek , Ulrich , Heidelberg , * 27.04.1965 ."
+                "text": " Doctor Wiek, Ulrich, Heidelberg, *27.04.1965."
             }
         ]
     }

@@ -19,10 +19,19 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "officers": [
+            {
+                "class": "NotALiquidator",
+                "payload": {
+                    "dismissed": true,
+                    "lastname": "in: Fafflock",
+                    "name": "Heike"
+                },
+                "text": "in: Fafflock, Heike."
+            },
             {
                 "class": "Liquidator",
                 "payload": {
@@ -31,7 +40,7 @@
                     "lastname": "Söller",
                     "name": "Stefan"
                 },
-                "text": " Söller , Stefan , * 19.12.1959 , Stuhr"
+                "text": " Söller, Stefan, *19.12.1959, Stuhr"
             }
         ]
     }

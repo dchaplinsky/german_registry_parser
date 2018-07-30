@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Pirmasens",
+                    "dismissed": true,
                     "dob": "1963-05-24",
                     "lastname": "Duttenhöfer",
                     "name": "Peter"
                 },
-                "text": " Duttenhöfer , Peter , Pirmasens , * 24.05.1963 ."
+                "text": " Duttenhöfer, Peter, Pirmasens, *24.05.1963."
             }
         ]
     }

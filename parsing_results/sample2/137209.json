@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Schweins",
                     "name": "Michael"
                 },
-                "text": " Schweins , Michael ."
+                "text": " Schweins, Michael."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Berlin",
                     "dob": "1963-02-06",
                     "lastname": "Firnig",
-                    "name": "Klaus - Thorsten"
+                    "name": "Klaus-Thorsten"
                 },
-                "text": " Firnig , Klaus - Thorsten , Berlin , * 02.06.1963 ."
+                "text": " Firnig, Klaus-Thorsten, Berlin, *02.06.1963."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Berlin",
                     "dob": "1958-09-03",
@@ -44,7 +45,7 @@
                     "lastname": "Knau",
                     "name": "Frank"
                 },
-                "text": " Knau , Frank , Berlin , * 09.03.1958 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Knau, Frank, Berlin, *09.03.1958, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ManagingDirector",
@@ -54,7 +55,7 @@
                     "lastname": "Allendorf",
                     "name": "Matthias"
                 },
-                "text": " Allendorf , Matthias , München , * 27.01.1961 ."
+                "text": " Allendorf, Matthias, München, *27.01.1961."
             }
         ]
     }

@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Nürnberger Str ."
+                "text": " Nürnberger Str."
             }
         ],
         "officers": [
@@ -27,10 +27,11 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Oberasbach",
+                    "dismissed": true,
                     "lastname": "Sczygiel",
                     "name": "Johannes"
                 },
-                "text": " Sczygiel , Johannes , Oberasbach ."
+                "text": " Sczygiel, Johannes, Oberasbach."
             },
             {
                 "class": "ManagingDirector",
@@ -40,7 +41,7 @@
                     "lastname": "Kahlert",
                     "name": "Günter"
                 },
-                "text": " Kahlert , Günter , Schwanstetten , * 24.05.1959"
+                "text": " Kahlert, Günter, Schwanstetten, *24.05.1959"
             }
         ]
     }

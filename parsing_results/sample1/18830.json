@@ -19,16 +19,18 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " ATB Verwaltungs - GmbH , Lindau ( AG Stendal , HRB 7831 ) ."
+                    "city": "HRB 7831)",
+                    "lastname": "ATB Verwaltungs-GmbH",
+                    "name": "Lindau (AG Stendal"
                 },
-                "text": " ATB Verwaltungs - GmbH , Lindau ( AG Stendal , HRB 7831 ) ."
+                "text": " ATB Verwaltungs-GmbH, Lindau (AG Stendal, HRB 7831)."
             }
         ]
     }

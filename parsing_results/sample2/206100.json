@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Stollberg",
+                    "dismissed": true,
                     "dob": "1966-06-25",
                     "lastname": "Maaz",
                     "name": "Egbert"
                 },
-                "text": " Maaz , Egbert , Stollberg , * 25.06.1966 ."
+                "text": " Maaz, Egbert, Stollberg, *25.06.1966."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Jena",
                     "dob": "1989-04-10",
@@ -42,7 +43,7 @@
                     "lastname": "Spieler",
                     "name": "Benjamin"
                 },
-                "text": " Spieler , Benjamin , Jena , * 04.10.1989 , einzelvertretungsberechtigt"
+                "text": " Spieler, Benjamin, Jena, *04.10.1989, einzelvertretungsberechtigt"
             }
         ]
     }

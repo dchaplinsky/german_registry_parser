@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Wilhelm - Leuschner - Straße 83 , 60329 Frankfurt am Main ."
+                "text": " Wilhelm-Leuschner-Straße 83, 60329 Frankfurt am Main."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Schmitten",
                     "dob": "1963-12-03",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Kienle",
                     "name": "Wolfgang"
                 },
-                "text": " Kienle , Wolfgang , Schmitten , * 12.03.1963 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Kienle, Wolfgang, Schmitten, *12.03.1963, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Langen ( Hessen )",
+                    "city": "Langen (Hessen)",
+                    "dismissed": true,
                     "dob": "1954-06-29",
                     "lastname": "Zienow",
                     "name": "Peter"
                 },
-                "text": " Zienow , Peter , Langen ( Hessen ) , * 29.06.1954 ."
+                "text": " Zienow, Peter, Langen (Hessen), *29.06.1954."
             }
         ]
     }

@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Lichtenau",
+                    "dismissed": true,
                     "lastname": "Beseler",
                     "name": "Rainer",
-                    "position": "EDV - Betriebswirt"
+                    "position": "EDV-Betriebswirt"
                 },
-                "text": " Beseler , Rainer , EDV - Betriebswirt , Lichtenau"
+                "text": " Beseler, Rainer, EDV-Betriebswirt, Lichtenau"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dreieich",
                     "dob": "1957-04-23",
                     "lastname": "Bölke",
                     "name": "Eckhard"
                 },
-                "text": " Bölke , Eckhard , Dreieich , * 23.04.1957"
+                "text": " Bölke, Eckhard, Dreieich, *23.04.1957"
             }
         ]
     }

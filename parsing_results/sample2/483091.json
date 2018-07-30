@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1957-08-09",
                     "lastname": "Kronsfoth",
                     "name": "Ingo Jörg"
                 },
-                "text": " Kronsfoth , Ingo Jörg , Berlin , * 08.09.1957 ."
+                "text": " Kronsfoth, Ingo Jörg, Berlin, *08.09.1957."
             }
         ]
     }

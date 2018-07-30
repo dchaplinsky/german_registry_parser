@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Witten",
+                    "dismissed": true,
                     "dob": "1970-05-02",
                     "lastname": "Neuhaus",
                     "name": "Carsten"
                 },
-                "text": " Neuhaus , Carsten , Witten , * 05.02.1970 ."
+                "text": " Neuhaus, Carsten, Witten, *05.02.1970."
             }
         ]
     }

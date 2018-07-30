@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Engelskirchen",
+                    "dismissed": true,
                     "lastname": "Kaltenbach",
                     "name": "Adolf",
                     "position": "Kaufmann"
                 },
-                "text": " Kaltenbach , Adolf , Kaufmann , Engelskirchen ."
+                "text": " Kaltenbach, Adolf, Kaufmann, Engelskirchen."
             },
             {
                 "class": "ManagingDirector",
@@ -36,17 +37,17 @@
                     "lastname": "Amelung",
                     "name": "Norbert"
                 },
-                "text": " Amelung , Norbert , Engelskirchen , * 25.11.1953 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Amelung, Norbert, Engelskirchen, *25.11.1953, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Nümbrecht",
                     "dob": "1978-12-21",
                     "lastname": "Amelung",
                     "name": "Andreas"
                 },
-                "text": " Amelung , Andreas , Nümbrecht , * 21.12.1978"
+                "text": " Amelung, Andreas, Nümbrecht, *21.12.1978"
             }
         ]
     }

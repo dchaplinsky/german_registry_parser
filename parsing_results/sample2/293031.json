@@ -19,27 +19,28 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Hagemann Logistik & Service GmbH , Berlin , Lichterfelder Weg 13 , 14167 Berlin ."
+                "text": " Hagemann Logistik & Service GmbH, Berlin, Lichterfelder Weg 13, 14167 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Ringleb",
                     "name": "Wolfgang Carl"
                 },
-                "text": " Ringleb , Wolfgang Carl"
+                "text": " Ringleb, Wolfgang Carl"
             },
             {
                 "class": "ManagingDirector",
@@ -47,9 +48,9 @@
                     "city": "Berlin",
                     "dob": "1982-12-24",
                     "lastname": "Hagemann",
-                    "name": "Jens - Carsten"
+                    "name": "Jens-Carsten"
                 },
-                "text": " Hagemann , Jens - Carsten , * 24.12.1982 , Berlin"
+                "text": " Hagemann, Jens-Carsten, *24.12.1982, Berlin"
             },
             {
                 "class": "ManagingDirector",
@@ -59,23 +60,16 @@
                     "lastname": "Marquardt",
                     "name": "Jörg"
                 },
-                "text": " Marquardt , Jörg , * 25.08.1959 , Hennigsdorf"
+                "text": " Marquardt, Jörg, *25.08.1959, Hennigsdorf"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Hagemann",
-                    "name": "Jens - Carsten"
+                    "name": "Jens-Carsten"
                 },
-                "text": " Hagemann , Jens - Carsten"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Nicht mehr Prokurist : Hagemann",
-                    "name": "Jens - Carsten"
-                },
-                "text": " Nicht mehr Prokurist : Hagemann , Jens - Carsten"
+                "text": " Hagemann, Jens-Carsten"
             }
         ]
     }

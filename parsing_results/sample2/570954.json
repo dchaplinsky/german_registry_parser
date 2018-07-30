@@ -19,16 +19,16 @@
         "flags": [
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Calden",
                     "dob": "1953-10-24",
@@ -36,17 +36,18 @@
                     "lastname": "Malkmus",
                     "name": "Martin"
                 },
-                "text": " Malkmus , Martin , Calden , * 24.10.1953 , einzelvertretungsberechtigt ."
+                "text": " Malkmus, Martin, Calden, *24.10.1953, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Calden",
+                    "dismissed": true,
                     "dob": "1953-07-30",
                     "lastname": "Malkmus",
                     "name": "Stephanie"
                 },
-                "text": " Malkmus , Stephanie , Calden , * 30.07.1953 ."
+                "text": " Malkmus, Stephanie, Calden, *30.07.1953."
             }
         ]
     }

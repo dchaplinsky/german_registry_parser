@@ -19,13 +19,13 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Vorholzstr ."
+                "text": " Vorholzstr."
             }
         ],
         "officers": [
@@ -37,27 +37,29 @@
                     "lastname": "Denk",
                     "name": "Walter Augustin"
                 },
-                "text": " Denk , Walter Augustin , Karlsruhe , * 05.02.1985 ."
+                "text": " Denk, Walter Augustin, Karlsruhe, *05.02.1985."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Karlsruhe",
+                    "dismissed": true,
                     "dob": "1985-02-28",
                     "lastname": "Becker",
                     "name": "Michael Johannes"
                 },
-                "text": " Becker , Michael Johannes , Karlsruhe , * 28.02.1985 ."
+                "text": " Becker, Michael Johannes, Karlsruhe, *28.02.1985."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Karlsruhe",
+                    "dismissed": true,
                     "dob": "1985-05-02",
                     "lastname": "Denk",
                     "name": "Walter Augustin"
                 },
-                "text": " Denk , Walter Augustin , Karlsruhe , * 05.02.1985 ."
+                "text": " Denk, Walter Augustin, Karlsruhe, *05.02.1985."
             }
         ]
     }

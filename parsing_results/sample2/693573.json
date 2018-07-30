@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Garching",
+                    "dismissed": true,
                     "dob": "1965-02-19",
                     "lastname": "Marg",
                     "name": "Holger"
                 },
-                "text": " Marg , Holger , Garching , * 19.02.1965"
+                "text": " Marg, Holger, Garching, *19.02.1965"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Mailand / Italien",
+                    "city": "Mailand/Italien",
                     "dob": "1965-02-18",
                     "lastname": "Alemanni",
                     "name": "Paolo Enrico"
                 },
-                "text": " Alemanni , Paolo Enrico , Mailand / Italien , * 18.02.1965"
+                "text": " Alemanni, Paolo Enrico, Mailand/Italien, *18.02.1965"
             }
         ]
     }

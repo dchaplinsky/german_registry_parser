@@ -18,15 +18,16 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Karadeniz",
                     "name": "Hüseyin"
                 },
-                "text": " Karadeniz , Hüseyin ."
+                "text": " Karadeniz, Hüseyin."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wesel",
                     "dob": "1969-07-20",
@@ -34,7 +35,7 @@
                     "lastname": "Karadeniz",
                     "name": "Selma"
                 },
-                "text": " Karadeniz , Selma , Wesel , * 20.07.1969 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Karadeniz, Selma, Wesel, *20.07.1969, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -19,40 +19,42 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Seeheim - Jugenheim",
+                    "city": "Seeheim-Jugenheim",
                     "dob": "1976-01-05",
                     "flag": "sole representation",
                     "lastname": "Ewert",
                     "name": "Christian"
                 },
-                "text": " Ewert , Christian , Seeheim - Jugenheim , * 01.05.1976 , einzelvertretungsberechtigt"
+                "text": " Ewert, Christian, Seeheim-Jugenheim, *01.05.1976, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Darmstadt",
+                    "dismissed": true,
                     "dob": "1950-07-12",
                     "lastname": "Ewert",
                     "name": "Alfred"
                 },
-                "text": " Ewert , Alfred , Darmstadt , * 07.12.1950 ."
+                "text": " Ewert, Alfred, Darmstadt, *07.12.1950."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Darmstadt",
+                    "dismissed": true,
                     "dob": "1976-01-05",
                     "lastname": "Ewert",
                     "name": "Christian"
                 },
-                "text": " Ewert , Christian , Darmstadt , * 01.05.1976 ."
+                "text": " Ewert, Christian, Darmstadt, *01.05.1976."
             }
         ]
     }

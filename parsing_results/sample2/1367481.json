@@ -20,23 +20,24 @@
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Nörvenich - Eschweiler über Feld",
+                    "city": "Nörvenich-Eschweiler über Feld",
                     "dob": "1955-12-12",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Dr . Peill",
+                    "lastname": "Doctor Peill",
                     "name": "Eberhard Edmund Peter"
                 },
-                "text": " Dr . Peill , Eberhard Edmund Peter , Nörvenich - Eschweiler über Feld , * 12.12.1955 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Peill, Eberhard Edmund Peter, Nörvenich-Eschweiler über Feld, *12.12.1955, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Nörvenich",
+                    "dismissed": true,
                     "dob": "1962-11-15",
-                    "lastname": "Dr . Peill",
+                    "lastname": "Doctor Peill",
                     "name": "Patricia"
                 },
-                "text": " Dr . Peill , Patricia , Nörvenich , * 15.11.1962 ."
+                "text": " Doctor Peill, Patricia, Nörvenich, *15.11.1962."
             }
         ]
     }

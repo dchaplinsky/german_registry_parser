@@ -16,20 +16,15 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=89410&land_abk=sh"
     },
     "parsed": {
-        "labels": [
-            {
-                "label": "address",
-                "text": " Am Dorfteich 2 , 25996 Wenningstedt . Nicht mehr Geschäftsführer : Fitschen , Katharina"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Fitschen",
                     "name": "Katharina"
                 },
-                "text": " Fitschen , Katharina"
+                "text": " Fitschen, Katharina"
             },
             {
                 "class": "ManagingDirector",
@@ -39,7 +34,7 @@
                     "lastname": "Fitschen",
                     "name": "Claudia"
                 },
-                "text": " Fitschen , Claudia , * 04.12.1983 , Wenningstedt .."
+                "text": " Fitschen, Claudia, *04.12.1983, Wenningstedt.."
             }
         ]
     }

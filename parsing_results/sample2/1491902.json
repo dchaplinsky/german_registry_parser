@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Plettenberg",
+                    "dismissed": true,
                     "dob": "1952-06-20",
                     "lastname": "Eigemeier",
                     "name": "Rudolf"
                 },
-                "text": " Eigemeier , Rudolf , Plettenberg , * 20.06.1952 ."
+                "text": " Eigemeier, Rudolf, Plettenberg, *20.06.1952."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Plettenberg",
                     "dob": "1966-06-19",
@@ -36,7 +37,7 @@
                     "lastname": "Rohleder",
                     "name": "Dietmar"
                 },
-                "text": " Rohleder , Dietmar , Plettenberg , * 19.06.1966 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Rohleder, Dietmar, Plettenberg, *19.06.1966, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

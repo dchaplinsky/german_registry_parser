@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Warschau / Polen",
+                    "dismissed": true,
                     "dob": "1968-02-03",
                     "lastname": "Wozniak",
                     "name": "Witold"
                 },
-                "text": " Wozniak , Witold , Warschau / Polen , * 02.03.1968 ."
+                "text": " Wozniak, Witold, Warschau / Polen, *02.03.1968."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Zollikon / Schweiz",
                     "dob": "1968-11-21",
@@ -42,7 +43,7 @@
                     "lastname": "Dengler",
                     "name": "Veit"
                 },
-                "text": " Dengler , Veit , Zollikon / Schweiz , * 21.11.1968 , einzelvertretungsberechtigt"
+                "text": " Dengler, Veit, Zollikon / Schweiz, *21.11.1968, einzelvertretungsberechtigt"
             }
         ]
     }

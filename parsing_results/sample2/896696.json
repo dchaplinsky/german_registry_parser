@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Gießen",
+                    "dismissed": true,
                     "dob": "1951-10-24",
                     "lastname": "Bledau",
                     "name": "Siegfried"
                 },
-                "text": " Bledau , Siegfried , Gießen , * 24.10.1951 ."
+                "text": " Bledau, Siegfried, Gießen, *24.10.1951."
             }
         ]
     }

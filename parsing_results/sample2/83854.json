@@ -19,33 +19,34 @@
         "flags": [
             {
                 "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
-                "text": "Sind mehrere Liquidatoren bestellt , wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten ."
+                "text": "Sind\\ mehrere\\ Liquidatoren\\ bestellt\\,\\ wird\\ die\\ Gesellschaft\\ durch\\ s\\ämtliche\\ Liquidatoren\\ gemeinsam\\ vertreten\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Schloßstraße 4 , 23883 Seedorf Vertretungsregelung : Ist ein Liquidator bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " Schloßstraße 4, 23883 Seedorf Vertretungsregelung: Ist ein Liquidator bestellt, so vertritt er die Gesellschaft allein."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Loh",
                     "name": "Wolfgang"
                 },
-                "text": " Loh , Wolfgang"
+                "text": " Loh, Wolfgang"
             },
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "Lübeck Rechtsverhaeltnis : Durch Beschluss der Gesellschafterversammlung vom 03.09.2010 ist die Gesellschaft zum 30.09.2010 aufgelöst",
+                    "city": "Lübeck Rechtsverhaeltnis: Durch Beschluss der Gesellschafterversammlung vom 03.09.2010 ist die Gesellschaft zum 30.09.2010 aufgelöst",
                     "dob": "1962-07-23",
                     "lastname": "Loh",
                     "name": "Wolfgang"
                 },
-                "text": " Loh , Wolfgang , * 23.07.1962 , Lübeck Rechtsverhaeltnis : Durch Beschluss der Gesellschafterversammlung vom 03.09.2010 ist die Gesellschaft zum 30.09.2010 aufgelöst .."
+                "text": " Loh, Wolfgang, *23.07.1962, Lübeck Rechtsverhaeltnis: Durch Beschluss der Gesellschafterversammlung vom 03.09.2010 ist die Gesellschaft zum 30.09.2010 aufgelöst.."
             }
         ]
     }

@@ -19,44 +19,45 @@
         "flags": [
             {
                 "flag": "Exclusive power of representation can be granted.",
-                "text": "Alleinvertretungsbefugnis kann erteilt werden ."
+                "text": "Alleinvertretungsbefugnis\\ kann\\ erteilt\\ werden\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Am Sandtorkai 70 , c / o Stb ."
+                "text": " Am Sandtorkai 70, c/o Stb."
             }
         ],
         "officers": [
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "AB Uithuizen / Niederlande",
+                    "city": "AB Uithuizen/Niederlande",
                     "dob": "1979-03-30",
                     "flag": "sole representation",
                     "lastname": "Stamkot",
                     "name": "Christiaan"
                 },
-                "text": " Stamkot , Christiaan , AB Uithuizen / Niederlande , * 30.03.1979 , einzelvertretungsberechtigt"
+                "text": " Stamkot, Christiaan, AB Uithuizen/Niederlande, *30.03.1979, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "ET Zeist",
+                    "dismissed": true,
                     "dob": "1954-07-15",
                     "lastname": "van Laar",
                     "name": "Gerrit"
                 },
-                "text": " van Laar , Gerrit , ET Zeist , * 15.07.1954 ."
+                "text": " van Laar, Gerrit, ET Zeist, *15.07.1954."
             }
         ]
     }

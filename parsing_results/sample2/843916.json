@@ -16,10 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=843916&land_abk=by"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Kittel , Harald , Kaufmann , Freyung , * 09.01.1949 ., error text was Cannot parse DOB  Kaufmann  using regex"
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Freyung",
+                    "dismissed": true,
+                    "dob": "1949-09-01",
+                    "lastname": "Kittel",
+                    "name": "Harald",
+                    "position": "Kaufmann"
+                },
+                "text": " Kittel, Harald, Kaufmann, Freyung, *09.01.1949."
             }
         ]
     }

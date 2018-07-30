@@ -18,51 +18,53 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " In den Weinäckern 15 , 69168 Wiesloch ."
+                "text": " In den Weinäckern 15, 69168 Wiesloch."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Speyer",
+                    "dismissed": true,
                     "dob": "1963-10-11",
                     "lastname": "Lehr",
                     "name": "Matthias"
                 },
-                "text": " Lehr , Matthias , Speyer , * 10.11.1963 ."
+                "text": " Lehr, Matthias, Speyer, *10.11.1963."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wiesloch",
                     "dob": "1931-01-07",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Lehr",
                     "name": "Lieselotte Hilda geborene Hirn"
                 },
-                "text": " Lehr , Lieselotte Hilda geborene Hirn , Wiesloch , * 01.07.1931 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Lehr, Lieselotte Hilda geborene Hirn, Wiesloch, *01.07.1931, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Wiesloch",
+                    "dismissed": true,
                     "dob": "1931-01-07",
                     "lastname": "Lehr",
                     "name": "Lieselotte Hilda geborene Hirn"
                 },
-                "text": " Lehr , Lieselotte Hilda geborene Hirn , Wiesloch , * 01.07.1931 ."
+                "text": " Lehr, Lieselotte Hilda geborene Hirn, Wiesloch, *01.07.1931."
             }
         ]
     }

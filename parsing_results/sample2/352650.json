@@ -19,35 +19,37 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Edinburgh House Objekt Würzburg Verwaltungs GmbH , Berlin , Ebertstr ."
+                "text": " Edinburgh House Objekt Würzburg Verwaltungs GmbH, Berlin, Ebertstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Knuvers",
                     "name": "Henricus Clemens Gertrudis Franciscus"
                 },
-                "text": " Knuvers , Henricus Clemens Gertrudis Franciscus"
+                "text": " Knuvers, Henricus Clemens Gertrudis Franciscus"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Rosman",
                     "name": "Johan Rubrecht"
                 },
-                "text": " Rosman , Johan Rubrecht"
+                "text": " Rosman, Johan Rubrecht"
             },
             {
                 "class": "ManagingDirector",
@@ -57,7 +59,7 @@
                     "lastname": "Krumb",
                     "name": "Christian"
                 },
-                "text": " Krumb , Christian , * 26.01.1973 , Darmstadt"
+                "text": " Krumb, Christian, *26.01.1973, Darmstadt"
             },
             {
                 "class": "ManagingDirector",
@@ -67,7 +69,7 @@
                     "lastname": "Maraffio",
                     "name": "Gianfranco"
                 },
-                "text": " Maraffio , Gianfranco , * 19.12.1971 , Frankfurt am Main"
+                "text": " Maraffio, Gianfranco, *19.12.1971, Frankfurt am Main"
             }
         ]
     }

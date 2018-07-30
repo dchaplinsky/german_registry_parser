@@ -18,21 +18,23 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "city": "CH Zeist / Niederlande",
+                    "city": "CH Zeist/Niederlande",
+                    "dismissed": true,
                     "dob": "1960-04-15",
                     "lastname": "de Beer",
                     "name": "Robert Honoré Alphonsus"
                 },
-                "text": " de Beer , Robert Honoré Alphonsus , CH Zeist / Niederlande , * 15.04.1960 ."
+                "text": " de Beer, Robert Honoré Alphonsus, CH Zeist/Niederlande, *15.04.1960."
             },
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Polynorm Immobilien Beteiligungs - GmbH , Emsdetten ( Amtsgericht Steinfurt HRB 3743 ) ."
+                    "lastname": "Polynorm Immobilien Beteiligungs-GmbH",
+                    "name": "Emsdetten (Amtsgericht Steinfurt HRB 3743)"
                 },
-                "text": " Polynorm Immobilien Beteiligungs - GmbH , Emsdetten ( Amtsgericht Steinfurt HRB 3743 ) ."
+                "text": " Polynorm Immobilien Beteiligungs-GmbH, Emsdetten (Amtsgericht Steinfurt HRB 3743)."
             }
         ]
     }

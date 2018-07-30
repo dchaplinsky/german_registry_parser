@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=922108&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Dallmeier",
                     "name": "Thomas"
                 },
-                "text": " Dallmeier , Thomas , Pettendorf , * 25.02.1981 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Pettendorf",
-                    "dob": "1981-02-25",
-                    "lastname": "Dallmeier",
-                    "name": "Thomas"
-                },
-                "text": " Dallmeier , Thomas , Pettendorf , * 25.02.1981 ."
+                "text": " Dallmeier, Thomas, Pettendorf, *25.02.1981."
             }
         ]
     }

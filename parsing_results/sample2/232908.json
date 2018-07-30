@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Krefeld",
                     "dob": "1964-06-05",
                     "lastname": "Hüttemann",
                     "name": "Thomas"
                 },
-                "text": " Hüttemann , Thomas , Krefeld , * 06.05.1964 ."
+                "text": " Hüttemann, Thomas, Krefeld, *06.05.1964."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Frechen",
+                    "dismissed": true,
                     "dob": "1986-07-19",
                     "lastname": "Burckhart",
                     "name": "Nils"
                 },
-                "text": " Burckhart , Nils , Frechen , * 19.07.1986 ."
+                "text": " Burckhart, Nils, Frechen, *19.07.1986."
             }
         ]
     }

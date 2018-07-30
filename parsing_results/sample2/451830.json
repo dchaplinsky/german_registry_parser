@@ -19,13 +19,13 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Alte Ziegele 5 , 65812 Bad Soden am Taunus ."
+                "text": " Alte Ziegele 5, 65812 Bad Soden am Taunus."
             }
         ],
         "officers": [
@@ -35,20 +35,21 @@
                     "city": "Bad Soden am Taunus",
                     "dob": "1947-02-04",
                     "flag": "sole representation",
-                    "lastname": "Dr . Hartz",
+                    "lastname": "Doctor Hartz",
                     "name": "Edgar"
                 },
-                "text": " Dr . Hartz , Edgar , Bad Soden am Taunus , * 02.04.1947 , einzelvertretungsberechtigt"
+                "text": " Doctor Hartz, Edgar, Bad Soden am Taunus, *02.04.1947, einzelvertretungsberechtigt"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Biebesheim am Rhein",
+                    "dismissed": true,
                     "dob": "1944-03-06",
-                    "lastname": "Hartz - Blum",
+                    "lastname": "Hartz-Blum",
                     "name": "Rosemarie"
                 },
-                "text": " Hartz - Blum , Rosemarie , Biebesheim am Rhein , * 03.06.1944 ."
+                "text": " Hartz-Blum, Rosemarie, Biebesheim am Rhein, *03.06.1944."
             }
         ]
     }

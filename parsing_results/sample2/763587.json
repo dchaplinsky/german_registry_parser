@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1973-05-18",
                     "lastname": "Pelckmann",
                     "name": "Hendrik"
                 },
-                "text": " Pelckmann , Hendrik , München , * 18.05.1973 ."
+                "text": " Pelckmann, Hendrik, München, *18.05.1973."
             }
         ]
     }

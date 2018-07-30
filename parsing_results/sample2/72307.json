@@ -19,34 +19,35 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wehr",
+                    "dismissed": true,
                     "dob": "1961-09-21",
-                    "lastname": "Freiherr von Schönau - Wehr",
+                    "lastname": "Freiherr von Schönau-Wehr",
                     "name": "Wolfgang"
                 },
-                "text": " Freiherr von Schönau - Wehr , Wolfgang , Wehr , * 21.09.1961 ."
+                "text": " Freiherr von Schönau-Wehr, Wolfgang, Wehr, *21.09.1961."
             },
             {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Sigmaringen",
                     "dob": "1931-01-02",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Freifrau von Schönau - Wehr",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Freifrau von Schönau-Wehr",
                     "name": "Erna Ursula geborene Thiele"
                 },
-                "text": " Freifrau von Schönau - Wehr , Erna Ursula geborene Thiele , Sigmaringen , * 01.02.1931 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Freifrau von Schönau-Wehr, Erna Ursula geborene Thiele, Sigmaringen, *01.02.1931, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

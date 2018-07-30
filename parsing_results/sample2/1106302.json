@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Frechen",
+                    "dismissed": true,
                     "dob": "1943-07-04",
                     "lastname": "Bierschock",
                     "name": "Alfred"
                 },
-                "text": " Bierschock , Alfred , Frechen , * 07.04.1943"
+                "text": " Bierschock, Alfred, Frechen, *07.04.1943"
             },
             {
                 "class": "Liquidator",
@@ -41,7 +42,7 @@
                     "lastname": "Bluhm",
                     "name": "Lothar"
                 },
-                "text": " Bluhm , Lothar , Bonn , * 26.08.1947"
+                "text": " Bluhm, Lothar, Bonn, *26.08.1947"
             }
         ]
     }

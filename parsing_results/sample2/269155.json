@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Gomaringen",
+                    "dismissed": true,
                     "dob": "1960-01-31",
                     "lastname": "Hoyler",
                     "name": "Volker"
                 },
-                "text": " Hoyler , Volker , Gomaringen , * 31.01.1960 ."
+                "text": " Hoyler, Volker, Gomaringen, *31.01.1960."
             }
         ]
     }

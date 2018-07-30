@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bielefeld",
+                    "dismissed": true,
                     "dob": "1962-02-10",
                     "lastname": "Bartels",
-                    "name": "Jens - Olaf"
+                    "name": "Jens-Olaf"
                 },
-                "text": " Bartels , Jens - Olaf , Bielefeld , * 02.10.1962"
+                "text": " Bartels, Jens-Olaf, Bielefeld, *02.10.1962"
             }
         ]
     }

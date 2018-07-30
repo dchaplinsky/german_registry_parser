@@ -24,14 +24,15 @@
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Edling",
+                    "dismissed": true,
                     "dob": "1971-10-04",
                     "lastname": "Gross",
                     "name": "Thomas"
                 },
-                "text": " Gross , Thomas , Edling , * 10.04.1971 ."
+                "text": " Gross, Thomas, Edling, *10.04.1971."
             }
         ]
     }

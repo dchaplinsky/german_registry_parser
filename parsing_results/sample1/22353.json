@@ -19,17 +19,18 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Vratislavsky",
                     "name": "Harald"
                 },
-                "text": " Vratislavsky , Harald"
+                "text": " Vratislavsky, Harald"
             },
             {
                 "class": "ManagingDirector",
@@ -39,7 +40,7 @@
                     "lastname": "Vratislavsky",
                     "name": "Jürgen"
                 },
-                "text": " Vratislavsky , Jürgen , * 30.12.1934 , Berlin"
+                "text": " Vratislavsky, Jürgen, *30.12.1934, Berlin"
             }
         ]
     }

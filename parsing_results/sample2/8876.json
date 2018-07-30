@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Erkrath",
+                    "dismissed": true,
                     "dob": "1950-10-28",
                     "lastname": "Mikrikow",
                     "name": "Uwe"
                 },
-                "text": " Mikrikow , Uwe , Erkrath , * 28.10.1950 ."
+                "text": " Mikrikow, Uwe, Erkrath, *28.10.1950."
             }
         ]
     }

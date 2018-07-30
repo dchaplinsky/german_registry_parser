@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Florenz",
+                    "dismissed": true,
                     "dob": "1936-04-13",
                     "lastname": "Anichini",
                     "name": "Giuseppe"
                 },
-                "text": " Anichini , Giuseppe , Florenz , * 13.04.1936"
+                "text": " Anichini, Giuseppe, Florenz, *13.04.1936"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Florenz / Italien",
+                    "city": "Florenz/Italien",
                     "dob": "1955-04-28",
                     "lastname": "Pedani",
                     "name": "Raffaela"
                 },
-                "text": " Pedani , Raffaela , Florenz / Italien , * 28.04.1955"
+                "text": " Pedani, Raffaela, Florenz/Italien, *28.04.1955"
             }
         ]
     }

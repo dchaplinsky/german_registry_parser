@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Neustraße 1 , 59348 Lüdinghausen ."
+                "text": " Neustraße 1, 59348 Lüdinghausen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Dülmen",
+                    "dismissed": true,
                     "dob": "1946-06-18",
                     "lastname": "Brüggemann",
                     "name": "Heinrich"
                 },
-                "text": " Brüggemann , Heinrich , Dülmen , * 18.06.1946 ."
+                "text": " Brüggemann, Heinrich, Dülmen, *18.06.1946."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Lüdinghausen",
                     "dob": "1956-06-13",
@@ -42,7 +43,7 @@
                     "lastname": "Nolte",
                     "name": "Burkhard"
                 },
-                "text": " Nolte , Burkhard , Lüdinghausen , * 13.06.1956 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Nolte, Burkhard, Lüdinghausen, *13.06.1956, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

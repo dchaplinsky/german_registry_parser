@@ -18,26 +18,22 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             },
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
-                "text": "Sind mehrere Geschäftsführer bestellt , so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Delbrückstraße 1 , 47623 Kevelaer ."
+                "text": " Delbrückstraße 1, 47623 Kevelaer."
             }
         ],
         "officers": [
@@ -50,7 +46,7 @@
                     "lastname": "van Ommeren",
                     "name": "Geradus Adrianus Maria"
                 },
-                "text": " van Ommeren , Geradus Adrianus Maria , Uedem , * 14.03.1961 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " van Ommeren, Geradus Adrianus Maria, Uedem, *14.03.1961, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "CommonProcuration",
@@ -60,47 +56,28 @@
                     "lastname": "Lawrenz",
                     "name": "Uwe"
                 },
-                "text": " Lawrenz , Uwe , Bremen , * 23.05.1966 ."
+                "text": " Lawrenz, Uwe, Bremen, *23.05.1966."
             },
             {
                 "class": "NewProcuration",
                 "payload": {
-                    "city": "Bergen / Niederlande",
+                    "city": "Bergen/Niederlande",
                     "dob": "1963-08-25",
                     "lastname": "de Jonge",
                     "name": "Ron"
                 },
-                "text": " de Jonge , Ron , Bergen / Niederlande , * 25.08.1963"
-            },
-            {
-                "class": "SingleProcuration",
-                "payload": {
-                    "city": "Bergen / Niederlande",
-                    "dob": "1963-08-25",
-                    "lastname": "de Jonge",
-                    "name": "Ron"
-                },
-                "text": " de Jonge , Ron , Bergen / Niederlande , * 25.08.1963"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Bergen / Niederlande",
-                    "dob": "1963-08-25",
-                    "lastname": "de Jonge",
-                    "name": "Ron"
-                },
-                "text": " de Jonge , Ron , Bergen / Niederlande , * 25.08.1963"
+                "text": " de Jonge, Ron, Bergen/Niederlande, *25.08.1963"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Dinslaken",
+                    "dismissed": true,
                     "dob": "1971-02-05",
                     "lastname": "Nuth",
                     "name": "Oliver"
                 },
-                "text": " Nuth , Oliver , Dinslaken , * 02.05.1971 ."
+                "text": " Nuth, Oliver, Dinslaken, *02.05.1971."
             }
         ]
     }

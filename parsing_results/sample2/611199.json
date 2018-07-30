@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=611199&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Brehm",
                     "name": "Silvia"
                 },
-                "text": " Brehm , Silvia , Karlsruhe , * 06.10.1972 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Karlsruhe",
-                    "dob": "1972-06-10",
-                    "lastname": "Brehm",
-                    "name": "Silvia"
-                },
-                "text": " Brehm , Silvia , Karlsruhe , * 06.10.1972 ."
+                "text": " Brehm, Silvia, Karlsruhe, *06.10.1972."
             }
         ]
     }

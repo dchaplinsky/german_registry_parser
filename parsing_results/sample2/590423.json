@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Neuenstadt am Kocher",
+                    "dismissed": true,
                     "dob": "1967-08-13",
                     "lastname": "Jedele",
                     "name": "Bianca geborene Bortt"
                 },
-                "text": " Jedele , Bianca geborene Bortt , Neuenstadt am Kocher , * 13.08.1967 ."
+                "text": " Jedele, Bianca geborene Bortt, Neuenstadt am Kocher, *13.08.1967."
             }
         ]
     }

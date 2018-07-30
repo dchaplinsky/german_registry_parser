@@ -19,30 +19,31 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Freiberger Platz 1 , 83123 Amerang ."
+                "text": " Freiberger Platz 1, 83123 Amerang."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Chalkis",
+                    "dismissed": true,
                     "dob": "1961-03-12",
-                    "lastname": "Dr . Dikeos",
+                    "lastname": "Doctor Dikeos",
                     "name": "Konstandinos"
                 },
-                "text": " Dr . Dikeos , Konstandinos , Chalkis , * 03.12.1961 ."
+                "text": " Doctor Dikeos, Konstandinos, Chalkis, *03.12.1961."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mühltal",
                     "dob": "1958-03-11",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Seebauer",
                     "name": "Roland"
                 },
-                "text": " Seebauer , Roland , Mühltal , * 03.11.1958 , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Seebauer, Roland, Mühltal, *03.11.1958, mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

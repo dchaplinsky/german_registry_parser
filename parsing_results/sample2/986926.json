@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Siegfriedstr ."
+                "text": " Siegfriedstr."
             }
         ],
         "officers": [
@@ -32,17 +32,18 @@
                     "lastname": "Lohmann",
                     "name": "Wilma"
                 },
-                "text": " Lohmann , Wilma , Gütersloh , * 26.05.1947 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Lohmann, Wilma, Gütersloh, *26.05.1947, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "Liquidator",
+                "class": "NotALiquidator",
                 "payload": {
                     "city": "Gütersloh",
+                    "dismissed": true,
                     "dob": "1944-12-14",
-                    "lastname": "Lohmann",
-                    "name": "Hanns - Uwe"
+                    "lastname": ": Lohmann",
+                    "name": "Hanns-Uwe"
                 },
-                "text": " Lohmann , Hanns - Uwe , Gütersloh , * 14.12.1944 ."
+                "text": ": Lohmann, Hanns-Uwe, Gütersloh, *14.12.1944."
             }
         ]
     }

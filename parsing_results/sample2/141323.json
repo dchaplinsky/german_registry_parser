@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Körperich",
+                    "dismissed": true,
                     "dob": "1954-09-26",
                     "lastname": "Bormann",
                     "name": "Edgar"
                 },
-                "text": " Bormann , Edgar , Körperich , * 26.09.1954 ."
+                "text": " Bormann, Edgar, Körperich, *26.09.1954."
             }
         ]
     }

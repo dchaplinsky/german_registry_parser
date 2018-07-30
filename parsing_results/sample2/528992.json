@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Künzelsau",
+                    "dismissed": true,
                     "dob": "1952-06-30",
                     "lastname": "Häfele",
                     "name": "Ulrich"
                 },
-                "text": " Häfele , Ulrich , Künzelsau , * 30.06.1952"
+                "text": " Häfele, Ulrich, Künzelsau, *30.06.1952"
             }
         ]
     }

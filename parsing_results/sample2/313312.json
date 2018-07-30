@@ -18,33 +18,35 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1962-05-23",
                     "lastname": "Etzel",
                     "name": "Thomas"
                 },
-                "text": " Etzel , Thomas , Frankfurt am Main , * 23.05.1962 ."
+                "text": " Etzel, Thomas, Frankfurt am Main, *23.05.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Marburg",
                     "dob": "1948-10-24",
-                    "lastname": "Dr . Opitz",
+                    "lastname": "Doctor Opitz",
                     "name": "Gerhard"
                 },
-                "text": " Dr . Opitz , Gerhard , Marburg , * 24.10.1948 ."
+                "text": " Doctor Opitz, Gerhard, Marburg, *24.10.1948."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Hemer",
+                    "dismissed": true,
                     "lastname": "Jankowiak",
                     "name": "Berthold"
                 },
-                "text": " Jankowiak , Berthold , Hemer ."
+                "text": " Jankowiak, Berthold, Hemer."
             }
         ]
     }

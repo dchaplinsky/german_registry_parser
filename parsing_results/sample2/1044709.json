@@ -26,17 +26,18 @@
                     "lastname": "Collins",
                     "name": "David S"
                 },
-                "text": " Collins , David S . , Aurora / Vereinigte Staaten , * 02.12.1965 , einzelvertretungsberechtigt ."
+                "text": " Collins, David S., Aurora / Vereinigte Staaten, *02.12.1965, einzelvertretungsberechtigt."
             },
             {
-                "class": "Liquidator",
+                "class": "NotALiquidator",
                 "payload": {
-                    "city": "Bottanuco ( Italien )",
+                    "city": "Bottanuco (Italien)",
+                    "dismissed": true,
                     "dob": "1956-04-20",
-                    "lastname": "Ponzoni",
+                    "lastname": ": Ponzoni",
                     "name": "Pierangelo"
                 },
-                "text": " Ponzoni , Pierangelo , Bottanuco ( Italien ) , * 20.04.1956 ."
+                "text": ": Ponzoni, Pierangelo, Bottanuco (Italien), *20.04.1956."
             }
         ]
     }

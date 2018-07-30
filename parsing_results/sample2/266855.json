@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mörlenbach",
                     "dob": "1948-05-08",
                     "lastname": "Franke",
                     "name": "Georg Ernst"
                 },
-                "text": " Franke , Georg Ernst , Mörlenbach , * 05.08.1948 ."
+                "text": " Franke, Georg Ernst, Mörlenbach, *05.08.1948."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Weinheim",
+                    "dismissed": true,
                     "lastname": "Franke",
                     "name": "Elsa Maria geborene Randoll",
                     "position": "Kauffrau"
                 },
-                "text": " Franke , Elsa Maria geborene Randoll , Kauffrau , Weinheim ."
+                "text": " Franke, Elsa Maria geborene Randoll, Kauffrau, Weinheim."
             }
         ]
     }

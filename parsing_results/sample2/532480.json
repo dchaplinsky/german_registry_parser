@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Rohrbach",
+                    "dismissed": true,
                     "lastname": "Briller",
                     "name": "Josef",
                     "position": "Landwirtschaftsmeister"
                 },
-                "text": " Briller , Josef , Landwirtschaftsmeister , Rohrbach"
+                "text": " Briller, Josef, Landwirtschaftsmeister, Rohrbach"
             }
         ]
     }

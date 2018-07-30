@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Faßberg - Müden",
+                    "dismissed": true,
                     "dob": "1964-11-09",
                     "lastname": "Katenz",
                     "name": "Michael"
                 },
-                "text": " Katenz , Michael , Faßberg - Müden , * 11.09.1964 ."
+                "text": " Katenz, Michael, Faßberg - Müden, *11.09.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Munster",
                     "dob": "1969-02-17",
@@ -42,7 +43,7 @@
                     "lastname": "Cornberg",
                     "name": "Thomas"
                 },
-                "text": " Cornberg , Thomas , Munster , * 17.02.1969 , einzelvertretungsberechtigt"
+                "text": " Cornberg, Thomas, Munster, *17.02.1969, einzelvertretungsberechtigt"
             }
         ]
     }

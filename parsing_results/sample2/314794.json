@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Trier",
+                    "dismissed": true,
                     "dob": "1967-10-16",
-                    "lastname": "Dr . Gehrke",
+                    "lastname": "Doctor Gehrke",
                     "name": "Alexander"
                 },
-                "text": " Dr . Gehrke , Alexander , Trier , * 16.10.1967 ."
+                "text": " Doctor Gehrke, Alexander, Trier, *16.10.1967."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Trier",
                     "dob": "1969-11-02",
@@ -36,7 +37,7 @@
                     "lastname": "Trierweiler",
                     "name": "Markus"
                 },
-                "text": " Trierweiler , Markus , Trier , * 11.02.1969 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Trierweiler, Markus, Trier, *11.02.1969, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

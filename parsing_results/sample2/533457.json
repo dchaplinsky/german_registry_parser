@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " St . Ilgener Straße 54 , 69190 Walldorf ."
+                "text": " St. Ilgener Straße 54, 69190 Walldorf."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hockenheim",
+                    "dismissed": true,
                     "dob": "1937-07-31",
                     "lastname": "Peschl",
                     "name": "Herbert Karl"
                 },
-                "text": " Peschl , Herbert Karl , Hockenheim , * 31.07.1937 ."
+                "text": " Peschl, Herbert Karl, Hockenheim, *31.07.1937."
             }
         ]
     }

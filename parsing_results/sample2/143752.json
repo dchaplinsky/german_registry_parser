@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Rennbahnstr ."
+                "text": " Rennbahnstr."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Gensingen",
+                    "dismissed": true,
                     "dob": "1969-02-12",
                     "lastname": "App",
                     "name": "Jürgen"
                 },
-                "text": " App , Jürgen , Gensingen , * 02.12.1969"
+                "text": " App, Jürgen, Gensingen, *02.12.1969"
             }
         ]
     }

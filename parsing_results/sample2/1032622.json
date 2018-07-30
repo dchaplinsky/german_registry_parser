@@ -19,7 +19,11 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Prime , Timothy , Rotherby , Leicestershire , England / Vereinigtes Königreich , * 27.08.1960 ., error text was Cannot parse DOB  Rotherby  using regex"
+                "text": "Cannot parse a DismissedManagingDirector from  Prime, Timothy, Rotherby, Leicestershire, England / Vereinigtes Königreich, *27.08.1960., error text was Cannot parse DOB  Rotherby using regex"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Prime, Timothy, Rotherby, Leicestershire, England / Vereinigtes Königreich, *27.08.1960., error text was Cannot parse DOB  Rotherby using regex"
             }
         ]
     }

@@ -16,25 +16,31 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1009292&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Vötter , Franz , Gas - und Wasserinstallateur , Kissing , * 24.07.1953 ., error text was Cannot parse DOB  Gas - und Wasserinstallateur  using regex"
-            }
-        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Römerstraße 18 , 86438 Kissing ."
+                "text": " Römerstraße 18, 86438 Kissing."
             }
         ],
         "officers": [
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Kissing",
+                    "dismissed": true,
+                    "dob": "1953-07-24",
+                    "lastname": "Vötter",
+                    "name": "Franz",
+                    "position": "Gas- und Wasserinstallateur"
+                },
+                "text": " Vötter, Franz, Gas- und Wasserinstallateur, Kissing, *24.07.1953."
+            },
             {
                 "class": "ManagingDirector",
                 "payload": {
@@ -44,7 +50,7 @@
                     "lastname": "Held",
                     "name": "Helmut"
                 },
-                "text": " Held , Helmut , Kissing , * 30.03.1962 , einzelvertretungsberechtigt"
+                "text": " Held, Helmut, Kissing, *30.03.1962, einzelvertretungsberechtigt"
             }
         ]
     }

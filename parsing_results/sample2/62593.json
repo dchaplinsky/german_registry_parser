@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Alfred - Reinhardt - Straße 16 , 06132 Halle ."
+                "text": " Alfred-Reinhardt-Straße 16, 06132 Halle."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Halle ( Saale )",
+                    "city": "Halle (Saale)",
+                    "dismissed": true,
                     "dob": "1966-12-06",
                     "lastname": "Nobel",
                     "name": "Heike"
                 },
-                "text": " Nobel , Heike , Halle ( Saale ) , * 12.06.1966 ."
+                "text": " Nobel, Heike, Halle (Saale), *12.06.1966."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Halle ( Saale )",
+                    "city": "Halle (Saale)",
                     "dob": "1958-10-25",
                     "lastname": "Nobel",
                     "name": "Peter"
                 },
-                "text": " Nobel , Peter , Halle ( Saale ) , * 25.10.1958 ."
+                "text": " Nobel, Peter, Halle (Saale), *25.10.1958."
             }
         ]
     }

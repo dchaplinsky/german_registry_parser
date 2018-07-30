@@ -18,34 +18,36 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Leverkusen",
+                    "dismissed": true,
                     "dob": "1948-04-26",
                     "lastname": "Röseler",
                     "name": "Klaus"
                 },
-                "text": " Röseler , Klaus , Leverkusen , * 26.04.1948 ."
+                "text": " Röseler, Klaus, Leverkusen, *26.04.1948."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Leverkusen",
                     "dob": "1961-09-05",
                     "lastname": "Röseler",
                     "name": "Susanne"
                 },
-                "text": " Röseler , Susanne , Leverkusen , * 09.05.1961 ."
+                "text": " Röseler, Susanne, Leverkusen, *09.05.1961."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Leverkusen",
+                    "dismissed": true,
                     "dob": "1961-09-05",
                     "lastname": "Röseler",
                     "name": "Susanne"
                 },
-                "text": " Röseler , Susanne , Leverkusen , * 09.05.1961 ."
+                "text": " Röseler, Susanne, Leverkusen, *09.05.1961."
             }
         ]
     }

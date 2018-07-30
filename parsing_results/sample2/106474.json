@@ -16,10 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=106474&land_abk=rp"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Flashaar - Bloedorn , Günter , Kaufmann , Bingen am Rhein , * 17.03.1927 ., error text was Cannot parse DOB  Kaufmann  using regex"
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Bingen am Rhein",
+                    "dismissed": true,
+                    "dob": "1927-03-17",
+                    "lastname": "Flashaar-Bloedorn",
+                    "name": "Günter",
+                    "position": "Kaufmann"
+                },
+                "text": " Flashaar-Bloedorn, Günter, Kaufmann, Bingen am Rhein, *17.03.1927."
             }
         ]
     }

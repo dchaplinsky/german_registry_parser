@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Kim",
                     "name": "Jae Bum"
                 },
-                "text": " Kim , Jae Bum ."
+                "text": " Kim, Jae Bum."
             }
         ]
     }

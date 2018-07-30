@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Cornelius NC 28031-5918 / Vereinigte Staaten",
+                    "dismissed": true,
                     "dob": "1969-12-02",
-                    "lastname": "Dr . Kissinger",
+                    "lastname": "Doctor Kissinger",
                     "name": "Christian Johann"
                 },
-                "text": " Dr . Kissinger , Christian Johann , Cornelius NC 28031-5918 / Vereinigte Staaten , * 12.02.1969"
+                "text": " Doctor Kissinger, Christian Johann, Cornelius NC 28031-5918 / Vereinigte Staaten, *12.02.1969"
             }
         ]
     }

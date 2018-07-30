@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Linnich",
+                    "dismissed": true,
                     "dob": "1978-01-10",
                     "lastname": "Dalkilic",
                     "name": "Mehmet Fatih"
                 },
-                "text": " Dalkilic , Mehmet Fatih , Linnich , * 01.10.1978 ."
+                "text": " Dalkilic, Mehmet Fatih, Linnich, *01.10.1978."
             }
         ]
     }

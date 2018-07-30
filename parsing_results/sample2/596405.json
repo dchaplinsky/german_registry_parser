@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Kelkheim / Ts",
+                    "city": "Kelkheim/Ts",
+                    "dismissed": true,
                     "dob": "1971-10-19",
                     "lastname": "Bakker",
                     "name": "Markus Paul"
                 },
-                "text": " Bakker , Markus Paul , Kelkheim / Ts . , * 19.10.1971 ."
+                "text": " Bakker, Markus Paul, Kelkheim/Ts., *19.10.1971."
             }
         ]
     }

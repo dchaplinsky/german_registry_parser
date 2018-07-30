@@ -18,40 +18,42 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Puyol Bejar",
                     "name": "Luis Pascual"
                 },
-                "text": " Puyol Bejar , Luis Pascual"
+                "text": " Puyol Bejar, Luis Pascual"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Garcia de Chiclana",
                     "name": "Jesús"
                 },
-                "text": " Garcia de Chiclana , Jesús"
+                "text": " Garcia de Chiclana, Jesús"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Madrid / Spanien",
+                    "city": "Madrid/Spanien",
                     "dob": "1953-01-22",
                     "lastname": "Rodriguez Garcia",
                     "name": "Francisco Javier"
                 },
-                "text": " Rodriguez Garcia , Francisco Javier , * 22.01.1953 , Madrid / Spanien"
+                "text": " Rodriguez Garcia, Francisco Javier, *22.01.1953, Madrid/Spanien"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Madrid / Spanien",
+                    "city": "Madrid/Spanien",
                     "dob": "1963-04-29",
                     "lastname": "Bonet de Luna",
                     "name": "Jorge Federico"
                 },
-                "text": " Bonet de Luna , Jorge Federico , * 29.04.1963 , Madrid / Spanien ."
+                "text": " Bonet de Luna, Jorge Federico, *29.04.1963, Madrid/Spanien."
             }
         ]
     }

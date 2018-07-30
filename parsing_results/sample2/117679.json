@@ -18,22 +18,23 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "lastname": "Dr . Runzheimer",
+                    "dismissed": true,
+                    "lastname": "Doctor Runzheimer",
                     "name": "Christian"
                 },
-                "text": " Dr . Runzheimer , Christian ."
+                "text": " Doctor Runzheimer, Christian ."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Solms - Oberndorf",
+                    "city": "Solms-Oberndorf",
                     "dob": "1963-07-28",
                     "lastname": "Sander",
                     "name": "Corinna"
                 },
-                "text": " Sander , Corinna , Solms - Oberndorf , * 28.07.1963 ."
+                "text": " Sander, Corinna, Solms-Oberndorf, *28.07.1963."
             }
         ]
     }

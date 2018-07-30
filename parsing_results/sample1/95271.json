@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Putzbrunn",
+                    "dismissed": true,
                     "lastname": "Nausch",
                     "name": "Gerd",
                     "position": "Kaufmann"
                 },
-                "text": " Nausch , Gerd , Kaufmann , Putzbrunn ."
+                "text": " Nausch, Gerd, Kaufmann, Putzbrunn."
             }
         ]
     }

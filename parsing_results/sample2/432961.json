@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Gildehofstraße 1 , 45127 Essen ."
+                "text": " Gildehofstraße 1, 45127 Essen."
             }
         ],
         "officers": [
@@ -27,21 +27,22 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Bochum",
+                    "dismissed": true,
                     "dob": "1967-01-30",
                     "lastname": "Zisowski",
                     "name": "Thorsten"
                 },
-                "text": " Zisowski , Thorsten , Bochum , * 30.01.1967 ."
+                "text": " Zisowski, Thorsten, Bochum, *30.01.1967."
             },
             {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Herne",
                     "dob": "1958-03-07",
-                    "lastname": "Dr . Raedeker",
+                    "lastname": "Doctor Raedeker",
                     "name": "Susanne"
                 },
-                "text": " Dr . Raedeker , Susanne , Herne , * 03.07.1958 ."
+                "text": " Doctor Raedeker, Susanne, Herne, *03.07.1958."
             }
         ]
     }

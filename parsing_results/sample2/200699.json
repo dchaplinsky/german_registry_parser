@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Bonn",
+                    "dismissed": true,
                     "dob": "1976-02-06",
                     "lastname": "Bieniek",
                     "name": "Stephanie"
                 },
-                "text": " Bieniek , Stephanie , Bonn , * 02.06.1976 ."
+                "text": " Bieniek, Stephanie, Bonn, *02.06.1976."
             },
             {
                 "class": "Owner",
@@ -35,7 +36,7 @@
                     "lastname": "Reibel",
                     "name": "Georg"
                 },
-                "text": " Reibel , Georg , Düsseldorf , * 02.08.1976 ."
+                "text": " Reibel, Georg, Düsseldorf, *02.08.1976."
             }
         ]
     }

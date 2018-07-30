@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -32,17 +32,18 @@
                     "lastname": "Müller",
                     "name": "Matthias"
                 },
-                "text": " Müller , Matthias , Hamburg , * 30.11.1967 , vertretungsberechtigt gemäß allgemeiner Vertretungsregelung ."
+                "text": " Müller, Matthias, Hamburg, *30.11.1967, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1967-11-30",
                     "lastname": "Müller",
                     "name": "Matthias"
                 },
-                "text": " Müller , Matthias , Hamburg , * 30.11.1967 ."
+                "text": " Müller, Matthias, Hamburg, *30.11.1967."
             }
         ]
     }

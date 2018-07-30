@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hof",
+                    "dismissed": true,
                     "dob": "1969-10-24",
                     "lastname": "Gottsmann",
                     "name": "Uwe"
                 },
-                "text": " Gottsmann , Uwe , Hof , * 24.10.1969 ."
+                "text": " Gottsmann, Uwe, Hof, *24.10.1969."
             }
         ]
     }

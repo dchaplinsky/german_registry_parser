@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Bodelwitz",
+                    "dismissed": true,
                     "dob": "1959-07-07",
                     "lastname": "Festag",
                     "name": "Gerold"
                 },
-                "text": " Festag , Gerold , Bodelwitz , * 07.07.1959 ."
+                "text": " Festag, Gerold, Bodelwitz, *07.07.1959."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Mohlsdorf - Teichwolframsdorf",
+                    "city": "Mohlsdorf-Teichwolframsdorf",
                     "dob": "1980-05-30",
                     "flag": "sole representation",
                     "lastname": "Meyer",
                     "name": "Michael"
                 },
-                "text": " Meyer , Michael , Mohlsdorf - Teichwolframsdorf , * 30.05.1980 , einzelvertretungsberechtigt"
+                "text": " Meyer, Michael, Mohlsdorf-Teichwolframsdorf, *30.05.1980, einzelvertretungsberechtigt"
             }
         ]
     }

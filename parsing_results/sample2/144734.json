@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "Liquidator",
+                "class": "NotALiquidator",
                 "payload": {
-                    "lastname": "Christochowitz",
+                    "dismissed": true,
+                    "lastname": ": Christochowitz",
                     "name": "Udo"
                 },
-                "text": " Christochowitz , Udo ."
+                "text": ": Christochowitz, Udo."
             },
             {
                 "class": "Liquidator",
@@ -34,7 +35,7 @@
                     "lastname": "Latka",
                     "name": "Detlef Georg"
                 },
-                "text": " Latka , Detlef Georg , Longuich , * 26.08.1967 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Latka, Detlef Georg, Longuich, *26.08.1967, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -18,29 +18,30 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Weidestraße 122 a , 22083 Hamburg ."
+                "text": " Weidestraße 122 a, 22083 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Geesthacht",
+                    "dismissed": true,
                     "dob": "1969-04-29",
                     "lastname": "Hoheisel",
                     "name": "Christian"
                 },
-                "text": " Hoheisel , Christian , Geesthacht , * 29.04.1969 ."
+                "text": " Hoheisel, Christian, Geesthacht, *29.04.1969."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Geesthacht",
                     "dob": "1967-06-19",
@@ -48,7 +49,7 @@
                     "lastname": "Hoheisel",
                     "name": "Daniela"
                 },
-                "text": " Hoheisel , Daniela , Geesthacht , * 19.06.1967 , vertretungsberechtigt gemäß allgemeiner Vertretungsregelung ."
+                "text": " Hoheisel, Daniela, Geesthacht, *19.06.1967, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung."
             }
         ]
     }

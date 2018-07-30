@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Saarbrücken",
+                    "dismissed": true,
                     "dob": "1983-03-05",
                     "lastname": "Schneider",
                     "name": "Angela"
                 },
-                "text": " Schneider , Angela , Saarbrücken , * 03.05.1983 ."
+                "text": " Schneider, Angela, Saarbrücken, *03.05.1983."
             }
         ]
     }

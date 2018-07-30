@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=436137&land_abk=ni"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Saß , Carl - Heinrich , Kaufmann , Seevetal , * 15.02.1957 ., error text was Cannot parse DOB  Kaufmann  using regex"
-            }
-        ],
         "flags": [
             {
                 "flag": "Sole trader",
@@ -31,7 +25,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " An den Teichen 6 , 21220 Seevetal ."
+                "text": " An den Teichen 6, 21220 Seevetal."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Seevetal",
+                    "dob": "1957-02-15",
+                    "lastname": "Saß",
+                    "name": "Carl-Heinrich",
+                    "position": "Kaufmann"
+                },
+                "text": " Saß, Carl-Heinrich, Kaufmann, Seevetal, *15.02.1957."
             }
         ]
     }

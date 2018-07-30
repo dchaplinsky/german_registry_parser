@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Moerser Straße 274 , 47475 Kamp - Lintfort ."
+                "text": " Moerser Straße 274, 47475 Kamp-Lintfort."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Kamp - Lintfort",
+                    "city": "Kamp-Lintfort",
+                    "dismissed": true,
                     "dob": "1982-08-22",
                     "lastname": "Roesken",
                     "name": "Mariana Emilia"
                 },
-                "text": " Roesken , Mariana Emilia , Kamp - Lintfort , * 22.08.1982 ."
+                "text": " Roesken, Mariana Emilia, Kamp-Lintfort, *22.08.1982."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Moers",
                     "dob": "1960-04-06",
                     "lastname": "Lenarz",
-                    "name": "Hans - Peter"
+                    "name": "Hans-Peter"
                 },
-                "text": " Lenarz , Hans - Peter , Moers , * 04.06.1960 ."
+                "text": " Lenarz, Hans-Peter, Moers, *04.06.1960."
             }
         ]
     }

@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dresden",
                     "dob": "1954-05-18",
-                    "lastname": "Dr . Munz",
-                    "name": "Hans - Christoph"
+                    "lastname": "Doctor Munz",
+                    "name": "Hans-Christoph"
                 },
-                "text": " Dr . Munz , Hans - Christoph , Dresden , * 18.05.1954 ."
+                "text": " Doctor Munz, Hans-Christoph, Dresden, *18.05.1954."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Leisnig OT Fischendorf",
+                    "dismissed": true,
                     "dob": "1975-11-25",
                     "lastname": "Wetzig",
                     "name": "Gunnar"
                 },
-                "text": " Wetzig , Gunnar , Leisnig OT Fischendorf , * 25.11.1975 ."
+                "text": " Wetzig, Gunnar, Leisnig OT Fischendorf, *25.11.1975."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=102123&land_abk=sn"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Walter",
                     "name": "Achim"
                 },
-                "text": " Walter , Achim , Leipzig , * 03.09.1967 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Leipzig",
-                    "dob": "1967-03-09",
-                    "lastname": "Walter",
-                    "name": "Achim"
-                },
-                "text": " Walter , Achim , Leipzig , * 03.09.1967 ."
+                "text": " Walter, Achim, Leipzig, *03.09.1967."
             }
         ]
     }

@@ -18,14 +18,14 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Limbach - Oberfrohna",
+                    "city": "Limbach-Oberfrohna",
                     "dob": "1957-09-06",
                     "lastname": "Eckardt",
                     "name": "Lutz"
                 },
-                "text": " Eckardt , Lutz , Limbach - Oberfrohna , * 09.06.1957 ."
+                "text": " Eckardt, Lutz, Limbach-Oberfrohna, *09.06.1957."
             },
             {
                 "class": "ManagingDirector",
@@ -33,9 +33,9 @@
                     "city": "Dresden",
                     "dob": "1940-05-04",
                     "lastname": "Matthes",
-                    "name": "Eva - Maria"
+                    "name": "Eva-Maria"
                 },
-                "text": " Matthes , Eva - Maria , Dresden , * 05.04.1940 ."
+                "text": " Matthes, Eva-Maria, Dresden, *05.04.1940."
             }
         ]
     }

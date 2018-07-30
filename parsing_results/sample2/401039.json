@@ -19,17 +19,18 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " PositiveMotion UG ( haftungsbeschränkt ) , Berlin , Alte Schönhauser Straße 44 , 10119 Berlin ."
+                "text": " PositiveMotion UG (haftungsbeschränkt), Berlin, Alte Schönhauser Straße 44, 10119 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Poeszus",
                     "name": "Corinna Claudia"
                 },
-                "text": " Poeszus , Corinna Claudia"
+                "text": " Poeszus, Corinna Claudia"
             }
         ]
     }

@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Friedberg ( Hessen )",
+                    "city": "Friedberg (Hessen)",
+                    "dismissed": true,
                     "dob": "1968-03-02",
                     "lastname": "Serce",
                     "name": "Eypah"
                 },
-                "text": " Serce , Eypah , Friedberg ( Hessen ) , * 03.02.1968 ."
+                "text": " Serce, Eypah, Friedberg (Hessen), *03.02.1968."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Friedberg ( Hessen )",
+                    "city": "Friedberg (Hessen)",
                     "dob": "1995-08-02",
                     "flag": "sole representation",
                     "lastname": "Serce",
                     "name": "Kaan Cem"
                 },
-                "text": " Serce , Kaan Cem , Friedberg ( Hessen ) , * 08.02.1995 , einzelvertretungsberechtigt"
+                "text": " Serce, Kaan Cem, Friedberg (Hessen), *08.02.1995, einzelvertretungsberechtigt"
             }
         ]
     }

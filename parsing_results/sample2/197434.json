@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=197434&land_abk=hh"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Kretschmer",
                     "name": "Helmut Fabian"
                 },
-                "text": " Kretschmer , Helmut Fabian , Hamburg , * 04.10.1982 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hamburg",
-                    "dob": "1982-04-10",
-                    "lastname": "Kretschmer",
-                    "name": "Helmut Fabian"
-                },
-                "text": " Kretschmer , Helmut Fabian , Hamburg , * 04.10.1982 ."
+                "text": " Kretschmer, Helmut Fabian, Hamburg, *04.10.1982."
             }
         ]
     }

@@ -21,11 +21,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Dresden",
+                    "dismissed": true,
                     "dob": "1972-02-15",
                     "lastname": "Bormann",
                     "name": "Peggy"
                 },
-                "text": " Bormann , Peggy , Dresden , * 15.02.1972 ."
+                "text": " Bormann, Peggy, Dresden, *15.02.1972."
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Kansy",
                     "name": "Carina"
                 },
-                "text": " Kansy , Carina , Leipzig , * 02.10.1976 ."
+                "text": " Kansy, Carina, Leipzig, *02.10.1976."
             }
         ]
     }

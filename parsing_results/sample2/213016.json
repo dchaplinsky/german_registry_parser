@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
@@ -32,17 +32,18 @@
                     "lastname": "Eitel",
                     "name": "Peter geborene Keller"
                 },
-                "text": " Eitel , Peter geborene Keller , Donsieders , * 22.10.1981 , einzelvertretungsberechtigt"
+                "text": " Eitel, Peter geborene Keller, Donsieders, *22.10.1981, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "St . Ingbert",
+                    "city": "St. Ingbert",
+                    "dismissed": true,
                     "dob": "1973-07-11",
                     "lastname": "Musso",
                     "name": "Giuseppe"
                 },
-                "text": " Musso , Giuseppe , St . Ingbert , * 07.11.1973 ."
+                "text": " Musso, Giuseppe, St. Ingbert, *07.11.1973."
             }
         ]
     }

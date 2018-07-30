@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1952-07-08",
                     "lastname": "Büttner",
                     "name": "Reinhard"
                 },
-                "text": " Büttner , Reinhard , München , * 07.08.1952 ."
+                "text": " Büttner, Reinhard, München, *07.08.1952."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1961-08-30",
                     "lastname": "Albrecht",
                     "name": "Werner"
                 },
-                "text": " Albrecht , Werner , München , * 30.08.1961 ."
+                "text": " Albrecht, Werner, München, *30.08.1961."
             }
         ]
     }

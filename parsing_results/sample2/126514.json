@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=126514&land_abk=ni"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Zimmermann",
                     "name": "Susanne"
                 },
-                "text": " Zimmermann , Susanne , Braunschweig , * 22.10.1980 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Braunschweig",
-                    "dob": "1980-10-22",
-                    "lastname": "Zimmermann",
-                    "name": "Susanne"
-                },
-                "text": " Zimmermann , Susanne , Braunschweig , * 22.10.1980 ."
+                "text": " Zimmermann, Susanne, Braunschweig, *22.10.1980."
             }
         ]
     }

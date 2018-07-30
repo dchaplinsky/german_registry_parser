@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Flinger Str ."
+                "text": " Flinger Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1965-02-17",
                     "lastname": "Wildhofer",
                     "name": "Regine"
                 },
-                "text": " Wildhofer , Regine , München , * 17.02.1965 ."
+                "text": " Wildhofer, Regine, München, *17.02.1965."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
                     "dob": "1942-06-06",
@@ -42,17 +43,18 @@
                     "lastname": "Schilling",
                     "name": "Jürgen"
                 },
-                "text": " Schilling , Jürgen , Düsseldorf , * 06.06.1942 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schilling, Jürgen, Düsseldorf, *06.06.1942, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Obernkirchen",
+                    "dismissed": true,
                     "dob": "1977-01-28",
                     "lastname": "Struckmeier",
                     "name": "Frauke"
                 },
-                "text": " Struckmeier , Frauke , Obernkirchen , * 28.01.1977 ."
+                "text": " Struckmeier, Frauke, Obernkirchen, *28.01.1977."
             }
         ]
     }

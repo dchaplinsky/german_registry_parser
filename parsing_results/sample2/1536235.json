@@ -19,30 +19,31 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Westfalenstr ."
+                "text": " Westfalenstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Neu - Isenburg",
+                    "city": "Neu-Isenburg",
                     "dob": "1963-04-01",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Ilhan",
                     "name": "Ensar"
                 },
-                "text": " Ilhan , Ensar , Neu - Isenburg , * 04.01.1963 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Ilhan, Ensar, Neu-Isenburg, *04.01.1963, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Sarkisla / Sivas / Türkei",
+                    "city": "Sarkisla/Sivas / Türkei",
+                    "dismissed": true,
                     "dob": "1985-01-03",
                     "lastname": "Özbek",
                     "name": "Ismail"
                 },
-                "text": " Özbek , Ismail , Sarkisla / Sivas / Türkei , * 01.03.1985 ."
+                "text": " Özbek, Ismail, Sarkisla/Sivas / Türkei, *01.03.1985."
             }
         ]
     }

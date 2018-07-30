@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Utting a . Ammersee",
+                    "city": "Utting a.Ammersee",
+                    "dismissed": true,
                     "dob": "1981-01-10",
                     "lastname": "Kuriat",
                     "name": "Thomas"
                 },
-                "text": " Kuriat , Thomas , Utting a . Ammersee , * 01.10.1981 ."
+                "text": " Kuriat, Thomas, Utting a.Ammersee, *01.10.1981."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Utting am Ammersee",
                     "dob": "1969-01-15",
@@ -42,7 +43,7 @@
                     "lastname": "Kuriat",
                     "name": "Daniela Simone"
                 },
-                "text": " Kuriat , Daniela Simone , Utting am Ammersee , * 15.01.1969 , einzelvertretungsberechtigt"
+                "text": " Kuriat, Daniela Simone, Utting am Ammersee, *15.01.1969, einzelvertretungsberechtigt"
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Elbingerode",
+                    "dismissed": true,
                     "dob": "1947-08-10",
                     "lastname": "Vollmer",
                     "name": "Sabine"
                 },
-                "text": " Vollmer , Sabine , Elbingerode , * 08.10.1947 ."
+                "text": " Vollmer, Sabine, Elbingerode, *08.10.1947."
             }
         ]
     }

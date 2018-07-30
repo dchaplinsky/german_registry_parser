@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Große Straße 90 , 49377 Vechta ."
+                "text": " Große Straße 90, 49377 Vechta."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Vechta",
+                    "dismissed": true,
                     "dob": "1965-04-20",
                     "lastname": "Rittstieg",
                     "name": "Klaus"
                 },
-                "text": " Rittstieg , Klaus , Vechta , * 20.04.1965 ."
+                "text": " Rittstieg, Klaus, Vechta, *20.04.1965."
             }
         ]
     }

@@ -19,25 +19,25 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Lauferstraße 27-28 , 12159 Berlin Vertretungsregelung : Ist ein Liquidator bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " Geschäftsanschrift: Lauferstraße 27-28, 12159 Berlin Vertretungsregelung: Ist ein Liquidator bestellt, so vertritt er die Gesellschaft allein."
             },
             {
                 "label": "address",
-                "text": " Lauferstraße 27-28 , 12159 Berlin Vertretungsregelung : Ist ein Liquidator bestellt , so vertritt er die Gesellschaft allein ."
+                "text": " Lauferstraße 27-28, 12159 Berlin Vertretungsregelung: Ist ein Liquidator bestellt, so vertritt er die Gesellschaft allein."
             }
         ],
         "officers": [
@@ -49,23 +49,16 @@
                     "lastname": "Ben Dor",
                     "name": "Yonatan"
                 },
-                "text": " Ben Dor , Yonatan , * 08.12.1963 , Berlin"
+                "text": " Ben Dor, Yonatan, *08.12.1963, Berlin"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Chodkowski",
-                    "name": "Krzystof Rechtsverhaeltnis : Durch Beschluss der Gesellschafterversammlung vom 14.12.2012 ist die Gesellschaft aufgelöst"
+                    "name": "Krzystof Rechtsverhaeltnis: Durch Beschluss der Gesellschafterversammlung vom 14.12.2012 ist die Gesellschaft aufgelöst"
                 },
-                "text": " Chodkowski , Krzystof Rechtsverhaeltnis : Durch Beschluss der Gesellschafterversammlung vom 14.12.2012 ist die Gesellschaft aufgelöst .."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Nicht mehr Prokurist : Chodkowski",
-                    "name": "Krzystof Rechtsverhaeltnis : Durch Beschluss der Gesellschafterversammlung vom 14.12.2012 ist die Gesellschaft aufgelöst"
-                },
-                "text": " Nicht mehr Prokurist : Chodkowski , Krzystof Rechtsverhaeltnis : Durch Beschluss der Gesellschafterversammlung vom 14.12.2012 ist die Gesellschaft aufgelöst .."
+                "text": " Chodkowski, Krzystof Rechtsverhaeltnis: Durch Beschluss der Gesellschafterversammlung vom 14.12.2012 ist die Gesellschaft aufgelöst.."
             }
         ]
     }

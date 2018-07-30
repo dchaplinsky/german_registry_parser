@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1960-12-27",
                     "lastname": "Yoro",
                     "name": "Toshihiro"
                 },
-                "text": " Yoro , Toshihiro , Düsseldorf , * 27.12.1960 ."
+                "text": " Yoro, Toshihiro, Düsseldorf, *27.12.1960."
             }
         ]
     }

@@ -16,28 +16,23 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=144128&land_abk=hh"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "labels": [
             {
                 "label": "address",
-                "text": " Bramfelder Chaussee 41 , 22177 Hamburg ."
+                "text": " Bramfelder Chaussee 41, 22177 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "lastname": "Lux",
                     "name": "Helmar",
                     "position": "Kaufmann"
                 },
-                "text": " Lux , Helmar , Kaufmann , Hamburg ."
+                "text": " Lux, Helmar, Kaufmann, Hamburg."
             },
             {
                 "class": "SingleProcuration",
@@ -47,17 +42,7 @@
                     "lastname": "Dosch",
                     "name": "Karen"
                 },
-                "text": " Dosch , Karen , Hamburg , * 04.10.1971 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hamburg",
-                    "dob": "1971-04-10",
-                    "lastname": "Dosch",
-                    "name": "Karen"
-                },
-                "text": " Dosch , Karen , Hamburg , * 04.10.1971 ."
+                "text": " Dosch, Karen, Hamburg, *04.10.1971."
             }
         ]
     }

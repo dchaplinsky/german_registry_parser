@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " c / o Kanzlei Zitzelsberger & Partner , Maximiliansplatz 10 , 80333 München ."
+                "text": " c/o Kanzlei Zitzelsberger & Partner, Maximiliansplatz 10, 80333 München."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1968-11-04",
                     "lastname": "Gogalla",
                     "name": "Katja"
                 },
-                "text": " Gogalla , Katja , München , * 11.04.1968"
+                "text": " Gogalla, Katja, München, *11.04.1968"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wien / Österreich",
                     "dob": "1981-07-08",
                     "lastname": "Boas",
                     "name": "Yeshayahu"
                 },
-                "text": " Boas , Yeshayahu , Wien / Österreich , * 07.08.1981"
+                "text": " Boas, Yeshayahu, Wien / Österreich, *07.08.1981"
             }
         ]
     }

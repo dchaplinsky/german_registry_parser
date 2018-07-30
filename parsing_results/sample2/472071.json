@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=472071&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Bach",
                     "name": "Manuel"
                 },
-                "text": " Bach , Manuel , Butzbach , * 02.10.1972 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Butzbach",
-                    "dob": "1972-02-10",
-                    "lastname": "Bach",
-                    "name": "Manuel"
-                },
-                "text": " Bach , Manuel , Butzbach , * 02.10.1972 ."
+                "text": " Bach, Manuel, Butzbach, *02.10.1972."
             }
         ]
     }

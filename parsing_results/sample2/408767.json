@@ -19,55 +19,57 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Backnang",
                     "dob": "1970-03-24",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Dr . Heymann - Vassholz",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Doctor Heymann-Vassholz",
                     "name": "Ilke"
                 },
-                "text": " Dr . Heymann - Vassholz , Ilke , Backnang , * 24.03.1970 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Heymann-Vassholz, Ilke, Backnang, *24.03.1970, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Bloomfield Hills ( USA ) / Vereinigte Staaten",
+                    "city": "Bloomfield Hills (USA) / Vereinigte Staaten",
                     "dob": "1965-04-21",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Waldhelm",
                     "name": "Torsten"
                 },
-                "text": " Waldhelm , Torsten , Bloomfield Hills ( USA ) / Vereinigte Staaten , * 21.04.1965 , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Waldhelm, Torsten, Bloomfield Hills (USA) / Vereinigte Staaten, *21.04.1965, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Marxzell",
+                    "dismissed": true,
                     "dob": "1951-09-05",
                     "lastname": "Hunzelmann",
                     "name": "Herbert"
                 },
-                "text": " Hunzelmann , Herbert , Marxzell , * 09.05.1951 ."
+                "text": " Hunzelmann, Herbert, Marxzell, *09.05.1951."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Backnang",
+                    "dismissed": true,
                     "dob": "1970-03-24",
-                    "lastname": "Dr . Heymann - Vassholz",
+                    "lastname": "Doctor Heymann-Vassholz",
                     "name": "Ilke"
                 },
-                "text": " Dr . Heymann - Vassholz , Ilke , Backnang , * 24.03.1970 ."
+                "text": " Doctor Heymann-Vassholz, Ilke, Backnang, *24.03.1970."
             }
         ]
     }

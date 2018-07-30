@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Konstanz",
+                    "dismissed": true,
                     "dob": "1967-11-06",
                     "lastname": "Wirth",
                     "name": "Andreas"
                 },
-                "text": " Wirth , Andreas , Konstanz , * 11.06.1967 ."
+                "text": " Wirth, Andreas, Konstanz, *11.06.1967."
             }
         ]
     }

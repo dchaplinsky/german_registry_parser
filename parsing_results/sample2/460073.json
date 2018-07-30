@@ -18,26 +18,26 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Burgweg 29 , 64625 Bensheim ."
+                "text": " Burgweg 29, 64625 Bensheim."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Griesheim",
                     "dob": "1956-07-31",
                     "lastname": "Guck",
                     "name": "Franz Herbert"
                 },
-                "text": " Guck , Franz Herbert , Griesheim , * 31.07.1956"
+                "text": " Guck, Franz Herbert, Griesheim, *31.07.1956"
             }
         ]
     }

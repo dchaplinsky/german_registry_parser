@@ -18,14 +18,14 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Nobelstraße 12 , 70569 Stuttgart ."
+                "text": " Nobelstraße 12, 70569 Stuttgart."
             }
         ],
         "officers": [
@@ -34,10 +34,10 @@
                 "payload": {
                     "city": "Stuttgart",
                     "dob": "1959-12-13",
-                    "lastname": "Dr . Schloske",
+                    "lastname": "Doctor Schloske",
                     "name": "Alexander"
                 },
-                "text": " Dr . Schloske , Alexander , Stuttgart , * 13.12.1959 ."
+                "text": " Doctor Schloske, Alexander, Stuttgart, *13.12.1959."
             }
         ]
     }

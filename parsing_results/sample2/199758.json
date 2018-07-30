@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Burchardstraße 17 , 20095 Hamburg ."
+                "text": " Burchardstraße 17, 20095 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Pinneberg",
+                    "dismissed": true,
                     "dob": "1977-04-11",
                     "lastname": "Trockel",
                     "name": "Christoph"
                 },
-                "text": " Trockel , Christoph , Pinneberg , * 04.11.1977 ."
+                "text": " Trockel, Christoph, Pinneberg, *04.11.1977."
             }
         ]
     }

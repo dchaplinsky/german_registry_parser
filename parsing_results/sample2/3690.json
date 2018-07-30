@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Solingen",
+                    "dismissed": true,
                     "lastname": "Bringmann",
                     "name": "Bernd",
                     "position": "kaufmännischer Angestellter"
                 },
-                "text": " Bringmann , Bernd , kaufmännischer Angestellter , Solingen ."
+                "text": " Bringmann, Bernd, kaufmännischer Angestellter, Solingen."
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Grötzinger",
                     "name": "Rainer"
                 },
-                "text": " Grötzinger , Rainer , Essingen , * 25.10.1966 ."
+                "text": " Grötzinger, Rainer, Essingen, *25.10.1966."
             }
         ]
     }

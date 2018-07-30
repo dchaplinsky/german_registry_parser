@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Aachen",
+                    "dismissed": true,
                     "dob": "1957-02-07",
                     "lastname": "Majewsky",
                     "name": "Margarete - genannt Marga -"
                 },
-                "text": " Majewsky , Margarete - genannt Marga - , Aachen , * 02.07.1957 ."
+                "text": " Majewsky, Margarete - genannt Marga -, Aachen, *02.07.1957."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Aachen",
                     "dob": "1957-02-23",
@@ -36,17 +37,18 @@
                     "lastname": "Majewsky",
                     "name": "Konrad"
                 },
-                "text": " Majewsky , Konrad , Aachen , * 23.02.1957 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Majewsky, Konrad, Aachen, *23.02.1957, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Aachen",
+                    "dismissed": true,
                     "dob": "1957-02-23",
                     "lastname": "Majewsky",
                     "name": "Konrad"
                 },
-                "text": " Majewsky , Konrad , Aachen , * 23.02.1957 ."
+                "text": " Majewsky, Konrad, Aachen, *23.02.1957."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bretzfeld",
+                    "dismissed": true,
                     "dob": "1991-04-29",
                     "lastname": "Thomas",
                     "name": "Christoph Peter"
                 },
-                "text": " Thomas , Christoph Peter , Bretzfeld , * 29.04.1991 ."
+                "text": " Thomas, Christoph Peter, Bretzfeld, *29.04.1991."
             }
         ]
     }

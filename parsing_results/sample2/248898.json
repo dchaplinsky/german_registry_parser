@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kirchen",
+                    "dismissed": true,
                     "dob": "1958-06-03",
                     "lastname": "Theis",
                     "name": "Michael"
                 },
-                "text": " Theis , Michael , Kirchen , * 06.03.1958 ."
+                "text": " Theis, Michael, Kirchen, *06.03.1958."
             }
         ]
     }

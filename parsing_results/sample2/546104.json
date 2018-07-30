@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Glashütten",
                     "dob": "1963-04-18",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Oberreuter",
                     "name": "Peter"
                 },
-                "text": " Oberreuter , Peter , Glashütten , * 18.04.1963 , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Oberreuter, Peter, Glashütten, *18.04.1963, mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Paris / Frankreich",
+                    "dismissed": true,
                     "dob": "1955-04-13",
                     "lastname": "Misteli",
                     "name": "Philippe"
                 },
-                "text": " Misteli , Philippe , Paris / Frankreich , * 13.04.1955"
+                "text": " Misteli, Philippe, Paris / Frankreich, *13.04.1955"
             }
         ]
     }

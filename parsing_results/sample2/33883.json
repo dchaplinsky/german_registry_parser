@@ -19,23 +19,24 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1936-07-23",
                     "lastname": "Todsen",
                     "name": "Bendix"
                 },
-                "text": " Todsen , Bendix , Hamburg , * 23.07.1936"
+                "text": " Todsen, Bendix, Hamburg, *23.07.1936"
             },
             {
                 "class": "Liquidator",
@@ -46,7 +47,7 @@
                     "lastname": "von der Heydt",
                     "name": "Joachim"
                 },
-                "text": " von der Heydt , Joachim , Hamburg , * 26.01.1942 , einzelvertretungsberechtigt"
+                "text": " von der Heydt, Joachim, Hamburg, *26.01.1942, einzelvertretungsberechtigt"
             }
         ]
     }

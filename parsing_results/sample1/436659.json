@@ -18,23 +18,24 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Van Waeyenberge",
                     "name": "Martin"
                 },
-                "text": " Van Waeyenberge , Martin ."
+                "text": " Van Waeyenberge, Martin."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Beveren / Belgien",
+                    "city": "Beveren/Belgien",
                     "dob": "1964-06-25",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Deschuytere",
                     "name": "Frank"
                 },
-                "text": " Deschuytere , Frank , Beveren / Belgien , * 25.06.1964 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Deschuytere, Frank, Beveren/Belgien, *25.06.1964, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

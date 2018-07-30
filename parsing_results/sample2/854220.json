@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Eching",
+                    "dismissed": true,
                     "dob": "1980-12-31",
                     "lastname": "Kukolj",
                     "name": "Aleksandra"
                 },
-                "text": " Kukolj , Aleksandra , Eching , * 31.12.1980 ."
+                "text": " Kukolj, Aleksandra, Eching, *31.12.1980."
             }
         ]
     }

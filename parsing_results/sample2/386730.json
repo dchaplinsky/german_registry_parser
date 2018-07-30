@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1961-06-26",
                     "lastname": "Haller",
-                    "name": "Peter v . Hallerstein"
+                    "name": "Peter v. Hallerstein"
                 },
-                "text": " Haller , Peter v . Hallerstein , München , * 26.06.1961 ."
+                "text": " Haller, Peter v. Hallerstein, München, *26.06.1961."
             }
         ]
     }

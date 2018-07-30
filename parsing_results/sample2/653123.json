@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hüfingen",
+                    "dismissed": true,
                     "dob": "1949-06-22",
                     "lastname": "Rothmund",
                     "name": "Heinz"
                 },
-                "text": " Rothmund , Heinz , Hüfingen , * 22.06.1949 ."
+                "text": " Rothmund, Heinz, Hüfingen, *22.06.1949."
             }
         ]
     }

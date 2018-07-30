@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=289069&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Römer",
                     "name": "Christian"
                 },
-                "text": " Römer , Christian , Pliening , * 19.10.1970 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Pliening",
-                    "dob": "1970-10-19",
-                    "lastname": "Römer",
-                    "name": "Christian"
-                },
-                "text": " Römer , Christian , Pliening , * 19.10.1970 ."
+                "text": " Römer, Christian, Pliening, *19.10.1970."
             }
         ]
     }

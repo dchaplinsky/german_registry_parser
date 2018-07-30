@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=132163&land_abk=ni"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Amelinghausen",
+                    "dismissed": true,
                     "dob": "1952-10-28",
                     "lastname": "Köhler",
                     "name": "Wolfgang"
                 },
-                "text": " Köhler , Wolfgang , Amelinghausen , * 28.10.1952 ."
+                "text": " Köhler, Wolfgang, Amelinghausen, *28.10.1952."
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +36,7 @@
                     "lastname": "Löwensen",
                     "name": "Jens"
                 },
-                "text": " Löwensen , Jens , Hamburg , * 11.08.1961 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hamburg",
-                    "dob": "1961-11-08",
-                    "lastname": "Löwensen",
-                    "name": "Jens"
-                },
-                "text": " Löwensen , Jens , Hamburg , * 11.08.1961 ."
+                "text": " Löwensen, Jens, Hamburg, *11.08.1961."
             }
         ]
     }

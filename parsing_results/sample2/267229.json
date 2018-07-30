@@ -19,39 +19,41 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Eschborner Landstr ."
+                "text": " Eschborner Landstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kiedrich",
+                    "dismissed": true,
                     "dob": "1967-03-29",
                     "lastname": "Schenk",
                     "name": "Michael"
                 },
-                "text": " Schenk , Michael , Kiedrich , * 29.03.1967 ."
+                "text": " Schenk, Michael, Kiedrich, *29.03.1967."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Laubach - Münster",
+                    "city": "Laubach-Münster",
                     "dob": "1966-04-20",
                     "lastname": "Fisches",
                     "name": "Peter"
                 },
-                "text": " Fisches , Peter , Laubach - Münster , * 20.04.1966"
+                "text": " Fisches, Peter, Laubach-Münster, *20.04.1966"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Laubach - Münster",
+                    "city": "Laubach-Münster",
+                    "dismissed": true,
                     "dob": "1966-04-20",
                     "lastname": "Fisches",
                     "name": "Peter"
                 },
-                "text": " Fisches , Peter , Laubach - Münster , * 20.04.1966 ."
+                "text": " Fisches, Peter, Laubach-Münster, *20.04.1966."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Dortmund",
+                    "dismissed": true,
                     "dob": "1934-10-20",
                     "lastname": "Scherpel",
                     "name": "Josef"
                 },
-                "text": " Scherpel , Josef , Dortmund , * 20.10.1934 ."
+                "text": " Scherpel, Josef, Dortmund, *20.10.1934."
             }
         ]
     }

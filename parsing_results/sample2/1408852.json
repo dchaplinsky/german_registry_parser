@@ -16,22 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1408852&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1951-03-31",
                     "lastname": "Goßen",
                     "name": "Bernhard"
                 },
-                "text": " Goßen , Bernhard , Düsseldorf , * 31.03.1951 ."
+                "text": " Goßen, Bernhard, Düsseldorf, *31.03.1951."
             },
             {
                 "class": "PersonalPartner",
@@ -42,7 +37,7 @@
                     "lastname": "Goßen",
                     "name": "Nadine"
                 },
-                "text": " Goßen , Nadine , Hilden , * 28.12.1980 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Goßen, Nadine, Hilden, *28.12.1980, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",
@@ -52,17 +47,7 @@
                     "lastname": "Goßen",
                     "name": "Bernhard"
                 },
-                "text": " Goßen , Bernhard , Hilden , * 31.03.1951 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hilden",
-                    "dob": "1951-03-31",
-                    "lastname": "Goßen",
-                    "name": "Bernhard"
-                },
-                "text": " Goßen , Bernhard , Hilden , * 31.03.1951 ."
+                "text": " Goßen, Bernhard, Hilden, *31.03.1951."
             }
         ]
     }

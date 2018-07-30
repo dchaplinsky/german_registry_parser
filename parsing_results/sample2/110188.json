@@ -19,7 +19,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Naatz , Sylvia , Niedernhausen , * 11.02.1956 , Geschäftsführer : Naatz , Heinz , Niedernhausen , * 18.01.1949 ., error text was no valid patter found, number of chunks: 8"
+                "text": "Cannot parse a ManagingDirector from  Naatz, Sylvia, Niedernhausen, *11.02.1956, Geschäftsführer: Naatz, Heinz, Niedernhausen, *18.01.1949., error text was no valid patter found, number of chunks: 8"
             }
         ],
         "officers": [
@@ -31,7 +31,7 @@
                     "lastname": "Naatz",
                     "name": "Heinz"
                 },
-                "text": " Naatz , Heinz , Niedernhausen , * 18.01.1949 ."
+                "text": " Naatz, Heinz, Niedernhausen, *18.01.1949."
             }
         ]
     }

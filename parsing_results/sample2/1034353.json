@@ -25,17 +25,18 @@
                     "lastname": "Stratmann",
                     "name": "Frank"
                 },
-                "text": " Stratmann , Frank , Paderborn , * 10.10.1963 ."
+                "text": " Stratmann, Frank, Paderborn, *10.10.1963."
             },
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Paderborn",
+                    "dismissed": true,
                     "dob": "1948-02-23",
                     "lastname": "Sperling",
                     "name": "Günter"
                 },
-                "text": " Sperling , Günter , Paderborn , * 23.02.1948 ."
+                "text": " Sperling, Günter, Paderborn, *23.02.1948."
             }
         ]
     }

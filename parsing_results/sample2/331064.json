@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Strasbourg / Frankreich",
+                    "city": "Strasbourg/Frankreich",
                     "dob": "1975-08-11",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Ghaemian",
                     "name": "Soheyl"
                 },
-                "text": " Ghaemian , Soheyl , Strasbourg / Frankreich , * 08.11.1975 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Ghaemian, Soheyl, Strasbourg/Frankreich, *08.11.1975, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Walchwil / Schweiz",
+                    "city": "Walchwil/Schweiz",
+                    "dismissed": true,
                     "dob": "1973-12-08",
                     "lastname": "Pawlowsky",
-                    "name": "Marc - Oliver"
+                    "name": "Marc-Oliver"
                 },
-                "text": " Pawlowsky , Marc - Oliver , Walchwil / Schweiz , * 12.08.1973"
+                "text": " Pawlowsky, Marc-Oliver, Walchwil/Schweiz, *12.08.1973"
             }
         ]
     }

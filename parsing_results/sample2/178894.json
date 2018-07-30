@@ -21,11 +21,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Urbach",
+                    "dismissed": true,
                     "dob": "1963-05-13",
                     "lastname": "Fauth",
                     "name": "Gunter"
                 },
-                "text": " Fauth , Gunter , Urbach , * 13.05.1963"
+                "text": " Fauth, Gunter, Urbach, *13.05.1963"
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +36,7 @@
                     "lastname": "Fliß",
                     "name": "Georg"
                 },
-                "text": " Fliß , Georg , Eltville am Rhein , * 18.06.1971"
+                "text": " Fliß, Georg, Eltville am Rhein, *18.06.1971"
             }
         ]
     }

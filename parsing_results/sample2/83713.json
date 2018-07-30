@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Heusenstamm",
+                    "dismissed": true,
                     "dob": "1963-05-29",
-                    "lastname": "Dr . Jehrke",
+                    "lastname": "Doctor Jehrke",
                     "name": "Michael"
                 },
-                "text": " Dr . Jehrke , Michael , Heusenstamm , * 29.05.1963 ."
+                "text": " Doctor Jehrke, Michael, Heusenstamm, *29.05.1963."
             },
             {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Heusenstamm",
                     "dob": "1963-05-29",
-                    "lastname": "Dr . Jehrke",
+                    "lastname": "Doctor Jehrke",
                     "name": "Michael"
                 },
-                "text": " Dr . Jehrke , Michael , Heusenstamm , * 29.05.1963 ."
+                "text": " Doctor Jehrke, Michael, Heusenstamm, *29.05.1963."
             }
         ]
     }

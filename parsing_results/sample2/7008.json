@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1957-04-16",
-                    "lastname": "Dr . Teichert",
+                    "lastname": "Doctor Teichert",
                     "name": "Torsten"
                 },
-                "text": " Dr . Teichert , Torsten , Hamburg , * 16.04.1957 ."
+                "text": " Doctor Teichert, Torsten, Hamburg, *16.04.1957."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1970-06-24",
@@ -36,7 +37,7 @@
                     "lastname": "Hagemann",
                     "name": "Jan"
                 },
-                "text": " Hagemann , Jan , Hamburg , * 24.06.1970 , vertretungsberechtigt gemeinsam mit einem der Geschäftsführer Ulrich Schittek oder Volker Vormberg"
+                "text": " Hagemann, Jan, Hamburg, *24.06.1970, vertretungsberechtigt gemeinsam mit einem der Geschäftsführer Ulrich Schittek oder Volker Vormberg"
             },
             {
                 "class": "ManagingDirector",
@@ -46,7 +47,7 @@
                     "lastname": "Schittek",
                     "name": "Ulrich"
                 },
-                "text": " Schittek , Ulrich , Hamburg , * 03.04.1962"
+                "text": " Schittek, Ulrich, Hamburg, *03.04.1962"
             }
         ]
     }

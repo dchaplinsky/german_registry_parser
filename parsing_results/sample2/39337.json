@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Geleitstr ."
+                "text": " Geleitstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Dortmund",
+                    "dismissed": true,
                     "dob": "1963-04-19",
                     "lastname": "Limberg",
                     "name": "Ralf"
                 },
-                "text": " Limberg , Ralf , Dortmund , * 19.04.1963 ."
+                "text": " Limberg, Ralf, Dortmund, *19.04.1963."
             },
             {
                 "class": "ManagingDirector",
@@ -42,7 +43,7 @@
                     "lastname": "Freind",
                     "name": "Günter"
                 },
-                "text": " Freind , Günter , Isserstedt , * 08.06.1957 , einzelvertretungsberechtigt ."
+                "text": " Freind, Günter, Isserstedt, *08.06.1957, einzelvertretungsberechtigt."
             }
         ]
     }

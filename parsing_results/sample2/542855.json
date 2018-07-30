@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mühltal",
+                    "dismissed": true,
                     "dob": "1956-07-27",
                     "lastname": "Fendrich",
                     "name": "Michael"
                 },
-                "text": " Fendrich , Michael , Mühltal , * 27.07.1956 ."
+                "text": " Fendrich, Michael, Mühltal, *27.07.1956."
             }
         ]
     }

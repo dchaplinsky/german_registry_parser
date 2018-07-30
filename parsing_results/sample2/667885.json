@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=667885&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Huber",
                     "name": "Roswitha"
                 },
-                "text": " Huber , Roswitha , Vohburg , * 21.06.1966 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Vohburg",
-                    "dob": "1966-06-21",
-                    "lastname": "Huber",
-                    "name": "Roswitha"
-                },
-                "text": " Huber , Roswitha , Vohburg , * 21.06.1966 ."
+                "text": " Huber, Roswitha, Vohburg, *21.06.1966."
             }
         ]
     }

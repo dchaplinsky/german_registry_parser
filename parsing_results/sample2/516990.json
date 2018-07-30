@@ -19,25 +19,26 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Oberdorf 4 , 56348 Bornich ."
+                "text": " Oberdorf 4, 56348 Bornich."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1969-01-10",
                     "lastname": "Vieth",
                     "name": "Julia"
                 },
-                "text": " Vieth , Julia , Berlin , * 01.10.1969 ."
+                "text": " Vieth, Julia, Berlin, *01.10.1969."
             },
             {
                 "class": "ManagingDirector",
@@ -48,7 +49,7 @@
                     "lastname": "Ma",
                     "name": "Wei"
                 },
-                "text": " Ma , Wei , Bonn , * 29.08.1977 , einzelvertretungsberechtigt"
+                "text": " Ma, Wei, Bonn, *29.08.1977, einzelvertretungsberechtigt"
             }
         ]
     }

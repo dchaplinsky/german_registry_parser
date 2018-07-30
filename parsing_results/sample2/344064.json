@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wolfenbüttel",
+                    "dismissed": true,
                     "dob": "1967-01-22",
                     "lastname": "Elisat",
                     "name": "Astrid"
                 },
-                "text": " Elisat , Astrid , Wolfenbüttel , * 22.01.1967 ."
+                "text": " Elisat, Astrid, Wolfenbüttel, *22.01.1967."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Dorsten",
+                    "dismissed": true,
                     "dob": "1947-02-10",
                     "lastname": "Salamon",
                     "name": "Jürgen"
                 },
-                "text": " Salamon , Jürgen , Dorsten , * 02.10.1947 ."
+                "text": " Salamon, Jürgen, Dorsten, *02.10.1947."
             },
             {
                 "class": "ManagingDirector",
@@ -36,7 +37,7 @@
                     "lastname": "Gehling",
                     "name": "Anselm"
                 },
-                "text": " Gehling , Anselm , Lüdinghausen , * 10.10.1967 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Gehling, Anselm, Lüdinghausen, *10.10.1967, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

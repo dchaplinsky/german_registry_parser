@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Lüneburg",
+                    "dismissed": true,
                     "dob": "1985-12-03",
                     "lastname": "Grote",
                     "name": "Phillip"
                 },
-                "text": " Grote , Phillip , Lüneburg , * 12.03.1985 ."
+                "text": " Grote, Phillip, Lüneburg, *12.03.1985."
             }
         ]
     }

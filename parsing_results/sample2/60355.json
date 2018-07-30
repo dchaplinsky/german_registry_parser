@@ -19,31 +19,26 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Am Wall 9 , 14979 Großbeeren Nicht mehr Geschäftsführer : Flötgen , Dieter"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Flötgen",
                     "name": "Dieter"
                 },
-                "text": " Flötgen , Dieter"
+                "text": " Flötgen, Dieter"
             },
             {
                 "class": "ManagingDirector",
@@ -53,7 +48,7 @@
                     "lastname": "Daoud",
                     "name": "Katja"
                 },
-                "text": " Daoud , Katja , * 16.10.1968 , Berlin"
+                "text": " Daoud, Katja, *16.10.1968, Berlin"
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Steinheim",
+                    "dismissed": true,
                     "dob": "1969-02-16",
                     "lastname": "Willem",
                     "name": "Stephan Willi"
                 },
-                "text": " Willem , Stephan Willi , Steinheim , * 16.02.1969 ."
+                "text": " Willem, Stephan Willi, Steinheim, *16.02.1969."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "lastname": "Silberreiss",
                     "name": "Marion",
                     "position": "Kauffrau"
                 },
-                "text": " Silberreiss , Marion , Kauffrau , Frankfurt am Main ."
+                "text": " Silberreiss, Marion, Kauffrau, Frankfurt am Main."
             }
         ]
     }

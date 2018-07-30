@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -32,17 +32,18 @@
                     "lastname": "Strazdas",
                     "name": "Michael"
                 },
-                "text": " Strazdas , Michael , Langenargen , * 22.10.1969 , einzelvertretungsberechtigt ."
+                "text": " Strazdas, Michael, Langenargen, *22.10.1969, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Langenargen",
+                    "dismissed": true,
                     "dob": "1961-08-31",
                     "lastname": "Pawlicki",
                     "name": "Marc"
                 },
-                "text": " Pawlicki , Marc , Langenargen , * 31.08.1961 ."
+                "text": " Pawlicki, Marc, Langenargen, *31.08.1961."
             }
         ]
     }

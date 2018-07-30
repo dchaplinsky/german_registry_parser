@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Gangelt",
+                    "dismissed": true,
                     "dob": "1944-05-10",
                     "lastname": "Lessing",
                     "name": "Günter"
                 },
-                "text": " Lessing , Günter , Gangelt , * 05.10.1944 ."
+                "text": " Lessing, Günter, Gangelt, *05.10.1944."
             }
         ]
     }

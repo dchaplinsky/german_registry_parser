@@ -19,16 +19,17 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "company_name": " DELOS Equity Verwaltungs GmbH , Neubiberg ( Amtsgericht München , HRB 154533 ) ."
+                    "company_name": " DELOS Equity Verwaltungs GmbH, Neubiberg (Amtsgericht München, HRB 154533).",
+                    "dismissed": true
                 },
-                "text": " DELOS Equity Verwaltungs GmbH , Neubiberg ( Amtsgericht München , HRB 154533 ) ."
+                "text": " DELOS Equity Verwaltungs GmbH, Neubiberg (Amtsgericht München, HRB 154533)."
             }
         ]
     }

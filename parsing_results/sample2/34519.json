@@ -25,15 +25,16 @@
                     "lastname": "Thielemann",
                     "name": "Steffen"
                 },
-                "text": " Thielemann , Steffen , * 22.09.1975 , Treuenbrietzen"
+                "text": " Thielemann, Steffen, *22.09.1975, Treuenbrietzen"
             },
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Thielemann",
                     "name": "Marianne"
                 },
-                "text": " Thielemann , Marianne"
+                "text": " Thielemann, Marianne"
             }
         ]
     }

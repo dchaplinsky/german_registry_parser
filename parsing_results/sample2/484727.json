@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Jägerpfad 12 , 14822 Borkheide ."
+                "text": " Jägerpfad 12, 14822 Borkheide."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mülheim",
+                    "dismissed": true,
                     "dob": "1970-02-11",
                     "lastname": "Reerink",
                     "name": "Nina"
                 },
-                "text": " Reerink , Nina , Mülheim , * 02.11.1970 ."
+                "text": " Reerink, Nina, Mülheim, *02.11.1970."
             }
         ]
     }

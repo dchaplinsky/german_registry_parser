@@ -19,29 +19,26 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Hutstr ."
+                "text": " Hutstr."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "city": "Neustadt b . Coburg",
+                    "city": "Neustadt b. Coburg",
+                    "dismissed": true,
                     "dob": "1924-05-21",
                     "lastname": "Bätz",
                     "name": "Arno"
                 },
-                "text": " Bätz , Arno , Neustadt b . Coburg , * 21.05.1924 ."
+                "text": " Bätz, Arno, Neustadt b. Coburg, *21.05.1924."
             },
             {
                 "class": "PersonalPartner",
@@ -52,27 +49,17 @@
                     "lastname": "Bätz",
                     "name": "Manfred"
                 },
-                "text": " Bätz , Manfred , Hong Kong , * 12.04.1947 , einzelvertretungsberechtigt"
+                "text": " Bätz, Manfred, Hong Kong, *12.04.1947, einzelvertretungsberechtigt"
             },
             {
                 "class": "SingleProcuration",
                 "payload": {
-                    "city": "Neustadt b . Coburg",
+                    "city": "Neustadt b. Coburg",
                     "dob": "1968-04-30",
                     "lastname": "Bätz",
                     "name": "Sandra"
                 },
-                "text": " Bätz , Sandra , Neustadt b . Coburg , * 30.04.1968 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Neustadt b . Coburg",
-                    "dob": "1968-04-30",
-                    "lastname": "Bätz",
-                    "name": "Sandra"
-                },
-                "text": " Bätz , Sandra , Neustadt b . Coburg , * 30.04.1968 ."
+                "text": " Bätz, Sandra, Neustadt b. Coburg, *30.04.1968."
             }
         ]
     }

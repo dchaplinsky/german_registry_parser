@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bad Hersfeld",
+                    "dismissed": true,
                     "dob": "1940-04-12",
                     "lastname": "Noack",
                     "name": "Heinz Herbert"
                 },
-                "text": " Noack , Heinz Herbert , Bad Hersfeld , * 04.12.1940 ."
+                "text": " Noack, Heinz Herbert, Bad Hersfeld, *04.12.1940."
             }
         ]
     }

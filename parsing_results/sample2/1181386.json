@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Arnsberg",
+                    "dismissed": true,
                     "dob": "1970-04-25",
                     "lastname": "Henker",
                     "name": "Oliver Ernst"
                 },
-                "text": " Henker , Oliver Ernst , Arnsberg , * 25.04.1970 ."
+                "text": " Henker, Oliver Ernst, Arnsberg, *25.04.1970."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Parthenstein OT Großsteinberg",
+                    "dismissed": true,
                     "dob": "1941-02-05",
                     "lastname": "Hergert",
                     "name": "Hans"
                 },
-                "text": " Hergert , Hans , Parthenstein OT Großsteinberg , * 02.05.1941 ."
+                "text": " Hergert, Hans, Parthenstein OT Großsteinberg, *02.05.1941."
             }
         ]
     }

@@ -19,23 +19,24 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Villa Garibaldi di Roncoferraro ( MN ) / Italien",
+                    "city": "Villa Garibaldi di Roncoferraro (MN)/Italien",
+                    "dismissed": true,
                     "dob": "1963-07-18",
                     "lastname": "Corneliani",
                     "name": "Cristiano"
                 },
-                "text": " Corneliani , Cristiano , Villa Garibaldi di Roncoferraro ( MN ) / Italien , * 18.07.1963 ."
+                "text": " Corneliani, Cristiano, Villa Garibaldi di Roncoferraro (MN)/Italien, *18.07.1963."
             },
             {
                 "class": "Liquidator",
@@ -43,10 +44,10 @@
                     "city": "Mantua / Italien",
                     "dob": "1956-08-14",
                     "flag": "sole representation",
-                    "lastname": "Corneliani",
+                    "lastname": ": Corneliani",
                     "name": "Maurizio"
                 },
-                "text": " Corneliani , Maurizio , Mantua / Italien , * 14.08.1956 , einzelvertretungsberechtigt"
+                "text": ": Corneliani, Maurizio, Mantua / Italien, *14.08.1956, einzelvertretungsberechtigt"
             }
         ]
     }

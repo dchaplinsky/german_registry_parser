@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Goorstorfer Straße 7 , 18182 Bentwisch ."
+                "text": " Goorstorfer Straße 7, 18182 Bentwisch."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1944-07-22",
                     "lastname": "Fronzek",
                     "name": "Michael"
                 },
-                "text": " Fronzek , Michael , Berlin , * 22.07.1944 ."
+                "text": " Fronzek, Michael, Berlin, *22.07.1944."
             }
         ]
     }

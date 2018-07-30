@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -32,17 +32,18 @@
                     "lastname": "Paffhausen",
                     "name": "Eric"
                 },
-                "text": " Paffhausen , Eric , Linz am Rhein , * 30.04.1988 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Paffhausen, Eric, Linz am Rhein, *30.04.1988, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Linz am Rhein",
+                    "dismissed": true,
                     "dob": "1988-04-30",
                     "lastname": "Paffhausen",
                     "name": "Eric"
                 },
-                "text": " Paffhausen , Eric , Linz am Rhein , * 30.04.1988 ."
+                "text": " Paffhausen, Eric, Linz am Rhein, *30.04.1988."
             }
         ]
     }

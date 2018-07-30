@@ -19,53 +19,48 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             },
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Sophienstraße 21 , 23560 Lübeck Gegenstand : Die Entwicklung und der Vertrieb von Businessapplikationen und multimedialen Computeranwendungen sowie der Handel und Vertrieb von Soft - und Hardware sowie das Management von Marketing - Kampagnen Vorstand : Nicht mehr Geschäftsführer : Rohde , Stephan"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Rohde",
                     "name": "Stephan"
                 },
-                "text": " Rohde , Stephan"
+                "text": " Rohde, Stephan"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Berkenthin",
                     "dob": "1959-09-20",
-                    "lastname": "Dr . Gerhus",
+                    "lastname": "Dr. Gerhus",
                     "name": "Ernst"
                 },
-                "text": " Dr . Gerhus , Ernst , * 20.09.1959 , Berkenthin"
+                "text": "Dr. Gerhus, Ernst, *20.09.1959, Berkenthin"
             },
             {
                 "class": "ManagingDirector",
@@ -75,7 +70,7 @@
                     "lastname": "Roppiler",
                     "name": "Markus"
                 },
-                "text": " Roppiler , Markus , * 28.03.1964 , Lübeck"
+                "text": "Roppiler, Markus, *28.03.1964, Lübeck"
             }
         ]
     }

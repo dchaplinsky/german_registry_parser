@@ -23,22 +23,23 @@
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Ernst - Ludwig - Straße 5 , 32361 Preußisch Oldendorf ."
+                "text": " Ernst-Ludwig-Straße 5, 32361 Preußisch Oldendorf."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "company_name": " Levermann Beteiligungs GmbH , Preußisch Oldendorf ( Amtsgericht Bad Oeynhausen HRB 7911 ) ."
+                    "company_name": " Levermann Beteiligungs GmbH, Preußisch Oldendorf (Amtsgericht Bad Oeynhausen HRB 7911).",
+                    "dismissed": true
                 },
-                "text": " Levermann Beteiligungs GmbH , Preußisch Oldendorf ( Amtsgericht Bad Oeynhausen HRB 7911 ) ."
+                "text": " Levermann Beteiligungs GmbH, Preußisch Oldendorf (Amtsgericht Bad Oeynhausen HRB 7911)."
             }
         ]
     }

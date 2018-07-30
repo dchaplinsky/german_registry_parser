@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Wiesbaden ( vormals Saarbrücken )",
+                    "city": "Wiesbaden (vormals Saarbrücken)",
+                    "dismissed": true,
                     "dob": "1962-05-23",
                     "lastname": "Beenken",
                     "name": "Dirk"
                 },
-                "text": " Beenken , Dirk , Wiesbaden ( vormals Saarbrücken ) , * 23.05.1962 ."
+                "text": " Beenken, Dirk, Wiesbaden (vormals Saarbrücken), *23.05.1962."
             }
         ]
     }

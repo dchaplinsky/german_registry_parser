@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -32,17 +32,18 @@
                     "lastname": "Schmidt",
                     "name": "Ernst Ludwig"
                 },
-                "text": " Schmidt , Ernst Ludwig , Hünfelden - Nauheim , * 01.08.1946 , einzelvertretungsberechtigt ."
+                "text": " Schmidt, Ernst Ludwig, Hünfelden - Nauheim, *01.08.1946, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Hünfelden - Nauheim",
+                    "city": "Hünfelden-Nauheim",
+                    "dismissed": true,
                     "dob": "1946-01-08",
                     "lastname": "Schmidt",
                     "name": "Ernst Ludwig"
                 },
-                "text": " Schmidt , Ernst Ludwig , Hünfelden - Nauheim , * 01.08.1946 ."
+                "text": " Schmidt, Ernst Ludwig, Hünfelden-Nauheim, *01.08.1946."
             }
         ]
     }

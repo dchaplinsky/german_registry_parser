@@ -19,29 +19,41 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Harleshäuser Straße 8 , 34130 Kassel ."
+                "text": " Harleshäuser Straße 8, 34130 Kassel."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Ahnatal",
+                    "dismissed": true,
                     "dob": "1956-05-05",
                     "lastname": "Rehak",
                     "name": "Jürgen"
                 },
-                "text": " Rehak , Jürgen , Ahnatal , * 05.05.1956 ."
+                "text": " Rehak, Jürgen, Ahnatal, *05.05.1956."
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Kassel",
+                    "dob": "1954-07-26",
+                    "flag": "sole representation",
+                    "lastname": "in: Rehak-Ludloff",
+                    "name": "Ulrike"
+                },
+                "text": "in: Rehak-Ludloff, Ulrike, Kassel, *26.07.1954, einzelvertretungsberechtigt"
             }
         ]
     }

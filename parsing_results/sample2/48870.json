@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=48870&land_abk=hh"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Hans",
                     "name": "Thomas"
                 },
-                "text": " Hans , Thomas , Hamburg , * 04.07.1968 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hamburg",
-                    "dob": "1968-04-07",
-                    "lastname": "Hans",
-                    "name": "Thomas"
-                },
-                "text": " Hans , Thomas , Hamburg , * 04.07.1968 ."
+                "text": " Hans, Thomas, Hamburg, *04.07.1968."
             }
         ]
     }

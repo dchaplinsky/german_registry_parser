@@ -19,17 +19,18 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
                 "class": "ProcurationCancelled",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Hoffmann Sieglinde",
                     "name": "Bayreuth"
                 },
-                "text": " Hoffmann Sieglinde , Bayreuth ."
+                "text": "Hoffmann Sieglinde, Bayreuth."
             }
         ]
     }

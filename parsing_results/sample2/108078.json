@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Tidestraße 6 , 26388 Wilhelmshaven ."
+                "text": " Tidestraße 6, 26388 Wilhelmshaven."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Wilhelmshaven",
+                    "dismissed": true,
                     "dob": "1954-05-26",
                     "lastname": "Hardieck",
                     "name": "Friedhelm"
                 },
-                "text": " Hardieck , Friedhelm , Wilhelmshaven , * 26.05.1954 ."
+                "text": " Hardieck, Friedhelm, Wilhelmshaven, *26.05.1954."
             }
         ]
     }

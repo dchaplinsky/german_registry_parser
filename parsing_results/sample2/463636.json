@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Höchste Straße 23 , 10249 Berlin ."
+                "text": " Höchste Straße 23, 10249 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Berlin",
                     "dob": "1943-05-19",
                     "lastname": "Jentzsch",
                     "name": "Herbert"
                 },
-                "text": " Jentzsch , Herbert , Berlin , * 19.05.1943 ."
+                "text": " Jentzsch, Herbert, Berlin, *19.05.1943."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Winnenden",
+                    "dismissed": true,
                     "dob": "1964-12-11",
                     "lastname": "Kolter",
                     "name": "Ralf"
                 },
-                "text": " Kolter , Ralf , Winnenden , * 12.11.1964 ."
+                "text": " Kolter, Ralf, Winnenden, *12.11.1964."
             }
         ]
     }

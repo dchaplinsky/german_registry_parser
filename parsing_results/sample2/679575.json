@@ -19,19 +19,24 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Cox , Andrew Darrell , Byfield , Northhamptonshire , England , * 16.03.1965 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen ., error text was no valid patter found, number of chunks: 7"
+                "text": "Cannot parse a AppointedManagingDirector from  Cox, Andrew Darrell, Byfield, Northhamptonshire, England, *16.03.1965, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen., error text was no valid patter found, number of chunks: 7"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Cox, Andrew Darrell, Byfield, Northhamptonshire, England, *16.03.1965, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen., error text was no valid patter found, number of chunks: 7"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Unterhaching",
+                    "dismissed": true,
                     "dob": "1960-06-16",
-                    "lastname": "Dr . Thurnes",
+                    "lastname": "Doctor Thurnes",
                     "name": "Georg"
                 },
-                "text": " Dr . Thurnes , Georg , Unterhaching , * 16.06.1960 ."
+                "text": " Doctor Thurnes, Georg, Unterhaching, *16.06.1960."
             },
             {
                 "class": "CommonProcuration",
@@ -41,7 +46,7 @@
                     "lastname": "Plattner",
                     "name": "Barbla"
                 },
-                "text": " Plattner , Barbla , München , * 17.11.1973"
+                "text": " Plattner, Barbla, München, *17.11.1973"
             }
         ]
     }

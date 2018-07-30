@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -31,17 +31,18 @@
                     "lastname": "Müller",
                     "name": "Andreas"
                 },
-                "text": " Müller , Andreas , Warngau , * 20.08.1972 ."
+                "text": " Müller, Andreas, Warngau, *20.08.1972."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Warngau",
+                    "dismissed": true,
                     "dob": "1967-09-09",
                     "lastname": "Müller",
                     "name": "Susanne"
                 },
-                "text": " Müller , Susanne , Warngau , * 09.09.1967 ."
+                "text": " Müller, Susanne, Warngau, *09.09.1967."
             }
         ]
     }

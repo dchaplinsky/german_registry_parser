@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hofheim am Taunus",
+                    "dismissed": true,
                     "dob": "1953-04-14",
                     "lastname": "Schwerdtle",
                     "name": "Willi"
                 },
-                "text": " Schwerdtle , Willi , Hofheim am Taunus , * 14.04.1953 ."
+                "text": " Schwerdtle, Willi, Hofheim am Taunus, *14.04.1953."
             }
         ]
     }

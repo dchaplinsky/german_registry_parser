@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -31,17 +31,17 @@
                     "lastname": "Sigl",
                     "name": "Kurt"
                 },
-                "text": " Sigl , Kurt , Ingolstadt , * 12.02.1958 ."
+                "text": " Sigl, Kurt, Ingolstadt, *12.02.1958."
             },
             {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Ingolstadt",
                     "dob": "1963-09-03",
-                    "lastname": "Neuber",
+                    "lastname": ": Neuber",
                     "name": "Christian"
                 },
-                "text": " Neuber , Christian , Ingolstadt , * 09.03.1963 ."
+                "text": ": Neuber, Christian, Ingolstadt, *09.03.1963."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Buchenbach",
+                    "dismissed": true,
                     "dob": "1959-04-22",
                     "lastname": "Walter",
                     "name": "Beate"
                 },
-                "text": " Walter , Beate , Buchenbach , * 22.04.1959 ."
+                "text": " Walter, Beate, Buchenbach, *22.04.1959."
             }
         ]
     }

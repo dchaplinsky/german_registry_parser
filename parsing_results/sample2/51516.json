@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mackenbach",
+                    "dismissed": true,
                     "dob": "1965-04-14",
                     "lastname": "Schulz",
                     "name": "Stefan"
                 },
-                "text": " Schulz , Stefan , Mackenbach , * 14.04.1965 ."
+                "text": " Schulz, Stefan, Mackenbach, *14.04.1965."
             }
         ]
     }

@@ -18,30 +18,30 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Kolpingstraße 8 , 92533 Wernberg - Köblitz ."
+                "text": " Kolpingstraße 8, 92533 Wernberg-Köblitz."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Wernberg - Köblitz",
+                    "city": "Wernberg-Köblitz",
                     "dob": "1966-12-09",
                     "lastname": "Kehrer",
                     "name": "Christoph"
                 },
-                "text": " Kehrer , Christoph , Wernberg - Köblitz , * 12.09.1966"
+                "text": " Kehrer, Christoph, Wernberg-Köblitz, *12.09.1966"
             }
         ]
     }

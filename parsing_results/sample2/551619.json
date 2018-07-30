@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Küps",
+                    "dismissed": true,
                     "dob": "1962-04-19",
                     "lastname": "Sell",
                     "name": "Stephan"
                 },
-                "text": " Sell , Stephan , Küps , * 19.04.1962 ."
+                "text": " Sell, Stephan, Küps, *19.04.1962."
             }
         ]
     }

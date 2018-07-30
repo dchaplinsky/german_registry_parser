@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1967-09-14",
                     "lastname": "Gerdau",
                     "name": "Jessika"
                 },
-                "text": " Gerdau , Jessika , Hamburg , * 14.09.1967 ."
+                "text": " Gerdau, Jessika, Hamburg, *14.09.1967."
             }
         ]
     }

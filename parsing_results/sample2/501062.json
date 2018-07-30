@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Karolingerstraße 30 , 85609 Aschheim ."
+                "text": " Karolingerstraße 30, 85609 Aschheim."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1972-03-09",
-                    "lastname": "Dr . Schwandner",
+                    "lastname": "Doctor Schwandner",
                     "name": "Gerd"
                 },
-                "text": " Dr . Schwandner , Gerd , München , * 03.09.1972 ."
+                "text": " Doctor Schwandner, Gerd, München, *03.09.1972."
             }
         ]
     }

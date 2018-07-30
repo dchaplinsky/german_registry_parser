@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Loikumer Rott 11 , 46499 Hamminkeln ."
+                "text": " Loikumer Rott 11, 46499 Hamminkeln."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hamminkeln",
+                    "dismissed": true,
                     "dob": "1964-08-08",
                     "lastname": "Schmidt",
                     "name": "Astrid"
                 },
-                "text": " Schmidt , Astrid , Hamminkeln , * 08.08.1964 ."
+                "text": " Schmidt, Astrid, Hamminkeln, *08.08.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamminkeln",
                     "dob": "1958-12-26",
@@ -42,7 +43,7 @@
                     "lastname": "Schmidt",
                     "name": "Peter"
                 },
-                "text": " Schmidt , Peter , Hamminkeln , * 26.12.1958 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schmidt, Peter, Hamminkeln, *26.12.1958, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

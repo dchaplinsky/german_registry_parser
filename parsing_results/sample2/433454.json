@@ -19,23 +19,24 @@
         "flags": [
             {
                 "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
-                "text": "Sind mehrere Liquidatoren bestellt , wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten ."
+                "text": "Sind\\ mehrere\\ Liquidatoren\\ bestellt\\,\\ wird\\ die\\ Gesellschaft\\ durch\\ s\\ämtliche\\ Liquidatoren\\ gemeinsam\\ vertreten\\."
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Edupolis UG ( haftungsbeschränkt ) , Berlin , Friedrichstraße 68 , 10117 Berlin ."
+                "text": " Edupolis UG (haftungsbeschränkt), Berlin, Friedrichstraße 68, 10117 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Leuenberger",
                     "name": "Stefan Albert"
                 },
-                "text": " Leuenberger , Stefan Albert"
+                "text": " Leuenberger, Stefan Albert"
             },
             {
                 "class": "Liquidator",
@@ -45,7 +46,7 @@
                     "lastname": "Leuenberger",
                     "name": "Stefan Albert"
                 },
-                "text": " Leuenberger , Stefan Albert , * 05.08.1975 , Berlin"
+                "text": " Leuenberger, Stefan Albert, *05.08.1975, Berlin"
             }
         ]
     }

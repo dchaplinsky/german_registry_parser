@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Schwäbisch Hall",
+                    "dismissed": true,
                     "dob": "1960-03-28",
                     "lastname": "Schömer",
                     "name": "Alfons"
                 },
-                "text": " Schömer , Alfons , Schwäbisch Hall , * 28.03.1960 ."
+                "text": " Schömer, Alfons, Schwäbisch Hall, *28.03.1960."
             },
             {
                 "class": "ManagingDirector",
@@ -35,7 +36,7 @@
                     "lastname": "Stolze",
                     "name": "Carina"
                 },
-                "text": " Stolze , Carina , Frankfurt am Main , * 27.12.1979 ."
+                "text": " Stolze, Carina, Frankfurt am Main, *27.12.1979."
             }
         ]
     }

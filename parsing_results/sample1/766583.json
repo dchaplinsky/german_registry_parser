@@ -16,10 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=766583&land_abk=nw"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Dipl . - Finanzwirtin Schweer , Anne , Steuerberaterin , Ahlen , * 30.10.1968, error text was Cannot parse DOB  Steuerberaterin  using regex"
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Ahlen",
+                    "dob": "1968-10-30",
+                    "lastname": "Dipl.-Finanzwirtin Schweer",
+                    "name": "Anne",
+                    "position": "Steuerberaterin"
+                },
+                "text": " Dipl.-Finanzwirtin Schweer, Anne, Steuerberaterin, Ahlen, *30.10.1968"
             }
         ]
     }

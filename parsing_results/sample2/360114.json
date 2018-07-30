@@ -19,39 +19,41 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dipl ., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a ManagingDirector from  Dipl., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Schiffdorf",
+                    "dismissed": true,
                     "dob": "1944-05-07",
                     "lastname": "Schön",
                     "name": "Achim"
                 },
-                "text": " Schön , Achim , Schiffdorf , * 05.07.1944 ."
+                "text": " Schön, Achim, Schiffdorf, *05.07.1944."
             },
             {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Köln",
                     "dob": "1969-09-23",
-                    "lastname": "Dipl . - Kauffrau Tauchmann",
+                    "lastname": "Dipl.-Kauffrau Tauchmann",
                     "name": "Heike Irene"
                 },
-                "text": " Dipl . - Kauffrau Tauchmann , Heike Irene , Köln , * 23.09.1969 ."
+                "text": " Dipl.-Kauffrau Tauchmann, Heike Irene, Köln, *23.09.1969."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Wallenhorst",
+                    "dismissed": true,
                     "dob": "1968-04-16",
                     "lastname": "Rolfes",
                     "name": "Bettina"
                 },
-                "text": " Rolfes , Bettina , Wallenhorst , * 16.04.1968 ."
+                "text": " Rolfes, Bettina, Wallenhorst, *16.04.1968."
             }
         ]
     }

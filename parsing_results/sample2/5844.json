@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Schömberg",
+                    "dismissed": true,
                     "dob": "1977-06-12",
                     "lastname": "Lanny",
                     "name": "Stella"
                 },
-                "text": " Lanny , Stella , Schömberg , * 06.12.1977 ."
+                "text": " Lanny, Stella, Schömberg, *06.12.1977."
             }
         ]
     }

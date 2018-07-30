@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Bahnhofstraße 11 , 32105 Bad Salzuflen ."
+                "text": " Bahnhofstraße 11, 32105 Bad Salzuflen."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " EstatePartner Beteiligungsgesellschaft mbH , Bad Salzuflen ( Amtsgericht Lemgo HRB 8419 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                    "company_name": " EstatePartner Beteiligungsgesellschaft mbH, Bad Salzuflen (Amtsgericht Lemgo HRB 8419), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
                 },
-                "text": " EstatePartner Beteiligungsgesellschaft mbH , Bad Salzuflen ( Amtsgericht Lemgo HRB 8419 ) , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " EstatePartner Beteiligungsgesellschaft mbH, Bad Salzuflen (Amtsgericht Lemgo HRB 8419), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "company_name": " solarpower project - invest Verwaltungs GmbH , Nürnberg ( Amtsgericht Nürnberg HRB 26989 ) ."
+                    "company_name": " solarpower project-invest Verwaltungs GmbH, Nürnberg (Amtsgericht Nürnberg HRB 26989).",
+                    "dismissed": true
                 },
-                "text": " solarpower project - invest Verwaltungs GmbH , Nürnberg ( Amtsgericht Nürnberg HRB 26989 ) ."
+                "text": " solarpower project-invest Verwaltungs GmbH, Nürnberg (Amtsgericht Nürnberg HRB 26989)."
             }
         ]
     }

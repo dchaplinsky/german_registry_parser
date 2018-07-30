@@ -18,22 +18,23 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Weeze",
+                    "dismissed": true,
                     "dob": "1974-02-03",
                     "lastname": "Bergers",
                     "name": "Norbert Helmut"
                 },
-                "text": " Bergers , Norbert Helmut , Weeze , * 02.03.1974"
+                "text": " Bergers, Norbert Helmut, Weeze, *02.03.1974"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "lastname": "Koppers",
                     "name": "Heinrich Wilhelm - gen"
                 },
-                "text": " Koppers , Heinrich Wilhelm - gen ."
+                "text": " Koppers, Heinrich Wilhelm - gen."
             }
         ]
     }

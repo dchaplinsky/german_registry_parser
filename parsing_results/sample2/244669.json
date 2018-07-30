@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Herrengraben 3 , c / o GGV - Partnergesellschaft mbB , 20459 Hamburg ."
+                "text": " Herrengraben 3, c/o GGV-Partnergesellschaft mbB, 20459 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Detmold",
+                    "dismissed": true,
                     "dob": "1935-03-30",
                     "lastname": "Schlicker",
                     "name": "Jutta"
                 },
-                "text": " Schlicker , Jutta , Detmold , * 30.03.1935 ."
+                "text": " Schlicker, Jutta, Detmold, *30.03.1935."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bad Saarow",
                     "dob": "1948-09-06",
@@ -48,7 +49,7 @@
                     "lastname": "Laesecke",
                     "name": "Jürgen"
                 },
-                "text": " Laesecke , Jürgen , Bad Saarow , * 09.06.1948 , einzelvertretungsberechtigt"
+                "text": " Laesecke, Jürgen, Bad Saarow, *09.06.1948, einzelvertretungsberechtigt"
             }
         ]
     }

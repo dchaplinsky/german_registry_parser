@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hanau",
+                    "dismissed": true,
                     "dob": "1978-05-09",
                     "lastname": "Akkaya",
                     "name": "Özdem"
                 },
-                "text": " Akkaya , Özdem , Hanau , * 05.09.1978 ."
+                "text": " Akkaya, Özdem, Hanau, *05.09.1978."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Babenhausen",
                     "dob": "1981-11-24",
@@ -42,7 +43,7 @@
                     "lastname": "Yakut",
                     "name": "Ilker"
                 },
-                "text": " Yakut , Ilker , Babenhausen , * 24.11.1981 , einzelvertretungsberechtigt"
+                "text": " Yakut, Ilker, Babenhausen, *24.11.1981, einzelvertretungsberechtigt"
             }
         ]
     }

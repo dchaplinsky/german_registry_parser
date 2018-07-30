@@ -25,17 +25,18 @@
                     "lastname": "Helm",
                     "name": "Heidrun"
                 },
-                "text": " Helm , Heidrun , Mutterstadt , * 24.10.1957"
+                "text": " Helm, Heidrun, Mutterstadt, *24.10.1957"
             },
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Mutterstadt",
+                    "dismissed": true,
                     "lastname": "Müller",
                     "name": "Manfred",
                     "position": "Apotheker"
                 },
-                "text": " Müller , Manfred , Apotheker , Mutterstadt ."
+                "text": " Müller, Manfred, Apotheker, Mutterstadt."
             }
         ]
     }

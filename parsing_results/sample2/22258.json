@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
+                    "dismissed": true,
                     "dob": "1948-08-23",
                     "lastname": "Grabner",
                     "name": "Michael"
                 },
-                "text": " Grabner , Michael , Stuttgart , * 23.08.1948 ."
+                "text": " Grabner, Michael, Stuttgart, *23.08.1948."
             }
         ]
     }

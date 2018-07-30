@@ -16,32 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=222404&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
                 "payload": {
-                    "city": "Altenstadt - Hoechst",
+                    "city": "Altenstadt-Hoechst",
                     "dob": "1961-07-30",
                     "lastname": "Krause",
                     "name": "Dirk"
                 },
-                "text": " Krause , Dirk , Altenstadt - Hoechst , * 30.07.1961 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Altenstadt - Hoechst",
-                    "dob": "1961-07-30",
-                    "lastname": "Krause",
-                    "name": "Dirk"
-                },
-                "text": " Krause , Dirk , Altenstadt - Hoechst , * 30.07.1961 ."
+                "text": " Krause, Dirk, Altenstadt-Hoechst, *30.07.1961."
             }
         ]
     }

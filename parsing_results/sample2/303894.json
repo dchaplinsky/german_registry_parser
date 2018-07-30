@@ -19,27 +19,28 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " AWESTA UG ( haftungsbeschränkt ) , Berlin , Behmstr ."
+                "text": " AWESTA UG (haftungsbeschränkt), Berlin, Behmstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Canpolat",
                     "name": "Suphi"
                 },
-                "text": " Canpolat , Suphi"
+                "text": " Canpolat, Suphi"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Salzburg / Österreich",
+                    "city": "Salzburg/Österreich",
                     "dob": "1968-07-18",
                     "lastname": "Suarez",
                     "name": "Carlos"
                 },
-                "text": " Suarez , Carlos , * 18.07.1968 , Salzburg / Österreich"
+                "text": " Suarez, Carlos, *18.07.1968, Salzburg/Österreich"
             }
         ]
     }

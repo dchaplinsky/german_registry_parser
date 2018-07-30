@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1977-01-24",
                     "lastname": "Sarigül",
                     "name": "Yusuf"
                 },
-                "text": " Sarigül , Yusuf , Köln , * 24.01.1977 ."
+                "text": " Sarigül, Yusuf, Köln, *24.01.1977."
             },
             {
                 "class": "PersonalPartner",
@@ -35,7 +36,7 @@
                     "lastname": "Atalay",
                     "name": "Fesih"
                 },
-                "text": " Atalay , Fesih , Bergisch Gladbach , * 27.01.1981 ."
+                "text": " Atalay, Fesih, Bergisch Gladbach, *27.01.1981."
             }
         ]
     }

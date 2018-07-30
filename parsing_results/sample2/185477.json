@@ -26,18 +26,11 @@
             {
                 "class": "NotAProcurator",
                 "payload": {
-                    "lastname": "Dr . von Bodecker",
+                    "dismissed": true,
+                    "lastname": "Doctor von Bodecker",
                     "name": "Matthias"
                 },
-                "text": " Dr . von Bodecker , Matthias"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Nicht mehr Prokurist : Dr . von Bodecker",
-                    "name": "Matthias"
-                },
-                "text": " Nicht mehr Prokurist : Dr . von Bodecker , Matthias"
+                "text": " Doctor von Bodecker, Matthias"
             }
         ]
     }

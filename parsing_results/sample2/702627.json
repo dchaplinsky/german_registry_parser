@@ -19,7 +19,11 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Dr . Meretei , Imre Tamas , Lengerich , * 24.02.1945 , vertretungsberechtigt gemeinsam mit dem Geschäftsführer Lörincz , Jozsef , * 19.03.1943 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ., error text was no valid patter found, number of chunks: 8"
+                "text": "Cannot parse a AppointedManagingDirector from  Doctor Meretei, Imre Tamas, Lengerich, *24.02.1945, vertretungsberechtigt gemeinsam mit dem Geschäftsführer Lörincz, Jozsef, *19.03.1943, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was no valid patter found, number of chunks: 8"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Doctor Meretei, Imre Tamas, Lengerich, *24.02.1945, vertretungsberechtigt gemeinsam mit dem Geschäftsführer Lörincz, Jozsef, *19.03.1943, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was no valid patter found, number of chunks: 8"
             }
         ]
     }

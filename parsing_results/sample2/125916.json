@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Graf - von - Soden - Str . , 88090 Immenstaad am Bodensee ."
+                "text": " Graf-von-Soden-Str., 88090 Immenstaad am Bodensee."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1966-09-21",
                     "lastname": "Hölzle",
                     "name": "Norbert"
                 },
-                "text": " Hölzle , Norbert , München , * 21.09.1966 ."
+                "text": " Hölzle, Norbert, München, *21.09.1966."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Niederanven ( Luxembourg )",
+                    "city": "Niederanven (Luxembourg)",
+                    "dismissed": true,
                     "dob": "1960-09-27",
                     "lastname": "McCarthy",
                     "name": "Padraig Bernard"
                 },
-                "text": " McCarthy , Padraig Bernard , Niederanven ( Luxembourg ) , * 27.09.1960 ."
+                "text": " McCarthy, Padraig Bernard, Niederanven (Luxembourg), *27.09.1960."
             }
         ]
     }

@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Hubertusstraße 28 , 82131 Gauting ."
+                "text": " Hubertusstraße 28, 82131 Gauting."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Tegernsee",
+                    "dismissed": true,
                     "lastname": "Mitterer",
                     "name": "Martin",
                     "position": "Orthopädieschuhmachermeister"
                 },
-                "text": " Mitterer , Martin , Orthopädieschuhmachermeister , Tegernsee ."
+                "text": " Mitterer, Martin, Orthopädieschuhmachermeister, Tegernsee."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Burglengenfeld",
                     "dob": "1959-08-12",
@@ -42,7 +43,7 @@
                     "lastname": "Fischer",
                     "name": "Magnus"
                 },
-                "text": " Fischer , Magnus , Burglengenfeld , * 08.12.1959 , einzelvertretungsberechtigt ."
+                "text": " Fischer, Magnus, Burglengenfeld, *08.12.1959, einzelvertretungsberechtigt."
             }
         ]
     }

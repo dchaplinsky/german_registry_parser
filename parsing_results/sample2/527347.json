@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=527347&land_abk=bw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Gutmann",
                     "name": "Ralf"
                 },
-                "text": " Gutmann , Ralf , Schönau im Schwarzwald , * 10.04.1980 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Schönau im Schwarzwald",
-                    "dob": "1980-10-04",
-                    "lastname": "Gutmann",
-                    "name": "Ralf"
-                },
-                "text": " Gutmann , Ralf , Schönau im Schwarzwald , * 10.04.1980 ."
+                "text": " Gutmann, Ralf, Schönau im Schwarzwald, *10.04.1980."
             }
         ]
     }

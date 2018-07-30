@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Bitterfeld",
+                    "dismissed": true,
                     "dob": "1943-11-02",
                     "lastname": "Ensmenger",
                     "name": "Kurt"
                 },
-                "text": " Ensmenger , Kurt , Bitterfeld , * 11.02.1943 ."
+                "text": " Ensmenger, Kurt, Bitterfeld, *11.02.1943."
             }
         ]
     }

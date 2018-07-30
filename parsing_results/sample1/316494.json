@@ -19,35 +19,36 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Faunberg 2 , 91207 Lauf a . d . Pegnitz ."
+                "text": " Faunberg 2, 91207 Lauf a.d.Pegnitz."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Schwaig",
+                    "dismissed": true,
                     "dob": "1960-05-24",
                     "lastname": "Iimura",
                     "name": "Shinichi"
                 },
-                "text": " Iimura , Shinichi , Schwaig , * 24.05.1960 ."
+                "text": " Iimura, Shinichi, Schwaig, *24.05.1960."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Schnaittach",
                     "dob": "1957-05-16",
                     "lastname": "Oyashiki",
                     "name": "Satoru"
                 },
-                "text": " Oyashiki , Satoru , Schnaittach , * 16.05.1957"
+                "text": " Oyashiki, Satoru, Schnaittach, *16.05.1957"
             }
         ]
     }

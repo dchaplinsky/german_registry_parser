@@ -19,7 +19,11 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Spellmann jun . , Fritz , Kaufmann , Eidinghausen . Inhaber in Erbengemeinschaft : Spellmann , Waltraud , Bad Oeynhausen , * 15.06.1938, error text was no valid patter found, number of chunks: 7"
+                "text": "Cannot parse a NotLongerOwner from  Spellmann jun., Fritz, Kaufmann, Eidinghausen.Inhaber in Erbengemeinschaft: Spellmann, Waltraud, Bad Oeynhausen, *15.06.1938, error text was no valid patter found, number of chunks: 7"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Spellmann jun., Fritz, Kaufmann, Eidinghausen.Inhaber in Erbengemeinschaft: Spellmann, Waltraud, Bad Oeynhausen, *15.06.1938, error text was no valid patter found, number of chunks: 7"
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=197364&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Hellstern",
                     "name": "Stefan"
                 },
-                "text": " Hellstern , Stefan , Weinsberg , * 27.03.1967 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Weinsberg",
-                    "dob": "1967-03-27",
-                    "lastname": "Hellstern",
-                    "name": "Stefan"
-                },
-                "text": " Hellstern , Stefan , Weinsberg , * 27.03.1967 ."
+                "text": " Hellstern, Stefan, Weinsberg, *27.03.1967."
             }
         ]
     }

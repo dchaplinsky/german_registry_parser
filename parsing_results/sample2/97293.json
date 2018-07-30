@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
+                "text": "Kommanditgesellschaft\\."
             },
             {
                 "flag": "Single procuration",
@@ -29,23 +29,24 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Bergmannstraße 11 , 30974 Wennigsen ."
+                "text": " Bergmannstraße 11, 30974 Wennigsen."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " WASA GmbH , Bad Salzdetfurth ."
+                    "company_name": " WASA GmbH, Bad Salzdetfurth."
                 },
-                "text": " WASA GmbH , Bad Salzdetfurth ."
+                "text": " WASA GmbH, Bad Salzdetfurth."
             },
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "company_name": " WASA Baukontor GmbH , Hildesheim ( AG Hildesheim HRB 2362 ) ."
+                    "company_name": " WASA Baukontor GmbH, Hildesheim (AG Hildesheim HRB 2362).",
+                    "dismissed": true
                 },
-                "text": " WASA Baukontor GmbH , Hildesheim ( AG Hildesheim HRB 2362 ) ."
+                "text": " WASA Baukontor GmbH, Hildesheim (AG Hildesheim HRB 2362)."
             }
         ]
     }

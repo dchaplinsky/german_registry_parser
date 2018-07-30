@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Friedlandstraße 7 a , 26871 Papenburg ."
+                "text": " Friedlandstraße 7 a, 26871 Papenburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Papenburg",
+                    "dismissed": true,
                     "dob": "1985-03-25",
                     "lastname": "Craayvanger",
                     "name": "Thomas"
                 },
-                "text": " Craayvanger , Thomas , Papenburg , * 25.03.1985 ."
+                "text": " Craayvanger, Thomas, Papenburg, *25.03.1985."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Papenburg",
                     "dob": "1959-03-09",
                     "lastname": "Craayvanger",
                     "name": "Maria"
                 },
-                "text": " Craayvanger , Maria , Papenburg , * 03.09.1959 ."
+                "text": " Craayvanger, Maria, Papenburg, *03.09.1959."
             }
         ]
     }

@@ -16,6 +16,30 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=408926&land_abk=by"
     },
     "parsed": {
+        "flags": [
+            {
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
+            },
+            {
+                "flag": "If only one managing director is appointed, he represents the company alone.",
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
+            },
+            {
+                "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
+                "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
+            },
+            {
+                "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " hauptstraße 107, 97490 poppenhausen."
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",
@@ -26,17 +50,18 @@
                     "lastname": "keidel",
                     "name": "alexander"
                 },
-                "text": " keidel , alexander , poppenhausen , * 16.12.1969 , einzelvertretungsberechtigt"
+                "text": " keidel, alexander, poppenhausen, *16.12.1969, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "arnstein",
+                    "dismissed": true,
                     "dob": "1965-07-01",
                     "lastname": "machau",
                     "name": "berthold"
                 },
-                "text": " machau , berthold , arnstein , * 07.01.1965"
+                "text": " machau, berthold, arnstein, *07.01.1965"
             }
         ]
     }

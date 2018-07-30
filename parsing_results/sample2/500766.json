@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -31,17 +31,18 @@
                     "lastname": "Trumpf",
                     "name": "Hartmut"
                 },
-                "text": " Trumpf , Hartmut , Walzbachtal , * 03.05.1962 ."
+                "text": " Trumpf, Hartmut, Walzbachtal, *03.05.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Walzbachtal",
+                    "dismissed": true,
                     "dob": "1951-12-01",
                     "lastname": "Trumpf",
                     "name": "Volker"
                 },
-                "text": " Trumpf , Volker , Walzbachtal , * 12.01.1951"
+                "text": " Trumpf, Volker, Walzbachtal, *12.01.1951"
             }
         ]
     }

@@ -19,28 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Oster 107 , 48607 Ochtrup ."
+                "text": " Oster 107, 48607 Ochtrup."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Nijverdal / NL",
+                    "city": "Nijverdal/NL",
+                    "dismissed": true,
                     "dob": "1954-10-13",
                     "lastname": "ter Avest",
                     "name": "Hermannus"
                 },
-                "text": " ter Avest , Hermannus , Nijverdal / NL , * 13.10.1954 ."
+                "text": " ter Avest, Hermannus, Nijverdal/NL, *13.10.1954."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Ochtrup",
+                    "dismissed": true,
                     "lastname": "Bode",
                     "name": "Jürgen"
                 },
-                "text": " Bode , Jürgen , Ochtrup ."
+                "text": " Bode, Jürgen, Ochtrup."
             }
         ]
     }

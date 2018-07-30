@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Rostock - Warnemünde",
+                    "city": "Rostock-Warnemünde",
+                    "dismissed": true,
                     "dob": "1971-08-04",
                     "lastname": "Groth",
                     "name": "Stefan"
                 },
-                "text": " Groth , Stefan , Rostock - Warnemünde , * 08.04.1971 ."
+                "text": " Groth, Stefan, Rostock-Warnemünde, *08.04.1971."
             }
         ]
     }

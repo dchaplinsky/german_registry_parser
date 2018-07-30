@@ -19,39 +19,40 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Zweite V - B - S Verwaltungs - , Besitz - und Servicegesellschaft mbH , Berlin , Inselstraße 10 , 10179 Berlin ."
+                "text": " Zweite V - B - S Verwaltungs-, Besitz- und Servicegesellschaft mbH, Berlin, Inselstraße 10, 10179 Berlin."
             },
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Inselstraße 10 , 10179 Berlin"
+                "text": " Geschäftsanschrift: Inselstraße 10, 10179 Berlin"
             },
             {
                 "label": "address",
-                "text": " Inselstraße 10 , 10179 Berlin"
+                "text": " Inselstraße 10, 10179 Berlin"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Mißfelder",
                     "name": "Thomas"
                 },
-                "text": " Mißfelder , Thomas"
+                "text": " Mißfelder, Thomas"
             },
             {
                 "class": "ManagingDirector",
@@ -61,7 +62,7 @@
                     "lastname": "Finze",
                     "name": "Jörg"
                 },
-                "text": " Finze , Jörg , * 11.12.1958 , Berlin"
+                "text": " Finze, Jörg, *11.12.1958, Berlin"
             }
         ]
     }

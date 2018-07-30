@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Renchen",
+                    "dismissed": true,
                     "dob": "1938-05-09",
                     "lastname": "Görmann",
-                    "name": "Karl - Heinz Valentin"
+                    "name": "Karl-Heinz Valentin"
                 },
-                "text": " Görmann , Karl - Heinz Valentin , Renchen , * 05.09.1938"
+                "text": " Görmann, Karl-Heinz Valentin, Renchen, *05.09.1938"
             },
             {
                 "class": "PersonalPartner",
@@ -41,7 +42,7 @@
                     "lastname": "Görmann",
                     "name": "John Gerhard"
                 },
-                "text": " Görmann , John Gerhard , Renchen , * 27.09.1965"
+                "text": " Görmann, John Gerhard, Renchen, *27.09.1965"
             }
         ]
     }

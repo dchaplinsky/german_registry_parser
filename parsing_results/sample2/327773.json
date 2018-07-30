@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Heidelberger Straße 43 , 69168 Wiesloch ."
+                "text": " Heidelberger Straße 43, 69168 Wiesloch."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "St . Leon - Rot",
+                    "city": "St. Leon-Rot",
+                    "dismissed": true,
                     "dob": "1971-11-04",
-                    "lastname": "Schulz - Hanßen",
+                    "lastname": "Schulz-Hanßen",
                     "name": "Eicko"
                 },
-                "text": " Schulz - Hanßen , Eicko , St . Leon - Rot , * 11.04.1971 ."
+                "text": " Schulz-Hanßen, Eicko, St. Leon-Rot, *11.04.1971."
             }
         ]
     }

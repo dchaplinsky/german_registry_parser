@@ -21,11 +21,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1974-11-21",
                     "lastname": "Wesner",
                     "name": "Andreas"
                 },
-                "text": " Wesner , Andreas , Frankfurt am Main , * 21.11.1974 ."
+                "text": " Wesner, Andreas, Frankfurt am Main, *21.11.1974."
             },
             {
                 "class": "ManagingDirector",
@@ -35,7 +36,7 @@
                     "lastname": "Natter",
                     "name": "Simone"
                 },
-                "text": " Natter , Simone , Köln , * 16.10.1973 ."
+                "text": " Natter, Simone, Köln, *16.10.1973."
             }
         ]
     }

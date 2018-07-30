@@ -19,35 +19,36 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift : Scharfenberger Str ."
+                "text": " Geschäftsanschrift: Scharfenberger Str."
             },
             {
                 "label": "address",
-                "text": " Scharfenberger Str ."
+                "text": " Scharfenberger Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Roggenbach",
                     "name": "Andreas"
                 },
-                "text": " Roggenbach , Andreas"
+                "text": " Roggenbach, Andreas"
             },
             {
                 "class": "ManagingDirector",
@@ -57,7 +58,7 @@
                     "lastname": "Albrecht",
                     "name": "Wolfgang"
                 },
-                "text": " Albrecht , Wolfgang , * 13.05.1964 , Berlin"
+                "text": " Albrecht, Wolfgang, *13.05.1964, Berlin"
             }
         ]
     }

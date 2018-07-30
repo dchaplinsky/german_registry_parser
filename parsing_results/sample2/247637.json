@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Chemnitz",
+                    "dismissed": true,
                     "dob": "1977-11-03",
                     "lastname": "Kohlmüller",
                     "name": "Markus"
                 },
-                "text": " Kohlmüller , Markus , Chemnitz , * 11.03.1977 ."
+                "text": " Kohlmüller, Markus, Chemnitz, *11.03.1977."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Chemnitz",
                     "dob": "1979-04-25",
@@ -42,7 +43,7 @@
                     "lastname": "Eichholz",
                     "name": "Knut"
                 },
-                "text": " Eichholz , Knut , Chemnitz , * 25.04.1979 , einzelvertretungsberechtigt"
+                "text": " Eichholz, Knut, Chemnitz, *25.04.1979, einzelvertretungsberechtigt"
             }
         ]
     }

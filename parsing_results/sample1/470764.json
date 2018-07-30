@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Elsenheimerstr ."
+                "text": " Elsenheimerstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Xiamen / China",
+                    "city": "Xiamen/China",
+                    "dismissed": true,
                     "dob": "1974-02-25",
                     "lastname": "Cai",
                     "name": "Qiujun"
                 },
-                "text": " Cai , Qiujun , Xiamen / China , * 25.02.1974 ."
+                "text": " Cai, Qiujun, Xiamen/China, *25.02.1974."
             },
             {
                 "class": "Liquidator",
@@ -49,10 +50,10 @@
                     "city": "München",
                     "dob": "1941-04-27",
                     "flag": "sole representation",
-                    "lastname": "Dr . Schwärzler",
+                    "lastname": "Doctor Schwärzler",
                     "name": "Florian"
                 },
-                "text": " Dr . Schwärzler , Florian , München , * 27.04.1941 , einzelvertretungsberechtigt"
+                "text": " Doctor Schwärzler, Florian, München, *27.04.1941, einzelvertretungsberechtigt"
             }
         ]
     }

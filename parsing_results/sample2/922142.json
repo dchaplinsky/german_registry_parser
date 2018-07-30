@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Wald - Walbertsweiler",
+                    "city": "Wald-Walbertsweiler",
+                    "dismissed": true,
                     "dob": "1963-01-28",
                     "lastname": "Pattberg",
                     "name": "Stephan"
                 },
-                "text": " Pattberg , Stephan , Wald - Walbertsweiler , * 28.01.1963 ."
+                "text": " Pattberg, Stephan, Wald-Walbertsweiler, *28.01.1963."
             }
         ]
     }

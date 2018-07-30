@@ -16,22 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=215133&land_abk=sn"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Chemnitz",
                     "dob": "1969-12-15",
                     "lastname": "Hunger",
                     "name": "Nico"
                 },
-                "text": " Hunger , Nico , Chemnitz , * 15.12.1969 ."
+                "text": " Hunger, Nico, Chemnitz, *15.12.1969."
             },
             {
                 "class": "SingleProcuration",
@@ -41,17 +35,7 @@
                     "lastname": "Zenker",
                     "name": "Torsten"
                 },
-                "text": " Zenker , Torsten , Zschopau , * 07.07.1979 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Zschopau",
-                    "dob": "1979-07-07",
-                    "lastname": "Zenker",
-                    "name": "Torsten"
-                },
-                "text": " Zenker , Torsten , Zschopau , * 07.07.1979 ."
+                "text": " Zenker, Torsten, Zschopau, *07.07.1979."
             }
         ]
     }

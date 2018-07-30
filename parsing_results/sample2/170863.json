@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1974-08-23",
                     "lastname": "Müller",
                     "name": "Christian B"
                 },
-                "text": " Müller , Christian B . , München , * 23.08.1974"
+                "text": " Müller, Christian B., München, *23.08.1974"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Bonn",
+                    "dismissed": true,
                     "dob": "1968-11-13",
-                    "lastname": "Dr . Meincke",
+                    "lastname": "Doctor Meincke",
                     "name": "Gerrit"
                 },
-                "text": " Dr . Meincke , Gerrit , Bonn , * 13.11.1968 ."
+                "text": " Doctor Meincke, Gerrit, Bonn, *13.11.1968."
             }
         ]
     }

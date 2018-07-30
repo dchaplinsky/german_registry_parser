@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dormagen",
                     "dob": "1956-11-16",
@@ -26,17 +26,18 @@
                     "lastname": "Stolze",
                     "name": "Jürgen"
                 },
-                "text": " Stolze , Jürgen , Dormagen , * 16.11.1956 , einzelvertretungsberechtigt ."
+                "text": " Stolze, Jürgen, Dormagen, *16.11.1956, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Ratingen",
+                    "dismissed": true,
                     "dob": "1964-11-17",
                     "lastname": "Durber",
                     "name": "Mark Thomas"
                 },
-                "text": " Durber , Mark Thomas , Ratingen , * 17.11.1964 ."
+                "text": " Durber, Mark Thomas, Ratingen, *17.11.1964."
             }
         ]
     }

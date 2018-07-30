@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Peterborough / Großbritannien / Vereinigtes Königreich",
+                    "city": "Peterborough/Großbritannien / Vereinigtes Königreich",
+                    "dismissed": true,
                     "dob": "1964-06-25",
                     "lastname": "Smith",
                     "name": "Derek Arthur"
                 },
-                "text": " Smith , Derek Arthur , Peterborough / Großbritannien / Vereinigtes Königreich , * 25.06.1964 ."
+                "text": " Smith, Derek Arthur, Peterborough/Großbritannien / Vereinigtes Königreich, *25.06.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Fordingbridge / Vereinigtes Königreich",
                     "dob": "1971-11-09",
@@ -36,7 +37,7 @@
                     "lastname": "Morgan",
                     "name": "Simon Peter Campbell"
                 },
-                "text": " Morgan , Simon Peter Campbell , Fordingbridge / Vereinigtes Königreich , * 11.09.1971 , einzelvertretungsberechtigt ."
+                "text": " Morgan, Simon Peter Campbell, Fordingbridge / Vereinigtes Königreich, *11.09.1971, einzelvertretungsberechtigt."
             }
         ]
     }

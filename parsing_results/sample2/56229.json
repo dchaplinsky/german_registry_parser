@@ -19,27 +19,24 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Wagrierstraße 6-10 , 24539 Neumünster ."
+                "text": " Wagrierstraße 6-10, 24539 Neumünster."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Huß",
                     "name": "Max Michael"
                 },
-                "text": " Huß , Max Michael ."
+                "text": " Huß, Max Michael."
             },
             {
                 "class": "ManagingDirector",
@@ -47,9 +44,9 @@
                     "city": "Neumünster",
                     "dob": "1985-05-11",
                     "lastname": "Huß",
-                    "name": "Max - Lennard"
+                    "name": "Max-Lennard"
                 },
-                "text": " Huß , Max - Lennard , * 05.11.1985 , Neumünster"
+                "text": " Huß, Max-Lennard, *05.11.1985, Neumünster"
             },
             {
                 "class": "SingleProcuration",
@@ -57,19 +54,9 @@
                     "city": "Neumünster",
                     "dob": "1955-07-08",
                     "lastname": "Huß",
-                    "name": "Max - Michael"
+                    "name": "Max-Michael"
                 },
-                "text": " Huß , Max - Michael , * 07.08.1955 , Neumünster ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Neumünster",
-                    "dob": "1955-07-08",
-                    "lastname": "Huß",
-                    "name": "Max - Michael"
-                },
-                "text": " Huß , Max - Michael , * 07.08.1955 , Neumünster ."
+                "text": " Huß, Max-Michael, *07.08.1955, Neumünster."
             }
         ]
     }

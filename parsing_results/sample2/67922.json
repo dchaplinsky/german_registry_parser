@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Winnenden",
+                    "dismissed": true,
                     "dob": "1947-01-05",
                     "lastname": "Baur",
                     "name": "Robert"
                 },
-                "text": " Baur , Robert , Winnenden , * 01.05.1947"
+                "text": " Baur, Robert, Winnenden, *01.05.1947"
             }
         ]
     }

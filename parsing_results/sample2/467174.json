@@ -16,28 +16,23 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=467174&land_abk=ni"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "labels": [
             {
                 "label": "address",
-                "text": " Horstsiek 7 , 31749 Auetal ."
+                "text": " Horstsiek 7, 31749 Auetal."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Auetal",
+                    "dismissed": true,
                     "dob": "1948-07-25",
                     "lastname": "Wendt",
-                    "name": "Karl - Heinz"
+                    "name": "Karl-Heinz"
                 },
-                "text": " Wendt , Karl - Heinz , Auetal , * 25.07.1948 ."
+                "text": " Wendt, Karl-Heinz, Auetal, *25.07.1948."
             },
             {
                 "class": "SingleProcuration",
@@ -45,19 +40,9 @@
                     "city": "Auetal",
                     "dob": "1948-07-25",
                     "lastname": "Wendt",
-                    "name": "Karl - Heinz"
+                    "name": "Karl-Heinz"
                 },
-                "text": " Wendt , Karl - Heinz , Auetal , * 25.07.1948 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Auetal",
-                    "dob": "1948-07-25",
-                    "lastname": "Wendt",
-                    "name": "Karl - Heinz"
-                },
-                "text": " Wendt , Karl - Heinz , Auetal , * 25.07.1948 ."
+                "text": " Wendt, Karl-Heinz, Auetal, *25.07.1948."
             }
         ]
     }

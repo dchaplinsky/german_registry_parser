@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Berchtesgaden",
+                    "dismissed": true,
                     "dob": "1960-09-09",
-                    "lastname": "Dr . med . Wimmer",
+                    "lastname": "Doctor med. Wimmer",
                     "name": "Bartl"
                 },
-                "text": " Dr . med . Wimmer , Bartl , Berchtesgaden , * 09.09.1960 ."
+                "text": " Doctor med. Wimmer, Bartl, Berchtesgaden, *09.09.1960."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1967-07-18",
                     "lastname": "Floreani",
                     "name": "Mathieu Olivier"
                 },
-                "text": " Floreani , Mathieu Olivier , München , * 18.07.1967"
+                "text": " Floreani, Mathieu Olivier, München, *18.07.1967"
             }
         ]
     }

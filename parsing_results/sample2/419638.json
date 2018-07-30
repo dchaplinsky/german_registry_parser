@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Einruhrstraße 99 , 41199 Mönchengladbach ."
+                "text": " Einruhrstraße 99, 41199 Mönchengladbach."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mönchengladbach",
+                    "dismissed": true,
                     "dob": "1969-12-10",
                     "lastname": "Boveleth",
                     "name": "Sibylle"
                 },
-                "text": " Boveleth , Sibylle , Mönchengladbach , * 12.10.1969 ."
+                "text": " Boveleth, Sibylle, Mönchengladbach, *12.10.1969."
             }
         ]
     }

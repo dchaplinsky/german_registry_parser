@@ -18,36 +18,37 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Raiffeisenstraße 2 , 63110 Rodgau ."
+                "text": " Raiffeisenstraße 2, 63110 Rodgau."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1984-08-25",
                     "lastname": "Siwka",
                     "name": "Oskar"
                 },
-                "text": " Siwka , Oskar , Frankfurt am Main , * 25.08.1984 ."
+                "text": " Siwka, Oskar, Frankfurt am Main, *25.08.1984."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Neu - Isenburg",
+                    "city": "Neu-Isenburg",
                     "dob": "1964-11-12",
                     "lastname": "Piotrowski",
                     "name": "Miroslaw"
                 },
-                "text": " Piotrowski , Miroslaw , Neu - Isenburg , * 11.12.1964 ."
+                "text": " Piotrowski, Miroslaw, Neu-Isenburg, *11.12.1964."
             }
         ]
     }

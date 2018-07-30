@@ -18,25 +18,26 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Leonberg",
                     "dob": "1971-02-10",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Hartmann",
                     "name": "Thilo"
                 },
-                "text": " Hartmann , Thilo , Leonberg , * 02.10.1971 , mit der Befugnis , im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Hartmann, Thilo, Leonberg, *02.10.1971, mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Ditzingen",
+                    "dismissed": true,
                     "dob": "1977-12-07",
                     "lastname": "Rittner",
                     "name": "Christine"
                 },
-                "text": " Rittner , Christine , Ditzingen , * 12.07.1977 ."
+                "text": " Rittner, Christine, Ditzingen, *12.07.1977."
             }
         ]
     }

@@ -16,16 +16,23 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=212849&land_abk=sn"
     },
     "parsed": {
+        "flags": [
+            {
+                "flag": "Sole trader",
+                "text": "Einzelkaufmann"
+            }
+        ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "leipzig",
+                    "dismissed": true,
                     "lastname": "jope",
                     "name": "volker",
                     "position": "kaufmann"
                 },
-                "text": " jope , volker , kaufmann , leipzig ."
+                "text": " jope, volker, kaufmann, leipzig."
             },
             {
                 "class": "Owner",
@@ -35,7 +42,7 @@
                     "lastname": "jope",
                     "name": "daniel"
                 },
-                "text": " jope , daniel , leipzig , * 07.10.1971 ."
+                "text": " jope, daniel, leipzig, *07.10.1971."
             }
         ]
     }

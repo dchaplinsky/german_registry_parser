@@ -19,32 +19,33 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Ludmannsdorf / Österreich",
+                    "dismissed": true,
                     "dob": "1986-03-16",
                     "lastname": "Kunz",
                     "name": "Christian"
                 },
-                "text": " Kunz , Christian , Ludmannsdorf / Österreich , * 16.03.1986"
+                "text": " Kunz, Christian, Ludmannsdorf / Österreich, *16.03.1986"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wasserburg a",
                     "lastname": "Pohl",
                     "name": "Alfred"
                 },
-                "text": " Pohl , Alfred , Wasserburg a ."
+                "text": " Pohl, Alfred, Wasserburg a."
             },
             {
                 "class": "ManagingDirector",
@@ -55,7 +56,7 @@
                     "lastname": "Beck",
                     "name": "Robert Peter"
                 },
-                "text": " Beck , Robert Peter , Freilassing , * 05.06.1980 , einzelvertretungsberechtigt"
+                "text": " Beck, Robert Peter, Freilassing, *05.06.1980, einzelvertretungsberechtigt"
             }
         ]
     }

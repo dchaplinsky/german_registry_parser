@@ -19,26 +19,27 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1982-03-30",
-                    "lastname": "Bilic - Nosic",
+                    "lastname": "Bilic-Nosic",
                     "name": "Marinela"
                 },
-                "text": " Bilic - Nosic , Marinela , Frankfurt am Main , * 30.03.1982"
+                "text": " Bilic-Nosic, Marinela, Frankfurt am Main, *30.03.1982"
             },
             {
                 "class": "Liquidator",
                 "payload": {
-                    "company_name": " ILV Immobilien - Leasing Verwaltungsgesellschaft Düsseldorf mbH , Düsseldorf ( Amtsgericht Düsseldorf HRB 1936 ) ."
+                    "company_name": " ILV Immobilien-Leasing Verwaltungsgesellschaft Düsseldorf mbH, Düsseldorf (Amtsgericht Düsseldorf HRB 1936)."
                 },
-                "text": " ILV Immobilien - Leasing Verwaltungsgesellschaft Düsseldorf mbH , Düsseldorf ( Amtsgericht Düsseldorf HRB 1936 ) ."
+                "text": " ILV Immobilien-Leasing Verwaltungsgesellschaft Düsseldorf mbH, Düsseldorf (Amtsgericht Düsseldorf HRB 1936)."
             }
         ]
     }

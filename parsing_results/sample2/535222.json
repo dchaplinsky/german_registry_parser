@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Falkenweg 51 , 72076 Tübingen ."
+                "text": " Falkenweg 51, 72076 Tübingen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
+                    "dismissed": true,
                     "dob": "1971-01-06",
                     "lastname": "Moskart",
                     "name": "Oliver"
                 },
-                "text": " Moskart , Oliver , Stuttgart , * 01.06.1971 ."
+                "text": " Moskart, Oliver, Stuttgart, *01.06.1971."
             }
         ]
     }

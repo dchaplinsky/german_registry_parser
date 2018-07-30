@@ -19,7 +19,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Südwestpark 23 , 90449 Nürnberg ."
+                "text": " Südwestpark 23, 90449 Nürnberg."
             }
         ],
         "officers": [
@@ -27,11 +27,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Alfdorf",
+                    "dismissed": true,
                     "dob": "1960-01-04",
                     "lastname": "Müller",
                     "name": "Roland"
                 },
-                "text": " Müller , Roland , Alfdorf , * 01.04.1960 ."
+                "text": " Müller, Roland, Alfdorf, *01.04.1960."
             }
         ]
     }

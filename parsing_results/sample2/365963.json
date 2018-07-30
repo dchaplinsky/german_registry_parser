@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=365963&land_abk=he"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Fainberg",
                     "name": "Henry"
                 },
-                "text": " Fainberg , Henry , Wiesbaden , * 09.09.1986 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Wiesbaden",
-                    "dob": "1986-09-09",
-                    "lastname": "Fainberg",
-                    "name": "Henry"
-                },
-                "text": " Fainberg , Henry , Wiesbaden , * 09.09.1986 ."
+                "text": " Fainberg, Henry, Wiesbaden, *09.09.1986."
             }
         ]
     }

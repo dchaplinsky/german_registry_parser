@@ -24,14 +24,15 @@
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Tuttlingen",
+                    "dismissed": true,
                     "dob": "1970-03-13",
                     "lastname": "Beyer",
-                    "name": "Corinna - Mercedes"
+                    "name": "Corinna-Mercedes"
                 },
-                "text": " Beyer , Corinna - Mercedes , Tuttlingen , * 13.03.1970 ."
+                "text": " Beyer, Corinna-Mercedes, Tuttlingen, *13.03.1970."
             }
         ]
     }

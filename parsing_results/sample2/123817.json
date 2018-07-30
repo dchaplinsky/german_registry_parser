@@ -19,12 +19,12 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dresden",
                     "dob": "1955-07-30",
@@ -32,17 +32,18 @@
                     "lastname": "Gutzeit",
                     "name": "Michael"
                 },
-                "text": " Gutzeit , Michael , Dresden , * 30.07.1955 , einzelvertretungsberechtigt"
+                "text": " Gutzeit, Michael, Dresden, *30.07.1955, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Großröhrsdorf",
+                    "dismissed": true,
                     "dob": "1958-10-09",
-                    "lastname": "Dr . Kretzschmar",
+                    "lastname": "Doctor Kretzschmar",
                     "name": "Birgit"
                 },
-                "text": " Dr . Kretzschmar , Birgit , Großröhrsdorf , * 10.09.1958 ."
+                "text": " Doctor Kretzschmar, Birgit, Großröhrsdorf, *10.09.1958."
             }
         ]
     }

@@ -19,41 +19,42 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Tondernstr ."
+                "text": " Tondernstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Bouwer",
                     "name": "Jürgen"
                 },
-                "text": " Bouwer , Jürgen"
+                "text": " Bouwer, Jürgen"
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Lübeck",
                     "dob": "1975-10-08",
-                    "lastname": "Giesenberg - Kruse",
+                    "lastname": "Giesenberg-Kruse",
                     "name": "Nina"
                 },
-                "text": " Giesenberg - Kruse , Nina , * 10.08.1975 , Lübeck"
+                "text": " Giesenberg-Kruse, Nina, *10.08.1975, Lübeck"
             }
         ]
     }

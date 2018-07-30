@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "dob": "1962-07-20",
                     "lastname": "Eversmann",
                     "name": "Moritz"
                 },
-                "text": " Eversmann , Moritz , Hamburg , * 20.07.1962 ."
+                "text": " Eversmann, Moritz, Hamburg, *20.07.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1978-01-30",
@@ -36,7 +37,7 @@
                     "lastname": "Möller",
                     "name": "Matthias Ernst Heinrich"
                 },
-                "text": " Möller , Matthias Ernst Heinrich , Hamburg , * 30.01.1978 , vertretungsberechtigt gemäß allgemeiner Vertretungsregelung ."
+                "text": " Möller, Matthias Ernst Heinrich, Hamburg, *30.01.1978, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung."
             },
             {
                 "class": "CommonProcuration",
@@ -46,7 +47,7 @@
                     "lastname": "Gieß",
                     "name": "Tim Sebastian"
                 },
-                "text": " Gieß , Tim Sebastian , Hamburg , * 19.03.1987 ."
+                "text": " Gieß, Tim Sebastian, Hamburg, *19.03.1987."
             }
         ]
     }

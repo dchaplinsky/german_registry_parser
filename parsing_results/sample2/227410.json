@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Wiesenburg",
+                    "dismissed": true,
                     "dob": "1965-11-12",
                     "lastname": "Hammerstädt",
                     "name": "Wolfgang Edgar Heinz"
                 },
-                "text": " Hammerstädt , Wolfgang Edgar Heinz , Wiesenburg , * 11.12.1965 ."
+                "text": " Hammerstädt, Wolfgang Edgar Heinz, Wiesenburg, *11.12.1965."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kleinmachnow",
                     "dob": "1958-03-08",
@@ -42,7 +43,7 @@
                     "lastname": "Körber",
                     "name": "Robert"
                 },
-                "text": " Körber , Robert , Kleinmachnow , * 03.08.1958 , einzelvertretungsberechtigt"
+                "text": " Körber, Robert, Kleinmachnow, *03.08.1958, einzelvertretungsberechtigt"
             }
         ]
     }

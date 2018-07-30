@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Kronberg",
+                    "dismissed": true,
                     "dob": "1941-09-25",
                     "lastname": "Ziese",
                     "name": "Peter"
                 },
-                "text": " Ziese , Peter , Kronberg , * 25.09.1941 ."
+                "text": " Ziese, Peter, Kronberg, *25.09.1941."
             }
         ]
     }

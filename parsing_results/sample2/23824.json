@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1969-07-06",
                     "lastname": "Liebera",
                     "name": "Nicole"
                 },
-                "text": " Liebera , Nicole , München , * 07.06.1969 ."
+                "text": " Liebera, Nicole, München, *07.06.1969."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Co",
                     "lastname": "Mooney",
                     "name": "Feargal Brian",
                     "position": "Clane"
                 },
-                "text": " Mooney , Feargal Brian , Clane , Co ."
+                "text": " Mooney, Feargal Brian, Clane, Co."
             }
         ]
     }

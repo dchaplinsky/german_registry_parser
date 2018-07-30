@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Alzenau",
+                    "dismissed": true,
                     "dob": "1964-10-17",
                     "lastname": "Stumpf",
                     "name": "Mark Walter"
                 },
-                "text": " Stumpf , Mark Walter , Alzenau , * 17.10.1964 ."
+                "text": " Stumpf, Mark Walter, Alzenau, *17.10.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Königstein",
                     "dob": "1962-02-06",
@@ -42,7 +43,7 @@
                     "lastname": "Richter",
                     "name": "Uwe"
                 },
-                "text": " Richter , Uwe , Königstein , * 02.06.1962 , einzelvertretungsberechtigt"
+                "text": " Richter, Uwe, Königstein, *02.06.1962, einzelvertretungsberechtigt"
             }
         ]
     }

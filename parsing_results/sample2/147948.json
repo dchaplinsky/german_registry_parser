@@ -19,40 +19,41 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Erdmannshain 11 B , 04683 Naunhof ."
+                "text": " Erdmannshain 11B, 04683 Naunhof."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Leutkirch im Allgäu",
+                    "dismissed": true,
                     "dob": "1940-03-28",
                     "lastname": "Welte",
                     "name": "Georg"
                 },
-                "text": " Welte , Georg , Leutkirch im Allgäu , * 28.03.1940 ."
+                "text": " Welte, Georg, Leutkirch im Allgäu, *28.03.1940."
             },
             {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Bremen",
                     "dob": "1939-12-19",
-                    "flag": "mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Schumacher",
                     "name": "Heiko"
                 },
-                "text": " Schumacher , Heiko , * 19.12.1939 , Bremen , mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schumacher, Heiko, *19.12.1939, Bremen, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

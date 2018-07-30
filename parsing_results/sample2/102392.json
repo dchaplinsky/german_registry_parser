@@ -19,36 +19,37 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Nießenstraße 4 , 51103 Köln ."
+                "text": " Nießenstraße 4, 51103 Köln."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1958-02-26",
                     "lastname": "Blume",
                     "name": "Jürgen"
                 },
-                "text": " Blume , Jürgen , Köln , * 26.02.1958 ."
+                "text": " Blume, Jürgen, Köln, *26.02.1958."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Ravanusa ( AG ) / Italien",
+                    "city": "Ravanusa (AG) / Italien",
                     "dob": "1965-04-01",
                     "flag": "sole representation",
                     "lastname": "Messana",
                     "name": "Francesco"
                 },
-                "text": " Messana , Francesco , Ravanusa ( AG ) / Italien , * 04.01.1965 , einzelvertretungsberechtigt"
+                "text": " Messana, Francesco, Ravanusa (AG) / Italien, *04.01.1965, einzelvertretungsberechtigt"
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=55999&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Walz",
                     "name": "Christiane"
                 },
-                "text": " Walz , Christiane , Oberhaid , * 28.11.1978 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Oberhaid",
-                    "dob": "1978-11-28",
-                    "lastname": "Walz",
-                    "name": "Christiane"
-                },
-                "text": " Walz , Christiane , Oberhaid , * 28.11.1978 ."
+                "text": " Walz, Christiane, Oberhaid, *28.11.1978."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Troisdorf",
+                    "dismissed": true,
                     "dob": "1962-10-13",
                     "lastname": "Schremser",
                     "name": "Konrad"
                 },
-                "text": " Schremser , Konrad , Troisdorf , * 13.10.1962 ."
+                "text": " Schremser, Konrad, Troisdorf, *13.10.1962."
             }
         ]
     }

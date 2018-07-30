@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Salzkotten",
                     "dob": "1949-11-28",
@@ -26,17 +26,18 @@
                     "lastname": "Saxowski",
                     "name": "Joachim"
                 },
-                "text": " Saxowski , Joachim , Salzkotten , * 28.11.1949 , einzelvertretungsberechtigt ."
+                "text": " Saxowski, Joachim, Salzkotten, *28.11.1949, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Rheda - Wiedenbrück",
+                    "city": "Rheda-Wiedenbrück",
+                    "dismissed": true,
                     "dob": "1978-02-15",
                     "lastname": "Aydin",
                     "name": "Hilker"
                 },
-                "text": " Aydin , Hilker , Rheda - Wiedenbrück , * 15.02.1978"
+                "text": " Aydin, Hilker, Rheda-Wiedenbrück, *15.02.1978"
             }
         ]
     }

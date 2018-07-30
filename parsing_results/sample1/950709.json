@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Dortmund",
+                    "dismissed": true,
                     "dob": "1942-06-13",
                     "lastname": "Plaas",
                     "name": "Dietrich Heinrich"
                 },
-                "text": " Plaas , Dietrich Heinrich , Dortmund , * 13.06.1942 ."
+                "text": " Plaas, Dietrich Heinrich, Dortmund, *13.06.1942."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dortmund",
                     "dob": "1967-04-03",
@@ -36,7 +37,7 @@
                     "lastname": "Dörfel",
                     "name": "Oliver"
                 },
-                "text": " Dörfel , Oliver , Dortmund , * 04.03.1967 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Dörfel, Oliver, Dortmund, *04.03.1967, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

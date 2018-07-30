@@ -20,19 +20,20 @@
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Concepta Verwaltungs GmbH , Stuttgart ( Amtsgericht Stuttgart HRB 743132 ) ."
+                    "company_name": " Concepta Verwaltungs GmbH, Stuttgart (Amtsgericht Stuttgart HRB 743132)."
                 },
-                "text": " Concepta Verwaltungs GmbH , Stuttgart ( Amtsgericht Stuttgart HRB 743132 ) ."
+                "text": " Concepta Verwaltungs GmbH, Stuttgart (Amtsgericht Stuttgart HRB 743132)."
             },
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
-                    "city": "Leinfelden - Echterdingen",
+                    "city": "Leinfelden-Echterdingen",
+                    "dismissed": true,
                     "dob": "1958-02-28",
                     "lastname": "Konopka",
                     "name": "Karlheinz"
                 },
-                "text": " Konopka , Karlheinz , Leinfelden - Echterdingen , * 28.02.1958 ."
+                "text": " Konopka, Karlheinz, Leinfelden-Echterdingen, *28.02.1958."
             }
         ]
     }

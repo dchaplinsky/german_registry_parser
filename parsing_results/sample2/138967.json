@@ -19,12 +19,12 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Im Hinteracker 6-10 , 76307 Karlsbad ."
+                "text": " Im Hinteracker 6-10, 76307 Karlsbad."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Fulda",
                     "dob": "1957-08-09",
@@ -32,17 +32,18 @@
                     "lastname": "Kern",
                     "name": "Jürgen"
                 },
-                "text": " Kern , Jürgen , Fulda , * 08.09.1957 , einzelvertretungsberechtigt ."
+                "text": " Kern, Jürgen, Fulda, *08.09.1957, einzelvertretungsberechtigt."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Karlsbad",
+                    "dismissed": true,
                     "dob": "1946-08-17",
                     "lastname": "Mohr",
                     "name": "Gerhard"
                 },
-                "text": " Mohr , Gerhard , Karlsbad , * 17.08.1946 ."
+                "text": " Mohr, Gerhard, Karlsbad, *17.08.1946."
             }
         ]
     }

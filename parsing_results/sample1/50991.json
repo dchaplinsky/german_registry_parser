@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1947-09-02",
                     "lastname": "Griego",
                     "name": "Werner Bruno August"
                 },
-                "text": " Griego , Werner Bruno August , München , * 09.02.1947 ."
+                "text": " Griego, Werner Bruno August, München, *09.02.1947."
             }
         ]
     }

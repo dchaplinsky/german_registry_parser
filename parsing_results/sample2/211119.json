@@ -19,17 +19,17 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Liquidator from  Benedict , Eric , Rhys , London , * 04.09.1960 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Rhys  using regex"
+                "text": "Cannot parse a Liquidator from  Benedict, Eric, Rhys, London, *04.09.1960, einzelvertretungsberechtigt, error text was Cannot parse DOB  Rhys using regex"
             }
         ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ]
     }

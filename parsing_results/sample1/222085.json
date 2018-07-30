@@ -19,7 +19,26 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  urban , udo , lahr , * 07.10.1963 . nicht mehr geschäftsführer : engelmann , isabella , rust , * 23.06.1963 ., error text was no valid patter found, number of chunks: 7"
+                "text": "Cannot parse a AppointedManagingDirector from  urban, udo, lahr, *07.10.1963. nicht mehr geschäftsführer: engelmann, isabella, rust, *23.06.1963., error text was no valid patter found, number of chunks: 7"
+            }
+        ],
+        "labels": [
+            {
+                "label": "address",
+                "text": " giesenstraße 2/1, 77933 lahr."
+            }
+        ],
+        "officers": [
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "rust",
+                    "dismissed": true,
+                    "dob": "1963-06-23",
+                    "lastname": "engelmann",
+                    "name": "isabella"
+                },
+                "text": " engelmann, isabella, rust, *23.06.1963."
             }
         ]
     }

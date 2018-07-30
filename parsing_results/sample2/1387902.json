@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1988-08-10",
                     "lastname": "Zygar",
                     "name": "Evelin Christin"
                 },
-                "text": " Zygar , Evelin Christin , Düsseldorf , * 08.10.1988 ."
+                "text": " Zygar, Evelin Christin, Düsseldorf, *08.10.1988."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Neuss",
                     "dob": "1956-05-25",
@@ -36,7 +37,7 @@
                     "lastname": "Esser",
                     "name": "Paul"
                 },
-                "text": " Esser , Paul , Neuss , * 25.05.1956 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Esser, Paul, Neuss, *25.05.1956, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

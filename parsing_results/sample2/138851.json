@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Sietwender Str ."
+                "text": " Sietwender Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Drochtersen",
+                    "dismissed": true,
                     "dob": "1982-08-06",
                     "lastname": "Oberdick",
                     "name": "Bianca"
                 },
-                "text": " Oberdick , Bianca , Drochtersen , * 08.06.1982 ."
+                "text": " Oberdick, Bianca, Drochtersen, *08.06.1982."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Drochtersen",
                     "dob": "1982-08-06",
@@ -48,7 +49,7 @@
                     "lastname": "Wulf",
                     "name": "Olaf"
                 },
-                "text": " Wulf , Olaf , Drochtersen , * 08.06.1982 , einzelvertretungsberechtigt"
+                "text": " Wulf, Olaf, Drochtersen, *08.06.1982, einzelvertretungsberechtigt"
             }
         ]
     }

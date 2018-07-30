@@ -18,14 +18,14 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Büdingen",
                     "dob": "1984-07-26",
                     "lastname": "Heidsieck",
                     "name": "Till Morten Harald"
                 },
-                "text": " Heidsieck , Till Morten Harald , Büdingen , * 26.07.1984"
+                "text": " Heidsieck, Till Morten Harald, Büdingen, *26.07.1984"
             },
             {
                 "class": "CommonProcuration",
@@ -35,7 +35,7 @@
                     "lastname": "Sommerfeldt",
                     "name": "Thomas"
                 },
-                "text": " Sommerfeldt , Thomas , Linsengericht , * 25.02.1965 ."
+                "text": " Sommerfeldt, Thomas, Linsengericht, *25.02.1965."
             }
         ]
     }

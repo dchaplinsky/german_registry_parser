@@ -20,22 +20,23 @@
             {
                 "class": "ProcurationCancelled",
                 "payload": {
-                    "city": "Chaudfontaine / Belgien",
+                    "city": "Chaudfontaine/Belgien",
+                    "dismissed": true,
                     "dob": "1955-12-21",
                     "lastname": "Rousseau",
-                    "name": "Jean - Louis Marie"
+                    "name": "Jean-Louis Marie"
                 },
-                "text": " Rousseau , Jean - Louis Marie , Chaudfontaine / Belgien , * 21.12.1955 ."
+                "text": " Rousseau, Jean-Louis Marie, Chaudfontaine/Belgien, *21.12.1955."
             },
             {
                 "class": "CommonProcuration",
                 "payload": {
-                    "city": "Kamp - Lintfort",
+                    "city": "Kamp-Lintfort",
                     "dob": "1974-09-08",
                     "lastname": "Mohr",
                     "name": "Konrad"
                 },
-                "text": " Mohr , Konrad , Kamp - Lintfort , * 09.08.1974"
+                "text": " Mohr, Konrad, Kamp-Lintfort, *09.08.1974"
             }
         ]
     }

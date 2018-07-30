@@ -18,26 +18,26 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Breite Str ."
+                "text": " Breite Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Altenau",
                     "dob": "1961-05-14",
                     "lastname": "Krämer",
                     "name": "Stephan"
                 },
-                "text": " Krämer , Stephan , Altenau , * 14.05.1961 ."
+                "text": " Krämer, Stephan, Altenau, *14.05.1961."
             }
         ]
     }

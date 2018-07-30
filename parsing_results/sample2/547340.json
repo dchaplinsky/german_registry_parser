@@ -18,23 +18,23 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Fabrikstraße 1 , 88255 Baienfurt ."
+                "text": " Fabrikstraße 1, 88255 Baienfurt."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Markdorf",
                     "dob": "1969-02-13",
@@ -42,18 +42,18 @@
                     "lastname": "Keßler",
                     "name": "Wolfgang Robert"
                 },
-                "text": " Keßler , Wolfgang Robert , Markdorf , * 13.02.1969 , einzelvertretungsberechtigt ."
+                "text": " Keßler, Wolfgang Robert, Markdorf, *13.02.1969, einzelvertretungsberechtigt."
             },
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Baden - Baden",
+                    "city": "Baden-Baden",
                     "dob": "1962-09-25",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Dr . Ebert",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Doctor Ebert",
                     "name": "Beate"
                 },
-                "text": " Dr . Ebert , Beate , Baden - Baden , * 25.09.1962 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Doctor Ebert, Beate, Baden-Baden, *25.09.1962, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

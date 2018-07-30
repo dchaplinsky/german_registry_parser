@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=904860&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Job",
                     "name": "Volkmar"
                 },
-                "text": " Job , Volkmar , München , * 22.07.1958 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "München",
-                    "dob": "1958-07-22",
-                    "lastname": "Job",
-                    "name": "Volkmar"
-                },
-                "text": " Job , Volkmar , München , * 22.07.1958 ."
+                "text": " Job, Volkmar, München, *22.07.1958."
             }
         ]
     }

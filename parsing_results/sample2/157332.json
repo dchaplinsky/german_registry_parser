@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Essen",
+                    "dismissed": true,
                     "dob": "1948-12-19",
                     "lastname": "Schilling",
                     "name": "Michael"
                 },
-                "text": " Schilling , Michael , Essen , * 19.12.1948 ."
+                "text": " Schilling, Michael, Essen, *19.12.1948."
             }
         ]
     }

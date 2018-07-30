@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1969-12-02",
                     "lastname": "Conley",
                     "name": "Timothy M"
                 },
-                "text": " Conley , Timothy M . , München , * 12.02.1969"
+                "text": " Conley, Timothy M., München, *12.02.1969"
             },
             {
                 "class": "ManagingDirector",
@@ -35,7 +36,7 @@
                     "lastname": "Dannwolf",
                     "name": "Uwe"
                 },
-                "text": " Dannwolf , Uwe , Pforzheim , * 20.08.1966"
+                "text": " Dannwolf, Uwe, Pforzheim, *20.08.1966"
             }
         ]
     }

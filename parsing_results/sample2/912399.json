@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Heiden",
+                    "dismissed": true,
                     "dob": "1979-03-16",
                     "lastname": "Claßen",
                     "name": "Steffen"
                 },
-                "text": " Claßen , Steffen , Heiden , * 16.03.1979 ."
+                "text": " Claßen, Steffen, Heiden, *16.03.1979."
             },
             {
                 "class": "ManagingDirector",
@@ -36,7 +37,7 @@
                     "lastname": "Anschlag",
                     "name": "Markus"
                 },
-                "text": " Anschlag , Markus , Borken , * 25.04.1972 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Anschlag, Markus, Borken, *25.04.1972, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

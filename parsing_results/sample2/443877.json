@@ -19,17 +19,18 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " E . S ."
+                "text": " E.S."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Özturan",
                     "name": "Ercan"
                 },
-                "text": " Özturan , Ercan"
+                "text": " Özturan, Ercan"
             },
             {
                 "class": "ManagingDirector",
@@ -37,9 +38,9 @@
                     "city": "Berlin",
                     "dob": "1952-08-01",
                     "lastname": "Schurig",
-                    "name": "Hans - Dieter"
+                    "name": "Hans-Dieter"
                 },
-                "text": " Schurig , Hans - Dieter , * 08.01.1952 , Berlin"
+                "text": " Schurig, Hans-Dieter, *08.01.1952, Berlin"
             }
         ]
     }

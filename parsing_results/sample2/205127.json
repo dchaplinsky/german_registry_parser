@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Grundstr ."
+                "text": " Grundstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Dresden",
+                    "dismissed": true,
                     "dob": "1964-09-03",
                     "lastname": "Blei",
                     "name": "Evelyn"
                 },
-                "text": " Blei , Evelyn , Dresden , * 09.03.1964 ."
+                "text": " Blei, Evelyn, Dresden, *09.03.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Saalfeld",
                     "dob": "1969-06-06",
@@ -48,7 +49,7 @@
                     "lastname": "Gernhardt",
                     "name": "Angela"
                 },
-                "text": " Gernhardt , Angela , Saalfeld , * 06.06.1969 , einzelvertretungsberechtigt"
+                "text": " Gernhardt, Angela, Saalfeld, *06.06.1969, einzelvertretungsberechtigt"
             }
         ]
     }

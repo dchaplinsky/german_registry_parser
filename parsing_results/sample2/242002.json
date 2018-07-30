@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Von - Opel - Straße 10 , 79761 Waldshut - Tiengen ."
+                "text": " Von-Opel-Straße 10, 79761 Waldshut-Tiengen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wehr",
+                    "dismissed": true,
                     "dob": "1946-04-23",
                     "lastname": "Düsch",
                     "name": "Peter"
                 },
-                "text": " Düsch , Peter , Wehr , * 23.04.1946 ."
+                "text": " Düsch, Peter, Wehr, *23.04.1946."
             }
         ]
     }

@@ -19,29 +19,30 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Hansastraße 21 , 40764 Langenfeld ."
+                "text": " Hansastraße 21, 40764 Langenfeld."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Grevenbroich",
+                    "dismissed": true,
                     "dob": "1932-02-25",
                     "lastname": "Ermel",
                     "name": "Irma"
                 },
-                "text": " Ermel , Irma , Grevenbroich , * 25.02.1932 ."
+                "text": " Ermel, Irma, Grevenbroich, *25.02.1932."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Langenfeld",
                     "dob": "1934-05-10",
                     "lastname": "Severing",
                     "name": "Klaus Uwe Paul"
                 },
-                "text": " Severing , Klaus Uwe Paul , Langenfeld , * 05.10.1934 ."
+                "text": " Severing, Klaus Uwe Paul, Langenfeld, *05.10.1934."
             }
         ]
     }

@@ -18,34 +18,36 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Neuss",
                     "dob": "1968-05-26",
-                    "lastname": "Dr . Krause",
+                    "lastname": "Doctor Krause",
                     "name": "Jürgen Frank"
                 },
-                "text": " Dr . Krause , Jürgen Frank , Neuss , * 26.05.1968"
+                "text": " Doctor Krause, Jürgen Frank, Neuss, *26.05.1968"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1962-01-09",
                     "lastname": "Konieczka",
                     "name": "Jaroslaw Pawel"
                 },
-                "text": " Konieczka , Jaroslaw Pawel , Düsseldorf , * 01.09.1962"
+                "text": " Konieczka, Jaroslaw Pawel, Düsseldorf, *01.09.1962"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Neuss",
+                    "dismissed": true,
                     "dob": "1968-05-26",
-                    "lastname": "Dr . Krause",
+                    "lastname": "Doctor Krause",
                     "name": "Jürgen Frank"
                 },
-                "text": " Dr . Krause , Jürgen Frank , Neuss , * 26.05.1968 ."
+                "text": " Doctor Krause, Jürgen Frank, Neuss, *26.05.1968."
             }
         ]
     }

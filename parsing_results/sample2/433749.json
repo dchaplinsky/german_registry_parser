@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -31,17 +31,18 @@
                     "lastname": "Burtsche",
                     "name": "Richard Roland"
                 },
-                "text": " Burtsche , Richard Roland , Freiburg im Breisgau , * 29.08.1939 ."
+                "text": " Burtsche, Richard Roland, Freiburg im Breisgau, *29.08.1939."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Freiburg im Breisgau",
+                    "dismissed": true,
                     "dob": "1939-08-29",
                     "lastname": "Burtsche",
                     "name": "Roland"
                 },
-                "text": " Burtsche , Roland , Freiburg im Breisgau , * 29.08.1939 ."
+                "text": " Burtsche, Roland, Freiburg im Breisgau, *29.08.1939."
             }
         ]
     }

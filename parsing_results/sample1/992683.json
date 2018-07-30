@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Remscheid",
+                    "dismissed": true,
                     "dob": "1944-10-02",
                     "lastname": "Schein",
                     "name": "Ulrike"
                 },
-                "text": " Schein , Ulrike , Remscheid , * 10.02.1944"
+                "text": " Schein, Ulrike, Remscheid, *10.02.1944"
             },
             {
                 "class": "PersonalPartner",
@@ -36,7 +37,7 @@
                     "lastname": "Schein",
                     "name": "Arnd"
                 },
-                "text": " Schein , Arnd , Remscheid , * 28.11.1971 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schein, Arnd, Remscheid, *28.11.1971, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

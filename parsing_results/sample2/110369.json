@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Ingolstadt",
+                    "dismissed": true,
                     "dob": "1962-07-11",
                     "lastname": "Senner",
                     "name": "Manfred"
                 },
-                "text": " Senner , Manfred , Ingolstadt , * 07.11.1962 ."
+                "text": " Senner, Manfred, Ingolstadt, *07.11.1962."
             }
         ]
     }

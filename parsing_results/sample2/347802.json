@@ -19,42 +19,44 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Schwestergasse 40 , 84034 Landshut ."
+                "text": " Schwestergasse 40, 84034 Landshut."
             }
         ],
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Dingolfing",
+                    "dismissed": true,
                     "dob": "1942-05-07",
                     "lastname": "Unterholzner",
                     "name": "Helmut"
                 },
-                "text": " Unterholzner , Helmut , Dingolfing , * 05.07.1942 ."
+                "text": " Unterholzner, Helmut, Dingolfing, *05.07.1942."
             },
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Elektro - Meisterbetrieb Unterholzner & Dirmeier GmbH , ( Amtsgericht Landshut , HRB 6863 ) ."
+                    "company_name": " Elektro-Meisterbetrieb Unterholzner & Dirmeier GmbH, (Amtsgericht Landshut, HRB 6863)."
                 },
-                "text": " Elektro - Meisterbetrieb Unterholzner & Dirmeier GmbH , ( Amtsgericht Landshut , HRB 6863 ) ."
+                "text": " Elektro-Meisterbetrieb Unterholzner & Dirmeier GmbH, (Amtsgericht Landshut, HRB 6863)."
             },
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Furth",
+                    "dismissed": true,
                     "dob": "1975-05-18",
                     "lastname": "Dirmeier",
                     "name": "Christoph"
                 },
-                "text": " Dirmeier , Christoph , Furth , * 18.05.1975 ."
+                "text": " Dirmeier, Christoph, Furth, *18.05.1975."
             }
         ]
     }

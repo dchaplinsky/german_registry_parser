@@ -18,30 +18,30 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
-                "text": "Ist nur ein Geschäftsführer bestellt , so vertritt er die Gesellschaft allein ."
+                "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Ernst - Moritz - Arndt - Str ."
+                "text": " Ernst-Moritz-Arndt-Str."
             }
         ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Kamp - Lintfort",
+                    "city": "Kamp-Lintfort",
                     "dob": "1980-07-18",
                     "lastname": "Ceka",
                     "name": "Mahri"
                 },
-                "text": " Ceka , Mahri , Kamp - Lintfort , * 18.07.1980"
+                "text": " Ceka, Mahri, Kamp-Lintfort, *18.07.1980"
             }
         ]
     }

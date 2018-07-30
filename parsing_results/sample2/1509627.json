@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Dortmund",
+                    "dismissed": true,
                     "dob": "1977-08-18",
                     "lastname": "Mazid",
                     "name": "Mohamed"
                 },
-                "text": " Mazid , Mohamed , Dortmund , * 18.08.1977 ."
+                "text": " Mazid, Mohamed, Dortmund, *18.08.1977."
             }
         ]
     }

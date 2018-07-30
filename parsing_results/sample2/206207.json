@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=206207&land_abk=sn"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Dippe , Klaus , Pirna , Graupa , * 11.07.1952 ., error text was Cannot parse DOB  Pirna  using regex"
-            }
-        ],
         "officers": [
             {
                 "class": "Owner",
@@ -31,7 +25,19 @@
                     "lastname": "Wüstenhagen",
                     "name": "Alexander"
                 },
-                "text": " Wüstenhagen , Alexander , Dresden , * 31.03.1976 ."
+                "text": " Wüstenhagen, Alexander, Dresden, *31.03.1976."
+            },
+            {
+                "class": "NotLongerOwner",
+                "payload": {
+                    "city": "Graupa",
+                    "dismissed": true,
+                    "dob": "1952-11-07",
+                    "lastname": "Dippe",
+                    "name": "Klaus",
+                    "position": "Pirna"
+                },
+                "text": " Dippe, Klaus, Pirna, Graupa, *11.07.1952."
             }
         ]
     }

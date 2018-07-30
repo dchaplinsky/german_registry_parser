@@ -18,12 +18,13 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Jung",
-                    "name": "Sae - Hyun"
+                    "name": "Sae-Hyun"
                 },
-                "text": " Jung , Sae - Hyun"
+                "text": " Jung, Sae-Hyun"
             },
             {
                 "class": "ManagingDirector",
@@ -33,7 +34,7 @@
                     "lastname": "Oh",
                     "name": "Sang Young"
                 },
-                "text": " Oh , Sang Young , * 07.01.1971 , Berlin ."
+                "text": " Oh, Sang Young, *07.01.1971, Berlin."
             }
         ]
     }

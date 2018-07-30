@@ -18,34 +18,36 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Heidenheim",
+                    "dismissed": true,
                     "dob": "1962-07-28",
                     "lastname": "Schröder",
                     "name": "Dierk"
                 },
-                "text": " Schröder , Dierk , Heidenheim , * 28.07.1962 ."
+                "text": " Schröder, Dierk, Heidenheim, *28.07.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hagen",
                     "dob": "1965-10-06",
                     "lastname": "Kreiser",
                     "name": "Christoph"
                 },
-                "text": " Kreiser , Christoph , Hagen , * 10.06.1965 ."
+                "text": " Kreiser, Christoph, Hagen, *10.06.1965."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Arnsberg",
+                    "dismissed": true,
                     "dob": "1965-10-06",
                     "lastname": "Kreiser",
                     "name": "Christoph"
                 },
-                "text": " Kreiser , Christoph , Arnsberg , * 10.06.1965 ."
+                "text": " Kreiser, Christoph, Arnsberg, *10.06.1965."
             }
         ]
     }

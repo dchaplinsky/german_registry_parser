@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1981-10-21",
                     "lastname": "Engelke",
                     "name": "Hajo"
                 },
-                "text": " Engelke , Hajo , Frankfurt am Main , * 21.10.1981 ."
+                "text": " Engelke, Hajo, Frankfurt am Main, *21.10.1981."
             },
             {
                 "class": "ManagingDirector",
@@ -42,7 +43,7 @@
                     "lastname": "Peters",
                     "name": "Timur"
                 },
-                "text": " Peters , Timur , Frankfurt am Main , * 05.10.1981 , einzelvertretungsberechtigt"
+                "text": " Peters, Timur, Frankfurt am Main, *05.10.1981, einzelvertretungsberechtigt"
             }
         ]
     }

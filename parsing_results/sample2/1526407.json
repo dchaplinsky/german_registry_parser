@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Essen",
+                    "dismissed": true,
                     "dob": "1980-12-05",
-                    "lastname": "Baron - Schneider",
+                    "lastname": "Baron-Schneider",
                     "name": "Denis"
                 },
-                "text": " Baron - Schneider , Denis , Essen , * 12.05.1980"
+                "text": " Baron-Schneider, Denis, Essen, *12.05.1980"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Essen",
                     "dob": "1985-11-05",
                     "lastname": "Baron",
                     "name": "Alex"
                 },
-                "text": " Baron , Alex , Essen , * 11.05.1985"
+                "text": " Baron, Alex, Essen, *11.05.1985"
             }
         ]
     }

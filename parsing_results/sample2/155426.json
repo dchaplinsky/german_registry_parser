@@ -19,17 +19,18 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "lastname": "Dr . Sieger",
+                    "dismissed": true,
+                    "lastname": "Doctor Sieger",
                     "name": "Gert"
                 },
-                "text": " Dr . Sieger , Gert"
+                "text": " Doctor Sieger, Gert"
             },
             {
                 "class": "ManagingDirector",
@@ -39,7 +40,7 @@
                     "lastname": "Krawczyk",
                     "name": "Thomas"
                 },
-                "text": " Krawczyk , Thomas , * 06.04.1963 , Delmenhorst"
+                "text": " Krawczyk, Thomas, *06.04.1963, Delmenhorst"
             }
         ]
     }

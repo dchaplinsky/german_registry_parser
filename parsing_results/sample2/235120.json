@@ -18,23 +18,24 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wesseling",
+                    "dismissed": true,
                     "dob": "1970-11-08",
                     "lastname": "Ingenkamp",
                     "name": "Werner"
                 },
-                "text": " Ingenkamp , Werner , Wesseling , * 11.08.1970 ."
+                "text": " Ingenkamp, Werner, Wesseling, *11.08.1970."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kaarst",
                     "dob": "1951-09-02",
@@ -42,7 +43,7 @@
                     "lastname": "Appel",
                     "name": "Paul Norbert"
                 },
-                "text": " Appel , Paul Norbert , Kaarst , * 09.02.1951 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Appel, Paul Norbert, Kaarst, *09.02.1951, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Essen",
+                    "dismissed": true,
                     "lastname": "Kozica",
                     "name": "Brigitte",
                     "position": "Kauffrau"
                 },
-                "text": " Kozica , Brigitte , Kauffrau , Essen ."
+                "text": " Kozica, Brigitte, Kauffrau, Essen."
             },
             {
                 "class": "ManagingDirector",
@@ -36,7 +37,7 @@
                     "lastname": "Kozica",
                     "name": "Mark"
                 },
-                "text": " Kozica , Mark , Essen , * 19.01.1977 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Kozica, Mark, Essen, *19.01.1977, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=209872&land_abk=rp"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,27 +25,18 @@
                     "lastname": "Rommersbach",
                     "name": "Frank"
                 },
-                "text": " Rommersbach , Frank , Montabaur , * 28.08.1972 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Montabaur",
-                    "dob": "1972-08-28",
-                    "lastname": "Rommersbach",
-                    "name": "Frank"
-                },
-                "text": " Rommersbach , Frank , Montabaur , * 28.08.1972 ."
+                "text": " Rommersbach, Frank, Montabaur, *28.08.1972."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Ingelheim",
+                    "dismissed": true,
                     "dob": "1954-06-01",
                     "lastname": "Bajorat",
                     "name": "Manfried"
                 },
-                "text": " Bajorat , Manfried , Ingelheim , * 06.01.1954"
+                "text": " Bajorat, Manfried, Ingelheim, *06.01.1954"
             }
         ]
     }

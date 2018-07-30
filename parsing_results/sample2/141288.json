@@ -19,46 +19,47 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Neckarvorlandstr ."
+                "text": " Neckarvorlandstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Nußloch",
                     "dob": "1956-06-05",
                     "lastname": "Eiermann",
                     "name": "Rolf"
                 },
-                "text": " Eiermann , Rolf , Nußloch , * 06.05.1956 ."
+                "text": " Eiermann, Rolf, Nußloch, *06.05.1956."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "CL Wassenaar ( Niederlande )",
+                    "city": "CL Wassenaar (Niederlande)",
                     "dob": "1971-01-16",
-                    "flag": "einzelvertretungsberechtigt mit der Befugnis  im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Walker",
                     "name": "Scott"
                 },
-                "text": " Walker , Scott , CL Wassenaar ( Niederlande ) , * 16.01.1971 , einzelvertretungsberechtigt mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Walker, Scott, CL Wassenaar (Niederlande), *16.01.1971, einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bad Dürkheim",
+                    "dismissed": true,
                     "lastname": "Herrmann",
-                    "name": "Hans - Joachim Michael",
+                    "name": "Hans-Joachim Michael",
                     "position": "Kaufmann"
                 },
-                "text": " Herrmann , Hans - Joachim Michael , Kaufmann , Bad Dürkheim ."
+                "text": " Herrmann, Hans-Joachim Michael, Kaufmann, Bad Dürkheim."
             }
         ]
     }

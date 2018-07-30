@@ -19,23 +19,34 @@
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Otto - Hahn - Straße 15 , 25337 Elmshorn ."
+                "text": " Otto-Hahn-Straße 15, 25337 Elmshorn."
             }
         ],
         "officers": [
             {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Klein Nordende",
+                    "dob": "1951-11-20",
+                    "lastname": "Grade",
+                    "name": "Alexander"
+                },
+                "text": " Grade, Alexander, *20.11.1951, Klein Nordende"
+            },
+            {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Sdrinka",
                     "name": "Horst"
                 },
-                "text": " Sdrinka , Horst ."
+                "text": " Sdrinka, Horst."
             }
         ]
     }

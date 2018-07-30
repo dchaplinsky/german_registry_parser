@@ -21,11 +21,12 @@
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Krefeld",
+                    "dismissed": true,
                     "dob": "1964-06-05",
                     "lastname": "Hüttemann",
                     "name": "Thomas"
                 },
-                "text": " Hüttemann , Thomas , Krefeld , * 06.05.1964 ."
+                "text": " Hüttemann, Thomas, Krefeld, *06.05.1964."
             },
             {
                 "class": "NewProcuration",
@@ -35,17 +36,7 @@
                     "lastname": "Hüttemann",
                     "name": "Klaus"
                 },
-                "text": " Hüttemann , Klaus , Krefeld , * 13.02.1967 ."
-            },
-            {
-                "class": "CommonProcuration",
-                "payload": {
-                    "city": "Krefeld",
-                    "dob": "1967-02-13",
-                    "lastname": "Hüttemann",
-                    "name": "Klaus"
-                },
-                "text": " Hüttemann , Klaus , Krefeld , * 13.02.1967 ."
+                "text": " Hüttemann, Klaus, Krefeld, *13.02.1967."
             }
         ]
     }

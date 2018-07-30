@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rietberg",
+                    "dismissed": true,
                     "dob": "1978-06-05",
-                    "lastname": "Vorbeck - de Jong",
+                    "lastname": "Vorbeck-de Jong",
                     "name": "Susanne"
                 },
-                "text": " Vorbeck - de Jong , Susanne , Rietberg , * 06.05.1978 ."
+                "text": " Vorbeck-de Jong, Susanne, Rietberg, *06.05.1978."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rietberg",
                     "dob": "1977-10-29",
@@ -36,7 +37,7 @@
                     "lastname": "Vorbeck",
                     "name": "Markus"
                 },
-                "text": " Vorbeck , Markus , Rietberg , * 29.10.1977 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Vorbeck, Markus, Rietberg, *29.10.1977, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

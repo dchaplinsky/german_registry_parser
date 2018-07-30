@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Etage Kurfürstendamm 195 , 10707 Berlin ."
+                "text": " Etage Kurfürstendamm 195, 10707 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bonn",
+                    "dismissed": true,
                     "dob": "1964-10-17",
                     "lastname": "Koglin",
                     "name": "Andreas"
                 },
-                "text": " Koglin , Andreas , Bonn , * 17.10.1964 ."
+                "text": " Koglin, Andreas, Bonn, *17.10.1964."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Croix / Frankreich",
                     "dob": "1976-10-30",
@@ -48,7 +49,7 @@
                     "lastname": "Flipo",
                     "name": "Frédéric"
                 },
-                "text": " Flipo , Frédéric , Croix / Frankreich , * 30.10.1976 , einzelvertretungsberechtigt"
+                "text": " Flipo, Frédéric, Croix / Frankreich, *30.10.1976, einzelvertretungsberechtigt"
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Ergolding",
+                    "dismissed": true,
                     "dob": "1942-01-23",
                     "lastname": "Scholz",
-                    "name": "Hans - Günter"
+                    "name": "Hans-Günter"
                 },
-                "text": " Scholz , Hans - Günter , Ergolding , * 23.01.1942 ."
+                "text": " Scholz, Hans-Günter, Ergolding, *23.01.1942."
             }
         ]
     }

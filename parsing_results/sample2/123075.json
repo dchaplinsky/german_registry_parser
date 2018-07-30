@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Zwickau",
+                    "dismissed": true,
                     "dob": "1957-08-17",
                     "lastname": "Heidel",
                     "name": "Steffen"
                 },
-                "text": " Heidel , Steffen , Zwickau , * 17.08.1957 ."
+                "text": " Heidel, Steffen, Zwickau, *17.08.1957."
             }
         ]
     }

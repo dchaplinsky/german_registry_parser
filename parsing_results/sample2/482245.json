@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Ochtrup",
+                    "dismissed": true,
                     "dob": "1982-04-29",
                     "lastname": "Holtmannspötter",
                     "name": "Karin"
                 },
-                "text": " Holtmannspötter , Karin , Ochtrup , * 29.04.1982 ."
+                "text": " Holtmannspötter, Karin, Ochtrup, *29.04.1982."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Gronau - Epe",
+                    "city": "Gronau-Epe",
                     "dob": "1993-03-19",
                     "flag": "sole representation",
                     "lastname": "Welp",
                     "name": "Sebastian"
                 },
-                "text": " Welp , Sebastian , Gronau - Epe , * 19.03.1993 , einzelvertretungsberechtigt"
+                "text": " Welp, Sebastian, Gronau-Epe, *19.03.1993, einzelvertretungsberechtigt"
             }
         ]
     }

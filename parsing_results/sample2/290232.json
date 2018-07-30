@@ -19,31 +19,36 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Pérennec , Thierry , Viroflay , Frankreich , * 02.04.1964 , einzelvertretungsberechtigt, error text was Cannot parse DOB  Viroflay  using regex"
+                "text": "Cannot parse a AppointedManagingDirector from  Pérennec, Thierry, Viroflay, Frankreich, *02.04.1964, einzelvertretungsberechtigt, error text was Cannot parse DOB  Viroflay using regex"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Pérennec, Thierry, Viroflay, Frankreich, *02.04.1964, einzelvertretungsberechtigt, error text was Cannot parse DOB  Viroflay using regex"
             }
         ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " c / o GÖRG Rechtsanwälte / Dr ."
+                "text": " c/o GÖRG Rechtsanwälte/Dr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1968-08-27",
                     "lastname": "Borcherdt",
                     "name": "Antje"
                 },
-                "text": " Borcherdt , Antje , Berlin , * 27.08.1968 ."
+                "text": " Borcherdt, Antje, Berlin, *27.08.1968."
             }
         ]
     }

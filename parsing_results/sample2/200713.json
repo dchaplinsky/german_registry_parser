@@ -19,12 +19,12 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Helmbrechts",
                     "dob": "1952-04-16",
@@ -32,17 +32,18 @@
                     "lastname": "Greim",
                     "name": "Thomas"
                 },
-                "text": " Greim , Thomas , Helmbrechts , * 16.04.1952 , einzelvertretungsberechtigt"
+                "text": " Greim, Thomas, Helmbrechts, *16.04.1952, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Oelsnitz / Vogtl",
+                    "city": "Oelsnitz/Vogtl",
+                    "dismissed": true,
                     "dob": "1944-11-03",
                     "lastname": "Rank",
                     "name": "Klaus"
                 },
-                "text": " Rank , Klaus , Oelsnitz / Vogtl . , * 11.03.1944 ."
+                "text": " Rank, Klaus, Oelsnitz/Vogtl., *11.03.1944."
             }
         ]
     }

@@ -19,15 +19,15 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             },
             {
                 "flag": "Single procuration",
@@ -43,28 +43,19 @@
                     "lastname": "Duman",
                     "name": "Mehtap"
                 },
-                "text": " Duman , Mehtap , * 15.12.1982 , Berlin"
+                "text": " Duman, Mehtap, *15.12.1982, Berlin"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Sinan",
+                    "dismissed": true,
                     "dob": "1973-01-01",
                     "flag": "Berlin",
                     "lastname": "Meral",
-                    "name": "Erol Prokura : Artuc"
+                    "name": "Erol Prokura: Artuc"
                 },
-                "text": " Meral , Erol Prokura : Artuc , Sinan , * 01.01.1973 , Berlin"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Berlin",
-                    "dob": "1973-01-01",
-                    "lastname": "Artuc",
-                    "name": "Sinan"
-                },
-                "text": " Artuc , Sinan , * 01.01.1973 , Berlin"
+                "text": " Meral, Erol Prokura: Artuc, Sinan, *01.01.1973, Berlin"
             }
         ]
     }

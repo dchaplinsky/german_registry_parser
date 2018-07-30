@@ -19,36 +19,38 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Jakob - Kaiser - Str ."
+                "text": " Jakob-Kaiser-Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Lecuivre",
                     "name": "Jacky"
                 },
-                "text": " Lecuivre , Jacky ."
+                "text": " Lecuivre, Jacky."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Abingdon / Großbritannien",
+                    "city": "Abingdon/Großbritannien",
                     "dob": "1960-08-09",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Nakach",
                     "name": "Guy Franck Maurice"
                 },
-                "text": " Nakach , Guy Franck Maurice , Abingdon / Großbritannien , * 08.09.1960 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Nakach, Guy Franck Maurice, Abingdon/Großbritannien, *08.09.1960, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Nakach",
                     "name": "Guy Frank Maurice"
                 },
-                "text": " Nakach , Guy Frank Maurice ."
+                "text": " Nakach, Guy Frank Maurice."
             }
         ]
     }

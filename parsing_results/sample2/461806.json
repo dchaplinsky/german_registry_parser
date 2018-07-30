@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Lange Str ."
+                "text": " Lange Str."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Vechta",
+                    "dismissed": true,
                     "dob": "1978-04-05",
                     "lastname": "Diekmann",
                     "name": "Markus"
                 },
-                "text": " Diekmann , Markus , Vechta , * 04.05.1978 ."
+                "text": " Diekmann, Markus, Vechta, *04.05.1978."
             }
         ]
     }

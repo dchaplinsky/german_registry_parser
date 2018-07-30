@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Breitenbrunn",
+                    "dismissed": true,
                     "dob": "1970-02-10",
                     "lastname": "Wendorf",
                     "name": "Heiko"
                 },
-                "text": " Wendorf , Heiko , Breitenbrunn , * 02.10.1970 ."
+                "text": " Wendorf, Heiko, Breitenbrunn, *02.10.1970."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Güstrow",
                     "dob": "1986-08-18",
                     "lastname": "Heitmann",
                     "name": "Marcus"
                 },
-                "text": " Heitmann , Marcus , Güstrow , * 18.08.1986"
+                "text": " Heitmann, Marcus, Güstrow, *18.08.1986"
             }
         ]
     }

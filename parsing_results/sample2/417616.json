@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Eifelstraße 5 , 81677 München ."
+                "text": " Eifelstraße 5, 81677 München."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1936-07-22",
                     "lastname": "Neugebauer",
                     "name": "Eyke"
                 },
-                "text": " Neugebauer , Eyke , München , * 22.07.1936 ."
+                "text": " Neugebauer, Eyke, München, *22.07.1936."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dußlingen",
                     "dob": "1958-09-24",
@@ -48,7 +49,7 @@
                     "lastname": "Krumpholz",
                     "name": "Susanne"
                 },
-                "text": " Krumpholz , Susanne , Dußlingen , * 24.09.1958 , einzelvertretungsberechtigt"
+                "text": " Krumpholz, Susanne, Dußlingen, *24.09.1958, einzelvertretungsberechtigt"
             }
         ]
     }

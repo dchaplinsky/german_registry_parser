@@ -19,25 +19,26 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Prinzregentenstraße 48 , c / o Heuking Kühn Lüer Wojtek , 80538 München ."
+                "text": " Prinzregentenstraße 48, c/o Heuking Kühn Lüer Wojtek, 80538 München."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mönchengladbach",
+                    "dismissed": true,
                     "dob": "1988-09-01",
                     "lastname": "Corneliussen",
                     "name": "Susanne"
                 },
-                "text": " Corneliussen , Susanne , Mönchengladbach , * 09.01.1988 ."
+                "text": " Corneliussen, Susanne, Mönchengladbach, *09.01.1988."
             },
             {
                 "class": "Liquidator",
@@ -48,7 +49,7 @@
                     "lastname": "Becker",
                     "name": "Fabian"
                 },
-                "text": " Becker , Fabian , München , * 16.12.1984 , mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Becker, Fabian, München, *16.12.1984, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

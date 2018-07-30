@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Mainz",
+                    "dismissed": true,
                     "dob": "1948-02-17",
                     "lastname": "Butsch",
                     "name": "Dieter"
                 },
-                "text": " Butsch , Dieter , Mainz , * 17.02.1948 ."
+                "text": " Butsch, Dieter, Mainz, *17.02.1948."
             }
         ]
     }

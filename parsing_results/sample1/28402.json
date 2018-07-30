@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Limburgerhof",
+                    "dismissed": true,
                     "dob": "1959-09-08",
-                    "lastname": "Dr . Werra",
+                    "lastname": "Doctor Werra",
                     "name": "Matthias"
                 },
-                "text": " Dr . Werra , Matthias , Limburgerhof , * 09.08.1959 ."
+                "text": " Doctor Werra, Matthias, Limburgerhof, *09.08.1959."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bad Dürkheim",
                     "dob": "1960-01-03",
-                    "lastname": "Dr . Haas",
+                    "lastname": "Doctor Haas",
                     "name": "Wolfgang"
                 },
-                "text": " Dr . Haas , Wolfgang , Bad Dürkheim , * 01.03.1960 ."
+                "text": " Doctor Haas, Wolfgang, Bad Dürkheim, *01.03.1960."
             }
         ]
     }

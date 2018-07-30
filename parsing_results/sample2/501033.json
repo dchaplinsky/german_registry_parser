@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düren",
+                    "dismissed": true,
                     "dob": "1965-05-01",
                     "lastname": "Breuer",
                     "name": "Heinrich"
                 },
-                "text": " Breuer , Heinrich , Düren , * 05.01.1965 ."
+                "text": " Breuer, Heinrich, Düren, *05.01.1965."
             }
         ]
     }

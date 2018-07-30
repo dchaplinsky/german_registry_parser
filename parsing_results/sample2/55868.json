@@ -19,51 +19,47 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             },
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Am Ledigenheim 1 , 01968 Senftenberg OT Brieske Nicht mehr Geschäftsführer : Hadjigeorgiou , Pierre"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Hadjigeorgiou",
                     "name": "Pierre"
                 },
-                "text": " Hadjigeorgiou , Pierre"
+                "text": " Hadjigeorgiou, Pierre"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Nassar",
                     "name": "Marwan Shafiq Salim"
                 },
-                "text": " Nassar , Marwan Shafiq Salim"
+                "text": " Nassar, Marwan Shafiq Salim"
             },
             {
                 "class": "ManagingDirector",
@@ -73,7 +69,7 @@
                     "lastname": "Alhudhud",
                     "name": "Arafeh Moh´d Majed Asad"
                 },
-                "text": " Alhudhud , Arafeh Moh´d Majed Asad , * 12.04.1961 , Senftenberg OT Kleinkoschen"
+                "text": " Alhudhud, Arafeh Moh´d Majed Asad, *12.04.1961, Senftenberg OT Kleinkoschen"
             },
             {
                 "class": "ManagingDirector",
@@ -83,7 +79,7 @@
                     "lastname": "Hanf",
                     "name": "Reinhard Volker"
                 },
-                "text": " Hanf , Reinhard Volker , * 13.03.1943 , Senftenberg OT Kleinkoschen"
+                "text": " Hanf, Reinhard Volker, *13.03.1943, Senftenberg OT Kleinkoschen"
             }
         ]
     }

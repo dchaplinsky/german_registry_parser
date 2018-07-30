@@ -19,17 +19,18 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " mmb Verwaltungs - GmbH , Bremen , Lesumbroker Landstraße 15 , 28719 Bremen ."
+                "text": " mmb Verwaltungs-GmbH, Bremen, Lesumbroker Landstraße 15, 28719 Bremen."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Weickert",
                     "name": "Birgitt geborene Werkmeister"
                 },
-                "text": " Weickert , Birgitt geborene Werkmeister ."
+                "text": " Weickert, Birgitt geborene Werkmeister."
             }
         ]
     }

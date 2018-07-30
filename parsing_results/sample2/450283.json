@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Düsseldorf",
+                    "dismissed": true,
                     "dob": "1957-08-24",
                     "lastname": "Roedenbeck",
                     "name": "Angelika"
                 },
-                "text": " Roedenbeck , Angelika , Düsseldorf , * 24.08.1957 ."
+                "text": " Roedenbeck, Angelika, Düsseldorf, *24.08.1957."
             }
         ]
     }

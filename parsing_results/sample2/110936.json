@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Reutlingen",
+                    "dismissed": true,
                     "dob": "1964-06-14",
                     "lastname": "Wagner",
                     "name": "Kurt"
                 },
-                "text": " Wagner , Kurt , Reutlingen , * 14.06.1964 ."
+                "text": " Wagner, Kurt, Reutlingen, *14.06.1964."
             },
             {
                 "class": "Liquidator",
                 "payload": {
-                    "city": "WINTERTHUR ( SCHWEIZ )",
+                    "city": "WINTERTHUR (SCHWEIZ)",
                     "dob": "1958-10-06",
                     "lastname": "Thanheiser",
                     "name": "Wolfgang"
                 },
-                "text": " Thanheiser , Wolfgang , WINTERTHUR ( SCHWEIZ ) , * 10.06.1958 ."
+                "text": " Thanheiser, Wolfgang, WINTERTHUR (SCHWEIZ), *10.06.1958."
             }
         ]
     }

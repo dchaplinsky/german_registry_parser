@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wiesbaden",
+                    "dismissed": true,
                     "dob": "1971-01-02",
                     "lastname": "Leithe",
                     "name": "Markus"
                 },
-                "text": " Leithe , Markus , Wiesbaden , * 01.02.1971 ."
+                "text": " Leithe, Markus, Wiesbaden, *01.02.1971."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Offenbach am Main",
                     "dob": "1969-11-07",
@@ -42,7 +43,7 @@
                     "lastname": "Raschig",
                     "name": "Steffen"
                 },
-                "text": " Raschig , Steffen , Offenbach am Main , * 11.07.1969 , einzelvertretungsberechtigt"
+                "text": " Raschig, Steffen, Offenbach am Main, *11.07.1969, einzelvertretungsberechtigt"
             }
         ]
     }

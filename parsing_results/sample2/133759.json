@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kolbermoor",
+                    "dismissed": true,
                     "dob": "1975-06-15",
                     "lastname": "Hecker",
                     "name": "Christian"
                 },
-                "text": " Hecker , Christian , Kolbermoor , * 15.06.1975 ."
+                "text": " Hecker, Christian, Kolbermoor, *15.06.1975."
             }
         ]
     }

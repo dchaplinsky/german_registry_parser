@@ -19,23 +19,24 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Landshut",
+                    "dismissed": true,
                     "lastname": "Maier",
                     "name": "Rudolf",
-                    "position": "Kfz - Meister"
+                    "position": "Kfz-Meister"
                 },
-                "text": " Maier , Rudolf , Kfz - Meister , Landshut ."
+                "text": " Maier, Rudolf, Kfz-Meister, Landshut."
             },
             {
                 "class": "ManagingDirector",
@@ -46,10 +47,10 @@
                     "lastname": "Ziegler",
                     "name": "Hermann"
                 },
-                "text": " Ziegler , Hermann , Landshut , * 21.09.1959 , einzelvertretungsberechtigt"
+                "text": " Ziegler, Hermann, Landshut, *21.09.1959, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Ergoldsbach",
                     "dob": "1962-06-25",
@@ -57,7 +58,7 @@
                     "lastname": "Wagner",
                     "name": "Heribert"
                 },
-                "text": " Wagner , Heribert , Ergoldsbach , * 25.06.1962 , einzelvertretungsberechtigt"
+                "text": " Wagner, Heribert, Ergoldsbach, *25.06.1962, einzelvertretungsberechtigt"
             }
         ]
     }

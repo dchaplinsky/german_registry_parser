@@ -20,22 +20,23 @@
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Hudson / USA",
+                    "city": "Hudson/USA",
                     "dob": "1962-04-26",
                     "lastname": "Jennings",
                     "name": "Matthew J"
                 },
-                "text": " Jennings , Matthew J . , Hudson / USA , * 26.04.1962 ."
+                "text": " Jennings, Matthew J., Hudson/USA, *26.04.1962."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Maarssen / Niederlande",
+                    "city": "Maarssen/Niederlande",
+                    "dismissed": true,
                     "dob": "1955-09-01",
                     "lastname": "Aben",
                     "name": "Marcus Antonius"
                 },
-                "text": " Aben , Marcus Antonius , Maarssen / Niederlande , * 09.01.1955 ."
+                "text": " Aben, Marcus Antonius, Maarssen/Niederlande, *09.01.1955."
             }
         ]
     }

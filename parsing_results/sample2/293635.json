@@ -18,13 +18,14 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "kaufm",
+                    "dismissed": true,
                     "lastname": "Nüssle",
                     "name": "Rolf"
                 },
-                "text": " Nüssle , Rolf , kaufm ."
+                "text": " Nüssle, Rolf, kaufm."
             }
         ]
     }

@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Grosbliederstroff / Frankreich",
+                    "city": "Grosbliederstroff/Frankreich",
+                    "dismissed": true,
                     "dob": "1963-01-28",
                     "lastname": "Hohenberg",
                     "name": "Andreas Detlef"
                 },
-                "text": " Hohenberg , Andreas Detlef , Grosbliederstroff / Frankreich , * 28.01.1963 ."
+                "text": " Hohenberg, Andreas Detlef, Grosbliederstroff/Frankreich, *28.01.1963."
             }
         ]
     }

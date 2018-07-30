@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Köln",
                     "dob": "1974-05-22",
@@ -26,7 +26,7 @@
                     "lastname": "Baumann",
                     "name": "Tobias"
                 },
-                "text": " Baumann , Tobias , Köln , * 22.05.1974 , vertretungsberechtigt gemeinsam mit einem einzelvertretungsberechtigten anderen Geschäftsführer ."
+                "text": " Baumann, Tobias, Köln, *22.05.1974, vertretungsberechtigt gemeinsam mit einem einzelvertretungsberechtigten anderen Geschäftsführer."
             },
             {
                 "class": "ManagingDirector",
@@ -36,7 +36,7 @@
                     "lastname": "Baumann",
                     "name": "Tobias"
                 },
-                "text": " Baumann , Tobias , Köln , * 22.01.1981 ."
+                "text": " Baumann, Tobias, Köln, *22.01.1981."
             }
         ]
     }

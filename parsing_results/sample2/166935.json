@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Wendelstein",
+                    "dismissed": true,
                     "dob": "1942-12-30",
                     "lastname": "Korzus",
                     "name": "Berthold"
                 },
-                "text": " Korzus , Berthold , Wendelstein , * 30.12.1942 ."
+                "text": " Korzus, Berthold, Wendelstein, *30.12.1942."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Nürnberg",
                     "dob": "1957-10-02",
@@ -36,7 +37,7 @@
                     "lastname": "Blauhöfer",
                     "name": "Roland"
                 },
-                "text": " Blauhöfer , Roland , Nürnberg , * 10.02.1957 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen ."
+                "text": " Blauhöfer, Roland, Nürnberg, *10.02.1957, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen."
             }
         ]
     }

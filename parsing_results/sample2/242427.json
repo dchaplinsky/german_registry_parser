@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "Single procuration",
@@ -28,17 +28,18 @@
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1948-02-04",
                     "lastname": "Krieger",
                     "name": "Kurt"
                 },
-                "text": " Krieger , Kurt , Berlin , * 02.04.1948 ."
+                "text": " Krieger, Kurt, Berlin, *02.04.1948."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wildau",
                     "dob": "1956-11-18",
@@ -46,7 +47,7 @@
                     "lastname": "Dankert",
                     "name": "Thomas"
                 },
-                "text": " Dankert , Thomas , Wildau , * 18.11.1956 , einzelvertretungsberechtigt"
+                "text": " Dankert, Thomas, Wildau, *18.11.1956, einzelvertretungsberechtigt"
             }
         ]
     }

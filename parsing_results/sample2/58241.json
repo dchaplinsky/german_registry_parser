@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Gelsenkirchen",
+                    "dismissed": true,
                     "dob": "1964-12-23",
                     "lastname": "Kürpick",
                     "name": "Kai"
                 },
-                "text": " Kürpick , Kai , Gelsenkirchen , * 23.12.1964"
+                "text": " Kürpick, Kai, Gelsenkirchen, *23.12.1964"
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Marktheidenfeld - Glasofen",
+                    "city": "Marktheidenfeld-Glasofen",
                     "dob": "1952-10-25",
                     "lastname": "Hoffmann",
                     "name": "Klaus"
                 },
-                "text": " Hoffmann , Klaus , Marktheidenfeld - Glasofen , * 25.10.1952"
+                "text": " Hoffmann, Klaus, Marktheidenfeld-Glasofen, *25.10.1952"
             }
         ]
     }

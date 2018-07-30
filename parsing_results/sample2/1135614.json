@@ -19,29 +19,30 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             },
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Lindenplatz 1 , 93049 Regensburg ."
+                "text": " Lindenplatz 1, 93049 Regensburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Wolfsegg",
+                    "dismissed": true,
                     "dob": "1997-11-04",
                     "lastname": "Bielmeier",
                     "name": "Patricia"
                 },
-                "text": " Bielmeier , Patricia , Wolfsegg , * 11.04.1997 ."
+                "text": " Bielmeier, Patricia, Wolfsegg, *11.04.1997."
             },
             {
                 "class": "Liquidator",
@@ -52,7 +53,7 @@
                     "lastname": "Bielmeier",
                     "name": "Ulrike"
                 },
-                "text": " Bielmeier , Ulrike , Regensburg , * 09.01.1970 , einzelvertretungsberechtigt"
+                "text": " Bielmeier, Ulrike, Regensburg, *09.01.1970, einzelvertretungsberechtigt"
             }
         ]
     }

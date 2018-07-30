@@ -16,31 +16,26 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=59686&land_abk=ni"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
-                "class": "Owner",
+                "class": "NotLongerOwner",
                 "payload": {
                     "city": "Kauffrau",
+                    "dismissed": true,
                     "lastname": "Baars",
                     "name": "Hannelore"
                 },
-                "text": " Baars , Hannelore , Kauffrau ."
+                "text": " Baars, Hannelore, Kauffrau."
             },
             {
                 "class": "Owner",
                 "payload": {
-                    "city": "Walsrode - Düshorn",
+                    "city": "Walsrode-Düshorn",
                     "dob": "1969-01-16",
                     "lastname": "Dey",
                     "name": "Kerstin"
                 },
-                "text": " Dey , Kerstin , Walsrode - Düshorn , * 16.01.1969 ."
+                "text": " Dey, Kerstin, Walsrode-Düshorn, *16.01.1969."
             },
             {
                 "class": "NewProcuration",
@@ -50,7 +45,7 @@
                     "lastname": "Dey",
                     "name": "Thomas"
                 },
-                "text": " Dey , Thomas , Walsrode , * 21.06.1967 ."
+                "text": " Dey, Thomas, Walsrode, *21.06.1967."
             }
         ]
     }

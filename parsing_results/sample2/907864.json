@@ -19,13 +19,17 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Flynn , Richard F . , Oradell , New Jersey , USA / Vereinigte Staaten , * 30.12.1970, error text was Cannot parse DOB  Oradell  using regex"
+                "text": "Cannot parse a RetiredManagingDirector from  Flynn, Richard F., Oradell, New Jersey, USA / Vereinigte Staaten, *30.12.1970, error text was Cannot parse DOB  Oradell using regex"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Flynn, Richard F., Oradell, New Jersey, USA / Vereinigte Staaten, *30.12.1970, error text was Cannot parse DOB  Oradell using regex"
             }
         ],
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -34,11 +38,11 @@
                 "payload": {
                     "city": "Starnberg",
                     "dob": "1943-08-27",
-                    "flag": "einzelvertretungsberechtigt  wenn und solange kein weiterer Liquidator bestellt ist",
-                    "lastname": "Dr . Gutsch",
+                    "flag": "einzelvertretungsberechtigt wenn und solange kein weiterer Liquidator bestellt ist",
+                    "lastname": ": Doctor Gutsch",
                     "name": "Hans Waldemar"
                 },
-                "text": " Dr . Gutsch , Hans Waldemar , Starnberg , * 27.08.1943 , einzelvertretungsberechtigt , wenn und solange kein weiterer Liquidator bestellt ist ."
+                "text": ": Doctor Gutsch, Hans Waldemar, Starnberg, *27.08.1943, einzelvertretungsberechtigt, wenn und solange kein weiterer Liquidator bestellt ist."
             }
         ]
     }

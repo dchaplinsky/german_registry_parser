@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Dillenburg",
+                    "dismissed": true,
                     "dob": "1962-07-19",
-                    "lastname": "Dr . Schayan - Araghi",
+                    "lastname": "Doctor Schayan-Araghi",
                     "name": "Kaweh"
                 },
-                "text": " Dr . Schayan - Araghi , Kaweh , Dillenburg , * 19.07.1962 ."
+                "text": " Doctor Schayan-Araghi, Kaweh, Dillenburg, *19.07.1962."
             }
         ]
     }

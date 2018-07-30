@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Neustadt b . Coburg",
+                    "city": "Neustadt b. Coburg",
+                    "dismissed": true,
                     "dob": "1938-02-12",
                     "lastname": "Wegner",
                     "name": "Regina"
                 },
-                "text": " Wegner , Regina , Neustadt b . Coburg , * 02.12.1938 ."
+                "text": " Wegner, Regina, Neustadt b. Coburg, *02.12.1938."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
-                    "city": "Neustadt b . Coburg",
+                    "city": "Neustadt b. Coburg",
                     "dob": "1961-01-12",
                     "flag": "sole representation",
                     "lastname": "Wegner",
                     "name": "Franz"
                 },
-                "text": " Wegner , Franz , Neustadt b . Coburg , * 01.12.1961 , einzelvertretungsberechtigt"
+                "text": " Wegner, Franz, Neustadt b. Coburg, *01.12.1961, einzelvertretungsberechtigt"
             }
         ]
     }

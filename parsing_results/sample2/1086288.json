@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Grünwald",
+                    "dismissed": true,
                     "dob": "1965-10-17",
                     "lastname": "Stegmann",
                     "name": "Arndt"
                 },
-                "text": " Stegmann , Arndt , Grünwald , * 17.10.1965 ."
+                "text": " Stegmann, Arndt, Grünwald, *17.10.1965."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
                     "dob": "1977-11-23",
                     "lastname": "Kunstmann",
                     "name": "Christopher"
                 },
-                "text": " Kunstmann , Christopher , München , * 23.11.1977 ."
+                "text": " Kunstmann, Christopher, München, *23.11.1977."
             }
         ]
     }

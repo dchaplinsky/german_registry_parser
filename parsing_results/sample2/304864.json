@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kaarst",
+                    "dismissed": true,
                     "dob": "1948-08-24",
                     "lastname": "Rosenkranz",
                     "name": "Wilfried"
                 },
-                "text": " Rosenkranz , Wilfried , Kaarst , * 24.08.1948 ."
+                "text": " Rosenkranz, Wilfried, Kaarst, *24.08.1948."
             }
         ]
     }

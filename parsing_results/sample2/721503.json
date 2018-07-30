@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=721503&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Buchmann",
                     "name": "Mario"
                 },
-                "text": " Buchmann , Mario , Berlin , * 13.12.1989 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Berlin",
-                    "dob": "1989-12-13",
-                    "lastname": "Buchmann",
-                    "name": "Mario"
-                },
-                "text": " Buchmann , Mario , Berlin , * 13.12.1989 ."
+                "text": " Buchmann, Mario, Berlin, *13.12.1989."
             }
         ]
     }

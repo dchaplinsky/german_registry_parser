@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1516983&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,27 +25,18 @@
                     "lastname": "Montag",
                     "name": "Franz"
                 },
-                "text": " Montag , Franz , Bad Honnef , * 30.07.1987 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Bad Honnef",
-                    "dob": "1987-07-30",
-                    "lastname": "Montag",
-                    "name": "Franz"
-                },
-                "text": " Montag , Franz , Bad Honnef , * 30.07.1987 ."
+                "text": " Montag, Franz, Bad Honnef, *30.07.1987."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Lind",
+                    "dismissed": true,
                     "dob": "1960-12-17",
                     "lastname": "Vitten",
                     "name": "Klaus"
                 },
-                "text": " Vitten , Klaus , Lind , * 17.12.1960 ."
+                "text": " Vitten, Klaus, Lind, *17.12.1960."
             }
         ]
     }

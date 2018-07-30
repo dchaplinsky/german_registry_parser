@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bonn",
+                    "dismissed": true,
                     "dob": "1967-01-04",
-                    "lastname": "Dr . Turck",
+                    "lastname": "Doctor Turck",
                     "name": "Karsten"
                 },
-                "text": " Dr . Turck , Karsten , Bonn , * 01.04.1967 ."
+                "text": " Doctor Turck, Karsten, Bonn, *01.04.1967."
             },
             {
                 "class": "ManagingDirector",
@@ -36,7 +37,7 @@
                     "lastname": "Schmitz",
                     "name": "Udo"
                 },
-                "text": " Schmitz , Udo , Bergheim , * 28.08.1964 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Schmitz, Udo, Bergheim, *28.08.1964, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

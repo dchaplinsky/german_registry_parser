@@ -18,17 +18,18 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Falkenstein",
+                    "dismissed": true,
                     "dob": "1956-12-03",
                     "lastname": "Windisch",
                     "name": "Christian"
                 },
-                "text": " Windisch , Christian , Falkenstein , * 12.03.1956 ."
+                "text": " Windisch, Christian, Falkenstein, *12.03.1956."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Ellefeld",
                     "dob": "1966-11-18",
@@ -36,7 +37,7 @@
                     "lastname": "Kowitz",
                     "name": "Torsten"
                 },
-                "text": " Kowitz , Torsten , Ellefeld , * 18.11.1966 , einzelvertretungsberechtigt"
+                "text": " Kowitz, Torsten, Ellefeld, *18.11.1966, einzelvertretungsberechtigt"
             }
         ]
     }

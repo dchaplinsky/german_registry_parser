@@ -19,28 +19,29 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "labels": [
             {
                 "label": "address",
-                "text": " Veddeler Damm 36 - 38 , 20457 Hamburg ."
+                "text": " Veddeler Damm 36 - 38, 20457 Hamburg."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Oering",
+                    "dismissed": true,
                     "dob": "1994-02-06",
                     "lastname": "Seibel",
                     "name": "Swetlana"
                 },
-                "text": " Seibel , Swetlana , Oering , * 02.06.1994 ."
+                "text": " Seibel, Swetlana, Oering, *02.06.1994."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1984-10-01",
@@ -48,7 +49,7 @@
                     "lastname": "Zaharovs",
                     "name": "Sergejs"
                 },
-                "text": " Zaharovs , Sergejs , Hamburg , * 10.01.1984 , einzelvertretungsberechtigt"
+                "text": " Zaharovs, Sergejs, Hamburg, *10.01.1984, einzelvertretungsberechtigt"
             }
         ]
     }

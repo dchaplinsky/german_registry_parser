@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "PersonalPartner",
+                "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Lampertheim",
+                    "dismissed": true,
                     "dob": "1967-11-29",
                     "lastname": "Härtel",
                     "name": "Franz"
                 },
-                "text": " Härtel , Franz , Lampertheim , * 29.11.1967 ."
+                "text": " Härtel, Franz, Lampertheim, *29.11.1967."
             }
         ]
     }

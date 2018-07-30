@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Sörup",
+                    "dismissed": true,
                     "dob": "1958-12-28",
                     "lastname": "Rosin",
                     "name": "Heiko Kurt"
                 },
-                "text": " Rosin , Heiko Kurt , Sörup , * 28.12.1958 ."
+                "text": " Rosin, Heiko Kurt, Sörup, *28.12.1958."
             }
         ]
     }

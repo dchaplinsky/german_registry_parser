@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=35083&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Ostermaier",
                     "name": "Kirsten"
                 },
-                "text": " Ostermaier , Kirsten , Augsburg , * 06.05.1962"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Augsburg",
-                    "dob": "1962-06-05",
-                    "lastname": "Ostermaier",
-                    "name": "Kirsten"
-                },
-                "text": " Ostermaier , Kirsten , Augsburg , * 06.05.1962"
+                "text": " Ostermaier, Kirsten, Augsburg, *06.05.1962"
             }
         ]
     }

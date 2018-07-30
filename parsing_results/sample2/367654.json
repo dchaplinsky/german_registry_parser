@@ -19,19 +19,20 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Hannover",
+                    "dismissed": true,
                     "dob": "1970-01-19",
                     "lastname": "Nehrig",
                     "name": "Fritz Günter Walter"
                 },
-                "text": " Nehrig , Fritz Günter Walter , Hannover , * 19.01.1970 ."
+                "text": " Nehrig, Fritz Günter Walter, Hannover, *19.01.1970."
             },
             {
                 "class": "ManagingDirector",
@@ -42,7 +43,7 @@
                     "lastname": "Büsselberg",
                     "name": "Maren"
                 },
-                "text": " Büsselberg , Maren , Hamburg , * 21.07.1980 , vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
+                "text": " Büsselberg, Maren, Hamburg, *21.07.1980, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
             }
         ]
     }

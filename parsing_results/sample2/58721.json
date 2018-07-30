@@ -19,20 +19,16 @@
         "flags": [
             {
                 "flag": "Limited partnership.",
-                "text": "Kommanditgesellschaft ."
-            },
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
+                "text": "Kommanditgesellschaft\\."
             }
         ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " WINIX Beteiligungsgesellschaft mbH , Hamburg ( Hamburg HRB 106102 ) ."
+                    "company_name": " WINIX Beteiligungsgesellschaft mbH, Hamburg (Hamburg HRB 106102)."
                 },
-                "text": " WINIX Beteiligungsgesellschaft mbH , Hamburg ( Hamburg HRB 106102 ) ."
+                "text": " WINIX Beteiligungsgesellschaft mbH, Hamburg (Hamburg HRB 106102)."
             },
             {
                 "class": "SingleProcuration",
@@ -42,17 +38,7 @@
                     "lastname": "Nix",
                     "name": "Sibylle"
                 },
-                "text": " Nix , Sibylle , Hamburg , * 23.11.1949 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Hamburg",
-                    "dob": "1949-11-23",
-                    "lastname": "Nix",
-                    "name": "Sibylle"
-                },
-                "text": " Nix , Sibylle , Hamburg , * 23.11.1949 ."
+                "text": " Nix, Sibylle, Hamburg, *23.11.1949."
             }
         ]
     }

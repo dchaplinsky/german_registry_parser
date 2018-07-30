@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -32,7 +32,7 @@
                     "lastname": "Rhodovi",
                     "name": "Frank"
                 },
-                "text": " Rhodovi , Frank , Bad Salzuflen , * 17.06.1941 , gemeinsam vertretungsberechtigt mit Steffi Rhodovi ."
+                "text": " Rhodovi, Frank, Bad Salzuflen, *17.06.1941, gemeinsam vertretungsberechtigt mit Steffi Rhodovi."
             },
             {
                 "class": "Liquidator",
@@ -43,16 +43,17 @@
                     "lastname": "Rhodovi",
                     "name": "Steffi"
                 },
-                "text": " Rhodovi , Steffi , Bad Salzuflen , * 16.06.1948 , gemeinsam vertretungsberechtigt mit Frank Rhodovi ."
+                "text": " Rhodovi, Steffi, Bad Salzuflen, *16.06.1948, gemeinsam vertretungsberechtigt mit Frank Rhodovi."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Bad Salzuflen",
+                    "dismissed": true,
                     "lastname": "Rhodovi",
                     "name": "Frank"
                 },
-                "text": " Rhodovi , Frank , Bad Salzuflen"
+                "text": " Rhodovi, Frank, Bad Salzuflen"
             }
         ]
     }

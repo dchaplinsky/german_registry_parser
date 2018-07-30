@@ -26,17 +26,18 @@
                     "lastname": "Leiter",
                     "name": "Anton"
                 },
-                "text": " Leiter , Anton , Mainz , * 17.02.1954 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Leiter, Anton, Mainz, *17.02.1954, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Altenstadt",
+                    "dismissed": true,
                     "dob": "1953-01-07",
                     "lastname": "Luft",
                     "name": "Achim"
                 },
-                "text": " Luft , Achim , Altenstadt , * 01.07.1953 ."
+                "text": " Luft, Achim, Altenstadt, *01.07.1953."
             }
         ]
     }

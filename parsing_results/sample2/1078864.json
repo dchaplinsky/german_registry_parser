@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hiddenhausen",
+                    "dismissed": true,
                     "dob": "1986-04-09",
                     "lastname": "Pavlovksi",
                     "name": "Ivan"
                 },
-                "text": " Pavlovksi , Ivan , Hiddenhausen , * 04.09.1986 ."
+                "text": " Pavlovksi, Ivan, Hiddenhausen, *04.09.1986."
             }
         ]
     }

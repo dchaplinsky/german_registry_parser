@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1959-03-02",
                     "lastname": "Illbruck",
                     "name": "Sabina"
                 },
-                "text": " Illbruck , Sabina , Berlin , * 03.02.1959 ."
+                "text": " Illbruck, Sabina, Berlin, *03.02.1959."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Walchwil / Schweiz",
                     "dob": "1968-07-17",
@@ -42,7 +43,7 @@
                     "lastname": "Grab",
                     "name": "Markus"
                 },
-                "text": " Grab , Markus , Walchwil / Schweiz , * 17.07.1968 , einzelvertretungsberechtigt"
+                "text": " Grab, Markus, Walchwil / Schweiz, *17.07.1968, einzelvertretungsberechtigt"
             }
         ]
     }

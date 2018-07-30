@@ -16,26 +16,37 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=534405&land_abk=bw"
     },
     "parsed": {
+        "labels": [
+            {
+                "label": "WHUT",
+                "text": " Änderung der herrschenden Gesellschaft infolge Abspaltung: Änderung der Eintragung lfd."
+            },
+            {
+                "label": "WHUT",
+                "text": " Änderung der herrschenden Gesellschaft infolge Abspaltung: Der zwischen der Gesellschaft und der \"Voith GmbH\", Heidenheim an der Brenz (Amtsgericht Ulm HRB 725621) bestehende Gewinnabführungsvertrag vom 28.09.2001 wurde am 30.07.2013 geändert."
+            }
+        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Heidenheim an der Brenz",
                     "dob": "1955-10-07",
-                    "lastname": "Dr . Jung",
+                    "lastname": "Doctor Jung",
                     "name": "Hermann"
                 },
-                "text": " Dr . Jung , Hermann , Heidenheim an der Brenz , * 10.07.1955"
+                "text": " Doctor Jung, Hermann, Heidenheim an der Brenz, *10.07.1955"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Heidenheim an der Brenz",
+                    "dismissed": true,
                     "dob": "1968-07-02",
                     "lastname": "Linke",
                     "name": "Andrea"
                 },
-                "text": " Linke , Andrea , Heidenheim an der Brenz , * 07.02.1968"
+                "text": " Linke, Andrea, Heidenheim an der Brenz, *07.02.1968"
             }
         ]
     }

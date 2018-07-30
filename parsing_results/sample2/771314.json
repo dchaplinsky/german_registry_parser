@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Kaiserslautern",
+                    "dismissed": true,
                     "dob": "1953-03-02",
                     "lastname": "Schneider",
                     "name": "Hans Wilhelm"
                 },
-                "text": " Schneider , Hans Wilhelm , Kaiserslautern , * 03.02.1953 ."
+                "text": " Schneider, Hans Wilhelm, Kaiserslautern, *03.02.1953."
             }
         ]
     }

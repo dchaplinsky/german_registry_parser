@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kiel",
+                    "dismissed": true,
                     "dob": "1951-11-24",
                     "lastname": "Offermann",
                     "name": "Josef"
                 },
-                "text": " Offermann , Josef , Kiel , * 24.11.1951 ."
+                "text": " Offermann, Josef, Kiel, *24.11.1951."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Lüssow",
                     "dob": "1971-08-27",
@@ -42,7 +43,7 @@
                     "lastname": "Gotsch",
                     "name": "Diana"
                 },
-                "text": " Gotsch , Diana , Lüssow , * 27.08.1971 , einzelvertretungsberechtigt"
+                "text": " Gotsch, Diana, Lüssow, *27.08.1971, einzelvertretungsberechtigt"
             }
         ]
     }

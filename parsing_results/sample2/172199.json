@@ -16,10 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=172199&land_abk=hh"
     },
     "parsed": {
-        "errors": [
+        "officers": [
             {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Bothmann , Jörg , Kaufmann , Seevetal , * 17.01.1947 ., error text was Cannot parse DOB  Kaufmann  using regex"
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Seevetal",
+                    "dismissed": true,
+                    "dob": "1947-01-17",
+                    "lastname": "Bothmann",
+                    "name": "Jörg",
+                    "position": "Kaufmann"
+                },
+                "text": " Bothmann, Jörg, Kaufmann, Seevetal, *17.01.1947."
             }
         ]
     }

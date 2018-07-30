@@ -19,30 +19,31 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1957-04-16",
                     "flag": "vertretungsberechtigt gemäß allgemeiner Vertretungsregelung",
-                    "lastname": "Dr . Teichert",
+                    "lastname": "Doctor Teichert",
                     "name": "Torsten Alfred"
                 },
-                "text": " Dr . Teichert , Torsten Alfred , Hamburg , * 16.04.1957 , vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
+                "text": " Doctor Teichert, Torsten Alfred, Hamburg, *16.04.1957, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Oststeinbek",
+                    "dismissed": true,
                     "dob": "1958-08-15",
                     "lastname": "Seidel",
                     "name": "Michael Frank"
                 },
-                "text": " Seidel , Michael Frank , Oststeinbek , * 15.08.1958 ."
+                "text": " Seidel, Michael Frank, Oststeinbek, *15.08.1958."
             }
         ]
     }

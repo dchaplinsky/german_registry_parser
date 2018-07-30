@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=85279&land_abk=nw"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Erdmann",
                     "name": "Monika"
                 },
-                "text": " Erdmann , Monika , Greven , * 29.05.1953"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Greven",
-                    "dob": "1953-05-29",
-                    "lastname": "Erdmann",
-                    "name": "Monika"
-                },
-                "text": " Erdmann , Monika , Greven , * 29.05.1953"
+                "text": " Erdmann, Monika, Greven, *29.05.1953"
             }
         ]
     }

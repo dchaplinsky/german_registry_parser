@@ -25,17 +25,18 @@
                     "lastname": "Klaka",
                     "name": "Rosi"
                 },
-                "text": " Klaka , Rosi , Gelsenkirchen , * 29.09.1966 ."
+                "text": " Klaka, Rosi, Gelsenkirchen, *29.09.1966."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Gelsenkirchen",
+                    "dismissed": true,
                     "dob": "1951-02-18",
                     "lastname": "Klaka",
                     "name": "Heinrich Wilfried"
                 },
-                "text": " Klaka , Heinrich Wilfried , Gelsenkirchen , * 18.02.1951 ."
+                "text": " Klaka, Heinrich Wilfried, Gelsenkirchen, *18.02.1951."
             }
         ]
     }

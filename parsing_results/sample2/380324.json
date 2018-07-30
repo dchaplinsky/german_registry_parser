@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Schwaikheim",
+                    "dismissed": true,
                     "dob": "1955-11-09",
                     "lastname": "Bloksma",
                     "name": "Romke"
                 },
-                "text": " Bloksma , Romke , Schwaikheim , * 11.09.1955 ."
+                "text": " Bloksma, Romke, Schwaikheim, *11.09.1955."
             }
         ]
     }

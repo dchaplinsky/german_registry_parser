@@ -18,44 +18,46 @@
     "parsed": {
         "flags": [
             {
-                "flag": "Company with limited liability .",
-                "text": "Gesellschaft mit beschränkter Haftung ."
+                "flag": "Company with limited liability.",
+                "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             },
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Künzelsau",
                     "dob": "1950-05-10",
                     "lastname": "Gräter",
                     "name": "Dieter"
                 },
-                "text": " Gräter , Dieter , Künzelsau , * 05.10.1950"
+                "text": " Gräter, Dieter, Künzelsau, *05.10.1950"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Kronberg",
+                    "dismissed": true,
                     "dob": "1966-12-13",
-                    "lastname": "Dr . Naumann",
+                    "lastname": "Doctor Naumann",
                     "name": "Thomas"
                 },
-                "text": " Dr . Naumann , Thomas , Kronberg , * 13.12.1966"
+                "text": " Doctor Naumann, Thomas, Kronberg, *13.12.1966"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Kienberg",
+                    "dismissed": true,
                     "dob": "1957-02-23",
                     "lastname": "Leibold",
                     "name": "Wolfgang"
                 },
-                "text": " Leibold , Wolfgang , Kienberg , * 23.02.1957"
+                "text": " Leibold, Wolfgang, Kienberg, *23.02.1957"
             }
         ]
     }

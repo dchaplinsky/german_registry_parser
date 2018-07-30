@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Friedrichsdorf",
+                    "dismissed": true,
                     "dob": "1946-12-26",
                     "lastname": "Malhotra",
                     "name": "Jai"
                 },
-                "text": " Malhotra , Jai , Friedrichsdorf , * 26.12.1946 ."
+                "text": " Malhotra, Jai, Friedrichsdorf, *26.12.1946."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Friedrichsdorf",
                     "dob": "1943-06-05",
@@ -42,17 +43,18 @@
                     "lastname": "Malhotra",
                     "name": "Nand Kishore"
                 },
-                "text": " Malhotra , Nand Kishore , Friedrichsdorf , * 06.05.1943 , einzelvertretungsberechtigt"
+                "text": " Malhotra, Nand Kishore, Friedrichsdorf, *06.05.1943, einzelvertretungsberechtigt"
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Friedrichsdorf",
+                    "dismissed": true,
                     "dob": "1943-06-05",
                     "lastname": "Malhotra",
                     "name": "Nand Kishore"
                 },
-                "text": " Malhotra , Nand Kishore , Friedrichsdorf , * 06.05.1943 ."
+                "text": " Malhotra, Nand Kishore, Friedrichsdorf, *06.05.1943."
             }
         ]
     }

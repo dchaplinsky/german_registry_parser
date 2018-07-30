@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Baden - Baden",
+                    "city": "Baden-Baden",
+                    "dismissed": true,
                     "dob": "1968-11-24",
                     "lastname": "Gumbinger",
                     "name": "Frank"
                 },
-                "text": " Gumbinger , Frank , Baden - Baden , * 24.11.1968 ."
+                "text": " Gumbinger, Frank, Baden-Baden, *24.11.1968."
             }
         ]
     }

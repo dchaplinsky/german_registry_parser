@@ -19,47 +19,38 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             },
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten\\ mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
-                "text": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
             },
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "company",
-                "text": " Geschäftsanschrift : Oranienburger Straße 3 , 10178 Berlin Gegenstand : Die Verwaltung eigenen Vermögens , die Beteiligung an anderen Unternehmen auf eigenem Namen , auf eigene Rechnung , nicht als Dienstleister für Dritte , der An - und Verkauf von Grundstücken und grundstücksgleichen Rechten , die Errichtung , Sanierung und Modernisierung von Gebäuden , insbesondere Verbrauchermärkte in Geisa Nicht mehr Geschäftsführer : Vieth , Julia"
-            },
-            {
-                "label": "address",
-                "text": " Oranienburger Straße 3 , 10178 Berlin Gegenstand : Die Verwaltung eigenen Vermögens , die Beteiligung an anderen Unternehmen auf eigenem Namen , auf eigene Rechnung , nicht als Dienstleister für Dritte , der An - und Verkauf von Grundstücken und grundstücksgleichen Rechten , die Errichtung , Sanierung und Modernisierung von Gebäuden , insbesondere Verbrauchermärkte in Geisa Nicht mehr Geschäftsführer : Vieth , Julia"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Vieth",
                     "name": "Julia"
                 },
-                "text": " Vieth , Julia"
+                "text": " Vieth, Julia"
             },
             {
                 "class": "ManagingDirector",
@@ -67,9 +58,9 @@
                     "city": "Berlin",
                     "dob": "1960-07-16",
                     "lastname": "Marxen",
-                    "name": "Franz - Josef"
+                    "name": "Franz-Josef"
                 },
-                "text": " Marxen , Franz - Josef , * 16.07.1960 , Berlin"
+                "text": " Marxen, Franz-Josef, *16.07.1960, Berlin"
             },
             {
                 "class": "ManagingDirector",
@@ -77,9 +68,9 @@
                     "city": "Weimar",
                     "dob": "1963-07-16",
                     "lastname": "Zehentner",
-                    "name": "Karl - Heinz"
+                    "name": "Karl-Heinz"
                 },
-                "text": " Zehentner , Karl - Heinz , * 16.07.1963 , Weimar"
+                "text": " Zehentner, Karl-Heinz, *16.07.1963, Weimar"
             }
         ]
     }

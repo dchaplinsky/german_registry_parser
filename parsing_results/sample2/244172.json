@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Girkenroth",
+                    "dismissed": true,
                     "dob": "1947-09-30",
                     "lastname": "Börstinghaus",
                     "name": "Rolf"
                 },
-                "text": " Börstinghaus , Rolf , Girkenroth , * 30.09.1947 ."
+                "text": " Börstinghaus, Rolf, Girkenroth, *30.09.1947."
             }
         ]
     }

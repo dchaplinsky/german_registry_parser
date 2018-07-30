@@ -16,22 +16,28 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1341562&land_abk=nw"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Flaborea , Giuseppe , Concordia Sagittaria , Venezia / Italien , * 19.07.1970, error text was Cannot parse DOB  Concordia Sagittaria  using regex"
-            }
-        ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Venezia / Italien",
+                    "dob": "1970-07-19",
+                    "lastname": "Flaborea",
+                    "name": "Giuseppe",
+                    "position": "Concordia Sagittaria"
+                },
+                "text": " Flaborea, Giuseppe, Concordia Sagittaria, Venezia / Italien, *19.07.1970"
+            },
+            {
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Eschweiler",
+                    "dismissed": true,
                     "dob": "1942-12-29",
                     "lastname": "Lenzen",
                     "name": "Herbert"
                 },
-                "text": " Lenzen , Herbert , Eschweiler , * 29.12.1942 ."
+                "text": " Lenzen, Herbert, Eschweiler, *29.12.1942."
             }
         ]
     }

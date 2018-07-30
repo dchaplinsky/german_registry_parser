@@ -24,33 +24,35 @@
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Burg OT Reesen",
                     "dob": "1950-11-10",
                     "lastname": "Voigt",
                     "name": "Heidemarie"
                 },
-                "text": " Voigt , Heidemarie , Burg OT Reesen , * 11.10.1950 ."
+                "text": " Voigt, Heidemarie, Burg OT Reesen, *11.10.1950."
             },
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Schermen",
+                    "dismissed": true,
                     "lastname": "Borsch",
                     "name": "Bodo"
                 },
-                "text": " Borsch , Bodo , Schermen ."
+                "text": " Borsch, Bodo, Schermen."
             },
             {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Burg OT Reesen",
+                    "dismissed": true,
                     "dob": "1950-11-10",
                     "lastname": "Voigt",
                     "name": "Heidemarie"
                 },
-                "text": " Voigt , Heidemarie , Burg OT Reesen , * 11.10.1950 ."
+                "text": " Voigt, Heidemarie, Burg OT Reesen, *11.10.1950."
             }
         ]
     }

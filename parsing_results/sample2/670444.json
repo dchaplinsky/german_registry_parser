@@ -19,7 +19,7 @@
         "flags": [
             {
                 "flag": "ignore_for_now",
-                "text": "Die Gesellschaft ist aufgelöst ."
+                "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
         "officers": [
@@ -31,17 +31,18 @@
                     "lastname": "Töniges",
                     "name": "Jens"
                 },
-                "text": " Töniges , Jens , Sinsheim , * 11.05.1968 ."
+                "text": " Töniges, Jens, Sinsheim, *11.05.1968."
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Sinsheim",
+                    "dismissed": true,
                     "dob": "1968-11-05",
                     "lastname": "Töniges",
                     "name": "Jens"
                 },
-                "text": " Töniges , Jens , Sinsheim , * 11.05.1968 ."
+                "text": " Töniges, Jens, Sinsheim, *11.05.1968."
             }
         ]
     }

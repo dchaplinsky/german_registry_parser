@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=442555&land_abk=by"
     },
     "parsed": {
-        "errors": [
-            {
-                "kls": "ParsingError",
-                "text": "Cannot parse a Owner from  Schrotberger , Dietrich - Horst , genannt Horst , Frankfurt am Main , * 28.03.1933 ., error text was Cannot parse DOB  genannt Horst  using regex"
-            }
-        ],
         "flags": [
             {
                 "flag": "Sole trader",
@@ -31,7 +25,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Sonnenweg 15 , 84385 Egglham ."
+                "text": " Sonnenweg 15, 84385 Egglham."
+            }
+        ],
+        "officers": [
+            {
+                "class": "Owner",
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dob": "1933-03-28",
+                    "lastname": "Schrotberger",
+                    "name": "Dietrich-Horst",
+                    "position": "genannt Horst"
+                },
+                "text": " Schrotberger, Dietrich-Horst, genannt Horst, Frankfurt am Main, *28.03.1933."
             }
         ]
     }

@@ -18,24 +18,25 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wetter",
+                    "dismissed": true,
                     "dob": "1960-09-16",
                     "lastname": "Hanses",
                     "name": "Frank"
                 },
-                "text": " Hanses , Frank , Wetter , * 16.09.1960 ."
+                "text": " Hanses, Frank, Wetter, *16.09.1960."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Essen",
                     "dob": "1974-02-12",
                     "lastname": "Domann",
                     "name": "Dirk"
                 },
-                "text": " Domann , Dirk , Essen , * 02.12.1974 ."
+                "text": " Domann, Dirk, Essen, *02.12.1974."
             }
         ]
     }

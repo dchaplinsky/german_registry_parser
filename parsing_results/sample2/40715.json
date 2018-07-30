@@ -18,13 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
-                    "city": "Dipl . - Ing",
+                    "city": "Rebesgrün",
+                    "dismissed": true,
                     "lastname": "Schneider",
-                    "name": "Karl"
+                    "name": "Karl",
+                    "position": "Diplomingenieur f. Bauwesen"
                 },
-                "text": " Schneider , Karl , Dipl . - Ing ."
+                "text": " Schneider, Karl, Diplomingenieur f. Bauwesen, Rebesgrün."
             }
         ]
     }

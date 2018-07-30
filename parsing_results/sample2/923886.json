@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
+                    "dismissed": true,
                     "dob": "1961-06-25",
                     "lastname": "Schreiner",
-                    "name": "Claus - Michael"
+                    "name": "Claus-Michael"
                 },
-                "text": " Schreiner , Claus - Michael , München , * 25.06.1961 ."
+                "text": " Schreiner, Claus-Michael, München, *25.06.1961."
             }
         ]
     }

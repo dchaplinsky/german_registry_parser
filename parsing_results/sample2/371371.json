@@ -19,23 +19,24 @@
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
-                "text": "mit der Befugnis die Gesellschaft allein zu vertreten"
+                "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
             }
         ],
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Nosto Solutions GmbH , Berlin , Winsstraße 62-63 , 10405 Berlin ."
+                "text": " Nosto Solutions GmbH, Berlin, Winsstraße 62-63, 10405 Berlin."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Valvanne",
                     "name": "Juha"
                 },
-                "text": " Valvanne , Juha"
+                "text": " Valvanne, Juha"
             },
             {
                 "class": "ManagingDirector",
@@ -45,7 +46,7 @@
                     "lastname": "Friedlaender",
                     "name": "Julius Kuno"
                 },
-                "text": " Friedlaender , Julius Kuno , * 10.12.1987 , Köln"
+                "text": " Friedlaender, Julius Kuno, *10.12.1987, Köln"
             }
         ]
     }

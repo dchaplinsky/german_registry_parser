@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Bockenheimer Anlage 11 , 60322 Frankfurt am Main ."
+                "text": " Bockenheimer Anlage 11, 60322 Frankfurt am Main."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Usingen",
+                    "dismissed": true,
                     "dob": "1976-11-11",
                     "lastname": "Kukuck",
                     "name": "Stefan"
                 },
-                "text": " Kukuck , Stefan , Usingen , * 11.11.1976 ."
+                "text": " Kukuck, Stefan, Usingen, *11.11.1976."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dob": "1974-01-19",
@@ -42,7 +43,7 @@
                     "lastname": "Pullicino",
                     "name": "Thomas"
                 },
-                "text": " Pullicino , Thomas , Frankfurt am Main , * 19.01.1974 , einzelvertretungsberechtigt ."
+                "text": " Pullicino, Thomas, Frankfurt am Main, *19.01.1974, einzelvertretungsberechtigt."
             }
         ]
     }

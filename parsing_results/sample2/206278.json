@@ -20,36 +20,30 @@
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "city": "Kruså / Dänemark",
+                    "city": "Kruså/Dänemark",
                     "dob": "1973-01-19",
                     "lastname": "Jepsen",
                     "name": "Søren Aaskov"
                 },
-                "text": " Jepsen , Søren Aaskov , * 19.01.1973 , Kruså / Dänemark"
+                "text": " Jepsen, Søren Aaskov, *19.01.1973, Kruså/Dänemark"
             },
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Johansen",
                     "name": "Lars Vilhelm Munch"
                 },
-                "text": " Johansen , Lars Vilhelm Munch"
+                "text": " Johansen, Lars Vilhelm Munch"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Jepsen",
                     "name": "Søren Aaskov"
                 },
-                "text": " Jepsen , Søren Aaskov"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "Nicht mehr Prokurist : Jepsen",
-                    "name": "Søren Aaskov"
-                },
-                "text": " Nicht mehr Prokurist : Jepsen , Søren Aaskov"
+                "text": " Jepsen, Søren Aaskov"
             }
         ]
     }

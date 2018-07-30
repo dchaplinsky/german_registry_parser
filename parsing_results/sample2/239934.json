@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hildesheim",
+                    "dismissed": true,
                     "dob": "1956-09-15",
                     "lastname": "Kleideiter",
                     "name": "Angelika"
                 },
-                "text": " Kleideiter , Angelika , Hildesheim , * 15.09.1956 ."
+                "text": " Kleideiter, Angelika, Hildesheim, *15.09.1956."
             }
         ]
     }

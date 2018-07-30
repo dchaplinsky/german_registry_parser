@@ -19,17 +19,18 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Berliner Straße 92 , 14467 Potsdam ."
+                "text": " Berliner Straße 92, 14467 Potsdam."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Bischof",
                     "name": "Roland"
                 },
-                "text": " Bischof , Roland"
+                "text": " Bischof, Roland"
             }
         ]
     }

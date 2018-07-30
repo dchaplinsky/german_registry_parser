@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=793813&land_abk=by"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Siewert",
                     "name": "Steffen"
                 },
-                "text": " Siewert , Steffen , Waltenhofen , * 08.02.1986 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Waltenhofen",
-                    "dob": "1986-08-02",
-                    "lastname": "Siewert",
-                    "name": "Steffen"
-                },
-                "text": " Siewert , Steffen , Waltenhofen , * 08.02.1986 ."
+                "text": " Siewert, Steffen, Waltenhofen, *08.02.1986."
             }
         ]
     }

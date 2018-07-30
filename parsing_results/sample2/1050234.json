@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Residenzplatz 23 , 87435 Kempten ( Allgäu ) ."
+                "text": " Residenzplatz 23, 87435 Kempten (Allgäu)."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Füssen",
+                    "dismissed": true,
                     "dob": "1956-04-16",
                     "lastname": "Kreisle",
                     "name": "Manfred"
                 },
-                "text": " Kreisle , Manfred , Füssen , * 16.04.1956 ."
+                "text": " Kreisle, Manfred, Füssen, *16.04.1956."
             }
         ]
     }

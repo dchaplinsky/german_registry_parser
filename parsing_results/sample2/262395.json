@@ -19,19 +19,20 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Kreuzberger Ring 22 , 65205 Wiesbaden ."
+                "text": " Kreuzberger Ring 22, 65205 Wiesbaden."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rotterdam",
+                    "dismissed": true,
                     "dob": "1958-12-05",
                     "lastname": "Bethlehem",
                     "name": "Ronald"
                 },
-                "text": " Bethlehem , Ronald , Rotterdam , * 12.05.1958 ."
+                "text": " Bethlehem, Ronald, Rotterdam, *12.05.1958."
             }
         ]
     }

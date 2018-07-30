@@ -18,14 +18,15 @@
     "parsed": {
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Esher ( Vereinigtes Königreich )",
+                    "city": "Esher (Vereinigtes Königreich)",
+                    "dismissed": true,
                     "dob": "1958-05-02",
                     "lastname": "Charlton",
                     "name": "Stephen"
                 },
-                "text": " Charlton , Stephen , Esher ( Vereinigtes Königreich ) , * 05.02.1958 ."
+                "text": " Charlton, Stephen, Esher (Vereinigtes Königreich), *05.02.1958."
             }
         ]
     }

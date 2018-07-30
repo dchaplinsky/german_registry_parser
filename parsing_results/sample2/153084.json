@@ -19,22 +19,23 @@
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
-                "text": "mit der Befugnis , im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Wietzendorf",
+                    "dismissed": true,
                     "dob": "1968-12-31",
                     "lastname": "Wurst",
                     "name": "Alexander"
                 },
-                "text": " Wurst , Alexander , Wietzendorf , * 31.12.1968 ."
+                "text": " Wurst, Alexander, Wietzendorf, *31.12.1968."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bielefeld",
                     "dob": "1971-03-05",
@@ -42,7 +43,7 @@
                     "lastname": "Dörmann",
                     "name": "Götz"
                 },
-                "text": " Dörmann , Götz , Bielefeld , * 03.05.1971 , einzelvertretungsberechtigt"
+                "text": " Dörmann, Götz, Bielefeld, *03.05.1971, einzelvertretungsberechtigt"
             },
             {
                 "class": "ManagingDirector",
@@ -53,7 +54,7 @@
                     "lastname": "Lenarz",
                     "name": "Wolfgang"
                 },
-                "text": " Lenarz , Wolfgang , Ronnenberg , * 25.11.1958 , vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer"
+                "text": " Lenarz, Wolfgang, Ronnenberg, *25.11.1958, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer"
             }
         ]
     }

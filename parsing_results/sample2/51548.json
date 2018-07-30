@@ -16,12 +16,6 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=51548&land_abk=sn"
     },
     "parsed": {
-        "flags": [
-            {
-                "flag": "Single procuration",
-                "text": "Einzelprokura"
-            }
-        ],
         "officers": [
             {
                 "class": "SingleProcuration",
@@ -31,17 +25,7 @@
                     "lastname": "Erbe",
                     "name": "Pia"
                 },
-                "text": " Erbe , Pia , Leipzig , * 26.06.1950 ."
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "city": "Leipzig",
-                    "dob": "1950-06-26",
-                    "lastname": "Erbe",
-                    "name": "Pia"
-                },
-                "text": " Erbe , Pia , Leipzig , * 26.06.1950 ."
+                "text": " Erbe, Pia, Leipzig, *26.06.1950."
             }
         ]
     }

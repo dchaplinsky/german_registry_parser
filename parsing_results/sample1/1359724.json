@@ -19,22 +19,23 @@
         "labels": [
             {
                 "label": "address",
-                "text": " c / o Noerr LLP , Speditionstr ."
+                "text": " c/o Noerr LLP, Speditionstr."
             }
         ],
         "officers": [
             {
-                "class": "ManagingDirector",
+                "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1969-01-10",
                     "lastname": "Vieth",
                     "name": "Julia"
                 },
-                "text": " Vieth , Julia , Berlin , * 01.10.1969 ."
+                "text": " Vieth, Julia, Berlin, *01.10.1969."
             },
             {
-                "class": "ManagingDirector",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Lake Oswego / Oregon / Vereinigte Staaten",
                     "dob": "1955-09-25",
@@ -42,7 +43,7 @@
                     "lastname": "Beyer",
                     "name": "Ruth"
                 },
-                "text": " Beyer , Ruth , Lake Oswego / Oregon / Vereinigte Staaten , * 25.09.1955 , einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen ."
+                "text": " Beyer, Ruth, Lake Oswego / Oregon / Vereinigte Staaten, *25.09.1955, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }
