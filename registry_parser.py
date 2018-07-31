@@ -210,7 +210,8 @@ class FullPerson(object):
     def to_dict(self):
         if "lastname" in self.payload:
             if "geborene" in self.payload["lastname"]:
-                self.payload["lastname"], self.payload["maidenname"] = self.payload["lastname"].split(" geborene")
+                self.payload["lastname"], self.payload["maidenname"] = self.payload["lastname"].split(" geborene", 1)
+                self.payload["maidenname"] = self.payload["maidenname"].replace("geborene", "").strip()
                 self.payload["lastname"] = self.payload["lastname"].strip()
                 self.payload["maidenname"] = self.payload["maidenname"].strip()
 
