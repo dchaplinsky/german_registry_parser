@@ -18,6 +18,16 @@
     "parsed": {
         "officers": [
             {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Mannheim",
+                    "dob": "1967-02-04",
+                    "lastname": "Lay",
+                    "name": "Klaus"
+                },
+                "text": " Lay, Klaus, Mannheim, *02.04.1967."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Frankfurt/Main",

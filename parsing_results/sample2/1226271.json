@@ -15,5 +15,28 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1226271&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Prag/Tschechische Republik",
+                    "dob": "1967-03-07",
+                    "lastname": "Herrmann",
+                    "name": "Martin"
+                },
+                "text": " Herrmann, Martin, Prag/Tschechische Republik, *03.07.1967."
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Essen",
+                    "dob": "1965-07-20",
+                    "lastname": "Doctor Hüffer",
+                    "name": "Jens"
+                },
+                "text": " Doctor Hüffer, Jens, Essen, *20.07.1965."
+            }
+        ]
+    }
 }

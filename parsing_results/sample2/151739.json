@@ -18,6 +18,16 @@
     "parsed": {
         "officers": [
             {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "München",
+                    "dob": "1973-09-06",
+                    "lastname": "Hartloff",
+                    "name": "Jan"
+                },
+                "text": " Hartloff, Jan, München, *09.06.1973"
+            },
+            {
                 "class": "NewProcuration",
                 "payload": {
                     "city": "Germering",

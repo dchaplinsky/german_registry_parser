@@ -18,6 +18,16 @@
     "parsed": {
         "officers": [
             {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Köln",
+                    "dob": "1971-02-17",
+                    "lastname": "Schoeller",
+                    "name": "Oliver"
+                },
+                "text": " Schoeller, Oliver, Köln, *17.02.1971."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "dismissed": true,

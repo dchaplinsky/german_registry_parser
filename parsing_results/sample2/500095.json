@@ -18,6 +18,16 @@
     "parsed": {
         "officers": [
             {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Kronberg im Taunus",
+                    "dob": "1972-05-03",
+                    "lastname": "van der Deijl",
+                    "name": "Eric"
+                },
+                "text": " van der Deijl, Eric, Kronberg im Taunus, *05.03.1972"
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Birkenau",

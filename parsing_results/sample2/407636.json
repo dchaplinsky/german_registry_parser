@@ -15,5 +15,18 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=407636&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1954-04-17",
+                    "lastname": "Doctor Müller",
+                    "name": "Ulrich"
+                },
+                "text": " Doctor Müller, Ulrich, Berlin, *17.04.1954"
+            }
+        ]
+    }
 }

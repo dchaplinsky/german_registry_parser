@@ -18,6 +18,16 @@
     "parsed": {
         "officers": [
             {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Darmstadt",
+                    "dob": "1970-12-07",
+                    "lastname": "Hensel",
+                    "name": "Frank"
+                },
+                "text": " Hensel, Frank, Darmstadt, *12.07.1970."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Heddesbach",

@@ -18,6 +18,16 @@
     "parsed": {
         "officers": [
             {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Pulheim",
+                    "dob": "1972-10-24",
+                    "lastname": "Haacke",
+                    "name": "Carola"
+                },
+                "text": " Haacke, Carola, Pulheim, *24.10.1972"
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "dismissed": true,

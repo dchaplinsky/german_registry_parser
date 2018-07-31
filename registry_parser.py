@@ -331,7 +331,7 @@ class Sentence(object):
         else:
             m = self.text.search(sentence)
             if m:
-                text = m.group(0)
+                text = re.escape(m.group(0))
 
         if text is None or not re.search(text, sentence, flags=re.I | re.U):
             yield
@@ -389,6 +389,10 @@ sentences = [
     ),
     Sentence(
         "Gesamtprokura gemeinsam mit einem Geschäftsführer oder einem anderen Prokuristen:",
+        assign_label_to_postfix=CommonProcuration,
+    ),
+    Sentence(
+        "Gesamtprokura gemeinsam mit einem Vorstandsmitglied oder einem anderen Prokuristen:",
         assign_label_to_postfix=CommonProcuration,
     ),
     Sentence(
