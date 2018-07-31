@@ -18,6 +18,16 @@
     "parsed": {
         "officers": [
             {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Stuttgart",
+                    "dob": "1961-01-29",
+                    "lastname": "Aichroth",
+                    "name": "Jürgen"
+                },
+                "text": " Aichroth, Jürgen, Stuttgart, *29.01.1961"
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Berlin",

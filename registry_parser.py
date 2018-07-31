@@ -449,7 +449,7 @@ sentences = [
         "Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein.",
         convert_to_flag="If only one managing director is appointed, he represents the company alone.",
     ),
-    Sentence("Die Gesellschaft ist aufgelöst.", convert_to_flag="ignore_for_now"),
+    Sentence("Die Gesellschaft ist aufgelöst.", convert_to_flag="CompanyClosed"),
     Sentence("Einzelprokura", convert_to_flag="Single procuration"),
     Sentence("Einzelkaufmann", convert_to_flag="Sole trader"),
     Sentence("Der Inhaber handelt allein", convert_to_flag="The owner is acting alone"),

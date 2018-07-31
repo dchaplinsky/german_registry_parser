@@ -15,5 +15,24 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1186735&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a CommonProcuration from  glittenberg, anja, erkrath, *27.03.1975. nach namensänderungs (bisher: henszelewski) nunmehr: gesamtprokura gemeinsam mit einem vorstandsmitglied oder einem anderen prokuristen: habermann, christina, wien/österreich, *29.06.1977. nach namenssänderung (bisher: pavlova) nunmehr: gesamtprokura gemeinsam mit einem vorstandsmitglied oder einem anderen prokuristen: dr. pavlova-behrens, venelina, düsseldorf, *01.04.1977. nach ergänzung des akademischen grades nunmehr: gesamtprokura gemeinsam mit einem vorstandsmitglied oder einem anderen prokuristen: dr. daniels, mirko, kaarst, *14.09.1978. prokuren erloschen: abrams, malte, hamburg, *03.09.1985, error text was no valid patter found, number of chunks: 16"
+            }
+        ],
+        "officers": [
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "milan/italien",
+                    "dob": "1974-03-03",
+                    "lastname": "azzolini",
+                    "name": "andrea"
+                },
+                "text": " azzolini, andrea, milan/italien, *03.03.1974"
+            }
+        ]
+    }
 }
