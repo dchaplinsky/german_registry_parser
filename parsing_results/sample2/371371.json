@@ -34,9 +34,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Valvanne",
-                    "name": "Juha"
+                    "name": "Juha",
+                    "ref": 1
                 },
-                "text": " Valvanne, Juha"
+                "text": "1) Valvanne, Juha"
             },
             {
                 "class": "ManagingDirector",
@@ -44,9 +45,10 @@
                     "city": "Köln",
                     "dob": "1987-10-12",
                     "lastname": "Friedlaender",
-                    "name": "Julius Kuno"
+                    "name": "Julius Kuno",
+                    "ref": 3
                 },
-                "text": " Friedlaender, Julius Kuno, *10.12.1987, Köln"
+                "text": "3) Friedlaender, Julius Kuno, *10.12.1987, Köln"
             }
         ]
     }

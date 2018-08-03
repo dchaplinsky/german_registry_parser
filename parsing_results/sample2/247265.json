@@ -25,11 +25,11 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift: Taubenstraße 20-22, 10117 Berlin Geschäftsführer: Beuermann, Paul-Friedrich, *16.03.1955, Hamburg"
+                "text": " Geschäftsanschrift: Taubenstraße 20-22, 10117 Berlin Geschäftsführer:2) Beuermann, Paul-Friedrich, *16.03.1955, Hamburg"
             },
             {
                 "label": "address",
-                "text": " Taubenstraße 20-22, 10117 Berlin Geschäftsführer: Beuermann, Paul-Friedrich, *16.03.1955, Hamburg"
+                "text": " Taubenstraße 20-22, 10117 Berlin Geschäftsführer:2) Beuermann, Paul-Friedrich, *16.03.1955, Hamburg"
             }
         ],
         "officers": [
@@ -39,18 +39,20 @@
                     "city": "Hamburg",
                     "dob": "1955-03-16",
                     "lastname": "Beuermann",
-                    "name": "Paul-Friedrich"
+                    "name": "Paul-Friedrich",
+                    "ref": 2
                 },
-                "text": " Beuermann, Paul-Friedrich, *16.03.1955, Hamburg"
+                "text": "2) Beuermann, Paul-Friedrich, *16.03.1955, Hamburg"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "von Stryk",
-                    "name": "Lutz"
+                    "name": "Lutz",
+                    "ref": 1
                 },
-                "text": " von Stryk, Lutz."
+                "text": "1) von Stryk, Lutz."
             }
         ]
     }

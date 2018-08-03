@@ -22,9 +22,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Doctor Heer",
-                    "name": "Wolfgang Helmut"
+                    "name": "Wolfgang Helmut",
+                    "ref": 1
                 },
-                "text": " Doctor Heer, Wolfgang Helmut"
+                "text": "1) Doctor Heer, Wolfgang Helmut"
             },
             {
                 "class": "ManagingDirector",
@@ -32,9 +33,10 @@
                     "city": "Berlin",
                     "dob": "1953-07-12",
                     "lastname": "Schulz",
-                    "name": "Hans-Detlev"
+                    "name": "Hans-Detlev",
+                    "ref": 3
                 },
-                "text": " Schulz, Hans-Detlev, *07.12.1953, Berlin"
+                "text": "3) Schulz, Hans-Detlev, *07.12.1953, Berlin"
             }
         ]
     }

@@ -36,18 +36,20 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Gogalla",
-                    "name": "Katja"
+                    "name": "Katja",
+                    "ref": 1
                 },
-                "text": " Gogalla, Katja"
+                "text": "1) Gogalla, Katja"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Selnes",
-                    "name": "Randi Mette"
+                    "name": "Randi Mette",
+                    "ref": 2
                 },
-                "text": " Selnes, Randi Mette"
+                "text": "2) Selnes, Randi Mette"
             },
             {
                 "class": "ManagingDirector",
@@ -55,9 +57,10 @@
                     "city": "Berlin",
                     "dob": "1984-03-01",
                     "lastname": "Tran",
-                    "name": "Le Thien Phuc"
+                    "name": "Le Thien Phuc",
+                    "ref": 3
                 },
-                "text": " Tran, Le Thien Phuc, *03.01.1984, Berlin"
+                "text": "3) Tran, Le Thien Phuc, *03.01.1984, Berlin"
             }
         ]
     }

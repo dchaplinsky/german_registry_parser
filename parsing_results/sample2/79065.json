@@ -45,7 +45,7 @@
         "labels": [
             {
                 "label": "address",
-                "text": " Göteborgring 83, 24109 Kiel Gegenstand: Betrieb von einem oder mehreren Fitness-Center und sämtliche Geschäfte, die damit im Zusammenhang stehen Kapital:000 EUR Vertretungsregelung: Die Gesellschaft hat einen oder mehrere Geschäftsführer."
+                "text": " Göteborgring 83, 24109 Kiel Gegenstand: Betrieb von einem oder mehreren Fitness-Center und sämtliche Geschäfte, die damit im Zusammenhang stehen Kapital:25)000 EUR Vertretungsregelung: Die Gesellschaft hat einen oder mehrere Geschäftsführer."
             }
         ],
         "officers": [
@@ -55,9 +55,10 @@
                     "city": "Neumünster",
                     "dob": "1968-04-23",
                     "lastname": "Andres",
-                    "name": "Martin"
+                    "name": "Martin",
+                    "ref": 1
                 },
-                "text": " Andres, Martin, *23.04.1968, Neumünster"
+                "text": "1) Andres, Martin, *23.04.1968, Neumünster"
             },
             {
                 "class": "ManagingDirector",
@@ -65,9 +66,10 @@
                     "city": "Hamburg",
                     "dob": "1958-05-02",
                     "lastname": "Pagelsdorf",
-                    "name": "Frank"
+                    "name": "Frank",
+                    "ref": 2
                 },
-                "text": " Pagelsdorf, Frank, *05.02.1958, Hamburg"
+                "text": "2) Pagelsdorf, Frank, *05.02.1958, Hamburg"
             },
             {
                 "class": "ManagingDirector",
@@ -75,9 +77,10 @@
                     "city": "Hamburg Rechtsform: Gesellschaft mit beschränkter Haftung",
                     "dob": "1949-06-27",
                     "lastname": "Doctor von Schwabe",
-                    "name": "Jörg"
+                    "name": "Jörg",
+                    "ref": 3
                 },
-                "text": " Doctor von Schwabe, Jörg, *27.06.1949, Hamburg Rechtsform: Gesellschaft mit beschränkter Haftung"
+                "text": "3) Doctor von Schwabe, Jörg, *27.06.1949, Hamburg Rechtsform: Gesellschaft mit beschränkter Haftung"
             }
         ]
     }

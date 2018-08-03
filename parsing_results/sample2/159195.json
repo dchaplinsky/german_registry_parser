@@ -42,9 +42,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Wolfert",
-                    "name": "Thomas"
+                    "name": "Thomas",
+                    "ref": 1
                 },
-                "text": " Wolfert, Thomas"
+                "text": "1) Wolfert, Thomas"
             },
             {
                 "class": "ManagingDirector",
@@ -52,18 +53,20 @@
                     "city": "Bernau",
                     "dob": "1970-02-05",
                     "lastname": "Weinrich",
-                    "name": "Andreas"
+                    "name": "Andreas",
+                    "ref": 2
                 },
-                "text": " Weinrich, Andreas, *02.05.1970, Bernau"
+                "text": "2) Weinrich, Andreas, *02.05.1970, Bernau"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Weinrich",
-                    "name": "Andreas Detlef"
+                    "name": "Andreas Detlef",
+                    "ref": 1
                 },
-                "text": " Weinrich, Andreas Detlef."
+                "text": "1) Weinrich, Andreas Detlef."
             }
         ]
     }

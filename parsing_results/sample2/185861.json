@@ -26,25 +26,27 @@
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " RD Druck Verwaltung GmbH, Osterrönfeld (Amtsgericht Kiel, HRB 16990 KI)"
+                    "company_name": "3) RD Druck Verwaltung GmbH, Osterrönfeld (Amtsgericht Kiel, HRB 16990 KI)"
                 },
-                "text": " RD Druck Verwaltung GmbH, Osterrönfeld (Amtsgericht Kiel, HRB 16990 KI)"
+                "text": "3) RD Druck Verwaltung GmbH, Osterrönfeld (Amtsgericht Kiel, HRB 16990 KI)"
             },
             {
                 "class": "PersonalPartner",
                 "payload": {
                     "lastname": "Boger",
-                    "name": "Torsten"
+                    "name": "Torsten",
+                    "ref": 1
                 },
-                "text": " Boger, Torsten"
+                "text": "1) Boger, Torsten"
             },
             {
                 "class": "PersonalPartner",
                 "payload": {
                     "lastname": "Delfs",
-                    "name": "Reiner"
+                    "name": "Reiner",
+                    "ref": 2
                 },
-                "text": " Delfs, Reiner"
+                "text": "2) Delfs, Reiner"
             },
             {
                 "class": "Procuration",
@@ -52,9 +54,10 @@
                     "city": "Aukrug",
                     "dob": "1969-08-31",
                     "lastname": "Rieper",
-                    "name": "Andreas"
+                    "name": "Andreas",
+                    "ref": 1
                 },
-                "text": " Rieper, Andreas, *31.08.1969, Aukrug"
+                "text": "1) Rieper, Andreas, *31.08.1969, Aukrug"
             }
         ]
     }

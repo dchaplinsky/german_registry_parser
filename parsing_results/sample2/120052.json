@@ -33,11 +33,11 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift: Katharina-Heinroth-Ufer 1, 10787 Berlin Geschäftsführer: Katz, Andrew Dean, *21.06.1961, Weybridge, Surrey"
+                "text": " Geschäftsanschrift: Katharina-Heinroth-Ufer 1, 10787 Berlin Geschäftsführer:5) Katz, Andrew Dean, *21.06.1961, Weybridge, Surrey"
             },
             {
                 "label": "address",
-                "text": " Katharina-Heinroth-Ufer 1, 10787 Berlin Geschäftsführer: Katz, Andrew Dean, *21.06.1961, Weybridge, Surrey"
+                "text": " Katharina-Heinroth-Ufer 1, 10787 Berlin Geschäftsführer:5) Katz, Andrew Dean, *21.06.1961, Weybridge, Surrey"
             }
         ],
         "officers": [
@@ -48,9 +48,10 @@
                     "dob": "1961-06-21",
                     "flag": "Surrey",
                     "lastname": "Katz",
-                    "name": "Andrew Dean"
+                    "name": "Andrew Dean",
+                    "ref": 5
                 },
-                "text": " Katz, Andrew Dean, *21.06.1961, Weybridge, Surrey"
+                "text": "5) Katz, Andrew Dean, *21.06.1961, Weybridge, Surrey"
             }
         ]
     }

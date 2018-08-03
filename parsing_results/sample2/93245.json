@@ -25,7 +25,7 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift: Klosterstraße 3, 13581 Berlin Prokura: Nicht mehr Prokurist: Dagois-Liepold, Karin geborene Schulz"
+                "text": " Geschäftsanschrift: Klosterstraße 3, 13581 Berlin Prokura: Nicht mehr Prokurist:1) Dagois-Liepold, Karin geborene Schulz"
             }
         ],
         "officers": [
@@ -34,9 +34,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Dagois-Liepold",
-                    "name": "Karin geborene Schulz"
+                    "name": "Karin geborene Schulz",
+                    "ref": 1
                 },
-                "text": " Dagois-Liepold, Karin geborene Schulz"
+                "text": "1) Dagois-Liepold, Karin geborene Schulz"
             }
         ]
     }

@@ -32,9 +32,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Taubitz",
-                    "name": "Stefan"
+                    "name": "Stefan",
+                    "ref": 1
                 },
-                "text": " Taubitz, Stefan"
+                "text": "1) Taubitz, Stefan"
             },
             {
                 "class": "ManagingDirector",
@@ -42,9 +43,10 @@
                     "city": "Berlin",
                     "dob": "1969-06-30",
                     "lastname": "Seidel",
-                    "name": "Holger"
+                    "name": "Holger",
+                    "ref": 2
                 },
-                "text": "Seidel, Holger, *30.06.1969, Berlin"
+                "text": "2)Seidel, Holger, *30.06.1969, Berlin"
             }
         ]
     }

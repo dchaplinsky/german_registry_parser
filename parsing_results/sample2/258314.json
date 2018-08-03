@@ -36,9 +36,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Doctor Bruns",
-                    "name": "Silvin"
+                    "name": "Silvin",
+                    "ref": 1
                 },
-                "text": " Doctor Bruns, Silvin"
+                "text": "1) Doctor Bruns, Silvin"
             },
             {
                 "class": "ManagingDirector",
@@ -46,9 +47,10 @@
                     "city": "Schwentinental",
                     "dob": "1974-03-01",
                     "lastname": "Reetz",
-                    "name": "Oliver"
+                    "name": "Oliver",
+                    "ref": 2
                 },
-                "text": " Reetz, Oliver, *03.01.1974, Schwentinental"
+                "text": "2) Reetz, Oliver, *03.01.1974, Schwentinental"
             }
         ]
     }

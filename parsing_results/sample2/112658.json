@@ -33,11 +33,11 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift: c/o Riedel, Am Feldrain 76, 18059 Rostock Geschäftsführer: Weinhardt, Roger, *27.05.1966, Berlin"
+                "text": " Geschäftsanschrift: c/o Riedel, Am Feldrain 76, 18059 Rostock Geschäftsführer:3) Weinhardt, Roger, *27.05.1966, Berlin"
             },
             {
                 "label": "address",
-                "text": " c/o Riedel, Am Feldrain 76, 18059 Rostock Geschäftsführer: Weinhardt, Roger, *27.05.1966, Berlin"
+                "text": " c/o Riedel, Am Feldrain 76, 18059 Rostock Geschäftsführer:3) Weinhardt, Roger, *27.05.1966, Berlin"
             }
         ],
         "officers": [
@@ -47,18 +47,20 @@
                     "city": "Berlin",
                     "dob": "1966-05-27",
                     "lastname": "Weinhardt",
-                    "name": "Roger"
+                    "name": "Roger",
+                    "ref": 3
                 },
-                "text": " Weinhardt, Roger, *27.05.1966, Berlin"
+                "text": "3) Weinhardt, Roger, *27.05.1966, Berlin"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Pahnke",
-                    "name": "Wolfgang"
+                    "name": "Wolfgang",
+                    "ref": 2
                 },
-                "text": " Pahnke, Wolfgang."
+                "text": "2) Pahnke, Wolfgang."
             }
         ]
     }

@@ -37,27 +37,30 @@
                     "city": "Berlin",
                     "dob": "1971-08-17",
                     "lastname": "Pichotta",
-                    "name": "Marco"
+                    "name": "Marco",
+                    "ref": 3
                 },
-                "text": " Pichotta, Marco, *17.08.1971, Berlin"
+                "text": "3) Pichotta, Marco, *17.08.1971, Berlin"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Friedrich",
-                    "name": "Uwe"
+                    "name": "Uwe",
+                    "ref": 1
                 },
-                "text": " Friedrich, Uwe"
+                "text": "1) Friedrich, Uwe"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Mundt",
-                    "name": "Thomas"
+                    "name": "Thomas",
+                    "ref": 2
                 },
-                "text": " Mundt, Thomas."
+                "text": "2) Mundt, Thomas."
             }
         ]
     }

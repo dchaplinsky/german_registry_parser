@@ -12,6 +12,7 @@ _german_tokenizer = data.load(os.path.join(os.path.dirname(__file__),
                                            "data/german.pickle"))
 dob_regex = re.compile(r"\*\s?\d{2}\s?\.\s?\d{2}\s?.\s?\d{4}")
 _useful_regex = re.compile(r"\d{2}\.\d{2}\.\d{4}\n\n", flags=re.M)
+parse_number_regex = re.compile(r"^(\d+)\)(.*)")
 
 
 class ParsingError(Exception):
@@ -97,6 +98,7 @@ class FullPerson(object):
         chunks = text.split(",")
         self.description = ""
         self.payload = {}
+
 
         try:
             dob_position = None
@@ -214,6 +216,11 @@ class FullPerson(object):
                 self.payload["maidenname"] = self.payload["maidenname"].replace("geborene", "").strip()
                 self.payload["lastname"] = self.payload["lastname"].strip()
                 self.payload["maidenname"] = self.payload["maidenname"].strip()
+
+            m = parse_number_regex.search(self.payload["lastname"])
+            if m:
+                self.payload["ref"] = int(m.group(1))
+                self.payload["lastname"] = m.group(2).strip()
 
         if getattr(self, "dismissed", False):
             self.payload["dismissed"] = True
@@ -508,7 +515,7 @@ def parse_document(doc: dict) -> (defaultdict, tuple):
     useful_text = useful_text.replace(" Dr.-Ing.", " Doktoringenieur")
     useful_text = useful_text.replace(" Dipl.-Ing.", " Diplomingenieur")
     useful_text = useful_text.replace(" Dr.", " Doctor")
-    useful_text = re.sub(r":\s\d+\.", ":", useful_text)
+    useful_text = re.sub(r":\s(\d+)\.", r":\1)", useful_text)
     sents = _german_tokenizer.tokenize(useful_text)  # type: tuple
     res = defaultdict(list)
 

@@ -36,18 +36,20 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Muhr",
-                    "name": "Matthias"
+                    "name": "Matthias",
+                    "ref": 2
                 },
-                "text": " Muhr, Matthias"
+                "text": "2) Muhr, Matthias"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Noelte",
-                    "name": "Daniel"
+                    "name": "Daniel",
+                    "ref": 3
                 },
-                "text": " Noelte, Daniel"
+                "text": "3) Noelte, Daniel"
             },
             {
                 "class": "Liquidator",
@@ -55,9 +57,10 @@
                     "city": "Berlin",
                     "dob": "1964-05-07",
                     "lastname": "Tornow",
-                    "name": "Uta"
+                    "name": "Uta",
+                    "ref": 4
                 },
-                "text": " Tornow, Uta, *05.07.1964, Berlin"
+                "text": "4) Tornow, Uta, *05.07.1964, Berlin"
             }
         ]
     }

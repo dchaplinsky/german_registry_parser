@@ -48,18 +48,20 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Kettlitz",
-                    "name": "René"
+                    "name": "René",
+                    "ref": 1
                 },
-                "text": " Kettlitz, René"
+                "text": "1) Kettlitz, René"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Menke",
-                    "name": "Thomas"
+                    "name": "Thomas",
+                    "ref": 2
                 },
-                "text": " Menke, Thomas"
+                "text": "2) Menke, Thomas"
             },
             {
                 "class": "ManagingDirector",
@@ -67,9 +69,10 @@
                     "city": "Hamburg",
                     "dob": "1971-10-05",
                     "lastname": "Gringel",
-                    "name": "Andreas"
+                    "name": "Andreas",
+                    "ref": 3
                 },
-                "text": " Gringel, Andreas, *10.05.1971, Hamburg"
+                "text": "3) Gringel, Andreas, *10.05.1971, Hamburg"
             },
             {
                 "class": "ManagingDirector",
@@ -77,9 +80,10 @@
                     "city": "Hamburg",
                     "dob": "1977-10-06",
                     "lastname": "Podlewski",
-                    "name": "Mario"
+                    "name": "Mario",
+                    "ref": 4
                 },
-                "text": " Podlewski, Mario, *10.06.1977, Hamburg"
+                "text": "4) Podlewski, Mario, *10.06.1977, Hamburg"
             }
         ]
     }

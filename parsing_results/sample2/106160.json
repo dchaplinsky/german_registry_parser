@@ -22,9 +22,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Brinkmann",
-                    "name": "Egon"
+                    "name": "Egon",
+                    "ref": 1
                 },
-                "text": " Brinkmann, Egon"
+                "text": "1) Brinkmann, Egon"
             },
             {
                 "class": "ManagingDirector",
@@ -32,9 +33,10 @@
                     "city": "Hösbach",
                     "dob": "1953-07-30",
                     "lastname": "Weis",
-                    "name": "Aloysius"
+                    "name": "Aloysius",
+                    "ref": 2
                 },
-                "text": " Weis, Aloysius, *30.07.1953, Hösbach."
+                "text": "2) Weis, Aloysius, *30.07.1953, Hösbach."
             }
         ]
     }

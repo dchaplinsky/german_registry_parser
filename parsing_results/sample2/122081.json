@@ -36,9 +36,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Schrader",
-                    "name": "Oliver"
+                    "name": "Oliver",
+                    "ref": 1
                 },
-                "text": " Schrader, Oliver"
+                "text": "1) Schrader, Oliver"
             },
             {
                 "class": "ManagingDirector",
@@ -46,9 +47,10 @@
                     "city": "Lübeck",
                     "dob": "1961-08-07",
                     "lastname": "Ludewig",
-                    "name": "Bert"
+                    "name": "Bert",
+                    "ref": 2
                 },
-                "text": " Ludewig, Bert, *08.07.1961, Lübeck"
+                "text": "2) Ludewig, Bert, *08.07.1961, Lübeck"
             }
         ]
     }

@@ -43,18 +43,20 @@
                     "city": "Berlin",
                     "dob": "1956-12-26",
                     "lastname": "Scholz",
-                    "name": "Hans-Peter"
+                    "name": "Hans-Peter",
+                    "ref": 2
                 },
-                "text": " Scholz, Hans-Peter, *26.12.1956, Berlin"
+                "text": "2) Scholz, Hans-Peter, *26.12.1956, Berlin"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Doctor Antonic",
-                    "name": "Bodo Robert Viktor"
+                    "name": "Bodo Robert Viktor",
+                    "ref": 1
                 },
-                "text": " Doctor Antonic, Bodo Robert Viktor"
+                "text": "1) Doctor Antonic, Bodo Robert Viktor"
             }
         ]
     }

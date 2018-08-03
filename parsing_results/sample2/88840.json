@@ -27,9 +27,10 @@
                 "class": "PersonalPartner",
                 "payload": {
                     "lastname": "Wagner",
-                    "name": "Peter"
+                    "name": "Peter",
+                    "ref": 2
                 },
-                "text": " Wagner, Peter"
+                "text": "2) Wagner, Peter"
             },
             {
                 "class": "PersonalPartner",
@@ -37,9 +38,10 @@
                     "city": "Diespeck",
                     "dob": "1954-05-13",
                     "lastname": "Doctor Bauer",
-                    "name": "Felix"
+                    "name": "Felix",
+                    "ref": 3
                 },
-                "text": " Doctor Bauer, Felix, *13.05.1954, Diespeck"
+                "text": "3) Doctor Bauer, Felix, *13.05.1954, Diespeck"
             }
         ]
     }

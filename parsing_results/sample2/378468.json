@@ -36,9 +36,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Vieth",
-                    "name": "Julia"
+                    "name": "Julia",
+                    "ref": 1
                 },
-                "text": " Vieth, Julia"
+                "text": "1) Vieth, Julia"
             },
             {
                 "class": "ManagingDirector",
@@ -46,9 +47,10 @@
                     "city": "Tel-Aviv/Israel",
                     "dob": "1953-05-11",
                     "lastname": "Dolev",
-                    "name": "Ben Zion"
+                    "name": "Ben Zion",
+                    "ref": 2
                 },
-                "text": " Dolev, Ben Zion, *05.11.1953, Tel-Aviv/Israel"
+                "text": "2) Dolev, Ben Zion, *05.11.1953, Tel-Aviv/Israel"
             },
             {
                 "class": "ManagingDirector",
@@ -56,9 +58,10 @@
                     "city": "Tel-Aviv/Israel",
                     "dob": "1962-08-02",
                     "lastname": "Erez",
-                    "name": "Ben-Nun"
+                    "name": "Ben-Nun",
+                    "ref": 3
                 },
-                "text": " Erez, Ben-Nun, *08.02.1962, Tel-Aviv/Israel"
+                "text": "3) Erez, Ben-Nun, *08.02.1962, Tel-Aviv/Israel"
             }
         ]
     }

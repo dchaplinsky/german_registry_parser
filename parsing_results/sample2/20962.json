@@ -36,18 +36,20 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Rieger",
-                    "name": "Jörg S"
+                    "name": "Jörg S",
+                    "ref": 2
                 },
-                "text": " Rieger, Jörg S."
+                "text": "2) Rieger, Jörg S."
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Neunfinger",
-                    "name": "Hans-Josef"
+                    "name": "Hans-Josef",
+                    "ref": 3
                 },
-                "text": " Neunfinger, Hans-Josef"
+                "text": "3) Neunfinger, Hans-Josef"
             },
             {
                 "class": "ManagingDirector",
@@ -55,18 +57,20 @@
                     "city": "Ratekau",
                     "dob": "1958-01-27",
                     "lastname": "Böttle Kirberg",
-                    "name": "Peter"
+                    "name": "Peter",
+                    "ref": 4
                 },
-                "text": " Böttle Kirberg, Peter, *27.01.1958, Ratekau"
+                "text": "4) Böttle Kirberg, Peter, *27.01.1958, Ratekau"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Böttle Kirberg",
-                    "name": "Peter"
+                    "name": "Peter",
+                    "ref": 2
                 },
-                "text": " Böttle Kirberg, Peter."
+                "text": "2) Böttle Kirberg, Peter."
             }
         ]
     }

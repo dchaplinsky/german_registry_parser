@@ -32,18 +32,20 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Bojens",
-                    "name": "Holger"
+                    "name": "Holger",
+                    "ref": 1
                 },
-                "text": " Bojens, Holger"
+                "text": "1) Bojens, Holger"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Bojens",
-                    "name": "Hannelore"
+                    "name": "Hannelore",
+                    "ref": 2
                 },
-                "text": " Bojens, Hannelore"
+                "text": "2) Bojens, Hannelore"
             },
             {
                 "class": "ManagingDirector",
@@ -51,9 +53,10 @@
                     "city": "Lübeck",
                     "dob": "1980-06-05",
                     "lastname": "Bojens",
-                    "name": "Florian"
+                    "name": "Florian",
+                    "ref": 3
                 },
-                "text": " Bojens, Florian, *06.05.1980, Lübeck"
+                "text": "3) Bojens, Florian, *06.05.1980, Lübeck"
             },
             {
                 "class": "ManagingDirector",
@@ -61,9 +64,10 @@
                     "city": "Offenbach a.M",
                     "dob": "1976-07-19",
                     "lastname": "Lütgens",
-                    "name": "Marcus"
+                    "name": "Marcus",
+                    "ref": 4
                 },
-                "text": " Lütgens, Marcus, *19.07.1976, Offenbach a.M."
+                "text": "4) Lütgens, Marcus, *19.07.1976, Offenbach a.M."
             }
         ]
     }

@@ -46,18 +46,20 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Gut",
-                    "name": "Marek Cezary"
+                    "name": "Marek Cezary",
+                    "ref": 1
                 },
-                "text": " Gut, Marek Cezary"
+                "text": "1) Gut, Marek Cezary"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Koncewicz",
-                    "name": "Dariusz"
+                    "name": "Dariusz",
+                    "ref": 2
                 },
-                "text": " Koncewicz, Dariusz"
+                "text": "2) Koncewicz, Dariusz"
             },
             {
                 "class": "ManagingDirector",
@@ -65,9 +67,10 @@
                     "city": "Zukowo/Polen",
                     "dob": "1977-09-04",
                     "lastname": "Kuberna",
-                    "name": "Marcin Jan"
+                    "name": "Marcin Jan",
+                    "ref": 3
                 },
-                "text": " Kuberna, Marcin Jan, *09.04.1977, Zukowo/Polen"
+                "text": "3) Kuberna, Marcin Jan, *09.04.1977, Zukowo/Polen"
             }
         ]
     }

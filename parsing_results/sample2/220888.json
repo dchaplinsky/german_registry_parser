@@ -33,11 +33,11 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift: Glockengießerwall 26, 20095 Hamburg Geschäftsführer: Schumacher, Frank, *08.01.1965, Wedel"
+                "text": " Geschäftsanschrift: Glockengießerwall 26, 20095 Hamburg Geschäftsführer:3) Schumacher, Frank, *08.01.1965, Wedel"
             },
             {
                 "label": "address",
-                "text": " Glockengießerwall 26, 20095 Hamburg Geschäftsführer: Schumacher, Frank, *08.01.1965, Wedel"
+                "text": " Glockengießerwall 26, 20095 Hamburg Geschäftsführer:3) Schumacher, Frank, *08.01.1965, Wedel"
             }
         ],
         "officers": [
@@ -47,18 +47,20 @@
                     "city": "Wedel",
                     "dob": "1965-08-01",
                     "lastname": "Schumacher",
-                    "name": "Frank"
+                    "name": "Frank",
+                    "ref": 3
                 },
-                "text": " Schumacher, Frank, *08.01.1965, Wedel"
+                "text": "3) Schumacher, Frank, *08.01.1965, Wedel"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Bundschuh",
-                    "name": "Meinhard"
+                    "name": "Meinhard",
+                    "ref": 2
                 },
-                "text": " Bundschuh, Meinhard."
+                "text": "2) Bundschuh, Meinhard."
             }
         ]
     }

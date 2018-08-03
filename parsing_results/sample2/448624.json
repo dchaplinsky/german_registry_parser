@@ -34,18 +34,20 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Kaplan",
-                    "name": "Idan"
+                    "name": "Idan",
+                    "ref": 2
                 },
-                "text": " Kaplan, Idan"
+                "text": "2) Kaplan, Idan"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Doctor Schulten",
-                    "name": "Marc"
+                    "name": "Marc",
+                    "ref": 3
                 },
-                "text": " Doctor Schulten, Marc"
+                "text": "3) Doctor Schulten, Marc"
             },
             {
                 "class": "ManagingDirector",
@@ -53,9 +55,10 @@
                     "city": "Hamburg",
                     "dob": "1970-06-25",
                     "lastname": "Schaer",
-                    "name": "Martin Ernst Wolfgang"
+                    "name": "Martin Ernst Wolfgang",
+                    "ref": 4
                 },
-                "text": " Schaer, Martin Ernst Wolfgang, *25.06.1970, Hamburg"
+                "text": "4) Schaer, Martin Ernst Wolfgang, *25.06.1970, Hamburg"
             }
         ]
     }

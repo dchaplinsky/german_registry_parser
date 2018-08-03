@@ -43,45 +43,50 @@
                     "city": "München",
                     "dob": "1977-11-15",
                     "lastname": "Dr. Neuberger",
-                    "name": "Julius"
+                    "name": "Julius",
+                    "ref": 4
                 },
-                "text": " Dr. Neuberger, Julius, *15.11.1977, München"
+                "text": "4) Dr. Neuberger, Julius, *15.11.1977, München"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Freiherr Marschall von Bieberstein",
-                    "name": "Michael Marius Christopher Sven Robert"
+                    "name": "Michael Marius Christopher Sven Robert",
+                    "ref": 1
                 },
-                "text": " Freiherr Marschall von Bieberstein, Michael Marius Christopher Sven Robert"
+                "text": "1) Freiherr Marschall von Bieberstein, Michael Marius Christopher Sven Robert"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Petersen",
-                    "name": "Frank"
+                    "name": "Frank",
+                    "ref": 2
                 },
-                "text": " Petersen, Frank"
+                "text": "2) Petersen, Frank"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Stern",
-                    "name": "Frank Arno Hermann Horst"
+                    "name": "Frank Arno Hermann Horst",
+                    "ref": 3
                 },
-                "text": " Stern, Frank Arno Hermann Horst"
+                "text": "3) Stern, Frank Arno Hermann Horst"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Sievers",
-                    "name": "Andree"
+                    "name": "Andree",
+                    "ref": 1
                 },
-                "text": " Sievers, Andree"
+                "text": "1) Sievers, Andree"
             }
         ]
     }

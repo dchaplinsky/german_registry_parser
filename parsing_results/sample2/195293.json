@@ -43,18 +43,20 @@
                     "city": "Berlin",
                     "dob": "1958-07-25",
                     "lastname": "Schröer",
-                    "name": "Karin"
+                    "name": "Karin",
+                    "ref": 3
                 },
-                "text": " Schröer, Karin, *25.07.1958, Berlin"
+                "text": "3) Schröer, Karin, *25.07.1958, Berlin"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Hansen",
-                    "name": "Raphael"
+                    "name": "Raphael",
+                    "ref": 2
                 },
-                "text": " Hansen, Raphael."
+                "text": "2) Hansen, Raphael."
             }
         ]
     }

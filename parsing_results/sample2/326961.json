@@ -46,18 +46,20 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Perutzki",
-                    "name": "Lars"
+                    "name": "Lars",
+                    "ref": 1
                 },
-                "text": " Perutzki, Lars"
+                "text": "1) Perutzki, Lars"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Toth",
-                    "name": "Aliz"
+                    "name": "Aliz",
+                    "ref": 2
                 },
-                "text": " Toth, Aliz"
+                "text": "2) Toth, Aliz"
             },
             {
                 "class": "Liquidator",
@@ -65,9 +67,10 @@
                     "city": "Torgau",
                     "dob": "1970-06-10",
                     "lastname": "Seiffert",
-                    "name": "Torsten"
+                    "name": "Torsten",
+                    "ref": 3
                 },
-                "text": " Seiffert, Torsten, *06.10.1970, Torgau"
+                "text": "3) Seiffert, Torsten, *06.10.1970, Torgau"
             }
         ]
     }

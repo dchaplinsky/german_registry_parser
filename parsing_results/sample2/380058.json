@@ -54,9 +54,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Lenny",
-                    "name": "James Patrick"
+                    "name": "James Patrick",
+                    "ref": 1
                 },
-                "text": " Lenny, James Patrick"
+                "text": "1) Lenny, James Patrick"
             },
             {
                 "class": "Liquidator",
@@ -64,18 +65,20 @@
                     "city": "Trebbin OT Großbeuthen",
                     "dob": "1947-03-29",
                     "lastname": "Rosseburg",
-                    "name": "Joachim"
+                    "name": "Joachim",
+                    "ref": 2
                 },
-                "text": " Rosseburg, Joachim, *29.03.1947, Trebbin OT Großbeuthen"
+                "text": "2) Rosseburg, Joachim, *29.03.1947, Trebbin OT Großbeuthen"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Bäßler",
-                    "name": "Claudia Marion"
+                    "name": "Claudia Marion",
+                    "ref": 1
                 },
-                "text": " Bäßler, Claudia Marion"
+                "text": "1) Bäßler, Claudia Marion"
             }
         ]
     }

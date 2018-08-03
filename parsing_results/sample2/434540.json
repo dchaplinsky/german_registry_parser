@@ -42,9 +42,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Jacobs",
-                    "name": "Sebastian"
+                    "name": "Sebastian",
+                    "ref": 1
                 },
-                "text": " Jacobs, Sebastian"
+                "text": "1) Jacobs, Sebastian"
             },
             {
                 "class": "ManagingDirector",
@@ -52,9 +53,10 @@
                     "city": "Altlandsberg",
                     "dob": "1960-12-16",
                     "lastname": "Wildenhayn",
-                    "name": "Frank"
+                    "name": "Frank",
+                    "ref": 2
                 },
-                "text": " Wildenhayn, Frank, *16.12.1960, Altlandsberg"
+                "text": "2) Wildenhayn, Frank, *16.12.1960, Altlandsberg"
             }
         ]
     }

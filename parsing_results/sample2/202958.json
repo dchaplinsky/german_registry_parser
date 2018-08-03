@@ -33,11 +33,11 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift: Lietzenburger Straße 22, 10789 Berlin Geschäftsführer: Scheding, Kai-Uwe, *11.04.1963, Berlin"
+                "text": " Geschäftsanschrift: Lietzenburger Straße 22, 10789 Berlin Geschäftsführer:2) Scheding, Kai-Uwe, *11.04.1963, Berlin"
             },
             {
                 "label": "address",
-                "text": " Lietzenburger Straße 22, 10789 Berlin Geschäftsführer: Scheding, Kai-Uwe, *11.04.1963, Berlin"
+                "text": " Lietzenburger Straße 22, 10789 Berlin Geschäftsführer:2) Scheding, Kai-Uwe, *11.04.1963, Berlin"
             }
         ],
         "officers": [
@@ -47,18 +47,20 @@
                     "city": "Berlin",
                     "dob": "1963-11-04",
                     "lastname": "Scheding",
-                    "name": "Kai-Uwe"
+                    "name": "Kai-Uwe",
+                    "ref": 2
                 },
-                "text": " Scheding, Kai-Uwe, *11.04.1963, Berlin"
+                "text": "2) Scheding, Kai-Uwe, *11.04.1963, Berlin"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Schmidt",
-                    "name": "Thomas"
+                    "name": "Thomas",
+                    "ref": 1
                 },
-                "text": " Schmidt, Thomas."
+                "text": "1) Schmidt, Thomas."
             }
         ]
     }

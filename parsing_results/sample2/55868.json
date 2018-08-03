@@ -48,18 +48,20 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Hadjigeorgiou",
-                    "name": "Pierre"
+                    "name": "Pierre",
+                    "ref": 1
                 },
-                "text": " Hadjigeorgiou, Pierre"
+                "text": "1) Hadjigeorgiou, Pierre"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Nassar",
-                    "name": "Marwan Shafiq Salim"
+                    "name": "Marwan Shafiq Salim",
+                    "ref": 2
                 },
-                "text": " Nassar, Marwan Shafiq Salim"
+                "text": "2) Nassar, Marwan Shafiq Salim"
             },
             {
                 "class": "ManagingDirector",
@@ -67,9 +69,10 @@
                     "city": "Senftenberg OT Kleinkoschen",
                     "dob": "1961-12-04",
                     "lastname": "Alhudhud",
-                    "name": "Arafeh Moh´d Majed Asad"
+                    "name": "Arafeh Moh´d Majed Asad",
+                    "ref": 3
                 },
-                "text": " Alhudhud, Arafeh Moh´d Majed Asad, *12.04.1961, Senftenberg OT Kleinkoschen"
+                "text": "3) Alhudhud, Arafeh Moh´d Majed Asad, *12.04.1961, Senftenberg OT Kleinkoschen"
             },
             {
                 "class": "ManagingDirector",
@@ -77,9 +80,10 @@
                     "city": "Senftenberg OT Kleinkoschen",
                     "dob": "1943-03-13",
                     "lastname": "Hanf",
-                    "name": "Reinhard Volker"
+                    "name": "Reinhard Volker",
+                    "ref": 4
                 },
-                "text": " Hanf, Reinhard Volker, *13.03.1943, Senftenberg OT Kleinkoschen"
+                "text": "4) Hanf, Reinhard Volker, *13.03.1943, Senftenberg OT Kleinkoschen"
             }
         ]
     }

@@ -22,9 +22,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Krause",
-                    "name": "Thomas"
+                    "name": "Thomas",
+                    "ref": 1
                 },
-                "text": " Krause, Thomas"
+                "text": "1) Krause, Thomas"
             },
             {
                 "class": "ManagingDirector",
@@ -32,9 +33,10 @@
                     "city": "Berlin",
                     "dob": "1951-06-22",
                     "lastname": "Dresdner",
-                    "name": "Jörg"
+                    "name": "Jörg",
+                    "ref": 2
                 },
-                "text": " Dresdner, Jörg, *22.06.1951, Berlin."
+                "text": "2) Dresdner, Jörg, *22.06.1951, Berlin."
             }
         ]
     }

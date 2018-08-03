@@ -50,18 +50,20 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Bertram",
-                    "name": "Ingmar"
+                    "name": "Ingmar",
+                    "ref": 1
                 },
-                "text": " Bertram, Ingmar"
+                "text": "1) Bertram, Ingmar"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Yassini",
-                    "name": "Sassan"
+                    "name": "Sassan",
+                    "ref": 3
                 },
-                "text": " Yassini, Sassan"
+                "text": "3) Yassini, Sassan"
             },
             {
                 "class": "ManagingDirector",
@@ -69,9 +71,10 @@
                     "city": "Berlin",
                     "dob": "1982-01-04",
                     "lastname": "Öztüfek",
-                    "name": "Ender"
+                    "name": "Ender",
+                    "ref": 4
                 },
-                "text": " Öztüfek, Ender, *01.04.1982, Berlin"
+                "text": "4) Öztüfek, Ender, *01.04.1982, Berlin"
             }
         ]
     }

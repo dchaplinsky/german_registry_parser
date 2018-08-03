@@ -62,9 +62,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Tronczik",
-                    "name": "Martin"
+                    "name": "Martin",
+                    "ref": 1
                 },
-                "text": " Tronczik, Martin"
+                "text": "1) Tronczik, Martin"
             },
             {
                 "class": "ManagingDirector",
@@ -72,9 +73,10 @@
                     "city": "Berlin",
                     "dob": "1990-05-18",
                     "lastname": "Exter",
-                    "name": "Friederike"
+                    "name": "Friederike",
+                    "ref": 2
                 },
-                "text": " Exter, Friederike, *18.05.1990, Berlin"
+                "text": "2) Exter, Friederike, *18.05.1990, Berlin"
             },
             {
                 "class": "ManagingDirector",
@@ -82,9 +84,10 @@
                     "city": "Berlin",
                     "dob": "1948-06-08",
                     "lastname": "Exter",
-                    "name": "Ernst Herrmann"
+                    "name": "Ernst Herrmann",
+                    "ref": 3
                 },
-                "text": " Exter, Ernst Herrmann, *06.08.1948, Berlin"
+                "text": "3) Exter, Ernst Herrmann, *06.08.1948, Berlin"
             }
         ]
     }

@@ -34,9 +34,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Doctor Meifort",
-                    "name": "Rita geborene Stein"
+                    "name": "Rita geborene Stein",
+                    "ref": 2
                 },
-                "text": " Doctor Meifort, Rita geborene Stein"
+                "text": "2) Doctor Meifort, Rita geborene Stein"
             },
             {
                 "class": "ManagingDirector",
@@ -44,9 +45,10 @@
                     "city": "Wesenberg",
                     "dob": "1983-04-27",
                     "lastname": "Grassl",
-                    "name": "Florian"
+                    "name": "Florian",
+                    "ref": 3
                 },
-                "text": " Grassl, Florian, *27.04.1983, Wesenberg"
+                "text": "3) Grassl, Florian, *27.04.1983, Wesenberg"
             }
         ]
     }

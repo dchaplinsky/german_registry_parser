@@ -39,9 +39,10 @@
                     "city": "London/Vereinigtes Königreich",
                     "dob": "1978-06-08",
                     "lastname": "Bruce",
-                    "name": "Robert Graham"
+                    "name": "Robert Graham",
+                    "ref": 4
                 },
-                "text": " Bruce, Robert Graham, *06.08.1978, London/Vereinigtes Königreich"
+                "text": "4) Bruce, Robert Graham, *06.08.1978, London/Vereinigtes Königreich"
             },
             {
                 "class": "ManagingDirector",
@@ -49,18 +50,20 @@
                     "city": "London/Vereinigtes Königreich",
                     "dob": "1978-07-12",
                     "lastname": "Stavrakos Stevenson",
-                    "name": "Alexander"
+                    "name": "Alexander",
+                    "ref": 5
                 },
-                "text": " Stavrakos Stevenson, Alexander, *07.12.1978, London/Vereinigtes Königreich"
+                "text": "5) Stavrakos Stevenson, Alexander, *07.12.1978, London/Vereinigtes Königreich"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Hirschberg",
-                    "name": "Dörte"
+                    "name": "Dörte",
+                    "ref": 3
                 },
-                "text": " Hirschberg, Dörte"
+                "text": "3) Hirschberg, Dörte"
             }
         ]
     }

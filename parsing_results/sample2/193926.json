@@ -22,9 +22,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Jäpel",
-                    "name": "Jens"
+                    "name": "Jens",
+                    "ref": 2
                 },
-                "text": " Jäpel, Jens"
+                "text": "2) Jäpel, Jens"
             },
             {
                 "class": "ManagingDirector",
@@ -32,9 +33,10 @@
                     "city": "Hamburg",
                     "dob": "1957-04-19",
                     "lastname": "Tappendorf",
-                    "name": "Frank"
+                    "name": "Frank",
+                    "ref": 3
                 },
-                "text": " Tappendorf, Frank, *19.04.1957, Hamburg"
+                "text": "3) Tappendorf, Frank, *19.04.1957, Hamburg"
             },
             {
                 "class": "ManagingDirector",
@@ -49,9 +51,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Tappendorf",
-                    "name": "Frank"
+                    "name": "Frank",
+                    "ref": 3
                 },
-                "text": " Tappendorf, Frank"
+                "text": "3) Tappendorf, Frank"
             }
         ]
     }

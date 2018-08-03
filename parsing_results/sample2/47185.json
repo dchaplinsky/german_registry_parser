@@ -36,9 +36,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Mathews",
-                    "name": "Richard"
+                    "name": "Richard",
+                    "ref": 1
                 },
-                "text": " Mathews, Richard"
+                "text": "1) Mathews, Richard"
             },
             {
                 "class": "ManagingDirector",
@@ -46,9 +47,10 @@
                     "city": "Berlin",
                     "dob": "1977-01-07",
                     "lastname": "Becker",
-                    "name": "Jan"
+                    "name": "Jan",
+                    "ref": 2
                 },
-                "text": " Becker, Jan, *01.07.1977, Berlin"
+                "text": "2) Becker, Jan, *01.07.1977, Berlin"
             }
         ]
     }

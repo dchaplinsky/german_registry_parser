@@ -51,18 +51,20 @@
                     "city": "Berlin",
                     "dob": "1947-03-27",
                     "lastname": "Berger",
-                    "name": "Gabriele"
+                    "name": "Gabriele",
+                    "ref": 2
                 },
-                "text": " Berger, Gabriele, *27.03.1947, Berlin"
+                "text": "2) Berger, Gabriele, *27.03.1947, Berlin"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Berger",
-                    "name": "Oliver"
+                    "name": "Oliver",
+                    "ref": 1
                 },
-                "text": " Berger, Oliver"
+                "text": "1) Berger, Oliver"
             }
         ]
     }

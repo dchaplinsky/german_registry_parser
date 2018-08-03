@@ -36,9 +36,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Breuer",
-                    "name": "Frank"
+                    "name": "Frank",
+                    "ref": 1
                 },
-                "text": " Breuer, Frank"
+                "text": "1) Breuer, Frank"
             },
             {
                 "class": "ManagingDirector",
@@ -46,9 +47,10 @@
                     "city": "Berlin",
                     "dob": "1951-12-26",
                     "lastname": "Doctor Feuerstein",
-                    "name": "Stefan"
+                    "name": "Stefan",
+                    "ref": 3
                 },
-                "text": " Doctor Feuerstein, Stefan, *26.12.1951, Berlin"
+                "text": "3) Doctor Feuerstein, Stefan, *26.12.1951, Berlin"
             }
         ]
     }

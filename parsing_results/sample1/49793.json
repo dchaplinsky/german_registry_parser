@@ -54,9 +54,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Doctor Slabschi",
-                    "name": "Peter"
+                    "name": "Peter",
+                    "ref": 2
                 },
-                "text": " Doctor Slabschi, Peter"
+                "text": "2) Doctor Slabschi, Peter"
             },
             {
                 "class": "ManagingDirector",
@@ -64,9 +65,10 @@
                     "city": "Hamburg",
                     "dob": "1950-07-08",
                     "lastname": "Heinemann",
-                    "name": "Claus Helmut Otto"
+                    "name": "Claus Helmut Otto",
+                    "ref": 3
                 },
-                "text": " Heinemann, Claus Helmut Otto, *07.08.1950, Hamburg"
+                "text": "3) Heinemann, Claus Helmut Otto, *07.08.1950, Hamburg"
             },
             {
                 "class": "ManagingDirector",
@@ -74,9 +76,10 @@
                     "city": "Hamburg",
                     "dob": "1951-06-01",
                     "lastname": "Heinemann",
-                    "name": "Gunnar"
+                    "name": "Gunnar",
+                    "ref": 4
                 },
-                "text": " Heinemann, Gunnar, *06.01.1951, Hamburg"
+                "text": "4) Heinemann, Gunnar, *06.01.1951, Hamburg"
             }
         ]
     }

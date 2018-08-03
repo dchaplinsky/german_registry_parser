@@ -22,9 +22,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Elteste",
-                    "name": "Jürgen"
+                    "name": "Jürgen",
+                    "ref": 1
                 },
-                "text": " Elteste, Jürgen"
+                "text": "1) Elteste, Jürgen"
             },
             {
                 "class": "ManagingDirector",
@@ -32,9 +33,10 @@
                     "city": "München",
                     "dob": "1964-05-17",
                     "lastname": "Neie",
-                    "name": "Philipp"
+                    "name": "Philipp",
+                    "ref": 2
                 },
-                "text": " Neie, Philipp, *17.05.1964, München."
+                "text": "2) Neie, Philipp, *17.05.1964, München."
             }
         ]
     }

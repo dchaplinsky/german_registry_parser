@@ -45,10 +45,10 @@
                 "class": "NotALiquidator",
                 "payload": {
                     "dismissed": true,
-                    "lastname": ": Lehmann-Andres",
+                    "lastname": ":1) Lehmann-Andres",
                     "name": "Karl-Heinz"
                 },
-                "text": ": Lehmann-Andres, Karl-Heinz"
+                "text": ":1) Lehmann-Andres, Karl-Heinz"
             },
             {
                 "class": "Liquidator",
@@ -56,9 +56,10 @@
                     "city": "Hamburg",
                     "dob": "1938-08-19",
                     "lastname": "Casati",
-                    "name": "Beate Ursula"
+                    "name": "Beate Ursula",
+                    "ref": 2
                 },
-                "text": " Casati, Beate Ursula, *19.08.1938, Hamburg"
+                "text": "2) Casati, Beate Ursula, *19.08.1938, Hamburg"
             }
         ]
     }

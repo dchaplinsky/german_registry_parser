@@ -39,9 +39,10 @@
                     "city": "Berlin",
                     "dob": "1975-10-27",
                     "lastname": "Colak",
-                    "name": "Mustafa"
+                    "name": "Mustafa",
+                    "ref": 3
                 },
-                "text": " Colak, Mustafa, *27.10.1975, Berlin"
+                "text": "3) Colak, Mustafa, *27.10.1975, Berlin"
             },
             {
                 "class": "ManagingDirector",
@@ -49,27 +50,30 @@
                     "city": "Berlin",
                     "dob": "1980-03-31",
                     "lastname": "Özcelik",
-                    "name": "Nadir"
+                    "name": "Nadir",
+                    "ref": 4
                 },
-                "text": " Özcelik, Nadir, *31.03.1980, Berlin"
+                "text": "4) Özcelik, Nadir, *31.03.1980, Berlin"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Özcelik",
-                    "name": "Seyfi"
+                    "name": "Seyfi",
+                    "ref": 1
                 },
-                "text": " Özcelik, Seyfi"
+                "text": "1) Özcelik, Seyfi"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Özcelik",
-                    "name": "Refik"
+                    "name": "Refik",
+                    "ref": 2
                 },
-                "text": " Özcelik, Refik"
+                "text": "2) Özcelik, Refik"
             }
         ]
     }

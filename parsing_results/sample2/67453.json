@@ -48,9 +48,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Rohde",
-                    "name": "Stephan"
+                    "name": "Stephan",
+                    "ref": 2
                 },
-                "text": " Rohde, Stephan"
+                "text": "2) Rohde, Stephan"
             },
             {
                 "class": "ManagingDirector",
@@ -58,9 +59,10 @@
                     "city": "Berkenthin",
                     "dob": "1959-09-20",
                     "lastname": "Dr. Gerhus",
-                    "name": "Ernst"
+                    "name": "Ernst",
+                    "ref": 3
                 },
-                "text": "Dr. Gerhus, Ernst, *20.09.1959, Berkenthin"
+                "text": "3)Dr. Gerhus, Ernst, *20.09.1959, Berkenthin"
             },
             {
                 "class": "ManagingDirector",
@@ -68,9 +70,10 @@
                     "city": "Lübeck",
                     "dob": "1964-03-28",
                     "lastname": "Roppiler",
-                    "name": "Markus"
+                    "name": "Markus",
+                    "ref": 4
                 },
-                "text": "Roppiler, Markus, *28.03.1964, Lübeck"
+                "text": "4)Roppiler, Markus, *28.03.1964, Lübeck"
             }
         ]
     }

@@ -28,9 +28,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Fleck",
-                    "name": "Patrick Oliver"
+                    "name": "Patrick Oliver",
+                    "ref": 1
                 },
-                "text": " Fleck, Patrick Oliver"
+                "text": "1) Fleck, Patrick Oliver"
             },
             {
                 "class": "ManagingDirector",
@@ -38,18 +39,20 @@
                     "city": "Hamburg",
                     "dob": "1954-10-29",
                     "lastname": "Branse",
-                    "name": "Peter"
+                    "name": "Peter",
+                    "ref": 3
                 },
-                "text": " Branse, Peter, *29.10.1954, Hamburg"
+                "text": "3) Branse, Peter, *29.10.1954, Hamburg"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Branse",
-                    "name": "Peter"
+                    "name": "Peter",
+                    "ref": 1
                 },
-                "text": " Branse, Peter."
+                "text": "1) Branse, Peter."
             }
         ]
     }

@@ -28,9 +28,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Viering",
-                    "name": "Harald"
+                    "name": "Harald",
+                    "ref": 9
                 },
-                "text": " Viering, Harald"
+                "text": "9) Viering, Harald"
             },
             {
                 "class": "ManagingDirector",
@@ -38,18 +39,20 @@
                     "city": "Gerolzhofen",
                     "dob": "1965-03-19",
                     "lastname": "Fetkenheuer",
-                    "name": "Klaus"
+                    "name": "Klaus",
+                    "ref": 10
                 },
-                "text": " Fetkenheuer, Klaus, *19.03.1965, Gerolzhofen"
+                "text": "10) Fetkenheuer, Klaus, *19.03.1965, Gerolzhofen"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Löwigt",
-                    "name": "Uwe"
+                    "name": "Uwe",
+                    "ref": 7
                 },
-                "text": " Löwigt, Uwe."
+                "text": "7) Löwigt, Uwe."
             }
         ]
     }

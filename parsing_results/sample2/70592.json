@@ -22,18 +22,20 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Puyol Bejar",
-                    "name": "Luis Pascual"
+                    "name": "Luis Pascual",
+                    "ref": 1
                 },
-                "text": " Puyol Bejar, Luis Pascual"
+                "text": "1) Puyol Bejar, Luis Pascual"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Garcia de Chiclana",
-                    "name": "Jesús"
+                    "name": "Jesús",
+                    "ref": 2
                 },
-                "text": " Garcia de Chiclana, Jesús"
+                "text": "2) Garcia de Chiclana, Jesús"
             },
             {
                 "class": "ManagingDirector",
@@ -41,9 +43,10 @@
                     "city": "Madrid/Spanien",
                     "dob": "1953-01-22",
                     "lastname": "Rodriguez Garcia",
-                    "name": "Francisco Javier"
+                    "name": "Francisco Javier",
+                    "ref": 4
                 },
-                "text": " Rodriguez Garcia, Francisco Javier, *22.01.1953, Madrid/Spanien"
+                "text": "4) Rodriguez Garcia, Francisco Javier, *22.01.1953, Madrid/Spanien"
             },
             {
                 "class": "ManagingDirector",
@@ -51,9 +54,10 @@
                     "city": "Madrid/Spanien",
                     "dob": "1963-04-29",
                     "lastname": "Bonet de Luna",
-                    "name": "Jorge Federico"
+                    "name": "Jorge Federico",
+                    "ref": 5
                 },
-                "text": " Bonet de Luna, Jorge Federico, *29.04.1963, Madrid/Spanien."
+                "text": "5) Bonet de Luna, Jorge Federico, *29.04.1963, Madrid/Spanien."
             }
         ]
     }

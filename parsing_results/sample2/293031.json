@@ -38,9 +38,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Ringleb",
-                    "name": "Wolfgang Carl"
+                    "name": "Wolfgang Carl",
+                    "ref": 1
                 },
-                "text": " Ringleb, Wolfgang Carl"
+                "text": "1) Ringleb, Wolfgang Carl"
             },
             {
                 "class": "ManagingDirector",
@@ -48,9 +49,10 @@
                     "city": "Berlin",
                     "dob": "1982-12-24",
                     "lastname": "Hagemann",
-                    "name": "Jens-Carsten"
+                    "name": "Jens-Carsten",
+                    "ref": 2
                 },
-                "text": " Hagemann, Jens-Carsten, *24.12.1982, Berlin"
+                "text": "2) Hagemann, Jens-Carsten, *24.12.1982, Berlin"
             },
             {
                 "class": "ManagingDirector",
@@ -58,18 +60,20 @@
                     "city": "Hennigsdorf",
                     "dob": "1959-08-25",
                     "lastname": "Marquardt",
-                    "name": "Jörg"
+                    "name": "Jörg",
+                    "ref": 3
                 },
-                "text": " Marquardt, Jörg, *25.08.1959, Hennigsdorf"
+                "text": "3) Marquardt, Jörg, *25.08.1959, Hennigsdorf"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Hagemann",
-                    "name": "Jens-Carsten"
+                    "name": "Jens-Carsten",
+                    "ref": 1
                 },
-                "text": " Hagemann, Jens-Carsten"
+                "text": "1) Hagemann, Jens-Carsten"
             }
         ]
     }

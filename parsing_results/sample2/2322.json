@@ -27,10 +27,10 @@
                 "class": "NotALiquidator",
                 "payload": {
                     "dismissed": true,
-                    "lastname": "in: Fafflock",
+                    "lastname": "in:1) Fafflock",
                     "name": "Heike"
                 },
-                "text": "in: Fafflock, Heike."
+                "text": "in:1) Fafflock, Heike."
             },
             {
                 "class": "Liquidator",
@@ -38,9 +38,10 @@
                     "city": "Stuhr",
                     "dob": "1959-12-19",
                     "lastname": "Söller",
-                    "name": "Stefan"
+                    "name": "Stefan",
+                    "ref": 2
                 },
-                "text": " Söller, Stefan, *19.12.1959, Stuhr"
+                "text": "2) Söller, Stefan, *19.12.1959, Stuhr"
             }
         ]
     }

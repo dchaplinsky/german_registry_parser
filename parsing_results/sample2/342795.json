@@ -34,18 +34,20 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Rebentrost",
-                    "name": "Anna"
+                    "name": "Anna",
+                    "ref": 2
                 },
-                "text": " Rebentrost, Anna"
+                "text": "2) Rebentrost, Anna"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Rebentrost",
-                    "name": "Fabian"
+                    "name": "Fabian",
+                    "ref": 3
                 },
-                "text": " Rebentrost, Fabian"
+                "text": "3) Rebentrost, Fabian"
             },
             {
                 "class": "ManagingDirector",
@@ -53,9 +55,10 @@
                     "city": "Berlin",
                     "dob": "1966-04-29",
                     "lastname": "Eiff",
-                    "name": "Peter"
+                    "name": "Peter",
+                    "ref": 4
                 },
-                "text": " Eiff, Peter, *29.04.1966, Berlin"
+                "text": "4) Eiff, Peter, *29.04.1966, Berlin"
             },
             {
                 "class": "ManagingDirector",
@@ -63,9 +66,10 @@
                     "city": "Bielefeld",
                     "dob": "1969-04-11",
                     "lastname": "Oberwelland",
-                    "name": "Timm"
+                    "name": "Timm",
+                    "ref": 5
                 },
-                "text": " Oberwelland, Timm, *04.11.1969, Bielefeld"
+                "text": "5) Oberwelland, Timm, *04.11.1969, Bielefeld"
             }
         ]
     }

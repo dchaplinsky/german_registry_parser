@@ -34,9 +34,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Elias",
-                    "name": "Michael"
+                    "name": "Michael",
+                    "ref": 1
                 },
-                "text": " Elias, Michael"
+                "text": "1) Elias, Michael"
             },
             {
                 "class": "ManagingDirector",
@@ -44,9 +45,10 @@
                     "city": "Berlin",
                     "dob": "1963-04-28",
                     "lastname": "Förner",
-                    "name": "Andreas"
+                    "name": "Andreas",
+                    "ref": 2
                 },
-                "text": " Förner, Andreas, *28.04.1963, Berlin"
+                "text": "2) Förner, Andreas, *28.04.1963, Berlin"
             }
         ]
     }

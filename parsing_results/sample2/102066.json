@@ -47,18 +47,20 @@
                     "city": "Berlin",
                     "dob": "1948-01-10",
                     "lastname": "Lanz",
-                    "name": "Lothar"
+                    "name": "Lothar",
+                    "ref": 2
                 },
-                "text": " Lanz, Lothar, *01.10.1948, Berlin"
+                "text": "2) Lanz, Lothar, *01.10.1948, Berlin"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Naumann",
-                    "name": "Steffen"
+                    "name": "Steffen",
+                    "ref": 1
                 },
-                "text": " Naumann, Steffen."
+                "text": "1) Naumann, Steffen."
             }
         ]
     }

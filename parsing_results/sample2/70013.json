@@ -36,18 +36,20 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Badstöber",
-                    "name": "Claudia"
+                    "name": "Claudia",
+                    "ref": 2
                 },
-                "text": " Badstöber, Claudia"
+                "text": "2) Badstöber, Claudia"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Kowar",
-                    "name": "Johann"
+                    "name": "Johann",
+                    "ref": 3
                 },
-                "text": " Kowar, Johann"
+                "text": "3) Kowar, Johann"
             },
             {
                 "class": "ManagingDirector",
@@ -55,9 +57,10 @@
                     "city": "Flein",
                     "dob": "1957-09-21",
                     "lastname": "Kelber",
-                    "name": "Jürgen F"
+                    "name": "Jürgen F",
+                    "ref": 4
                 },
-                "text": " Kelber, Jürgen F., *21.09.1957, Flein"
+                "text": "4) Kelber, Jürgen F., *21.09.1957, Flein"
             },
             {
                 "class": "ManagingDirector",
@@ -65,9 +68,10 @@
                     "city": "Wimsheim",
                     "dob": "1958-12-28",
                     "lastname": "Leitner",
-                    "name": "Walter"
+                    "name": "Walter",
+                    "ref": 5
                 },
-                "text": " Leitner, Walter, *28.12.1958, Wimsheim"
+                "text": "5) Leitner, Walter, *28.12.1958, Wimsheim"
             },
             {
                 "class": "Procuration",
@@ -75,9 +79,10 @@
                     "city": "Wien/Österreich",
                     "dob": "1968-03-02",
                     "lastname": "Badstöber",
-                    "name": "Claudia"
+                    "name": "Claudia",
+                    "ref": 2
                 },
-                "text": " Badstöber, Claudia, *03.02.1968, Wien/Österreich"
+                "text": "2) Badstöber, Claudia, *03.02.1968, Wien/Österreich"
             }
         ]
     }

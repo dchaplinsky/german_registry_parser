@@ -35,10 +35,10 @@
                 "class": "NotALiquidator",
                 "payload": {
                     "dismissed": true,
-                    "lastname": ": Fritz",
+                    "lastname": ":1) Fritz",
                     "name": "Gyula"
                 },
-                "text": ": Fritz, Gyula"
+                "text": ":1) Fritz, Gyula"
             },
             {
                 "class": "ManagingDirector",
@@ -46,9 +46,10 @@
                     "city": "Berlin",
                     "dob": "1948-10-22",
                     "lastname": "Krug",
-                    "name": "Heinz Jürgen"
+                    "name": "Heinz Jürgen",
+                    "ref": 2
                 },
-                "text": " Krug, Heinz Jürgen, *22.10.1948, Berlin"
+                "text": "2) Krug, Heinz Jürgen, *22.10.1948, Berlin"
             }
         ]
     }

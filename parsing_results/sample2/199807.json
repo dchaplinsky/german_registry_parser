@@ -36,9 +36,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Doctor Mörtzsch",
-                    "name": "Matthias"
+                    "name": "Matthias",
+                    "ref": 1
                 },
-                "text": " Doctor Mörtzsch, Matthias"
+                "text": "1) Doctor Mörtzsch, Matthias"
             },
             {
                 "class": "ManagingDirector",
@@ -46,9 +47,10 @@
                     "city": "Berlin",
                     "dob": "1965-09-14",
                     "lastname": "Mentzel",
-                    "name": "Andreas"
+                    "name": "Andreas",
+                    "ref": 2
                 },
-                "text": " Mentzel, Andreas, *14.09.1965, Berlin"
+                "text": "2) Mentzel, Andreas, *14.09.1965, Berlin"
             }
         ]
     }

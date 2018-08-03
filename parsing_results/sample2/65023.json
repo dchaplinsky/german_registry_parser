@@ -37,18 +37,20 @@
                     "city": "Norderstedt",
                     "dob": "1965-01-04",
                     "lastname": "Groß",
-                    "name": "Gunnar"
+                    "name": "Gunnar",
+                    "ref": 3
                 },
-                "text": " Groß, Gunnar, *01.04.1965, Norderstedt"
+                "text": "3) Groß, Gunnar, *01.04.1965, Norderstedt"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Groß",
-                    "name": "Klaus"
+                    "name": "Klaus",
+                    "ref": 1
                 },
-                "text": " Groß, Klaus."
+                "text": "1) Groß, Klaus."
             }
         ]
     }

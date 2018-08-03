@@ -42,9 +42,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Müller",
-                    "name": "Dieter"
+                    "name": "Dieter",
+                    "ref": 1
                 },
-                "text": " Müller, Dieter"
+                "text": "1) Müller, Dieter"
             },
             {
                 "class": "ManagingDirector",
@@ -52,18 +53,20 @@
                     "city": "Storkow (Mark)",
                     "dob": "1953-02-04",
                     "lastname": "Gärtner",
-                    "name": "Hans-Jürgen"
+                    "name": "Hans-Jürgen",
+                    "ref": 2
                 },
-                "text": " Gärtner, Hans-Jürgen, *02.04.1953, Storkow (Mark)"
+                "text": "2) Gärtner, Hans-Jürgen, *02.04.1953, Storkow (Mark)"
             },
             {
                 "class": "NotAProcurator",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Feustel",
-                    "name": "Ilona geborene Biesterfeld"
+                    "name": "Ilona geborene Biesterfeld",
+                    "ref": 1
                 },
-                "text": " Feustel, Ilona geborene Biesterfeld."
+                "text": "1) Feustel, Ilona geborene Biesterfeld."
             }
         ]
     }

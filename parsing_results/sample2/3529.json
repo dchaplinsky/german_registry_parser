@@ -23,18 +23,20 @@
                     "city": "Bremen",
                     "dob": "1972-07-10",
                     "lastname": "Hirth",
-                    "name": "Ulrike"
+                    "name": "Ulrike",
+                    "ref": 2
                 },
-                "text": " Hirth, Ulrike, *07.10.1972, Bremen"
+                "text": "2) Hirth, Ulrike, *07.10.1972, Bremen"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Meyer",
-                    "name": "Joachim"
+                    "name": "Joachim",
+                    "ref": 1
                 },
-                "text": " Meyer, Joachim."
+                "text": "1) Meyer, Joachim."
             }
         ]
     }

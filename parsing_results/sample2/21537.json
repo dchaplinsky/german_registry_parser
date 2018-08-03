@@ -22,9 +22,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Luttermann",
-                    "name": "Anita"
+                    "name": "Anita",
+                    "ref": 1
                 },
-                "text": " Luttermann, Anita"
+                "text": "1) Luttermann, Anita"
             },
             {
                 "class": "ManagingDirector",
@@ -32,9 +33,10 @@
                     "city": "Flensburg",
                     "dob": "1975-08-13",
                     "lastname": "Narloch",
-                    "name": "Andreas"
+                    "name": "Andreas",
+                    "ref": 2
                 },
-                "text": " Narloch, Andreas, *13.08.1975, Flensburg."
+                "text": "2) Narloch, Andreas, *13.08.1975, Flensburg."
             }
         ]
     }

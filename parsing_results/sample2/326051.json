@@ -50,27 +50,30 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Zeh",
-                    "name": "Elisabeth geborene Janisch"
+                    "name": "Elisabeth geborene Janisch",
+                    "ref": 1
                 },
-                "text": " Zeh, Elisabeth geborene Janisch"
+                "text": "1) Zeh, Elisabeth geborene Janisch"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Dahrendorf",
-                    "name": "Lukas"
+                    "name": "Lukas",
+                    "ref": 3
                 },
-                "text": " Dahrendorf, Lukas"
+                "text": "3) Dahrendorf, Lukas"
             },
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
                     "lastname": "Ebel",
-                    "name": "Stephan"
+                    "name": "Stephan",
+                    "ref": 4
                 },
-                "text": " Ebel, Stephan"
+                "text": "4) Ebel, Stephan"
             },
             {
                 "class": "Liquidator",
@@ -78,9 +81,10 @@
                     "city": "Berlin",
                     "dob": "1966-11-15",
                     "lastname": "Zeh",
-                    "name": "Markus Alexander"
+                    "name": "Markus Alexander",
+                    "ref": 5
                 },
-                "text": " Zeh, Markus Alexander, *15.11.1966, Berlin"
+                "text": "5) Zeh, Markus Alexander, *15.11.1966, Berlin"
             }
         ]
     }

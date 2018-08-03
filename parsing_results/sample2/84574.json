@@ -36,9 +36,10 @@
                 "payload": {
                     "dismissed": true,
                     "lastname": "Mehlmann",
-                    "name": "Ralf Dieter"
+                    "name": "Ralf Dieter",
+                    "ref": 1
                 },
-                "text": " Mehlmann, Ralf Dieter"
+                "text": "1) Mehlmann, Ralf Dieter"
             },
             {
                 "class": "ManagingDirector",
@@ -46,9 +47,10 @@
                     "city": "Berlin",
                     "dob": "1957-12-09",
                     "lastname": "Zielke",
-                    "name": "Peter"
+                    "name": "Peter",
+                    "ref": 2
                 },
-                "text": " Zielke, Peter, *12.09.1957, Berlin"
+                "text": "2) Zielke, Peter, *12.09.1957, Berlin"
             }
         ]
     }
