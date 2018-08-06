@@ -500,7 +500,7 @@ def parse_document(doc: dict) -> (defaultdict, tuple):
     text = doc.get("full_text", "")  # type: str
     event_type = doc.get("event_type", None)  # type: str
 
-    if event_type in text:
+    if event_type and event_type in text:
         _, useful_text = text.split(event_type, 1)  # type: (str, str)
     else:
         try:
