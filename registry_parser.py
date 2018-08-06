@@ -222,6 +222,12 @@ class FullPerson(object):
                 self.payload["ref"] = int(m.group(1))
                 self.payload["lastname"] = m.group(2).strip()
 
+        if "company_name" in self.payload:
+            m = parse_number_regex.search(self.payload["company_name"])
+            if m:
+                self.payload["ref"] = int(m.group(1))
+                self.payload["company_name"] = m.group(2).strip()
+
         if getattr(self, "dismissed", False):
             self.payload["dismissed"] = True
 
