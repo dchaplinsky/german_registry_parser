@@ -40,6 +40,15 @@
                 "text": " Wilhelminenstraße 2, 64283 Darmstadt."
             }
         ],
+        "notices": [
+            {
+                "from": "Frankfurt am Main",
+                "hrb": "HRB 93833",
+                "text": " von Frankfurt am Main (bisher Amtsgericht Frankfurt am Main HRB 93833) nach Darmstadt sowie § 2 (Gegenstand des Unternehmens) beschlossen.",
+                "to": "Darmstadt",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

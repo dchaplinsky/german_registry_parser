@@ -36,6 +36,15 @@
                 "text": " Am Weiher 6, 53229 Bonn."
             }
         ],
+        "notices": [
+            {
+                "from": "Troisdorf",
+                "hrb": "HRB 11834",
+                "text": " von Troisdorf (bisher Amtsgericht Siegburg HRB 11834) nach Bonn beschlossen.",
+                "to": "Bonn",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

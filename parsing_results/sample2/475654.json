@@ -44,6 +44,15 @@
                 "text": " Elbestraße 18, 64390 Erzhausen."
             }
         ],
+        "notices": [
+            {
+                "from": "Bad Schwalbach",
+                "hrb": "HRB 27832",
+                "text": " von Bad Schwalbach (bisher Amtsgericht Wiesbaden HRB 27832) nach Erzhausen beschlossen.",
+                "to": "Erzhausen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

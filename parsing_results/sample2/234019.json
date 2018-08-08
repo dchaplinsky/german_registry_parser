@@ -22,11 +22,18 @@
                 "text": " Caffamacherreihe 7, 20355 Hamburg."
             }
         ],
+        "notices": [
+            {
+                "hrb": "HRB 27765",
+                "text": " nunmehr Persönlich haftender Gesellschafter: EBLE Erste Verwaltungs GmbH, Bremen (Amtsgericht Bremen HRB 27765 HB).",
+                "used_regex": "hrb"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " EBLE Erste Verwaltungs GmbH, Bremen (Amtsgericht Bremen HRB 27765 HB)."
+                    "company_name": "EBLE Erste Verwaltungs GmbH, Bremen (Amtsgericht Bremen HRB 27765 HB)."
                 },
                 "text": " EBLE Erste Verwaltungs GmbH, Bremen (Amtsgericht Bremen HRB 27765 HB)."
             }

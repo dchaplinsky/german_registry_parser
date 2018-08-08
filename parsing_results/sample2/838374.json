@@ -36,6 +36,15 @@
                 "text": " Dieselstr."
             }
         ],
+        "notices": [
+            {
+                "from": "Everswinkel",
+                "hrb": "HRB 12383",
+                "text": " von Everswinkel (bisher Amtsgericht Münster HRB 12383) nach Herzebrock-Clarholz beschlossen.",
+                "to": "Herzebrock-Clarholz",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

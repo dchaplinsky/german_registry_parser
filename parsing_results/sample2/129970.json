@@ -21,6 +21,15 @@
                 "label": "address",
                 "text": " Am Sandtorkai 77, c/o KG Erste Hohe Brücke, 20457 Hamburg."
             }
+        ],
+        "notices": [
+            {
+                "from": "Berlin",
+                "hrb": "HRB 110236",
+                "text": " von Berlin (bisher AG Charlottenburg HRB 110236 B, Firma bisher: ALLBODEN Allgemeine Grundstücks-Aktiengesellschaft) nach Hamburg beschlossen.",
+                "to": "Hamburg",
+                "used_regex": "from_hrb_to_regex"
+            }
         ]
     }
 }

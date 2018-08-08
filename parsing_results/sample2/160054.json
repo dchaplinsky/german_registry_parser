@@ -40,6 +40,15 @@
                 "text": " Raiffeisenstraße 6, 35236 Breidenbach."
             }
         ],
+        "notices": [
+            {
+                "from": "Zehnhausen",
+                "hrb": "HRB 7468",
+                "text": " von Zehnhausen bei Rennerod (bisher AG Montabaur HRB 7468) nach Breidenbach beschlossen.",
+                "to": "Breidenbach",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

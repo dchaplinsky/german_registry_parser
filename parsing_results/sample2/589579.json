@@ -36,6 +36,15 @@
                 "text": " Beckerpassage 18, 33378 Rheda-Wiedenbrück."
             }
         ],
+        "notices": [
+            {
+                "from": "Stuttgart",
+                "hrb": "HRB 734293",
+                "text": " von Stuttgart (bisher Amtsgericht Stuttgartt HRB 734293) nach Rheda-Wiedenbrück beschlossen.",
+                "to": "Rheda-Wiedenbrück",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

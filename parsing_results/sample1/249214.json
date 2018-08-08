@@ -40,6 +40,15 @@
                 "text": " in der au 8, 61440 oberursel (taunus)."
             }
         ],
+        "notices": [
+            {
+                "from": "frankfurt am main",
+                "hrb": "hrb 82572",
+                "text": " von frankfurt am main (bisher amtsgericht frankfurt am main hrb 82572) nach oberursel (taunus) beschlossen.",
+                "to": "oberursel",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

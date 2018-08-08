@@ -44,6 +44,15 @@
                 "text": " Nettelnburger Kirchenweg 9, 21035 Hamburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Wentorf",
+                "hrb": "HRB 1366",
+                "text": " von Wentorf bei Hamburg (bisher Amtsgericht Lübeck HRB 1366 SB) nach Hamburg beschlossen.",
+                "to": "Hamburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

@@ -40,6 +40,15 @@
                 "text": " Am Kronberger Hang 8, 65824 Schwalbach am Taunus."
             }
         ],
+        "notices": [
+            {
+                "from": "Köln",
+                "hrb": "HRB 72597",
+                "text": " von Köln (bisher Amtsgericht Köln HRB 72597) nach Schwalbach am Taunus beschlossen.",
+                "to": "Schwalbach am Taunus",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

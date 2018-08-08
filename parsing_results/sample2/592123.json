@@ -40,6 +40,15 @@
                 "text": " Ober Erlenbacher Weg 6, 61191 Rosbach v. d. Höhe."
             }
         ],
+        "notices": [
+            {
+                "from": "Frankfurt am Main",
+                "hrb": "HRB 90220",
+                "text": " von Frankfurt am Main (bisher Amtsgericht Frankfurt am Main HRB 90220) nach Rosbach v. d. Höhe beschlossen.",
+                "to": "Rosbach",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

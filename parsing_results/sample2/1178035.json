@@ -36,6 +36,15 @@
                 "text": " Bahnhofstraße 29, 53639 Königswinter."
             }
         ],
+        "notices": [
+            {
+                "from": "Erftstadt",
+                "hrb": "HRB 53584",
+                "text": " von Erftstadt (bisher Amtsgericht Köln, HRB 53584) nach Königswinter beschlossen.",
+                "to": "Königswinter",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

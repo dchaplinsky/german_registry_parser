@@ -36,6 +36,15 @@
                 "text": " Friedensstraße 50, 41564 Kaarst."
             }
         ],
+        "notices": [
+            {
+                "from": "Willich",
+                "hrb": "HRB 2884",
+                "text": " von Willich (bisher Krefeld HRB 2884) nach Kaarst beschlossen.",
+                "to": "Kaarst",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

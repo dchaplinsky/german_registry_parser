@@ -36,6 +36,15 @@
                 "text": " Stoltzestraße 24, 60311 Frankfurt am Main."
             }
         ],
+        "notices": [
+            {
+                "from": "Schlüchtern",
+                "hrb": "HRB 94984",
+                "text": " von Schlüchtern (bisher Amtsgericht Hanau HRB 94984) nach Frankfurt am Main beschlossen.",
+                "to": "Frankfurt am Main",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

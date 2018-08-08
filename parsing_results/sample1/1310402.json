@@ -36,6 +36,15 @@
                 "text": " hohenstaufenring 29 - 37, 50674 köln."
             }
         ],
+        "notices": [
+            {
+                "from": "chemnitz",
+                "hrb": "hrb 27673",
+                "text": " von chemnitz (bisher amtsgericht chemnitz hrb 27673) nach köln beschlossen.",
+                "to": "köln",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

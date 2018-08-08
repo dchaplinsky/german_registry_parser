@@ -45,6 +45,15 @@
                 "label": "address",
                 "text": " c/o Michael Williams, Regus Frankfurt An der Messe, Platz der Einheit 1, 60327 Frankfurt am Main."
             }
+        ],
+        "notices": [
+            {
+                "from": "Pöcking",
+                "hrb": "HRB 201060",
+                "text": " von Pöcking, Landkreis Starnberg (bisher Amtsgericht München HRB 201060) nach Frankfurt am Main beschlossen.",
+                "to": "Frankfurt am Main",
+                "used_regex": "from_hrb_to_regex"
+            }
         ]
     }
 }

@@ -36,6 +36,15 @@
                 "text": " Achtermannstraße 11, 48143 Münster."
             }
         ],
+        "notices": [
+            {
+                "from": "Laer",
+                "hrb": "HRB 9270",
+                "text": " von Laer (bisher Amtsgericht Steinfurt HRB 9270) nach Münster beschlossen.",
+                "to": "Münster",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

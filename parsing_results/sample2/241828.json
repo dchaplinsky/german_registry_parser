@@ -40,6 +40,15 @@
                 "text": " Am Gewerbepark 35, 64823 Groß-Umstadt."
             }
         ],
+        "notices": [
+            {
+                "from": "Leipzig",
+                "hrb": "HRB 21642",
+                "text": " von Leipzig (bisher Amtsgericht Leipzig HRB 21642) nach Groß-Umstadt beschlossen.",
+                "to": "Groß-Umstadt",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

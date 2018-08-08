@@ -28,6 +28,15 @@
                 "text": " Heinz-Nixdorf-Straße 23, 41179 Mönchengladbach."
             }
         ],
+        "notices": [
+            {
+                "from": "Friedrichshafen",
+                "hrb": "HR B 728603",
+                "text": " von Friedrichshafen (bisher Amtsgericht Ulm HR B 728603) nach Mönchengladbach beschlossen.",
+                "to": "Mönchengladbach",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

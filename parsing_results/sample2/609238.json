@@ -36,6 +36,15 @@
                 "text": " Urbacher Str."
             }
         ],
+        "notices": [
+            {
+                "from": "Düsseldorf",
+                "hrb": "HRB 59210",
+                "text": " von Düsseldorf (bisher Amtsgericht Düsseldorf HRB 59210) nach Troisdorf beschlossen.",
+                "to": "Troisdorf",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

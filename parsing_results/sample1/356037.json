@@ -22,11 +22,18 @@
                 "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
+        "notices": [
+            {
+                "hrb": "hrb 149487",
+                "text": " nunmehr persönlich haftender gesellschafter: rs verwaltung gmbh, hamburg (amtsgericht hamburg hrb 149487).",
+                "used_regex": "hrb"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " rs verwaltung gmbh, hamburg (amtsgericht hamburg hrb 149487)."
+                    "company_name": "rs verwaltung gmbh, hamburg (amtsgericht hamburg hrb 149487)."
                 },
                 "text": " rs verwaltung gmbh, hamburg (amtsgericht hamburg hrb 149487)."
             }

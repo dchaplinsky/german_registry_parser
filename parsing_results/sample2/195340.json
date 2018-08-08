@@ -40,6 +40,15 @@
                 "text": " Arnold-Jung-Straße 9, 57548 Kirchen."
             }
         ],
+        "notices": [
+            {
+                "from": "Sprötau",
+                "hrb": "HRB 110279",
+                "text": " von Sprötau (bisher Amtsgericht Jena HRB 110279) nach Kirchen beschlossen.",
+                "to": "Kirchen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

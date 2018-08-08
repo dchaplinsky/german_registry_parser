@@ -32,6 +32,15 @@
                 "text": " Eiderstraße 10, 22047 Hamburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Loxstedt",
+                "hrb": "HRB 204219",
+                "text": " von Loxstedt (bisher: Amtsgericht Tostedt HRB 204219) nach Hamburg beschlossen.",
+                "to": "Hamburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

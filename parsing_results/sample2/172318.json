@@ -40,6 +40,15 @@
                 "text": " Cargo City Süd, Geb."
             }
         ],
+        "notices": [
+            {
+                "from": "Düsseldorf",
+                "hrb": "HRB 41150",
+                "text": " von Düsseldorf (bisher Amtsgericht Düsseldorf HRB 41150) nach Frankfurt am Main beschlossen.",
+                "to": "Frankfurt am Main",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

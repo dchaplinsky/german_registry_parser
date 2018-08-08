@@ -44,6 +44,15 @@
                 "text": " An der Bahn Süd 1-3, 26810 Westoverledingen."
             }
         ],
+        "notices": [
+            {
+                "from": "Papenburg",
+                "hrb": "HRB 205017",
+                "text": " von Papenburg (bisher Amtsgericht Osnabrück HRB 205017) nach Westoverledingen beschlossen.",
+                "to": "Westoverledingen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

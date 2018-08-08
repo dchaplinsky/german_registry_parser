@@ -36,6 +36,15 @@
                 "text": " Heerstraße 32, 53111 Bonn."
             }
         ],
+        "notices": [
+            {
+                "from": "Köln",
+                "hrb": "HRB 57375",
+                "text": " von Köln (bisher Amtsgericht Köln HRB 57375) nach Bonn beschlossen.",
+                "to": "Bonn",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

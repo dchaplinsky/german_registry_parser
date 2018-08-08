@@ -40,6 +40,15 @@
                 "text": " Hans-Böckler-Straße 3, 63110 Rodgau."
             }
         ],
+        "notices": [
+            {
+                "from": "Erlensee",
+                "hrb": "HRB 6955",
+                "text": " von Erlensee (bisher Amtsgericht Hanau HRB 6955) nach Rodgau beschlossen.",
+                "to": "Rodgau",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

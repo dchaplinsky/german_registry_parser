@@ -40,6 +40,15 @@
                 "text": " Kalkofenstraße 2, 63628 Bad Soden-Salmünster."
             }
         ],
+        "notices": [
+            {
+                "from": "Solingen",
+                "hrb": "HRB 15649",
+                "text": " von Solingen (bisher Amtsgericht Wuppertal HRB 15649) nach Bad Soden-Salmünster beschlossen.",
+                "to": "Bad Soden-Salmünster",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

@@ -36,6 +36,15 @@
                 "text": " Max-Planck-Straße 81, 27283 Verden (Aller)."
             }
         ],
+        "notices": [
+            {
+                "from": "Großbeeren",
+                "hrb": "HRB 27280",
+                "text": " von Großbeeren (bisher Amtsgericht Potsdam HRB 27280 P) nach Verden (Aller) beschlossen.",
+                "to": "Verden",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

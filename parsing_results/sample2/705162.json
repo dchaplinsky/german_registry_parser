@@ -36,6 +36,15 @@
                 "text": " Am Wichelshof 41, 53111 Bonn."
             }
         ],
+        "notices": [
+            {
+                "from": "Düsseldorf",
+                "hrb": "HRB 44675",
+                "text": " von Düsseldorf (bisher Amtsgericht Düsseldorf HRB 44675) nach Bonn beschlossen.",
+                "to": "Bonn",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

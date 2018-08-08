@@ -32,6 +32,15 @@
                 "text": " Uhlandstraße 79A, 46047 Oberhausen."
             }
         ],
+        "notices": [
+            {
+                "from": "Krefeld",
+                "hrb": "HRB 15589",
+                "text": " von Krefeld (bisher Amtsgericht Krefeld, HRB 15589) nach Oberhausen beschlossen.",
+                "to": "Oberhausen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

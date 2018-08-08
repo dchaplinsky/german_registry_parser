@@ -40,6 +40,15 @@
                 "text": " Darmstädter Landstraße 101, 65462 Ginsheim-Gustavsburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Offenbach/Queich",
+                "hrb": "HRB 30449",
+                "text": " von Offenbach/Queich (bisher Amtsgericht Landau in der Pfalz HRB 30449) nach Ginsheim-Gustavsburg beschlossen.",
+                "to": "Ginsheim-Gustavsburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

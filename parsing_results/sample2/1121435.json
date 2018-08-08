@@ -36,6 +36,15 @@
                 "text": " Ecksee 47, 44805 Bochum."
             }
         ],
+        "notices": [
+            {
+                "from": "Gelsenkirchen",
+                "hrb": "HRB 12367",
+                "text": " von Gelsenkirchen (bisher Amtsgericht Gelsenkirchen HRB 12367) nach Bochum beschlossen.",
+                "to": "Bochum",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

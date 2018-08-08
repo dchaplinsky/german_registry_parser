@@ -40,6 +40,15 @@
                 "text": " natruper straße 209, 49090 osnabrück."
             }
         ],
+        "notices": [
+            {
+                "from": "bremen",
+                "hrb": "hrb 29689",
+                "text": " von bremen (bisher amtsgericht bremen hrb 29689 hb) nach osnabrück in § 1 beschlossen.",
+                "to": "osnabrück",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

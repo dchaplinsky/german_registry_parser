@@ -46,6 +46,15 @@
                 "text": " Mergenthaler Allee 77, 65760 Eschborn."
             }
         ],
+        "notices": [
+            {
+                "from": "Grünwald",
+                "hrb": "HRB 168256",
+                "text": " von Grünwald (bisher Amtsgericht München HRB 168256) nach Eschborn beschlossen.",
+                "to": "Eschborn",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

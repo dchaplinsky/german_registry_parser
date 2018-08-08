@@ -40,6 +40,15 @@
                 "text": " Friedrichstraße 10-12, 60323 Frankfurt am Main."
             }
         ],
+        "notices": [
+            {
+                "from": "Schwerte",
+                "hrb": "HRB 8523",
+                "text": " von Schwerte (bisher Amtsgericht Hagen HRB 8523) nach Frankfurt am Main beschlossen.",
+                "to": "Frankfurt am Main",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

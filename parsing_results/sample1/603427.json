@@ -32,6 +32,15 @@
                 "text": " erftstraße 23, 50996 köln."
             }
         ],
+        "notices": [
+            {
+                "from": "duisburg",
+                "hrb": "hrb 22357",
+                "text": " von duisburg (bisher amtsgericht duisburg, hrb 22357) nach köln beschlossen.",
+                "to": "köln",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

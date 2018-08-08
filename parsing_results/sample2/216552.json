@@ -36,6 +36,15 @@
                 "text": " Mittelwegring 8, 76751 Jockgrim."
             }
         ],
+        "notices": [
+            {
+                "from": "Eschborn",
+                "hrb": "HRB 51118",
+                "text": " von Eschborn (bisher Amtsgericht Frankfurt am Main HRB 51118) nach Jockgrim beschlossen.",
+                "to": "Jockgrim",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

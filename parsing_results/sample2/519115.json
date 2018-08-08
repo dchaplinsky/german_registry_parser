@@ -40,6 +40,15 @@
                 "text": " Am Pfahlgraben 4-10, 35415 Pohlheim."
             }
         ],
+        "notices": [
+            {
+                "from": "Frankfurt am Main",
+                "hrb": "HRB 103791",
+                "text": " von Frankfurt am Main (bisher Amtsgericht Frankfurt am Main HRB 103791) nach Pohlheim beschlossen.",
+                "to": "Pohlheim",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

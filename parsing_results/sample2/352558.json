@@ -40,6 +40,15 @@
                 "text": " Horstweg 24, 31840 Hessisch Oldendorf."
             }
         ],
+        "notices": [
+            {
+                "from": "Bückeburg",
+                "hrb": "HRB 200632",
+                "text": " von Bückeburg (bisher Amtsgericht Stadthagen HRB 200632) nach Hessisch Oldendorf beschlossen.",
+                "to": "Hessisch Oldendorf",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

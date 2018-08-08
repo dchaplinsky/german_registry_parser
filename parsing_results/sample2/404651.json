@@ -44,6 +44,15 @@
                 "text": " Margaretenstraße 48, 63225 Langen (Hessen)."
             }
         ],
+        "notices": [
+            {
+                "from": "München",
+                "hrb": "HRB 211577",
+                "text": " von München (bisher Amtsgericht München HRB 211577) nach Langen (Hessen) beschlossen.",
+                "to": "Langen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

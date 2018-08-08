@@ -28,6 +28,15 @@
                 "text": " Max-Eyth-Straße 47, 46149 Oberhausen."
             }
         ],
+        "notices": [
+            {
+                "from": "Rhede",
+                "hrb": "HRB 13588",
+                "text": " von Rhede (bisher Amtsgericht Coesfeld, HRB 13588) nach Oberhausen und die Änderung der Firma beschlossen.",
+                "to": "Oberhausen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

@@ -36,6 +36,15 @@
                 "text": " Goebelstraße 50, 28865 Lilienthal."
             }
         ],
+        "notices": [
+            {
+                "from": "Bremerhaven",
+                "hrb": "HRB 1864",
+                "text": " von Bremerhaven (bisher Amtsgericht Bremen HRB 1864 BHV) nach Lilienthal und die Änderung der Firma beschlossen.",
+                "to": "Lilienthal",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

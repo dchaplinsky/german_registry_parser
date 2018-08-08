@@ -32,6 +32,15 @@
                 "text": " industriestraße 17, 67346 speyer."
             }
         ],
+        "notices": [
+            {
+                "from": "mannheim",
+                "hrb": "hrb 717803",
+                "text": " von mannheim (bisher amtsgericht mannheim hrb 717803) nach speyer beschlossen.",
+                "to": "speyer",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

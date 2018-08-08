@@ -36,6 +36,15 @@
                 "text": " Wiesenau 15, 61476 Kronberg im Taunus."
             }
         ],
+        "notices": [
+            {
+                "from": "Frankfurt am Main",
+                "hrb": "HRB 95450",
+                "text": " von Frankfurt am Main (bisher Amtsgericht Frankfurt am Main HRB 95450) nach Kronberg im Taunus beschlossen.",
+                "to": "Kronberg im Taunus",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

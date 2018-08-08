@@ -36,6 +36,15 @@
                 "text": " Kollegienweg 20, 53121 Bonn."
             }
         ],
+        "notices": [
+            {
+                "from": "Köln",
+                "hrb": "HRB 57680",
+                "text": " von Köln (bisher Amtsgericht Köln HRB 57680) nach Bonn beschlossen.",
+                "to": "Bonn",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

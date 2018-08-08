@@ -16,6 +16,15 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=121089&land_abk=nw"
     },
     "parsed": {
+        "notices": [
+            {
+                "from": "Düsseldorf",
+                "hrb": "HRB 37870",
+                "text": " von Düsseldorf (bisher AG Düsseldorf HRB 37870) nach Herford beschlossen.",
+                "to": "Herford",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "CommonProcuration",

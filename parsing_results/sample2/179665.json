@@ -27,6 +27,15 @@
                 "label": "address",
                 "text": " Lister Str."
             }
+        ],
+        "notices": [
+            {
+                "from": "Krefeld",
+                "hrb": "HRB 13087",
+                "text": " von Krefeld (bisher Amtsgericht Krefeld HRB 13087) nach Hannover beschlossen.",
+                "to": "Hannover",
+                "used_regex": "from_hrb_to_regex"
+            }
         ]
     }
 }

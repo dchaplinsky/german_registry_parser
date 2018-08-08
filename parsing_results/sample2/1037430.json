@@ -36,6 +36,15 @@
                 "text": " Charlottenstraße 75, 40210 Düsseldorf."
             }
         ],
+        "notices": [
+            {
+                "from": "Kleve",
+                "hrb": "HRB 12414",
+                "text": " von Kleve (bisher Amtsgericht Kleve HRB 12414) nach Düsseldorf beschlossen.",
+                "to": "Düsseldorf",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

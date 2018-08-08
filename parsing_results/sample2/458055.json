@@ -36,6 +36,15 @@
                 "text": " Emil-Hoffmann-Str."
             }
         ],
+        "notices": [
+            {
+                "from": "Bonn",
+                "hrb": "HRB 15559",
+                "text": " von Bonn (bisher Amtsgericht Bonn, HRB 15559) nach Köln beschlossen.",
+                "to": "Köln",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

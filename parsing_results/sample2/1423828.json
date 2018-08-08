@@ -36,6 +36,15 @@
                 "text": " Am Wiesenbusch 3, 45966 Gladbeck."
             }
         ],
+        "notices": [
+            {
+                "from": "Pulheim",
+                "hrb": "HRB 62196",
+                "text": " von Pulheim (bisher Amtsgericht Köln HRB 62196) nach Gladbeck beschlossen.",
+                "to": "Gladbeck",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

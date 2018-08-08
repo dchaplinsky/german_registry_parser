@@ -40,6 +40,15 @@
                 "text": " Magellan Allee 1-3, 65479 Raunheim."
             }
         ],
+        "notices": [
+            {
+                "from": "Dreieich",
+                "hrb": "HRB 46277",
+                "text": " von Dreieich (bisher Amtsgericht Offenbach am Main HRB 46277) nach Raunheim beschlossen.",
+                "to": "Raunheim",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

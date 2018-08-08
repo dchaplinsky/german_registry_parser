@@ -28,11 +28,18 @@
                 "text": " Richmodstraße 6, 50667 Köln."
             }
         ],
+        "notices": [
+            {
+                "from": "Herford",
+                "text": " von Herford (bisher: Amtsgericht Bad Oeynhausen HRA 6847): Köln.",
+                "used_regex": "from"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Tigram Verwaltungs GmbH, Köln (AG Köln HRB 64701)."
+                    "company_name": "Tigram Verwaltungs GmbH, Köln (AG Köln HRB 64701)."
                 },
                 "text": " Tigram Verwaltungs GmbH, Köln (AG Köln HRB 64701)."
             }

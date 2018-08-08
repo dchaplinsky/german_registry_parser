@@ -40,6 +40,15 @@
                 "text": " Frankfurter Straße 63, 65428 Rüsselsheim."
             }
         ],
+        "notices": [
+            {
+                "from": "Köln",
+                "hrb": "HRB 29935",
+                "text": " von Köln (bisher Amtsgericht Köln HRB 29935) nach Rüsselsheim beschlossen.",
+                "to": "Rüsselsheim",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

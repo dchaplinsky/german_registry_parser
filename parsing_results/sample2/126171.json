@@ -15,5 +15,14 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=126171&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "from": "Bergisch Gladbach",
+                "text": " von Bergisch Gladbach nach Leverkusen sowie in § 6 (Stammkapital) beschlossen.",
+                "to": "Leverkusen",
+                "used_regex": "from, to_regex"
+            }
+        ]
+    }
 }

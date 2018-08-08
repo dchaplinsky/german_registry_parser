@@ -44,6 +44,15 @@
                 "text": " Christoph-Probst-Weg 3, 20459 Hamburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Harrislee",
+                "hrb": "HRB 6001",
+                "text": " von Harrislee (bisher Amtsgericht Flensburg HRB 6001 FL) nach Hamburg beschlossen.",
+                "to": "Hamburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

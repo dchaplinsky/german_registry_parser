@@ -40,6 +40,15 @@
                 "text": " Oldenburger Straße 231, 26203 Wardenburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Hamburg",
+                "hrb": "HRB 113744",
+                "text": " von Hamburg (bisher Amtsgericht Hamburg HRB 113744) nach Wardenburg beschlossen.",
+                "to": "Wardenburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

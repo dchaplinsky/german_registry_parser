@@ -36,6 +36,15 @@
                 "text": " Im Schützengrund 63, 56566 Neuwied."
             }
         ],
+        "notices": [
+            {
+                "from": "Sinzig",
+                "hrb": "HRB 21537",
+                "text": " von Sinzig (bisher Amtsgericht Koblenz, HRB 21537) nach Neuwied beschlossen.",
+                "to": "Neuwied",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

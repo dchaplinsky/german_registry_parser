@@ -40,6 +40,15 @@
                 "text": " Uerdinger Straße 52, 40474 Düsseldorf."
             }
         ],
+        "notices": [
+            {
+                "from": "Bützow",
+                "hrb": "HRB 11739",
+                "text": " von Bützow (bisher Amtsgericht Rostock HRB 11739) nach Düsseldorf beschlossen.",
+                "to": "Düsseldorf",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

@@ -40,6 +40,15 @@
                 "text": " Liebigstraße 2, 64646 Heppenheim."
             }
         ],
+        "notices": [
+            {
+                "from": "Bobenheim-Roxheim",
+                "hrb": "HRB 62348",
+                "text": " von Bobenheim-Roxheim (bisher Amtsgericht Ludwigshafen am Rhein HRB 62348) nach Heppenheim beschlossen.",
+                "to": "Heppenheim",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

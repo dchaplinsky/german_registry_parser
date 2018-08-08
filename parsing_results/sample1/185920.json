@@ -15,5 +15,14 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=185920&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "from": "leverkusen",
+                "text": " von leverkusen nach burscheid beschlossen.",
+                "to": "burscheid",
+                "used_regex": "from, to_regex"
+            }
+        ]
+    }
 }

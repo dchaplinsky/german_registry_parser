@@ -36,6 +36,15 @@
                 "text": " Wieser Straße 4, 66706 Perl."
             }
         ],
+        "notices": [
+            {
+                "from": "Trier",
+                "hrb": "HRB 1241",
+                "text": " von Trier (bisher Wittlich HRB 1241) nach Perl beschlossen.",
+                "to": "Perl",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

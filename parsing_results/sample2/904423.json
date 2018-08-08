@@ -28,6 +28,15 @@
                 "text": " Hübeck 5, 41334 Nettetal."
             }
         ],
+        "notices": [
+            {
+                "from": "Düsseldorf",
+                "hrb": "HRB 60005",
+                "text": " von Düsseldorf (bisher Amtsgericht Düsseldorf HRB 60005) nach Nettetal beschlossen.",
+                "to": "Nettetal",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

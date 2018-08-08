@@ -15,5 +15,13 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=48889&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "text": " nach Düsseldorf beschlossen.",
+                "to": "Düsseldorf",
+                "used_regex": "to_regex"
+            }
+        ]
+    }
 }

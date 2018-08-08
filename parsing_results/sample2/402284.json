@@ -40,6 +40,15 @@
                 "text": " Bornumer Str."
             }
         ],
+        "notices": [
+            {
+                "from": "Auetal",
+                "hrb": "HRB 200944",
+                "text": " von Auetal (bisher Amtsgericht Stadthagen HRB 200944) nach Hannover beschlossen.",
+                "to": "Hannover",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

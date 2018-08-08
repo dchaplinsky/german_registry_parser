@@ -36,6 +36,15 @@
                 "text": " Nikolausstraße 15, 52388 Nörvenich."
             }
         ],
+        "notices": [
+            {
+                "from": "Koblenz",
+                "hrb": "HRB 7558",
+                "text": " von Koblenz (bisher Amtsgericht Koblenz HRB 7558) nach Nörvenich beschlossen.",
+                "to": "Nörvenich",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

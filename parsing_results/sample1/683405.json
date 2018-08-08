@@ -36,6 +36,15 @@
                 "text": " vogelsanger straße 187, 50825 köln."
             }
         ],
+        "notices": [
+            {
+                "from": "berlin",
+                "hrb": "hrb 106151",
+                "text": " von berlin (bisher amtsgericht charlottenburg, hrb 106151 b) nach köln beschlossen.",
+                "to": "köln",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

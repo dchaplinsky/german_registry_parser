@@ -30,6 +30,15 @@
                 "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
         ],
+        "notices": [
+            {
+                "from": "Wehrheim",
+                "hrb": "HRB 8899",
+                "text": " von Wehrheim (bisher: Amtgericht Bad Homburg v.d.Höhe, HRB 8899) nach Hamburg beschlossen.",
+                "to": "Hamburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "Liquidator",

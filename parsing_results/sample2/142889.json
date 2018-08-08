@@ -36,6 +36,15 @@
                 "text": " An der Windmühle 3, 30890 Barsinghausen."
             }
         ],
+        "notices": [
+            {
+                "from": "Dortmund",
+                "hrb": "HRB 19938",
+                "text": " von Dortmund (bisher Amtsgericht Dortmund HRB 19938) nach Barsinghausen beschlossen.",
+                "to": "Barsinghausen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

@@ -40,6 +40,15 @@
                 "text": " Martin-Behaim-Str."
             }
         ],
+        "notices": [
+            {
+                "from": "Köln",
+                "hrb": "HRB 65189",
+                "text": " von Köln (bisher Amtsgericht Köln HRB 65189) nach Neu-Isenburg sowie § 2 (Gegenstand des Unternehmens) beschlossen und den Gesellschaftvertrag insgesamt neu gefasst.",
+                "to": "Neu-Isenburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

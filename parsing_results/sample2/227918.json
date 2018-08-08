@@ -49,6 +49,15 @@
                 "label": "address",
                 "text": " Solzstraße 7, 36132 Eiterfeld."
             }
+        ],
+        "notices": [
+            {
+                "from": "Herborn",
+                "hrb": "HRB 4880",
+                "text": " von Herborn (bisher Amtsgericht Wetzlar HRB 4880) nach Eiterfeld beschlossen.",
+                "to": "Eiterfeld",
+                "used_regex": "from_hrb_to_regex"
+            }
         ]
     }
 }

@@ -44,6 +44,15 @@
                 "text": " Neuer Wall 10, 20354 Hamburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Düsseldorf",
+                "hrb": "HRB 66497",
+                "text": " von Düsseldorf (bisher: Amtsgericht Düsseldorf HRB 66497, Firma bisher: DUO Verwaltungsgesellschaft mbH) nach Hamburg beschlossen.",
+                "to": "Hamburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

@@ -38,6 +38,15 @@
                 "text": "Einzelprokura"
             }
         ],
+        "notices": [
+            {
+                "from": "Hannover",
+                "hrb": "HRB 58593",
+                "text": " von Hannover (bisher Amtsgericht Hannover HRB 58593) nach Oberursel (Taunus) beschlossen.",
+                "to": "Oberursel",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

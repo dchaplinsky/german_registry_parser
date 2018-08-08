@@ -40,6 +40,15 @@
                 "text": " Oberstraße 69, 65385 Rüdesheim am Rhein."
             }
         ],
+        "notices": [
+            {
+                "from": "München",
+                "hrb": "HRB 215214",
+                "text": " von München (bisher Amtsgericht München HRB 215214) nach Rüdesheim am Rhein beschlossen.",
+                "to": "Rüdesheim",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

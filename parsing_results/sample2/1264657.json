@@ -36,6 +36,15 @@
                 "text": " Weststraße 42, 40721 Hilden."
             }
         ],
+        "notices": [
+            {
+                "from": "Raunheim",
+                "hrb": "HRB 93411",
+                "text": " von Raunheim (bisher Amtsgericht Darmstadt HRB 93411) nach Hilden beschlossen.",
+                "to": "Hilden",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

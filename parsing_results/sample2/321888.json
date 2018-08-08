@@ -28,6 +28,15 @@
                 "text": " Gimbacher Tann 2, 65779 Kelkheim (Taunus)."
             }
         ],
+        "notices": [
+            {
+                "from": "Frankfurt am Main",
+                "hrb": "HRB 23636",
+                "text": " von Frankfurt am Main (bisher Amtsgericht Frankfurt am Main, HRB 23636) nach Kelkheim beschlossen.",
+                "to": "Kelkheim",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

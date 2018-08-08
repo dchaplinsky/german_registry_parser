@@ -40,6 +40,15 @@
                 "text": " Hertha-Sponer-Straße 17, 28816 Stuhr, OT Brinkum."
             }
         ],
+        "notices": [
+            {
+                "from": "Bremen",
+                "hrb": "HRB 24282",
+                "text": " von Bremen (bisher Amtsgericht Bremen HRB 24282 HB) nach Stuhr, OT Brinkum beschlossen.",
+                "to": "Stuhr",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

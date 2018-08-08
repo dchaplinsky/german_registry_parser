@@ -36,6 +36,15 @@
                 "text": " Mainzer Str."
             }
         ],
+        "notices": [
+            {
+                "from": "Böblingen",
+                "hrb": "HRB 731783",
+                "text": " von Böblingen (bisher Amtsgericht Stuttgart HRB 731783) nach Saarbrücken beschlossen.",
+                "to": "Saarbrücken",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

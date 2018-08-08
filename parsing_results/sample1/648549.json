@@ -36,6 +36,15 @@
                 "text": " kaiser-friedrich-allee 24, 52074 aachen."
             }
         ],
+        "notices": [
+            {
+                "from": "bad sachsa",
+                "hrb": "hrb 3715",
+                "text": " von bad sachsa (bisher ag göttingen, hrb 3715) nach aachen beschlossen.",
+                "to": "aachen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

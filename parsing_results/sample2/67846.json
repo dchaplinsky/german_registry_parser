@@ -36,6 +36,15 @@
                 "text": " Langgasse 26, 55234 Hochborn."
             }
         ],
+        "notices": [
+            {
+                "from": "Frankenthal",
+                "hrb": "HRB 61689",
+                "text": " von Frankenthal (bisher Amtsgericht Ludwigshafen HRB 61689) nach Hochborn beschlossen.",
+                "to": "Hochborn",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

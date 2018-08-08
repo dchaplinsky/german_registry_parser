@@ -21,6 +21,15 @@
                 "label": "address",
                 "text": " Kurt-Schumacher-Str."
             }
+        ],
+        "notices": [
+            {
+                "from": "Berlin",
+                "hrb": "HRB 148831",
+                "text": " von Berlin (bisher: Amtsgericht Charlottenburg, HRB 148831) nach Düsseldorf beschlossen.",
+                "to": "Düsseldorf",
+                "used_regex": "from_hrb_to_regex"
+            }
         ]
     }
 }

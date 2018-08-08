@@ -40,6 +40,15 @@
                 "text": " Neuer Wall 26 - 28, 20354 Hamburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Hannover",
+                "hrb": "HRB 202637",
+                "text": " von Hannover (bisher Amtsgericht Hannover HRB 202637) nach Hamburg beschlossen.",
+                "to": "Hamburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

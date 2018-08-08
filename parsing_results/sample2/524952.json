@@ -36,6 +36,15 @@
                 "text": " Talstraße 3, 52146 Würselen."
             }
         ],
+        "notices": [
+            {
+                "from": "Düsseldorf",
+                "hrb": "HRB 50631",
+                "text": " von Düsseldorf (bisher Amtsgericht Düsseldorf HRB 50631) nach Würselen sowie die Änderung des Unternehmensgegenstandes beschlossen.",
+                "to": "Würselen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

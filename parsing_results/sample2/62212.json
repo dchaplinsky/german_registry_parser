@@ -36,6 +36,15 @@
                 "text": " Reinhard-Wirtgen-Straße 2, 53578 Windhagen."
             }
         ],
+        "notices": [
+            {
+                "from": "Bonn",
+                "hrb": "HRB 16511",
+                "text": " von Bonn (bisher Amtsgericht Bonn, HRB 16511) nach Windhagen und die Änderung des Unternehmensgegenstandes.",
+                "to": "Windhagen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

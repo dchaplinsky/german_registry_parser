@@ -22,6 +22,15 @@
                 "text": " Auf der Hude 36, 21339 Lüneburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Hamburg",
+                "hrb": "HRB 107216",
+                "text": " der Zweigniederlassung von Hamburg (bisher Amtsgericht Hamburg HRB 107216) nach Lüneburg beschlossen.",
+                "to": "Lüneburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

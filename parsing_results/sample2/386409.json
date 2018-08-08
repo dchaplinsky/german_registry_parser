@@ -36,6 +36,15 @@
                 "text": " Vennweg 18, 46395 Bocholt."
             }
         ],
+        "notices": [
+            {
+                "from": "Hamburg",
+                "hrb": "HRB 105664",
+                "text": " von Hamburg (bisher Amtsgericht Hamburg HRB 105664) nach Bocholt beschlossen.",
+                "to": "Bocholt",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

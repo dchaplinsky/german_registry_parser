@@ -32,6 +32,15 @@
                 "text": " Auf dem Kamp 10 b, 59757 Arnsberg."
             }
         ],
+        "notices": [
+            {
+                "from": "Iserlohn",
+                "hrb": "HRB 6915",
+                "text": " von Iserlohn (bisher Amtsgericht Iserlohn HRB 6915) nach Arnsberg beschlossen.",
+                "to": "Arnsberg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

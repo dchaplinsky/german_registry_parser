@@ -40,6 +40,15 @@
                 "text": " Wendorfer Weg 5, 23966 Wismar."
             }
         ],
+        "notices": [
+            {
+                "from": "Hamburg",
+                "hrb": "HRB 141994",
+                "text": " von Hamburg (bisher Amtsgericht Hamburg HRB 141994, Blitz H16-132 GmbH) nach Wismar beschlossen.",
+                "to": "Wismar",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

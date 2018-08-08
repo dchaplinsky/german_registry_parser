@@ -15,5 +15,14 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=60791&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "from": "Netphen",
+                "text": " von Netphen nach Siegen beschlossen.",
+                "to": "Siegen",
+                "used_regex": "from, to_regex"
+            }
+        ]
+    }
 }

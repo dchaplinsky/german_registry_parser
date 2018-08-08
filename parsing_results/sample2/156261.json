@@ -44,6 +44,15 @@
                 "text": " Eiffestraße 16, 20537 Hamburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Laage",
+                "hrb": "HRB 11200",
+                "text": " von Laage (bisher: Amtsgericht Rostock, HRB 11200) nach Hamburg beschlossen.",
+                "to": "Hamburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

@@ -36,6 +36,15 @@
                 "text": " Edisonstraße 1-9, 32791 Lage."
             }
         ],
+        "notices": [
+            {
+                "from": "Bielefeld",
+                "hrb": "HRB 37633",
+                "text": " von Bielefeld (bisher Amtsgericht Bielefeld HRB 37633) nach Lage beschlossen.",
+                "to": "Lage",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

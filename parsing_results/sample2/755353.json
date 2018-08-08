@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=755353&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "from": "Oldenburg",
+                "hrb": "HRB 201024",
+                "text": " von Oldenburg (bisher Amtsgericht Oldenburg HRB 201024) nach Dorsten beschlossen.",
+                "to": "Dorsten",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ]
+    }
 }

@@ -40,6 +40,15 @@
                 "text": " Gerbermühlstraße 9, 60594 Frankfurt am Main."
             }
         ],
+        "notices": [
+            {
+                "from": "Ginsheim-Gustavsburg",
+                "hrb": "HRB 85607",
+                "text": " von Ginsheim-Gustavsburg (bisher Amtsgericht Darmstadt HRB 85607) nach Frankfurt am Main beschlossen.",
+                "to": "Frankfurt am Main",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

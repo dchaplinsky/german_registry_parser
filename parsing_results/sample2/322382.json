@@ -40,6 +40,15 @@
                 "text": " Langes Feld 13, 31789 Hameln."
             }
         ],
+        "notices": [
+            {
+                "from": "Halle",
+                "hrb": "HRB 201301",
+                "text": " von Halle (bisher Amtsgericht Hildesheim HRB 201301) nach Hameln beschlossen.",
+                "to": "Hameln",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

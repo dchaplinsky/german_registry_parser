@@ -36,6 +36,15 @@
                 "text": " Schimmelbuschstraße 9e, 40699 Erkrath."
             }
         ],
+        "notices": [
+            {
+                "from": "Düsseldorf",
+                "hrb": "HRB 61324",
+                "text": " von Düsseldorf (bisher Amtsgericht Düsseldorf HRB 61324) nach Erkrath beschlossen.",
+                "to": "Erkrath",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

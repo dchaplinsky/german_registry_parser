@@ -36,6 +36,15 @@
                 "text": " Bergstraße 1A, 54634 Bitburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Köln",
+                "hrb": "HRB 19866",
+                "text": " von Köln (bisher Amtsgericht Köln HRB 19866) nach Bitburg beschlossen.",
+                "to": "Bitburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

@@ -36,6 +36,15 @@
                 "text": " Görlitzer Straße 4, 33154 Salzkotten."
             }
         ],
+        "notices": [
+            {
+                "from": "Wilhelmshaven",
+                "hrb": "HRB 210106",
+                "text": " von Wilhelmshaven (bisher Amtsgericht Oldenburg HRB 210106) nach Salzkotten und die Änderung des § 4 (Stammkapital/Stammeinlagen) beschlossen.",
+                "to": "Salzkotten",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

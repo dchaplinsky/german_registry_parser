@@ -32,6 +32,15 @@
                 "text": " Emanuel-Leutze-Straße 21, 40547 Düsseldorf."
             }
         ],
+        "notices": [
+            {
+                "from": "München",
+                "hrb": "HRB 190153",
+                "text": " von München (bisher Amtsgericht München, HRB 190153) nach Düsseldorf beschlossen.",
+                "to": "Düsseldorf",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

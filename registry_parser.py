@@ -8,11 +8,30 @@ from dateutil.parser import parse as dt_parse
 from nltk import data
 from tokenize_uk import tokenize_words
 
-_german_tokenizer = data.load(os.path.join(os.path.dirname(__file__),
-                                           "data/german.pickle"))
+_german_tokenizer = data.load(
+    os.path.join(os.path.dirname(__file__), "data/german.pickle")
+)
 dob_regex = re.compile(r"\*\s?\d{2}\s?\.\s?\d{2}\s?.\s?\d{4}")
 _useful_regex = re.compile(r"\d{2}\.\d{2}\.\d{4}\n\n", flags=re.M)
 parse_number_regex = re.compile(r"^(\d+)\)(.*)")
+gmbh_regex = re.compile(r"[\s-]g?mbh", flags=re.I)
+hrb_regex = re.compile(r"\bHR\s?B\b\d+", flags=re.I)
+
+
+def simplify_city(city):
+    return (
+        city.replace(" ", "")
+        .replace("-", "")
+        .replace(" ", "")
+        .replace(".", "")
+        .replace("/", "")
+        .lower()
+        .strip()
+    )
+
+
+with open(os.path.join(os.path.dirname(__file__), "data/cities.txt"), "r") as fp:
+    GERMAN_CITIES = list(map(simplify_city, fp))
 
 
 class ParsingError(Exception):
@@ -69,8 +88,7 @@ class FullPerson(object):
     kind = "officers"
     translations = {
         "einzelvertretungsberechtigt": "sole representation",
-        "mit der befugnis, im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen":
-        "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party"
+        "mit der befugnis, im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
     }
 
     @staticmethod
@@ -99,7 +117,6 @@ class FullPerson(object):
         self.description = ""
         self.payload = {}
 
-
         try:
             dob_position = None
             for i, c in enumerate(chunks):
@@ -108,19 +125,14 @@ class FullPerson(object):
                     break
 
             if dob_position is None:
-                if " gmbh" in self.text.lower() or " mbh" in self.text.lower():
+                if gmbh_regex.search(self.text) or hrb_regex.search(self.text):
                     self.company_name = self.text
-                    self.payload = {
-                        "company_name": self.company_name,
-                    }
+                    self.payload = {"company_name": self.company_name.strip()}
                 else:
                     if len(chunks) == 2:
                         self.lastname = chunks[0].strip(" *;.")
                         self.name = chunks[1].strip(" *;.")
-                        self.payload = {
-                            "name": self.name,
-                            "lastname": self.lastname,
-                        }
+                        self.payload = {"name": self.name, "lastname": self.lastname}
                     elif len(chunks) == 3:
                         self.lastname = chunks[0].strip(" *;.")
                         self.name = chunks[1].strip(" *;.")
@@ -142,7 +154,11 @@ class FullPerson(object):
                             "city": self.city,
                         }
                     else:
-                        raise ValueError("a person without DOB, number of chunks: {}".format(len(chunks)))
+                        raise ValueError(
+                            "a person without DOB, number of chunks: {}".format(
+                                len(chunks)
+                            )
+                        )
             elif len(chunks) == 4:
                 self.lastname = chunks[0].strip(" *;.")
                 self.name = chunks[1].strip(" *;.")
@@ -205,15 +221,23 @@ class FullPerson(object):
                     "dob": self.dob,
                 }
             else:
-                raise ValueError("no valid patter found, number of chunks: {}".format(len(chunks)))
+                raise ValueError(
+                    "no valid patter found, number of chunks: {}".format(len(chunks))
+                )
         except ValueError as e:
-            raise ParsingError("Cannot parse a {} from {}, error text was {}".format(self.kls, text, e))
+            raise ParsingError(
+                "Cannot parse a {} from {}, error text was {}".format(self.kls, text, e)
+            )
 
     def to_dict(self):
         if "lastname" in self.payload:
             if "geborene" in self.payload["lastname"]:
-                self.payload["lastname"], self.payload["maidenname"] = self.payload["lastname"].split(" geborene", 1)
-                self.payload["maidenname"] = self.payload["maidenname"].replace("geborene", "").strip()
+                self.payload["lastname"], self.payload["maidenname"] = self.payload[
+                    "lastname"
+                ].split(" geborene", 1)
+                self.payload["maidenname"] = (
+                    self.payload["maidenname"].replace("geborene", "").strip()
+                )
                 self.payload["lastname"] = self.payload["lastname"].strip()
                 self.payload["maidenname"] = self.payload["maidenname"].strip()
 
@@ -258,6 +282,7 @@ class RetiredPersonalPartner(FullPerson):
     kls = "RetiredPersonalPartner"
     dismissed = True
 
+
 class Owner(FullPerson):
     kls = "Owner"
 
@@ -291,6 +316,7 @@ class NotALiquidator(FullPerson):
     kls = "NotALiquidator"
     dismissed = True
 
+
 class BecameLiquidator(FullPerson):
     kls = "BecameLiquidator"
 
@@ -322,11 +348,98 @@ class AppointedManagingDirector(FullPerson):
     kls = "AppointedManagingDirector"
 
 
+class RelocationNotice:
+    kls = "RelocationNotice"
+    kind = "notices"
+
+    def __init__(self, text):
+        self.text = text
+        self.payload = {"used_regex": [], "text": text}
+
+        from_hrb_to_regex = re.compile(
+            r"\bvon\s+([^\(]+).*(HR\s?B\s?\d+).*nach\W([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)",
+            flags=re.I,
+        )
+
+        from_hrb_regex = re.compile(r"\bvon\s+([^\(]+).*(HR\s?B\s?\d+)", flags=re.I)
+        from_regex = re.compile(
+            r"\bvon\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
+        )
+        hrb_regex = re.compile(r"\b(HR\s?B\s?\d+)", flags=re.I)
+        to_regex = re.compile(
+            r"\bnach\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
+        )
+
+        matches = from_hrb_to_regex.search(text)
+        if matches:
+            self.payload["from"] = matches.group(1).strip()
+            self.payload["hrb"] = matches.group(2).strip()
+            self.payload["to"] = matches.group(3).strip()
+            self.payload["used_regex"].append("from_hrb_to_regex")
+        else:
+            matches = from_hrb_regex.search(text)
+            if matches:
+                self.payload["from"] = matches.group(1).strip()
+                self.payload["hrb"] = matches.group(2).strip()
+                self.payload["used_regex"].append("from_hrb_regex")
+
+                matches = to_regex.search(text)
+                if matches:
+                    self.payload["to"] = matches.group(1).strip()
+                    self.payload["used_regex"].append("to_regex")
+            else:
+                matches = from_regex.search(text)
+                if matches:
+                    self.payload["from"] = matches.group(1).strip()
+                    self.payload["used_regex"].append("from")
+
+                matches = hrb_regex.search(text)
+                if matches:
+                    self.payload["hrb"] = matches.group(1).strip()
+                    self.payload["used_regex"].append("hrb")
+
+                matches = to_regex.search(text)
+                if matches:
+                    self.payload["to"] = matches.group(1).strip()
+                    self.payload["used_regex"].append("to_regex")
+
+    def try_to_find_city(self, city):
+        city_chunks = city.split(" ")
+        for x in range(len(city_chunks)):
+            option = " ".join(city_chunks[: len(city_chunks) - x])
+            if simplify_city(option) in GERMAN_CITIES:
+                return option.strip(" ,.")
+
+        return city_chunks[0].strip(" ,.")
+
+    def to_dict(self):
+        self.payload["used_regex"] = ", ".join(self.payload["used_regex"])
+
+        if "from" in self.payload:
+            self.payload["from"] = self.try_to_find_city(self.payload["from"])
+
+        if "to" in self.payload:
+            self.payload["to"] = self.try_to_find_city(self.payload["to"])
+
+        return self.payload
+
+
 class Sentence(object):
-    __slots__ = ["text", "split", "convert_to_flag", "assign_label_to_postfix"]
+    __slots__ = [
+        "text",
+        "split",
+        "convert_to_flag",
+        "assign_label_to_postfix",
+        "capture_whole_text",
+    ]
 
     def __init__(
-        self, text, split=False, convert_to_flag=None, assign_label_to_postfix=None
+        self,
+        text,
+        split=False,
+        convert_to_flag=None,
+        assign_label_to_postfix=None,
+        capture_whole_text=False,
     ):
         if isinstance(text, str):
             self.text = re.escape(text)
@@ -336,6 +449,7 @@ class Sentence(object):
         self.split = split
         self.convert_to_flag = convert_to_flag
         self.assign_label_to_postfix = assign_label_to_postfix
+        self.capture_whole_text = capture_whole_text
 
     def parse(self, sentence):
         text = None
@@ -352,7 +466,10 @@ class Sentence(object):
         else:
             try:
                 if self.convert_to_flag is not None:
-                    yield Flag(self.convert_to_flag, text)
+                    if self.capture_whole_text:
+                        yield Flag(self.convert_to_flag, sentence)
+                    else:
+                        yield Flag(self.convert_to_flag, text)
 
                 if self.split:
                     for x in sentence.split(text, 1):
@@ -360,9 +477,6 @@ class Sentence(object):
 
                 if self.assign_label_to_postfix is not None:
                     prefix, postfix = re.split(text, sentence, 1, flags=re.I | re.U)
-
-                    # if prefix.strip() and isinstance(self.assign_label_to_postfix, type):
-                    #     print("'{}'".format(prefix + text))
 
                     if isinstance(self.assign_label_to_postfix, str):
                         yield Label(self.assign_label_to_postfix, postfix)
@@ -373,20 +487,41 @@ class Sentence(object):
 
 
 sentences = [
-    Sentence("Nicht mehr Geschäftsführer:", assign_label_to_postfix=DismissedManagingDirector),
-    Sentence("Nicht mehr Geschäftsführerin:", assign_label_to_postfix=DismissedManagingDirector),
-    Sentence("Ausgeschieden: Geschäftsführer:", assign_label_to_postfix=RetiredManagingDirector),
-    Sentence("Ausgeschieden Geschäftsführer:", assign_label_to_postfix=RetiredManagingDirector),
-    Sentence("Ausgeschieden als Persönlich haftender Gesellschafter:", assign_label_to_postfix=RetiredPersonalPartner),
-    Sentence("Ausgeschieden: Persönlich haftender Gesellschafter:", assign_label_to_postfix=RetiredPersonalPartner),
-
-    Sentence("Bestellt als Geschäftsführer:", assign_label_to_postfix=AppointedManagingDirector),
-    Sentence("Bestellt: Geschäftsführer:", assign_label_to_postfix=AppointedManagingDirector),
-    Sentence("Bestellt Geschäftsführer:", assign_label_to_postfix=AppointedManagingDirector),
-
+    Sentence(
+        "Nicht mehr Geschäftsführer:", assign_label_to_postfix=DismissedManagingDirector
+    ),
+    Sentence(
+        "Nicht mehr Geschäftsführerin:",
+        assign_label_to_postfix=DismissedManagingDirector,
+    ),
+    Sentence(
+        "Ausgeschieden: Geschäftsführer:",
+        assign_label_to_postfix=RetiredManagingDirector,
+    ),
+    Sentence(
+        "Ausgeschieden Geschäftsführer:",
+        assign_label_to_postfix=RetiredManagingDirector,
+    ),
+    Sentence(
+        "Ausgeschieden als Persönlich haftender Gesellschafter:",
+        assign_label_to_postfix=RetiredPersonalPartner,
+    ),
+    Sentence(
+        "Ausgeschieden: Persönlich haftender Gesellschafter:",
+        assign_label_to_postfix=RetiredPersonalPartner,
+    ),
+    Sentence(
+        "Bestellt als Geschäftsführer:",
+        assign_label_to_postfix=AppointedManagingDirector,
+    ),
+    Sentence(
+        "Bestellt: Geschäftsführer:", assign_label_to_postfix=AppointedManagingDirector
+    ),
+    Sentence(
+        "Bestellt Geschäftsführer:", assign_label_to_postfix=AppointedManagingDirector
+    ),
     Sentence("Geändert, nun: Liquidator", assign_label_to_postfix=Liquidator),
     Sentence("Nicht mehr Liquidator", assign_label_to_postfix=NotALiquidator),
-
     Sentence("Geschäftsführer:", assign_label_to_postfix=ManagingDirector),
     Sentence("Geschäftsführerin:", assign_label_to_postfix=ManagingDirector),
     Sentence("Einzelprokura:", assign_label_to_postfix=SingleProcuration),
@@ -415,7 +550,6 @@ sentences = [
     ),
     Sentence("Inhaber:", assign_label_to_postfix=Owner),
     Sentence("Nicht mehr Inhaber:", assign_label_to_postfix=NotLongerOwner),
-
     Sentence("Liquidator:", assign_label_to_postfix=Liquidator),
     Sentence("Prokura erloschen:", assign_label_to_postfix=ProcurationCancelled),
     Sentence("Sitz / Zweigniederlassung:", assign_label_to_postfix="company"),
@@ -465,6 +599,11 @@ sentences = [
     Sentence("Die Gesellschaft ist aufgelöst.", convert_to_flag="CompanyClosed"),
     Sentence("Einzelprokura", convert_to_flag="Single procuration"),
     Sentence("Einzelkaufmann", convert_to_flag="Sole trader"),
+    Sentence(
+        re.compile(r"\bSitzverlegung\b", flags=re.I),
+        assign_label_to_postfix=RelocationNotice,
+    ),
+    # Sentence(re.compile(r"\bSitz\b", flags=re.I), convert_to_flag="Seat2", capture_whole_text=True),
     Sentence("Der Inhaber handelt allein", convert_to_flag="The owner is acting alone"),
     Sentence("Kommanditgesellschaft.", convert_to_flag="Limited partnership."),
     Sentence(
@@ -478,6 +617,7 @@ sentences = sorted(
     key=lambda x: len(x.text) if isinstance(x.text, str) else 1000,
     reverse=True,
 )
+
 
 def _get_normalized(sents: tuple):
     for sent in sents:

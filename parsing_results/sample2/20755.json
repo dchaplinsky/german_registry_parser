@@ -40,6 +40,15 @@
                 "text": " Weidenweg 49, 19057 Schwerin."
             }
         ],
+        "notices": [
+            {
+                "from": "Gütersloh",
+                "hrb": "HRB 3192",
+                "text": " von Gütersloh (bisher Amtsgericht Gütersloh HRB 3192) nach Schwerin beschlossen.",
+                "to": "Schwerin",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

@@ -36,6 +36,15 @@
                 "text": " Winsbergring 38, 22525 Hamburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Hamburg",
+                "hrb": "HRB 91801",
+                "text": " von Hamburg (bisher Amtsgericht Hamburg HRB 91801) nach Frankfurt am Main beschlossen.",
+                "to": "Frankfurt am Main",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

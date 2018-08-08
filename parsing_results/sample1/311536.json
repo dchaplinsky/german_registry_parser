@@ -44,6 +44,15 @@
                 "text": " australiastraße 50b, 20457 hamburg."
             }
         ],
+        "notices": [
+            {
+                "from": "norderstedt",
+                "hrb": "hrb 3716",
+                "text": " von norderstedt (bisher: amtsgericht kiel hrb 3716 no) nach hamburg beschlossen.",
+                "to": "hamburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

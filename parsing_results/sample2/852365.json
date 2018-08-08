@@ -36,6 +36,15 @@
                 "text": " Dieselstraße 6, 59823 Arnsberg."
             }
         ],
+        "notices": [
+            {
+                "from": "Dortmund",
+                "hrb": "HRB 24188",
+                "text": " von Dortmund (bisher Amtsgericht Dortmund HRB 24188) nach Arnsberg beschlossen.",
+                "to": "Arnsberg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

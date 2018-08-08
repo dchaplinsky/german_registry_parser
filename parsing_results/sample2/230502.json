@@ -44,6 +44,15 @@
                 "text": " Grandweg 10, 30982 Pattensen."
             }
         ],
+        "notices": [
+            {
+                "from": "Dörth",
+                "hrb": "HRB 7271",
+                "text": " von Dörth (bisher Amtsgericht Koblenz HRB 7271) nach Pattensen beschlossen.",
+                "to": "Pattensen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

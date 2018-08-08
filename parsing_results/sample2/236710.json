@@ -40,6 +40,15 @@
                 "text": " Wallstraße 41, 61440 Oberursel (Taunus)."
             }
         ],
+        "notices": [
+            {
+                "from": "Berlin",
+                "hrb": "HRB 128847",
+                "text": " von Berlin (bisher Amtsgericht Charlottenburg (Berlin) HRB 128847 B) nach Oberursel (Taunus) beschlossen.",
+                "to": "Oberursel",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

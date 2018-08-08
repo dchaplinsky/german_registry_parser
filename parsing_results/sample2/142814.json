@@ -32,6 +32,15 @@
                 "text": " Netzbacher Straße 2, 65623 Hahnstätten."
             }
         ],
+        "notices": [
+            {
+                "from": "Suhl",
+                "hrb": "HRB 508072",
+                "text": " von Suhl (bisher Amtsgericht Jena HRB 508072) nach Hahnstätten beschlossen.",
+                "to": "Hahnstätten",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

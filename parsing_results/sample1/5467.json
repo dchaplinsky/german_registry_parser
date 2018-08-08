@@ -15,5 +15,13 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=5467&land_abk=sl"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "text": " der zweigniederlassung nach saarbrücken geändert worden.",
+                "to": "saarbrücken",
+                "used_regex": "to_regex"
+            }
+        ]
+    }
 }

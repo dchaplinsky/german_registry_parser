@@ -22,11 +22,18 @@
                 "text": "Kommanditgesellschaft\\."
             }
         ],
+        "notices": [
+            {
+                "hrb": "HRB 9084",
+                "text": " und Firmenänderung, nun: Persönlich haftender Gesellschafter: Page factory Verwaltungs GmbH, Kaufbeuren (AG Kempten (Allgäu) HRB 9084).",
+                "used_regex": "hrb"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Page factory Verwaltungs GmbH, Kaufbeuren (AG Kempten (Allgäu) HRB 9084)."
+                    "company_name": "Page factory Verwaltungs GmbH, Kaufbeuren (AG Kempten (Allgäu) HRB 9084)."
                 },
                 "text": " Page factory Verwaltungs GmbH, Kaufbeuren (AG Kempten (Allgäu) HRB 9084)."
             }

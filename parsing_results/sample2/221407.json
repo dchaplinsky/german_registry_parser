@@ -36,6 +36,15 @@
                 "text": " Zur Rotlay 7, 54636 Biersdorf am See."
             }
         ],
+        "notices": [
+            {
+                "from": "Hannover",
+                "hrb": "HRB 211535",
+                "text": " von Hannover (bisher Amtsgericht Hannover HRB 211535) nach Biersdorf am See beschlossen.",
+                "to": "Biersdorf",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

@@ -40,6 +40,15 @@
                 "text": " Am Storchsborn 1, 63546 Hammersbach."
             }
         ],
+        "notices": [
+            {
+                "from": "Limeshain",
+                "hrb": "HRB 7983",
+                "text": " von Limeshain (bisher Amtsgericht Friedberg (Hessen) HRB 7983) nach Hammersbach beschlossen.",
+                "to": "Hammersbach",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

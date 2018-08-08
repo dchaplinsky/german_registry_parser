@@ -33,6 +33,15 @@
                 "label": "address",
                 "text": " Hülser Straße 3, 47906 Kempen."
             }
+        ],
+        "notices": [
+            {
+                "from": "Duisburg",
+                "hrb": "HRB 27055",
+                "text": " von Duisburg (bisher Amtsgericht Duisburg HRB 27055) nach Kempen beschlossen.",
+                "to": "Kempen",
+                "used_regex": "from_hrb_to_regex"
+            }
         ]
     }
 }

@@ -36,6 +36,15 @@
                 "text": " Hemmerholzer Weg 2, 51597 Morsbach."
             }
         ],
+        "notices": [
+            {
+                "from": "Freudenberg",
+                "hrb": "HRB 4279",
+                "text": " von Freudenberg (bisher Amtsgericht Siegen HRB 4279) nach Morsbach beschlossen.",
+                "to": "Morsbach",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

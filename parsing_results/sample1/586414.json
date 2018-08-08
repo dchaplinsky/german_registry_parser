@@ -40,6 +40,15 @@
                 "text": " nibelungen straße 58, 64625 bensheim."
             }
         ],
+        "notices": [
+            {
+                "from": "frankfurt am main",
+                "hrb": "hrb 98371",
+                "text": " von frankfurt am main (bisher amtsgericht frankfurt am main hrb 98371) nach bensheim beschlossen.",
+                "to": "bensheim",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

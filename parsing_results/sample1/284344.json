@@ -40,6 +40,15 @@
                 "text": " biebricher allee 114 a, 65187 wiesbaden."
             }
         ],
+        "notices": [
+            {
+                "from": "frankfurt am main",
+                "hrb": "hrb 91773",
+                "text": " von frankfurt am main (bisher amtsgericht frankfurt am main hrb 91773) nach wiesbaden beschlossen.",
+                "to": "wiesbaden",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

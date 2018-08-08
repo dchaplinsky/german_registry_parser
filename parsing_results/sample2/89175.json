@@ -36,6 +36,15 @@
                 "text": " Finkenstraße 7, 67377 Gommersheim."
             }
         ],
+        "notices": [
+            {
+                "from": "Speyer",
+                "hrb": "HRB 62241",
+                "text": " von Speyer am Rhein (bisher HRB 62241 Amtsgericht Ludwigshafen am Rhein) nach Gommersheim beschlossen.",
+                "to": "Gommersheim",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

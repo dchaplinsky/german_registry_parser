@@ -36,6 +36,15 @@
                 "text": " Am Zollhafen 9, 41460 Neuss."
             }
         ],
+        "notices": [
+            {
+                "from": "Düsseldorf",
+                "hrb": "HRB 55118",
+                "text": " von Düsseldorf (bisher Düsseldorf HRB 55118) nach Neuss beschlossen.",
+                "to": "Neuss",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

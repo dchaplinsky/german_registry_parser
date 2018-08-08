@@ -16,11 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=151135&land_abk=rp"
     },
     "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 42562",
+                "text": " eingetreten als Persönlich haftender Gesellschafter: Immovesta Beteiligung GmbH, Trier (Amtsgericht Wittlich HRB 42562), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+                "used_regex": "hrb"
+            }
+        ],
         "officers": [
             {
                 "class": "RetiredPersonalPartner",
                 "payload": {
-                    "company_name": " Immovesta Beteiligung GmbH, Trier (Amtsgericht Wittlich HRB 4329).",
+                    "company_name": "Immovesta Beteiligung GmbH, Trier (Amtsgericht Wittlich HRB 4329).",
                     "dismissed": true
                 },
                 "text": " Immovesta Beteiligung GmbH, Trier (Amtsgericht Wittlich HRB 4329)."
@@ -28,7 +35,7 @@
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Immovesta Beteiligung GmbH, Trier (Amtsgericht Wittlich HRB 42562), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+                    "company_name": "Immovesta Beteiligung GmbH, Trier (Amtsgericht Wittlich HRB 42562), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
                 },
                 "text": " Immovesta Beteiligung GmbH, Trier (Amtsgericht Wittlich HRB 42562), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }

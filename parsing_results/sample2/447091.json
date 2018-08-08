@@ -36,6 +36,15 @@
                 "text": " Saerbecker Straße 42, 49549 Ladbergen."
             }
         ],
+        "notices": [
+            {
+                "from": "Telgte",
+                "hrb": "HRB 10515",
+                "text": " von Telgte (bisher Amtsgericht Münster HRB 10515) nach Ladbergen beschlossen.",
+                "to": "Ladbergen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

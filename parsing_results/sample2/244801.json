@@ -40,6 +40,15 @@
                 "text": " Maria Trost 21, 56070 Koblenz."
             }
         ],
+        "notices": [
+            {
+                "from": "Heidelberg",
+                "hrb": "HRB 728149",
+                "text": " von Heidelberg (bisher Amtsgericht Mannheim HRB 728149) nach Koblenz beschlossen.",
+                "to": "Koblenz",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

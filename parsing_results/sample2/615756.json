@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=615756&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "from": "Köln",
+                "hrb": "HRB 57951",
+                "text": " von Köln (bisher AG Köln, HRB 57951) nach Düsseldorf beschlossen.",
+                "to": "Düsseldorf",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ]
+    }
 }

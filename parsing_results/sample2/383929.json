@@ -40,6 +40,15 @@
                 "text": " Theodor-Heuss-Allee 112, 60486 Frankfurt am Main."
             }
         ],
+        "notices": [
+            {
+                "from": "Grünwald",
+                "hrb": "HRB 159345",
+                "text": " von Grünwald (bisher Amtsgericht München HRB 159345) nach Frankfurt am Main und die Änderung des Gesellschaftsvertrages in § 1.1 (Firma) beschlossen.",
+                "to": "Frankfurt am Main",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

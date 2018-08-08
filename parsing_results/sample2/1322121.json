@@ -32,6 +32,15 @@
                 "text": " Bahnhofstr."
             }
         ],
+        "notices": [
+            {
+                "from": "Schloß Holte-Stukenbrock",
+                "hrb": "HRB 40958",
+                "text": " von Schloß Holte-Stukenbrock (bisher Amtsgericht Bielefeld HRB 40958) nach Hövelhof beschlossen.",
+                "to": "Hövelhof",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

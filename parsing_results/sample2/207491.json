@@ -36,6 +36,15 @@
                 "text": " Im Waldhof 12, 61476 Kronberg im Taunus."
             }
         ],
+        "notices": [
+            {
+                "from": "Marburg",
+                "hrb": "HRB 4868",
+                "text": " von Marburg (bisher Amtsgericht Marburg, HRB 4868) nach Kronberg im Taunus beschlossen.",
+                "to": "Kronberg im Taunus",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

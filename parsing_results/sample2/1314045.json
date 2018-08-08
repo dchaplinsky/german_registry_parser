@@ -36,6 +36,15 @@
                 "text": " Gronauer Straße 26, 48683 Ahaus."
             }
         ],
+        "notices": [
+            {
+                "from": "Wesseling",
+                "hrb": "HRB 80399",
+                "text": " von Wesseling (bisher Amtsgericht Köln HRB 80399) nach Ahaus beschlossen.",
+                "to": "Ahaus",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

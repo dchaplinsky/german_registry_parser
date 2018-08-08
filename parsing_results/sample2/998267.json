@@ -36,6 +36,15 @@
                 "text": " Hülsebrockstraße 2, 48165 Münster."
             }
         ],
+        "notices": [
+            {
+                "from": "Bonn",
+                "hrb": "HRB 1288",
+                "text": " von Bonn (bisher Amtsgericht Bonn HRB 1288) nach Münster beschlossen.",
+                "to": "Münster",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

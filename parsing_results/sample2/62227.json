@@ -34,6 +34,15 @@
                 "text": "Alleinvertretungsbefugnis\\ kann\\ erteilt\\ werden\\."
             }
         ],
+        "notices": [
+            {
+                "from": "München",
+                "hrb": "HRB 153374",
+                "text": " von München (bisher Amtsgericht München HRB 153374, Firma bisher: autoanzeigen.de Verwaltungs-GmbH) nach Hamburg beschlossen.",
+                "to": "Hamburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "RetiredManagingDirector",

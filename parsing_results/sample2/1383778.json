@@ -36,6 +36,15 @@
                 "text": " Mülheimer Straße 26, 53840 Troisdorf."
             }
         ],
+        "notices": [
+            {
+                "from": "Sulzbach",
+                "hrb": "HRB 101986",
+                "text": " von Sulzbach (bisher Amtsgericht Frankfurt am Main, HRB 101986) nach Troisdorf beschlossen.",
+                "to": "Troisdorf",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

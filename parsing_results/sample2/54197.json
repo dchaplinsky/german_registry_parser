@@ -21,6 +21,15 @@
                 "label": "address",
                 "text": " Palaststraße 10, 54290 Trier."
             }
+        ],
+        "notices": [
+            {
+                "from": "Isernhagen",
+                "hrb": "HRB 201583",
+                "text": " von Isernhagen (bisher Amtsgericht Hannover, HRB 201583) nach Trier beschlossen.",
+                "to": "Trier",
+                "used_regex": "from_hrb_to_regex"
+            }
         ]
     }
 }

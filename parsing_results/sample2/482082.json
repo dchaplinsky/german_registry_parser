@@ -36,6 +36,15 @@
                 "text": " Senator-Braun-Allee 33, 31135 Hildesheim."
             }
         ],
+        "notices": [
+            {
+                "from": "Schleswig",
+                "hrb": "HRB 10496",
+                "text": " von Schleswig (bisher Amtsgericht Flensburg HRB 10496 FL) nach Hildesheim beschlossen.",
+                "to": "Hildesheim",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

@@ -44,6 +44,15 @@
                 "text": " Heegbarg 16, 22391 Hamburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Füssen",
+                "hrb": "HRB 11328",
+                "text": " von Füssen (bisher: Amtsgericht Kempten (Allgäu) HRB 11328) nach Hamburg beschlossen.",
+                "to": "Hamburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

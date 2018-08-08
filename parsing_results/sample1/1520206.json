@@ -26,12 +26,22 @@
                 "text": " sachsstr."
             }
         ],
+        "notices": [
+            {
+                "text": " und änderung der geschäftsanschrift: pulheim.",
+                "used_regex": ""
+            },
+            {
+                "hrb": "hrb 60083",
+                "text": " (vormals köln): persönlich haftender gesellschafter: napasai media hören + sehen verwaltungs-gmbh, pulheim (amtsgericht köln hrb 60083).",
+                "used_regex": "hrb"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "lastname": "napasai media hören + sehen verwaltungs-gmbh",
-                    "name": "pulheim (amtsgericht köln hrb 60083)"
+                    "company_name": "napasai media hören + sehen verwaltungs-gmbh, pulheim (amtsgericht köln hrb 60083)."
                 },
                 "text": " napasai media hören + sehen verwaltungs-gmbh, pulheim (amtsgericht köln hrb 60083)."
             }

@@ -32,6 +32,15 @@
                 "text": " Jülicher Straße 16, 41812 Erkelenz."
             }
         ],
+        "notices": [
+            {
+                "from": "Herzogenrath",
+                "hrb": "HR B 1278",
+                "text": " von Herzogenrath (bisher Amtsgericht Aachen HR B 1278) nach Erkelenz beschlossen.",
+                "to": "Erkelenz",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

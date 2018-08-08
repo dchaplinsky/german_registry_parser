@@ -40,6 +40,15 @@
                 "text": " Im Bruche 8, 37603 Holzminden."
             }
         ],
+        "notices": [
+            {
+                "from": "Düsseldorf",
+                "hrb": "HRB 67270",
+                "text": " von Düsseldorf (bisher Amtsgericht Düsseldorf HRB 67270) nach Holzminden beschlossen.",
+                "to": "Holzminden",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

@@ -46,6 +46,15 @@
                 "text": " gartenkamp 8 c, 49492 westerkappeln."
             }
         ],
+        "notices": [
+            {
+                "from": "neufahrn",
+                "hrb": "hrb 145108",
+                "text": " von neufahrn (bisher amtsgericht münchen hrb 145108) nach westerkappeln beschlossen.",
+                "to": "westerkappeln",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

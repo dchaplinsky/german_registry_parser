@@ -16,6 +16,13 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=50585&land_abk=rp"
     },
     "parsed": {
+        "notices": [
+            {
+                "text": " nach Bad Kreuznach beschlossen.",
+                "to": "Bad Kreuznach",
+                "used_regex": "to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

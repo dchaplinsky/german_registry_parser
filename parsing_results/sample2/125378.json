@@ -40,6 +40,15 @@
                 "text": " Fahrgasse 24 E, 63303 Dreieich."
             }
         ],
+        "notices": [
+            {
+                "from": "Frankfurt am Main",
+                "hrb": "HRB 33881",
+                "text": " von Frankfurt am Main (bisher Amtsgericht Frankfurt am Main HRB 33881) nach Dreieich beschlossen.",
+                "to": "Dreieich",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

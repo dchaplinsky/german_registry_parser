@@ -21,6 +21,13 @@
                 "label": "address",
                 "text": " Siegburger Straße 447, 51105 Köln."
             }
+        ],
+        "notices": [
+            {
+                "text": " nach Köln beschlossen.",
+                "to": "Köln",
+                "used_regex": "to_regex"
+            }
         ]
     }
 }

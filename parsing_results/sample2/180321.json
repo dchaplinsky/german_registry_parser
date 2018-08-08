@@ -28,6 +28,15 @@
                 "text": " Harburger Chaussee 127, 20539 Hamburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Oststeinbek",
+                "hrb": "HRB 11329",
+                "text": " von Oststeinbek (bisher Amtsgericht Lübeck HRB 11329 HL) nach Hamburg beschlossen.",
+                "to": "Hamburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

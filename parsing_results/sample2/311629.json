@@ -40,6 +40,15 @@
                 "text": " Um Süd 17 / Haus 3, 26465 Langeoog."
             }
         ],
+        "notices": [
+            {
+                "from": "Bremen",
+                "hrb": "HRB 28518",
+                "text": " von Bremen (bisher Amtsgericht Bremen HRB 28518 HB) nach Langeoog beschlossen.",
+                "to": "Langeoog",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

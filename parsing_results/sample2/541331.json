@@ -28,6 +28,15 @@
                 "text": " Unterer Plattenberg 3, 32549 Bad Oeynhausen."
             }
         ],
+        "notices": [
+            {
+                "from": "Osnabrück",
+                "hrb": "HR B 203192",
+                "text": " von Osnabrück (bisher AG Osnabrück, HR B 203192) nach Bad Oeynhausen beschlossen.",
+                "to": "Bad Oeynhausen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

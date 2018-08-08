@@ -36,6 +36,15 @@
                 "text": " Meißener Dorfstraße 16, 32423 Minden."
             }
         ],
+        "notices": [
+            {
+                "from": "Köln",
+                "hrb": "HRB 73426",
+                "text": " von Köln (bisher AG Köln HRB 73426) nach Minden beschlossen.",
+                "to": "Minden",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

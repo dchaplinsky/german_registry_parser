@@ -36,6 +36,15 @@
                 "text": " c/o Autobahn Tank & Rast GmbH, Andreas-Hermes-Straße 7-9, 53175 Bonn."
             }
         ],
+        "notices": [
+            {
+                "from": "Frankfurt am Main",
+                "hrb": "HRB 102570",
+                "text": " von Frankfurt am Main (bisher Amtsgericht Frankfurt am Main HRB 102570) nach Bonn beschlossen.",
+                "to": "Bonn",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

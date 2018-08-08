@@ -28,6 +28,15 @@
                 "text": " Hülser Straße 9, 47906 Kempen."
             }
         ],
+        "notices": [
+            {
+                "from": "Sonsbeck",
+                "hrb": "HRB 10688",
+                "text": " von Sonsbeck (bisher Amtsgericht Kleve HRB 10688) nach Kempen beschlossen.",
+                "to": "Kempen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

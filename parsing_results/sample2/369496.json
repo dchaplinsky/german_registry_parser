@@ -40,6 +40,15 @@
                 "text": " Dornhofstraße 34, 63263 Neu-Isenburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Hannover",
+                "hrb": "HRB 209811",
+                "text": " von Hannover (bisher Amtsgericht Hannover HRB 209811) nach Neu-Isenburg beschlossen.",
+                "to": "Neu-Isenburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

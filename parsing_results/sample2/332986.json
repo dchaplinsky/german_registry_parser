@@ -44,6 +44,15 @@
                 "text": " Wilhelm-Iwan-Ring 9, 21035 Hamburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Poggensee",
+                "hrb": "HRB 8356",
+                "text": " von Poggensee (bisher: Amtsgericht Lübeck HRB 8356 HL) nach Hamburg beschlossen.",
+                "to": "Hamburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

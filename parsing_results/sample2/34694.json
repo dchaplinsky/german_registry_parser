@@ -36,6 +36,15 @@
                 "text": " Bahnhofstr."
             }
         ],
+        "notices": [
+            {
+                "from": "Kusel",
+                "hrb": "HRB 30358",
+                "text": " von Kusel (bisher Amtsgericht Kaiserslautern HRB 30358) nach St. Wendel beschlossen.",
+                "to": "St. Wendel",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "NotALiquidator",

@@ -28,11 +28,19 @@
                 "text": " Jabob-Kaiser-Straße 13, 50858 Köln."
             }
         ],
+        "notices": [
+            {
+                "from": "Gräfelfing",
+                "hrb": "HRB 85024",
+                "text": " von Gräfelfing (bisher Amtsgericht München, HRB 175694): Persönlich haftender Gesellschafter: GSI Solarfonds Zwei Verwaltungs GmbH, Köln (Amtsgericht Köln HRB 85024), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+                "used_regex": "from_hrb_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " GSI Solarfonds Zwei Verwaltungs GmbH, Köln (Amtsgericht Köln HRB 85024), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+                    "company_name": "GSI Solarfonds Zwei Verwaltungs GmbH, Köln (Amtsgericht Köln HRB 85024), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
                 },
                 "text": " GSI Solarfonds Zwei Verwaltungs GmbH, Köln (Amtsgericht Köln HRB 85024), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }

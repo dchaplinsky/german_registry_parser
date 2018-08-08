@@ -40,6 +40,15 @@
                 "text": " frankfurter straße 151b, 63303 dreieich."
             }
         ],
+        "notices": [
+            {
+                "from": "mühltal",
+                "hrb": "hrb 94194",
+                "text": " von mühltal (bisher amtsgericht darmstadt hrb 94194) nach dreieich beschlossen.",
+                "to": "dreieich",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

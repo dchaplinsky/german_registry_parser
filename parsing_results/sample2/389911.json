@@ -40,6 +40,15 @@
                 "text": " Habelschwerdter Straße 9, 31224 Peine."
             }
         ],
+        "notices": [
+            {
+                "from": "Braunschweig",
+                "hrb": "HRB 205588",
+                "text": " von Braunschweig nach Peine (bisher: LÖWENTIUS UG (haftungsbeschränkt), Amtsgericht Braunschweig, HRB 205588) beschlossen.",
+                "to": "Peine",
+                "used_regex": "from_hrb_regex, to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

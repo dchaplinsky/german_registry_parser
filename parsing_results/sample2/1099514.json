@@ -36,6 +36,15 @@
                 "text": " Von-Stauffenberg-Straße 13a, 41352 Korschenbroich."
             }
         ],
+        "notices": [
+            {
+                "from": "Düsseldorf",
+                "hrb": "HRB 65599",
+                "text": " von Düsseldorf (bisher Amtsgericht Düsseldorf HRB 65599) nach Korschenbroich beschlossen.",
+                "to": "Korschenbroich",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

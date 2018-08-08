@@ -36,6 +36,15 @@
                 "text": " Niddastraße 82, 60329 Frankfurt am Main."
             }
         ],
+        "notices": [
+            {
+                "from": "Kassel",
+                "hrb": "HRB 15641",
+                "text": " von Kassel (bisher Amtsgericht Kassel HRB 15641) nach Frankfurt am Main beschlossen.",
+                "to": "Frankfurt am Main",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

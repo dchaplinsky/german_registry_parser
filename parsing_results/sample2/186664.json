@@ -16,12 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=186664&land_abk=bw"
     },
     "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 724978",
+                "text": " und Firmenänderung geändert, nun: Persönlich haftender Gesellschafter: Velisco Geflügel Verwaltungs-GmbH, Rot am See (Amtsgericht Ulm HRB 724978).",
+                "used_regex": "hrb"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "lastname": "Velisco Geflügel Verwaltungs-GmbH",
-                    "name": "Rot am See (Amtsgericht Ulm HRB 724978)"
+                    "company_name": "Velisco Geflügel Verwaltungs-GmbH, Rot am See (Amtsgericht Ulm HRB 724978)."
                 },
                 "text": " Velisco Geflügel Verwaltungs-GmbH, Rot am See (Amtsgericht Ulm HRB 724978)."
             }

@@ -40,6 +40,15 @@
                 "text": " Gerhofstraße 1 - 3, 20354 Hamburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Berlin",
+                "hrb": "HRB 184657",
+                "text": " von Berlin (bisher: Amtsgericht Charlottenburg HRB 184657 B) nach Hamburg beschlossen.",
+                "to": "Hamburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

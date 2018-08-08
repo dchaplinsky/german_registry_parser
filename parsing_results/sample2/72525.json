@@ -44,6 +44,15 @@
                 "text": " Schönenfelder Straße 67, 21109 Hamburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Egestorf",
+                "hrb": "HRB 111371",
+                "text": " von Egestorf (bisher Amtsgericht Lüneburg HRB 111371) nach Hamburg beschlossen.",
+                "to": "Hamburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

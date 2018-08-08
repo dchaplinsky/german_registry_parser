@@ -36,6 +36,15 @@
                 "text": " Merkur-Allee 1-15, 32339 Espelkamp."
             }
         ],
+        "notices": [
+            {
+                "from": "Straubing",
+                "hrb": "HRB 11351",
+                "text": " von Straubing (bisher Amtsgericht Straubing HRB 11351) nach Espelkamp.",
+                "to": "Espelkamp",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

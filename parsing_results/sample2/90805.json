@@ -54,6 +54,15 @@
                 "text": " Habichtstraße 41, 22305 Hamburg."
             }
         ],
+        "notices": [
+            {
+                "from": "Weißenfels",
+                "hrb": "HRB 209378",
+                "text": " von Weißenfels (bisher Amtsgericht Stendal HRB 209378, Firma bisher: SWS-Textil-Union, Groß- und Einzelhandel Import und Export GmbH) nach Hamburg beschlossen.",
+                "to": "Hamburg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "RetiredManagingDirector",

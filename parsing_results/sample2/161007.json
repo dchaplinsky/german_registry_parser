@@ -28,11 +28,20 @@
                 "text": " Wilhelm-Theodor-Römheld-Straße 30, 55130 Mainz."
             }
         ],
+        "notices": [
+            {
+                "from": "Wiesbaden",
+                "hrb": "HRB 45330",
+                "text": " von Wiesbaden nach Mainz: Persönlich haftender Gesellschafter: Afanta Grundstücksverwaltungsgesellschaft mbH, Mainz (Amtsgericht Mainz HRB 45330), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+                "to": "Mainz:",
+                "used_regex": "from_hrb_regex, to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " Afanta Grundstücksverwaltungsgesellschaft mbH, Mainz (Amtsgericht Mainz HRB 45330), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+                    "company_name": "Afanta Grundstücksverwaltungsgesellschaft mbH, Mainz (Amtsgericht Mainz HRB 45330), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
                 },
                 "text": " Afanta Grundstücksverwaltungsgesellschaft mbH, Mainz (Amtsgericht Mainz HRB 45330), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }

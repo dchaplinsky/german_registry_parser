@@ -22,13 +22,18 @@
                 "text": " Heidesch 1, 49549 Ladbergen."
             }
         ],
+        "notices": [
+            {
+                "hrb": "HRB 7925",
+                "text": ": Persönlich haftender Gesellschafter: Reitz und Wagner Medienmanagement Verwaltungs-GmbH, Ladbergen (AG Steinfurt HRB 7925), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+                "used_regex": "hrb"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "city": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Reitz und Wagner Medienmanagement Verwaltungs-GmbH",
-                    "name": "Ladbergen (AG Steinfurt HRB 7925)"
+                    "company_name": "Reitz und Wagner Medienmanagement Verwaltungs-GmbH, Ladbergen (AG Steinfurt HRB 7925), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
                 },
                 "text": " Reitz und Wagner Medienmanagement Verwaltungs-GmbH, Ladbergen (AG Steinfurt HRB 7925), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }

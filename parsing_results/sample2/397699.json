@@ -40,6 +40,15 @@
                 "text": " Iburger Straße 225, 49082 Osnabrück."
             }
         ],
+        "notices": [
+            {
+                "from": "Münster",
+                "hrb": "HRB 11422",
+                "text": " von Münster (bisher Amtsgericht Münster HRB 11422) nach Osnabrück beschlossen.",
+                "to": "Osnabrück",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

@@ -40,6 +40,15 @@
                 "text": " Horner Str."
             }
         ],
+        "notices": [
+            {
+                "from": "Braunschweig",
+                "hrb": "HRB 200182",
+                "text": " von Braunschweig (bisher Amtsgericht Braunschweig HRB 200182) nach Seevetal beschlossen.",
+                "to": "Seevetal",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

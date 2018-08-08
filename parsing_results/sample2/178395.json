@@ -40,6 +40,15 @@
                 "text": " Misburger Str."
             }
         ],
+        "notices": [
+            {
+                "from": "Stadthagen",
+                "hrb": "HRB 200533",
+                "text": " von Stadthagen (bisher Amtsgericht Stadthagen HRB 200533) nach Hannover beschlossen.",
+                "to": "Hannover",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

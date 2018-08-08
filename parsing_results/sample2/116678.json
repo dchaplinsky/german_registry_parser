@@ -16,11 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=116678&land_abk=sn"
     },
     "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 735666",
+                "text": " und ausgeschieden: Persönlich haftender Gesellschafter: Traxxis Grundbesitz GmbH, Stuttgart (Amtsgericht Stuttgart HRB 735666).",
+                "used_regex": "hrb"
+            }
+        ],
         "officers": [
             {
                 "class": "RetiredPersonalPartner",
                 "payload": {
-                    "company_name": " Traxxis Grundbesitz GmbH, Stuttgart (Amtsgericht Stuttgart HRB 735666).",
+                    "company_name": "Traxxis Grundbesitz GmbH, Stuttgart (Amtsgericht Stuttgart HRB 735666).",
                     "dismissed": true
                 },
                 "text": " Traxxis Grundbesitz GmbH, Stuttgart (Amtsgericht Stuttgart HRB 735666)."

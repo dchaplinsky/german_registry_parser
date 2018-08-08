@@ -36,6 +36,15 @@
                 "text": " Feldstraße 21, 42275 Wuppertal."
             }
         ],
+        "notices": [
+            {
+                "from": "Hennef",
+                "hrb": "HRB 12495",
+                "text": " von Hennef (bisher Amtsgericht Siegburg HRB 12495) nach Wuppertal beschlossen.",
+                "to": "Wuppertal",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

@@ -36,6 +36,15 @@
                 "text": " Blockfeldstraße 18, 67112 Mutterstadt."
             }
         ],
+        "notices": [
+            {
+                "from": "Bad Soden am Taunus",
+                "hrb": "HRB 5900",
+                "text": " von Bad Soden am Taunus (bisher Königstein im Taunus HRB 5900) nach Mutterstadt beschlossen.",
+                "to": "Mutterstadt",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

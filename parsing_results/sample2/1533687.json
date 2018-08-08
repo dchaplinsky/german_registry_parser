@@ -32,6 +32,15 @@
                 "text": " Rudolf-Dieselstraße 5-7, 50226 Frechen."
             }
         ],
+        "notices": [
+            {
+                "from": "Monheim",
+                "hrb": "HRB 78811",
+                "text": " von Monheim (bisher Amtsgericht Düsseldorf HRB 78811) nach Frechen, sowie die Änderung der Firma beschlossen.",
+                "to": "Frechen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

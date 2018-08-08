@@ -40,6 +40,15 @@
                 "text": " Oranienstraße 13, 65812 Bad Soden am Taunus."
             }
         ],
+        "notices": [
+            {
+                "from": "Frankfurt am Main",
+                "hrb": "HRB 85543",
+                "text": " von Frankfurt am Main (bisher Frankfurt am Main HRB 85543) nach Bad Soden am Taunus beschlossen.",
+                "to": "Bad Soden am Taunus",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

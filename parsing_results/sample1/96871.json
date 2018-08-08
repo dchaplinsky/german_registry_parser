@@ -36,6 +36,15 @@
                 "text": " linienweg 45, 26487 neuschoo."
             }
         ],
+        "notices": [
+            {
+                "from": "korschenbroich",
+                "hrb": "hrb 7703",
+                "text": " von korschenbroich (bisher amtsgericht neuss hrb 7703) nach neuschoo beschlossen.",
+                "to": "neuschoo",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

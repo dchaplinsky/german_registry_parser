@@ -40,6 +40,15 @@
                 "text": " Meinershauser Straße 62, 28879 Grasberg."
             }
         ],
+        "notices": [
+            {
+                "from": "Hemmoor",
+                "hrb": "HRB 110587",
+                "text": " von Hemmoor (bisher Amtsgericht Tostedt HRB 110587) nach Grasberg beschlossen.",
+                "to": "Grasberg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

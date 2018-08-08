@@ -28,6 +28,15 @@
                 "text": " Holtweg 56, 41379 Brüggen."
             }
         ],
+        "notices": [
+            {
+                "from": "Düsseldorf",
+                "hrb": "HRB 79586",
+                "text": " von Düsseldorf (bisher Amtsgericht Düsseldorf HRB 79586) nach Brüggen beschlossen.",
+                "to": "Brüggen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

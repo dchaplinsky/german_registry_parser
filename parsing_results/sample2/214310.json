@@ -40,6 +40,15 @@
                 "text": " Mühlenblick 7, 49401 Damme."
             }
         ],
+        "notices": [
+            {
+                "from": "Berlin",
+                "hrb": "HRB 111643",
+                "text": " von Berlin (bisher Amtsgericht Berlin-Charlottenburg HRB 111643 B) nach Damme und die Änderung des Unternehmensgegenstandes beschlossen.",
+                "to": "Damme",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

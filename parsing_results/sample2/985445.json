@@ -36,6 +36,15 @@
                 "text": " Am Wielbach 21, 46399 Bocholt."
             }
         ],
+        "notices": [
+            {
+                "from": "Rees",
+                "hrb": "HRB 3372",
+                "text": " von Rees (bisher Amtsgericht Kleve HRB 3372) nach Bocholt beschlossen.",
+                "to": "Bocholt",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

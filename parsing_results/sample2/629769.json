@@ -36,6 +36,15 @@
                 "text": " Münsterstraße 5, 48282 Emsdetten."
             }
         ],
+        "notices": [
+            {
+                "from": "Osnabrück",
+                "hrb": "HRB 204533",
+                "text": " von Osnabrück (bisher Amtsgericht Osnabrück HRB 204533) nach Emsdetten beschlossen.",
+                "to": "Emsdetten",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

@@ -40,6 +40,15 @@
                 "text": " detmolder str."
             }
         ],
+        "notices": [
+            {
+                "from": "berlin",
+                "hrb": "hrb 137486",
+                "text": " von berlin (bisher amtsgericht charlottenburg hrb 137486 b) nach bielefeld beschlossen.",
+                "to": "bielefeld",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

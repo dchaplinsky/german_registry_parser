@@ -36,6 +36,15 @@
                 "text": " Warschauer Str."
             }
         ],
+        "notices": [
+            {
+                "from": "Köln",
+                "hrb": "HRB 82156",
+                "text": " von Köln (bisher Amtsgericht Köln HRB 82156) nach Bonn beschlossen.",
+                "to": "Bonn",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

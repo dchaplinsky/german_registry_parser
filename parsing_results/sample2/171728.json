@@ -40,6 +40,15 @@
                 "text": " Bahnhofstraße 42-46, 64732 Bad König."
             }
         ],
+        "notices": [
+            {
+                "from": "Glashütten",
+                "hrb": "HRB 7217",
+                "text": " von Glashütten (bisher Amtsgericht Königstein im Taunus HRB 7217) nach Bad König und § 2 (Gegenstand des Unternehmens) beschlossen.",
+                "to": "Bad König",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

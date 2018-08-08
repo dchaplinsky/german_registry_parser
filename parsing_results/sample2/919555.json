@@ -28,6 +28,15 @@
                 "text": " Heetwinkel 72, 46514 Schermbeck."
             }
         ],
+        "notices": [
+            {
+                "from": "Berlin",
+                "hrb": "HRB 115990",
+                "text": " von Berlin (bisher Amtsgericht Charlottenburg, HRB 115990 B) nach Schermbeck beschlossen.",
+                "to": "Schermbeck",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

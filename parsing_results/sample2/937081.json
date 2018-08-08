@@ -36,6 +36,15 @@
                 "text": " Aennchenstraße 19, 53177 Bonn."
             }
         ],
+        "notices": [
+            {
+                "from": "Bad Honnef",
+                "hrb": "HRB 10734",
+                "text": " von Bad Honnef (bisher Siegburg HRB 10734) nach Bonn beschlossen.",
+                "to": "Bonn",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

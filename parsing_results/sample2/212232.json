@@ -40,6 +40,15 @@
                 "text": " Birkenweg 14 a, 64295 Darmstadt."
             }
         ],
+        "notices": [
+            {
+                "from": "Sulzbach/Taunus",
+                "hrb": "HRB 89505",
+                "text": " von Sulzbach/Taunus (bisher Amtsgericht Frankfurt am Main HRB 89505) nach Darmstadt beschlossen.",
+                "to": "Darmstadt",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

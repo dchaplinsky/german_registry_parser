@@ -40,6 +40,15 @@
                 "text": " butjadinger straße 88, 26180 rastede."
             }
         ],
+        "notices": [
+            {
+                "from": "bremen",
+                "hrb": "hrb 29769",
+                "text": " von bremen (bisher amtsgericht bremen hrb 29769 hb) nach rastede beschlossen.",
+                "to": "rastede",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

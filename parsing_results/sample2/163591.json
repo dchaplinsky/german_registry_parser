@@ -36,6 +36,15 @@
                 "text": " Wilhelm-Theodor-Römheld-Straße 30, 55130 Mainz."
             }
         ],
+        "notices": [
+            {
+                "from": "Wiesbaden",
+                "hrb": "HRB 11358",
+                "text": " von Wiesbaden (bisher Amtsgericht Wiesbaden HRB 11358) nach Mainz und die Änderung des Unternehmensgegenstandes beschlossen.",
+                "to": "Mainz",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

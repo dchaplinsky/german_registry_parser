@@ -49,6 +49,15 @@
                 "label": "address",
                 "text": " Westerbachstraße 32, 61476 Kronberg im Taunus."
             }
+        ],
+        "notices": [
+            {
+                "from": "Oberursel",
+                "hrb": "HRB 1127",
+                "text": " von Oberursel (Taunus) (bisher Amtsgericht Bad Homburg v. d. Höhe HRB 1127) nach Kronberg im Taunus beschlossen.",
+                "to": "Kronberg im Taunus",
+                "used_regex": "from_hrb_to_regex"
+            }
         ]
     }
 }

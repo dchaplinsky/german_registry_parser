@@ -52,6 +52,15 @@
                 "text": " In der Fleute 53, 42389 Wuppertal."
             }
         ],
+        "notices": [
+            {
+                "from": "Augsburg",
+                "hrb": "HRB 16579",
+                "text": " von Augsburg (bisher Amtsgericht Augsburg, HRB 16579) nach Darmstadt beschlossen.",
+                "to": "Darmstadt",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

@@ -40,6 +40,15 @@
                 "text": " Ernst-August-Straße 10, 29664 Walsrode."
             }
         ],
+        "notices": [
+            {
+                "from": "München",
+                "hrb": "HRB 219970",
+                "text": " von München (bisher Amtsgericht München HRB 219970) nach Walsrode beschlossen.",
+                "to": "Walsrode",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

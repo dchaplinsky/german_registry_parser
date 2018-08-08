@@ -36,6 +36,15 @@
                 "text": " Buchheimer Straße 24, 51063 Köln."
             }
         ],
+        "notices": [
+            {
+                "from": "München",
+                "hrb": "HRB 223014",
+                "text": " von München (bisher Amtsgericht München HRB 223014) nach Köln beschlossen.",
+                "to": "Köln",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

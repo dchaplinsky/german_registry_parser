@@ -40,6 +40,15 @@
                 "text": " Treppenweg 2, 64711 Erbach."
             }
         ],
+        "notices": [
+            {
+                "from": "Unterhaching",
+                "hrb": "HRB 191048",
+                "text": " von Unterhaching (bisher Amtsgericht München HRB 191048) nach Erbach, § 2 (Gegenstand des Unternehmens) sowie in § 4 (Stammkapital) beschlossen.",
+                "to": "Erbach",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

@@ -36,6 +36,15 @@
                 "text": " Bockenbaum 1, 51598 Friesenhagen-Steeg."
             }
         ],
+        "notices": [
+            {
+                "from": "Siegburg",
+                "hrb": "HRB 9233",
+                "text": " von Siegburg (bisher Amtsgericht Siegburg HRB 9233) nach Friesenhagen-Steeg beschlossen.",
+                "to": "Friesenhagen-Steeg",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

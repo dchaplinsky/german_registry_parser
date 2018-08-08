@@ -40,6 +40,15 @@
                 "text": " Bettinastraße 25 a, 60325 Frankfurt am Main."
             }
         ],
+        "notices": [
+            {
+                "from": "Bad",
+                "hrb": "HRB 7825",
+                "text": " von Bad Homburg v. d. Höhe (bisher Amtsgericht Bad Homburg v. d. Höhe HRB 7825) nach Frankfurt am Main beschlossen.",
+                "to": "Frankfurt am Main",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

@@ -40,6 +40,15 @@
                 "text": " Große Str."
             }
         ],
+        "notices": [
+            {
+                "from": "Hannover",
+                "hrb": "HRB 214731",
+                "text": " von Hannover (bisher wellbe Hannover GmbH Amtsgericht Hannover HRB 214731) nach Braunschweig beschlossen.",
+                "to": "Braunschweig",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

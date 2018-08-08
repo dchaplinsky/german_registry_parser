@@ -36,6 +36,15 @@
                 "text": " Lombardenstraße 12-22, 52070 Aachen."
             }
         ],
+        "notices": [
+            {
+                "from": "Tangstedt",
+                "hrb": "HRB 13214",
+                "text": " von Tangstedt (bisher Amtsgericht Kiel HRB 13214) nach Aachen beschlossen.",
+                "to": "Aachen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

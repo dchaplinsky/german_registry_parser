@@ -40,6 +40,15 @@
                 "text": " Darmstädter Landstr."
             }
         ],
+        "notices": [
+            {
+                "from": "Kerpen",
+                "hrb": "HRB 64955",
+                "text": " von Kerpen (bisher Amtsgericht Köln HRB 64955) nach Frankfurt am Main beschlossen.",
+                "to": "Frankfurt am Main",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

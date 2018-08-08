@@ -40,6 +40,15 @@
                 "text": " hannoversche straße 33, 31319 sehnde."
             }
         ],
+        "notices": [
+            {
+                "from": "hannover",
+                "hrb": "hrb 7614",
+                "text": " von hannover (bisher amtsgericht hannover hrb 7614) nach sehnde beschlossen.",
+                "to": "sehnde",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

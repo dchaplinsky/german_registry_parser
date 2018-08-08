@@ -16,11 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=293837&land_abk=hh"
     },
     "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 11370",
+                "text": " und Umfirmierung nunmehr Persönlich haftender Gesellschafter: EWB Verwaltungs GmbH, Niebüll (Amtsgericht Flensburg HRB 11370 FL), mit der Befugnis -auch für jeden Geschäftsführer-, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
+                "used_regex": "hrb"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " EWB Verwaltungs GmbH, Niebüll (Amtsgericht Flensburg HRB 11370 FL), mit der Befugnis -auch für jeden Geschäftsführer-, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+                    "company_name": "EWB Verwaltungs GmbH, Niebüll (Amtsgericht Flensburg HRB 11370 FL), mit der Befugnis -auch für jeden Geschäftsführer-, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
                 },
                 "text": " EWB Verwaltungs GmbH, Niebüll (Amtsgericht Flensburg HRB 11370 FL), mit der Befugnis -auch für jeden Geschäftsführer-, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }

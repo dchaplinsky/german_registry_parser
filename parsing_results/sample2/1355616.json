@@ -36,6 +36,15 @@
                 "text": " Frankenstraße 2, 46395 Bocholt."
             }
         ],
+        "notices": [
+            {
+                "from": "Düsseldorf",
+                "hrb": "HRB 69050",
+                "text": " von Düsseldorf (bisher Amtsgericht Düsseldorf HRB 69050) nach Bocholt beschlossen.",
+                "to": "Bocholt",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

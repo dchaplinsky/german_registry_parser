@@ -28,6 +28,15 @@
                 "text": " Hafenstr."
             }
         ],
+        "notices": [
+            {
+                "from": "Mannheim",
+                "hrb": "HRB 10351",
+                "text": " von Mannheim (bisher Amtsgericht Mannheim HRB 10351 ) nach Speyer beschlossen.",
+                "to": "Speyer",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

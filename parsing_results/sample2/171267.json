@@ -40,6 +40,15 @@
                 "text": " Ithweg 35, 30851 Langenhagen."
             }
         ],
+        "notices": [
+            {
+                "from": "Sanitz",
+                "hrb": "HRB 9289",
+                "text": " von Sanitz (bisher Amtsgericht Rostock HRB 9289) nach Langenhagen beschlossen.",
+                "to": "Langenhagen",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

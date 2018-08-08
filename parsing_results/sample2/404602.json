@@ -36,6 +36,15 @@
                 "text": " Didierstraße 3, 65203 Wiesbaden."
             }
         ],
+        "notices": [
+            {
+                "from": "Gauting",
+                "hrb": "HRB 207039",
+                "text": " von Gauting (bisher Amtsgericht München HRB 207039) nach Wiesbaden beschlossen.",
+                "to": "Wiesbaden",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

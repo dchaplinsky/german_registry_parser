@@ -36,6 +36,15 @@
                 "text": " August-Horch-Straße 18, 65582 Diez."
             }
         ],
+        "notices": [
+            {
+                "from": "Limburg",
+                "hrb": "HRB 3737",
+                "text": " von Limburg (bisher Amtsgericht Limburg a.d. Lahn, HRB 3737) nach Diez beschlossen.",
+                "to": "Diez",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

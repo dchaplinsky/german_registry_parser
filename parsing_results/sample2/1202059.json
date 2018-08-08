@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1202059&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "from": "Herford",
+                "hrb": "HRB 12133",
+                "text": " von Herford (bisher Amtsgericht Bad Oeynhausen HRB 12133) nach Bielefeld beschlossen.",
+                "to": "Bielefeld",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ]
+    }
 }

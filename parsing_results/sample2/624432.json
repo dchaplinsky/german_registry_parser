@@ -36,6 +36,15 @@
                 "text": " Oelmühlenstr."
             }
         ],
+        "notices": [
+            {
+                "from": "Berlin",
+                "hrb": "HRB 129701",
+                "text": " von Berlin (bisher AG Charlottenburg HRB 129701 B) nach Bielefeld beschlossen.",
+                "to": "Bielefeld",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

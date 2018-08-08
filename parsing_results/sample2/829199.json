@@ -36,6 +36,15 @@
                 "text": " Am Gut Barking 21, 46395 Bocholt."
             }
         ],
+        "notices": [
+            {
+                "from": "München",
+                "hrb": "HRB 186657",
+                "text": " von München (bisher Amtsgericht München HRB 186657) nach Bocholt beschlossen.",
+                "to": "Bocholt",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

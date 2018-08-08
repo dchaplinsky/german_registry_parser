@@ -40,6 +40,15 @@
                 "text": " Hauptstraße 366, 65760 Eschborn."
             }
         ],
+        "notices": [
+            {
+                "from": "Neu-Isenburg",
+                "hrb": "HRB 47720",
+                "text": " von Neu-Isenburg (bisher Amtsgericht Offenbach am Main HRB 47720) nach Eschborn beschlossen.",
+                "to": "Eschborn",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

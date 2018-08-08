@@ -16,6 +16,13 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=93452&land_abk=he"
     },
     "parsed": {
+        "notices": [
+            {
+                "text": " nach Frankfurt am Main sowie 3 (Stammkapital) beschlossen.",
+                "to": "Frankfurt am Main",
+                "used_regex": "to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

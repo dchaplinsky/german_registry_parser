@@ -40,6 +40,15 @@
                 "text": " Hoppenberg 9, 33142 Büren."
             }
         ],
+        "notices": [
+            {
+                "from": "Gelsenkirchen",
+                "hrb": "HRB 9487",
+                "text": " von Gelsenkirchen (bisher Amtsgericht Gelsenkirchen HRB 9487) nach Geseke beschlossen.",
+                "to": "Geseke",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

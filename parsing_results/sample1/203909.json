@@ -21,6 +21,15 @@
                 "label": "address",
                 "text": " Schöne Aussicht 18, 65779 Kelkheim (Taunus)."
             }
+        ],
+        "notices": [
+            {
+                "from": "Berlin",
+                "hrb": "HRB 126903",
+                "text": " von Berlin (bisher Amtsgericht Charlottenburg, HRB 126903 B) nach Kelkheim (Taunus) beschlossen.",
+                "to": "Kelkheim",
+                "used_regex": "from_hrb_to_regex"
+            }
         ]
     }
 }

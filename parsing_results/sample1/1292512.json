@@ -36,6 +36,15 @@
                 "text": " martener str."
             }
         ],
+        "notices": [
+            {
+                "from": "bochum",
+                "hrb": "hrb 15629",
+                "text": " von bochum (bisher amtsgericht bochum hrb 15629) nach dortmund beschlossen.",
+                "to": "dortmund",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

@@ -36,6 +36,15 @@
                 "text": " Philipp-Reis-Straße 1 b, 55129 Mainz."
             }
         ],
+        "notices": [
+            {
+                "from": "Wiesbaden",
+                "hrb": "HRB 29355",
+                "text": " von Wiesbaden (bisher Amtsgericht Wiesbaden HRB 29355) nach Mainz beschlossen.",
+                "to": "Mainz",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

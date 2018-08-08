@@ -40,6 +40,15 @@
                 "text": " Schwalbacher Straße 123, 65391 Lorch."
             }
         ],
+        "notices": [
+            {
+                "from": "St",
+                "hrb": "HRB 405",
+                "text": " von St. Goarshausen (bisher Amtsgericht Koblenz HRB 405) nach Lorch beschlossen.",
+                "to": "Lorch",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

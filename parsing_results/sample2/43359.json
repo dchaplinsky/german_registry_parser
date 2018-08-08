@@ -32,6 +32,15 @@
                 "text": " Mainzer Straße 50, 66121 Saarbrücken."
             }
         ],
+        "notices": [
+            {
+                "from": "Berlin",
+                "hrb": "HRB 111832",
+                "text": " von Berlin (bisher Amtsgericht Charlottenburg (Berlin) HRB 111832 B) nach Saarbrücken beschlossen.",
+                "to": "Saarbrücken",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

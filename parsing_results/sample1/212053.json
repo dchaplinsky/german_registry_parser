@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=212053&land_abk=sh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "from": "amts",
+                "hrb": "hrb 25243",
+                "text": " ist von amts wegen berichtigt und wird wie folgt berichtigt eingetragen: gesellschaftsvertrag vom:27)06.2013 durch beschluss der gesellschafterversammlung vom 09.06.2017 ist der sitz der gesellschaft von essen (amtsgericht essen, hrb 25243) nach laboe verlegt und der gesellschaftsvertrag geändert in ziff.",
+                "to": "laboe",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ]
+    }
 }

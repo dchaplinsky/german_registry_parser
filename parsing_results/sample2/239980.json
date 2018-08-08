@@ -36,6 +36,15 @@
                 "text": " Landesstraße 26, 27404 Rhade-Rhadereistedt."
             }
         ],
+        "notices": [
+            {
+                "from": "Weilheim an der Teck",
+                "hrb": "HRB 231658",
+                "text": " von Weilheim an der Teck (bisher Amtsgericht Stuttgart HRB 231658) nach Rhade-Rhadereistedt beschlossen.",
+                "to": "Rhade-Rhadereistedt",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

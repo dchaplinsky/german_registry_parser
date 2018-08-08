@@ -16,11 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=235373&land_abk=he"
     },
     "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 72160",
+                "text": " und Umfirmierung geändert, nun: Persönlich haftender Gesellschafter: REWE Partner GmbH, Köln (AG Köln, HRB 72160).",
+                "used_regex": "hrb"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",
                 "payload": {
-                    "company_name": " REWE Partner GmbH, Köln (AG Köln, HRB 72160)."
+                    "company_name": "REWE Partner GmbH, Köln (AG Köln, HRB 72160)."
                 },
                 "text": " REWE Partner GmbH, Köln (AG Köln, HRB 72160)."
             }

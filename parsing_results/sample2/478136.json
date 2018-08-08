@@ -22,6 +22,17 @@
                 "text": " Wattenscheider Hellweg 224, 44869 Bochum."
             }
         ],
+        "notices": [
+            {
+                "text": " nach Bochum sowie die Änderung der Firma beschlossen.",
+                "to": "Bochum",
+                "used_regex": "to_regex"
+            },
+            {
+                "text": ": Bochum.",
+                "used_regex": ""
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

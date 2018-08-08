@@ -40,6 +40,15 @@
                 "text": " Oberdorfstraße 10, 55262 Heidesheim."
             }
         ],
+        "notices": [
+            {
+                "from": "Wiesbaden",
+                "hrb": "HRB 21923",
+                "text": " von Wiesbaden (bisher Amtsgericht Wiesbaden HRB 21923) nach Heidesheim beschlossen.",
+                "to": "Heidesheim",
+                "used_regex": "from_hrb_to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",
