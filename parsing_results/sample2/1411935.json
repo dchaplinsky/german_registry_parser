@@ -28,6 +28,17 @@
                 "text": " Lombardenstraße 12-22, 52070 Aachen."
             }
         ],
+        "notices": [
+            {
+                "court": "Mainz",
+                "from": "Wörrstadt",
+                "hrb": "HRA 42004",
+                "registration": "successor",
+                "text": " ist von Wörrstadt (bisher Amtsgericht Mainz, HRA 42004) nach Aachen verlegt.",
+                "to": "Aachen",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

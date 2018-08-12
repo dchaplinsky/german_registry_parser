@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1462633&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Köln",
+                "hrb": "HRB 92432",
+                "registration": "successor",
+                "text": " ist nach Köln (jetzt Amtsgericht Köln HRB 92432) verlegt.",
+                "to": "Köln",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

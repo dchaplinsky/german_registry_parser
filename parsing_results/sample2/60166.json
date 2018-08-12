@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=60166&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Offenbach am Main",
+                "hrb": "HRB 43024",
+                "registration": "successor",
+                "text": " ist nach Dreieich (jetzt Amtsgericht Offenbach am Main HRB 43024) verlegt.",
+                "to": "Dreieich",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

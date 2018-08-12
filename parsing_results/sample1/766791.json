@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " margeritenstr."
             }
+        ],
+        "notices": [
+            {
+                "court": "krefeld",
+                "hrb": "hrb 13799",
+                "registration": "successor",
+                "text": " ist nach kempen (jetzt amtsgericht krefeld hrb 13799) verlegt.",
+                "to": "kempen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

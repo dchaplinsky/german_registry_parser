@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Sprikernheide 1, 32791 Lage."
             }
+        ],
+        "notices": [
+            {
+                "court": "Lemgo",
+                "hrb": "HRB 7762",
+                "registration": "successor",
+                "text": " ist nach Lage (Amtsgericht Lemgo HRB 7762) verlegt.",
+                "to": "Lage",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

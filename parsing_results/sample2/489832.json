@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Sossenheimer Weg 59, 65929 Frankfurt am Main."
             }
+        ],
+        "notices": [
+            {
+                "court": "Frankfurt",
+                "hrb": "HRB 105436",
+                "registration": "successor",
+                "text": " ist nach Frankfurt am Main (jetzt Amtsgericht Frankfurt am Main, HRB 105436) verlegt.",
+                "to": "Frankfurt am Main",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

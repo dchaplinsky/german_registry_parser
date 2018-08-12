@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=63347&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Lüneburg",
+                "hrb": "HRB 201477",
+                "registration": "successor",
+                "text": " ist nach Celle (jetzt Amtsgericht Lüneburg HRB 201477) verlegt.",
+                "to": "Celle",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

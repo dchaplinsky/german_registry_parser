@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=59419&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Bremen",
+                "hrb": "HRA 25173 HB",
+                "registration": "successor",
+                "text": " ist nach Bremen (jetzt Amtsgericht Bremen HRA 25173 HB) verlegt.",
+                "to": "Bremen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

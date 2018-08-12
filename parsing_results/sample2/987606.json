@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Reinhold-Köhler-Straße 18/1, 72186 Empfingen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Stuttgart",
+                "hrb": "HRB 747310",
+                "registration": "successor",
+                "text": " ist nach Empfingen (jetzt Amtsgericht Stuttgart, HRB 747310) verlegt.",
+                "to": "Empfingen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

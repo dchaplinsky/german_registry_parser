@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1318889&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Gelsenkirchen",
+                "hrb": "HRB 13667",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Gelsenkirchen (jetzt: Amtsgericht Gelsenkirchen, HRB 13667) verlegt.",
+                "to": "Gelsenkirchen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

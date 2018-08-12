@@ -28,6 +28,14 @@
                 "registration": "predecessor",
                 "text": " und Firmenänderung, nun: Persönlich haftender Gesellschafter: Page factory Verwaltungs GmbH, Kaufbeuren (AG Kempten (Allgäu) HRB 9084).",
                 "used_regex": "hrb"
+            },
+            {
+                "from": "Bad Wörishofen",
+                "hrb": "HRA 5334",
+                "registration": "successor",
+                "text": " ist von Bad Wörishofen (AG Memmingen HRA 5334) nach Kaufbeuren verlegt.",
+                "to": "Kaufbeuren",
+                "used_regex": "from_regex, hrb_regex, to_regex"
             }
         ],
         "officers": [

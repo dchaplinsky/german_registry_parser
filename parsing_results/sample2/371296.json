@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=371296&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 200686",
+                "registration": "successor",
+                "text": " ist nach Walkenried (jetzt AG Göttingen, HRB 200686, neue Firma: Saint-Gobain Formula GmbH) verlegt.",
+                "to": "Walkenried",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

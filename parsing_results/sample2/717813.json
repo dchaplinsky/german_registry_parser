@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Schwarzleiten 12, 84032 Pfettrach."
             }
+        ],
+        "notices": [
+            {
+                "court": "Landshut",
+                "hrb": "HRB 9387",
+                "registration": "successor",
+                "text": " nach Altdorf (nun Amtsgericht Landshut HRB 9387).",
+                "to": "Altdorf",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

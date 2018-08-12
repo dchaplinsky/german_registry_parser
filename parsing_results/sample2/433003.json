@@ -28,6 +28,22 @@
                 "text": " Gewerbepark 19, 49143 Bissendorf."
             }
         ],
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Neue Geschäftsanschrift: Gewerbepark 19, 49143 Bissendorf.",
+                "used_regex": ""
+            },
+            {
+                "court": "Hamm",
+                "from": "Kamen",
+                "hrb": "HRA 4064",
+                "registration": "successor",
+                "text": " ist von Kamen (bisher Amtsgericht Hamm HRA 4064) nach Bissendorf verlegt.",
+                "to": "Bissendorf",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

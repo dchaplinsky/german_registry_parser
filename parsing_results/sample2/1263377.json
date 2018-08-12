@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " An den Dieken 65, 40885 Ratingen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Düsseldorf",
+                "hrb": "HRB 77115",
+                "registration": "successor",
+                "text": " ist nach Ratingen (jetzt Amtsgericht Düsseldorf HRB 77115) verlegt.",
+                "to": "Ratingen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

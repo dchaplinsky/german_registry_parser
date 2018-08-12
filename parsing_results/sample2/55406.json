@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=55406&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Potsdam",
+                "hrb": "HRB 21241 P",
+                "registration": "successor",
+                "text": " ist nach Borkheide (jetzt Amtsgericht Potsdam (HRB 21241 P), Firma jetzt: Grand Niveau GmbH) verlegt.",
+                "to": "Borkheide",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

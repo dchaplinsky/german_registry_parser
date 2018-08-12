@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Pittlerstraße 1, 63225 Langen (Hessen)."
             }
+        ],
+        "notices": [
+            {
+                "court": "Offenbach",
+                "hrb": "HRB 44164",
+                "registration": "successor",
+                "text": " ist nach Langen (Hessen) (jetzt Amtsgericht Offenbach am Main, HRB 44164) verlegt.",
+                "to": "Langen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

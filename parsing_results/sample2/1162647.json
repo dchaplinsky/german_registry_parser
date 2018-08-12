@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Sontraer Straße 27, 60389 Frankfurt."
             }
+        ],
+        "notices": [
+            {
+                "court": "Frankfurt am Main",
+                "hrb": "HRB 102191",
+                "registration": "successor",
+                "text": " ist nach Frankfurt am Main (jetzt: Amtsgericht Frankfurt am Main HRB 102191) verlegt.",
+                "to": "Frankfurt am Main",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

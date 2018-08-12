@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Theodor-Heuss-Straße 53-63, 61118 Bad Vilbel."
             }
+        ],
+        "notices": [
+            {
+                "court": "Frankfurt am Main",
+                "hrb": "HRB 105172",
+                "registration": "successor",
+                "text": " ist nach Bad Vilbel (jetzt Amtsgericht Frankfurt am Main HRB 105172) verlegt.",
+                "to": "Bad Vilbel",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

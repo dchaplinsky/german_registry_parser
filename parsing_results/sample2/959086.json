@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=959086&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Arnsberg",
+                "hrb": "HRB 10514",
+                "registration": "successor",
+                "text": " ist nach Werl (jetzt Amtsgericht Arnsberg HRB 10514) verlegt.",
+                "to": "Werl",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

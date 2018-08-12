@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=114837&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Gütersloh",
+                "hrb": "HRB 8220",
+                "registration": "successor",
+                "text": " ist nach Versmold (jetzt Amtsgericht Gütersloh, HRB 8220) verlegt.",
+                "to": "Versmold",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

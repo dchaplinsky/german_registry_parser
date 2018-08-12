@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=116310&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 203835",
+                "registration": "successor",
+                "text": " ist nach Sögel (jetzt AG Osnabrück HRB 203835) verlegt.",
+                "to": "Sögel",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=210655&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Frankfurt am Main",
+                "hrb": "HRB 89711",
+                "registration": "successor",
+                "text": " ist nach Eschborn (jetzt Amtsgericht Frankfurt am Main HRB 89711) verlegt.",
+                "to": "Eschborn",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

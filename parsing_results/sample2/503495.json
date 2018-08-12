@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=503495&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 28396",
+                "registration": "successor",
+                "text": " ist nach Dresden (jetzt AG Dresden, HRB 28396) verlegt.",
+                "to": "Dresden",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

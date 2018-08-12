@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Rudi-Dutschke-Straße 26, 10969 Berlin."
             }
+        ],
+        "notices": [
+            {
+                "court": "Charlottenburg",
+                "hrb": "HRB 196160 B",
+                "registration": "successor",
+                "text": " ist nach Berlin (jetzt Amtsgericht Charlottenburg HRB 196160 B) verlegt.",
+                "to": "Berlin",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

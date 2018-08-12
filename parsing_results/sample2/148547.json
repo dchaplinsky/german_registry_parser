@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Zur Biogasanlage, 34628 Willingshausen-Ransbach."
             }
+        ],
+        "notices": [
+            {
+                "court": "Marburg",
+                "hrb": "HRA 4429",
+                "registration": "successor",
+                "text": " ist nach Willingshausen-Ransbach (jetzt Amtsgericht Marburg HRA 4429) verlegt.",
+                "to": "Willingshausen-Ransbach",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

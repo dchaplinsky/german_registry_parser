@@ -31,6 +31,21 @@
                 "label": "address",
                 "text": " Schloßgasse 14, 64807 Dieburg."
             }
+        ],
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Geschäftsanschrift: Schloßgasse 14, 64807 Dieburg.",
+                "used_regex": ""
+            },
+            {
+                "from": "Schönefeld",
+                "hrb": "HRA 2332 CB",
+                "registration": "successor",
+                "text": " ist von Schönefeld (bisher Cottbus HRA 2332 CB) nach Dieburg verlegt.",
+                "to": "Dieburg",
+                "used_regex": "from_regex, hrb_regex, to_regex"
+            }
         ]
     }
 }

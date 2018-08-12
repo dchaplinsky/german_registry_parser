@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=22447&land_abk=hb"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Dortmund",
+                "hrb": "HRB 23382",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Dortmund verlegt (Amtsgericht Dortmund, HRB 23382)..",
+                "to": "Dortmund",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

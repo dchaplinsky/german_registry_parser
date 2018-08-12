@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Ellerstraße 40, 40721 Hilden."
             }
+        ],
+        "notices": [
+            {
+                "court": "Düsseldorf",
+                "hrb": "HRB 70481",
+                "registration": "successor",
+                "text": " ist nach Hilden (jetzt Amtsgericht Düsseldorf HRB 70481) verlegt.",
+                "to": "Hilden",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

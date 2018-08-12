@@ -21,6 +21,22 @@
                 "label": "address",
                 "text": " breite straße 45, 26919 brake."
             }
+        ],
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: neuer sitz: brake.",
+                "to": "brake",
+                "used_regex": "to_regex2"
+            },
+            {
+                "court": "oldenburg",
+                "hrb": "hrb 212362",
+                "registration": "successor",
+                "text": " ist nach brake (jetzt amtsgericht oldenburg, hrb 212362) verlegt.",
+                "to": "brake",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

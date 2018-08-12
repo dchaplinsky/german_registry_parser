@@ -22,6 +22,17 @@
                 "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
             }
         ],
+        "notices": [
+            {
+                "court": "Mainz",
+                "from": "Worms",
+                "hrb": "HRB 12241",
+                "registration": "successor",
+                "text": " ist von Worms (Amtsgericht Mainz HRB 12241) nach Mannheim verlegt.",
+                "to": "Mannheim",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

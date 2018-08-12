@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=623744&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Aurich",
+                "hrb": "HRB 201743",
+                "registration": "successor",
+                "text": " ist nach Wiesmoor (jetzt Amtsgericht Aurich HRB 201743) verlegt.",
+                "to": "Wiesmoor",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

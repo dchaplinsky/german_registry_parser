@@ -27,6 +27,22 @@
                 "label": "address",
                 "text": " c/o Lutter Vermögensverwaltung, Kröpeliner Straße 57, 18055 Rostock."
             }
+        ],
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Geschäftsanschrift: c/o Lutter Vermögensverwaltung, Kröpeliner Straße 57, 18055 Rostock.",
+                "used_regex": ""
+            },
+            {
+                "court": "Düsseldorf",
+                "from": "Düsseldorf",
+                "hrb": "HRA 19435",
+                "registration": "successor",
+                "text": " ist von Düsseldorf (bisher Amtsgericht Düsseldorf HRA 19435) nach Rostock verlegt.",
+                "to": "Rostock",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

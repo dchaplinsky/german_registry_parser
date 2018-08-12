@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=26752&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Wuppertal",
+                "hrb": "HRA 21633",
+                "registration": "successor",
+                "text": " ist nach Solingen (jetzt Amtsgericht Wuppertal HRA 21633) verlegt.",
+                "to": "Solingen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

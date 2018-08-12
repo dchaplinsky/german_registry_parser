@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Eichenstraße 31, 20255 Hamburg."
             }
+        ],
+        "notices": [
+            {
+                "court": "Hamburg",
+                "hrb": "HRB 140749",
+                "registration": "successor",
+                "text": " ist nach Hamburg (jetzt Amtsgericht Hamburg HRB HRB 140749) verlegt",
+                "to": "Hamburg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

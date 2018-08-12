@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=338127&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Bremen",
+                "hrb": "HRB 32623 HB",
+                "registration": "successor",
+                "text": " ist nach Bremen (jetzt Amtsgericht Bremen HRB 32623 HB) verlegt.",
+                "to": "Bremen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

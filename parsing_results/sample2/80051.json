@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=80051&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Düsseldorf",
+                "hrb": "HRB 60548",
+                "registration": "successor",
+                "text": " ist nach Düsseldorf (jetzt Amtsgericht Düsseldorf HRB 60548) verlegt.",
+                "to": "Düsseldorf",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

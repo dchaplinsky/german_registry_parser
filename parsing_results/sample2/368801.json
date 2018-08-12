@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Poststraße 37, 01159 Dresden."
             }
+        ],
+        "notices": [
+            {
+                "court": "Dresden",
+                "hrb": "HRB 34951",
+                "registration": "successor",
+                "text": " ist nach Dresden (jetzt Amtsgericht Dresden HRB 34951) verlegt.",
+                "to": "Dresden",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

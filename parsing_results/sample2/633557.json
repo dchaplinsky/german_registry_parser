@@ -28,6 +28,17 @@
                 "text": " Doctor-Herbert-Iann-Straße 6, 96148 Baunach."
             }
         ],
+        "notices": [
+            {
+                "court": "München",
+                "from": "München",
+                "hrb": "HRA 98958",
+                "registration": "successor",
+                "text": " ist von München (Amtsgericht München HRA 98958) nach Baunach verlegt.",
+                "to": "Baunach",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

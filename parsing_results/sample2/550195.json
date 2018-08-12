@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Rudolf-Diesel-Straße 35, 97424 Schweinfurt."
             }
+        ],
+        "notices": [
+            {
+                "court": "Schweinfurt",
+                "hrb": "HRB 7601",
+                "registration": "successor",
+                "text": " ist nach Schweinfurt (jetzt Amtsgericht Schweinfurt HRB 7601) verlegt.",
+                "to": "Schweinfurt",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

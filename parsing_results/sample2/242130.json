@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=242130&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Bochum",
+                "hrb": "HR B 11306",
+                "registration": "successor",
+                "text": " ist nach Bochum (jetzt Amtsgericht Bochum, HR B 11306 ) verlegt.",
+                "to": "Bochum",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Sertoriusring 91, 55126 Mainz."
             }
+        ],
+        "notices": [
+            {
+                "court": "Mainz",
+                "hrb": "HRB 46699",
+                "registration": "successor",
+                "text": " ist nach Mainz (Firma geändert, nun: Curazept UG (haftungsbeschränkt), jetzt Amtsgericht Mainz HRB 46699) verlegt.",
+                "to": "Mainz",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

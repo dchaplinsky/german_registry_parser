@@ -27,6 +27,17 @@
                 "label": "address",
                 "text": " Wilhelmstraße 7, 65185 Wiesbaden."
             }
+        ],
+        "notices": [
+            {
+                "court": "Mannheim",
+                "from": "Pforzheim",
+                "hrb": "HRA 502899",
+                "registration": "successor",
+                "text": " ist von Pforzheim (bisher Amtsgericht Mannheim, HRA 502899) nach Wiesbaden verlegt.",
+                "to": "Wiesbaden",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

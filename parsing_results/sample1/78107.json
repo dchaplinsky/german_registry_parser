@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=78107&land_abk=by"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "pr 595",
+                "registration": "successor",
+                "text": " nach dachau (nun ag münchen pr 595).",
+                "to": "dachau",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

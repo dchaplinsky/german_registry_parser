@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Am Greinshof 3, 56332 Wolken."
             }
+        ],
+        "notices": [
+            {
+                "court": "Koblenz",
+                "hrb": "HRB 24488",
+                "registration": "successor",
+                "text": " ist nach Wolken (jetzt Amtsgericht Koblenz, HRB 24488) verlegt.",
+                "to": "Wolken",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

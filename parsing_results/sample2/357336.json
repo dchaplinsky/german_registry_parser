@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=357336&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Hamburg",
+                "hrb": "HRA 119238",
+                "registration": "successor",
+                "text": " ist nach Hamburg (jetzt Amtsgericht Hamburg HRA 119238) verlegt.",
+                "to": "Hamburg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

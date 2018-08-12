@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=27862&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Göttingen",
+                "hrb": "HRB 200339",
+                "registration": "successor",
+                "text": " der Zweigniederlassung ist nach Seulingen (Amtsgericht Göttingen, HRB 200339) verlegt.",
+                "to": "Seulingen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

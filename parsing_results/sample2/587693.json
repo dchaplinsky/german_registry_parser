@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=587693&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Offenbach",
+                "hrb": "HRB 50760",
+                "registration": "successor",
+                "text": " ist nach Dietzenbach (jetzt Amtsgericht Offenbach am Main, HRB 50760) verlegt.",
+                "to": "Dietzenbach",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

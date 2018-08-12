@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Rudolf-Diesel-Straße 4, 38723 Seesen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Braunschweig",
+                "hrb": "HRB 204227",
+                "registration": "successor",
+                "text": " ist nach Seesen (jetzt Amtsgericht Braunschweig HRB 204227) verlegt.",
+                "to": "Seesen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

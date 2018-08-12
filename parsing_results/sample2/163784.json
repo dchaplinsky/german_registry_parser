@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Bachstraße 14, 50354 Hürth."
             }
+        ],
+        "notices": [
+            {
+                "court": "Köln",
+                "hrb": "HRB 71838",
+                "registration": "successor",
+                "text": " ist nach Hürth (jetzt Amtsgericht Köln HRB 71838) verlegt.",
+                "to": "Hürth",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

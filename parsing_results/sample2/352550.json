@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=352550&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 59322",
+                "registration": "successor",
+                "text": " ist nach Düsseldorf (jetzt AG Düsseldorf HRB 59322) verlegt.",
+                "to": "Düsseldorf",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

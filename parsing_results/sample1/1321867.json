@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " weidkamp 180, 45356 essen."
             }
+        ],
+        "notices": [
+            {
+                "court": "essen",
+                "hrb": "hrb 27514",
+                "registration": "successor",
+                "text": " ist nach essen (jetzt amtsgericht essen hrb 27514) verlegt.",
+                "to": "essen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

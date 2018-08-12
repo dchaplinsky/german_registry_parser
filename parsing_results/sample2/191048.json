@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=191048&land_abk=rp"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Darmstadt",
+                "hrb": "HRB 94785",
+                "registration": "successor",
+                "text": " ist nach Rimbach (jetzt Amtsgericht Darmstadt, HRB 94785) verlegt.",
+                "to": "Rimbach",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

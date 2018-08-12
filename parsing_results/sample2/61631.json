@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Mediapark 6d, 50670 Köln."
             }
+        ],
+        "notices": [
+            {
+                "court": "Köln",
+                "hrb": "HRA 26846",
+                "registration": "successor",
+                "text": " ist nach Köln (jetzt Amtsgericht Köln HRA 26846) verlegt.",
+                "to": "Köln",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

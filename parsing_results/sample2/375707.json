@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Berner Straße 57, 60437 Frankfurt am Main."
             }
+        ],
+        "notices": [
+            {
+                "court": "Frankfurt",
+                "hrb": "HRB 98804",
+                "registration": "successor",
+                "text": " ist nach Frankfurt am Main (jetzt Amtsgericht Frankfurt am Main, HRB 98804) verlegt.",
+                "to": "Frankfurt am Main",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

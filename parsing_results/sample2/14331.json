@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=14331&land_abk=st"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Schwerin",
+                "hrb": "HRB 9664",
+                "registration": "successor",
+                "text": " nach Schwerin (nun Amtsgericht Schwerin HRB 9664).",
+                "to": "Schwerin",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=217401&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Kiel",
+                "hrb": "HRA 5601 KI",
+                "registration": "successor",
+                "text": " ist nach Norderstedt (jetzt: Amtsgericht Kiel HRA 5601 KI nunmehr fimierend EZ-CAM Software GmbH & CO.KG) verlegt.",
+                "to": "Norderstedt",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=24796&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Düsseldorf",
+                "hrb": "HRA 18925",
+                "registration": "successor",
+                "text": " ist nach Langenfeld (jetzt Amtsgericht Düsseldorf, HRA 18925) verlegt.",
+                "to": "Langenfeld",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

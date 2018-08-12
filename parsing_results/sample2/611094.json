@@ -28,6 +28,16 @@
                 "text": " Am Gerbergraben 2b, 57439 Attendorn."
             }
         ],
+        "notices": [
+            {
+                "from": "Grünwald",
+                "hrb": "HRA 95296",
+                "registration": "successor",
+                "text": " ist von Grünwald (bisher AG München, HRA 95296) nach Attendorn verlegt.",
+                "to": "Attendorn",
+                "used_regex": "from_regex, hrb_regex, to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Große Straße 29, 19243 Wittenburg."
             }
+        ],
+        "notices": [
+            {
+                "court": "Schwerin",
+                "hrb": "HRB 12047",
+                "registration": "successor",
+                "text": " ist nach Wittenburg (jetzt Amtsgericht Schwerin HRB 12047) verlegt.",
+                "to": "Wittenburg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

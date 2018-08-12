@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Am Sägewerk 2, 35085 Ebsdorfergrund."
             }
+        ],
+        "notices": [
+            {
+                "court": "Marburg",
+                "hrb": "HRA 4674",
+                "registration": "successor",
+                "text": " ist nach Ebsdorfergrund (jetzt Amtsgericht Marburg HRA 4674) verlegt.",
+                "to": "Ebsdorfergrund",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

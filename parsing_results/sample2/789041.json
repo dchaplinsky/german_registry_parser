@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Bussardweg 11, 41468 Neuss."
             }
+        ],
+        "notices": [
+            {
+                "court": "Neuss",
+                "hrb": "HRB 16573",
+                "registration": "successor",
+                "text": " ist nach Neuss (jetzt Amtsgericht Neuss HRB 16573) verlegt.",
+                "to": "Neuss",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

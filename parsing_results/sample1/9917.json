@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=9917&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRA 85469",
+                "registration": "successor",
+                "text": " ist nach Grünwald, Landkreis München (jetzt AG München HRA 85469",
+                "to": "Grünwald",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

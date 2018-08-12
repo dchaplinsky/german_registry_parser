@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=11260&land_abk=rp"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Karlsruhe",
+                "hrb": "HR B 11273",
+                "registration": "successor",
+                "text": " ist nach Karlsruhe (jetzt Amtsgericht Karlsruhe HR B 11273) verlegt.",
+                "to": "Karlsruhe",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

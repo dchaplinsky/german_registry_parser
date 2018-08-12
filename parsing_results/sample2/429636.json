@@ -21,6 +21,22 @@
                 "label": "address",
                 "text": " An der Untertrave 12-13, 23552 Lübeck."
             }
+        ],
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Neuer Sitz: Lübeck.",
+                "to": "Lübeck",
+                "used_regex": "to_regex2"
+            },
+            {
+                "court": "Lübeck",
+                "hrb": "HRB 14751 HL",
+                "registration": "successor",
+                "text": " ist nach Lübeck (jetzt Amtsgericht Lübeck, HRB 14751 HL ) verlegt.",
+                "to": "Lübeck",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

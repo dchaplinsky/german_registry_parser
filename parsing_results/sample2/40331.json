@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=40331&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB11246",
+                "registration": "successor",
+                "text": " ist nach Warendorf (jetzt Münster HRB11246) verlegt.",
+                "to": "Warendorf",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

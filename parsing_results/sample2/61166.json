@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=61166&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Siegburg",
+                "hrb": "HRB 9128",
+                "registration": "successor",
+                "text": " ist nach Bad Honnef (jetzt Amtsgericht Siegburg HRB 9128",
+                "to": "Bad Honnef",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

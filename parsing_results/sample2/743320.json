@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=743320&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 92507",
+                "registration": "successor",
+                "text": " ist nach Frankfurt/Main (jetzt AG Frankfurt/Main, HRB 92507) verlegt.",
+                "to": "Frankfurt/Main",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

@@ -21,6 +21,21 @@
                 "label": "address",
                 "text": " Hirsauer Straße 2, 75378 Bad Liebenzell."
             }
+        ],
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Bad Liebenzell.",
+                "used_regex": ""
+            },
+            {
+                "court": "Stuttgart",
+                "hrb": "HRB 758467",
+                "registration": "successor",
+                "text": " ist nach Bad Liebenzell (jetzt Amtsgericht Stuttgart HRB 758467) verlegt.",
+                "to": "Bad Liebenzell",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

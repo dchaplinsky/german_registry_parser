@@ -33,6 +33,16 @@
                 "label": "address",
                 "text": " Mülheimer Strasse 12, 40878 Ratingen."
             }
+        ],
+        "notices": [
+            {
+                "from": "Bad Hönningen",
+                "hrb": "HRA 20523",
+                "registration": "successor",
+                "text": " ist von Bad Hönningen (bisher AG Montabaur, HRA 20523) nach Ratingen verlegt.",
+                "to": "Ratingen",
+                "used_regex": "from_regex, hrb_regex, to_regex"
+            }
         ]
     }
 }

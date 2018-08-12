@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Kaiserin-Augusta-Anlagen 11, 56068 Koblenz."
             }
+        ],
+        "notices": [
+            {
+                "court": "Koblenz",
+                "hrb": "HRB 22224",
+                "registration": "successor",
+                "text": " ist nach Koblenz (jetzt: Amtsgericht Koblenz, HRB 22224) verlegt.",
+                "to": "Koblenz",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

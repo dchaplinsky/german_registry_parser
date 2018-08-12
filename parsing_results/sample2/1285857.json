@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Kaiserin-Augusta-Allee 112, 10553 Berlin."
             }
+        ],
+        "notices": [
+            {
+                "court": "Charlottenburg",
+                "hrb": "HRB 176884 B",
+                "registration": "successor",
+                "text": " ist nach Berlin (jetzt Amtsgericht Charlottenburg, HRB 176884 B",
+                "to": "Berlin",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

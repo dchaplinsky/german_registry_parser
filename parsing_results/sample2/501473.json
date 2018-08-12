@@ -27,6 +27,17 @@
                 "label": "address",
                 "text": " Düsseldorfer Straße 15, 65760 Eschborn."
             }
+        ],
+        "notices": [
+            {
+                "court": "München",
+                "from": "Gräfelfing",
+                "hrb": "HRA 104005",
+                "registration": "successor",
+                "text": " ist von Gräfelfing (bisher Amtsgericht München HRA 104005) nach Eschborn verlegt.",
+                "to": "Eschborn",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

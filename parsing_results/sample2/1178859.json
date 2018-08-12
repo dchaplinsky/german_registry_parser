@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Westring 303, 44629 Herne."
             }
+        ],
+        "notices": [
+            {
+                "court": "Bochum",
+                "hrb": "HRB 15589",
+                "registration": "successor",
+                "text": " ist nach Herne (jetzt Amtsgericht Bochum HRB 15589) verlegt.",
+                "to": "Herne",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

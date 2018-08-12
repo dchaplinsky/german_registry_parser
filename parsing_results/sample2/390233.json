@@ -25,6 +25,16 @@
                 "label": "company",
                 "text": " Passow"
             }
+        ],
+        "notices": [
+            {
+                "court": "Neuruppin",
+                "hrb": "HRB 11559 NP",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Passow verlegt (Amtsgericht Neuruppin, HRB 11559 NP).",
+                "to": "Passow",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

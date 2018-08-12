@@ -28,6 +28,17 @@
                 "text": " halberstädter str."
             }
         ],
+        "notices": [
+            {
+                "court": "neubrandenburg",
+                "from": "bismark",
+                "hrb": "hra 1676",
+                "registration": "successor",
+                "text": " ist von bismark (bisher amtsgericht neubrandenburg, hra 1676) nach paderborn verlegt.",
+                "to": "paderborn",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=997109&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "freiburg",
+                "registration": "successor",
+                "text": " der gesellschaft ist nach villingen-schwenningen (jetzt amtsgericht freiburg i.",
+                "to": "villingen-schwenningen",
+                "used_regex": "to_regex, court_regex"
+            }
+        ]
+    }
 }

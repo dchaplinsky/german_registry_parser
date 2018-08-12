@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Bolongarostraße 82, 65929 Frankfurt am Main."
             }
+        ],
+        "notices": [
+            {
+                "court": "Frankfurt am Main",
+                "hrb": "HRB 90684",
+                "registration": "successor",
+                "text": " ist nach Frankfurt am Main (jetzt Amtsgericht Frankfurt am Main HRB 90684) verlegt.",
+                "to": "Frankfurt am Main",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

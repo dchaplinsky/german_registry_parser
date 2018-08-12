@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=26370&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Wiesbaden",
+                "hrb": "HRB 22910",
+                "registration": "successor",
+                "text": " ist nach Wiesbaden (jetzt Amtsgericht Wiesbaden HRB 22910, Firma jetzt: Ananja Verwaltungs GmbH) verlegt.",
+                "to": "Wiesbaden",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

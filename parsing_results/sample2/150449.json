@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Saseler Chaussee 111, 22393 Hamburg."
             }
+        ],
+        "notices": [
+            {
+                "court": "Hamburg",
+                "hrb": "HRB 116083",
+                "registration": "successor",
+                "text": " ist nach Hamburg (jetzt Amtsgericht Hamburg HRB 116083) verlegt.",
+                "to": "Hamburg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

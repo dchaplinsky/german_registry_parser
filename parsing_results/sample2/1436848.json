@@ -27,6 +27,14 @@
                 "registration": "predecessor",
                 "text": " nunmehr Griesheim.",
                 "used_regex": ""
+            },
+            {
+                "court": "Darmstadt",
+                "hrb": "HRA 85937",
+                "registration": "successor",
+                "text": " ist nach Griesheim (jetzt Amtsgericht Darmstadt, HRA 85937",
+                "to": "Griesheim",
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

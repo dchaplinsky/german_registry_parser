@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Kühnemannstraße 22-24, 13409 Berlin."
             }
+        ],
+        "notices": [
+            {
+                "court": "Berlin-Charlottenburg",
+                "hrb": "HR B 137375 B",
+                "registration": "successor",
+                "text": " ist nach Berlin (jetzt Amtsgericht Berlin-Charlottenburg, HR B 137375 B) verlegt.",
+                "to": "Berlin",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

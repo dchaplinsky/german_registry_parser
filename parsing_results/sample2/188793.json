@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=188793&land_abk=sn"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Jena",
+                "hrb": "HRB 511042",
+                "registration": "successor",
+                "text": " ist verlegt nach Eisenberg (nun Amtsgericht Jena HRB 511042).",
+                "to": "Eisenberg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

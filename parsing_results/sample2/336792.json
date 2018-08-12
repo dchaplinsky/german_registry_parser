@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Schreyerstr."
             }
+        ],
+        "notices": [
+            {
+                "court": "Königstein",
+                "hrb": "HRB 8504",
+                "registration": "successor",
+                "text": " ist nach Kronberg im Taunus (jetzt Amtsgericht Königstein im Taunus, HRB 8504) verlegt.",
+                "to": "Kronberg im Taunus",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

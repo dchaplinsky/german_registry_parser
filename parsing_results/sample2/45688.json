@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=45688&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Hamburg",
+                "hrb": "HRB 104725",
+                "registration": "successor",
+                "text": " ist nach Hamburg (jetzt Amtsgericht Hamburg HRB 104725) verlegt.",
+                "to": "Hamburg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

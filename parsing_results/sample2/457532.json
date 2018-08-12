@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=457532&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Gelsenkirchen",
+                "hrb": "HRB 10008",
+                "registration": "successor",
+                "text": " ist nach Dorsten (jetzt Amtsgericht Gelsenkirchen HRB 10008) verlegt.",
+                "to": "Dorsten",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

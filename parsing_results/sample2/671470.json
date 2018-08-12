@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=671470&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Braunschweig",
+                "hrb": "HRB 202981",
+                "registration": "successor",
+                "text": " ist nach Schladen (jetzt Amtsgericht Braunschweig HRB 202981) verlegt.",
+                "to": "Schladen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

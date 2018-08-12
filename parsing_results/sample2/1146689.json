@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Oderstr."
             }
+        ],
+        "notices": [
+            {
+                "court": "Kleve",
+                "hrb": "HRB 13379",
+                "registration": "successor",
+                "text": " ist nach Neukirchen-Vluyn (jetzt Amtsgericht Kleve, HRB 13379) verlegt.",
+                "to": "Neukirchen-Vluyn",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

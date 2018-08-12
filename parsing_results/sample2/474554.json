@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Wartburgstraße 10, 28217 Bremen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Bremen",
+                "hrb": "HRB 32876 HB",
+                "registration": "successor",
+                "text": " ist nach Bremen verlegt (jetzt Amtsgericht Bremen HRB 32876 HB",
+                "to": "Bremen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

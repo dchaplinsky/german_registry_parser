@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=372848&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 64235",
+                "registration": "successor",
+                "text": " ist nach Köln (jetzt AG Köln, HRB 64235) verlegt.",
+                "to": "Köln",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

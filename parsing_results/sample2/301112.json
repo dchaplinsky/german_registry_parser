@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Wülmser Weg 7, 31855 Aerzen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Hannover",
+                "hrb": "HRA 203048",
+                "registration": "successor",
+                "text": " ist nach Aerzen (jetzt Amtsgericht Hannover HRA 203048) verlegt.",
+                "to": "Aerzen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

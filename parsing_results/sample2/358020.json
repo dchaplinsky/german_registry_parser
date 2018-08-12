@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=358020&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Charlottenburg",
+                "hrb": "HRA 54513 B",
+                "registration": "successor",
+                "text": " ist nach Berlin (jetzt Amtsgericht Charlottenburg HRA 54513 B, Firma jetzt: Hingsen & Cie.",
+                "to": "Berlin",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

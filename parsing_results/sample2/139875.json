@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=139875&land_abk=by"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 78740",
+                "registration": "successor",
+                "text": " nach Franfurt am Main (nun AG Frankfurt am Main HRB 78740).",
+                "to": "Franfurt",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

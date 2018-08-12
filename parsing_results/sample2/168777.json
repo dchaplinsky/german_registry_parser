@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Koblenzerstraße 31, 56130 Bad Ems."
             }
+        ],
+        "notices": [
+            {
+                "court": "Koblenz",
+                "hrb": "HRB 24243",
+                "registration": "successor",
+                "text": " ist nach Bad Ems (jetzt Amtsgericht Koblenz HRB 24243) verlegt.",
+                "to": "Bad Ems",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

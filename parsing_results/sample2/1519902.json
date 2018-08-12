@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1519902&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Recklinghausen",
+                "hrb": "HRA 5088",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Recklinghausen (jetzt: Amtsgericht Recklinghausen, HRA 5088) verlegt.",
+                "to": "Recklinghausen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

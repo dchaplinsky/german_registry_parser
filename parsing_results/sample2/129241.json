@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=129241&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 12524 KI",
+                "registration": "successor",
+                "text": " ist nach Kisdorf (jetzt AG Kiel, HRB 12524 KI) verlegt.",
+                "to": "Kisdorf",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

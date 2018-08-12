@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Höhenstraße 21, 97688 Bad Kissingen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Schweinfurt",
+                "hrb": "HRB 6246",
+                "registration": "successor",
+                "text": " nach Bad Kissingen (nun Amtsgericht Schweinfurt HRB 6246).",
+                "to": "Bad Kissingen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

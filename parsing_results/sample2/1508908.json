@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Rosenthal 6, 52156 Monschau."
             }
+        ],
+        "notices": [
+            {
+                "court": "Aachen",
+                "hrb": "HRB 21814",
+                "registration": "successor",
+                "text": " ist nach Monschau (jetzt: Amtsgericht Aachen, HRB 21814) verlegt.",
+                "to": "Monschau",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

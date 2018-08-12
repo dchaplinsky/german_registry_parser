@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=163532&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Kiel",
+                "registration": "successor",
+                "text": " ist nach Norderstedt (jetzt Amtsgericht Kiel",
+                "to": "Norderstedt",
+                "used_regex": "to_regex, court_regex"
+            }
+        ]
+    }
 }

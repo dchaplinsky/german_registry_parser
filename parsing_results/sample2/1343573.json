@@ -28,6 +28,17 @@
                 "text": " Benrather Straße 18-20, 40213 Düsseldorf."
             }
         ],
+        "notices": [
+            {
+                "court": "Leipzig",
+                "from": "Leipzig",
+                "hrb": "HRA 17585",
+                "registration": "successor",
+                "text": " ist von Leipzig (bisher Amtsgericht Leipzig, HRA 17585) nach Düsseldorf verlegt.",
+                "to": "Düsseldorf",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "RetiredPersonalPartner",

@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=112305&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Königstein",
+                "hrb": "HRA 3241",
+                "registration": "successor",
+                "text": " ist nach Schwalbach am Taunus (jetzt Amtsgericht Königstein im Taunus, HRA 3241) verlegt.",
+                "to": "Schwalbach am Taunus",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

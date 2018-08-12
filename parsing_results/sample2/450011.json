@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Zum Wartturm 1, 63571 Gelnhausen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Hanau",
+                "hrb": "HRB 95314",
+                "registration": "successor",
+                "text": " ist nach Gelnhausen (jetzt Amtsgericht Hanau, HRB 95314) verlegt.",
+                "to": "Gelnhausen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

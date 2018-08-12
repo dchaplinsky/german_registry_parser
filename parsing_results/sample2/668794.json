@@ -21,6 +21,22 @@
                 "label": "address",
                 "text": " Goorstorfer Straße 60, 18146 Rostock."
             }
+        ],
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Neuer Sitz: Rostock.",
+                "to": "Rostock",
+                "used_regex": "to_regex2"
+            },
+            {
+                "court": "Rostock",
+                "hrb": "HRB 12504",
+                "registration": "successor",
+                "text": " nach Rostock (nun Amtsgericht Rostock HRB 12504).",
+                "to": "Rostock",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

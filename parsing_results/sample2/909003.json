@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Freesenstraße 5, 27327 Martfeld."
             }
+        ],
+        "notices": [
+            {
+                "court": "Walsrode",
+                "hrb": "HRB 204227",
+                "registration": "successor",
+                "text": " der Zweigniederlassung ist nach Martfeld (jetzt Amtsgericht Walsrode, HRB 204227) verlegt.",
+                "to": "Martfeld",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

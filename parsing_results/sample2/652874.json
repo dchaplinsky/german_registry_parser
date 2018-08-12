@@ -32,6 +32,17 @@
                 "text": " Robert-Bosch-Straße 18, 78467 Konstanz."
             }
         ],
+        "notices": [
+            {
+                "court": "Frankfurt am Main",
+                "from": "Frankfurt am Main",
+                "hrb": "HRB 83462",
+                "registration": "successor",
+                "text": " ist von Frankfurt am Main (Amtsgericht Frankfurt am Main HRB 83462) nach Konstanz verlegt.",
+                "to": "Konstanz",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Reichenbacher Weg 35, 40627 Düsseldorf."
             }
+        ],
+        "notices": [
+            {
+                "court": "Düsseldorf",
+                "hrb": "HRB 71907",
+                "registration": "successor",
+                "text": " ist nach Düsseldorf (jetzt Amtsgericht Düsseldorf, HRB 71907) verlegt.Geschäftsanschrift: Reichenbacher Weg 35, 40627 Düsseldorf.",
+                "to": "Düsseldorf",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

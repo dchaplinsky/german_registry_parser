@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=45993&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "duisburg",
+                "hrb": "hra 9976",
+                "registration": "successor",
+                "text": " ist nach oberhausen (jetzt amtsgericht duisburg hra 9976) verlegt.",
+                "to": "oberhausen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

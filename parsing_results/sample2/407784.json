@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=407784&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Gütersloh",
+                "hrb": "HRB 8049",
+                "registration": "successor",
+                "text": " ist nach Langenberg (jetzt Amtsgericht Gütersloh HRB 8049) verlegt.",
+                "to": "Langenberg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

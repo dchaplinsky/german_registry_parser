@@ -21,6 +21,21 @@
                 "label": "address",
                 "text": " Fliederstraße 16, 33775 Versmold."
             }
+        ],
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Versmold.",
+                "used_regex": ""
+            },
+            {
+                "court": "Gütersloh",
+                "hrb": "HRB 10933",
+                "registration": "successor",
+                "text": " ist nach Versmold (jetzt Amtsgericht Gütersloh HRB 10933) verlegt.",
+                "to": "Versmold",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

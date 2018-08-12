@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=504783&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "zweibrücken",
+                "hrb": "hrb 31565",
+                "registration": "successor",
+                "text": " ist nach zweibrücken (jetzt amtsgericht zweibrücken, hrb 31565) verlegt.",
+                "to": "zweibrücken",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

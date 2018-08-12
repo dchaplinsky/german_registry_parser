@@ -15,5 +15,21 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=68921&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: neuer sitz: limburg a. d. lahn.",
+                "to": "limburg",
+                "used_regex": "to_regex2"
+            },
+            {
+                "hrb": "hrb 4182",
+                "registration": "successor",
+                "text": " ist nach limburg a. d. lahn (jetzt hrb 4182) verlegt.",
+                "to": "limburg",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

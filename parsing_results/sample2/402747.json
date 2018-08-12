@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=402747&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Jena",
+                "hrb": "HRB 512571",
+                "registration": "successor",
+                "text": " ist nach Erfurt (jetzt Amtsgericht Jena HRB 512571) verlegt.",
+                "to": "Erfurt",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

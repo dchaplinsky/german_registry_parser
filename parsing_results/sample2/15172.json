@@ -21,6 +21,17 @@
                 "flag": "Limited partnership.",
                 "text": "Kommanditgesellschaft\\."
             }
+        ],
+        "notices": [
+            {
+                "court": "Friedberg/Hessen",
+                "from": "Bad Nauheim",
+                "hrb": "HRA 4136",
+                "registration": "successor",
+                "text": " der Kommanditgesellschaft ist von Bad Nauheim (bisher Amtsgericht Friedberg/Hessen HRA 4136) nach Eppelborn verlegt.",
+                "to": "Eppelborn",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

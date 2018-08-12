@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=380081&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Siegburg",
+                "hrb": "HRB 10298",
+                "registration": "successor",
+                "text": " ist nach Bad Honnef (jetzt Amtsgericht Siegburg HRB 10298) verlegt.",
+                "to": "Bad Honnef",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

@@ -25,6 +25,16 @@
                 "label": "company",
                 "text": " Limburgerhof"
             }
+        ],
+        "notices": [
+            {
+                "court": "Ludwigshafen",
+                "hrb": "HRB 65296",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Limburgerhof verlegt (Amtsgericht Ludwigshafen am Rhein, HRB 65296).",
+                "to": "Limburgerhof",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Weinbergstraße 56, 65239 Hochheim am Main."
             }
+        ],
+        "notices": [
+            {
+                "court": "Wiesbaden",
+                "hrb": "HRB 29241",
+                "registration": "successor",
+                "text": " ist nach Hochheim am Main (jetzt Amtsgericht Wiesbaden, HRB 29241) verlegt.",
+                "to": "Hochheim am Main",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=811402&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Siegen",
+                "hrb": "HRA 8714",
+                "registration": "successor",
+                "text": " ist nach Finnentrop (jetzt Amtsgericht Siegen HRA 8714) verlegt.",
+                "to": "Finnentrop",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

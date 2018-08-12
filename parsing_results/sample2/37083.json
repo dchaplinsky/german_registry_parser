@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=37083&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Pinneberg",
+                "hrb": "HRB 7128 PI",
+                "registration": "successor",
+                "text": " ist nach Quickborn/Krs Pinneberg (jetzt Amtsgericht Pinneberg, HRB 7128 PI, Firma jetzt: DKW Invest GmbH) verlegt.",
+                "to": "Quickborn/Krs",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

@@ -15,5 +15,17 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1378701&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Duisburg",
+                "from": "Bocholt",
+                "hrb": "HRB 29268",
+                "registration": "successor",
+                "text": " ist von Bocholt nach Hünxe (Amtsgericht Duisburg HRB 29268) verlegt.",
+                "to": "Hünxe",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

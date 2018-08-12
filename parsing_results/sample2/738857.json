@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=738857&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRA 8079",
+                "registration": "successor",
+                "text": " ist nach Petershagen (jetzt AG Bad Oeynhausen HRA 8079) verlegt.",
+                "to": "Petershagen",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

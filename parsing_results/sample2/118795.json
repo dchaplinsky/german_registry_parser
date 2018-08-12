@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Wettiner Straße 36, 04105 Leipzig."
             }
+        ],
+        "notices": [
+            {
+                "court": "Leipzig",
+                "hrb": "HRB 24671",
+                "registration": "successor",
+                "text": " ist nach Frankfurt am Main (jetzt Amtsgericht Leipzig, HRB 24671) verlegt.",
+                "to": "Frankfurt am Main",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

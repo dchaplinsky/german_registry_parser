@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=243398&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Gießen",
+                "hrb": "HRB 7540",
+                "registration": "successor",
+                "text": " ist nach Gießen (jetzt Amtsgericht Gießen, HRB 7540) verlegt.",
+                "to": "Gießen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

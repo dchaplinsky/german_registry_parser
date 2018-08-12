@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=51430&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "hagen",
+                "hrb": "hrb 7681",
+                "registration": "successor",
+                "text": " ist nach hagen (jetzt amtsgericht hagen, hrb 7681) verlegt.",
+                "to": "hagen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

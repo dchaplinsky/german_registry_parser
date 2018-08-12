@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=128546&land_abk=by"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 720309",
+                "registration": "successor",
+                "text": " nach Aalen (nun AG Ulm HRB 720309).",
+                "to": "Aalen",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

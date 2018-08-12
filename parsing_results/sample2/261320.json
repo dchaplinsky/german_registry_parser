@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=261320&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Wuppertal",
+                "registration": "successor",
+                "text": " ist nach Remscheid (jetzt Amtsgericht Wuppertal, B 26367, Firma jetzt: BD Concept GmbH) verlegt.",
+                "to": "Remscheid",
+                "used_regex": "to_regex, court_regex"
+            }
+        ]
+    }
 }

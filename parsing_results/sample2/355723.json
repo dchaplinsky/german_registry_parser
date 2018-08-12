@@ -28,6 +28,17 @@
                 "text": " Robert-Hamelin-Straße 1, 31028 Gronau."
             }
         ],
+        "notices": [
+            {
+                "court": "Gelsenkirchen",
+                "from": "Gelsenkirchen",
+                "hrb": "HRA 4759",
+                "registration": "successor",
+                "text": " ist von Gelsenkirchen (bisher Amtsgericht Gelsenkirchen, HRA 4759) nach Gronau verlegt.",
+                "to": "Gronau",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

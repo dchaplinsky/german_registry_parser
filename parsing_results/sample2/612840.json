@@ -37,6 +37,22 @@
                 "label": "address",
                 "text": " Schwarzwaldstraße 5, 78532 Tuttlingen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Hamburg",
+                "from": "Hamburg",
+                "hrb": "HRB 138482",
+                "registration": "successor",
+                "text": " ist von Hamburg (Amtsgericht Hamburg HRB 138482) nach Tuttlingen verlegt.",
+                "to": "Tuttlingen",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            },
+            {
+                "registration": "successor",
+                "text": "",
+                "used_regex": ""
+            }
         ]
     }
 }

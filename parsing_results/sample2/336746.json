@@ -28,6 +28,17 @@
                 "text": " Höger Damm 10, 49632 Essen."
             }
         ],
+        "notices": [
+            {
+                "court": "Osnabrück",
+                "from": "Vrees",
+                "hrb": "HRA 203115",
+                "registration": "successor",
+                "text": " ist von Vrees (bisher Amtsgericht Osnabrück, HRA 203115) nach Essen verlegt.",
+                "to": "Essen",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

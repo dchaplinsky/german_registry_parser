@@ -15,5 +15,21 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=65704&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Aurich",
+                "hrb": "HRA 200849",
+                "registration": "successor",
+                "text": " ist nach Westoverledingen (jetzt Amtsgericht Aurich HRA 200849) verlegt.",
+                "to": "Westoverledingen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            },
+            {
+                "registration": "successor",
+                "text": ", nun: Westoverledingen.",
+                "used_regex": ""
+            }
+        ]
+    }
 }

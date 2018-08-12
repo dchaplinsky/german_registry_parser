@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=9495&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "neuss",
+                "hrb": "hrb 13237",
+                "registration": "successor",
+                "text": " ist nach neuss (jetzt amtsgericht neuss hrb 13237) verlegt.",
+                "to": "neuss",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Bensberger Marktweg 344, 51069 Köln."
             }
+        ],
+        "notices": [
+            {
+                "court": "Köln",
+                "hrb": "HRB 89846",
+                "registration": "successor",
+                "text": " ist nach Köln (jetzt Amtsgericht Köln, HRB 89846) verlegt.",
+                "to": "Köln",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

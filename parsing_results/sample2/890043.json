@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=890043&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Duisburg",
+                "hrb": "HRB 25188",
+                "registration": "successor",
+                "text": " ist nach Oberhausen (jetzt Amtsgericht Duisburg, HRB 25188) verlegt.",
+                "to": "Oberhausen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

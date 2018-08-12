@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Senator-Allerheiligen-Straße 3, 28197 Bremen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Bremen",
+                "hrb": "HRB 26999 HB",
+                "registration": "successor",
+                "text": " ist nach Bremen (jetzt Amtsgericht Bremen HRB 26999 HB) verlegt.",
+                "to": "Bremen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

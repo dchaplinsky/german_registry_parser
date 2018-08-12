@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=22149&land_abk=rp"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Saarbrücken",
+                "hrb": "HRB 15413",
+                "registration": "successor",
+                "text": " ist nach Merzig (jetzt Amtsgericht Saarbrücken HRB 15413) verlegt.",
+                "to": "Merzig",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

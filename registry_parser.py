@@ -348,20 +348,88 @@ class AppointedManagingDirector(FullPerson):
     kls = "AppointedManagingDirector"
 
 
-class RelocationNotice:
-    kls = "RelocationNotice"
+class AbstractNotice:
+    def try_to_find_city(self, city):
+        city_chunks = city.split(" ")
+        for x in range(len(city_chunks)):
+            option = " ".join(city_chunks[: len(city_chunks) - x])
+            if simplify_city(option) in GERMAN_CITIES:
+                return option.strip(" ,.")
+
+        return city_chunks[0].strip(" ,.")
+
+    def to_dict(self):
+        self.payload["used_regex"] = ", ".join(self.payload["used_regex"])
+
+        if "from" in self.payload:
+            self.payload["from"] = self.try_to_find_city(self.payload["from"])
+
+        if "to" in self.payload:
+            self.payload["to"] = self.try_to_find_city(self.payload["to"])
+
+        if "court" in self.payload:
+            self.payload["court"] = self.try_to_find_city(self.payload["court"])
+
+        return self.payload
+
+
+class SuccessorRelocationNotice(AbstractNotice):
+    kls = "SuccessorRelocationNotice"
+    kind = "notices"
+
+    def __init__(self, text):
+        self.text = text
+        self.payload = {"used_regex": [], "text": text, "registration": "successor"}
+
+        from_regex = re.compile(
+            r"\bvon\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
+        )
+        hrb_regex = re.compile(r"\b((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b)", flags=re.I)
+
+        to_regex = re.compile(
+            r"\bnach\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
+        )
+        to_regex2 = re.compile(
+            r"\bNeuer\s+Sitz:?\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
+        )
+
+        court_regex = re.compile(r"\bAG|Amtsgericht\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I)
+
+        matches = from_regex.search(text)
+        if matches and matches.group(1):
+            self.payload["from"] = matches.group(1).strip()
+            self.payload["used_regex"].append("from_regex")
+
+        matches = hrb_regex.search(text)
+        if matches and matches.group(1):
+            self.payload["hrb"] = matches.group(1).strip()
+            self.payload["used_regex"].append("hrb_regex")
+
+        matches = to_regex.search(text)
+        if matches and matches.group(1):
+            self.payload["to"] = matches.group(1).strip()
+            self.payload["used_regex"].append("to_regex")
+        else:
+            matches = to_regex2.search(text)
+            if matches and matches.group(1):
+                self.payload["to"] = matches.group(1).strip()
+                self.payload["used_regex"].append("to_regex2")
+
+        matches = court_regex.search(text)
+        if matches and matches.group(1):
+            self.payload["court"] = matches.group(1).strip()
+            self.payload["used_regex"].append("court_regex")
+
+
+
+class PredecessorRelocationNotice(AbstractNotice):
+    kls = "PredecessorRelocationNotice"
     kind = "notices"
 
     def __init__(self, text):
         self.text = text
         self.payload = {"used_regex": [], "text": text, "registration": "predecessor"}
 
-        any_code_regex = re.compile(
-            # r"\b([^\s\d]{1,3}\s?[^\s\d]{0,3}\s?)(\d+)\W([A-Z]{0,3}\b)",
-            r"\b(HR\s?[AB]\s?\d+\s?\b[A-Z]{0,3}\b)",
-
-            flags=re.I
-        )
         from_hrb_to_regex = re.compile(
             r"\bvon\s+([^\(]+).*((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b).*nach\W([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)",
             flags=re.I,
@@ -378,14 +446,10 @@ class RelocationNotice:
 
         court_regex = re.compile(r"\bAG|Amtsgericht\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I)
 
-        # m = any_code_regex.search(text)
-        # if m:
-        #     print(m.groups())
-
         court_matches = court_regex.search(text)
         if court_matches and court_matches.group(1):
                 self.payload["court"] = court_matches.group(1).strip()
-                self.payload["used_regex"].append("court")
+                self.payload["used_regex"].append("court_regex")
 
         matches = from_hrb_to_regex.search(text)
         if matches:
@@ -419,29 +483,6 @@ class RelocationNotice:
                 if matches:
                     self.payload["to"] = matches.group(1).strip()
                     self.payload["used_regex"].append("to_regex")
-
-    def try_to_find_city(self, city):
-        city_chunks = city.split(" ")
-        for x in range(len(city_chunks)):
-            option = " ".join(city_chunks[: len(city_chunks) - x])
-            if simplify_city(option) in GERMAN_CITIES:
-                return option.strip(" ,.")
-
-        return city_chunks[0].strip(" ,.")
-
-    def to_dict(self):
-        self.payload["used_regex"] = ", ".join(self.payload["used_regex"])
-
-        if "from" in self.payload:
-            self.payload["from"] = self.try_to_find_city(self.payload["from"])
-
-        if "to" in self.payload:
-            self.payload["to"] = self.try_to_find_city(self.payload["to"])
-
-        if "court" in self.payload:
-            self.payload["court"] = self.try_to_find_city(self.payload["court"])
-
-        return self.payload
 
 
 class Sentence(object):
@@ -621,9 +662,16 @@ sentences = [
     Sentence("Einzelkaufmann", convert_to_flag="Sole trader"),
     Sentence(
         re.compile(r"\bSitzverlegung\b", flags=re.I),
-        assign_label_to_postfix=RelocationNotice,
+        assign_label_to_postfix=PredecessorRelocationNotice,
     ),
-    # Sentence(re.compile(r"\bSitz\b", flags=re.I), convert_to_flag="Seat2", capture_whole_text=True),
+    Sentence(
+        re.compile(r"\bDer\s+Sitz\b", flags=re.I),
+        assign_label_to_postfix=SuccessorRelocationNotice,
+    ),
+    Sentence(
+        re.compile(r"\bSitz\s+verlegt\b", flags=re.I),
+        assign_label_to_postfix=SuccessorRelocationNotice,
+    ),
     Sentence("Der Inhaber handelt allein", convert_to_flag="The owner is acting alone"),
     Sentence("Kommanditgesellschaft.", convert_to_flag="Limited partnership."),
     Sentence(

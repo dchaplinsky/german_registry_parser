@@ -21,6 +21,21 @@
                 "label": "address",
                 "text": " Geschwister-Scholl-Straße 45, 20251 Hamburg."
             }
+        ],
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Hamburg.",
+                "used_regex": ""
+            },
+            {
+                "court": "Hamburg",
+                "hrb": "HRB 123860",
+                "registration": "successor",
+                "text": " ist nach Hamburg (jetzt Amtsgericht Hamburg HRB 123860) verlegt.",
+                "to": "Hamburg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

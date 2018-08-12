@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=128199&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "recklinghausen",
+                "hrb": "hrb 5528",
+                "registration": "successor",
+                "text": " ist nach herten (jetzt amtsgericht recklinghausen hrb 5528) verlegt.",
+                "to": "herten",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

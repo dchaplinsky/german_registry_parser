@@ -32,6 +32,22 @@
                 "text": " Schloßstraße 2, 89584 Ehingen Donau."
             }
         ],
+        "notices": [
+            {
+                "court": "München",
+                "from": "München",
+                "hrb": "HRB 133967",
+                "registration": "successor",
+                "text": " ist von München (Amtsgericht München HRB 133967) nach Ehingen Donau verlegt.",
+                "to": "Ehingen",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            },
+            {
+                "registration": "successor",
+                "text": "",
+                "used_regex": ""
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

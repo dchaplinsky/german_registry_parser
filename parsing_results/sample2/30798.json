@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=30798&land_abk=by"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Coburg",
+                "hrb": "HRB 3978",
+                "registration": "successor",
+                "text": " nach Itzgrund/Gleußen (nun Amtsgericht Coburg HRB 3978).",
+                "to": "Itzgrund/Gleußen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

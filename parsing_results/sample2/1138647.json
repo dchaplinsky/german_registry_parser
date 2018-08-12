@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Winsbergring 42, 22525 Hamburg."
             }
+        ],
+        "notices": [
+            {
+                "court": "Hamburg",
+                "hrb": "HRB 135698",
+                "registration": "successor",
+                "text": " ist nach Hamburg (jetzt Amtsgericht Hamburg, HRB 135698) verlegt.",
+                "to": "Hamburg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Meyer-zum-Gottesberge-Straße 15, 49324 Melle."
             }
+        ],
+        "notices": [
+            {
+                "court": "Osnabrück",
+                "hrb": "HRB 211154",
+                "registration": "successor",
+                "text": " ist nach Melle (Amtsgericht Osnabrück HRB 211154) verlegt.",
+                "to": "Melle",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=402775&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "duisburg",
+                "hrb": "hrb 20939",
+                "registration": "successor",
+                "text": " ist nach mülheim (jetzt amtsgericht duisburg hrb 20939) verlegt.",
+                "to": "mülheim",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

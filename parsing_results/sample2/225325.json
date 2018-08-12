@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Höfchensweg 96, 52066 Aachen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Aachen",
+                "hrb": "HRB 21287",
+                "registration": "successor",
+                "text": " ist nach Aachen (jetzt Amtsgericht Aachen, HRB 21287) verlegt.",
+                "to": "Aachen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

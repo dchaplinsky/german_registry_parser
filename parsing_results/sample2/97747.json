@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=97747&land_abk=bw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Mainz",
+                "hrb": "HRB 41646",
+                "registration": "successor",
+                "text": ", nun: Mainz ( Amtsgericht Mainz HRB 41646 ).",
+                "used_regex": "hrb_regex, court_regex"
+            }
+        ]
+    }
 }

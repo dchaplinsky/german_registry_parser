@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Goebenstraße 48, 53113 Bonn."
             }
+        ],
+        "notices": [
+            {
+                "court": "Bonn",
+                "hrb": "HRB 17564",
+                "registration": "successor",
+                "text": " ist nach Bonn (Amtsgericht Bonn HRB 17564) verlegt.",
+                "to": "Bonn",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

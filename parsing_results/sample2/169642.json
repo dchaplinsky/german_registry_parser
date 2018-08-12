@@ -28,6 +28,17 @@
                 "text": " Obere Hauptstraße 67 b, 09235 Burkhardtsdorf."
             }
         ],
+        "notices": [
+            {
+                "court": "München",
+                "from": "München",
+                "hrb": "HRA 94271",
+                "registration": "successor",
+                "text": " ist von München (bisher Amtsgericht München HRA 94271) nach Burkhardtsdorf verlegt.",
+                "to": "Burkhardtsdorf",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

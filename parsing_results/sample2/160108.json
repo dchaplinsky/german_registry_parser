@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Sooderstr."
             }
+        ],
+        "notices": [
+            {
+                "court": "Wiesbaden",
+                "hrb": "HRA 9516",
+                "registration": "successor",
+                "text": " ist nach Wiesbaden (jetzt Amtsgericht Wiesbaden HRA 9516) verlegt.",
+                "to": "Wiesbaden",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

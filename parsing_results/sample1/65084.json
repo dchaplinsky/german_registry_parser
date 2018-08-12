@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " manfred-wörner-straße 115, 73037 göppingen."
             }
+        ],
+        "notices": [
+            {
+                "court": "ulm",
+                "hrb": "hrb 729567",
+                "registration": "successor",
+                "text": " nach göppingen (nun amtsgericht ulm hrb 729567).",
+                "to": "göppingen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

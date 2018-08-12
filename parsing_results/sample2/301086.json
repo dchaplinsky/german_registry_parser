@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Einsteinstr."
             }
+        ],
+        "notices": [
+            {
+                "court": "München",
+                "hrb": "HRB 210478",
+                "registration": "successor",
+                "text": " ist nach Unterschleißheim (jetzt Amtsgericht München HRB 210478) verlegt.",
+                "to": "Unterschleißheim",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

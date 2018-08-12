@@ -15,5 +15,14 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=50640&land_abk=rp"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "registration": "successor",
+                "text": " ist nach Neustadt/Wstr.",
+                "to": "Neustadt/Wstr",
+                "used_regex": "to_regex"
+            }
+        ]
+    }
 }

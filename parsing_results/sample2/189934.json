@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Arberger Hafendamm 22, 28309 Bremen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Bremen",
+                "hrb": "HRB 27440 HB",
+                "registration": "successor",
+                "text": " ist nach Bremen (jetzt Amtsgericht Bremen HRB 27440 HB) verlegt.",
+                "to": "Bremen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

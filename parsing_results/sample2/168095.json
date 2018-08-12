@@ -40,6 +40,17 @@
                 "text": " Industriestr."
             }
         ],
+        "notices": [
+            {
+                "court": "Lübeck",
+                "from": "Elmenhorst",
+                "hrb": "HRB 13880 HL",
+                "registration": "successor",
+                "text": " der Gesellschaft von Elmenhorst (Amtsgericht Lübeck, HRB 13880 HL) nach Neumünster verlegt und der Gesellschaftsvertrag geändert in Nr. 1.1 (Firma), 1.2 (Sitz) und 2 (Gegenstand).",
+                "to": "Neumünster",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

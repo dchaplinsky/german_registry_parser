@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=336972&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Bochum",
+                "hrb": "HRB 11727",
+                "registration": "successor",
+                "text": " ist nach Witten (jetzt Amtsgericht Bochum HRB 11727) verlegt.",
+                "to": "Witten",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

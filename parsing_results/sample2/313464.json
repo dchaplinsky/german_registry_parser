@@ -25,6 +25,16 @@
                 "label": "company",
                 "text": " Niedergörsdorf"
             }
+        ],
+        "notices": [
+            {
+                "court": "Potsdam",
+                "hrb": "HRB 27545 P",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Niedergörsdorf verlegt (Amtsgericht Potsdam, HRB 27545 P).",
+                "to": "Niedergörsdorf",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

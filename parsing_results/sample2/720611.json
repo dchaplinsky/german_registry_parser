@@ -34,6 +34,17 @@
                 "text": " Maximiliansplatz 12, 80333 München."
             }
         ],
+        "notices": [
+            {
+                "court": "Düsseldorf",
+                "from": "Düsseldorf",
+                "hrb": "HRA 21680",
+                "registration": "successor",
+                "text": " ist von Düsseldorf (Amtsgericht Düsseldorf, HRA 21680) nach München verlegt.",
+                "to": "München",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "RetiredPersonalPartner",

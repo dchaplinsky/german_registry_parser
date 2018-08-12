@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Graf-Adolf-Platz 70a, 40210 Düsseldorf."
             }
+        ],
+        "notices": [
+            {
+                "court": "Düsseldorf",
+                "hrb": "HRB 68430",
+                "registration": "successor",
+                "text": " ist nach Düsseldorf (jetzt Amtsgericht Düsseldorf HRB 68430) verlegt.",
+                "to": "Düsseldorf",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

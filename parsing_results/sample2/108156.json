@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=108156&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Neuss",
+                "hrb": "HRB 13673",
+                "registration": "successor",
+                "text": " ist nach Kaarst (jetzt Amtsgericht Neuss, HRB 13673) verlegt.",
+                "to": "Kaarst",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

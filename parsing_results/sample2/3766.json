@@ -16,6 +16,15 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=3766&land_abk=br"
     },
     "parsed": {
+        "notices": [
+            {
+                "from": "Ludwigsfelde",
+                "registration": "successor",
+                "text": " von Ludwigsfelde nach Schönefeld verlegt und der Gesellschaftsvertrag geändert in § 1 Nr. 2 (Sitz).",
+                "to": "Schönefeld",
+                "used_regex": "from_regex, to_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",

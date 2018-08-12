@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=225704&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 19315",
+                "registration": "successor",
+                "text": " ist nach Duisburg (jetzt AG Duisburg HRB 19315) verlegt.",
+                "to": "Duisburg",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

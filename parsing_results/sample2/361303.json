@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=361303&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Lübeck",
+                "hrb": "HRB 17683 HL",
+                "registration": "successor",
+                "text": " ist nach Reinbek (jetzt Amtsgericht Lübeck HRB 17683 HL) verlegt.",
+                "to": "Reinbek",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

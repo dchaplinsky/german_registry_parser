@@ -32,6 +32,17 @@
                 "text": " schlossgasse 35, 74523 schwäbisch hall."
             }
         ],
+        "notices": [
+            {
+                "court": "münchen",
+                "from": "münchen",
+                "hrb": "hrb 182849",
+                "registration": "successor",
+                "text": " ist von münchen (amtsgericht münchen hrb 182849) nach schwäbisch hall verlegt.",
+                "to": "schwäbisch hall",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Siemensstraße 2, 65205 Wiesbaden."
             }
+        ],
+        "notices": [
+            {
+                "court": "Wiesbaden",
+                "hrb": "HRB 24328",
+                "registration": "successor",
+                "text": " ist nach Wiesbaden (jetzt Amtsgericht Wiesbaden HRB 24328) verlegt.",
+                "to": "Wiesbaden",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

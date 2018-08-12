@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=87842&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "hrb 19500",
+                "registration": "successor",
+                "text": " der gesellschaft ist nach velbert (jetzt ag wuppertal hrb 19500) verlegt.",
+                "to": "velbert",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

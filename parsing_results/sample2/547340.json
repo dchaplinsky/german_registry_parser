@@ -32,6 +32,17 @@
                 "text": " Fabrikstraße 1, 88255 Baienfurt."
             }
         ],
+        "notices": [
+            {
+                "court": "Mannheim",
+                "from": "Baden-Baden",
+                "hrb": "HRB 202480",
+                "registration": "successor",
+                "text": " ist von Baden-Baden (Amtsgericht Mannheim HRB 202480) nach Baienfurt verlegt.",
+                "to": "Baienfurt",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

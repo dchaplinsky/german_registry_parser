@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=99042&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRA 8599",
+                "registration": "successor",
+                "text": " ist nach Essen (jetzt AG Essen HRA 8599) verlegt.",
+                "to": "Essen",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

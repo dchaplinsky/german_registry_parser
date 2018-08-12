@@ -32,6 +32,22 @@
                 "text": " Hauptstraße 90, 69117 Heidelberg."
             }
         ],
+        "notices": [
+            {
+                "court": "Charlottenburg",
+                "from": "Berlin",
+                "hrb": "HRB 178419 B",
+                "registration": "successor",
+                "text": " ist von Berlin (Amtsgericht Charlottenburg (Berlin) HRB 178419 B) nach Heidelberg verlegt.",
+                "to": "Heidelberg",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            },
+            {
+                "registration": "successor",
+                "text": "",
+                "used_regex": ""
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

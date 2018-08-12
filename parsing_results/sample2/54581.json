@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=54581&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 14901",
+                "registration": "successor",
+                "text": " ist nach Kleinblittersdorf (jetzt Real Estate One GmbH, AG Saarbrücken HRB 14901) verlegt.",
+                "to": "Kleinblittersdorf",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=114578&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 92644",
+                "registration": "successor",
+                "text": " ist nach Hanau (jetzt AG Hanau HRB 92644) verlegt.",
+                "to": "Hanau",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

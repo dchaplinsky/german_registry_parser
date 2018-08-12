@@ -28,6 +28,17 @@
                 "text": " markt 36, 41836 hückelhoven."
             }
         ],
+        "notices": [
+            {
+                "court": "arnsberg",
+                "from": "soest",
+                "hrb": "hra 7286",
+                "registration": "successor",
+                "text": " ist von soest (bisher amtsgericht arnsberg, hra 7286) nach hückelhoven verlegt.",
+                "to": "hückelhoven",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

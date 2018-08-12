@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=199336&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Coesfeld",
+                "hrb": "HRB 14414",
+                "registration": "successor",
+                "text": " ist nach Bocholt (jetzt Amtsgericht Coesfeld, HRB 14414) verlegt.",
+                "to": "Bocholt",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

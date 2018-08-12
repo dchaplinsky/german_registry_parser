@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Krayer Straße 195, 45307 Essen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Essen",
+                "hrb": "HRB 28766",
+                "registration": "successor",
+                "text": " ist nach Essen (jetzt Amtsgericht Essen, HRB 28766",
+                "to": "Essen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

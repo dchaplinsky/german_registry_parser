@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=579147&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRA 9451 FL",
+                "registration": "successor",
+                "text": " ist nach Flensburg (jetzt AG Flensburg, HRA 9451 FL) verlegt.",
+                "to": "Flensburg",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

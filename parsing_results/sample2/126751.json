@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Schulstraße 2, 91604 Flachslanden."
             }
+        ],
+        "notices": [
+            {
+                "court": "Ansbach",
+                "hrb": "HRA 3557",
+                "registration": "successor",
+                "text": " ist nach Flachslanden (jetzt Amtsgericht Ansbach HRA 3557) verlegt.",
+                "to": "Flachslanden",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

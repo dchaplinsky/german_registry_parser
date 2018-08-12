@@ -21,6 +21,17 @@
                 "label": "address",
                 "text": " Kierberger Straße 15, 50969 Köln."
             }
+        ],
+        "notices": [
+            {
+                "court": "Charlottenburg",
+                "from": "Berlin",
+                "hrb": "HRB 119988 B",
+                "registration": "successor",
+                "text": " wurde von Berlin (bisher Amtsgericht Charlottenburg, HRB 119988 B) nach Köln verlegt.",
+                "to": "Köln",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

@@ -21,6 +21,15 @@
                 "label": "address",
                 "text": " Eisenstraße 9c, 65428 Rüsselsheim."
             }
+        ],
+        "notices": [
+            {
+                "hrb": "HRB 89054",
+                "registration": "successor",
+                "text": " ist nach Rüsselsheim (jetzt AG Darmstadt HRB 89054) verlegt.",
+                "to": "Rüsselsheim",
+                "used_regex": "hrb_regex, to_regex"
+            }
         ]
     }
 }

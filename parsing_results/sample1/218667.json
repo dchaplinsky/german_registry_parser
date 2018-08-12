@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Kaiser-Friedrich-Promenade 14, 61348 Bad Homburg v. d. Höhe."
             }
+        ],
+        "notices": [
+            {
+                "court": "Bad",
+                "hrb": "HRB 11854",
+                "registration": "successor",
+                "text": " ist nach Bad Homburg v. d. Höhe (jetzt Amtsgericht Bad Homburg v. d. Höhe, HRB 11854) verlegt.",
+                "to": "Bad",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

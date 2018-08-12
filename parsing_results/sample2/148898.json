@@ -15,5 +15,21 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=148898&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Neuer Sitz: Florstadt.",
+                "to": "Florstadt",
+                "used_regex": "to_regex2"
+            },
+            {
+                "hrb": "HRB 6863",
+                "registration": "successor",
+                "text": " ist nach Florstadt (jetzt AG Friedberg, HRB 6863) verlegt.",
+                "to": "Florstadt",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

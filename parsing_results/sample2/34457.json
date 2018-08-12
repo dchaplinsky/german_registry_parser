@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=34457&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 156990",
+                "registration": "successor",
+                "text": " ist nach Vaterstetten (jetzt AG München, HRB 156990) verlegt.",
+                "to": "Vaterstetten",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

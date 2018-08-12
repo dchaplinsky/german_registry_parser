@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Königstr."
             }
+        ],
+        "notices": [
+            {
+                "court": "Stuttgart",
+                "hrb": "HRB 736284",
+                "registration": "successor",
+                "text": " ist nach Stuttgart (jetzt Amtsgericht Stuttgart HRB 736284) verlegt.",
+                "to": "Stuttgart",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

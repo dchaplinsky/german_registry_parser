@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=76976&land_abk=sh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "from": "Birmingham/GB",
+                "registration": "successor",
+                "text": " der Hauptniederlassung von Birmingham/GB nach Berkshire/GB verlegt und das Stammkapital um 99 GBP auf 100 GBP erhöht..",
+                "to": "Berkshire/GB",
+                "used_regex": "from_regex, to_regex"
+            }
+        ]
+    }
 }

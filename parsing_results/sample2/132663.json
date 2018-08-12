@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=132663&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Aachen",
+                "hrb": "HRB 13653",
+                "registration": "successor",
+                "text": " ist nach Herzogenrath (jetzt Amtsgericht Aachen HRB 13653) verlegt.",
+                "to": "Herzogenrath",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

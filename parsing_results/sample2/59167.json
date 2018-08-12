@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=59167&land_abk=br"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Berlin",
+                "hrb": "HRB 132386",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Berlin verlegt (Amtsgericht Berlin Charlottenburg, HRB 132386).",
+                "to": "Berlin",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

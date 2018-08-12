@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=28120&land_abk=sl"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Düsseldorf",
+                "hrb": "HRB 64321",
+                "registration": "successor",
+                "text": " ist nach Hilden verlegt (jetzt Amtsgericht Düsseldorf HRB 64321).",
+                "to": "Hilden",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

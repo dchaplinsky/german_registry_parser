@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1305647&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Neuss",
+                "hrb": "HRA 7515",
+                "registration": "successor",
+                "text": " ist nach Korschenbroich (jetzt Amtsgericht Neuss, HRA 7515) verlegt.",
+                "to": "Korschenbroich",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Stahlwerkstr."
             }
+        ],
+        "notices": [
+            {
+                "court": "Montabaur",
+                "hrb": "HRB 23140",
+                "registration": "successor",
+                "text": " ist nach Mudersbach (jetzt Amtsgericht Montabaur, HRB 23140) verlegt.",
+                "to": "Mudersbach",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

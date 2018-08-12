@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " rohrmühlstraße 19, 95709 tröstau."
             }
+        ],
+        "notices": [
+            {
+                "court": "hof",
+                "hrb": "hrb 5118",
+                "registration": "successor",
+                "text": " ist nach tröstau (jetzt amtsgericht hof hrb 5118) verlegt.",
+                "to": "tröstau",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

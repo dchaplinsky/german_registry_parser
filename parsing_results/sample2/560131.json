@@ -21,6 +21,22 @@
                 "label": "address",
                 "text": " Brandorffweg 12, 22609 Hamburg."
             }
+        ],
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Neuer Sitz: Hamburg.",
+                "to": "Hamburg",
+                "used_regex": "to_regex2"
+            },
+            {
+                "court": "Hamburg",
+                "hrb": "HRB 148267",
+                "registration": "successor",
+                "text": " ist nach Hamburg (jetzt Amtsgericht Hamburg, HRB 148267) verlegt.",
+                "to": "Hamburg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Matthias-Grünewald-Straße 11, 50259 Pulheim."
             }
+        ],
+        "notices": [
+            {
+                "court": "Köln",
+                "hrb": "HRB 76775",
+                "registration": "successor",
+                "text": " ist nach Pulheim (jetzt Amtsgericht Köln HRB 76775) verlegt.",
+                "to": "Pulheim",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

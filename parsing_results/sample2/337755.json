@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=337755&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 20335",
+                "registration": "successor",
+                "text": " ist nach Oberhausen (jetzt AG Duisburg, HRB 20335, neue Firma: adveni GmbH) verlegt.",
+                "to": "Oberhausen",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

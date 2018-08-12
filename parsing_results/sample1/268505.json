@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " lorentzendamm 14, 24103 kiel."
             }
+        ],
+        "notices": [
+            {
+                "court": "kiel",
+                "hrb": "hrb 13636",
+                "registration": "successor",
+                "text": " ist nach kiel (jetzt amtsgericht kiel, hrb 13636) verlegt.",
+                "to": "kiel",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

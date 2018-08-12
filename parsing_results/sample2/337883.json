@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " St.-Gotthard-Straße 59, 28325 Bremen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Bremen",
+                "hrb": "HRB 30206 HB",
+                "registration": "successor",
+                "text": " ist nach Bremen (jetzt Amtsgericht Bremen HRB 30206 HB) verlegt.",
+                "to": "Bremen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

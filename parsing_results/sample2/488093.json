@@ -27,6 +27,17 @@
                 "label": "address",
                 "text": " Darmstädter Landstraße 185, 60598 Frankfurt am Main."
             }
+        ],
+        "notices": [
+            {
+                "court": "Bielefeld",
+                "from": "Bielefeld",
+                "hrb": "HRA 16399",
+                "registration": "successor",
+                "text": " ist von Bielefeld (bisher Amtsgericht Bielefeld HRA 16399) nach Frankfurt am Main verlegt.",
+                "to": "Frankfurt am Main",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

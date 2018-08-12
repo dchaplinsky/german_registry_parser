@@ -28,6 +28,17 @@
                 "text": " Heisinger Str."
             }
         ],
+        "notices": [
+            {
+                "court": "Bochum",
+                "from": "Bochum",
+                "hrb": "HRA 4028",
+                "registration": "successor",
+                "text": " der Gesellschaft ist von Bochum (bisher Amtsgericht Bochum HRA 4028) nach Essen verlegt.",
+                "to": "Essen",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

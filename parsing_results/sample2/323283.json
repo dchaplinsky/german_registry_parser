@@ -21,6 +21,21 @@
                 "label": "address",
                 "text": " Kupferstr."
             }
+        ],
+        "notices": [
+            {
+                "court": "Steinfurt",
+                "hrb": "HRB 10643",
+                "registration": "successor",
+                "text": " ist nach Hopsten (jetzt Amtsgericht Steinfurt HRB 10643) verlegt.",
+                "to": "Hopsten",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            },
+            {
+                "registration": "successor",
+                "text": ", nun: Hopsten.",
+                "used_regex": ""
+            }
         ]
     }
 }

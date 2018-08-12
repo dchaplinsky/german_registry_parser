@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Lilienthalstraße 20, 85579 Neubiberg."
             }
+        ],
+        "notices": [
+            {
+                "court": "München",
+                "hrb": "HRB 237308",
+                "registration": "successor",
+                "text": " ist nach Neubiberg, Landkreis München (jetzt Amtsgericht München, HRB 237308) verlegt.",
+                "to": "Neubiberg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

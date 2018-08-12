@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=69669&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "München",
+                "hrb": "HRA 86",
+                "registration": "successor",
+                "text": " ist nach Grünwald (jetzt Amtsgericht München - HRA 86 651) verlegt.",
+                "to": "Grünwald",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

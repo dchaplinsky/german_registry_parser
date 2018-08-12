@@ -27,6 +27,17 @@
                 "label": "address",
                 "text": " The Squaire 18, 60549 Frankfurt am Main."
             }
+        ],
+        "notices": [
+            {
+                "court": "Wiesbaden",
+                "from": "Wiesbaden",
+                "hrb": "HRA 9540",
+                "registration": "successor",
+                "text": " ist von Wiesbaden (bisher Amtsgericht Wiesbaden HRA 9540) nach Frankfurt am Main verlegt.",
+                "to": "Frankfurt am Main",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

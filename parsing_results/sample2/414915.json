@@ -52,6 +52,17 @@
                 "text": " Brunnenstraße 145, 10115 Berlin"
             }
         ],
+        "notices": [
+            {
+                "court": "Potsdam",
+                "from": "Potsdam",
+                "hrb": "HRB 28397 P",
+                "registration": "successor",
+                "text": " der Gesellschaft von Potsdam (Amtsgericht Potsdam, HRB 28397 P) nach Berlin verlegt und der Gesellschaftsvertrag geändert in Ziffer 1 (Sitz).",
+                "to": "Berlin",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

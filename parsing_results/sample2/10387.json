@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=10387&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Köln",
+                "hrb": "HRB 58372",
+                "registration": "successor",
+                "text": " ist nach Hürth (jetzt Amtsgericht Köln, HRB 58372) verlegt.",
+                "to": "Hürth",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

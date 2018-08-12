@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=14103&land_abk=sn"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Göppingen",
+                "hrb": "HRB 1727 Gei",
+                "registration": "successor",
+                "text": " der Gesellschaft ist verlegt nach Gingen/Fils (nun Amtsgericht Göppingen HRB 1727 Gei).",
+                "to": "Gingen/Fils",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

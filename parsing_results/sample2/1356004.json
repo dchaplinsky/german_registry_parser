@@ -28,6 +28,17 @@
                 "text": " Bahnhofstraße 11, 32105 Bad Salzuflen."
             }
         ],
+        "notices": [
+            {
+                "court": "Nürnberg",
+                "from": "Nürnberg",
+                "hrb": "HRA 17634",
+                "registration": "successor",
+                "text": " ist von Nürnberg (bisher Amtsgericht Nürnberg, HRA 17634) nach Bad Salzuflen verlegt.",
+                "to": "Bad Salzuflen",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

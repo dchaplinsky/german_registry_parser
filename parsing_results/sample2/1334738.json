@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Heinrich-Heine-Straße 1, 52349 Düren."
             }
+        ],
+        "notices": [
+            {
+                "court": "Düren",
+                "hrb": "HRB 7364",
+                "registration": "successor",
+                "text": " ist nach Düren (jetzt Amtsgericht Düren HRB 7364) verlegt.",
+                "to": "Düren",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Benno-Strauß-Str."
             }
+        ],
+        "notices": [
+            {
+                "court": "Fürth",
+                "hrb": "HRB 16800",
+                "registration": "successor",
+                "text": " nach Fürth (nun Amtsgericht Fürth HRB 16800).",
+                "to": "Fürth",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

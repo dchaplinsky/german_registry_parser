@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Linzer Str."
             }
+        ],
+        "notices": [
+            {
+                "court": "Bremen",
+                "hrb": "HRA 28165 HB",
+                "registration": "successor",
+                "text": " ist nach Bremen (jetzt Amtsgericht Bremen HRA 28165 HB) verlegt.",
+                "to": "Bremen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

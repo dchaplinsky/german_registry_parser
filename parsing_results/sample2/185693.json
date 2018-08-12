@@ -15,5 +15,17 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=185693&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Freiburg",
+                "from": "Freiburg im Breisgau",
+                "hrb": "HRA 702373",
+                "registration": "successor",
+                "text": " ist von Freiburg im Breisgau (bisher Amtsgericht Freiburg HRA 702373) nach Hamburg verlegt.",
+                "to": "Hamburg",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

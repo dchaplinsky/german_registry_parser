@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=46321&land_abk=rp"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Essen",
+                "hrb": "HRB 20765",
+                "registration": "successor",
+                "text": " ist nach Essen (jetzt Amtsgericht Essen, HRB 20765) verlegt.",
+                "to": "Essen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

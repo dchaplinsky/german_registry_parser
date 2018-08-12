@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=83377&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRA 15997",
+                "registration": "successor",
+                "text": " ist nach Dortmund (jetzt AG Dortmund HRA 15997) verlegt.",
+                "to": "Dortmund",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

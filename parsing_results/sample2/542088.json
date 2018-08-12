@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Haferkamp 2, 22081 Hamburg."
             }
+        ],
+        "notices": [
+            {
+                "court": "Hamburg",
+                "hrb": "HRB 113129",
+                "registration": "successor",
+                "text": " ist nach Hamburg (jetzt Amtsgericht Hamburg HRB 113129) verlegt.",
+                "to": "Hamburg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

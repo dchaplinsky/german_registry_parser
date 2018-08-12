@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Kirschenallee 27, 47443 Moers."
             }
+        ],
+        "notices": [
+            {
+                "court": "Kleve",
+                "hrb": "HRB 11371",
+                "registration": "successor",
+                "text": " ist nach Moers (jetzt Amtsgericht Kleve HRB 11371) verlegt.",
+                "to": "Moers",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

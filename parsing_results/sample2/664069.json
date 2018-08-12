@@ -32,6 +32,17 @@
                 "text": " Hauptstraße 1, 77694 Kehl."
             }
         ],
+        "notices": [
+            {
+                "court": "Mannheim",
+                "from": "Achern",
+                "hrb": "HRB 721636",
+                "registration": "successor",
+                "text": " ist von Achern (Amtsgericht Mannheim HRB 721636) nach Kehl verlegt.",
+                "to": "Kehl",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

@@ -25,6 +25,16 @@
                 "label": "company",
                 "text": " Zossen"
             }
+        ],
+        "notices": [
+            {
+                "court": "Potsdam",
+                "hrb": "HRB 28681 P",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Zossen verlegt (Amtsgericht Potsdam, HRB 28681 P).",
+                "to": "Zossen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

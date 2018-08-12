@@ -28,6 +28,17 @@
                 "text": " Kesselgasse 9 a, 09599 Freiberg."
             }
         ],
+        "notices": [
+            {
+                "court": "Hamm",
+                "from": "Fröndenberg",
+                "hrb": "HRA 3346",
+                "registration": "successor",
+                "text": " ist von Fröndenberg (bisher Amtsgericht Hamm, HRA 3346) nach Freiberg verlegt.",
+                "to": "Freiberg",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

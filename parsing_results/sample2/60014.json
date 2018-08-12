@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=60014&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Frankfurt",
+                "hrb": "HRB 81224",
+                "registration": "successor",
+                "text": " ist nach Kriftel (jetzt Amtsgericht Frankfurt am Main, HRB 81224) verlegt.",
+                "to": "Kriftel",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

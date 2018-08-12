@@ -21,6 +21,16 @@
                 "label": "WHUT",
                 "text": " NaVa GmbH, Sitz vormals: Bremen (Buschkamp 42, 49377 Vechta)."
             }
+        ],
+        "notices": [
+            {
+                "court": "Oldenburg",
+                "hrb": "HRB 206468",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Vechta verlegt (Amtsgericht Oldenburg, HRB 206468).",
+                "to": "Vechta",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

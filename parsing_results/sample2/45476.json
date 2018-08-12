@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=45476&land_abk=sn"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Düsseldorf",
+                "hrb": "HRB 57541",
+                "registration": "successor",
+                "text": " der Zweigniederlassung ist unter Änderung der Firma (Neue Firma: marktdirekt limited Zweigniederlassung Düsseldorf) verlegt nach Düsseldorf (nun Amtsgericht Düsseldorf HRB 57541).",
+                "to": "Düsseldorf",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

@@ -21,6 +21,22 @@
                 "label": "address",
                 "text": " Waldstraße 35, 65187 Wiesbaden."
             }
+        ],
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Neuer Sitz: Wiesbaden.",
+                "to": "Wiesbaden",
+                "used_regex": "to_regex2"
+            },
+            {
+                "court": "Wiesbaden",
+                "hrb": "HRB 26843",
+                "registration": "successor",
+                "text": " ist nach Wiesbaden (jetzt Amtsgericht Wiesbaden, HRB 26843) verlegt.",
+                "to": "Wiesbaden",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

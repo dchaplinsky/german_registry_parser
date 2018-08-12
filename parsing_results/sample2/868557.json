@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=868557&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Bad Oeynhausen",
+                "hrb": "HRB 13298",
+                "registration": "successor",
+                "text": " ist nach Löhne (jetzt Amtsgericht Bad Oeynhausen HRB 13298) verlegt.",
+                "to": "Löhne",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

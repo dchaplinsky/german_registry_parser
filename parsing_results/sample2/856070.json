@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=856070&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Walsrode",
+                "hrb": "HRB 203993",
+                "registration": "successor",
+                "text": " ist nach Hoya (jetzt Amtsgericht Walsrode HRB 203993) verlegt.",
+                "to": "Hoya",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

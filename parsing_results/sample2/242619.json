@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Amperestraße 1 c, 64625 Bensheim."
             }
+        ],
+        "notices": [
+            {
+                "court": "Darmstadt",
+                "hrb": "HRB 89396",
+                "registration": "successor",
+                "text": " ist nach Bensheim (jetzt Amtsgericht Darmstadt HRB 89396) verlegt.",
+                "to": "Bensheim",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

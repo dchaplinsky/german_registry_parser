@@ -41,6 +41,17 @@
                 "label": "address",
                 "text": " Himmelmoorchaussee 39, 25451 Quickborn, Gegenstand: Ingenieur- und Beratungsleistungen für den Schiffbau und alle artverwandten Tätigkeiten."
             }
+        ],
+        "notices": [
+            {
+                "court": "Kiel",
+                "from": "Kattendorf",
+                "hrb": "HRB 7810 KI",
+                "registration": "successor",
+                "text": " der Gesellschaft von Kattendorf (Amtsgericht Kiel, HRB 7810 KI) nach Quickborn/Krs.",
+                "to": "Quickborn/Krs",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

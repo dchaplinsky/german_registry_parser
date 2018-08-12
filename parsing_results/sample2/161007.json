@@ -36,7 +36,16 @@
                 "registration": "predecessor",
                 "text": " von Wiesbaden nach Mainz: Persönlich haftender Gesellschafter: Afanta Grundstücksverwaltungsgesellschaft mbH, Mainz (Amtsgericht Mainz HRB 45330), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
                 "to": "Mainz:",
-                "used_regex": "court, from_hrb_regex, to_regex"
+                "used_regex": "court_regex, from_hrb_regex, to_regex"
+            },
+            {
+                "court": "Wiesbaden",
+                "from": "Wiesbaden",
+                "hrb": "HRA 8171",
+                "registration": "successor",
+                "text": " ist von Wiesbaden (bisher Amtsgericht Wiesbaden HRA 8171) nach Mainz verlegt.",
+                "to": "Mainz",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
             }
         ],
         "officers": [

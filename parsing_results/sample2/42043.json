@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=42043&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Limburg",
+                "hrb": "HRB 4078",
+                "registration": "successor",
+                "text": " ist nach Limburg a.d. Lahn (jetzt Amtsgericht Limburg a.d. Lahn HRB 4078) verlegt.",
+                "to": "Limburg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

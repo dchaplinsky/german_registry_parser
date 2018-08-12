@@ -28,6 +28,17 @@
                 "text": " Krefelder Str."
             }
         ],
+        "notices": [
+            {
+                "court": "Duisburg",
+                "from": "Mülheim an der Ruhr",
+                "hrb": "HRA 11803",
+                "registration": "successor",
+                "text": " ist von Mülheim an der Ruhr (bisher Amtsgericht Duisburg, HRA 11803) nach Aachen verlegt.",
+                "to": "Aachen",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

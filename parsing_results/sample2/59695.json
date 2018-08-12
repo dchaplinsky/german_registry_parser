@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=59695&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Duisburg",
+                "hrb": "HRB 17892",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Oberhausen (jetzt Amtsgericht Duisburg HRB 17892) verlegt.",
+                "to": "Oberhausen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

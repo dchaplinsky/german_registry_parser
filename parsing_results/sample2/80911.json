@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=80911&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "München",
+                "hrb": "HRB 179125",
+                "registration": "successor",
+                "text": " ist nach München (jetzt Amtsgericht München HRB 179125) verlegt.",
+                "to": "München",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

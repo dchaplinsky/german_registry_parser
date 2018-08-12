@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=171457&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 5006",
+                "registration": "successor",
+                "text": " ist nach Hof (jetzt AG Hof HRB 5006, Firma jetzt: PSR Logistics GmbH) verlegt.",
+                "to": "Hof",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

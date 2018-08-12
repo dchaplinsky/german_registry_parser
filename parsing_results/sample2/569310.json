@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Augustusplatz 9, 04109 Leipzig."
             }
+        ],
+        "notices": [
+            {
+                "court": "Leipzig",
+                "hrb": "HRA 18020",
+                "registration": "successor",
+                "text": " ist nach Leipzig (jetzt Amtsgericht Leipzig, HRA 18020) verlegt.",
+                "to": "Leipzig",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

@@ -21,6 +21,16 @@
                 "label": "company",
                 "text": " Sehlen Rechtsverhaeltnis: Der Sitz der Gesellschaft ist nach Sehlen verlegt (Amtsgericht Stralsund, HRA 2288).bish."
             }
+        ],
+        "notices": [
+            {
+                "court": "Stralsund",
+                "hrb": "HRA 2288",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Sehlen verlegt (Amtsgericht Stralsund, HRA 2288).bish.",
+                "to": "Sehlen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

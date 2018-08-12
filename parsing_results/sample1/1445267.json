@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1445267&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Kleve",
+                "hrb": "HRB 14807",
+                "registration": "successor",
+                "text": " ist nach Moers (jetzt Amtsgericht Kleve HRB 14807) verlegt.",
+                "to": "Moers",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

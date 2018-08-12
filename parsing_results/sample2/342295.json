@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Friedrich-Ebert-Straße 8, 48268 Greven."
             }
+        ],
+        "notices": [
+            {
+                "court": "Steinfurt",
+                "hrb": "HRB 10818",
+                "registration": "successor",
+                "text": " ist nach Greven (jetzt Amtsgericht Steinfurt HRB 10818) verlegt.",
+                "to": "Greven",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

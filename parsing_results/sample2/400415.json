@@ -28,6 +28,12 @@
                 "registration": "predecessor",
                 "text": ": Persönlich haftender Gesellschafter: Reitz und Wagner Medienmanagement Verwaltungs-GmbH, Ladbergen (AG Steinfurt HRB 7925), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
                 "used_regex": "hrb"
+            },
+            {
+                "registration": "successor",
+                "text": " ist nach Ladbergen verlegt.",
+                "to": "Ladbergen",
+                "used_regex": "to_regex"
             }
         ],
         "officers": [

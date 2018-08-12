@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " weinmeisterstr."
             }
+        ],
+        "notices": [
+            {
+                "court": "charlottenburg",
+                "hrb": "hra 42461 b",
+                "registration": "successor",
+                "text": " ist nach berlin (jetzt amtsgericht charlottenburg, hra 42461 b) verlegt.",
+                "to": "berlin",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

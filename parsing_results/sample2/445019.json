@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Eupener Straße 245, 52076 Aachen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Aachen",
+                "hrb": "HRB 19798",
+                "registration": "successor",
+                "text": " ist nach Aachen (jetzt Amtsgericht Aachen, HRB 19798) verlegt.",
+                "to": "Aachen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

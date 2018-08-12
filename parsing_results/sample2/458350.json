@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Fliestedenerstraße 1 a, 50129 Bergheim."
             }
+        ],
+        "notices": [
+            {
+                "court": "Köln",
+                "hrb": "HRB 66554",
+                "registration": "successor",
+                "text": " ist nach Bergheim (jetzt Amtsgericht Köln HRB 66554) verlegt.",
+                "to": "Bergheim",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

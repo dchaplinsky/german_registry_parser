@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Gerhard-Hoehme-Allee 2, 41466 Neuss."
             }
+        ],
+        "notices": [
+            {
+                "court": "Neuss",
+                "hrb": "HRB 18476",
+                "registration": "successor",
+                "text": " ist nach Neuss (jetzt Amtsgericht Neuss, HRB 18476",
+                "to": "Neuss",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

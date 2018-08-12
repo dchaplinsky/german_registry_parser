@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=280780&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Hannover",
+                "hrb": "HRB 213056",
+                "registration": "successor",
+                "text": " ist nach Hannover (jetzt Amtsgericht Hannover HRB 213056) verlegt.",
+                "to": "Hannover",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

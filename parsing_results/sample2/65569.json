@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Taunusstraße 61, 55120 Mainz."
             }
+        ],
+        "notices": [
+            {
+                "court": "Mainz",
+                "hrb": "HRB 47830",
+                "registration": "successor",
+                "text": " ist nach Mainz verlegt (jetzt Amtsgericht Mainz HRB 47830).",
+                "to": "Mainz",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

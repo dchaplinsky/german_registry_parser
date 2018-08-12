@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Auf dem Hals 1, 61200 Wölfersheim."
             }
+        ],
+        "notices": [
+            {
+                "court": "Friedberg",
+                "hrb": "HRB 7764",
+                "registration": "successor",
+                "text": " ist nach Wölfersheim (jetzt Amtsgericht Friedberg, HRB 7764) verlegt.",
+                "to": "Wölfersheim",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Dorfplatz 3, 84539 Zangberg."
             }
+        ],
+        "notices": [
+            {
+                "court": "Traunstein",
+                "hrb": "HRB 18741",
+                "registration": "successor",
+                "text": " ist nach Zangberg (jetzt Amtsgericht Traunstein HRB 18741) verlegt.",
+                "to": "Zangberg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

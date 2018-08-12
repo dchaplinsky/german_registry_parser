@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Schwanenstr."
             }
+        ],
+        "notices": [
+            {
+                "court": "Düsseldorf",
+                "hrb": "HRB 60727",
+                "registration": "successor",
+                "text": " nach Hilden (nun Amtsgericht Düsseldorf, HRB 60727).Geschäftsanschrift: Schwanenstr.",
+                "to": "Hilden",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

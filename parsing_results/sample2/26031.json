@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Benrather Str."
             }
+        ],
+        "notices": [
+            {
+                "court": "Bochum",
+                "hrb": "HRB 12809",
+                "registration": "successor",
+                "text": " ist nach Bochum verlegt (jetzt Amtsgericht Bochum HRB 12809).",
+                "to": "Bochum",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

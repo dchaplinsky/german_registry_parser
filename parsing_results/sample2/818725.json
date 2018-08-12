@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Von-Werner-Str."
             }
+        ],
+        "notices": [
+            {
+                "court": "Montabaur",
+                "hrb": "HRB 23172",
+                "registration": "successor",
+                "text": " ist nach Unkel (jetzt Amtsgericht Montabaur HRB 23172) verlegt.",
+                "to": "Unkel",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

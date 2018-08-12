@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=466823&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Tosted",
+                "hrb": "HRB 201862",
+                "registration": "successor",
+                "text": " ist nach Loxstedt (jetzt Amtsgericht Tosted HRB 201862) verlegt.",
+                "to": "Loxstedt",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

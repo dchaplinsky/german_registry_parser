@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=236377&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HR B 60731",
+                "registration": "successor",
+                "text": " ist nach Köln (jetzt AG Köln, HR B 60731) verlegt.",
+                "to": "Köln",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

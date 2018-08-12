@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=274165&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Frankfurt am Main",
+                "hrb": "HRB 81738",
+                "registration": "successor",
+                "text": " ist nach Frankfurt (jetzt Amtsgericht Frankfurt am Main HRB 81738) verlegt.",
+                "to": "Frankfurt",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

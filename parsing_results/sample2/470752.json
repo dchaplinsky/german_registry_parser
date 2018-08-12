@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Berliner Straße 239, 06112 Halle (Saale)."
             }
+        ],
+        "notices": [
+            {
+                "court": "Stendal",
+                "hrb": "HRB 25323",
+                "registration": "successor",
+                "text": " ist nach Halle (Saale) (jetzt Amtsgericht Stendal HRB 25323",
+                "to": "Halle",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

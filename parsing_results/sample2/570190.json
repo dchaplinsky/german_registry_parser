@@ -28,6 +28,17 @@
                 "text": " Bayerstraße 16 A, 80335 München."
             }
         ],
+        "notices": [
+            {
+                "court": "München",
+                "from": "Nandlstadt",
+                "hrb": "HRB 199626",
+                "registration": "successor",
+                "text": " ist von Nandlstadt (Amtsgericht München HRB 199626) nach Bruchsal verlegt.",
+                "to": "Bruchsal",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

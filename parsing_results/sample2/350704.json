@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Carl-von-Ossietzky-Platz 13, 31226 Peine."
             }
+        ],
+        "notices": [
+            {
+                "court": "Hildesheim",
+                "hrb": "HRB 204382",
+                "registration": "successor",
+                "text": " ist nach Peine (jetzt Amtsgericht Hildesheim HRB 204382) verlegt.",
+                "to": "Peine",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

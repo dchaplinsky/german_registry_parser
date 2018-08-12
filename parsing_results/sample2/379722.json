@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Junkerbült 6, 26160 Bad Zwischenahn."
             }
+        ],
+        "notices": [
+            {
+                "court": "Oldenburg",
+                "hrb": "HRB 210687",
+                "registration": "successor",
+                "text": " ist nach Bad Zwischenahn (jetzt Amtsgericht Oldenburg HRB 210687) verlegt.",
+                "to": "Bad",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

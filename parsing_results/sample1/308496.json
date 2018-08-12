@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " münchener straße 17, 85540 haar."
             }
+        ],
+        "notices": [
+            {
+                "court": "münchen",
+                "hrb": "hrb 213032",
+                "registration": "successor",
+                "text": " ist nach haar (jetzt amtsgericht münchen hrb 213032) verlegt.",
+                "to": "haar",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

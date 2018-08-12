@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=57496&land_abk=be"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Hamburg",
+                "hrb": "HRB 103806",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Hamburg verlegt (Amtsgericht Hamburg, HRB 103806).",
+                "to": "Hamburg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

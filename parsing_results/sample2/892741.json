@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=892741&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Gütersloh",
+                "hrb": "HRB 9341",
+                "registration": "successor",
+                "text": " ist nach Gütersloh (jetzt Amtsgericht Gütersloh HRB 9341) verlegt.",
+                "to": "Gütersloh",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

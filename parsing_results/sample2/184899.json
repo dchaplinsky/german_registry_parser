@@ -32,6 +32,17 @@
                 "text": " Landgraf-Philipps-Anlage 52, 64283 Darmstadt."
             }
         ],
+        "notices": [
+            {
+                "court": "Dresden",
+                "from": "Reinhardtsdorf-Schöna",
+                "hrb": "HRA 6381",
+                "registration": "successor",
+                "text": " ist von Reinhardtsdorf-Schöna (bisher Amtsgericht Dresden HRA 6381) nach Darmstadt verlegt.",
+                "to": "Darmstadt",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=258330&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Pinneberg",
+                "hrb": "HRA 5236 PI",
+                "registration": "successor",
+                "text": " ist nach Haselau (jetzt Amtsgericht Pinneberg HRA 5236 PI) verlegt.",
+                "to": "Haselau",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

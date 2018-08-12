@@ -21,6 +21,15 @@
                 "label": "address",
                 "text": " Bornweg 28, 49152 Bad Essen."
             }
+        ],
+        "notices": [
+            {
+                "hrb": "HRB 204006",
+                "registration": "successor",
+                "text": " ist nach Bad Essen (jetzt AG Osnabrück HRB 204006) verlegt.",
+                "to": "Bad",
+                "used_regex": "hrb_regex, to_regex"
+            }
         ]
     }
 }

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Gartenstraße 20, 89213 Neu-Ulm."
             }
+        ],
+        "notices": [
+            {
+                "court": "Memmingen",
+                "hrb": "HRB 15567",
+                "registration": "successor",
+                "text": " ist nach Neu-Ulm (jetzt Amtsgericht Memmingen, HRB 15567) verlegt.",
+                "to": "Neu-Ulm",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

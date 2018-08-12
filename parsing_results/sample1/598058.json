@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " daimlerstr."
             }
+        ],
+        "notices": [
+            {
+                "court": "lemgo",
+                "hrb": "hra 4962",
+                "registration": "successor",
+                "text": " ist nach bad salzuflen (jetzt amtsgericht lemgo hra 4962) verlegt.",
+                "to": "bad salzuflen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

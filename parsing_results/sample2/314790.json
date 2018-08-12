@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=314790&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Lübeck",
+                "hrb": "HRB 16312 HL",
+                "registration": "successor",
+                "text": " ist nach Lübeck (jetzt Amtsgericht Lübeck, HRB 16312 HL) verlegt.",
+                "to": "Lübeck",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

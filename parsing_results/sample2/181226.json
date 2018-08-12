@@ -21,6 +21,15 @@
                 "label": "address",
                 "text": " Rheinstrasse 1-5, 63225 Langen."
             }
+        ],
+        "notices": [
+            {
+                "hrb": "HRB 45732",
+                "registration": "successor",
+                "text": " ist nach Langen (jetzt AG Offenbach am Main, HRB 45732) verlegt.",
+                "to": "Langen",
+                "used_regex": "hrb_regex, to_regex"
+            }
         ]
     }
 }

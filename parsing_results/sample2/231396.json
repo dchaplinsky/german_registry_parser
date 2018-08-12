@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=231396&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Offenbach",
+                "hrb": "HRB 45293",
+                "registration": "successor",
+                "text": " ist nach Rödermark (jetzt Amtsgericht Offenbach am Main, HRB 45293) verlegt.",
+                "to": "Rödermark",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=105044&land_abk=st"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Duisburg",
+                "hrb": "HRB 30067",
+                "registration": "successor",
+                "text": " nach Mühlheim an der Ruhr (nun Amtsgericht Duisburg HRB 30067).",
+                "to": "Mühlheim",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

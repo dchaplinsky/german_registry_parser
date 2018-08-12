@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Leinestraße 21, 12049 Berlin."
             }
+        ],
+        "notices": [
+            {
+                "court": "Charlottenburg",
+                "hrb": "HRB 188911 B",
+                "registration": "successor",
+                "text": " ist nach Berlin (jetzt Amtsgericht Charlottenburg HRB 188911 B) verlegt.",
+                "to": "Berlin",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

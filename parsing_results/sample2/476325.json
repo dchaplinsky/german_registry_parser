@@ -32,6 +32,17 @@
                 "text": " Windmühlenstraße 13, 30159 Hannover."
             }
         ],
+        "notices": [
+            {
+                "court": "München",
+                "from": "Oberhaching",
+                "hrb": "HRA 83120",
+                "registration": "successor",
+                "text": " ist von Oberhaching (bisher Amtsgericht München, HRA 83120) nach Hannover verlegt.",
+                "to": "Hannover",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

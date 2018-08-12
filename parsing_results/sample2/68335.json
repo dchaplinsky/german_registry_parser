@@ -15,5 +15,17 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=68335&land_abk=mv"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Güstrow",
+                "from": "Altkalen",
+                "hrb": "VR 678",
+                "registration": "successor",
+                "text": " ist von Altkalen (bisher Amtsgericht Güstrow, 5 VR 678) nach Neubrandenburg verlegt.",
+                "to": "Neubrandenburg",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

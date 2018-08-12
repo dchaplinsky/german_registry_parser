@@ -28,6 +28,22 @@
                 "text": " Weilstraße 227, 73733 Esslingen am Neckar."
             }
         ],
+        "notices": [
+            {
+                "court": "Memmingen",
+                "from": "Ichenhausen",
+                "hrb": "HRB 11977",
+                "registration": "successor",
+                "text": " ist von Ichenhausen (Amtsgericht Memmingen HRB 11977) nach Esslingen am Neckar verlegt.",
+                "to": "Esslingen am Neckar",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            },
+            {
+                "registration": "successor",
+                "text": "",
+                "used_regex": ""
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

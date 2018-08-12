@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Doctor-Hermann-Neubauer-Ring 32, 63500 Seligenstadt."
             }
+        ],
+        "notices": [
+            {
+                "court": "Offenbach am Main",
+                "hrb": "HRB 44375",
+                "registration": "successor",
+                "text": " ist nach Seligenstadt (jetzt Amtsgericht Offenbach am Main HRB 44375) verlegt.",
+                "to": "Seligenstadt",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Domäne Serrig, 54455 Serrig."
             }
+        ],
+        "notices": [
+            {
+                "court": "Wittlich",
+                "hrb": "HRB 43526",
+                "registration": "successor",
+                "text": " ist nach Serrig verlegt (jetzt Amtsgericht Wittlich HRB 43526).",
+                "to": "Serrig",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

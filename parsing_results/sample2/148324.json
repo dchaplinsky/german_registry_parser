@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Schumannstraße 27, 60325 Frankfurt am Main."
             }
+        ],
+        "notices": [
+            {
+                "court": "Frankfurt",
+                "hrb": "HRA 47571",
+                "registration": "successor",
+                "text": " ist nach Frankfurt am Main (jetzt Amtsgericht Frankfurt am Main, HRA 47571 unter der Firma Immobilien Lindstedt Management GmbH & Co.",
+                "to": "Frankfurt am Main",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

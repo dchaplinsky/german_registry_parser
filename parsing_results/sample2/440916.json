@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=440916&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Kempten",
+                "hrb": "HRB 10264",
+                "registration": "successor",
+                "text": " ist nach Immenstadt (jetzt Amtsgericht Kempten (Allgäu) HRB 10264) verlegt.",
+                "to": "Immenstadt",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Industriestraße 1, 27333 Schweringen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Walsrode",
+                "hrb": "HRB 205644",
+                "registration": "successor",
+                "text": " ist nach Schweringen (jetzt Amtsgericht Walsrode HRB HRB 205644) verlegt.",
+                "to": "Schweringen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

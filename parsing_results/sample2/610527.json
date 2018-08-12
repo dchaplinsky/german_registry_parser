@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Oberdorfstr."
             }
+        ],
+        "notices": [
+            {
+                "court": "Essen",
+                "hrb": "HRB 22605",
+                "registration": "successor",
+                "text": " ist nach Essen (jetzt Amtsgericht Essen HRB 22605) verlegt.",
+                "to": "Essen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

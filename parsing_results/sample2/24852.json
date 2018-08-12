@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=24852&land_abk=sn"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Hamm",
+                "hrb": "HRA 3124",
+                "registration": "successor",
+                "text": " der Gesellschaft ist verlegt nach Bergkamen (nun Amtsgericht Hamm HRA 3124).",
+                "to": "Bergkamen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

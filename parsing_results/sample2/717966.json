@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Mühltaler Str."
             }
+        ],
+        "notices": [
+            {
+                "court": "Düsseldorf",
+                "hrb": "HRB 66413",
+                "registration": "successor",
+                "text": " ist nach Düsseldorf (jetzt Amtsgericht Düsseldorf HRB 66413) verlegt.",
+                "to": "Düsseldorf",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

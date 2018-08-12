@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=89787&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Offenbach am Main",
+                "hrb": "HRB 43408",
+                "registration": "successor",
+                "text": " ist nach Rodgau (jetzt Amtsgericht Offenbach am Main HRB 43408) verlegt.",
+                "to": "Rodgau",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

@@ -27,6 +27,17 @@
                 "label": "address",
                 "text": " Speicherstr."
             }
+        ],
+        "notices": [
+            {
+                "court": "Nürnberg",
+                "from": "Nürnberg",
+                "hrb": "HRA 12274",
+                "registration": "successor",
+                "text": " ist von Nürnberg (bisher Amtsgericht Nürnberg HRA 12274) nach Frankfurt am Main verlegt.",
+                "to": "Frankfurt am Main",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

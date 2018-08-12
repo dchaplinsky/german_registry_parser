@@ -21,6 +21,15 @@
                 "label": "address",
                 "text": " Mergenthalerallee 73-75, 65760 Eschborn."
             }
+        ],
+        "notices": [
+            {
+                "court": "Frankfurt am Main",
+                "registration": "successor",
+                "text": " ist nach Eschborn (jetzt Amtsgericht Frankfurt am Main",
+                "to": "Eschborn",
+                "used_regex": "to_regex, court_regex"
+            }
         ]
     }
 }

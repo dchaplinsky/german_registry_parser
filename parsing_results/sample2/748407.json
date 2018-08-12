@@ -21,6 +21,15 @@
                 "label": "address",
                 "text": " Daimlerstr."
             }
+        ],
+        "notices": [
+            {
+                "hrb": "HRB 7657",
+                "registration": "successor",
+                "text": " ist nach Bad Salzuflen (jetzt AG Lemgo, HRB 7657) verlegt.",
+                "to": "Bad Salzuflen",
+                "used_regex": "hrb_regex, to_regex"
+            }
         ]
     }
 }

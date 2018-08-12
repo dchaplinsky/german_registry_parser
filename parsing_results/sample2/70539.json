@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Französische Str."
             }
+        ],
+        "notices": [
+            {
+                "court": "Berlin-Charlottenburg",
+                "hrb": "HRB 116784 B",
+                "registration": "successor",
+                "text": " ist nach Berlin (jetzt Amtsgericht Berlin-Charlottenburg HRB 116784 B ) verlegt.",
+                "to": "Berlin",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

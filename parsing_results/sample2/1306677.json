@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Nordring 50, 44787 Bochum."
             }
+        ],
+        "notices": [
+            {
+                "court": "Bochum",
+                "hrb": "HRB 16146",
+                "registration": "successor",
+                "text": " ist nach Bochum (jetzt Amtsgericht Bochum, HRB 16146) verlegt.",
+                "to": "Bochum",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

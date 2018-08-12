@@ -15,5 +15,22 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=862216&land_abk=by"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Neuer Sitz: Bochum.",
+                "to": "Bochum",
+                "used_regex": "to_regex2"
+            },
+            {
+                "court": "Bochum",
+                "hrb": "HRB 15375",
+                "registration": "successor",
+                "text": " nach Bochum (nun Amtsgericht Bochum HRB 15375).",
+                "to": "Bochum",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

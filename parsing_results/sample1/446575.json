@@ -25,6 +25,16 @@
                 "label": "company",
                 "text": " Düsseldorf"
             }
+        ],
+        "notices": [
+            {
+                "court": "Düsseldorf",
+                "hrb": "HRB 81365",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Düsseldorf verlegt (Amtsgericht Düsseldorf, HRB 81365).",
+                "to": "Düsseldorf",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

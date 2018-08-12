@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Q 6, 2."
             }
+        ],
+        "notices": [
+            {
+                "court": "Mannheim",
+                "hrb": "HRB 728520",
+                "registration": "successor",
+                "text": " nach Mannheim (nun Amtsgericht Mannheim HRB 728520).",
+                "to": "Mannheim",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

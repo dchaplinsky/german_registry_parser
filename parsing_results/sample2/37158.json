@@ -15,5 +15,17 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=37158&land_abk=be"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Mannheim",
+                "from": "Berlin",
+                "hrb": "HRB 701997",
+                "registration": "successor",
+                "text": " der Gesellschaft ist von Berlin nach Mannheim verlegt (Amtsgericht Mannheim, HRB 701997).",
+                "to": "Mannheim",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

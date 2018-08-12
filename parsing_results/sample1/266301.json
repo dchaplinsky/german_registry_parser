@@ -21,6 +21,15 @@
                 "label": "address",
                 "text": " nadorster straße 222, 26123 oldenburg."
             }
+        ],
+        "notices": [
+            {
+                "court": "oldenburg",
+                "registration": "successor",
+                "text": " ist nach oldenburg (jetzt amtsgericht oldenburg",
+                "to": "oldenburg",
+                "used_regex": "to_regex, court_regex"
+            }
         ]
     }
 }

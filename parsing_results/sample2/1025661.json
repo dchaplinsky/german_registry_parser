@@ -21,6 +21,22 @@
                 "label": "address",
                 "text": " Rosa-Luxemburg-Straße 14, 10178 Berlin."
             }
+        ],
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Neuer Sitz: Berlin.",
+                "to": "Berlin",
+                "used_regex": "to_regex2"
+            },
+            {
+                "court": "Charlottenburg",
+                "hrb": "HRB 182080 B",
+                "registration": "successor",
+                "text": " nach Berlin (nun Amtsgericht Charlottenburg HRB 182080 B).",
+                "to": "Berlin",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

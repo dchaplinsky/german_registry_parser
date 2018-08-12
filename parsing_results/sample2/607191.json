@@ -28,6 +28,17 @@
                 "text": " Am Gerbergraben 2b, 57439 Attendorn."
             }
         ],
+        "notices": [
+            {
+                "court": "München",
+                "from": "Grünwald",
+                "hrb": "HRA 90878",
+                "registration": "successor",
+                "text": " ist von Grünwald (bisher Amtsgericht München, HRA 90878) nach Attendorn verlegt.",
+                "to": "Attendorn",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

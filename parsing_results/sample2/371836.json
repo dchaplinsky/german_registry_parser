@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Wiesbadener Straße 71, 65510 Idstein."
             }
+        ],
+        "notices": [
+            {
+                "court": "Wiesbaden",
+                "hrb": "HRB 27526",
+                "registration": "successor",
+                "text": " ist nach Idstein (jetzt Amtsgericht Wiesbaden, HRB 27526) verlegt.",
+                "to": "Idstein",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

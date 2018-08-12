@@ -25,6 +25,16 @@
                 "label": "company",
                 "text": " Potsdam"
             }
+        ],
+        "notices": [
+            {
+                "court": "Potsdam",
+                "hrb": "HRB 29107 P",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Potsdam verlegt (Amtsgericht Potsdam, HRB 29107 P).",
+                "to": "Potsdam",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

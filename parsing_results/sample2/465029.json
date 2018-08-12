@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=465029&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Augsburg",
+                "hrb": "HRB 32150",
+                "registration": "successor",
+                "text": " ist nach Dießen Am Ammersee (jetzt Amtsgericht Augsburg HRB 32150) verlegt.",
+                "to": "Dießen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

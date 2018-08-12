@@ -21,6 +21,21 @@
                 "label": "address",
                 "text": " Kuehnstraße 102a, 22045 Hamburg."
             }
+        ],
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Hamburg.",
+                "used_regex": ""
+            },
+            {
+                "court": "Hamburg",
+                "hrb": "HRB 141763",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Hamburg (jetzt Amtsgericht Hamburg HRB 141763) verlegt.",
+                "to": "Hamburg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

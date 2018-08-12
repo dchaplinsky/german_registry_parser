@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Taube Bünte 21, 29308 Winsen / Aller."
             }
+        ],
+        "notices": [
+            {
+                "court": "Lüneburg",
+                "hrb": "HRB 204770",
+                "registration": "successor",
+                "text": " ist nach Winsen / Aller (jetzt Amtsgericht Lüneburg HRB 204770) verlegt.",
+                "to": "Winsen /",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=274555&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Freiburg",
+                "registration": "successor",
+                "text": " ist nach Bad Krozingen (jetzt Amtsgericht Freiburg i. Br.",
+                "to": "Bad Krozingen",
+                "used_regex": "to_regex, court_regex"
+            }
+        ]
+    }
 }

@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=393338&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "leipzig",
+                "hrb": "hrb 30547",
+                "registration": "successor",
+                "text": " ist nach leipzig (jetzt amtsgericht leipzig, hrb 30547) verlegt.",
+                "to": "leipzig",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

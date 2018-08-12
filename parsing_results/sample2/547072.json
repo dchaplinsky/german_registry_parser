@@ -37,6 +37,17 @@
                 "label": "address",
                 "text": " Theodor-Heuss-Str."
             }
+        ],
+        "notices": [
+            {
+                "court": "München",
+                "from": "München",
+                "hrb": "HRB 198069",
+                "registration": "successor",
+                "text": " ist von München (Amtsgericht München HRB 198069) nach Stuttgart verlegt.",
+                "to": "Stuttgart",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

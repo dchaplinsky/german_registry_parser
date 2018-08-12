@@ -27,6 +27,17 @@
                 "label": "address",
                 "text": " Hauptstraße 28, 15806 Zossen"
             }
+        ],
+        "notices": [
+            {
+                "court": "Jena",
+                "from": "Erfurt",
+                "hrb": "HRB 503185",
+                "registration": "successor",
+                "text": " der Gesellschaft von Erfurt (Amtsgericht Jena, HRB 503185) nach Zossen verlegt und die Satzung geändert in § 1 Abs. 2 (Sitz).",
+                "to": "Zossen",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

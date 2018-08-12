@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Am Bettenheimer Hof 85, 55576 Sprendlingen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Mainz",
+                "hrb": "HRA 42137",
+                "registration": "successor",
+                "text": " ist nach Sprendlingen (jetzt Amtsgericht Mainz, HRA 42137) verlegt.",
+                "to": "Sprendlingen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

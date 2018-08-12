@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=265465&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Schwerin",
+                "hrb": "HRB 9585",
+                "registration": "successor",
+                "text": " ist nach Schimm (jetzt: Amtsgericht Schwerin, HRB 9585) verlegt.",
+                "to": "Schimm",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

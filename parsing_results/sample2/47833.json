@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=47833&land_abk=hb"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Tostedt",
+                "hrb": "HRB 204633",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Schiffdorf verlegt (Amtsgericht Tostedt, HRB 204633).",
+                "to": "Schiffdorf",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

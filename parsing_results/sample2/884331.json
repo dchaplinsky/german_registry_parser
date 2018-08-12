@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=884331&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Mainz",
+                "hrb": "HRB 44476",
+                "registration": "successor",
+                "text": " ist nach Alzey (jetzt Amtsgericht Mainz, HRB 44476) verlegt.",
+                "to": "Alzey",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

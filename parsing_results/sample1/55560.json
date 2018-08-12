@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=55560&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "hrb 201340",
+                "registration": "successor",
+                "text": " ist nach wanna (jetzt tostedt, hrb 201340) verlegt.",
+                "to": "wanna",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

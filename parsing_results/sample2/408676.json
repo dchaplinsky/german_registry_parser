@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Landgraf-Philipp-Straße 46, 60431 Frankfurt am Main."
             }
+        ],
+        "notices": [
+            {
+                "court": "Frankfurt",
+                "hrb": "HRA 45100",
+                "registration": "successor",
+                "text": " ist nach Frankfurt am Main (jetzt Amtsgericht Frankfurt am Main, HRA 45100) verlegt.",
+                "to": "Frankfurt am Main",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

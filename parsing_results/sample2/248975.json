@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=248975&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Bochum",
+                "hrb": "HRB 11296",
+                "registration": "successor",
+                "text": " ist nach Bochum (jetzt Amtsgericht Bochum, HRB 11296, nunmehr Viktoria Klinik Bochum GmbH) verlegt.",
+                "to": "Bochum",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

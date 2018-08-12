@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Viersener Straße 172, 47877 Willich."
             }
+        ],
+        "notices": [
+            {
+                "court": "Krefeld",
+                "hrb": "HRB 13024",
+                "registration": "successor",
+                "text": " ist nach Willich (jetzt Amtsgericht Krefeld, HRB 13024) verlegt.",
+                "to": "Willich",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

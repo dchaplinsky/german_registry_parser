@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Konsul-Schmidt-Straße 8 R, 28217 Bremen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Bremen",
+                "hrb": "HRB 31581 HB",
+                "registration": "successor",
+                "text": " ist nach Bremen (jetzt Amtsgericht Bremen HRB HRB 31581 HB) verlegt.",
+                "to": "Bremen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

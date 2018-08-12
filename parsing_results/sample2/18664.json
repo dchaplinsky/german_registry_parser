@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=18664&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Bonn",
+                "hrb": "HRB 14763",
+                "registration": "successor",
+                "text": " ist nach Bonn (jetzt Amtsgericht Bonn HRB 14763) verlegt.",
+                "to": "Bonn",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

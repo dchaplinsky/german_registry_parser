@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Einsteinstr."
             }
+        ],
+        "notices": [
+            {
+                "court": "Stuttgart",
+                "hrb": "HRB 758092",
+                "registration": "successor",
+                "text": " ist nach Ditzingen (jetzt Amtsgericht Stuttgart, HRB 758092) verlegt.",
+                "to": "Ditzingen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

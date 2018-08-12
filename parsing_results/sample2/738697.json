@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Siemensstraße 2-50, 53121 Bonn."
             }
+        ],
+        "notices": [
+            {
+                "court": "Bonn",
+                "hrb": "HRB 19024",
+                "registration": "successor",
+                "text": " ist nach Bonn (jetzt Amtsgericht Bonn HRB 19024) verlegt.",
+                "to": "Bonn",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

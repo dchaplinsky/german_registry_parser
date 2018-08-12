@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=122555&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Bad",
+                "hrb": "HRB 11214",
+                "registration": "successor",
+                "text": " der Gesellschaft - nun firmierend: SAR Bauausführung GmbH - ist nach Oberursel (Taunus) (jetzt Amtsgericht Bad Homburg v.d.H., HRB 11214) verlegt.",
+                "to": "Oberursel",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

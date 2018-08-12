@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Am Thomasrain 5 a, 63571 Gelnhausen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Hanau",
+                "hrb": "HRA 93017",
+                "registration": "successor",
+                "text": " ist nach Gelnhausen (jetzt Amtsgericht Hanau HRA 93017) verlegt.",
+                "to": "Gelnhausen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

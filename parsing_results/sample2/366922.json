@@ -32,6 +32,17 @@
                 "text": " Geislinger Straße 6, 72348 Rosenfeld."
             }
         ],
+        "notices": [
+            {
+                "court": "Ulm",
+                "from": "Heubach",
+                "hrb": "HRB 725007",
+                "registration": "successor",
+                "text": " ist von Heubach (Amtsgericht Ulm HRB 725007) nach Rosenfeld verlegt.",
+                "to": "Rosenfeld",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

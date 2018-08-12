@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=271677&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Essen",
+                "hrb": "HRB 20205",
+                "registration": "successor",
+                "text": " ist nach Essen (jetzt Amtsgericht Essen HRB 20205) verlegt.",
+                "to": "Essen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

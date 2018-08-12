@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Mainzer Landstraße 46/Frankfurter Büro Center, 60325 Frankfurt."
             }
+        ],
+        "notices": [
+            {
+                "court": "Frankfurt am Main",
+                "hrb": "HRA 45854",
+                "registration": "successor",
+                "text": " ist nach Frankfurt (jetzt Amtsgericht Frankfurt am Main HRA 45854) verlegt.",
+                "to": "Frankfurt",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

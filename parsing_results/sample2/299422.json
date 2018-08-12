@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=299422&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Stuttgart",
+                "hrb": "HRA 732214",
+                "registration": "successor",
+                "text": " ist nach Marbach am Neckar (jetzt Amtsgericht Stuttgart HRA 732214) verlegt.",
+                "to": "Marbach am Neckar",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

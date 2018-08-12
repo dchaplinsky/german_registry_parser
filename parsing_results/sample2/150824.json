@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Europaplatz 5, 99091 Erfurt."
             }
+        ],
+        "notices": [
+            {
+                "court": "Jena",
+                "hrb": "HRB 504427",
+                "registration": "successor",
+                "text": " ist nach Erfurt (jetzt Amtsgericht Jena, HRB 504427) verlegt.",
+                "to": "Erfurt",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

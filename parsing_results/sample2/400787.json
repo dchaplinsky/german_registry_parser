@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=400787&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Mannheim",
+                "hrb": "HRB 719978",
+                "registration": "successor",
+                "text": " ist nach Heidelberg (jetzt Amtsgericht Mannheim, HRB 719978) verlegt.",
+                "to": "Heidelberg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

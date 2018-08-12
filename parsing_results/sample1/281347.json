@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=281347&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "lübeck",
+                "hrb": "hra 8224 hl",
+                "registration": "successor",
+                "text": " ist nach oststeinbek (jetzt amtsgericht lübeck hra 8224 hl) verlegt.",
+                "to": "oststeinbek",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=12573&land_abk=br"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "from": "Berlin",
+                "hrb": "GnR 573 B",
+                "registration": "successor",
+                "text": " der Genossenschaft von Berlin (AG Charlottenburg, GnR 573 B) nach Strausberg verlegt und die Satzung geändert in § 1 Satz 2 (Firma und Sitz).",
+                "to": "Strausberg",
+                "used_regex": "from_regex, hrb_regex, to_regex"
+            }
+        ]
+    }
 }

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Kösterbergstr."
             }
+        ],
+        "notices": [
+            {
+                "court": "Hamburg",
+                "hrb": "HRA 112615",
+                "registration": "successor",
+                "text": " ist nach Hamburg (jetzt Amtsgericht Hamburg HRA 112615) verlegt.",
+                "to": "Hamburg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

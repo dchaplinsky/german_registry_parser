@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=213764&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRA 721144",
+                "registration": "successor",
+                "text": " ist nach Stuttgart (jetzt AG Stuttgart HRA 721144) verlegt.",
+                "to": "Stuttgart",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Energie-Allee 1, 55286 Wörrstadt."
             }
+        ],
+        "notices": [
+            {
+                "court": "Mainz",
+                "hrb": "HRA 40918",
+                "registration": "successor",
+                "text": " ist nach Wörrstadt (jetzt Amtsgericht Mainz, HRA 40918) verlegt.",
+                "to": "Wörrstadt",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

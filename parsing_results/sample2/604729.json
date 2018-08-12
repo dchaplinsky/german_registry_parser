@@ -32,6 +32,17 @@
                 "text": " Lautenschlagerstraße 23a, 70173 Stuttgart."
             }
         ],
+        "notices": [
+            {
+                "court": "München",
+                "from": "München",
+                "hrb": "HRB 231605",
+                "registration": "successor",
+                "text": " ist von München (Amtsgericht München HRB 231605) nach Stuttgart verlegt.",
+                "to": "Stuttgart",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

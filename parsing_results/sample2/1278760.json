@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Seligenstädter Str."
             }
+        ],
+        "notices": [
+            {
+                "court": "Aschaffenburg",
+                "hrb": "HRB 13746",
+                "registration": "successor",
+                "text": " ist nach Karlstein (jetzt Amtsgericht Aschaffenburg, HRB 13746) verlegt.",
+                "to": "Karlstein",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

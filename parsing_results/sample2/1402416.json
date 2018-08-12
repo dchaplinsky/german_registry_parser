@@ -28,6 +28,17 @@
                 "text": " Brummelweg 18, 33415 Verl."
             }
         ],
+        "notices": [
+            {
+                "court": "Charlottenburg",
+                "from": "Berlin",
+                "hrb": "HRA 52953 B",
+                "registration": "successor",
+                "text": " ist von Berlin (bisher Amtsgericht Charlottenburg, HRA 52953 B) nach Verl verlegt.",
+                "to": "Verl",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

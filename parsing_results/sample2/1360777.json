@@ -28,6 +28,17 @@
                 "text": " Am Flinsbach 1, 44229 Dortmund."
             }
         ],
+        "notices": [
+            {
+                "court": "Hagen",
+                "from": "Herdecke",
+                "hrb": "HRA 5747",
+                "registration": "successor",
+                "text": " ist von Herdecke (bisher Amtsgericht Hagen, HRA 5747) nach Dortmund verlegt.",
+                "to": "Dortmund",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

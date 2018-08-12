@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=343668&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Charlottenburg",
+                "hrb": "HRB 190040 B",
+                "registration": "successor",
+                "text": " ist nach Berlin (jetzt Amtsgericht Charlottenburg HRB 190040 B) verlegt.",
+                "to": "Berlin",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

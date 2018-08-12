@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=477915&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Darmstadt",
+                "hrb": "HRA 85605",
+                "registration": "successor",
+                "text": " ist nach Groß-Gerau (jetzt Amtsgericht Darmstadt, HRA 85605) verlegt.",
+                "to": "Groß-Gerau",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

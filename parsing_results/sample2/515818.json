@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Xantener Straße 7, 41460 Neuss."
             }
+        ],
+        "notices": [
+            {
+                "court": "Neuss",
+                "hrb": "HRB 15452",
+                "registration": "successor",
+                "text": " ist nach Neuss (jetzt: Amtsgericht Neuss, HRB 15452) verlegt.",
+                "to": "Neuss",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

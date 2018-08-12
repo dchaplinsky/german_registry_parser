@@ -21,6 +21,17 @@
                 "label": "address",
                 "text": " Lütgenholthauser Str."
             }
+        ],
+        "notices": [
+            {
+                "court": "Köln",
+                "from": "Köln",
+                "hrb": "HRB 60808",
+                "registration": "successor",
+                "text": " der Zweigniederlassung ist von Köln (bisher Amtsgericht Köln HRB 60808) nach Dortmund verlegt worden.",
+                "to": "Dortmund",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

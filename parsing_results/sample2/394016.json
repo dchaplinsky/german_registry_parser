@@ -21,6 +21,22 @@
                 "label": "address",
                 "text": " Monteverdistraße 2, 34131 Kassel."
             }
+        ],
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Neuer Sitz: Kassel.",
+                "to": "Kassel",
+                "used_regex": "to_regex2"
+            },
+            {
+                "court": "Kassel",
+                "hrb": "HRB 16422",
+                "registration": "successor",
+                "text": " ist nach Kassel (jetzt Amtsgericht Kassel, HRB 16422) verlegt.",
+                "to": "Kassel",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

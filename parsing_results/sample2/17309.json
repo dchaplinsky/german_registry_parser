@@ -16,6 +16,17 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=17309&land_abk=be"
     },
     "parsed": {
+        "notices": [
+            {
+                "court": "München",
+                "from": "München",
+                "hrb": "HRB 152397",
+                "registration": "successor",
+                "text": " der Gesellschaft von München (Amtsgericht München, HRB 152397) nach Berlin verlegt und der Gesellschaftsvertrag geändert in § 1 (Sitz)..",
+                "to": "Berlin",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

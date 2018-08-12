@@ -28,6 +28,17 @@
                 "text": " Wilhelm-Theodor-Römheld-Straße 30, 55130 Mainz."
             }
         ],
+        "notices": [
+            {
+                "court": "Wiesbaden",
+                "from": "Wiesbaden",
+                "hrb": "HRA 8044",
+                "registration": "successor",
+                "text": " ist von Wiesbaden (bisher Amtsgericht Wiesbaden, HRA 8044) nach Mainz verlegt.",
+                "to": "Mainz",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

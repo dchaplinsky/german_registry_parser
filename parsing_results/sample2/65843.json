@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=65843&land_abk=by"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Offenburg",
+                "hrb": "HRB 2431",
+                "registration": "successor",
+                "text": " nach Offenburg (nun Amtsgericht Offenburg HRB 2431).",
+                "to": "Offenburg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

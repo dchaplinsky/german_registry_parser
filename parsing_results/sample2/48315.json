@@ -56,6 +56,17 @@
                 "text": " Merkurstraße 49, 28197 Bremen."
             }
         ],
+        "notices": [
+            {
+                "court": "Berlin",
+                "from": "Berlin",
+                "hrb": "HRB 159048 B",
+                "registration": "successor",
+                "text": " der Gesellschaft von Berlin (Amtsgericht Berlin Charlottenburg, HRB 159048 B) nach Bremen verlegt und der Gesellschaftsvertrag geändert in § 1 (Firma, Sitz).",
+                "to": "Bremen",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

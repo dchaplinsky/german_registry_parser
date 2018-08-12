@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " josephinenstraße 112 c, 44807 bochum."
             }
+        ],
+        "notices": [
+            {
+                "court": "bochum -",
+                "hrb": "hrb 12247",
+                "registration": "successor",
+                "text": " ist nach bochum (jetzt amtsgericht bochum - hrb 12247) verlegt.",
+                "to": "bochum",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=187241&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Lüneburg",
+                "hrb": "HRB 204072",
+                "registration": "successor",
+                "text": " ist nach Seevetal (jetzt Amtsgericht Lüneburg HRB 204072) verlegt.",
+                "to": "Seevetal",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

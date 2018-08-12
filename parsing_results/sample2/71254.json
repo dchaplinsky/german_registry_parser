@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=71254&land_abk=by"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 160021",
+                "registration": "successor",
+                "text": " nach Erding (nun AG München HRB 160021).",
+                "to": "Erding",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

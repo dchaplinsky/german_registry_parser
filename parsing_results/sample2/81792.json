@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Lindauer Str."
             }
+        ],
+        "notices": [
+            {
+                "court": "Ulm",
+                "hrb": "HRA 721878",
+                "registration": "successor",
+                "text": " ist nach Tettnang (jetzt Amtsgericht Ulm, HRA 721878) verlegt.",
+                "to": "Tettnang",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

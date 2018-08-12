@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=102563&land_abk=by"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Magdeburg",
+                "hrb": "HRB 15294",
+                "registration": "successor",
+                "text": " nach Magdeburg (nun Amtsgericht Magdeburg, HRB 15294).",
+                "to": "Magdeburg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

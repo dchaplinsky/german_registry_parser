@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Wiebelheidestraße 51, 59757 Arnsberg."
             }
+        ],
+        "notices": [
+            {
+                "court": "Arnsberg",
+                "hrb": "HRA 7997",
+                "registration": "successor",
+                "text": " ist nach Arnsberg (jetzt: Amtsgericht Arnsberg HRA 7997) verlegt.",
+                "to": "Arnsberg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

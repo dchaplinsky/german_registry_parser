@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Harpener Feld 34 a, 44805 Bochum."
             }
+        ],
+        "notices": [
+            {
+                "court": "Bochum",
+                "hrb": "HRB 12981",
+                "registration": "successor",
+                "text": " ist nach Bochum (jetzt Amtsgericht Bochum, HRB 12981) verlegt.",
+                "to": "Bochum",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

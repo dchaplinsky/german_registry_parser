@@ -21,6 +21,22 @@
                 "label": "address",
                 "text": " Jahnstraße 27, 63450 Hanau."
             }
+        ],
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Neuer Sitz: Hanau.",
+                "to": "Hanau",
+                "used_regex": "to_regex2"
+            },
+            {
+                "court": "Hanau",
+                "hrb": "HRB 95927",
+                "registration": "successor",
+                "text": " nach Hanau (nun Amtsgericht Hanau HRB 95927).",
+                "to": "Hanau",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

@@ -28,6 +28,17 @@
                 "text": " Christian-Heibel-Straße 21, 56422 Wirges."
             }
         ],
+        "notices": [
+            {
+                "court": "München",
+                "from": "München",
+                "hrb": "HRA 92114",
+                "registration": "successor",
+                "text": " ist von München (bisher Amtsgericht München, HRA 92114) nach München verlegt.",
+                "to": "München",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "PersonalPartner",

@@ -15,5 +15,14 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=173901&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "registration": "successor",
+                "text": " ist nach Halle/Westf.",
+                "to": "Halle/Westf",
+                "used_regex": "to_regex"
+            }
+        ]
+    }
 }

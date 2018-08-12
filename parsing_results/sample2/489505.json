@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Biggestraße 82 a, 57462 Olpe."
             }
+        ],
+        "notices": [
+            {
+                "court": "Siegen",
+                "hrb": "HRB 10975",
+                "registration": "successor",
+                "text": " ist nach Olpe (jetzt Amtsgericht Siegen, HRB 10975) verlegt.",
+                "to": "Olpe",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

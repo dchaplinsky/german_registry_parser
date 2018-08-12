@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=58345&land_abk=sh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Kiel",
+                "hrb": "HRB 10999 KI",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Laboe verlegt (Amtsgericht Kiel, HRB 10999 KI)..",
+                "to": "Laboe",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

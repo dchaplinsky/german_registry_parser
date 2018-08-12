@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=444154&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRA 5539",
+                "registration": "successor",
+                "text": " ist nach Alzenau (jetzt AG Aschaffenburg, HRA 5539) verlegt.",
+                "to": "Alzenau",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

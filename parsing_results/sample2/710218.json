@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Alfredstr."
             }
+        ],
+        "notices": [
+            {
+                "court": "Essen",
+                "hrb": "HRA 9694",
+                "registration": "successor",
+                "text": " ist nach Essen (jetzt Amtsgericht Essen HRA 9694) verlegt.",
+                "to": "Essen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

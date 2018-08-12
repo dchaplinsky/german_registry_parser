@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Birkenwaldstraße 40, 63179 Obertshausen."
             }
+        ],
+        "notices": [
+            {
+                "court": "Offenbach",
+                "hrb": "HRB 49025",
+                "registration": "successor",
+                "text": " ist nach Obertshausen (jetzt Amtsgericht Offenbach am Main, HRB 49025) verlegt.",
+                "to": "Obertshausen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

@@ -15,5 +15,22 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=558237&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Neuer Sitz: Wildau.",
+                "to": "Wildau",
+                "used_regex": "to_regex2"
+            },
+            {
+                "court": "Cottbus",
+                "hrb": "HRB 13018 CB",
+                "registration": "successor",
+                "text": " ist nach Wildau (jetzt Amtsgericht Cottbus, HRB 13018 CB) verlegt.",
+                "to": "Wildau",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

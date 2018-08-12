@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=23623&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "hrb 85205",
+                "registration": "successor",
+                "text": " ist nach heppenheim (jetzt ag darmstadt, hrb 85205) verlegt.",
+                "to": "heppenheim",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

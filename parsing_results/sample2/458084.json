@@ -21,6 +21,15 @@
                 "label": "address",
                 "text": " Notburgastraße 2, 80639 München."
             }
+        ],
+        "notices": [
+            {
+                "hrb": "HRA 104467",
+                "registration": "successor",
+                "text": " ist nach München (jetzt AG München, HRA 104467) verlegt.",
+                "to": "München",
+                "used_regex": "hrb_regex, to_regex"
+            }
         ]
     }
 }

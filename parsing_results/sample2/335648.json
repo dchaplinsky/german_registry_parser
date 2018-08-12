@@ -15,5 +15,21 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=335648&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "registration": "successor",
+                "text": ", nun: Rotenburg/Wümme.",
+                "used_regex": ""
+            },
+            {
+                "court": "Walsrode",
+                "hrb": "HRA 202727",
+                "registration": "successor",
+                "text": " ist nach Rotenburg/Wümme (jetzt Amtsgericht Walsrode HRA 202727) verlegt.",
+                "to": "Rotenburg/Wümme",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

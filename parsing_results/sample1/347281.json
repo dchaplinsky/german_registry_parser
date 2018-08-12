@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=347281&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "stuttgart",
+                "hrb": "hrb 762719",
+                "registration": "successor",
+                "text": " ist nach stuttgart (jetzt amtsgericht stuttgart, hrb 762719) verlegt.",
+                "to": "stuttgart",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

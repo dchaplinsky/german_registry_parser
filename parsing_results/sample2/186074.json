@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Lengerckestieg 3, 22041 Hamburg"
             }
+        ],
+        "notices": [
+            {
+                "court": "Hamburg",
+                "hrb": "HRB 140543",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Hamburg verlegt (Amtsgericht Hamburg, HRB 140543).",
+                "to": "Hamburg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

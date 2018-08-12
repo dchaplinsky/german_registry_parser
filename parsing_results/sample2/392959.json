@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Hochwaldstraße 1, 61231 Bad Nauheim."
             }
+        ],
+        "notices": [
+            {
+                "court": "Friedberg",
+                "hrb": "HRB 7906",
+                "registration": "successor",
+                "text": " ist nach Bad Nauheim (jetzt Amtsgericht Friedberg HRB 7906) verlegt.",
+                "to": "Bad Nauheim",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

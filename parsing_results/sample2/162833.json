@@ -40,6 +40,17 @@
                 "text": " Überseeallee 1, 20457 Hamburg"
             }
         ],
+        "notices": [
+            {
+                "court": "Hamburg",
+                "from": "Hamburg",
+                "hrb": "HRB 134054",
+                "registration": "successor",
+                "text": " der Gesellschaft von Hamburg (Amtsgericht Hamburg, HRB 134054) nach Kiel verlegt und der Gesellschaftsvertrag geändert in §§ 1, 2, 8, 9 und 10.",
+                "to": "Kiel",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",

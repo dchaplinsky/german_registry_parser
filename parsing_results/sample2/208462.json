@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=208462&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRB 7583",
+                "registration": "successor",
+                "text": " ist nach Hagen (jetzt AG Hagen, HRB 7583, neuer Firmenname: Synergetics Germany GmbH) verlegt.",
+                "to": "Hagen",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

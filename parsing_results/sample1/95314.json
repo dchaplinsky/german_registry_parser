@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=95314&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Friedberg",
+                "hrb": "HRB 6650",
+                "registration": "successor",
+                "text": " ist nach Bad Nauheim (jetzt Amtsgericht Friedberg HRB 6650) verlegt.",
+                "to": "Bad Nauheim",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

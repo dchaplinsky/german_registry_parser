@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=18692&land_abk=sl"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Wittlich",
+                "hrb": "HRB 40838",
+                "registration": "successor",
+                "text": " ist nach Konz verlegt (jetzt Amtsgericht Wittlich HRB 40838).",
+                "to": "Konz",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

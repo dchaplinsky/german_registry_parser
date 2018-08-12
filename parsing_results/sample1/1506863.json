@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " dormienstraße 10, 22587 hamburg."
             }
+        ],
+        "notices": [
+            {
+                "court": "hamburg",
+                "hrb": "hrb 150192",
+                "registration": "successor",
+                "text": " ist nach hamburg (jetzt amtsgericht hamburg, hrb 150192",
+                "to": "hamburg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

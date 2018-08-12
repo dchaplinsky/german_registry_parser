@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " neue straße 19, 52382 niederzier."
             }
+        ],
+        "notices": [
+            {
+                "court": "düren",
+                "hrb": "hrb 6437",
+                "registration": "successor",
+                "text": " ist nach niederzier (jetzt amtsgericht düren, hrb 6437) verlegt.",
+                "to": "niederzier",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

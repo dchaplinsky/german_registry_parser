@@ -27,6 +27,16 @@
                 "label": "address",
                 "text": " Paul-Thomas-Straße 58, 40599 Düsseldorf."
             }
+        ],
+        "notices": [
+            {
+                "from": "Leverkusen",
+                "hrb": "HRB 49443",
+                "registration": "successor",
+                "text": " der Zweigniederlassung ist von Leverkusen (bisher AG Köln, HRB 49443) nach Düsseldorf verlegt.",
+                "to": "Düsseldorf",
+                "used_regex": "from_regex, hrb_regex, to_regex"
+            }
         ]
     }
 }

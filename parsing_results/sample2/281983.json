@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=281983&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Siegen",
+                "hrb": "HRB 8440",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Freudenberg (jetzt Amtsgericht Siegen, HRB 8440) verlegt.",
+                "to": "Freudenberg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

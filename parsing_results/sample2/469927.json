@@ -32,6 +32,17 @@
                 "text": " Jahnstr."
             }
         ],
+        "notices": [
+            {
+                "court": "Stuttgart",
+                "from": "Leonberg",
+                "hrb": "HRB 746900",
+                "registration": "successor",
+                "text": " ist von Leonberg (Amtsgericht Stuttgart HRB 746900) nach Deggingen verlegt.",
+                "to": "Deggingen",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

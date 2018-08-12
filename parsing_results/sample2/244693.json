@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=244693&land_abk=by"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "München",
+                "hrb": "HRB 173555",
+                "registration": "successor",
+                "text": " nach München (nun Amtsgericht München HRB 173555).",
+                "to": "München",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

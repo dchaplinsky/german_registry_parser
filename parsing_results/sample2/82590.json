@@ -28,6 +28,17 @@
                 "text": " Grubenstraße 20, 18055 Rostock."
             }
         ],
+        "notices": [
+            {
+                "court": "Kiel",
+                "from": "Kiel",
+                "hrb": "HRA 3500 KI",
+                "registration": "successor",
+                "text": " ist von Kiel (bisher Amtsgericht Kiel, HRA 3500 KI) nach Rostock verlegt.",
+                "to": "Rostock",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "RetiredPersonalPartner",

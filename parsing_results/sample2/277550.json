@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=277550&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Gütersloh",
+                "hrb": "HRA 6142",
+                "registration": "successor",
+                "text": " ist nach Rietberg (jetzt Amtsgericht Gütersloh, HRA 6142) verlegt.",
+                "to": "Rietberg",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Lambsborner Straße 12, 66892 Bruchmühlbach-Miesau."
             }
+        ],
+        "notices": [
+            {
+                "court": "Zweibrücken",
+                "hrb": "HRB 31389",
+                "registration": "successor",
+                "text": " ist nach Bruchmühlbach-Miesau (jetzt Amtsgericht Zweibrücken, HRB 31389) verlegt.",
+                "to": "Bruchmühlbach-Miesau",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

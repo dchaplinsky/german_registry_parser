@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=328690&land_abk=hh"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Kiel",
+                "hrb": "HRB 18561 KI",
+                "registration": "successor",
+                "text": " ist nach Norderstedt (jetzt Amtsgericht Kiel, HRB 18561 KI) verlegt.",
+                "to": "Norderstedt",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

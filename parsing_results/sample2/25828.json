@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=25828&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRA 4913",
+                "registration": "successor",
+                "text": " ist nach Steinfurt (jetzt Steinfurt HRA 4913) verlegt.",
+                "to": "Steinfurt",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

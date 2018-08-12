@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Untermainkai 20, 60329 Frankfurt am Main."
             }
+        ],
+        "notices": [
+            {
+                "court": "Frankfurt am Main",
+                "hrb": "HRB 95601",
+                "registration": "successor",
+                "text": " ist nach Frankfurt/Main (jetzt Amtsgericht Frankfurt am Main HRB 95601) verlegt.",
+                "to": "Frankfurt/Main",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

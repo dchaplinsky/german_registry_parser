@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " riesebusch 8, 23611 bad schwartau."
             }
+        ],
+        "notices": [
+            {
+                "court": "lübeck",
+                "hrb": "hrb 12409 hl",
+                "registration": "successor",
+                "text": " ist nach bad schwartau (jetzt amtsgericht lübeck hrb 12409 hl) verlegt.",
+                "to": "bad schwartau",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

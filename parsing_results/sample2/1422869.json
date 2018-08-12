@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1422869&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Amtsgericht",
+                "hrb": "HRB 80852",
+                "registration": "successor",
+                "text": " der Gesellschaft ist nach Düsseldorf (jetzt: Amtsgericht Amtsgericht Düsseldorf, HRB 80852) verlegt.",
+                "to": "Düsseldorf",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

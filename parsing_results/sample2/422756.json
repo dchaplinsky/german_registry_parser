@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=422756&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Mannheim",
+                "hrb": "HRB 721448",
+                "registration": "successor",
+                "text": " ist nach Mannheim (jetzt Amtsgericht Mannheim, HRB 721448) verlegt.",
+                "to": "Mannheim",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

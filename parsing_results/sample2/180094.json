@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Kölner Straße 27, 57439 Attendorn."
             }
+        ],
+        "notices": [
+            {
+                "court": "Siegen",
+                "hrb": "HRB 9156",
+                "registration": "successor",
+                "text": " ist nach Attendorn (jetzt Amtsgericht Siegen HRB 9156) verlegt.",
+                "to": "Attendorn",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

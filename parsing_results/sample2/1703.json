@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1703&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "hrb": "HRA 103591",
+                "registration": "successor",
+                "text": " ist nach Hamburg (jetzt AG Hamburg HRA 103591) verlegt.",
+                "to": "Hamburg",
+                "used_regex": "hrb_regex, to_regex"
+            }
+        ]
+    }
 }

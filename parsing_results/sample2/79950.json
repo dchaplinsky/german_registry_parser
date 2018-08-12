@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=79950&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Hagen",
+                "hrb": "HRB 7211",
+                "registration": "successor",
+                "text": " ist nach Schwerte (jetzt Amtsgericht Hagen HRB 7211) verlegt.",
+                "to": "Schwerte",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

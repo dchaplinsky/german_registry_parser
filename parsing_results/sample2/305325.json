@@ -32,6 +32,17 @@
                 "text": " Stuttgarter Straße 70/1, 73430 Aalen."
             }
         ],
+        "notices": [
+            {
+                "court": "Stuttgart",
+                "from": "Stuttgart",
+                "hrb": "HRB 740453",
+                "registration": "successor",
+                "text": " ist von Stuttgart (Amtsgericht Stuttgart HRB 740453) nach Aalen verlegt.",
+                "to": "Aalen",
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

@@ -21,6 +21,15 @@
                 "label": "address",
                 "text": " Zum Flugplatz 1, 73566 Bartholomä."
             }
+        ],
+        "notices": [
+            {
+                "hrb": "HRB 730029",
+                "registration": "successor",
+                "text": " ist nach Bartholomä (jetzt AG Ulm HRB 730029) verlegt.",
+                "to": "Bartholomä",
+                "used_regex": "hrb_regex, to_regex"
+            }
         ]
     }
 }

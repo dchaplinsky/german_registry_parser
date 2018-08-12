@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=44926&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Fulda",
+                "hrb": "HRB 5255",
+                "registration": "successor",
+                "text": " ist nach Fulda (jetzt Amtsgericht Fulda HRB 5255) verlegt.",
+                "to": "Fulda",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

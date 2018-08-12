@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Textorstraße 52, 60594 Frankfurt."
             }
+        ],
+        "notices": [
+            {
+                "court": "Frankfurt am Main",
+                "hrb": "HRB 96189",
+                "registration": "successor",
+                "text": " ist nach Frankfurt verlegt (jetzt Amtsgericht Frankfurt am Main HRB 96189).",
+                "to": "Frankfurt",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

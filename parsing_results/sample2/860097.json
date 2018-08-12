@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=860097&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Ingolstadt",
+                "hrb": "HRB 6467",
+                "registration": "successor",
+                "text": " ist nach Baar-Ebenhausen (jetzt Amtsgericht Ingolstadt HRB 6467 ) verlegt.",
+                "to": "Baar-Ebenhausen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }

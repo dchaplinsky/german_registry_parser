@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Haagstr."
             }
+        ],
+        "notices": [
+            {
+                "court": "Kleve",
+                "hrb": "HR B 10254",
+                "registration": "successor",
+                "text": " ist nach Moers (jetzt Amtsgericht Kleve, HR B 10254) verlegt.",
+                "to": "Moers",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

@@ -15,5 +15,15 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=366120&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "München",
+                "registration": "successor",
+                "text": " ist nach Kreuth (jetzt Amtsgericht München",
+                "to": "Kreuth",
+                "used_regex": "to_regex, court_regex"
+            }
+        ]
+    }
 }

@@ -21,6 +21,16 @@
                 "label": "address",
                 "text": " Schapener Straße 16, 38162 Cremlingen OT Weddel."
             }
+        ],
+        "notices": [
+            {
+                "court": "Braunschweig",
+                "hrb": "HRB 206752",
+                "registration": "successor",
+                "text": " ist verlegt nach Cremlingen (nun Amtsgericht Braunschweig HRB 206752).",
+                "to": "Cremlingen",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
         ]
     }
 }

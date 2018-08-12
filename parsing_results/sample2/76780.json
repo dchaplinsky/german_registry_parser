@@ -24,11 +24,17 @@
         ],
         "notices": [
             {
+                "registration": "successor",
+                "text": " ist nach Heßheim verlegt.",
+                "to": "Heßheim",
+                "used_regex": "to_regex"
+            },
+            {
                 "court": "Ludwigshafen/Rhein",
                 "hrb": "HRB 60",
                 "registration": "predecessor",
                 "text": " der persönlich haftenden Gesellschafterin: TAST Verwaltungs GmbH, Hessheim (Amtsgericht Ludwigshafen/Rhein HRB 60 670).",
-                "used_regex": "court, hrb"
+                "used_regex": "court_regex, hrb"
             }
         ]
     }

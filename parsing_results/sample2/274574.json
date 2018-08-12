@@ -15,5 +15,16 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=274574&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "notices": [
+            {
+                "court": "Bad Oeynhausen",
+                "hrb": "HRB 13748",
+                "registration": "successor",
+                "text": " ist nach Stemwede (jetzt Amtsgericht Bad Oeynhausen HRB 13748) verlegt.",
+                "to": "Stemwede",
+                "used_regex": "hrb_regex, to_regex, court_regex"
+            }
+        ]
+    }
 }
