@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Hannover",
                 "from": "Hannover",
                 "hrb": "HRB 211744",
+                "registration": "predecessor",
                 "text": " von Hannover (bisher Amtsgericht Hannover HRB 211744) nach Mörfelden-Walldorf beschlossen.",
                 "to": "Mörfelden-Walldorf",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Kaiserslautern",
                 "from": "Kusel",
                 "hrb": "HRB 30358",
+                "registration": "predecessor",
                 "text": " von Kusel (bisher Amtsgericht Kaiserslautern HRB 30358) nach St. Wendel beschlossen.",
                 "to": "St. Wendel",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

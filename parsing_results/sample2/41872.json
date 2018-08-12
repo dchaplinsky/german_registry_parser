@@ -32,11 +32,13 @@
         ],
         "notices": [
             {
+                "court": "Darmstadt",
                 "from": "Babenhausen",
                 "hrb": "HRB 31326",
+                "registration": "predecessor",
                 "text": " von Babenhausen (bisher Amtsgericht Darmstadt HRB 31326) nach Offenbach am Main beschlossen.",
                 "to": "Offenbach am Main",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

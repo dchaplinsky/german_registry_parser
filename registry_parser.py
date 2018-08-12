@@ -354,21 +354,38 @@ class RelocationNotice:
 
     def __init__(self, text):
         self.text = text
-        self.payload = {"used_regex": [], "text": text}
+        self.payload = {"used_regex": [], "text": text, "registration": "predecessor"}
 
+        any_code_regex = re.compile(
+            # r"\b([^\s\d]{1,3}\s?[^\s\d]{0,3}\s?)(\d+)\W([A-Z]{0,3}\b)",
+            r"\b(HR\s?[AB]\s?\d+\s?\b[A-Z]{0,3}\b)",
+
+            flags=re.I
+        )
         from_hrb_to_regex = re.compile(
-            r"\bvon\s+([^\(]+).*(HR\s?B\s?\d+).*nach\W([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)",
+            r"\bvon\s+([^\(]+).*((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b).*nach\W([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)",
             flags=re.I,
         )
 
-        from_hrb_regex = re.compile(r"\bvon\s+([^\(]+).*(HR\s?B\s?\d+)", flags=re.I)
+        from_hrb_regex = re.compile(r"\bvon\s+([^\(]+).*((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b)", flags=re.I)
         from_regex = re.compile(
             r"\bvon\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
         )
-        hrb_regex = re.compile(r"\b(HR\s?B\s?\d+)", flags=re.I)
+        hrb_regex = re.compile(r"\b((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b)", flags=re.I)
         to_regex = re.compile(
             r"\bnach\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
         )
+
+        court_regex = re.compile(r"\bAG|Amtsgericht\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I)
+
+        # m = any_code_regex.search(text)
+        # if m:
+        #     print(m.groups())
+
+        court_matches = court_regex.search(text)
+        if court_matches and court_matches.group(1):
+                self.payload["court"] = court_matches.group(1).strip()
+                self.payload["used_regex"].append("court")
 
         matches = from_hrb_to_regex.search(text)
         if matches:
@@ -420,6 +437,9 @@ class RelocationNotice:
 
         if "to" in self.payload:
             self.payload["to"] = self.try_to_find_city(self.payload["to"])
+
+        if "court" in self.payload:
+            self.payload["court"] = self.try_to_find_city(self.payload["court"])
 
         return self.payload
 

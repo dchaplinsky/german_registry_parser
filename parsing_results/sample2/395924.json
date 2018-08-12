@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Tostedt",
                 "from": "Hemmoor",
                 "hrb": "HRB 110587",
+                "registration": "predecessor",
                 "text": " von Hemmoor (bisher Amtsgericht Tostedt HRB 110587) nach Grasberg beschlossen.",
                 "to": "Grasberg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

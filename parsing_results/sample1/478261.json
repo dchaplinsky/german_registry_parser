@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "darmstadt",
                 "from": "mühltal",
                 "hrb": "hrb 94194",
+                "registration": "predecessor",
                 "text": " von mühltal (bisher amtsgericht darmstadt hrb 94194) nach dreieich beschlossen.",
                 "to": "dreieich",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

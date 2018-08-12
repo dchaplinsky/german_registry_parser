@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Friedberg",
                 "from": "Limeshain",
                 "hrb": "HRB 7983",
+                "registration": "predecessor",
                 "text": " von Limeshain (bisher Amtsgericht Friedberg (Hessen) HRB 7983) nach Hammersbach beschlossen.",
                 "to": "Hammersbach",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

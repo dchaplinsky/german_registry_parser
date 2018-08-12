@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "München",
                 "from": "Feldafing",
                 "hrb": "HRB 213947",
+                "registration": "predecessor",
                 "text": " von Feldafing (bisher Amtsgericht München HRB 213947) nach Wiesbaden beschlossen.",
                 "to": "Wiesbaden",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

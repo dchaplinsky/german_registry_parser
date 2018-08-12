@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Düren",
                 "from": "Merzenich",
                 "hrb": "HRB 6320",
+                "registration": "predecessor",
                 "text": " von Merzenich (bisher Amtsgericht Düren HRB 6320) nach Düsseldorf beschlossen.",
                 "to": "Düsseldorf",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

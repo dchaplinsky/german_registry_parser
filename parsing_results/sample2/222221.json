@@ -52,11 +52,13 @@
         ],
         "notices": [
             {
+                "court": "Regensburg",
                 "from": "Regensburg",
                 "hrb": "HRB 12056",
+                "registration": "predecessor",
                 "text": " von Regensburg (bisher Amtsgericht Regensburg HRB 12056) nach Frankfurt am Main beschlossen.",
                 "to": "Frankfurt am Main",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ]
     }

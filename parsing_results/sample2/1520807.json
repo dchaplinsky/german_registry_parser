@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Oldenburg",
                 "from": "Wilhelmshaven",
                 "hrb": "HRB 210106",
+                "registration": "predecessor",
                 "text": " von Wilhelmshaven (bisher Amtsgericht Oldenburg HRB 210106) nach Salzkotten und die Änderung des § 4 (Stammkapital/Stammeinlagen) beschlossen.",
                 "to": "Salzkotten",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

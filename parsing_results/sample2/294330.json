@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Frankfurt am Main",
                 "from": "Frankfurt am Main",
                 "hrb": "HRB 93833",
+                "registration": "predecessor",
                 "text": " von Frankfurt am Main (bisher Amtsgericht Frankfurt am Main HRB 93833) nach Darmstadt sowie § 2 (Gegenstand des Unternehmens) beschlossen.",
                 "to": "Darmstadt",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

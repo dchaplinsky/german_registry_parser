@@ -32,11 +32,13 @@
         ],
         "notices": [
             {
+                "court": "Charlottenburg",
                 "from": "Berlin",
-                "hrb": "HRB 87438",
+                "hrb": "HRB 87438 B",
+                "registration": "predecessor",
                 "text": " von Berlin (bisher Amtsgericht Charlottenburg HRB 87438 B) nach Solingen beschlossen.",
                 "to": "Solingen",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

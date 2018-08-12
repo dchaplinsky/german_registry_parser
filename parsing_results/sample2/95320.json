@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Gütersloh",
                 "from": "Rheda-Wiedenbrück",
                 "hrb": "HRB 5632",
+                "registration": "predecessor",
                 "text": " von Rheda-Wiedenbrück (bisher Amtsgericht Gütersloh HRB 5632) nach Dissen beschlossen.",
                 "to": "Dissen",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

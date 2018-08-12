@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Tostedt",
                 "from": "Buchholz",
                 "hrb": "HRB 204852",
+                "registration": "predecessor",
                 "text": " von Buchholz (bisher Amtsgericht Tostedt HRB 204852) nach Rheine sowie die Änderung des Unternehmensgegenstandes beschlossen.",
                 "to": "Rheine",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

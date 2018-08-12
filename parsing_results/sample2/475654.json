@@ -46,11 +46,13 @@
         ],
         "notices": [
             {
+                "court": "Wiesbaden",
                 "from": "Bad Schwalbach",
                 "hrb": "HRB 27832",
+                "registration": "predecessor",
                 "text": " von Bad Schwalbach (bisher Amtsgericht Wiesbaden HRB 27832) nach Erzhausen beschlossen.",
                 "to": "Erzhausen",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

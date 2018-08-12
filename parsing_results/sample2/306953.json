@@ -32,11 +32,13 @@
         ],
         "notices": [
             {
+                "court": "Duisburg",
                 "from": "Oberhausen",
                 "hrb": "HRB 18705",
+                "registration": "predecessor",
                 "text": " von Oberhausen (bisher Amtsgericht Duisburg HRB 18705) nach Bochum beschlossen.",
                 "to": "Bochum",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

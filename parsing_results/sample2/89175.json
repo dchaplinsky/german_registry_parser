@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Ludwigshafen",
                 "from": "Speyer",
                 "hrb": "HRB 62241",
+                "registration": "predecessor",
                 "text": " von Speyer am Rhein (bisher HRB 62241 Amtsgericht Ludwigshafen am Rhein) nach Gommersheim beschlossen.",
                 "to": "Gommersheim",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

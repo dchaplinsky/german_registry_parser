@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Köln",
                 "from": "Köln",
                 "hrb": "HRB 29935",
+                "registration": "predecessor",
                 "text": " von Köln (bisher Amtsgericht Köln HRB 29935) nach Rüsselsheim beschlossen.",
                 "to": "Rüsselsheim",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

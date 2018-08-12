@@ -176,10 +176,18 @@ if __name__ == "__main__":
                         )
                         possible_persons = dob_regex.findall(p_doc["full_text"])
 
+                        # only processing sitzverlegung for now
+                        possible_notices = relocation_signs[0][1].findall(p_doc["full_text"])
+
                         if len(possible_persons) > len(
                             parsing_result.get("officers", [])
                         ):
                             stats[notice_id]["might_have_unparsed_persons"] = 1
+
+                        if len(possible_notices) > len(list(
+                            filter(lambda x: x["used_regex"], parsing_result.get("notices", [])))
+                        ):
+                            stats[notice_id]["might_have_unparsed_relocations"] = 1
 
                         if "officers" not in parsing_result:
                             stats[notice_id]["got_no_persons"] = 1

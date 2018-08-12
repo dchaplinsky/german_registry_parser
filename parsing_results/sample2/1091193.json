@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Köln",
                 "from": "Köln",
                 "hrb": "HRB 82156",
+                "registration": "predecessor",
                 "text": " von Köln (bisher Amtsgericht Köln HRB 82156) nach Bonn beschlossen.",
                 "to": "Bonn",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

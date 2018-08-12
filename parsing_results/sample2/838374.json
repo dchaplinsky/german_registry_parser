@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Münster",
                 "from": "Everswinkel",
                 "hrb": "HRB 12383",
+                "registration": "predecessor",
                 "text": " von Everswinkel (bisher Amtsgericht Münster HRB 12383) nach Herzebrock-Clarholz beschlossen.",
                 "to": "Herzebrock-Clarholz",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

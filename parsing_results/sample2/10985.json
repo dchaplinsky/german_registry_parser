@@ -32,11 +32,13 @@
         ],
         "notices": [
             {
+                "court": "Köln",
                 "from": "Köln",
                 "hrb": "HRB 57445",
+                "registration": "predecessor",
                 "text": " von Köln (bisher Amtsgericht Köln HRB 57445) nach Frankfurt am Main, 2 Abs.1 (Gegenstand des Unternehmens) und 7 (Geschäftsjahr) beschlossen.",
                 "to": "Frankfurt",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

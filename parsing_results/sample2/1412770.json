@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Steinfurt",
                 "from": "Rheine",
                 "hrb": "HRB 11065",
+                "registration": "predecessor",
                 "text": " von Rheine (bisher Amtsgericht Steinfurt HRB 11065) nach Münster beschlossen.",
                 "to": "Münster",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

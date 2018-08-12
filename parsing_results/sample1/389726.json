@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Offenbach am Main",
                 "from": "Offenbach am Main",
                 "hrb": "HRB 45719",
+                "registration": "predecessor",
                 "text": " von Offenbach am Main (bisher Amtsgericht Offenbach am Main HRB 45719) nach Frankfurt am Main beschlossen.",
                 "to": "Frankfurt am Main",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -34,11 +34,13 @@
         ],
         "notices": [
             {
+                "court": "Iserlohn",
                 "from": "Iserlohn",
                 "hrb": "HRB 6915",
+                "registration": "predecessor",
                 "text": " von Iserlohn (bisher Amtsgericht Iserlohn HRB 6915) nach Arnsberg beschlossen.",
                 "to": "Arnsberg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

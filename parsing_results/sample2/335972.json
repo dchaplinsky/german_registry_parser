@@ -46,11 +46,13 @@
         ],
         "notices": [
             {
+                "court": "München",
                 "from": "München",
                 "hrb": "HRB 232174",
+                "registration": "predecessor",
                 "text": " von München (bisher: Amtsgericht München HRB 232174) nach Hamburg beschlossen.",
                 "to": "Hamburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

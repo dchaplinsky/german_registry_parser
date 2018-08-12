@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Gießen",
                 "from": "Gießen",
                 "hrb": "HRB 6103",
+                "registration": "predecessor",
                 "text": " von Gießen (bisher Amtsgericht Gießen HRB 6103) unter Änderung des Firmennamens (früher: Spielbörse Krokodil Automaten GmbH) nach Rosbach v. d. Höhe beschlossen, ferner wurde § 2 (Gegenstand) geändert.",
                 "to": "Rosbach",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

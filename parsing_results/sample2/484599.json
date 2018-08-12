@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Marburg",
                 "from": "Schwalmstadt",
                 "hrb": "HRB 6910",
+                "registration": "predecessor",
                 "text": " von Schwalmstadt nach Hildesheim (bisher: ICH Intuitiv Coaching & Hypnose UG (haftungsbeschränkt), Amtsgericht Marburg HRB 6910) sowie in Nr. 4 (Geschäftsführer) beschlossen.",
                 "to": "Hildesheim",
-                "used_regex": "from_hrb_regex, to_regex"
+                "used_regex": "court, from_hrb_regex, to_regex"
             }
         ],
         "officers": [

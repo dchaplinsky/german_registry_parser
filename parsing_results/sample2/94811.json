@@ -36,11 +36,13 @@
         ],
         "notices": [
             {
+                "court": "Montabaur",
                 "from": "Hahnstätten",
                 "hrb": "HRB 7088",
+                "registration": "predecessor",
                 "text": " von Hahnstätten (bisher Amtsgericht Montabaur HRB 7088) nach Wiesbaden beschlossen.",
                 "to": "Wiesbaden",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -46,11 +46,13 @@
         ],
         "notices": [
             {
+                "court": "Flensburg",
                 "from": "Harrislee",
-                "hrb": "HRB 6001",
+                "hrb": "HRB 6001 FL",
+                "registration": "predecessor",
                 "text": " von Harrislee (bisher Amtsgericht Flensburg HRB 6001 FL) nach Hamburg beschlossen.",
                 "to": "Hamburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -24,9 +24,12 @@
         ],
         "notices": [
             {
+                "court": "Bonn",
+                "hrb": "HRA 8014",
+                "registration": "predecessor",
                 "text": " nach Bonn, nun Amtsgericht Bonn HRA 8014.",
                 "to": "Bonn",
-                "used_regex": "to_regex"
+                "used_regex": "court, hrb, to_regex"
             }
         ]
     }

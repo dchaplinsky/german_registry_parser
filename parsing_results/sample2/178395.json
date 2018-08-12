@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Stadthagen",
                 "from": "Stadthagen",
                 "hrb": "HRB 200533",
+                "registration": "predecessor",
                 "text": " von Stadthagen (bisher Amtsgericht Stadthagen HRB 200533) nach Hannover beschlossen.",
                 "to": "Hannover",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Düsseldorf",
                 "from": "Düsseldorf",
                 "hrb": "HRB 50631",
+                "registration": "predecessor",
                 "text": " von Düsseldorf (bisher Amtsgericht Düsseldorf HRB 50631) nach Würselen sowie die Änderung des Unternehmensgegenstandes beschlossen.",
                 "to": "Würselen",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "München",
                 "from": "München",
                 "hrb": "HRB 219970",
+                "registration": "predecessor",
                 "text": " von München (bisher Amtsgericht München HRB 219970) nach Walsrode beschlossen.",
                 "to": "Walsrode",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

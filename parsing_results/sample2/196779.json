@@ -46,11 +46,13 @@
         ],
         "notices": [
             {
+                "court": "Frankfurt am Main",
                 "from": "Frankfurt am Main",
                 "hrb": "HRB 95170",
+                "registration": "predecessor",
                 "text": " von Frankfurt am Main (bisher Amtsgericht Frankfurt am Main HRB 95170, Firma bisher: Blitz F12-sieben-null GmbH) nach Hamburg beschlossen.",
                 "to": "Hamburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

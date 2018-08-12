@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Wiesbaden",
                 "from": "Wiesbaden",
                 "hrb": "HRB 24189",
+                "registration": "predecessor",
                 "text": " von Wiesbaden (bisher Amtsgericht Wiesbaden HRB 24189) nach Mainz beschlossen.",
                 "to": "Mainz",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

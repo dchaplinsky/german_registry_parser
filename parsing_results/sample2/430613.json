@@ -24,11 +24,13 @@
         ],
         "notices": [
             {
+                "court": "Frankfurt am Main",
                 "from": "Frankfurt am Main",
                 "hrb": "HRB 79650",
+                "registration": "predecessor",
                 "text": " von Frankfurt am Main (bisher Amtsgericht Frankfurt am Main HRB 79650) nach Langenhagen beschlossen.",
                 "to": "Langenhagen",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

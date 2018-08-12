@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Koblenz",
                 "from": "Koblenz",
                 "hrb": "HRB 7558",
+                "registration": "predecessor",
                 "text": " von Koblenz (bisher Amtsgericht Koblenz HRB 7558) nach Nörvenich beschlossen.",
                 "to": "Nörvenich",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

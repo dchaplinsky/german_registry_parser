@@ -56,11 +56,13 @@
         ],
         "notices": [
             {
+                "court": "Stendal",
                 "from": "Weißenfels",
                 "hrb": "HRB 209378",
+                "registration": "predecessor",
                 "text": " von Weißenfels (bisher Amtsgericht Stendal HRB 209378, Firma bisher: SWS-Textil-Union, Groß- und Einzelhandel Import und Export GmbH) nach Hamburg beschlossen.",
                 "to": "Hamburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

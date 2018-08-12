@@ -36,9 +36,11 @@
         ],
         "notices": [
             {
+                "court": "Bochum",
                 "hrb": "HRB 13553",
+                "registration": "predecessor",
                 "text": " und Firmenänderung (bisher: Greiner Beteiligungs- und Verwaltungsgesellschaft UG (haftungsbeschränkt): Persönlich haftender Gesellschafter: Ruhr-Asset Beteiligung UG (haftungsbeschränkt), Bochum (Amtsgericht Bochum, HRB 13553), mit der Befugnis, für sich und ihre Geschäftsführer, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
-                "used_regex": "hrb"
+                "used_regex": "court, hrb"
             }
         ]
     }

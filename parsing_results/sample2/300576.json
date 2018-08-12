@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Stendal",
                 "from": "Halle",
                 "hrb": "HRB 201936",
+                "registration": "predecessor",
                 "text": " von Halle (bisher Amtsgericht Stendal HRB 201936) nach Hannover, die Änderung des Unternehmensgegenstandes, sowie die Umstellung des Stammkapitals von DM 100.000,00 auf EUR 51.129,19 mit gleichzeitiger Erhöhung des Stammkapitals um EUR 870,81 auf EUR 52.000,00 beschlossen.",
                 "to": "Hannover",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

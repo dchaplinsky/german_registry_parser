@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Osnabrück",
                 "from": "Bramsche",
                 "hrb": "HRB 21732",
+                "registration": "predecessor",
                 "text": " von Bramsche (bisher Amtsgericht Osnabrück HRB 21732) nach Bad Arolsen beschlossen.",
                 "to": "Bad Arolsen",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "frankfurt am main",
                 "from": "frankfurt am main",
                 "hrb": "hrb 91773",
+                "registration": "predecessor",
                 "text": " von frankfurt am main (bisher amtsgericht frankfurt am main hrb 91773) nach wiesbaden beschlossen.",
                 "to": "wiesbaden",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

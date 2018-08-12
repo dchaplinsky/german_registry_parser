@@ -36,11 +36,13 @@
         ],
         "notices": [
             {
+                "court": "München",
                 "from": "Gauting",
                 "hrb": "HRB 169076",
+                "registration": "predecessor",
                 "text": " von Gauting, Ortsteil Stockdorf, Landkreis Starnberg (bisher Amtsgericht München HRB 169076) nach Neubrandenburg beschlossen.",
                 "to": "Neubrandenburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

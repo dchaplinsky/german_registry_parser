@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Frankfurt/Oder",
                 "from": "Vierlinden",
-                "hrb": "HRB 8928",
+                "hrb": "HRB 8928 FF",
+                "registration": "predecessor",
                 "text": " von Vierlinden (bisher Amtsgericht Frankfurt/Oder HRB 8928 FF) nach Großenkneten beschlossen.",
                 "to": "Großenkneten",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

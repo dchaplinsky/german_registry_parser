@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Charlottenburg",
                 "from": "Berlin",
-                "hrb": "HRB 128847",
+                "hrb": "HRB 128847 B",
+                "registration": "predecessor",
                 "text": " von Berlin (bisher Amtsgericht Charlottenburg (Berlin) HRB 128847 B) nach Oberursel (Taunus) beschlossen.",
                 "to": "Oberursel",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

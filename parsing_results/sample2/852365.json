@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Dortmund",
                 "from": "Dortmund",
                 "hrb": "HRB 24188",
+                "registration": "predecessor",
                 "text": " von Dortmund (bisher Amtsgericht Dortmund HRB 24188) nach Arnsberg beschlossen.",
                 "to": "Arnsberg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

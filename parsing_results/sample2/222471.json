@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Stendal",
                 "from": "Hötensleben",
                 "hrb": "HRB 17046",
+                "registration": "predecessor",
                 "text": " von Hötensleben (bisher Umzugsservice Salinski UG (haftungsbeschränkt) Amtsgericht Stendal HRB 17046) nach Uehrde beschlossen.",
                 "to": "Uehrde",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Darmstadt",
                 "from": "Seeheim-Jugenheim",
                 "hrb": "HRB 8092",
+                "registration": "predecessor",
                 "text": " von Seeheim-Jugenheim (bisher Amtsgericht Darmstadt HRB 8092) nach Langen (Hessen) beschlossen.",
                 "to": "Langen",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

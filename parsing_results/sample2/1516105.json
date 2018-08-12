@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Siegen",
                 "from": "Freudenberg",
                 "hrb": "HRB 4279",
+                "registration": "predecessor",
                 "text": " von Freudenberg (bisher Amtsgericht Siegen HRB 4279) nach Morsbach beschlossen.",
                 "to": "Morsbach",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

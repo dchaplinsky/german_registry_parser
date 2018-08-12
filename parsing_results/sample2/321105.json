@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Düsseldorf",
                 "from": "Düsseldorf",
                 "hrb": "HRB 67270",
+                "registration": "predecessor",
                 "text": " von Düsseldorf (bisher Amtsgericht Düsseldorf HRB 67270) nach Holzminden beschlossen.",
                 "to": "Holzminden",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

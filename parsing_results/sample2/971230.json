@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Siegburg",
                 "from": "Hennef",
                 "hrb": "HRB 12495",
+                "registration": "predecessor",
                 "text": " von Hennef (bisher Amtsgericht Siegburg HRB 12495) nach Wuppertal beschlossen.",
                 "to": "Wuppertal",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -30,11 +30,13 @@
         ],
         "notices": [
             {
+                "court": "Köln",
                 "from": "Leverkusen",
                 "hrb": "HRB 69048",
+                "registration": "predecessor",
                 "text": " von Leverkusen (bisher Amtsgericht Köln HRB 69048) nach Viersen beschlossen.",
                 "to": "Viersen",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

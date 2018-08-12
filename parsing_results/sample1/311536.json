@@ -46,11 +46,13 @@
         ],
         "notices": [
             {
+                "court": "kiel",
                 "from": "norderstedt",
-                "hrb": "hrb 3716",
+                "hrb": "hrb 3716 no",
+                "registration": "predecessor",
                 "text": " von norderstedt (bisher: amtsgericht kiel hrb 3716 no) nach hamburg beschlossen.",
                 "to": "hamburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

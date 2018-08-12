@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Steinfurt",
                 "from": "Laer",
                 "hrb": "HRB 9270",
+                "registration": "predecessor",
                 "text": " von Laer (bisher Amtsgericht Steinfurt HRB 9270) nach Münster beschlossen.",
                 "to": "Münster",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

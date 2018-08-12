@@ -36,11 +36,13 @@
         ],
         "notices": [
             {
+                "court": "Bad Oeynhausen",
                 "from": "Lübbecke",
                 "hrb": "HRB 7945",
+                "registration": "predecessor",
                 "text": " von Lübbecke (bisher Amtsgericht Bad Oeynhausen HRB 7945) nach Melle beschlossen.",
                 "to": "Melle",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

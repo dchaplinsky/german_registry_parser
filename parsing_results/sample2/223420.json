@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Friedberg/Hessen",
                 "from": "Butzbach",
                 "hrb": "HRB 2855",
+                "registration": "predecessor",
                 "text": " von Butzbach (bisher Amtsgericht Friedberg/Hessen, HRB 2855) nach Trier beschlossen.",
                 "to": "Trier",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

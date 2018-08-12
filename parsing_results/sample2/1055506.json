@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Wuppertal",
                 "from": "Wuppertal",
                 "hrb": "HRB 25670",
+                "registration": "predecessor",
                 "text": " von Wuppertal (bisher Amtsgericht Wuppertal HRB 25670) nach Düsseldorf und die entsprechende Änderung des Gesellschaftsvertrages in § 1 Abs. 2 beschlossen, ferner eine Änderung in § 1 Abs. 1 und damit der Firma (bisher \"Hopfgarten G16 GmbH\").",
                 "to": "Düsseldorf",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Stralsund",
                 "from": "Grammendorf",
                 "hrb": "HRB 6313",
+                "registration": "predecessor",
                 "text": " von Grammendorf (bisher Amtsgericht Stralsund HRB 6313) nach Visbek beschlossen.",
                 "to": "Visbek",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -32,11 +32,13 @@
         ],
         "notices": [
             {
+                "court": "Bad Kreuznach",
                 "from": "Bad Kreuznach",
                 "hrb": "HRB 4665",
+                "registration": "predecessor",
                 "text": " von Bad Kreuznach (bisher Amtsgericht Bad Kreuznach HRB 4665) nach Mainz beschlossen.Stammkapital:30)000,00 EUR.",
                 "to": "Mainz",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

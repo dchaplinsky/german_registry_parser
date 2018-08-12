@@ -36,11 +36,13 @@
         ],
         "notices": [
             {
+                "court": "Dortmund",
                 "from": "Dortmund",
                 "hrb": "HRB 18990",
+                "registration": "predecessor",
                 "text": " von Dortmund (bisher Amtsgericht Dortmund, HRB 18990) nach Düsseldorf und die entsprechende Änderung des Gesellschaftsvertrages in § 1 Abs. 2, ferner die Änderung des § 1 Abs. 1 und damit der Firma (bisher \"Deutsche Medi I GmbH\") sowie des § 2 und damit des Gegenstandes beschlossen.",
                 "to": "Düsseldorf",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

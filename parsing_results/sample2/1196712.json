@@ -36,11 +36,13 @@
         ],
         "notices": [
             {
+                "court": "Duisburg",
                 "from": "Duisburg",
                 "hrb": "HRB 27055",
+                "registration": "predecessor",
                 "text": " von Duisburg (bisher Amtsgericht Duisburg HRB 27055) nach Kempen beschlossen.",
                 "to": "Kempen",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ]
     }

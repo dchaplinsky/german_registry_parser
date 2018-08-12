@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Hamburg",
                 "from": "Hamburg",
                 "hrb": "HRB 104073",
+                "registration": "predecessor",
                 "text": " von Hamburg (bisher Amtsgericht Hamburg HRB 104073) nach Neu Wulmstorf sowie die Erweiterung des Unternehmensgegenstandes beschlossen.",
                 "to": "Neu",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

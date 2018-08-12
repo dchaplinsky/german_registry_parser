@@ -46,11 +46,13 @@
         ],
         "notices": [
             {
+                "court": "Bad",
                 "from": "Bad",
                 "hrb": "HRB 11205",
+                "registration": "predecessor",
                 "text": " von Bad Homburg v. d. Höhe (bisher Amtsgericht Bad Homburg v. d. Höhe HRB 11205) nach Frankfurt am Main beschlossen.",
                 "to": "Frankfurt am Main",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -28,13 +28,16 @@
         ],
         "notices": [
             {
+                "registration": "predecessor",
                 "text": " und änderung der geschäftsanschrift: pulheim.",
                 "used_regex": ""
             },
             {
+                "court": "köln",
                 "hrb": "hrb 60083",
+                "registration": "predecessor",
                 "text": " (vormals köln): persönlich haftender gesellschafter: napasai media hören + sehen verwaltungs-gmbh, pulheim (amtsgericht köln hrb 60083).",
-                "used_regex": "hrb"
+                "used_regex": "court, hrb"
             }
         ],
         "officers": [

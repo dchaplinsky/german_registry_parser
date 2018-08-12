@@ -46,11 +46,13 @@
         ],
         "notices": [
             {
+                "court": "Rostock",
                 "from": "Laage",
                 "hrb": "HRB 11200",
+                "registration": "predecessor",
                 "text": " von Laage (bisher: Amtsgericht Rostock, HRB 11200) nach Hamburg beschlossen.",
                 "to": "Hamburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

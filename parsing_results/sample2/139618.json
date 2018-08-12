@@ -28,11 +28,13 @@
         ],
         "notices": [
             {
+                "court": "Köln",
                 "from": "Köln",
                 "hrb": "HRB 35749",
+                "registration": "predecessor",
                 "text": " von Köln (bisher Amtsgericht Köln HRB 35749) nach Soest beschlossen.",
                 "to": "Soest",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

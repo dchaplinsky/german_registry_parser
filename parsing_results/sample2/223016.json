@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Darmstadt",
                 "from": "Ginsheim-Gustavsburg",
                 "hrb": "HRB 85607",
+                "registration": "predecessor",
                 "text": " von Ginsheim-Gustavsburg (bisher Amtsgericht Darmstadt HRB 85607) nach Frankfurt am Main beschlossen.",
                 "to": "Frankfurt am Main",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

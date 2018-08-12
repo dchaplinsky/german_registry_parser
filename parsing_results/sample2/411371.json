@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Essen",
                 "from": "Essen",
                 "hrb": "HRB 20366",
+                "registration": "predecessor",
                 "text": " von Essen (bisher Amtsgericht Essen, HRB 20366) nach Köln beschlossen.",
                 "to": "Köln",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

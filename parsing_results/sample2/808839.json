@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Siegburg",
                 "from": "Troisdorf",
                 "hrb": "HRB 11834",
+                "registration": "predecessor",
                 "text": " von Troisdorf (bisher Amtsgericht Siegburg HRB 11834) nach Bonn beschlossen.",
                 "to": "Bonn",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

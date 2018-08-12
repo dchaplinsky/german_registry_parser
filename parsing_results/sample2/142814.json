@@ -34,11 +34,13 @@
         ],
         "notices": [
             {
+                "court": "Jena",
                 "from": "Suhl",
                 "hrb": "HRB 508072",
+                "registration": "predecessor",
                 "text": " von Suhl (bisher Amtsgericht Jena HRB 508072) nach Hahnstätten beschlossen.",
                 "to": "Hahnstätten",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

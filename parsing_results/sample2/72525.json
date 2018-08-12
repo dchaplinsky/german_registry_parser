@@ -46,11 +46,13 @@
         ],
         "notices": [
             {
+                "court": "Lüneburg",
                 "from": "Egestorf",
                 "hrb": "HRB 111371",
+                "registration": "predecessor",
                 "text": " von Egestorf (bisher Amtsgericht Lüneburg HRB 111371) nach Hamburg beschlossen.",
                 "to": "Hamburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

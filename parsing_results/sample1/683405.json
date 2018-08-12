@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "charlottenburg",
                 "from": "berlin",
-                "hrb": "hrb 106151",
+                "hrb": "hrb 106151 b",
+                "registration": "predecessor",
                 "text": " von berlin (bisher amtsgericht charlottenburg, hrb 106151 b) nach köln beschlossen.",
                 "to": "köln",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Frankfurt am Main",
                 "from": "Frankfurt am Main",
                 "hrb": "HRB 95450",
+                "registration": "predecessor",
                 "text": " von Frankfurt am Main (bisher Amtsgericht Frankfurt am Main HRB 95450) nach Kronberg im Taunus beschlossen.",
                 "to": "Kronberg im Taunus",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

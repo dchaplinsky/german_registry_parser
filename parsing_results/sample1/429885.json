@@ -48,11 +48,13 @@
         ],
         "notices": [
             {
+                "court": "münchen",
                 "from": "neufahrn",
                 "hrb": "hrb 145108",
+                "registration": "predecessor",
                 "text": " von neufahrn (bisher amtsgericht münchen hrb 145108) nach westerkappeln beschlossen.",
                 "to": "westerkappeln",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

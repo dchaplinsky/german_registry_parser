@@ -18,9 +18,11 @@
     "parsed": {
         "notices": [
             {
+                "court": "hamburg",
                 "hrb": "hrb 132186",
+                "registration": "predecessor",
                 "text": " des herrschenden unternehmens nunmehr mit der e. h. real vermögensverwaltungs gmbh, hamburg (amtsgericht hamburg hrb 132186) und ist durch änderungsvereinbarung vom 21.11.2014 geändert.",
-                "used_regex": "hrb"
+                "used_regex": "court, hrb"
             }
         ]
     }

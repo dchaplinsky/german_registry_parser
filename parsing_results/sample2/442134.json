@@ -30,9 +30,12 @@
         ],
         "notices": [
             {
+                "court": "Bad Oeynhausen",
                 "from": "Herford",
+                "hrb": "HRA 6847",
+                "registration": "predecessor",
                 "text": " von Herford (bisher: Amtsgericht Bad Oeynhausen HRA 6847): Köln.",
-                "used_regex": "from"
+                "used_regex": "court, from_hrb_regex"
             }
         ],
         "officers": [

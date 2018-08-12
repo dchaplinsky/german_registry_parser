@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Stuttgart",
                 "from": "Weilheim an der Teck",
                 "hrb": "HRB 231658",
+                "registration": "predecessor",
                 "text": " von Weilheim an der Teck (bisher Amtsgericht Stuttgart HRB 231658) nach Rhade-Rhadereistedt beschlossen.",
                 "to": "Rhade-Rhadereistedt",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

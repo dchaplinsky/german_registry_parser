@@ -32,9 +32,11 @@
         ],
         "notices": [
             {
+                "court": "Hamburg",
                 "hrb": "HRB 98944",
+                "registration": "predecessor",
                 "text": " der Gesellschaft (bisheriger Sitz in Hamburg, Amtsgericht Hamburg, HRB 98944) und mit ihr eine Änderung des Gesellschaftsvertrages in § 1 (Firma, Sitz) beschlossen.",
-                "used_regex": "hrb"
+                "used_regex": "court, hrb"
             }
         ],
         "officers": [

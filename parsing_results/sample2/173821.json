@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Hamburg",
                 "from": "Hamburg",
                 "hrb": "HRB 113744",
+                "registration": "predecessor",
                 "text": " von Hamburg (bisher Amtsgericht Hamburg HRB 113744) nach Wardenburg beschlossen.",
                 "to": "Wardenburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

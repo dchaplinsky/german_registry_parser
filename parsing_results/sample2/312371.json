@@ -32,11 +32,13 @@
         ],
         "notices": [
             {
+                "court": "Dortmund",
                 "from": "Castrop-Rauxel",
                 "hrb": "HRB 17086",
+                "registration": "predecessor",
                 "text": " von Castrop-Rauxel (bisher Amtsgericht Dortmund HRB 17086) nach Bochum beschlossen.",
                 "to": "Bochum",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

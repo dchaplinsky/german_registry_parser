@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Mannheim",
                 "from": "Achern",
                 "hrb": "HRB 220614",
+                "registration": "predecessor",
                 "text": " von Achern (bisher Amtsgericht Mannheim HRB 220614) nach Frankfurt am Main sowie in § 15 Ziffer 3 (Schlußbestimmungen) beschlossen.",
                 "to": "Frankfurt am Main",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

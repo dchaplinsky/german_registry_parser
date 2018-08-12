@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Hanau",
                 "from": "Erlensee",
                 "hrb": "HRB 6955",
+                "registration": "predecessor",
                 "text": " von Erlensee (bisher Amtsgericht Hanau HRB 6955) nach Rodgau beschlossen.",
                 "to": "Rodgau",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

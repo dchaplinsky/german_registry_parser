@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Wiesbaden",
                 "from": "Taunusstein",
                 "hrb": "HRB 24009",
+                "registration": "predecessor",
                 "text": " von Taunusstein (bisher Amtsgericht Wiesbaden HRB 24009) nach Bad Homburg v. d. Höhe beschlossen.",
                 "to": "Bad",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Friedberg",
                 "from": "Ober-Mörlen",
                 "hrb": "HRB 6359",
+                "registration": "predecessor",
                 "text": " von Ober-Mörlen (bisher Amtsgericht Friedberg (Hessen) HRB 6359) nach Sulzbach beschlossen.",
                 "to": "Sulzbach",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

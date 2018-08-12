@@ -18,11 +18,13 @@
     "parsed": {
         "notices": [
             {
+                "court": "Bad Oeynhausen",
                 "from": "Herford",
                 "hrb": "HRB 12133",
+                "registration": "predecessor",
                 "text": " von Herford (bisher Amtsgericht Bad Oeynhausen HRB 12133) nach Bielefeld beschlossen.",
                 "to": "Bielefeld",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ]
     }

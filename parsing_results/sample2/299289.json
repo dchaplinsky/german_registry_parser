@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Braunschweig",
                 "from": "Braunschweig",
                 "hrb": "HRB 200182",
+                "registration": "predecessor",
                 "text": " von Braunschweig (bisher Amtsgericht Braunschweig HRB 200182) nach Seevetal beschlossen.",
                 "to": "Seevetal",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

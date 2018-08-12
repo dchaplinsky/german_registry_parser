@@ -52,11 +52,13 @@
         ],
         "notices": [
             {
+                "court": "Bad",
                 "from": "Oberursel",
                 "hrb": "HRB 1127",
+                "registration": "predecessor",
                 "text": " von Oberursel (Taunus) (bisher Amtsgericht Bad Homburg v. d. Höhe HRB 1127) nach Kronberg im Taunus beschlossen.",
                 "to": "Kronberg im Taunus",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ]
     }

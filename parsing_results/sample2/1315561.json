@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Straubing",
                 "from": "Straubing",
                 "hrb": "HRB 11351",
+                "registration": "predecessor",
                 "text": " von Straubing (bisher Amtsgericht Straubing HRB 11351) nach Espelkamp.",
                 "to": "Espelkamp",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

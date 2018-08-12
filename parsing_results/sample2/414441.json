@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Hamburg",
                 "from": "Hamburg",
                 "hrb": "HRB 102913",
+                "registration": "predecessor",
                 "text": " von Hamburg (bisher Amtsgericht Hamburg HRB 102913) nach Seevetal beschlossen.",
                 "to": "Seevetal",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

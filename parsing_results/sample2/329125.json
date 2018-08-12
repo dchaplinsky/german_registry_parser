@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Wuppertal",
                 "from": "Solingen",
                 "hrb": "HRB 15649",
+                "registration": "predecessor",
                 "text": " von Solingen (bisher Amtsgericht Wuppertal HRB 15649) nach Bad Soden-Salmünster beschlossen.",
                 "to": "Bad Soden-Salmünster",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

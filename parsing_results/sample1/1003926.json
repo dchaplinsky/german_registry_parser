@@ -24,9 +24,12 @@
         ],
         "notices": [
             {
+                "court": "köln",
+                "hrb": "hra 32188",
+                "registration": "predecessor",
                 "text": " nach hürth, nun amtsgericht köln hra 32188.",
                 "to": "hürth",
-                "used_regex": "to_regex"
+                "used_regex": "court, hrb, to_regex"
             }
         ]
     }

@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Bonn",
                 "from": "Bonn",
                 "hrb": "HRB 16511",
+                "registration": "predecessor",
                 "text": " von Bonn (bisher Amtsgericht Bonn, HRB 16511) nach Windhagen und die Änderung des Unternehmensgegenstandes.",
                 "to": "Windhagen",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

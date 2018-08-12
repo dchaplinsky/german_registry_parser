@@ -44,11 +44,13 @@
         ],
         "notices": [
             {
+                "court": "Göttingen",
                 "from": "Bodenfelde",
                 "hrb": "HRB 130626",
+                "registration": "predecessor",
                 "text": " von Bodenfelde (bisher Amtsgericht Göttingen HRB 130626) nach Plettenberg beschlossen.",
                 "to": "Plettenberg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ]
     }

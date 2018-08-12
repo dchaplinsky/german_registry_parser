@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Bremen",
                 "from": "Bremen",
-                "hrb": "HRB 20539",
+                "hrb": "HRB 20539 HB",
+                "registration": "predecessor",
                 "text": " von Bremen (bisher Amtsgericht Bremen HRB 20539 HB) nach Achim beschlossen.",
                 "to": "Achim",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

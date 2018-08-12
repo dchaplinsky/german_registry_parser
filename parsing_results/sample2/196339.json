@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Mainz",
                 "from": "Bingen",
                 "hrb": "HRB 44414",
+                "registration": "predecessor",
                 "text": " von Bingen (bisher Amtsgericht Mainz HRB 44414) nach Kirn beschlossen.",
                 "to": "Kirn",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

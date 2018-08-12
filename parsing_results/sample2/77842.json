@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Hamburg",
                 "from": "Hamburg",
                 "hrb": "HRB 141994",
+                "registration": "predecessor",
                 "text": " von Hamburg (bisher Amtsgericht Hamburg HRB 141994, Blitz H16-132 GmbH) nach Wismar beschlossen.",
                 "to": "Wismar",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

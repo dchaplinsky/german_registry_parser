@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Mannheim",
                 "from": "Mannheim",
                 "hrb": "HRB 722956",
+                "registration": "predecessor",
                 "text": " von Mannheim (bisher Amtsgericht Mannheim HRB 722956) nach Viernheim sowie die Änderung in § 3 (Stammkapital) beschlossen.",
                 "to": "Viernheim",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

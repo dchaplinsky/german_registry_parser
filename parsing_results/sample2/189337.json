@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Bremen",
                 "from": "Bremen",
-                "hrb": "HRB 13666",
+                "hrb": "HRB 13666 HB",
+                "registration": "predecessor",
                 "text": " von Bremen (bisher Amtsgericht Bremen HRB 13666 HB) nach Scheeßel beschlossen.",
                 "to": "Scheeßel",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

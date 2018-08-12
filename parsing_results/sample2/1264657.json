@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Darmstadt",
                 "from": "Raunheim",
                 "hrb": "HRB 93411",
+                "registration": "predecessor",
                 "text": " von Raunheim (bisher Amtsgericht Darmstadt HRB 93411) nach Hilden beschlossen.",
                 "to": "Hilden",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

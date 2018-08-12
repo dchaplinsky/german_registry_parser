@@ -24,11 +24,13 @@
         ],
         "notices": [
             {
+                "court": "aurich",
                 "from": "leer",
                 "hrb": "hrb 111",
+                "registration": "predecessor",
                 "text": " von leer (bisher amtsgericht aurich, hrb 111 225) nach duisburg beschlossen.",
                 "to": "duisburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

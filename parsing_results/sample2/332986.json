@@ -46,11 +46,13 @@
         ],
         "notices": [
             {
+                "court": "Lübeck",
                 "from": "Poggensee",
-                "hrb": "HRB 8356",
+                "hrb": "HRB 8356 HL",
+                "registration": "predecessor",
                 "text": " von Poggensee (bisher: Amtsgericht Lübeck HRB 8356 HL) nach Hamburg beschlossen.",
                 "to": "Hamburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -18,9 +18,11 @@
     "parsed": {
         "notices": [
             {
+                "court": "München",
                 "hrb": "HRB 174739",
+                "registration": "predecessor",
                 "text": " (jetzt Amtsgericht München, HRB 174739) nunmehr: München.",
-                "used_regex": "hrb"
+                "used_regex": "court, hrb"
             }
         ]
     }

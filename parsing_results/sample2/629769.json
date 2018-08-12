@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Osnabrück",
                 "from": "Osnabrück",
                 "hrb": "HRB 204533",
+                "registration": "predecessor",
                 "text": " von Osnabrück (bisher Amtsgericht Osnabrück HRB 204533) nach Emsdetten beschlossen.",
                 "to": "Emsdetten",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

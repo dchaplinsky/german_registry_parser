@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Hamm",
                 "from": "Unna",
                 "hrb": "HRB 5925",
+                "registration": "predecessor",
                 "text": " von Unna (bisher Amtsgericht Hamm HRB 5925) nach Dortmund beschlossen.",
                 "to": "Dortmund",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

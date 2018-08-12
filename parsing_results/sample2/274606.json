@@ -46,11 +46,13 @@
         ],
         "notices": [
             {
+                "court": "Steinfurt",
                 "from": "Hopsten",
                 "hrb": "HRB 6827",
+                "registration": "predecessor",
                 "text": " von Hopsten (bisher Amtsgericht Steinfurt HRB 6827) nach Spelle beschlossen.",
                 "to": "Spelle",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

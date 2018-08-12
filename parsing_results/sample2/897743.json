@@ -24,10 +24,12 @@
         ],
         "notices": [
             {
+                "court": "Siegburg",
                 "from": "Amts",
                 "hrb": "HRB 12055",
+                "registration": "predecessor",
                 "text": " von Amts wegen berichtigt: Persönlich haftender Gesellschafter: Flexbau Verwaltungs-GmbH, Hennef (Amtsgericht Siegburg HRB 12055), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
-                "used_regex": "from_hrb_regex"
+                "used_regex": "court, from_hrb_regex"
             }
         ],
         "officers": [

@@ -34,11 +34,13 @@
         ],
         "notices": [
             {
+                "court": "Iserlohn",
                 "from": "Werdohl",
                 "hrb": "HRB 8411",
+                "registration": "predecessor",
                 "text": " von Werdohl (bisher Amtsgericht Iserlohn HRB 8411) nach Menden beschlossen.",
                 "to": "Menden",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

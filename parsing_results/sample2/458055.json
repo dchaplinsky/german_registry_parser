@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Bonn",
                 "from": "Bonn",
                 "hrb": "HRB 15559",
+                "registration": "predecessor",
                 "text": " von Bonn (bisher Amtsgericht Bonn, HRB 15559) nach Köln beschlossen.",
                 "to": "Köln",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

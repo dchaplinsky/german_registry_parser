@@ -30,11 +30,13 @@
         ],
         "notices": [
             {
+                "court": "Lübeck",
                 "from": "Geesthacht",
-                "hrb": "HRB 8756",
+                "hrb": "HRB 8756 HL",
+                "registration": "predecessor",
                 "text": " von Geesthacht (bisher Amtsgericht Lübeck HRB 8756 HL) nach Hamburg beschlossen.",
                 "to": "Hamburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -30,11 +30,13 @@
         ],
         "notices": [
             {
+                "court": "Mannheim",
                 "from": "Mannheim",
                 "hrb": "HRB 10351",
+                "registration": "predecessor",
                 "text": " von Mannheim (bisher Amtsgericht Mannheim HRB 10351 ) nach Speyer beschlossen.",
                 "to": "Speyer",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

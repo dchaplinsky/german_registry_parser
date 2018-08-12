@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Traunstein",
                 "from": "Kolbermoor",
                 "hrb": "HRB 16232",
+                "registration": "predecessor",
                 "text": " von Kolbermoor (bisher Amtsgericht Traunstein HRB 16232) nach Korschenbroich beschlossen.",
                 "to": "Korschenbroich",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

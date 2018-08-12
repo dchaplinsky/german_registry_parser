@@ -46,11 +46,13 @@
         ],
         "notices": [
             {
+                "court": "Lübeck",
                 "from": "Lübeck",
-                "hrb": "HRB 14646",
+                "hrb": "HRB 14646 HL",
+                "registration": "predecessor",
                 "text": " von Lübeck (bisher: Amtsgericht Lübeck HRB 14646 HL) nach Hamburg beschlossen.",
                 "to": "Hamburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

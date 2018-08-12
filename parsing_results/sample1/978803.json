@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "osnabrück",
                 "from": "osnabrück",
                 "hrb": "hrb 207144",
+                "registration": "predecessor",
                 "text": " von osnabrück (bisher amtsgericht osnabrück hrb 207144) nach lotte beschlossen.",
                 "to": "lotte",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

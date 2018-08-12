@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Bremen",
                 "from": "Bremerhaven",
-                "hrb": "HRB 1864",
+                "hrb": "HRB 1864 BHV",
+                "registration": "predecessor",
                 "text": " von Bremerhaven (bisher Amtsgericht Bremen HRB 1864 BHV) nach Lilienthal und die Änderung der Firma beschlossen.",
                 "to": "Lilienthal",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

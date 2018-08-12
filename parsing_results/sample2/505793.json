@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Fulda",
                 "from": "Fulda",
                 "hrb": "HRB 5728",
+                "registration": "predecessor",
                 "text": " von Fulda (bisher Amtsgericht Fulda HRB 5728) nach Fernwald beschlossen.",
                 "to": "Fernwald",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

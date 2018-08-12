@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Gießen",
                 "from": "Gießen",
                 "hrb": "HRB 8454",
+                "registration": "predecessor",
                 "text": " von Gießen (bisher Amtsgericht Gießen HRB 8454) nach Fulda beschlossen.",
                 "to": "Fulda",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

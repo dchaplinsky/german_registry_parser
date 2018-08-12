@@ -24,11 +24,13 @@
         ],
         "notices": [
             {
+                "court": "Stuttgart",
                 "from": "Stuttgart",
                 "hrb": "HRB 24022",
+                "registration": "predecessor",
                 "text": " von Stuttgart (bisher Amtsgericht Stuttgart HRB 24022) nach Mönchengladbach beschlossen.",
                 "to": "Mönchengladbach",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "München",
                 "from": "München",
                 "hrb": "HRB 194646",
+                "registration": "predecessor",
                 "text": " von München (bisher Amtsgericht München HRB 194646) nach Bergkamen sowie die Neufassung der Satzung beschlossen.",
                 "to": "Bergkamen",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Köln",
                 "from": "Köln",
                 "hrb": "HRB 19866",
+                "registration": "predecessor",
                 "text": " von Köln (bisher Amtsgericht Köln HRB 19866) nach Bitburg beschlossen.",
                 "to": "Bitburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

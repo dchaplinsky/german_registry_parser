@@ -32,11 +32,13 @@
         ],
         "notices": [
             {
+                "court": "Gütersloh",
                 "from": "Versmold",
                 "hrb": "HRB 7186",
+                "registration": "predecessor",
                 "text": " von Versmold (bisher Amtsgericht Gütersloh HRB 7186) nach Wettringen beschlossen.",
                 "to": "Wettringen",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

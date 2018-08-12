@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "chemnitz",
                 "from": "chemnitz",
                 "hrb": "hrb 27673",
+                "registration": "predecessor",
                 "text": " von chemnitz (bisher amtsgericht chemnitz hrb 27673) nach köln beschlossen.",
                 "to": "köln",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

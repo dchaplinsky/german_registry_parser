@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Limburg",
                 "from": "Limburg",
                 "hrb": "HRB 3737",
+                "registration": "predecessor",
                 "text": " von Limburg (bisher Amtsgericht Limburg a.d. Lahn, HRB 3737) nach Diez beschlossen.",
                 "to": "Diez",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

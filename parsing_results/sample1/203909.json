@@ -24,11 +24,13 @@
         ],
         "notices": [
             {
+                "court": "Charlottenburg",
                 "from": "Berlin",
-                "hrb": "HRB 126903",
+                "hrb": "HRB 126903 B",
+                "registration": "predecessor",
                 "text": " von Berlin (bisher Amtsgericht Charlottenburg, HRB 126903 B) nach Kelkheim (Taunus) beschlossen.",
                 "to": "Kelkheim",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ]
     }

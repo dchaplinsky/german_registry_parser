@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Potsdam",
                 "from": "Großbeeren",
-                "hrb": "HRB 27280",
+                "hrb": "HRB 27280 P",
+                "registration": "predecessor",
                 "text": " von Großbeeren (bisher Amtsgericht Potsdam HRB 27280 P) nach Verden (Aller) beschlossen.",
                 "to": "Verden",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

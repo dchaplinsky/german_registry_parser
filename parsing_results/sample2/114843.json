@@ -30,11 +30,13 @@
         ],
         "notices": [
             {
+                "court": "Tostedt",
                 "from": "Neu",
                 "hrb": "HRB 201972",
+                "registration": "predecessor",
                 "text": " von Neu Wulmstorf (bisher: Amtsgericht Tostedt, HRB 201972) nach Hamburg beschlossen.",
                 "to": "Hamburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

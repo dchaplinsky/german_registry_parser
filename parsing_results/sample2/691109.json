@@ -30,11 +30,13 @@
         ],
         "notices": [
             {
+                "court": "Dortmund",
                 "from": "Castrop-Rauxel",
                 "hrb": "HRB 20584",
+                "registration": "predecessor",
                 "text": " von Castrop-Rauxel (bisher Amtsgericht Dortmund HRB 20584) nach Reken sowie die Änderung des Gesellschaftsvertrages in § 2 und mit ihr die Änderung des Unternehmensgegenstandes beschlossen.",
                 "to": "Reken",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

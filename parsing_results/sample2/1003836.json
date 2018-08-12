@@ -34,11 +34,13 @@
         ],
         "notices": [
             {
+                "court": "Charlottenburg",
                 "from": "Berlin",
-                "hrb": "HR B 153978",
+                "hrb": "HR B 153978 B",
+                "registration": "predecessor",
                 "text": " von Berlin (bisher Amtsgericht Charlottenburg HR B 153978 B) nach Mönchengladbach sowie die Änderung des Gesellschaftsvertrages in § 1 Abs. 1 und 2 (Firma, Sitz), in § 2 Abs. 1 (Gegenstand) und in § 3 Satz 2 (Geschäftsanteile) beschlossen.",
                 "to": "Mönchengladbach",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

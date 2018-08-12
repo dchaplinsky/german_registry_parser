@@ -34,11 +34,13 @@
         ],
         "notices": [
             {
+                "court": "Walsrode",
                 "from": "Diepholz",
                 "hrb": "HRB 202050",
+                "registration": "predecessor",
                 "text": " von Diepholz (bisher Amtsgericht Walsrode HRB 202050) nach Stemwede-Oppenwehe beschlossen.",
                 "to": "Stemwede-Oppenwehe",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -24,11 +24,13 @@
         ],
         "notices": [
             {
+                "court": "reutlingen",
                 "from": "reutlingen",
                 "hrb": "hrb 4553",
+                "registration": "predecessor",
                 "text": " von reutlingen (bisher amtsgericht reutlingen, hrb 4553) nach duisburg beschlossen.",
                 "to": "duisburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

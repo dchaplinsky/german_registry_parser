@@ -42,11 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Wiesbaden",
                 "from": "Wiesbaden",
                 "hrb": "HRB 21923",
+                "registration": "predecessor",
                 "text": " von Wiesbaden (bisher Amtsgericht Wiesbaden HRB 21923) nach Heidesheim beschlossen.",
                 "to": "Heidesheim",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

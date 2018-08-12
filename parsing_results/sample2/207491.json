@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Marburg",
                 "from": "Marburg",
                 "hrb": "HRB 4868",
+                "registration": "predecessor",
                 "text": " von Marburg (bisher Amtsgericht Marburg, HRB 4868) nach Kronberg im Taunus beschlossen.",
                 "to": "Kronberg im Taunus",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

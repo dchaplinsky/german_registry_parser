@@ -36,11 +36,13 @@
         ],
         "notices": [
             {
+                "court": "Aurich",
                 "from": "Rhauderfehn",
                 "hrb": "HRB 110801",
+                "registration": "predecessor",
                 "text": " von Rhauderfehn (bisher Amtsgericht Aurich HRB 110801) nach Garrel beschlossen.",
                 "to": "Garrel",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Charlottenburg",
                 "from": "Berlin",
-                "hrb": "HRB 176440",
+                "hrb": "HRB 176440 B",
+                "registration": "predecessor",
                 "text": " von Berlin (bisher Amtsgericht Charlottenburg (Berlin) HRB 176440 B) nach Frankfurt am Main sowie 3 (Stammkapital, Geschäftsanteile) und 5 (Geschäftsführung, Vertretung) beschlossen.",
                 "to": "Frankfurt am Main",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

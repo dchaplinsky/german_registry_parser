@@ -38,10 +38,12 @@
         ],
         "notices": [
             {
+                "court": "Frankfurt am Main",
                 "from": "Frankfurt am Main",
+                "registration": "predecessor",
                 "text": " von Frankfurt am Main (bisher Amtsgericht Frankfurt am Main 81120) nach Montabaur beschlossen.",
                 "to": "Montabaur",
-                "used_regex": "from, to_regex"
+                "used_regex": "court, from, to_regex"
             }
         ],
         "officers": [

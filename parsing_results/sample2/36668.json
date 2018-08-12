@@ -28,9 +28,11 @@
         ],
         "notices": [
             {
+                "court": "Frankfurt am Main",
                 "hrb": "HRB 79462",
+                "registration": "predecessor",
                 "text": " nunmehr Persönlich haftende Gesellschafterin: CenterPlan Verwaltungs- und Beteiligungs GmbH, Frankfurt am Main (Amtsgericht Frankfurt am Main HRB 79462), mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
-                "used_regex": "hrb"
+                "used_regex": "court, hrb"
             }
         ]
     }

@@ -36,11 +36,13 @@
         ],
         "notices": [
             {
+                "court": "München",
                 "from": "München",
                 "hrb": "HRB 153374",
+                "registration": "predecessor",
                 "text": " von München (bisher Amtsgericht München HRB 153374, Firma bisher: autoanzeigen.de Verwaltungs-GmbH) nach Hamburg beschlossen.",
                 "to": "Hamburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

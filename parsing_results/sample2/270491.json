@@ -18,9 +18,11 @@
     "parsed": {
         "notices": [
             {
+                "court": "Frankfurt",
                 "hrb": "HRB 81508",
+                "registration": "predecessor",
                 "text": " (jetzt Amtsgericht Frankfurt, HRB 81508).",
-                "used_regex": "hrb"
+                "used_regex": "court, hrb"
             }
         ]
     }

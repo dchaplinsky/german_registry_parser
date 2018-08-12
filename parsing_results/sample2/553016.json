@@ -38,11 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Wuppertal",
                 "from": "Wuppertal",
                 "hrb": "HRB 22564",
+                "registration": "predecessor",
                 "text": " von Wuppertal (bisher Amtsgericht Wuppertal HRB 22564) nach Dortmund beschlossen.",
                 "to": "Dortmund",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [

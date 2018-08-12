@@ -24,11 +24,13 @@
         ],
         "notices": [
             {
+                "court": "Düsseldorf",
                 "from": "Düsseldorf",
                 "hrb": "HRB 59176",
+                "registration": "predecessor",
                 "text": " von Düsseldorf (bisher Amtsgericht Düsseldorf, HRB 59176) nach Oberhausen beschlossen.",
                 "to": "Oberhausen",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court, from_hrb_to_regex"
             }
         ],
         "officers": [
