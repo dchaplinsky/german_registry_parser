@@ -32,12 +32,13 @@
         ],
         "notices": [
             {
+                "court": "Königstein im Taunus",
                 "from": "Schwalbach",
                 "hrb": "HRB 3675",
                 "registration": "predecessor",
                 "text": " von Schwalbach (bisher AG Königstein im Taunus HRB 3675) nach Korschenbroich - Kleinenbroich beschlossen.",
                 "to": "Korschenbroich -",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court_regex, from_hrb_to_regex"
             }
         ],
         "officers": [

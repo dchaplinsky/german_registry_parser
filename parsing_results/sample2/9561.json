@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Bonn",
                 "from": "Bonn",
                 "hrb": "HRB 15115",
                 "registration": "predecessor",
                 "text": " der Zweigniederlassung von Bonn (zuvor: AG Bonn HRB 15115) und die Änderung der Firma (zuvor: FAST LANE NR. SEVENTY LIMITED) beschlossen.Gegenstand der Zweigniederlassung: Abwicklung von Geschäften als allgemeines kommerzielles Unternehmen.",
-                "used_regex": "from_hrb_regex"
+                "used_regex": "court_regex, from_hrb_regex"
             }
         ]
     }

@@ -32,12 +32,13 @@
         ],
         "notices": [
             {
+                "court": "Kiel",
                 "from": "Kaltenkirchen",
                 "hrb": "HRB 4826 NO",
                 "registration": "predecessor",
                 "text": " von Kaltenkirchen (bisher AG Kiel HRB 4826 NO) nach Vlotho und die Änderung der Firma (bisher Snickers Original GmbH) beschlossen.",
                 "to": "Vlotho",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court_regex, from_hrb_to_regex"
             }
         ],
         "officers": [

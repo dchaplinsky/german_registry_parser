@@ -393,7 +393,7 @@ class SuccessorRelocationNotice(AbstractNotice):
             r"\bNeuer\s+Sitz:?\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
         )
 
-        court_regex = re.compile(r"\bAG|Amtsgericht\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I)
+        court_regex = re.compile(r"\b(?:AG|Amtsgericht)\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I)
 
         matches = from_regex.search(text)
         if matches and matches.group(1):
@@ -444,7 +444,7 @@ class PredecessorRelocationNotice(AbstractNotice):
             r"\bnach\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
         )
 
-        court_regex = re.compile(r"\bAG|Amtsgericht\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I)
+        court_regex = re.compile(r"\b(?:AG|Amtsgericht)\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I)
 
         court_matches = court_regex.search(text)
         if court_matches and court_matches.group(1):
@@ -696,17 +696,24 @@ def _get_normalized(sents: tuple):
 
 
 def _parse_normalized(normalized: str):
-    should_break = False
+    had_persons = False
+    had_relocation = False
     for known_sentence in sentences:
         res = list(filter(None, known_sentence.parse(normalized)))
         if res:
             for r in res:
                 if isinstance(r, FullPerson):
-                    should_break = True
-                yield r
+                    if had_persons:
+                        continue
+                    else:
+                        had_persons = True
 
-        if should_break:
-            break
+                if isinstance(r, AbstractNotice):
+                    if had_relocation:
+                        continue
+                    else:
+                        had_relocation = True
+                yield r
 
 
 def parse_document(doc: dict) -> (defaultdict, tuple):

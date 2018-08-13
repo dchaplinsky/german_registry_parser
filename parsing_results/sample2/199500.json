@@ -24,12 +24,13 @@
         ],
         "notices": [
             {
+                "court": "Charlottenburg",
                 "from": "Berlin",
                 "hrb": "HR A 36275 B",
                 "registration": "successor",
                 "text": " der Gesellschaft ist von Berlin nach Nettetal verlegt (bisher AG Charlottenburg HR A 36275 B).",
                 "to": "Nettetal",
-                "used_regex": "from_regex, hrb_regex, to_regex"
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
             }
         ],
         "officers": [

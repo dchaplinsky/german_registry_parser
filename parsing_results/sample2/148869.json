@@ -24,11 +24,12 @@
         ],
         "notices": [
             {
+                "court": "Bremen",
                 "hrb": "HRB 26715",
                 "registration": "successor",
                 "text": " ist nach Bremen (jetzt AG Bremen HRB 26715) verlegt.",
                 "to": "Bremen",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

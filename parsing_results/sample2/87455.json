@@ -24,11 +24,12 @@
         ],
         "notices": [
             {
+                "court": "Frankfurt",
                 "hrb": "HRB 12167 FF",
                 "registration": "successor",
                 "text": " der Gesellschaft ist nach Waldsieversdorf verlegt (AG Frankfurt (Oder), HRB 12167 FF).",
                 "to": "Waldsieversdorf",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

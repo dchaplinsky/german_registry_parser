@@ -30,12 +30,13 @@
         ],
         "notices": [
             {
+                "court": "Stralsund",
                 "from": "Bad Sülze",
                 "hrb": "HRA 1564",
                 "registration": "successor",
                 "text": " ist von Bad Sülze (bisher AG Stralsund, HRA 1564) nach Bippen verlegt.",
                 "to": "Bippen",
-                "used_regex": "from_regex, hrb_regex, to_regex"
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
             }
         ],
         "officers": [

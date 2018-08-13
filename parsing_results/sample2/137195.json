@@ -32,12 +32,13 @@
         ],
         "notices": [
             {
+                "court": "Kleve",
                 "from": "Geldern",
                 "hrb": "HRB 4950",
                 "registration": "successor",
                 "text": " von Geldern ( bisher AG Kleve HRB 4950) nach Köln verlegt und entsprechend der Gesellschaftsvertrag geändert in § 1 Abs. 2.",
                 "to": "Köln",
-                "used_regex": "from_regex, hrb_regex, to_regex"
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
             }
         ],
         "officers": [

@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Kiel",
                 "hrb": "HRB 12903 KI",
                 "registration": "successor",
                 "text": " ist nach Blekendorf (jetzt AG Kiel, HRB 12903 KI) verlegt.",
                 "to": "Blekendorf",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

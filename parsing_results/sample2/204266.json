@@ -32,12 +32,13 @@
         ],
         "notices": [
             {
+                "court": "Bielefeld",
                 "from": "Bielefeld",
                 "hrb": "HRB 34645",
                 "registration": "predecessor",
                 "text": " von Bielefeld (bisher AG Bielefeld HRB 34645) nach Rheda-Wiedenbrück beschlossen.",
                 "to": "Rheda-Wiedenbrück",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court_regex, from_hrb_to_regex"
             }
         ],
         "officers": [

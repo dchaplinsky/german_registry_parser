@@ -24,11 +24,12 @@
         ],
         "notices": [
             {
+                "court": "mannheim",
                 "hrb": "hrb 715391",
                 "registration": "successor",
                 "text": " ist nach heidelberg (jetzt ag mannheim hrb 715391) verlegt.",
                 "to": "heidelberg",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

@@ -24,17 +24,19 @@
         ],
         "notices": [
             {
+                "court": "Hamburg",
                 "hrb": "HRB 105678",
                 "registration": "predecessor",
                 "text": " nunmehr Persönlich haftender Gesellschafter: HHC Verwaltungs GmbH, Hamburg (AG Hamburg HRB 105678).",
-                "used_regex": "hrb"
+                "used_regex": "court_regex, hrb"
             },
             {
+                "court": "Pinneberg",
                 "from": "Pinneberg",
                 "hrb": "HRA 4966 PI",
                 "registration": "successor",
                 "text": " ist von Pinneberg (bisher AG Pinneberg HRA 4966 PI, Firma bisher: Gesundheitszentrum Pinneberg GmbH & Co.",
-                "used_regex": "from_regex, hrb_regex"
+                "used_regex": "from_regex, hrb_regex, court_regex"
             }
         ],
         "officers": [

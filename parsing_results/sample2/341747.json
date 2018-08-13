@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Neuss",
                 "hrb": "HRB 14730",
                 "registration": "successor",
                 "text": " ist nach Neuss (jetzt AG Neuss HRB 14730) verlegt.",
                 "to": "Neuss",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

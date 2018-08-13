@@ -24,11 +24,12 @@
                 "used_regex": "to_regex2"
             },
             {
+                "court": "Friedberg",
                 "hrb": "HRB 6863",
                 "registration": "successor",
                 "text": " ist nach Florstadt (jetzt AG Friedberg, HRB 6863) verlegt.",
                 "to": "Florstadt",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

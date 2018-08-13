@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Dortmund",
                 "hrb": "HRA 15997",
                 "registration": "successor",
                 "text": " ist nach Dortmund (jetzt AG Dortmund HRA 15997) verlegt.",
                 "to": "Dortmund",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Stuttgart",
                 "hrb": "HRA 721144",
                 "registration": "successor",
                 "text": " ist nach Stuttgart (jetzt AG Stuttgart HRA 721144) verlegt.",
                 "to": "Stuttgart",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

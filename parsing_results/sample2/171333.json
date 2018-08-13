@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Hamburg",
                 "hrb": "HRB 98854",
                 "registration": "successor",
                 "text": " ist nach Hamburg (jetzt AG Hamburg, HRB 98854",
                 "to": "Hamburg",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

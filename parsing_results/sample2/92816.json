@@ -36,6 +36,10 @@
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
                 "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
+            },
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
             }
         ],
         "labels": [
@@ -46,12 +50,13 @@
         ],
         "notices": [
             {
+                "court": "Lübeck",
                 "from": "Ahrensburg",
                 "hrb": "HRB 9404 HL",
                 "registration": "predecessor",
                 "text": " von Ahrensburg (bisher AG Lübeck HRB 9404 HL) nach Hamburg beschlossen.",
                 "to": "Hamburg",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court_regex, from_hrb_to_regex"
             }
         ],
         "officers": [

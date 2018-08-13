@@ -38,12 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Köln",
                 "from": "Köln",
                 "hrb": "HRB 54469",
                 "registration": "predecessor",
                 "text": " von Köln (bisher AG Köln HRB 54469) nach Langenfeld und die entsprechende Änderung des Gesellschaftsvertrages in § 1 Abs. 2 sowie weitere Änderungen in § 5 (Stammkapital) - nur redaktionell - und § 8 (Veröffentlichungen) beschlossen.",
                 "to": "Langenfeld",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court_regex, from_hrb_to_regex"
             }
         ],
         "officers": [

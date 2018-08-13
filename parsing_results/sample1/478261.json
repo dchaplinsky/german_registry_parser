@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=478261&land_abk=he"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  muckhoff, dirk, mühltal, *17.04.1963. bestellt als geschäftsführer: celik, necmettin, dietzenbach, *26.03.1793, einzelvertretungsberechtigt, error text was no valid patter found, number of chunks: 8"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  muckhoff, dirk, mühltal, *17.04.1963. bestellt als geschäftsführer: celik, necmettin, dietzenbach, *26.03.1793, einzelvertretungsberechtigt, error text was no valid patter found, number of chunks: 8"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability.",

@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Hof",
                 "hrb": "HRB 5006",
                 "registration": "successor",
                 "text": " ist nach Hof (jetzt AG Hof HRB 5006, Firma jetzt: PSR Logistics GmbH) verlegt.",
                 "to": "Hof",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

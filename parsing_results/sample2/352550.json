@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Düsseldorf",
                 "hrb": "HRB 59322",
                 "registration": "successor",
                 "text": " ist nach Düsseldorf (jetzt AG Düsseldorf HRB 59322) verlegt.",
                 "to": "Düsseldorf",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

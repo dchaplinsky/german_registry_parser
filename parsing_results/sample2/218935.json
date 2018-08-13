@@ -18,10 +18,11 @@
     "parsed": {
         "notices": [
             {
+                "court": "Stuttgart",
                 "hrb": "HRA 721229",
                 "registration": "predecessor",
                 "text": " (AG Stuttgart HRA 721229) nunmehr: Stuttgart.",
-                "used_regex": "hrb"
+                "used_regex": "court_regex, hrb"
             }
         ]
     }

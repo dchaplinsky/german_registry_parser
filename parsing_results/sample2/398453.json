@@ -24,11 +24,12 @@
         ],
         "notices": [
             {
+                "court": "Mönchengladbach",
                 "hrb": "HRB 13004",
                 "registration": "successor",
                 "text": " ist nach Hückelhoven (jetzt AG Mönchengladbach HRB 13004, neue Firma: Baby Royal Real Estate GmbH) verlegt.",
                 "to": "Hückelhoven",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

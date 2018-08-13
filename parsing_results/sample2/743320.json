@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Frankfurt/Main",
                 "hrb": "HRB 92507",
                 "registration": "successor",
                 "text": " ist nach Frankfurt/Main (jetzt AG Frankfurt/Main, HRB 92507) verlegt.",
                 "to": "Frankfurt/Main",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

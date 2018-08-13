@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Osnabrück",
                 "hrb": "HRB 203835",
                 "registration": "successor",
                 "text": " ist nach Sögel (jetzt AG Osnabrück HRB 203835) verlegt.",
                 "to": "Sögel",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

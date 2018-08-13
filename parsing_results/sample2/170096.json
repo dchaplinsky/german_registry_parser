@@ -24,11 +24,12 @@
                 "used_regex": "to_regex2"
             },
             {
+                "court": "Mannheim",
                 "hrb": "HRB 702257",
                 "registration": "successor",
                 "text": " nach Wertheim (nun AG Mannheim HRB 702257).",
                 "to": "Wertheim",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

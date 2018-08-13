@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Hagen",
                 "hrb": "HRB 7583",
                 "registration": "successor",
                 "text": " ist nach Hagen (jetzt AG Hagen, HRB 7583, neuer Firmenname: Synergetics Germany GmbH) verlegt.",
                 "to": "Hagen",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

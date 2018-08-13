@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "stadthagen",
                 "hrb": "hr b 200347",
                 "registration": "successor",
                 "text": " ist nach bückeburg (jetzt ag stadthagen, hr b 200347) verlegt.",
                 "to": "bückeburg",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

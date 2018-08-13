@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Duisburg",
                 "hrb": "HRB 19315",
                 "registration": "successor",
                 "text": " ist nach Duisburg (jetzt AG Duisburg HRB 19315) verlegt.",
                 "to": "Duisburg",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

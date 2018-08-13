@@ -28,12 +28,13 @@
         ],
         "notices": [
             {
+                "court": "Dresden",
                 "from": "Dresden",
                 "hrb": "HRB 26359",
                 "registration": "predecessor",
                 "text": " von Dresden (bisher AG Dresden HRB 26359) nach Düsseldorf und die entsprechende Änderung des Gesellschaftsvertrages in § 2 beschlossen, ferner eine Änderung in § 1 Abs. 1 und damit der Firma (bisher \"LK Zweihundertsiebenundachtzigste Vermögensverwaltungs GmbH\").",
                 "to": "Düsseldorf",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court_regex, from_hrb_to_regex"
             }
         ],
         "officers": [

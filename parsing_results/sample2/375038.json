@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Aachen",
                 "hrb": "HRB 15071",
                 "registration": "successor",
                 "text": " ist nach Aachen (jetzt AG Aachen, HRB 15071) verlegt.",
                 "to": "Aachen",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

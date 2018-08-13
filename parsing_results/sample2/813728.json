@@ -38,12 +38,13 @@
         ],
         "notices": [
             {
+                "court": "Köln",
                 "from": "Köln",
                 "hrb": "HRB 73426",
                 "registration": "predecessor",
                 "text": " von Köln (bisher AG Köln HRB 73426) nach Minden beschlossen.",
                 "to": "Minden",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court_regex, from_hrb_to_regex"
             }
         ],
         "officers": [

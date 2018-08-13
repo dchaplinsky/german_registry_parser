@@ -18,12 +18,13 @@
     "parsed": {
         "notices": [
             {
+                "court": "Düsseldorf",
                 "from": "Düsseldorf",
                 "hrb": "HRB 37870",
                 "registration": "predecessor",
                 "text": " von Düsseldorf (bisher AG Düsseldorf HRB 37870) nach Herford beschlossen.",
                 "to": "Herford",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court_regex, from_hrb_to_regex"
             }
         ],
         "officers": [

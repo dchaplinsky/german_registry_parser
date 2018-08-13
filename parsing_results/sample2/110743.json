@@ -32,12 +32,13 @@
         ],
         "notices": [
             {
+                "court": "Münster",
                 "from": "Wadersloh",
                 "hrb": "HRB 9886",
                 "registration": "predecessor",
                 "text": " von Wadersloh (bisher AG Münster HRB 9886) nach Witten beschlossen.",
                 "to": "Witten",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court_regex, from_hrb_to_regex"
             }
         ],
         "officers": [

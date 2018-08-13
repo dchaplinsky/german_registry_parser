@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=9508&land_abk=he"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a AppointedManagingDirector from  dr. henrich, michael, brühl, *12.09.1952. gesamtprokura gemeinsam mit einem geschäftsführer oder einem anderen prokuristen: barthel, clemens, hofheim am taunus, *03.01.1949, error text was no valid patter found, number of chunks: 7"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  dr. henrich, michael, brühl, *12.09.1952. gesamtprokura gemeinsam mit einem geschäftsführer oder einem anderen prokuristen: barthel, clemens, hofheim am taunus, *03.01.1949, error text was no valid patter found, number of chunks: 7"
+            }
+        ],
         "notices": [
             {
                 "registration": "predecessor",

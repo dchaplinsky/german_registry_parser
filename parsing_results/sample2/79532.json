@@ -32,12 +32,13 @@
         ],
         "notices": [
             {
+                "court": "Dortmund",
                 "from": "Dortmund",
                 "hrb": "HR B 15719",
                 "registration": "predecessor",
                 "text": " von Dortmund (bisher AG Dortmund HR B 15719) nach Siegen beschlossen.",
                 "to": "Siegen",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court_regex, from_hrb_to_regex"
             }
         ],
         "officers": [

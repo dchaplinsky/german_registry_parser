@@ -26,6 +26,12 @@
                 "text": "Cannot parse a ManagingDirector from  Dipl.-Betriebswirt Schäfer, Thomas, Bochum, *01.07.1968. nach geänderter Vertretungsregelung Geschäftsführer: Schäfer, Ralf, Bochum, *16.09.1967, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was no valid patter found, number of chunks: 8"
             }
         ],
+        "flags": [
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",

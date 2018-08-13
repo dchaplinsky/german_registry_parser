@@ -32,12 +32,13 @@
         ],
         "notices": [
             {
+                "court": "Köln",
                 "from": "Köln",
                 "hrb": "HRB 61279",
                 "registration": "predecessor",
                 "text": " von Köln (bisher AG Köln HRB 61279) nach Düsseldorf und die entsprechende Änderung des Gesellschaftsvertrages in § 1 Ziff.",
                 "to": "Düsseldorf",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court_regex, from_hrb_to_regex"
             }
         ],
         "officers": [

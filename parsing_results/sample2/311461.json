@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Augsburg",
                 "hrb": "HRB 24108",
                 "registration": "successor",
                 "text": " nach Augsburg (nun AG Augsburg HRB 24108).",
                 "to": "Augsburg",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=123601&land_abk=nw"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  schwille, rainer, reutlingen, *28.05.1955. neu bestellt als geschäftsführer: kopel, mechthild, berlin, *25.09.1954, error text was no valid patter found, number of chunks: 7"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  schwille, rainer, reutlingen, *28.05.1955. neu bestellt als geschäftsführer: kopel, mechthild, berlin, *25.09.1954, error text was no valid patter found, number of chunks: 7"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability.",

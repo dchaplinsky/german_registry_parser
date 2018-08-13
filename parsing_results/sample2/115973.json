@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Chemnitz",
                 "hrb": "HRB 22940",
                 "registration": "successor",
                 "text": " nach Chemnitz (nun AG Chemnitz HRB 22940).",
                 "to": "Chemnitz",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

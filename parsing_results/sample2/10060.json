@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "München",
                 "hrb": "HRA 85468",
                 "registration": "successor",
                 "text": " ist nach Grünwald (jetzt AG München, HRA 85468, neue Firma: KALA Grundstücksgesellschaft mbH & Co.",
                 "to": "Grünwald",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

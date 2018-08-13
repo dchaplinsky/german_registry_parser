@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Duisburg",
                 "hrb": "HRB 19068",
                 "registration": "successor",
                 "text": " ist nach Wesel (jetzt AG Duisburg, HRB 19068) verlegt.",
                 "to": "Wesel",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

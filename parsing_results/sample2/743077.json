@@ -28,6 +28,10 @@
             {
                 "flag": "If several managing directors are appointed, then the company is represented by two managing directors or by a managing director together with an authorized officer.",
                 "text": "Sind\\ mehrere\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ wird\\ die\\ Gesellschaft\\ durch\\ zwei\\ Gesch\\äftsf\\ührer\\ oder\\ durch\\ einen\\ Gesch\\äftsf\\ührer\\ gemeinsam\\ mit\\ einem\\ Prokuristen\\ vertreten\\."
+            },
+            {
+                "flag": "Single procuration",
+                "text": "Einzelprokura"
             }
         ],
         "labels": [
@@ -38,12 +42,13 @@
         ],
         "notices": [
             {
+                "court": "Frankfurt am Main",
                 "from": "Frankfurt am Main",
                 "hrb": "HRB 76809",
                 "registration": "predecessor",
                 "text": " von Frankfurt am Main (bisher AG Frankfurt am Main HRB 76809) nach Ratingen und die entsprechende Änderung des Gesellschaftsvertrages in § 1 Abs. 2 sowie eine weitere Änderung in § 5 Abs. 1 (Geschäftsführung - nur redaktionell) beschlossen.",
                 "to": "Ratingen",
-                "used_regex": "from_hrb_to_regex"
+                "used_regex": "court_regex, from_hrb_to_regex"
             }
         ],
         "officers": [

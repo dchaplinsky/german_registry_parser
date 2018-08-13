@@ -23,11 +23,12 @@
                 "used_regex": ""
             },
             {
+                "court": "Jena",
                 "hrb": "HRB 506052",
                 "registration": "successor",
                 "text": " nach Weimar (nun AG Jena HRB 506052).",
                 "to": "Weimar",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

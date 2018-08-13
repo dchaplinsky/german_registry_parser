@@ -28,12 +28,13 @@
         ],
         "notices": [
             {
+                "court": "Schwerin",
                 "from": "Wismar",
                 "hrb": "HRB 6081",
                 "registration": "successor",
                 "text": " der Gesellschaft von Wismar (AG Schwerin, HRB 6081) nach Neustadt verlegt und der Gesellschaftsvertrag in § 1 Abs. 2 (Sitz) sowie § 2 Abs. 1 (Gegenstand der Gesellschaft) geändert worden.",
                 "to": "Neustadt",
-                "used_regex": "from_regex, hrb_regex, to_regex"
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
             }
         ],
         "officers": [

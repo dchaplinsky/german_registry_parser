@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Duisburg",
                 "hrb": "HRB 20335",
                 "registration": "successor",
                 "text": " ist nach Oberhausen (jetzt AG Duisburg, HRB 20335, neue Firma: adveni GmbH) verlegt.",
                 "to": "Oberhausen",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

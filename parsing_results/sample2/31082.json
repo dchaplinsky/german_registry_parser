@@ -30,12 +30,13 @@
                 "used_regex": "hrb"
             },
             {
+                "court": "Lübeck",
                 "from": "Grande",
                 "hrb": "HRA 3426 AH",
                 "registration": "successor",
                 "text": " ist von Grande (bisher AG Lübeck HRA 3426 AH) nach Hamburg verlegt.",
                 "to": "Hamburg",
-                "used_regex": "from_regex, hrb_regex, to_regex"
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
             }
         ],
         "officers": [

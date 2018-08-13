@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Köln",
                 "hrb": "HR B 60731",
                 "registration": "successor",
                 "text": " ist nach Köln (jetzt AG Köln, HR B 60731) verlegt.",
                 "to": "Köln",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

@@ -24,11 +24,12 @@
         ],
         "notices": [
             {
+                "court": "Ulm",
                 "hrb": "HRB 730029",
                 "registration": "successor",
                 "text": " ist nach Bartholomä (jetzt AG Ulm HRB 730029) verlegt.",
                 "to": "Bartholomä",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

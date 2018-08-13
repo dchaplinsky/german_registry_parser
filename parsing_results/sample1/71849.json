@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Charlottenburg",
                 "hrb": "HRB 110755 B",
                 "registration": "successor",
                 "text": " ist nach Berlin (jetzt AG Charlottenburg, HRB 110755 B) verlegt.",
                 "to": "Berlin",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

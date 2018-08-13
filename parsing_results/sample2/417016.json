@@ -36,12 +36,13 @@
         ],
         "notices": [
             {
+                "court": "Montabaur",
                 "from": "Bad Hönningen",
                 "hrb": "HRA 20523",
                 "registration": "successor",
                 "text": " ist von Bad Hönningen (bisher AG Montabaur, HRA 20523) nach Ratingen verlegt.",
                 "to": "Ratingen",
-                "used_regex": "from_regex, hrb_regex, to_regex"
+                "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
             }
         ]
     }

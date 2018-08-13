@@ -18,11 +18,12 @@
     "parsed": {
         "notices": [
             {
+                "court": "Kiel",
                 "hrb": "HRB 12524 KI",
                 "registration": "successor",
                 "text": " ist nach Kisdorf (jetzt AG Kiel, HRB 12524 KI) verlegt.",
                 "to": "Kisdorf",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

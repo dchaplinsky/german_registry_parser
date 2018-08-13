@@ -24,11 +24,12 @@
         ],
         "notices": [
             {
+                "court": "münchen",
                 "hrb": "hrb 196865",
                 "registration": "successor",
                 "text": " ist nach münchen (jetzt ag münchen, hrb 196865) verlegt.",
                 "to": "münchen",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }

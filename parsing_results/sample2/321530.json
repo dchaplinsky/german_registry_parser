@@ -24,11 +24,12 @@
         ],
         "notices": [
             {
+                "court": "Hannover",
                 "hrb": "HRB 204123",
                 "registration": "successor",
                 "text": " nach Hannover (nun AG Hannover HRB 204123).",
                 "to": "Hannover",
-                "used_regex": "hrb_regex, to_regex"
+                "used_regex": "hrb_regex, to_regex, court_regex"
             }
         ]
     }
