@@ -352,12 +352,17 @@ class AbstractNotice:
     successor_regex = re.compile(r"bisher\s?\:?\s?(?:AG|Amtsgericht)", flags=re.I)
     predecessor_regex = re.compile(r"(jetzt|nun)\s?\:?\s?(?:AG|Amtsgericht)", flags=re.I)
 
-    def identify_notice_type(self, default):
+    def identify_notice_type(self, notice_type, default):
         if self.successor_regex.search(self.text):
             return "successor"
 
         if self.predecessor_regex.search(self.text):
             return "predecessor"
+
+        if notice_type.lower() in ["löschungen", "veränderungen"]:
+            return "predecessor"
+        elif notice_type.lower() in ["neueintragungen"]:
+            return "successor"
 
         return default
 
@@ -391,9 +396,9 @@ class SuccessorRelocationNotice(AbstractNotice):
 
     def __init__(self, text, doc=None):
         self.text = text
-        self.payload = {"used_regex": [], "text": text, "registration": self.identify_notice_type("successor")}
+        self.payload = {"used_regex": [], "text": text, "registration": self.identify_notice_type(doc.get("event_type", ""), "successor")}
 
-        if doc.get("event_type").lower() in ["löschungen", "veränderungen"] and self.payload["registration"] == "successor":
+        if doc.get("event_type", "").lower() in ["löschungen", "veränderungen"] and self.payload["registration"] == "successor":
             self.payload["registration_conflict"] = True
 
         from_regex = re.compile(
@@ -444,9 +449,9 @@ class PredecessorRelocationNotice(AbstractNotice):
     def __init__(self, text, doc=None):
         self.text = text
 
-        self.payload = {"used_regex": [], "text": text, "registration": self.identify_notice_type("predecessor")}
+        self.payload = {"used_regex": [], "text": text, "registration": self.identify_notice_type(doc.get("event_type", ""), "predecessor")}
 
-        if doc.get("event_type").lower() in ["neueintragungen"] and self.payload["registration"] == "predecessor":
+        if doc.get("event_type", "").lower() in ["neueintragungen"] and self.payload["registration"] == "predecessor":
             self.payload["registration_conflict"] = True
 
         from_hrb_to_regex = re.compile(
