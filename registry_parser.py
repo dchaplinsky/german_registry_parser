@@ -111,7 +111,7 @@ class FullPerson(object):
 
         return city, dob
 
-    def __init__(self, text):
+    def __init__(self, text, doc=None):
         self.text = text
         chunks = text.split(",")
         self.description = ""
@@ -349,6 +349,18 @@ class AppointedManagingDirector(FullPerson):
 
 
 class AbstractNotice:
+    successor_regex = re.compile(r"bisher\s?\:?\s?(?:AG|Amtsgericht)", flags=re.I)
+    predecessor_regex = re.compile(r"(jetzt|nun)\s?\:?\s?(?:AG|Amtsgericht)", flags=re.I)
+
+    def identify_notice_type(self, default):
+        if self.successor_regex.search(self.text):
+            return "successor"
+
+        if self.predecessor_regex.search(self.text):
+            return "predecessor"
+
+        return default
+
     def try_to_find_city(self, city):
         city_chunks = city.split(" ")
         for x in range(len(city_chunks)):
@@ -377,9 +389,12 @@ class SuccessorRelocationNotice(AbstractNotice):
     kls = "SuccessorRelocationNotice"
     kind = "notices"
 
-    def __init__(self, text):
+    def __init__(self, text, doc=None):
         self.text = text
-        self.payload = {"used_regex": [], "text": text, "registration": "successor"}
+        self.payload = {"used_regex": [], "text": text, "registration": self.identify_notice_type("successor")}
+
+        if doc.get("event_type").lower() in ["löschungen", "veränderungen"] and self.payload["registration"] == "successor":
+            self.payload["registration_conflict"] = True
 
         from_regex = re.compile(
             r"\bvon\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
@@ -426,9 +441,13 @@ class PredecessorRelocationNotice(AbstractNotice):
     kls = "PredecessorRelocationNotice"
     kind = "notices"
 
-    def __init__(self, text):
+    def __init__(self, text, doc=None):
         self.text = text
-        self.payload = {"used_regex": [], "text": text, "registration": "predecessor"}
+
+        self.payload = {"used_regex": [], "text": text, "registration": self.identify_notice_type("predecessor")}
+
+        if doc.get("event_type").lower() in ["neueintragungen"] and self.payload["registration"] == "predecessor":
+            self.payload["registration_conflict"] = True
 
         from_hrb_to_regex = re.compile(
             r"\bvon\s+([^\(]+).*((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b).*nach\W([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)",
@@ -512,7 +531,7 @@ class Sentence(object):
         self.assign_label_to_postfix = assign_label_to_postfix
         self.capture_whole_text = capture_whole_text
 
-    def parse(self, sentence):
+    def parse(self, sentence, doc):
         text = None
 
         if isinstance(self.text, str):
@@ -542,7 +561,7 @@ class Sentence(object):
                     if isinstance(self.assign_label_to_postfix, str):
                         yield Label(self.assign_label_to_postfix, postfix)
                     elif isinstance(self.assign_label_to_postfix, type):
-                        yield self.assign_label_to_postfix(postfix)
+                        yield self.assign_label_to_postfix(postfix, doc)
             except ParsingError as e:
                 yield Error(type(e).__name__, str(e))
 
@@ -690,16 +709,14 @@ sentences = sorted(
 def _get_normalized(sents: tuple):
     for sent in sents:
         for chunk in sent.split(";"):
-            # yield " ".join(tokenize_words(chunk))
-            # yield chunk
             yield re.sub(r"\s+", " ", chunk)
 
 
-def _parse_normalized(normalized: str):
+def _parse_normalized(normalized: str, doc: dict):
     had_persons = False
     had_relocation = False
     for known_sentence in sentences:
-        res = list(filter(None, known_sentence.parse(normalized)))
+        res = list(filter(None, known_sentence.parse(normalized, doc)))
         if res:
             for r in res:
                 if isinstance(r, FullPerson):
@@ -743,7 +760,7 @@ def parse_document(doc: dict) -> (defaultdict, tuple):
     if errors:
         res["errors"] = errors
 
-    for v in chain.from_iterable(map(_parse_normalized, _get_normalized(sents))):
+    for v in chain.from_iterable(map(lambda x: _parse_normalized(x, doc), _get_normalized(sents))):
         res[v.kind].append(v.to_dict())
 
     return res, sents

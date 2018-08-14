@@ -19,13 +19,14 @@
         "notices": [
             {
                 "registration": "successor",
+                "registration_conflict": true,
                 "text": ", nun: Weimar.",
                 "used_regex": ""
             },
             {
                 "court": "Jena",
                 "hrb": "HRB 506052",
-                "registration": "successor",
+                "registration": "predecessor",
                 "text": " nach Weimar (nun AG Jena HRB 506052).",
                 "to": "Weimar",
                 "used_regex": "hrb_regex, to_regex, court_regex"

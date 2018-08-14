@@ -25,13 +25,14 @@
         "notices": [
             {
                 "registration": "successor",
+                "registration_conflict": true,
                 "text": ", nun: bad soden am taunus.",
                 "used_regex": ""
             },
             {
                 "court": "königstein",
                 "hrb": "hrb 8384",
-                "registration": "successor",
+                "registration": "predecessor",
                 "text": " ist nach bad soden am taunus (jetzt amtsgericht königstein im taunus, hrb 8384) verlegt.",
                 "to": "bad soden am taunus",
                 "used_regex": "hrb_regex, to_regex, court_regex"

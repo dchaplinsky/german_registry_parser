@@ -25,6 +25,7 @@
         "notices": [
             {
                 "registration": "successor",
+                "registration_conflict": true,
                 "text": ", nun: Neuer Sitz: Raunheim.",
                 "to": "Raunheim",
                 "used_regex": "to_regex2"
@@ -32,7 +33,7 @@
             {
                 "court": "Darmstadt",
                 "hrb": "HRB 94142",
-                "registration": "successor",
+                "registration": "predecessor",
                 "text": " ist nach Raunheim (jetzt Amtsgericht Darmstadt, HRB 94142) verlegt.",
                 "to": "Raunheim",
                 "used_regex": "hrb_regex, to_regex, court_regex"

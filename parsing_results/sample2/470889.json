@@ -25,6 +25,7 @@
         "notices": [
             {
                 "registration": "successor",
+                "registration_conflict": true,
                 "text": ", nun: Neuer Sitz: Kötz.",
                 "to": "Kötz",
                 "used_regex": "to_regex2"
@@ -32,7 +33,7 @@
             {
                 "court": "Memmingen",
                 "hrb": "HRB 16664",
-                "registration": "successor",
+                "registration": "predecessor",
                 "text": " ist nach Kötz (jetzt Amtsgericht Memmingen, HRB 16664) verlegt.",
                 "to": "Kötz",
                 "used_regex": "hrb_regex, to_regex, court_regex"

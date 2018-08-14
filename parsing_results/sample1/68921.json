@@ -19,6 +19,7 @@
         "notices": [
             {
                 "registration": "successor",
+                "registration_conflict": true,
                 "text": ", nun: neuer sitz: limburg a. d. lahn.",
                 "to": "limburg",
                 "used_regex": "to_regex2"
@@ -26,6 +27,7 @@
             {
                 "hrb": "hrb 4182",
                 "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach limburg a. d. lahn (jetzt hrb 4182) verlegt.",
                 "to": "limburg",
                 "used_regex": "hrb_regex, to_regex"

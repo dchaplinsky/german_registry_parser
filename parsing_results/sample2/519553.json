@@ -19,6 +19,7 @@
         "notices": [
             {
                 "registration": "successor",
+                "registration_conflict": true,
                 "text": ", nun: Neuer Sitz: Grünwald.",
                 "to": "Grünwald",
                 "used_regex": "to_regex2"
@@ -26,7 +27,7 @@
             {
                 "court": "München",
                 "hrb": "HRB 230301",
-                "registration": "successor",
+                "registration": "predecessor",
                 "text": " ist nach Grünwald (jetzt Amtsgericht München, HRB 230301) verlegt.",
                 "to": "Grünwald",
                 "used_regex": "hrb_regex, to_regex, court_regex"

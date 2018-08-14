@@ -25,6 +25,7 @@
         "notices": [
             {
                 "registration": "successor",
+                "registration_conflict": true,
                 "text": ", nun: Neuer Sitz: Wegberg.",
                 "to": "Wegberg",
                 "used_regex": "to_regex2"
@@ -32,7 +33,7 @@
             {
                 "court": "Mönchengladbach",
                 "hrb": "HRA 7436",
-                "registration": "successor",
+                "registration": "predecessor",
                 "text": " ist nach Wegberg (jetzt Amtsgericht Mönchengladbach, HRA 7436) verlegt.",
                 "to": "Wegberg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

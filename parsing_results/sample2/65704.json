@@ -20,13 +20,14 @@
             {
                 "court": "Aurich",
                 "hrb": "HRA 200849",
-                "registration": "successor",
+                "registration": "predecessor",
                 "text": " ist nach Westoverledingen (jetzt Amtsgericht Aurich HRA 200849) verlegt.",
                 "to": "Westoverledingen",
                 "used_regex": "hrb_regex, to_regex, court_regex"
             },
             {
                 "registration": "successor",
+                "registration_conflict": true,
                 "text": ", nun: Westoverledingen.",
                 "used_regex": ""
             }

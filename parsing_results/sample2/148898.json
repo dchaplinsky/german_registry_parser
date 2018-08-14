@@ -19,6 +19,7 @@
         "notices": [
             {
                 "registration": "successor",
+                "registration_conflict": true,
                 "text": ", nun: Neuer Sitz: Florstadt.",
                 "to": "Florstadt",
                 "used_regex": "to_regex2"
@@ -26,7 +27,7 @@
             {
                 "court": "Friedberg",
                 "hrb": "HRB 6863",
-                "registration": "successor",
+                "registration": "predecessor",
                 "text": " ist nach Florstadt (jetzt AG Friedberg, HRB 6863) verlegt.",
                 "to": "Florstadt",
                 "used_regex": "hrb_regex, to_regex, court_regex"

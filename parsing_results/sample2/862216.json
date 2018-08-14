@@ -19,6 +19,7 @@
         "notices": [
             {
                 "registration": "successor",
+                "registration_conflict": true,
                 "text": ", nun: Neuer Sitz: Bochum.",
                 "to": "Bochum",
                 "used_regex": "to_regex2"
@@ -26,7 +27,7 @@
             {
                 "court": "Bochum",
                 "hrb": "HRB 15375",
-                "registration": "successor",
+                "registration": "predecessor",
                 "text": " nach Bochum (nun Amtsgericht Bochum HRB 15375).",
                 "to": "Bochum",
                 "used_regex": "hrb_regex, to_regex, court_regex"
