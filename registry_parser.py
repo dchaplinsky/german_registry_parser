@@ -15,7 +15,7 @@ dob_regex = re.compile(r"\*\s?\d{2}\s?\.\s?\d{2}\s?.\s?\d{4}")
 _useful_regex = re.compile(r"\d{2}\.\d{2}\.\d{4}\n\n", flags=re.M)
 parse_number_regex = re.compile(r"^(\d+)\)(.*)")
 gmbh_regex = re.compile(r"[\s-]g?mbh", flags=re.I)
-hrb_regex = re.compile(r"\bHR\s?B\b\d+", flags=re.I)
+hrb_regex = re.compile(r"\b((?:HR\s?[AB]|VR|GnR|PR)\s?\d+)", flags=re.I)
 
 
 def simplify_city(city):
@@ -27,6 +27,7 @@ def simplify_city(city):
         .replace("/", "")
         .replace("(", "")
         .replace(")", "")
+        .replace(":", "")
         .lower()
         .strip()
     )
@@ -352,7 +353,9 @@ class AppointedManagingDirector(FullPerson):
 
 class AbstractNotice:
     predecessor_regex = re.compile(r"bisher\s?\:?\s?(?:AG|Amtsgericht)", flags=re.I)
-    successor_regex = re.compile(r"(jetzt|nun|nunmehr)\s?\:?\(?\s?(?:AG|Amtsgericht)", flags=re.I)
+    successor_regex = re.compile(
+        r"(jetzt|nun|nunmehr)\s?\:?\(?\s?(?:AG|Amtsgericht)", flags=re.I
+    )
 
     def identify_notice_type(self):
         if self.successor_regex.search(self.text):
@@ -389,7 +392,6 @@ class AbstractNotice:
                 self.payload["registration_fuzzy"] = True
                 self.payload["registration"] = "successor"
 
-
     def try_to_find_city(self, city):
         if not city:
             return None
@@ -398,9 +400,9 @@ class AbstractNotice:
         for x in range(len(city_chunks)):
             option = " ".join(city_chunks[: len(city_chunks) - x])
             if simplify_city(option) in GERMAN_CITIES:
-                return option.strip(" ,.()")
+                return option.strip(" ,.():")
 
-        return city_chunks[0].strip(" ,.()")
+        return city_chunks[0].strip(" ,.():")
 
     def to_dict(self):
         self.payload["used_regex"] = ", ".join(self.payload["used_regex"])
@@ -424,7 +426,9 @@ class SuccessorRelocationNotice(AbstractNotice):
     from_regex = re.compile(
         r"\bvon\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
     )
-    hrb_regex = re.compile(r"\b((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b)", flags=re.I)
+    hrb_regex = re.compile(
+        r"\b((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b)", flags=re.I
+    )
 
     to_regex = re.compile(
         r"\bnach\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
@@ -432,11 +436,18 @@ class SuccessorRelocationNotice(AbstractNotice):
     to_regex2 = re.compile(
         r"\bNeuer\s+Sitz:?\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
     )
-    court_regex = re.compile(r"\b(?:AG|Amtsgericht)\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I)
+    court_regex = re.compile(
+        r"\b(?:AG|Amtsgericht)\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
+    )
 
     def __init__(self, text, doc=None):
         self.text = text
-        self.payload = {"used_regex": [], "text": text, "court": None, "registration": self.identify_notice_type()}
+        self.payload = {
+            "used_regex": [],
+            "text": text,
+            "court": None,
+            "registration": self.identify_notice_type(),
+        }
 
         matches = self.from_regex.search(text)
         if matches and matches.group(1):
@@ -466,7 +477,10 @@ class SuccessorRelocationNotice(AbstractNotice):
         if self.payload["registration"] is None:
             self.try_to_deduct_registration()
 
-        if doc.get("event_type").lower() in ["löschungen", "veränderungen"] and self.payload["registration"] == "successor":
+        if (
+            doc.get("event_type").lower() in ["löschungen", "veränderungen"]
+            and self.payload["registration"] == "successor"
+        ):
             self.payload["registration_conflict"] = True
 
 
@@ -479,27 +493,38 @@ class PredecessorRelocationNotice(AbstractNotice):
         flags=re.I,
     )
 
-    from_hrb_regex = re.compile(r"\bvon\s+([^\(]+).*((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b)", flags=re.I)
+    from_hrb_regex = re.compile(
+        r"\bvon\s+([^\(]+).*((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b)",
+        flags=re.I,
+    )
     from_regex = re.compile(
         r"\bvon\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
     )
-    hrb_regex = re.compile(r"\b((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b)", flags=re.I)
+    hrb_regex = re.compile(
+        r"\b((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b)", flags=re.I
+    )
     to_regex = re.compile(
         r"\bnach\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
     )
 
-    court_regex = re.compile(r"\b(?:AG|Amtsgericht)\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I)
-
+    court_regex = re.compile(
+        r"\b(?:AG|Amtsgericht)\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
+    )
 
     def __init__(self, text, doc=None):
         self.text = text
 
-        self.payload = {"used_regex": [], "text": text, "court": None, "registration": self.identify_notice_type()}
+        self.payload = {
+            "used_regex": [],
+            "text": text,
+            "court": None,
+            "registration": self.identify_notice_type(),
+        }
 
         court_matches = self.court_regex.search(text)
         if court_matches and court_matches.group(1):
-                self.payload["court"] = court_matches.group(1).strip()
-                self.payload["used_regex"].append("court_regex")
+            self.payload["court"] = court_matches.group(1).strip()
+            self.payload["used_regex"].append("court_regex")
 
         matches = self.from_hrb_to_regex.search(text)
         if matches:
@@ -537,7 +562,10 @@ class PredecessorRelocationNotice(AbstractNotice):
         if self.payload["registration"] is None:
             self.try_to_deduct_registration()
 
-        if doc.get("event_type").lower() in ["neueintragungen"] and self.payload["registration"] == "predecessor":
+        if (
+            doc.get("event_type").lower() in ["neueintragungen"]
+            and self.payload["registration"] == "predecessor"
+        ):
             self.payload["registration_conflict"] = True
 
 
@@ -797,7 +825,9 @@ def parse_document(doc: dict) -> (defaultdict, tuple):
     if errors:
         res["errors"] = errors
 
-    for v in chain.from_iterable(map(lambda x: _parse_normalized(x, doc), _get_normalized(sents))):
+    for v in chain.from_iterable(
+        map(lambda x: _parse_normalized(x, doc), _get_normalized(sents))
+    ):
         res[v.kind].append(v.to_dict())
 
     return res, sents
