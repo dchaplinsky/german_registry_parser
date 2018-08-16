@@ -39,7 +39,8 @@
                 "court": "Düsseldorf",
                 "from": "Düsseldorf",
                 "hrb": "HRA 21680",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Düsseldorf (Amtsgericht Düsseldorf, HRA 21680) nach München verlegt.",
                 "to": "München",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

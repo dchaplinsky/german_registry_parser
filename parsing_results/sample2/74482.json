@@ -27,7 +27,8 @@
                 "court": "Düsseldorf",
                 "from": "Düsseldorf",
                 "hrb": "HRB 40921",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Düsseldorf (bisher Amtsgericht Düsseldorf, HRB 40921) nach Mülheim an der Ruhr beschlossen.",
                 "to": "Mülheim an der Ruhr",
                 "used_regex": "court_regex, from_hrb_to_regex"

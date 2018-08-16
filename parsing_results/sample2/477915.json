@@ -20,7 +20,8 @@
             {
                 "court": "Darmstadt",
                 "hrb": "HRA 85605",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Groß-Gerau (jetzt Amtsgericht Darmstadt, HRA 85605) verlegt.",
                 "to": "Groß-Gerau",
                 "used_regex": "hrb_regex, to_regex, court_regex"

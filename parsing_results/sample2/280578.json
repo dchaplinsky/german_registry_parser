@@ -26,7 +26,8 @@
             {
                 "court": "Bremen",
                 "hrb": "HRA 26709",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Bremen (jetzt Amtsgericht Bremen HRA 26709) verlegt.",
                 "to": "Bremen",
                 "used_regex": "hrb_regex, to_regex, court_regex"

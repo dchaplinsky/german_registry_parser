@@ -49,7 +49,8 @@
                 "court": "Charlottenburg",
                 "from": "Berlin",
                 "hrb": "HRB 112128 B",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Berlin (Amtsgericht Charlottenburg, HRB 112128 B) nach Frankfurt (Oder) verlegt und der Gesellschaftsvertrag geändert in § 1 (Sitz) und in § 2 (Gegenstand).",
                 "to": "Frankfurt",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

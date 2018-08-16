@@ -26,7 +26,8 @@
             {
                 "court": "Aachen",
                 "hrb": "HRB 17809",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Heinsberg (jetzt Amtsgericht Aachen, HRB 17809) verlegt.",
                 "to": "Heinsberg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

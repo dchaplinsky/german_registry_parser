@@ -26,7 +26,8 @@
             {
                 "court": "Mönchengladbach",
                 "hrb": "HRB 14484",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Mönchengladbach (jetzt AG Mönchengladbach, HRB 14484) verlegt.",
                 "to": "Mönchengladbach",
                 "used_regex": "hrb_regex, to_regex, court_regex"

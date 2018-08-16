@@ -26,7 +26,8 @@
             {
                 "court": "Fürth",
                 "hrb": "HRB 16800",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " nach Fürth (nun Amtsgericht Fürth HRB 16800).",
                 "to": "Fürth",
                 "used_regex": "hrb_regex, to_regex, court_regex"

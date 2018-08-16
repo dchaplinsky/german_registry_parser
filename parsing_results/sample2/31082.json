@@ -24,9 +24,9 @@
         ],
         "notices": [
             {
+                "court": null,
                 "hrb": "HRB 101672",
-                "registration": "predecessor",
-                "registration_conflict": true,
+                "registration": null,
                 "text": " nunmehr Persönlich haftender Gesellschafter: Renty Verwaltungsgesellschaft Fahrzeugvermietung mbH, Hamburg (Hamburg HRB 101672).",
                 "used_regex": "hrb"
             },
@@ -34,7 +34,7 @@
                 "court": "Lübeck",
                 "from": "Grande",
                 "hrb": "HRA 3426 AH",
-                "registration": "successor",
+                "registration": "predecessor",
                 "text": " ist von Grande (bisher AG Lübeck HRA 3426 AH) nach Hamburg verlegt.",
                 "to": "Hamburg",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

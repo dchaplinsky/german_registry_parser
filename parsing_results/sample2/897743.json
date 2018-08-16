@@ -28,13 +28,14 @@
                 "from": "Amts",
                 "hrb": "HRB 12055",
                 "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " von Amts wegen berichtigt: Persönlich haftender Gesellschafter: Flexbau Verwaltungs-GmbH, Hennef (Amtsgericht Siegburg HRB 12055), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
                 "used_regex": "court_regex, from_hrb_regex"
             },
             {
+                "court": null,
                 "from": "Sankt Augustin",
-                "registration": "successor",
-                "registration_conflict": true,
+                "registration": null,
                 "text": " ist von Sankt Augustin nach Hennef verlegt.",
                 "to": "Hennef",
                 "used_regex": "from_regex, to_regex"

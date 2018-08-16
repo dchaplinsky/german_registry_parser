@@ -26,7 +26,8 @@
             {
                 "court": "Schweinfurt",
                 "hrb": "HRB 7601",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Schweinfurt (jetzt Amtsgericht Schweinfurt HRB 7601) verlegt.",
                 "to": "Schweinfurt",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -45,8 +45,8 @@
                 "court": "Lübeck",
                 "from": "Lübeck",
                 "hrb": "HRB 5689 HL",
-                "registration": "successor",
-                "registration_conflict": true,
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Lübeck (Amtsgericht Lübeck, HRB 5689 HL) nach Nehmten verlegt und der Gesellschaftsvertrag geändert in § 1 (Firma, Sitz).",
                 "to": "Nehmten",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

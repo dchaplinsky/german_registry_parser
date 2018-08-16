@@ -45,7 +45,8 @@
                 "court": "Augsburg",
                 "from": "Marxheim",
                 "hrb": "HRB 20572",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Marxheim (bisher Amtsgericht Augsburg HRB 20572) nach Lindhorst beschlossen.",
                 "to": "Lindhorst",
                 "used_regex": "court_regex, from_hrb_to_regex"

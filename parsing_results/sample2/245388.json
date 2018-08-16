@@ -41,13 +41,15 @@
                 "court": "Wiesbaden",
                 "from": "Taunusstein",
                 "hrb": "HRB 24009",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Taunusstein (bisher Amtsgericht Wiesbaden HRB 24009) nach Bad Homburg v. d. Höhe beschlossen.",
                 "to": "Bad",
                 "used_regex": "court_regex, from_hrb_to_regex"
             },
             {
-                "registration": "successor",
+                "court": null,
+                "registration": null,
                 "text": ", nun: Geschäftsanschrift: Kaiser-Friedrich-Promenade 91, 61348 Bad Homburg v. d. Höhe.",
                 "used_regex": ""
             }

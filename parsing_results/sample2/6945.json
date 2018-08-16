@@ -27,7 +27,8 @@
                 "court": "Mainz",
                 "from": "Worms",
                 "hrb": "HRB 12241",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Worms (Amtsgericht Mainz HRB 12241) nach Mannheim verlegt.",
                 "to": "Mannheim",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

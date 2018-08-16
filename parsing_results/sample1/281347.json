@@ -20,7 +20,8 @@
             {
                 "court": "lübeck",
                 "hrb": "hra 8224 hl",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach oststeinbek (jetzt amtsgericht lübeck hra 8224 hl) verlegt.",
                 "to": "oststeinbek",
                 "used_regex": "hrb_regex, to_regex, court_regex"

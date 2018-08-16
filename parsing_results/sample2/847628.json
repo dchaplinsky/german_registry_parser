@@ -41,7 +41,8 @@
                 "court": "Köln",
                 "from": "Bergisch Gladbach",
                 "hrb": "HRB 66523",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Bergisch Gladbach (bisher Amtsgericht Köln HRB 66523) nach Siegen sowie die Änderung der Firma, die Erhöhung des Stammkapitals, die (redaktionelle) Änderung der Vertretung und die Neufassung der Satzung beschlossen.",
                 "to": "Siegen",
                 "used_regex": "court_regex, from_hrb_to_regex"

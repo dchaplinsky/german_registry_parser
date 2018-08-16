@@ -32,7 +32,8 @@
             {
                 "court": "freiburg",
                 "from": "hohberg",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von hohberg (bisher amtsgericht freiburg i. br.",
                 "used_regex": "court_regex, from"
             }

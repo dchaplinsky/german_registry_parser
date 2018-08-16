@@ -44,7 +44,8 @@
             {
                 "court": "Freiburg",
                 "from": "Denzlingen",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Denzlingen (Amtsgericht Freiburg i.",
                 "used_regex": "from_regex, court_regex"
             }

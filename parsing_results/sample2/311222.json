@@ -57,7 +57,8 @@
                 "court": "Hannover",
                 "from": "Hannover",
                 "hrb": "HRB 201899",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Hannover (Amtsgericht Hannover, HRB 201899) nach Berlin verlegt und der Gesellschaftsvertrag geändert in § 1 (Sitz).",
                 "to": "Berlin",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

@@ -32,7 +32,8 @@
             {
                 "court": "Freiburg",
                 "from": "Uhldingen-Mühlhofen",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Uhldingen-Mühlhofen (bisher Amtsgericht Freiburg i. Br.",
                 "used_regex": "court_regex, from"
             }

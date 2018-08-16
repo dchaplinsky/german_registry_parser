@@ -26,7 +26,8 @@
             {
                 "court": "Mainz",
                 "hrb": "HRB 46699",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Mainz (Firma geändert, nun: Curazept UG (haftungsbeschränkt), jetzt Amtsgericht Mainz HRB 46699) verlegt.",
                 "to": "Mainz",
                 "used_regex": "hrb_regex, to_regex, court_regex"

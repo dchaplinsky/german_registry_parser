@@ -26,7 +26,8 @@
             {
                 "court": "Lübeck",
                 "hrb": "HRB 16338 HL",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Lübeck (jetzt Amtsgericht Lübeck HRB 16338 HL",
                 "to": "Lübeck",
                 "used_regex": "hrb_regex, to_regex, court_regex"

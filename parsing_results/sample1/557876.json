@@ -24,8 +24,8 @@
         ],
         "notices": [
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: neuer sitz: brake.",
                 "to": "brake",
                 "used_regex": "to_regex2"
@@ -33,7 +33,8 @@
             {
                 "court": "oldenburg",
                 "hrb": "hrb 212362",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach brake (jetzt amtsgericht oldenburg, hrb 212362) verlegt.",
                 "to": "brake",
                 "used_regex": "hrb_regex, to_regex, court_regex"

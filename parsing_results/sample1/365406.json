@@ -45,7 +45,8 @@
                 "court": "königstein im taunus",
                 "from": "schwalbach am taunus",
                 "hrb": "hrb 7889",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von schwalbach am taunus (bisher amtsgericht königstein im taunus hrb 7889) nach frankfurt am main beschlossen.",
                 "to": "frankfurt am main",
                 "used_regex": "court_regex, from_hrb_to_regex"

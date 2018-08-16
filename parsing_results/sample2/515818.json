@@ -26,7 +26,8 @@
             {
                 "court": "Neuss",
                 "hrb": "HRB 15452",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Neuss (jetzt: Amtsgericht Neuss, HRB 15452) verlegt.",
                 "to": "Neuss",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -26,7 +26,8 @@
             {
                 "court": "lübeck",
                 "hrb": "hrb 12409 hl",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach bad schwartau (jetzt amtsgericht lübeck hrb 12409 hl) verlegt.",
                 "to": "bad schwartau",
                 "used_regex": "hrb_regex, to_regex, court_regex"

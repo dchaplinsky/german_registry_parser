@@ -31,7 +31,8 @@
                 "court": "Kleve",
                 "from": "Rees",
                 "hrb": "HRB 3457",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Rees (Amtsgericht Kleve, HRB 3457) nach Berlin verlegt und die Satzung geändert in § 1 (Firma und Sitz), § 2 (Gegenstand).",
                 "to": "Berlin",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

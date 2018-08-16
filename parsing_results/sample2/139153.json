@@ -35,7 +35,8 @@
                 "court": "Neuss",
                 "from": "Neuss",
                 "hrb": "HRB 13645",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Neuss (bisher AG Neuss HRB 13645) nach Düsseldorf beschlossen.",
                 "to": "Düsseldorf",
                 "used_regex": "court_regex, from_hrb_to_regex"

@@ -26,7 +26,8 @@
             {
                 "court": "Offenbach am Main",
                 "hrb": "HRB 48725",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Neu-Isenburg (jetzt Amtsgericht Offenbach am Main HRB 48725) verlegt.",
                 "to": "Neu-Isenburg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

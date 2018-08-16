@@ -45,7 +45,8 @@
                 "court": "Braunschweig",
                 "from": "Braunschweig",
                 "hrb": "HRB 202985",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Braunschweig (bisher Amtsgericht Braunschweig HRB 202985) nach Hiddenhausen beschlossen.",
                 "to": "Hiddenhausen",
                 "used_regex": "court_regex, from_hrb_to_regex"

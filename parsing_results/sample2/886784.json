@@ -20,7 +20,8 @@
             {
                 "court": "Arnsberg",
                 "hrb": "HRB 10288 B",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Menden (jetzt Amtsgericht Arnsberg HRB 10288 B) verlegt.",
                 "to": "Menden",
                 "used_regex": "hrb_regex, to_regex, court_regex"

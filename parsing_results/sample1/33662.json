@@ -41,7 +41,8 @@
                 "court": "Hamburg",
                 "from": "Hamburg",
                 "hrb": "HRB 121706",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Hamburg (Amtsgericht Hamburg, HRB 121706) nach Bremen verlegt und der Gesellschaftsvertrag entsprechend geändert in § 1.",
                 "to": "Bremen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

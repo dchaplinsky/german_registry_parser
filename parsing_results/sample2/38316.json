@@ -43,7 +43,8 @@
                 "court": "Köln",
                 "from": "Wermelskirchen",
                 "hrb": "HRB 63431",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Wermelskirchen (Amtsgericht Köln, HRB 63431) nach Potsdam verlegt und der Gesellschaftsvertrag geändert in § 1 Abs. 2 (Sitz).",
                 "to": "Potsdam",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

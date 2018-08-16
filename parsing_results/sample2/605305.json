@@ -33,13 +33,15 @@
                 "court": "Memmingen",
                 "from": "Ichenhausen",
                 "hrb": "HRB 11977",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Ichenhausen (Amtsgericht Memmingen HRB 11977) nach Esslingen am Neckar verlegt.",
                 "to": "Esslingen am Neckar",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
             },
             {
-                "registration": "successor",
+                "court": null,
+                "registration": null,
                 "text": "",
                 "used_regex": ""
             }

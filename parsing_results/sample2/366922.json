@@ -37,7 +37,8 @@
                 "court": "Ulm",
                 "from": "Heubach",
                 "hrb": "HRB 725007",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Heubach (Amtsgericht Ulm HRB 725007) nach Rosenfeld verlegt.",
                 "to": "Rosenfeld",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

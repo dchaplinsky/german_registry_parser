@@ -33,7 +33,8 @@
                 "court": "Stuttgart",
                 "from": "Schorndorf",
                 "hrb": "HRB 281634",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Schorndorf (Amtsgericht Stuttgart HRB 281634) nach Iggingen verlegt.",
                 "to": "Iggingen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

@@ -20,7 +20,8 @@
             {
                 "court": "Stuttgart",
                 "hrb": "HRA 732214",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Marbach am Neckar (jetzt Amtsgericht Stuttgart HRA 732214) verlegt.",
                 "to": "Marbach am Neckar",
                 "used_regex": "hrb_regex, to_regex, court_regex"

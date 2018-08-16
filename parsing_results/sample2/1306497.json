@@ -20,7 +20,8 @@
             {
                 "court": "Düsseldorf",
                 "hrb": "HRB 78162",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " der Gesellschaft ist nach Düsseldorf (jetzt: Amtsgericht Düsseldorf HRB 78162) verlegt.",
                 "to": "Düsseldorf",
                 "used_regex": "hrb_regex, to_regex, court_regex"

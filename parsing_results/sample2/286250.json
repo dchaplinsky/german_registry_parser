@@ -26,7 +26,8 @@
             {
                 "court": "Mainz",
                 "hrb": "HRB 44050",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Mainz (jetzt Amtsgericht Mainz HRB 44050) verlegt.",
                 "to": "Mainz",
                 "used_regex": "hrb_regex, to_regex, court_regex"

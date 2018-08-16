@@ -24,8 +24,8 @@
         ],
         "notices": [
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: Neuer Sitz: Schöneck.",
                 "to": "Schöneck",
                 "used_regex": "to_regex2"
@@ -33,7 +33,8 @@
             {
                 "court": "Hanau",
                 "hrb": "HRB 95380",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Schöneck (jetzt Amtsgericht Hanau, HRB 95380) verlegt.",
                 "to": "Schöneck",
                 "used_regex": "hrb_regex, to_regex, court_regex"

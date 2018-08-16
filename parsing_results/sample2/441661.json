@@ -57,7 +57,8 @@
                 "court": "Lübeck",
                 "from": "Mölln",
                 "hrb": "HRB 319",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Mölln (Amtsgericht Lübeck, HRB 319 MÖ) nach Berlin verlegt und der Gesellschaftsvertrag geändert in § 2 (Sitz), § 3 (Gegenstand des Unternehmens), § 4 (Stammkapital).",
                 "to": "Berlin",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

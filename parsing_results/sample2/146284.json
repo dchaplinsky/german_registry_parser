@@ -20,7 +20,8 @@
             {
                 "court": "Düsseldorf",
                 "hrb": "HRB 55520",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " nach Düsseldorf (nun AG Düsseldorf HRB 55520).",
                 "to": "Düsseldorf",
                 "used_regex": "hrb_regex, to_regex, court_regex"

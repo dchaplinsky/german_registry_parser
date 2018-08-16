@@ -26,7 +26,8 @@
             {
                 "court": "Hanau",
                 "hrb": "HRB 95314",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Gelnhausen (jetzt Amtsgericht Hanau, HRB 95314) verlegt.",
                 "to": "Gelnhausen",
                 "used_regex": "hrb_regex, to_regex, court_regex"

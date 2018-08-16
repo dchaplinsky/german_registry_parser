@@ -33,7 +33,8 @@
                 "court": "Krefeld",
                 "from": "Brüggen",
                 "hrb": "HR B 12275",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Brüggen (bisher Amtsgericht Krefeld HR B 12275) nach Niederkrüchten beschlossen.",
                 "to": "Niederkrüchten",
                 "used_regex": "court_regex, from_hrb_to_regex"

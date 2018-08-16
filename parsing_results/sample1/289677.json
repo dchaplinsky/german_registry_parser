@@ -45,7 +45,8 @@
                 "court": "hannover",
                 "from": "hannover",
                 "hrb": "hrb 7614",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von hannover (bisher amtsgericht hannover hrb 7614) nach sehnde beschlossen.",
                 "to": "sehnde",
                 "used_regex": "court_regex, from_hrb_to_regex"

@@ -20,7 +20,8 @@
             {
                 "court": "Siegen",
                 "hrb": "HRB 10508",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " der Gesellschaft ist nach Wilnsdorf (jetzt: Amtsgericht Siegen, HRB 10508) verlegt.",
                 "to": "Wilnsdorf",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -20,7 +20,8 @@
             {
                 "court": "Pinneberg",
                 "hrb": "HRB 7098 PI",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Langeln (jetzt Amtsgericht Pinneberg HRB 7098 PI) verlegt.",
                 "to": "Langeln",
                 "used_regex": "hrb_regex, to_regex, court_regex"

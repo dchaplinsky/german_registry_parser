@@ -35,7 +35,8 @@
                 "court": "Rastatt",
                 "from": "Rastatt",
                 "hrb": "HRB 2302",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Rastatt (bisher Amtsgericht Rastatt HRB 2302) nach Altena beschlossen.",
                 "to": "Altena",
                 "used_regex": "court_regex, from_hrb_to_regex"

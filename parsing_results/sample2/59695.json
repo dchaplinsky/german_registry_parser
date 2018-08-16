@@ -20,7 +20,8 @@
             {
                 "court": "Duisburg",
                 "hrb": "HRB 17892",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " der Gesellschaft ist nach Oberhausen (jetzt Amtsgericht Duisburg HRB 17892) verlegt.",
                 "to": "Oberhausen",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -20,7 +20,8 @@
             {
                 "court": "wuppertal",
                 "hrb": "hrb 19500",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " der gesellschaft ist nach velbert (jetzt ag wuppertal hrb 19500) verlegt.",
                 "to": "velbert",
                 "used_regex": "hrb_regex, to_regex, court_regex"

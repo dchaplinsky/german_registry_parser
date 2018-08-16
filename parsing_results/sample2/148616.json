@@ -41,7 +41,8 @@
                 "court": "Cottbus",
                 "from": "Schönefeld",
                 "hrb": "HRB 11803 CB",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Schönefeld (Amtsgericht Cottbus, HRB 11803 CB) nach Zossen verlegt und der Gesellschaftsvertrag geändert in § 1 Ziffer 1.2 (Sitz).",
                 "to": "Zossen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

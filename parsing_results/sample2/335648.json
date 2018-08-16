@@ -18,15 +18,16 @@
     "parsed": {
         "notices": [
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: Rotenburg/Wümme.",
                 "used_regex": ""
             },
             {
                 "court": "Walsrode",
                 "hrb": "HRA 202727",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Rotenburg/Wümme (jetzt Amtsgericht Walsrode HRA 202727) verlegt.",
                 "to": "Rotenburg/Wümme",
                 "used_regex": "hrb_regex, to_regex, court_regex"

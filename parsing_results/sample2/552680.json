@@ -37,7 +37,8 @@
                 "court": "Coburg",
                 "from": "Coburg",
                 "hrb": "HRB 3561",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Coburg (Amtsgericht Coburg HRB 3561) nach Stuttgart verlegt.",
                 "to": "Stuttgart",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

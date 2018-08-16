@@ -21,7 +21,8 @@
                 "court": "Bad",
                 "from": "Vlotho",
                 "hrb": "HRA 1833",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft ist von Vlotho (Amtsgericht Bad Oeynhausen, HRA 1833) nach Bremen verlegt..",
                 "to": "Bremen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

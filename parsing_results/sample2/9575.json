@@ -20,7 +20,8 @@
             {
                 "court": "Köln",
                 "hrb": "HRB 57962",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Köln (jetzt Amtsgericht Köln HRB 57962) verlegt.",
                 "to": "Köln",
                 "used_regex": "hrb_regex, to_regex, court_regex"

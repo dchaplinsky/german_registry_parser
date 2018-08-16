@@ -26,7 +26,8 @@
             {
                 "court": "Neuss",
                 "hrb": "HRB 16971",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Kaarst (jetzt AG Neuss, HRB 16971, neue Firma: DAR CHEMS GmbH) verlegt.",
                 "to": "Kaarst",
                 "used_regex": "hrb_regex, to_regex, court_regex"

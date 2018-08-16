@@ -26,7 +26,8 @@
             {
                 "court": "Krefeld",
                 "hrb": "HRB 13024",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Willich (jetzt Amtsgericht Krefeld, HRB 13024) verlegt.",
                 "to": "Willich",
                 "used_regex": "hrb_regex, to_regex, court_regex"

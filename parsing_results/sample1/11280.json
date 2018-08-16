@@ -35,7 +35,8 @@
                 "court": "Bad Kreuznach",
                 "from": "Griebelschied",
                 "hrb": "HRB 11216",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Griebelschied (bisher Amtsgericht Bad Kreuznach HRB 11216) nach Heidesheim beschlossen.",
                 "to": "Heidesheim",
                 "used_regex": "court_regex, from_hrb_to_regex"

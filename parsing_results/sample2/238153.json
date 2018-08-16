@@ -24,14 +24,15 @@
         ],
         "notices": [
             {
-                "registration": "predecessor",
+                "court": null,
+                "registration": null,
                 "text": " nach Neuwied beschlossen.",
                 "to": "Neuwied",
                 "used_regex": "to_regex"
             },
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: Neuer Sitz: Neuwied.",
                 "to": "Neuwied",
                 "used_regex": "to_regex2"

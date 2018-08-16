@@ -26,7 +26,8 @@
             {
                 "court": "Königstein",
                 "hrb": "HRB 8504",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Kronberg im Taunus (jetzt Amtsgericht Königstein im Taunus, HRB 8504) verlegt.",
                 "to": "Kronberg im Taunus",
                 "used_regex": "hrb_regex, to_regex, court_regex"

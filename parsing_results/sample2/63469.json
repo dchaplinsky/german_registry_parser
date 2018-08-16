@@ -20,7 +20,8 @@
             {
                 "court": "Hamburg",
                 "hrb": "HRA 102376",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Hamburg (jetzt AG Hamburg HRA 102376) verlegt.",
                 "to": "Hamburg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

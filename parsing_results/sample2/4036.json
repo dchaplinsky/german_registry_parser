@@ -20,7 +20,8 @@
             {
                 "court": "Lübeck",
                 "hrb": "HRB 6704 HL",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Jersbek (jetzt Amtsgericht Lübeck, HRB 6704 HL) verlegt.",
                 "to": "Jersbek",
                 "used_regex": "hrb_regex, to_regex, court_regex"

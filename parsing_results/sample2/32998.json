@@ -31,7 +31,8 @@
                 "court": "München",
                 "from": "München",
                 "hrb": "HRB 100133",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von München (Amtsgericht München HRB 100133) nach Göppingen verlegt.",
                 "to": "Göppingen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

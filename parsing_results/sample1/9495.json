@@ -20,7 +20,8 @@
             {
                 "court": "neuss",
                 "hrb": "hrb 13237",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach neuss (jetzt amtsgericht neuss hrb 13237) verlegt.",
                 "to": "neuss",
                 "used_regex": "hrb_regex, to_regex, court_regex"

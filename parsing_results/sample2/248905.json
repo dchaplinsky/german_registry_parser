@@ -65,7 +65,8 @@
                 "court": "Leipzig",
                 "from": "Leipzig",
                 "hrb": "HRB 24067",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Leipzig (Amtsgericht Leipzig, HRB 24067) nach Berlin verlegt und der Gesellschaftsvertrag geändert in § 1 (Sitz) und § 3 (Stammkapital).",
                 "to": "Berlin",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

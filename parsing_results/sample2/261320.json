@@ -19,7 +19,8 @@
         "notices": [
             {
                 "court": "Wuppertal",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Remscheid (jetzt Amtsgericht Wuppertal, B 26367, Firma jetzt: BD Concept GmbH) verlegt.",
                 "to": "Remscheid",
                 "used_regex": "to_regex, court_regex"

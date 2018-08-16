@@ -26,7 +26,8 @@
             {
                 "court": "Wuppertal",
                 "hrb": "HRB 24241",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Mettmann (jetzt Amtsgericht Wuppertal HRB 24241) verlegt.",
                 "to": "Mettmann",
                 "used_regex": "hrb_regex, to_regex, court_regex"

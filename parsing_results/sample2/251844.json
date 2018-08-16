@@ -20,7 +20,8 @@
             {
                 "court": "Hamburg",
                 "hrb": "HRB 102075",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Hamburg (jetzt Amtsgericht Hamburg HRB 102075, neue Firma: A.M.I.",
                 "to": "Hamburg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

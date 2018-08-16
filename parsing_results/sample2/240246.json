@@ -26,7 +26,8 @@
             {
                 "court": "Stendal",
                 "hrb": "HRB 18935",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Stendal (jetzt Amtsgericht Stendal HRB 18935) verlegt.",
                 "to": "Stendal",
                 "used_regex": "hrb_regex, to_regex, court_regex"

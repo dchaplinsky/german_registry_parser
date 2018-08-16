@@ -20,7 +20,8 @@
             {
                 "court": "duisburg",
                 "hrb": "hra 9976",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach oberhausen (jetzt amtsgericht duisburg hra 9976) verlegt.",
                 "to": "oberhausen",
                 "used_regex": "hrb_regex, to_regex, court_regex"

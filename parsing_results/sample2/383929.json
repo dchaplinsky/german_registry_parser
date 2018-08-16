@@ -45,7 +45,8 @@
                 "court": "München",
                 "from": "Grünwald",
                 "hrb": "HRB 159345",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Grünwald (bisher Amtsgericht München HRB 159345) nach Frankfurt am Main und die Änderung des Gesellschaftsvertrages in § 1.1 (Firma) beschlossen.",
                 "to": "Frankfurt am Main",
                 "used_regex": "court_regex, from_hrb_to_regex"

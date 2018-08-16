@@ -45,7 +45,8 @@
                 "court": "charlottenburg",
                 "from": "berlin",
                 "hrb": "hrb 137486 b",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von berlin (bisher amtsgericht charlottenburg hrb 137486 b) nach bielefeld beschlossen.",
                 "to": "bielefeld",
                 "used_regex": "court_regex, from_hrb_to_regex"

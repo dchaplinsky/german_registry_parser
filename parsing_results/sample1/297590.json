@@ -45,7 +45,8 @@
                 "court": "Ludwigshafen am Rhein",
                 "from": "Bobenheim-Roxheim",
                 "hrb": "HRB 62348",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Bobenheim-Roxheim (bisher Amtsgericht Ludwigshafen am Rhein HRB 62348) nach Heppenheim beschlossen.",
                 "to": "Heppenheim",
                 "used_regex": "court_regex, from_hrb_to_regex"

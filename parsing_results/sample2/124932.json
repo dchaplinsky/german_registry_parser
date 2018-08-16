@@ -49,7 +49,8 @@
                 "court": "Duisburg",
                 "from": "Mülheim an der Ruhr",
                 "hrb": "HRB 23487",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Mülheim an der Ruhr (Amtsgericht Duisburg, HRB 23487) nach Trebbin verlegt und der Gesellschaftsvertrag geändert in Ziffer 1.2 (Sitz).",
                 "to": "Trebbin",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

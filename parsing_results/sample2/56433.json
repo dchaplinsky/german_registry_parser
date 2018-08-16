@@ -20,7 +20,8 @@
             {
                 "court": "Bad",
                 "hrb": "HRB 10684",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Bad Homburg v.d.Höhe (jetzt Amtsgericht Bad Homburg v.d.Höhe, HRB 10684) verlegt.",
                 "to": "Bad",
                 "used_regex": "hrb_regex, to_regex, court_regex"

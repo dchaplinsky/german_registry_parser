@@ -25,6 +25,8 @@ def simplify_city(city):
         .replace(" ", "")
         .replace(".", "")
         .replace("/", "")
+        .replace("(", "")
+        .replace(")", "")
         .lower()
         .strip()
     )
@@ -349,26 +351,56 @@ class AppointedManagingDirector(FullPerson):
 
 
 class AbstractNotice:
-    successor_regex = re.compile(r"bisher\s?\:?\s?(?:AG|Amtsgericht)", flags=re.I)
-    predecessor_regex = re.compile(r"(jetzt|nun)\s?\:?\s?(?:AG|Amtsgericht)", flags=re.I)
+    predecessor_regex = re.compile(r"bisher\s?\:?\s?(?:AG|Amtsgericht)", flags=re.I)
+    successor_regex = re.compile(r"(jetzt|nun|nunmehr)\s?\:?\(?\s?(?:AG|Amtsgericht)", flags=re.I)
 
-    def identify_notice_type(self, default):
+    def identify_notice_type(self):
         if self.successor_regex.search(self.text):
             return "successor"
 
         if self.predecessor_regex.search(self.text):
             return "predecessor"
 
-        return default
+        return None
+
+    def try_to_deduct_registration(self):
+        if self.payload.get("court"):
+            court_position = self.text.index(self.payload["court"])
+            from_position = None
+            to_position = None
+
+            if "from" in self.payload:
+                from_position = self.text.index(self.payload["from"])
+                if from_position > court_position:
+                    from_position = None
+
+            if "to" in self.payload:
+                to_position = self.text.index(self.payload["to"])
+                if to_position > court_position:
+                    to_position = None
+
+            if from_position is not None:
+                self.payload["registration_fuzzy"] = True
+                if to_position is not None and to_position > from_position:
+                    self.payload["registration"] = "successor"
+                else:
+                    self.payload["registration"] = "predecessor"
+            elif to_position is not None:
+                self.payload["registration_fuzzy"] = True
+                self.payload["registration"] = "successor"
+
 
     def try_to_find_city(self, city):
+        if not city:
+            return None
+
         city_chunks = city.split(" ")
         for x in range(len(city_chunks)):
             option = " ".join(city_chunks[: len(city_chunks) - x])
             if simplify_city(option) in GERMAN_CITIES:
-                return option.strip(" ,.")
+                return option.strip(" ,.()")
 
-        return city_chunks[0].strip(" ,.")
+        return city_chunks[0].strip(" ,.()")
 
     def to_dict(self):
         self.payload["used_regex"] = ", ".join(self.payload["used_regex"])
@@ -389,119 +421,124 @@ class SuccessorRelocationNotice(AbstractNotice):
     kls = "SuccessorRelocationNotice"
     kind = "notices"
 
+    from_regex = re.compile(
+        r"\bvon\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
+    )
+    hrb_regex = re.compile(r"\b((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b)", flags=re.I)
+
+    to_regex = re.compile(
+        r"\bnach\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
+    )
+    to_regex2 = re.compile(
+        r"\bNeuer\s+Sitz:?\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
+    )
+    court_regex = re.compile(r"\b(?:AG|Amtsgericht)\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I)
+
     def __init__(self, text, doc=None):
         self.text = text
-        self.payload = {"used_regex": [], "text": text, "registration": self.identify_notice_type("successor")}
+        self.payload = {"used_regex": [], "text": text, "court": None, "registration": self.identify_notice_type()}
 
-        if doc.get("event_type").lower() in ["löschungen", "veränderungen"] and self.payload["registration"] == "successor":
-            self.payload["registration_conflict"] = True
-
-        from_regex = re.compile(
-            r"\bvon\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
-        )
-        hrb_regex = re.compile(r"\b((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b)", flags=re.I)
-
-        to_regex = re.compile(
-            r"\bnach\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
-        )
-        to_regex2 = re.compile(
-            r"\bNeuer\s+Sitz:?\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
-        )
-
-        court_regex = re.compile(r"\b(?:AG|Amtsgericht)\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I)
-
-        matches = from_regex.search(text)
+        matches = self.from_regex.search(text)
         if matches and matches.group(1):
             self.payload["from"] = matches.group(1).strip()
             self.payload["used_regex"].append("from_regex")
 
-        matches = hrb_regex.search(text)
+        matches = self.hrb_regex.search(text)
         if matches and matches.group(1):
             self.payload["hrb"] = matches.group(1).strip()
             self.payload["used_regex"].append("hrb_regex")
 
-        matches = to_regex.search(text)
+        matches = self.to_regex.search(text)
         if matches and matches.group(1):
             self.payload["to"] = matches.group(1).strip()
             self.payload["used_regex"].append("to_regex")
         else:
-            matches = to_regex2.search(text)
+            matches = self.to_regex2.search(text)
             if matches and matches.group(1):
                 self.payload["to"] = matches.group(1).strip()
                 self.payload["used_regex"].append("to_regex2")
 
-        matches = court_regex.search(text)
+        matches = self.court_regex.search(text)
         if matches and matches.group(1):
             self.payload["court"] = matches.group(1).strip()
             self.payload["used_regex"].append("court_regex")
 
+        if self.payload["registration"] is None:
+            self.try_to_deduct_registration()
+
+        if doc.get("event_type").lower() in ["löschungen", "veränderungen"] and self.payload["registration"] == "successor":
+            self.payload["registration_conflict"] = True
 
 
 class PredecessorRelocationNotice(AbstractNotice):
     kls = "PredecessorRelocationNotice"
     kind = "notices"
 
+    from_hrb_to_regex = re.compile(
+        r"\bvon\s+([^\(]+).*((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b).*nach\W([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)",
+        flags=re.I,
+    )
+
+    from_hrb_regex = re.compile(r"\bvon\s+([^\(]+).*((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b)", flags=re.I)
+    from_regex = re.compile(
+        r"\bvon\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
+    )
+    hrb_regex = re.compile(r"\b((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b)", flags=re.I)
+    to_regex = re.compile(
+        r"\bnach\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
+    )
+
+    court_regex = re.compile(r"\b(?:AG|Amtsgericht)\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I)
+
+
     def __init__(self, text, doc=None):
         self.text = text
 
-        self.payload = {"used_regex": [], "text": text, "registration": self.identify_notice_type("predecessor")}
+        self.payload = {"used_regex": [], "text": text, "court": None, "registration": self.identify_notice_type()}
 
-        if doc.get("event_type").lower() in ["neueintragungen"] and self.payload["registration"] == "predecessor":
-            self.payload["registration_conflict"] = True
-
-        from_hrb_to_regex = re.compile(
-            r"\bvon\s+([^\(]+).*((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b).*nach\W([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)",
-            flags=re.I,
-        )
-
-        from_hrb_regex = re.compile(r"\bvon\s+([^\(]+).*((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b)", flags=re.I)
-        from_regex = re.compile(
-            r"\bvon\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
-        )
-        hrb_regex = re.compile(r"\b((?:HR\s?[AB]|VR|GnR|PR)\s?\d+\s?\b[A-Z]{0,3}\b)", flags=re.I)
-        to_regex = re.compile(
-            r"\bnach\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I
-        )
-
-        court_regex = re.compile(r"\b(?:AG|Amtsgericht)\s+([^\s]*\s?[^\s]*\s?[^\s]*\s?[^\s]*\s?)", flags=re.I)
-
-        court_matches = court_regex.search(text)
+        court_matches = self.court_regex.search(text)
         if court_matches and court_matches.group(1):
                 self.payload["court"] = court_matches.group(1).strip()
                 self.payload["used_regex"].append("court_regex")
 
-        matches = from_hrb_to_regex.search(text)
+        matches = self.from_hrb_to_regex.search(text)
         if matches:
             self.payload["from"] = matches.group(1).strip()
             self.payload["hrb"] = matches.group(2).strip()
             self.payload["to"] = matches.group(3).strip()
             self.payload["used_regex"].append("from_hrb_to_regex")
         else:
-            matches = from_hrb_regex.search(text)
+            matches = self.from_hrb_regex.search(text)
             if matches:
                 self.payload["from"] = matches.group(1).strip()
                 self.payload["hrb"] = matches.group(2).strip()
                 self.payload["used_regex"].append("from_hrb_regex")
 
-                matches = to_regex.search(text)
+                matches = self.to_regex.search(text)
                 if matches:
                     self.payload["to"] = matches.group(1).strip()
                     self.payload["used_regex"].append("to_regex")
             else:
-                matches = from_regex.search(text)
+                matches = self.from_regex.search(text)
                 if matches:
                     self.payload["from"] = matches.group(1).strip()
                     self.payload["used_regex"].append("from")
 
-                matches = hrb_regex.search(text)
+                matches = self.hrb_regex.search(text)
                 if matches:
                     self.payload["hrb"] = matches.group(1).strip()
                     self.payload["used_regex"].append("hrb")
 
-                matches = to_regex.search(text)
+                matches = self.to_regex.search(text)
                 if matches:
                     self.payload["to"] = matches.group(1).strip()
                     self.payload["used_regex"].append("to_regex")
+
+        if self.payload["registration"] is None:
+            self.try_to_deduct_registration()
+
+        if doc.get("event_type").lower() in ["neueintragungen"] and self.payload["registration"] == "predecessor":
+            self.payload["registration_conflict"] = True
 
 
 class Sentence(object):

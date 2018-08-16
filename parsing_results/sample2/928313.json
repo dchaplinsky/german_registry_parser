@@ -26,7 +26,8 @@
             {
                 "court": "Düsseldorf",
                 "hrb": "HRB 70481",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Hilden (jetzt Amtsgericht Düsseldorf HRB 70481) verlegt.",
                 "to": "Hilden",
                 "used_regex": "hrb_regex, to_regex, court_regex"

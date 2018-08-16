@@ -20,7 +20,8 @@
             {
                 "court": "Bochum",
                 "hrb": "HRB 11727",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Witten (jetzt Amtsgericht Bochum HRB 11727) verlegt.",
                 "to": "Witten",
                 "used_regex": "hrb_regex, to_regex, court_regex"

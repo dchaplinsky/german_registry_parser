@@ -26,7 +26,8 @@
             {
                 "court": "München",
                 "hrb": "HRB 237308",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Neubiberg, Landkreis München (jetzt Amtsgericht München, HRB 237308) verlegt.",
                 "to": "Neubiberg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

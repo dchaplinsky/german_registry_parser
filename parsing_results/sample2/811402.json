@@ -20,7 +20,8 @@
             {
                 "court": "Siegen",
                 "hrb": "HRA 8714",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Finnentrop (jetzt Amtsgericht Siegen HRA 8714) verlegt.",
                 "to": "Finnentrop",
                 "used_regex": "hrb_regex, to_regex, court_regex"

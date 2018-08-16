@@ -37,7 +37,8 @@
                 "court": "Mannheim",
                 "from": "Rastatt",
                 "hrb": "HRB 704094",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Rastatt (Amtsgericht Mannheim HRB 704094) nach Laupheim verlegt.",
                 "to": "Laupheim",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

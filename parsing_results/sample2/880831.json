@@ -26,7 +26,8 @@
             {
                 "court": "Wuppertal",
                 "hrb": "HRB 24767",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Wuppertal (jetzt AG Wuppertal HRB 24767, neue Firma: Edelstahlschraubenfabrik Winterberg GmbH) verlegt.",
                 "to": "Wuppertal",
                 "used_regex": "hrb_regex, to_regex, court_regex"

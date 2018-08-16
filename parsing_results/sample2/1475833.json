@@ -26,7 +26,8 @@
             {
                 "court": "Recklinghausen",
                 "hrb": "HRB 7973",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Waltrop (jetzt Amtsgericht Recklinghausen, HRB 7973) verlegt.",
                 "to": "Waltrop",
                 "used_regex": "hrb_regex, to_regex, court_regex"

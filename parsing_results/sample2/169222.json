@@ -41,7 +41,8 @@
                 "court": "Mannheim",
                 "from": "Karlsruhe",
                 "hrb": "HRB 711800",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Karlsruhe (bisher Amtsgericht Mannheim HRB 711800) nach Wörth am Rhein beschlossen.",
                 "to": "Wörth am Rhein",
                 "used_regex": "court_regex, from_hrb_to_regex"

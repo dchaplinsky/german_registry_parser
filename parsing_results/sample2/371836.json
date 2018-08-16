@@ -26,7 +26,8 @@
             {
                 "court": "Wiesbaden",
                 "hrb": "HRB 27526",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Idstein (jetzt Amtsgericht Wiesbaden, HRB 27526) verlegt.",
                 "to": "Idstein",
                 "used_regex": "hrb_regex, to_regex, court_regex"

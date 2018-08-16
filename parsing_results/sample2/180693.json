@@ -19,7 +19,8 @@
         "notices": [
             {
                 "court": "Freiburg",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Bonndorf im Schwarzwald (jetzt Amtsgericht Freiburg i.",
                 "to": "Bonndorf im Schwarzwald",
                 "used_regex": "to_regex, court_regex"

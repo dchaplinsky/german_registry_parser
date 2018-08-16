@@ -26,7 +26,8 @@
             {
                 "court": "Koblenz",
                 "hrb": "HRB 24488",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Wolken (jetzt Amtsgericht Koblenz, HRB 24488) verlegt.",
                 "to": "Wolken",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -41,7 +41,8 @@
                 "court": "Essen",
                 "from": "Essen",
                 "hrb": "HRB 20955",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Essen (bisher AG Essen HRB 20955) nach Gelsenkirchen beschlossen.",
                 "to": "Gelsenkirchen",
                 "used_regex": "court_regex, from_hrb_to_regex"

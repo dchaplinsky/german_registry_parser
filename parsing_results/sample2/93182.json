@@ -61,7 +61,8 @@
                 "court": "Charlottenburg",
                 "from": "Berlin",
                 "hrb": "HRB 142788 B",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Berlin (Amtsgericht Charlottenburg, HRB 142788 B) nach Wriezen verlegt und der Gesellschaftsvertrag geändert in § 1 (Firma uns Sitz).",
                 "to": "Wriezen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

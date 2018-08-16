@@ -31,8 +31,7 @@
         "notices": [
             {
                 "court": "Duisburg",
-                "registration": "predecessor",
-                "registration_conflict": true,
+                "registration": null,
                 "text": " und Firmenänderung weiterhin Persönlich haftender Gesellschafter: León Verwaltungs GmbH, Duisbug (Amtsgericht Duisburg 28213).",
                 "used_regex": "court_regex"
             },
@@ -40,7 +39,7 @@
                 "court": "Montabaur",
                 "from": "Willroth",
                 "hrb": "HRA 21375",
-                "registration": "successor",
+                "registration": "predecessor",
                 "text": " ist von Willroth (bisher Amtsgericht Montabaur, HRA 21375) nach Duisburg verlegt.",
                 "to": "Duisburg",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

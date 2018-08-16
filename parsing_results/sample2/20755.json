@@ -45,7 +45,8 @@
                 "court": "Gütersloh",
                 "from": "Gütersloh",
                 "hrb": "HRB 3192",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Gütersloh (bisher Amtsgericht Gütersloh HRB 3192) nach Schwerin beschlossen.",
                 "to": "Schwerin",
                 "used_regex": "court_regex, from_hrb_to_regex"

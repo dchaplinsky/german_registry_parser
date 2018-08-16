@@ -27,7 +27,8 @@
                 "court": "Duisburg",
                 "from": "Duisburg",
                 "hrb": "HRB 9140",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Duisburg (bisher AG Duisburg HRB 9140) nach Krefeld beschlossen.",
                 "to": "Krefeld",
                 "used_regex": "court_regex, from_hrb_to_regex"

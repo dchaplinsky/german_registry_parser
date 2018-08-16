@@ -33,7 +33,8 @@
                 "court": "Aurich",
                 "from": "Moormerland-Neermoor",
                 "hrb": "HRB 200810",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Moormerland-Neermoor (bisher Amtsgericht Aurich HRB 200810) nach Delmenhorst beschlossen.",
                 "to": "Delmenhorst",
                 "used_regex": "court_regex, from_hrb_to_regex"

@@ -37,7 +37,8 @@
                 "court": "Wiesbaden",
                 "from": "Idstein",
                 "hrb": "HRB 22587",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Idstein (Amtsgericht Wiesbaden, HRB 22587) nach Potsdam verlegt und der Gesellschaftsvertrag geändert in § 1 Satz 2 (Sitz).",
                 "to": "Potsdam",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

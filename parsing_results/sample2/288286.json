@@ -20,7 +20,8 @@
             {
                 "court": "Hamburg",
                 "hrb": "HRB 123541",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Hamburg (jetzt Amtsgericht Hamburg HRB 123541) verlegt.",
                 "to": "Hamburg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

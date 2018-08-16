@@ -37,13 +37,15 @@
                 "court": "Charlottenburg",
                 "from": "Berlin",
                 "hrb": "HRB 178419 B",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Berlin (Amtsgericht Charlottenburg (Berlin) HRB 178419 B) nach Heidelberg verlegt.",
                 "to": "Heidelberg",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
             },
             {
-                "registration": "successor",
+                "court": null,
+                "registration": null,
                 "text": "",
                 "used_regex": ""
             }

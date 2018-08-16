@@ -20,7 +20,8 @@
             {
                 "court": "Offenbach am Main",
                 "hrb": "HRB 43408",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Rodgau (jetzt Amtsgericht Offenbach am Main HRB 43408) verlegt.",
                 "to": "Rodgau",
                 "used_regex": "hrb_regex, to_regex, court_regex"

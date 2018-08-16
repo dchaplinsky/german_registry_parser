@@ -21,7 +21,8 @@
                 "court": "Bielefeld",
                 "from": "Bielefeld",
                 "hrb": "HRA 14941",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft ist von Bielefeld (Amtsgericht Bielefeld, HRA 14941) nach Berlin verlegt..",
                 "to": "Berlin",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

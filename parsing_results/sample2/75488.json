@@ -41,7 +41,8 @@
                 "court": "Offenbach am Main",
                 "from": "Dreieich-Sprendlingen",
                 "hrb": "HRB 42347",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Dreieich-Sprendlingen (bisher Amtsgericht Offenbach am Main HRB 42347) nach Simmern und die Änderung der Firma sowie die Änderung des § 2 (Gegenstand des Unternehmens) beschlossen.",
                 "to": "Simmern",
                 "used_regex": "court_regex, from_hrb_to_regex"

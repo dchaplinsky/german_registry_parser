@@ -37,7 +37,8 @@
                 "court": "Stuttgart",
                 "from": "Stuttgart",
                 "hrb": "HRB 740453",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Stuttgart (Amtsgericht Stuttgart HRB 740453) nach Aalen verlegt.",
                 "to": "Aalen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

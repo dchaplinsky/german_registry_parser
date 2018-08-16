@@ -20,7 +20,8 @@
             {
                 "court": "Limburg",
                 "hrb": "HRB 4078",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Limburg a.d. Lahn (jetzt Amtsgericht Limburg a.d. Lahn HRB 4078) verlegt.",
                 "to": "Limburg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

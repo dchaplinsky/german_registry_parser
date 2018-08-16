@@ -26,7 +26,8 @@
             {
                 "court": "Lüneburg",
                 "hrb": "HRB 204770",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Winsen / Aller (jetzt Amtsgericht Lüneburg HRB 204770) verlegt.",
                 "to": "Winsen /",
                 "used_regex": "hrb_regex, to_regex, court_regex"

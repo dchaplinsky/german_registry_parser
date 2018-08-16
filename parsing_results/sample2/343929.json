@@ -35,7 +35,8 @@
                 "court": "Wiesbaden",
                 "from": "Wiesbaden",
                 "hrb": "HRB 9248",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Wiesbaden (bisher AG Wiesbaden HRB 9248) nach Düsseldorf beschlossen.",
                 "to": "Düsseldorf",
                 "used_regex": "court_regex, from_hrb_to_regex"

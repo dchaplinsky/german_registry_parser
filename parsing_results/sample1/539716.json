@@ -24,8 +24,8 @@
         ],
         "notices": [
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: Neuer Sitz: Dresden.",
                 "to": "Dresden",
                 "used_regex": "to_regex2"
@@ -33,7 +33,8 @@
             {
                 "court": "Dresden",
                 "hrb": "HRB 30444",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " nach Dresden (nun Amtsgericht Dresden HRB 30444).",
                 "to": "Dresden",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -20,7 +20,8 @@
             {
                 "court": "Stuttgart",
                 "hrb": "HRA 721144",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Stuttgart (jetzt AG Stuttgart HRA 721144) verlegt.",
                 "to": "Stuttgart",
                 "used_regex": "hrb_regex, to_regex, court_regex"

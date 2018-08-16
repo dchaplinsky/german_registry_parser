@@ -25,7 +25,8 @@
         "notices": [
             {
                 "court": "Münster",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Münster (jetzt Amtsgericht Münster",
                 "to": "Münster",
                 "used_regex": "to_regex, court_regex"

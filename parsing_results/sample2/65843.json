@@ -20,7 +20,8 @@
             {
                 "court": "Offenburg",
                 "hrb": "HRB 2431",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " nach Offenburg (nun Amtsgericht Offenburg HRB 2431).",
                 "to": "Offenburg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

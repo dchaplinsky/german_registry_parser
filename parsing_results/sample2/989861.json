@@ -37,7 +37,8 @@
                 "court": "Düsseldorf",
                 "from": "Düsseldorf",
                 "hrb": "HR B 40287",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Düsseldorf (bisher Amtsgericht Düsseldorf HR B 40287) nach Grevenbroich und die Neufassung des Gesellschaftsvertrages insgesamt unter Beibehaltung der Firma, des Unternehmensgegenstandes, des Stammkapitals und der allgemeinen Vertretungsregelung beschlossen.",
                 "to": "Grevenbroich",
                 "used_regex": "court_regex, from_hrb_to_regex"

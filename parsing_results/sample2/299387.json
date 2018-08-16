@@ -35,7 +35,8 @@
                 "court": "Köln",
                 "from": "Brühl",
                 "hrb": "HRB 59563",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Brühl (bisher Amtsgericht Köln HRB 59563) nach Wachtberg beschlossen.",
                 "to": "Wachtberg",
                 "used_regex": "court_regex, from_hrb_to_regex"

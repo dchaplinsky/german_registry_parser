@@ -24,8 +24,8 @@
         ],
         "notices": [
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: Neuer Sitz: Berlin.",
                 "to": "Berlin",
                 "used_regex": "to_regex2"
@@ -33,7 +33,8 @@
             {
                 "court": "Charlottenburg",
                 "hrb": "HRB 182080 B",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " nach Berlin (nun Amtsgericht Charlottenburg HRB 182080 B).",
                 "to": "Berlin",
                 "used_regex": "hrb_regex, to_regex, court_regex"

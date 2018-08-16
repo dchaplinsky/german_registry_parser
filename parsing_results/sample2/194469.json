@@ -37,7 +37,8 @@
                 "court": "Stuttgart",
                 "from": "Gerlingen",
                 "hrb": "HRB 720523",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Gerlingen (Amtsgericht Stuttgart HRB 720523) nach Giengen an der Brenz verlegt.",
                 "to": "Giengen an der Brenz",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

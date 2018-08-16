@@ -26,7 +26,8 @@
             {
                 "court": "Düsseldorf",
                 "hrb": "HRA 840",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " (bisher Amtsgericht Düsseldorf, HRA 840) Sitz nunmehr Kaarst.",
                 "used_regex": "court_regex, hrb"
             }

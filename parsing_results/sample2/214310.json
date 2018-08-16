@@ -45,7 +45,8 @@
                 "court": "Berlin-Charlottenburg",
                 "from": "Berlin",
                 "hrb": "HRB 111643 B",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Berlin (bisher Amtsgericht Berlin-Charlottenburg HRB 111643 B) nach Damme und die Änderung des Unternehmensgegenstandes beschlossen.",
                 "to": "Damme",
                 "used_regex": "court_regex, from_hrb_to_regex"

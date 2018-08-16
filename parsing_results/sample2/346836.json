@@ -45,7 +45,8 @@
                 "court": "Köln",
                 "from": "Köln",
                 "hrb": "HRB 76538",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Köln (bisher Amtsgericht Köln HRB 76538) nach Aßlar-Werdorf, § 2 (Gegenstand des Unternehmens) und § 3 (Stammkapital) und mit ihr die Erhöhung des Stammkapitals um 40.000,00 EUR beschlossen.",
                 "to": "Aßlar-Werdorf",
                 "used_regex": "court_regex, from_hrb_to_regex"

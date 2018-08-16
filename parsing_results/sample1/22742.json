@@ -20,7 +20,8 @@
             {
                 "court": "Potsdam",
                 "hrb": "HRB 21779 P",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " nach Potsdam (nun Amtsgericht Potsdam HRB 21779 P).",
                 "to": "Potsdam",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -47,7 +47,8 @@
                 "court": "Siegburg",
                 "from": "Troisdorf",
                 "hrb": "HRB 6101",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Troisdorf (bisher Amtsgericht Siegburg HRB 6101) nach Düsseldorf beschlossen.",
                 "to": "Düsseldorf",
                 "used_regex": "court_regex, from_hrb_to_regex"

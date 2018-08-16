@@ -19,7 +19,8 @@
         "notices": [
             {
                 "court": "freiburg",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " der gesellschaft ist nach villingen-schwenningen (jetzt amtsgericht freiburg i.",
                 "to": "villingen-schwenningen",
                 "used_regex": "to_regex, court_regex"

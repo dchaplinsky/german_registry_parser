@@ -26,7 +26,8 @@
             {
                 "court": "Passau",
                 "hrb": "HRB 9075",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " der Gesellschaft ist unter Änderung der Firma (Neue Firma: Energie aus Ihrer Region Verwaltungs-GmbH) verlegt nach Hauzenberg (nun Amtsgericht Passau HRB 9075).",
                 "to": "Hauzenberg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

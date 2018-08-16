@@ -20,7 +20,8 @@
             {
                 "court": "Lübeck",
                 "hrb": "HRB 2061 OD",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Zarpen (jetzt Amtsgericht Lübeck, HRB 2061 OD) verlegt.",
                 "to": "Zarpen",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -20,7 +20,8 @@
             {
                 "court": "stuttgart",
                 "hrb": "hrb 762719",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach stuttgart (jetzt amtsgericht stuttgart, hrb 762719) verlegt.",
                 "to": "stuttgart",
                 "used_regex": "hrb_regex, to_regex, court_regex"

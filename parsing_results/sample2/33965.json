@@ -43,7 +43,8 @@
                 "court": "Kiel",
                 "from": "Neumünster",
                 "hrb": "HRB 359",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Neumünster (Amtsgericht Kiel, HRB 359) nach Berlin verlegt und der Gesellschaftsvertrag geändert in § 1 (Sitz).",
                 "to": "Berlin",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

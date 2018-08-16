@@ -20,7 +20,8 @@
             {
                 "court": "Göppingen",
                 "hrb": "HRB 1727 Gei",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " der Gesellschaft ist verlegt nach Gingen/Fils (nun Amtsgericht Göppingen HRB 1727 Gei).",
                 "to": "Gingen/Fils",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -26,7 +26,8 @@
             {
                 "court": "Wiesbaden",
                 "hrb": "HRA 9516",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Wiesbaden (jetzt Amtsgericht Wiesbaden HRA 9516) verlegt.",
                 "to": "Wiesbaden",
                 "used_regex": "hrb_regex, to_regex, court_regex"

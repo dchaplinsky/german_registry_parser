@@ -20,7 +20,8 @@
             {
                 "court": "Mannheim",
                 "hrb": "HRB 717028",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Kieselbronn (jetzt Amtsgericht Mannheim HRB 717028) verlegt.",
                 "to": "Kieselbronn",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -37,7 +37,8 @@
                 "court": "Mannheim",
                 "from": "Baden-Baden",
                 "hrb": "HRB 202480",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Baden-Baden (Amtsgericht Mannheim HRB 202480) nach Baienfurt verlegt.",
                 "to": "Baienfurt",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

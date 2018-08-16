@@ -37,7 +37,8 @@
                 "court": "Düsseldorf",
                 "from": "Ratingen",
                 "hrb": "HRB 57377",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Ratingen (Amtsgericht Düsseldorf HRB 57377) nach Engen verlegt.",
                 "to": "Engen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

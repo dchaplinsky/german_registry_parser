@@ -49,7 +49,8 @@
                 "court": "Lübeck",
                 "from": "Wentorf",
                 "hrb": "HRB 1366 SB",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Wentorf bei Hamburg (bisher Amtsgericht Lübeck HRB 1366 SB) nach Hamburg beschlossen.",
                 "to": "Hamburg",
                 "used_regex": "court_regex, from_hrb_to_regex"

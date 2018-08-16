@@ -26,7 +26,8 @@
             {
                 "court": "Hannover",
                 "hrb": "HRB 203817",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Hannover (jetzt Amtsgericht Hannover HRB 203817) verlegt.",
                 "to": "Hannover",
                 "used_regex": "hrb_regex, to_regex, court_regex"

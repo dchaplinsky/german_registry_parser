@@ -20,7 +20,8 @@
             {
                 "court": "Pinneberg",
                 "hrb": "HRB 7032 PI",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Heide (jetzt Amtsgericht Pinneberg HRB 7032 PI) verlegt.",
                 "to": "Heide",
                 "used_regex": "hrb_regex, to_regex, court_regex"

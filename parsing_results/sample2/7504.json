@@ -27,7 +27,8 @@
                 "court": "Charlottenburg",
                 "from": "Berlin",
                 "hrb": "HRA 34513 B",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft ist von Berlin (Amtsgericht Charlottenburg, HRA 34513 B) nach Bremen verlegt..",
                 "to": "Bremen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

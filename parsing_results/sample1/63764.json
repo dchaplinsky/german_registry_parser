@@ -27,7 +27,8 @@
                 "court": "Jena",
                 "from": "Sömmerda",
                 "hrb": "HRB 108476",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Sömmerda (Amtsgericht Jena HRB 108476) nach Heidelberg verlegt.",
                 "to": "Heidelberg",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

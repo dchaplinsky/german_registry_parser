@@ -20,7 +20,8 @@
             {
                 "court": "Walsrode",
                 "hrb": "HRB 203993",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Hoya (jetzt Amtsgericht Walsrode HRB 203993) verlegt.",
                 "to": "Hoya",
                 "used_regex": "hrb_regex, to_regex, court_regex"

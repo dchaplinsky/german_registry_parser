@@ -26,7 +26,8 @@
             {
                 "court": "hamburg",
                 "hrb": "hrb 150192",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach hamburg (jetzt amtsgericht hamburg, hrb 150192",
                 "to": "hamburg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

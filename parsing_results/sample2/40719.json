@@ -20,7 +20,8 @@
             {
                 "court": "Hagen",
                 "hrb": "HRB 7107",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Hagen (jetzt Amtsgericht Hagen HRB 7107) verlegt.",
                 "to": "Hagen",
                 "used_regex": "hrb_regex, to_regex, court_regex"

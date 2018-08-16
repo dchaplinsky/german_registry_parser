@@ -31,7 +31,8 @@
                 "court": "München",
                 "from": "Pullach",
                 "hrb": "HRA 72120",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft ist von Pullach i. Isartal (Amtsgericht München, HRA 72120) nach Schönefeld verlegt.",
                 "to": "Schönefeld",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

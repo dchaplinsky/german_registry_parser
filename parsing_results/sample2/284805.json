@@ -40,7 +40,8 @@
             {
                 "court": "Charlottenburg",
                 "from": "Berlin",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Berlin (bisher Amtsgericht Charlottenburg",
                 "used_regex": "court_regex, from"
             }

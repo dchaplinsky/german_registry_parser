@@ -19,7 +19,8 @@
         "notices": [
             {
                 "court": "München",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Kreuth (jetzt Amtsgericht München",
                 "to": "Kreuth",
                 "used_regex": "to_regex, court_regex"

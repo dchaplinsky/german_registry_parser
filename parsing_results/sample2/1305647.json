@@ -20,7 +20,8 @@
             {
                 "court": "Neuss",
                 "hrb": "HRA 7515",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Korschenbroich (jetzt Amtsgericht Neuss, HRA 7515) verlegt.",
                 "to": "Korschenbroich",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -41,7 +41,8 @@
                 "court": "Coesfeld",
                 "from": "Billerbeck",
                 "hrb": "HRB 11271",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Billerbeck (bisher AG Coesfeld HRB 11271) nach Monheim beschlossen.",
                 "to": "Monheim",
                 "used_regex": "court_regex, from_hrb_to_regex"

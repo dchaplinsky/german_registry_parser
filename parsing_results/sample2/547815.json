@@ -26,7 +26,8 @@
             {
                 "court": "Schweinfurt",
                 "hrb": "HRB 6246",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " nach Bad Kissingen (nun Amtsgericht Schweinfurt HRB 6246).",
                 "to": "Bad Kissingen",
                 "used_regex": "hrb_regex, to_regex, court_regex"

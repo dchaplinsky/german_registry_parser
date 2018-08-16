@@ -41,7 +41,8 @@
                 "court": "Kiel",
                 "from": "Tangstedt",
                 "hrb": "HRB 13214",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Tangstedt (bisher Amtsgericht Kiel HRB 13214) nach Aachen beschlossen.",
                 "to": "Aachen",
                 "used_regex": "court_regex, from_hrb_to_regex"

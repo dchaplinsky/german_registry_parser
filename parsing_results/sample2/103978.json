@@ -26,7 +26,8 @@
             {
                 "court": "Königstein im Taunus -",
                 "hrb": "HRB 7980",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Bad Soden am Taunus (jetzt Amtsgericht Königstein im Taunus - HRB 7980) verlegt.",
                 "to": "Bad Soden am Taunus",
                 "used_regex": "hrb_regex, to_regex, court_regex"

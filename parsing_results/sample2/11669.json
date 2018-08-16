@@ -20,7 +20,8 @@
             {
                 "court": "Dresden",
                 "hrb": "HRB 24659",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Starbach (jetzt Amtsgericht Dresden, HRB 24659) verlegt.",
                 "to": "Starbach",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -20,7 +20,8 @@
             {
                 "court": "Aachen",
                 "hrb": "HRB 13653",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Herzogenrath (jetzt Amtsgericht Aachen HRB 13653) verlegt.",
                 "to": "Herzogenrath",
                 "used_regex": "hrb_regex, to_regex, court_regex"

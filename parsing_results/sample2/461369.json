@@ -41,7 +41,8 @@
                 "court": "Köln",
                 "from": "Köln",
                 "hrb": "HRB 31064",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Köln (bisher AG Köln, HRB 31064) nach Düsseldorf beschlossen, ferner die Umstellung des Stammkapital (DEM 100.000.000,00) auf EUR 51.129.188,12 und seine Erhöhung um EUR 811,88 auf EUR 51.130.000,00 unter entsprechender Änderung des § 3 sowie weiter des § 2 und damit des Gegenstandes sowie des § 5 und damit der allgemeinen Vertretungsregelung, schließlich der vollständigen Neufassung des Gesellschaftsvertrages im Übrigen.",
                 "to": "Düsseldorf",
                 "used_regex": "court_regex, from_hrb_to_regex"

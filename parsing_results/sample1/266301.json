@@ -25,7 +25,8 @@
         "notices": [
             {
                 "court": "oldenburg",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach oldenburg (jetzt amtsgericht oldenburg",
                 "to": "oldenburg",
                 "used_regex": "to_regex, court_regex"

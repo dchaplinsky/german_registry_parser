@@ -20,7 +20,8 @@
             {
                 "court": "Hagen",
                 "hrb": "HRB 7211",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Schwerte (jetzt Amtsgericht Hagen HRB 7211) verlegt.",
                 "to": "Schwerte",
                 "used_regex": "hrb_regex, to_regex, court_regex"

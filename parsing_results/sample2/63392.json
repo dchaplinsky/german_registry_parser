@@ -26,7 +26,8 @@
             {
                 "court": "München",
                 "hrb": "HRB 180174",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Aschheim (jetzt Amtsgericht München, HRB 180174) verlegt.",
                 "to": "Aschheim",
                 "used_regex": "hrb_regex, to_regex, court_regex"

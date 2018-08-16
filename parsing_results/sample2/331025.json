@@ -45,7 +45,8 @@
                 "court": "Neuss",
                 "from": "Meerbusch",
                 "hrb": "HRB 16051",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Meerbusch (bisher Amtsgericht Neuss HRB 16051) nach Hannover und die Änderung des Unternehmensgegenstandes beschlossen.",
                 "to": "Hannover",
                 "used_regex": "court_regex, from_hrb_to_regex"

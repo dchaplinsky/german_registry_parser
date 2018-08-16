@@ -45,7 +45,8 @@
                 "court": "Pinneberg",
                 "from": "Westerdeichstrich",
                 "hrb": "HRB 9118 PI",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Westerdeichstrich (Amtsgericht Pinneberg, HRB 9118 PI) nach Stockelsdorf verlegt und der Gesellschaftsvertrag geändert in § 2 (Sitz).",
                 "to": "Stockelsdorf",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

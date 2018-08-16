@@ -41,7 +41,8 @@
                 "court": "Köln",
                 "from": "Erftstadt",
                 "hrb": "HRB 53584",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Erftstadt (bisher Amtsgericht Köln, HRB 53584) nach Königswinter beschlossen.",
                 "to": "Königswinter",
                 "used_regex": "court_regex, from_hrb_to_regex"

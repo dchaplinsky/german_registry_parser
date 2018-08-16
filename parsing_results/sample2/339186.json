@@ -20,7 +20,8 @@
             {
                 "court": "Pinneberg",
                 "hrb": "HRB 13250 PI",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Pinneberg (jetzt Amtsgericht Pinneberg, HRB 13250 PI) verlegt.",
                 "to": "Pinneberg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

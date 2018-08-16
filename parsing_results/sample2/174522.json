@@ -24,8 +24,8 @@
         ],
         "notices": [
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: Neuer Sitz: Bad Nauheim.",
                 "to": "Bad Nauheim",
                 "used_regex": "to_regex2"
@@ -33,7 +33,8 @@
             {
                 "court": "Friedberg",
                 "hrb": "HRB 6984",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Bad Nauheim (jetzt Amtsgericht Friedberg, HRB 6984) verlegt.",
                 "to": "Bad Nauheim",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -26,7 +26,8 @@
             {
                 "court": "Wiesbaden",
                 "hrb": "HRB 29241",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Hochheim am Main (jetzt Amtsgericht Wiesbaden, HRB 29241) verlegt.",
                 "to": "Hochheim am Main",
                 "used_regex": "hrb_regex, to_regex, court_regex"

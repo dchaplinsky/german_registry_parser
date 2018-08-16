@@ -20,7 +20,8 @@
             {
                 "court": "Ulm",
                 "hrb": "HRB 720309",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " nach Aalen (nun AG Ulm HRB 720309).",
                 "to": "Aalen",
                 "used_regex": "hrb_regex, to_regex, court_regex"

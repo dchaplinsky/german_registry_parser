@@ -26,7 +26,8 @@
             {
                 "court": "Traunstein",
                 "hrb": "HRB 18741",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Zangberg (jetzt Amtsgericht Traunstein HRB 18741) verlegt.",
                 "to": "Zangberg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

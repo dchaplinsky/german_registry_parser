@@ -20,7 +20,8 @@
             {
                 "court": "Flensburg",
                 "hrb": "HRA 9451 FL",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Flensburg (jetzt AG Flensburg, HRA 9451 FL) verlegt.",
                 "to": "Flensburg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

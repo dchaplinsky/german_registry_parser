@@ -48,7 +48,8 @@
             {
                 "court": "Freiburg",
                 "from": "Salem",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Salem (bisher Amtsgericht Freiburg i. Br.",
                 "used_regex": "court_regex, from"
             }

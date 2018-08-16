@@ -47,7 +47,8 @@
                 "court": "Kiel",
                 "from": "Kattendorf",
                 "hrb": "HRB 7810 KI",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Kattendorf (Amtsgericht Kiel, HRB 7810 KI) nach Quickborn/Krs.",
                 "to": "Quickborn/Krs",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

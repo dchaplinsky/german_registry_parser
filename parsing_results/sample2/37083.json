@@ -20,7 +20,8 @@
             {
                 "court": "Pinneberg",
                 "hrb": "HRB 7128 PI",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Quickborn/Krs Pinneberg (jetzt Amtsgericht Pinneberg, HRB 7128 PI, Firma jetzt: DKW Invest GmbH) verlegt.",
                 "to": "Quickborn/Krs",
                 "used_regex": "hrb_regex, to_regex, court_regex"

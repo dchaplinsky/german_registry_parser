@@ -37,7 +37,8 @@
                 "court": "München",
                 "from": "München",
                 "hrb": "HRB 127326",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von München (Amtsgericht München HRB 127326) nach Bad Waldsee verlegt.",
                 "to": "Bad Waldsee",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

@@ -38,8 +38,7 @@
             {
                 "court": "Bochum",
                 "hrb": "HRB 13553",
-                "registration": "predecessor",
-                "registration_conflict": true,
+                "registration": null,
                 "text": " und Firmenänderung (bisher: Greiner Beteiligungs- und Verwaltungsgesellschaft UG (haftungsbeschränkt): Persönlich haftender Gesellschafter: Ruhr-Asset Beteiligung UG (haftungsbeschränkt), Bochum (Amtsgericht Bochum, HRB 13553), mit der Befugnis, für sich und ihre Geschäftsführer, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.",
                 "used_regex": "court_regex, hrb"
             },
@@ -47,7 +46,7 @@
                 "court": "Charlottenburg",
                 "from": "Berlin",
                 "hrb": "HRA 42412 B",
-                "registration": "successor",
+                "registration": "predecessor",
                 "text": " der Gesellschaft ist von Berlin (bisher Amtsgericht Charlottenburg, HRA 42412 B) nach Essen verlegt.",
                 "to": "Essen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

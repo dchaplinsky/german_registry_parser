@@ -35,7 +35,8 @@
                 "court": "Hannover",
                 "from": "Hannover",
                 "hrb": "HRB 55873",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Hannover (bisher Amtsgericht Hannover HRB 55873) nach Delmenhorst beschlossen.",
                 "to": "Delmenhorst",
                 "used_regex": "court_regex, from_hrb_to_regex"

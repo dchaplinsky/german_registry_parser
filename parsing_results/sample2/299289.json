@@ -45,13 +45,15 @@
                 "court": "Braunschweig",
                 "from": "Braunschweig",
                 "hrb": "HRB 200182",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Braunschweig (bisher Amtsgericht Braunschweig HRB 200182) nach Seevetal beschlossen.",
                 "to": "Seevetal",
                 "used_regex": "court_regex, from_hrb_to_regex"
             },
             {
-                "registration": "successor",
+                "court": null,
+                "registration": null,
                 "text": ", nun: Änderung zur Geschäftsanschrift: Horner Str.",
                 "used_regex": ""
             }

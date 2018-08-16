@@ -26,7 +26,8 @@
             {
                 "court": "Frankfurt",
                 "hrb": "HRB 98804",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Frankfurt am Main (jetzt Amtsgericht Frankfurt am Main, HRB 98804) verlegt.",
                 "to": "Frankfurt am Main",
                 "used_regex": "hrb_regex, to_regex, court_regex"

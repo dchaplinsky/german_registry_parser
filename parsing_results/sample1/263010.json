@@ -53,7 +53,8 @@
                 "court": "Düsseldorf",
                 "from": "Düsseldorf",
                 "hrb": "HRB 69926",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Düsseldorf (Amtsgericht Düsseldorf, HRB 69926) nach Berlin verlegt und der Gesellschaftsvertrag geändert in § 2 (Sitz).",
                 "to": "Berlin",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

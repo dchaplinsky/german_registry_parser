@@ -37,7 +37,8 @@
                 "court": "duisburg",
                 "from": "duisburg",
                 "hrb": "hrb 22357",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von duisburg (bisher amtsgericht duisburg, hrb 22357) nach köln beschlossen.",
                 "to": "köln",
                 "used_regex": "court_regex, from_hrb_to_regex"

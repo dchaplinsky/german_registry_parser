@@ -19,7 +19,8 @@
         "notices": [
             {
                 "court": "Kiel",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Norderstedt (jetzt Amtsgericht Kiel",
                 "to": "Norderstedt",
                 "used_regex": "to_regex, court_regex"

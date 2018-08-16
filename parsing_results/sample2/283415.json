@@ -36,12 +36,14 @@
             {
                 "court": "Freiburg",
                 "from": "Überlingen",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Überlingen (Amtsgericht Freiburg i.",
                 "used_regex": "from_regex, court_regex"
             },
             {
-                "registration": "successor",
+                "court": null,
+                "registration": null,
                 "text": "",
                 "used_regex": ""
             }

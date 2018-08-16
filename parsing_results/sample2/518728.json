@@ -26,7 +26,8 @@
             {
                 "court": "Osnabrück",
                 "hrb": "HRB 203850",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Haren (jetzt AG Osnabrück HRB 203850) verlegt.Geschäftsanschrift: Emmelner Straße 37, 49733 Haren.",
                 "to": "Haren",
                 "used_regex": "hrb_regex, to_regex, court_regex"

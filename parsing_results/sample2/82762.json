@@ -35,7 +35,8 @@
                 "court": "Charlottenburg",
                 "from": "Berlin",
                 "hrb": "HRB 97456 B",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Berlin (bisher Amtsgericht Charlottenburg HRB 97456 B) nach Aachen beschlossen.",
                 "to": "Aachen",
                 "used_regex": "court_regex, from_hrb_to_regex"

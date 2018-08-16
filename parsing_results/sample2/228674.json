@@ -19,7 +19,8 @@
         "notices": [
             {
                 "court": "Lüneburg",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Schneverdingen (jetzt Amtsgericht Lüneburg",
                 "to": "Schneverdingen",
                 "used_regex": "to_regex, court_regex"

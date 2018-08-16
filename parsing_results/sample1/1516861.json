@@ -39,7 +39,8 @@
                 "court": "düsseldorf",
                 "from": "düsseldorf",
                 "hrb": "hrb 71141",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von düsseldorf (bisher amtsgericht düsseldorf, hrb 71141) nach duisburg, weiterhin die änderung des gesellschaftsvertrages in § 1 ziffer 1 (firma) und § 2 (gegenstand des unternehmens) beschlossen.",
                 "to": "duisburg",
                 "used_regex": "court_regex, from_hrb_to_regex"

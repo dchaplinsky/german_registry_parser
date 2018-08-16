@@ -31,7 +31,8 @@
                 "court": "Stuttgart",
                 "from": "Wernau",
                 "hrb": "HRB 214559",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Wernau (Amtsgericht Stuttgart HRB 214559) nach Stimpfach verlegt.",
                 "to": "Stimpfach",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

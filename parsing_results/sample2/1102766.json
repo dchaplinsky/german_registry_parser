@@ -26,7 +26,8 @@
             {
                 "court": "Mannheim",
                 "hrb": "HRB 728520",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " nach Mannheim (nun Amtsgericht Mannheim HRB 728520).",
                 "to": "Mannheim",
                 "used_regex": "hrb_regex, to_regex, court_regex"

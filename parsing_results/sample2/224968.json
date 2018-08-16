@@ -20,7 +20,8 @@
             {
                 "court": "Lübeck",
                 "hrb": "HRA 7647 HL",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Ammersbek (jetzt Amtsgericht Lübeck HRA 7647 HL, Firma jetzt: Spirit of Artramon GmbH & Co.",
                 "to": "Ammersbek",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -31,7 +31,8 @@
                 "court": "München",
                 "from": "Grünwald",
                 "hrb": "HRA 78910",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Grünwald (Amtsgericht München HRA 78910) nach Baden-Baden verlegt.",
                 "to": "Baden-Baden",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

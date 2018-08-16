@@ -26,7 +26,8 @@
             {
                 "court": "Mainz",
                 "hrb": "HRA 42137",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Sprendlingen (jetzt Amtsgericht Mainz, HRA 42137) verlegt.",
                 "to": "Sprendlingen",
                 "used_regex": "hrb_regex, to_regex, court_regex"

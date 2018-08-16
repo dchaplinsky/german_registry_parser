@@ -20,7 +20,8 @@
             {
                 "court": "Köln",
                 "hrb": "HR B 60731",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Köln (jetzt AG Köln, HR B 60731) verlegt.",
                 "to": "Köln",
                 "used_regex": "hrb_regex, to_regex, court_regex"

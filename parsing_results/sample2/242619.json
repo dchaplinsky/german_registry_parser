@@ -26,7 +26,8 @@
             {
                 "court": "Darmstadt",
                 "hrb": "HRB 89396",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Bensheim (jetzt Amtsgericht Darmstadt HRB 89396) verlegt.",
                 "to": "Bensheim",
                 "used_regex": "hrb_regex, to_regex, court_regex"

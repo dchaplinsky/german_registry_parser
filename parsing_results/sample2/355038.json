@@ -19,7 +19,8 @@
         "notices": [
             {
                 "court": "Hanau",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Bruchköbel (jetzt Amtsgericht Hanau",
                 "to": "Bruchköbel",
                 "used_regex": "to_regex, court_regex"

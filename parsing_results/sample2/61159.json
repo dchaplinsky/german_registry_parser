@@ -49,7 +49,8 @@
                 "court": "Lübeck",
                 "from": "Ammersbek",
                 "hrb": "HRB 4589 AH",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " von Ammersbek (Amtsgericht Lübeck, HRB 4589 AH) nach Norderstedt verlegt.",
                 "to": "Norderstedt",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

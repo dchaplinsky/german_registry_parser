@@ -20,7 +20,8 @@
             {
                 "court": "Jena",
                 "hrb": "HRB 502029",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " nach Frankenheim (nun AG Jena HRB 502029).",
                 "to": "Frankenheim",
                 "used_regex": "hrb_regex, to_regex, court_regex"

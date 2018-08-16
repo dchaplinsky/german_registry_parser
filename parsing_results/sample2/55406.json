@@ -20,7 +20,8 @@
             {
                 "court": "Potsdam",
                 "hrb": "HRB 21241 P",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Borkheide (jetzt Amtsgericht Potsdam (HRB 21241 P), Firma jetzt: Grand Niveau GmbH) verlegt.",
                 "to": "Borkheide",
                 "used_regex": "hrb_regex, to_regex, court_regex"

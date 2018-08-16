@@ -24,15 +24,16 @@
         ],
         "notices": [
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: Hamburg.",
                 "used_regex": ""
             },
             {
                 "court": "Hamburg",
                 "hrb": "HRB 141763",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " der Gesellschaft ist nach Hamburg (jetzt Amtsgericht Hamburg HRB 141763) verlegt.",
                 "to": "Hamburg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

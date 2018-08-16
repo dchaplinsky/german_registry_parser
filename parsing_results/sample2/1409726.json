@@ -41,7 +41,8 @@
                 "court": "Osnabrück",
                 "from": "Nordhorn",
                 "hrb": "HRB 202064",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Nordhorn (bisher Amtsgericht Osnabrück HRB 202064) nach Tecklenburg beschlossen.",
                 "to": "Tecklenburg",
                 "used_regex": "court_regex, from_hrb_to_regex"

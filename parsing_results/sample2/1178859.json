@@ -26,7 +26,8 @@
             {
                 "court": "Bochum",
                 "hrb": "HRB 15589",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Herne (jetzt Amtsgericht Bochum HRB 15589) verlegt.",
                 "to": "Herne",
                 "used_regex": "hrb_regex, to_regex, court_regex"

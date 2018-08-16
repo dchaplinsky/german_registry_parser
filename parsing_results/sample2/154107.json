@@ -26,7 +26,8 @@
             {
                 "court": "Walsrode",
                 "hrb": "HRB 202826",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Visselhövede (jetzt AG Walsrode HRB 202826) verlegt.",
                 "to": "Visselhövede",
                 "used_regex": "hrb_regex, to_regex, court_regex"

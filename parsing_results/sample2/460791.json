@@ -32,7 +32,8 @@
             {
                 "court": "Freiburg",
                 "from": "Freiburg im Breisgau",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Freiburg im Breisgau (Amtsgericht Freiburg i. Br.",
                 "used_regex": "from_regex, court_regex"
             }

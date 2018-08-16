@@ -20,7 +20,8 @@
             {
                 "court": "München",
                 "hrb": "HRB 226541",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": ", nun: Neuer Sitz: München (nun Amtsgericht München, HRB 226541).",
                 "to": "München",
                 "used_regex": "hrb_regex, to_regex2, court_regex"

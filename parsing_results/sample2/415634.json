@@ -45,7 +45,8 @@
                 "court": "Coesfeld",
                 "from": "Gronau",
                 "hrb": "HRB 15692",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Gronau (Amtsgericht Coesfeld, HRB 15692) nach Berlin verlegt und der Gesellschaftsvertrag geändert in Ziffer 1 (Firma und Sitz), Ziffer 2 (Gegenstand), Ziffer 4 (Geschäftsführer).",
                 "to": "Berlin",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

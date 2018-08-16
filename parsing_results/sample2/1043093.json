@@ -20,7 +20,8 @@
             {
                 "court": "Düren",
                 "hrb": "HRB 6847",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Titz (jetzt Amtsgericht Düren, HRB 6847) verlegt.",
                 "to": "Titz",
                 "used_regex": "hrb_regex, to_regex, court_regex"

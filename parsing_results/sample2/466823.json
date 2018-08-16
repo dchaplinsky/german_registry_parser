@@ -20,7 +20,8 @@
             {
                 "court": "Tosted",
                 "hrb": "HRB 201862",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Loxstedt (jetzt Amtsgericht Tosted HRB 201862) verlegt.",
                 "to": "Loxstedt",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -31,7 +31,8 @@
                 "court": "Frankfurt/Main",
                 "from": "Frankfurt/Main",
                 "hrb": "HRB 88911",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Frankfurt/Main (Amtsgericht Frankfurt/Main, HRB 88911) nach Berlin verlegt und die Satzung vollständig neu gefasst und weiter geändert in Ziff.",
                 "to": "Berlin",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

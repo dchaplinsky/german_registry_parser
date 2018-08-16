@@ -39,7 +39,8 @@
                 "court": "München",
                 "from": "München",
                 "hrb": "HRB 171158",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von München (bisher Amtsgericht München HRB 171158) nach Kronberg im Taunus beschlossen.",
                 "to": "Kronberg im Taunus",
                 "used_regex": "court_regex, from_hrb_to_regex"

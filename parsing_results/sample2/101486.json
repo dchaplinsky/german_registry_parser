@@ -27,7 +27,8 @@
                 "court": "Krefel",
                 "from": "Krefeld",
                 "hrb": "HRB 7921",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Krefeld (bisher Amtsgericht Krefel HRB 7921) nach Dorsten beschlossen.",
                 "to": "Dorsten",
                 "used_regex": "court_regex, from_hrb_to_regex"

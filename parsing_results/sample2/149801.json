@@ -39,7 +39,8 @@
                 "court": "Rostock",
                 "from": "Schwasdorf",
                 "hrb": "HRB 12284",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Schwasdorf (Amtsgericht Rostock, HRB 12284) nach Busenwurth verlegt und der Gesellschaftsvertrag geändert in § 2.",
                 "to": "Busenwurth",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

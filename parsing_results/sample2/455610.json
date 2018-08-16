@@ -57,7 +57,8 @@
                 "court": "Augsburg",
                 "from": "Augsburg",
                 "hrb": "HRB 16579",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Augsburg (bisher Amtsgericht Augsburg, HRB 16579) nach Darmstadt beschlossen.",
                 "to": "Darmstadt",
                 "used_regex": "court_regex, from_hrb_to_regex"

@@ -37,7 +37,8 @@
                 "court": "Hamburg",
                 "from": "Hamburg",
                 "hrb": "HRB 120629",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Hamburg (Amtsgericht Hamburg HRB 120629) nach Balingen verlegt.",
                 "to": "Balingen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

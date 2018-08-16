@@ -26,7 +26,8 @@
             {
                 "court": "München",
                 "hrb": "HRB 216888",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach München (jetzt Amtsgericht München, HRB 216888) verlegt.",
                 "to": "München",
                 "used_regex": "hrb_regex, to_regex, court_regex"

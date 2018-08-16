@@ -24,15 +24,16 @@
         ],
         "notices": [
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: Bad Liebenzell.",
                 "used_regex": ""
             },
             {
                 "court": "Stuttgart",
                 "hrb": "HRB 758467",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Bad Liebenzell (jetzt Amtsgericht Stuttgart HRB 758467) verlegt.",
                 "to": "Bad Liebenzell",
                 "used_regex": "hrb_regex, to_regex, court_regex"

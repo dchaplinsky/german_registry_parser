@@ -18,15 +18,16 @@
     "parsed": {
         "notices": [
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: Weimar.",
                 "used_regex": ""
             },
             {
                 "court": "Jena",
                 "hrb": "HRB 506052",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " nach Weimar (nun AG Jena HRB 506052).",
                 "to": "Weimar",
                 "used_regex": "hrb_regex, to_regex, court_regex"

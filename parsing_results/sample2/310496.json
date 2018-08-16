@@ -20,7 +20,8 @@
             {
                 "court": "Cottbus",
                 "hrb": "HRA 3268 CB",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Schönefeld (jetzt Amtsgericht Cottbus HRA 3268 CB) verlegt.",
                 "to": "Schönefeld",
                 "used_regex": "hrb_regex, to_regex, court_regex"

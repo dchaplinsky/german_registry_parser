@@ -26,7 +26,8 @@
             {
                 "court": "Oldenburg",
                 "hrb": "HRB 210687",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Bad Zwischenahn (jetzt Amtsgericht Oldenburg HRB 210687) verlegt.",
                 "to": "Bad",
                 "used_regex": "hrb_regex, to_regex, court_regex"

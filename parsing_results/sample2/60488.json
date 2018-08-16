@@ -33,7 +33,8 @@
                 "court": "Stuttgart",
                 "from": "Heilbronn",
                 "hrb": "HRB 108326",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Heilbronn (bisher Amtsgericht Stuttgart HRB 108326) nach Ludwigshafen sowie die Änderung des Gegenstandes des Unternehmens beschlossen.",
                 "to": "Ludwigshafen",
                 "used_regex": "court_regex, from_hrb_to_regex"

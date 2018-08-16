@@ -27,7 +27,8 @@
                 "court": "Krefeld",
                 "from": "Krefeld",
                 "hrb": "HRB 12941",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Krefeld (bisher AG Krefeld, HRB 12941) nach Düsseldorf unter gleichzeitiger Änderung der Firma (vormals: Carina Consultants AG) beschlossen.",
                 "to": "Düsseldorf",
                 "used_regex": "court_regex, from_hrb_to_regex"

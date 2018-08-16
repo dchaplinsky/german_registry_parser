@@ -20,7 +20,8 @@
             {
                 "court": "Leipzig",
                 "hrb": "HRA 14895",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": ", nun Amtsgericht Leipzig HRA 14895.",
                 "used_regex": "hrb_regex, court_regex"
             }

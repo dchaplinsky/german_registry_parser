@@ -31,7 +31,8 @@
                 "court": "Osnabrück",
                 "from": "Hasbergen",
                 "hrb": "HRA 7721",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft ist von Hasbergen (Amtsgericht Osnabrück, HRA 7721) nach Bremen verlegt.",
                 "to": "Bremen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

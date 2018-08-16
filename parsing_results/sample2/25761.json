@@ -35,7 +35,8 @@
                 "court": "Kassel",
                 "from": "Fuldabrück",
                 "hrb": "HRB 6343",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Fuldabrück (Amtsgericht Kassel HRB 6343) nach Mannheim verlegt.",
                 "to": "Mannheim",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

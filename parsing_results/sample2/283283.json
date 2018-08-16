@@ -25,7 +25,8 @@
         "notices": [
             {
                 "court": "Frankfurt am Main",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Eschborn (jetzt Amtsgericht Frankfurt am Main",
                 "to": "Eschborn",
                 "used_regex": "to_regex, court_regex"

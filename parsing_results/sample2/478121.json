@@ -26,7 +26,8 @@
             {
                 "court": "Essen",
                 "hrb": "HRB 29018",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Essen (jetzt Amtsgericht Essen HRB 29018 unter der Firma exigo Gesellschaft für Forderungseinzug mbH) verlegt.",
                 "to": "Essen",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -53,7 +53,8 @@
                 "court": "München",
                 "from": "Grünwald",
                 "hrb": "HRB 208225",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Grünwald, Landkreis München (Amtsgericht München, HRB 208225) nach Zossen verlegt und der Gesellschaftsvertrag geändert in Ziffer 1.2 (Sitz).",
                 "to": "Zossen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

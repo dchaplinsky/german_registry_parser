@@ -33,7 +33,8 @@
                 "court": "Darmstadt",
                 "from": "Viernheim",
                 "hrb": "HRA 61831",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Viernheim (Amtsgericht Darmstadt HRA 61831) nach Ulm verlegt.",
                 "to": "Ulm",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

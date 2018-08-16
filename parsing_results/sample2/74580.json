@@ -45,7 +45,8 @@
                 "court": "Bielefeld",
                 "from": "Bielefeld",
                 "hrb": "HRB 38057",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Bielefeld (bisher Amtsgericht Bielefeld HRB 38057) nach Hannover sowie die Änderung des Namens und des Unternehmensgegenstandes beschlossen sowie die vollständige Neufassung des Gesellschaftsvertrages.",
                 "to": "Hannover",
                 "used_regex": "court_regex, from_hrb_to_regex"

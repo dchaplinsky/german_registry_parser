@@ -26,7 +26,8 @@
             {
                 "court": "Hannover",
                 "hrb": "HRA 203048",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Aerzen (jetzt Amtsgericht Hannover HRA 203048) verlegt.",
                 "to": "Aerzen",
                 "used_regex": "hrb_regex, to_regex, court_regex"

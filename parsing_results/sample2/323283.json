@@ -26,14 +26,15 @@
             {
                 "court": "Steinfurt",
                 "hrb": "HRB 10643",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Hopsten (jetzt Amtsgericht Steinfurt HRB 10643) verlegt.",
                 "to": "Hopsten",
                 "used_regex": "hrb_regex, to_regex, court_regex"
             },
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: Hopsten.",
                 "used_regex": ""
             }

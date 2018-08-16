@@ -41,7 +41,8 @@
                 "court": "Frankfurt am Main",
                 "from": "Frankfurt am Main",
                 "hrb": "HRB 102570",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Frankfurt am Main (bisher Amtsgericht Frankfurt am Main HRB 102570) nach Bonn beschlossen.",
                 "to": "Bonn",
                 "used_regex": "court_regex, from_hrb_to_regex"

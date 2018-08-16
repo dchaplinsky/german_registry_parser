@@ -20,7 +20,8 @@
             {
                 "court": "Göttingen",
                 "hrb": "HRB 200686",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Walkenried (jetzt AG Göttingen, HRB 200686, neue Firma: Saint-Gobain Formula GmbH) verlegt.",
                 "to": "Walkenried",
                 "used_regex": "hrb_regex, to_regex, court_regex"

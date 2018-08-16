@@ -24,8 +24,8 @@
         ],
         "notices": [
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: Neuer Sitz: Lübeck.",
                 "to": "Lübeck",
                 "used_regex": "to_regex2"
@@ -33,7 +33,8 @@
             {
                 "court": "Lübeck",
                 "hrb": "HRB 14751 HL",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Lübeck (jetzt Amtsgericht Lübeck, HRB 14751 HL ) verlegt.",
                 "to": "Lübeck",
                 "used_regex": "hrb_regex, to_regex, court_regex"

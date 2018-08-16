@@ -20,7 +20,8 @@
             {
                 "court": "Duisburg",
                 "hrb": "HRB 19095",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Duisburg (jetzt Amtsgericht Duisburg HRB 19095) verlegt.",
                 "to": "Duisburg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

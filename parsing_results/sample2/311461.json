@@ -20,7 +20,8 @@
             {
                 "court": "Augsburg",
                 "hrb": "HRB 24108",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " nach Augsburg (nun AG Augsburg HRB 24108).",
                 "to": "Augsburg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

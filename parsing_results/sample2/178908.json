@@ -20,7 +20,8 @@
             {
                 "court": "Bielefeld",
                 "hrb": "HRB 39942",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Bielefeld (jetzt Amtsgericht Bielefeld, HRB 39942) verlegt.",
                 "to": "Bielefeld",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -41,7 +41,8 @@
                 "court": "Paderborn",
                 "from": "Paderborn",
                 "hrb": "HRB 3568",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Paderborn (bisher Amtsgericht Paderborn HRB 3568) nach Verl beschlossen.",
                 "to": "Verl",
                 "used_regex": "court_regex, from_hrb_to_regex"

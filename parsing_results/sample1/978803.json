@@ -45,7 +45,8 @@
                 "court": "osnabrück",
                 "from": "osnabrück",
                 "hrb": "hrb 207144",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von osnabrück (bisher amtsgericht osnabrück hrb 207144) nach lotte beschlossen.",
                 "to": "lotte",
                 "used_regex": "court_regex, from_hrb_to_regex"

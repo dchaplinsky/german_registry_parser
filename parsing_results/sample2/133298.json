@@ -45,7 +45,8 @@
                 "court": "Amberg",
                 "from": "Burglengenfeld",
                 "hrb": "HRB 3551",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Burglengenfeld (bisher Amtsgericht Amberg, HRB 3551) nach Hamburg beschlossen.",
                 "to": "Hamburg",
                 "used_regex": "court_regex, from_hrb_to_regex"

@@ -20,7 +20,8 @@
             {
                 "court": "Lübeck",
                 "hrb": "HRB 9309 HL",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Lübeck (jetzt Amtsgericht Lübeck, HRB 9309 HL) verlegt.",
                 "to": "Lübeck",
                 "used_regex": "hrb_regex, to_regex, court_regex"

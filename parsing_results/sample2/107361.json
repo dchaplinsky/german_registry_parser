@@ -31,7 +31,8 @@
                 "court": "Kiel",
                 "from": "Meezen",
                 "hrb": "HRB 2210 RD",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Meezen (bisher Amtsgericht Kiel HRB 2210 RD) nach Griesheim sowie § 2 (Gegenstand des Unternehmens) beschlossen.",
                 "to": "Griesheim",
                 "used_regex": "court_regex, from_hrb_to_regex"

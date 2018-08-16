@@ -24,15 +24,16 @@
         ],
         "notices": [
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: Buchhorst.",
                 "used_regex": ""
             },
             {
                 "court": "Lübeck",
                 "hrb": "HRB 15240 HL",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Buchhorst (jetzt Amtsgericht Lübeck HRB 15240 HL) verlegt.",
                 "to": "Buchhorst",
                 "used_regex": "hrb_regex, to_regex, court_regex"

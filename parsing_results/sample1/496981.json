@@ -30,7 +30,8 @@
         ],
         "notices": [
             {
-                "registration": "successor",
+                "court": null,
+                "registration": null,
                 "text": ", nun: geschäftsanschrift: ganghoferstraße 68 a, 80339 münchen.",
                 "used_regex": ""
             },
@@ -38,7 +39,8 @@
                 "court": "hamburg",
                 "from": "hamburg",
                 "hrb": "hra 106663",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von hamburg (amtsgericht hamburg, hra 106663) nach münchen verlegt.",
                 "to": "münchen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

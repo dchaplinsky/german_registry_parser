@@ -31,7 +31,8 @@
                 "court": "Stuttgart",
                 "from": "Fellbach",
                 "hrb": "HRB 263463",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Fellbach (Amtsgericht Stuttgart HRB 263463) nach Ebersbach an der Fils verlegt.",
                 "to": "Ebersbach an der Fils",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

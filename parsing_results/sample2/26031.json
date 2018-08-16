@@ -26,7 +26,8 @@
             {
                 "court": "Bochum",
                 "hrb": "HRB 12809",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Bochum verlegt (jetzt Amtsgericht Bochum HRB 12809).",
                 "to": "Bochum",
                 "used_regex": "hrb_regex, to_regex, court_regex"

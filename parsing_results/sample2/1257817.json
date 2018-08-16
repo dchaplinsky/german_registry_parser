@@ -37,7 +37,8 @@
                 "court": "Duisburg",
                 "from": "Mülheim an der Ruhr",
                 "hrb": "HRB 14716",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Mülheim an der Ruhr (bisher Amtsgericht Duisburg HRB 14716) nach Dortmund beschlossen.",
                 "to": "Dortmund",
                 "used_regex": "court_regex, from_hrb_to_regex"

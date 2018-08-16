@@ -20,7 +20,8 @@
             {
                 "court": "Kiel",
                 "hrb": "HRB 18561 KI",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Norderstedt (jetzt Amtsgericht Kiel, HRB 18561 KI) verlegt.",
                 "to": "Norderstedt",
                 "used_regex": "hrb_regex, to_regex, court_regex"

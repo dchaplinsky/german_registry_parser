@@ -61,7 +61,8 @@
                 "court": "Aurich",
                 "from": "Leer",
                 "hrb": "HRB 201202",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Leer (Amtsgericht Aurich, HRB 201202) nach Berlin verlegt und der Gesellschaftsvertrag neu gefasst.",
                 "to": "Berlin",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

@@ -20,7 +20,8 @@
             {
                 "court": "Lübeck",
                 "hrb": "HRB 17683 HL",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Reinbek (jetzt Amtsgericht Lübeck HRB 17683 HL) verlegt.",
                 "to": "Reinbek",
                 "used_regex": "hrb_regex, to_regex, court_regex"

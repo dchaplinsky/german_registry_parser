@@ -33,7 +33,8 @@
                 "court": "Krefeld",
                 "from": "Krefeld",
                 "hrb": "HRB 13087",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Krefeld (bisher Amtsgericht Krefeld HRB 13087) nach Hannover beschlossen.",
                 "to": "Hannover",
                 "used_regex": "court_regex, from_hrb_to_regex"

@@ -43,7 +43,8 @@
                 "court": "Frankfurt am Main",
                 "from": "Frankfurt am Main",
                 "hrb": "HRB 57466",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Frankfurt am Main (bisher Amtsgericht Frankfurt am Main HRB 57466) nach Heusenstamm und die Änderung des Gesellschaftsvertrages in § 1 Absatz 2 (Sitz) sowie in § 2 (Gegenstand des Unternehmens) beschlossen.",
                 "to": "Heusenstamm",
                 "used_regex": "court_regex, from_hrb_to_regex"

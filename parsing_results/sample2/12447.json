@@ -27,7 +27,8 @@
                 "court": "Stralsund",
                 "from": "Stralsund",
                 "hrb": "HRB 2952",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Stralsund (AG Stralsund, HRB 2952 -frühere Firma dort: FAMILA-Warenhaus Verwaltungsgesellschaft mbH-) nach Lütjenburg verlegt.",
                 "to": "Lütjenburg",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

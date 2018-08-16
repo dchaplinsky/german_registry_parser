@@ -31,7 +31,8 @@
                 "court": "Charlottenburg",
                 "from": "Berlin",
                 "hrb": "HRB 89656",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Berlin (Amtsgericht Charlottenburg, HRB 89656) nach Forst (Lausitz) verlegt und der Gesellschaftsvertrag in § 1 (Firma, Sitz) geändert worden..",
                 "to": "Forst",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

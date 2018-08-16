@@ -45,8 +45,8 @@
                 "court": "Flensburg",
                 "from": "Flensburg",
                 "hrb": "HRB 5271 FL",
-                "registration": "successor",
-                "registration_conflict": true,
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Flensburg (Amtsgericht Flensburg, HRB 5271 FL) nach Holzbunge verlegt und der Gesellschaftsvertrag geändert in § 1 (Firma, Sitz).",
                 "to": "Holzbunge",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

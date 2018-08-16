@@ -26,7 +26,8 @@
             {
                 "court": "Koblenz",
                 "hrb": "HRB 22224",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Koblenz (jetzt: Amtsgericht Koblenz, HRB 22224) verlegt.",
                 "to": "Koblenz",
                 "used_regex": "hrb_regex, to_regex, court_regex"

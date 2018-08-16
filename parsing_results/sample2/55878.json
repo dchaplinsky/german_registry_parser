@@ -26,8 +26,7 @@
             {
                 "court": "Dresden",
                 "hrb": "HRB 26639",
-                "registration": "predecessor",
-                "registration_conflict": true,
+                "registration": null,
                 "text": ", nun: Persönlich haftender Gesellschafter: IPL Premium Produktions-Beteiligungs GmbH, Diesbar-Seußlitz (Amtsgericht Dresden, HRB 26639).",
                 "used_regex": "court_regex, hrb"
             },
@@ -35,7 +34,7 @@
                 "court": "Paderborn",
                 "from": "Büren",
                 "hrb": "HRA 5287",
-                "registration": "successor",
+                "registration": "predecessor",
                 "text": " ist von Büren (bisher Amtsgericht Paderborn HRA 5287) nach Diesbar-Seußlitz verlegt.",
                 "to": "Diesbar-Seußlitz",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

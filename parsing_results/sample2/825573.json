@@ -41,7 +41,8 @@
                 "court": "Charlottenburg",
                 "from": "Berlin",
                 "hrb": "HRB 139594 B",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Berlin (bisher Amtsgericht Charlottenburg HRB 139594 B) nach Köln beschlossen.",
                 "to": "Köln",
                 "used_regex": "court_regex, from_hrb_to_regex"

@@ -45,7 +45,8 @@
                 "court": "Aurich",
                 "from": "Leer",
                 "hrb": "HRB 202200",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Leer (bisher Amtsgericht Aurich HRB 202200) nach Kevelaer beschlossen.",
                 "to": "Kevelaer",
                 "used_regex": "court_regex, from_hrb_to_regex"

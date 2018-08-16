@@ -20,7 +20,8 @@
             {
                 "court": "Dortmund",
                 "hrb": "HRB 19827",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Dortmund (jetzt Amtsgericht Dortmund HRB 19827) verlegt.",
                 "to": "Dortmund",
                 "used_regex": "hrb_regex, to_regex, court_regex"

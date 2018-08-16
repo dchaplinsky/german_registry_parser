@@ -27,7 +27,8 @@
                 "court": "mönchengladbach",
                 "from": "viersen",
                 "hrb": "hrb 11094",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von viersen (bisher ag mönchengladbach hrb 11094) nach nettetal beschlossen.",
                 "to": "nettetal",
                 "used_regex": "court_regex, from_hrb_to_regex"

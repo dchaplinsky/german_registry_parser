@@ -20,7 +20,8 @@
             {
                 "court": "Gütersloh",
                 "hrb": "HRB 9341",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Gütersloh (jetzt Amtsgericht Gütersloh HRB 9341) verlegt.",
                 "to": "Gütersloh",
                 "used_regex": "hrb_regex, to_regex, court_regex"

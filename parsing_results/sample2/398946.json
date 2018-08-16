@@ -45,13 +45,15 @@
                 "court": "Offenbach am Main",
                 "from": "Neu-Isenburg",
                 "hrb": "HRB 47720",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Neu-Isenburg (bisher Amtsgericht Offenbach am Main HRB 47720) nach Eschborn beschlossen.",
                 "to": "Eschborn",
                 "used_regex": "court_regex, from_hrb_to_regex"
             },
             {
-                "registration": "successor",
+                "court": null,
+                "registration": null,
                 "text": ", nun: Geändert, nun: Geschäftsanschrift: Hauptstraße 366, 65760 Eschborn.",
                 "used_regex": ""
             }

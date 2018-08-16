@@ -61,7 +61,8 @@
                 "court": "Cottbus",
                 "from": "Großräschen",
                 "hrb": "HRB 8174 CB",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Großräschen (Amtsgericht Cottbus, HRB 8174 CB) nach Luckenwalde verlegt und der Gesellschaftsvertrag geändert unter I. Ziffer 1.",
                 "to": "Luckenwalde",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

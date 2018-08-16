@@ -26,7 +26,8 @@
             {
                 "court": "Offenbach am Main",
                 "hrb": "HRB 44375",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Seligenstadt (jetzt Amtsgericht Offenbach am Main HRB 44375) verlegt.",
                 "to": "Seligenstadt",
                 "used_regex": "hrb_regex, to_regex, court_regex"

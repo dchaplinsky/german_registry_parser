@@ -18,14 +18,15 @@
     "parsed": {
         "notices": [
             {
-                "registration": "predecessor",
+                "court": null,
+                "registration": null,
                 "text": " nach Lampertheim sowie in § 2 (Gegenstand des Unternehmens) beschlossen.",
                 "to": "Lampertheim",
                 "used_regex": "to_regex"
             },
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: Neuer Sitz: Lampertheim.",
                 "to": "Lampertheim",
                 "used_regex": "to_regex2"

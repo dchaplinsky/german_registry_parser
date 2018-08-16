@@ -43,13 +43,15 @@
                 "court": "Hamburg",
                 "from": "Hamburg",
                 "hrb": "HRB 138482",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Hamburg (Amtsgericht Hamburg HRB 138482) nach Tuttlingen verlegt.",
                 "to": "Tuttlingen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
             },
             {
-                "registration": "successor",
+                "court": null,
+                "registration": null,
                 "text": "",
                 "used_regex": ""
             }

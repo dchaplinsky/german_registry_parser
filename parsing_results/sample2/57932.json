@@ -26,7 +26,8 @@
             {
                 "court": "Wittlich",
                 "hrb": "HRB 43526",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Serrig verlegt (jetzt Amtsgericht Wittlich HRB 43526).",
                 "to": "Serrig",
                 "used_regex": "hrb_regex, to_regex, court_regex"

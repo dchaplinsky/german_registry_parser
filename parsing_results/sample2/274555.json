@@ -19,7 +19,8 @@
         "notices": [
             {
                 "court": "Freiburg",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Bad Krozingen (jetzt Amtsgericht Freiburg i. Br.",
                 "to": "Bad Krozingen",
                 "used_regex": "to_regex, court_regex"

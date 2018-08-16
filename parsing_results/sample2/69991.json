@@ -37,7 +37,8 @@
                 "court": "Charlottenburg",
                 "from": "Berlin",
                 "hrb": "HRB 139330 B",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Berlin (Amtsgericht Charlottenburg, HRB 139330 B) nach Großbeeren verlegt und die Satzung geändert in § 1 (Schreibweise der Firma, Sitz).",
                 "to": "Großbeeren",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

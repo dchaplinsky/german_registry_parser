@@ -45,7 +45,8 @@
                 "court": "München",
                 "from": "München",
                 "hrb": "HRB 223014",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von München (bisher Amtsgericht München HRB 223014) nach Köln beschlossen.",
                 "to": "Köln",
                 "used_regex": "court_regex, from_hrb_to_regex"

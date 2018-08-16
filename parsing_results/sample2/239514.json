@@ -41,7 +41,8 @@
                 "court": "Landau in der Pfalz",
                 "from": "Rülzheim",
                 "hrb": "HRB 30825",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Rülzheim (bisher Amtsgericht Landau in der Pfalz HRB 30825) nach Wachenheim beschlossen.",
                 "to": "Wachenheim",
                 "used_regex": "court_regex, from_hrb_to_regex"

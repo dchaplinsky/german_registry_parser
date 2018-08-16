@@ -24,8 +24,8 @@
         ],
         "notices": [
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: Neuer Sitz: Heidelberg.",
                 "to": "Heidelberg",
                 "used_regex": "to_regex2"
@@ -33,7 +33,8 @@
             {
                 "court": "Mannheim",
                 "hrb": "HRB 716344",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Heidelberg (jetzt Amtsgericht Mannheim, HRB 716344) verlegt.",
                 "to": "Heidelberg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

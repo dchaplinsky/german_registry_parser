@@ -51,7 +51,8 @@
                 "court": "München",
                 "from": "Grünwald",
                 "hrb": "HRB 168256",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Grünwald (bisher Amtsgericht München HRB 168256) nach Eschborn beschlossen.",
                 "to": "Eschborn",
                 "used_regex": "court_regex, from_hrb_to_regex"

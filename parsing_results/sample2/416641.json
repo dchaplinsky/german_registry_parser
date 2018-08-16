@@ -41,7 +41,8 @@
                 "court": "Kassel",
                 "from": "Kassel",
                 "hrb": "HRB 15641",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Kassel (bisher Amtsgericht Kassel HRB 15641) nach Frankfurt am Main beschlossen.",
                 "to": "Frankfurt am Main",
                 "used_regex": "court_regex, from_hrb_to_regex"

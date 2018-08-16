@@ -20,7 +20,8 @@
             {
                 "court": "Frankfurt am Main",
                 "hrb": "HRB 78740",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " nach Franfurt am Main (nun AG Frankfurt am Main HRB 78740).",
                 "to": "Franfurt",
                 "used_regex": "hrb_regex, to_regex, court_regex"

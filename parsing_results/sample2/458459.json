@@ -45,7 +45,8 @@
                 "court": "Offenbach am Main",
                 "from": "Dreieich",
                 "hrb": "HRB 46277",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Dreieich (bisher Amtsgericht Offenbach am Main HRB 46277) nach Raunheim beschlossen.",
                 "to": "Raunheim",
                 "used_regex": "court_regex, from_hrb_to_regex"

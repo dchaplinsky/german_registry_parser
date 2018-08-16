@@ -53,8 +53,8 @@
                 "court": "Hamburg",
                 "from": "Hamburg",
                 "hrb": "HRB 109133",
-                "registration": "successor",
-                "registration_conflict": true,
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Hamburg (Amtsgericht Hamburg, HRB 109133) nach Kiel verlegt und der Gesellschaftsvertrag geändert in §§ 1 (Firma, Sitz), 2 (Gegenstand des Unternehmens) und 3 (Stammkapital).",
                 "to": "Kiel",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

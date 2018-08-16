@@ -26,7 +26,8 @@
             {
                 "court": "mannheim",
                 "hrb": "hrb 715391",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach heidelberg (jetzt ag mannheim hrb 715391) verlegt.",
                 "to": "heidelberg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

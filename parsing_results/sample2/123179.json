@@ -18,8 +18,8 @@
     "parsed": {
         "notices": [
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: Neuer Sitz: Görlitz.",
                 "to": "Görlitz",
                 "used_regex": "to_regex2"
@@ -27,7 +27,8 @@
             {
                 "court": "Dresden",
                 "hrb": "HRB 27414",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Görlitz (jetzt Amtsgericht Dresden, HRB 27414) verlegt.",
                 "to": "Görlitz",
                 "used_regex": "hrb_regex, to_regex, court_regex"

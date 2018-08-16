@@ -20,7 +20,8 @@
             {
                 "court": "stuttgart",
                 "hrb": "hrb 744963",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach bösingen (jetzt amtsgericht stuttgart hrb 744963",
                 "to": "bösingen",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -26,13 +26,13 @@
             {
                 "court": "Düsseldorf",
                 "hrb": "HRB 42354",
-                "registration": "predecessor",
+                "registration": null,
                 "text": ": Persönlich haftender Gesellschafter: Amand Verwaltungs GmbH, Ratingen (AG Düsseldorf HRB 42354).",
                 "used_regex": "court_regex, hrb"
             },
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": " ist nach Ratingen verlegt.",
                 "to": "Ratingen",
                 "used_regex": "to_regex"

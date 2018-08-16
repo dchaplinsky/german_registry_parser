@@ -26,7 +26,8 @@
             {
                 "court": "Mannheim",
                 "hrb": "HRA 703260",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Karlsruhe (jetzt Amtsgericht Mannheim, HRA 703260) verlegt.",
                 "to": "Karlsruhe",
                 "used_regex": "hrb_regex, to_regex, court_regex"

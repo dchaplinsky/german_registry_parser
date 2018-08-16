@@ -63,7 +63,8 @@
                 "court": "Gelsenkirchen",
                 "from": "Gelsenkirchen",
                 "hrb": "HRB 3463",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " der Gesellschaft von Gelsenkirchen (Amtsgericht Gelsenkirchen, HRB 3463) nach Fehmarn verlegt und der Gesellschaftsvertrag geändert in §1.",
                 "to": "Fehmarn",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

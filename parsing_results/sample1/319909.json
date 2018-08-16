@@ -24,8 +24,8 @@
         ],
         "notices": [
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: Neuer Sitz: Wiesbaden.",
                 "to": "Wiesbaden",
                 "used_regex": "to_regex2"
@@ -33,7 +33,8 @@
             {
                 "court": "Wiesbaden",
                 "hrb": "HRB 26843",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Wiesbaden (jetzt Amtsgericht Wiesbaden, HRB 26843) verlegt.",
                 "to": "Wiesbaden",
                 "used_regex": "hrb_regex, to_regex, court_regex"

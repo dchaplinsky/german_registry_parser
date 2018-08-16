@@ -26,7 +26,8 @@
             {
                 "court": "Gütersloh",
                 "hrb": "HRB 8323",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Herzebrock-Clarholz (jetzt AG Gütersloh HRB 8323) verlegt.",
                 "to": "Herzebrock-Clarholz",
                 "used_regex": "hrb_regex, to_regex, court_regex"

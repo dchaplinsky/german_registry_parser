@@ -20,7 +20,8 @@
             {
                 "court": "Duisburg",
                 "hrb": "HRB 25188",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Oberhausen (jetzt Amtsgericht Duisburg, HRB 25188) verlegt.",
                 "to": "Oberhausen",
                 "used_regex": "hrb_regex, to_regex, court_regex"

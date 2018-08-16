@@ -39,7 +39,8 @@
                 "court": "Ulm",
                 "from": "Westhausen",
                 "hrb": "HRB 510644",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Westhausen (bisher AG Ulm HRB 510644) nach Friedberg (Hessen) beschlossen.",
                 "to": "Friedberg",
                 "used_regex": "court_regex, from_hrb_to_regex"

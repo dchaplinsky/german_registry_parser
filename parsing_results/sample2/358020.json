@@ -20,7 +20,8 @@
             {
                 "court": "Charlottenburg",
                 "hrb": "HRA 54513 B",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Berlin (jetzt Amtsgericht Charlottenburg HRA 54513 B, Firma jetzt: Hingsen & Cie.",
                 "to": "Berlin",
                 "used_regex": "hrb_regex, to_regex, court_regex"

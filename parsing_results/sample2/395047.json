@@ -26,7 +26,8 @@
             {
                 "court": "Bad",
                 "hrb": "HRB 12999",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Oberursel (Taunus) (jetzt Amtsgericht Bad Homburg v. d. Höhe HRB 12999) verlegt.",
                 "to": "Oberursel",
                 "used_regex": "hrb_regex, to_regex, court_regex"

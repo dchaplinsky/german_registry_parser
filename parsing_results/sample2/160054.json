@@ -45,7 +45,8 @@
                 "court": "Montabaur",
                 "from": "Zehnhausen",
                 "hrb": "HRB 7468",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Zehnhausen bei Rennerod (bisher AG Montabaur HRB 7468) nach Breidenbach beschlossen.",
                 "to": "Breidenbach",
                 "used_regex": "court_regex, from_hrb_to_regex"

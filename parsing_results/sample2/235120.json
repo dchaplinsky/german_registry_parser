@@ -27,7 +27,8 @@
                 "court": "Köln",
                 "from": "Wesseling",
                 "hrb": "HRB 56351",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Wesseling (bisher Amtsgericht Köln HRB 56351) nach Grevenbroich sowie die Änderung der Firma (vormals Utopia Commerz VII GmbH) und des Unternehmensgegenstandes beschlossen.",
                 "to": "Grevenbroich",
                 "used_regex": "court_regex, from_hrb_to_regex"

@@ -41,7 +41,8 @@
                 "court": "Kleve",
                 "from": "Rees",
                 "hrb": "HRB 3372",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Rees (bisher Amtsgericht Kleve HRB 3372) nach Bocholt beschlossen.",
                 "to": "Bocholt",
                 "used_regex": "court_regex, from_hrb_to_regex"

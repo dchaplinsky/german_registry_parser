@@ -36,7 +36,8 @@
             {
                 "court": "Stendal",
                 "from": "Naumburg",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Naumburg (Amtsgericht Stendal HB 214982) nach Wiesloch verlegt.",
                 "to": "Wiesloch",
                 "used_regex": "from_regex, to_regex, court_regex"

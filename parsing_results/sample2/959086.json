@@ -20,7 +20,8 @@
             {
                 "court": "Arnsberg",
                 "hrb": "HRB 10514",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Werl (jetzt Amtsgericht Arnsberg HRB 10514) verlegt.",
                 "to": "Werl",
                 "used_regex": "hrb_regex, to_regex, court_regex"

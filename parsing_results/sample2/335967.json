@@ -37,13 +37,15 @@
                 "court": "Augsburg",
                 "from": "Dießen",
                 "hrb": "HRB 14247",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Dießen (Amtsgericht Augsburg HRB 14247) nach Singen Hohentwiel verlegt.",
                 "to": "Singen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
             },
             {
-                "registration": "successor",
+                "court": null,
+                "registration": null,
                 "text": "",
                 "used_regex": ""
             }

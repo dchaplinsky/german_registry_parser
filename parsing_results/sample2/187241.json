@@ -20,7 +20,8 @@
             {
                 "court": "Lüneburg",
                 "hrb": "HRB 204072",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Seevetal (jetzt Amtsgericht Lüneburg HRB 204072) verlegt.",
                 "to": "Seevetal",
                 "used_regex": "hrb_regex, to_regex, court_regex"

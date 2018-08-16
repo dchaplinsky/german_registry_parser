@@ -35,7 +35,8 @@
                 "court": "Recklinghausen",
                 "from": "Recklinghausen",
                 "hrb": "HRB 1862",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Recklinghausen (bisher AG Recklinghausen HRB 1862) nach Marl beschlossen.",
                 "to": "Marl",
                 "used_regex": "court_regex, from_hrb_to_regex"

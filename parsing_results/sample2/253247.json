@@ -45,7 +45,8 @@
                 "court": "Gütersloh",
                 "from": "Versmold",
                 "hrb": "HRB 7455",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Versmold (bisher Amtsgericht Gütersloh HRB 7455) nach Dissen beschlossen.",
                 "to": "Dissen",
                 "used_regex": "court_regex, from_hrb_to_regex"

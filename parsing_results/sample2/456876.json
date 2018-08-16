@@ -45,7 +45,8 @@
                 "court": "Wuppertal",
                 "from": "Heiligenhaus",
                 "hrb": "HRB 21703",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Heiligenhaus (bisher Amtsgericht Wuppertal HRB 21703) nach Wangerland-Hooksiel beschlossen.",
                 "to": "Wangerland-Hooksiel",
                 "used_regex": "court_regex, from_hrb_to_regex"

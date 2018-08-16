@@ -20,7 +20,8 @@
             {
                 "court": "Mainz",
                 "hrb": "HRB 44476",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Alzey (jetzt Amtsgericht Mainz, HRB 44476) verlegt.",
                 "to": "Alzey",
                 "used_regex": "hrb_regex, to_regex, court_regex"

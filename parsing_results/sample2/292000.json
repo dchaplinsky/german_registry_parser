@@ -45,13 +45,15 @@
                 "court": "Stralsund",
                 "from": "Grammendorf",
                 "hrb": "HRB 6313",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_conflict": true,
                 "text": " von Grammendorf (bisher Amtsgericht Stralsund HRB 6313) nach Visbek beschlossen.",
                 "to": "Visbek",
                 "used_regex": "court_regex, from_hrb_to_regex"
             },
             {
-                "registration": "successor",
+                "court": null,
+                "registration": null,
                 "text": ", nun: Geschäftsanschrift: Hubertusmühle-Siedenbögen 2, 49429 Visbek.",
                 "used_regex": ""
             }

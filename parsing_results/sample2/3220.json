@@ -31,7 +31,8 @@
                 "court": "Nürnberg",
                 "from": "Wendelstein",
                 "hrb": "HRB 20941",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Wendelstein (Amtsgericht Nürnberg HRB 20941) nach Unterensingen verlegt.",
                 "to": "Unterensingen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

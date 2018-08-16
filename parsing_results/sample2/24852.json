@@ -20,7 +20,8 @@
             {
                 "court": "Hamm",
                 "hrb": "HRA 3124",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " der Gesellschaft ist verlegt nach Bergkamen (nun Amtsgericht Hamm HRA 3124).",
                 "to": "Bergkamen",
                 "used_regex": "hrb_regex, to_regex, court_regex"

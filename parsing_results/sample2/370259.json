@@ -26,7 +26,8 @@
             {
                 "court": "Hanau",
                 "hrb": "HRB 95442",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Maintal (jetzt Amtsgericht Hanau HRB 95442) verlegt.",
                 "to": "Maintal",
                 "used_regex": "hrb_regex, to_regex, court_regex"

@@ -24,8 +24,8 @@
         ],
         "notices": [
             {
-                "registration": "successor",
-                "registration_conflict": true,
+                "court": null,
+                "registration": null,
                 "text": ", nun: Neuer Sitz: Kassel.",
                 "to": "Kassel",
                 "used_regex": "to_regex2"
@@ -33,7 +33,8 @@
             {
                 "court": "Kassel",
                 "hrb": "HRB 16422",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Kassel (jetzt Amtsgericht Kassel, HRB 16422) verlegt.",
                 "to": "Kassel",
                 "used_regex": "hrb_regex, to_regex, court_regex"

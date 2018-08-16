@@ -33,8 +33,8 @@
                 "court": "wiesbaden",
                 "from": "wiesbaden",
                 "hrb": "hrb 45405",
-                "registration": "predecessor",
-                "registration_conflict": true,
+                "registration": "successor",
+                "registration_fuzzy": true,
                 "text": " von wiesbaden nach mainz (amtsgericht wiesbaden hrb 22100): persönlich haftender gesellschafter: adlatus grundstücksverwaltungsgesellschaft mbh, mainz (amtsgericht mainz hrb 45405), mit der befugnis im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen.",
                 "to": "mainz",
                 "used_regex": "court_regex, from_hrb_regex, to_regex"
@@ -43,7 +43,7 @@
                 "court": "wiesbaden",
                 "from": "wiesbaden",
                 "hrb": "hra 8346",
-                "registration": "successor",
+                "registration": "predecessor",
                 "text": " der gesellschaft ist von wiesbaden (bisher amtsgericht wiesbaden hra 8346) nach mainz verlegt.",
                 "to": "mainz",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

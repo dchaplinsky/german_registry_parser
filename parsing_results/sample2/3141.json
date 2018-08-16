@@ -20,7 +20,8 @@
             {
                 "court": "Lübeck",
                 "hrb": "HRB 6651 HL",
-                "registration": "predecessor",
+                "registration": "successor",
+                "registration_conflict": true,
                 "text": " ist nach Ahrensburg (jetzt Amtsgericht Lübeck HRB 6651 HL (neu: MM Finanz Holding GmbH)) verlegt.",
                 "to": "Ahrensburg",
                 "used_regex": "hrb_regex, to_regex, court_regex"

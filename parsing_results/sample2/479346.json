@@ -41,7 +41,8 @@
                 "court": "Mannheim",
                 "from": "Pfinztal",
                 "hrb": "HRB 717688",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Pfinztal (Amtsgericht Mannheim HRB 717688) nach Ravensburg verlegt.",
                 "to": "Ravensburg",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"

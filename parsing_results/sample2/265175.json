@@ -37,7 +37,8 @@
                 "court": "Siegburg",
                 "from": "Much",
                 "hrb": "HRB 10804",
-                "registration": "successor",
+                "registration": "predecessor",
+                "registration_fuzzy": true,
                 "text": " ist von Much (Amtsgericht Siegburg HRB 10804) nach Bietigheim-Bissingen verlegt.",
                 "to": "Bietigheim-Bissingen",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
