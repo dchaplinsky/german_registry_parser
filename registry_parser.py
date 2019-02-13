@@ -800,7 +800,7 @@ def _parse_normalized(sents: tuple, doc: dict):
                                 chunk_had_relocation = True
                         yield r
 
-            if sent_had_persons and not chunk_had_persons:
+            if sent_had_persons and not chunk_had_persons and not chunk_had_relocation:
                 try:
                     person = type(sent_had_persons)(chunk, doc)
                     yield person
