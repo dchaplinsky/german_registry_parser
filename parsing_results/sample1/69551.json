@@ -24,6 +24,10 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  gr., error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was Name is too long: im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
             }
         ],
         "flags": [
@@ -49,14 +53,6 @@
                     "name": "Sergio"
                 },
                 "text": " Giroldi, Sergio, Ghemme/Italien, *09.08.1955, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
-                    "lastname": "mit der Befugnis",
-                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
-                },
-                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "AppointedManagingDirector",

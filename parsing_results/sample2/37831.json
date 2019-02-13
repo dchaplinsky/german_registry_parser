@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=37831&land_abk=br"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen., error text was Name is too long: mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -42,14 +48,6 @@
                     "name": "Hans-Jürgen"
                 },
                 "text": " Kewitz, Hans-Jürgen, *10.05.1964, Berlin"
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
-                    "lastname": "mit der Befugnis die Gesellschaft allein zu vertreten",
-                    "name": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
-                },
-                "text": " mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen."
             },
             {
                 "class": "DismissedManagingDirector",

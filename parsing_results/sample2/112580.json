@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=112580&land_abk=sh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten,\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen., error text was Name is too long: \nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -63,14 +69,6 @@
                     "ref": 1
                 },
                 "text": "1) Stock, Arne, *30.09.1977, Stockelsdorf"
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
-                    "lastname": "mit der Befugnis die Gesellschaft allein zu vertreten",
-                    "name": "\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
-                },
-                "text": " mit der Befugnis die Gesellschaft allein zu vertreten,\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen."
             }
         ]
     }

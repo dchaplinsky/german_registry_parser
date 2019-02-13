@@ -19,7 +19,15 @@
         "errors": [
             {
                 "kls": "ParsingError",
+                "text": "Cannot parse a Owner from  Änderung zu Nr. 1: unter gleichzeitiger Ergänzung des Geburtsdatums von Amts wegen und Änderung des Wohnortes, nunmehr: persönlich haftender Gesellschafter: Egbring, Karl-Heinz, *29.09.1957, Fockbeck, error text was Name is too long: nunmehr: persönlich haftender Gesellschafter: Egbring"
+            },
+            {
+                "kls": "ParsingError",
                 "text": "Cannot parse a PersonalPartner from  mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: nunmehr: Offene Handelsgesellschaft Henning Lilienthal ist in das einzelkaufmännische Unternehmen als persönlich haftender Gesellschafter eingetreten, wodurch dieses zu einer offene Handelsgesellschaft geworden ist., error text was Name is too long: wodurch dieses zu einer offene Handelsgesellschaft geworden ist"
             }
         ],
         "flags": [
@@ -59,14 +67,6 @@
                     "ref": 2
                 },
                 "text": "2) Lilienthal, Henning, *28.04.1970, Borgstedt"
-            },
-            {
-                "class": "PersonalPartner",
-                "payload": {
-                    "lastname": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: nunmehr: Offene Handelsgesellschaft Henning Lilienthal ist in das einzelkaufmännische Unternehmen als persönlich haftender Gesellschafter eingetreten",
-                    "name": "wodurch dieses zu einer offene Handelsgesellschaft geworden ist"
-                },
-                "text": " mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: nunmehr: Offene Handelsgesellschaft Henning Lilienthal ist in das einzelkaufmännische Unternehmen als persönlich haftender Gesellschafter eingetreten, wodurch dieses zu einer offene Handelsgesellschaft geworden ist."
             },
             {
                 "class": "Owner",

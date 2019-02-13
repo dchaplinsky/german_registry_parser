@@ -16,6 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=54199&land_abk=hb"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen., error text was Name is too long: mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen., error text was Name is too long: mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen., error text was Name is too long: mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -90,14 +104,6 @@
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "lastname": "mit der Befugnis die Gesellschaft allein zu vertreten",
-                    "name": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
-                },
-                "text": " mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen."
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
                     "city": "Bremen",
                     "dob": "1968-12-09",
                     "lastname": "Kersten",
@@ -108,28 +114,12 @@
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "lastname": "mit der Befugnis die Gesellschaft allein zu vertreten",
-                    "name": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
-                },
-                "text": " mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen."
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
                     "city": "Bremen",
                     "dob": "1964-03-06",
                     "lastname": "Doctor Nölle",
                     "name": "Jens-Uwe"
                 },
                 "text": " Doctor Nölle, Jens-Uwe, *06.03.1964, Bremen"
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
-                    "lastname": "mit der Befugnis die Gesellschaft allein zu vertreten",
-                    "name": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
-                },
-                "text": " mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen."
             }
         ]
     }

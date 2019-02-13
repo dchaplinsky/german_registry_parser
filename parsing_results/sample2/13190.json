@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=13190&land_abk=sh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Durch Beschluss der Gesellschafterversammlung vom 20.01.2005 wurde das Stammkapital um 75.000,00 EUR auf 75.000,00 EUR herabgesetzt und der Gesellschaftsvertrag in § 3 (Stammkapital) geändert., error text was Digits in name: 00 EUR auf 75.000"
+            }
+        ],
         "officers": [
             {
                 "class": "Liquidator",
@@ -36,15 +42,6 @@
                     "ref": 1
                 },
                 "text": "1) Rothe, Margrit geborene Walther"
-            },
-            {
-                "class": "Liquidator",
-                "payload": {
-                    "city": "00 EUR herabgesetzt und der Gesellschaftsvertrag in § 3 (Stammkapital) geändert",
-                    "lastname": "Durch Beschluss der Gesellschafterversammlung vom 20.01.2005 wurde das Stammkapital um 75.000",
-                    "name": "00 EUR auf 75.000"
-                },
-                "text": " Durch Beschluss der Gesellschafterversammlung vom 20.01.2005 wurde das Stammkapital um 75.000,00 EUR auf 75.000,00 EUR herabgesetzt und der Gesellschaftsvertrag in § 3 (Stammkapital) geändert."
             }
         ]
     }

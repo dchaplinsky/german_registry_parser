@@ -227,6 +227,16 @@ class FullPerson(object):
                 raise ValueError(
                     "no valid patter found, number of chunks: {}".format(len(chunks))
                 )
+
+            if len(self.payload.get("name", "")) > 50:
+                raise ValueError(
+                    "Name is too long: {}".format(self.name)
+                )
+            if re.search(r"\d", self.payload.get("name", "")):
+                raise ValueError(
+                    "Digits in name: {}".format(self.name)
+                )
+
         except ValueError as e:
             raise ParsingError(
                 "Cannot parse a {} from {}, error text was {}".format(self.kls, text, e)

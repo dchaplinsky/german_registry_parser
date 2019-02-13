@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=918966&land_abk=by"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was Name is too long: im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a AppointedManagingDirector from  mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was Name is too long: im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+            }
+        ],
         "flags": [
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
@@ -47,14 +57,6 @@
                 "text": " Leonhardt, Jürgen, Neu-Ulm, *05.01.1970, einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
-                "payload": {
-                    "lastname": "mit der Befugnis",
-                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
-                },
-                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
-            },
-            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Blaustein",
@@ -64,14 +66,6 @@
                     "name": "Florian Wolfgang"
                 },
                 "text": " Janz, Florian Wolfgang, Blaustein, *03.09.1975, einzelvertretungsberechtigt"
-            },
-            {
-                "class": "AppointedManagingDirector",
-                "payload": {
-                    "lastname": "mit der Befugnis",
-                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
-                },
-                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

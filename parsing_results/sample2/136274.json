@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=136274&land_abk=ni"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was Name is too long: im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was Name is too long: im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability.",
@@ -63,14 +73,6 @@
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "lastname": "mit der Befugnis",
-                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
-                },
-                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
                     "city": "Bergen op Zoom/NL",
                     "dob": "1956-11-19",
                     "flag": "sole representation",
@@ -78,14 +80,6 @@
                     "name": "Petrus Cornelis Maria"
                 },
                 "text": " van Boesschoten, Petrus Cornelis Maria, Bergen op Zoom/NL, *19.11.1956, einzelvertretungsberechtigt"
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
-                    "lastname": "mit der Befugnis",
-                    "name": "im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
-                },
-                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

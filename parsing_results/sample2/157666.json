@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=157666&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 10.01.2011 ist der Gesellschafts vertrag abgeändert in §§ 1 (Firma), 2 (Gegenstand).., error text was Digits in name: 2 (Gegenstand)"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -51,15 +57,6 @@
                     "ref": 2
                 },
                 "text": "2) Ritzensteiger, Tanja, *06.07.1968, Duisburg"
-            },
-            {
-                "class": "DismissedManagingDirector",
-                "payload": {
-                    "dismissed": true,
-                    "lastname": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 10.01.2011 ist der Gesellschafts vertrag abgeändert in §§ 1 (Firma)",
-                    "name": "2 (Gegenstand)"
-                },
-                "text": " mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 10.01.2011 ist der Gesellschafts vertrag abgeändert in §§ 1 (Firma), 2 (Gegenstand).."
             }
         ]
     }

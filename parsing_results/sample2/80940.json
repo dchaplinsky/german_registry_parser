@@ -19,11 +19,19 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a DismissedManagingDirector from  Prokura gemeinsam mit einem Geschäftsführer oder einem weiteren Prokuristen, error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a DismissedManagingDirector from 6) Schanne, Hubert Alex Prokura:11) Oster, Kerstin, *22.05.1967, Berlin, error text was Digits in name: Hubert Alex Prokura:11) Oster"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a DismissedManagingDirector from  12., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a ManagingDirector from 6) Schanne, Hubert Alex Prokura:11) Oster, Kerstin, *22.05.1967, Berlin, error text was Digits in name: Hubert Alex Prokura:11) Oster"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Procuration from  Prokura gemeinsam mit einem Geschäftsführer oder einem weiteren Prokuristen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Procuration from  12., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "labels": [
@@ -38,17 +46,15 @@
         ],
         "officers": [
             {
-                "class": "DismissedManagingDirector",
+                "class": "Procuration",
                 "payload": {
-                    "city": "Kerstin",
-                    "dismissed": true,
+                    "city": "Berlin",
                     "dob": "1967-05-22",
-                    "flag": "Berlin",
-                    "lastname": "Schanne",
-                    "name": "Hubert Alex Prokura:11) Oster",
-                    "ref": 6
+                    "lastname": "Oster",
+                    "name": "Kerstin",
+                    "ref": 11
                 },
-                "text": "6) Schanne, Hubert Alex Prokura:11) Oster, Kerstin, *22.05.1967, Berlin"
+                "text": "11) Oster, Kerstin, *22.05.1967, Berlin"
             },
             {
                 "class": "NotAProcurator",

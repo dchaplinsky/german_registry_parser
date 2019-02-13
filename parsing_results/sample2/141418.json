@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=141418&land_abk=bw"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Klaus und Max Moritz Gesellschaft mit beschränkter Haftung, Reutlingen (Amtsgericht Stuttgart 350663)., error text was Digits in name: Reutlingen (Amtsgericht Stuttgart 350663)"
+            }
+        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -26,16 +32,6 @@
             {
                 "label": "address",
                 "text": " Ernst-Abbé-Str."
-            }
-        ],
-        "officers": [
-            {
-                "class": "PersonalPartner",
-                "payload": {
-                    "lastname": "Klaus und Max Moritz Gesellschaft mit beschränkter Haftung",
-                    "name": "Reutlingen (Amtsgericht Stuttgart 350663)"
-                },
-                "text": " Klaus und Max Moritz Gesellschaft mit beschränkter Haftung, Reutlingen (Amtsgericht Stuttgart 350663)."
             }
         ]
     }

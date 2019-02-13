@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=217610&land_abk=ni"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was Name is too long: im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+            }
+        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -39,14 +45,6 @@
                     "company_name": "ekofüll Warenhandels- und Immobilien GmbH, Schwarme (Amtsgericht Walsrode HRB 110833), einzelvertretungsberechtigt"
                 },
                 "text": " ekofüll Warenhandels- und Immobilien GmbH, Schwarme (Amtsgericht Walsrode HRB 110833), einzelvertretungsberechtigt"
-            },
-            {
-                "class": "PersonalPartner",
-                "payload": {
-                    "lastname": "mit der Befugnis",
-                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
-                },
-                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -16,16 +16,14 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=123654&land_abk=be"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "DismissedManagingDirector",
-                "payload": {
-                    "dismissed": true,
-                    "lastname": "Sanne",
-                    "name": "Ralf Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 18.02.2010 ist der Gesellschaftsvertrag geändert in § 1 (Firma)",
-                    "ref": 2
-                },
-                "text": "2) Sanne, Ralf Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 18.02.2010 ist der Gesellschaftsvertrag geändert in § 1 (Firma)."
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from 2) Sanne, Ralf Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 18.02.2010 ist der Gesellschaftsvertrag geändert in § 1 (Firma)., error text was Name is too long: Ralf Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 18.02.2010 ist der Gesellschaftsvertrag geändert in § 1 (Firma)"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from 2) Sanne, Ralf Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 18.02.2010 ist der Gesellschaftsvertrag geändert in § 1 (Firma)., error text was Name is too long: Ralf Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 18.02.2010 ist der Gesellschaftsvertrag geändert in § 1 (Firma)"
             }
         ]
     }

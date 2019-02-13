@@ -28,6 +28,10 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  Gesellschaftsvertrag vom:01)11.2013, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rechtsverhaeltnis: Die Geschäftsführer sind durch Gesellschaftsvertrag ermächtigt, das Stammkapital bis zum 31.12.2017 um einen Betrag bis zu insgesamt 9.616,00 EUR zu erhöhen (Genehmigtes Kapital 2013/I), error text was Name is too long: das Stammkapital bis zum 31.12.2017 um einen Betrag bis zu insgesamt 9.616"
             }
         ],
         "flags": [
@@ -77,15 +81,6 @@
                     "ref": 1
                 },
                 "text": "1) Schneider, Andreas, *18.12.1986, Großmehring"
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
-                    "city": "00 EUR zu erhöhen (Genehmigtes Kapital 2013/I)",
-                    "lastname": "Rechtsverhaeltnis: Die Geschäftsführer sind durch Gesellschaftsvertrag ermächtigt",
-                    "name": "das Stammkapital bis zum 31.12.2017 um einen Betrag bis zu insgesamt 9.616"
-                },
-                "text": " Rechtsverhaeltnis: Die Geschäftsführer sind durch Gesellschaftsvertrag ermächtigt, das Stammkapital bis zum 31.12.2017 um einen Betrag bis zu insgesamt 9.616,00 EUR zu erhöhen (Genehmigtes Kapital 2013/I)"
             }
         ]
     }

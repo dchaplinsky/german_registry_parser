@@ -20,6 +20,10 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a Liquidator from  mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen., error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a NotAProcurator from 1) Haubold, Marlis Rechtsverhaeltnis: Die Gesellschaft ist aufgelöst.., error text was Name is too long: Marlis Rechtsverhaeltnis: Die Gesellschaft ist aufgelöst"
             }
         ],
         "flags": [
@@ -42,16 +46,6 @@
                     "name": "Michael"
                 },
                 "text": " Haubold, Michael, *09.10.1955, Elmshorn"
-            },
-            {
-                "class": "NotAProcurator",
-                "payload": {
-                    "dismissed": true,
-                    "lastname": "Haubold",
-                    "name": "Marlis Rechtsverhaeltnis: Die Gesellschaft ist aufgelöst",
-                    "ref": 1
-                },
-                "text": "1) Haubold, Marlis Rechtsverhaeltnis: Die Gesellschaft ist aufgelöst.."
             }
         ]
     }

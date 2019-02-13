@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=365274&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  Rechtsform: Durch Beschluss der Gesellschafterversammlungen vom 05.11.2015 und 18.01.2016 ist der Gesellschaftsvertrag abgeändert in § 1 (Firma), § 3 (Gegenstand des Unternehmens) und in § 6 (Vertretung)., error text was Name is too long: § 3 (Gegenstand des Unternehmens) und in § 6 (Vertretung)"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -71,15 +77,6 @@
                     "ref": 3
                 },
                 "text": "3) Kuberna, Marcin Jan, *09.04.1977, Zukowo/Polen"
-            },
-            {
-                "class": "DismissedManagingDirector",
-                "payload": {
-                    "dismissed": true,
-                    "lastname": "Rechtsform: Durch Beschluss der Gesellschafterversammlungen vom 05.11.2015 und 18.01.2016 ist der Gesellschaftsvertrag abgeändert in § 1 (Firma)",
-                    "name": "§ 3 (Gegenstand des Unternehmens) und in § 6 (Vertretung)"
-                },
-                "text": " Rechtsform: Durch Beschluss der Gesellschafterversammlungen vom 05.11.2015 und 18.01.2016 ist der Gesellschaftsvertrag abgeändert in § 1 (Firma), § 3 (Gegenstand des Unternehmens) und in § 6 (Vertretung)."
             }
         ]
     }

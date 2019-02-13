@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=328601&land_abk=ni"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der befugnis, im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen., error text was Name is too long: im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a AppointedManagingDirector from  mit der befugnis, im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen., error text was Name is too long: im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability.",
@@ -79,14 +89,6 @@
                 "text": " pühler, heike, hannover, *15.07.1955, jeweils einzelvertretungsberechtigt"
             },
             {
-                "class": "ManagingDirector",
-                "payload": {
-                    "lastname": "mit der befugnis",
-                    "name": "im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen"
-                },
-                "text": " mit der befugnis, im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen."
-            },
-            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "sailauf",
@@ -106,14 +108,6 @@
                     "name": "enna"
                 },
                 "text": " schumacher, enna, hannover, *14.03.1961, jeweils einzelvertretungsberechtigt"
-            },
-            {
-                "class": "AppointedManagingDirector",
-                "payload": {
-                    "lastname": "mit der befugnis",
-                    "name": "im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen"
-                },
-                "text": " mit der befugnis, im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen."
             }
         ]
     }

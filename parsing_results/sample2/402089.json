@@ -23,6 +23,10 @@
             },
             {
                 "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 26.10.2016 ist der Gesellschaftsvertrag geändert in § 1 (Firma), § 2 (Unternehmensgegenstand) und § 13 (Informationspflicht der Gesellschaft, Informationsrecht der Gesellschafter), error text was Name is too long: § 2 (Unternehmensgegenstand) und § 13 (Informationspflicht der Gesellschaft"
+            },
+            {
+                "kls": "ParsingError",
                 "text": "Cannot parse a DismissedManagingDirector from  § 9 (Beirat) ist aufgehoben., error text was a person without DOB, number of chunks: 1"
             }
         ],
@@ -85,16 +89,6 @@
                     "ref": 4
                 },
                 "text": "4) Öztüfek, Ender, *01.04.1982, Berlin"
-            },
-            {
-                "class": "DismissedManagingDirector",
-                "payload": {
-                    "city": "Informationsrecht der Gesellschafter)",
-                    "dismissed": true,
-                    "lastname": "Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 26.10.2016 ist der Gesellschaftsvertrag geändert in § 1 (Firma)",
-                    "name": "§ 2 (Unternehmensgegenstand) und § 13 (Informationspflicht der Gesellschaft"
-                },
-                "text": " Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 26.10.2016 ist der Gesellschaftsvertrag geändert in § 1 (Firma), § 2 (Unternehmensgegenstand) und § 13 (Informationspflicht der Gesellschaft, Informationsrecht der Gesellschafter)"
             }
         ]
     }

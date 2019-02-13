@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=64856&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a NotALiquidator from  mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 20.11.2007 ist das Stammkapital auf Euro umgestellt und um 35,41 EUR auf 25.600 EUR erhöht und die Satzung geändert in § 3 (Stammkapital)., error text was Name is too long: 41 EUR auf 25.600 EUR erhöht und die Satzung geändert in § 3 (Stammkapital)"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -50,15 +56,6 @@
                     "ref": 2
                 },
                 "text": "2) Krug, Heinz Jürgen, *22.10.1948, Berlin"
-            },
-            {
-                "class": "NotALiquidator",
-                "payload": {
-                    "dismissed": true,
-                    "lastname": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 20.11.2007 ist das Stammkapital auf Euro umgestellt und um 35",
-                    "name": "41 EUR auf 25.600 EUR erhöht und die Satzung geändert in § 3 (Stammkapital)"
-                },
-                "text": " mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 20.11.2007 ist das Stammkapital auf Euro umgestellt und um 35,41 EUR auf 25.600 EUR erhöht und die Satzung geändert in § 3 (Stammkapital)."
             }
         ]
     }

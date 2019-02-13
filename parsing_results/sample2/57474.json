@@ -16,15 +16,13 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=57474&land_abk=ni"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "PersonalPartner",
-                "payload": {
-                    "lastname": "Holland Immo Group General Partner B.V",
-                    "name": "Eindhoven (Kamers van Koophandel voor Brabant Dossier-Nr. 17215697)"
-                },
-                "text": " Holland Immo Group General Partner B.V., Eindhoven (Kamers van Koophandel voor Brabant Dossier-Nr. 17215697)."
-            },
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Holland Immo Group General Partner B.V., Eindhoven (Kamers van Koophandel voor Brabant Dossier-Nr. 17215697)., error text was Name is too long: Eindhoven (Kamers van Koophandel voor Brabant Dossier-Nr. 17215697)"
+            }
+        ],
+        "officers": [
             {
                 "class": "RetiredPersonalPartner",
                 "payload": {

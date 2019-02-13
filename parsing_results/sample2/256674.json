@@ -20,6 +20,10 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a DismissedManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 05.07.2013 ist der Gesellschaftsvertrag geändert in den §§ 1 (Firma), 2 (Gegenstand) und 3 (Geschäftsanteile)., error text was Digits in name: 2 (Gegenstand) und 3 (Geschäftsanteile)"
             }
         ],
         "flags": [
@@ -90,15 +94,6 @@
                     "ref": 3
                 },
                 "text": "3) Zehentner, Karl-Heinz, *16.07.1963, Weimar"
-            },
-            {
-                "class": "DismissedManagingDirector",
-                "payload": {
-                    "dismissed": true,
-                    "lastname": "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 05.07.2013 ist der Gesellschaftsvertrag geändert in den §§ 1 (Firma)",
-                    "name": "2 (Gegenstand) und 3 (Geschäftsanteile)"
-                },
-                "text": " mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 05.07.2013 ist der Gesellschaftsvertrag geändert in den §§ 1 (Firma), 2 (Gegenstand) und 3 (Geschäftsanteile)."
             }
         ]
     }

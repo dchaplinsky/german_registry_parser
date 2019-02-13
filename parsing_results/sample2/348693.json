@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=348693&land_abk=hh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a AppointedManagingDirector from  mit der Befugnis, die Gesellschaft auch gemeinsam mit einem Prokuristen zu vertreten., error text was Name is too long: die Gesellschaft auch gemeinsam mit einem Prokuristen zu vertreten"
+            }
+        ],
         "officers": [
             {
                 "class": "AppointedManagingDirector",
@@ -27,14 +33,6 @@
                     "name": "Stefan"
                 },
                 "text": " Bohn, Stefan, Ludwigshafen am Rhein, *21.02.1969, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
-            },
-            {
-                "class": "AppointedManagingDirector",
-                "payload": {
-                    "lastname": "mit der Befugnis",
-                    "name": "die Gesellschaft auch gemeinsam mit einem Prokuristen zu vertreten"
-                },
-                "text": " mit der Befugnis, die Gesellschaft auch gemeinsam mit einem Prokuristen zu vertreten."
             }
         ]
     }

@@ -19,6 +19,10 @@
         "errors": [
             {
                 "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  Änderung zu Geschäftsführer Kanira, Ingo: nunmehr mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen., error text was Name is too long: Ingo: nunmehr mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen"
+            },
+            {
+                "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen., error text was a person without DOB, number of chunks: 1"
             }
         ],
@@ -31,15 +35,6 @@
                     "name": "Uwe Thomas"
                 },
                 "text": " Carstensen, Uwe Thomas"
-            },
-            {
-                "class": "DismissedManagingDirector",
-                "payload": {
-                    "dismissed": true,
-                    "lastname": "Änderung zu Geschäftsführer Kanira",
-                    "name": "Ingo: nunmehr mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen"
-                },
-                "text": " Änderung zu Geschäftsführer Kanira, Ingo: nunmehr mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen."
             },
             {
                 "class": "ManagingDirector",

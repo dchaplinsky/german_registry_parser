@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=171852&land_abk=sh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 04.06.2015 ist der Gesellschaftsvertrag insgesamt neu gefasst worden, insbesondere in §§ 2 (Gegenstand des Unternehmens) und 4 (Geschäftsführung)., error text was Name is too long: insbesondere in §§ 2 (Gegenstand des Unternehmens) und 4 (Geschäftsführung)"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -47,14 +53,6 @@
                     "name": "Claudia geborene Hansen"
                 },
                 "text": " Hansen-Soltau, Claudia geborene Hansen, *21.03.1971, Braak, mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
-                    "lastname": "Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 04.06.2015 ist der Gesellschaftsvertrag insgesamt neu gefasst worden",
-                    "name": "insbesondere in §§ 2 (Gegenstand des Unternehmens) und 4 (Geschäftsführung)"
-                },
-                "text": " Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 04.06.2015 ist der Gesellschaftsvertrag insgesamt neu gefasst worden, insbesondere in §§ 2 (Gegenstand des Unternehmens) und 4 (Geschäftsführung)."
             }
         ]
     }

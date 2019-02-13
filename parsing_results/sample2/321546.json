@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=321546&land_abk=ni"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  RANDOMPORTALS LIMITED, London / Vereinigtes Königreich (Companies House Cardiff No., error text was Name is too long: London / Vereinigtes Königreich (Companies House Cardiff No"
+            }
+        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -39,16 +45,6 @@
                 "registration": "predecessor",
                 "text": " ist von Waldkirch (bisher Amtsgericht Freiburg i.",
                 "used_regex": "from_regex, court_regex"
-            }
-        ],
-        "officers": [
-            {
-                "class": "PersonalPartner",
-                "payload": {
-                    "lastname": "RANDOMPORTALS LIMITED",
-                    "name": "London / Vereinigtes Königreich (Companies House Cardiff No"
-                },
-                "text": " RANDOMPORTALS LIMITED, London / Vereinigtes Königreich (Companies House Cardiff No."
             }
         ]
     }

@@ -24,6 +24,10 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  mcgill, christopher charles, buckinghamshire / vereinigtes königreich, *12.04.1960. bestellt: geschäftsführer: de proost, steven, begijnendijk / belgien, *04.06.1974, einzelvertretungsberechtigt, error text was no valid patter found, number of chunks: 8"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a AppointedManagingDirector from  mit der befugnis, im namen der gesellschaft mit sich als vertreter eines dritten rechtsgeschäfte abzuschließen., error text was Name is too long: im namen der gesellschaft mit sich als vertreter eines dritten rechtsgeschäfte abzuschließen"
             }
         ],
         "flags": [
@@ -57,14 +61,6 @@
                     "name": "steven"
                 },
                 "text": " de proost, steven, begijnendijk / belgien, *04.06.1974, einzelvertretungsberechtigt"
-            },
-            {
-                "class": "AppointedManagingDirector",
-                "payload": {
-                    "lastname": "mit der befugnis",
-                    "name": "im namen der gesellschaft mit sich als vertreter eines dritten rechtsgeschäfte abzuschließen"
-                },
-                "text": " mit der befugnis, im namen der gesellschaft mit sich als vertreter eines dritten rechtsgeschäfte abzuschließen."
             }
         ]
     }

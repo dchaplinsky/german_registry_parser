@@ -20,6 +20,10 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a Liquidator from  mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Rechtsverhaeltnis: Durch Beschluss der Gesellschafterversammlung vom 26.10.2011, 23.02.2012 ist die Gesellschaft aufgelöst., error text was Digits in name: 23.02.2012 ist die Gesellschaft aufgelöst"
             }
         ],
         "flags": [
@@ -48,14 +52,6 @@
                     "name": "Thomas"
                 },
                 "text": " Ehrlich, Thomas, *21.07.1971, Greifswald"
-            },
-            {
-                "class": "Liquidator",
-                "payload": {
-                    "lastname": "Rechtsverhaeltnis: Durch Beschluss der Gesellschafterversammlung vom 26.10.2011",
-                    "name": "23.02.2012 ist die Gesellschaft aufgelöst"
-                },
-                "text": " Rechtsverhaeltnis: Durch Beschluss der Gesellschafterversammlung vom 26.10.2011, 23.02.2012 ist die Gesellschaft aufgelöst."
             }
         ]
     }

@@ -23,6 +23,14 @@
             },
             {
                 "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from 1) Meral, Erol Prokura:1) Artuc, Sinan, *01.01.1973, Berlin, error text was Digits in name: Erol Prokura:1) Artuc"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from 1) Meral, Erol Prokura:1) Artuc, Sinan, *01.01.1973, Berlin, error text was Digits in name: Erol Prokura:1) Artuc"
+            },
+            {
+                "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  Einzelprokura., error text was a person without DOB, number of chunks: 1"
             }
         ],
@@ -57,17 +65,15 @@
                 "text": "2) Duman, Mehtap, *15.12.1982, Berlin"
             },
             {
-                "class": "DismissedManagingDirector",
+                "class": "Procuration",
                 "payload": {
-                    "city": "Sinan",
-                    "dismissed": true,
+                    "city": "Berlin",
                     "dob": "1973-01-01",
-                    "flag": "Berlin",
-                    "lastname": "Meral",
-                    "name": "Erol Prokura:1) Artuc",
+                    "lastname": "Artuc",
+                    "name": "Sinan",
                     "ref": 1
                 },
-                "text": "1) Meral, Erol Prokura:1) Artuc, Sinan, *01.01.1973, Berlin"
+                "text": "1) Artuc, Sinan, *01.01.1973, Berlin"
             }
         ]
     }

@@ -28,6 +28,10 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  Gesellschaftsvertrag vom:19)11.2013, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit Änderung vom 13.12.2013 in § 3 (Stammkapital), § 13 (Jahresabschluss, Gewinnverwendung), error text was Digits in name: § 13 (Jahresabschluss"
             }
         ],
         "flags": [
@@ -73,15 +77,6 @@
                     "ref": 1
                 },
                 "text": "1) Schrader, Daniel, *12.05.1968, Berlin"
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
-                    "city": "Gewinnverwendung)",
-                    "lastname": "mit Änderung vom 13.12.2013 in § 3 (Stammkapital)",
-                    "name": "§ 13 (Jahresabschluss"
-                },
-                "text": " mit Änderung vom 13.12.2013 in § 3 (Stammkapital), § 13 (Jahresabschluss, Gewinnverwendung)"
             }
         ]
     }

@@ -16,21 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=120885&land_abk=nw"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Kranto Limited, Birmingham/GB (companies house of Cardiff Nr. 5656408), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was Name is too long: Birmingham/GB (companies house of Cardiff Nr. 5656408)"
+            }
+        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
                 "text": "Kommanditgesellschaft\\."
-            }
-        ],
-        "officers": [
-            {
-                "class": "PersonalPartner",
-                "payload": {
-                    "city": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
-                    "lastname": "Kranto Limited",
-                    "name": "Birmingham/GB (companies house of Cardiff Nr. 5656408)"
-                },
-                "text": " Kranto Limited, Birmingham/GB (companies house of Cardiff Nr. 5656408), mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

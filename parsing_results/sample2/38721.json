@@ -20,6 +20,10 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  Gesellschaft mit beschränkter Haftung, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Gesellschaftsvertrag vom:02)11.2001, zuletzt geändert durch Beschluss vom 12.12.2003., error text was Digits in name: zuletzt geändert durch Beschluss vom 12.12.2003"
             }
         ],
         "flags": [
@@ -64,14 +68,6 @@
                     "ref": 1
                 },
                 "text": "1) Saul, Christian, *22.08.1969, Hamburg, mit der Befugnis die Gesellschaft allein zu vertreten und mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
-                    "lastname": "Gesellschaftsvertrag vom:02)11.2001",
-                    "name": "zuletzt geändert durch Beschluss vom 12.12.2003"
-                },
-                "text": " Gesellschaftsvertrag vom:02)11.2001, zuletzt geändert durch Beschluss vom 12.12.2003."
             }
         ]
     }

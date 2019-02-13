@@ -24,6 +24,10 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 18.12.2014 ist das Stammkapital auf EUR umgestellt, sodann auf 25.800 EUR erhöht und der Gesellschaftsvertrag  geändert in § 3 (Stammkapital) und § 4 (Geschäftsführung), error text was Name is too long: sodann auf 25.800 EUR erhöht und der Gesellschaftsvertrag  geändert in § 3 (Stammkapital) und § 4 (Geschäftsführung)"
             }
         ],
         "flags": [
@@ -78,14 +82,6 @@
                     "name": "Stefan"
                 },
                 "text": " Radtke, Stefan, *13.06.1964, Kleinmachnow"
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
-                    "lastname": "Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 18.12.2014 ist das Stammkapital auf EUR umgestellt",
-                    "name": "sodann auf 25.800 EUR erhöht und der Gesellschaftsvertrag  geändert in § 3 (Stammkapital) und § 4 (Geschäftsführung)"
-                },
-                "text": " Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 18.12.2014 ist das Stammkapital auf EUR umgestellt, sodann auf 25.800 EUR erhöht und der Gesellschaftsvertrag  geändert in § 3 (Stammkapital) und § 4 (Geschäftsführung)"
             }
         ]
     }

@@ -16,16 +16,14 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=9274&land_abk=be"
     },
     "parsed": {
-        "officers": [
+        "errors": [
             {
-                "class": "DismissedManagingDirector",
-                "payload": {
-                    "dismissed": true,
-                    "lastname": "Kurt",
-                    "name": "Senel geborene Capat Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 07.02.2006 ist der Gesellschaftsvertrag geändert in § 1 (Firma)",
-                    "ref": 1
-                },
-                "text": "1) Kurt, Senel geborene Capat Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 07.02.2006 ist der Gesellschaftsvertrag geändert in § 1 (Firma).."
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from 1) Kurt, Senel geborene Capat Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 07.02.2006 ist der Gesellschaftsvertrag geändert in § 1 (Firma).., error text was Name is too long: Senel geborene Capat Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 07.02.2006 ist der Gesellschaftsvertrag geändert in § 1 (Firma)"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from 1) Kurt, Senel geborene Capat Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 07.02.2006 ist der Gesellschaftsvertrag geändert in § 1 (Firma).., error text was Name is too long: Senel geborene Capat Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 07.02.2006 ist der Gesellschaftsvertrag geändert in § 1 (Firma)"
             }
         ]
     }

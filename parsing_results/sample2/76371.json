@@ -20,6 +20,18 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from 1) Möller, Manuel Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 15.04.2010 wurde der Gesellschaftsvertrag bis auf § 1 (Firma und Sitz) aufgehoben und neu gefasst., error text was Name is too long: Manuel Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 15.04.2010 wurde der Gesellschaftsvertrag bis auf § 1 (Firma und Sitz) aufgehoben und neu gefasst"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from 1) Möller, Manuel Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 15.04.2010 wurde der Gesellschaftsvertrag bis auf § 1 (Firma und Sitz) aufgehoben und neu gefasst., error text was Name is too long: Manuel Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 15.04.2010 wurde der Gesellschaftsvertrag bis auf § 1 (Firma und Sitz) aufgehoben und neu gefasst"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Nicht mehr Geschäftsführer:1) Möller, Manuel Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 15.04.2010 wurde der Gesellschaftsvertrag bis auf § 1 (Firma und Sitz) aufgehoben und neu gefasst., error text was Name is too long: Manuel Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 15.04.2010 wurde der Gesellschaftsvertrag bis auf § 1 (Firma und Sitz) aufgehoben und neu gefasst"
             }
         ],
         "flags": [
@@ -55,16 +67,6 @@
                     "ref": 2
                 },
                 "text": "2) Meier, Alfred, *25.06.1951, Ahrensburg"
-            },
-            {
-                "class": "DismissedManagingDirector",
-                "payload": {
-                    "dismissed": true,
-                    "lastname": "Möller",
-                    "name": "Manuel Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 15.04.2010 wurde der Gesellschaftsvertrag bis auf § 1 (Firma und Sitz) aufgehoben und neu gefasst",
-                    "ref": 1
-                },
-                "text": "1) Möller, Manuel Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 15.04.2010 wurde der Gesellschaftsvertrag bis auf § 1 (Firma und Sitz) aufgehoben und neu gefasst."
             }
         ]
     }

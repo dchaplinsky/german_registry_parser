@@ -20,6 +20,10 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Durch Beschluss der Gesellschafterversammlung vom 30.09.2008 ist das Stammkapital auf Euro umgestellt und um 35,41 EUR auf 25.600,00 EUR erhöht, error text was Digits in name: 41 EUR auf 25.600"
             }
         ],
         "flags": [
@@ -54,15 +58,6 @@
                     "name": "Heinz"
                 },
                 "text": " Krahe, Heinz, *31.08.1946, Panketal"
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
-                    "city": "00 EUR erhöht",
-                    "lastname": "Durch Beschluss der Gesellschafterversammlung vom 30.09.2008 ist das Stammkapital auf Euro umgestellt und um 35",
-                    "name": "41 EUR auf 25.600"
-                },
-                "text": " Durch Beschluss der Gesellschafterversammlung vom 30.09.2008 ist das Stammkapital auf Euro umgestellt und um 35,41 EUR auf 25.600,00 EUR erhöht"
             },
             {
                 "class": "ManagingDirector",

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=199500&land_abk=nw"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Commodore Industrial Limited, London NW 2 2HN (Companies House in Cardiff Nr. 5813509)., error text was Name is too long: London NW 2 2HN (Companies House in Cardiff Nr. 5813509)"
+            }
+        ],
         "flags": [
             {
                 "flag": "Limited partnership.",
@@ -31,16 +37,6 @@
                 "text": " der Gesellschaft ist von Berlin nach Nettetal verlegt (bisher AG Charlottenburg HR A 36275 B).",
                 "to": "Nettetal",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
-            }
-        ],
-        "officers": [
-            {
-                "class": "PersonalPartner",
-                "payload": {
-                    "lastname": "Commodore Industrial Limited",
-                    "name": "London NW 2 2HN (Companies House in Cardiff Nr. 5813509)"
-                },
-                "text": " Commodore Industrial Limited, London NW 2 2HN (Companies House in Cardiff Nr. 5813509)."
             }
         ]
     }

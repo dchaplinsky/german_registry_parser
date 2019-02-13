@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=69552&land_abk=hb"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Procuration from  beschränkt auf die Zweigniederlassung Nr. 1 in 27568 Bremerhaven,\nProkura gemeinsam mit einem persönlich haftenden Gesellschafter oder einem weiteren Prokuristen., error text was Name is too long: \nProkura gemeinsam mit einem persönlich haftenden Gesellschafter oder einem weiteren Prokuristen"
+            }
+        ],
         "labels": [
             {
                 "label": "WHUT",
@@ -32,14 +38,6 @@
                     "name": "Jürgen"
                 },
                 "text": " Hübner, Jürgen, *03.06.1964, Kaufbeuren"
-            },
-            {
-                "class": "Procuration",
-                "payload": {
-                    "lastname": "beschränkt auf die Zweigniederlassung Nr. 1 in 27568 Bremerhaven",
-                    "name": "\nProkura gemeinsam mit einem persönlich haftenden Gesellschafter oder einem weiteren Prokuristen"
-                },
-                "text": " beschränkt auf die Zweigniederlassung Nr. 1 in 27568 Bremerhaven,\nProkura gemeinsam mit einem persönlich haftenden Gesellschafter oder einem weiteren Prokuristen."
             }
         ]
     }
