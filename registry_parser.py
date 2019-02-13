@@ -99,7 +99,7 @@ class FullPerson(object):
         m = dob_regex.search(dob.strip(" ;."))
 
         if m:
-            return dt_parse(m.group(0).strip("* ;.")).date()
+            return dt_parse(m.group(0).strip("* ;."), dayfirst=True).date()
         else:
             raise ValueError("Cannot parse DOB {} using regex".format(dob))
 
@@ -771,31 +771,42 @@ sentences = sorted(
 )
 
 
-def _get_normalized(sents: tuple):
-    for sent in sents:
+def _parse_normalized(sents: tuple, doc: dict):
+    for sent in [sents]:
+        sent_had_persons = False
+
         for chunk in sent.split(";"):
-            yield re.sub(r"\s+", " ", chunk)
+            normalized = re.sub(r"\s+", " ", chunk)
 
+            chunk_had_persons = False
+            chunk_had_relocation = False
+            for known_sentence in sentences:
+                res = list(filter(None, known_sentence.parse(normalized, doc)))
+                if res:
+                    for r in res:
+                        if isinstance(r, FullPerson):
+                            if not sent_had_persons:
+                                sent_had_persons = r
 
-def _parse_normalized(normalized: str, doc: dict):
-    had_persons = False
-    had_relocation = False
-    for known_sentence in sentences:
-        res = list(filter(None, known_sentence.parse(normalized, doc)))
-        if res:
-            for r in res:
-                if isinstance(r, FullPerson):
-                    if had_persons:
-                        continue
-                    else:
-                        had_persons = True
+                            if chunk_had_persons:
+                                continue
+                            else:
+                                chunk_had_persons = True
 
-                if isinstance(r, AbstractNotice):
-                    if had_relocation:
-                        continue
-                    else:
-                        had_relocation = True
-                yield r
+                        if isinstance(r, AbstractNotice):
+                            if chunk_had_relocation:
+                                continue
+                            else:
+                                chunk_had_relocation = True
+                        yield r
+
+            if sent_had_persons:
+                try:
+                    person = type(sent_had_persons)(chunk, doc)
+                except ParsingError as e:
+                    yield Error(type(e).__name__, str(e))
+
+                yield person
 
 
 def parse_document(doc: dict) -> (defaultdict, tuple):
@@ -826,7 +837,7 @@ def parse_document(doc: dict) -> (defaultdict, tuple):
         res["errors"] = errors
 
     for v in chain.from_iterable(
-        map(lambda x: _parse_normalized(x, doc), _get_normalized(sents))
+        map(lambda x: _parse_normalized(x, doc), sents)
     ):
         res[v.kind].append(v.to_dict())
 
