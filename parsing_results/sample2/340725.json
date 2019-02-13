@@ -34,7 +34,7 @@
                 "payload": {
                     "city": "Offenbach am Main",
                     "dismissed": true,
-                    "dob": "1952-10-11",
+                    "dob": "1952-11-10",
                     "lastname": "Gerstner",
                     "name": "Felicitas"
                 },
@@ -44,12 +44,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Dannenberg",
-                    "dob": "1954-07-12",
+                    "dob": "1954-12-07",
                     "flag": "sole representation",
                     "lastname": "Preuß",
                     "name": "Bianca"
                 },
                 "text": " Preuß, Bianca, Dannenberg, *07.12.1954, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

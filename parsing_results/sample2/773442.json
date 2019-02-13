@@ -33,11 +33,22 @@
                 "payload": {
                     "city": "Bielefeld",
                     "dismissed": true,
-                    "dob": "1962-10-09",
+                    "dob": "1962-09-10",
                     "lastname": "Budde",
                     "name": "Petra"
                 },
                 "text": " Budde, Petra, Bielefeld, *10.09.1962"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Harsewinkel",
+                    "dismissed": true,
+                    "dob": "1957-09-03",
+                    "lastname": "Terlutter",
+                    "name": "Michael"
+                },
+                "text": " Terlutter, Michael, Harsewinkel, *03.09.1957."
             }
         ]
     }

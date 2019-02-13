@@ -27,11 +27,21 @@
                 "class": "PersonalPartner",
                 "payload": {
                     "city": "Dortmund",
-                    "dob": "1964-08-04",
+                    "dob": "1964-04-08",
                     "lastname": "Hirsch",
                     "name": "Marcus"
                 },
                 "text": " Hirsch, Marcus, Dortmund, *08.04.1964"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Dortmund",
+                    "dob": "1965-04-03",
+                    "lastname": "Thurau",
+                    "name": "Thomas"
+                },
+                "text": " Thurau, Thomas, Dortmund, *03.04.1965."
             }
         ]
     }

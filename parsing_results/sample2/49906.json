@@ -27,11 +27,22 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Bingen am Rhein",
-                    "dob": "1947-05-04",
+                    "dob": "1947-04-05",
                     "lastname": "Dahlhaus",
                     "name": "Hermann"
                 },
                 "text": " Dahlhaus, Hermann, Bingen am Rhein, *05.04.1947"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Wiesbaden",
+                    "dob": "1972-04-17",
+                    "flag": "jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Momberg",
+                    "name": "Frank"
+                },
+                "text": " Momberg, Frank, Wiesbaden, *17.04.1972, jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "DismissedManagingDirector",
@@ -43,6 +54,17 @@
                 "text": " Butsch, Mainz"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Wiesbaden",
+                    "dismissed": true,
+                    "dob": "1956-09-25",
+                    "lastname": "Stolz",
+                    "name": "Heribert"
+                },
+                "text": " Stolz, Heribert, Wiesbaden, *25.09.1956."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Mainz",
@@ -52,6 +74,28 @@
                     "name": "Peter Heinz"
                 },
                 "text": " Hagenguth, Peter Heinz, Mainz, *15.02.1952"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Mainz",
+                    "dismissed": true,
+                    "dob": "1957-05-01",
+                    "lastname": "Höhne",
+                    "name": "Heinz Günter"
+                },
+                "text": " Höhne, Heinz Günter, Mainz, *01.05.1957"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Bad Kreuznach",
+                    "dismissed": true,
+                    "dob": "1955-08-12",
+                    "lastname": "Wessollek",
+                    "name": "Manfred Horst"
+                },
+                "text": " Wessollek, Manfred Horst, Bad Kreuznach, *12.08.1955."
             }
         ]
     }

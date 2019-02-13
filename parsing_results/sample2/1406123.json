@@ -27,7 +27,29 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dortmund",
-                    "dob": "1970-11-03",
+                    "dob": "1970-03-11",
+                    "lastname": "Hermann",
+                    "name": "Axel"
+                },
+                "text": " Hermann, Axel, Dortmund, *11.03.1970"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Dortmund",
+                    "dob": "1966-12-29",
+                    "flag": "jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Hermann",
+                    "name": "Ralf"
+                },
+                "text": " Hermann, Ralf, Dortmund, *29.12.1966, jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Dortmund",
+                    "dismissed": true,
+                    "dob": "1970-03-11",
                     "lastname": "Hermann",
                     "name": "Axel"
                 },
@@ -38,11 +60,11 @@
                 "payload": {
                     "city": "Dortmund",
                     "dismissed": true,
-                    "dob": "1970-11-03",
+                    "dob": "1966-12-29",
                     "lastname": "Hermann",
-                    "name": "Axel"
+                    "name": "Ralf"
                 },
-                "text": " Hermann, Axel, Dortmund, *11.03.1970"
+                "text": " Hermann, Ralf, Dortmund, *29.12.1966."
             }
         ]
     }

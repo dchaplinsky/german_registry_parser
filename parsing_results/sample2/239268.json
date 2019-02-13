@@ -27,12 +27,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1972-07-03",
+                    "dob": "1972-03-07",
                     "flag": "sole representation",
                     "lastname": "Ervens",
                     "name": "Martin-Philippe"
                 },
                 "text": " Ervens, Martin-Philippe, Hamburg, *07.03.1972, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

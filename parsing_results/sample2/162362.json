@@ -33,11 +33,32 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
-                    "dob": "1964-01-08",
+                    "dob": "1964-08-01",
                     "lastname": "Becker",
                     "name": "Thomas"
                 },
                 "text": " Becker, Thomas, Stuttgart, *01.08.1964"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Stuttgart",
+                    "dob": "1963-02-05",
+                    "lastname": "Byrne",
+                    "name": "Pat"
+                },
+                "text": " Byrne, Pat, Stuttgart, *05.02.1963"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Stuttgart",
+                    "dob": "1959-06-21",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Wothke",
+                    "name": "Werner"
+                },
+                "text": " Wothke, Werner, Stuttgart, *21.06.1959, jeweils einzelvertretungsberechtigt."
             }
         ]
     }

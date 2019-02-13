@@ -28,22 +28,41 @@
                 "payload": {
                     "city": "London/GB",
                     "dismissed": true,
-                    "dob": "1946-03-06",
+                    "dob": "1946-06-03",
                     "lastname": "Badger",
                     "name": "Dan"
                 },
                 "text": " Badger, Dan, London/GB, *03.06.1946"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Traunstein",
+                    "dismissed": true,
+                    "dob": "1957-02-23",
+                    "lastname": "Rey",
+                    "name": "Martin"
+                },
+                "text": " Rey, Martin, Traunstein, *23.02.1957."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "London/Großbritannien",
-                    "dob": "1968-03-01",
+                    "dob": "1968-01-03",
                     "flag": "sole representation",
                     "lastname": "Reveliotis",
                     "name": "Christos"
                 },
                 "text": " Reveliotis, Christos, London/Großbritannien, *03.01.1968, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

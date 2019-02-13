@@ -33,12 +33,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Shanghei/China",
-                    "dob": "1974-03-05",
+                    "dob": "1974-05-03",
                     "flag": "sole representation",
                     "lastname": "Li",
                     "name": "Chenhao"
                 },
                 "text": " Li, Chenhao, Shanghei/China, *03.05.1974, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "RetiredManagingDirector",
@@ -50,6 +58,17 @@
                     "name": "Ying"
                 },
                 "text": " Doctor Li, Ying, Aumühle, *28.08.1960"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dismissed": true,
+                    "dob": "1952-01-15",
+                    "lastname": "Yang",
+                    "name": "Zheng"
+                },
+                "text": " Yang, Zheng, Hamburg, *15.01.1952."
             }
         ]
     }

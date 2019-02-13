@@ -63,12 +63,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Visbek",
-                    "dob": "1972-12-03",
+                    "dob": "1972-03-12",
                     "flag": "sole representation",
                     "lastname": "Götting",
                     "name": "Christina"
                 },
                 "text": " Götting, Christina, Visbek, *12.03.1972, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "CommonProcuration",

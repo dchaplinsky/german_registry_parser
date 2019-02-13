@@ -21,11 +21,41 @@
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "München",
-                    "dob": "1973-09-06",
+                    "dob": "1973-06-09",
                     "lastname": "Hartloff",
                     "name": "Jan"
                 },
                 "text": " Hartloff, Jan, München, *09.06.1973"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Grävenwiesbach",
+                    "dob": "1965-10-16",
+                    "lastname": "Herrmann",
+                    "name": "Jens"
+                },
+                "text": " Herrmann, Jens, Grävenwiesbach, *16.10.1965"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Dingharting-Straßlach",
+                    "dob": "1972-04-02",
+                    "lastname": "Doctor May",
+                    "name": "Judith"
+                },
+                "text": " Doctor May, Judith, Dingharting-Straßlach, *02.04.1972"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Mühlheim/Ruhr",
+                    "dob": "1951-05-26",
+                    "lastname": "Oppermann",
+                    "name": "Dieter"
+                },
+                "text": " Oppermann, Dieter, Mühlheim/Ruhr, *26.05.1951."
             },
             {
                 "class": "NewProcuration",
@@ -36,6 +66,16 @@
                     "name": "Detlef"
                 },
                 "text": " Coßmann, Detlef, Germering, *19.08.1966"
+            },
+            {
+                "class": "NewProcuration",
+                "payload": {
+                    "city": "München",
+                    "dob": "1970-06-17",
+                    "lastname": "Doctor Scherrer-Kopf",
+                    "name": "Denise"
+                },
+                "text": " Doctor Scherrer-Kopf, Denise, München, *17.06.1970."
             }
         ]
     }

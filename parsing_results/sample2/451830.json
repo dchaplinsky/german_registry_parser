@@ -33,7 +33,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Bad Soden am Taunus",
-                    "dob": "1947-02-04",
+                    "dob": "1947-04-02",
                     "flag": "sole representation",
                     "lastname": "Doctor Hartz",
                     "name": "Edgar"
@@ -41,11 +41,19 @@
                 "text": " Doctor Hartz, Edgar, Bad Soden am Taunus, *02.04.1947, einzelvertretungsberechtigt"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Biebesheim am Rhein",
                     "dismissed": true,
-                    "dob": "1944-03-06",
+                    "dob": "1944-06-03",
                     "lastname": "Hartz-Blum",
                     "name": "Rosemarie"
                 },

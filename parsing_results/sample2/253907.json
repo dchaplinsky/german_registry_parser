@@ -37,7 +37,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Langenhagen",
-                    "dob": "1959-08-05",
+                    "dob": "1959-05-08",
                     "flag": "sole representation",
                     "lastname": "Hurkuck",
                     "name": "Karl-Heinrich"
@@ -45,11 +45,19 @@
                 "text": " Hurkuck, Karl-Heinrich, Langenhagen, *08.05.1959, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Hannover",
                     "dismissed": true,
-                    "dob": "1950-04-12",
+                    "dob": "1950-12-04",
                     "lastname": "Sundmacher",
                     "name": "Harald"
                 },
@@ -59,7 +67,7 @@
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Bad Nenndorf",
-                    "dob": "1967-12-06",
+                    "dob": "1967-06-12",
                     "lastname": "Becker",
                     "name": "Jörg-Werner"
                 },

@@ -22,17 +22,28 @@
                 "payload": {
                     "city": "Grabenstätt",
                     "dismissed": true,
-                    "dob": "1965-09-10",
+                    "dob": "1965-10-09",
                     "lastname": "Doctor Fauser",
                     "name": "Matthias"
                 },
                 "text": " Doctor Fauser, Matthias, Grabenstätt, *09.10.1965"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Waging a. See",
+                    "dismissed": true,
+                    "dob": "1962-02-06",
+                    "lastname": "Doctor Tondorf",
+                    "name": "Sebastian"
+                },
+                "text": " Doctor Tondorf, Sebastian, Waging a. See, *06.02.1962."
+            },
+            {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Traunstein",
-                    "dob": "1967-03-07",
+                    "dob": "1967-07-03",
                     "lastname": "Doctor Ermer",
                     "name": "Hubert"
                 },

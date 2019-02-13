@@ -31,12 +31,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Wehrheim",
-                    "dob": "1964-06-08",
+                    "dob": "1964-08-06",
                     "flag": "sole representation",
                     "lastname": "Doctor Curtius",
                     "name": "Bernd"
                 },
                 "text": " Doctor Curtius, Bernd, Wehrheim, *06.08.1964, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "AppointedManagingDirector",
@@ -47,6 +55,35 @@
                     "name": "Petra"
                 },
                 "text": " Bünz, Petra, Hanau, *13.03.1970"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Bad Homburg v. d. Höhe",
+                    "dob": "1967-02-03",
+                    "lastname": "Lünzer",
+                    "name": "Dirk"
+                },
+                "text": " Lünzer, Dirk, Bad Homburg v. d. Höhe, *03.02.1967"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Gründau",
+                    "dob": "1969-04-16",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Weidner",
+                    "name": "Markus"
+                },
+                "text": " Weidner, Markus, Gründau, *16.04.1969, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

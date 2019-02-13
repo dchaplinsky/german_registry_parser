@@ -21,18 +21,58 @@
                 "class": "PersonalPartner",
                 "payload": {
                     "city": "Argenbühl",
-                    "dob": "1977-12-05",
+                    "dob": "1977-05-12",
                     "lastname": "Karrer",
                     "name": "Annette Frieda"
                 },
                 "text": " Karrer, Annette Frieda, Argenbühl, *12.05.1977"
             },
             {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Kempten",
+                    "dob": "1952-02-12",
+                    "lastname": "Müller",
+                    "name": "Gisela"
+                },
+                "text": " Müller, Gisela, Kempten, *12.02.1952"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Wangen im Allgäu",
+                    "dob": "1973-10-20",
+                    "lastname": "Müller",
+                    "name": "Christian"
+                },
+                "text": " Müller, Christian, Wangen im Allgäu, *20.10.1973"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Argenbühl",
+                    "dob": "1975-02-16",
+                    "lastname": "Müller",
+                    "name": "Elisabeth"
+                },
+                "text": " Müller, Elisabeth, Argenbühl, *16.02.1975"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Wangen im Allgäu",
+                    "dob": "1976-05-20",
+                    "lastname": "Neidhart",
+                    "name": "Cornelia"
+                },
+                "text": " Neidhart, Cornelia, Wangen im Allgäu, *20.05.1976."
+            },
+            {
                 "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Wangen im Allgäu",
                     "dismissed": true,
-                    "dob": "1942-07-12",
+                    "dob": "1942-12-07",
                     "lastname": "Müller",
                     "name": "Karl"
                 },

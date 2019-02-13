@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Güstrow",
                     "dismissed": true,
-                    "dob": "1968-10-07",
+                    "dob": "1968-07-10",
                     "lastname": "Rathje",
                     "name": "Guido"
                 },
@@ -38,12 +38,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Güstrow",
-                    "dob": "1969-07-04",
+                    "dob": "1969-04-07",
                     "flag": "sole representation",
                     "lastname": "Rathje",
                     "name": "Beate"
                 },
                 "text": " Rathje, Beate, Güstrow, *07.04.1969, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

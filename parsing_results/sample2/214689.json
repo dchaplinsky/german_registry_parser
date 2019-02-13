@@ -42,22 +42,41 @@
                 "payload": {
                     "city": "Hamburg",
                     "dismissed": true,
-                    "dob": "1964-04-01",
+                    "dob": "1964-01-04",
                     "lastname": "Peper",
                     "name": "Dirk"
                 },
                 "text": " Peper, Dirk, Hamburg, *04.01.1964"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dismissed": true,
+                    "dob": "1975-10-12",
+                    "lastname": "Spies",
+                    "name": "Michael"
+                },
+                "text": " Spies, Michael, Frankfurt am Main, *12.10.1975."
+            },
+            {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Bad Homburg v. d. Höhe",
-                    "dob": "1968-12-09",
+                    "dob": "1968-09-12",
                     "flag": "sole representation",
                     "lastname": ": Baums",
                     "name": "Carsten"
                 },
                 "text": ": Baums, Carsten, Bad Homburg v. d. Höhe, *12.09.1968, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",

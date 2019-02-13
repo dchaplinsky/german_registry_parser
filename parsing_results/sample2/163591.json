@@ -60,6 +60,16 @@
                 "text": " Noll, Ralf Paul, Rockenberg, *02.02.1967"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Friedrichsdorf",
+                    "dob": "1960-05-10",
+                    "lastname": "Trapp",
+                    "name": "Birgit"
+                },
+                "text": " Trapp, Birgit, Friedrichsdorf, *10.05.1960."
+            },
+            {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Selzen",
@@ -74,7 +84,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hofheim am Taunus",
-                    "dob": "1973-08-03",
+                    "dob": "1973-03-08",
                     "lastname": "Rudnik",
                     "name": "Oliver"
                 },
@@ -85,7 +95,7 @@
                 "payload": {
                     "city": "Niedernhausen",
                     "dismissed": true,
-                    "dob": "1955-02-10",
+                    "dob": "1955-10-02",
                     "lastname": "Düll",
                     "name": "Werner"
                 },

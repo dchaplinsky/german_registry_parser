@@ -42,7 +42,7 @@
                 "payload": {
                     "city": "Hannover",
                     "dismissed": true,
-                    "dob": "1972-02-10",
+                    "dob": "1972-10-02",
                     "lastname": "Lustig",
                     "name": "Siegrid"
                 },
@@ -59,14 +59,34 @@
                 "text": " Erzkamp, Andreas, Raesfeld, *17.05.1966"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Groitzsch",
+                    "dob": "1970-03-22",
+                    "lastname": "Matysiak",
+                    "name": "Heike"
+                },
+                "text": " Matysiak, Heike, Groitzsch, *22.03.1970."
+            },
+            {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Leipzig",
-                    "dob": "1968-08-02",
+                    "dob": "1968-02-08",
                     "lastname": "Knappe",
                     "name": "Mario"
                 },
                 "text": " Knappe, Mario, Leipzig, *08.02.1968"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Markkleeberg",
+                    "dob": "1960-05-19",
+                    "lastname": "Stadtmüller",
+                    "name": "Michael"
+                },
+                "text": " Stadtmüller, Michael, Markkleeberg, *19.05.1960."
             }
         ]
     }

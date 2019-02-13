@@ -54,11 +54,22 @@
                 "payload": {
                     "city": "Kolbermoor",
                     "dismissed": true,
-                    "dob": "1965-11-01",
+                    "dob": "1965-01-11",
                     "lastname": "Eder",
                     "name": "Manuela"
                 },
                 "text": " Eder, Manuela, Kolbermoor, *11.01.1965"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Pfaffenhofen a.d. Ilm",
+                    "dismissed": true,
+                    "dob": "1956-08-24",
+                    "lastname": "Rast",
+                    "name": "Ramona"
+                },
+                "text": " Rast, Ramona, Pfaffenhofen a.d. Ilm, *24.08.1956."
             },
             {
                 "class": "AppointedManagingDirector",

@@ -45,11 +45,40 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Würzburg",
-                    "dob": "1982-03-04",
+                    "dob": "1982-04-03",
                     "lastname": "Freier",
                     "name": "Christian"
                 },
                 "text": " Freier, Christian, Würzburg, *03.04.1982"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Würzburg",
+                    "dob": "1946-09-17",
+                    "lastname": "Freier",
+                    "name": "Bernd"
+                },
+                "text": " Freier, Bernd, Würzburg, *17.09.1946"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Kürnach",
+                    "dob": "1979-06-20",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Handreke",
+                    "name": "Gregor"
+                },
+                "text": " Handreke, Gregor, Kürnach, *20.06.1979, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

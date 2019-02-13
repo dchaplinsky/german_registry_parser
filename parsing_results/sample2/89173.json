@@ -29,6 +29,17 @@
                 "text": " Griem, Michael, Bensheim, *29.01.1945"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Hammersbach",
+                    "dismissed": true,
+                    "lastname": "Herrmann",
+                    "name": "Dieter W",
+                    "position": "Diplom-Betriebswirt"
+                },
+                "text": " Herrmann, Dieter W., Diplom-Betriebswirt, Hammersbach."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Wächtersbach",
@@ -37,6 +48,16 @@
                     "name": "Berthold"
                 },
                 "text": " Ossig, Berthold, Wächtersbach"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Berlin",
+                    "dismissed": true,
+                    "lastname": "Stach",
+                    "name": "Hans-Jürgen Wilhelm Walter"
+                },
+                "text": " Stach, Hans-Jürgen Wilhelm Walter, Berlin."
             }
         ]
     }

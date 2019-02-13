@@ -27,12 +27,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
-                    "dob": "1958-03-12",
+                    "dob": "1958-12-03",
                     "flag": "sole representation",
                     "lastname": "Mühl",
                     "name": "Irmgard"
                 },
                 "text": " Mühl, Irmgard, München, *03.12.1958, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

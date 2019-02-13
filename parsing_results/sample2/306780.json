@@ -55,12 +55,21 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1984-03-01",
+                    "dob": "1984-01-03",
                     "lastname": "Tran",
                     "name": "Le Thien Phuc",
                     "ref": 3
                 },
                 "text": "3) Tran, Le Thien Phuc, *03.01.1984, Berlin"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "dismissed": true,
+                    "lastname": "Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 04. September 2014 ist der Gesellschaftsvertrag geändert in § 1 (Firma)",
+                    "name": "§ 4 (Unternehmensgegenstand) und § 5 (Stammkapital)"
+                },
+                "text": " Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 04. September 2014 ist der Gesellschaftsvertrag geändert in § 1 (Firma), § 4 (Unternehmensgegenstand) und § 5 (Stammkapital)."
             }
         ]
     }

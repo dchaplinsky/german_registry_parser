@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=155425&land_abk=br"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  mit der für sich sowie ihre Geschäftsführer geltenden Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Rechtsform: Kommanditgesellschaft, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "labels": [
             {
                 "label": "WHUT",
@@ -54,6 +64,13 @@
                     "ref": 2
                 },
                 "text": "2) Sconto Holding Beteiligungs GmbH, Schönefeld (Amtsgericht Cottbus, HRB 12086 CB)"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": "Der Sitz der Gesellschaft ist von Pullach i. Isartal (Amtsgericht München, HRA 72120) nach Schönefeld verlegt."
+                },
+                "text": " Der Sitz der Gesellschaft ist von Pullach i. Isartal (Amtsgericht München, HRA 72120) nach Schönefeld verlegt."
             }
         ]
     }

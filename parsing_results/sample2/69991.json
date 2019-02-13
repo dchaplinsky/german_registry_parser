@@ -16,6 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=69991&land_abk=br"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Procuration from  Prokura gemeinsam mit einem Vorstand, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Procuration from  Prokura gemeinsam mit einem Vorstand, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Procuration from  Prokura gemeinsam mit einem Vorstand., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -49,11 +63,31 @@
                 "class": "Procuration",
                 "payload": {
                     "city": "Erkner",
-                    "dob": "1964-12-04",
+                    "dob": "1964-04-12",
                     "lastname": "Döring",
                     "name": "Mirko"
                 },
                 "text": " Döring, Mirko, *12.04.1964, Erkner"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1970-12-27",
+                    "lastname": "Krippahl",
+                    "name": "Christian"
+                },
+                "text": " Krippahl, Christian, *27.12.1970, Berlin"
+            },
+            {
+                "class": "Procuration",
+                "payload": {
+                    "city": "Oberkrämer OT Bützow",
+                    "dob": "1952-06-21",
+                    "lastname": "Doctor Martin",
+                    "name": "Harro Felix Eckard"
+                },
+                "text": " Doctor Martin, Harro Felix Eckard, *21.06.1952, Oberkrämer OT Bützow"
             }
         ]
     }

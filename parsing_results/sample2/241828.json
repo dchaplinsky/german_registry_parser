@@ -58,7 +58,7 @@
                 "payload": {
                     "city": "Ottweiler",
                     "dismissed": true,
-                    "dob": "1959-12-08",
+                    "dob": "1959-08-12",
                     "lastname": "Luther",
                     "name": "Karl-Heinz"
                 },
@@ -68,7 +68,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Darmstadt",
-                    "dob": "1957-07-06",
+                    "dob": "1957-06-07",
                     "flag": "sole representation",
                     "lastname": "Müller",
                     "name": "Reinhold"
@@ -76,14 +76,32 @@
                 "text": " Müller, Reinhold, Darmstadt, *07.06.1957, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Messel",
-                    "dob": "1962-01-06",
+                    "dob": "1962-06-01",
                     "lastname": "Kahlert",
                     "name": "Heike Gerda"
                 },
                 "text": " Kahlert, Heike Gerda, Messel, *01.06.1962"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Messel",
+                    "dob": "1957-02-14",
+                    "lastname": "Kahlert",
+                    "name": "Reinhold"
+                },
+                "text": " Kahlert, Reinhold, Messel, *14.02.1957."
             }
         ]
     }

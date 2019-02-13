@@ -41,11 +41,22 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Deinste",
-                    "dob": "1955-09-02",
+                    "dob": "1955-02-09",
                     "lastname": "Werner",
                     "name": "Hans-Jürgen"
                 },
                 "text": " Werner, Hans-Jürgen, Deinste, *09.02.1955"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Deinste",
+                    "dob": "1984-10-25",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Werner",
+                    "name": "Christoph"
+                },
+                "text": " Werner, Christoph, Deinste, *25.10.1984, jeweils einzelvertretungsberechtigt."
             }
         ]
     }

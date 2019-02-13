@@ -37,12 +37,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Dentlein am Forst",
-                    "dob": "1969-04-09",
+                    "dob": "1969-09-04",
                     "flag": "sole representation",
                     "lastname": "Visser",
                     "name": "Thomas"
                 },
                 "text": " Visser, Thomas, Dentlein am Forst, *04.09.1969, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

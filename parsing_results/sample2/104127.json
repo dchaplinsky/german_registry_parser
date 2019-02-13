@@ -27,12 +27,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Cavenago Brianza (Italien)",
-                    "dob": "1953-08-06",
+                    "dob": "1953-06-08",
                     "flag": "sole representation",
                     "lastname": "Rossi",
                     "name": "Claudio"
                 },
                 "text": " Rossi, Claudio, Cavenago Brianza (Italien), *08.06.1953, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

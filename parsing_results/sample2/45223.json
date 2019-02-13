@@ -32,7 +32,7 @@
                 "payload": {
                     "city": "Lambrechtshagen",
                     "dismissed": true,
-                    "dob": "1970-12-03",
+                    "dob": "1970-03-12",
                     "lastname": "Schnieders",
                     "name": "Frank"
                 },
@@ -42,12 +42,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Rostock",
-                    "dob": "1975-09-06",
+                    "dob": "1975-06-09",
                     "flag": "sole representation",
                     "lastname": ": Sieder",
                     "name": "Jens"
                 },
                 "text": ": Sieder, Jens, Rostock, *09.06.1975, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

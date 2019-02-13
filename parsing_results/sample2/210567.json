@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=210567&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -82,6 +88,13 @@
                     "ref": 2
                 },
                 "text": "2) Weiß, Christian, *15.09.1975, Berlin Rechtsform: Gesellschaft mit beschränkter Haftung"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "company_name": "Gesellschaftsvertrag vom:11)10.2011 Durch Beschluss der Gesellschafterversammlung vom 30.01.2012 ist der Sitz der Gesellschaft von Bonn (Amtsgericht Bonn, HRB 18939) nach Berlin verlegt und der Gesellschaftsvertrag insgesamt neu gefasst."
+                },
+                "text": " Gesellschaftsvertrag vom:11)10.2011 Durch Beschluss der Gesellschafterversammlung vom 30.01.2012 ist der Sitz der Gesellschaft von Bonn (Amtsgericht Bonn, HRB 18939) nach Berlin verlegt und der Gesellschaftsvertrag insgesamt neu gefasst."
             }
         ]
     }

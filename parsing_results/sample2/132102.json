@@ -28,6 +28,16 @@
                 "text": " Fetzer, Thomas, Valley, *23.09.1960"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Blaustein",
+                    "dob": "1979-02-24",
+                    "lastname": "Fetzer",
+                    "name": "Alexander"
+                },
+                "text": " Fetzer, Alexander, Blaustein, *24.02.1979."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Sontheim a.d. Brenz",
@@ -37,6 +47,17 @@
                     "name": "Alexander"
                 },
                 "text": " Fetzer, Alexander, Sontheim a.d. Brenz, *24.02.1979"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1960-09-23",
+                    "lastname": "Fetzer",
+                    "name": "Thomas"
+                },
+                "text": " Fetzer, Thomas, München, *23.09.1960."
             }
         ]
     }

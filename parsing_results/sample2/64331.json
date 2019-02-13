@@ -38,7 +38,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Friedrichsdorf",
-                    "dob": "1943-06-05",
+                    "dob": "1943-05-06",
                     "flag": "sole representation",
                     "lastname": "Malhotra",
                     "name": "Nand Kishore"
@@ -46,11 +46,19 @@
                 "text": " Malhotra, Nand Kishore, Friedrichsdorf, *06.05.1943, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Friedrichsdorf",
                     "dismissed": true,
-                    "dob": "1943-06-05",
+                    "dob": "1943-05-06",
                     "lastname": "Malhotra",
                     "name": "Nand Kishore"
                 },

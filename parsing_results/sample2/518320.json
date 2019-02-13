@@ -39,6 +39,17 @@
                 "text": " Berendsen, Stephan, Ammersbek, *14.11.1964"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1957-06-18",
+                    "lastname": "Müller-Hermann",
+                    "name": "Andreas"
+                },
+                "text": " Müller-Hermann, Andreas, München, *18.06.1957."
+            },
+            {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Dahme",
@@ -48,6 +59,14 @@
                     "name": "Martina"
                 },
                 "text": " Zonewitz, Martina, Dahme, *29.12.1962, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

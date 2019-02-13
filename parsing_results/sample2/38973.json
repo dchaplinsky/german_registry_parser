@@ -22,7 +22,7 @@
                 "payload": {
                     "city": "Bingen",
                     "dismissed": true,
-                    "dob": "1958-10-11",
+                    "dob": "1958-11-10",
                     "lastname": "Wink",
                     "name": "Anton Franz",
                     "position": "Kaufmann"
@@ -51,10 +51,21 @@
                 "text": " Doctor Nefischer, Dieter, Leopoldsdorf im Marchfelde A-2285, *20.09.1944"
             },
             {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Hamburg",
+                    "dismissed": true,
+                    "dob": "1968-08-29",
+                    "lastname": "Prigge",
+                    "name": "Heino"
+                },
+                "text": " Prigge, Heino, Hamburg, *29.08.1968."
+            },
+            {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Wien",
-                    "dob": "1961-04-10",
+                    "dob": "1961-10-04",
                     "lastname": "Breitner",
                     "name": "Robert"
                 },

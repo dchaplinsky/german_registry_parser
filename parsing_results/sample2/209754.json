@@ -21,7 +21,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Paris",
-                    "dob": "1971-07-05",
+                    "dob": "1971-05-07",
                     "lastname": "Beaudemoulin",
                     "name": "Thierry"
                 },
@@ -35,6 +35,15 @@
                     "name": "Jürgen"
                 },
                 "text": " Heuken, Jürgen"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "dismissed": true,
+                    "lastname": "Ziegler",
+                    "name": "Walter"
+                },
+                "text": " Ziegler, Walter."
             }
         ]
     }

@@ -16,6 +16,32 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=347707&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  Prokura gemeinsam mit einem Geschäftsführer oder einem weiteren Prokuristen\nmit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen\nmit der Befugnis zur Veräußerung und Belastung von Grundstücken, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 17.08.2015 ist der Gesellschaftsvertrag geändert in § 1 (Firma)., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "labels": [
             {
                 "label": "WHUT",
@@ -56,7 +82,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Bochum",
-                    "dob": "1970-06-07",
+                    "dob": "1970-07-06",
                     "lastname": "Dr. Hutner",
                     "name": "Armin",
                     "ref": 4

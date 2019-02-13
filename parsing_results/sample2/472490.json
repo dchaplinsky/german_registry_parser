@@ -34,21 +34,51 @@
                 "payload": {
                     "city": "München",
                     "dismissed": true,
-                    "dob": "1968-11-04",
+                    "dob": "1968-04-11",
                     "lastname": "Gogalla",
                     "name": "Katja"
                 },
                 "text": " Gogalla, Katja, München, *11.04.1968"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1978-03-02",
+                    "lastname": "Selnes",
+                    "name": "Randi Mette"
+                },
+                "text": " Selnes, Randi Mette, München, *02.03.1978."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Birmingham / Vereinigtes Königreich",
-                    "dob": "1985-05-03",
+                    "dob": "1985-03-05",
                     "lastname": "Hassam",
                     "name": "Shan"
                 },
                 "text": " Hassam, Shan, Birmingham / Vereinigtes Königreich, *05.03.1985"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Birmingham / Vereinigtes Königreich",
+                    "dob": "1984-05-07",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Kanani",
+                    "name": "Abbas"
+                },
+                "text": " Kanani, Abbas, Birmingham / Vereinigtes Königreich, *07.05.1984, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

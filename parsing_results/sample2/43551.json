@@ -35,11 +35,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1975-12-01",
+                    "dob": "1975-01-12",
                     "lastname": "Nadjdi Samii",
                     "name": "Anuscheh"
                 },
                 "text": " Nadjdi Samii, Anuscheh, Hamburg, *12.01.1975"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1969-02-14",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Tajfar",
+                    "name": "Mohammadhossein"
+                },
+                "text": " Tajfar, Mohammadhossein, Hamburg, *14.02.1969, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

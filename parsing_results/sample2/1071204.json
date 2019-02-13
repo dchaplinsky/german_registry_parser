@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Bergamo / Italien",
                     "dismissed": true,
-                    "dob": "1967-01-04",
+                    "dob": "1967-04-01",
                     "lastname": "Belli",
                     "name": "Luca"
                 },
@@ -38,12 +38,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rancho Santa Fe / Vereinigte Staaten",
-                    "dob": "1958-04-10",
+                    "dob": "1958-10-04",
                     "flag": "sole representation",
                     "lastname": "Doctor Mourato Benedek",
                     "name": "Diana"
                 },
                 "text": " Doctor Mourato Benedek, Diana, Rancho Santa Fe / Vereinigte Staaten, *04.10.1958, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -27,7 +27,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Seefeld-Meiling",
-                    "dob": "1978-12-09",
+                    "dob": "1978-09-12",
                     "flag": "sole representation",
                     "lastname": "Huber",
                     "name": "Caroline"
@@ -35,11 +35,19 @@
                 "text": " Huber, Caroline, Seefeld-Meiling, *12.09.1978, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Seefeld",
                     "dismissed": true,
-                    "dob": "1978-12-09",
+                    "dob": "1978-09-12",
                     "lastname": "Huber",
                     "name": "Caroline geborene Einhart"
                 },

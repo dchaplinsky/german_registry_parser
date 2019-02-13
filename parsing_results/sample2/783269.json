@@ -35,15 +35,34 @@
                 "text": " Möckel, Florian, Diedorf, *17.05.1966, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Mering",
                     "dismissed": true,
-                    "dob": "1960-02-03",
+                    "dob": "1960-03-02",
                     "lastname": "Ludwig",
                     "name": "Günter"
                 },
                 "text": " Ludwig, Günter, Mering, *02.03.1960"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Egling",
+                    "dismissed": true,
+                    "dob": "1958-05-02",
+                    "lastname": "Ludwig",
+                    "name": "Alexander"
+                },
+                "text": " Ludwig, Alexander, Egling, *02.05.1958."
             }
         ]
     }

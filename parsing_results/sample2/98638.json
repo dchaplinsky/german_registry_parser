@@ -54,11 +54,31 @@
                 "text": " Born, Wolfgang, Selzen, *16.10.1951"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Rockenberg",
+                    "dob": "1967-02-02",
+                    "lastname": "Noll",
+                    "name": "Ralf Paul"
+                },
+                "text": " Noll, Ralf Paul, Rockenberg, *02.02.1967"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Friedrichsdorf",
+                    "dob": "1960-05-10",
+                    "lastname": "Trapp",
+                    "name": "Birgit"
+                },
+                "text": " Trapp, Birgit, Friedrichsdorf, *10.05.1960."
+            },
+            {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Inning",
                     "dismissed": true,
-                    "dob": "1943-10-05",
+                    "dob": "1943-05-10",
                     "lastname": "Köster",
                     "name": "Bernd"
                 },
@@ -74,6 +94,17 @@
                     "name": "Wolfgang"
                 },
                 "text": " Born, Wolfgang, Selzen, *16.10.1951"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Friedrichsdorf",
+                    "dismissed": true,
+                    "dob": "1960-05-10",
+                    "lastname": "Trapp",
+                    "name": "Birgit"
+                },
+                "text": " Trapp, Birgit, Friedrichsdorf, *10.05.1960."
             }
         ]
     }

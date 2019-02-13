@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Neustadt/Donau",
-                    "dob": "1987-06-09",
+                    "dob": "1987-09-06",
                     "flag": "sole representation",
                     "lastname": "Ulrich",
                     "name": "Daniel"
                 },
                 "text": " Ulrich, Daniel, Neustadt/Donau, *06.09.1987, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

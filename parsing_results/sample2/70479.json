@@ -39,12 +39,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Fuldabrück",
-                    "dob": "1954-01-04",
+                    "dob": "1954-04-01",
                     "flag": "sole representation",
                     "lastname": "Hilgenberg",
                     "name": "Kurt"
                 },
                 "text": " Hilgenberg, Kurt, Fuldabrück, *01.04.1954, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

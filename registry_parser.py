@@ -800,13 +800,12 @@ def _parse_normalized(sents: tuple, doc: dict):
                                 chunk_had_relocation = True
                         yield r
 
-            if sent_had_persons:
+            if sent_had_persons and not chunk_had_persons:
                 try:
                     person = type(sent_had_persons)(chunk, doc)
+                    yield person
                 except ParsingError as e:
                     yield Error(type(e).__name__, str(e))
-
-                yield person
 
 
 def parse_document(doc: dict) -> (defaultdict, tuple):

@@ -31,12 +31,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Hildesheim",
-                    "dob": "1955-11-06",
+                    "dob": "1955-06-11",
                     "flag": "sole representation",
                     "lastname": ": Krone",
                     "name": "Michael"
                 },
                 "text": ": Krone, Michael, Hildesheim, *11.06.1955, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

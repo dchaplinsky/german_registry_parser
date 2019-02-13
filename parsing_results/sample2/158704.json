@@ -41,12 +41,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Dötlingen",
-                    "dob": "1970-03-08",
+                    "dob": "1970-08-03",
                     "flag": "sole representation",
                     "lastname": "Ficks",
                     "name": "Jörg"
                 },
                 "text": " Ficks, Jörg, Dötlingen, *03.08.1970, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

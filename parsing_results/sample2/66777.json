@@ -39,12 +39,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Offenbach",
-                    "dob": "1959-03-07",
+                    "dob": "1959-07-03",
                     "flag": "sole representation",
                     "lastname": "Dillmann",
                     "name": "Oliver Peter"
                 },
                 "text": " Dillmann, Oliver Peter, Offenbach, *03.07.1959, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

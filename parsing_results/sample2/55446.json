@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=55446&land_abk=sh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Einzelprokura mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: Gesellschaft mit beschränkter Haftung, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Gesellschaftsvertrag vom:19)05.2009., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -57,7 +67,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Wedemark",
-                    "dob": "1951-07-03",
+                    "dob": "1951-03-07",
                     "lastname": "Kollmeier",
                     "name": "Dieter",
                     "ref": 1
@@ -68,7 +78,7 @@
                 "class": "Procuration",
                 "payload": {
                     "city": "Wedemark-Abbensen",
-                    "dob": "1979-08-10",
+                    "dob": "1979-10-08",
                     "lastname": "Kollmeier",
                     "name": "Marc",
                     "ref": 1

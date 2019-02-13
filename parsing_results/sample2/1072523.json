@@ -53,6 +53,17 @@
                 "text": " Heuer, Florian, Hamburg, *17.04.1979"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Köln",
+                    "dismissed": true,
+                    "dob": "1988-05-26",
+                    "lastname": "Martsch",
+                    "name": "Maurice Horst Reinhold"
+                },
+                "text": " Martsch, Maurice Horst Reinhold, Köln, *26.05.1988."
+            },
+            {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "München",
@@ -62,6 +73,14 @@
                     "name": "Oliver"
                 },
                 "text": " Meyer, Oliver, München, *26.02.1986, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

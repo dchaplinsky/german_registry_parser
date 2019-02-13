@@ -48,12 +48,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "erzhausen",
-                    "dob": "1961-06-05",
+                    "dob": "1961-05-06",
                     "flag": "sole representation",
                     "lastname": "randzio",
                     "name": "elke"
                 },
                 "text": " randzio, elke, erzhausen, *06.05.1961, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der befugnis",
+                    "name": "im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der befugnis, im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen."
             }
         ]
     }

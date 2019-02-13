@@ -27,7 +27,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Darmstadt",
-                    "dob": "1966-04-06",
+                    "dob": "1966-06-04",
                     "lastname": "Hannemann",
                     "name": "Henrik"
                 },
@@ -37,12 +37,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
-                    "dob": "1960-10-03",
+                    "dob": "1960-03-10",
                     "flag": "sole representation",
                     "lastname": "Wienecke",
                     "name": "Hans-Otto"
                 },
                 "text": " Wienecke, Hans-Otto, Frankfurt am Main, *10.03.1960, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

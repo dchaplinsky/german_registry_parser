@@ -28,6 +28,47 @@
                 "text": " Blyskal, Adam, Mannheim, *25.07.1969"
             },
             {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Mannheim",
+                    "dob": "1982-01-19",
+                    "lastname": "Golda",
+                    "name": "Marusz"
+                },
+                "text": " Golda, Marusz, Mannheim, *19.01.1982"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Mannheim",
+                    "dob": "1960-09-01",
+                    "lastname": "Kawalec",
+                    "name": "Zygmunt"
+                },
+                "text": " Kawalec, Zygmunt, Mannheim, *01.09.1960"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Mannheim",
+                    "dob": "1983-03-10",
+                    "lastname": "Niepsuj",
+                    "name": "Michal"
+                },
+                "text": " Niepsuj, Michal, Mannheim, *10.03.1983"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Mannheim",
+                    "dob": "1980-10-22",
+                    "flag": "jeweils vertretungsberechtigt gemäß allgemeiner Vertretungsregelung",
+                    "lastname": "Worosz",
+                    "name": "Ireneusz"
+                },
+                "text": " Worosz, Ireneusz, Mannheim, *22.10.1980, jeweils vertretungsberechtigt gemäß allgemeiner Vertretungsregelung."
+            },
+            {
                 "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Mannheim",
@@ -37,6 +78,24 @@
                     "name": "Piotr"
                 },
                 "text": " Gaura, Piotr, Mannheim, *25.06.1986"
+            },
+            {
+                "class": "RetiredPersonalPartner",
+                "payload": {
+                    "dismissed": true,
+                    "lastname": "Rozum",
+                    "name": "Szymon"
+                },
+                "text": " Rozum, Szymon"
+            },
+            {
+                "class": "RetiredPersonalPartner",
+                "payload": {
+                    "dismissed": true,
+                    "lastname": "Szcerbak",
+                    "name": "Tomasz"
+                },
+                "text": " Szcerbak, Tomasz."
             }
         ]
     }

@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=437589&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 18.07.2017 ist der Gesellschaftsvertrag insgesamt neu gefasst mit Änderung der Firma und der allgemeinen Vertretungsregelung., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "Exclusive power of representation can be granted.",
@@ -45,7 +55,7 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1986-03-06",
+                    "dob": "1986-06-03",
                     "lastname": "Wesemann",
                     "name": "Fabian"
                 },

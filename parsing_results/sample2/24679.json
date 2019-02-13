@@ -20,6 +20,14 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from , error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  Geschäftsführer:, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "flags": [
@@ -45,6 +53,17 @@
                     "name": "Maik"
                 },
                 "text": " Nadolny, Maik"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Nuthetal",
+                    "dismissed": true,
+                    "dob": "1969-03-28",
+                    "lastname": "Schulze",
+                    "name": "Torsten"
+                },
+                "text": "Schulze, Torsten, *28.03.1969, Nuthetal"
             }
         ]
     }

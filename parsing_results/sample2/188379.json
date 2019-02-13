@@ -49,12 +49,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Lüneburg",
-                    "dob": "1982-01-04",
+                    "dob": "1982-04-01",
                     "flag": "sole representation",
                     "lastname": "Sobczak",
                     "name": "Stefan"
                 },
                 "text": " Sobczak, Stefan, Lüneburg, *01.04.1982, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

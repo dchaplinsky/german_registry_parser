@@ -27,12 +27,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hemmingen",
-                    "dob": "1965-09-07",
+                    "dob": "1965-07-09",
                     "flag": "sole representation",
                     "lastname": "Matthäi",
                     "name": "Monika"
                 },
                 "text": " Matthäi, Monika, Hemmingen, *09.07.1965, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

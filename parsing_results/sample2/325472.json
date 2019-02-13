@@ -61,12 +61,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Pinneberg",
-                    "dob": "1963-01-12",
+                    "dob": "1963-12-01",
                     "flag": "vertretungsberechtigt gemäß allgemeiner Vertretungsregelung",
                     "lastname": "Meyer",
                     "name": "Michael Rudolf"
                 },
                 "text": " Meyer, Michael Rudolf, Pinneberg, *01.12.1963, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

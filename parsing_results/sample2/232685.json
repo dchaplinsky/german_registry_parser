@@ -33,12 +33,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Emden",
-                    "dob": "1955-06-03",
+                    "dob": "1955-03-06",
                     "flag": "sole representation",
                     "lastname": "Kettwig",
                     "name": "Jacobus"
                 },
                 "text": " Kettwig, Jacobus, Emden, *06.03.1955, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -28,21 +28,43 @@
                 "payload": {
                     "city": "Lohmar",
                     "dismissed": true,
-                    "dob": "1962-01-03",
+                    "dob": "1962-03-01",
                     "lastname": "Krebs",
                     "name": "Ludger"
                 },
                 "text": " Krebs, Ludger, Lohmar, *01.03.1962"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Bürdenbach",
+                    "dismissed": true,
+                    "dob": "1962-07-31",
+                    "lastname": "Schmidt",
+                    "name": "Peter-Josef"
+                },
+                "text": " Schmidt, Peter-Josef, Bürdenbach, *31.07.1962."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Urbach",
-                    "dob": "1972-09-03",
+                    "dob": "1972-03-09",
                     "lastname": "Sojka",
                     "name": "Ralf"
                 },
                 "text": " Sojka, Ralf, Urbach, *09.03.1972"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Herschbach",
+                    "dob": "1978-04-14",
+                    "flag": "jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Doctor Sojka",
+                    "name": "Dirk"
+                },
+                "text": " Doctor Sojka, Dirk, Herschbach, *14.04.1978, jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

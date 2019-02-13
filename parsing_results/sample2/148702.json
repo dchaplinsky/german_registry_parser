@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "München",
                     "dismissed": true,
-                    "dob": "1969-03-06",
+                    "dob": "1969-06-03",
                     "lastname": "Ahlborn",
                     "name": "Beatrix"
                 },
@@ -43,6 +43,17 @@
                     "name": "Nicolas"
                 },
                 "text": " Adolph, Nicolas, Lauterbach, *24.08.1965"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Icking",
+                    "dob": "1966-04-04",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Wolff",
+                    "name": "Manfred"
+                },
+                "text": " Wolff, Manfred, Icking, *04.04.1966, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

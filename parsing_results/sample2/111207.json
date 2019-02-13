@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=111207&land_abk=br"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Rechtsverhaeltnis: Durch Beschluss der Gesellschafterversammlung vom 01.12.2014 ist die Gesellschaft aufgelöst., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
@@ -45,7 +55,7 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1955-05-02",
+                    "dob": "1955-02-05",
                     "lastname": "Pieper",
                     "name": "Jürgen"
                 },

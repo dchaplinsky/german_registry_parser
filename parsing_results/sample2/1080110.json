@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Großostheim",
                     "dismissed": true,
-                    "dob": "1959-06-09",
+                    "dob": "1959-09-06",
                     "lastname": "Weiser",
                     "name": "Günter"
                 },
@@ -43,6 +43,25 @@
                     "name": "Simon"
                 },
                 "text": " Grigull, Simon, Wald-Michelbach, *08.08.1981"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Erlenbach",
+                    "dob": "1986-08-11",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Kulesza",
+                    "name": "Dominik"
+                },
+                "text": " Kulesza, Dominik, Erlenbach, *11.08.1986, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

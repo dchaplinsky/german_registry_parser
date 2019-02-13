@@ -53,12 +53,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Wouw/NL",
-                    "dob": "1961-05-12",
+                    "dob": "1961-12-05",
                     "flag": "sole representation",
                     "lastname": "Krinkels",
                     "name": "Marinus Cornelis Johannes Marie"
                 },
                 "text": " Krinkels, Marinus Cornelis Johannes Marie, Wouw/NL, *05.12.1961, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ManagingDirector",
@@ -70,6 +78,14 @@
                     "name": "Petrus Cornelis Maria"
                 },
                 "text": " van Boesschoten, Petrus Cornelis Maria, Bergen op Zoom/NL, *19.11.1956, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

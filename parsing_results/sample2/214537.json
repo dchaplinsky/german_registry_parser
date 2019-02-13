@@ -27,11 +27,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Ulm",
-                    "dob": "1962-08-03",
+                    "dob": "1962-03-08",
                     "lastname": "Bundschu",
                     "name": "Walter"
                 },
                 "text": " Bundschu, Walter, Ulm, *08.03.1962"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Berching",
+                    "dob": "1958-08-16",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Deutschmann",
+                    "name": "Ralf"
+                },
+                "text": " Deutschmann, Ralf, Berching, *16.08.1958, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

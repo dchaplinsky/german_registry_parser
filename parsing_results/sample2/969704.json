@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Roth",
-                    "dob": "1957-11-06",
+                    "dob": "1957-06-11",
                     "flag": "sole representation",
                     "lastname": "Lux",
                     "name": "Alexander"
                 },
                 "text": " Lux, Alexander, Roth, *11.06.1957, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

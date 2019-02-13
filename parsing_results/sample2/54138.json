@@ -59,7 +59,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Heidelberg",
-                    "dob": "1970-04-10",
+                    "dob": "1970-10-04",
                     "flag": "sole representation",
                     "lastname": "Erdt",
                     "name": "Carsten"
@@ -69,12 +69,31 @@
             {
                 "class": "ManagingDirector",
                 "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
                     "city": "Viernheim",
-                    "dob": "1970-10-06",
+                    "dob": "1970-06-10",
                     "lastname": "Beikert",
                     "name": "Stephan"
                 },
                 "text": " Beikert, Stephan, Viernheim, *10.06.1970"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Viernheim",
+                    "dob": "1969-10-20",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Kühlwein",
+                    "name": "Torsten"
+                },
+                "text": " Kühlwein, Torsten, Viernheim, *20.10.1969, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "AppointedManagingDirector",

@@ -27,12 +27,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1998-06-04",
+                    "dob": "1998-04-06",
                     "flag": "sole representation",
                     "lastname": "Yildiz",
                     "name": "Abdullah Metehan"
                 },
                 "text": " Yildiz, Abdullah Metehan, Hamburg, *06.04.1998, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "RetiredManagingDirector",

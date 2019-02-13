@@ -22,11 +22,22 @@
                 "payload": {
                     "city": "Köln",
                     "dismissed": true,
-                    "dob": "1967-03-11",
+                    "dob": "1967-11-03",
                     "lastname": "Knoblich",
                     "name": "Achim"
                 },
                 "text": " Knoblich, Achim, Köln, *03.11.1967"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Saarbrücken",
+                    "dismissed": true,
+                    "lastname": "Wobrock",
+                    "name": "Manfred",
+                    "position": "Kaufmann"
+                },
+                "text": " Wobrock, Manfred, Kaufmann, Saarbrücken."
             }
         ]
     }

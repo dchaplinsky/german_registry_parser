@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Traunstein",
                     "dismissed": true,
-                    "dob": "1985-10-04",
+                    "dob": "1985-04-10",
                     "lastname": "Bachmaier",
                     "name": "Simone"
                 },
@@ -38,12 +38,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kirchanschöring",
-                    "dob": "1958-02-11",
+                    "dob": "1958-11-02",
                     "flag": "sole representation",
                     "lastname": "Bachmaier",
                     "name": "Karl-Heinz"
                 },
                 "text": " Bachmaier, Karl-Heinz, Kirchanschöring, *02.11.1958, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

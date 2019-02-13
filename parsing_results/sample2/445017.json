@@ -28,21 +28,97 @@
                 "payload": {
                     "city": "Königstein im Taunus",
                     "dismissed": true,
-                    "dob": "1971-04-03",
+                    "dob": "1971-03-04",
                     "lastname": "Bauer",
                     "name": "Andreas"
                 },
                 "text": " Bauer, Andreas, Königstein im Taunus, *04.03.1971"
             },
             {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dismissed": true,
+                    "dob": "1966-07-13",
+                    "lastname": "Höhn",
+                    "name": "Wolfgang"
+                },
+                "text": " Höhn, Wolfgang, Frankfurt am Main, *13.07.1966"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Heilbronn",
+                    "dismissed": true,
+                    "dob": "1954-06-22",
+                    "lastname": "Mauch",
+                    "name": "Gerhard"
+                },
+                "text": " Mauch, Gerhard, Heilbronn, *22.06.1954"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dismissed": true,
+                    "dob": "1968-08-14",
+                    "lastname": "Pölig",
+                    "name": "Torsten"
+                },
+                "text": " Pölig, Torsten, Frankfurt am Main, *14.08.1968"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dismissed": true,
+                    "dob": "1948-04-05",
+                    "lastname": "Rigby",
+                    "name": "William"
+                },
+                "text": " Rigby, William, Frankfurt am Main, *05.04.1948"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Mörlenbach",
+                    "dismissed": true,
+                    "dob": "1974-08-29",
+                    "lastname": "Thijs",
+                    "name": "Kris"
+                },
+                "text": " Thijs, Kris, Mörlenbach, *29.08.1974"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Heilbronn",
+                    "dismissed": true,
+                    "dob": "1956-08-04",
+                    "lastname": "Ziegler",
+                    "name": "Holger"
+                },
+                "text": " Ziegler, Holger, Heilbronn, *04.08.1956."
+            },
+            {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Zürich",
-                    "dob": "1976-04-08",
+                    "dob": "1976-08-04",
                     "lastname": "Krause",
                     "name": "Andreas"
                 },
                 "text": " Krause, Andreas, Zürich, *04.08.1976"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Zürich",
+                    "dob": "1972-02-15",
+                    "lastname": "Reinhard",
+                    "name": "Arndt"
+                },
+                "text": " Reinhard, Arndt, Zürich, *15.02.1972."
             }
         ]
     }

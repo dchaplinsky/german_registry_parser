@@ -35,11 +35,33 @@
                 "payload": {
                     "city": "Butzbach",
                     "dismissed": true,
-                    "dob": "1976-07-09",
+                    "dob": "1976-09-07",
                     "lastname": "Ballnus",
                     "name": "Sandra"
                 },
                 "text": " Ballnus, Sandra, Butzbach, *07.09.1976"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Ober-Mörlen",
+                    "dismissed": true,
+                    "dob": "1979-09-30",
+                    "lastname": "Kohler",
+                    "name": "Jasmin"
+                },
+                "text": " Kohler, Jasmin, Ober-Mörlen, *30.09.1979"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Bad Homburg",
+                    "dismissed": true,
+                    "dob": "1969-02-26",
+                    "lastname": "Witt",
+                    "name": "Thomas"
+                },
+                "text": " Witt, Thomas, Bad Homburg, *26.02.1969."
             }
         ]
     }

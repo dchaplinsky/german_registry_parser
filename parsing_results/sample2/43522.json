@@ -39,12 +39,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Norderstedt",
-                    "dob": "1977-08-03",
+                    "dob": "1977-03-08",
                     "flag": "vertretungsberechtigt gemäß allgemeiner Vertretungsregelung",
                     "lastname": "Hempel",
                     "name": "David"
                 },
                 "text": " Hempel, David, Norderstedt, *08.03.1977, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

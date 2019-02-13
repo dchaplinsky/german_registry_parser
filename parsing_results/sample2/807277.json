@@ -39,6 +39,17 @@
                 "text": " Kunz, Christian, Ludmannsdorf / Österreich, *16.03.1986"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Krottendorf / Österreich",
+                    "dismissed": true,
+                    "dob": "1966-12-26",
+                    "lastname": "Lukofnak",
+                    "name": "Karl Heinz"
+                },
+                "text": " Lukofnak, Karl Heinz, Krottendorf / Österreich, *26.12.1966."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wasserburg a",
@@ -51,12 +62,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Freilassing",
-                    "dob": "1980-05-06",
+                    "dob": "1980-06-05",
                     "flag": "sole representation",
                     "lastname": "Beck",
                     "name": "Robert Peter"
                 },
                 "text": " Beck, Robert Peter, Freilassing, *05.06.1980, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

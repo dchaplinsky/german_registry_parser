@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=501831&land_abk=bw"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Oppolzer, Wolfgang, 18.11.1949, Wangen im Allgäu, jeweils einzelvertretungsberechtigt., error text was a person without DOB, number of chunks: 5"
+            }
+        ],
         "flags": [
             {
                 "flag": "Single procuration",
@@ -27,7 +33,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Bodnegg",
-                    "dob": "1950-07-09",
+                    "dob": "1950-09-07",
                     "lastname": "Doctor Kessler",
                     "name": "Edgar"
                 },
@@ -42,6 +48,16 @@
                     "name": "Werner"
                 },
                 "text": " Klinger, Werner, Berg, *24.08.1956"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Meersburg",
+                    "dob": "1975-06-12",
+                    "lastname": "Möhrle-Schmäh",
+                    "name": "Irmgard"
+                },
+                "text": " Möhrle-Schmäh, Irmgard, Meersburg, *12.06.1975."
             }
         ]
     }

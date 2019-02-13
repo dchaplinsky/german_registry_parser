@@ -48,12 +48,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Braunschweig",
-                    "dob": "1962-01-02",
+                    "dob": "1962-02-01",
                     "flag": "sole representation",
                     "lastname": "Bethge",
                     "name": "Peter"
                 },
                 "text": " Bethge, Peter, Braunschweig, *01.02.1962, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

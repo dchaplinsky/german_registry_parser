@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Peine",
-                    "dob": "1994-11-06",
+                    "dob": "1994-06-11",
                     "flag": "sole representation",
                     "lastname": "Hamadi",
                     "name": "Hassan"
                 },
                 "text": " Hamadi, Hassan, Peine, *11.06.1994, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

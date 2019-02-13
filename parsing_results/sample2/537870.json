@@ -38,12 +38,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wasenbach",
-                    "dob": "1976-06-10",
+                    "dob": "1976-10-06",
                     "flag": "sole representation",
                     "lastname": "Krahl",
                     "name": "Marcus"
                 },
                 "text": " Krahl, Marcus, Wasenbach, *06.10.1976, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

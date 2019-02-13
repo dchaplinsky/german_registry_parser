@@ -34,7 +34,7 @@
                 "payload": {
                     "city": "Drochtersen",
                     "dismissed": true,
-                    "dob": "1982-08-06",
+                    "dob": "1982-06-08",
                     "lastname": "Oberdick",
                     "name": "Bianca"
                 },
@@ -44,12 +44,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Drochtersen",
-                    "dob": "1982-08-06",
+                    "dob": "1982-06-08",
                     "flag": "sole representation",
                     "lastname": "Wulf",
                     "name": "Olaf"
                 },
                 "text": " Wulf, Olaf, Drochtersen, *08.06.1982, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -16,6 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=39622&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertretenmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Einzelprokuramit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: Gesellschaft mit beschränkter Haftung, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Gesellschaftsvertrag vom:27)03.2007 mit Änderung vom 14.05.2007 in § 4 (Stammkapital).., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -66,7 +80,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Madrid/Spanien",
-                    "dob": "1959-02-05",
+                    "dob": "1959-05-02",
                     "lastname": "Newman",
                     "name": "Stephen K",
                     "ref": 2
@@ -77,7 +91,7 @@
                 "class": "Procuration",
                 "payload": {
                     "city": "Madrid/Spanien",
-                    "dob": "1972-01-12",
+                    "dob": "1972-12-01",
                     "lastname": "Alvarez-Ossorio Speith",
                     "name": "Ignacio Borja",
                     "ref": 1

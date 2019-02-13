@@ -33,12 +33,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Geretsried",
-                    "dob": "1962-06-12",
+                    "dob": "1962-12-06",
                     "flag": "sole representation",
                     "lastname": "Reiner",
                     "name": "Rudolf"
                 },
                 "text": " Reiner, Rudolf, Geretsried, *06.12.1962, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

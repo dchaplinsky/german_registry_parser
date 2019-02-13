@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Würzburg",
                     "dismissed": true,
-                    "dob": "1959-10-03",
+                    "dob": "1959-03-10",
                     "lastname": "Müßig",
                     "name": "Rolf"
                 },
@@ -38,12 +38,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Aschaffenburg",
-                    "dob": "1982-05-11",
+                    "dob": "1982-11-05",
                     "flag": "sole representation",
                     "lastname": "Engeroff",
                     "name": "Joachim"
                 },
                 "text": " Engeroff, Joachim, Aschaffenburg, *05.11.1982, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

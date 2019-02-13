@@ -45,11 +45,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Landshut",
-                    "dob": "1975-02-12",
+                    "dob": "1975-12-02",
                     "lastname": "Hölzl",
                     "name": "Susanne"
                 },
                 "text": " Hölzl, Susanne, Landshut, *02.12.1975"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Landshut",
+                    "dob": "1966-11-13",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Tiefenbacher",
+                    "name": "Alexander"
+                },
+                "text": " Tiefenbacher, Alexander, Landshut, *13.11.1966, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

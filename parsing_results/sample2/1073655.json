@@ -43,11 +43,22 @@
                 "payload": {
                     "city": "Starnberg",
                     "dismissed": true,
-                    "dob": "1956-11-06",
+                    "dob": "1956-06-11",
                     "lastname": "Neubarth",
                     "name": "Jürgen"
                 },
                 "text": " Neubarth, Jürgen, Starnberg, *11.06.1956"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1957-11-02",
+                    "lastname": "Ponkratz",
+                    "name": "Klemens"
+                },
+                "text": " Ponkratz, Klemens, München, *02.11.1957."
             }
         ]
     }

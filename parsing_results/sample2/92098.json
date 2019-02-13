@@ -45,11 +45,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Tunzenhausen",
-                    "dob": "1968-08-02",
+                    "dob": "1968-02-08",
                     "lastname": "Lange",
                     "name": "Karina geborene Koch"
                 },
                 "text": " Lange, Karina geborene Koch, Tunzenhausen, *08.02.1968"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Tunzenhausen",
+                    "dob": "1955-04-15",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Lendeckel",
+                    "name": "Michael"
+                },
+                "text": " Lendeckel, Michael, Tunzenhausen, *15.04.1955, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

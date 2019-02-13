@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Lingen",
                     "dismissed": true,
-                    "dob": "1965-03-12",
+                    "dob": "1965-12-03",
                     "lastname": "Böhmer",
                     "name": "Johanna"
                 },
@@ -38,11 +38,21 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Lingen (Ems)",
-                    "dob": "1969-08-02",
+                    "dob": "1969-02-08",
                     "lastname": "Böhmer",
                     "name": "Martina"
                 },
                 "text": " Böhmer, Martina, Lingen (Ems), *08.02.1969"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Lingen (Ems)",
+                    "dob": "1968-03-04",
+                    "lastname": "Böhmer",
+                    "name": "Gabriele"
+                },
+                "text": " Böhmer, Gabriele, Lingen (Ems), *04.03.1968."
             }
         ]
     }

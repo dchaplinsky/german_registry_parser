@@ -34,7 +34,7 @@
                 "payload": {
                     "city": "Wolfratshausen",
                     "dismissed": true,
-                    "dob": "1973-12-01",
+                    "dob": "1973-01-12",
                     "lastname": "Schrall",
                     "name": "Patrick"
                 },
@@ -44,12 +44,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Geretsried",
-                    "dob": "1972-02-05",
+                    "dob": "1972-05-02",
                     "flag": "sole representation",
                     "lastname": "Schrall",
                     "name": "Linda"
                 },
                 "text": " Schrall, Linda, Geretsried, *02.05.1972, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

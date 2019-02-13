@@ -41,11 +41,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Nürnberg",
-                    "dob": "1954-08-01",
+                    "dob": "1954-01-08",
                     "lastname": "Bieswanger",
                     "name": "Helmut"
                 },
                 "text": " Bieswanger, Helmut, Nürnberg, *08.01.1954"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Nürnberg",
+                    "dob": "1981-02-22",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Bieswanger",
+                    "name": "Martin"
+                },
+                "text": " Bieswanger, Martin, Nürnberg, *22.02.1981, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

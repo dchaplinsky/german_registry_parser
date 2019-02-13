@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1959-12-02",
+                    "dob": "1959-02-12",
                     "flag": "sole representation",
                     "lastname": "Beck",
                     "name": "Susanne"
                 },
                 "text": " Beck, Susanne, Hamburg, *12.02.1959, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

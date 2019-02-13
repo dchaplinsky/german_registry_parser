@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Braunschweig",
-                    "dob": "1949-12-04",
+                    "dob": "1949-04-12",
                     "flag": "sole representation",
                     "lastname": "Körber",
                     "name": "Stephan"
                 },
                 "text": " Körber, Stephan, Braunschweig, *12.04.1949, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

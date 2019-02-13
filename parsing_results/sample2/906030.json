@@ -53,11 +53,22 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
-                    "dob": "1985-01-03",
+                    "dob": "1985-03-01",
                     "lastname": "Brückmann",
                     "name": "Tim Sebastian"
                 },
                 "text": " Brückmann, Tim Sebastian, Düsseldorf, *01.03.1985"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "dob": "1985-10-23",
+                    "flag": "jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Kwiatkowski",
+                    "name": "Andreas"
+                },
+                "text": " Kwiatkowski, Andreas, Düsseldorf, *23.10.1985, jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

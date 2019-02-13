@@ -46,7 +46,7 @@
                 "payload": {
                     "city": "Rellingen",
                     "dismissed": true,
-                    "dob": "1959-10-08",
+                    "dob": "1959-08-10",
                     "lastname": "Hogrefe",
                     "name": "Fred"
                 },
@@ -56,11 +56,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wörth",
-                    "dob": "1988-02-05",
+                    "dob": "1988-05-02",
                     "lastname": "Müller",
                     "name": "Daniel"
                 },
                 "text": " Müller, Daniel, Wörth, *02.05.1988"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Wörth",
+                    "dob": "1960-06-25",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Müller",
+                    "name": "Frank-Michael"
+                },
+                "text": " Müller, Frank-Michael, Wörth, *25.06.1960, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

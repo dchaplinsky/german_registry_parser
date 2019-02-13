@@ -57,12 +57,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "San Gilijan / Malta",
-                    "dob": "1948-02-06",
+                    "dob": "1948-06-02",
                     "flag": "sole representation",
                     "lastname": "Hendriks",
                     "name": "Marcel"
                 },
                 "text": " Hendriks, Marcel, San Gilijan / Malta, *02.06.1948, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

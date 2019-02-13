@@ -22,7 +22,7 @@
                 "payload": {
                     "city": "München",
                     "dismissed": true,
-                    "dob": "1948-08-12",
+                    "dob": "1948-12-08",
                     "lastname": "Doctor Seiler",
                     "name": "Wilhelm"
                 },
@@ -32,18 +32,29 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Raubling",
-                    "dob": "1965-01-04",
+                    "dob": "1965-04-01",
                     "lastname": "Hillesheim",
                     "name": "Horst"
                 },
                 "text": " Hillesheim, Horst, Raubling, *01.04.1965"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Walluf",
+                    "dob": "1973-09-05",
+                    "flag": "jeweils vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Schlimbach",
+                    "name": "Boris"
+                },
+                "text": " Schlimbach, Boris, Walluf, *05.09.1973, jeweils vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Walluf",
                     "dismissed": true,
-                    "dob": "1973-05-09",
+                    "dob": "1973-09-05",
                     "lastname": "Schlimbach",
                     "name": "Boris"
                 },

@@ -27,12 +27,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Barth",
-                    "dob": "1953-08-03",
+                    "dob": "1953-03-08",
                     "flag": "sole representation",
                     "lastname": ": Toft",
                     "name": "Mogens"
                 },
                 "text": ": Toft, Mogens, Barth, *08.03.1953, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

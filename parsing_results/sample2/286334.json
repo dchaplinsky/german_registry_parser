@@ -61,12 +61,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1981-09-11",
+                    "dob": "1981-11-09",
                     "flag": "sole representation",
                     "lastname": "Langerwisch",
                     "name": "Bryan Melvin"
                 },
                 "text": " Langerwisch, Bryan Melvin, Berlin, *09.11.1981, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -22,7 +22,7 @@
                 "payload": {
                     "city": "Recklinghausen",
                     "dismissed": true,
-                    "dob": "1966-09-11",
+                    "dob": "1966-11-09",
                     "lastname": "Arendt",
                     "name": "Sandra"
                 },
@@ -32,11 +32,21 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Castrop-Rauxel",
-                    "dob": "1980-12-09",
+                    "dob": "1980-09-12",
                     "lastname": "Koch",
                     "name": "Marc"
                 },
                 "text": " Koch, Marc, Castrop-Rauxel, *12.09.1980"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Essen",
+                    "dob": "1976-11-02",
+                    "lastname": "Puzicha",
+                    "name": "Jörg"
+                },
+                "text": " Puzicha, Jörg, Essen, *02.11.1976."
             }
         ]
     }

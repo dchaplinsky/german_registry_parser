@@ -29,10 +29,21 @@
                 "text": " Aksoku, Serdar, Bottrop, *25.04.1989"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Essen",
+                    "dismissed": true,
+                    "dob": "1970-11-27",
+                    "lastname": "Sonnenschein",
+                    "name": "Dirk"
+                },
+                "text": " Sonnenschein, Dirk, Essen, *27.11.1970."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bottrop",
-                    "dob": "1977-02-03",
+                    "dob": "1977-03-02",
                     "flag": "mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Karademir",
                     "name": "Mahmut"

@@ -42,11 +42,31 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Köln",
-                    "dob": "1961-01-12",
+                    "dob": "1961-12-01",
                     "lastname": "Henning",
                     "name": "Walther"
                 },
                 "text": " Henning, Walther, Köln, *01.12.1961"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Oberhausen",
+                    "dob": "1954-04-06",
+                    "lastname": "Kuhn",
+                    "name": "Klaus"
+                },
+                "text": " Kuhn, Klaus, Oberhausen, *06.04.1954"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Meerbusch",
+                    "dob": "1963-11-26",
+                    "lastname": "Siemes",
+                    "name": "Jochen"
+                },
+                "text": " Siemes, Jochen, Meerbusch, *26.11.1963."
             }
         ]
     }

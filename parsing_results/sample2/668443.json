@@ -49,12 +49,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Dreieich",
-                    "dob": "1977-03-10",
+                    "dob": "1977-10-03",
                     "flag": "sole representation",
                     "lastname": "Goeke",
                     "name": "Janina Elisabeth"
                 },
                 "text": " Goeke, Janina Elisabeth, Dreieich, *03.10.1977, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

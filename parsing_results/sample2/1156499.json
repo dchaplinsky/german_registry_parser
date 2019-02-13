@@ -42,12 +42,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "München",
-                    "dob": "1959-03-11",
+                    "dob": "1959-11-03",
                     "flag": "sole representation",
                     "lastname": ": Wedershoven",
                     "name": "Volker"
                 },
                 "text": ": Wedershoven, Volker, München, *03.11.1959, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

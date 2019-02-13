@@ -41,11 +41,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Nordhorn",
-                    "dob": "1972-01-04",
+                    "dob": "1972-04-01",
                     "lastname": "Korte",
                     "name": "David"
                 },
                 "text": " Korte, David, Nordhorn, *01.04.1972"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Nordhorn",
+                    "dob": "1968-07-29",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Doctor von der Haar",
+                    "name": "Ansgar"
+                },
+                "text": " Doctor von der Haar, Ansgar, Nordhorn, *29.07.1968, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

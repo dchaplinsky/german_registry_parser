@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dismissed": true,
-                    "dob": "1952-03-02",
+                    "dob": "1952-02-03",
                     "lastname": "Vietor",
                     "name": "Georg"
                 },
@@ -38,11 +38,22 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
-                    "dob": "1975-11-04",
+                    "dob": "1975-04-11",
                     "lastname": "Dammert",
                     "name": "Christoph Julian"
                 },
                 "text": " Dammert, Christoph Julian, München, *11.04.1975"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1958-06-01",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "von Rosen",
+                    "name": "Axel"
+                },
+                "text": " von Rosen, Axel, München, *01.06.1958, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

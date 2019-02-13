@@ -57,12 +57,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "frankfurt am main",
-                    "dob": "1971-05-08",
+                    "dob": "1971-08-05",
                     "flag": "sole representation",
                     "lastname": "müller-dahlhausen",
                     "name": "martin"
                 },
                 "text": " müller-dahlhausen, martin, frankfurt am main, *05.08.1971, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der befugnis",
+                    "name": "im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der befugnis, im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen."
             }
         ]
     }

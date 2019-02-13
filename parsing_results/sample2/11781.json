@@ -42,14 +42,35 @@
                 "text": " Kelber, Jürgen F., Flein, *21.09.1957"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Wimsheim",
+                    "dob": "1958-12-28",
+                    "flag": "jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Leitner",
+                    "name": "Walter"
+                },
+                "text": " Leitner, Walter, Wimsheim, *28.12.1958, jeweils einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Rosenheim",
-                    "dob": "1958-05-11",
+                    "dob": "1958-11-05",
                     "lastname": "Kriegisch",
                     "name": "Jürgen"
                 },
                 "text": " Kriegisch, Jürgen, Rosenheim, *05.11.1958"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Maintal",
+                    "dob": "1960-12-24",
+                    "lastname": "Mehler",
+                    "name": "Klaus"
+                },
+                "text": " Mehler, Klaus, Maintal, *24.12.1960."
             }
         ]
     }

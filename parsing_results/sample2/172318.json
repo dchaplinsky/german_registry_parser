@@ -57,7 +57,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Oberglatt/Schweiz",
-                    "dob": "1971-05-11",
+                    "dob": "1971-11-05",
                     "flag": "sole representation",
                     "lastname": "Melliger",
                     "name": "Adrian"
@@ -65,14 +65,33 @@
                 "text": " Melliger, Adrian, Oberglatt/Schweiz, *05.11.1971, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Harlem/Niederlande",
-                    "dob": "1963-05-01",
+                    "dob": "1963-01-05",
                     "lastname": "Goovaerts",
                     "name": "Dirk"
                 },
                 "text": " Goovaerts, Dirk, Harlem/Niederlande, *05.01.1963"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Surrey U.K",
+                    "dob": "1960-04-12",
+                    "lastname": "Instone",
+                    "name": "Paul",
+                    "position": "Dorking"
+                },
+                "text": " Instone, Paul, Dorking, Surrey U.K., *12.04.1960."
             }
         ]
     }

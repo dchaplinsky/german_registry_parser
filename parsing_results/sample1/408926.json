@@ -53,15 +53,34 @@
                 "text": " keidel, alexander, poppenhausen, *16.12.1969, einzelvertretungsberechtigt"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der befugnis",
+                    "name": "im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der befugnis, im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "arnstein",
                     "dismissed": true,
-                    "dob": "1965-07-01",
+                    "dob": "1965-01-07",
                     "lastname": "machau",
                     "name": "berthold"
                 },
                 "text": " machau, berthold, arnstein, *07.01.1965"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "arnstein",
+                    "dismissed": true,
+                    "dob": "1965-08-01",
+                    "lastname": "schiffer",
+                    "name": "frank"
+                },
+                "text": " schiffer, frank, arnstein, *01.08.1965."
             }
         ]
     }

@@ -34,7 +34,7 @@
                 "payload": {
                     "city": "Schweiz",
                     "dismissed": true,
-                    "dob": "1956-01-08",
+                    "dob": "1956-08-01",
                     "lastname": "Kreissl",
                     "name": "Hans-Jürgen",
                     "position": "Herisau"
@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Pfäffikon / Schweiz",
-                    "dob": "1968-11-09",
+                    "dob": "1968-09-11",
                     "flag": "sole representation",
                     "lastname": "Glas",
                     "name": "Barbara"
                 },
                 "text": " Glas, Barbara, Pfäffikon / Schweiz, *11.09.1968, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

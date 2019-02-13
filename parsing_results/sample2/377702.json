@@ -21,11 +21,32 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rösrath",
-                    "dob": "1982-02-05",
+                    "dob": "1982-05-02",
                     "lastname": "Klink",
                     "name": "Henrieke"
                 },
                 "text": " Klink, Henrieke, Rösrath, *02.05.1982"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Köln",
+                    "dob": "1980-02-03",
+                    "lastname": "Sallmann",
+                    "name": "Alexandra"
+                },
+                "text": " Sallmann, Alexandra, Köln, *03.02.1980"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Köln",
+                    "dob": "1975-06-11",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Stahl",
+                    "name": "Simon"
+                },
+                "text": " Stahl, Simon, Köln, *11.06.1975, jeweils einzelvertretungsberechtigt."
             }
         ]
     }

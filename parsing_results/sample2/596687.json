@@ -28,11 +28,22 @@
                 "payload": {
                     "city": "Renchen",
                     "dismissed": true,
-                    "dob": "1938-05-09",
+                    "dob": "1938-09-05",
                     "lastname": "Görmann",
                     "name": "Karl-Heinz Valentin"
                 },
                 "text": " Görmann, Karl-Heinz Valentin, Renchen, *05.09.1938"
+            },
+            {
+                "class": "RetiredPersonalPartner",
+                "payload": {
+                    "city": "Renchen",
+                    "dismissed": true,
+                    "dob": "1938-05-28",
+                    "lastname": "Kristen",
+                    "name": "Gerhard"
+                },
+                "text": " Kristen, Gerhard, Renchen, *28.05.1938."
             },
             {
                 "class": "PersonalPartner",
@@ -43,6 +54,16 @@
                     "name": "John Gerhard"
                 },
                 "text": " Görmann, John Gerhard, Renchen, *27.09.1965"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Renchen",
+                    "dob": "1964-08-19",
+                    "lastname": "Kristen",
+                    "name": "Michael Karl-Heinz"
+                },
+                "text": " Kristen, Michael Karl-Heinz, Renchen, *19.08.1964."
             }
         ]
     }

@@ -22,7 +22,7 @@
                 "payload": {
                     "city": "Köln",
                     "dismissed": true,
-                    "dob": "1955-01-05",
+                    "dob": "1955-05-01",
                     "lastname": "Schlitt",
                     "name": "Roland"
                 },
@@ -37,6 +37,16 @@
                     "name": "Holger"
                 },
                 "text": " Schilaske, Holger, Lotte, *28.01.1971"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Köln",
+                    "dob": "1967-01-10",
+                    "lastname": "Doctor Scholten",
+                    "name": "Ulrich Michael"
+                },
+                "text": " Doctor Scholten, Ulrich Michael, Köln, *10.01.1967."
             }
         ]
     }

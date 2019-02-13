@@ -39,7 +39,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Wiesbaden",
-                    "dob": "1958-11-07",
+                    "dob": "1958-07-11",
                     "flag": "sole representation",
                     "lastname": "Deharde",
                     "name": "Christian"
@@ -47,15 +47,31 @@
                 "text": " Deharde, Christian, Wiesbaden, *11.07.1958, einzelvertretungsberechtigt"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
-                    "dob": "1951-10-06",
+                    "dob": "1951-06-10",
                     "flag": "sole representation",
                     "lastname": "Friedrich",
                     "name": "Manfred"
                 },
                 "text": " Friedrich, Manfred, Stuttgart, *10.06.1951, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

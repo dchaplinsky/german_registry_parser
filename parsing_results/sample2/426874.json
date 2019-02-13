@@ -37,12 +37,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Zirndorf",
-                    "dob": "1950-03-05",
+                    "dob": "1950-05-03",
                     "flag": "sole representation",
                     "lastname": "Schäfer",
                     "name": "Gerd"
                 },
                 "text": " Schäfer, Gerd, Zirndorf, *03.05.1950, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

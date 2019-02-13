@@ -69,6 +69,17 @@
                 "text": " Lander, Björn, Bromma / Schweden, *29.07.1975"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1973-03-31",
+                    "lastname": "Rahn",
+                    "name": "Christian"
+                },
+                "text": " Rahn, Christian, München, *31.03.1973."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
@@ -77,6 +88,25 @@
                     "name": "Yvonne Saskia"
                 },
                 "text": " Bauer, Yvonne Saskia, Hamburg, *29.03.1977"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1971-10-26",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Jessen",
+                    "name": "Harald"
+                },
+                "text": " Jessen, Harald, Hamburg, *26.10.1971, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

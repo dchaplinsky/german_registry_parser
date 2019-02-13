@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=323499&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -53,7 +63,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1955-01-08",
+                    "dob": "1955-08-01",
                     "lastname": "Schmitz",
                     "name": "Herbert"
                 },
@@ -68,6 +78,14 @@
                     "name": "Stefan"
                 },
                 "text": " Radtke, Stefan, *13.06.1964, Kleinmachnow"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 18.12.2014 ist das Stammkapital auf EUR umgestellt",
+                    "name": "sodann auf 25.800 EUR erhöht und der Gesellschaftsvertrag  geändert in § 3 (Stammkapital) und § 4 (Geschäftsführung)"
+                },
+                "text": " Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 18.12.2014 ist das Stammkapital auf EUR umgestellt, sodann auf 25.800 EUR erhöht und der Gesellschaftsvertrag  geändert in § 3 (Stammkapital) und § 4 (Geschäftsführung)"
             }
         ]
     }

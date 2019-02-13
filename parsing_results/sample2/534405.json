@@ -31,22 +31,43 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Heidenheim an der Brenz",
-                    "dob": "1955-10-07",
+                    "dob": "1955-07-10",
                     "lastname": "Doctor Jung",
                     "name": "Hermann"
                 },
                 "text": " Doctor Jung, Hermann, Heidenheim an der Brenz, *10.07.1955"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Heidenheim an der Brenz",
+                    "dob": "1951-01-12",
+                    "lastname": "Doctor Lienhard",
+                    "name": "Hubert"
+                },
+                "text": " Doctor Lienhard, Hubert, Heidenheim an der Brenz, *12.01.1951."
+            },
+            {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Heidenheim an der Brenz",
                     "dismissed": true,
-                    "dob": "1968-07-02",
+                    "dob": "1968-02-07",
                     "lastname": "Linke",
                     "name": "Andrea"
                 },
                 "text": " Linke, Andrea, Heidenheim an der Brenz, *07.02.1968"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Heidenheim an der Brenz",
+                    "dismissed": true,
+                    "dob": "1962-08-18",
+                    "lastname": "Schröder",
+                    "name": "Stefan"
+                },
+                "text": " Schröder, Stefan, Heidenheim an der Brenz, *18.08.1962."
             }
         ]
     }

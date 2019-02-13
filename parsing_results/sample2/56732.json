@@ -27,11 +27,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
-                    "dob": "1952-12-04",
+                    "dob": "1952-04-12",
                     "lastname": "Achner",
                     "name": "Theodor"
                 },
                 "text": " Achner, Theodor, München, *12.04.1952"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1973-11-10",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Kämmerer",
+                    "name": "Astrid"
+                },
+                "text": " Kämmerer, Astrid, München, *10.11.1973, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "RetiredManagingDirector",

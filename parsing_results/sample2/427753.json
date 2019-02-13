@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=427753&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 08.02.2017 ist der Gesellschaftsvertrag insgesamt neu gefasst mit Änderung der Firma und des Unternehmensgegenstandes., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -59,7 +69,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Puteaux/Frankreich",
-                    "dob": "1977-06-09",
+                    "dob": "1977-09-06",
                     "lastname": "Wolff",
                     "name": "Julien",
                     "ref": 2

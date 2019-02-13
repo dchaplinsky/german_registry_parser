@@ -29,6 +29,17 @@
                 "text": " Kürpick, Kai, Gelsenkirchen, *23.12.1964"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Passau",
+                    "dismissed": true,
+                    "dob": "1961-10-11",
+                    "lastname": "Laslo",
+                    "name": "Kalman"
+                },
+                "text": " Laslo, Kalman, Passau, *11.10.1961."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Marktheidenfeld-Glasofen",
@@ -37,6 +48,16 @@
                     "name": "Klaus"
                 },
                 "text": " Hoffmann, Klaus, Marktheidenfeld-Glasofen, *25.10.1952"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1972-06-11",
+                    "lastname": "Meier",
+                    "name": "Jörg"
+                },
+                "text": " Meier, Jörg, München, *11.06.1972."
             }
         ]
     }

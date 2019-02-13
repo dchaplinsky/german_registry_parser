@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Grenofen Tavistock Devon (GB) / Vereinigtes Königreich",
                     "dismissed": true,
-                    "dob": "1970-09-02",
+                    "dob": "1970-02-09",
                     "lastname": "Hallas",
                     "name": "Joanna Christine"
                 },
@@ -38,11 +38,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wesel",
-                    "dob": "1968-08-05",
+                    "dob": "1968-05-08",
                     "lastname": "Bussing",
                     "name": "Dirk"
                 },
                 "text": " Bussing, Dirk, Wesel, *08.05.1968"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "dob": "1959-04-13",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Rodriguez Silva",
+                    "name": "Rada Ioana"
+                },
+                "text": " Rodriguez Silva, Rada Ioana, Düsseldorf, *13.04.1959, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

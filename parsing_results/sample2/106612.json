@@ -45,11 +45,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Halle (Saale)",
-                    "dob": "1968-10-08",
+                    "dob": "1968-08-10",
                     "lastname": "Doctor Behrens",
                     "name": "Martina"
                 },
                 "text": " Doctor Behrens, Martina, Halle (Saale), *10.08.1968"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Halle (Saale)",
+                    "dob": "1961-02-23",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Prof. Doctor Behrens",
+                    "name": "Sven-Erik"
+                },
+                "text": " Prof. Doctor Behrens, Sven-Erik, Halle (Saale), *23.02.1961, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

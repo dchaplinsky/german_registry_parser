@@ -27,12 +27,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
-                    "dob": "1964-04-01",
+                    "dob": "1964-01-04",
                     "flag": "sole representation",
                     "lastname": "Schmid",
                     "name": "Michael"
                 },
                 "text": " Schmid, Michael, München, *04.01.1964, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "RetiredManagingDirector",

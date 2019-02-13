@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=71742&land_abk=hb"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from   Gesellschaft mit beschränkter Haftung, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -61,12 +71,19 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Bremen",
-                    "dob": "1969-06-05",
+                    "dob": "1969-05-06",
                     "lastname": "Müller",
                     "name": "Michael",
                     "ref": 1
                 },
                 "text": "1) Müller, Michael, *06.05.1969, Bremen"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "company_name": "Gesellschaftsvertrag vom:12)10.2016 Durch Beschluss der Gesellschafterversammlung vom 08.09.2017 ist der Sitz der Gesellschaft von Moers (Amtsgericht Kleve, HRB 14789) nach Bremen verlegt und der Gesellschaftsvertrag geändert in § 1 (Firma, Sitz) und § 2 (Gegenstand)."
+                },
+                "text": " Gesellschaftsvertrag vom:12)10.2016 Durch Beschluss der Gesellschafterversammlung vom 08.09.2017 ist der Sitz der Gesellschaft von Moers (Amtsgericht Kleve, HRB 14789) nach Bremen verlegt und der Gesellschaftsvertrag geändert in § 1 (Firma, Sitz) und § 2 (Gegenstand)."
             }
         ]
     }

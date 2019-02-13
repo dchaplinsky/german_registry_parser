@@ -38,11 +38,21 @@
                 "class": "PersonalPartner",
                 "payload": {
                     "city": "Hadamar",
-                    "dob": "1952-02-01",
+                    "dob": "1952-01-02",
                     "lastname": "Jakob",
                     "name": "Wilfried"
                 },
                 "text": " Jakob, Wilfried, Hadamar, *02.01.1952"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Hadamar",
+                    "dob": "1946-05-20",
+                    "lastname": "Jakob-Casagrande",
+                    "name": "Inge"
+                },
+                "text": " Jakob-Casagrande, Inge, Hadamar, *20.05.1946."
             }
         ]
     }

@@ -41,12 +41,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "München",
-                    "dob": "1941-03-02",
+                    "dob": "1941-02-03",
                     "flag": "sole representation",
                     "lastname": "Myrzik",
                     "name": "Walter Herbert"
                 },
                 "text": " Myrzik, Walter Herbert, München, *03.02.1941, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

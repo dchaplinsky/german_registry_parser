@@ -22,11 +22,22 @@
                 "payload": {
                     "city": "Weinstadt",
                     "dismissed": true,
-                    "dob": "1969-05-11",
+                    "dob": "1969-11-05",
                     "lastname": "Braun",
                     "name": "Stephanie"
                 },
                 "text": " Braun, Stephanie, Weinstadt, *05.11.1969"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Weinstadt",
+                    "dismissed": true,
+                    "dob": "1966-09-30",
+                    "lastname": "Doctor Braun",
+                    "name": "Wolf Matthias"
+                },
+                "text": " Doctor Braun, Wolf Matthias, Weinstadt, *30.09.1966."
             }
         ]
     }

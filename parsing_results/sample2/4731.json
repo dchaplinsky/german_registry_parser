@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=4731&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -60,6 +66,15 @@
                     "name": "Amir"
                 },
                 "text": " Burgic, Amir, *17.03.1970, Berlin"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "dismissed": true,
+                    "lastname": "Einzelprokura Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 23.11.2005 ist der Gesellschaftsvertrag geändert in § 2 (Gegenstand) und in § 3 (Stammkapital",
+                    "name": "Stammeinlagen)"
+                },
+                "text": " Einzelprokura Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 23.11.2005 ist der Gesellschaftsvertrag geändert in § 2 (Gegenstand) und in § 3 (Stammkapital, Stammeinlagen).."
             }
         ]
     }

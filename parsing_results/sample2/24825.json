@@ -39,12 +39,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hitzacker",
-                    "dob": "1982-11-02",
+                    "dob": "1982-02-11",
                     "flag": "sole representation",
                     "lastname": "Elfeld",
                     "name": "Fabian"
                 },
                 "text": " Elfeld, Fabian, Hitzacker, *11.02.1982, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -46,7 +46,7 @@
                 "payload": {
                     "city": "Berlin",
                     "dismissed": true,
-                    "dob": "1969-01-10",
+                    "dob": "1969-10-01",
                     "lastname": "Vieth",
                     "name": "Julia"
                 },
@@ -62,6 +62,14 @@
                     "name": "Daniel Reinhard"
                 },
                 "text": " Schneider, Daniel Reinhard, Wendelstein, *21.07.1984, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

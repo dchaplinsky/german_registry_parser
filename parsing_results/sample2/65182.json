@@ -21,11 +21,22 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kitzscher",
-                    "dob": "1952-08-04",
+                    "dob": "1952-04-08",
                     "lastname": "Büttner",
                     "name": "Andreas"
                 },
                 "text": " Büttner, Andreas, Kitzscher, *08.04.1952"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Korschenbroich",
+                    "dob": "1963-03-26",
+                    "flag": "jeweils vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen",
+                    "lastname": "Winkler",
+                    "name": "Ralf"
+                },
+                "text": " Winkler, Ralf, Korschenbroich, *26.03.1963, jeweils vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen."
             },
             {
                 "class": "CommonProcuration",
@@ -36,6 +47,26 @@
                     "name": "Tobias"
                 },
                 "text": " Jahn, Tobias, Erfurt, *23.02.1966"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Beesenstedt",
+                    "dob": "1951-05-25",
+                    "lastname": "Semmler",
+                    "name": "Gerhard"
+                },
+                "text": " Semmler, Gerhard, Beesenstedt, *25.05.1951"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Fockendorf",
+                    "dob": "1950-05-20",
+                    "lastname": "Wampfler",
+                    "name": "Rainer"
+                },
+                "text": " Wampfler, Rainer, Fockendorf, *20.05.1950."
             }
         ]
     }

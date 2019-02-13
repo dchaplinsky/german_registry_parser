@@ -45,11 +45,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Neubeuern",
-                    "dob": "1971-02-10",
+                    "dob": "1971-10-02",
                     "lastname": "Bischof",
                     "name": "Christopher"
                 },
                 "text": " Bischof, Christopher, Neubeuern, *02.10.1971"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Neubeuern",
+                    "dob": "1977-01-25",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Knaak",
+                    "name": "Susanne"
+                },
+                "text": " Knaak, Susanne, Neubeuern, *25.01.1977, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

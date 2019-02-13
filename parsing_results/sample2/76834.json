@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=76834&land_abk=hb"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a PersonalPartner from  Kommanditgesellschaft, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "labels": [
             {
                 "label": "WHUT",
@@ -45,6 +51,13 @@
                     "company_name": "Haus am Berg Seniorenpflege u. betreuung Verwaltungs-GmbH, Osnabrück (Amtsgericht Osnabrück, HRB 19502)"
                 },
                 "text": " Haus am Berg Seniorenpflege u. betreuung Verwaltungs-GmbH, Osnabrück (Amtsgericht Osnabrück, HRB 19502)"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "company_name": "Der Sitz der Gesellschaft ist von Hasbergen (Amtsgericht Osnabrück, HRA 7721) nach Bremen verlegt."
+                },
+                "text": " Der Sitz der Gesellschaft ist von Hasbergen (Amtsgericht Osnabrück, HRA 7721) nach Bremen verlegt."
             }
         ]
     }

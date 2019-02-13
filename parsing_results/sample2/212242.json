@@ -58,7 +58,7 @@
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dismissed": true,
-                    "dob": "1978-12-10",
+                    "dob": "1978-10-12",
                     "lastname": "Liu",
                     "name": "Siynan"
                 },
@@ -79,12 +79,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
-                    "dob": "1981-05-02",
+                    "dob": "1981-02-05",
                     "flag": "sole representation",
                     "lastname": "Li",
                     "name": "Bingbing"
                 },
                 "text": " Li, Bingbing, Frankfurt am Main, *05.02.1981, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

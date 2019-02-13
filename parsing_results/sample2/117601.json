@@ -51,12 +51,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
-                    "dob": "1947-03-06",
+                    "dob": "1947-06-03",
                     "flag": "sole representation",
                     "lastname": "Ebert",
                     "name": "Michael"
                 },
                 "text": " Ebert, Michael, Frankfurt am Main, *03.06.1947, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

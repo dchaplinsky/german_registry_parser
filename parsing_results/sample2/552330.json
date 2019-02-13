@@ -37,21 +37,62 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Neuss",
-                    "dob": "1956-12-03",
+                    "dob": "1956-03-12",
                     "lastname": "Mahnke",
                     "name": "Lutz"
                 },
                 "text": " Mahnke, Lutz, Neuss, *12.03.1956"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Neuss",
+                    "dob": "1957-11-21",
+                    "lastname": "Doctor Straaten",
+                    "name": "Martin"
+                },
+                "text": " Doctor Straaten, Martin, Neuss, *21.11.1957"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Neuss",
+                    "dob": "1951-01-22",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Doctor Werhahn",
+                    "name": "Michael"
+                },
+                "text": " Doctor Werhahn, Michael, Neuss, *22.01.1951, jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Neuss",
-                    "dob": "1970-12-06",
+                    "dob": "1970-06-12",
                     "lastname": "Böhme",
                     "name": "Arndt"
                 },
                 "text": " Böhme, Arndt, Neuss, *12.06.1970"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Neuss",
+                    "dob": "1966-07-20",
+                    "lastname": "Schieffer",
+                    "name": "Thomas"
+                },
+                "text": " Schieffer, Thomas, Neuss, *20.07.1966"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Neuss",
+                    "dob": "1965-03-19",
+                    "lastname": "Wankum",
+                    "name": "Peter-Alexander"
+                },
+                "text": " Wankum, Peter-Alexander, Neuss, *19.03.1965."
             }
         ]
     }

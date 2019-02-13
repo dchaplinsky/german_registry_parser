@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=914059&land_abk=by"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Nasky, Molly, Boulder, Colorado / Vereinigte Staaten, *25.12.1965, jeweils einzelvertretungsberechtigt, error text was Cannot parse DOB  Boulder using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability.",
@@ -45,12 +51,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Colorado / Vereinigte Staaten",
-                    "dob": "1968-12-07",
+                    "dob": "1968-07-12",
                     "lastname": "Cohen",
                     "name": "David",
                     "position": "Boulder"
                 },
                 "text": " Cohen, David, Boulder, Colorado / Vereinigte Staaten, *12.07.1968"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

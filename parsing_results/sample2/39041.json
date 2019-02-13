@@ -16,6 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=39041&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: Gesellschaft mit beschränkter Haftung, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Gesellschaftsvertrag vom:02)03.2007, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -31,7 +45,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1976-09-11",
+                    "dob": "1976-11-09",
                     "lastname": "Behrendt",
                     "name": "Alexander",
                     "ref": 1
@@ -48,6 +62,14 @@
                     "ref": 2
                 },
                 "text": "2)Mielke, Lars Heiko, *25.03.1975, Frankfurt (Oder)"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit Änderung vom 31.03.2007 in § 3 (Geschäftsführung",
+                    "name": "Vertretung)"
+                },
+                "text": " mit Änderung vom 31.03.2007 in § 3 (Geschäftsführung, Vertretung)."
             }
         ]
     }

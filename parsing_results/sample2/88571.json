@@ -16,6 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=88571&land_abk=br"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 20.02.2013 ist der Gesellschaftsvertrag geändert in § 2 (Gegenstand)., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -53,7 +67,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Rüdnitz",
-                    "dob": "1968-01-04",
+                    "dob": "1968-04-01",
                     "lastname": "Arts",
                     "name": "Johannes T.W.M"
                 },
@@ -63,7 +77,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Linum",
-                    "dob": "1966-04-02",
+                    "dob": "1966-02-04",
                     "lastname": "van Els",
                     "name": "Martinus R.J"
                 },

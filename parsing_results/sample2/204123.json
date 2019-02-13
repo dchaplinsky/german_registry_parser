@@ -35,6 +35,17 @@
                 "text": " Osthushenrich, Utz, Garbsen, *21.03.1964"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Stelle",
+                    "dismissed": true,
+                    "dob": "1963-12-27",
+                    "lastname": "Thode",
+                    "name": "Michael"
+                },
+                "text": " Thode, Michael, Stelle, *27.12.1963."
+            },
+            {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Wennigsen",
@@ -43,6 +54,16 @@
                     "name": "Utz"
                 },
                 "text": " Osthushenrich, Utz, Wennigsen, *21.03.1964"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1963-12-27",
+                    "lastname": "Thode",
+                    "name": "Michael"
+                },
+                "text": " Thode, Michael, Hamburg, *27.12.1963."
             }
         ]
     }

@@ -68,11 +68,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hannover",
-                    "dob": "1941-04-02",
+                    "dob": "1941-02-04",
                     "lastname": "Zuck",
                     "name": "Volker"
                 },
                 "text": " Zuck, Volker, Hannover, *04.02.1941"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hannover",
+                    "dob": "1943-04-17",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Zuck",
+                    "name": "Thyrza"
+                },
+                "text": " Zuck, Thyrza, Hannover, *17.04.1943, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

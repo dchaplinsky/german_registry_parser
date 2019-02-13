@@ -49,12 +49,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Lüneburg",
-                    "dob": "1985-08-05",
+                    "dob": "1985-05-08",
                     "flag": "sole representation",
                     "lastname": "Lampe",
                     "name": "Stefan"
                 },
                 "text": " Lampe, Stefan, Lüneburg, *08.05.1985, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

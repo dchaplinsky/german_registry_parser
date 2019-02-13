@@ -39,12 +39,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Zapfendorf",
-                    "dob": "1962-05-03",
+                    "dob": "1962-03-05",
                     "flag": "sole representation",
                     "lastname": "Nestmann",
                     "name": "Marco"
                 },
                 "text": " Nestmann, Marco, Zapfendorf, *05.03.1962, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

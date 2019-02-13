@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=70253&land_abk=hb"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from \nmit der Befugnis die Gesellschaft mit einem anderen Geschäftsführer oder einem Prokuristen zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from \nmit der Befugnis die Gesellschaft mit einem anderen Geschäftsführer oder einem Prokuristen zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -48,7 +58,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Owschlag",
-                    "dob": "1971-12-11",
+                    "dob": "1971-11-12",
                     "lastname": "Steinbrügge",
                     "name": "Carsten",
                     "ref": 8

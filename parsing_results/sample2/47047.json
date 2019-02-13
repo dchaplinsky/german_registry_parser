@@ -34,11 +34,22 @@
                 "payload": {
                     "city": "Wismar",
                     "dismissed": true,
-                    "dob": "1956-05-11",
+                    "dob": "1956-11-05",
                     "lastname": "Detlef",
                     "name": "Krawack"
                 },
                 "text": " Detlef, Krawack, Wismar, *05.11.1956"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Lübow",
+                    "dismissed": true,
+                    "dob": "1951-05-04",
+                    "lastname": "Landgraf",
+                    "name": "Friedrich"
+                },
+                "text": " Landgraf, Friedrich, Lübow, *04.05.1951."
             },
             {
                 "class": "AppointedManagingDirector",
@@ -50,6 +61,14 @@
                     "name": "Dirk"
                 },
                 "text": " Jahnel, Dirk, Bad Kleinen, *19.01.1970, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -16,6 +16,24 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=130240&land_abk=br"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from   Gesellschaft mit beschränkter Haftung, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -95,7 +113,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Mönkeberg",
-                    "dob": "1969-11-05",
+                    "dob": "1969-05-11",
                     "lastname": "Murkisch",
                     "name": "Wolfgang"
                 },
@@ -110,6 +128,13 @@
                     "name": "Thomas"
                 },
                 "text": " Heidbreder, Thomas, *29.01.1966, Kleinmachnow"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "company_name": "Gesellschaftsvertrag vom:07)01.2009 zuletzt geändert durch Beschluss vom 24.09.2013 Durch Beschluss der Gesellschafterversammlung vom 25.04.2016 ist der Sitz der Gesellschaft von Braunschweig (Amtsgericht Braunschweig, HRB 204496) nach Teltow verlegt und der Gesellschaftsvertrag geändert in § 1 Nr. 2 (Sitz)."
+                },
+                "text": " Gesellschaftsvertrag vom:07)01.2009 zuletzt geändert durch Beschluss vom 24.09.2013 Durch Beschluss der Gesellschafterversammlung vom 25.04.2016 ist der Sitz der Gesellschaft von Braunschweig (Amtsgericht Braunschweig, HRB 204496) nach Teltow verlegt und der Gesellschaftsvertrag geändert in § 1 Nr. 2 (Sitz)."
             }
         ]
     }

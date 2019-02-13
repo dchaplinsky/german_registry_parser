@@ -20,6 +20,10 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a CommonProcuration from  glittenberg, anja, erkrath, *27.03.1975. nach namensänderungs (bisher: henszelewski) nunmehr: gesamtprokura gemeinsam mit einem vorstandsmitglied oder einem anderen prokuristen: habermann, christina, wien/österreich, *29.06.1977. nach namenssänderung (bisher: pavlova) nunmehr: gesamtprokura gemeinsam mit einem vorstandsmitglied oder einem anderen prokuristen: dr. pavlova-behrens, venelina, düsseldorf, *01.04.1977. nach ergänzung des akademischen grades nunmehr: gesamtprokura gemeinsam mit einem vorstandsmitglied oder einem anderen prokuristen: dr. daniels, mirko, kaarst, *14.09.1978. prokuren erloschen: abrams, malte, hamburg, *03.09.1985, error text was no valid patter found, number of chunks: 16"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a CommonProcuration from  witzke, torsten, oberursel, *22.11.1974. nach namensänderung (bisher: lippmann) nunmehr: gesamtprokura gemeinsam mit einem vorstandsmitglied oder einem anderen prokuristen: glittenberg, anja, erkrath, *27.03.1975. nach namensänderungs (bisher: henszelewski) nunmehr: gesamtprokura gemeinsam mit einem vorstandsmitglied oder einem anderen prokuristen: habermann, christina, wien/österreich, *29.06.1977. nach namenssänderung (bisher: pavlova) nunmehr: gesamtprokura gemeinsam mit einem vorstandsmitglied oder einem anderen prokuristen: dr. pavlova-behrens, venelina, düsseldorf, *01.04.1977. nach ergänzung des akademischen grades nunmehr: gesamtprokura gemeinsam mit einem vorstandsmitglied oder einem anderen prokuristen: dr. daniels, mirko, kaarst, *14.09.1978. prokuren erloschen: abrams, malte, hamburg, *03.09.1985, error text was no valid patter found, number of chunks: 19"
             }
         ],
         "officers": [
@@ -32,6 +36,392 @@
                     "name": "andrea"
                 },
                 "text": " azzolini, andrea, milan/italien, *03.03.1974"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "düsseldorf",
+                    "dob": "1980-01-21",
+                    "lastname": "dr. balthasar",
+                    "name": "anne"
+                },
+                "text": " dr. balthasar, anne, düsseldorf, *21.01.1980"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "duisburg",
+                    "dob": "1980-12-20",
+                    "lastname": "brünn",
+                    "name": "alexander"
+                },
+                "text": " brünn, alexander, duisburg, *20.12.1980"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "düsseldorf",
+                    "dob": "1980-09-01",
+                    "lastname": "cuic",
+                    "name": "ivan"
+                },
+                "text": " cuic, ivan, düsseldorf, *01.09.1980"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "düsseldorf",
+                    "dob": "1968-11-08",
+                    "lastname": "dernesch",
+                    "name": "frank"
+                },
+                "text": " dernesch, frank, düsseldorf, *08.11.1968"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "leverkusen",
+                    "dob": "1963-06-17",
+                    "lastname": "dülfer",
+                    "name": "claus"
+                },
+                "text": " dülfer, claus, leverkusen, *17.06.1963"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "kaarst",
+                    "dob": "1962-03-12",
+                    "lastname": "falk",
+                    "name": "stefan"
+                },
+                "text": " falk, stefan, kaarst, *12.03.1962"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "königstein",
+                    "dob": "1982-05-15",
+                    "lastname": "fichtner",
+                    "name": "jakob"
+                },
+                "text": " fichtner, jakob, königstein, *15.05.1982"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "frankfurt",
+                    "dob": "1961-11-26",
+                    "lastname": "fleißner",
+                    "name": "jeanette"
+                },
+                "text": " fleißner, jeanette, frankfurt, *26.11.1961"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "pfungstadt",
+                    "dob": "1974-05-02",
+                    "lastname": "flicker",
+                    "name": "roland"
+                },
+                "text": " flicker, roland, pfungstadt, *02.05.1974"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "saronno/italien",
+                    "dob": "1961-04-02",
+                    "lastname": "ghirlanda",
+                    "name": "luciano"
+                },
+                "text": " ghirlanda, luciano, saronno/italien, *02.04.1961"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "madrid/spanien",
+                    "dob": "1966-03-29",
+                    "lastname": "gonzáles-tovar",
+                    "name": "javier"
+                },
+                "text": " gonzáles-tovar, javier, madrid/spanien, *29.03.1966"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "wuppertal",
+                    "dob": "1970-12-14",
+                    "lastname": "haase",
+                    "name": "stefanie"
+                },
+                "text": " haase, stefanie, wuppertal, *14.12.1970"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "schwentinental",
+                    "dob": "1965-08-05",
+                    "lastname": "hargarten",
+                    "name": "frank"
+                },
+                "text": " hargarten, frank, schwentinental, *05.08.1965"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "frankfurt/main",
+                    "dob": "1982-08-05",
+                    "lastname": "janßen",
+                    "name": "patrick"
+                },
+                "text": " janßen, patrick, frankfurt/main, *05.08.1982"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "düsseldorf",
+                    "dob": "1972-03-31",
+                    "lastname": "dr. kindereit",
+                    "name": "kai"
+                },
+                "text": " dr. kindereit, kai, düsseldorf, *31.03.1972"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "düsseldorf",
+                    "dob": "1977-12-11",
+                    "lastname": "kotov",
+                    "name": "michail"
+                },
+                "text": " kotov, michail, düsseldorf, *11.12.1977"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "novara/italien",
+                    "dob": "1976-02-03",
+                    "lastname": "lamm",
+                    "name": "michael"
+                },
+                "text": " lamm, michael, novara/italien, *03.02.1976"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "milano/italien",
+                    "dob": "1972-02-04",
+                    "lastname": "minervini",
+                    "name": "fabio"
+                },
+                "text": " minervini, fabio, milano/italien, *04.02.1972"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "düsseldorf",
+                    "dob": "1980-01-29",
+                    "lastname": "niethard",
+                    "name": "mark"
+                },
+                "text": " niethard, mark, düsseldorf, *29.01.1980"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "milano/italien",
+                    "dob": "1971-12-23",
+                    "lastname": "pietrunti",
+                    "name": "nicola"
+                },
+                "text": " pietrunti, nicola, milano/italien, *23.12.1971"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "frankfurt",
+                    "dob": "1979-10-19",
+                    "lastname": "schneider",
+                    "name": "dominik"
+                },
+                "text": " schneider, dominik, frankfurt, *19.10.1979"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "oberursel",
+                    "dob": "1972-01-29",
+                    "lastname": "schürmann",
+                    "name": "jörg"
+                },
+                "text": " schürmann, jörg, oberursel, *29.01.1972"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "milano/italien",
+                    "dob": "1982-04-15",
+                    "lastname": "villani",
+                    "name": "andrea"
+                },
+                "text": " villani, andrea, milano/italien, *15.04.1982"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "düsseldorf",
+                    "dob": "1952-03-10",
+                    "lastname": "flacke",
+                    "name": "angela"
+                },
+                "text": " flacke, angela, düsseldorf, *10.03.1952"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "düsseldorf",
+                    "dob": "1967-02-06",
+                    "lastname": "freis",
+                    "name": "bernhard"
+                },
+                "text": " freis, bernhard, düsseldorf, *06.02.1967"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "berlin",
+                    "lastname": "gaul",
+                    "name": "günther"
+                },
+                "text": " gaul, günther, berlin"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "münchen",
+                    "dob": "1967-01-02",
+                    "lastname": "heinermann",
+                    "name": "sylke"
+                },
+                "text": " heinermann, sylke, münchen, *02.01.1967"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "düsseldorf",
+                    "dob": "1978-07-28",
+                    "lastname": "hillebrand",
+                    "name": "magnus"
+                },
+                "text": " hillebrand, magnus, düsseldorf, *28.07.1978"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "mainz",
+                    "dob": "1955-01-06",
+                    "lastname": "hombach",
+                    "name": "johann"
+                },
+                "text": " hombach, johann, mainz, *06.01.1955"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "kronberg",
+                    "dob": "1979-06-25",
+                    "lastname": "howaldt",
+                    "name": "philipp"
+                },
+                "text": " howaldt, philipp, kronberg, *25.06.1979"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "düsseldorf",
+                    "lastname": "dr. kann",
+                    "name": "günter"
+                },
+                "text": " dr. kann, günter, düsseldorf"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "düsseldorf",
+                    "dob": "1981-01-04",
+                    "lastname": "kolbe",
+                    "name": "lars"
+                },
+                "text": " kolbe, lars, düsseldorf, *04.01.1981"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "essen",
+                    "dob": "1977-08-19",
+                    "lastname": "krishna reddy",
+                    "name": "karunakar"
+                },
+                "text": " krishna reddy, karunakar, essen, *19.08.1977"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "mainz",
+                    "lastname": "melsheimer",
+                    "name": "rita"
+                },
+                "text": " melsheimer, rita, mainz"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "leverkusen",
+                    "dob": "1966-11-13",
+                    "lastname": "polomsky-heuer",
+                    "name": "nicola"
+                },
+                "text": " polomsky-heuer, nicola, leverkusen, *13.11.1966"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "korschenbroich",
+                    "dob": "1976-06-20",
+                    "lastname": "reichert",
+                    "name": "jochen"
+                },
+                "text": " reichert, jochen, korschenbroich, *20.06.1976"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "düsseldorf",
+                    "dob": "1978-01-08",
+                    "lastname": "stey",
+                    "name": "timo"
+                },
+                "text": " stey, timo, düsseldorf, *08.01.1978"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "düsseldorf",
+                    "lastname": "sämann",
+                    "name": "manfred"
+                },
+                "text": " sämann, manfred, düsseldorf"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "moers",
+                    "dob": "1969-05-02",
+                    "lastname": "weise",
+                    "name": "thomas"
+                },
+                "text": " weise, thomas, moers, *02.05.1969."
             }
         ]
     }

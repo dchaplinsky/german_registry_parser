@@ -49,12 +49,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1960-08-04",
+                    "dob": "1960-04-08",
                     "flag": "sole representation",
                     "lastname": "Nies",
                     "name": "Jan"
                 },
                 "text": " Nies, Jan, Hamburg, *08.04.1960, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

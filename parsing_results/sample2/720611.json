@@ -60,11 +60,33 @@
                 "payload": {
                     "city": "Düsseldorf",
                     "dismissed": true,
-                    "dob": "1964-05-10",
+                    "dob": "1964-10-05",
                     "lastname": "Reppegather",
                     "name": "Uwe"
                 },
                 "text": " Reppegather, Uwe, Düsseldorf, *05.10.1964"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Solingen",
+                    "dismissed": true,
+                    "dob": "1960-04-27",
+                    "lastname": "Wohner",
+                    "name": "Holger A"
+                },
+                "text": " Wohner, Holger A., Solingen, *27.04.1960"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1963-09-19",
+                    "lastname": "Zabel",
+                    "name": "Frank"
+                },
+                "text": " Zabel, Frank, München, *19.09.1963."
             }
         ]
     }

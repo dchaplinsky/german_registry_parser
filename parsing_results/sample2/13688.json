@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Syke",
                     "dismissed": true,
-                    "dob": "1938-03-09",
+                    "dob": "1938-09-03",
                     "lastname": "Wesemann",
                     "name": "Werner"
                 },
@@ -38,11 +38,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Syke",
-                    "dob": "1971-09-11",
+                    "dob": "1971-11-09",
                     "lastname": "Wesemann",
                     "name": "Robert"
                 },
                 "text": " Wesemann, Robert, Syke, *09.11.1971"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Syke",
+                    "dob": "1974-01-23",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Wesemann",
+                    "name": "Frank"
+                },
+                "text": " Wesemann, Frank, Syke, *23.01.1974, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

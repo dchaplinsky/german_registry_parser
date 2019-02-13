@@ -27,12 +27,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Garrel",
-                    "dob": "1967-03-06",
+                    "dob": "1967-06-03",
                     "flag": "sole representation",
                     "lastname": "Ording",
                     "name": "Brigitte"
                 },
                 "text": " Ording, Brigitte, Garrel, *03.06.1967, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen Rechtsgeschäfte abzuschließen."
             }
         ]
     }

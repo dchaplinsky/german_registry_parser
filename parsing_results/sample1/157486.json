@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
-                    "dob": "1963-08-11",
+                    "dob": "1963-11-08",
                     "flag": "sole representation",
                     "lastname": "Weiß",
                     "name": "Detlef"
                 },
                 "text": " Weiß, Detlef, Frankfurt am Main, *08.11.1963, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

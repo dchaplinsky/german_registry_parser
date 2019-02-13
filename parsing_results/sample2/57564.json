@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Chemnitz",
                     "dismissed": true,
-                    "dob": "1979-06-01",
+                    "dob": "1979-01-06",
                     "lastname": "Köhler",
                     "name": "Michael"
                 },
@@ -44,6 +44,14 @@
                     "name": "Thoralf"
                 },
                 "text": " Reiher, Thoralf, Chemnitz, *13.09.1966, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

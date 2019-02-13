@@ -39,12 +39,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Dieburg",
-                    "dob": "1959-10-03",
+                    "dob": "1959-03-10",
                     "flag": "sole representation",
                     "lastname": "Göbel",
                     "name": "Peter"
                 },
                 "text": " Göbel, Peter, Dieburg, *10.03.1959, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

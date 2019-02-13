@@ -40,11 +40,22 @@
                 "text": " Matsuoka, Yoshihiro, Ostfildern, *24.11.1960"
             },
             {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Frankreich",
+                    "dob": "1954-10-18",
+                    "lastname": "Okura",
+                    "name": "Koji",
+                    "position": "Courbevoie"
+                },
+                "text": " Okura, Koji, Courbevoie, Frankreich, *18.10.1954."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Ostfildern",
                     "dismissed": true,
-                    "dob": "1958-10-08",
+                    "dob": "1958-08-10",
                     "lastname": "Kobi",
                     "name": "Takahiro"
                 },

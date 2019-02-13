@@ -22,17 +22,28 @@
                 "payload": {
                     "city": "Hannover",
                     "dismissed": true,
-                    "dob": "1975-07-08",
+                    "dob": "1975-08-07",
                     "lastname": "Firl",
                     "name": "Gordon"
                 },
                 "text": " Firl, Gordon, Hannover, *07.08.1975"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Söhlde",
+                    "dismissed": true,
+                    "dob": "1973-09-03",
+                    "lastname": "Kuttkat",
+                    "name": "Christian"
+                },
+                "text": " Kuttkat, Christian, Söhlde, *03.09.1973."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Nettetal",
-                    "dob": "1958-07-04",
+                    "dob": "1958-04-07",
                     "lastname": "Müller",
                     "name": "Klaus-Peter"
                 },

@@ -37,12 +37,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1968-05-02",
+                    "dob": "1968-02-05",
                     "flag": "vertretungsberechtigt gemäß allgemeiner Vertretungsregelung",
                     "lastname": "Patzschke",
                     "name": "Reinhard"
                 },
                 "text": " Patzschke, Reinhard, Hamburg, *05.02.1968, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ManagingDirector",
@@ -53,6 +61,37 @@
                     "name": "Thomas"
                 },
                 "text": " Eickhoff, Thomas, Hamburg, *24.02.1960"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Wedel",
+                    "dob": "1957-07-04",
+                    "lastname": "Grabarz",
+                    "name": "Andreas"
+                },
+                "text": " Grabarz, Andreas, Wedel, *04.07.1957"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1967-04-23",
+                    "lastname": "Heuel",
+                    "name": "Ralf"
+                },
+                "text": " Heuel, Ralf, Hamburg, *23.04.1967"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1956-07-18",
+                    "flag": "jeweils vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen",
+                    "lastname": "Jezuita",
+                    "name": "Annemarie"
+                },
+                "text": " Jezuita, Annemarie, Hamburg, *18.07.1956, jeweils vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen."
             }
         ]
     }

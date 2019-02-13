@@ -45,12 +45,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Abstatt",
-                    "dob": "1952-11-02",
+                    "dob": "1952-02-11",
                     "flag": "sole representation",
                     "lastname": "Diplomingenieur Beckbissinger",
                     "name": "Walter"
                 },
                 "text": " Diplomingenieur Beckbissinger, Walter, Abstatt, *11.02.1952, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

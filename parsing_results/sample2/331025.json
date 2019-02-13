@@ -58,11 +58,33 @@
                 "payload": {
                     "city": "Neuss",
                     "dismissed": true,
-                    "dob": "1976-05-04",
+                    "dob": "1976-04-05",
                     "lastname": "Hammes",
                     "name": "Tim"
                 },
                 "text": " Hammes, Tim, Neuss, *05.04.1976"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Grasberg",
+                    "dismissed": true,
+                    "dob": "1969-05-10",
+                    "lastname": "Müller",
+                    "name": "Axel"
+                },
+                "text": " Müller, Axel, Grasberg, *10.05.1969"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Schifferstadt",
+                    "dismissed": true,
+                    "dob": "1967-04-02",
+                    "lastname": "Wiechert",
+                    "name": "Andreas"
+                },
+                "text": " Wiechert, Andreas, Schifferstadt, *02.04.1967."
             },
             {
                 "class": "AppointedManagingDirector",
@@ -74,6 +96,14 @@
                     "name": "Anna Oziyasovna"
                 },
                 "text": " Loshchinina, Anna Oziyasovna, Hannover, *25.02.1969, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

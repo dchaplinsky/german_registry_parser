@@ -47,17 +47,36 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "München",
-                    "dob": "1971-07-01",
+                    "dob": "1971-01-07",
                     "lastname": "Beck",
                     "name": "Catrin geborene Dörre"
                 },
                 "text": " Beck, Catrin geborene Dörre, München, *07.01.1971"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Ilmmünster",
+                    "dob": "1962-05-14",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Sturmes",
+                    "name": "Joachim"
+                },
+                "text": " Sturmes, Joachim, Ilmmünster, *14.05.1962, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Lentföhrden",
-                    "dob": "1971-02-05",
+                    "dob": "1971-05-02",
                     "lastname": "Stanke",
                     "name": "Ralf"
                 },

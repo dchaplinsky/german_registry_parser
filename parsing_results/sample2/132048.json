@@ -39,6 +39,17 @@
                 "text": " Bode, Hans-Benno, Malermeister, Hildesheim"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Hildesheim",
+                    "dismissed": true,
+                    "lastname": "Bode",
+                    "name": "Martin",
+                    "position": "Malermeister"
+                },
+                "text": " Bode, Martin, Malermeister, Hildesheim."
+            },
+            {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Everode",
@@ -48,6 +59,14 @@
                     "name": "Martin"
                 },
                 "text": ": Bode, Martin, Everode, *19.02.1968, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",

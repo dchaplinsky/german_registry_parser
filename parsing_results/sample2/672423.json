@@ -37,11 +37,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wernberg-Köblitz",
-                    "dob": "1966-12-09",
+                    "dob": "1966-09-12",
                     "lastname": "Kehrer",
                     "name": "Christoph"
                 },
                 "text": " Kehrer, Christoph, Wernberg-Köblitz, *12.09.1966"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Bayreuth",
+                    "dob": "1963-01-04",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Zahn",
+                    "name": "Michael"
+                },
+                "text": " Zahn, Michael, Bayreuth, *04.01.1963, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

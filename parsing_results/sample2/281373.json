@@ -41,12 +41,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1974-10-06",
+                    "dob": "1974-06-10",
                     "flag": "vertretungsberechtigt gemäß allgemeiner Vertretungsregelung",
                     "lastname": "Falke",
                     "name": "Benjamin"
                 },
                 "text": " Falke, Benjamin, Hamburg, *10.06.1974, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

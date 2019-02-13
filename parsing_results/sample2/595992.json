@@ -41,11 +41,22 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Bochum",
-                    "dob": "1985-05-02",
+                    "dob": "1985-02-05",
                     "lastname": "Peukert",
                     "name": "Stefan"
                 },
                 "text": " Peukert, Stefan, Bochum, *05.02.1985"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Witten",
+                    "dob": "1983-08-24",
+                    "flag": "jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Pütz",
+                    "name": "Daniel"
+                },
+                "text": " Pütz, Daniel, Witten, *24.08.1983, jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

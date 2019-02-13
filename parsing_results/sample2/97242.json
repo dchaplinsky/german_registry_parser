@@ -41,11 +41,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Schorfheide",
-                    "dob": "1966-11-01",
+                    "dob": "1966-01-11",
                     "lastname": "Heidtmann",
                     "name": "Jörg"
                 },
                 "text": " Heidtmann, Jörg, Schorfheide, *11.01.1966"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Burg/Spreewald",
+                    "dob": "1972-09-17",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Herrmann",
+                    "name": "Silvio"
+                },
+                "text": " Herrmann, Silvio, Burg/Spreewald, *17.09.1972, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -16,6 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=324330&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rechtsform: Gesellschaft mit beschränkter Haftung, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -98,6 +112,13 @@
                     "ref": 2
                 },
                 "text": "2) Dr. Schädler, Jens, *22.09.1966, Küsnacht/Schweiz"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "company_name": "Gesellschaftsvertrag vom:14)05.2012\nDurch Beschluss der Gesellschafterversammlung vom 16.01.2015 ist der Sitz der Gesellschaft von München (Amtsgericht München, HRB 198902) nach Berlin verlegt und der Gesellschaftsvertrag geändert in § 1 (Sitz)."
+                },
+                "text": " Gesellschaftsvertrag vom:14)05.2012\nDurch Beschluss der Gesellschafterversammlung vom 16.01.2015 ist der Sitz der Gesellschaft von München (Amtsgericht München, HRB 198902) nach Berlin verlegt und der Gesellschaftsvertrag geändert in § 1 (Sitz)."
             }
         ]
     }

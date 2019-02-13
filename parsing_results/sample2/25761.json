@@ -47,11 +47,22 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Wettingen/Schweiz",
-                    "dob": "1970-04-07",
+                    "dob": "1970-07-04",
                     "lastname": "John",
                     "name": "Matthias"
                 },
                 "text": " John, Matthias, Wettingen/Schweiz, *04.07.1970"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Kassel",
+                    "dob": "1950-04-03",
+                    "flag": "jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Diplomingenieur Reinländer",
+                    "name": "Günter"
+                },
+                "text": " Diplomingenieur Reinländer, Günter, Kassel, *03.04.1950, jeweils einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "AppointedManagingDirector",

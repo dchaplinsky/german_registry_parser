@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=475324&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  Rechtsverhaeltnis: Die Gesellschaft ist durch Gesellschafterbeschluss aufgelöst., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "labels": [
             {
                 "label": "WHUT",
@@ -57,7 +63,7 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Kiel",
-                    "dob": "1991-05-03",
+                    "dob": "1991-03-05",
                     "lastname": "Nagel",
                     "name": "Frederik"
                 },

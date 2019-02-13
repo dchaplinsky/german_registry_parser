@@ -21,11 +21,22 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Mülheim",
-                    "dob": "1960-04-05",
+                    "dob": "1960-05-04",
                     "lastname": "Esch",
                     "name": "Hans-Josef"
                 },
                 "text": " Esch, Hans-Josef, Mülheim, *04.05.1960"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Zell",
+                    "dob": "1972-01-03",
+                    "flag": "jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Schiemann",
+                    "name": "Kristian"
+                },
+                "text": " Schiemann, Kristian, Zell, *03.01.1972, jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "DismissedManagingDirector",

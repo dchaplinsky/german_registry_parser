@@ -21,22 +21,54 @@
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Kronberg im Taunus",
-                    "dob": "1972-05-03",
+                    "dob": "1972-03-05",
                     "lastname": "van der Deijl",
                     "name": "Eric"
                 },
                 "text": " van der Deijl, Eric, Kronberg im Taunus, *05.03.1972"
             },
             {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dob": "1975-05-10",
+                    "lastname": "Schebela",
+                    "name": "Oliver"
+                },
+                "text": " Schebela, Oliver, Frankfurt am Main, *10.05.1975."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Birkenau",
                     "dismissed": true,
-                    "dob": "1954-08-04",
+                    "dob": "1954-04-08",
                     "lastname": "Große",
                     "name": "Walter"
                 },
                 "text": " Große, Walter, Birkenau, *08.04.1954"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Langen",
+                    "dismissed": true,
+                    "dob": "1964-09-10",
+                    "lastname": "van Oord",
+                    "name": "Jaap"
+                },
+                "text": " van Oord, Jaap, Langen, *10.09.1964"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Berlin",
+                    "dismissed": true,
+                    "dob": "1965-07-09",
+                    "lastname": "Wolter",
+                    "name": "Christian"
+                },
+                "text": " Wolter, Christian, Berlin, *09.07.1965."
             }
         ]
     }

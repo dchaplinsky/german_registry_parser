@@ -39,12 +39,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Bremen",
-                    "dob": "1961-10-06",
+                    "dob": "1961-06-10",
                     "lastname": "Köhlenbeck",
                     "name": "Frank",
                     "ref": 1
                 },
                 "text": "1) Köhlenbeck, Frank, *10.06.1961, Bremen"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis die Gesellschaft allein zu vertreten",
+                    "name": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                },
+                "text": " mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen."
             }
         ]
     }

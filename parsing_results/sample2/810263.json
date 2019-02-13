@@ -29,6 +29,17 @@
                 "text": " Beseler, Rainer, EDV-Betriebswirt, Lichtenau"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Borchen",
+                    "dismissed": true,
+                    "dob": "1949-06-08",
+                    "lastname": "Gellner",
+                    "name": "Gerd"
+                },
+                "text": " Gellner, Gerd, Borchen, *08.06.1949."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dreieich",
@@ -37,6 +48,16 @@
                     "name": "Eckhard"
                 },
                 "text": " Bölke, Eckhard, Dreieich, *23.04.1957"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Bonn",
+                    "dob": "1957-09-02",
+                    "lastname": "Pitsch",
+                    "name": "Rolf"
+                },
+                "text": " Pitsch, Rolf, Bonn, *02.09.1957."
             }
         ]
     }

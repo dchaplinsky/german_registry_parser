@@ -64,12 +64,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Bad Salzdetfurth",
-                    "dob": "1966-01-10",
+                    "dob": "1966-10-01",
                     "flag": "sole representation",
                     "lastname": "Westerhuis",
                     "name": "Heike"
                 },
                 "text": " Westerhuis, Heike, Bad Salzdetfurth, *01.10.1966, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

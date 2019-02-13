@@ -65,12 +65,21 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Zukowo/Polen",
-                    "dob": "1977-09-04",
+                    "dob": "1977-04-09",
                     "lastname": "Kuberna",
                     "name": "Marcin Jan",
                     "ref": 3
                 },
                 "text": "3) Kuberna, Marcin Jan, *09.04.1977, Zukowo/Polen"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "dismissed": true,
+                    "lastname": "Rechtsform: Durch Beschluss der Gesellschafterversammlungen vom 05.11.2015 und 18.01.2016 ist der Gesellschaftsvertrag abgeändert in § 1 (Firma)",
+                    "name": "§ 3 (Gegenstand des Unternehmens) und in § 6 (Vertretung)"
+                },
+                "text": " Rechtsform: Durch Beschluss der Gesellschafterversammlungen vom 05.11.2015 und 18.01.2016 ist der Gesellschaftsvertrag abgeändert in § 1 (Firma), § 3 (Gegenstand des Unternehmens) und in § 6 (Vertretung)."
             }
         ]
     }

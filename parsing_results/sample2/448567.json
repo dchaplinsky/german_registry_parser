@@ -57,18 +57,37 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Marston Montgomery Ashbourne/Großbritannien / Vereinigtes Königreich",
-                    "dob": "1960-06-02",
+                    "dob": "1960-02-06",
                     "lastname": "Blundell",
                     "name": "Andrew Martin"
                 },
                 "text": " Blundell, Andrew Martin, Marston Montgomery Ashbourne/Großbritannien / Vereinigtes Königreich, *06.02.1960"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Morpeth / Vereinigtes Königreich",
+                    "dob": "1969-06-14",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Stoner",
+                    "name": "Mark Anthony"
+                },
+                "text": " Stoner, Mark Anthony, Morpeth / Vereinigtes Königreich, *14.06.1969, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Westerham/Kent / Vereinigtes Königreich",
                     "dismissed": true,
-                    "dob": "1974-11-09",
+                    "dob": "1974-09-11",
                     "lastname": "Bosshard",
                     "name": "Laurence"
                 },

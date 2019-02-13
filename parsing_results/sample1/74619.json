@@ -27,7 +27,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bad Köstritz",
-                    "dob": "1977-06-02",
+                    "dob": "1977-02-06",
                     "flag": "sole representation",
                     "lastname": "Rohn",
                     "name": "Kay"
@@ -35,11 +35,19 @@
                 "text": " Rohn, Kay, Bad Köstritz, *06.02.1977, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Wiltshire - UK",
                     "dismissed": true,
-                    "dob": "1969-09-11",
+                    "dob": "1969-11-09",
                     "lastname": "Goode",
                     "name": "Stuart"
                 },

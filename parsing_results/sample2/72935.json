@@ -34,11 +34,44 @@
                 "payload": {
                     "city": "Diepholz",
                     "dismissed": true,
-                    "dob": "1954-01-08",
+                    "dob": "1954-08-01",
                     "lastname": "Buß-Lissek",
                     "name": "Gerold"
                 },
                 "text": " Buß-Lissek, Gerold, Diepholz, *01.08.1954"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Hannover",
+                    "dismissed": true,
+                    "dob": "1955-10-03",
+                    "lastname": "Glander",
+                    "name": "Wilfried"
+                },
+                "text": " Glander, Wilfried, Hannover, *03.10.1955"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Edemissen",
+                    "dismissed": true,
+                    "dob": "1961-10-14",
+                    "lastname": "Rieken",
+                    "name": "Rolf"
+                },
+                "text": " Rieken, Rolf, Edemissen, *14.10.1961"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Müden",
+                    "dismissed": true,
+                    "dob": "1960-10-23",
+                    "lastname": "Schmidt",
+                    "name": "Ralf"
+                },
+                "text": " Schmidt, Ralf, Müden, *23.10.1960."
             },
             {
                 "class": "ManagingDirector",
@@ -49,6 +82,25 @@
                     "name": "Joachim"
                 },
                 "text": " Mrotzek, Joachim, Großenkneten, *30.10.1960"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Adenbüttel",
+                    "dob": "1967-07-06",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Warneboldt",
+                    "name": "Steffen"
+                },
+                "text": " Warneboldt, Steffen, Adenbüttel, *06.07.1967, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

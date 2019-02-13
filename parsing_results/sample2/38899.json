@@ -35,12 +35,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1946-06-08",
+                    "dob": "1946-08-06",
                     "flag": "sole representation",
                     "lastname": "Doctor Haesen",
                     "name": "Diedrich"
                 },
                 "text": " Doctor Haesen, Diedrich, Hamburg, *06.08.1946, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen Rechtsgeschäfte abzuschließen."
             }
         ]
     }

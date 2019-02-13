@@ -27,11 +27,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Nördlingen",
-                    "dob": "1986-12-10",
+                    "dob": "1986-10-12",
                     "lastname": "Martin",
                     "name": "Matthias"
                 },
                 "text": " Martin, Matthias, Nördlingen, *12.10.1986"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Reimlingen",
+                    "dob": "1980-12-27",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Ott",
+                    "name": "Jürgen"
+                },
+                "text": " Ott, Jürgen, Reimlingen, *27.12.1980, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "RetiredManagingDirector",

@@ -42,12 +42,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "wunstorf",
-                    "dob": "1985-08-06",
+                    "dob": "1985-06-08",
                     "flag": "sole representation",
                     "lastname": "süleymanova",
                     "name": "aida"
                 },
                 "text": " süleymanova, aida, wunstorf, *08.06.1985, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der befugnis",
+                    "name": "im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der befugnis, im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen."
             }
         ]
     }

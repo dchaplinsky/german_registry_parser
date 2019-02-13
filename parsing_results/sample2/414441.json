@@ -57,12 +57,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Seevetal",
-                    "dob": "1979-03-04",
+                    "dob": "1979-04-03",
                     "flag": "sole representation",
                     "lastname": "Eggers",
                     "name": "Thies"
                 },
                 "text": " Eggers, Thies, Seevetal, *03.04.1979, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

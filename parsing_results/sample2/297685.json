@@ -53,12 +53,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1963-09-12",
+                    "dob": "1963-12-09",
                     "flag": "sole representation",
                     "lastname": "Doctor Oksaar",
                     "name": "Sven"
                 },
                 "text": " Doctor Oksaar, Sven, Hamburg, *09.12.1963, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ManagingDirector",
@@ -70,6 +78,14 @@
                     "name": "Jüri"
                 },
                 "text": " Vips, Jüri, Tallinn / Estland, *23.06.1956, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

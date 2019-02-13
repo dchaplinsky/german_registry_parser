@@ -34,11 +34,22 @@
                 "text": " Herbrand, Timo, Köln, *18.05.1971"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Köln",
+                    "dob": "1960-04-17",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Doctor Rachel",
+                    "name": "Christoph"
+                },
+                "text": " Doctor Rachel, Christoph, Köln, *17.04.1960, jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Köln",
                     "dismissed": true,
-                    "dob": "1966-01-09",
+                    "dob": "1966-09-01",
                     "lastname": "Meyer",
                     "name": "Marco"
                 },

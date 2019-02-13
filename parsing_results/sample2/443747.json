@@ -38,11 +38,21 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bonn",
-                    "dob": "1976-03-06",
+                    "dob": "1976-06-03",
                     "lastname": "Krause",
                     "name": "Michael"
                 },
                 "text": " Krause, Michael, Bonn, *03.06.1976"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Mülheim",
+                    "dob": "1957-11-23",
+                    "lastname": "Peters",
+                    "name": "Wilfried"
+                },
+                "text": " Peters, Wilfried, Mülheim, *23.11.1957."
             }
         ]
     }

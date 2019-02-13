@@ -29,6 +29,28 @@
                 "text": " Doctor Holst, Berend, Wolfsburg, *29.10.1960"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Wasbüttel",
+                    "dismissed": true,
+                    "dob": "1958-05-11",
+                    "lastname": "Möhle",
+                    "name": "Albrecht"
+                },
+                "text": " Möhle, Albrecht, Wasbüttel, *11.05.1958"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Meine",
+                    "dismissed": true,
+                    "dob": "1972-12-21",
+                    "lastname": "von Hammerstein-Gesmold",
+                    "name": "Gerko"
+                },
+                "text": " von Hammerstein-Gesmold, Gerko, Meine, *21.12.1972."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Cremlingen",
@@ -37,6 +59,16 @@
                     "name": "Gabriele Regina"
                 },
                 "text": " de Neidels, Gabriele Regina, Cremlingen, *28.01.1966"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Hannover",
+                    "dob": "1974-12-27",
+                    "lastname": "Harms",
+                    "name": "Ole"
+                },
+                "text": " Harms, Ole, Hannover, *27.12.1974."
             },
             {
                 "class": "ProcurationCancelled",

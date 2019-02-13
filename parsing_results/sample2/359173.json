@@ -36,7 +36,7 @@
                 "payload": {
                     "city": "Hamburg",
                     "dismissed": true,
-                    "dob": "1960-09-03",
+                    "dob": "1960-03-09",
                     "lastname": "Grychta",
                     "name": "Matthias"
                 },
@@ -52,6 +52,14 @@
                     "name": "Gottfried"
                 },
                 "text": " Doctor Neuhaus, Gottfried, Hamburg, *15.01.1949, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

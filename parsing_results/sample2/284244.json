@@ -34,7 +34,7 @@
                 "payload": {
                     "city": "Grevenbroich",
                     "dismissed": true,
-                    "dob": "1978-03-09",
+                    "dob": "1978-09-03",
                     "lastname": "Gerber",
                     "name": "Nico Jürgen"
                 },
@@ -51,10 +51,21 @@
                 "text": " Knauer, Martin, Wachtberg, *16.03.1964"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Wachtberg",
+                    "dob": "1966-06-19",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Scheffler",
+                    "name": "Guido"
+                },
+                "text": " Scheffler, Guido, Wachtberg, *19.06.1966, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Meerbusch",
-                    "dob": "1963-11-10",
+                    "dob": "1963-10-11",
                     "lastname": "Flindt",
                     "name": "Henning"
                 },

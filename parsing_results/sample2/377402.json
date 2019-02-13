@@ -16,6 +16,28 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=377402&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Einzelprokura\nmit der Befugnis zur Veräußerung und Belastung von Grundstücken, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rechtsform: Gesellschaft mit beschränkter Haftung, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Gesellschaftsvertrag vom:19)04.2016, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -73,7 +95,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1976-05-11",
+                    "dob": "1976-11-05",
                     "lastname": "Fischer",
                     "name": "Marc",
                     "ref": 1
@@ -84,7 +106,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1982-07-08",
+                    "dob": "1982-08-07",
                     "lastname": "Mähren",
                     "name": "Jakob",
                     "ref": 2
@@ -95,7 +117,7 @@
                 "class": "Procuration",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1982-09-05",
+                    "dob": "1982-05-09",
                     "lastname": "Stein",
                     "name": "Patricia",
                     "ref": 1

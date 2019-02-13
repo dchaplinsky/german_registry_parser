@@ -38,6 +38,25 @@
                 "text": " Silkenath, Christian Michael, Hamburg, *14.04.1967"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1969-01-01",
+                    "flag": "jeweils vertretungsberechtigt gemäß allgemeiner Vertretungsregelung",
+                    "lastname": "von Leesen",
+                    "name": "Martin"
+                },
+                "text": " von Leesen, Martin, Hamburg, *01.01.1969, jeweils vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Essen",
@@ -47,6 +66,14 @@
                     "name": "Willem Arie"
                 },
                 "text": " Kuijl, Willem Arie, Essen, *16.11.1952, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

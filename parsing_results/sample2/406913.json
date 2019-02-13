@@ -19,7 +19,35 @@
         "errors": [
             {
                 "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  Änderung zu Nr. 1: hinsichtlich der Vertretungsbefugnis, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
                 "text": "Cannot parse a Procuration from  Änderung zu Nr. 1: nunmehr, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  Prokura: Änderung zu Nr. 1: nunmehr, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  Einzelprokura\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  Einzelprokura\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  3., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "flags": [
@@ -109,12 +137,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Echzell",
-                    "dob": "1976-04-03",
+                    "dob": "1976-03-04",
                     "lastname": "Goldgruber",
                     "name": "Florian",
                     "ref": 3
                 },
                 "text": "3) Goldgruber, Florian, *04.03.1976, Echzell"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "dismissed": true,
+                    "lastname": "Horn",
+                    "name": "Eyal"
+                },
+                "text": " Horn, Eyal"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "dismissed": true,
+                    "lastname": "Änderung zu Nr. 2: Lehr",
+                    "name": "Uwe"
+                },
+                "text": " Änderung zu Nr. 2: Lehr, Uwe"
             }
         ]
     }

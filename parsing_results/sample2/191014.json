@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=191014&land_abk=hh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "labels": [
             {
                 "label": "address",
@@ -28,7 +34,7 @@
                 "payload": {
                     "city": "Hamburg",
                     "dismissed": true,
-                    "dob": "1938-08-05",
+                    "dob": "1938-05-08",
                     "lastname": "Behrendt",
                     "name": "Hartwig"
                 },
@@ -38,7 +44,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1966-11-02",
+                    "dob": "1966-02-11",
                     "flag": "sole representation",
                     "lastname": "Ehrigsen",
                     "name": "Kathrin"

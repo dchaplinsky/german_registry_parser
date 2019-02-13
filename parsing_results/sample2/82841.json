@@ -45,11 +45,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Birkheim",
-                    "dob": "1941-11-09",
+                    "dob": "1941-09-11",
                     "lastname": "Schubert",
                     "name": "Lutz"
                 },
                 "text": " Schubert, Lutz, Birkheim, *11.09.1941"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bautzen",
+                    "dob": "1951-01-11",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Wagner",
+                    "name": "Wolfgang"
+                },
+                "text": " Wagner, Wolfgang, Bautzen, *11.01.1951, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

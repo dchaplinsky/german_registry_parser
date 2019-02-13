@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=441661&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rechtsform: Gesellschaft mit beschränkter Haftung, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -75,6 +85,13 @@
                     "ref": 1
                 },
                 "text": "1) Dr. Drehsen, Reinhard, *26.01.1951, Mölln"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "company_name": "Gesellschaftsvertrag vom:26)03.1993\nzuletzt geändert durch Beschluss vom 22.07.2013\nDurch Beschluss der Gesellschafterversammlung vom 14.07.2017 ist der Sitz der Gesellschaft von Mölln (Amtsgericht Lübeck, HRB 319 MÖ) nach Berlin verlegt und der Gesellschaftsvertrag geändert in § 2 (Sitz), § 3 (Gegenstand des Unternehmens), § 4 (Stammkapital)."
+                },
+                "text": " Gesellschaftsvertrag vom:26)03.1993\nzuletzt geändert durch Beschluss vom 22.07.2013\nDurch Beschluss der Gesellschafterversammlung vom 14.07.2017 ist der Sitz der Gesellschaft von Mölln (Amtsgericht Lübeck, HRB 319 MÖ) nach Berlin verlegt und der Gesellschaftsvertrag geändert in § 2 (Sitz), § 3 (Gegenstand des Unternehmens), § 4 (Stammkapital)."
             }
         ]
     }

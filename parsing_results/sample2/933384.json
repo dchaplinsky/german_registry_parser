@@ -49,7 +49,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Penzing",
-                    "dob": "1962-01-11",
+                    "dob": "1962-11-01",
                     "flag": "sole representation",
                     "lastname": "Stadler",
                     "name": "Rüdiger"
@@ -57,10 +57,18 @@
                 "text": " Stadler, Rüdiger, Penzing, *01.11.1962, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Krumbach",
-                    "dob": "1979-07-09",
+                    "dob": "1979-09-07",
                     "lastname": "Kirschenhofer",
                     "name": "Florian"
                 },

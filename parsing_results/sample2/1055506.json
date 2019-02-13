@@ -75,14 +75,45 @@
                 "text": " Baric, Goran, Frankfurt am Main, *30.12.1972"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Meerbusch",
+                    "dob": "1976-06-09",
+                    "flag": "jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Corominas Herberg",
+                    "name": "Ricardo"
+                },
+                "text": " Corominas Herberg, Ricardo, Meerbusch, *09.06.1976, jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Maidenhead",
-                    "dob": "1961-12-10",
+                    "dob": "1961-10-12",
                     "lastname": "Marriner",
                     "name": "Elaine"
                 },
                 "text": " Marriner, Elaine, Maidenhead, *12.10.1961"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Middlesex",
+                    "dob": "1971-09-22",
+                    "lastname": "Stagg",
+                    "name": "Kelvin"
+                },
+                "text": " Stagg, Kelvin, Middlesex, *22.09.1971"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Weimar/Lahn",
+                    "dob": "1967-09-23",
+                    "lastname": "Törner",
+                    "name": "Dirk"
+                },
+                "text": " Törner, Dirk, Weimar/Lahn, *23.09.1967."
             }
         ]
     }

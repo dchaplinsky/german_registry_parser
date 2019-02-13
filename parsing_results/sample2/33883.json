@@ -39,6 +39,17 @@
                 "text": " Todsen, Bendix, Hamburg, *23.07.1936"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Ahrensburg",
+                    "dismissed": true,
+                    "dob": "1942-01-26",
+                    "lastname": "von der Heydt",
+                    "name": "Joachim"
+                },
+                "text": " von der Heydt, Joachim, Ahrensburg, *26.01.1942."
+            },
+            {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Hamburg",
@@ -48,6 +59,14 @@
                     "name": "Joachim"
                 },
                 "text": " von der Heydt, Joachim, Hamburg, *26.01.1942, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

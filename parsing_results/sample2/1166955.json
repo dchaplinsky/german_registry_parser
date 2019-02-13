@@ -37,7 +37,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Rosenheim",
-                    "dob": "1961-07-06",
+                    "dob": "1961-06-07",
                     "flag": "sole representation",
                     "lastname": "Fegg",
                     "name": "Max"
@@ -45,15 +45,31 @@
                 "text": " Fegg, Max, Rosenheim, *07.06.1961, einzelvertretungsberechtigt"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rosenheim",
-                    "dob": "1968-10-07",
+                    "dob": "1968-07-10",
                     "flag": "sole representation",
                     "lastname": "Fegg-Talajic",
                     "name": "Suzana"
                 },
                 "text": " Fegg-Talajic, Suzana, Rosenheim, *10.07.1968, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

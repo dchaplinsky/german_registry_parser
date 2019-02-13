@@ -57,12 +57,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
-                    "dob": "1982-05-11",
+                    "dob": "1982-11-05",
                     "flag": "sole representation",
                     "lastname": "Wehler",
                     "name": "Marco"
                 },
                 "text": " Wehler, Marco, Düsseldorf, *05.11.1982, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

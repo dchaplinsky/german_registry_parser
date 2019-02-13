@@ -57,12 +57,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Split/Kroatien / Kroatien",
-                    "dob": "1978-02-03",
+                    "dob": "1978-03-02",
                     "flag": "sole representation",
                     "lastname": "Malenica",
                     "name": "Vedran"
                 },
                 "text": " Malenica, Vedran, Split/Kroatien / Kroatien, *02.03.1978, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

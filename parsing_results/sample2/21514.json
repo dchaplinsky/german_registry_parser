@@ -39,18 +39,37 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Magdeburg",
-                    "dob": "1954-04-01",
+                    "dob": "1954-01-04",
                     "lastname": "Diplomingenieur Eggert",
                     "name": "Conny"
                 },
                 "text": " Diplomingenieur Eggert, Conny, Magdeburg, *04.01.1954"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Magdeburg",
+                    "dob": "1961-07-29",
+                    "flag": "jeweils vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer",
+                    "lastname": "Zembrod",
+                    "name": "Heike"
+                },
+                "text": " Zembrod, Heike, Magdeburg, *29.07.1961, jeweils vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Jork",
                     "dismissed": true,
-                    "dob": "1947-07-12",
+                    "dob": "1947-12-07",
                     "lastname": "Regenbogen",
                     "name": "Heinrich"
                 },

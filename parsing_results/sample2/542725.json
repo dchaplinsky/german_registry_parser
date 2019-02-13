@@ -45,11 +45,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Sulzbach",
-                    "dob": "1974-09-05",
+                    "dob": "1974-05-09",
                     "lastname": "Mahmud",
                     "name": "Anwar"
                 },
                 "text": " Mahmud, Anwar, Sulzbach, *09.05.1974"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Fellbach",
+                    "dob": "1980-07-28",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Oelfke",
+                    "name": "Sören-Bengt"
+                },
+                "text": " Oelfke, Sören-Bengt, Fellbach, *28.07.1980, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

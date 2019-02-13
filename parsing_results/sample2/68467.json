@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=68467&land_abk=hb"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from   Gesellschaft mit beschränkter Haftung., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -53,11 +59,19 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Bremen",
-                    "dob": "1984-10-06",
+                    "dob": "1984-06-10",
                     "lastname": "Schopf",
                     "name": "Marc"
                 },
                 "text": " Schopf, Marc, *10.06.1984, Bremen"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis die Gesellschaft allein zu vertreten",
+                    "name": "\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                },
+                "text": " mit der Befugnis die Gesellschaft allein zu vertreten,\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
             }
         ]
     }

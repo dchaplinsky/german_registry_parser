@@ -33,12 +33,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Worpswede",
-                    "dob": "1956-08-11",
+                    "dob": "1956-11-08",
                     "flag": "sole representation",
                     "lastname": "Höfermann",
                     "name": "Thomas"
                 },
                 "text": " Höfermann, Thomas, Worpswede, *08.11.1956, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "DismissedManagingDirector",
@@ -50,6 +58,16 @@
                     "name": "Torsten"
                 },
                 "text": " Schmidt, Torsten, Stadland, *30.05.1966"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Varel",
+                    "dismissed": true,
+                    "lastname": "Vetter",
+                    "name": "Ernst"
+                },
+                "text": " Vetter, Ernst, Varel."
             }
         ]
     }

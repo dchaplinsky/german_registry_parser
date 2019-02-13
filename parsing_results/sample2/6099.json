@@ -43,12 +43,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Stralsund",
-                    "dob": "1965-07-05",
+                    "dob": "1965-05-07",
                     "flag": "sole representation",
                     "lastname": "Rohr",
                     "name": "Steffen"
                 },
                 "text": " Rohr, Steffen, Stralsund, *07.05.1965, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",

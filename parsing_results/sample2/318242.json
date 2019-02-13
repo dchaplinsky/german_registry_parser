@@ -27,12 +27,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1962-03-04",
+                    "dob": "1962-04-03",
                     "flag": "vertretungsberechtigt gemäß allgemeiner Vertretungsregelung",
                     "lastname": "Schittek",
                     "name": "Ulrich"
                 },
                 "text": " Schittek, Ulrich, Hamburg, *03.04.1962, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "RetiredManagingDirector",
@@ -44,6 +52,17 @@
                     "name": "Jürgen"
                 },
                 "text": " Hutt, Jürgen, Hamburg, *17.09.1976"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dismissed": true,
+                    "dob": "1984-08-03",
+                    "lastname": "Krämer",
+                    "name": "Christian Peter"
+                },
+                "text": " Krämer, Christian Peter, Hamburg, *03.08.1984."
             }
         ]
     }

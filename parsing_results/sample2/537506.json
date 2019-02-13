@@ -33,11 +33,22 @@
                 "payload": {
                     "city": "Dessau-Roßlau",
                     "dismissed": true,
-                    "dob": "1954-12-05",
+                    "dob": "1954-05-12",
                     "lastname": "Lübeck",
                     "name": "Marlis"
                 },
                 "text": " Lübeck, Marlis, Dessau-Roßlau, *12.05.1954"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Bochum",
+                    "dismissed": true,
+                    "dob": "1967-09-05",
+                    "lastname": "Schumacher",
+                    "name": "Stefan"
+                },
+                "text": " Schumacher, Stefan, Bochum, *05.09.1967."
             }
         ]
     }

@@ -19,7 +19,19 @@
         "errors": [
             {
                 "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertretenmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from , error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Geschäftsführer:, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertretenmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "flags": [
@@ -48,6 +60,16 @@
                     "name": "Joachim"
                 },
                 "text": " Krechel, Joachim"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Potsdam",
+                    "dob": "1961-02-22",
+                    "lastname": "Tarras",
+                    "name": "Wolfram"
+                },
+                "text": "Tarras, Wolfram, *22.02.1961, Potsdam"
             }
         ]
     }

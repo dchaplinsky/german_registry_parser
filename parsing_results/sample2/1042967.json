@@ -45,11 +45,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
-                    "dob": "1985-01-10",
+                    "dob": "1985-10-01",
                     "lastname": "Reißner",
                     "name": "Andreas Alexander"
                 },
                 "text": " Reißner, Andreas Alexander, Stuttgart, *01.10.1985"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Stuttgart",
+                    "dob": "1985-10-01",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Reißner",
+                    "name": "Patrick"
+                },
+                "text": " Reißner, Patrick, Stuttgart, *01.10.1985, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

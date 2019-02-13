@@ -56,12 +56,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Bösel",
-                    "dob": "1949-10-08",
+                    "dob": "1949-08-10",
                     "flag": "sole representation",
                     "lastname": "Vahrson",
                     "name": "Heinrich"
                 },
                 "text": " Vahrson, Heinrich, Bösel, *10.08.1949, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "DismissedManagingDirector",

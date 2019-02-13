@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Geilenkirchen",
                     "dismissed": true,
-                    "dob": "1962-12-01",
+                    "dob": "1962-01-12",
                     "lastname": "Lieben",
                     "name": "Rolf"
                 },
@@ -38,11 +38,32 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dorsten",
-                    "dob": "1949-01-03",
+                    "dob": "1949-03-01",
                     "lastname": "Bell",
                     "name": "Hermann K"
                 },
                 "text": " Bell, Hermann K, Dorsten, *01.03.1949"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Duisburg",
+                    "dob": "1949-12-07",
+                    "lastname": "Rüdiger",
+                    "name": "Jürgen H"
+                },
+                "text": " Rüdiger, Jürgen H., Duisburg, *07.12.1949"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Erkrath",
+                    "dob": "1952-04-01",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Schaefer",
+                    "name": "Willi"
+                },
+                "text": " Schaefer, Willi, Erkrath, *01.04.1952, jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

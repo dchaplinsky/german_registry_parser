@@ -31,22 +31,76 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Leinfelden-Echterdingen",
-                    "dob": "1960-12-01",
+                    "dob": "1960-01-12",
                     "lastname": "Koch",
                     "name": "Heimo"
                 },
                 "text": " Koch, Heimo, Leinfelden-Echterdingen, *12.01.1960"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Haar",
+                    "dob": "1961-04-24",
+                    "lastname": "Porr",
+                    "name": "Oliver"
+                },
+                "text": " Porr, Oliver, Haar, *24.04.1961"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Rain",
+                    "dob": "1958-03-15",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Soethe",
+                    "name": "Robert"
+                },
+                "text": " Soethe, Robert, Rain, *15.03.1958, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Dudenhofen",
                     "dismissed": true,
-                    "dob": "1963-11-02",
+                    "dob": "1963-02-11",
                     "lastname": "Deuerling",
                     "name": "Gunther"
                 },
                 "text": " Deuerling, Gunther, Dudenhofen, *11.02.1963"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Murrhardt",
+                    "dismissed": true,
+                    "dob": "1957-02-28",
+                    "lastname": "Glassl",
+                    "name": "Ulrich"
+                },
+                "text": " Glassl, Ulrich, Murrhardt, *28.02.1957"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dismissed": true,
+                    "dob": "1958-08-22",
+                    "lastname": "Grübler",
+                    "name": "Olaf"
+                },
+                "text": " Grübler, Olaf, Frankfurt am Main, *22.08.1958"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Heidelberg",
+                    "dismissed": true,
+                    "dob": "1949-03-03",
+                    "lastname": "Jung",
+                    "name": "Joachim"
+                },
+                "text": " Jung, Joachim, Heidelberg, *03.03.1949."
             },
             {
                 "class": "ProcurationCancelled",
@@ -58,6 +112,39 @@
                     "name": "Helmut"
                 },
                 "text": " Dreizler, Helmut, Mannheim, *16.09.1953"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Mannheim",
+                    "dismissed": true,
+                    "dob": "1967-04-28",
+                    "lastname": "Förster",
+                    "name": "Christine"
+                },
+                "text": " Förster, Christine, Mannheim, *28.04.1967"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Krefeld",
+                    "dismissed": true,
+                    "dob": "1969-05-13",
+                    "lastname": "Götze",
+                    "name": "Holger"
+                },
+                "text": " Götze, Holger, Krefeld, *13.05.1969"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Rottweil",
+                    "dismissed": true,
+                    "dob": "1965-09-03",
+                    "lastname": "Vollmer",
+                    "name": "Michael"
+                },
+                "text": " Vollmer, Michael, Rottweil, *03.09.1965."
             }
         ]
     }

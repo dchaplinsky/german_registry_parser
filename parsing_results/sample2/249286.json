@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=249286&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: Gesellschaft mit beschränkter Haftung, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -70,6 +80,13 @@
                     "ref": 2
                 },
                 "text": "2) Mittelstraß, Dominic, *25.01.1975, Berlin"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "company_name": "Gesellschaftsvertrag vom:01)12.2010 Durch Beschluss der Gesellschafterversammlung vom 03.05.2013 ist der Sitz der Gesellschaft von Leipzig (Amtsgericht Leipzig, HRB 26872) nach Berlin verlegt und der Gesellschaftsvertrag geändert in § 1 (Sitz)."
+                },
+                "text": " Gesellschaftsvertrag vom:01)12.2010 Durch Beschluss der Gesellschafterversammlung vom 03.05.2013 ist der Sitz der Gesellschaft von Leipzig (Amtsgericht Leipzig, HRB 26872) nach Berlin verlegt und der Gesellschaftsvertrag geändert in § 1 (Sitz)."
             }
         ]
     }

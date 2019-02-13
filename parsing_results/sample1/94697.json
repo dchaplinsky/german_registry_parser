@@ -33,7 +33,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Edemissen",
-                    "dob": "1966-12-08",
+                    "dob": "1966-08-12",
                     "flag": "sole representation",
                     "lastname": "Francis",
                     "name": "Christina"
@@ -41,11 +41,19 @@
                 "text": " Francis, Christina, Edemissen, *12.08.1966, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Edemissen",
                     "dismissed": true,
-                    "dob": "1966-12-08",
+                    "dob": "1966-08-12",
                     "lastname": "Francis",
                     "name": "Christina"
                 },

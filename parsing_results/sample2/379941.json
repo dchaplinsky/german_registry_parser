@@ -49,12 +49,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Darmstadt",
-                    "dob": "1983-11-01",
+                    "dob": "1983-01-11",
                     "flag": "sole representation",
                     "lastname": "Deuker",
                     "name": "Sina"
                 },
                 "text": " Deuker, Sina, Darmstadt, *11.01.1983, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "AppointedManagingDirector",
@@ -66,6 +74,14 @@
                     "name": "Ricardo"
                 },
                 "text": " Deuker, Ricardo, Darmstadt, *27.07.1982, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

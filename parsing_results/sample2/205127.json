@@ -34,7 +34,7 @@
                 "payload": {
                     "city": "Dresden",
                     "dismissed": true,
-                    "dob": "1964-09-03",
+                    "dob": "1964-03-09",
                     "lastname": "Blei",
                     "name": "Evelyn"
                 },
@@ -50,6 +50,14 @@
                     "name": "Angela"
                 },
                 "text": " Gernhardt, Angela, Saalfeld, *06.06.1969, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

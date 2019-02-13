@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Rossau",
                     "dismissed": true,
-                    "dob": "1954-02-08",
+                    "dob": "1954-08-02",
                     "lastname": "Krüger",
                     "name": "Wilfried"
                 },
@@ -38,7 +38,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Innsbruck / Österreich",
-                    "dob": "1965-07-10",
+                    "dob": "1965-10-07",
                     "flag": "sole representation",
                     "lastname": "Doctor Hamm",
                     "name": "Stefan"
@@ -46,10 +46,18 @@
                 "text": " Doctor Hamm, Stefan, Innsbruck / Österreich, *07.10.1965, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Bernsdorf",
-                    "dob": "1964-12-11",
+                    "dob": "1964-11-12",
                     "flag": "nicht mehr einzelvertretungsberechtigt",
                     "lastname": "Walter",
                     "name": "Andreas"

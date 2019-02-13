@@ -37,11 +37,22 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Karlsruhe",
-                    "dob": "1990-10-02",
+                    "dob": "1990-02-10",
                     "lastname": "Groh",
                     "name": "Alexander"
                 },
                 "text": " Groh, Alexander, Karlsruhe, *10.02.1990"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Karlsruhe",
+                    "dob": "1979-02-23",
+                    "flag": "jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Meyer",
+                    "name": "Harald"
+                },
+                "text": " Meyer, Harald, Karlsruhe, *23.02.1979, jeweils einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

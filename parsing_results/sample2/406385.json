@@ -41,11 +41,22 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Köln",
-                    "dob": "1980-11-12",
+                    "dob": "1980-12-11",
                     "lastname": "Tigges",
                     "name": "Bastian"
                 },
                 "text": " Tigges, Bastian, Köln, *11.12.1980"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Köln",
+                    "dob": "1979-07-09",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Wichert",
+                    "name": "Wilhelm Jean"
+                },
+                "text": " Wichert, Wilhelm Jean, Köln, *09.07.1979, jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

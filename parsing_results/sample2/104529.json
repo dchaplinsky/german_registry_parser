@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=104529&land_abk=sh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -51,12 +57,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Aichstetten",
-                    "dob": "1963-08-07",
+                    "dob": "1963-07-08",
                     "lastname": "Vosgerau",
                     "name": "Michael",
                     "ref": 4
                 },
                 "text": "4) Vosgerau, Michael, *08.07.1963, Aichstetten"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 28.11.2011 ist der Gesellschaftsvertrag geändert in §§ 1 (Firma und Sitz)",
+                    "name": "2 (Gegenstand des Unternehmens) und 8 (Erbfall)"
+                },
+                "text": " Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 28.11.2011 ist der Gesellschaftsvertrag geändert in §§ 1 (Firma und Sitz), 2 (Gegenstand des Unternehmens) und 8 (Erbfall)."
             }
         ]
     }

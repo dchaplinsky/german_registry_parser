@@ -31,12 +31,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Neuenkirchen",
-                    "dob": "1965-09-01",
+                    "dob": "1965-01-09",
                     "flag": "sole representation",
                     "lastname": "Lüdeke",
                     "name": "Michael"
                 },
                 "text": " Lüdeke, Michael, Neuenkirchen, *09.01.1965, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
@@ -50,9 +58,20 @@
                 "text": " Rehfeld, Klaus-Dieter, Lübeck, *13.10.1946"
             },
             {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Lübeck",
+                    "dismissed": true,
+                    "dob": "1948-10-15",
+                    "lastname": "Rehfeld",
+                    "name": "Rosemarie"
+                },
+                "text": " Rehfeld, Rosemarie, Lübeck, *15.10.1948."
+            },
+            {
                 "class": "SingleProcuration",
                 "payload": {
-                    "dob": "1964-08-10",
+                    "dob": "1964-10-08",
                     "lastname": "Damstädter",
                     "name": "Dirk"
                 },

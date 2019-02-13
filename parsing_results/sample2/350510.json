@@ -45,11 +45,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Esslingen-Sulzgries",
-                    "dob": "1938-10-11",
+                    "dob": "1938-11-10",
                     "lastname": "Baur",
                     "name": "Ernst"
                 },
                 "text": " Baur, Ernst, Esslingen-Sulzgries, *10.11.1938"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Trebsen",
+                    "dob": "1960-06-19",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Wiesemann",
+                    "name": "Uwe"
+                },
+                "text": " Wiesemann, Uwe, Trebsen, *19.06.1960, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

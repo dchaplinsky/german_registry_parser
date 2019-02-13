@@ -37,11 +37,19 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1964-10-05",
+                    "dob": "1964-05-10",
                     "lastname": "Kewitz",
                     "name": "Hans-Jürgen"
                 },
                 "text": " Kewitz, Hans-Jürgen, *10.05.1964, Berlin"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis die Gesellschaft allein zu vertreten",
+                    "name": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                },
+                "text": " mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen."
             },
             {
                 "class": "DismissedManagingDirector",

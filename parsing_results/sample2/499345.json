@@ -28,17 +28,28 @@
                 "payload": {
                     "city": "Straßlach",
                     "dismissed": true,
-                    "dob": "1961-02-10",
+                    "dob": "1961-10-02",
                     "lastname": "Jäggle",
                     "name": "Peter"
                 },
                 "text": " Jäggle, Peter, Straßlach, *02.10.1961"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Bruck",
+                    "dismissed": true,
+                    "dob": "1953-01-12",
+                    "lastname": "Riedl",
+                    "name": "Kreszenz"
+                },
+                "text": " Riedl, Kreszenz, Bruck, *12.01.1953."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rosenheim",
-                    "dob": "1977-02-12",
+                    "dob": "1977-12-02",
                     "lastname": "Schwer",
                     "name": "Christoph"
                 },

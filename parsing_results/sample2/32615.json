@@ -46,12 +46,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1952-11-12",
+                    "dob": "1952-12-11",
                     "flag": "sole representation",
                     "lastname": "Bachelier",
                     "name": "Volker"
                 },
                 "text": " Bachelier, Volker, Berlin, *11.12.1952, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

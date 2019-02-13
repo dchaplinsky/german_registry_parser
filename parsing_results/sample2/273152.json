@@ -22,7 +22,7 @@
                 "payload": {
                     "city": "Hamburg",
                     "dismissed": true,
-                    "dob": "1940-04-03",
+                    "dob": "1940-03-04",
                     "lastname": "Wörner",
                     "name": "Armin"
                 },
@@ -37,6 +37,25 @@
                     "name": "Eberhard"
                 },
                 "text": " Heinz, Eberhard, Siegen, *20.05.1959"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Hattingen",
+                    "dob": "1963-04-02",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Kalle",
+                    "name": "Andreas"
+                },
+                "text": " Kalle, Andreas, Hattingen, *02.04.1963, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

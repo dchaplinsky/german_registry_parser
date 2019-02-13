@@ -35,10 +35,39 @@
                 "text": " Gobell, Jürgen, Limburg a.d. Lahn, *01.01.1942, einzelvertretungsberechtigt"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wiesbaden",
-                    "dob": "1961-06-08",
+                    "dob": "1961-08-06",
+                    "lastname": "Ott",
+                    "name": "Stephan"
+                },
+                "text": " Ott, Stephan, Wiesbaden, *06.08.1961"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Wiesbaden",
+                    "dob": "1963-12-08",
+                    "lastname": "Schmitt",
+                    "name": "Bernhard"
+                },
+                "text": " Schmitt, Bernhard, Wiesbaden, *08.12.1963."
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Wiesbaden",
+                    "dismissed": true,
+                    "dob": "1961-08-06",
                     "lastname": "Ott",
                     "name": "Stephan"
                 },
@@ -49,11 +78,11 @@
                 "payload": {
                     "city": "Wiesbaden",
                     "dismissed": true,
-                    "dob": "1961-06-08",
-                    "lastname": "Ott",
-                    "name": "Stephan"
+                    "dob": "1963-12-08",
+                    "lastname": "Schmitt",
+                    "name": "Bernhard"
                 },
-                "text": " Ott, Stephan, Wiesbaden, *06.08.1961"
+                "text": " Schmitt, Bernhard, Wiesbaden, *08.12.1963."
             }
         ]
     }

@@ -49,11 +49,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1980-12-08",
+                    "dob": "1980-08-12",
                     "lastname": "Brunke",
                     "name": "Simon"
                 },
                 "text": " Brunke, Simon, Hamburg, *12.08.1980"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1980-11-24",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Doctor Maronde",
+                    "name": "Björn"
+                },
+                "text": " Doctor Maronde, Björn, Hamburg, *24.11.1980, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

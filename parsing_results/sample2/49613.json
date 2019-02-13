@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=49613&land_abk=sh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Hlubek, Karl Jürgen, *15.09.1955, Schwentinental und Stoltenberg, Hendrik, *30.12.1978, Esgrus, error text was no valid patter found, number of chunks: 7"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  jeweils mit der Befugnis die Gesellschaft allein zu vertreten und Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability.",
@@ -45,11 +55,41 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Gettorf",
-                    "dob": "1977-11-03",
+                    "dob": "1977-03-11",
                     "lastname": "Ehmke",
                     "name": "Kay"
                 },
                 "text": " Ehmke, Kay, *11.03.1977, Gettorf"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Kiel",
+                    "dob": "1977-09-30",
+                    "lastname": "Flintrop",
+                    "name": "Jan"
+                },
+                "text": " Flintrop, Jan, *30.09.1977, Kiel"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Schwentinental",
+                    "dob": "1978-09-15",
+                    "lastname": "Gogolok",
+                    "name": "Thomas Alexander"
+                },
+                "text": " Gogolok, Thomas Alexander, *15.09.1978, Schwentinental"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Schwentinental",
+                    "dob": "1957-12-16",
+                    "lastname": "Hlubek",
+                    "name": "Barbara geborene Zessin"
+                },
+                "text": " Hlubek, Barbara geborene Zessin, *16.12.1957, Schwentinental"
             }
         ]
     }

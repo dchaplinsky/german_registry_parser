@@ -39,12 +39,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Obergriesbach",
-                    "dob": "1946-10-12",
+                    "dob": "1946-12-10",
                     "flag": "sole representation",
                     "lastname": "Heine",
                     "name": "Klaus-Dieter"
                 },
                 "text": " Heine, Klaus-Dieter, Obergriesbach, *10.12.1946, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

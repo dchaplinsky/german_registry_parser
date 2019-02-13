@@ -45,11 +45,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hofheim am Main",
-                    "dob": "1970-12-01",
+                    "dob": "1970-01-12",
                     "lastname": "Mitternacht",
                     "name": "Frank"
                 },
                 "text": " Mitternacht, Frank, Hofheim am Main, *12.01.1970"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hofheim am Taunus",
+                    "dob": "1964-03-01",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Neumann",
+                    "name": "Andreas"
+                },
+                "text": " Neumann, Andreas, Hofheim am Taunus, *01.03.1964, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

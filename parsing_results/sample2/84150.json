@@ -49,11 +49,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1965-03-01",
+                    "dob": "1965-01-03",
                     "lastname": "Kabs",
                     "name": "Jens Uwe"
                 },
                 "text": " Kabs, Jens Uwe, Hamburg, *03.01.1965"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1973-02-04",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Kabs",
+                    "name": "Robert André"
+                },
+                "text": " Kabs, Robert André, Hamburg, *04.02.1973, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

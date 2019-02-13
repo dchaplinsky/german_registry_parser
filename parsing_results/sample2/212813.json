@@ -21,11 +21,21 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Leipzig",
-                    "dob": "1957-01-03",
+                    "dob": "1957-03-01",
                     "lastname": "Prof. Doctor Hummelsheim",
                     "name": "Horst"
                 },
                 "text": " Prof. Doctor Hummelsheim, Horst, Leipzig, *01.03.1957"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1960-01-10",
+                    "lastname": "Scheider",
+                    "name": "Michael"
+                },
+                "text": " Scheider, Michael, Berlin, *10.01.1960."
             }
         ]
     }

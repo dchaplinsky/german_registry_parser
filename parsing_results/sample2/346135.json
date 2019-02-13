@@ -27,12 +27,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Marburg",
-                    "dob": "1957-09-07",
+                    "dob": "1957-07-09",
                     "flag": "sole representation",
                     "lastname": "Prof. Doctor Stolz",
                     "name": "Wolfgang"
                 },
                 "text": " Prof. Doctor Stolz, Wolfgang, Marburg, *09.07.1957, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

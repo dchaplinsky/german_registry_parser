@@ -35,6 +35,17 @@
                 "text": " Ballreich, Peter Paul Werner, Hamburg, *19.06.1942"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dismissed": true,
+                    "dob": "1970-03-05",
+                    "lastname": "Witt",
+                    "name": "Christian"
+                },
+                "text": " Witt, Christian, Hamburg, *05.03.1970."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
@@ -44,6 +55,14 @@
                     "name": "Sven"
                 },
                 "text": " Bostelmann, Sven, Hamburg, *18.05.1979, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -51,12 +51,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "begijnendijk / belgien",
-                    "dob": "1974-04-06",
+                    "dob": "1974-06-04",
                     "flag": "sole representation",
                     "lastname": "de proost",
                     "name": "steven"
                 },
                 "text": " de proost, steven, begijnendijk / belgien, *04.06.1974, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der befugnis",
+                    "name": "im namen der gesellschaft mit sich als vertreter eines dritten rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der befugnis, im namen der gesellschaft mit sich als vertreter eines dritten rechtsgeschäfte abzuschließen."
             }
         ]
     }

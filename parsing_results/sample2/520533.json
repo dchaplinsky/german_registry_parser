@@ -45,11 +45,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hungen",
-                    "dob": "1973-01-09",
+                    "dob": "1973-09-01",
                     "lastname": "Harisch",
                     "name": "Marcel"
                 },
                 "text": " Harisch, Marcel, Hungen, *01.09.1973"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Romrod",
+                    "dob": "1977-05-20",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Slapa",
+                    "name": "Jürgen"
+                },
+                "text": " Slapa, Jürgen, Romrod, *20.05.1977, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -45,11 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Wien / Österreich",
-                    "dob": "1968-05-04",
+                    "dob": "1968-04-05",
                     "lastname": "Doctor Gfrerer",
                     "name": "Josef"
                 },
                 "text": " Doctor Gfrerer, Josef, Wien / Österreich, *05.04.1968"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Neustadt a",
+                    "lastname": "Zimmermann",
+                    "name": "Andreas"
+                },
+                "text": " Zimmermann, Andreas, Neustadt a."
             }
         ]
     }

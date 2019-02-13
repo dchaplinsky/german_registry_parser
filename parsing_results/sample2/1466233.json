@@ -41,11 +41,22 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Münster",
-                    "dob": "1990-10-06",
+                    "dob": "1990-06-10",
                     "lastname": "Atalan",
                     "name": "Farok"
                 },
                 "text": " Atalan, Farok, Münster, *10.06.1990"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Senden",
+                    "dob": "1990-01-27",
+                    "flag": "jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Atalan",
+                    "name": "Aledin"
+                },
+                "text": " Atalan, Aledin, Senden, *27.01.1990, jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

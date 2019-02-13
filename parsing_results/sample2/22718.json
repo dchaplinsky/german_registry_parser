@@ -34,11 +34,30 @@
                 "text": " Koop, Thorsten, Hamburg, *30.01.1968"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Harsefeld",
+                    "dob": "1955-09-28",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Zarnack",
+                    "name": "Stefan"
+                },
+                "text": " Zarnack, Stefan, Harsefeld, *28.09.1955, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Pinneberg",
                     "dismissed": true,
-                    "dob": "1952-04-08",
+                    "dob": "1952-08-04",
                     "lastname": "Schlegel",
                     "name": "Erich"
                 },

@@ -33,12 +33,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "München",
-                    "dob": "1965-06-07",
+                    "dob": "1965-07-06",
                     "flag": "sole representation",
                     "lastname": "Doctor Kiermeier",
                     "name": "Christian"
                 },
                 "text": " Doctor Kiermeier, Christian, München, *06.07.1965, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

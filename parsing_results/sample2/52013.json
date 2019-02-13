@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=52013&land_abk=rp"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a AppointedManagingDirector from  Koppenhagen, Gerhard, Radio- und Fernsehtechnikermeister, Niederkirchen, *18.10.1937, jeweils einzelvertretungsberechtigt., error text was Cannot parse DOB  Radio- und Fernsehtechnikermeister using regex"
+            }
+        ],
         "labels": [
             {
                 "label": "address",

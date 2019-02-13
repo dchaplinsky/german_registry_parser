@@ -27,7 +27,7 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Bingen am Rhein",
-                    "dob": "1947-05-04",
+                    "dob": "1947-04-05",
                     "flag": "sole representation",
                     "lastname": "Dahlhaus",
                     "name": "Hermann"
@@ -38,7 +38,7 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Mainz",
-                    "dob": "1957-01-05",
+                    "dob": "1957-05-01",
                     "flag": "sole representation",
                     "lastname": "Höhne",
                     "name": "Heinz Günter"
@@ -57,11 +57,33 @@
                 "text": " Noll, Ralf Paul, Rockenberg, *02.02.1967"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Hofheim am Taunus",
+                    "dismissed": true,
+                    "dob": "1973-03-08",
+                    "lastname": "Rudnik",
+                    "name": "Oliver"
+                },
+                "text": " Rudnik, Oliver, Hofheim am Taunus, *08.03.1973"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Friedrichsdorf",
+                    "dismissed": true,
+                    "dob": "1960-05-10",
+                    "lastname": "Trapp",
+                    "name": "Birgit"
+                },
+                "text": " Trapp, Birgit, Friedrichsdorf, *10.05.1960."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Wiesbaden",
                     "dismissed": true,
-                    "dob": "1969-09-10",
+                    "dob": "1969-10-09",
                     "lastname": "Naumann",
                     "name": "Christoph"
                 },

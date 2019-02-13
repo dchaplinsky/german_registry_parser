@@ -42,7 +42,7 @@
                 "payload": {
                     "city": "Berlin",
                     "dismissed": true,
-                    "dob": "1946-10-06",
+                    "dob": "1946-06-10",
                     "lastname": "Doctor Kauermann",
                     "name": "Karl"
                 },
@@ -58,6 +58,14 @@
                     "name": "Markus"
                 },
                 "text": " Doctor Schädler, Markus, Würzburg, *17.10.1967, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

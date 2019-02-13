@@ -35,7 +35,7 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Hofkirchen",
-                    "dob": "1965-01-05",
+                    "dob": "1965-05-01",
                     "flag": "sole representation",
                     "lastname": "Müller",
                     "name": "Christine"
@@ -45,8 +45,16 @@
             {
                 "class": "Liquidator",
                 "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
                     "city": "Hofkirchen",
-                    "dob": "1986-04-11",
+                    "dob": "1986-11-04",
                     "flag": "sole representation",
                     "lastname": ": Stanek",
                     "name": "Markus"
@@ -54,11 +62,19 @@
                 "text": ": Stanek, Markus, Hofkirchen, *04.11.1986, einzelvertretungsberechtigt"
             },
             {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Winzer",
                     "dismissed": true,
-                    "dob": "1965-01-05",
+                    "dob": "1965-05-01",
                     "lastname": "Müller",
                     "name": "Christine"
                 },

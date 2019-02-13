@@ -43,11 +43,32 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Künzelsau",
-                    "dob": "1950-05-10",
+                    "dob": "1950-10-05",
                     "lastname": "Gräter",
                     "name": "Dieter"
                 },
                 "text": " Gräter, Dieter, Künzelsau, *05.10.1950"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Esslingen am Neckar",
+                    "dob": "1962-12-10",
+                    "lastname": "Mende",
+                    "name": "Bernhard"
+                },
+                "text": " Mende, Bernhard, Esslingen am Neckar, *10.12.1962"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Hochdorf",
+                    "dob": "1969-07-15",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Ziemann",
+                    "name": "Axel"
+                },
+                "text": " Ziemann, Axel, Hochdorf, *15.07.1969, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "DismissedManagingDirector",
@@ -61,6 +82,17 @@
                 "text": " Doctor Naumann, Thomas, Kronberg, *13.12.1966"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Lenggries",
+                    "dismissed": true,
+                    "dob": "1965-12-18",
+                    "lastname": "Weiß",
+                    "name": "Dieter"
+                },
+                "text": " Weiß, Dieter, Lenggries, *18.12.1965."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Kienberg",
@@ -70,6 +102,17 @@
                     "name": "Wolfgang"
                 },
                 "text": " Leibold, Wolfgang, Kienberg, *23.02.1957"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1970-06-29",
+                    "lastname": "Stingl",
+                    "name": "Alexandra"
+                },
+                "text": " Stingl, Alexandra, München, *29.06.1970."
             }
         ]
     }

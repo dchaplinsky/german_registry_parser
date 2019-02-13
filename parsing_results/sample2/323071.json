@@ -34,6 +34,24 @@
                 "text": " Doctor Ital, Bernd, Erlangen, *03.03.1965"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Wachsmann",
+                    "name": "Gert",
+                    "position": "Erlangen"
+                },
+                "text": " Wachsmann, Gert, Erlangen, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Berlin",

@@ -16,6 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=193926&land_abk=sh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  mit der Befugnis die Gesellschaft gemeinsam mit einem anderen Geschäftsführer oder dem Prokuristen Günter Nikelowski oder Felix Streitenberger zu vertreten., error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a NotAProcurator from  Prokura gemeinsam mit dem Geschäftsführer Frank Tappendorf, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a NotAProcurator from  7., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "officers": [
             {
                 "class": "DismissedManagingDirector",
@@ -47,6 +61,14 @@
                 "text": " Jaggy, Uwe"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "die Gesellschaft mit einem anderen Geschäftsführer oder den Prokuristen Ulf Steinhop oder Klaus-Peter Waldheuer zu vertreten"
+                },
+                "text": " mit der Befugnis, die Gesellschaft mit einem anderen Geschäftsführer oder den Prokuristen Ulf Steinhop oder Klaus-Peter Waldheuer zu vertreten."
+            },
+            {
                 "class": "NotAProcurator",
                 "payload": {
                     "dismissed": true,
@@ -55,6 +77,15 @@
                     "ref": 3
                 },
                 "text": "3) Tappendorf, Frank"
+            },
+            {
+                "class": "NotAProcurator",
+                "payload": {
+                    "dismissed": true,
+                    "lastname": "Änderung zu Nr. 1: Nikelowski",
+                    "name": "Günter"
+                },
+                "text": " Änderung zu Nr. 1: Nikelowski, Günter"
             }
         ]
     }

@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Düsseldorf",
                     "dismissed": true,
-                    "dob": "1964-06-07",
+                    "dob": "1964-07-06",
                     "lastname": "Hartmann",
                     "name": "Stefan"
                 },
@@ -38,11 +38,22 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Duisburg",
-                    "dob": "1957-01-12",
+                    "dob": "1957-12-01",
                     "lastname": "Deckers",
                     "name": "Hartmut"
                 },
                 "text": " Deckers, Hartmut, Duisburg, *01.12.1957"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1965-06-01",
+                    "flag": "jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Schleicher",
+                    "name": "Annett"
+                },
+                "text": " Schleicher, Annett, Berlin, *01.06.1965, jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

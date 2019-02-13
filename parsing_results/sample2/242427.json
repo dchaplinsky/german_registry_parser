@@ -32,7 +32,7 @@
                 "payload": {
                     "city": "Berlin",
                     "dismissed": true,
-                    "dob": "1948-02-04",
+                    "dob": "1948-04-02",
                     "lastname": "Krieger",
                     "name": "Kurt"
                 },
@@ -48,6 +48,14 @@
                     "name": "Thomas"
                 },
                 "text": " Dankert, Thomas, Wildau, *18.11.1956, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

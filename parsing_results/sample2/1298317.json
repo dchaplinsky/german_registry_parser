@@ -85,11 +85,21 @@
                 "text": " de Jonge, Ron, Bergen/Niederlande, *25.08.1963"
             },
             {
+                "class": "NewProcuration",
+                "payload": {
+                    "city": "Essen",
+                    "dob": "1984-07-08",
+                    "lastname": "Steufkens",
+                    "name": "Jan"
+                },
+                "text": " Steufkens, Jan, Essen, *08.07.1984."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Dinslaken",
                     "dismissed": true,
-                    "dob": "1971-02-05",
+                    "dob": "1971-05-02",
                     "lastname": "Nuth",
                     "name": "Oliver"
                 },

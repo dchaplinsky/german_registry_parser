@@ -27,11 +27,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Halle (Saale)",
-                    "dob": "1969-12-03",
+                    "dob": "1969-03-12",
                     "lastname": "Prof. Doctor Furchert",
                     "name": "Dirk"
                 },
                 "text": " Prof. Doctor Furchert, Dirk, Halle (Saale), *12.03.1969"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Magdeburg",
+                    "dob": "1970-08-06",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Weinert",
+                    "name": "Claudia"
+                },
+                "text": " Weinert, Claudia, Magdeburg, *06.08.1970, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "RetiredManagingDirector",
@@ -43,6 +62,17 @@
                     "name": "Holger"
                 },
                 "text": " Gosch, Holger, Magdeburg, *28.05.1963"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Mariental",
+                    "dismissed": true,
+                    "dob": "1956-10-26",
+                    "lastname": "Reichel",
+                    "name": "Gabriele"
+                },
+                "text": " Reichel, Gabriele, Mariental, *26.10.1956."
             }
         ]
     }

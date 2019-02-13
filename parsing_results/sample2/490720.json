@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Viereth-Trunstadt",
-                    "dob": "1965-06-04",
+                    "dob": "1965-04-06",
                     "flag": "sole representation",
                     "lastname": "Dippold",
                     "name": "Werner"
                 },
                 "text": " Dippold, Werner, Viereth-Trunstadt, *06.04.1965, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

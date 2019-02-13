@@ -21,11 +21,21 @@
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Mannheim",
-                    "dob": "1980-03-12",
+                    "dob": "1980-12-03",
                     "lastname": "Helbig",
                     "name": "Benjamin"
                 },
                 "text": " Helbig, Benjamin, Mannheim, *03.12.1980"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Karlsruhe",
+                    "dob": "1974-04-02",
+                    "lastname": "Jelinek",
+                    "name": "Till"
+                },
+                "text": " Jelinek, Till, Karlsruhe, *02.04.1974."
             },
             {
                 "class": "ProcurationCancelled",

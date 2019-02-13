@@ -27,12 +27,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Gersthofen",
-                    "dob": "1961-04-12",
+                    "dob": "1961-12-04",
                     "flag": "sole representation",
                     "lastname": "Hampp",
                     "name": "Wolfgang"
                 },
                 "text": " Hampp, Wolfgang, Gersthofen, *04.12.1961, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -45,12 +45,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Stade",
-                    "dob": "1959-09-05",
+                    "dob": "1959-05-09",
                     "flag": "sole representation",
                     "lastname": "Härting",
                     "name": "Carmen Ilona"
                 },
                 "text": " Härting, Carmen Ilona, Stade, *09.05.1959, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

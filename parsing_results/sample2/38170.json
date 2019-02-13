@@ -30,7 +30,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hövels",
-                    "dob": "1968-06-07",
+                    "dob": "1968-07-06",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Kostka",
                     "name": "Mike Werner"
@@ -48,6 +48,17 @@
                     "position": "Softwareentwickler"
                 },
                 "text": " Scholl, Ulrich, Softwareentwickler, Erpel, *29.01.1962"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "San Miguel de Salinas",
+                    "dismissed": true,
+                    "dob": "1960-05-01",
+                    "lastname": "Tenbrink",
+                    "name": "Ralf"
+                },
+                "text": " Tenbrink, Ralf, San Miguel de Salinas, *01.05.1960."
             }
         ]
     }

@@ -39,11 +39,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Bremen",
-                    "dob": "1976-12-06",
+                    "dob": "1976-06-12",
                     "lastname": "Enzenbach",
                     "name": "Robert"
                 },
                 "text": " Enzenbach, Robert, Bremen, *12.06.1976"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bremen",
+                    "dob": "1972-06-03",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Palmer",
+                    "name": "Katrin"
+                },
+                "text": " Palmer, Katrin, Bremen, *03.06.1972, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

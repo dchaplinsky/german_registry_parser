@@ -32,11 +32,22 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Goch",
-                    "dob": "1974-03-05",
+                    "dob": "1974-05-03",
                     "lastname": "Schramm",
                     "name": "Alexander Markus"
                 },
                 "text": " Schramm, Alexander Markus, Goch, *03.05.1974"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Krefeld",
+                    "dob": "1965-03-20",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Wenath",
+                    "name": "Thilo"
+                },
+                "text": " Wenath, Thilo, Krefeld, *20.03.1965, jeweils einzelvertretungsberechtigt."
             }
         ]
     }

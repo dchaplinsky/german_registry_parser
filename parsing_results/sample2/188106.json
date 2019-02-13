@@ -46,7 +46,7 @@
                 "payload": {
                     "city": "Radeburg",
                     "dismissed": true,
-                    "dob": "1977-05-01",
+                    "dob": "1977-01-05",
                     "lastname": "Klotsche",
                     "name": "Nicole Marina"
                 },
@@ -62,6 +62,14 @@
                     "name": "Dirk"
                 },
                 "text": " Klotsche, Dirk, Radeburg, *08.08.1970, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -28,11 +28,22 @@
                 "payload": {
                     "city": "Lohne",
                     "dismissed": true,
-                    "dob": "1969-12-07",
+                    "dob": "1969-07-12",
                     "lastname": "Borchers",
                     "name": "Christian"
                 },
                 "text": " Borchers, Christian, Lohne, *12.07.1969"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Großenkneten",
+                    "dismissed": true,
+                    "lastname": "Claus",
+                    "name": "Stöver",
+                    "position": "Kaufmann"
+                },
+                "text": " Claus, Stöver, Kaufmann, Großenkneten."
             }
         ]
     }

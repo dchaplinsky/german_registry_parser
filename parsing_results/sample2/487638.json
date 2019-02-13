@@ -35,15 +35,34 @@
                 "text": " Honsell, Christoph, Konstanz, *15.10.1976"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Konstanz",
+                    "dismissed": true,
+                    "dob": "1961-04-03",
+                    "lastname": "Schmidt",
+                    "name": "Elke"
+                },
+                "text": " Schmidt, Elke, Konstanz, *03.04.1961."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rankweil (Österreich)",
-                    "dob": "1976-03-07",
+                    "dob": "1976-07-03",
                     "flag": "sole representation",
                     "lastname": "Kinz",
                     "name": "Alexandra Stefanie"
                 },
                 "text": " Kinz, Alexandra Stefanie, Rankweil (Österreich), *03.07.1976, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -39,12 +39,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Neustadt b.Cbg",
-                    "dob": "1972-09-02",
+                    "dob": "1972-02-09",
                     "flag": "sole representation",
                     "lastname": "Bauer",
                     "name": "Detlef"
                 },
                 "text": " Bauer, Detlef, Neustadt b.Cbg., *09.02.1972, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

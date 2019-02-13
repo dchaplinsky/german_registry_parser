@@ -58,12 +58,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Braunschweig",
-                    "dob": "1989-01-09",
+                    "dob": "1989-09-01",
                     "flag": "sole representation",
                     "lastname": "Scheike",
                     "name": "Kim Vanessa"
                 },
                 "text": " Scheike, Kim Vanessa, Braunschweig, *01.09.1989, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

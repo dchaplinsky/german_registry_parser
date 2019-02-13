@@ -21,12 +21,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Großbeeren",
-                    "dob": "1961-10-03",
+                    "dob": "1961-03-10",
                     "flag": "sole representation",
                     "lastname": "Topp",
                     "name": "Stephan"
                 },
                 "text": " Topp, Stephan, Großbeeren, *10.03.1961, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen Rechtsgeschäfte abzuschließen."
             }
         ]
     }
