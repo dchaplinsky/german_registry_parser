@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=4444&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -46,6 +52,16 @@
                     "name": "Björn"
                 },
                 "text": " Schlifkowitz, Björn, *21.01.1970, Hennigsdorf"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "§ 3 (Stammkapital)",
+                    "dismissed": true,
+                    "lastname": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 08.11.2005 ist der Gesellschaftsvertrag geändert in § 1 (Firma)",
+                    "name": "§ 2 (Gegenstand)"
+                },
+                "text": " mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 08.11.2005 ist der Gesellschaftsvertrag geändert in § 1 (Firma), § 2 (Gegenstand), § 3 (Stammkapital).."
             }
         ]
     }

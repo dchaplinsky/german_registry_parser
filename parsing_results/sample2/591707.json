@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
-                    "dob": "1978-01-09",
+                    "dob": "1978-09-01",
                     "flag": "sole representation",
                     "lastname": "Schneider",
                     "name": "Ulrike"
                 },
                 "text": " Schneider, Ulrike, Frankfurt am Main, *01.09.1978, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

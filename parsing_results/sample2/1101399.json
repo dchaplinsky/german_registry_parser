@@ -31,12 +31,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Nürnberg",
-                    "dob": "1980-02-04",
+                    "dob": "1980-04-02",
                     "flag": "sole representation",
                     "lastname": ": Maiwald",
                     "name": "Marcus"
                 },
                 "text": ": Maiwald, Marcus, Nürnberg, *02.04.1980, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

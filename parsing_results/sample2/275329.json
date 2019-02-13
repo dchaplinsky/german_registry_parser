@@ -35,6 +35,17 @@
                 "text": " Martens, Bernhild, Dötlingen-Brettorf, *14.09.1947"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Dötlingen-Brettorf",
+                    "dismissed": true,
+                    "dob": "1943-03-27",
+                    "lastname": "Martens",
+                    "name": "Werner Heinrich"
+                },
+                "text": " Martens, Werner Heinrich, Dötlingen-Brettorf, *27.03.1943."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dötlingen",
@@ -44,6 +55,14 @@
                     "name": "Diane"
                 },
                 "text": " Martens, Diane, Dötlingen, *19.02.1985, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

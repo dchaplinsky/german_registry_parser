@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=381384&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  mit der Befugnis die Gesellschaft allein zu vertreten, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Rechtsverhaeltnis: Die Gesellschaft ist aufgelöst, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -33,7 +43,7 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1969-08-04",
+                    "dob": "1969-04-08",
                     "lastname": "Köhler",
                     "name": "Jens-Uwe"
                 },

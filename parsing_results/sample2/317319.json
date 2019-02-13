@@ -21,11 +21,32 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Herford",
-                    "dob": "1950-05-08",
+                    "dob": "1950-08-05",
                     "lastname": "Gronlied",
                     "name": "Wolfgang"
                 },
                 "text": " Gronlied, Wolfgang, Herford, *05.08.1950"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Gütersloh",
+                    "dob": "1968-06-08",
+                    "lastname": "Hachmann",
+                    "name": "Jean Michael"
+                },
+                "text": " Hachmann, Jean Michael, Gütersloh, *08.06.1968"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Rheda-Wiedenbrück",
+                    "dob": "1969-08-18",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Helmer",
+                    "name": "Lars"
+                },
+                "text": " Helmer, Lars, Rheda-Wiedenbrück, *18.08.1969, jeweils mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "DismissedManagingDirector",
@@ -39,15 +60,47 @@
                 "text": " Balg, Jürgen, Porta Westfalica, *28.10.1957"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Wadersloh",
+                    "dismissed": true,
+                    "lastname": "Dipl.-Betriebswirt Gerwert",
+                    "name": "Egon"
+                },
+                "text": " Dipl.-Betriebswirt Gerwert, Egon, Wadersloh."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Herford",
                     "dismissed": true,
-                    "dob": "1950-05-08",
+                    "dob": "1950-08-05",
                     "lastname": "Gronlied",
                     "name": "Wolfgang"
                 },
                 "text": " Gronlied, Wolfgang, Herford, *05.08.1950"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Gütersloh",
+                    "dismissed": true,
+                    "dob": "1968-06-08",
+                    "lastname": "Hachmann",
+                    "name": "Jean-Michael"
+                },
+                "text": " Hachmann, Jean-Michael, Gütersloh, *08.06.1968"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Rheda-Wiedenbrück",
+                    "dismissed": true,
+                    "dob": "1969-08-18",
+                    "lastname": "Helmer",
+                    "name": "Lars"
+                },
+                "text": " Helmer, Lars, Rheda-Wiedenbrück, *18.08.1969."
             }
         ]
     }

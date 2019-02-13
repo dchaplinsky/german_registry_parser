@@ -28,6 +28,16 @@
                 "text": " Spatz, Johannes, Holzkirchen, *09.09.1962"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dob": "1969-03-29",
+                    "lastname": "Yamanaka",
+                    "name": "Takeyuki"
+                },
+                "text": " Yamanaka, Takeyuki, Frankfurt am Main, *29.03.1969."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Holzkirchen",
@@ -37,6 +47,17 @@
                     "name": "Johannes"
                 },
                 "text": " Spatz, Johannes, Holzkirchen, *09.09.1962"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Langen (Hessen)",
+                    "dismissed": true,
+                    "dob": "1969-03-29",
+                    "lastname": "Yamanaka",
+                    "name": "Takeyuki"
+                },
+                "text": " Yamanaka, Takeyuki, Langen (Hessen), *29.03.1969."
             }
         ]
     }

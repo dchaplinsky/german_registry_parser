@@ -28,21 +28,51 @@
                 "payload": {
                     "city": "Hildesheim",
                     "dismissed": true,
-                    "dob": "1973-02-07",
+                    "dob": "1973-07-02",
                     "lastname": "Mehrle",
                     "name": "Nicolas"
                 },
                 "text": " Mehrle, Nicolas, Hildesheim, *02.07.1973"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dismissed": true,
+                    "dob": "1956-06-25",
+                    "lastname": "Völkel",
+                    "name": "Gerd"
+                },
+                "text": " Völkel, Gerd, Hamburg, *25.06.1956."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hildesheim",
-                    "dob": "1938-06-05",
+                    "dob": "1938-05-06",
                     "lastname": "Bürger",
                     "name": "Gerhard"
                 },
                 "text": " Bürger, Gerhard, Hildesheim, *06.05.1938"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Hildesheim",
+                    "dob": "1966-02-22",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Ligon",
+                    "name": "Kathrin"
+                },
+                "text": " Ligon, Kathrin, Hildesheim, *22.02.1966, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

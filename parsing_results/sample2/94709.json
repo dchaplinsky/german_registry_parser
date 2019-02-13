@@ -28,12 +28,23 @@
                 "payload": {
                     "city": "Braunschweig",
                     "dismissed": true,
-                    "dob": "1970-04-06",
+                    "dob": "1970-06-04",
                     "lastname": "Gaus",
                     "name": "Andrea",
                     "position": "Braunschweig"
                 },
                 "text": " Gaus, Andrea, Braunschweig, Braunschweig, *04.06.1970"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Braunschweig",
+                    "dismissed": true,
+                    "dob": "1963-01-18",
+                    "lastname": "Gaus",
+                    "name": "Birgit"
+                },
+                "text": " Gaus, Birgit, Braunschweig, *18.01.1963."
             },
             {
                 "class": "AppointedManagingDirector",
@@ -44,6 +55,25 @@
                     "name": "Thorsten"
                 },
                 "text": " Gaus, Thorsten, Braunschweig, *31.03.1965"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Braunschweig",
+                    "dob": "1960-12-14",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Gaus",
+                    "name": "Holger"
+                },
+                "text": " Gaus, Holger, Braunschweig, *14.12.1960, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

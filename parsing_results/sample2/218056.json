@@ -38,12 +38,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Buchholz in der Nordheide",
-                    "dob": "1967-06-02",
+                    "dob": "1967-02-06",
                     "flag": "sole representation",
                     "lastname": "Allzeit",
                     "name": "Marco"
                 },
                 "text": " Allzeit, Marco, Buchholz in der Nordheide, *06.02.1967, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

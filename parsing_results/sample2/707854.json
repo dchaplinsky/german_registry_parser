@@ -31,12 +31,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Den Haag",
-                    "dob": "1982-01-12",
+                    "dob": "1982-12-01",
                     "flag": "sole representation",
                     "lastname": "van Noort",
                     "name": "Martijn Henricus Johannes"
                 },
                 "text": " van Noort, Martijn Henricus Johannes, Den Haag, *01.12.1982, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ManagingDirector",
@@ -48,6 +56,14 @@
                     "name": "Fredericus Adrianus Maria"
                 },
                 "text": " Verdel, Fredericus Adrianus Maria, Roelofarendsveen/ NL, *14.01.1951, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",

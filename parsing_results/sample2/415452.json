@@ -52,11 +52,30 @@
             {
                 "class": "ManagingDirector",
                 "payload": {
-                    "dob": "1936-12-10",
+                    "dob": "1936-10-12",
                     "lastname": "Funk - Dinglinger",
                     "name": "Erhard Horst Walter"
                 },
                 "text": " Funk - Dinglinger, Erhard Horst Walter, *12.10.1936"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Achim",
+                    "dob": "1966-06-11",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Funk-Dinglinger",
+                    "name": "Lutz"
+                },
+                "text": " Funk-Dinglinger, Lutz, Achim, *11.06.1966, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

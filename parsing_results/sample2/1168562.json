@@ -45,11 +45,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Rottenburg",
-                    "dob": "1984-05-02",
+                    "dob": "1984-02-05",
                     "lastname": "Jarosz",
                     "name": "Rafal"
                 },
                 "text": " Jarosz, Rafal, Rottenburg, *05.02.1984"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Landshut",
+                    "dob": "1971-11-21",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Turkowski",
+                    "name": "Daniel Robert"
+                },
+                "text": " Turkowski, Daniel Robert, Landshut, *21.11.1971, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -42,11 +42,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Gersfeld (Rhön)",
-                    "dob": "1970-09-10",
+                    "dob": "1970-10-09",
                     "lastname": "Burkhardt",
                     "name": "Ralph"
                 },
                 "text": " Burkhardt, Ralph, Gersfeld (Rhön), *09.10.1970"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Anröchte",
+                    "dob": "1963-11-12",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Stratmann",
+                    "name": "Thomas"
+                },
+                "text": " Stratmann, Thomas, Anröchte, *12.11.1963, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "AppointedManagingDirector",
@@ -58,6 +77,14 @@
                     "name": "Herwarth"
                 },
                 "text": " Brune, Herwarth, Seeheim-Jugenheim, *26.04.1966, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

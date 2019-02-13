@@ -27,11 +27,22 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Sankt Augustin",
-                    "dob": "1991-04-05",
+                    "dob": "1991-05-04",
                     "lastname": "Proba",
                     "name": "Marvin"
                 },
                 "text": " Proba, Marvin, Sankt Augustin, *04.05.1991"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Köln",
+                    "dob": "1992-03-01",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Risch",
+                    "name": "Matthias"
+                },
+                "text": " Risch, Matthias, Köln, *01.03.1992, jeweils einzelvertretungsberechtigt."
             }
         ]
     }

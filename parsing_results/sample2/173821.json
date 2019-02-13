@@ -61,7 +61,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1981-11-12",
+                    "dob": "1981-12-11",
                     "flag": "sole representation",
                     "lastname": "Ameti",
                     "name": "Hikmet"
@@ -69,10 +69,18 @@
                 "text": " Ameti, Hikmet, Hamburg, *11.12.1981, einzelvertretungsberechtigt"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1977-10-02",
+                    "dob": "1977-02-10",
                     "lastname": "Veseli",
                     "name": "Hanifi"
                 },

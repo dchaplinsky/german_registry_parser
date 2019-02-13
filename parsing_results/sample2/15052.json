@@ -33,12 +33,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Grevesmühlen",
-                    "dob": "1957-10-12",
+                    "dob": "1957-12-10",
                     "flag": "sole representation",
                     "lastname": "Bibow",
                     "name": "Jörg"
                 },
                 "text": " Bibow, Jörg, Grevesmühlen, *10.12.1957, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "DismissedManagingDirector",

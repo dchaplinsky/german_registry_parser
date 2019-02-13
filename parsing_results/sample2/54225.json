@@ -32,7 +32,7 @@
                 "payload": {
                     "city": "Leipzig",
                     "dismissed": true,
-                    "dob": "1969-09-02",
+                    "dob": "1969-02-09",
                     "lastname": "Doctor Pilgram",
                     "name": "Thomas"
                 },
@@ -50,6 +50,14 @@
                 "text": " Hembre, Kolbjörn, Oppegard/Norwegen, *02.02.1967, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Raadal/Norwegen",
@@ -58,6 +66,16 @@
                     "name": "Therese"
                 },
                 "text": " Gjerde, Therese, Raadal/Norwegen, *23.04.1973"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1971-11-10",
+                    "lastname": "Tabke",
+                    "name": "Holger"
+                },
+                "text": " Tabke, Holger, Berlin, *10.11.1971."
             }
         ]
     }

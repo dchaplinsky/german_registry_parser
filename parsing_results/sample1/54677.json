@@ -37,7 +37,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Görlitz",
-                    "dob": "1971-12-04",
+                    "dob": "1971-04-12",
                     "lastname": "Migga",
                     "name": "Manuela"
                 },
@@ -53,6 +53,14 @@
                     "name": "Matthias"
                 },
                 "text": " Arndt, Matthias, Görlitz, *27.01.1963, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

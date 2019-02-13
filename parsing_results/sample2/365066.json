@@ -35,6 +35,17 @@
                 "text": " Doctor Becker, Fritz, Wehrheim, *26.12.1953"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Kent United Kingdom",
+                    "dismissed": true,
+                    "dob": "1957-03-09",
+                    "lastname": "Doctor Boles",
+                    "name": "Ernest"
+                },
+                "text": " Doctor Boles, Ernest, Kent United Kingdom, *09.03.1957."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Otterstadt",
@@ -43,6 +54,27 @@
                     "name": "Michael"
                 },
                 "text": " Doctor Knittel, Michael, Otterstadt, *18.11.1962"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Friedrichsdorf",
+                    "dob": "1964-09-26",
+                    "lastname": "Oberhofer",
+                    "name": "Bernhard"
+                },
+                "text": " Oberhofer, Bernhard, Friedrichsdorf, *26.09.1964"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dob": "1964-11-24",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Doctor Türk",
+                    "name": "Bernd"
+                },
+                "text": " Doctor Türk, Bernd, Frankfurt am Main, *24.11.1964, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
@@ -54,6 +86,17 @@
                     "name": "Michael"
                 },
                 "text": " Doctor Knittel, Michael, Otterstadt, *18.11.1962"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Friedrichsdorf",
+                    "dismissed": true,
+                    "dob": "1964-09-26",
+                    "lastname": "Oberhofer",
+                    "name": "Bernhard"
+                },
+                "text": " Oberhofer, Bernhard, Friedrichsdorf, *26.09.1964."
             }
         ]
     }

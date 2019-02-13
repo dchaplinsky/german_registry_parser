@@ -46,11 +46,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Bremen",
-                    "dob": "1974-09-10",
+                    "dob": "1974-10-09",
                     "lastname": "Schepers-Bauer",
                     "name": "Maria"
                 },
                 "text": " Schepers-Bauer, Maria, *09.10.1974, Bremen"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "dismissed": true,
+                    "lastname": "mit der Befugnis die Gesellschaft allein zu vertreten",
+                    "name": "mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                },
+                "text": " mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
             }
         ]
     }

@@ -35,6 +35,17 @@
                 "text": " Marg, Holger, Garching, *19.02.1965"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1976-09-06",
+                    "lastname": "Wüst",
+                    "name": "Philipp"
+                },
+                "text": " Wüst, Philipp, München, *06.09.1976."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mailand/Italien",
@@ -43,6 +54,27 @@
                     "name": "Paolo Enrico"
                 },
                 "text": " Alemanni, Paolo Enrico, Mailand/Italien, *18.02.1965"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1967-02-08",
+                    "lastname": "Freiherr von Falkenhausen",
+                    "name": "Konstantin"
+                },
+                "text": " Freiherr von Falkenhausen, Konstantin, Berlin, *08.02.1967"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Zürich/Schweiz",
+                    "dob": "1968-10-31",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Doctor Weber",
+                    "name": "Barbara"
+                },
+                "text": " Doctor Weber, Barbara, Zürich/Schweiz, *31.10.1968, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

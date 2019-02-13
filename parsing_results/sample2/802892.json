@@ -31,12 +31,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "München",
-                    "dob": "1948-01-10",
+                    "dob": "1948-10-01",
                     "flag": "sole representation",
                     "lastname": ": Büttner",
                     "name": "Robert"
                 },
                 "text": ": Büttner, Robert, München, *01.10.1948, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

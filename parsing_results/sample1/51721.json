@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "nichel",
-                    "dob": "1965-11-12",
+                    "dob": "1965-12-11",
                     "flag": "sole representation",
                     "lastname": "dr. hanke",
                     "name": "jens"
                 },
                 "text": " dr. hanke, jens, nichel, *11.12.1965, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der befugnis",
+                    "name": "im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der befugnis, im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen."
             }
         ]
     }

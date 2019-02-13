@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Oberreute",
-                    "dob": "1958-10-02",
+                    "dob": "1958-02-10",
                     "flag": "sole representation",
                     "lastname": "Guthmann",
                     "name": "Wolfgang"
                 },
                 "text": " Guthmann, Wolfgang, Oberreute, *10.02.1958, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

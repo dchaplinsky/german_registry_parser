@@ -22,7 +22,7 @@
                 "payload": {
                     "city": "Meißen",
                     "dismissed": true,
-                    "dob": "1949-06-05",
+                    "dob": "1949-05-06",
                     "lastname": "Kluge",
                     "name": "Reinhard"
                 },
@@ -32,17 +32,27 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Essen",
-                    "dob": "1979-02-12",
+                    "dob": "1979-12-02",
                     "lastname": "Hunold",
                     "name": "Christian"
                 },
                 "text": " Hunold, Christian, Essen, *02.12.1979"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Bochum",
+                    "dob": "1960-08-28",
+                    "lastname": "Lange",
+                    "name": "Fritz-Klaus"
+                },
+                "text": " Lange, Fritz-Klaus, Bochum, *28.08.1960."
+            },
+            {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Bochum",
-                    "dob": "1970-04-07",
+                    "dob": "1970-07-04",
                     "lastname": "Düssel",
                     "name": "Georg"
                 },

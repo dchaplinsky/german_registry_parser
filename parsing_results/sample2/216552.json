@@ -61,14 +61,47 @@
                 "text": " Klein, Christoph, Mainz, *13.06.1977"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dismissed": true,
+                    "dob": "1971-04-02",
+                    "lastname": "Preiß",
+                    "name": "Stefan"
+                },
+                "text": " Preiß, Stefan, Frankfurt am Main, *02.04.1971"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Kelkheim",
+                    "dismissed": true,
+                    "dob": "1960-10-06",
+                    "lastname": "Schnabel",
+                    "name": "Susanne"
+                },
+                "text": " Schnabel, Susanne, Kelkheim, *06.10.1960."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Jockgrim",
-                    "dob": "1947-03-10",
+                    "dob": "1947-10-03",
                     "lastname": "Zawisla",
                     "name": "Renate"
                 },
                 "text": " Zawisla, Renate, Jockgrim, *03.10.1947"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Jockgrim",
+                    "dob": "1953-02-25",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Zawisla",
+                    "name": "Klaus Dieter"
+                },
+                "text": " Zawisla, Klaus Dieter, Jockgrim, *25.02.1953, jeweils einzelvertretungsberechtigt."
             },
             {
                 "class": "ProcurationCancelled",
@@ -80,6 +113,17 @@
                     "name": "Peter"
                 },
                 "text": " Hermann, Peter, Karlsbad, *15.09.1973"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Bockenem",
+                    "dismissed": true,
+                    "dob": "1965-04-29",
+                    "lastname": "Schindler",
+                    "name": "Manuela"
+                },
+                "text": " Schindler, Manuela, Bockenem, *29.04.1965."
             }
         ]
     }

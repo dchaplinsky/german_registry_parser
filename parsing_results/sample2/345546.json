@@ -45,11 +45,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "München",
-                    "dob": "1969-11-09",
+                    "dob": "1969-09-11",
                     "lastname": "Hofmann",
                     "name": "Ralf Philipp"
                 },
                 "text": " Hofmann, Ralf Philipp, München, *11.09.1969"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1972-05-11",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Ostertag",
+                    "name": "Julian Jörg"
+                },
+                "text": " Ostertag, Julian Jörg, München, *11.05.1972, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

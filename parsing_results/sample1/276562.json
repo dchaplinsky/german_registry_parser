@@ -16,6 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=276562&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rechtsform: Gesellschaft mit beschränkter Haftung, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Gesellschaftsvertrag vom:16)12.2013, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -63,6 +77,13 @@
                     "ref": 1
                 },
                 "text": "1) Baumgarten, Günter, *23.09.1954, Berlin"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "company_name": "Rechtsverhaeltnis: Die Gesellschaft ist entstanden durch teilweise Übertragung des Vermögens als Gesamtheit der TSI - Telematic Solutions International GmbH - künftig TSI Beteiligungsgesellschaft mbH - mit Sitz in Berlin (Amtsgericht Charlottenburg HRB 104346 B) auf Grund des Spaltungsplans vom 16.12.2013 und des Zustimmungsbeschlusses vom selben Tage."
+                },
+                "text": " Rechtsverhaeltnis: Die Gesellschaft ist entstanden durch teilweise Übertragung des Vermögens als Gesamtheit der TSI - Telematic Solutions International GmbH - künftig TSI Beteiligungsgesellschaft mbH - mit Sitz in Berlin (Amtsgericht Charlottenburg HRB 104346 B) auf Grund des Spaltungsplans vom 16.12.2013 und des Zustimmungsbeschlusses vom selben Tage."
             }
         ]
     }

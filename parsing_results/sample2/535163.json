@@ -57,14 +57,32 @@
                 "text": " Burandt, Matthias, Langen (Hessen), *28.02.1978, einzelvertretungsberechtigt"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Tilford",
-                    "dob": "1972-10-08",
+                    "dob": "1972-08-10",
                     "lastname": "Bates",
                     "name": "Steven"
                 },
                 "text": " Bates, Steven, Tilford, *10.08.1972"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Clarens",
+                    "dob": "1967-07-24",
+                    "lastname": "Schärer",
+                    "name": "Dominik"
+                },
+                "text": " Schärer, Dominik, Clarens, *24.07.1967."
             }
         ]
     }

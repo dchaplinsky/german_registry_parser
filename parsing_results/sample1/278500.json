@@ -35,11 +35,19 @@
                 "text": " Burdumy, William, Kitzingen, *23.01.1952, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Schmelz",
                     "dismissed": true,
-                    "dob": "1959-12-10",
+                    "dob": "1959-10-12",
                     "lastname": "Scholer",
                     "name": "Wolfgang"
                 },

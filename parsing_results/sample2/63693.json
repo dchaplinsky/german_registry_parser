@@ -55,7 +55,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Potsdam",
-                    "dob": "1980-02-10",
+                    "dob": "1980-10-02",
                     "flag": "sole representation",
                     "lastname": "Spill",
                     "name": "Tobias"
@@ -63,15 +63,31 @@
                 "text": " Spill, Tobias, Potsdam, *02.10.1980, einzelvertretungsberechtigt"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
-                    "dob": "1981-08-05",
+                    "dob": "1981-05-08",
                     "flag": "sole representation",
                     "lastname": "Farrenkopf",
                     "name": "Daniel"
                 },
                 "text": " Farrenkopf, Daniel, Frankfurt am Main, *08.05.1981, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

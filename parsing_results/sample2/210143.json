@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=210143&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Procuration from  Einzelprokura mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen mit der Befugnis zur Veräußerung und Belastung von Grundstücken., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -31,7 +37,7 @@
                 "class": "Procuration",
                 "payload": {
                     "city": "Quitzöbel",
-                    "dob": "1953-11-05",
+                    "dob": "1953-05-11",
                     "lastname": "Geisler",
                     "name": "Burkhart",
                     "ref": 1

@@ -29,6 +29,17 @@
                 "text": " Graf, Ursula Anna, Mönchengladbach, *30.07.1965"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "dismissed": true,
+                    "dob": "1953-08-01",
+                    "lastname": "Doctor Waldeyer",
+                    "name": "Hans"
+                },
+                "text": " Doctor Waldeyer, Hans, Düsseldorf, *01.08.1953."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wuppertal",
@@ -37,6 +48,17 @@
                     "name": "Heinz Christian"
                 },
                 "text": " Ramjoué, Heinz Christian, Wuppertal, *18.09.1972"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Tönisvorst",
+                    "dob": "1963-09-28",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Schmidt",
+                    "name": "Ronald Hans"
+                },
+                "text": " Schmidt, Ronald Hans, Tönisvorst, *28.09.1963, jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

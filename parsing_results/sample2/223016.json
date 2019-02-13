@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=223016&land_abk=he"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Romeijn, Joost Albert, Rotterdam, Niederlande, *04.07.1966, jeweils einzelvertretungsberechtigt, error text was Cannot parse DOB  Rotterdam using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability.",
@@ -62,6 +68,14 @@
                     "name": "Marcellinus Ignatius Laurentius"
                 },
                 "text": " Neomagus, Marcellinus Ignatius Laurentius, Badhoevedorp, *28.09.1963"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

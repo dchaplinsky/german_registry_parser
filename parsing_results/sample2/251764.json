@@ -32,12 +32,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Bergen",
-                    "dob": "1982-08-10",
+                    "dob": "1982-10-08",
                     "flag": "sole representation",
                     "lastname": "Bretschneider",
                     "name": "Toni"
                 },
                 "text": " Bretschneider, Toni, Bergen, *08.10.1982, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

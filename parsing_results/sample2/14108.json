@@ -36,7 +36,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bielefeld",
-                    "dob": "1955-01-04",
+                    "dob": "1955-04-01",
                     "flag": "sole representation",
                     "lastname": "Graetz",
                     "name": "Michael"
@@ -44,11 +44,19 @@
                 "text": " Graetz, Michael, Bielefeld, *01.04.1955, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Berlin",
                     "dismissed": true,
-                    "dob": "1954-09-11",
+                    "dob": "1954-11-09",
                     "lastname": "Werner",
                     "name": "Elke geborene Alrutz"
                 },
@@ -64,6 +72,17 @@
                     "name": "Klaus"
                 },
                 "text": " Alrutz, Klaus, Herford, *22.12.1956"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Bielefeld",
+                    "dismissed": true,
+                    "dob": "1955-07-14",
+                    "lastname": "Stenger",
+                    "name": "Reinhard"
+                },
+                "text": " Stenger, Reinhard, Bielefeld, *14.07.1955."
             }
         ]
     }

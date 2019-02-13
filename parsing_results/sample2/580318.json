@@ -39,6 +39,14 @@
                 "text": " de Bruin, Willem, Kockengen / Niederlande, *28.03.1956, einzelvertretungsberechtigt"
             },
             {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Belgien",
@@ -49,6 +57,18 @@
                     "position": "Fexhe-Le-Haut-Clocher"
                 },
                 "text": " Jungels, Jean-Claude, Fexhe-Le-Haut-Clocher, Belgien, *17.01.1942"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Belgien",
+                    "dismissed": true,
+                    "dob": "1944-03-15",
+                    "lastname": "Remiche",
+                    "name": "Francois",
+                    "position": "Brüssel"
+                },
+                "text": " Remiche, Francois, Brüssel, Belgien, *15.03.1944."
             }
         ]
     }

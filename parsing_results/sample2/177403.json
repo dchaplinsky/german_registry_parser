@@ -21,7 +21,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kelkheim",
-                    "dob": "1962-01-05",
+                    "dob": "1962-05-01",
                     "flag": "sole representation",
                     "lastname": "Götz",
                     "name": "Elmar Bernhard"
@@ -29,15 +29,34 @@
                 "text": " Götz, Elmar Bernhard, Kelkheim, *01.05.1962, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dismissed": true,
-                    "dob": "1964-08-01",
+                    "dob": "1964-01-08",
                     "lastname": "van de Maat",
                     "name": "Dirk"
                 },
                 "text": " van de Maat, Dirk, Frankfurt am Main, *08.01.1964"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Oberursel (Taunus)",
+                    "dismissed": true,
+                    "dob": "1968-08-24",
+                    "lastname": "Doctor Schmidt",
+                    "name": "André M"
+                },
+                "text": " Doctor Schmidt, André M., Oberursel (Taunus), *24.08.1968."
             }
         ]
     }

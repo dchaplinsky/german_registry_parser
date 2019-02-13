@@ -28,6 +28,16 @@
                 "text": " Leutloff, Denis, Halle (Saale), *15.09.1980"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Halle (Saale)",
+                    "dob": "1985-12-28",
+                    "lastname": "Thiele",
+                    "name": "Martin"
+                },
+                "text": " Thiele, Martin, Halle (Saale), *28.12.1985."
+            },
+            {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Halle (Saale)",
@@ -37,6 +47,17 @@
                     "name": "Petra"
                 },
                 "text": " Becker, Petra, Halle (Saale), *27.10.1951"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Halle (Saale)",
+                    "dismissed": true,
+                    "dob": "1967-11-13",
+                    "lastname": "Czerwinski",
+                    "name": "Marek-Christoph"
+                },
+                "text": " Czerwinski, Marek-Christoph, Halle (Saale), *13.11.1967."
             }
         ]
     }

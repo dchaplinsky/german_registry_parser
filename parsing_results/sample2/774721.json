@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Friedberg",
                     "dismissed": true,
-                    "dob": "1970-08-06",
+                    "dob": "1970-06-08",
                     "lastname": "Reichenbach",
                     "name": "Martin"
                 },
@@ -38,12 +38,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Aschheim",
-                    "dob": "1975-12-06",
+                    "dob": "1975-06-12",
                     "flag": "sole representation",
                     "lastname": "Strasser",
                     "name": "Konstantin"
                 },
                 "text": " Strasser, Konstantin, Aschheim, *12.06.1975, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

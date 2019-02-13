@@ -22,7 +22,7 @@
                 "payload": {
                     "city": "Bonn",
                     "dismissed": true,
-                    "dob": "1955-03-02",
+                    "dob": "1955-02-03",
                     "lastname": "Steinhausen",
                     "name": "Wolfgang"
                 },
@@ -38,6 +38,17 @@
                     "position": "Diplom-Kaufmann"
                 },
                 "text": " Kaltwasser, Johann, Diplom-Kaufmann, Köln"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "dismissed": true,
+                    "dob": "1957-01-14",
+                    "lastname": "Klann",
+                    "name": "Stefan"
+                },
+                "text": " Klann, Stefan, Düsseldorf, *14.01.1957."
             }
         ]
     }

@@ -39,12 +39,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "München",
-                    "dob": "1969-07-06",
+                    "dob": "1969-06-07",
                     "flag": "sole representation",
                     "lastname": "Lotz",
                     "name": "Nicole geborene Liebera"
                 },
                 "text": " Lotz, Nicole geborene Liebera, München, *07.06.1969, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

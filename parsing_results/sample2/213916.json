@@ -22,11 +22,44 @@
                 "payload": {
                     "city": "Burgwedel",
                     "dismissed": true,
-                    "dob": "1950-01-03",
+                    "dob": "1950-03-01",
                     "lastname": "Augustin",
                     "name": "Dieter"
                 },
                 "text": " Augustin, Dieter, Burgwedel, *01.03.1950"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Uetze",
+                    "dismissed": true,
+                    "dob": "1948-04-24",
+                    "lastname": "Clemenz",
+                    "name": "Ursula"
+                },
+                "text": " Clemenz, Ursula, Uetze, *24.04.1948"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Hannover",
+                    "dismissed": true,
+                    "dob": "1970-11-17",
+                    "lastname": "Schwarz",
+                    "name": "Matthias"
+                },
+                "text": " Schwarz, Matthias, Hannover, *17.11.1970"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Köln",
+                    "dismissed": true,
+                    "dob": "1955-01-09",
+                    "lastname": "Wollschläger",
+                    "name": "Ulrich"
+                },
+                "text": " Wollschläger, Ulrich, Köln, *09.01.1955."
             }
         ]
     }

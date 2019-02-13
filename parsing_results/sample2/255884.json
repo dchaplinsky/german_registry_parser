@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Seulingen",
                     "dismissed": true,
-                    "dob": "1982-08-10",
+                    "dob": "1982-10-08",
                     "lastname": "Lukat",
                     "name": "David"
                 },
@@ -38,7 +38,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bad Lauterberg",
-                    "dob": "1959-07-12",
+                    "dob": "1959-12-07",
                     "lastname": "Rudolph",
                     "name": "Klaus"
                 },
@@ -48,12 +48,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Seulingen",
-                    "dob": "1950-10-05",
+                    "dob": "1950-05-10",
                     "flag": "sole representation",
                     "lastname": "Lukat",
                     "name": "Rainer"
                 },
                 "text": " Lukat, Rainer, Seulingen, *10.05.1950, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -22,17 +22,28 @@
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dismissed": true,
-                    "dob": "1966-12-02",
+                    "dob": "1966-02-12",
                     "lastname": "Siegel",
                     "name": "Carl-Christian"
                 },
                 "text": " Siegel, Carl-Christian, Frankfurt am Main, *12.02.1966"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Weilburg",
+                    "dismissed": true,
+                    "dob": "1965-11-22",
+                    "lastname": "Weinbrenner",
+                    "name": "Martin"
+                },
+                "text": " Weinbrenner, Martin, Weilburg, *22.11.1965."
+            },
+            {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
-                    "dob": "1962-12-01",
+                    "dob": "1962-01-12",
                     "lastname": "Becker",
                     "name": "Gitta"
                 },
@@ -42,7 +53,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "London (Großbritannien)",
-                    "dob": "1983-10-11",
+                    "dob": "1983-11-10",
                     "lastname": "Feix",
                     "name": "Sebastian"
                 },
@@ -53,11 +64,22 @@
                 "payload": {
                     "city": "London (Großbritanien)",
                     "dismissed": true,
-                    "dob": "1983-10-11",
+                    "dob": "1983-11-10",
                     "lastname": "Feix",
                     "name": "Sebastian"
                 },
                 "text": " Feix, Sebastian, London (Großbritanien), *10.11.1983"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Wiesbaden",
+                    "dismissed": true,
+                    "dob": "1976-09-24",
+                    "lastname": "Hafner",
+                    "name": "Jonas"
+                },
+                "text": " Hafner, Jonas, Wiesbaden, *24.09.1976."
             }
         ]
     }

@@ -53,12 +53,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Eystrup",
-                    "dob": "1964-09-08",
+                    "dob": "1964-08-09",
                     "flag": "sole representation",
                     "lastname": "Konrad",
                     "name": "Maik"
                 },
                 "text": " Konrad, Maik, Eystrup, *09.08.1964, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

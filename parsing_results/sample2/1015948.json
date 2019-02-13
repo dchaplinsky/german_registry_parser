@@ -32,7 +32,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Oberhaching",
-                    "dob": "1944-05-08",
+                    "dob": "1944-08-05",
                     "lastname": "Mair",
                     "name": "Johann"
                 },
@@ -42,11 +42,31 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Ingolstadt",
-                    "dob": "1966-10-12",
+                    "dob": "1966-12-10",
                     "lastname": "Ketelhut",
                     "name": "Ralph Steffen"
                 },
                 "text": " Ketelhut, Ralph Steffen, Ingolstadt, *10.12.1966"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Gauting",
+                    "dob": "1963-04-13",
+                    "lastname": "Lohmann",
+                    "name": "Dirk Matthias"
+                },
+                "text": " Lohmann, Dirk Matthias, Gauting, *13.04.1963"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "New Delhi / Indien",
+                    "dob": "1969-12-11",
+                    "lastname": "Singh Gandhi",
+                    "name": "Mahesh Pal"
+                },
+                "text": " Singh Gandhi, Mahesh Pal, New Delhi / Indien, *11.12.1969."
             }
         ]
     }

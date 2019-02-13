@@ -45,11 +45,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Rotenburg (Wümme)",
-                    "dob": "1965-02-10",
+                    "dob": "1965-10-02",
                     "lastname": "Behrends",
                     "name": "Jörn"
                 },
                 "text": " Behrends, Jörn, Rotenburg (Wümme), *02.10.1965"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Rotenburg (Wümme)",
+                    "dob": "1968-04-06",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Büttner",
+                    "name": "Lutz"
+                },
+                "text": " Büttner, Lutz, Rotenburg (Wümme), *06.04.1968, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

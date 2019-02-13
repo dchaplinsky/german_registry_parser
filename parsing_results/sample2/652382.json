@@ -32,17 +32,28 @@
                 "payload": {
                     "city": "Mölnlycke / Schweden",
                     "dismissed": true,
-                    "dob": "1987-08-04",
+                    "dob": "1987-04-08",
                     "lastname": "Engelhard",
                     "name": "Nicolas"
                 },
                 "text": " Engelhard, Nicolas, Mölnlycke / Schweden, *08.04.1987"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Hockenheim",
+                    "dismissed": true,
+                    "dob": "1986-03-14",
+                    "lastname": "Rauscher",
+                    "name": "Moriz"
+                },
+                "text": " Rauscher, Moriz, Hockenheim, *14.03.1986."
+            },
+            {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Mölnlycke / Schweden",
-                    "dob": "1987-08-04",
+                    "dob": "1987-04-08",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Engelhard",
                     "name": "Nicolas"

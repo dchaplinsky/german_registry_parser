@@ -16,12 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=253744&land_abk=sn"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Leipzig",
-                    "dob": "1962-05-09",
+                    "dob": "1962-09-05",
                     "flag": "sole representation",
                     "lastname": "Müller",
                     "name": "Thomas"
@@ -33,7 +39,7 @@
                 "payload": {
                     "city": "Leipzig",
                     "dismissed": true,
-                    "dob": "1934-04-05",
+                    "dob": "1934-05-04",
                     "lastname": "Müller",
                     "name": "Karl"
                 },

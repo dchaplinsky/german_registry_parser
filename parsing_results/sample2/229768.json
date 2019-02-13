@@ -27,12 +27,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
-                    "dob": "1978-06-10",
+                    "dob": "1978-10-06",
                     "flag": "sole representation",
                     "lastname": "Jitaru",
                     "name": "Dorin-Daniel"
                 },
                 "text": " Jitaru, Dorin-Daniel, Frankfurt am Main, *06.10.1978, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "DismissedManagingDirector",

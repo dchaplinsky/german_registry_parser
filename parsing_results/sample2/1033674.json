@@ -28,21 +28,43 @@
                 "payload": {
                     "city": "München",
                     "dismissed": true,
-                    "dob": "1968-11-04",
+                    "dob": "1968-04-11",
                     "lastname": "Gogalla",
                     "name": "Katja"
                 },
                 "text": " Gogalla, Katja, München, *11.04.1968"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1978-03-02",
+                    "lastname": "Selnes",
+                    "name": "Randi Mette"
+                },
+                "text": " Selnes, Randi Mette, München, *02.03.1978."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wien / Österreich",
-                    "dob": "1981-07-08",
+                    "dob": "1981-08-07",
                     "lastname": "Boas",
                     "name": "Yeshayahu"
                 },
                 "text": " Boas, Yeshayahu, Wien / Österreich, *07.08.1981"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Wien / Österreich",
+                    "dob": "1967-06-09",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Gadilov",
+                    "name": "Pinchas"
+                },
+                "text": " Gadilov, Pinchas, Wien / Österreich, *09.06.1967, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

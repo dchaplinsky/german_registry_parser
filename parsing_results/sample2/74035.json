@@ -49,12 +49,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Benshausen",
-                    "dob": "1969-06-02",
+                    "dob": "1969-02-06",
                     "flag": "sole representation",
                     "lastname": "Mothes",
                     "name": "Thomas"
                 },
                 "text": " Mothes, Thomas, Benshausen, *06.02.1969, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",

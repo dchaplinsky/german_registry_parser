@@ -27,12 +27,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Darmstadt",
-                    "dob": "1990-06-03",
+                    "dob": "1990-03-06",
                     "flag": "sole representation",
                     "lastname": "Schweitzer",
                     "name": "Antoine"
                 },
                 "text": " Schweitzer, Antoine, Darmstadt, *06.03.1990, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

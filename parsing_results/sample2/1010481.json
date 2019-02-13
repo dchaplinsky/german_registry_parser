@@ -46,7 +46,7 @@
                 "payload": {
                     "city": "Hachenburg",
                     "dismissed": true,
-                    "dob": "1941-06-11",
+                    "dob": "1941-11-06",
                     "lastname": "Menne",
                     "name": "Helmut"
                 },
@@ -56,12 +56,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hofheim",
-                    "dob": "1967-12-08",
+                    "dob": "1967-08-12",
                     "flag": "sole representation",
                     "lastname": "Zettner",
                     "name": "Frank"
                 },
                 "text": " Zettner, Frank, Hofheim, *12.08.1967, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

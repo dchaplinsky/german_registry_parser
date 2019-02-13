@@ -33,11 +33,22 @@
                 "payload": {
                     "city": "Essen",
                     "dismissed": true,
-                    "dob": "1978-09-01",
+                    "dob": "1978-01-09",
                     "lastname": "Reich",
                     "name": "Dimitri"
                 },
                 "text": " Reich, Dimitri, Essen, *09.01.1978"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Bonn",
+                    "dismissed": true,
+                    "dob": "1980-04-24",
+                    "lastname": "Sarmina",
+                    "name": "Natalja"
+                },
+                "text": " Sarmina, Natalja, Bonn, *24.04.1980."
             }
         ]
     }

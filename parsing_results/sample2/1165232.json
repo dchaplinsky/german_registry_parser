@@ -27,11 +27,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Roth",
-                    "dob": "1991-11-02",
+                    "dob": "1991-02-11",
                     "lastname": "Lechner",
                     "name": "Tanja"
                 },
                 "text": " Lechner, Tanja, Roth, *11.02.1991"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Roth",
+                    "dob": "1985-12-11",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Lechner",
+                    "name": "Florian"
+                },
+                "text": " Lechner, Florian, Roth, *11.12.1985, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

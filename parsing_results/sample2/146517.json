@@ -32,12 +32,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
-                    "dob": "1964-07-03",
+                    "dob": "1964-03-07",
                     "flag": "sole representation",
                     "lastname": "Siebert",
                     "name": "Renate"
                 },
                 "text": " Siebert, Renate, München, *07.03.1964, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

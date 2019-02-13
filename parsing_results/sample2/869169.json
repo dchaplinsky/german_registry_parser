@@ -29,6 +29,17 @@
                 "text": " Geiger, Georg, Textilingenieur, Helmbrechts"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Konradsreuth",
+                    "dismissed": true,
+                    "lastname": "Riedel",
+                    "name": "Gustav",
+                    "position": "Elektroingenieur"
+                },
+                "text": " Riedel, Gustav, Elektroingenieur, Konradsreuth."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Helmbrechts",
@@ -37,6 +48,17 @@
                     "name": "Peter"
                 },
                 "text": " Geiger, Peter, Helmbrechts, *20.03.1970"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Hof",
+                    "dob": "1973-10-18",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Riedel",
+                    "name": "Stefan"
+                },
+                "text": " Riedel, Stefan, Hof, *18.10.1973, jeweils einzelvertretungsberechtigt."
             }
         ]
     }

@@ -39,12 +39,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Erzhausen",
-                    "dob": "1973-09-01",
+                    "dob": "1973-01-09",
                     "flag": "sole representation",
                     "lastname": "Neuber",
                     "name": "Dirk Kurt"
                 },
                 "text": " Neuber, Dirk Kurt, Erzhausen, *09.01.1973, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

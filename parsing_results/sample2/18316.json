@@ -16,17 +16,45 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=18316&land_abk=sn"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a AppointedManagingDirector from  mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "officers": [
             {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Langenfeld",
                     "dismissed": true,
-                    "dob": "1962-06-03",
+                    "dob": "1962-03-06",
                     "lastname": "Christ",
                     "name": "Klaus"
                 },
                 "text": " Christ, Klaus, Langenfeld, *06.03.1962"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Köln",
+                    "dismissed": true,
+                    "dob": "1945-09-20",
+                    "lastname": "Elsner",
+                    "name": "Hartmut Fritz"
+                },
+                "text": " Elsner, Hartmut Fritz, Köln, *20.09.1945"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Chemnitz",
+                    "dismissed": true,
+                    "lastname": "Richter",
+                    "name": "Gunter",
+                    "position": "Angestellter"
+                },
+                "text": " Richter, Gunter, Angestellter, Chemnitz."
             },
             {
                 "class": "AppointedManagingDirector",

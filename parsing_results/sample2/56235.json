@@ -45,11 +45,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Belgershain",
-                    "dob": "1957-09-04",
+                    "dob": "1957-04-09",
                     "lastname": "Berndt",
                     "name": "Sigrid"
                 },
                 "text": " Berndt, Sigrid, Belgershain, *09.04.1957"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Belgershain",
+                    "dob": "1972-06-23",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Rosenke",
+                    "name": "Daniel"
+                },
+                "text": " Rosenke, Daniel, Belgershain, *23.06.1972, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

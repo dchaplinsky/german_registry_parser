@@ -31,7 +31,7 @@
                 "class": "PersonalPartner",
                 "payload": {
                     "city": "Mitterteich",
-                    "dob": "1948-03-10",
+                    "dob": "1948-10-03",
                     "flag": "sole representation",
                     "lastname": "Heinrich",
                     "name": "Rainer"
@@ -41,8 +41,16 @@
             {
                 "class": "PersonalPartner",
                 "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
                     "city": "Regenstauf",
-                    "dob": "1945-01-05",
+                    "dob": "1945-05-01",
                     "lastname": "Schmidt",
                     "name": "Erich"
                 },
@@ -53,7 +61,7 @@
                 "payload": {
                     "city": "Mitterteich",
                     "dismissed": true,
-                    "dob": "1948-03-10",
+                    "dob": "1948-10-03",
                     "lastname": "Heinrich",
                     "name": "Rainer"
                 },
@@ -63,7 +71,7 @@
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Regenstauf",
-                    "dob": "1945-01-05",
+                    "dob": "1945-05-01",
                     "lastname": "Schmidt",
                     "name": "Erich"
                 },

@@ -41,11 +41,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bad Essen",
-                    "dob": "1973-08-10",
+                    "dob": "1973-10-08",
                     "lastname": "Bitter",
                     "name": "Eva"
                 },
                 "text": " Bitter, Eva, Bad Essen, *08.10.1973"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Bad Essen",
+                    "dob": "1975-05-02",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Kutscher",
+                    "name": "Marco"
+                },
+                "text": " Kutscher, Marco, Bad Essen, *02.05.1975, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

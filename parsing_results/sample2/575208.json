@@ -38,12 +38,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hattersheim am Main",
-                    "dob": "1987-07-09",
+                    "dob": "1987-09-07",
                     "flag": "sole representation",
                     "lastname": "Kunchev",
                     "name": "Hristo"
                 },
                 "text": " Kunchev, Hristo, Hattersheim am Main, *07.09.1987, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

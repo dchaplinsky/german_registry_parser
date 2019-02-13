@@ -43,7 +43,7 @@
                 "payload": {
                     "city": "Limburg",
                     "dismissed": true,
-                    "dob": "1973-10-09",
+                    "dob": "1973-09-10",
                     "lastname": "Kaya",
                     "maidenname": "Kaya",
                     "name": "Ayten"
@@ -54,12 +54,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Limburg",
-                    "dob": "1970-10-05",
+                    "dob": "1970-05-10",
                     "flag": "sole representation",
                     "lastname": "Kaya",
                     "name": "Savas"
                 },
                 "text": " Kaya, Savas, Limburg, *10.05.1970, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

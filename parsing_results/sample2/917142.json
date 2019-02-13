@@ -35,12 +35,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Zorneding",
-                    "dob": "1959-03-08",
+                    "dob": "1959-08-03",
                     "flag": "sole representation",
                     "lastname": "Finkel",
                     "name": "Gitta"
                 },
                 "text": " Finkel, Gitta, Zorneding, *03.08.1959, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ManagingDirector",
@@ -52,6 +60,14 @@
                     "name": "Rosa Maria"
                 },
                 "text": " Finkel-Haessler, Rosa Maria, Zorneding, *21.11.1950, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -41,11 +41,22 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "München",
-                    "dob": "1983-02-09",
+                    "dob": "1983-09-02",
                     "lastname": "Basedow",
                     "name": "Mathias"
                 },
                 "text": " Basedow, Mathias, München, *02.09.1983"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Göteborg / Schweden",
+                    "dob": "1979-06-02",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Varkey",
+                    "name": "James"
+                },
+                "text": " Varkey, James, Göteborg / Schweden, *02.06.1979, jeweils einzelvertretungsberechtigt."
             }
         ]
     }

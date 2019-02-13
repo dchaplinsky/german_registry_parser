@@ -62,22 +62,41 @@
                 "payload": {
                     "city": "München",
                     "dismissed": true,
-                    "dob": "1968-11-04",
+                    "dob": "1968-04-11",
                     "lastname": "Gogalla",
                     "name": "Katja"
                 },
                 "text": " Gogalla, Katja, München, *11.04.1968"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1978-03-02",
+                    "lastname": "Selnes",
+                    "name": "Randi Mette"
+                },
+                "text": " Selnes, Randi Mette, München, *02.03.1978."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1982-05-10",
+                    "dob": "1982-10-05",
                     "flag": "sole representation",
                     "lastname": "Kaune",
                     "name": "Joachim Maria"
                 },
                 "text": " Kaune, Joachim Maria, Hamburg, *05.10.1982, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

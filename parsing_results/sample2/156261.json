@@ -69,6 +69,14 @@
                 "text": " Akgün, Teoman, Hamburg, *29.06.1974, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Aschheim",
@@ -78,6 +86,17 @@
                     "name": "Joachim Anton"
                 },
                 "text": " Henger, Joachim Anton, Aschheim, *14.07.1955"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Bargteheide",
+                    "dismissed": true,
+                    "dob": "1970-09-05",
+                    "lastname": "Schmidt",
+                    "name": "Thomas"
+                },
+                "text": " Schmidt, Thomas, Bargteheide, *05.09.1970."
             }
         ]
     }

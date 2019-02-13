@@ -21,11 +21,22 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mannheim",
-                    "dob": "1969-03-01",
+                    "dob": "1969-01-03",
                     "lastname": "Huber",
                     "name": "Michael"
                 },
                 "text": " Huber, Michael, Mannheim, *03.01.1969"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Heddesheim",
+                    "dob": "1973-04-18",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Spindler",
+                    "name": "Nadine geborene Riedel"
+                },
+                "text": " Spindler, Nadine geborene Riedel, Heddesheim, *18.04.1973, jeweils einzelvertretungsberechtigt."
             },
             {
                 "class": "DismissedManagingDirector",
@@ -43,11 +54,22 @@
                 "payload": {
                     "city": "Mannheim",
                     "dismissed": true,
-                    "dob": "1969-03-01",
+                    "dob": "1969-01-03",
                     "lastname": "Huber",
                     "name": "Michael"
                 },
                 "text": " Huber, Michael, Mannheim, *03.01.1969"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Heddesheim",
+                    "dismissed": true,
+                    "dob": "1973-04-18",
+                    "lastname": "Spindler",
+                    "name": "Nadine geborene Riedel"
+                },
+                "text": " Spindler, Nadine geborene Riedel, Heddesheim, *18.04.1973."
             }
         ]
     }

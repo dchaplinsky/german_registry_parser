@@ -27,7 +27,40 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Oberursel (Taunus)",
-                    "dob": "1961-10-08",
+                    "dob": "1961-08-10",
+                    "lastname": "Luick-Nijboer",
+                    "name": "Susanne"
+                },
+                "text": " Luick-Nijboer, Susanne, Oberursel (Taunus), *10.08.1961"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Bad Nauheim",
+                    "dob": "1949-07-15",
+                    "flag": "jeweils vertretungsberechtigt gemeinsam mit einem anderen Liquidator",
+                    "lastname": "Marz",
+                    "name": "Vera"
+                },
+                "text": " Marz, Vera, Bad Nauheim, *15.07.1949, jeweils vertretungsberechtigt gemeinsam mit einem anderen Liquidator."
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Königstein im Taunus",
+                    "dismissed": true,
+                    "dob": "1972-03-04",
+                    "lastname": "Levointurier",
+                    "name": "Celine"
+                },
+                "text": " Levointurier, Celine, Königstein im Taunus, *04.03.1972"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Oberursel (Taunus)",
+                    "dismissed": true,
+                    "dob": "1961-08-10",
                     "lastname": "Luick-Nijboer",
                     "name": "Susanne"
                 },
@@ -36,13 +69,13 @@
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
-                    "city": "Königstein im Taunus",
+                    "city": "Bad Nauheim",
                     "dismissed": true,
-                    "dob": "1972-04-03",
-                    "lastname": "Levointurier",
-                    "name": "Celine"
+                    "dob": "1949-07-15",
+                    "lastname": "Marz",
+                    "name": "Vera"
                 },
-                "text": " Levointurier, Celine, Königstein im Taunus, *04.03.1972"
+                "text": " Marz, Vera, Bad Nauheim, *15.07.1949."
             },
             {
                 "class": "ProcurationCancelled",

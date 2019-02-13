@@ -34,7 +34,7 @@
                 "payload": {
                     "city": "Hamburg",
                     "dismissed": true,
-                    "dob": "1994-02-06",
+                    "dob": "1994-06-02",
                     "lastname": "Nabi",
                     "name": "Elias"
                 },
@@ -49,6 +49,14 @@
                     "position": "Hamburg (geboren *1970)"
                 },
                 "text": " Omari, Adjmal, Hamburg (geboren *1970), einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

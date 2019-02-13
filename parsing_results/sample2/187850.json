@@ -28,11 +28,22 @@
                 "payload": {
                     "city": "Straßlach",
                     "dismissed": true,
-                    "dob": "1948-03-11",
+                    "dob": "1948-11-03",
                     "lastname": "Berger",
                     "name": "Ulrich"
                 },
                 "text": " Berger, Ulrich, Straßlach, *03.11.1948"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Egling",
+                    "dismissed": true,
+                    "lastname": "Schulz",
+                    "name": "Horst-Günther",
+                    "position": "Kaufmann"
+                },
+                "text": " Schulz, Horst-Günther, Kaufmann, Egling."
             },
             {
                 "class": "AppointedManagingDirector",
@@ -54,6 +65,16 @@
                     "name": "Wolfgang"
                 },
                 "text": " Leibold, Wolfgang, Kienberg, *23.02.1957"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1970-06-29",
+                    "lastname": "Stingl",
+                    "name": "Alexandra"
+                },
+                "text": " Stingl, Alexandra, München, *29.06.1970."
             }
         ]
     }

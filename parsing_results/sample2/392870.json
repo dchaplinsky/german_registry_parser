@@ -35,15 +35,34 @@
                 "text": " Kubbat, Michael, Schenklengsfeld, *22.08.1968"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Naumburg/Saale",
+                    "dismissed": true,
+                    "dob": "1966-01-06",
+                    "lastname": "Thonndorf",
+                    "name": "Thorsten"
+                },
+                "text": " Thonndorf, Thorsten, Naumburg/Saale, *06.01.1966."
+            },
+            {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Naumburg/Saale",
-                    "dob": "1966-06-01",
+                    "dob": "1966-01-06",
                     "flag": "sole representation",
                     "lastname": "Tonndorf",
                     "name": "Thorsten"
                 },
                 "text": " Tonndorf, Thorsten, Naumburg/Saale, *06.01.1966, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

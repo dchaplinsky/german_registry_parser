@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=251643&land_abk=he"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a AppointedManagingDirector from  Mulard, Stéphane, Paris, Frankreich, *15.02.1972, jeweils einzelvertretungsberechtigt, error text was Cannot parse DOB  Paris using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
@@ -33,14 +39,33 @@
                 "text": " Kabelitz, Sabine"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Wiesbaden",
+                    "dismissed": true,
+                    "dob": "1947-10-17",
+                    "lastname": "Pacho",
+                    "name": "Norbert"
+                },
+                "text": " Pacho, Norbert, Wiesbaden, *17.10.1947."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "München",
-                    "dob": "1966-02-09",
+                    "dob": "1966-09-02",
                     "lastname": "Doctor Hartmann",
                     "name": "Karsten"
                 },
                 "text": " Doctor Hartmann, Karsten, München, *02.09.1966"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

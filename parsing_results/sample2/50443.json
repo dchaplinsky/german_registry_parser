@@ -39,11 +39,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Schwarme",
-                    "dob": "1962-03-09",
+                    "dob": "1962-09-03",
                     "lastname": "Knief",
                     "name": "Volker"
                 },
                 "text": " Knief, Volker, Schwarme, *03.09.1962"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Schwarme",
+                    "dob": "1961-12-24",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Knief",
+                    "name": "Birgit geborene Tecklenborg"
+                },
+                "text": " Knief, Birgit geborene Tecklenborg, Schwarme, *24.12.1961, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

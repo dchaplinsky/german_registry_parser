@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Unterföhring",
-                    "dob": "1987-03-11",
+                    "dob": "1987-11-03",
                     "flag": "sole representation",
                     "lastname": "Weiß",
                     "name": "Thomas Maximilian"
                 },
                 "text": " Weiß, Thomas Maximilian, Unterföhring, *03.11.1987, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

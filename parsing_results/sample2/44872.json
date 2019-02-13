@@ -39,11 +39,40 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Chieming",
-                    "dob": "1964-10-01",
+                    "dob": "1964-01-10",
                     "lastname": "Doctor Bracke",
                     "name": "Edgar"
                 },
                 "text": " Doctor Bracke, Edgar, Chieming, *10.01.1964"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Stein/Traun",
+                    "dob": "1954-05-13",
+                    "lastname": "Gampert",
+                    "name": "Peter"
+                },
+                "text": " Gampert, Peter, Stein/Traun, *13.05.1954"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Weibhausen",
+                    "dob": "1977-03-18",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Vordermayer",
+                    "name": "Christian"
+                },
+                "text": " Vordermayer, Christian, Weibhausen, *18.03.1977, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

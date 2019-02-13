@@ -42,12 +42,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "gehrden",
-                    "dob": "1971-01-05",
+                    "dob": "1971-05-01",
                     "flag": "sole representation",
                     "lastname": "schwarzlose",
                     "name": "ralph-gerhard"
                 },
                 "text": " schwarzlose, ralph-gerhard, gehrden, *01.05.1971, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der befugnis",
+                    "name": "im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der befugnis, im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "DismissedManagingDirector",

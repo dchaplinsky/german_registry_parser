@@ -45,12 +45,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hünfeld",
-                    "dob": "1993-04-11",
+                    "dob": "1993-11-04",
                     "flag": "sole representation",
                     "lastname": "Kircher",
                     "name": "Felix"
                 },
                 "text": " Kircher, Felix, Hünfeld, *04.11.1993, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

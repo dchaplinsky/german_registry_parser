@@ -37,12 +37,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Frankfurt am Main",
-                    "dob": "1947-01-09",
+                    "dob": "1947-09-01",
                     "flag": "sole representation",
                     "lastname": "Hofmann",
                     "name": "Volkmar"
                 },
                 "text": " Hofmann, Volkmar, Frankfurt am Main, *01.09.1947, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "DismissedManagingDirector",

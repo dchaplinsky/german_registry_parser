@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=225728&land_abk=sh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  mit der Befugnis die Gesellschaft allein zu vertreten, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -27,11 +33,19 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Itzehoe",
-                    "dob": "1942-04-07",
+                    "dob": "1942-07-04",
                     "lastname": "Kröger",
                     "name": "Dieter"
                 },
                 "text": " Kröger, Dieter, *04.07.1942, Itzehoe"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "Ist ein Liquidator bestellt",
+                    "name": "so vertritt er die Gesellschaft allein"
+                },
+                "text": " Ist ein Liquidator bestellt, so vertritt er die Gesellschaft allein."
             }
         ]
     }

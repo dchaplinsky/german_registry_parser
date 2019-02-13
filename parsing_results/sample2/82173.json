@@ -32,7 +32,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1955-02-03",
+                    "dob": "1955-03-02",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Modrow",
                     "name": "Helmut"
@@ -49,6 +49,28 @@
                     "name": "Johannes Theodor"
                 },
                 "text": " Holland, Johannes Theodor, Mönchengladbach, *18.03.1956"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Hannover",
+                    "dismissed": true,
+                    "dob": "1959-06-20",
+                    "lastname": "Meyer",
+                    "name": "Katrin"
+                },
+                "text": " Meyer, Katrin, Hannover, *20.06.1959"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Hamburg",
+                    "dismissed": true,
+                    "dob": "1955-03-02",
+                    "lastname": "Modrow",
+                    "name": "Helmut"
+                },
+                "text": " Modrow, Helmut, Hamburg, *02.03.1955."
             }
         ]
     }

@@ -33,6 +33,17 @@
                 "text": " Goldbrunner, Christian, *15.10.1957"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1956-05-10",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Kober",
+                    "name": "Peter"
+                },
+                "text": " Kober, Peter, München, *10.05.1956, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Pöcking",
@@ -42,6 +53,17 @@
                     "position": "Bankkaufmann"
                 },
                 "text": " Kirberg, Ralf, Bankkaufmann, Pöcking"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Pullach",
+                    "dismissed": true,
+                    "lastname": "Doctor May",
+                    "name": "Franz",
+                    "position": "Jurist"
+                },
+                "text": " Doctor May, Franz, Jurist, Pullach."
             },
             {
                 "class": "ProcurationCancelled",

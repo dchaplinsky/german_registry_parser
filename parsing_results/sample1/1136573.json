@@ -31,12 +31,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Pfaffenhofen a.d. Ilm",
-                    "dob": "1961-07-11",
+                    "dob": "1961-11-07",
                     "flag": "sole representation",
                     "lastname": ": Maier",
                     "name": "Gerhard Alfons"
                 },
                 "text": ": Maier, Gerhard Alfons, Pfaffenhofen a.d. Ilm, *07.11.1961, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "RetiredManagingDirector",

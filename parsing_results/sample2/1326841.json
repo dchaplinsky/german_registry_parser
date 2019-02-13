@@ -21,11 +21,22 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Singapore / Singapur",
-                    "dob": "1974-06-07",
+                    "dob": "1974-07-06",
                     "lastname": "Bakker",
                     "name": "Thijs"
                 },
                 "text": " Bakker, Thijs, Singapore / Singapur, *06.07.1974"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Kapellen / Belgien",
+                    "dob": "1967-04-22",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Bertona",
+                    "name": "Anna"
+                },
+                "text": " Bertona, Anna, Kapellen / Belgien, *22.04.1967, jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "DismissedManagingDirector",
@@ -42,7 +53,7 @@
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Meerbusch",
-                    "dob": "1978-09-05",
+                    "dob": "1978-05-09",
                     "lastname": "von Deylen",
                     "name": "Jörg"
                 },

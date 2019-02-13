@@ -22,11 +22,22 @@
                 "payload": {
                     "city": "Valenciennes/Frankreich",
                     "dismissed": true,
-                    "dob": "1967-10-09",
+                    "dob": "1967-09-10",
                     "lastname": "de Coignac",
                     "name": "Nicolas"
                 },
                 "text": " de Coignac, Nicolas, Valenciennes/Frankreich, *10.09.1967"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Köln",
+                    "dismissed": true,
+                    "dob": "1950-05-07",
+                    "lastname": "Doctor Zeislmair",
+                    "name": "Ulrike"
+                },
+                "text": " Doctor Zeislmair, Ulrike, Köln, *07.05.1950."
             }
         ]
     }

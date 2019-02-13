@@ -45,11 +45,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Eimsheim",
-                    "dob": "1983-03-02",
+                    "dob": "1983-02-03",
                     "lastname": "Schäfer",
                     "name": "Thomas"
                 },
                 "text": " Schäfer, Thomas, Eimsheim, *03.02.1983"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Wiesbaden",
+                    "dob": "1983-05-26",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Thorsten",
+                    "name": "Schmidt"
+                },
+                "text": " Thorsten, Schmidt, Wiesbaden, *26.05.1983, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

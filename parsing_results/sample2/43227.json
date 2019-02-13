@@ -27,11 +27,22 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Oberndorf am Neckar",
-                    "dob": "1966-03-04",
+                    "dob": "1966-04-03",
                     "lastname": "Bleibel",
                     "name": "Richard"
                 },
                 "text": " Bleibel, Richard, Oberndorf am Neckar, *03.04.1966"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Sulz am Neckar",
+                    "dob": "1964-07-11",
+                    "flag": "jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Rebholz",
+                    "name": "Joachim"
+                },
+                "text": " Rebholz, Joachim, Sulz am Neckar, *11.07.1964, jeweils einzelvertretungsberechtigt mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "DismissedManagingDirector",
@@ -49,11 +60,22 @@
                 "payload": {
                     "city": "Oberndorf am Neckar",
                     "dismissed": true,
-                    "dob": "1966-03-04",
+                    "dob": "1966-04-03",
                     "lastname": "Bleibel",
                     "name": "Richard"
                 },
                 "text": " Bleibel, Richard, Oberndorf am Neckar, *03.04.1966"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Sulz am Neckar",
+                    "dismissed": true,
+                    "dob": "1964-07-11",
+                    "lastname": "Rebholz",
+                    "name": "Joachim"
+                },
+                "text": " Rebholz, Joachim, Sulz am Neckar, *11.07.1964."
             }
         ]
     }

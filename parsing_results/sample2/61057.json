@@ -33,12 +33,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Ottendorf-Okrilla",
-                    "dob": "1947-12-09",
+                    "dob": "1947-09-12",
                     "flag": "sole representation",
                     "lastname": "Schaffer",
                     "name": "Hans-Jürgen"
                 },
                 "text": " Schaffer, Hans-Jürgen, Ottendorf-Okrilla, *12.09.1947, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

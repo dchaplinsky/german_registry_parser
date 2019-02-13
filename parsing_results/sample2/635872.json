@@ -31,12 +31,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Linz/Österreich",
-                    "dob": "1967-04-03",
+                    "dob": "1967-03-04",
                     "flag": "sole representation",
                     "lastname": ": Bockhorn",
                     "name": "Dieter"
                 },
                 "text": ": Bockhorn, Dieter, Linz/Österreich, *04.03.1967, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

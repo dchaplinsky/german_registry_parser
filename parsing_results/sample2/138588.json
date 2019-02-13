@@ -22,7 +22,7 @@
                 "payload": {
                     "city": "MO 63119",
                     "dismissed": true,
-                    "dob": "1957-10-08",
+                    "dob": "1957-08-10",
                     "lastname": "Richey jr",
                     "name": "Victor Lee",
                     "position": "St. Louis"
@@ -39,6 +39,25 @@
                     "position": "Smithton"
                 },
                 "text": " Garretson, Richard, Smithton, IL/USA, *20.12.1958"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Trondheim/Norwegen",
+                    "dob": "1964-05-21",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Stromme",
+                    "name": "Arvid"
+                },
+                "text": " Stromme, Arvid, Trondheim/Norwegen, *21.05.1964, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -31,12 +31,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Reichertsheim",
-                    "dob": "1960-06-11",
+                    "dob": "1960-11-06",
                     "flag": "sole representation",
                     "lastname": ": Huber",
                     "name": "Andreas"
                 },
                 "text": ": Huber, Andreas, Reichertsheim, *06.11.1960, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

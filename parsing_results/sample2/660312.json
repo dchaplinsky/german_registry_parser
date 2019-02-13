@@ -42,12 +42,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Grasbrunn",
-                    "dob": "1955-10-05",
+                    "dob": "1955-05-10",
                     "flag": "sole representation",
                     "lastname": "Memminger",
                     "name": "Wolfgang"
                 },
                 "text": " Memminger, Wolfgang, Grasbrunn, *10.05.1955, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ManagingDirector",
@@ -58,6 +66,25 @@
                     "name": "Christian"
                 },
                 "text": " Goldbrunner, Christian, Penzberg, *15.10.1957"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1956-05-10",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Kober",
+                    "name": "Peter"
+                },
+                "text": " Kober, Peter, München, *10.05.1956, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

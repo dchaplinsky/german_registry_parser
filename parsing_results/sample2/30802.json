@@ -21,11 +21,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Herzhorn",
-                    "dob": "1970-06-04",
+                    "dob": "1970-04-06",
                     "lastname": "Neubauer",
                     "name": "Christian"
                 },
                 "text": " Neubauer, Christian, Herzhorn, *06.04.1970"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1967-06-14",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Oberhansberg",
+                    "name": "Joachim"
+                },
+                "text": " Oberhansberg, Joachim, Hamburg, *14.06.1967, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "RetiredManagingDirector",

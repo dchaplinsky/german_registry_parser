@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Ingolstadt",
-                    "dob": "1950-10-04",
+                    "dob": "1950-04-10",
                     "flag": "sole representation",
                     "lastname": "Kordick",
                     "name": "Wolfgang"
                 },
                 "text": " Kordick, Wolfgang, Ingolstadt, *10.04.1950, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

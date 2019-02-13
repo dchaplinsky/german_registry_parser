@@ -22,11 +22,22 @@
                 "payload": {
                     "city": "München",
                     "dismissed": true,
-                    "dob": "1969-12-02",
+                    "dob": "1969-02-12",
                     "lastname": "Conley",
                     "name": "Timothy M"
                 },
                 "text": " Conley, Timothy M., München, *12.02.1969"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Pforzheim",
+                    "dismissed": true,
+                    "dob": "1966-08-20",
+                    "lastname": "Dannwolf",
+                    "name": "Uwe"
+                },
+                "text": " Dannwolf, Uwe, Pforzheim, *20.08.1966."
             },
             {
                 "class": "ManagingDirector",
@@ -37,6 +48,16 @@
                     "name": "Uwe"
                 },
                 "text": " Dannwolf, Uwe, Pforzheim, *20.08.1966"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hofheim",
+                    "dob": "1969-07-26",
+                    "lastname": "Heckelsmüller",
+                    "name": "Anke"
+                },
+                "text": " Heckelsmüller, Anke, Hofheim, *26.07.1969."
             }
         ]
     }

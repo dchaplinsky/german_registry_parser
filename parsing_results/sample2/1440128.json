@@ -41,11 +41,22 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Essen",
-                    "dob": "1973-12-09",
+                    "dob": "1973-09-12",
                     "lastname": "Herbrechter",
                     "name": "Ulf"
                 },
                 "text": " Herbrechter, Ulf, Essen, *12.09.1973"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Wien",
+                    "dob": "1977-04-09",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Legat",
+                    "name": "Christian"
+                },
+                "text": " Legat, Christian, Wien, *09.04.1977, jeweils mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ManagingDirector",
@@ -56,6 +67,26 @@
                     "name": "Peter"
                 },
                 "text": " Kloibhofer, Peter, Berlin, *19.07.1975"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1979-03-26",
+                    "lastname": "Willenberg",
+                    "name": "Gregor"
+                },
+                "text": " Willenberg, Gregor, Berlin, *26.03.1979"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1967-03-05",
+                    "lastname": "Ücker",
+                    "name": "Michael"
+                },
+                "text": " Ücker, Michael, Berlin, *05.03.1967."
             }
         ]
     }

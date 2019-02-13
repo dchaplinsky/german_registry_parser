@@ -37,12 +37,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Staßfurt",
-                    "dob": "1977-11-10",
+                    "dob": "1977-10-11",
                     "flag": "sole representation",
                     "lastname": "Hindenburg",
                     "name": "Gernot"
                 },
                 "text": " Hindenburg, Gernot, Staßfurt, *11.10.1977, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ManagingDirector",
@@ -54,6 +62,14 @@
                     "name": "Andy"
                 },
                 "text": " Heller, Andy, Staßfurt, *14.08.1975, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

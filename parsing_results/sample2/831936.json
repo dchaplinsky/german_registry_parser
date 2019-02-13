@@ -21,22 +21,43 @@
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Frankfurt am Main",
-                    "dob": "1968-06-02",
+                    "dob": "1968-02-06",
                     "lastname": "Gretzschel",
                     "name": "Dirk"
                 },
                 "text": " Gretzschel, Dirk, Frankfurt am Main, *06.02.1968"
             },
             {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Stockdorf",
+                    "dob": "1967-11-08",
+                    "lastname": "Müller",
+                    "name": "Jürgen"
+                },
+                "text": " Müller, Jürgen, Stockdorf, *08.11.1967."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dismissed": true,
-                    "dob": "1974-05-02",
+                    "dob": "1974-02-05",
                     "lastname": "Borchers",
                     "name": "Julia"
                 },
                 "text": " Borchers, Julia, Frankfurt am Main, *05.02.1974"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Hösbach",
+                    "dismissed": true,
+                    "dob": "1968-01-05",
+                    "lastname": "Scheurich",
+                    "name": "Klaus"
+                },
+                "text": " Scheurich, Klaus, Hösbach, *05.01.1968."
             }
         ]
     }

@@ -37,11 +37,21 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
-                    "dob": "1976-02-01",
+                    "dob": "1976-01-02",
                     "lastname": "Doctor Knoll",
                     "name": "Sebastian"
                 },
                 "text": " Doctor Knoll, Sebastian, Frankfurt am Main, *02.01.1976"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Fernwald",
+                    "dob": "1965-12-12",
+                    "lastname": "Mareth",
+                    "name": "Michael"
+                },
+                "text": " Mareth, Michael, Fernwald, *12.12.1965."
             }
         ]
     }

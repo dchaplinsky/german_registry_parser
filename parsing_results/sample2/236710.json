@@ -58,7 +58,7 @@
                 "payload": {
                     "city": "Berlin",
                     "dismissed": true,
-                    "dob": "1968-03-05",
+                    "dob": "1968-05-03",
                     "lastname": "Werner",
                     "name": "Hans-Jürgen"
                 },
@@ -75,6 +75,15 @@
                     "name": "Amina"
                 },
                 "text": " Meineker, Amina, Oberursel (Taunus), *30.09.1969, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "dismissed": true,
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

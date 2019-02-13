@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Wiesenburg",
                     "dismissed": true,
-                    "dob": "1965-11-12",
+                    "dob": "1965-12-11",
                     "lastname": "Hammerstädt",
                     "name": "Wolfgang Edgar Heinz"
                 },
@@ -38,12 +38,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kleinmachnow",
-                    "dob": "1958-03-08",
+                    "dob": "1958-08-03",
                     "flag": "sole representation",
                     "lastname": "Körber",
                     "name": "Robert"
                 },
                 "text": " Körber, Robert, Kleinmachnow, *03.08.1958, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

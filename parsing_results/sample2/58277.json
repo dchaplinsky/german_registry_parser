@@ -35,12 +35,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Neuenhaus",
-                    "dob": "1949-03-09",
+                    "dob": "1949-09-03",
                     "flag": "sole representation",
                     "lastname": "Glüpker",
                     "name": "Gerhard"
                 },
                 "text": " Glüpker, Gerhard, Neuenhaus, *03.09.1949, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

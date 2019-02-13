@@ -51,12 +51,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Wiesbaden",
-                    "dob": "1963-12-02",
+                    "dob": "1963-02-12",
                     "flag": "sole representation",
                     "lastname": "Kottas",
                     "name": "Georgios"
                 },
                 "text": " Kottas, Georgios, Wiesbaden, *12.02.1963, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

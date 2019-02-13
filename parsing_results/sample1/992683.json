@@ -22,11 +22,19 @@
                 "payload": {
                     "city": "Remscheid",
                     "dismissed": true,
-                    "dob": "1944-10-02",
+                    "dob": "1944-02-10",
                     "lastname": "Schein",
                     "name": "Ulrike"
                 },
                 "text": " Schein, Ulrike, Remscheid, *10.02.1944"
+            },
+            {
+                "class": "RetiredPersonalPartner",
+                "payload": {
+                    "company_name": "Schein Verwaltungs-GmbH, Remscheid (Amtsgericht Wuppertal HRB 16868).",
+                    "dismissed": true
+                },
+                "text": " Schein Verwaltungs-GmbH, Remscheid (Amtsgericht Wuppertal HRB 16868)."
             },
             {
                 "class": "PersonalPartner",

@@ -38,11 +38,22 @@
                 "payload": {
                     "city": "Ingelheim",
                     "dismissed": true,
-                    "dob": "1954-06-01",
+                    "dob": "1954-01-06",
                     "lastname": "Bajorat",
                     "name": "Manfried"
                 },
                 "text": " Bajorat, Manfried, Ingelheim, *06.01.1954"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Mosbach",
+                    "dismissed": true,
+                    "dob": "1973-10-01",
+                    "lastname": "Palm",
+                    "name": "Marc-Andre"
+                },
+                "text": " Palm, Marc-Andre, Mosbach, *01.10.1973."
             }
         ]
     }

@@ -30,7 +30,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
-                    "dob": "1985-01-07",
+                    "dob": "1985-07-01",
                     "lastname": "Bosko",
                     "name": "Vucic"
                 },
@@ -41,11 +41,22 @@
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dismissed": true,
-                    "dob": "1981-08-12",
+                    "dob": "1981-12-08",
                     "lastname": "Konstantinovic",
                     "name": "Sasa"
                 },
                 "text": " Konstantinovic, Sasa, Frankfurt am Main, *08.12.1981"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Groitzsch",
+                    "dismissed": true,
+                    "dob": "1955-06-28",
+                    "lastname": "Maksimovic",
+                    "name": "Nenad"
+                },
+                "text": " Maksimovic, Nenad, Groitzsch, *28.06.1955."
             }
         ]
     }

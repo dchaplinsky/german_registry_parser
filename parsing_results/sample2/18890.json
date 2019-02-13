@@ -41,12 +41,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Pampow",
-                    "dob": "1971-07-09",
+                    "dob": "1971-09-07",
                     "flag": "vertretungsberechtigt gemäß allgemeiner Vertretungsregelung",
                     "lastname": "Konrad",
                     "name": "Andreas"
                 },
                 "text": " Konrad, Andreas, Pampow, *07.09.1971, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

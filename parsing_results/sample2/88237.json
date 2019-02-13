@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=88237&land_abk=sn"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "labels": [
             {
                 "label": "address",
@@ -27,21 +33,42 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Miltenberg",
-                    "dob": "1966-01-08",
+                    "dob": "1966-08-01",
                     "lastname": "Leeger",
                     "name": "Thomas"
                 },
                 "text": " Leeger, Thomas, Miltenberg, *01.08.1966"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Miltenberg",
+                    "dob": "1958-04-09",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Leeger",
+                    "name": "Andreas"
+                },
+                "text": " Leeger, Andreas, Miltenberg, *09.04.1958, jeweils einzelvertretungsberechtigt"
+            },
+            {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Neukirch",
-                    "dob": "1976-05-01",
+                    "dob": "1976-01-05",
                     "lastname": "Hartmann",
                     "name": "Dirk"
                 },
                 "text": " Hartmann, Dirk, Neukirch, *05.01.1976"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Flieden",
+                    "dob": "1957-02-17",
+                    "lastname": "Stupp",
+                    "name": "Norbert"
+                },
+                "text": " Stupp, Norbert, Flieden, *17.02.1957."
             }
         ]
     }

@@ -35,6 +35,14 @@
                 "text": " Johansson, Carl Johan Marcus, Weimar, *17.11.1970, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Weimar",
@@ -55,6 +63,28 @@
                     "name": "Ronald Erwin"
                 },
                 "text": " Diplomingenieur Holz, Ronald Erwin, Erfurt, *21.05.1956"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Erfurt",
+                    "dismissed": true,
+                    "dob": "1961-09-24",
+                    "lastname": "Diplomingenieur Sperling",
+                    "name": "Michael"
+                },
+                "text": " Diplomingenieur Sperling, Michael, Erfurt, *24.09.1961"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Weimar",
+                    "dismissed": true,
+                    "dob": "1959-06-24",
+                    "lastname": "Diplomingenieur Zimmermann",
+                    "name": "Matthias"
+                },
+                "text": " Diplomingenieur Zimmermann, Matthias, Weimar, *24.06.1959."
             }
         ]
     }

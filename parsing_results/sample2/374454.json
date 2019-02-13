@@ -32,17 +32,28 @@
                 "payload": {
                     "city": "Köln",
                     "dismissed": true,
-                    "dob": "1977-07-03",
+                    "dob": "1977-03-07",
                     "lastname": "Polster",
                     "name": "Sirko"
                 },
                 "text": " Polster, Sirko, Köln, *07.03.1977"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Darmstadt",
+                    "dismissed": true,
+                    "dob": "1983-12-04",
+                    "lastname": "Reifschneider",
+                    "name": "Frederik"
+                },
+                "text": " Reifschneider, Frederik, Darmstadt, *04.12.1983."
+            },
+            {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Eschborn",
-                    "dob": "1976-10-02",
+                    "dob": "1976-02-10",
                     "flag": "mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": ": Wiemann",
                     "name": "Helge"

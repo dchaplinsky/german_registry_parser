@@ -57,14 +57,32 @@
                 "text": " Kim, Chun Ho, Eschborn, *27.02.1963, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Eschborn",
-                    "dob": "1979-05-07",
+                    "dob": "1979-07-05",
                     "lastname": "Yang",
                     "name": "Heung Ki"
                 },
                 "text": " Yang, Heung Ki, Eschborn, *05.07.1979"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Eschborn",
+                    "dob": "1981-01-31",
+                    "lastname": "Yang",
+                    "name": "Heung-Ryeol"
+                },
+                "text": " Yang, Heung-Ryeol, Eschborn, *31.01.1981."
             }
         ]
     }

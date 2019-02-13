@@ -41,12 +41,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Darmstadt",
-                    "dob": "1962-01-12",
+                    "dob": "1962-12-01",
                     "flag": "sole representation",
                     "lastname": ": Detjen",
                     "name": "Uwe Gerd Andreas"
                 },
                 "text": ": Detjen, Uwe Gerd Andreas, Darmstadt, *01.12.1962, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "Liquidator",
@@ -58,6 +66,14 @@
                     "name": "Erica"
                 },
                 "text": "in: Detjen, Erica, Darmstadt, *25.07.1973, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

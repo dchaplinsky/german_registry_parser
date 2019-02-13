@@ -31,18 +31,37 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Herzogenaurach",
-                    "dob": "1963-11-04",
+                    "dob": "1963-04-11",
                     "lastname": "Geiser",
                     "name": "Wolfgang"
                 },
                 "text": " Geiser, Wolfgang, Herzogenaurach, *11.04.1963"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Gunzenhausen",
+                    "dob": "1978-10-30",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Wissmüller",
+                    "name": "Christoph"
+                },
+                "text": " Wissmüller, Christoph, Gunzenhausen, *30.10.1978, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Herzogenaurach",
                     "dismissed": true,
-                    "dob": "1963-11-04",
+                    "dob": "1963-04-11",
                     "lastname": "Geiser",
                     "name": "Wolfgang"
                 },

@@ -57,11 +57,40 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Immenhausen",
-                    "dob": "1950-01-10",
+                    "dob": "1950-10-01",
                     "lastname": "Aue",
                     "name": "Karl-Heinz"
                 },
                 "text": " Aue, Karl-Heinz, Immenhausen, *01.10.1950"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Grebenstein",
+                    "dob": "1974-06-16",
+                    "lastname": "Knauf",
+                    "name": "Markus"
+                },
+                "text": " Knauf, Markus, Grebenstein, *16.06.1974"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Trendelburg",
+                    "dob": "1955-03-21",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Reidelbach",
+                    "name": "Horst-Helmut"
+                },
+                "text": " Reidelbach, Horst-Helmut, Trendelburg, *21.03.1955, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

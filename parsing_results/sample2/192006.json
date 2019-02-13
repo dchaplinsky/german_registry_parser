@@ -67,6 +67,17 @@
             {
                 "class": "DismissedManagingDirector",
                 "payload": {
+                    "city": "Essen",
+                    "dismissed": true,
+                    "dob": "1966-12-15",
+                    "lastname": "Hesse",
+                    "name": "Wolfgang"
+                },
+                "text": " Hesse, Wolfgang, Essen, *15.12.1966."
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
                     "city": "Schwarmstedt",
                     "dismissed": true,
                     "dob": "1939-05-30",
@@ -75,6 +86,15 @@
                     "name": "Günter"
                 },
                 "text": " Papenburg, Günter, Schwarmstedt, *30.05.1939, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "dismissed": true,
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

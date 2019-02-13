@@ -45,12 +45,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Leer",
-                    "dob": "1971-08-04",
+                    "dob": "1971-04-08",
                     "flag": "sole representation",
                     "lastname": "Garrels",
                     "name": "Tjard Ludwig"
                 },
                 "text": " Garrels, Tjard Ludwig, Leer, *08.04.1971, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

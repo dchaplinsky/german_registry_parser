@@ -44,15 +44,45 @@
                 "text": " Lynard, Kenneth, Le-Mont-Sur-Lausanne/Schweiz, *30.07.1968"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Villars-Gryon/Schweiz",
+                    "dob": "1962-11-03",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "van Ophem",
+                    "name": "Cornelius"
+                },
+                "text": " van Ophem, Cornelius, Villars-Gryon/Schweiz, *03.11.1962, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
                     "dismissed": true,
-                    "dob": "1959-03-07",
+                    "dob": "1959-07-03",
                     "lastname": "Groenewegen",
                     "name": "Frank"
                 },
                 "text": " Groenewegen, Frank, München, *03.07.1959"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1963-05-13",
+                    "lastname": "Thompson",
+                    "name": "David"
+                },
+                "text": " Thompson, David, München, *13.05.1963."
             }
         ]
     }

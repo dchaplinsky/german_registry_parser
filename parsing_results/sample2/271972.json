@@ -16,6 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=271972&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rechtsform: Gesellschaft mit beschränkter Haftung, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Gesellschaftsvertrag vom:19)11.2013, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "Exclusive power of representation can be granted.",
@@ -53,12 +67,21 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1968-12-05",
+                    "dob": "1968-05-12",
                     "lastname": "Schrader",
                     "name": "Daniel",
                     "ref": 1
                 },
                 "text": "1) Schrader, Daniel, *12.05.1968, Berlin"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Gewinnverwendung)",
+                    "lastname": "mit Änderung vom 13.12.2013 in § 3 (Stammkapital)",
+                    "name": "§ 13 (Jahresabschluss"
+                },
+                "text": " mit Änderung vom 13.12.2013 in § 3 (Stammkapital), § 13 (Jahresabschluss, Gewinnverwendung)"
             }
         ]
     }

@@ -21,11 +21,41 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mainz",
-                    "dob": "1957-01-05",
+                    "dob": "1957-05-01",
                     "lastname": "Höhne",
                     "name": "Heinz Günter"
                 },
                 "text": " Höhne, Heinz Günter, Mainz, *01.05.1957"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Rockenberg",
+                    "dob": "1967-02-02",
+                    "lastname": "Noll",
+                    "name": "Ralf Paul"
+                },
+                "text": " Noll, Ralf Paul, Rockenberg, *02.02.1967"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Hofheim am Taunus",
+                    "dob": "1973-03-08",
+                    "lastname": "Rudnik",
+                    "name": "Oliver"
+                },
+                "text": " Rudnik, Oliver, Hofheim am Taunus, *08.03.1973"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Friedrichsdorf",
+                    "dob": "1960-05-10",
+                    "lastname": "Trapp",
+                    "name": "Birgit"
+                },
+                "text": " Trapp, Birgit, Friedrichsdorf, *10.05.1960."
             },
             {
                 "class": "DismissedManagingDirector",
@@ -39,15 +69,37 @@
                 "text": " Hagenguth, Peter Heinz, Albig, *15.02.1952"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Wiesbaden",
+                    "dismissed": true,
+                    "dob": "1956-09-25",
+                    "lastname": "Stolz",
+                    "name": "Heribert"
+                },
+                "text": " Stolz, Heribert, Wiesbaden, *25.09.1956."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Mainz",
                     "dismissed": true,
-                    "dob": "1957-01-05",
+                    "dob": "1957-05-01",
                     "lastname": "Höhne",
                     "name": "Heinz Günter"
                 },
                 "text": " Höhne, Heinz Günter, Mainz, *01.05.1957"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Friedrichsdorf",
+                    "dismissed": true,
+                    "dob": "1960-05-10",
+                    "lastname": "Trapp",
+                    "name": "Birgit geborene Stoll"
+                },
+                "text": " Trapp, Birgit geborene Stoll, Friedrichsdorf, *10.05.1960."
             }
         ]
     }

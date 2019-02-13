@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Stockdorf",
-                    "dob": "1964-10-01",
+                    "dob": "1964-01-10",
                     "flag": "sole representation",
                     "lastname": "Doctor Bosch",
                     "name": "Florian"
                 },
                 "text": " Doctor Bosch, Florian, Stockdorf, *10.01.1964, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

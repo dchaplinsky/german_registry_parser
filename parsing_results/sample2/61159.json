@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=61159&land_abk=sh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -61,7 +67,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Norderstedt",
-                    "dob": "1951-12-05",
+                    "dob": "1951-05-12",
                     "lastname": "Siedel",
                     "name": "Roland",
                     "ref": 1
@@ -72,7 +78,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Greifswald Gesellschaft mit beschränkter Haftung",
-                    "dob": "1954-02-09",
+                    "dob": "1954-09-02",
                     "lastname": "Dahlmann",
                     "name": "Harald",
                     "ref": 2

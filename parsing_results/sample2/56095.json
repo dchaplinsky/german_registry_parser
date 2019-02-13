@@ -41,12 +41,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Zella-Mehlis",
-                    "dob": "1969-03-11",
+                    "dob": "1969-11-03",
                     "flag": "sole representation",
                     "lastname": "Jacob-Bauerschmidt",
                     "name": "Erik"
                 },
                 "text": " Jacob-Bauerschmidt, Erik, Zella-Mehlis, *03.11.1969, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

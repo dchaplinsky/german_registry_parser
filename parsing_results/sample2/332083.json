@@ -56,12 +56,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Lollar",
-                    "dob": "1965-01-11",
+                    "dob": "1965-11-01",
                     "flag": "sole representation",
                     "lastname": "Fischer",
                     "name": "Markus"
                 },
                 "text": " Fischer, Markus, Lollar, *01.11.1965, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

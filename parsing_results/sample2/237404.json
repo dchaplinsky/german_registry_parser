@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Wiesbaden",
                     "dismissed": true,
-                    "dob": "1971-01-02",
+                    "dob": "1971-02-01",
                     "lastname": "Leithe",
                     "name": "Markus"
                 },
@@ -38,12 +38,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Offenbach am Main",
-                    "dob": "1969-11-07",
+                    "dob": "1969-07-11",
                     "flag": "sole representation",
                     "lastname": "Raschig",
                     "name": "Steffen"
                 },
                 "text": " Raschig, Steffen, Offenbach am Main, *11.07.1969, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

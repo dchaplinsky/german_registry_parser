@@ -37,12 +37,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Wiechenberg",
-                    "dob": "1953-10-09",
+                    "dob": "1953-09-10",
                     "flag": "sole representation",
                     "lastname": ": Schöneberg",
                     "name": "Gisela"
                 },
                 "text": ": Schöneberg, Gisela, Wiechenberg, *10.09.1953, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

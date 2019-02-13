@@ -39,6 +39,26 @@
                 "text": " Dech, Monika Marianne, München, *27.10.1960"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1977-06-24",
+                    "lastname": "Rummel",
+                    "name": "Stefan Patrick"
+                },
+                "text": " Rummel, Stefan Patrick, München, *24.06.1977"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Sauerlach",
+                    "dob": "1969-05-16",
+                    "lastname": "Senger",
+                    "name": "Falk"
+                },
+                "text": " Senger, Falk, Sauerlach, *16.05.1969."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Gilching",
@@ -48,6 +68,17 @@
                     "name": "Monika"
                 },
                 "text": " Dech, Monika, Gilching, *27.10.1960"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Sauerlach",
+                    "dismissed": true,
+                    "dob": "1969-05-16",
+                    "lastname": "Senger",
+                    "name": "Falk"
+                },
+                "text": " Senger, Falk, Sauerlach, *16.05.1969."
             }
         ]
     }

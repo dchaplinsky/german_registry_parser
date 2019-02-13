@@ -32,11 +32,22 @@
                 "payload": {
                     "city": "München",
                     "dismissed": true,
-                    "dob": "1955-12-11",
+                    "dob": "1955-11-12",
                     "lastname": "Behrens",
                     "name": "Manfred Hinrich"
                 },
                 "text": " Behrens, Manfred Hinrich, München, *12.11.1955"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Rohrbach",
+                    "dismissed": true,
+                    "dob": "1958-08-18",
+                    "lastname": "Hiltner",
+                    "name": "Hermann"
+                },
+                "text": " Hiltner, Hermann, Rohrbach, *18.08.1958."
             },
             {
                 "class": "Liquidator",
@@ -47,6 +58,25 @@
                     "name": "Thomas"
                 },
                 "text": " Doyle, Thomas, Freising, *15.08.1969"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "München",
+                    "dob": "1954-05-13",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Wassill",
+                    "name": "Rolf"
+                },
+                "text": " Wassill, Rolf, München, *13.05.1954, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

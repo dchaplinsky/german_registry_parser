@@ -52,11 +52,30 @@
                 "text": " Cata, Virgil, Constanta/Rumänien, *30.05.1977"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1948-03-06",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Honigstein",
+                    "name": "Erwin"
+                },
+                "text": " Honigstein, Erwin, München, *06.03.1948, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "München",
                     "dismissed": true,
-                    "dob": "1948-06-03",
+                    "dob": "1948-03-06",
                     "lastname": "Erwin",
                     "name": "Honigstein"
                 },

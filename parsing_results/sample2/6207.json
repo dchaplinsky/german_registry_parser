@@ -60,6 +60,26 @@
             {
                 "class": "AppointedManagingDirector",
                 "payload": {
+                    "city": "Peißenberg",
+                    "dob": "1963-07-20",
+                    "lastname": "Haack",
+                    "name": "Jürgen Christoph"
+                },
+                "text": " Haack, Jürgen Christoph, Peißenberg, *20.07.1963"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Denklingen",
+                    "dob": "1961-09-28",
+                    "lastname": "Scheid",
+                    "name": "Helmut Franz"
+                },
+                "text": " Scheid, Helmut Franz, Denklingen, *28.09.1961."
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
                     "city": "Dießen",
                     "dob": "1966-01-25",
                     "flag": "sole representation",
@@ -67,6 +87,14 @@
                     "name": "Jens-Hartwig"
                 },
                 "text": " Arnold, Jens-Hartwig, Dießen, *25.01.1966, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

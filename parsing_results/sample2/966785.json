@@ -22,11 +22,22 @@
                 "payload": {
                     "city": "Dormagen",
                     "dismissed": true,
-                    "dob": "1962-11-09",
+                    "dob": "1962-09-11",
                     "lastname": "Brandt",
                     "name": "Thorsten"
                 },
                 "text": " Brandt, Thorsten, Dormagen, *11.09.1962"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Solingen",
+                    "dismissed": true,
+                    "dob": "1962-08-29",
+                    "lastname": "Lompart",
+                    "name": "Michael"
+                },
+                "text": " Lompart, Michael, Solingen, *29.08.1962."
             }
         ]
     }

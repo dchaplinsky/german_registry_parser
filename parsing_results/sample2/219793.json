@@ -42,7 +42,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Marienberg",
-                    "dob": "1970-04-08",
+                    "dob": "1970-08-04",
                     "flag": "sole representation",
                     "lastname": "Morgenstern",
                     "name": "Jan"
@@ -50,10 +50,18 @@
                 "text": " Morgenstern, Jan, Marienberg, *04.08.1970, einzelvertretungsberechtigt"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Wolkenstein",
-                    "dob": "1971-01-12",
+                    "dob": "1971-12-01",
                     "lastname": "Lange",
                     "name": "Ines"
                 },

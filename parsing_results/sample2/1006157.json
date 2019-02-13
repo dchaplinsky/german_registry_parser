@@ -32,11 +32,21 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Köln",
-                    "dob": "1982-10-08",
+                    "dob": "1982-08-10",
                     "lastname": "Menge",
                     "name": "Marcel"
                 },
                 "text": " Menge, Marcel, Köln, *10.08.1982"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Zürich / Schweiz",
+                    "dob": "1965-02-18",
+                    "lastname": "Zetlmayr",
+                    "name": "Heinrich"
+                },
+                "text": " Zetlmayr, Heinrich, Zürich / Schweiz, *18.02.1965."
             }
         ]
     }

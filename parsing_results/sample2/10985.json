@@ -47,11 +47,21 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
-                    "dob": "1960-02-10",
+                    "dob": "1960-10-02",
                     "lastname": "Hetz",
                     "name": "Thomas"
                 },
                 "text": " Hetz, Thomas, Frankfurt am Main, *02.10.1960"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Wien/Österreich",
+                    "dob": "1974-06-06",
+                    "lastname": "Urbanz",
+                    "name": "Markus"
+                },
+                "text": " Urbanz, Markus, Wien/Österreich, *06.06.1974."
             },
             {
                 "class": "DismissedManagingDirector",

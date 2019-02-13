@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Ellingen",
-                    "dob": "1974-05-06",
+                    "dob": "1974-06-05",
                     "flag": "sole representation",
                     "lastname": "Doctor Schacht",
                     "name": "Bettina"
                 },
                 "text": " Doctor Schacht, Bettina, Ellingen, *05.06.1974, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

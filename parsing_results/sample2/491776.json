@@ -41,12 +41,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kronberg im Taunus",
-                    "dob": "1993-04-07",
+                    "dob": "1993-07-04",
                     "flag": "sole representation",
                     "lastname": "Reinhardt",
                     "name": "Lukas"
                 },
                 "text": " Reinhardt, Lukas, Kronberg im Taunus, *04.07.1993, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

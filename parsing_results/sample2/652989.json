@@ -48,12 +48,20 @@
                 "class": "PersonalPartner",
                 "payload": {
                     "city": "Hong Kong",
-                    "dob": "1947-12-04",
+                    "dob": "1947-04-12",
                     "flag": "sole representation",
                     "lastname": "Bätz",
                     "name": "Manfred"
                 },
                 "text": " Bätz, Manfred, Hong Kong, *12.04.1947, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",

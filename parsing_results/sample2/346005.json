@@ -29,6 +29,17 @@
                 "text": " Hesselmann, Hermann, Haan, *23.03.1941"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "dismissed": true,
+                    "dob": "1964-01-15",
+                    "lastname": "Wolters",
+                    "name": "Bernd"
+                },
+                "text": " Wolters, Bernd, Düsseldorf, *15.01.1964."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
@@ -37,6 +48,17 @@
                     "name": "Christoph"
                 },
                 "text": " Schmitz, Christoph, Düsseldorf, *17.04.1959"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Korschenbroich",
+                    "dob": "1963-09-13",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Suchsland",
+                    "name": "Martin"
+                },
+                "text": " Suchsland, Martin, Korschenbroich, *13.09.1963, jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",

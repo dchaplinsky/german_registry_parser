@@ -45,11 +45,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Felsberg",
-                    "dob": "1963-07-09",
+                    "dob": "1963-09-07",
                     "lastname": "Doctor Reis",
                     "name": "Burkhard"
                 },
                 "text": " Doctor Reis, Burkhard, Felsberg, *07.09.1963"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Felsberg",
+                    "dob": "1974-03-25",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Reis",
+                    "name": "Beglije"
+                },
+                "text": " Reis, Beglije, Felsberg, *25.03.1974, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

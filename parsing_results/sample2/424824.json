@@ -51,11 +51,22 @@
                 "text": " Goldbrunner, Christian, Penzberg, *15.10.1957"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1956-05-10",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Kober",
+                    "name": "Peter"
+                },
+                "text": " Kober, Peter, München, *10.05.1956, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "München",
                     "dismissed": true,
-                    "dob": "1956-10-05",
+                    "dob": "1956-05-10",
                     "lastname": "Kober",
                     "name": "Peter"
                 },

@@ -47,15 +47,34 @@
                 "text": " Doctor Imbeck, Martin, München, *13.03.1964"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1970-01-25",
+                    "lastname": "Doctor Luthra",
+                    "name": "Tim"
+                },
+                "text": " Doctor Luthra, Tim, München, *25.01.1970."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Straubing",
-                    "dob": "1940-04-10",
+                    "dob": "1940-10-04",
                     "flag": "sole representation",
                     "lastname": "Ecklreiter",
                     "name": "Ludwig Wilhelm"
                 },
                 "text": " Ecklreiter, Ludwig Wilhelm, Straubing, *04.10.1940, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

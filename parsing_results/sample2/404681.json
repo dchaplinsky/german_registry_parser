@@ -27,7 +27,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Seeheim-Jugenheim",
-                    "dob": "1976-01-05",
+                    "dob": "1976-05-01",
                     "flag": "sole representation",
                     "lastname": "Ewert",
                     "name": "Christian"
@@ -35,11 +35,19 @@
                 "text": " Ewert, Christian, Seeheim-Jugenheim, *01.05.1976, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Darmstadt",
                     "dismissed": true,
-                    "dob": "1950-07-12",
+                    "dob": "1950-12-07",
                     "lastname": "Ewert",
                     "name": "Alfred"
                 },
@@ -50,7 +58,7 @@
                 "payload": {
                     "city": "Darmstadt",
                     "dismissed": true,
-                    "dob": "1976-01-05",
+                    "dob": "1976-05-01",
                     "lastname": "Ewert",
                     "name": "Christian"
                 },

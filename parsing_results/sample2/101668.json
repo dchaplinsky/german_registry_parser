@@ -28,17 +28,28 @@
                 "payload": {
                     "city": "Bad Nenndorf",
                     "dismissed": true,
-                    "dob": "1956-02-10",
+                    "dob": "1956-10-02",
                     "lastname": "Schöps",
                     "name": "Dietmar"
                 },
                 "text": " Schöps, Dietmar, Bad Nenndorf, *02.10.1956"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Neustadt/Rbge",
+                    "dismissed": true,
+                    "dob": "1946-08-25",
+                    "lastname": "Vogt",
+                    "name": "Reinhold"
+                },
+                "text": " Vogt, Reinhold, Neustadt/Rbge., *25.08.1946."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hannover",
-                    "dob": "1980-05-09",
+                    "dob": "1980-09-05",
                     "lastname": "Hosseinzadehfarahied",
                     "name": "Kaveh"
                 },

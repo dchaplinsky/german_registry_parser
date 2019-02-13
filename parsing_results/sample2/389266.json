@@ -49,12 +49,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Stockstadt am Rhein",
-                    "dob": "1960-01-09",
+                    "dob": "1960-09-01",
                     "flag": "sole representation",
                     "lastname": "Jungermann",
                     "name": "Matthias"
                 },
                 "text": " Jungermann, Matthias, Stockstadt am Rhein, *01.09.1960, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "SingleProcuration",

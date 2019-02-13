@@ -42,7 +42,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
-                    "dob": "1971-12-01",
+                    "dob": "1971-01-12",
                     "flag": "sole representation",
                     "lastname": "Kolarov",
                     "name": "Dimitar"
@@ -50,11 +50,19 @@
                 "text": " Kolarov, Dimitar, Frankfurt am Main, *12.01.1971, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
                     "dismissed": true,
-                    "dob": "1963-03-06",
+                    "dob": "1963-06-03",
                     "lastname": "Talovic",
                     "name": "Fatima"
                 },

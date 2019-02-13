@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=464509&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 20.12.2017 ist der Gesellschaftsvertrag insgesamt neu gefasst und dabei insbesondere abgeändert in § 1 (Firma) und in § 2 (Unternehmensgegenstand)., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -51,7 +61,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1958-07-03",
+                    "dob": "1958-03-07",
                     "lastname": "Adams",
                     "name": "Klaus Dieter",
                     "ref": 2

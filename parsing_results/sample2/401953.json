@@ -32,7 +32,7 @@
                 "payload": {
                     "city": "Waldbrunn",
                     "dismissed": true,
-                    "dob": "1947-12-06",
+                    "dob": "1947-06-12",
                     "lastname": "Dallo",
                     "name": "Norbert"
                 },
@@ -42,12 +42,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Waldbrunn",
-                    "dob": "1947-12-06",
+                    "dob": "1947-06-12",
                     "flag": "sole representation",
                     "lastname": "Dallo",
                     "name": "Norbert"
                 },
                 "text": " Dallo, Norbert, Waldbrunn, *12.06.1947, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

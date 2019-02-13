@@ -53,6 +53,28 @@
                 "text": " Guske, Manfred, Tutzing, *26.03.1959"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Wuppertal",
+                    "dismissed": true,
+                    "dob": "1972-09-18",
+                    "lastname": "Ramjoué",
+                    "name": "Christian"
+                },
+                "text": " Ramjoué, Christian, Wuppertal, *18.09.1972"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Köln",
+                    "dismissed": true,
+                    "dob": "1969-12-19",
+                    "lastname": "Schnittker",
+                    "name": "Kerstin"
+                },
+                "text": " Schnittker, Kerstin, Köln, *19.12.1969."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Penzberg",
@@ -61,6 +83,27 @@
                     "name": "Christian"
                 },
                 "text": " Goldbrunner, Christian, Penzberg, *15.10.1957"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1956-05-10",
+                    "lastname": "Kober",
+                    "name": "Peter"
+                },
+                "text": " Kober, Peter, München, *10.05.1956"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Rain",
+                    "dob": "1958-03-15",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Soethe",
+                    "name": "Robert"
+                },
+                "text": " Soethe, Robert, Rain, *15.03.1958, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "ProcurationCancelled",
@@ -72,6 +115,28 @@
                     "name": "Bernd"
                 },
                 "text": " Elbert, Bernd, Köln, *30.10.1964"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Ratingen",
+                    "dismissed": true,
+                    "dob": "1959-02-26",
+                    "lastname": "Rohsiepe",
+                    "name": "Ulrich"
+                },
+                "text": " Rohsiepe, Ulrich, Ratingen, *26.02.1959"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Moers",
+                    "dismissed": true,
+                    "dob": "1958-12-24",
+                    "lastname": "Wegemann",
+                    "name": "Uwe"
+                },
+                "text": " Wegemann, Uwe, Moers, *24.12.1958."
             }
         ]
     }

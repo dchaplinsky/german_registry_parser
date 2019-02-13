@@ -64,10 +64,31 @@
                 "text": " Richter, Patrick, Hamburg, *27.01.1967"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Bocholt",
+                    "dob": "1966-12-01",
+                    "lastname": "Stevens",
+                    "name": "Hans-Gerd"
+                },
+                "text": " Stevens, Hans-Gerd, Bocholt, *01.12.1966"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Mannheim",
+                    "dob": "1961-09-02",
+                    "flag": "jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "von Gropper",
+                    "name": "Florian"
+                },
+                "text": " von Gropper, Florian, Mannheim, *02.09.1961, jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Bocholt",
-                    "dob": "1955-01-12",
+                    "dob": "1955-12-01",
                     "lastname": "Ehlting",
                     "name": "Herbert"
                 },

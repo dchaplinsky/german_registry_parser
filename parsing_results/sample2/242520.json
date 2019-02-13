@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=242520&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen Rechtsform: Gesellschaft mit beschränkter Haftung, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -53,12 +59,19 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1969-09-07",
+                    "dob": "1969-07-09",
                     "lastname": "Kube",
                     "name": "Andreas",
                     "ref": 1
                 },
                 "text": "1) Kube, Andreas, *09.07.1969, Berlin"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "company_name": "Gesellschaftsvertrag vom:26)02.2013 Rechtsverhaeltnis: Die Gesellschaft ist entstanden durch formwechselnde Umwandlung der ITB GmbH & Co."
+                },
+                "text": " Gesellschaftsvertrag vom:26)02.2013 Rechtsverhaeltnis: Die Gesellschaft ist entstanden durch formwechselnde Umwandlung der ITB GmbH & Co."
             }
         ]
     }

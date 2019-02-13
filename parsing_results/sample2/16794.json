@@ -51,12 +51,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Dortmund",
-                    "dob": "1965-02-08",
+                    "dob": "1965-08-02",
                     "flag": "sole representation",
                     "lastname": "Hölper",
                     "name": "Ralf"
                 },
                 "text": " Hölper, Ralf, Dortmund, *02.08.1965, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

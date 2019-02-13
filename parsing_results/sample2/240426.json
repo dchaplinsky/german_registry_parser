@@ -27,12 +27,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Weilbach",
-                    "dob": "1952-02-10",
+                    "dob": "1952-10-02",
                     "flag": "sole representation",
                     "lastname": "Leikauf",
                     "name": "Harald"
                 },
                 "text": " Leikauf, Harald, Weilbach, *02.10.1952, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

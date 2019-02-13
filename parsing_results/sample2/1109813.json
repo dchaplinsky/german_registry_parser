@@ -22,11 +22,22 @@
                 "payload": {
                     "city": "Olpe",
                     "dismissed": true,
-                    "dob": "1943-08-04",
+                    "dob": "1943-04-08",
                     "lastname": "Rademacher",
                     "name": "Klaus"
                 },
                 "text": " Rademacher, Klaus, Olpe, *08.04.1943"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Olpe",
+                    "dismissed": true,
+                    "dob": "1941-05-08",
+                    "lastname": "Rademacher",
+                    "name": "Sabine"
+                },
+                "text": " Rademacher, Sabine, Olpe, *08.05.1941."
             },
             {
                 "class": "AppointedManagingDirector",
@@ -37,6 +48,17 @@
                     "name": "Christine"
                 },
                 "text": " Rehse, Christine, Olpe, *22.04.1968"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Olpe",
+                    "dob": "1967-11-09",
+                    "flag": "jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Rehse",
+                    "name": "Frank"
+                },
+                "text": " Rehse, Frank, Olpe, *09.11.1967, jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

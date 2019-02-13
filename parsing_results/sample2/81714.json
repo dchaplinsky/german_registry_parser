@@ -41,11 +41,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Magdeburg",
-                    "dob": "1966-09-07",
+                    "dob": "1966-07-09",
                     "lastname": "Schmidt",
                     "name": "Babette"
                 },
                 "text": " Schmidt, Babette, Magdeburg, *09.07.1966"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Dessau-Roßlau",
+                    "dob": "1974-09-27",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Schwerdtfeger",
+                    "name": "Till"
+                },
+                "text": " Schwerdtfeger, Till, Dessau-Roßlau, *27.09.1974, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

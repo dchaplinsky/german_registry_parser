@@ -16,12 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=23801&land_abk=sh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Procuration from  Prokura gemeinsam mit dem persönlich haftenden Gesellschafter oder einem weiteren Prokuristen.., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "officers": [
             {
                 "class": "Procuration",
                 "payload": {
                     "city": "Bokholt-Hanredder",
-                    "dob": "1968-05-09",
+                    "dob": "1968-09-05",
                     "lastname": "Langmaack",
                     "name": "Kirsten",
                     "ref": 5

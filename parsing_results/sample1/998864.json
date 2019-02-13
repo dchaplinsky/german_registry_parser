@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Ingolstadt",
-                    "dob": "1976-07-12",
+                    "dob": "1976-12-07",
                     "flag": "sole representation",
                     "lastname": "Alajbegovic",
                     "name": "Erwin"
                 },
                 "text": " Alajbegovic, Erwin, Ingolstadt, *07.12.1976, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

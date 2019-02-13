@@ -31,11 +31,22 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Schwelm",
-                    "dob": "1966-04-05",
+                    "dob": "1966-05-04",
                     "lastname": "Schmidt",
                     "name": "Ulrich"
                 },
                 "text": " Schmidt, Ulrich, Schwelm, *04.05.1966"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Hagen",
+                    "dob": "1957-10-07",
+                    "flag": "jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Willenbrink",
+                    "name": "Peter"
+                },
+                "text": " Willenbrink, Peter, Hagen, *07.10.1957, jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

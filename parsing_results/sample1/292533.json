@@ -28,6 +28,26 @@
                 "text": " Aichroth, Jürgen, Stuttgart, *29.01.1961"
             },
             {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Essen",
+                    "dob": "1965-01-24",
+                    "lastname": "Gardlo",
+                    "name": "Andreas"
+                },
+                "text": " Gardlo, Andreas, Essen, *24.01.1965"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "München",
+                    "dob": "1965-01-27",
+                    "lastname": "Zehren",
+                    "name": "Axel"
+                },
+                "text": " Zehren, Axel, München, *27.01.1965."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Berlin",
@@ -37,6 +57,61 @@
                     "name": "Michael"
                 },
                 "text": " Driesslein, Michael, Berlin, *30.08.1969"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1948-09-18",
+                    "lastname": "Lutz",
+                    "name": "Christian"
+                },
+                "text": " Lutz, Christian, München, *18.09.1948"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Schwieberdingen",
+                    "dismissed": true,
+                    "dob": "1961-04-18",
+                    "lastname": "Doctor Marten",
+                    "name": "Eckhard"
+                },
+                "text": " Doctor Marten, Eckhard, Schwieberdingen, *18.04.1961"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Hemmingen",
+                    "dismissed": true,
+                    "dob": "1951-07-26",
+                    "lastname": "Nörig",
+                    "name": "Helmut"
+                },
+                "text": " Nörig, Helmut, Hemmingen, *26.07.1951"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1964-01-04",
+                    "lastname": "Doctor von Manstein",
+                    "name": "Gero"
+                },
+                "text": " Doctor von Manstein, Gero, München, *04.01.1964"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1951-08-28",
+                    "lastname": "Doctor Wimmer",
+                    "name": "Helmut"
+                },
+                "text": " Doctor Wimmer, Helmut, München, *28.08.1951."
             }
         ]
     }

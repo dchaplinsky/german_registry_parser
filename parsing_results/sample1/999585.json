@@ -45,6 +45,14 @@
                 "text": ": Wunn, Constantin, Starnberg, *26.09.1967, einzelvertretungsberechtigt"
             },
             {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Nürnberg",
@@ -54,6 +62,17 @@
                     "name": "Frederik"
                 },
                 "text": " Kraus, Frederik, Nürnberg, *19.02.1981"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1969-02-10",
+                    "lastname": "Doctor Röck",
+                    "name": "Christoph"
+                },
+                "text": " Doctor Röck, Christoph, München, *10.02.1969."
             }
         ]
     }

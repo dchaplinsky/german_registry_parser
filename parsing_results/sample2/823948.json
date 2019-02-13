@@ -31,12 +31,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Winterhausen",
-                    "dob": "1967-01-11",
+                    "dob": "1967-11-01",
                     "flag": "sole representation",
                     "lastname": ": Reuß",
                     "name": "Martina"
                 },
                 "text": ": Reuß, Martina, Winterhausen, *01.11.1967, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

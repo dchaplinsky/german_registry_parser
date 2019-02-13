@@ -30,12 +30,32 @@
             {
                 "class": "PersonalPartner",
                 "payload": {
+                    "city": "Seehausen",
+                    "dob": "1982-11-17",
+                    "lastname": "Leichtl",
+                    "name": "Thomas"
+                },
+                "text": " Leichtl, Thomas, Seehausen, *17.11.1982."
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
                     "city": "Murnau",
                     "dob": "1949-01-20",
                     "lastname": "Leichtl",
                     "name": "Helmut"
                 },
                 "text": " Leichtl, Helmut, Murnau, *20.01.1949"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Murnau",
+                    "dob": "1953-08-06",
+                    "lastname": "Werner-Leichtl",
+                    "name": "Petra"
+                },
+                "text": " Werner-Leichtl, Petra, Murnau, *06.08.1953."
             }
         ]
     }

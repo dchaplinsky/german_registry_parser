@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=17273&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Procuration from  Einzelprokura., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "Single procuration",
@@ -27,7 +33,7 @@
                 "class": "Procuration",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1962-02-03",
+                    "dob": "1962-03-02",
                     "lastname": "Doctor Keuchel",
                     "name": "Astrid"
                 },

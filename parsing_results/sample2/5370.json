@@ -39,7 +39,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Dresden",
-                    "dob": "1954-02-03",
+                    "dob": "1954-03-02",
                     "lastname": "Schubert",
                     "name": "Christian"
                 },
@@ -57,6 +57,14 @@
                 "text": " Doctor Kieselstein, Stephan, Chemnitz, *27.04.1954, einzelvertretungsberechtigt"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Chemnitz",
@@ -65,6 +73,16 @@
                     "name": "Jens"
                 },
                 "text": " Kieselstein, Jens, Chemnitz, *26.10.1980"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Rossau",
+                    "dob": "1972-10-31",
+                    "lastname": "Zimmer",
+                    "name": "Silke"
+                },
+                "text": " Zimmer, Silke, Rossau, *31.10.1972.Als nicht eingetragen wird veröffentlicht: Die Bekanntmachungen der Gesellschaft erfolgen zusätzlich im Bundesanzeiger (Zeitungsausgabe)."
             }
         ]
     }

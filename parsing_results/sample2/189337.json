@@ -53,12 +53,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Bremen",
-                    "dob": "1949-11-03",
+                    "dob": "1949-03-11",
                     "flag": "sole representation",
                     "lastname": "Müller",
                     "name": "Paul"
                 },
                 "text": " Müller, Paul, Bremen, *11.03.1949, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

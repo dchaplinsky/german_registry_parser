@@ -16,12 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=313013&land_abk=he"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "St. Louis/USA",
-                    "dob": "1946-10-01",
+                    "dob": "1946-01-10",
                     "flag": "sole representation",
                     "lastname": "Mathews",
                     "name": "Lon Emmons"

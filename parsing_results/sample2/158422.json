@@ -31,12 +31,20 @@
                 "class": "PersonalPartner",
                 "payload": {
                     "city": "Regensburg",
-                    "dob": "1985-11-06",
+                    "dob": "1985-06-11",
                     "flag": "sole representation",
                     "lastname": "Zimmermann",
                     "name": "Anna-Luisa"
                 },
                 "text": " Zimmermann, Anna-Luisa, Regensburg, *11.06.1985, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

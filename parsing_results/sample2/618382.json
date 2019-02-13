@@ -38,7 +38,7 @@
                 "payload": {
                     "city": "Bergisch Gladbach",
                     "dismissed": true,
-                    "dob": "1961-09-06",
+                    "dob": "1961-06-09",
                     "lastname": "Doctor Luxem",
                     "name": "Jörg"
                 },
@@ -48,11 +48,22 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Köln",
-                    "dob": "1967-01-08",
+                    "dob": "1967-08-01",
                     "lastname": "Jacobi",
                     "name": "Alexander"
                 },
                 "text": " Jacobi, Alexander, Köln, *01.08.1967"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Köln",
+                    "dob": "1956-06-13",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Schreiner",
+                    "name": "Gabriele"
+                },
+                "text": " Schreiner, Gabriele, Köln, *13.06.1956, jeweils mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

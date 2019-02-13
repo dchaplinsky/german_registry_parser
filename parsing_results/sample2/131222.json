@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Leipzig",
                     "dismissed": true,
-                    "dob": "1979-08-03",
+                    "dob": "1979-03-08",
                     "lastname": "Jakobi",
                     "name": "Michael"
                 },
@@ -38,12 +38,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Leipzig",
-                    "dob": "1984-09-01",
+                    "dob": "1984-01-09",
                     "flag": "sole representation",
                     "lastname": "Hartmann",
                     "name": "Sebastian"
                 },
                 "text": " Hartmann, Sebastian, Leipzig, *09.01.1984, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

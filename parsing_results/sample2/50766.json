@@ -33,12 +33,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wimmelburg",
-                    "dob": "1947-09-04",
+                    "dob": "1947-04-09",
                     "flag": "sole representation",
                     "lastname": "Grimmer",
                     "name": "Horst-Dieter"
                 },
                 "text": " Grimmer, Horst-Dieter, Wimmelburg, *09.04.1947, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "RetiredManagingDirector",

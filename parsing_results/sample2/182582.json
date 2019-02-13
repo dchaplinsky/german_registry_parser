@@ -31,11 +31,21 @@
                 "class": "NewProcuration",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1949-05-01",
+                    "dob": "1949-01-05",
                     "lastname": "Dewald",
                     "name": "Hans-Ulrich"
                 },
                 "text": " Dewald, Hans-Ulrich, Berlin, *05.01.1949"
+            },
+            {
+                "class": "NewProcuration",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1970-06-01",
+                    "lastname": "Kaufmann",
+                    "name": "Olaf"
+                },
+                "text": " Kaufmann, Olaf, Berlin, *01.06.1970."
             }
         ]
     }

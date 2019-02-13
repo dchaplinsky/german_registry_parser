@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hirschberg a.d.Bergstraße",
-                    "dob": "1973-06-07",
+                    "dob": "1973-07-06",
                     "flag": "sole representation",
                     "lastname": "Engel",
                     "name": "Matthias"
                 },
                 "text": " Engel, Matthias, Hirschberg a.d.Bergstraße, *06.07.1973, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

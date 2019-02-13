@@ -28,6 +28,16 @@
                 "text": " Gebhardt, Stephan, Heiligenhaus, *25.11.1964"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "dob": "1959-04-17",
+                    "lastname": "Schmitz",
+                    "name": "Christoph"
+                },
+                "text": " Schmitz, Christoph, Düsseldorf, *17.04.1959."
+            },
+            {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Haan",
@@ -40,15 +50,59 @@
                 "text": " Hesselmann, Hermann, kaufmännischer Angestellter, Haan, *23.03.1941"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "dismissed": true,
+                    "dob": "1964-01-15",
+                    "lastname": "Wolters",
+                    "name": "Bernd"
+                },
+                "text": " Wolters, Bernd, Düsseldorf, *15.01.1964."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Neuss",
                     "dismissed": true,
-                    "dob": "1941-07-08",
+                    "dob": "1941-08-07",
                     "lastname": "Calefice",
                     "name": "Jürgen"
                 },
                 "text": " Calefice, Jürgen, Neuss, *07.08.1941"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "dismissed": true,
+                    "dob": "1941-05-18",
+                    "lastname": "Frei",
+                    "name": "Norbert"
+                },
+                "text": " Frei, Norbert, Düsseldorf, *18.05.1941"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Meerbusch",
+                    "dismissed": true,
+                    "dob": "1961-12-09",
+                    "lastname": "Potthast",
+                    "name": "Roland"
+                },
+                "text": " Potthast, Roland, Meerbusch, *09.12.1961"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "dismissed": true,
+                    "dob": "1943-05-20",
+                    "lastname": "Woeste",
+                    "name": "Lothar"
+                },
+                "text": " Woeste, Lothar, Düsseldorf, *20.05.1943."
             }
         ]
     }

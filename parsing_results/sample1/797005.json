@@ -16,12 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=797005&land_abk=nw"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "officers": [
             {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Köln",
-                    "dob": "1963-01-03",
+                    "dob": "1963-03-01",
                     "flag": "sole representation",
                     "lastname": "Kentenich",
                     "name": "Roswitha Magdalena"

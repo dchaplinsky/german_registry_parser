@@ -37,11 +37,30 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Assens",
-                    "dob": "1955-11-06",
+                    "dob": "1955-06-11",
                     "lastname": "Bertelsen",
                     "name": "Poul"
                 },
                 "text": " Bertelsen, Poul, Assens, *11.06.1955"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Cuxhaven",
+                    "dob": "1966-08-10",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Jessulat",
+                    "name": "Maik"
+                },
+                "text": " Jessulat, Maik, Cuxhaven, *10.08.1966, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -38,7 +38,7 @@
                 "payload": {
                     "city": "München",
                     "dismissed": true,
-                    "dob": "1978-03-10",
+                    "dob": "1978-10-03",
                     "lastname": "Meyer",
                     "name": "Marcus"
                 },
@@ -54,6 +54,14 @@
                     "name": "Roland"
                 },
                 "text": ": Forster, Roland, München, *26.03.1959, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

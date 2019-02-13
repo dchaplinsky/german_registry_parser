@@ -77,6 +77,14 @@
                 "text": " Doctor Mack, Carlos, München, *18.03.1960, einzelvertretungsberechtigt"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Augsburg",
@@ -85,6 +93,36 @@
                     "name": "Siw"
                 },
                 "text": " Deininger, Siw, Augsburg, *21.11.1976"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Gehrden",
+                    "dob": "1965-10-05",
+                    "lastname": "Großart",
+                    "name": "Jens"
+                },
+                "text": " Großart, Jens, Gehrden, *05.10.1965"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Adelsried",
+                    "dob": "1978-02-25",
+                    "lastname": "Hubel",
+                    "name": "Sven"
+                },
+                "text": " Hubel, Sven, Adelsried, *25.02.1978"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Pöttmes",
+                    "dob": "1958-09-30",
+                    "lastname": "Meßmer",
+                    "name": "Erna Karolina"
+                },
+                "text": " Meßmer, Erna Karolina, Pöttmes, *30.09.1958."
             }
         ]
     }

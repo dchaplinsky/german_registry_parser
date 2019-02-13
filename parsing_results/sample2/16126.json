@@ -39,12 +39,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hannover",
-                    "dob": "1949-01-12",
+                    "dob": "1949-12-01",
                     "flag": "sole representation",
                     "lastname": "Mörlins",
                     "name": "Ahrend"
                 },
                 "text": " Mörlins, Ahrend, Hannover, *01.12.1949, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

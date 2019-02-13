@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Fürth",
                     "dismissed": true,
-                    "dob": "1953-05-02",
+                    "dob": "1953-02-05",
                     "lastname": "Dauchenbeck",
                     "name": "Walter"
                 },
@@ -38,7 +38,7 @@
                 "class": "PersonalPartner",
                 "payload": {
                     "city": "Fürth",
-                    "dob": "1979-10-12",
+                    "dob": "1979-12-10",
                     "flag": "sole representation",
                     "lastname": "Dauchenbeck",
                     "name": "Mirja"
@@ -46,11 +46,19 @@
                 "text": " Dauchenbeck, Mirja, Fürth, *10.12.1979, einzelvertretungsberechtigt"
             },
             {
+                "class": "PersonalPartner",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Fürth",
                     "dismissed": true,
-                    "dob": "1979-10-12",
+                    "dob": "1979-12-10",
                     "lastname": "Dauchenbeck",
                     "name": "Mirja"
                 },

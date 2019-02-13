@@ -43,12 +43,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Ghemme/Italien",
-                    "dob": "1955-09-08",
+                    "dob": "1955-08-09",
                     "flag": "vertretungsberechtigt gemäß allgemeiner Vertretungsregelung",
                     "lastname": "Giroldi",
                     "name": "Sergio"
                 },
                 "text": " Giroldi, Sergio, Ghemme/Italien, *09.08.1955, vertretungsberechtigt gemäß allgemeiner Vertretungsregelung"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "AppointedManagingDirector",
@@ -70,6 +78,16 @@
                     "name": "Dirk"
                 },
                 "text": " Wischnewski, Dirk, Langenfeld, *21.03.1967"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Odenthal",
+                    "dob": "1967-09-08",
+                    "lastname": "Zebandt",
+                    "name": "Volker"
+                },
+                "text": " Zebandt, Volker, Odenthal, *08.09.1967."
             }
         ]
     }

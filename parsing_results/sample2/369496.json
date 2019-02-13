@@ -57,12 +57,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Wien / Österreich",
-                    "dob": "1967-01-04",
+                    "dob": "1967-04-01",
                     "flag": "sole representation",
                     "lastname": "Hochmann",
                     "name": "Harald"
                 },
                 "text": " Hochmann, Harald, Wien / Österreich, *01.04.1967, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

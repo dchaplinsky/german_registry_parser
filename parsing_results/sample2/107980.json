@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=107980&land_abk=sh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rechtsform: Gesellschaft mit beschränkter Haftung, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Gesellschaftsvertrag vom:05)01.2012., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "Single procuration",
@@ -27,7 +37,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Kaiser-Wilhelm-Koog",
-                    "dob": "1973-08-02",
+                    "dob": "1973-02-08",
                     "lastname": "Bartels",
                     "name": "Bernd"
                 },
@@ -42,6 +52,16 @@
                     "name": "Lars Ulrich"
                 },
                 "text": " Kahl, Lars Ulrich, *20.06.1968, Schwerte"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Sarzbüttel",
+                    "dob": "1965-07-16",
+                    "lastname": "Prokura gemeinsam mit einem Geschäftsführer oder einem weiteren Prokuristen: Reiß",
+                    "name": "Antje"
+                },
+                "text": " Prokura gemeinsam mit einem Geschäftsführer oder einem weiteren Prokuristen: Reiß, Antje, *16.07.1965, Sarzbüttel"
             }
         ]
     }

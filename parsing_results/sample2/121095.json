@@ -30,6 +30,17 @@
                 "text": " Ball, David, Chicago, Illinois/USA, *18.11.1969"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dismissed": true,
+                    "dob": "1961-08-15",
+                    "lastname": "Dinandt",
+                    "name": "Pepyn René"
+                },
+                "text": " Dinandt, Pepyn René, München, *15.08.1961."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Lake Forest/USA",
@@ -59,6 +70,36 @@
                     "name": "Stefan"
                 },
                 "text": " Doctor Auer, Stefan, München, *21.06.1960"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Zolling",
+                    "dob": "1958-02-04",
+                    "lastname": "Helmrich",
+                    "name": "Wolfgang"
+                },
+                "text": " Helmrich, Wolfgang, Zolling, *04.02.1958"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Moosinning",
+                    "dob": "1956-04-07",
+                    "lastname": "Doctor Molter",
+                    "name": "Wolfgang"
+                },
+                "text": " Doctor Molter, Wolfgang, Moosinning, *07.04.1956"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Kolbermoor",
+                    "dob": "1967-07-15",
+                    "lastname": "Strigl",
+                    "name": "Angela"
+                },
+                "text": " Strigl, Angela, Kolbermoor, *15.07.1967."
             }
         ]
     }

@@ -46,6 +46,17 @@
                 "text": " Freiberg, Klaus, Verl, *19.01.1962"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Münster",
+                    "dob": "1966-12-04",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Doctor Krönfeld",
+                    "name": "Bodo"
+                },
+                "text": " Doctor Krönfeld, Bodo, Münster, *04.12.1966, jeweils einzelvertretungsberechtigt."
+            },
+            {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Gütersloh",
@@ -54,6 +65,16 @@
                     "name": "Ulrich"
                 },
                 "text": " Doctor Cordes, Ulrich, Gütersloh, *20.06.1967"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Bielefeld-Senne",
+                    "dob": "1951-01-14",
+                    "lastname": "Henze",
+                    "name": "Kurt"
+                },
+                "text": " Henze, Kurt, Bielefeld-Senne, *14.01.1951."
             },
             {
                 "class": "CommonProcuration",

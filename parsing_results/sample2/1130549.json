@@ -41,7 +41,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1949-06-10",
+                    "dob": "1949-10-06",
                     "flag": "sole representation",
                     "lastname": "Morgenstern",
                     "name": "Monika"
@@ -49,10 +49,18 @@
                 "text": " Morgenstern, Monika, Berlin, *06.10.1949, einzelvertretungsberechtigt"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Stutensee",
-                    "dob": "1960-10-03",
+                    "dob": "1960-03-10",
                     "flag": "sole representation",
                     "lastname": "Jung",
                     "name": "Wolfram Johannes"

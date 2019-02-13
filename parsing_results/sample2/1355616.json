@@ -53,11 +53,22 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Heidelberg",
-                    "dob": "1958-03-10",
+                    "dob": "1958-10-03",
                     "lastname": "Doerr",
                     "name": "Hans-Henning"
                 },
                 "text": " Doerr, Hans-Henning, Heidelberg, *03.10.1958"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Borken",
+                    "dob": "1957-03-28",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Weßing",
+                    "name": "Klaus"
+                },
+                "text": " Weßing, Klaus, Borken, *28.03.1957, jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "CommonProcuration",
@@ -68,6 +79,16 @@
                     "name": "Hans-Jürgen"
                 },
                 "text": " Huber, Hans-Jürgen, Freiburg im Breisgau, *23.08.1973"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Bocholt",
+                    "dob": "1967-05-05",
+                    "lastname": "Kockmann",
+                    "name": "Matthias"
+                },
+                "text": " Kockmann, Matthias, Bocholt, *05.05.1967."
             }
         ]
     }

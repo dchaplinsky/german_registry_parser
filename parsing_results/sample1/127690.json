@@ -45,17 +45,28 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Dessau",
-                    "dob": "1963-05-01",
+                    "dob": "1963-01-05",
                     "lastname": "Knape",
                     "name": "Andreas"
                 },
                 "text": " Knape, Andreas, Dessau, *05.01.1963"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Herzberg am Harz",
+                    "dob": "1970-09-20",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Unterberg",
+                    "name": "Thorsten"
+                },
+                "text": " Unterberg, Thorsten, Herzberg am Harz, *20.09.1970, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Herzberg am Harz",
-                    "dob": "1942-07-04",
+                    "dob": "1942-04-07",
                     "lastname": "Unterberg",
                     "name": "Günter"
                 },

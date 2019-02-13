@@ -47,6 +47,15 @@
                 "text": " Baum, Viktor"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "dismissed": true,
+                    "lastname": "Majewski",
+                    "name": "Waldemar"
+                },
+                "text": " Majewski, Waldemar."
+            },
+            {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Bremen",
@@ -55,6 +64,14 @@
                     "name": "Detlef"
                 },
                 "text": " Loges, Detlef, *29.03.1951, Bremen"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis die Gesellschaft allein zu vertreten",
+                    "name": "\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                },
+                "text": " mit der Befugnis die Gesellschaft allein zu vertreten,\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen."
             }
         ]
     }

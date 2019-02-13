@@ -46,7 +46,7 @@
                 "payload": {
                     "city": "Görlitz",
                     "dismissed": true,
-                    "dob": "1971-02-08",
+                    "dob": "1971-08-02",
                     "lastname": "Schubert",
                     "name": "Rajko"
                 },
@@ -56,12 +56,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Lachen/Schweiz",
-                    "dob": "1966-11-05",
+                    "dob": "1966-05-11",
                     "flag": "sole representation",
                     "lastname": "Mathes",
                     "name": "Oliver"
                 },
                 "text": " Mathes, Oliver, Lachen/Schweiz, *11.05.1966, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

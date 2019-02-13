@@ -33,7 +33,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
-                    "dob": "1975-05-10",
+                    "dob": "1975-10-05",
                     "flag": "sole representation",
                     "lastname": "Schuster",
                     "name": "Stefan Michael"
@@ -41,11 +41,19 @@
                 "text": " Schuster, Stefan Michael, Frankfurt am Main, *05.10.1975, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Düsseldorf",
                     "dismissed": true,
-                    "dob": "1965-03-12",
+                    "dob": "1965-12-03",
                     "lastname": "Prof. Doctor Sandhaus",
                     "name": "Gregor"
                 },

@@ -32,17 +32,28 @@
                 "payload": {
                     "city": "Wunstorf",
                     "dismissed": true,
-                    "dob": "1943-12-11",
+                    "dob": "1943-11-12",
                     "lastname": "Engels",
                     "name": "Peter"
                 },
                 "text": " Engels, Peter, Wunstorf, *12.11.1943"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Braunschweig",
+                    "dismissed": true,
+                    "dob": "1951-09-04",
+                    "lastname": "Teubner",
+                    "name": "Hans-Joachim"
+                },
+                "text": " Teubner, Hans-Joachim, Braunschweig, *04.09.1951."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt",
-                    "dob": "1964-08-01",
+                    "dob": "1964-01-08",
                     "flag": "sole representation",
                     "lastname": "van de Maat",
                     "name": "Dirk"
@@ -52,12 +63,31 @@
             {
                 "class": "AppointedManagingDirector",
                 "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
                     "city": "Mommenheim",
-                    "dob": "1960-04-06",
+                    "dob": "1960-06-04",
                     "lastname": "Matzat",
                     "name": "Karsten"
                 },
                 "text": " Matzat, Karsten, Mommenheim, *04.06.1960"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Oberursel",
+                    "dob": "1968-08-24",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Doctor Schmidt",
+                    "name": "André Michael"
+                },
+                "text": " Doctor Schmidt, André Michael, Oberursel, *24.08.1968, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

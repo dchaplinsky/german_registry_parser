@@ -41,22 +41,44 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Telgte",
-                    "dob": "1957-07-04",
+                    "dob": "1957-04-07",
                     "lastname": "Hugenroth",
                     "name": "Bernhard"
                 },
                 "text": " Hugenroth, Bernhard, Telgte, *07.04.1957"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Schwarzach",
+                    "dob": "1961-05-10",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Stepany",
+                    "name": "Peter"
+                },
+                "text": " Stepany, Peter, Schwarzach, *10.05.1961, jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Rhede",
                     "dismissed": true,
-                    "dob": "1960-12-03",
+                    "dob": "1960-03-12",
                     "lastname": "Bölting",
                     "name": "Stefan"
                 },
                 "text": " Bölting, Stefan, Rhede, *12.03.1960"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Verl",
+                    "dismissed": true,
+                    "dob": "1961-01-23",
+                    "lastname": "Schwarze",
+                    "name": "Dirk"
+                },
+                "text": " Schwarze, Dirk, Verl, *23.01.1961."
             }
         ]
     }

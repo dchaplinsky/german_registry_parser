@@ -27,11 +27,21 @@
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Böblingen",
-                    "dob": "1991-05-02",
+                    "dob": "1991-02-05",
                     "lastname": "Katz",
                     "name": "Tobias"
                 },
                 "text": " Katz, Tobias, Böblingen, *05.02.1991"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Böblingen",
+                    "dob": "1988-08-30",
+                    "lastname": "Stein",
+                    "name": "Annika geborene Katz"
+                },
+                "text": " Stein, Annika geborene Katz, Böblingen, *30.08.1988."
             }
         ]
     }

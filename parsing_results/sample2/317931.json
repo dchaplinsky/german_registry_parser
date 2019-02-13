@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=317931&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "Exclusive power of representation can be granted.",
@@ -63,12 +69,22 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1949-12-09",
+                    "dob": "1949-09-12",
                     "lastname": "Otte",
                     "name": "Horst",
                     "ref": 2
                 },
                 "text": "2) Otte, Horst, *12.09.1949, Berlin"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Liquidation)",
+                    "dismissed": true,
+                    "lastname": "Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 02.12.2014 ist der Gesellschaftsvertrag geändert in § 10 (Geschäftsführung",
+                    "name": "Vertretung) und § 18 (Auflösung"
+                },
+                "text": " Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 02.12.2014 ist der Gesellschaftsvertrag geändert in § 10 (Geschäftsführung, Vertretung) und § 18 (Auflösung, Liquidation)."
             }
         ]
     }

@@ -34,6 +34,17 @@
                 "text": " Driescher, Christoph, Moosburg a.d.Isar, *20.12.1967"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1973-09-25",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Driescher",
+                    "name": "Doris"
+                },
+                "text": " Driescher, Doris, München, *25.09.1973, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Högertshausen",
@@ -43,6 +54,17 @@
                     "name": "Werner"
                 },
                 "text": " Driescher, Werner, Högertshausen, *29.11.1939"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Moosburg",
+                    "dismissed": true,
+                    "dob": "1944-08-28",
+                    "lastname": "Driescher",
+                    "name": "Manfred"
+                },
+                "text": " Driescher, Manfred, Moosburg, *28.08.1944."
             }
         ]
     }

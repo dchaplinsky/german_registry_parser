@@ -16,6 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=12447&land_abk=sh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Gesellschaft mit beschränkter Haftung, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Gesellschaftsvertrag vom 10.05.1994 mit Änderungen zunächst bis zum 15.11.1994., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -49,7 +63,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Kiel",
-                    "dob": "1944-02-07",
+                    "dob": "1944-07-02",
                     "lastname": "Lahrtz",
                     "name": "Jochen"
                 },
@@ -59,7 +73,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Rostock",
-                    "dob": "1970-09-01",
+                    "dob": "1970-01-09",
                     "lastname": "Lahrtz",
                     "name": "Christian"
                 },

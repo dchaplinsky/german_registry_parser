@@ -39,7 +39,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Neu-Ulm",
-                    "dob": "1970-05-01",
+                    "dob": "1970-01-05",
                     "flag": "sole representation",
                     "lastname": "Leonhardt",
                     "name": "Jürgen"
@@ -47,15 +47,31 @@
                 "text": " Leonhardt, Jürgen, Neu-Ulm, *05.01.1970, einzelvertretungsberechtigt"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Blaustein",
-                    "dob": "1975-03-09",
+                    "dob": "1975-09-03",
                     "flag": "sole representation",
                     "lastname": "Janz",
                     "name": "Florian Wolfgang"
                 },
                 "text": " Janz, Florian Wolfgang, Blaustein, *03.09.1975, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -39,11 +39,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hilpoltstein",
-                    "dob": "1962-12-10",
+                    "dob": "1962-10-12",
                     "lastname": "Koller",
                     "name": "Jürgen"
                 },
                 "text": " Koller, Jürgen, Hilpoltstein, *12.10.1962"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Hilpoltstein",
+                    "dob": "1978-03-10",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Koller",
+                    "name": "Kateryna geborene Vorobyova"
+                },
+                "text": " Koller, Kateryna geborene Vorobyova, Hilpoltstein, *10.03.1978, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

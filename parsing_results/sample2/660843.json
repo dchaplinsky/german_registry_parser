@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Neustadt b. Coburg",
                     "dismissed": true,
-                    "dob": "1938-02-12",
+                    "dob": "1938-12-02",
                     "lastname": "Wegner",
                     "name": "Regina"
                 },
@@ -38,12 +38,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Neustadt b. Coburg",
-                    "dob": "1961-01-12",
+                    "dob": "1961-12-01",
                     "flag": "sole representation",
                     "lastname": "Wegner",
                     "name": "Franz"
                 },
                 "text": " Wegner, Franz, Neustadt b. Coburg, *01.12.1961, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

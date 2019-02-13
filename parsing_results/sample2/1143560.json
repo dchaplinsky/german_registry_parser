@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Moosach",
-                    "dob": "1949-11-09",
+                    "dob": "1949-09-11",
                     "flag": "sole representation",
                     "lastname": "Doctor Wolf",
                     "name": "Helmut"
                 },
                 "text": " Doctor Wolf, Helmut, Moosach, *11.09.1949, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

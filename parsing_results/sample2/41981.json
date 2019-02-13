@@ -28,11 +28,22 @@
                 "payload": {
                     "city": "Bissendorf",
                     "dismissed": true,
-                    "dob": "1961-11-01",
+                    "dob": "1961-01-11",
                     "lastname": "Schneider",
                     "name": "Wolfgang"
                 },
                 "text": " Schneider, Wolfgang, Bissendorf, *11.01.1961"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Bad Essen",
+                    "dismissed": true,
+                    "dob": "1957-05-13",
+                    "lastname": "Doctor ten Thoren",
+                    "name": "Arnold"
+                },
+                "text": " Doctor ten Thoren, Arnold, Bad Essen, *13.05.1957."
             },
             {
                 "class": "AppointedManagingDirector",

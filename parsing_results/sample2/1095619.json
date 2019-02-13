@@ -22,11 +22,22 @@
                 "payload": {
                     "city": "Essen",
                     "dismissed": true,
-                    "dob": "1979-01-08",
+                    "dob": "1979-08-01",
                     "lastname": "Ma",
                     "name": "Fei"
                 },
                 "text": " Ma, Fei, Essen, *01.08.1979"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Essen",
+                    "dismissed": true,
+                    "dob": "1982-04-30",
+                    "lastname": "Wang",
+                    "name": "Zhaoxian"
+                },
+                "text": " Wang, Zhaoxian, Essen, *30.04.1982."
             },
             {
                 "class": "ManagingDirector",

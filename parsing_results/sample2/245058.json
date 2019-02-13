@@ -35,11 +35,19 @@
                 "text": " Doctor Kramer, Jan, Geesthacht, *26.10.1974, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Münster",
                     "dismissed": true,
-                    "dob": "1966-09-12",
+                    "dob": "1966-12-09",
                     "lastname": "Doctor Löer",
                     "name": "Dominik"
                 },

@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Dinklage",
                     "dismissed": true,
-                    "dob": "1950-04-01",
+                    "dob": "1950-01-04",
                     "lastname": "Westermann",
                     "name": "Kurt"
                 },
@@ -38,12 +38,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Berlin-Tempelhof-Schöneberg",
-                    "dob": "1964-05-10",
+                    "dob": "1964-10-05",
                     "flag": "sole representation",
                     "lastname": "Fischer",
                     "name": "Thomas"
                 },
                 "text": " Fischer, Thomas, Berlin-Tempelhof-Schöneberg, *05.10.1964, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

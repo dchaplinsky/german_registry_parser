@@ -27,12 +27,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Holzkirchen",
-                    "dob": "1964-06-03",
+                    "dob": "1964-03-06",
                     "flag": "sole representation",
                     "lastname": "Götzner",
                     "name": "Jörg-Tilmann"
                 },
                 "text": " Götzner, Jörg-Tilmann, Holzkirchen, *06.03.1964, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

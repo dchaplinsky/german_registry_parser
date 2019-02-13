@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=342009&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -37,7 +47,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "London/Vereinigtes Königreich",
-                    "dob": "1978-06-08",
+                    "dob": "1978-08-06",
                     "lastname": "Bruce",
                     "name": "Robert Graham",
                     "ref": 4
@@ -48,7 +58,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "London/Vereinigtes Königreich",
-                    "dob": "1978-07-12",
+                    "dob": "1978-12-07",
                     "lastname": "Stavrakos Stevenson",
                     "name": "Alexander",
                     "ref": 5

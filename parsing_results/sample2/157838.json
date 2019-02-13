@@ -28,11 +28,22 @@
                 "payload": {
                     "city": "Straßlach",
                     "dismissed": true,
-                    "dob": "1948-03-11",
+                    "dob": "1948-11-03",
                     "lastname": "Berger",
                     "name": "Ulrich"
                 },
                 "text": " Berger, Ulrich, Straßlach, *03.11.1948"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Egling",
+                    "dismissed": true,
+                    "dob": "1952-04-20",
+                    "lastname": "Schulz",
+                    "name": "Horst-Günther"
+                },
+                "text": " Schulz, Horst-Günther, Egling, *20.04.1952."
             },
             {
                 "class": "AppointedManagingDirector",
@@ -43,6 +54,27 @@
                     "name": "Dieter"
                 },
                 "text": " Weiß, Dieter, Lenggries, *18.12.1965"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "München",
+                    "dob": "1964-05-07",
+                    "lastname": "Doctor Wolf",
+                    "name": "Klaus"
+                },
+                "text": " Doctor Wolf, Klaus, München, *07.05.1964"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Pullach",
+                    "dob": "1964-08-13",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Ziegler",
+                    "name": "Stefan"
+                },
+                "text": " Ziegler, Stefan, Pullach, *13.08.1964, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

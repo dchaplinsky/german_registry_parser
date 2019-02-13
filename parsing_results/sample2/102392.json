@@ -44,12 +44,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Ravanusa (AG) / Italien",
-                    "dob": "1965-04-01",
+                    "dob": "1965-01-04",
                     "flag": "sole representation",
                     "lastname": "Messana",
                     "name": "Francesco"
                 },
                 "text": " Messana, Francesco, Ravanusa (AG) / Italien, *04.01.1965, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

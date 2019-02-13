@@ -22,11 +22,22 @@
                 "payload": {
                     "city": "Hamburg",
                     "dismissed": true,
-                    "dob": "1945-09-02",
+                    "dob": "1945-02-09",
                     "lastname": "Hurling",
                     "name": "Walter"
                 },
                 "text": " Hurling, Walter, Hamburg, *09.02.1945"
+            },
+            {
+                "class": "RemovedFromBoard",
+                "payload": {
+                    "city": "Friedberg (Hessen)",
+                    "dismissed": true,
+                    "dob": "1954-04-21",
+                    "lastname": "Wisnet",
+                    "name": "Maria"
+                },
+                "text": " Wisnet, Maria, Friedberg (Hessen), *21.04.1954."
             },
             {
                 "class": "AppointedBoard",
@@ -37,6 +48,16 @@
                     "name": "Volkmar"
                 },
                 "text": " Doctor Lischka, Volkmar, Stendal, *25.06.1941"
+            },
+            {
+                "class": "AppointedBoard",
+                "payload": {
+                    "city": "Tanna",
+                    "dob": "1954-05-26",
+                    "lastname": "Zeidler",
+                    "name": "Wolfgang"
+                },
+                "text": " Zeidler, Wolfgang, Tanna, *26.05.1954."
             }
         ]
     }

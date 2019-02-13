@@ -28,7 +28,7 @@
                 "payload": {
                     "city": "Bruckmühl",
                     "dismissed": true,
-                    "dob": "1970-12-10",
+                    "dob": "1970-10-12",
                     "lastname": "Mayr",
                     "name": "Bernhard"
                 },
@@ -38,12 +38,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "La Sella Pedreguer / Spanien",
-                    "dob": "1946-06-09",
+                    "dob": "1946-09-06",
                     "flag": "sole representation",
                     "lastname": "Stahl",
                     "name": "Michael"
                 },
                 "text": " Stahl, Michael, La Sella Pedreguer / Spanien, *06.09.1946, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

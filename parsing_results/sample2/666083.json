@@ -27,7 +27,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wien / Österreich",
-                    "dob": "1970-12-08",
+                    "dob": "1970-08-12",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Halmenschlager",
                     "name": "Roland"
@@ -46,11 +46,33 @@
                 "text": " Doctor Jestädt, Guido, Wien/Österreich, *29.07.1975"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Wien/Österreich",
+                    "dismissed": true,
+                    "dob": "1982-08-23",
+                    "lastname": "Sirucic",
+                    "name": "Enver"
+                },
+                "text": " Sirucic, Enver, Wien/Österreich, *23.08.1982"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Wien/Österreich",
+                    "dismissed": true,
+                    "dob": "1964-01-02",
+                    "lastname": "Spandl",
+                    "name": "Friedrich"
+                },
+                "text": " Spandl, Friedrich, Wien/Österreich, *02.01.1964."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Wien/Österreich",
                     "dismissed": true,
-                    "dob": "1970-12-08",
+                    "dob": "1970-08-12",
                     "lastname": "Halmenschlager",
                     "name": "Ronald"
                 },

@@ -32,7 +32,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mönchengladbach",
-                    "dob": "1966-12-06",
+                    "dob": "1966-06-12",
                     "lastname": "Sieben",
                     "name": "Dirk"
                 },
@@ -50,14 +50,35 @@
                 "text": " Kösters, Berthold, Willich, *18.12.1954"
             },
             {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Mönchengladbach",
+                    "dismissed": true,
+                    "dob": "1966-06-12",
+                    "lastname": "Sieben",
+                    "name": "Dirk"
+                },
+                "text": " Sieben, Dirk, Mönchengladbach, *12.06.1966."
+            },
+            {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Kerken",
-                    "dob": "1978-05-01",
+                    "dob": "1978-01-05",
                     "lastname": "Hoene",
                     "name": "Paul-Robert"
                 },
                 "text": " Hoene, Paul-Robert, Kerken, *05.01.1978"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Mönchengladbach",
+                    "dob": "1957-03-23",
+                    "lastname": "Rippegather",
+                    "name": "Dietmar"
+                },
+                "text": " Rippegather, Dietmar, Mönchengladbach, *23.03.1957."
             }
         ]
     }

@@ -33,12 +33,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Cybinka / Polen",
-                    "dob": "1982-10-02",
+                    "dob": "1982-02-10",
                     "flag": "sole representation",
                     "lastname": "Przepiora",
                     "name": "Marcin Lukasz"
                 },
                 "text": " Przepiora, Marcin Lukasz, Cybinka / Polen, *10.02.1982, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "RetiredManagingDirector",

@@ -28,11 +28,33 @@
                 "payload": {
                     "city": "Straßlach",
                     "dismissed": true,
-                    "dob": "1948-03-11",
+                    "dob": "1948-11-03",
                     "lastname": "Berger",
                     "name": "Ulrich"
                 },
                 "text": " Berger, Ulrich, Straßlach, *03.11.1948"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Kronberg/Ts",
+                    "dismissed": true,
+                    "dob": "1966-12-13",
+                    "lastname": "Doctor Naumann",
+                    "name": "Thomas"
+                },
+                "text": " Doctor Naumann, Thomas, Kronberg/Ts., *13.12.1966"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Egling",
+                    "dismissed": true,
+                    "dob": "1952-04-20",
+                    "lastname": "Schulz",
+                    "name": "Horst-Günther"
+                },
+                "text": " Schulz, Horst-Günther, Egling, *20.04.1952."
             },
             {
                 "class": "AppointedManagingDirector",
@@ -43,6 +65,17 @@
                     "name": "Carsten"
                 },
                 "text": " Eckert, Carsten, München, *01.01.1965"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Lenggries",
+                    "dob": "1965-12-18",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Weiß",
+                    "name": "Dieter"
+                },
+                "text": " Weiß, Dieter, Lenggries, *18.12.1965, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

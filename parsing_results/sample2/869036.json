@@ -29,6 +29,17 @@
                 "text": " Ellendt, Sabine, Düsseldorf, *17.11.1964"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Siegburg",
+                    "dismissed": true,
+                    "dob": "1963-06-20",
+                    "lastname": "Lange",
+                    "name": "Thomas"
+                },
+                "text": " Lange, Thomas, Siegburg, *20.06.1963."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hilden",
@@ -37,6 +48,17 @@
                     "name": "Heinrich"
                 },
                 "text": " Klausgrete, Heinrich, Hilden, *15.08.1955"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Hilden",
+                    "dob": "1965-08-10",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Schneider",
+                    "name": "Hans-Ullrich"
+                },
+                "text": " Schneider, Hans-Ullrich, Hilden, *10.08.1965, jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -21,11 +21,21 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Krefeld",
-                    "dob": "1967-07-04",
+                    "dob": "1967-04-07",
                     "lastname": "Doctor Kadelke",
                     "name": "Jan"
                 },
                 "text": " Doctor Kadelke, Jan, Krefeld, *07.04.1967"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Köln",
+                    "dob": "1968-04-06",
+                    "lastname": "Tutein",
+                    "name": "Dagmar"
+                },
+                "text": " Tutein, Dagmar, Köln, *06.04.1968."
             },
             {
                 "class": "CommonProcuration",

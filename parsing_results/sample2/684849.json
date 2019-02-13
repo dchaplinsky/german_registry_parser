@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hilpoltstein",
-                    "dob": "1963-02-12",
+                    "dob": "1963-12-02",
                     "flag": "sole representation",
                     "lastname": "Müller",
                     "name": "Gerhard"
                 },
                 "text": " Müller, Gerhard, Hilpoltstein, *02.12.1963, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

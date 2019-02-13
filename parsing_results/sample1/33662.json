@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=33662&land_abk=hb"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from   Gesellschaft mit beschränkter Haftung, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several directors are appointed, the company will be jointly represented by two directors or by a managing director in company with an authorized signatory.",
@@ -53,7 +63,7 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Bad Zwischenahn",
-                    "dob": "1970-08-11",
+                    "dob": "1970-11-08",
                     "lastname": "Lundehn",
                     "name": "Sven",
                     "ref": 1

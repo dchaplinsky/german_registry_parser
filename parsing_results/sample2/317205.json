@@ -44,12 +44,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1988-08-10",
+                    "dob": "1988-10-08",
                     "flag": "sole representation",
                     "lastname": "Aslani",
                     "name": "Gjafer"
                 },
                 "text": " Aslani, Gjafer, Hamburg, *08.10.1988, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

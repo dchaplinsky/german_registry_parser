@@ -28,6 +28,17 @@
                 "text": " Hannemann, Stefan, Bispingen, *18.11.1967"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Münster",
+                    "dob": "1968-11-06",
+                    "flag": "jeweils mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Kemper",
+                    "name": "Christian"
+                },
+                "text": " Kemper, Christian, Münster, *06.11.1968, jeweils mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Bispingen",
@@ -37,6 +48,17 @@
                     "name": "Stefan"
                 },
                 "text": " Hannemann, Stefan, Bispingen, *18.11.1967"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Münster",
+                    "dismissed": true,
+                    "dob": "1968-11-06",
+                    "lastname": "Kemper",
+                    "name": "Christian"
+                },
+                "text": " Kemper, Christian, Münster, *06.11.1968."
             }
         ]
     }

@@ -35,12 +35,20 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Hamburg",
-                    "dob": "1967-01-02",
+                    "dob": "1967-02-01",
                     "flag": "sole representation",
                     "lastname": "Hagen-Frerichs",
                     "name": "Mahnaz"
                 },
                 "text": " Hagen-Frerichs, Mahnaz, Hamburg, *01.02.1967, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

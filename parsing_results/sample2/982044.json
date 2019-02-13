@@ -52,11 +52,30 @@
                 "text": " Gharieb, Christian, Pfeffenhausen, *16.08.1972"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Herzogenaurach",
+                    "dob": "1976-03-01",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Mitzenheim",
+                    "name": "Markus"
+                },
+                "text": " Mitzenheim, Markus, Herzogenaurach, *01.03.1976, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Gemmingen",
                     "dismissed": true,
-                    "dob": "1966-03-04",
+                    "dob": "1966-04-03",
                     "lastname": "Stiller",
                     "name": "Ralf"
                 },
@@ -72,6 +91,14 @@
                     "name": "Torsten"
                 },
                 "text": " Wenzel, Torsten, Berlin, *13.02.1962, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

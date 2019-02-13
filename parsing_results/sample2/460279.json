@@ -33,12 +33,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Hannover",
-                    "dob": "1975-04-02",
+                    "dob": "1975-02-04",
                     "flag": "sole representation",
                     "lastname": "Goch",
                     "name": "Markus"
                 },
                 "text": " Goch, Markus, Hannover, *04.02.1975, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

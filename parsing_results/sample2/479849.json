@@ -31,11 +31,30 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Forchheim",
-                    "dob": "1940-10-12",
+                    "dob": "1940-12-10",
                     "lastname": ": Haensch",
                     "name": "Peter"
                 },
                 "text": ": Haensch, Peter, Forchheim, *10.12.1940"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Forchheim",
+                    "dob": "1967-08-22",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Haensch",
+                    "name": "Claus Michael"
+                },
+                "text": " Haensch, Claus Michael, Forchheim, *22.08.1967, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

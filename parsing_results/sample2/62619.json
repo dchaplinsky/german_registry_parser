@@ -16,12 +16,18 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=62619&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Procuration from  beschränkt auf die Hauptniederlassung Prokura gemeinsam mit einem Vorstand oder einem weiteren Prokuristen., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "officers": [
             {
                 "class": "Procuration",
                 "payload": {
                     "city": "Berlin",
-                    "dob": "1972-08-07",
+                    "dob": "1972-07-08",
                     "lastname": "Kulla",
                     "name": "Annegret",
                     "ref": 13

@@ -39,6 +39,14 @@
                 "text": " Hoberg, Sven, Hude, *19.01.1970, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Gröbenzell",
@@ -50,10 +58,18 @@
                 "text": " Niedenzu, Matthias, Gröbenzell, *28.08.1971, einzelvertretungsberechtigt"
             },
             {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen des Vereins mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen des Vereins mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "SingleProcuration",
                 "payload": {
                     "city": "Lilienthal",
-                    "dob": "1962-03-10",
+                    "dob": "1962-10-03",
                     "lastname": "Doctor Falk",
                     "name": "Matthias"
                 },

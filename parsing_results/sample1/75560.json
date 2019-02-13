@@ -22,11 +22,22 @@
                 "payload": {
                     "city": "Bielefeld",
                     "dismissed": true,
-                    "dob": "1962-02-10",
+                    "dob": "1962-10-02",
                     "lastname": "Bartels",
                     "name": "Jens-Olaf"
                 },
                 "text": " Bartels, Jens-Olaf, Bielefeld, *02.10.1962"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Hofheim am Taunus",
+                    "dismissed": true,
+                    "dob": "1964-11-19",
+                    "lastname": "Schick",
+                    "name": "Andreas"
+                },
+                "text": " Schick, Andreas, Hofheim am Taunus, *19.11.1964."
             }
         ]
     }

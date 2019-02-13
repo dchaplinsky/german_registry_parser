@@ -27,7 +27,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Strasbourg/Frankreich",
-                    "dob": "1975-08-11",
+                    "dob": "1975-11-08",
                     "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
                     "lastname": "Ghaemian",
                     "name": "Soheyl"
@@ -39,11 +39,22 @@
                 "payload": {
                     "city": "Walchwil/Schweiz",
                     "dismissed": true,
-                    "dob": "1973-12-08",
+                    "dob": "1973-08-12",
                     "lastname": "Pawlowsky",
                     "name": "Marc-Oliver"
                 },
                 "text": " Pawlowsky, Marc-Oliver, Walchwil/Schweiz, *12.08.1973"
+            },
+            {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Dürnau",
+                    "dismissed": true,
+                    "dob": "1974-06-06",
+                    "lastname": "Staudenmayer",
+                    "name": "Oliver"
+                },
+                "text": " Staudenmayer, Oliver, Dürnau, *06.06.1974."
             }
         ]
     }

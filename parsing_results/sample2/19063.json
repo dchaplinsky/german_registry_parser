@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=19063&land_abk=sn"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a AppointedManagingDirector from  mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "officers": [
             {
                 "class": "RetiredManagingDirector",
@@ -32,18 +38,29 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Markkleeberg",
-                    "dob": "1948-03-11",
+                    "dob": "1948-11-03",
                     "lastname": "Kliebenstein",
                     "name": "Hans-Jürgen"
                 },
                 "text": " Kliebenstein, Hans-Jürgen, Markkleeberg, *03.11.1948"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Leipzig",
+                    "dob": "1956-11-20",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Poser",
+                    "name": "Roland"
+                },
+                "text": " Poser, Roland, Leipzig, *20.11.1956, jeweils einzelvertretungsberechtigt"
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Dresden",
                     "dismissed": true,
-                    "dob": "1948-03-11",
+                    "dob": "1948-11-03",
                     "lastname": "Kliebenstein",
                     "name": "Hans-Jürgen"
                 },

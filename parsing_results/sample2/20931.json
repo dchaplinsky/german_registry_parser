@@ -28,6 +28,27 @@
                 "text": " Buganik, Jozef, Nordhofen, *28.12.1978"
             },
             {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Moschheim",
+                    "dob": "1963-02-05",
+                    "lastname": "Kadela",
+                    "name": "Stanislaw"
+                },
+                "text": " Kadela, Stanislaw, Moschheim, *05.02.1963"
+            },
+            {
+                "class": "PersonalPartner",
+                "payload": {
+                    "city": "Salzburg",
+                    "dob": "1973-12-03",
+                    "flag": "jeweils von der Vertretung ausgeschlossen",
+                    "lastname": "Przydacz",
+                    "name": "Maciej Ryszard"
+                },
+                "text": " Przydacz, Maciej Ryszard, Salzburg, *03.12.1973, jeweils von der Vertretung ausgeschlossen."
+            },
+            {
                 "class": "RetiredPersonalPartner",
                 "payload": {
                     "city": "Ruppach-Goldhausen",
@@ -37,6 +58,17 @@
                     "name": "Tadeusz"
                 },
                 "text": " Guzik, Tadeusz, Ruppach-Goldhausen, *16.08.1969"
+            },
+            {
+                "class": "RetiredPersonalPartner",
+                "payload": {
+                    "city": "Nordhofen",
+                    "dismissed": true,
+                    "dob": "1969-03-16",
+                    "lastname": "Kukulka",
+                    "name": "Wieslaw"
+                },
+                "text": " Kukulka, Wieslaw, Nordhofen, *16.03.1969."
             }
         ]
     }

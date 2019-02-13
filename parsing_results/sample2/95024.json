@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=95024&land_abk=by"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Seitz, Ursula, Beratzhausen, Unterpfraundorf, *20.01.1975, jeweils einzelvertretungsberechtigt, error text was Cannot parse DOB  Beratzhausen using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability.",
@@ -39,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Unterpfraunddorf",
-                    "dob": "1972-01-06",
+                    "dob": "1972-06-01",
                     "lastname": "Seitz",
                     "name": "Josef",
                     "position": "Beratzhausen"
                 },
                 "text": " Seitz, Josef, Beratzhausen, Unterpfraunddorf, *01.06.1972"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

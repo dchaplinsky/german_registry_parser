@@ -22,7 +22,7 @@
                 "payload": {
                     "city": "Denekamp / Niederlande",
                     "dismissed": true,
-                    "dob": "1967-11-09",
+                    "dob": "1967-09-11",
                     "lastname": "Aveskamp",
                     "name": "Laurentius Gerhardus Maria"
                 },
@@ -39,10 +39,21 @@
                 "text": " Arens, Claudius, Gelsenkirchen, *20.12.1967"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Dorsten",
+                    "dob": "1979-05-26",
+                    "flag": "jeweils vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen",
+                    "lastname": "Breil",
+                    "name": "Tobias"
+                },
+                "text": " Breil, Tobias, Dorsten, *26.05.1979, jeweils vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen."
+            },
+            {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Denekamp",
-                    "dob": "1967-11-09",
+                    "dob": "1967-09-11",
                     "lastname": "Aveskamp",
                     "name": "Laurentius Gerhardus Maria"
                 },

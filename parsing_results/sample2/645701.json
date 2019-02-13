@@ -53,7 +53,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Mönchengladbach",
-                    "dob": "1952-04-05",
+                    "dob": "1952-05-04",
                     "lastname": "Baude",
                     "name": "Joachim"
                 },
@@ -63,7 +63,7 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Littleton / USA",
-                    "dob": "1973-04-11",
+                    "dob": "1973-11-04",
                     "flag": "sole representation",
                     "lastname": "Carlson",
                     "name": "Robert"
@@ -71,10 +71,18 @@
                 "text": " Carlson, Robert, Littleton / USA, *04.11.1973, einzelvertretungsberechtigt"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Pegnitz",
-                    "dob": "1966-12-01",
+                    "dob": "1966-01-12",
                     "lastname": "Schneider",
                     "name": "Andreas"
                 },

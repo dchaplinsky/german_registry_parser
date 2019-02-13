@@ -22,21 +22,43 @@
                 "payload": {
                     "city": "Essen",
                     "dismissed": true,
-                    "dob": "1980-12-05",
+                    "dob": "1980-05-12",
                     "lastname": "Baron-Schneider",
                     "name": "Denis"
                 },
                 "text": " Baron-Schneider, Denis, Essen, *12.05.1980"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Essen",
+                    "dismissed": true,
+                    "dob": "1980-11-30",
+                    "lastname": "Matuszewski",
+                    "name": "Lukas"
+                },
+                "text": " Matuszewski, Lukas, Essen, *30.11.1980."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Essen",
-                    "dob": "1985-11-05",
+                    "dob": "1985-05-11",
                     "lastname": "Baron",
                     "name": "Alex"
                 },
                 "text": " Baron, Alex, Essen, *11.05.1985"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Duisburg",
+                    "dob": "1976-02-21",
+                    "flag": "jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "Istrati",
+                    "name": "Viorel"
+                },
+                "text": " Istrati, Viorel, Duisburg, *21.02.1976, jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

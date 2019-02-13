@@ -39,15 +39,34 @@
                 "text": " Jakobeit, Heinz, Kürnach, *24.08.1948"
             },
             {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Rottendorf",
+                    "dismissed": true,
+                    "dob": "1974-11-06",
+                    "lastname": "Jakobeit",
+                    "name": "Timo"
+                },
+                "text": " Jakobeit, Timo, Rottendorf, *06.11.1974."
+            },
+            {
                 "class": "Liquidator",
                 "payload": {
                     "city": "Rottendorf",
-                    "dob": "1974-06-11",
+                    "dob": "1974-11-06",
                     "flag": "sole representation",
                     "lastname": ": Jakobeit",
                     "name": "Timo"
                 },
                 "text": ": Jakobeit, Timo, Rottendorf, *06.11.1974, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

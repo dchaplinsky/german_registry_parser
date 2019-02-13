@@ -68,12 +68,20 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frankfurt am Main",
-                    "dob": "1980-12-06",
+                    "dob": "1980-06-12",
                     "flag": "sole representation",
                     "lastname": "Sarikurt",
                     "name": "Tanzer"
                 },
                 "text": " Sarikurt, Tanzer, Frankfurt am Main, *12.06.1980, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -28,11 +28,22 @@
                 "payload": {
                     "city": "Frechen",
                     "dismissed": true,
-                    "dob": "1943-07-04",
+                    "dob": "1943-04-07",
                     "lastname": "Bierschock",
                     "name": "Alfred"
                 },
                 "text": " Bierschock, Alfred, Frechen, *07.04.1943"
+            },
+            {
+                "class": "RetiredPersonalPartner",
+                "payload": {
+                    "city": "Frechen",
+                    "dismissed": true,
+                    "dob": "1948-03-13",
+                    "lastname": "Bierschock",
+                    "name": "Adelheid"
+                },
+                "text": " Bierschock, Adelheid, Frechen, *13.03.1948."
             },
             {
                 "class": "Liquidator",
@@ -43,6 +54,26 @@
                     "name": "Lothar"
                 },
                 "text": " Bluhm, Lothar, Bonn, *26.08.1947"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Rockenberg",
+                    "dob": "1946-08-03",
+                    "lastname": "Nauheimer",
+                    "name": "Reinhold"
+                },
+                "text": " Nauheimer, Reinhold, Rockenberg, *03.08.1946"
+            },
+            {
+                "class": "Liquidator",
+                "payload": {
+                    "city": "Taunusstein",
+                    "dob": "1979-01-07",
+                    "lastname": "Zimmermann",
+                    "name": "Holger"
+                },
+                "text": " Zimmermann, Holger, Taunusstein, *07.01.1979."
             }
         ]
     }

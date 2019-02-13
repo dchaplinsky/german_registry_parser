@@ -33,12 +33,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Wuppertal",
-                    "dob": "1961-12-01",
+                    "dob": "1961-01-12",
                     "flag": "sole representation",
                     "lastname": "Kemmerling",
                     "name": "Ralf Kaspar"
                 },
                 "text": " Kemmerling, Ralf Kaspar, Wuppertal, *12.01.1961, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

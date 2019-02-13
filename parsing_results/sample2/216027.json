@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=216027&land_abk=sh"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Liquidator from  Rechtsverhaeltnis: Durch Beschluss der Gesellschafterversammlung vom 26.09.2017 ist die Gesellschaft aufgelöst., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
@@ -27,7 +33,7 @@
                 "class": "Liquidator",
                 "payload": {
                     "city": "Lauenburg/Elbe",
-                    "dob": "1973-01-03",
+                    "dob": "1973-03-01",
                     "lastname": "Karfoul",
                     "name": "Naji"
                 },

@@ -45,12 +45,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Ismaning",
-                    "dob": "1986-07-01",
+                    "dob": "1986-01-07",
                     "flag": "sole representation",
                     "lastname": "Haug",
                     "name": "Karl Daniel"
                 },
                 "text": " Haug, Karl Daniel, Ismaning, *07.01.1986, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

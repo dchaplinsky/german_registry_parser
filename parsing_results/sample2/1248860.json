@@ -28,6 +28,27 @@
                 "text": " Freimuth, Axel, Bochum, *25.02.1978"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Bochum",
+                    "dob": "1976-08-15",
+                    "lastname": "Plasa",
+                    "name": "Jens"
+                },
+                "text": " Plasa, Jens, Bochum, *15.08.1976"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Bochum",
+                    "dob": "1977-11-09",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Ruhrus",
+                    "name": "Normen"
+                },
+                "text": " Ruhrus, Normen, Bochum, *09.11.1977, jeweils einzelvertretungsberechtigt."
+            },
+            {
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "city": "Bochum",
@@ -48,6 +69,28 @@
                     "name": "Axel"
                 },
                 "text": " Freimuth, Axel, Bochum, *25.02.1978"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Bochum",
+                    "dismissed": true,
+                    "dob": "1976-08-15",
+                    "lastname": "Plasa",
+                    "name": "Jens"
+                },
+                "text": " Plasa, Jens, Bochum, *15.08.1976"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Bochum",
+                    "dismissed": true,
+                    "dob": "1977-11-09",
+                    "lastname": "Ruhrus",
+                    "name": "Normen"
+                },
+                "text": " Ruhrus, Normen, Bochum, *09.11.1977."
             }
         ]
     }

@@ -28,11 +28,22 @@
                 "payload": {
                     "city": "Kitzingen",
                     "dismissed": true,
-                    "dob": "1976-04-05",
+                    "dob": "1976-05-04",
                     "lastname": "Schaub",
                     "name": "Katja"
                 },
                 "text": " Schaub, Katja, Kitzingen, *04.05.1976"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Kitzingen",
+                    "dismissed": true,
+                    "dob": "1964-02-21",
+                    "lastname": "Straßer",
+                    "name": "Reiner"
+                },
+                "text": " Straßer, Reiner, Kitzingen, *21.02.1964."
             },
             {
                 "class": "AppointedManagingDirector",
@@ -44,6 +55,14 @@
                     "name": "Michael"
                 },
                 "text": " Schlander, Michael, Kitzingen, *17.08.1969, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -39,12 +39,20 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Neu-Ulm",
-                    "dob": "1952-01-04",
+                    "dob": "1952-04-01",
                     "flag": "sole representation",
                     "lastname": "Rothe",
                     "name": "Hans-Wolfgang"
                 },
                 "text": " Rothe, Hans-Wolfgang, Neu-Ulm, *01.04.1952, einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             },
             {
                 "class": "CommonProcuration",
@@ -55,6 +63,46 @@
                     "name": "Dieter"
                 },
                 "text": " Betzmeier, Dieter, Untermeitingen, *26.10.1960"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Friedberg",
+                    "dob": "1966-05-22",
+                    "lastname": "Gumpp",
+                    "name": "Franz"
+                },
+                "text": " Gumpp, Franz, Friedberg, *22.05.1966"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Neusäß",
+                    "dob": "1960-11-10",
+                    "lastname": "Kuisle",
+                    "name": "Peter"
+                },
+                "text": " Kuisle, Peter, Neusäß, *10.11.1960"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Friedberg",
+                    "dob": "1975-07-01",
+                    "lastname": "Doctor Raffler",
+                    "name": "Daniel"
+                },
+                "text": " Doctor Raffler, Daniel, Friedberg, *01.07.1975"
+            },
+            {
+                "class": "CommonProcuration",
+                "payload": {
+                    "city": "Plauen",
+                    "dob": "1970-04-21",
+                    "lastname": "Rauh",
+                    "name": "Dirk"
+                },
+                "text": " Rauh, Dirk, Plauen, *21.04.1970."
             }
         ]
     }

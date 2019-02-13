@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=97829&land_abk=he"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a AppointedManagingDirector from  Wiegand, Helge Markus, Steuerberater, Biedenkopf, *21.04.1974, jeweils einzelvertretungsberechtigt, error text was Cannot parse DOB  Steuerberater using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability.",
@@ -50,6 +56,17 @@
                 "text": " Doll, Gerhard, Schopfheim, *17.08.1957"
             },
             {
+                "class": "DismissedManagingDirector",
+                "payload": {
+                    "city": "Freiburg im Breisgau",
+                    "dismissed": true,
+                    "dob": "1952-11-04",
+                    "lastname": "Schneider",
+                    "name": "Bernhard"
+                },
+                "text": " Schneider, Bernhard, Freiburg im Breisgau, *04.11.1952."
+            },
+            {
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Gladenbach",
@@ -59,6 +76,25 @@
                     "position": "Steuerberater"
                 },
                 "text": " Doctor Karsten, Jürgen Robert, Steuerberater, Gladenbach, *24.05.1958"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Dautphetal-Buchenau",
+                    "dob": "1968-11-26",
+                    "lastname": "Runkel",
+                    "name": "Jens",
+                    "position": "Steuerberater"
+                },
+                "text": " Runkel, Jens, Steuerberater, Dautphetal-Buchenau, *26.11.1968"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
             }
         ]
     }

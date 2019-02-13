@@ -28,11 +28,22 @@
                 "payload": {
                     "city": "Hamburg",
                     "dismissed": true,
-                    "dob": "1956-04-02",
+                    "dob": "1956-02-04",
                     "lastname": "Doctor Bente",
                     "name": "Heinrich"
                 },
                 "text": " Doctor Bente, Heinrich, Hamburg, *04.02.1956"
+            },
+            {
+                "class": "RetiredManagingDirector",
+                "payload": {
+                    "city": "Teltow",
+                    "dismissed": true,
+                    "dob": "1971-02-20",
+                    "lastname": "Feicht",
+                    "name": "Andreas"
+                },
+                "text": " Feicht, Andreas, Teltow, *20.02.1971."
             }
         ]
     }

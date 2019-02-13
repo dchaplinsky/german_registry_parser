@@ -27,18 +27,37 @@
                 "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Gersthofen",
-                    "dob": "1974-02-09",
+                    "dob": "1974-09-02",
                     "lastname": "Echter",
                     "name": "Alfons"
                 },
                 "text": " Echter, Alfons, Gersthofen, *02.09.1974"
             },
             {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "Gersthofen",
+                    "dob": "1968-02-12",
+                    "lastname": "Koller",
+                    "name": "Eva"
+                },
+                "text": " Koller, Eva, Gersthofen, *12.02.1968"
+            },
+            {
+                "class": "AppointedManagingDirector",
+                "payload": {
+                    "city": "im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": "jeweils einzelvertretungsberechtigt",
+                    "name": "mit der Befugnis"
+                },
+                "text": " jeweils einzelvertretungsberechtigt, mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            {
                 "class": "RetiredManagingDirector",
                 "payload": {
                     "city": "Affing",
                     "dismissed": true,
-                    "dob": "1943-01-03",
+                    "dob": "1943-03-01",
                     "lastname": "Echter",
                     "name": "Alfons",
                     "position": "Schlosser"

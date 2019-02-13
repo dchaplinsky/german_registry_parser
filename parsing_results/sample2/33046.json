@@ -35,11 +35,30 @@
                 "class": "ManagingDirector",
                 "payload": {
                     "city": "Wiesbaden",
-                    "dob": "1962-07-12",
+                    "dob": "1962-12-07",
                     "lastname": "Rausch",
                     "name": "Michael Hans"
                 },
                 "text": " Rausch, Michael Hans, Wiesbaden, *07.12.1962"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "city": "Wiesbaden",
+                    "dob": "1971-10-14",
+                    "flag": "jeweils einzelvertretungsberechtigt",
+                    "lastname": "Reitz",
+                    "name": "Katharina"
+                },
+                "text": " Reitz, Katharina, Wiesbaden, *14.10.1971, jeweils einzelvertretungsberechtigt"
+            },
+            {
+                "class": "ManagingDirector",
+                "payload": {
+                    "lastname": "mit der Befugnis",
+                    "name": "im Namen der Gesellschaft mit sich im eigenen Namen Rechtsgeschäfte abzuschließen"
+                },
+                "text": " mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen Rechtsgeschäfte abzuschließen."
             }
         ]
     }

@@ -44,11 +44,22 @@
                 "payload": {
                     "city": "Dormagen",
                     "dismissed": true,
-                    "dob": "1962-11-09",
+                    "dob": "1962-09-11",
                     "lastname": "Brandt",
                     "name": "Thorsten"
                 },
                 "text": " Brandt, Thorsten, Dormagen, *11.09.1962"
+            },
+            {
+                "class": "ProcurationCancelled",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "dismissed": true,
+                    "dob": "1943-05-20",
+                    "lastname": "Woeste",
+                    "name": "Lothar"
+                },
+                "text": " Woeste, Lothar, Düsseldorf, *20.05.1943."
             }
         ]
     }
