@@ -21,6 +21,18 @@
                 "label": "address",
                 "text": " Bayenstr."
             }
+        ],
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Köln",
+                    "dob": "1963-02-09",
+                    "lastname": "Kim",
+                    "name": "Elke"
+                },
+                "text": " Kim, Elke, Köln, *09.02.1963."
+            }
         ]
     }
 }

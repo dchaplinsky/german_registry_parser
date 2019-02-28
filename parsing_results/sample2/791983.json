@@ -32,6 +32,18 @@
                 "to": "Köln",
                 "used_regex": "from_regex, hrb_regex, to_regex, court_regex"
             }
+        ],
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Köln",
+                    "dob": "1957-11-17",
+                    "lastname": "Pauli",
+                    "name": "Reinhard Maria"
+                },
+                "text": " Pauli, Reinhard Maria, Köln, *17.11.1957."
+            }
         ]
     }
 }

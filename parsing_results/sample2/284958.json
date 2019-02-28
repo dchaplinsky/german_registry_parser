@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=284958&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Person from  Rechtsform: Gesellschaft britischen Rechts mit beschränkter Haftung, Rechtsbereich England und Wales (private company limited by shares), gegründet am 24.01.2014., error text was Name is too long: Rechtsbereich England und Wales (private company limited by shares)"
+            }
+        ],
         "labels": [
             {
                 "label": "WHUT",
@@ -28,6 +34,30 @@
             {
                 "label": "address",
                 "text": " Friedrichstraße 171, 10117 Berlin"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Oberhausen",
+                    "dob": "1980-07-22",
+                    "lastname": "Becker",
+                    "name": "Maik",
+                    "ref": 1
+                },
+                "text": "1) Becker, Maik, *22.07.1980, Oberhausen"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Mülheim a.d. Ruhr",
+                    "dob": "1977-10-09",
+                    "lastname": "Keppel",
+                    "name": "Christian",
+                    "ref": 2
+                },
+                "text": "2) Keppel, Christian, *09.10.1977, Mülheim a.d. Ruhr"
             }
         ]
     }

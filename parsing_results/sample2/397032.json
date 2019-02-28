@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=397032&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Person from  Rechtsform: Gesellschaft britischen Rechts mit beschränkter Haftung, Rechtsbereich England und Wales (private company limited by shares), gegründet am 20.05.2016, error text was Name is too long: Rechtsbereich England und Wales (private company limited by shares)"
+            }
+        ],
         "labels": [
             {
                 "label": "WHUT",
@@ -28,6 +34,19 @@
             {
                 "label": "address",
                 "text": " Lange Enden 29, 13437 Berlin"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Oberkrämer",
+                    "dob": "1965-06-11",
+                    "lastname": "Langner",
+                    "name": "Clemens Matthias",
+                    "ref": 1
+                },
+                "text": "1) Langner, Clemens Matthias, *11.06.1965, Oberkrämer"
             }
         ]
     }

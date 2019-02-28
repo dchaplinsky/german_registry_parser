@@ -16,10 +16,36 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=122994&land_abk=br"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Person from  Gesellschaft englischen Rechts mit Haftungsbeschränkung durch Garantiesumme ohne Stammkapital (Private company limited by guarantee, no share capital)), error text was Lastname is too long: no share capital))"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Person from  Gesellschaftsvertrag vom:07)08.2015 mit Änderung vom 04.10.2015, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Person from  Jedes Mitglied haftet für die Verbindlichkeiten der Gesellschaft bis zur Höhe von 1 Pfund Sterling., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "labels": [
             {
                 "label": "address",
                 "text": " Breite 1, 15806 Zossen"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Hoyerswerda",
+                    "dob": "1973-01-13",
+                    "lastname": "Allstädt",
+                    "name": "Steffen"
+                },
+                "text": " Allstädt, Steffen, *13.01.1973, Hoyerswerda"
             }
         ]
     }

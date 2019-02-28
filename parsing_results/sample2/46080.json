@@ -15,5 +15,55 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=46080&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Person from  Johnson, Gregory Eugene, Hillsborough, Kalifornien, USA, *28.06.1961, error text was Cannot parse DOB  Hillsborough using regex"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Person from  Lusk, John, San Mateo, Kalifornien, USA, *15.01.1958, error text was Cannot parse DOB  San Mateo using regex"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Person from  Plafker, Jed Andrew, Danville, Kalifornien, USA, *11.01.1971, error text was Cannot parse DOB  Danville using regex"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "England",
+                    "dob": "1965-01-12",
+                    "lastname": "Brady",
+                    "name": "Paul",
+                    "position": "London"
+                },
+                "text": " Brady, Paul, London, England, *12.01.1965"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "England",
+                    "dob": "1962-11-05",
+                    "lastname": "Hammond",
+                    "name": "Jamie",
+                    "position": "Surrey"
+                },
+                "text": " Hammond, Jamie, Surrey, England, *05.11.1962"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "England",
+                    "dob": "1961-07-04",
+                    "lastname": "Smart",
+                    "name": "David Eynon",
+                    "position": "London"
+                },
+                "text": " Smart, David Eynon, London, England, *04.07.1961."
+            }
+        ]
+    }
 }

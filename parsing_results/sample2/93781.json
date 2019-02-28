@@ -15,5 +15,24 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=93781&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Person from  Evans, Darren Paul, Bristol-Avon, *25.02.1961. einzelvertretungsberechtigter Prokurist beschränkt auf den Betrieb der Zweigniederlassung: Schaefer, André, Taunusstein, *31.01.1964., error text was no valid patter found, number of chunks: 7"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Burnham on Sea Somerset",
+                    "dob": "1964-09-15",
+                    "lastname": "Christison",
+                    "name": "Colin John"
+                },
+                "text": " Christison, Colin John, Burnham on Sea Somerset, *15.09.1964"
+            }
+        ]
+    }
 }

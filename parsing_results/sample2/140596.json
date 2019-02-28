@@ -16,10 +16,29 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=140596&land_abk=br"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Person from  Rechtsform: Gesellschaft britischen Rechts mit beschränkter Haftung, Rechtsbereich England und Wales (private company limited by shares), gegründet am 04.01.2017, error text was Name is too long: Rechtsbereich England und Wales (private company limited by shares)"
+            }
+        ],
         "labels": [
             {
                 "label": "address",
                 "text": " Alte Eichen 17 c, 15526 Bad Saarow"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Pohnsdorf",
+                    "dob": "1976-09-26",
+                    "lastname": "Hartmann",
+                    "name": "Tobias",
+                    "ref": 1
+                },
+                "text": "1) Hartmann, Tobias, *26.09.1976, Pohnsdorf"
             }
         ]
     }

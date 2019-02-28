@@ -23,6 +23,10 @@
             },
             {
                 "kls": "ParsingError",
+                "text": "Cannot parse a Person from  Doctor Ing., error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  Doctor Ing., error text was a person without DOB, number of chunks: 1"
             },
             {

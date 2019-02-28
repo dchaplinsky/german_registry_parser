@@ -13,7 +13,7 @@ _german_tokenizer = data.load(
 )
 dob_regex = re.compile(r"\*\s?\d{2}\s?\.\s?\d{2}\s?.\s?\d{4}")
 _useful_regex = re.compile(r"\d{2}\.\d{2}\.\d{4}\n\n", flags=re.M)
-parse_number_regex = re.compile(r"^(\d+)\)(.*)")
+parse_number_regex = re.compile(r"^(\d+)\)?(.*)")
 gmbh_regex = re.compile(r"[\s-]g?mbh", flags=re.I)
 hrb_regex = re.compile(r"\b((?:HR\s?[AB]|VR|GnR|PR)\s?\d+)", flags=re.I)
 
@@ -264,6 +264,10 @@ class FullPerson(object):
                     )
                     self.payload[field_name] = self.payload[field_name].strip()
                     self.payload["maidenname"] = self.payload["maidenname"].strip()
+
+            if ":" in self.payload["lastname"]:
+                shit, self.payload["lastname"] = self.payload["lastname"].split(":", 1)
+                self.payload["lastname"] = self.payload["lastname"].strip()
 
             m = parse_number_regex.search(self.payload["lastname"])
             if m:
@@ -686,6 +690,12 @@ sentences = [
     Sentence(
         "Bestellt Geschäftsführer:", assign_label_to_postfix=AppointedManagingDirector
     ),
+    Sentence(
+        "Ausgeschieden: Geschäftsführer:", assign_label_to_postfix=FullPerson
+    ),
+    Sentence(
+        "director:", assign_label_to_postfix=FullPerson
+    ),
     Sentence("Geändert, nun: Liquidator", assign_label_to_postfix=Liquidator),
     Sentence("Nicht mehr Liquidator", assign_label_to_postfix=NotALiquidator),
     Sentence("Geschäftsführer:", assign_label_to_postfix=ManagingDirector),
@@ -698,6 +708,14 @@ sentences = [
     Sentence(
         "Einzelprokura mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen:",
         assign_label_to_postfix=SingleProcuration,
+    ),
+    Sentence(
+        "Bestellt als einzelvertretungsberechtigte Geschäftsführerin mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen:",
+        assign_label_to_postfix=FullPerson,
+    ),
+    Sentence(
+        "Gesamtprokura gemeinsam mit einem anderen Prokuristen mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter der persönlich haftenden Gesellschafterin Rechtsgeschäfte abzuschließen",
+        assign_label_to_postfix=FullPerson,
     ),
     Sentence(
         # TODO: translate and check if can be merged with flag above
@@ -798,6 +816,7 @@ sentences = [
     Sentence("Bestellt als Vorstand", assign_label_to_postfix=FullPerson),
     Sentence("Nicht mehr Vorstand", assign_label_to_postfix=FullPerson),
     Sentence("Nicht mehr Vorstand:", assign_label_to_postfix=FullPerson),
+    Sentence("Bestellt zum Vorstand:", assign_label_to_postfix=FullPerson),
 ]
 
 sentences = sorted(

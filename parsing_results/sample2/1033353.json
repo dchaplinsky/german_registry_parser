@@ -24,6 +24,37 @@
         ],
         "officers": [
             {
+                "class": "Person",
+                "payload": {
+                    "city": "Mount Kisco/NY/USA / Vereinigte Staaten",
+                    "dob": "1967-12-26",
+                    "lastname": "Dalrymple",
+                    "name": "Christopher Kent"
+                },
+                "text": " Dalrymple, Christopher Kent, Mount Kisco/NY/USA / Vereinigte Staaten, *26.12.1967"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "New York/USA",
+                    "dob": "1948-12-06",
+                    "lastname": "Skalicky",
+                    "name": "Steven S",
+                    "position": "Larchmont"
+                },
+                "text": " Skalicky, Steven S., Larchmont, New York/USA, *06.12.1948."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "New York / Vereinigte Staaten",
+                    "dob": "1976-02-14",
+                    "lastname": "Mahoney",
+                    "name": "Matthew Daniel"
+                },
+                "text": " Mahoney, Matthew Daniel, New York / Vereinigte Staaten, *14.02.1976."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Paris/Frankreich",
