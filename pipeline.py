@@ -2,10 +2,6 @@
 import argparse
 import glob
 import gzip
-# try:
-#     import ujson as json
-# except ImportError:
-#     import json
 import json
 
 import os.path
