@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=299289&land_abk=ni"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Horner str 36, 21220 Seevetal"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability.",
@@ -34,12 +40,6 @@
                 "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
             }
         ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Horner Str."
-            }
-        ],
         "notices": [
             {
                 "court": "Braunschweig",
@@ -54,7 +54,7 @@
             {
                 "court": null,
                 "registration": null,
-                "text": ", nun: Änderung zur Geschäftsanschrift: Horner Str.",
+                "text": ", nun: Änderung zur Geschäftsanschrift: Horner str 36, 21220 Seevetal.",
                 "used_regex": ""
             }
         ],

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=65816&land_abk=mv"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Ahornstraße 25, 19075 Pampow"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,12 +36,6 @@
             {
                 "flag": "The owner is acting alone",
                 "text": "Der\\ Inhaber\\ handelt\\ allein"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Ahornstraße 25, 19075 Pampow."
             }
         ],
         "officers": [

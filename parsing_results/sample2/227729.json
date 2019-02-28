@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=227729&land_abk=ni"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Im grünen Winkel 26, 37154 Northeim OT Hohnstedt"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -38,12 +44,6 @@
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
                 "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Im grünen Winkel 26, 37154 Northeim OT Hohnstedt."
             }
         ],
         "officers": [

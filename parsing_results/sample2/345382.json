@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=345382&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Ansbacher Straße 22, 10787 Berlin"
+            }
+        ],
         "flags": [
             {
                 "flag": "If several managing directors are appointed, the company is jointly represented by all managing directors.",
@@ -34,10 +40,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Ansbacher Straße 22, 10787 Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Ansbacher Straße 22, 10787 Berlin"
             }
         ]
     }

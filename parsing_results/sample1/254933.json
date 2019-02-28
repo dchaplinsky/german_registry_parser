@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=254933&land_abk=he"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Hauptstraße 84, 65817 Eppstein"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,12 +36,6 @@
             {
                 "flag": "The owner is acting alone",
                 "text": "Der\\ Inhaber\\ handelt\\ allein"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Hauptstraße 84, 65817 Eppstein."
             }
         ],
         "officers": [

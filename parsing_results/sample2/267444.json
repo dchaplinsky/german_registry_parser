@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=267444&land_abk=he"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Bahnhofstraße 26, 65520 Bad Camberg"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Bahnhofstraße 26, 65520 Bad Camberg."
             }
         ],
         "officers": [

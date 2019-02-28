@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=283447&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Kantstraße 48, 10625 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -44,10 +50,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Kantstraße 48, 10625 Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Kantstraße 48, 10625 Berlin"
             }
         ],
         "officers": [

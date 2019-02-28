@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=447361&land_abk=he"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Schwalbacher Straße 123, 65391 Lorch"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -42,12 +48,6 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Schwalbacher Straße 123, 65391 Lorch."
             }
         ],
         "notices": [

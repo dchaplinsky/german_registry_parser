@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=353985&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "c/o André Engels, Welserstraße 24, 10777 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -44,10 +50,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: c/o André Engels, Welserstraße 24, 10777 Berlin"
-            },
-            {
-                "label": "address",
-                "text": " c/o André Engels, Welserstraße 24, 10777 Berlin"
             }
         ],
         "officers": [

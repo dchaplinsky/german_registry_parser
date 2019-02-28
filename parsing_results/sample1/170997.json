@@ -16,6 +16,20 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=170997&land_abk=sn"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "dresdner straße 54, 09130 chemnitz"
+            },
+            {
+                "kls": "Address",
+                "text": "dresdner str 54, 09130 chemnitz"
+            },
+            {
+                "kls": "Address",
+                "text": "steinstraße 1, 01454 radeberg"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -38,20 +52,6 @@
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
                 "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " dresdner straße 54, 09130 chemnitz."
-            },
-            {
-                "label": "address",
-                "text": " dresdner str."
-            },
-            {
-                "label": "address",
-                "text": " steinstraße 1, 01454 radeberg."
             }
         ],
         "officers": [

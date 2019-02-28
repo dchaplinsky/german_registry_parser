@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=162470&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Leipziger Straße 32, 10117 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -48,10 +54,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Leipziger Straße 32, 10117 Berlin Gegenstand: Die erlaubnisfreie Beratung bei und Verwaltung von Bauprojekten für Industrie- und Handwerk sowie im Baubereich, Vertrieb und Lagerei von Sicherheitstechnik, Maschinen und Baumaterialien."
             }
         ],
         "officers": [

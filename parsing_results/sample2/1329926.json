@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1329926&land_abk=nw"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Rheinische str 81 - 83, 44137 Dortmund"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Rheinische Str."
             }
         ],
         "officers": [

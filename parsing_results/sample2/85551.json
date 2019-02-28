@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=85551&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Weserstr 61, 12045 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -40,10 +46,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Weserstr."
             }
         ],
         "officers": [

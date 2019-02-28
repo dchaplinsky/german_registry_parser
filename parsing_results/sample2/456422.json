@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=456422&land_abk=he"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Am Niedertal 1, 65391 Lorch"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,12 +36,6 @@
             {
                 "flag": "The owner is acting alone",
                 "text": "Der\\ Inhaber\\ handelt\\ allein"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Am Niedertal 1, 65391 Lorch."
             }
         ],
         "officers": [

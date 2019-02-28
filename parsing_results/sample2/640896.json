@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=640896&land_abk=by"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Hahnenbalz 35, 90411 Nürnberg"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -42,12 +48,6 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Hahnenbalz 35, 90411 Nürnberg."
             }
         ],
         "officers": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=98006&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Berliner Straße 60, 14712 Rathenow"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Berliner Straße 60, 14712 Rathenow"
             }
         ],
         "officers": [

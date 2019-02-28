@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=76581&land_abk=hb"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Tiefer 15, 28195 Bremen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -72,10 +78,6 @@
             {
                 "label": "WHUT",
                 "text": " LuMa Projektentwicklungs-GmbH, Bremen, Tiefer 15, 28195 Bremen."
-            },
-            {
-                "label": "address",
-                "text": " Tiefer 15, 28195 Bremen"
             }
         ],
         "officers": [

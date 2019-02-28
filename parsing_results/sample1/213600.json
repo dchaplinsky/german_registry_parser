@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=213600&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "c/o VRB Vorratsgesellschaften GmbH, Friedrichstraße 133, 10117 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -44,10 +50,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " c/o VRB Vorratsgesellschaften GmbH, Friedrichstraße 133, 10117 Berlin Gegenstand: Verwaltung eigenen Vermögens Stamm- bzw. Grundkapital: 500,00 EUR Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein."
             }
         ],
         "officers": [

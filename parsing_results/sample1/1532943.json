@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1532943&land_abk=nw"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "lange straße 67, 32791 lage"
+            },
+            {
+                "kls": "Address",
+                "text": "gehrenberg 17, 33602 bielefeld"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,16 +40,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " lange straße 67, 32791 lage."
-            },
-            {
-                "label": "address",
-                "text": " gehrenberg 17, 33602 bielefeld."
             }
         ],
         "officers": [

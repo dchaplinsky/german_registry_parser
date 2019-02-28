@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=144487&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Anklamer Straße 22, 10115 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -40,10 +46,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Anklamer Straße 22, 10115 Berlin Gegenstand: Verwaltung von Immoblien für Dritte, das Facilitymanagement und die kaufmännische Beratung."
             }
         ],
         "officers": [

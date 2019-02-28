@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=318512&land_abk=hh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Wendenstraße 45 B, 20097 Hamburg"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Wendenstraße 45 B, 20097 Hamburg."
             }
         ],
         "officers": [

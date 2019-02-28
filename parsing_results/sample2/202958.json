@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=202958&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Lietzenburger Straße 22, 10789 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -40,10 +46,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Lietzenburger Straße 22, 10789 Berlin Geschäftsführer:2) Scheding, Kai-Uwe, *11.04.1963, Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Lietzenburger Straße 22, 10789 Berlin Geschäftsführer:2) Scheding, Kai-Uwe, *11.04.1963, Berlin"
             }
         ],
         "officers": [

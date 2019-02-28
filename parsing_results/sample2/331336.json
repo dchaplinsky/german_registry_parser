@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=331336&land_abk=hh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Kuehnstraße 93, 22045 Hamburg"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Kuehnstraße 93, 22045 Hamburg."
             }
         ],
         "officers": [

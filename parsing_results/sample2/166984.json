@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=166984&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Bayerische Straße 8, 10707 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -64,10 +70,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Bayerische Straße 8, 10707 Berlin Gegenstand: Die Vermittlung von Versicherungs- und Bausparanträgen sowie Finanzdienstleistungsprodukten für die ERGO Lebensversicherung AG und die mit ihr vertraglich verbundenen Gesellschaften."
             }
         ],
         "officers": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=65277&land_abk=sh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Vogelsang 1, 24351 Damp Gegenstand: Beratung von Zahnarztpraxen in folgenden Angelegenheiten: Organisation, Qualitätsmanagement, Praxisanalyse, Betriebswirtschaft, Controlling, Personalführung, Kommunikation, Mitarbeiter Coaching, Motivation, Marketing, Verkaufstraining Kapital:25)000 EUR Vertretungsregelung: Die Gesellschaft hat einen oder mehrere Geschäftsführer"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -42,12 +48,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Vogelsang 1, 24351 Damp Gegenstand: Beratung von Zahnarztpraxen in folgenden Angelegenheiten: Organisation, Qualitätsmanagement, Praxisanalyse, Betriebswirtschaft, Controlling, Personalführung, Kommunikation, Mitarbeiter Coaching, Motivation, Marketing, Verkaufstraining Kapital:25)000 EUR Vertretungsregelung: Die Gesellschaft hat einen oder mehrere Geschäftsführer."
             }
         ],
         "notices": [

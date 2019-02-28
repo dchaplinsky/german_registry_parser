@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=361584&land_abk=he"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Hof Bergfried 1, 65611 Brechen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Hof Bergfried 1, 65611 Brechen."
             }
         ],
         "officers": [

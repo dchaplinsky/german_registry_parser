@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=80287&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "c/o A Chau 24 GmbH, Haus Nr. 9, Raum 308/309, Herzbergstraße 128 - 139, 10365 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -42,12 +48,6 @@
             {
                 "flag": "Company with limited liability.",
                 "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " c/o A Chau 24 GmbH, Haus Nr. 9, Raum 308/309, Herzbergstraße 128 - 139, 10365 Berlin."
             }
         ],
         "officers": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=329001&land_abk=he"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Brodberg 7b, 36205 Sontra"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,12 +36,6 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Brodberg 7b, 36205 Sontra."
             }
         ],
         "officers": [

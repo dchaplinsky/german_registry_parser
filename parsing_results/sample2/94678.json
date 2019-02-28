@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=94678&land_abk=sh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Holstenplatz 1-2, 24103 Kiel"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -58,12 +64,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Holstenplatz 1-2, 24103 Kiel Gegenstand: Betrieb von Hotels, die Verleihung von Personal sowie die Durchführung von Dienstleistungen im Hotelbereich jeder Art mit Schwerpunkt im Bereich von Berlin Kapital:25)000 EUR Vertretungsregelung: Die Gesellschaft hat einen oder mehrere Geschäftsführer."
             }
         ],
         "officers": [

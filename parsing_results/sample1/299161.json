@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=299161&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Transvaalstraße 22, 13351 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -64,10 +70,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Transvaalstraße 22, 13351 Berlin"
             }
         ],
         "notices": [

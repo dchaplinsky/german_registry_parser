@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=175020&land_abk=hh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Litzowstraße 17, 22041 Hamburg"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Litzowstraße 17, 22041 Hamburg."
             }
         ],
         "officers": [

@@ -16,10 +16,10 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=316158&land_abk=by"
     },
     "parsed": {
-        "labels": [
+        "addresses": [
             {
-                "label": "address",
-                "text": " Schwanenstr."
+                "kls": "Address",
+                "text": "Schwanenstr 27, 40721 Hilden"
             }
         ],
         "notices": [
@@ -28,7 +28,7 @@
                 "hrb": "HRB 60727",
                 "registration": "successor",
                 "registration_conflict": true,
-                "text": " nach Hilden (nun Amtsgericht Düsseldorf, HRB 60727).Geschäftsanschrift: Schwanenstr.",
+                "text": " nach Hilden (nun Amtsgericht Düsseldorf, HRB 60727).Geschäftsanschrift: Schwanenstr 27, 40721 Hilden.",
                 "to": "Hilden",
                 "used_regex": "hrb_regex, to_regex, court_regex"
             }

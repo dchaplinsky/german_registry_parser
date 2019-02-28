@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=195293&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Mariendorfer Damm 1, 12099 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -34,12 +40,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Mariendorfer Damm 1, 12099 Berlin"
             }
         ],
         "officers": [

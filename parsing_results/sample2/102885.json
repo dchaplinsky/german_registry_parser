@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=102885&land_abk=ni"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Große Hamkenstr 32 b -34, 49074 Osnabrück"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Große Hamkenstr."
             }
         ],
         "officers": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=651762&land_abk=by"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Speltenbach 25, 94078 Freyung"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Speltenbach 25, 94078 Freyung."
             }
         ],
         "officers": [

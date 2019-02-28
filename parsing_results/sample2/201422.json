@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=201422&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Johannisstraße 20-21, 10117 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -40,10 +46,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Johannisstraße 20-21, 10117 Berlin Nicht mehr Geschäftsführer:1) Borcherdt, Antje"
-            },
-            {
-                "label": "address",
-                "text": " Johannisstraße 20-21, 10117 Berlin Nicht mehr Geschäftsführer:1) Borcherdt, Antje"
             }
         ],
         "officers": [

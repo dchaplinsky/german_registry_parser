@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=439031&land_abk=nw"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Balver Straße 92, 58706 Menden"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Balver Straße 92, 58706 Menden."
             }
         ],
         "officers": [

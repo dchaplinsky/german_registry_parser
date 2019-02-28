@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=405255&land_abk=nw"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Koblenzer str 13, 53945 Blankenheim"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Koblenzer Str."
             }
         ],
         "officers": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=224881&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Innsbrucker Straße 48, 10825 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -52,10 +58,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Innsbrucker Straße 48, 10825 Berlin Gegenstand: Die Ausführung und Vermittlung von Aufträgen zur Bauleitung und Bauüberwachung, zur Baustellensicherung, zur Durchführung von Holz- und Bautenschutt, zum Einbau und zum Handel mit genormten Bauteilen, von Maurer- und Betonarbeiten, Stahlarmierungsarbeiten, Trockenbau, Innenausbau, Abrissarbeiten, Erdarbeiten - insbesondere Kabel- und Rohrverlegung, Bau Grob- und Feinreinigung, Gebäudereinigung, Schnee-, Eis- und Glättebeseitigung, Garten- und Landschaftsbau, Baustofflieferungen, Arbeitnehmerüberlasung, Vermietung von Kraftfahrzeugen und Baugerät."
             }
         ],
         "officers": [

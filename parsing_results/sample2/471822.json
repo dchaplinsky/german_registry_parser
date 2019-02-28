@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=471822&land_abk=bw"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Bachstraße 51, 88214 Ravensburg"
+            },
+            {
+                "kls": "Address",
+                "text": "Bachstraße 22, 88214 Ravensburg"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,16 +36,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Bachstraße 51, 88214 Ravensburg."
-            },
-            {
-                "label": "address",
-                "text": " Bachstraße 22, 88214 Ravensburg."
             }
         ],
         "officers": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=693002&land_abk=nw"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Nettekovener Straße 80, 53347 Alfter"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Nettekovener Straße 80, 53347 Alfter."
             }
         ],
         "officers": [

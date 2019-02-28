@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=67453&land_abk=sh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Sophienstraße 21, 23560 Lübeck"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -50,12 +56,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Sophienstraße 21, 23560 Lübeck Gegenstand: Die Entwicklung und der Vertrieb von Businessapplikationen und multimedialen Computeranwendungen sowie der Handel und Vertrieb von Soft- und Hardware sowie das Management von Marketing-Kampagnen Vorstand: Nicht mehr Geschäftsführer:2) Rohde, Stephan"
             }
         ],
         "officers": [

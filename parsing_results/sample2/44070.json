@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=44070&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "c/o Projekta Grundinvest GmbH, Zeppelinstraße 1, 12529 Schönefeld"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -38,12 +44,6 @@
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
                 "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " c/o Projekta Grundinvest GmbH, Zeppelinstraße 1, 12529 Schönefeld."
             }
         ],
         "officers": [

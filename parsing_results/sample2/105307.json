@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=105307&land_abk=rp"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Hahnenbachstraße 20, 76855 Annweiler am Trifels"
+            },
+            {
+                "kls": "Address",
+                "text": "Leipziger Straße 240, 08058 Zwickau"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,16 +40,6 @@
             {
                 "flag": "The owner is acting alone",
                 "text": "Der\\ Inhaber\\ handelt\\ allein"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Hahnenbachstraße 20, 76855 Annweiler am Trifels."
-            },
-            {
-                "label": "address",
-                "text": " Leipziger Straße 240, 08058 Zwickau."
             }
         ],
         "officers": [

@@ -16,6 +16,24 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=455610&land_abk=he"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Albert-Einstein-Straße 3, 64584 Biebesheim am Rhein"
+            },
+            {
+                "kls": "Address",
+                "text": "Albert-Einstein-Straße 3, 64584 Biebesheim"
+            },
+            {
+                "kls": "Address",
+                "text": "Berblinger Straße 2, 71254 Ditzingen"
+            },
+            {
+                "kls": "Address",
+                "text": "In der Fleute 53, 42389 Wuppertal"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -38,24 +56,6 @@
             {
                 "flag": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
                 "text": "mit\\ der\\ Befugnis\\,\\ im\\ Namen\\ der\\ Gesellschaft\\ mit\\ sich\\ im\\ eigenen\\ Namen\\ oder\\ als\\ Vertreter\\ eines\\ Dritten\\ Rechtsgesch\\äfte\\ abzuschlie\\ßen\\."
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Albert-Einstein-Straße 3, 64584 Biebesheim am Rhein."
-            },
-            {
-                "label": "address",
-                "text": " Albert-Einstein-Straße 3, 64584 Biebesheim"
-            },
-            {
-                "label": "address",
-                "text": " Berblinger Straße 2, 71254 Ditzingen"
-            },
-            {
-                "label": "address",
-                "text": " In der Fleute 53, 42389 Wuppertal."
             }
         ],
         "notices": [

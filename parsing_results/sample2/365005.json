@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=365005&land_abk=by"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Glückstraße 6, 82110 Germering"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Glückstraße 6, 82110 Germering."
             }
         ],
         "officers": [

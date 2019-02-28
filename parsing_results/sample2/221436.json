@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=221436&land_abk=bw"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Achalmstraße 61, 72793 Pfullingen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,12 +36,6 @@
             {
                 "flag": "The owner is acting alone",
                 "text": "Der\\ Inhaber\\ handelt\\ allein"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Achalmstraße 61, 72793 Pfullingen."
             }
         ],
         "officers": [

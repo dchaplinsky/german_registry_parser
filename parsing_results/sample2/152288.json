@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=152288&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Heimchenweg 4, 03130 Spremberg"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -44,10 +50,6 @@
             {
                 "label": "WHUT",
                 "text": " WeiLe UG (haftungsbeschränkt), Spremberg, Heimchenweg 4, 03130 Spremberg."
-            },
-            {
-                "label": "address",
-                "text": " Heimchenweg 4, 03130 Spremberg"
             }
         ],
         "officers": [

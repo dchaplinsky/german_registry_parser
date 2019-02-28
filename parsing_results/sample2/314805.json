@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=314805&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Eislebener Straße 6, 10789 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -44,10 +50,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Eislebener Straße 6, 10789 Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Eislebener Straße 6, 10789 Berlin"
             }
         ],
         "officers": [

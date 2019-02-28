@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=102406&land_abk=th"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Marktstraße 20/21, 99610 Sömmerda"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,12 +36,6 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Marktstraße 20/21, 99610 Sömmerda."
             }
         ],
         "officers": [

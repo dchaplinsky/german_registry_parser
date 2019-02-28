@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=133663&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Finowstr 7, 10247 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -39,11 +45,7 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift: Finowstr."
-            },
-            {
-                "label": "address",
-                "text": " Finowstr."
+                "text": " Geschäftsanschrift: Finowstr 7, 10247 Berlin Nicht mehr Geschäftsführer:4) Strand, Jesper Ole Schougaard"
             }
         ],
         "officers": [

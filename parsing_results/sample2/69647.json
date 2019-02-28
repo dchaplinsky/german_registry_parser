@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=69647&land_abk=sh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Eggerstedtstr 1, 24103 Kiel"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -50,12 +56,6 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Eggerstedtstr."
             }
         ],
         "officers": [

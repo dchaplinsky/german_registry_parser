@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=417016&land_abk=nw"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Mülheimer Strasse 12, 40878 Ratingen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Limited partnership.",
                 "text": "Kommanditgesellschaft\\."
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Mülheimer Strasse 12, 40878 Ratingen."
             }
         ],
         "notices": [

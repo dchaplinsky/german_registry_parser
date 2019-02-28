@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=93245&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Klosterstraße 3, 13581 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -32,10 +38,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Klosterstraße 3, 13581 Berlin Prokura: Nicht mehr Prokurist:1) Dagois-Liepold, Karin geborene Schulz"
-            },
-            {
-                "label": "address",
-                "text": " Klosterstraße 3, 13581 Berlin Prokura: Nicht mehr Prokurist:1) Dagois-Liepold, Karin geborene Schulz"
             }
         ],
         "officers": [

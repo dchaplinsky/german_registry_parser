@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=85846&land_abk=ni"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Rischenweg 11, 37124 Rosdorf"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,12 +36,6 @@
             {
                 "flag": "CompanyClosed",
                 "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Rischenweg 11, 37124 Rosdorf."
             }
         ]
     }

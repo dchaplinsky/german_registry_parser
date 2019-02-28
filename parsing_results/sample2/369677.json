@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=369677&land_abk=ni"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Groß Buchholzer str 43, 30655 Hannover"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,12 +36,6 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Groß Buchholzer Str."
             }
         ],
         "officers": [

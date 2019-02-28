@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=18331&land_abk=mv"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Breite Straße 12-15, 18055 Rostock"
+            },
+            {
+                "kls": "Address",
+                "text": "Waisenhausstraße/Ecke Prager Straße, 01067 Dresden"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,16 +36,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Breite Straße 12-15, 18055 Rostock."
-            },
-            {
-                "label": "address",
-                "text": " Waisenhausstraße/Ecke Prager Straße, 01067 Dresden."
             }
         ],
         "officers": [

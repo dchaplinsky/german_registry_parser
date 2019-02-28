@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=209994&land_abk=sh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Hüttenkamp 6a, 24536 Neumünster"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -62,12 +68,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Hüttenkamp 6a, 24536 Neumünster"
             }
         ],
         "officers": [

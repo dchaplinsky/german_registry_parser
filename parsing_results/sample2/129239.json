@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=129239&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Friedrichstr 94, 10117 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -56,10 +62,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Friedrichstr."
             }
         ],
         "notices": [

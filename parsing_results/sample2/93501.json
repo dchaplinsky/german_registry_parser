@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=93501&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Cicerostraße 37, 10709 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -40,10 +46,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Cicerostraße 37, 10709 Berlin Geschäftsführer:3) Nier, Ulrike, *13.10.1969, Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Cicerostraße 37, 10709 Berlin Geschäftsführer:3) Nier, Ulrike, *13.10.1969, Berlin"
             }
         ],
         "officers": [

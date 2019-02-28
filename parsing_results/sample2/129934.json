@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=129934&land_abk=sn"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Hardenbergstraße 36, 04275 Leipzig"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -42,12 +48,6 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Hardenbergstraße 36, 04275 Leipzig."
             }
         ],
         "officers": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=128307&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Baumschulenweg 48, 15236 Frankfurt (Oder)"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -46,12 +52,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Baumschulenweg 48, 15236 Frankfurt (Oder)"
             }
         ],
         "officers": [

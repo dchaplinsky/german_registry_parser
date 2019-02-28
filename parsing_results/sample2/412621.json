@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=412621&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Frank-Zappa-Straße 16, 12681 Berlin"
+            }
+        ],
         "labels": [
             {
                 "label": "WHUT",
@@ -24,10 +30,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Frank-Zappa-Straße 16, 12681 Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Frank-Zappa-Straße 16, 12681 Berlin"
             }
         ]
     }

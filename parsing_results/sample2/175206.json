@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=175206&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Wartburgstraße 2, 10823 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -40,10 +46,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Wartburgstraße 2, 10823 Berlin Gegenstand: Die Erteilung von Einzel- und Gruppenunterricht sowie die Ausrichtung von Seminaren und Kursen in den Bereichen Musik und Musikpädagogik, Bewegung, Körperwahrnehmung und Beratung."
             }
         ],
         "officers": [

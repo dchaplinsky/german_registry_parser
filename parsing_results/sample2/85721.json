@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=85721&land_abk=sh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Kirchweg 171, 24558 Henstedt-Ulzburg Gegenstand: Betrieb eines Schlachthofes Kapital:25)000 EUR Vertretungsregelung: Die Gesellschaft hat einen oder mehrere Geschäftsführer"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -46,12 +52,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Kirchweg 171, 24558 Henstedt-Ulzburg Gegenstand: Betrieb eines Schlachthofes Kapital:25)000 EUR Vertretungsregelung: Die Gesellschaft hat einen oder mehrere Geschäftsführer."
             }
         ],
         "officers": [

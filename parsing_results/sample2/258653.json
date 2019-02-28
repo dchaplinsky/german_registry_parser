@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=258653&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Oberspreestraße 57 C, 12349 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -40,10 +46,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Oberspreestraße 57 C, 12349 Berlin Nicht mehr Geschäftsführer:1) Bandlow, Nicole"
-            },
-            {
-                "label": "address",
-                "text": " Oberspreestraße 57 C, 12349 Berlin Nicht mehr Geschäftsführer:1) Bandlow, Nicole"
             }
         ],
         "officers": [

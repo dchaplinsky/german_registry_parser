@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=46284&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Charlottenstraße 64, 14467 Potsdam"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "If several liquidators are appointed, the company will be represented jointly by all liquidators.",
                 "text": "Sind\\ mehrere\\ Liquidatoren\\ bestellt\\,\\ wird\\ die\\ Gesellschaft\\ durch\\ s\\ämtliche\\ Liquidatoren\\ gemeinsam\\ vertreten\\."
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Charlottenstraße 64, 14467 Potsdam."
             }
         ],
         "officers": [

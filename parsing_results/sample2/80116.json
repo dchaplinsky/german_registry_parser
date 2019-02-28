@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=80116&land_abk=sh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Liegnitzer Straße 5, 25551 Hohenlockstedt Gegenstand: Bau und Vertrieb von elektrischen Baugruppen und elektronischen Steuerungen sowie alle damit im Zusammenhang stehenden Tätigkeiten"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -50,12 +56,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Liegnitzer Straße 5, 25551 Hohenlockstedt Gegenstand: Bau und Vertrieb von elektrischen Baugruppen und elektronischen Steuerungen sowie alle damit im Zusammenhang stehenden Tätigkeiten."
             }
         ],
         "notices": [

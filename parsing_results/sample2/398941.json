@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=398941&land_abk=by"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Spitalhofstraße 94, 94032 Passau"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,12 +36,6 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Spitalhofstraße 94, 94032 Passau."
             }
         ],
         "officers": [

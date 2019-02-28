@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=80940&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Beeskowdamm 3-11, 14167 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -38,10 +44,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Beeskowdamm 3-11, 14167 Berlin Nicht mehr Geschäftsführer:6) Schanne, Hubert Alex Prokura:11) Oster, Kerstin, *22.05.1967, Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Beeskowdamm 3-11, 14167 Berlin Nicht mehr Geschäftsführer:6) Schanne, Hubert Alex Prokura:11) Oster, Kerstin, *22.05.1967, Berlin"
             }
         ],
         "officers": [

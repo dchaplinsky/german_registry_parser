@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=92816&land_abk=hh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Theresienstieg 11, 22085 Hamburg"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -46,12 +52,6 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Theresienstieg 11, 22085 Hamburg."
             }
         ],
         "notices": [

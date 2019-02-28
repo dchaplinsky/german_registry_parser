@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=102066&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Axel-Springer-str 65, 10888 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -39,11 +45,7 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift: Axel-Springer-Str."
-            },
-            {
-                "label": "address",
-                "text": " Axel-Springer-Str."
+                "text": " Geschäftsanschrift: Axel-Springer-str 65, 10888 Berlin Geschäftsführer:2) Lanz, Lothar, *01.10.1948, Berlin"
             }
         ],
         "officers": [

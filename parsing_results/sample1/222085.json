@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=222085&land_abk=bw"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "giesenstraße 2/1, 77933 lahr"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -24,12 +30,6 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  urban, udo, lahr, *07.10.1963. nicht mehr geschäftsführer: engelmann, isabella, rust, *23.06.1963., error text was no valid patter found, number of chunks: 7"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " giesenstraße 2/1, 77933 lahr."
             }
         ],
         "notices": [

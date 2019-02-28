@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=347707&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Keplerstraße 110-112, 45147 Essen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -50,10 +56,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Keplerstraße 110-112, 45147 Essen"
-            },
-            {
-                "label": "address",
-                "text": " Keplerstraße 110-112, 45147 Essen"
             }
         ],
         "officers": [

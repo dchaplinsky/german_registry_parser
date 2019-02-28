@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=88840&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Hallesches Ufer 74-76, 10963 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -32,10 +38,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Hallesches Ufer 74-76, 10963 Berlin Nicht mehr Persönlich haftender Gesellschafter:2) Wagner, Peter"
-            },
-            {
-                "label": "address",
-                "text": " Hallesches Ufer 74-76, 10963 Berlin Nicht mehr Persönlich haftender Gesellschafter:2) Wagner, Peter"
             }
         ],
         "officers": [

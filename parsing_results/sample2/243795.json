@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=243795&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Kurfürstendamm 206, 10719 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -50,12 +56,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Kurfürstendamm 206, 10719 Berlin"
             }
         ],
         "officers": [

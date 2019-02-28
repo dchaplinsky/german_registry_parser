@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=177268&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Düsseldorfer str 65, 10719 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -52,10 +58,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Düsseldorfer Str."
             }
         ],
         "officers": [

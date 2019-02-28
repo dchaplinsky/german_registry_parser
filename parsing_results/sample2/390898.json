@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=390898&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Niersteiner str 6, 14193 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -35,15 +41,11 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " boombox crowfunding GmbH, Berlin, Niersteiner Str."
+                "text": " boombox crowfunding GmbH, Berlin, Niersteiner str 6, 14193 Berlin."
             },
             {
                 "label": "company",
-                "text": " Geschäftsanschrift: Niersteiner Str."
-            },
-            {
-                "label": "address",
-                "text": " Niersteiner Str."
+                "text": " Geschäftsanschrift: Niersteiner str 6, 14193 Berlin"
             }
         ],
         "officers": [

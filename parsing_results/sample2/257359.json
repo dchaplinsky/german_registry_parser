@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=257359&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Heidelberger Straße 31, 12059 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -40,10 +46,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Heidelberger Straße 31, 12059 Berlin Gegenstand: Projektentwicklung, Realisierung und Marketing von/für Freizeit-, Sportanlagen und Messen sowie deren Betrieb und die Durchführung entsprechender Veranstaltungen."
             }
         ],
         "officers": [

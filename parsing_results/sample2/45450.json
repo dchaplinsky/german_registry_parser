@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=45450&land_abk=sh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Dorfplatz 1a, 23847 Stubben Vorstand: Geschäftsführer:3) Krumhorn, Kathrin, *08.02.1974, Stubben"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,12 +36,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Dorfplatz 1a, 23847 Stubben Vorstand: Geschäftsführer:3) Krumhorn, Kathrin, *08.02.1974, Stubben"
             }
         ],
         "officers": [

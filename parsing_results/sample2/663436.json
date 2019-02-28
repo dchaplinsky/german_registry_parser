@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=663436&land_abk=by"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Agricolastr 2, 91174 Spalt"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Agricolastr."
             }
         ],
         "officers": [

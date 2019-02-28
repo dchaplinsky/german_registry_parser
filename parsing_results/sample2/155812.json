@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=155812&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Gartenstraße 7, 14476 Potsdam OT Fahrland"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -66,12 +72,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Gartenstraße 7, 14476 Potsdam OT Fahrland"
             }
         ],
         "officers": [

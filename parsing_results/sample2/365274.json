@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=365274&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Friedrichstraße 88, 10117 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -40,10 +46,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Friedrichstraße 88, 10117 Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Friedrichstraße 88, 10117 Berlin"
             }
         ],
         "officers": [

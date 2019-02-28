@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=268251&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Leipziger Platz 9, 10117 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -36,10 +42,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Leipziger Platz 9, 10117 Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Leipziger Platz 9, 10117 Berlin"
             }
         ],
         "officers": [

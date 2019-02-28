@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=249378&land_abk=he"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Hofacker 5, 65589 Hadamar"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -34,12 +40,6 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Hofacker 5, 65589 Hadamar."
             }
         ],
         "notices": [

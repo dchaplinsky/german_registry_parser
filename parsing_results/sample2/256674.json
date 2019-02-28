@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=256674&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Oranienburger Straße 3, 10178 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -56,10 +62,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Oranienburger Straße 3, 10178 Berlin Gegenstand: Die Verwaltung eigenen Vermögens, die Beteiligung an anderen Unternehmen auf eigenem Namen, auf eigene Rechnung, nicht als Dienstleister für Dritte, der An- und Verkauf von Grundstücken und grundstücksgleichen Rechten, die Errichtung, Sanierung und Modernisierung von Gebäuden, insbesondere Verbrauchermärkte in Geisa Nicht mehr Geschäftsführer:1) Vieth, Julia"
-            },
-            {
-                "label": "address",
-                "text": " Oranienburger Straße 3, 10178 Berlin Gegenstand: Die Verwaltung eigenen Vermögens, die Beteiligung an anderen Unternehmen auf eigenem Namen, auf eigene Rechnung, nicht als Dienstleister für Dritte, der An- und Verkauf von Grundstücken und grundstücksgleichen Rechten, die Errichtung, Sanierung und Modernisierung von Gebäuden, insbesondere Verbrauchermärkte in Geisa Nicht mehr Geschäftsführer:1) Vieth, Julia"
             }
         ],
         "officers": [

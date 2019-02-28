@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=250440&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Seestraße 50, 13347 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -56,10 +62,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Seestraße 50, 13347 Berlin Gegenstand: Betreiben einer Fitnessanlage mit Gesundheitstraining, Reha und Prävention, Kampfsport, Sauna, Solarium, Ernährungsberatung, Verkauf von Nahrungsergänzung und Sportartikeln."
             }
         ],
         "officers": [

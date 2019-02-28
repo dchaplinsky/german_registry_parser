@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=90433&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Naundorfer Str., VIZ Gebäude 543, 01987 Schwarzheide"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -48,10 +54,6 @@
             {
                 "label": "WHUT",
                 "text": " Solarpark Schwarzheide GmbH, Schwarzheide, Naundorfer Str., VIZ Gebäude 543, 01987 Schwarzheide."
-            },
-            {
-                "label": "address",
-                "text": " Naundorfer Str., VIZ Gebäude 543, 01987 Schwarzheide"
             }
         ],
         "officers": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=243651&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Richard-Sorge-Straße 25, 10249 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -40,10 +46,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Richard-Sorge-Straße 25, 10249 Berlin Gegenstand: Das Halten und Verwalten von Beteiligungen im eigenen Namen und auf eigene Rechnung."
             }
         ],
         "officers": [

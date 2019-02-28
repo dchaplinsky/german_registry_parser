@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1516861&land_abk=nw"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "vinckeweg 15, 47119 duisburg"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Company with limited liability.",
                 "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " vinckeweg 15, 47119 duisburg."
             }
         ],
         "notices": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=340675&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Berliner Straße 17, 13127 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,10 +36,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Berliner Straße 17, 13127 Berlin"
             }
         ],
         "officers": [

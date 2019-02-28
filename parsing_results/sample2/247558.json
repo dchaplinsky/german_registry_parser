@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=247558&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Barnetstraße 30 a, 12305 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -68,10 +74,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Barnetstraße 30 a, 12305 Berlin Gegenstand: Onlinehandel mit Naturprodukten, Kosmetik und Babyzubehör einschließlich Im- und Exportleistungen"
             }
         ],
         "officers": [

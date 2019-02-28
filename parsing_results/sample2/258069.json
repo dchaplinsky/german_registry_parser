@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=258069&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Birkenweg 26, 13587 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -52,10 +58,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Birkenweg 26, 13587 Berlin Gegenstand: Der Metallbau, die Ausführung von Abluftanlagen und Abwurfanlagen, die Sicherheitstechnik und der Schlüsseldienst."
             }
         ],
         "officers": [

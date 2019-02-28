@@ -16,16 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=281644&land_abk=ni"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Goethestraße 19, 49681 Garrel"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a AppointedManagingDirector from  mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen Rechtsgeschäfte abzuschließen., error text was Name is too long: im Namen der Gesellschaft mit sich im eigenen Namen Rechtsgeschäfte abzuschließen"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Goethestraße 19, 49681 Garrel."
             }
         ],
         "officers": [

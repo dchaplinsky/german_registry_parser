@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=419532&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Charlottenstraße 3, 13597 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -48,10 +54,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Charlottenstraße 3, 13597 Berlin"
             }
         ],
         "officers": [

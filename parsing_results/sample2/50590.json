@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=50590&land_abk=hb"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Steinstraße 14, 28199 Bremen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -48,10 +54,6 @@
             {
                 "label": "WHUT",
                 "text": " Wilhelm Schreiber KG, Bremen, Steinstraße 14, 28199 Bremen."
-            },
-            {
-                "label": "address",
-                "text": " Steinstraße 14, 28199 Bremen"
             }
         ],
         "officers": [

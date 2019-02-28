@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=113934&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Ruhlaer str 7, 14199 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -39,11 +45,7 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift: Ruhlaer Str."
-            },
-            {
-                "label": "address",
-                "text": " Ruhlaer Str."
+                "text": " Geschäftsanschrift: Ruhlaer str 7, 14199 Berlin Nicht mehr Geschäftsführer:1) Dimitroff, Alexandra"
             }
         ],
         "officers": [

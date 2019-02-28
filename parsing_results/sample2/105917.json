@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=105917&land_abk=th"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Erholungsstraße 1, 96515 Sonneberg"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,12 +36,6 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Erholungsstraße 1, 96515 Sonneberg."
             }
         ],
         "officers": [

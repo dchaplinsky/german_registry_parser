@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=320043&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Puchanstraße 38 a, 12555 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -60,10 +66,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Puchanstraße 38 a, 12555 Berlin"
             }
         ],
         "officers": [

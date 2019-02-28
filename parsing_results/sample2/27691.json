@@ -16,16 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=27691&land_abk=hb"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Zur Westpier 40, 28755 Bremen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  nunmehr mit der Befugnis die Gesellschaft mit einem anderen Geschäftsführer oder einem Prokuristen zu vertreten, mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen., error text was Name is too long: mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Zur Westpier 40, 28755 Bremen."
             }
         ],
         "officers": [

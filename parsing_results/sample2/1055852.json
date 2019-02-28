@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1055852&land_abk=by"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Nördliche Münchner Straße 16, 82031 Grünwald"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -46,12 +52,6 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Nördliche Münchner Straße 16, 82031 Grünwald."
             }
         ],
         "officers": [

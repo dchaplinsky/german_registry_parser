@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=279041&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Ollenhauerstraße 107, 13403 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -48,10 +54,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Ollenhauerstraße 107, 13403 Berlin"
             }
         ],
         "officers": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=187066&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Ilsensteinweg 6, 14129 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -40,10 +46,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Ilsensteinweg 6, 14129 Berlin Nicht mehr Liquidator:2) Zimmermann, Thomas"
-            },
-            {
-                "label": "address",
-                "text": " Ilsensteinweg 6, 14129 Berlin Nicht mehr Liquidator:2) Zimmermann, Thomas"
             }
         ],
         "officers": [

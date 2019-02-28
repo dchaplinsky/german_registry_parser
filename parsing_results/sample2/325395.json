@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=325395&land_abk=hh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Neumühlen 13, 22763 Hamburg"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -34,12 +40,6 @@
             {
                 "flag": "CompanyClosed",
                 "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Neumühlen 13, 22763 Hamburg."
             }
         ],
         "officers": [

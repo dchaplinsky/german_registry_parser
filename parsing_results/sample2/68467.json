@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=68467&land_abk=hb"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Hutfilterstraße 16-18, 28195 Bremen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -52,10 +58,6 @@
             {
                 "label": "WHUT",
                 "text": " DANMARC Invest-GmbH, Bremen, Hutfilterstraße 16-18, 28195 Bremen."
-            },
-            {
-                "label": "address",
-                "text": " Hutfilterstraße 16-18, 28195 Bremen."
             }
         ],
         "officers": [

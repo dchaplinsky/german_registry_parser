@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=247265&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Taubenstraße 20-22, 10117 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -32,10 +38,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Taubenstraße 20-22, 10117 Berlin Geschäftsführer:2) Beuermann, Paul-Friedrich, *16.03.1955, Hamburg"
-            },
-            {
-                "label": "address",
-                "text": " Taubenstraße 20-22, 10117 Berlin Geschäftsführer:2) Beuermann, Paul-Friedrich, *16.03.1955, Hamburg"
             }
         ],
         "officers": [

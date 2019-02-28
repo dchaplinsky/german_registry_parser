@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=267558&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Rosenthaler Straße 13, 10119 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -64,10 +70,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Rosenthaler Straße 13, 10119 Berlin"
             }
         ],
         "officers": [

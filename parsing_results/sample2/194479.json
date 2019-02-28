@@ -16,16 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=194479&land_abk=sh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Wyker Straße 2-18, 24768 Rendsburg"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a PersonalPartner from  Vertretungsregelung: Jeder persönlich haftende Gesellschafter vertritt die Gesellschaft allein., error text was a person without DOB, number of chunks: 1"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Wyker Straße 2-18, 24768 Rendsburg"
             }
         ],
         "officers": [

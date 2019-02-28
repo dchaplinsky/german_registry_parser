@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=76834&land_abk=hb"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Linzer str 8-10, 28359 Bremen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,10 +32,6 @@
             {
                 "label": "WHUT",
                 "text": " Haus am Berg Seniorenpflege u. - betreuung GmbH u. Co."
-            },
-            {
-                "label": "address",
-                "text": " Linzer Str."
             }
         ],
         "notices": [

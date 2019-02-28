@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=331117&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Rudeloffweg 9, 14195 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -68,10 +74,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Rudeloffweg 9, 14195 Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Rudeloffweg 9, 14195 Berlin"
             }
         ],
         "officers": [

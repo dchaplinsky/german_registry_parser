@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=95430&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Mariannenstraße 34, 10999 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -40,10 +46,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Mariannenstraße 34, 10999 Berlin Gegenstand: Die Entwicklung und Umsetzung von Marketingstrategien und Konzepten, Beratung und Geschäfts- und Vertriebsoptimierung."
             }
         ],
         "officers": [

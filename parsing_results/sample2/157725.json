@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=157725&land_abk=sh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Hauptstr 117-123, 24797 Breiholz"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -38,12 +44,6 @@
             {
                 "flag": "Company with limited liability.",
                 "text": "Gesellschaft\\ mit\\ beschr\\änkter\\ Haftung\\."
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Hauptstr."
             }
         ]
     }

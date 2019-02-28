@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=33662&land_abk=hb"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Konsul-Smidt-str 8 T, 28217 Bremen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -39,11 +45,7 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " MS \"Sabrina\" Verwaltungs UG (haftungsbeschränkt), Bremen, Konsul-Smidt-Str."
-            },
-            {
-                "label": "address",
-                "text": " Konsul-Smidt-Str."
+                "text": " MS \"Sabrina\" Verwaltungs UG (haftungsbeschränkt), Bremen, Konsul-Smidt-str 8 T, 28217 Bremen."
             }
         ],
         "notices": [

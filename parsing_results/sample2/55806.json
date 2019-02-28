@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=55806&land_abk=hb"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Hahnenstr 21, 28309 Bremen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -35,11 +41,7 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " SENIOREN FORUM GmbH, Bremen, Hahnenstr."
-            },
-            {
-                "label": "address",
-                "text": " Hahnenstr."
+                "text": " SENIOREN FORUM GmbH, Bremen, Hahnenstr 21, 28309 Bremen."
             }
         ],
         "officers": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=451595&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Gormannstraße 14, 10119 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -36,10 +42,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Gormannstraße 14, 10119 Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Gormannstraße 14, 10119 Berlin"
             }
         ],
         "officers": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=239150&land_abk=sn"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Menckestraße 53, 04155 Leipzig"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Menckestraße 53, 04155 Leipzig."
             }
         ],
         "officers": [

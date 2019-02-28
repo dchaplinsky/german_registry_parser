@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=465389&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Prinzregentenstraße 85, 10717 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -64,10 +70,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Prinzregentenstraße 85, 10717 Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Prinzregentenstraße 85, 10717 Berlin"
             }
         ],
         "officers": [

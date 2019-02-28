@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=124932&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Bahnhofstraße 18, 14959 Trebbin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -50,12 +56,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Bahnhofstraße 18, 14959 Trebbin."
             }
         ],
         "notices": [

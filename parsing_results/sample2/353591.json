@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=353591&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "c/o FINAL Treuhand- und Verwaltungs GmbH, Kurfürstendamm 224, 10719 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -60,10 +66,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " c/o FINAL Treuhand- und Verwaltungs GmbH, Kurfürstendamm 224, 10719 Berlin"
             }
         ],
         "officers": [

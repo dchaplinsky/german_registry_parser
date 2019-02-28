@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=112658&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "c/o Riedel, Am Feldrain 76, 18059 Rostock"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -40,10 +46,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: c/o Riedel, Am Feldrain 76, 18059 Rostock Geschäftsführer:3) Weinhardt, Roger, *27.05.1966, Berlin"
-            },
-            {
-                "label": "address",
-                "text": " c/o Riedel, Am Feldrain 76, 18059 Rostock Geschäftsführer:3) Weinhardt, Roger, *27.05.1966, Berlin"
             }
         ],
         "officers": [

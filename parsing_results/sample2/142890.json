@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=142890&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Chausseestr 116, 10115 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -51,11 +57,7 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift: Chausseestr."
-            },
-            {
-                "label": "address",
-                "text": " Chausseestr."
+                "text": " Geschäftsanschrift: Chausseestr 116, 10115 Berlin Änderung zu Nr. 1: zum Wohnort"
             }
         ],
         "officers": [

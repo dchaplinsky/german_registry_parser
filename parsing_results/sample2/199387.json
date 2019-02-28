@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=199387&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Eberswalder Straße 22, 10437 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -48,10 +54,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Eberswalder Straße 22, 10437 Berlin Gegenstand: Entwicklung und Betrieb von innovativen internetbasierten Buchungsplattformen zur Optimierung der Mobilität Stamm- bzw. Grundkapital:2)000,00 EUR Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein."
             }
         ],
         "officers": [

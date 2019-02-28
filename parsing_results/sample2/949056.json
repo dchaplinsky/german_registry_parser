@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=949056&land_abk=nw"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Luxemburger Straße 299, 50939 Köln"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability.",
@@ -36,12 +42,6 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Luxemburger Straße 299, 50939 Köln."
             }
         ],
         "officers": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=176225&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Pariser Straße 55, 10719 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -40,10 +46,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Pariser Straße 55, 10719 Berlin Nicht mehr Geschäftsführer:1) Gonzalez Calderon, Luz Adriana"
-            },
-            {
-                "label": "address",
-                "text": " Pariser Straße 55, 10719 Berlin Nicht mehr Geschäftsführer:1) Gonzalez Calderon, Luz Adriana"
             }
         ],
         "officers": [

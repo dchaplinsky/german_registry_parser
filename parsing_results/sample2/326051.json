@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=326051&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Teschendorfer Weg 18 A, 13439 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -48,10 +54,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Teschendorfer Weg 18 A, 13439 Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Teschendorfer Weg 18 A, 13439 Berlin"
             }
         ],
         "officers": [

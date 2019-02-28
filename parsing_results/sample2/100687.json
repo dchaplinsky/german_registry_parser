@@ -16,14 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=100687&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Jägerstraße 4, 10117 Berlin"
+            }
+        ],
         "labels": [
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Jägerstraße 4, 10117 Berlin."
-            },
-            {
-                "label": "address",
-                "text": " Jägerstraße 4, 10117 Berlin."
             }
         ]
     }

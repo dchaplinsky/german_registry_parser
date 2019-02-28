@@ -18,11 +18,9 @@ gmbh_regex = re.compile(r"[\s-]g?mbh", flags=re.I)
 hrb_regex = re.compile(r"\b((?:HR\s?[AB]|VR|GnR|PR)\s?\d+)", flags=re.I)
 
 
-def simplify_city(city):
-    return (
-        city.replace(" ", "")
-        .replace("-", "")
-        .replace(" ", "")
+def simplify_city(city, also_spaces=True):
+    city = (
+        city.replace("-", "")
         .replace(".", "")
         .replace("/", "")
         .replace("(", "")
@@ -31,6 +29,11 @@ def simplify_city(city):
         .lower()
         .strip()
     )
+
+    if also_spaces:
+        city = city.replace(" ", "")
+
+    return city
 
 
 with open(os.path.join(os.path.dirname(__file__), "data/cities.txt"), "r") as fp:
@@ -84,6 +87,31 @@ class Error(object):
 
     def __str__(self):
         return "[Error/{}: {}]".format(self.kls, self.text)
+
+
+class Address(object):
+    kind = "addresses"
+    kls = "Address"
+
+    def __init__(self, text, doc=None):
+        self.text = text
+
+    def to_dict(self):
+        if ":" in self.text:
+            city_chunks = self.text.replace(".", " ").split(" ")
+            for x in range(len(city_chunks)):
+                option = " ".join(city_chunks[: len(city_chunks) - x])
+                simplified_option = simplify_city(option, also_spaces=False)
+
+                for g_city in GERMAN_CITIES:
+                    if simplified_option.endswith(" {}".format(g_city)):
+                        self.text = option
+                        break
+
+        return {"kls": self.kls, "text": self.text.strip(", .")}
+
+    def __str__(self):
+        return "[Address/{}: {}]".format(self.kls, self.text)
 
 
 class FullPerson(object):
@@ -775,7 +803,7 @@ sentences = [
     Sentence("Sitz / Zweigniederlassung:", assign_label_to_postfix="company"),
     Sentence("B:", assign_label_to_postfix="WHUT"),
     Sentence("Stamm - bzw. Grundkapital:", assign_label_to_postfix="misc"),
-    Sentence("Geschäftsanschrift:", assign_label_to_postfix="address"),
+    Sentence("Geschäftsanschrift:", assign_label_to_postfix=Address),
     Sentence(
         "mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen",
         convert_to_flag="with the power to represent the company alone with the power to conclude legal transactions with itself or as a representative of third parties",
@@ -917,6 +945,7 @@ def parse_document(doc: dict) -> (defaultdict, dict):
     useful_text = useful_text.replace(" Dipl.-Kfm", " Diplomkfm")
 
     useful_text = re.sub(r":\s(\d+)\.", r":\1)", useful_text)
+    useful_text = re.sub(r"[sS]tr\.\s?(\d+)", r"str \1", useful_text)
     sents = _german_tokenizer.tokenize(useful_text)  # type: tuple
     res = defaultdict(list)
 

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=220888&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Glockengießerwall 26, 20095 Hamburg"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -40,10 +46,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Glockengießerwall 26, 20095 Hamburg Geschäftsführer:3) Schumacher, Frank, *08.01.1965, Wedel"
-            },
-            {
-                "label": "address",
-                "text": " Glockengießerwall 26, 20095 Hamburg Geschäftsführer:3) Schumacher, Frank, *08.01.1965, Wedel"
             }
         ],
         "officers": [

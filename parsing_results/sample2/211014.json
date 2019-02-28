@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=211014&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Streustraße 103, 13086 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -44,10 +50,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Streustraße 103, 13086 Berlin Gegenstand: Der Handel mit Waren verschiedener Art, insbesondere der Vertrieb von Getränkemarken, insbesondere der Marke \"Roter Oktober\", die Handelsvertretung, die Entwicklung von Marketingkonzepten für Gastronomie und Handel, Catering, die Existenzgründungsberatung für Gastronomie und Handel."
             }
         ],
         "officers": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=262280&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Heidelberger Platz 3, 14197 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -52,10 +58,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Heidelberger Platz 3, 14197 Berlin Gegenstand: Erwerb, Halten und Verwalten von Beteiligungen an anderen Unternehmen sowie Halten und Verwalten von sonstigen Vermögensgegenständen im eigenen Namen, auf eigene Rechnung und nicht für Dritte."
             }
         ],
         "notices": [

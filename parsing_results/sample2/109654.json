@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=109654&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Kietz 33, 16259 Bad Freienwalde (Oder)"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -38,12 +44,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Kietz 33, 16259 Bad Freienwalde (Oder)"
             }
         ],
         "notices": [

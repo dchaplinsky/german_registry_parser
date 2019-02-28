@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=40938&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Stormstraße 4, 14471 Potsdam"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -58,12 +64,6 @@
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
                 "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Stormstraße 4, 14471 Potsdam.Gegenstand: seilunterstützende Arbeiten aller Art und Industrieklettern."
             }
         ],
         "officers": [

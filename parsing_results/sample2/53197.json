@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=53197&land_abk=mv"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Mozartsraße 68, 17192 Waren (Müritz)"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Mozartsraße 68, 17192 Waren (Müritz)."
             }
         ],
         "officers": [

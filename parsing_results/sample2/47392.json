@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=47392&land_abk=sh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Himmelmoorchaussee 39, 25451 Quickborn, Gegenstand: Ingenieur- und Beratungsleistungen für den Schiffbau und alle artverwandten Tätigkeiten"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -34,12 +40,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Himmelmoorchaussee 39, 25451 Quickborn, Gegenstand: Ingenieur- und Beratungsleistungen für den Schiffbau und alle artverwandten Tätigkeiten."
             }
         ],
         "notices": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=61838&land_abk=sh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Lohbarbeker Weg 57 a, 25551 Lohbarbek"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "with the power to conclude legal transactions with itself or as a representative of third parties",
                 "text": "mit\\ der\\ Befugnis\\ Rechtsgesch\\äfte\\ mit\\ sich\\ selbst\\ oder\\ als\\ Vertreter\\ Dritter\\ abzuschlie\\ßen"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Lohbarbeker Weg 57 a, 25551 Lohbarbek."
             }
         ]
     }

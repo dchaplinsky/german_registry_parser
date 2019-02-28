@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=148227&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "c/o Blitzstart Holding AG, Bavariaring 29, 80336 München Gegenstand: Die Verwaltung des eigenen Vermögens"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -68,10 +74,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " c/o Blitzstart Holding AG, Bavariaring 29, 80336 München Gegenstand: Die Verwaltung des eigenen Vermögens."
             }
         ],
         "officers": [

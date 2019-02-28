@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=37831&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Berliner Straße 4, 16727 Velten, Geschäftsführer: Kewitz, Hans-Jürgen, *10 05 1964, Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,12 +36,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Berliner Straße 4, 16727 Velten, Geschäftsführer: Kewitz, Hans-Jürgen, *10.05.1964, Berlin"
             }
         ],
         "officers": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=139972&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Scharfenberger str 12, 13505 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -39,11 +45,7 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift: Scharfenberger Str."
-            },
-            {
-                "label": "address",
-                "text": " Scharfenberger Str."
+                "text": " Geschäftsanschrift: Scharfenberger str 12, 13505 Berlin Nicht mehr Geschäftsführer:2) Roggenbach, Andreas"
             }
         ],
         "officers": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=629840&land_abk=by"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Perchtinger Straße 39, c/o WP/StB Diplomkfm"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,12 +36,6 @@
             {
                 "flag": "CompanyClosed",
                 "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Perchtinger Straße 39, c/o WP/StB Diplomkfm."
             }
         ],
         "officers": [

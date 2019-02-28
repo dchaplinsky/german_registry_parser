@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=355549&land_abk=hh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Burchardstraße 8, 20095 Hamburg"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -38,12 +44,6 @@
             {
                 "flag": "Exclusive power of representation can be granted.",
                 "text": "Alleinvertretungsbefugnis\\ kann\\ erteilt\\ werden\\."
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Burchardstraße 8, 20095 Hamburg."
             }
         ],
         "notices": [

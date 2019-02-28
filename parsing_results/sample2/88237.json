@@ -16,16 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=88237&land_abk=sn"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Gewerbering Nord 3, 01900 Bretnig"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was a person without DOB, number of chunks: 1"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Gewerbering Nord 3, 01900 Bretnig."
             }
         ],
         "officers": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=79065&land_abk=sh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Göteborgring 83, 24109 Kiel"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -50,12 +56,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Göteborgring 83, 24109 Kiel Gegenstand: Betrieb von einem oder mehreren Fitness-Center und sämtliche Geschäfte, die damit im Zusammenhang stehen Kapital:25)000 EUR Vertretungsregelung: Die Gesellschaft hat einen oder mehrere Geschäftsführer."
             }
         ],
         "notices": [

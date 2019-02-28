@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=59843&land_abk=hb"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Konsul-Smidt-str 90, 28217 Bremen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -35,11 +41,7 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " Finacon Finance Consulting UG (haftungsbeschränkt), Bremen, Konsul-Smidt-Str."
-            },
-            {
-                "label": "address",
-                "text": " Konsul-Smidt-Str."
+                "text": " Finacon Finance Consulting UG (haftungsbeschränkt), Bremen, Konsul-Smidt-str 90, 28217 Bremen."
             }
         ],
         "notices": [

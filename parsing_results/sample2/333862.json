@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=333862&land_abk=hh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Eiderstraße 10, 22047 Hamburg"
+            }
+        ],
         "flags": [
             {
                 "flag": "Company with limited liability.",
@@ -24,12 +30,6 @@
             {
                 "flag": "If only one managing director is appointed, he represents the company alone.",
                 "text": "Ist\\ nur\\ ein\\ Gesch\\äftsf\\ührer\\ bestellt\\,\\ so\\ vertritt\\ er\\ die\\ Gesellschaft\\ allein\\."
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Eiderstraße 10, 22047 Hamburg."
             }
         ],
         "notices": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=475440&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Turmstraße 21, Haus K, Eingang D, 10559 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -60,10 +66,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Turmstraße 21, Haus K, Eingang D, 10559 Berlin"
             }
         ],
         "officers": [

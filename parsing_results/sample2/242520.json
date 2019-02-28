@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=242520&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Dessauer Straße 28 - 29, 10963 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -48,10 +54,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Dessauer Straße 28 - 29, 10963 Berlin Gegenstand: Der Erwerb, die Veräußerung und die Verwaltung eigenen Vermögens."
             }
         ],
         "officers": [

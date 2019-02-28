@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=68646&land_abk=hb"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Hermann-Ritter-str 108, 28197 Bremen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -39,11 +45,7 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " S1 ImPro - Business Solutions UG (haftungsbeschränkt), Bremen, Hermann-Ritter-Str."
-            },
-            {
-                "label": "address",
-                "text": " Hermann-Ritter-Str."
+                "text": " S1 ImPro - Business Solutions UG (haftungsbeschränkt), Bremen, Hermann-Ritter-str 108, 28197 Bremen."
             }
         ],
         "officers": [

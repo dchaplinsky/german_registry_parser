@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=397032&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Lange Enden 29, 13437 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,10 +36,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Lange Enden 29, 13437 Berlin"
             }
         ],
         "officers": [

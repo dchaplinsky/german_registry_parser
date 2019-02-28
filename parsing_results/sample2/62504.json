@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=62504&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Mehrower str 1 b, 15366 Hönow Gegenstand: Gegenstand des Unternehmens sind die Beratung von Bauträgern und Emissionshäusern auf den Gebieten der Produktkonzeption und Produktentwicklung sowie des Vertribs im Bereich Immobilien und Unternehmensbeteiligungen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -66,12 +72,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Mehrower Str."
             }
         ],
         "officers": [

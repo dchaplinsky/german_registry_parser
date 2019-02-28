@@ -16,16 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=828944&land_abk=nw"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Virchowstraße 122, 45886 Gelsenkirchen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  Weingarten, Ralf Peter, Dipl.-Volkswirt, Gelsenkirchen, einzelvertretungsberechtigt, error text was a person without DOB, number of chunks: 5"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Virchowstraße 122, 45886 Gelsenkirchen."
             }
         ],
         "officers": [

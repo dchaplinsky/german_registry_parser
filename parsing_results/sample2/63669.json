@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=63669&land_abk=th"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Friedensstr 10, 99735 Sundhausen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -42,12 +48,6 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Friedensstr."
             }
         ],
         "officers": [

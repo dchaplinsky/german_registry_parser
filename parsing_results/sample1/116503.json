@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=116503&land_abk=he"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "c/o EDV Büro, Firma Wermescher, Liebigstraße 3, 71726 Benningen am Neckar"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,12 +36,6 @@
             {
                 "flag": "CompanyClosed",
                 "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " c/o EDV Büro, Firma Wermescher, Liebigstraße 3, 71726 Benningen am Neckar."
             }
         ],
         "officers": [

@@ -16,14 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=166601&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Breite str 12, 14199 Berlin"
+            }
+        ],
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift: Breite Str."
-            },
-            {
-                "label": "address",
-                "text": " Breite Str."
+                "text": " Geschäftsanschrift: Breite str 12, 14199 Berlin."
             }
         ]
     }

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=89488&land_abk=sh"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Zeißstraße 38a, 23623 Ratekau Vorstand: Geschäftsführer:2) Köppen, Detlev, *06.06.1963, Niendorf"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -34,12 +40,6 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Zeißstraße 38a, 23623 Ratekau Vorstand: Geschäftsführer:2) Köppen, Detlev, *06.06.1963, Niendorf"
             }
         ],
         "officers": [

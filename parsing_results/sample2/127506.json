@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=127506&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Spremberger Straße 80, 01968 Senftenberg"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -52,10 +58,6 @@
             {
                 "label": "WHUT",
                 "text": " MK & SH Beteiligungs GmbH, Senftenberg, Spremberger Straße 80, 01968 Senftenberg."
-            },
-            {
-                "label": "address",
-                "text": " Spremberger Straße 80, 01968 Senftenberg"
             }
         ],
         "officers": [

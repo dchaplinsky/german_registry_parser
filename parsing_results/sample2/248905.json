@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=248905&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Am Studio 2 A, 12489 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -64,10 +70,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Am Studio 2 A, 12489 Berlin Gegenstand: Projektierung, Errichtung, Service und Vertrieb von Film und Fernsehsendungen sowie der Service für Medienanstalten, insbesondere alle damit zusammenhängenden Geschäfte."
             }
         ],
         "notices": [

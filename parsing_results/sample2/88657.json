@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=88657&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Gutshof 1, 15926 Luckau"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -68,10 +74,6 @@
             {
                 "label": "WHUT",
                 "text": " J & G neue Energie Systeme Unternehmergesellschaft (haftungsbeschränkt), Luckau, Gutshof 1, 15926 Luckau."
-            },
-            {
-                "label": "address",
-                "text": " Gutshof 1, 15926 Luckau"
             }
         ],
         "officers": [

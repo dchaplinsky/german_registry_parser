@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=84475&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Frauenhainer Weg 39, 04932 Röderland OT Prösen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -48,10 +54,6 @@
             {
                 "label": "WHUT",
                 "text": " GTI Gesellschaft für technische Innovation GmbH, Röderland OT Prösen, Frauenhainer Weg 39, 04932 Röderland OT Prösen."
-            },
-            {
-                "label": "address",
-                "text": " Frauenhainer Weg 39, 04932 Röderland OT Prösen"
             }
         ],
         "officers": [

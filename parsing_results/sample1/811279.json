@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=811279&land_abk=nw"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "nachbarsweg 101, 45481 mülheim an der ruhr"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -24,12 +30,6 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a Person from : hundt, angelika, wesseling, *02.11.1975. bestellt als vorstand: aus der wieschen, frank, mülheim an der ruhr, *03.03.1966., error text was no valid patter found, number of chunks: 7"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " nachbarsweg 101, 45481 mülheim an der ruhr."
             }
         ],
         "notices": [

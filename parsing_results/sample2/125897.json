@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=125897&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "c/o Beate U  Casati, Liebermannstr 3, 22605 Hamburg"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -39,11 +45,7 @@
         "labels": [
             {
                 "label": "company",
-                "text": " Geschäftsanschrift: c/o Beate U. Casati, Liebermannstr."
-            },
-            {
-                "label": "address",
-                "text": " c/o Beate U. Casati, Liebermannstr."
+                "text": " Geschäftsanschrift: c/o Beate U. Casati, Liebermannstr 3, 22605 Hamburg Nicht mehr Liquidator:1) Lehmann-Andres, Karl-Heinz"
             }
         ],
         "officers": [

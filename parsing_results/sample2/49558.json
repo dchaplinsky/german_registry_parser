@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=49558&land_abk=hb"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Contrescarpe 8 c, 28203 Bremen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -40,10 +46,6 @@
             {
                 "label": "WHUT",
                 "text": " R.F.L."
-            },
-            {
-                "label": "address",
-                "text": " Contrescarpe 8 c, 28203 Bremen"
             }
         ],
         "officers": [

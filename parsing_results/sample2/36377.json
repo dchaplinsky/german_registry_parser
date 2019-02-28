@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=36377&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Beelitzer Straße 24, 14943 Luckenwalde"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -66,12 +72,6 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Beelitzer Straße 24, 14943 Luckenwalde."
             }
         ],
         "notices": [

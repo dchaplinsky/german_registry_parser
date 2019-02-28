@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=36962&land_abk=hb"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "von-Thünen-str 2, 28309 Bremen"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -25,11 +31,7 @@
         "labels": [
             {
                 "label": "WHUT",
-                "text": " TRAFIK Bremen Transportgeräte Handelsgesellschaft mbH, Bremen, von-Thünen-Str."
-            },
-            {
-                "label": "address",
-                "text": " von-Thünen-Str."
+                "text": " TRAFIK Bremen Transportgeräte Handelsgesellschaft mbH, Bremen, von-Thünen-str 2, 28309 Bremen."
             }
         ],
         "officers": [

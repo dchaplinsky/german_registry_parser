@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=358281&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Hampsteadstraße 36, 14167 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -76,10 +82,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Hampsteadstraße 36, 14167 Berlin"
             }
         ],
         "officers": [

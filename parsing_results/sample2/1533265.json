@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1533265&land_abk=nw"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Bismarckstr 142 a, 47057 Duisburg"
+            },
+            {
+                "kls": "Address",
+                "text": "Graf-Adolf-str 41, 40210 Düsseldorf"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,16 +36,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Bismarckstr."
-            },
-            {
-                "label": "address",
-                "text": " Graf-Adolf-Str."
             }
         ],
         "officers": [

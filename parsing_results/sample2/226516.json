@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=226516&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Wilhelmsmühlenweg 61, 12621 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -32,10 +38,6 @@
             {
                 "label": "company",
                 "text": " Geschäftsanschrift: Wilhelmsmühlenweg 61, 12621 Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Wilhelmsmühlenweg 61, 12621 Berlin"
             }
         ],
         "officers": [

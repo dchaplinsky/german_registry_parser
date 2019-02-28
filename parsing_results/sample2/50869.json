@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=50869&land_abk=rp"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Im Haderwald 4, 67661 Kaiserslautern"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -30,12 +36,6 @@
             {
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Im Haderwald 4, 67661 Kaiserslautern."
             }
         ],
         "officers": [

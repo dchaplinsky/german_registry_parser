@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=88718&land_abk=br"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Ewald-Haase-Straße 5, 03044 Cottbus"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -52,10 +58,6 @@
             {
                 "label": "WHUT",
                 "text": " MSB Immobilienmanagement GmbH, Cottbus, Ewald-Haase-Straße 5, 03044 Cottbus."
-            },
-            {
-                "label": "address",
-                "text": " Ewald-Haase-Straße 5, 03044 Cottbus"
             }
         ],
         "notices": [

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=249286&land_abk=be"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Sandsteinweg 23 B, 12349 Berlin"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -40,10 +46,6 @@
             {
                 "label": "company",
                 "text": " Berlin"
-            },
-            {
-                "label": "address",
-                "text": " Sandsteinweg 23 B, 12349 Berlin Gegenstand: Heizung, Schornsteinbau- und -fegerei, Sanitär- und Gasinstallation Stamm- bzw. Grundkapital: 500,00 EUR Vertretungsregelung: Jeder Geschäftsführer vertritt die Gesellschaft allein."
             }
         ],
         "notices": [

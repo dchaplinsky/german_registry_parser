@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=97801&land_abk=th"
     },
     "parsed": {
+        "addresses": [
+            {
+                "kls": "Address",
+                "text": "Im Wiesengrund 7, 98617 Untermaßfeld"
+            }
+        ],
         "errors": [
             {
                 "kls": "ParsingError",
@@ -26,12 +32,6 @@
             {
                 "flag": "Sole trader",
                 "text": "Einzelkaufmann"
-            }
-        ],
-        "labels": [
-            {
-                "label": "address",
-                "text": " Im Wiesengrund 7, 98617 Untermaßfeld."
             }
         ],
         "officers": [
