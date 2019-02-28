@@ -244,15 +244,16 @@ class FullPerson(object):
 
     def to_dict(self):
         if "lastname" in self.payload:
-            if "geborene" in self.payload["lastname"]:
-                self.payload["lastname"], self.payload["maidenname"] = self.payload[
-                    "lastname"
-                ].split(" geborene", 1)
-                self.payload["maidenname"] = (
-                    self.payload["maidenname"].replace("geborene", "").strip()
-                )
-                self.payload["lastname"] = self.payload["lastname"].strip()
-                self.payload["maidenname"] = self.payload["maidenname"].strip()
+            for field_name in ["lastname", "name"]:
+                if "geborene" in self.payload[field_name]:
+                    self.payload[field_name], self.payload["maidenname"] = self.payload[
+                        field_name
+                    ].split(" geborene", 1)
+                    self.payload["maidenname"] = (
+                        self.payload["maidenname"].replace("geborene", "").strip()
+                    )
+                    self.payload[field_name] = self.payload[field_name].strip()
+                    self.payload["maidenname"] = self.payload["maidenname"].strip()
 
             m = parse_number_regex.search(self.payload["lastname"])
             if m:
