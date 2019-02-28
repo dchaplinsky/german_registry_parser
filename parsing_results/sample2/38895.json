@@ -24,6 +24,10 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Durch Beschluss der Gesellschafterversammlung vom 05.08.2009 ist der Gesellschaftsvertrag geändert in § 3 Ziffer 3 (Stammkapital, Stammeinlagen)., error text was Lastname is too long: Stammeinlagen)"
             }
         ],
         "flags": [
@@ -61,14 +65,6 @@
                     "name": "Normen"
                 },
                 "text": " Okon, Normen"
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
-                    "lastname": "Durch Beschluss der Gesellschafterversammlung vom 05.08.2009 ist der Gesellschaftsvertrag geändert in § 3 Ziffer 3 (Stammkapital",
-                    "name": "Stammeinlagen)"
-                },
-                "text": " Durch Beschluss der Gesellschafterversammlung vom 05.08.2009 ist der Gesellschaftsvertrag geändert in § 3 Ziffer 3 (Stammkapital, Stammeinlagen)."
             }
         ]
     }

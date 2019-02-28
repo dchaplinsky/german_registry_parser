@@ -20,6 +20,10 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten\nmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 25.02.2015 ist das Stammkapital auf 50.000 EUR erhöht und der Gesellschaftsvertrag geändert in § 3 (Stammkapital, Stammeinlage)., error text was Lastname is too long: Stammeinlage)"
             }
         ],
         "flags": [
@@ -47,14 +51,6 @@
                     "ref": 3
                 },
                 "text": "3) Artemjevs, Edgars, *05.07.1979, Neumünster"
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
-                    "lastname": "Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 25.02.2015 ist das Stammkapital auf 50.000 EUR erhöht und der Gesellschaftsvertrag geändert in § 3 (Stammkapital",
-                    "name": "Stammeinlage)"
-                },
-                "text": " Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 25.02.2015 ist das Stammkapital auf 50.000 EUR erhöht und der Gesellschaftsvertrag geändert in § 3 (Stammkapital, Stammeinlage)."
             }
         ]
     }

@@ -20,6 +20,10 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a DismissedManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a DismissedManagingDirector from  Einzelprokura Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 23.11.2005 ist der Gesellschaftsvertrag geändert in § 2 (Gegenstand) und in § 3 (Stammkapital, Stammeinlagen).., error text was Lastname is too long: Stammeinlagen)"
             }
         ],
         "flags": [
@@ -66,15 +70,6 @@
                     "name": "Amir"
                 },
                 "text": " Burgic, Amir, *17.03.1970, Berlin"
-            },
-            {
-                "class": "DismissedManagingDirector",
-                "payload": {
-                    "dismissed": true,
-                    "lastname": "Einzelprokura Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 23.11.2005 ist der Gesellschaftsvertrag geändert in § 2 (Gegenstand) und in § 3 (Stammkapital",
-                    "name": "Stammeinlagen)"
-                },
-                "text": " Einzelprokura Rechtsform: Durch Beschluss der Gesellschafterversammlung vom 23.11.2005 ist der Gesellschaftsvertrag geändert in § 2 (Gegenstand) und in § 3 (Stammkapital, Stammeinlagen).."
             }
         ]
     }

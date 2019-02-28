@@ -228,10 +228,16 @@ class FullPerson(object):
                     "no valid patter found, number of chunks: {}".format(len(chunks))
                 )
 
-            if len(self.payload.get("name", "")) > 50:
+            if len(self.payload.get("name", "")) > 50 and not hasattr(self, "dob"):
                 raise ValueError(
                     "Name is too long: {}".format(self.name)
                 )
+
+            if len(self.payload.get("lastname", "")) > 100 and not hasattr(self, "dob"):
+                raise ValueError(
+                    "Lastname is too long: {}".format(self.name)
+                )
+
             if re.search(r"\d", self.payload.get("name", "")):
                 raise ValueError(
                     "Digits in name: {}".format(self.name)

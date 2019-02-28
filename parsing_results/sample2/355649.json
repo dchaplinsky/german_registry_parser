@@ -28,6 +28,10 @@
             {
                 "kls": "ParsingError",
                 "text": "Cannot parse a ManagingDirector from  Rechtsform: Gesellschaft mit beschränkter Haftung, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a ManagingDirector from  Gesellschaftsvertrag vom:08)09.2015 mit Änderung vom 08.10.2015 in § 3 (Gegenstand des Unternehmens) und § 4 (Stammkapital, Gesellschafter), error text was Lastname is too long: Gesellschafter)"
             }
         ],
         "flags": [
@@ -100,14 +104,6 @@
                     "ref": 2
                 },
                 "text": "2) Wiesner, Felix, *24.09.1982, Berlin"
-            },
-            {
-                "class": "ManagingDirector",
-                "payload": {
-                    "lastname": "Gesellschaftsvertrag vom:08)09.2015 mit Änderung vom 08.10.2015 in § 3 (Gegenstand des Unternehmens) und § 4 (Stammkapital",
-                    "name": "Gesellschafter)"
-                },
-                "text": " Gesellschaftsvertrag vom:08)09.2015 mit Änderung vom 08.10.2015 in § 3 (Gegenstand des Unternehmens) und § 4 (Stammkapital, Gesellschafter)"
             }
         ]
     }
