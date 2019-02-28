@@ -39,9 +39,10 @@
                 "class": "Owner",
                 "payload": {
                     "city": "22587 Hamburg",
-                    "lastname": "Doctor Alexander Extra e.K",
+                    "lastname": "Alexander Extra e.K",
                     "name": "Hamburg",
-                    "position": "Hasenhöhe 26"
+                    "position": "Hasenhöhe 26",
+                    "prof_title": "doctor"
                 },
                 "text": " Doctor Alexander Extra e.K., Hamburg, Hasenhöhe 26, 22587 Hamburg."
             },
@@ -50,8 +51,9 @@
                 "payload": {
                     "city": "Hamburg",
                     "dob": "1960-11-21",
-                    "lastname": "Doctor Extra",
-                    "name": "Alexander"
+                    "lastname": "Extra",
+                    "name": "Alexander",
+                    "prof_title": "doctor"
                 },
                 "text": " Doctor Extra, Alexander, Hamburg, *21.11.1960."
             }

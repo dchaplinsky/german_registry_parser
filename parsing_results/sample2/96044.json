@@ -23,11 +23,11 @@
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from 3) Dipl.-Kfm., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a ManagingDirector from 3) Diplomkfm., error text was a person without DOB, number of chunks: 1"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a ManagingDirector from  Geschäftsführer:3) Dipl.-Kfm., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a ManagingDirector from  Geschäftsführer:3) Diplomkfm., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "flags": [
@@ -94,8 +94,9 @@
                 "payload": {
                     "city": "Fehmarn",
                     "dob": "1965-01-28",
-                    "lastname": "Diplomingenieur Hegerfeld",
+                    "lastname": "Hegerfeld",
                     "name": "Jan Dirk",
+                    "prof_title": "diplomingenieur",
                     "ref": 2
                 },
                 "text": "2) Diplomingenieur Hegerfeld, Jan Dirk, *28.01.1965, Fehmarn"

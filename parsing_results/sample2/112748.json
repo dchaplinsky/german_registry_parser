@@ -28,10 +28,11 @@
                 "payload": {
                     "city": "Pattensen",
                     "dob": "1956-08-24",
-                    "lastname": "Prof. Doctor Kreipe",
-                    "name": "Hans-Heinrich"
+                    "lastname": "Doctor Kreipe",
+                    "name": "Hans-Heinrich",
+                    "prof_title": "professor"
                 },
-                "text": " Prof. Doctor Kreipe, Hans-Heinrich, Pattensen, *24.08.1956"
+                "text": " Professor Doctor Kreipe, Hans-Heinrich, Pattensen, *24.08.1956"
             },
             {
                 "class": "CommonProcuration",
@@ -48,8 +49,9 @@
                 "payload": {
                     "city": "Hannover",
                     "dob": "1966-03-17",
-                    "lastname": "Doctor Schaefer",
-                    "name": "Olaf"
+                    "lastname": "Schaefer",
+                    "name": "Olaf",
+                    "prof_title": "doctor"
                 },
                 "text": " Doctor Schaefer, Olaf, Hannover, *17.03.1966."
             }

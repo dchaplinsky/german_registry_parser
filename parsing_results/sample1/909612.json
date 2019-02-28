@@ -15,5 +15,18 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=909612&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Gelsenkirchen",
+                    "dob": "1966-06-12",
+                    "lastname": "Dörschell",
+                    "name": "Andreas"
+                },
+                "text": " Dörschell, Andreas, Gelsenkirchen, *12.06.1966."
+            }
+        ]
+    }
 }

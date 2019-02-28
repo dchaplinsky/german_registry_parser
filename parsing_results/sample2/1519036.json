@@ -23,8 +23,9 @@
                     "city": "Schriesheim",
                     "dismissed": true,
                     "dob": "1967-09-29",
-                    "lastname": "Doctor Birglechner",
-                    "name": "Werner"
+                    "lastname": "Birglechner",
+                    "name": "Werner",
+                    "prof_title": "doctor"
                 },
                 "text": " Doctor Birglechner, Werner, Schriesheim, *29.09.1967."
             },
@@ -33,10 +34,11 @@
                 "payload": {
                     "city": "Mechernich",
                     "dob": "1965-10-18",
-                    "lastname": "Prof. Doctor Lang",
-                    "name": "Birger"
+                    "lastname": "Doctor Lang",
+                    "name": "Birger",
+                    "prof_title": "professor"
                 },
-                "text": " Prof. Doctor Lang, Birger, Mechernich, *18.10.1965"
+                "text": " Professor Doctor Lang, Birger, Mechernich, *18.10.1965"
             },
             {
                 "class": "AppointedManagingDirector",

@@ -23,6 +23,10 @@
             },
             {
                 "kls": "ParsingError",
+                "text": "Cannot parse a Person from  files, kimberli, gambrills, maryland/usa, *17.11.1966. bestellt: geschäftsführer: plotnick, stanley, holmes, ny/usa, *25.07.1934, einzelvertretungsberechtigt, error text was no valid patter found, number of chunks: 10"
+            },
+            {
+                "kls": "ParsingError",
                 "text": "Cannot parse a AppointedManagingDirector from  plotnick, stanley, holmes, ny/usa, *25.07.1934, einzelvertretungsberechtigt, error text was Cannot parse DOB  holmes using regex"
             },
             {

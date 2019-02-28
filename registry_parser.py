@@ -94,6 +94,26 @@ class FullPerson(object):
         "mit der befugnis, im namen der gesellschaft mit sich im eigenen namen oder als vertreter eines dritten rechtsgeschäfte abzuschließen": "with the power to enter into legal transactions on behalf of the Company with itself or as a representative of a third party",
     }
 
+    titles = [
+        "doktoringenieur", 
+        "diplomingenieur", 
+        "doctor", 
+        "professor", 
+        "diplombetriebswirt", 
+        "diplomkauffrau", 
+        "diplomkfm", 
+        "diplombetriebswirt", 
+        "diplomingenieur", 
+        "diplomingenieur (fh)", 
+        "diplomingenieur(fh)", 
+        "diplom-ingenieur", 
+        "diplom-kauffrau", 
+        "doktoringenieur", 
+        "freifrau", 
+        "freiherr", 
+        "professor",
+    ]
+
     @staticmethod
     def parse_dob(dob):
         m = dob_regex.search(dob.strip(" ;."))
@@ -266,13 +286,19 @@ class FullPerson(object):
                     self.payload["maidenname"] = self.payload["maidenname"].strip()
 
             if ":" in self.payload["lastname"]:
-                shit, self.payload["lastname"] = self.payload["lastname"].split(":", 1)
+                _, self.payload["lastname"] = self.payload["lastname"].split(":", 1)
                 self.payload["lastname"] = self.payload["lastname"].strip()
 
             m = parse_number_regex.search(self.payload["lastname"])
             if m:
                 self.payload["ref"] = int(m.group(1))
                 self.payload["lastname"] = m.group(2).strip()
+
+            for title in self.titles:
+                if self.payload["lastname"].lower().startswith(title):
+                    self.payload["prof_title"] = title
+                    self.payload["lastname"] = re.sub(title, "", self.payload["lastname"], flags=re.I).strip()
+                    break
 
         if "company_name" in self.payload:
             m = parse_number_regex.search(self.payload["company_name"])
@@ -881,9 +907,15 @@ def parse_document(doc: dict) -> (defaultdict, dict):
     useful_text = useful_text.replace(", geb.", " geborene")
     useful_text = useful_text.replace(" geb.", " geborene")
     useful_text = useful_text.replace(", geborene", " geborene")
+    useful_text = useful_text.replace(" geborener", " geborene")
     useful_text = useful_text.replace(" Dr.-Ing.", " Doktoringenieur")
     useful_text = useful_text.replace(" Dipl.-Ing.", " Diplomingenieur")
     useful_text = useful_text.replace(" Dr.", " Doctor")
+    useful_text = useful_text.replace(" Prof.", " Professor")
+    useful_text = useful_text.replace(" Dipl.-Betriebswirt", " Diplombetriebswirt")
+    useful_text = useful_text.replace(" Dipl.-Kauffrau", " Diplomkauffrau")
+    useful_text = useful_text.replace(" Dipl.-Kfm", " Diplomkfm")
+
     useful_text = re.sub(r":\s(\d+)\.", r":\1)", useful_text)
     sents = _german_tokenizer.tokenize(useful_text)  # type: tuple
     res = defaultdict(list)

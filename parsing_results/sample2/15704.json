@@ -21,8 +21,9 @@
                 "class": "DismissedManagingDirector",
                 "payload": {
                     "dismissed": true,
-                    "lastname": "Doctor Rutke",
+                    "lastname": "Rutke",
                     "name": "Wolfgang",
+                    "prof_title": "doctor",
                     "ref": 5
                 },
                 "text": "5) Doctor Rutke, Wolfgang"
@@ -32,8 +33,9 @@
                 "payload": {
                     "city": "Kronberg/Ts",
                     "dob": "1966-12-13",
-                    "lastname": "Doctor Naumann",
-                    "name": "Thomas"
+                    "lastname": "Naumann",
+                    "name": "Thomas",
+                    "prof_title": "doctor"
                 },
                 "text": " Doctor Naumann, Thomas, *13.12.1966, Kronberg/Ts."
             }

@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=80831&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Person from 4) Doctor Schulten, Marc Prokura: Nicht mehr Prokurist:1) Hantschel, Ulrike., error text was Digits in name: Marc Prokura: Nicht mehr Prokurist:1) Hantschel"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Person from :4) Doctor Schulten, Marc Prokura: Nicht mehr Prokurist:1) Hantschel, Ulrike., error text was Digits in name: Marc Prokura: Nicht mehr Prokurist:1) Hantschel"
+            }
+        ],
         "officers": [
             {
                 "class": "NotAProcurator",
