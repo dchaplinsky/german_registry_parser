@@ -15,5 +15,28 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=182716&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Mülheim an der Ruhr",
+                    "dob": "1941-06-24",
+                    "lastname": "Czaikowski",
+                    "name": "Hans"
+                },
+                "text": " Czaikowski, Hans, Mülheim an der Ruhr, *24.06.1941."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Bottrop",
+                    "dob": "1953-02-13",
+                    "lastname": ": Zurheide",
+                    "name": "Heinz"
+                },
+                "text": ": Zurheide, Heinz, Bottrop, *13.02.1953."
+            }
+        ]
+    }
 }

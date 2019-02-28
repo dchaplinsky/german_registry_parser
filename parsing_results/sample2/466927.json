@@ -19,7 +19,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Procuration from  Einzelprokura, error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a Person from  Einzelprokura, error text was a person without DOB, number of chunks: 1"
             }
         ],
         "flags": [
@@ -35,6 +35,34 @@
             }
         ],
         "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "lastname": "Doctor Burow",
+                    "name": "Martin",
+                    "ref": 2
+                },
+                "text": "2) Doctor Burow, Martin"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "lastname": "Neukirchner",
+                    "name": "Erhard Rupert",
+                    "ref": 3
+                },
+                "text": "3) Neukirchner, Erhard Rupert"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1973-02-11",
+                    "lastname": "Vorstand:4)\nDr. Lager",
+                    "name": "Markku"
+                },
+                "text": " Vorstand:4)\nDr. Lager, Markku, *11.02.1973, Berlin"
+            },
             {
                 "class": "Procuration",
                 "payload": {

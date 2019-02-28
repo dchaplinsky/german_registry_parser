@@ -18,6 +18,27 @@
     "parsed": {
         "officers": [
             {
+                "class": "Person",
+                "payload": {
+                    "city": "Melsungen",
+                    "dob": "1949-02-12",
+                    "lastname": "Doctor Feller",
+                    "name": "Wolfgang"
+                },
+                "text": " Doctor Feller, Wolfgang, Melsungen, *12.02.1949."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Melsungen",
+                    "dob": "1969-12-29",
+                    "flag": "vertretungsberechtigt gemeinsam mit einem anderen Vorstandsmitglied oder einem Prokuristen",
+                    "lastname": ": Strotmann",
+                    "name": "Markus"
+                },
+                "text": ": Strotmann, Markus, Melsungen, *29.12.1969, vertretungsberechtigt gemeinsam mit einem anderen Vorstandsmitglied oder einem Prokuristen."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Melsungen",

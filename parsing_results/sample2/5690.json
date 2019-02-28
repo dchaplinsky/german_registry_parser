@@ -21,6 +21,26 @@
                 "flag": "Exclusive power of representation can be granted.",
                 "text": "Alleinvertretungsbefugnis\\ kann\\ erteilt\\ werden\\."
             }
+        ],
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Hamburg",
+                    "lastname": "Conrad",
+                    "name": "Hans-Joachim"
+                },
+                "text": " Conrad, Hans-Joachim, Hamburg"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Hamburg",
+                    "lastname": "Doctor Fischer",
+                    "name": "Phillip"
+                },
+                "text": " Doctor Fischer, Phillip, Hamburg."
+            }
         ]
     }
 }

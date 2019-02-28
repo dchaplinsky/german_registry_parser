@@ -21,6 +21,18 @@
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
             }
+        ],
+        "officers": [
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Maintal",
+                    "dob": "1962-02-07",
+                    "lastname": "Meyer",
+                    "name": "Bernhard"
+                },
+                "text": " Meyer, Bernhard, Maintal, *07.02.1962."
+            }
         ]
     }
 }

@@ -15,5 +15,18 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=227022&land_abk=bw"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Auenwald",
+                    "dob": "1948-01-28",
+                    "lastname": ": Schmülling",
+                    "name": "Udo"
+                },
+                "text": ": Schmülling, Udo, Auenwald, *28.01.1948."
+            }
+        ]
+    }
 }

@@ -2,11 +2,17 @@
 import argparse
 import glob
 import gzip
+# try:
+#     import ujson as json
+# except ImportError:
+#     import json
 import json
+
 import os.path
 import random
 import re
 from collections import defaultdict, Counter
+from concurrent.futures import ProcessPoolExecutor
 from itertools import chain
 from csv import DictWriter
 
@@ -26,6 +32,53 @@ relocation_signs = [
 ]
 
 signs_usage = defaultdict(int)
+
+def process_parsing_result(args, parsing_result, p_doc, stats):
+    notice_id = p_doc["notice_id"]
+    federal_state = p_doc["federal_state"]
+
+    if args.add_federal_state:
+        fname = os.path.join(outdir, "{}_{}.json".format(notice_id, federal_state))
+    else:
+        fname = os.path.join(outdir, "{}.json".format(notice_id))
+
+    with open(fname, "w") as fp:
+        if parsing_result:
+            stats[notice_id].update(
+                {k: len(v) for k, v in parsing_result.items()}
+            )
+            possible_persons = dob_regex.findall(p_doc["full_text"])
+
+            # only processing sitzverlegung for now
+            possible_notices = relocation_signs[0][1].findall(p_doc["full_text"])
+
+            if len(possible_persons) > len(
+                parsing_result.get("officers", [])
+            ):
+                stats[notice_id]["might_have_unparsed_persons"] = 1
+
+            if len(possible_notices) > len(list(
+                filter(lambda x: x["used_regex"], parsing_result.get("notices", [])))
+            ):
+                stats[notice_id]["might_have_unparsed_relocations"] = 1
+
+            if "officers" not in parsing_result:
+                stats[notice_id]["got_no_persons"] = 1
+        else:
+            stats[notice_id]["got_no_persons"] = 1
+            stats[notice_id]["got_nothing"] = 1
+
+        json.dump(
+            {"orig": p_doc, "parsed": parsing_result},
+            fp,
+            indent=4,
+            ensure_ascii=False,
+            sort_keys=True,
+            default=str,
+        )
+
+def parse_json_and_document(l):
+    return parse_document(json.loads(l))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Major operations on scrapped file")
@@ -72,6 +125,7 @@ if __name__ == "__main__":
         default=False,
         help="Add federal state to the filenames when parsing",
     )
+    parser_parse.add_argument("--num_of_workers", type=int, default=1, help="Number of workers (1 to disable multithreading)")
     parser_parse.add_argument(
         "outdir", type=str, help="path to a dir to store results in. Will be wiped!!!"
     )
@@ -157,52 +211,17 @@ if __name__ == "__main__":
             os.remove(f)
 
         with tqdm() as pbar:
-            for l in infile:
-                pbar.update(1)
-                p_doc = json.loads(l)
-                parsing_result, _ = parse_document(p_doc)
-                notice_id = p_doc["notice_id"]
-                federal_state = p_doc["federal_state"]
+            if args.num_of_workers == 1:
+                for l in infile:
+                    parsing_result, p_doc = parse_json_and_document(l)
+                    pbar.update(1)
+                    process_parsing_result(args, parsing_result, p_doc, stats)
+            else:
+                with ProcessPoolExecutor(max_workers=args.num_of_workers) as executor:
+                    for parsing_result, p_doc in executor.map(parse_json_and_document, infile, chunksize=100):
+                        pbar.update(1)
+                        process_parsing_result(args, parsing_result, p_doc, stats)
 
-                if args.add_federal_state:
-                    fname = os.path.join(outdir, "{}_{}.json".format(notice_id, federal_state))
-                else:
-                    fname = os.path.join(outdir, "{}.json".format(notice_id))
-
-                with open(fname, "w") as fp:
-                    if parsing_result:
-                        stats[notice_id].update(
-                            {k: len(v) for k, v in parsing_result.items()}
-                        )
-                        possible_persons = dob_regex.findall(p_doc["full_text"])
-
-                        # only processing sitzverlegung for now
-                        possible_notices = relocation_signs[0][1].findall(p_doc["full_text"])
-
-                        if len(possible_persons) > len(
-                            parsing_result.get("officers", [])
-                        ):
-                            stats[notice_id]["might_have_unparsed_persons"] = 1
-
-                        if len(possible_notices) > len(list(
-                            filter(lambda x: x["used_regex"], parsing_result.get("notices", [])))
-                        ):
-                            stats[notice_id]["might_have_unparsed_relocations"] = 1
-
-                        if "officers" not in parsing_result:
-                            stats[notice_id]["got_no_persons"] = 1
-                    else:
-                        stats[notice_id]["got_no_persons"] = 1
-                        stats[notice_id]["got_nothing"] = 1
-
-                    json.dump(
-                        {"orig": p_doc, "parsed": parsing_result},
-                        fp,
-                        indent=4,
-                        ensure_ascii=False,
-                        sort_keys=True,
-                        default=str,
-                    )
 
         global_stats = Counter()
         global_stats_headers = set()

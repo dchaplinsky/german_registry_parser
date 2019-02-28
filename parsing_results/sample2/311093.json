@@ -15,5 +15,29 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=311093&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Wiesbaden",
+                    "dob": "1964-12-19",
+                    "lastname": "Gutierrez-Siegel",
+                    "name": "Felix"
+                },
+                "text": " Gutierrez-Siegel, Felix, Wiesbaden, *19.12.1964."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Oberursel",
+                    "dob": "1970-08-01",
+                    "flag": "sole representation",
+                    "lastname": ": Blum",
+                    "name": "Ralph"
+                },
+                "text": ": Blum, Ralph, Oberursel, *01.08.1970, einzelvertretungsberechtigt."
+            }
+        ]
+    }
 }

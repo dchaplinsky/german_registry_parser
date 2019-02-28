@@ -18,6 +18,17 @@
     "parsed": {
         "officers": [
             {
+                "class": "Person",
+                "payload": {
+                    "city": "Murr",
+                    "dob": "1952-01-31",
+                    "flag": "sole representation",
+                    "lastname": ": Kalb",
+                    "name": "Willi"
+                },
+                "text": ": Kalb, Willi, Murr, *31.01.1952, einzelvertretungsberechtigt."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Murr",

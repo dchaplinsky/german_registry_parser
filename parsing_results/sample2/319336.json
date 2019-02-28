@@ -15,5 +15,18 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=319336&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dob": "1948-02-24",
+                    "lastname": "Doctor Roventa",
+                    "name": "Peter"
+                },
+                "text": " Doctor Roventa, Peter, Frankfurt am Main, *24.02.1948."
+            }
+        ]
+    }
 }

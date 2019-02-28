@@ -21,6 +21,38 @@
                 "label": "address",
                 "text": " Poppelsdorfer Allee 25-33, 53115 Bonn."
             }
+        ],
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Bad Soden",
+                    "dob": "1970-11-24",
+                    "lastname": "Kocherscheidt",
+                    "name": "Thorsten"
+                },
+                "text": " Kocherscheidt, Thorsten, Bad Soden, *24.11.1970"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Burgwedel",
+                    "dob": "1952-03-02",
+                    "lastname": "Marx",
+                    "name": "Josef"
+                },
+                "text": " Marx, Josef, Burgwedel, *02.03.1952"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Pullach",
+                    "dob": "1953-03-01",
+                    "lastname": "Doctor Schwarz",
+                    "name": "Jochen"
+                },
+                "text": " Doctor Schwarz, Jochen, Pullach, *01.03.1953."
+            }
         ]
     }
 }

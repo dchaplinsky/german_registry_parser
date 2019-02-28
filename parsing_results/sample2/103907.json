@@ -15,5 +15,18 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=103907&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Kassel",
+                    "dob": "1966-01-07",
+                    "lastname": ": Doctor König",
+                    "name": "Gerhard"
+                },
+                "text": ": Doctor König, Gerhard, Kassel, *07.01.1966."
+            }
+        ]
+    }
 }

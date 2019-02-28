@@ -15,5 +15,35 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=313268&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Person from  Mag., error text was a person without DOB, number of chunks: 1"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Baden/Österreich",
+                    "dob": "1966-05-29",
+                    "lastname": ": Doctor Kasperkovitz",
+                    "name": "Georg"
+                },
+                "text": ": Doctor Kasperkovitz, Georg, Baden/Österreich, *29.05.1966"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Österreich",
+                    "dob": "1965-03-08",
+                    "lastname": "Fuchs",
+                    "name": "Andreas",
+                    "position": "Golling an der Erlauf"
+                },
+                "text": " Fuchs, Andreas, Golling an der Erlauf, Österreich, *08.03.1965."
+            }
+        ]
+    }
 }

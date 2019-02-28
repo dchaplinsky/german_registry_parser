@@ -21,6 +21,28 @@
                 "label": "address",
                 "text": " Zweibrücker Straße 25, 66917 Wallhalben."
             }
+        ],
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Wallhalben",
+                    "lastname": "Jung",
+                    "name": "Wilhelm",
+                    "position": "Landwirt"
+                },
+                "text": " Jung, Wilhelm, Landwirt, Wallhalben."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Wallhalben",
+                    "dob": "1973-03-29",
+                    "lastname": "smitglied: Schäfer",
+                    "name": "Frank"
+                },
+                "text": "smitglied: Schäfer, Frank, Wallhalben, *29.03.1973."
+            }
         ]
     }
 }

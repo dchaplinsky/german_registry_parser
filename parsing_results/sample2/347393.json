@@ -15,5 +15,29 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=347393&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Chiba / Japan",
+                    "dob": "1958-11-08",
+                    "lastname": ": Murabayashi",
+                    "name": "Satoshi",
+                    "position": "Urayasu"
+                },
+                "text": ": Murabayashi, Satoshi, Urayasu, Chiba / Japan, *08.11.1958."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Tokyo/Japan",
+                    "dob": "1956-11-04",
+                    "lastname": "Mike",
+                    "name": "Kanetsugu"
+                },
+                "text": " Mike, Kanetsugu, Tokyo/Japan, *04.11.1956."
+            }
+        ]
+    }
 }

@@ -18,6 +18,16 @@
     "parsed": {
         "officers": [
             {
+                "class": "Person",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1966-10-21",
+                    "lastname": "Doctor Hesse",
+                    "name": "Thomas"
+                },
+                "text": " Doctor Hesse, Thomas, Berlin, *21.10.1966."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Gütersloh",

@@ -21,6 +21,28 @@
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
             }
+        ],
+        "officers": [
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Eisenberg",
+                    "dob": "1967-11-23",
+                    "lastname": "Stöger",
+                    "name": "Silke Cäcilia"
+                },
+                "text": " Stöger, Silke Cäcilia, Eisenberg, *23.11.1967"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Nesselwang",
+                    "dob": "1985-03-08",
+                    "lastname": "Walk",
+                    "name": "Jasmin Jessica"
+                },
+                "text": " Walk, Jasmin Jessica, Nesselwang, *08.03.1985."
+            }
         ]
     }
 }

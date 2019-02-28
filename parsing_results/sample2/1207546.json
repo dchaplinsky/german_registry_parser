@@ -15,5 +15,28 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1207546&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Kaarst",
+                    "dob": "1946-03-17",
+                    "lastname": "Wittmann",
+                    "name": "Karl-Heinz"
+                },
+                "text": " Wittmann, Karl-Heinz, Kaarst, *17.03.1946."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Jüchen",
+                    "dob": "1965-07-02",
+                    "lastname": ": Böhmer",
+                    "name": "Anton"
+                },
+                "text": ": Böhmer, Anton, Jüchen, *02.07.1965."
+            }
+        ]
+    }
 }

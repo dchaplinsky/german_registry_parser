@@ -15,5 +15,28 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=662088&land_abk=bw"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Östringen",
+                    "dob": "1980-01-19",
+                    "lastname": ": Vajdl",
+                    "name": "Martin"
+                },
+                "text": ": Vajdl, Martin, Östringen, *19.01.1980."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Everswinkel",
+                    "dob": "1957-01-24",
+                    "lastname": "Jüttner",
+                    "name": "Franz-Otto"
+                },
+                "text": " Jüttner, Franz-Otto, Everswinkel, *24.01.1957."
+            }
+        ]
+    }
 }

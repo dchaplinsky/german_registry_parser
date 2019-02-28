@@ -21,6 +21,28 @@
                 "label": "address",
                 "text": " Melchingerstraße."
             }
+        ],
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Stuttgart",
+                    "dob": "1957-11-07",
+                    "lastname": ": Ziersch",
+                    "name": "Heinz-Peter"
+                },
+                "text": ": Ziersch, Heinz-Peter, Stuttgart, *07.11.1957."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Rottenburg/Neckar",
+                    "dob": "1956-11-25",
+                    "lastname": "Schorp-Walz",
+                    "name": "Richard"
+                },
+                "text": " Schorp-Walz, Richard, Rottenburg/Neckar, *25.11.1956."
+            }
         ]
     }
 }

@@ -15,5 +15,28 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1215813&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "dob": "1965-08-22",
+                    "lastname": ": Doctor Knott",
+                    "name": "Guido"
+                },
+                "text": ": Doctor Knott, Guido, Düsseldorf, *22.08.1965"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Düsseldorf",
+                    "dob": "1966-08-30",
+                    "lastname": "Doctor Pohlmann",
+                    "name": "Mario"
+                },
+                "text": " Doctor Pohlmann, Mario, Düsseldorf, *30.08.1966."
+            }
+        ]
+    }
 }

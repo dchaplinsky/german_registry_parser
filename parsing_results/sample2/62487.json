@@ -31,6 +31,18 @@
                 "flag": "CompanyClosed",
                 "text": "Die\\ Gesellschaft\\ ist\\ aufgel\\öst\\."
             }
+        ],
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1955-01-31",
+                    "lastname": "Lohmann",
+                    "name": "Hanns-Ulrich"
+                },
+                "text": " Lohmann, Hanns-Ulrich, Hamburg, *31.01.1955."
+            }
         ]
     }
 }

@@ -15,5 +15,18 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=202991&land_abk=bw"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Buchholz",
+                    "dob": "1963-10-27",
+                    "lastname": "Malich",
+                    "name": "Joachim"
+                },
+                "text": " Malich, Joachim, Buchholz, *27.10.1963."
+            }
+        ]
+    }
 }

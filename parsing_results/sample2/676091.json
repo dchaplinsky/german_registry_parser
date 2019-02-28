@@ -15,5 +15,18 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=676091&land_abk=bw"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Oberndorf am Neckar",
+                    "dob": "1972-03-18",
+                    "lastname": ": Doctor Koch",
+                    "name": "Jens"
+                },
+                "text": ": Doctor Koch, Jens, Oberndorf am Neckar, *18.03.1972."
+            }
+        ]
+    }
 }

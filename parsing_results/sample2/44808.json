@@ -16,6 +16,16 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=44808&land_abk=be"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Person from  mit der Befugnis die Gesellschaft allein zu vertreten, error text was a person without DOB, number of chunks: 1"
+            },
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Person from  mit der Befugnis die Gesellschaft allein zu vertreten, error text was a person without DOB, number of chunks: 1"
+            }
+        ],
         "flags": [
             {
                 "flag": "with the power to represent the company alone",
@@ -24,6 +34,47 @@
             {
                 "flag": "with the power to represent the company alone",
                 "text": "mit\\ der\\ Befugnis\\ die\\ Gesellschaft\\ allein\\ zu\\ vertreten"
+            }
+        ],
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "lastname": "Hundt",
+                    "name": "Angelika",
+                    "ref": 1
+                },
+                "text": "1) Hundt, Angelika"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Berlin",
+                    "dob": "1961-04-16",
+                    "lastname": "Vorstand:2) Bär",
+                    "name": "Ernst"
+                },
+                "text": " Vorstand:2) Bär, Ernst, *16.04.1961, Berlin"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Isernhagen",
+                    "dob": "1957-10-09",
+                    "lastname": "Vorstand:3) Tigges",
+                    "name": "Joachim"
+                },
+                "text": " Vorstand:3) Tigges, Joachim, *09.10.1957, Isernhagen"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Berlin Rechtsform: Durch Beschluss der Hauptversammlung vom 30.05.2007 ist die Satzung insgesamt neu gefasst und durch Beschluss der Gesellschafterversammlung vom 29.06.2007 geändert in § 2 (Gegenstand)",
+                    "dob": "1966-08-01",
+                    "lastname": "Vorstand:4) Dischreit",
+                    "name": "Michael"
+                },
+                "text": " Vorstand:4) Dischreit, Michael, *01.08.1966, Berlin Rechtsform: Durch Beschluss der Hauptversammlung vom 30.05.2007 ist die Satzung insgesamt neu gefasst und durch Beschluss der Gesellschafterversammlung vom 29.06.2007 geändert in § 2 (Gegenstand)."
             }
         ]
     }

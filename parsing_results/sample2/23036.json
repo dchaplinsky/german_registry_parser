@@ -15,5 +15,37 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=23036&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dob": "1959-11-22",
+                    "lastname": "Klee",
+                    "name": "Stefan"
+                },
+                "text": " Klee, Stefan, Frankfurt am Main, *22.11.1959."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "dob": "1950-06-27",
+                    "lastname": ": Bauch",
+                    "name": "Herbert"
+                },
+                "text": ": Bauch, Herbert, *27.06.1950"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Neu-Isenburg",
+                    "dob": "1957-02-01",
+                    "lastname": "Schmunk",
+                    "name": "Felix"
+                },
+                "text": " Schmunk, Felix, Neu-Isenburg, *01.02.1957."
+            }
+        ]
+    }
 }

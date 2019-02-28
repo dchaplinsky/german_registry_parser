@@ -252,9 +252,13 @@ class FullPerson(object):
         if "lastname" in self.payload:
             for field_name in ["lastname", "name"]:
                 if "geborene" in self.payload[field_name]:
-                    self.payload[field_name], self.payload["maidenname"] = self.payload[
-                        field_name
-                    ].split(" geborene", 1)
+                    try:
+                        self.payload[field_name], self.payload["maidenname"] = self.payload[
+                            field_name
+                        ].split(" geborene", 1)
+                    except ValueError:
+                        continue
+
                     self.payload["maidenname"] = (
                         self.payload["maidenname"].replace("geborene", "").strip()
                     )
@@ -696,6 +700,16 @@ sentences = [
         assign_label_to_postfix=SingleProcuration,
     ),
     Sentence(
+        # TODO: translate and check if can be merged with flag above
+        "Einzelprokura mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen:",
+        assign_label_to_postfix=SingleProcuration,
+    ),
+    Sentence(
+        # TODO: translate and check if can be merged with flag above
+        "Einzelprokura mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen:",
+        assign_label_to_postfix=SingleProcuration,
+    ),
+    Sentence(
         "Persönlich haftender Gesellschafter:", assign_label_to_postfix=PersonalPartner
     ),
     Sentence(
@@ -760,6 +774,7 @@ sentences = [
     ),
     Sentence("Die Gesellschaft ist aufgelöst.", convert_to_flag="CompanyClosed"),
     Sentence("Einzelprokura", convert_to_flag="Single procuration"),
+    Sentence("Einzelkaufmann", assign_label_to_postfix=FullPerson),
     Sentence("Einzelkaufmann", convert_to_flag="Sole trader"),
     Sentence(
         re.compile(r"\bSitzverlegung\b", flags=re.I),
@@ -779,6 +794,10 @@ sentences = [
         "Sind mehrere Liquidatoren bestellt, wird die Gesellschaft durch sämtliche Liquidatoren gemeinsam vertreten.",
         convert_to_flag="If several liquidators are appointed, the company will be represented jointly by all liquidators.",
     ),
+
+    Sentence("Bestellt als Vorstand", assign_label_to_postfix=FullPerson),
+    Sentence("Nicht mehr Vorstand", assign_label_to_postfix=FullPerson),
+    Sentence("Nicht mehr Vorstand:", assign_label_to_postfix=FullPerson),
 ]
 
 sentences = sorted(
@@ -825,7 +844,7 @@ def _parse_normalized(sents: tuple, doc: dict):
                     yield Error(type(e).__name__, str(e))
 
 
-def parse_document(doc: dict) -> (defaultdict, tuple):
+def parse_document(doc: dict) -> (defaultdict, dict):
     errors = []
     text = doc.get("full_text", "")  # type: str
     event_type = doc.get("event_type", None)  # type: str
@@ -842,6 +861,7 @@ def parse_document(doc: dict) -> (defaultdict, tuple):
     useful_text = useful_text.replace(":; ", ": ")
     useful_text = useful_text.replace(", geb.", " geborene")
     useful_text = useful_text.replace(" geb.", " geborene")
+    useful_text = useful_text.replace(", geborene", " geborene")
     useful_text = useful_text.replace(" Dr.-Ing.", " Doktoringenieur")
     useful_text = useful_text.replace(" Dipl.-Ing.", " Diplomingenieur")
     useful_text = useful_text.replace(" Dr.", " Doctor")
@@ -857,4 +877,4 @@ def parse_document(doc: dict) -> (defaultdict, tuple):
     ):
         res[v.kind].append(v.to_dict())
 
-    return res, sents
+    return res, doc

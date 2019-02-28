@@ -15,5 +15,28 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=667636&land_abk=bw"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Freiburg im Breisgau",
+                    "dob": "1961-08-07",
+                    "lastname": ": Schüle",
+                    "name": "Rainer"
+                },
+                "text": ": Schüle, Rainer, Freiburg im Breisgau, *07.08.1961."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Freiburg im Breisgau",
+                    "dob": "1947-09-24",
+                    "lastname": "Steyer",
+                    "name": "Bernd Elmar"
+                },
+                "text": " Steyer, Bernd Elmar, Freiburg im Breisgau, *24.09.1947."
+            }
+        ]
+    }
 }

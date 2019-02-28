@@ -33,6 +33,29 @@
                 "to": "Düsseldorf",
                 "used_regex": "court_regex, from_hrb_to_regex"
             }
+        ],
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Pulheim-Brauweiler",
+                    "dob": "1963-04-24",
+                    "lastname": "Keller",
+                    "name": "Horst"
+                },
+                "text": " Keller, Horst, Pulheim-Brauweiler, *24.04.1963."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Bochum",
+                    "dob": "1946-04-07",
+                    "flag": "einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen",
+                    "lastname": ": Voorbach",
+                    "name": "Robert Martinus"
+                },
+                "text": ": Voorbach, Robert Martinus, Bochum, *07.04.1946, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            }
         ]
     }
 }

@@ -19,7 +19,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a NotAProcurator from  634., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a Person from  634., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "labels": [
@@ -29,6 +29,15 @@
             }
         ],
         "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "lastname": "Behrens",
+                    "name": "Oliver Markus",
+                    "ref": 9
+                },
+                "text": "9) Behrens, Oliver Markus"
+            },
             {
                 "class": "NotAProcurator",
                 "payload": {

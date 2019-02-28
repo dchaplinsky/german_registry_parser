@@ -24,6 +24,16 @@
         ],
         "officers": [
             {
+                "class": "Person",
+                "payload": {
+                    "city": "Karlsruhe",
+                    "dob": "1958-02-18",
+                    "lastname": "Haupt",
+                    "name": "Thomas"
+                },
+                "text": " Haupt, Thomas, Karlsruhe, *18.02.1958."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Birkenfeld",

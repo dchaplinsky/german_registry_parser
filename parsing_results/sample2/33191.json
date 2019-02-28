@@ -15,5 +15,28 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=33191&land_abk=mv"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Blankensee",
+                    "dob": "1954-02-23",
+                    "lastname": "Beier",
+                    "name": "Bernd"
+                },
+                "text": " Beier, Bernd, Blankensee, *23.02.1954."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Blankensee",
+                    "dob": "1961-04-27",
+                    "lastname": ": Werner",
+                    "name": "Ramona"
+                },
+                "text": ": Werner, Ramona, Blankensee, *27.04.1961."
+            }
+        ]
+    }
 }

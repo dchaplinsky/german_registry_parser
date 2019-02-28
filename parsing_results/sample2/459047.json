@@ -31,6 +31,28 @@
                 "label": "address",
                 "text": " Robert-Bosch-Straße 4, 76532 Baden-Baden."
             }
+        ],
+        "officers": [
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1963-08-16",
+                    "lastname": "Krützfeldt",
+                    "name": "Thomas"
+                },
+                "text": " Krützfeldt, Thomas, Hamburg, *16.08.1963"
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Gifhorn",
+                    "dob": "1966-07-07",
+                    "lastname": "Plinke",
+                    "name": "Frank"
+                },
+                "text": " Plinke, Frank, Gifhorn, *07.07.1966."
+            }
         ]
     }
 }

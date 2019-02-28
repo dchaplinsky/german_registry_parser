@@ -24,6 +24,16 @@
         ],
         "officers": [
             {
+                "class": "Person",
+                "payload": {
+                    "city": "Jesteburg",
+                    "dob": "1951-11-02",
+                    "lastname": "Thomas",
+                    "name": "Peter"
+                },
+                "text": " Thomas, Peter, Jesteburg, *02.11.1951."
+            },
+            {
                 "class": "AppointedBoard",
                 "payload": {
                     "city": "Wiesbaden",

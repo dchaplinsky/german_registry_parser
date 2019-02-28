@@ -31,6 +31,28 @@
                 "label": "address",
                 "text": " Friedenheimer Str."
             }
+        ],
+        "officers": [
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "München",
+                    "dob": "1968-07-31",
+                    "lastname": "Müller",
+                    "name": "David"
+                },
+                "text": " Müller, David, München, *31.07.1968."
+            },
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "München",
+                    "dob": "1963-04-24",
+                    "lastname": "Seidl",
+                    "name": "Florian"
+                },
+                "text": " Seidl, Florian, München, *24.04.1963."
+            }
         ]
     }
 }

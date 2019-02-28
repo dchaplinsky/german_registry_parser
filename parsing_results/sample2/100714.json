@@ -15,5 +15,18 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=100714&land_abk=bw"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Riegel",
+                    "dob": "1947-12-06",
+                    "lastname": ": Barst",
+                    "name": "Nikolaus"
+                },
+                "text": ": Barst, Nikolaus, Riegel, *06.12.1947."
+            }
+        ]
+    }
 }

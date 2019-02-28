@@ -21,6 +21,18 @@
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
             }
+        ],
+        "officers": [
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Dessau",
+                    "dob": "1963-01-05",
+                    "lastname": "Knape",
+                    "name": "Andreas"
+                },
+                "text": " Knape, Andreas, Dessau, *05.01.1963."
+            }
         ]
     }
 }

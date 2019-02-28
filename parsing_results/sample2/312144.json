@@ -21,6 +21,18 @@
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
             }
+        ],
+        "officers": [
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1989-06-04",
+                    "lastname": "Schober",
+                    "name": "Julia-Patricia"
+                },
+                "text": " Schober, Julia-Patricia, Hamburg, *04.06.1989."
+            }
         ]
     }
 }

@@ -24,6 +24,46 @@
         ],
         "officers": [
             {
+                "class": "Person",
+                "payload": {
+                    "city": "Köln",
+                    "dob": "1960-10-31",
+                    "lastname": "Johanning-Meiners",
+                    "name": "Harald"
+                },
+                "text": " Johanning-Meiners, Harald, Köln, *31.10.1960"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Hohenahr",
+                    "dob": "1965-05-04",
+                    "lastname": "Keller",
+                    "name": "Michael"
+                },
+                "text": " Keller, Michael, Hohenahr, *04.05.1965"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Gelsenkirchen",
+                    "dob": "1951-01-29",
+                    "lastname": "Lawrence",
+                    "name": "Mark"
+                },
+                "text": " Lawrence, Mark, Gelsenkirchen, *29.01.1951"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Hannover",
+                    "dob": "1953-07-29",
+                    "lastname": "Struß",
+                    "name": "Horst"
+                },
+                "text": " Struß, Horst, Hannover, *29.07.1953."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Bochum",

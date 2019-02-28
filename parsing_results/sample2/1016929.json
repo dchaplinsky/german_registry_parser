@@ -15,5 +15,18 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1016929&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Bonn",
+                    "dob": "1967-10-28",
+                    "lastname": "Merx",
+                    "name": "Oliver"
+                },
+                "text": " Merx, Oliver, Bonn, *28.10.1967."
+            }
+        ]
+    }
 }

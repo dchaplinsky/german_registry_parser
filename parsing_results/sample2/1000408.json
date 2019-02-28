@@ -21,6 +21,18 @@
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
             }
+        ],
+        "officers": [
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Würzburg",
+                    "dob": "1984-07-09",
+                    "lastname": "Then",
+                    "name": "Linda"
+                },
+                "text": " Then, Linda, Würzburg, *09.07.1984."
+            }
         ]
     }
 }

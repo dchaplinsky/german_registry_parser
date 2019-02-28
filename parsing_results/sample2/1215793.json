@@ -15,5 +15,28 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1215793&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Detmold",
+                    "dob": "1966-08-12",
+                    "lastname": ": Windhausen",
+                    "name": "Robin"
+                },
+                "text": ": Windhausen, Robin, Detmold, *12.08.1966."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Detmold",
+                    "dob": "1965-11-04",
+                    "lastname": "Dankelmann",
+                    "name": "Dirk"
+                },
+                "text": " Dankelmann, Dirk, Detmold, *04.11.1965."
+            }
+        ]
+    }
 }

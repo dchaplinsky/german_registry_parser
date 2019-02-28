@@ -15,5 +15,18 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=193897&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Breitscheid",
+                    "dob": "1963-01-23",
+                    "lastname": "Schumann",
+                    "name": "Christof"
+                },
+                "text": " Schumann, Christof, Breitscheid, *23.01.1963."
+            }
+        ]
+    }
 }

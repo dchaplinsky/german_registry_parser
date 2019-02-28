@@ -21,6 +21,18 @@
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
             }
+        ],
+        "officers": [
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Rheinberg",
+                    "dob": "1965-08-09",
+                    "lastname": "Brockschmidt",
+                    "name": "Stephan"
+                },
+                "text": " Brockschmidt, Stephan, Rheinberg, *09.08.1965."
+            }
         ]
     }
 }

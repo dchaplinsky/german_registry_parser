@@ -27,6 +27,18 @@
                 "label": "address",
                 "text": " Rüsseldorf 6, 26188 Edewecht - Jeddeloh I. Einzelprokura mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen: Kuß, Joachim, Bad Zwischenahn, *04.01.1966."
             }
+        ],
+        "officers": [
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Bad Zwischenahn",
+                    "dob": "1966-01-04",
+                    "lastname": "Kuß",
+                    "name": "Joachim"
+                },
+                "text": " Kuß, Joachim, Bad Zwischenahn, *04.01.1966."
+            }
         ]
     }
 }

@@ -15,5 +15,18 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=48326&land_abk=mv"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Icking",
+                    "dob": "1971-01-24",
+                    "lastname": "Stüpfert",
+                    "name": "Thomas"
+                },
+                "text": " Stüpfert, Thomas, Icking, *24.01.1971."
+            }
+        ]
+    }
 }

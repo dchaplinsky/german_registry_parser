@@ -15,5 +15,28 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=65653&land_abk=sl"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Saarbrücken",
+                    "dob": "1960-11-17",
+                    "lastname": ": Doctor Bretzger",
+                    "name": "Thomas"
+                },
+                "text": ": Doctor Bretzger, Thomas, Saarbrücken, *17.11.1960."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Saarbrücken",
+                    "dob": "1951-02-22",
+                    "lastname": "Severin",
+                    "name": "Werner"
+                },
+                "text": " Severin, Werner, Saarbrücken, *22.02.1951."
+            }
+        ]
+    }
 }

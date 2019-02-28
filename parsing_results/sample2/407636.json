@@ -18,6 +18,16 @@
     "parsed": {
         "officers": [
             {
+                "class": "Person",
+                "payload": {
+                    "city": "Oldenburg",
+                    "dob": "1961-10-04",
+                    "lastname": "Behr",
+                    "name": "Arthur Nikolaus"
+                },
+                "text": " Behr, Arthur Nikolaus, Oldenburg, *04.10.1961."
+            },
+            {
                 "class": "CommonProcuration",
                 "payload": {
                     "city": "Berlin",

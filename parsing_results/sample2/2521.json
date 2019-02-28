@@ -15,5 +15,28 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=2521&land_abk=ni"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Bad Homburg",
+                    "dob": "1971-04-01",
+                    "lastname": "Binsner",
+                    "name": "Oliver"
+                },
+                "text": " Binsner, Oliver, Bad Homburg, *01.04.1971."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Bad Münder",
+                    "dob": "1974-09-19",
+                    "lastname": ": Hansch",
+                    "name": "Mike"
+                },
+                "text": ": Hansch, Mike, Bad Münder, *19.09.1974."
+            }
+        ]
+    }
 }

@@ -16,6 +16,12 @@
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1143701&land_abk=nw"
     },
     "parsed": {
+        "errors": [
+            {
+                "kls": "ParsingError",
+                "text": "Cannot parse a Person from , sondern Abwickler: Dockhorn, Hans-Christoph, Halver, *03.06.1969, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was Cannot parse DOB  Hans-Christoph using regex"
+            }
+        ],
         "flags": [
             {
                 "flag": "CompanyClosed",

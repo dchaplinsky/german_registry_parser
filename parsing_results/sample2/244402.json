@@ -21,6 +21,18 @@
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
             }
+        ],
+        "officers": [
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Hamburg",
+                    "dob": "1965-06-22",
+                    "lastname": "Wittchen",
+                    "name": "Michaela"
+                },
+                "text": " Wittchen, Michaela, Hamburg, *22.06.1965."
+            }
         ]
     }
 }

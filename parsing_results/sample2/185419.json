@@ -21,6 +21,18 @@
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
             }
+        ],
+        "officers": [
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Osnabrück",
+                    "dob": "1965-02-25",
+                    "lastname": "Gerland",
+                    "name": "Thorsten"
+                },
+                "text": " Gerland, Thorsten, Osnabrück, *25.02.1965."
+            }
         ]
     }
 }

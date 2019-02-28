@@ -19,14 +19,60 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Procuration from  Prokura gemeinsam mit einem Vorstand, error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a Person from  Prokura gemeinsam mit einem Vorstand, error text was a person without DOB, number of chunks: 1"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Procuration from  63., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a Person from  63., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "lastname": "Doctor Verhoeven",
+                    "name": "Paul",
+                    "ref": 10
+                },
+                "text": "10) Doctor Verhoeven, Paul"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "lastname": "Krauß",
+                    "name": "Hans-Joachim",
+                    "ref": 3
+                },
+                "text": "3) Krauß, Hans-Joachim"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "lastname": "Doctor Schaaf",
+                    "name": "Andreas",
+                    "ref": 7
+                },
+                "text": "7) Doctor Schaaf, Andreas"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "lastname": "Leicht",
+                    "name": "Thomas",
+                    "ref": 4
+                },
+                "text": "4) Leicht, Thomas"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Köln",
+                    "dob": "1966-01-03",
+                    "lastname": "Vorstand:11) Brune",
+                    "name": "Rainer"
+                },
+                "text": " Vorstand:11) Brune, Rainer, *03.01.1966, Köln"
+            },
             {
                 "class": "Procuration",
                 "payload": {

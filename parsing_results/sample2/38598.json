@@ -15,5 +15,18 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=38598&land_abk=sn"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Leipzig",
+                    "dob": "1951-04-04",
+                    "lastname": "Heil",
+                    "name": "Günter"
+                },
+                "text": " Heil, Günter, Leipzig, *04.04.1951."
+            }
+        ]
+    }
 }

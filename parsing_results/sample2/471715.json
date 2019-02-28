@@ -18,6 +18,16 @@
     "parsed": {
         "officers": [
             {
+                "class": "Person",
+                "payload": {
+                    "city": "Hannover",
+                    "dob": "1973-05-06",
+                    "lastname": ": Döring",
+                    "name": "Patrick"
+                },
+                "text": ": Döring, Patrick, Hannover, *06.05.1973."
+            },
+            {
                 "class": "ProcurationCancelled",
                 "payload": {
                     "city": "Hannover",

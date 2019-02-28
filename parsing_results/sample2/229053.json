@@ -15,5 +15,28 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=229053&land_abk=rp"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Worms",
+                    "dob": "1954-11-12",
+                    "lastname": "Antz",
+                    "name": "Helmut"
+                },
+                "text": " Antz, Helmut, Worms, *12.11.1954."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Worms",
+                    "dob": "1968-09-16",
+                    "lastname": ": Wilhelm",
+                    "name": "Stephan"
+                },
+                "text": ": Wilhelm, Stephan, Worms, *16.09.1968."
+            }
+        ]
+    }
 }

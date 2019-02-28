@@ -15,5 +15,28 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=277556&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Frankfurt am Main",
+                    "dob": "1964-12-13",
+                    "lastname": "Doctor Strutz",
+                    "name": "Eric"
+                },
+                "text": " Doctor Strutz, Eric, Frankfurt am Main, *13.12.1964."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Stuttgart",
+                    "dob": "1962-03-09",
+                    "lastname": ": Engels",
+                    "name": "Stephan"
+                },
+                "text": ": Engels, Stephan, Stuttgart, *09.03.1962."
+            }
+        ]
+    }
 }

@@ -15,5 +15,28 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=595548&land_abk=he"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Obertshausen",
+                    "dob": "1963-02-06",
+                    "lastname": "Pöhler",
+                    "name": "Jürgen"
+                },
+                "text": " Pöhler, Jürgen, Obertshausen, *06.02.1963."
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Bonn",
+                    "dob": "1955-03-02",
+                    "lastname": ": Gruber",
+                    "name": "Jürgen"
+                },
+                "text": ": Gruber, Jürgen, Bonn, *02.03.1955."
+            }
+        ]
+    }
 }

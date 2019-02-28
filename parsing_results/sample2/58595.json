@@ -21,6 +21,18 @@
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
             }
+        ],
+        "officers": [
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Syke",
+                    "dob": "1972-01-06",
+                    "lastname": "Heuer",
+                    "name": "Christian"
+                },
+                "text": " Heuer, Christian, Syke, *06.01.1972."
+            }
         ]
     }
 }

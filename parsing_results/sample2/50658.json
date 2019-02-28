@@ -21,6 +21,18 @@
                 "flag": "Single procuration",
                 "text": "Einzelprokura"
             }
+        ],
+        "officers": [
+            {
+                "class": "SingleProcuration",
+                "payload": {
+                    "city": "Dresden",
+                    "dob": "1952-04-16",
+                    "lastname": "Ihlefeld",
+                    "name": "Ellen"
+                },
+                "text": " Ihlefeld, Ellen, Dresden, *16.04.1952."
+            }
         ]
     }
 }

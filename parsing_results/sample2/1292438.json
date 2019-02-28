@@ -15,5 +15,28 @@
         "sitz": null,
         "url": "https://www.handelsregisterbekanntmachungen.de/en/skripte/hrb.php?rb_id=1292438&land_abk=nw"
     },
-    "parsed": {}
+    "parsed": {
+        "officers": [
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Viersen",
+                    "dob": "1956-02-27",
+                    "lastname": "Hilbig",
+                    "name": "Martin"
+                },
+                "text": " Hilbig, Martin, Viersen, *27.02.1956"
+            },
+            {
+                "class": "Person",
+                "payload": {
+                    "city": "Friedewald",
+                    "dob": "1962-01-18",
+                    "lastname": "Schönewolf",
+                    "name": "Jörg"
+                },
+                "text": " Schönewolf, Jörg, Friedewald, *18.01.1962."
+            }
+        ]
+    }
 }
