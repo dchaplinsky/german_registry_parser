@@ -18,9 +18,10 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1964-12-13",
                     "lastname": "Strutz",
                     "name": "Eric",
@@ -29,7 +30,7 @@
                 "text": " Doctor Strutz, Eric, Frankfurt am Main, *13.12.1964."
             },
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
                     "dob": "1962-03-09",

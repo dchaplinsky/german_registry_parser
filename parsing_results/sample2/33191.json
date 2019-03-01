@@ -18,9 +18,10 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Blankensee",
+                    "dismissed": true,
                     "dob": "1954-02-23",
                     "lastname": "Beier",
                     "name": "Bernd"
@@ -28,7 +29,7 @@
                 "text": " Beier, Bernd, Blankensee, *23.02.1954."
             },
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Blankensee",
                     "dob": "1961-04-27",

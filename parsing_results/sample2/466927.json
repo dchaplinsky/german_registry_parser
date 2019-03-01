@@ -19,7 +19,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from  Einzelprokura, error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a RetiredBoard from  Einzelprokura, error text was a person without DOB, number of chunks: 1"
             }
         ],
         "flags": [
@@ -36,8 +36,9 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Burow",
                     "name": "Martin",
                     "prof_title": "doctor",
@@ -46,8 +47,9 @@
                 "text": "2) Doctor Burow, Martin"
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Neukirchner",
                     "name": "Erhard Rupert",
                     "ref": 3
@@ -55,9 +57,10 @@
                 "text": "3) Neukirchner, Erhard Rupert"
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1973-02-11",
                     "lastname": "",
                     "name": "Markku",

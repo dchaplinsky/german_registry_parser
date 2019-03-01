@@ -24,9 +24,10 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Jesteburg",
+                    "dismissed": true,
                     "dob": "1951-11-02",
                     "lastname": "Thomas",
                     "name": "Peter"

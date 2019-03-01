@@ -18,9 +18,10 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Bochum",
+                    "dismissed": true,
                     "dob": "1940-06-10",
                     "lastname": "Waterstradt",
                     "name": "Gerhardt"

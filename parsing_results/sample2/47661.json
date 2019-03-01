@@ -18,9 +18,10 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Essen",
+                    "dismissed": true,
                     "dob": "1949-11-27",
                     "lastname": "Geiger",
                     "name": "Hermann-Josef"
@@ -28,9 +29,10 @@
                 "text": " Geiger, Hermann-Josef, Essen, *27.11.1949"
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Baunatal",
+                    "dismissed": true,
                     "dob": "1947-05-06",
                     "lastname": "Schiffmann",
                     "name": "Heino"

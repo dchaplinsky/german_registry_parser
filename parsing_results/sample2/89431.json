@@ -24,9 +24,10 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Wiesbaden",
+                    "dismissed": true,
                     "dob": "1955-09-18",
                     "lastname": "Schwien",
                     "name": "Uwe",

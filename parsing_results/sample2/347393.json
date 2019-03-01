@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Chiba / Japan",
                     "dob": "1958-11-08",
@@ -29,9 +29,10 @@
                 "text": ": Murabayashi, Satoshi, Urayasu, Chiba / Japan, *08.11.1958."
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Tokyo/Japan",
+                    "dismissed": true,
                     "dob": "1956-11-04",
                     "lastname": "Mike",
                     "name": "Kanetsugu"

@@ -25,12 +25,12 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from  Rechtsform: Gesellschaft britischen Rechts mit beschränkter Haftung, Rechtsbereich England und Wales (private company limited by shares), gegründet am 04.01.2017, error text was Name is too long: Rechtsbereich England und Wales (private company limited by shares)"
+                "text": "Cannot parse a ManagingDirector from  Rechtsform: Gesellschaft britischen Rechts mit beschränkter Haftung, Rechtsbereich England und Wales (private company limited by shares), gegründet am 04.01.2017, error text was Name is too long: Rechtsbereich England und Wales (private company limited by shares)"
             }
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "ManagingDirector",
                 "payload": {
                     "city": "Pohnsdorf",
                     "dob": "1976-09-26",

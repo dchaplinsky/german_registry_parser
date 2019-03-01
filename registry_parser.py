@@ -365,6 +365,11 @@ class RetiredPersonalPartner(FullPerson):
     dismissed = True
 
 
+class RetiredBoard(FullPerson):
+    kls = "RetiredBoard"
+    dismissed = True
+
+
 class Owner(FullPerson):
     kls = "Owner"
 
@@ -745,10 +750,10 @@ sentences = [
         "Bestellt Geschäftsführer:", assign_label_to_postfix=AppointedManagingDirector
     ),
     Sentence(
-        "Ausgeschieden: Geschäftsführer:", assign_label_to_postfix=FullPerson
+        "Ausgeschieden: Geschäftsführer:", assign_label_to_postfix=RetiredManagingDirector
     ),
     Sentence(
-        "director:", assign_label_to_postfix=FullPerson
+        "director:", assign_label_to_postfix=ManagingDirector
     ),
     Sentence("Geändert, nun: Liquidator", assign_label_to_postfix=Liquidator),
     Sentence("Nicht mehr Liquidator", assign_label_to_postfix=NotALiquidator),
@@ -867,10 +872,10 @@ sentences = [
         convert_to_flag="If several liquidators are appointed, the company will be represented jointly by all liquidators.",
     ),
 
-    Sentence("Bestellt als Vorstand", assign_label_to_postfix=FullPerson),
-    Sentence("Nicht mehr Vorstand", assign_label_to_postfix=FullPerson),
-    Sentence("Nicht mehr Vorstand:", assign_label_to_postfix=FullPerson),
-    Sentence("Bestellt zum Vorstand:", assign_label_to_postfix=FullPerson),
+    Sentence("Bestellt als Vorstand", assign_label_to_postfix=AppointedManagingDirector),
+    Sentence("Nicht mehr Vorstand", assign_label_to_postfix=RetiredBoard),
+    Sentence("Nicht mehr Vorstand:", assign_label_to_postfix=RetiredBoard),
+    Sentence("Bestellt zum Vorstand:", assign_label_to_postfix=AppointedBoard),
 ]
 
 sentences = sorted(

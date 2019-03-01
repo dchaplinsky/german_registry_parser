@@ -25,7 +25,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from  Rechtsform: Gesellschaft britischen Rechts mit beschränkter Haftung, Rechtsbereich England und Wales (private company limited by shares), gegründet am 24.01.2014., error text was Name is too long: Rechtsbereich England und Wales (private company limited by shares)"
+                "text": "Cannot parse a ManagingDirector from  Rechtsform: Gesellschaft britischen Rechts mit beschränkter Haftung, Rechtsbereich England und Wales (private company limited by shares), gegründet am 24.01.2014., error text was Name is too long: Rechtsbereich England und Wales (private company limited by shares)"
             }
         ],
         "labels": [
@@ -40,7 +40,7 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "ManagingDirector",
                 "payload": {
                     "city": "Oberhausen",
                     "dob": "1980-07-22",
@@ -51,7 +51,7 @@
                 "text": "1) Becker, Maik, *22.07.1980, Oberhausen"
             },
             {
-                "class": "Person",
+                "class": "ManagingDirector",
                 "payload": {
                     "city": "Mülheim a.d. Ruhr",
                     "dob": "1977-10-09",

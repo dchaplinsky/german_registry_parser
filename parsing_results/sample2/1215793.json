@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Detmold",
                     "dob": "1966-08-12",
@@ -28,9 +28,10 @@
                 "text": ": Windhausen, Robin, Detmold, *12.08.1966."
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Detmold",
+                    "dismissed": true,
                     "dob": "1965-11-04",
                     "lastname": "Dankelmann",
                     "name": "Dirk"

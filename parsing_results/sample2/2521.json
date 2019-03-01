@@ -18,9 +18,10 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Bad Homburg",
+                    "dismissed": true,
                     "dob": "1971-04-01",
                     "lastname": "Binsner",
                     "name": "Oliver"
@@ -28,7 +29,7 @@
                 "text": " Binsner, Oliver, Bad Homburg, *01.04.1971."
             },
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bad Münder",
                     "dob": "1974-09-19",

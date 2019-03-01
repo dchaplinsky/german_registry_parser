@@ -25,7 +25,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from  mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was Name is too long: im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
+                "text": "Cannot parse a AppointedManagingDirector from  mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen., error text was Name is too long: im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen"
             }
         ],
         "notices": [
@@ -42,9 +42,10 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Jork",
+                    "dismissed": true,
                     "dob": "1947-12-07",
                     "lastname": "Regenbogen",
                     "name": "Heinrich",
@@ -53,7 +54,7 @@
                 "text": " Doktoringenieur Regenbogen, Heinrich, Jork, *07.12.1947."
             },
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Kelkheim (Taunus)",
                     "dob": "1958-11-14",

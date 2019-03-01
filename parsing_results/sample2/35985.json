@@ -19,17 +19,18 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from  Prokura gemeinsam mit einem Vorstand, error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a RetiredBoard from  Prokura gemeinsam mit einem Vorstand, error text was a person without DOB, number of chunks: 1"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from  63., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a RetiredBoard from  63., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Verhoeven",
                     "name": "Paul",
                     "prof_title": "doctor",
@@ -38,8 +39,9 @@
                 "text": "10) Doctor Verhoeven, Paul"
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Krauß",
                     "name": "Hans-Joachim",
                     "ref": 3
@@ -47,8 +49,9 @@
                 "text": "3) Krauß, Hans-Joachim"
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Schaaf",
                     "name": "Andreas",
                     "prof_title": "doctor",
@@ -57,8 +60,9 @@
                 "text": "7) Doctor Schaaf, Andreas"
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Leicht",
                     "name": "Thomas",
                     "ref": 4
@@ -66,9 +70,10 @@
                 "text": "4) Leicht, Thomas"
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1966-01-03",
                     "lastname": "Brune",
                     "name": "Rainer",

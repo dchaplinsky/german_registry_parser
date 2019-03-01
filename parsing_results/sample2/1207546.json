@@ -18,9 +18,10 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Kaarst",
+                    "dismissed": true,
                     "dob": "1946-03-17",
                     "lastname": "Wittmann",
                     "name": "Karl-Heinz"
@@ -28,7 +29,7 @@
                 "text": " Wittmann, Karl-Heinz, Kaarst, *17.03.1946."
             },
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Jüchen",
                     "dob": "1965-07-02",

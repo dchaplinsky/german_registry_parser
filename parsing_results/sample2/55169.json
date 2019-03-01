@@ -24,9 +24,10 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Rohlstorf",
+                    "dismissed": true,
                     "lastname": "Finnern",
                     "name": "Sabine"
                 },

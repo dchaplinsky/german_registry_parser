@@ -19,20 +19,20 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from  Johnson, Gregory Eugene, Hillsborough, Kalifornien, USA, *28.06.1961, error text was Cannot parse DOB  Hillsborough using regex"
+                "text": "Cannot parse a ManagingDirector from  Johnson, Gregory Eugene, Hillsborough, Kalifornien, USA, *28.06.1961, error text was Cannot parse DOB  Hillsborough using regex"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from  Lusk, John, San Mateo, Kalifornien, USA, *15.01.1958, error text was Cannot parse DOB  San Mateo using regex"
+                "text": "Cannot parse a ManagingDirector from  Lusk, John, San Mateo, Kalifornien, USA, *15.01.1958, error text was Cannot parse DOB  San Mateo using regex"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from  Plafker, Jed Andrew, Danville, Kalifornien, USA, *11.01.1971, error text was Cannot parse DOB  Danville using regex"
+                "text": "Cannot parse a ManagingDirector from  Plafker, Jed Andrew, Danville, Kalifornien, USA, *11.01.1971, error text was Cannot parse DOB  Danville using regex"
             }
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "ManagingDirector",
                 "payload": {
                     "city": "England",
                     "dob": "1965-01-12",
@@ -43,7 +43,7 @@
                 "text": " Brady, Paul, London, England, *12.01.1965"
             },
             {
-                "class": "Person",
+                "class": "ManagingDirector",
                 "payload": {
                     "city": "England",
                     "dob": "1962-11-05",
@@ -54,7 +54,7 @@
                 "text": " Hammond, Jamie, Surrey, England, *05.11.1962"
             },
             {
-                "class": "Person",
+                "class": "ManagingDirector",
                 "payload": {
                     "city": "England",
                     "dob": "1961-07-04",

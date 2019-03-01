@@ -24,7 +24,7 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Stuttgart",
                     "dob": "1957-11-07",
@@ -34,9 +34,10 @@
                 "text": ": Ziersch, Heinz-Peter, Stuttgart, *07.11.1957."
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Rottenburg/Neckar",
+                    "dismissed": true,
                     "dob": "1956-11-25",
                     "lastname": "Schorp-Walz",
                     "name": "Richard"
