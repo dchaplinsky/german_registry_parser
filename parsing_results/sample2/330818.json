@@ -18,9 +18,10 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Melsungen",
+                    "dismissed": true,
                     "dob": "1949-02-12",
                     "lastname": "Feller",
                     "name": "Wolfgang",
@@ -29,7 +30,7 @@
                 "text": " Doctor Feller, Wolfgang, Melsungen, *12.02.1949."
             },
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Melsungen",
                     "dob": "1969-12-29",

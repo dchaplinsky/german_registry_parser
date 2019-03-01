@@ -19,7 +19,7 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from  Rechtsform: Gesellschaft britischen Rechts mit beschränkter Haftung, Rechtsbereich England und Wales (private company limited by shares), gegründet am 20.05.2016, error text was Name is too long: Rechtsbereich England und Wales (private company limited by shares)"
+                "text": "Cannot parse a ManagingDirector from  Rechtsform: Gesellschaft britischen Rechts mit beschränkter Haftung, Rechtsbereich England und Wales (private company limited by shares), gegründet am 20.05.2016, error text was Name is too long: Rechtsbereich England und Wales (private company limited by shares)"
             }
         ],
         "labels": [
@@ -38,7 +38,7 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "ManagingDirector",
                 "payload": {
                     "city": "Oberkrämer",
                     "dob": "1965-06-11",

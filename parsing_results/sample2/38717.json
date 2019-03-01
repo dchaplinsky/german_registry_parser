@@ -19,15 +19,15 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from  mit der Befugnis die Gesellschaft allein zu vertreten zugleich ständiger Vertreter der Zweigniederlassung, insoweit mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was Name is too long: insoweit mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten zugleich ständiger Vertreter der Zweigniederlassung, insoweit mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was Name is too long: insoweit mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from  mit der Befugnis die Gesellschaft allein zu vertreten zugleich ständiger Vertreter der Zweigniederlassung, insoweit mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was Name is too long: insoweit mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
+                "text": "Cannot parse a ManagingDirector from  mit der Befugnis die Gesellschaft allein zu vertreten zugleich ständiger Vertreter der Zweigniederlassung, insoweit mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, error text was Name is too long: insoweit mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from  Rechtsform ausl., error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a ManagingDirector from  Rechtsform ausl., error text was a person without DOB, number of chunks: 1"
             }
         ],
         "flags": [
@@ -58,7 +58,7 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "ManagingDirector",
                 "payload": {
                     "city": "Dellstedt",
                     "dob": "1976-02-23",
@@ -69,7 +69,7 @@
                 "text": "1) Thede, Sven, *23.02.1976, Dellstedt"
             },
             {
-                "class": "Person",
+                "class": "ManagingDirector",
                 "payload": {
                     "city": "Hollingstedt",
                     "dob": "1971-07-23",

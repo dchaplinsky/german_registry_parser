@@ -18,9 +18,10 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1959-08-24",
                     "lastname": "Argomand Khageh",
                     "name": "Jamshid"
@@ -28,7 +29,7 @@
                 "text": " Argomand Khageh, Jamshid, Köln, *24.08.1959."
             },
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Frechen",
                     "dob": "1964-12-28",

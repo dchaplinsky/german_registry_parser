@@ -19,12 +19,12 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from  Evans, Darren Paul, Bristol-Avon, *25.02.1961. einzelvertretungsberechtigter Prokurist beschränkt auf den Betrieb der Zweigniederlassung: Schaefer, André, Taunusstein, *31.01.1964., error text was no valid patter found, number of chunks: 7"
+                "text": "Cannot parse a ManagingDirector from  Evans, Darren Paul, Bristol-Avon, *25.02.1961. einzelvertretungsberechtigter Prokurist beschränkt auf den Betrieb der Zweigniederlassung: Schaefer, André, Taunusstein, *31.01.1964., error text was no valid patter found, number of chunks: 7"
             }
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "ManagingDirector",
                 "payload": {
                     "city": "Burnham on Sea Somerset",
                     "dob": "1964-09-15",

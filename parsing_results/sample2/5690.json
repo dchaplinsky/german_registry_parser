@@ -24,18 +24,20 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "lastname": "Conrad",
                     "name": "Hans-Joachim"
                 },
                 "text": " Conrad, Hans-Joachim, Hamburg"
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Hamburg",
+                    "dismissed": true,
                     "lastname": "Fischer",
                     "name": "Phillip",
                     "prof_title": "doctor"

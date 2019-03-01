@@ -24,9 +24,10 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Wallhalben",
+                    "dismissed": true,
                     "lastname": "Jung",
                     "name": "Wilhelm",
                     "position": "Landwirt"
@@ -34,7 +35,7 @@
                 "text": " Jung, Wilhelm, Landwirt, Wallhalben."
             },
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Wallhalben",
                     "dob": "1973-03-29",

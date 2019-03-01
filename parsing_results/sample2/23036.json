@@ -18,9 +18,10 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1959-11-22",
                     "lastname": "Klee",
                     "name": "Stefan"
@@ -28,7 +29,7 @@
                 "text": " Klee, Stefan, Frankfurt am Main, *22.11.1959."
             },
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "dob": "1950-06-27",
                     "lastname": "Bauch",
@@ -37,7 +38,7 @@
                 "text": ": Bauch, Herbert, *27.06.1950"
             },
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Neu-Isenburg",
                     "dob": "1957-02-01",

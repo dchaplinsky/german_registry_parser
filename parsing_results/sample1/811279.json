@@ -19,11 +19,11 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from  hundt, angelika, wesseling, *02.11.1975. bestellt als vorstand: aus der wieschen, frank, mülheim an der ruhr, *03.03.1966., error text was no valid patter found, number of chunks: 7"
+                "text": "Cannot parse a RetiredBoard from  hundt, angelika, wesseling, *02.11.1975. bestellt als vorstand: aus der wieschen, frank, mülheim an der ruhr, *03.03.1966., error text was no valid patter found, number of chunks: 7"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from : hundt, angelika, wesseling, *02.11.1975. bestellt als vorstand: aus der wieschen, frank, mülheim an der ruhr, *03.03.1966., error text was no valid patter found, number of chunks: 7"
+                "text": "Cannot parse a RetiredBoard from : hundt, angelika, wesseling, *02.11.1975. bestellt als vorstand: aus der wieschen, frank, mülheim an der ruhr, *03.03.1966., error text was no valid patter found, number of chunks: 7"
             }
         ],
         "labels": [
@@ -46,7 +46,7 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "mülheim an der ruhr",
                     "dob": "1966-03-03",

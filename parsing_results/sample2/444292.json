@@ -24,9 +24,10 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Bad Soden",
+                    "dismissed": true,
                     "dob": "1970-11-24",
                     "lastname": "Kocherscheidt",
                     "name": "Thorsten"
@@ -34,9 +35,10 @@
                 "text": " Kocherscheidt, Thorsten, Bad Soden, *24.11.1970"
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Burgwedel",
+                    "dismissed": true,
                     "dob": "1952-03-02",
                     "lastname": "Marx",
                     "name": "Josef"
@@ -44,9 +46,10 @@
                 "text": " Marx, Josef, Burgwedel, *02.03.1952"
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Pullach",
+                    "dismissed": true,
                     "dob": "1953-03-01",
                     "lastname": "Schwarz",
                     "name": "Jochen",

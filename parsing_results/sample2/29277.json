@@ -24,7 +24,7 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Ostseebad Kühlungsborn",
                     "dob": "1971-09-30",
@@ -35,9 +35,10 @@
                 "text": "smitglied: Falenski, Markus, Ostseebad Kühlungsborn, *30.09.1971, einzelvertretungsberechtigt."
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Steffenshagen",
+                    "dismissed": true,
                     "dob": "1963-09-24",
                     "lastname": "Langer",
                     "name": "Ulrich"

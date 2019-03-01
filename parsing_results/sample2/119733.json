@@ -24,9 +24,10 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Wiesbaden",
+                    "dismissed": true,
                     "dob": "1951-09-22",
                     "lastname": "Gröne",
                     "name": "Klaus"
@@ -34,9 +35,10 @@
                 "text": " Gröne, Klaus, Wiesbaden, *22.09.1951"
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Oberursel (Taunus)",
+                    "dismissed": true,
                     "dob": "1960-02-11",
                     "lastname": "Rohde",
                     "name": "Michael"

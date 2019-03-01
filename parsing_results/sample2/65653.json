@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Saarbrücken",
                     "dob": "1960-11-17",
@@ -29,9 +29,10 @@
                 "text": ": Doctor Bretzger, Thomas, Saarbrücken, *17.11.1960."
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Saarbrücken",
+                    "dismissed": true,
                     "dob": "1951-02-22",
                     "lastname": "Severin",
                     "name": "Werner"

@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Freiburg im Breisgau",
                     "dob": "1961-08-07",
@@ -28,9 +28,10 @@
                 "text": ": Schüle, Rainer, Freiburg im Breisgau, *07.08.1961."
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Freiburg im Breisgau",
+                    "dismissed": true,
                     "dob": "1947-09-24",
                     "lastname": "Steyer",
                     "name": "Bernd Elmar"

@@ -18,9 +18,10 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Wiesbaden",
+                    "dismissed": true,
                     "dob": "1964-12-19",
                     "lastname": "Gutierrez-Siegel",
                     "name": "Felix"
@@ -28,7 +29,7 @@
                 "text": " Gutierrez-Siegel, Felix, Wiesbaden, *19.12.1964."
             },
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Oberursel",
                     "dob": "1970-08-01",

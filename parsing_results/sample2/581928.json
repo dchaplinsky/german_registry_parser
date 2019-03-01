@@ -36,9 +36,10 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Pulheim-Brauweiler",
+                    "dismissed": true,
                     "dob": "1963-04-24",
                     "lastname": "Keller",
                     "name": "Horst"
@@ -46,7 +47,7 @@
                 "text": " Keller, Horst, Pulheim-Brauweiler, *24.04.1963."
             },
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bochum",
                     "dob": "1946-04-07",

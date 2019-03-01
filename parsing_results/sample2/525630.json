@@ -24,9 +24,10 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Köln",
+                    "dismissed": true,
                     "dob": "1960-10-31",
                     "lastname": "Johanning-Meiners",
                     "name": "Harald"
@@ -34,9 +35,10 @@
                 "text": " Johanning-Meiners, Harald, Köln, *31.10.1960"
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Hohenahr",
+                    "dismissed": true,
                     "dob": "1965-05-04",
                     "lastname": "Keller",
                     "name": "Michael"
@@ -44,9 +46,10 @@
                 "text": " Keller, Michael, Hohenahr, *04.05.1965"
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Gelsenkirchen",
+                    "dismissed": true,
                     "dob": "1951-01-29",
                     "lastname": "Lawrence",
                     "name": "Mark"
@@ -54,9 +57,10 @@
                 "text": " Lawrence, Mark, Gelsenkirchen, *29.01.1951"
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Hannover",
+                    "dismissed": true,
                     "dob": "1953-07-29",
                     "lastname": "Struß",
                     "name": "Horst"

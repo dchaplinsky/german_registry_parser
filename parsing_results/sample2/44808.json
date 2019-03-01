@@ -19,11 +19,11 @@
         "errors": [
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from  mit der Befugnis die Gesellschaft allein zu vertreten, error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a RetiredBoard from  mit der Befugnis die Gesellschaft allein zu vertreten, error text was a person without DOB, number of chunks: 1"
             },
             {
                 "kls": "ParsingError",
-                "text": "Cannot parse a Person from  mit der Befugnis die Gesellschaft allein zu vertreten, error text was a person without DOB, number of chunks: 1"
+                "text": "Cannot parse a RetiredBoard from  mit der Befugnis die Gesellschaft allein zu vertreten, error text was a person without DOB, number of chunks: 1"
             }
         ],
         "flags": [
@@ -38,8 +38,9 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
+                    "dismissed": true,
                     "lastname": "Hundt",
                     "name": "Angelika",
                     "ref": 1
@@ -47,9 +48,10 @@
                 "text": "1) Hundt, Angelika"
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1961-04-16",
                     "lastname": "Bär",
                     "name": "Ernst",
@@ -58,9 +60,10 @@
                 "text": " Vorstand:2) Bär, Ernst, *16.04.1961, Berlin"
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Isernhagen",
+                    "dismissed": true,
                     "dob": "1957-10-09",
                     "lastname": "Tigges",
                     "name": "Joachim",
@@ -69,9 +72,10 @@
                 "text": " Vorstand:3) Tigges, Joachim, *09.10.1957, Isernhagen"
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Berlin Rechtsform: Durch Beschluss der Hauptversammlung vom 30.05.2007 ist die Satzung insgesamt neu gefasst und durch Beschluss der Gesellschafterversammlung vom 29.06.2007 geändert in § 2 (Gegenstand)",
+                    "dismissed": true,
                     "dob": "1966-08-01",
                     "lastname": "Dischreit",
                     "name": "Michael",

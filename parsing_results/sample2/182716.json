@@ -18,9 +18,10 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Mülheim an der Ruhr",
+                    "dismissed": true,
                     "dob": "1941-06-24",
                     "lastname": "Czaikowski",
                     "name": "Hans"
@@ -28,7 +29,7 @@
                 "text": " Czaikowski, Hans, Mülheim an der Ruhr, *24.06.1941."
             },
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bottrop",
                     "dob": "1953-02-13",

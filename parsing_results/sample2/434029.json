@@ -24,9 +24,10 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Telgte",
+                    "dismissed": true,
                     "dob": "1961-12-15",
                     "lastname": "Hodzic",
                     "name": "Mevluda"
@@ -34,7 +35,7 @@
                 "text": " Hodzic, Mevluda, Telgte, *15.12.1961."
             },
             {
-                "class": "Person",
+                "class": "AppointedBoard",
                 "payload": {
                     "city": "Senden",
                     "dob": "1959-10-22",

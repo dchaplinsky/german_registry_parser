@@ -18,9 +18,10 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Frankfurt am Main",
+                    "dismissed": true,
                     "dob": "1948-02-24",
                     "lastname": "Roventa",
                     "name": "Peter",

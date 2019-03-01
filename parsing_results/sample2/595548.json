@@ -18,9 +18,10 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Obertshausen",
+                    "dismissed": true,
                     "dob": "1963-02-06",
                     "lastname": "Pöhler",
                     "name": "Jürgen"
@@ -28,7 +29,7 @@
                 "text": " Pöhler, Jürgen, Obertshausen, *06.02.1963."
             },
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Bonn",
                     "dob": "1955-03-02",

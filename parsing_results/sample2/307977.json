@@ -24,9 +24,10 @@
         ],
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Karlsruhe",
+                    "dismissed": true,
                     "dob": "1958-02-18",
                     "lastname": "Haupt",
                     "name": "Thomas"

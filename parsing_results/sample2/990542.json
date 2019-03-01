@@ -18,9 +18,10 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Berlin",
+                    "dismissed": true,
                     "dob": "1966-10-21",
                     "lastname": "Hesse",
                     "name": "Thomas",

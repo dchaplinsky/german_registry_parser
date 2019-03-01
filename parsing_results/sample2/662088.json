@@ -18,7 +18,7 @@
     "parsed": {
         "officers": [
             {
-                "class": "Person",
+                "class": "AppointedManagingDirector",
                 "payload": {
                     "city": "Östringen",
                     "dob": "1980-01-19",
@@ -28,9 +28,10 @@
                 "text": ": Vajdl, Martin, Östringen, *19.01.1980."
             },
             {
-                "class": "Person",
+                "class": "RetiredBoard",
                 "payload": {
                     "city": "Everswinkel",
+                    "dismissed": true,
                     "dob": "1957-01-24",
                     "lastname": "Jüttner",
                     "name": "Franz-Otto"
