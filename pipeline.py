@@ -210,7 +210,7 @@ if __name__ == "__main__":
             fp_merged = open(os.path.join(outdir, "merged.jsonlines"), "w")
 
         if args.num_of_workers == 1:
-            itr = map(parse_json_and_document, l)
+            itr = map(parse_json_and_document, infile)
         else:
             executor = ProcessPoolExecutor(max_workers=args.num_of_workers)
             itr = executor.map(parse_json_and_document, infile, chunksize=100)
